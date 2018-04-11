@@ -92,7 +92,7 @@ One immediate takeaway from our data collection effort is that university parent
 
 # Visualization
 <a name="visualization"></a>
-Explore the data. The university ranking option sorts by the inferred prestige of a university according to its Computer Science department (details [here](http://advances.sciencemag.org/content/1/1/e1400005)). Regions are U.S. Census regions plus Canada. All data points represent university-provided paid parental leaves only.
+Explore the data. The university ranking option sorts by the inferred prestige of a university according to its Computer Science department (details [here](http://advances.sciencemag.org/content/1/1/e1400005)). Regions are U.S. Census regions plus Canada. All data points represent university-provided paid parental leaves only. Hover over a data point to see more details on the policy, including its primary source.
 
 <div class="controls">
 	<h4 class="title">Sort by: </h4>

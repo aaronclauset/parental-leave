@@ -71,7 +71,7 @@ For each university, we Googled "[university name] faculty parental leave policy
 
 # Parental leave data
 
-We've compiled the resulting dataset into a [spreadsheet](https://github.com/samfway/parental-leave/blob/master/parental_leave_policies.tsv), included in this GitHub project. 
+We've compiled the resulting dataset into a [spreadsheet](https://github.com/aaronclauset/parental-leave/blob/master/parental_leave_policies.tsv), included in this GitHub project. 
 
 * If you spot an error or know the policy at an institution that isn't listed, please let us know using this [feedback form](https://goo.gl/forms/uZAVXaqRGpF3AjNS2). 
 * If you can instead confirm that we correctly recorded the policy at your institution, please let us know [here](https://goo.gl/forms/O6gHXZVho2QZmnL13). 

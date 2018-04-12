@@ -563,6 +563,6 @@ Our research group studies the structure and dynamics of the academic workforce.
 
 # Footnotes
 
-1. Unpaid parental leave is federally mandated of all US ([FMLA](https://en.wikipedia.org/wiki/Family_and_Medical_Leave_Act_of_1993)) institutions. The Canadian government mandates unpaid leave of employers and offers partial financial support during leave, even if employer doesn’t ([EI](https://www.canada.ca/en/services/benefits/ei/ei-maternity-parental.html)).
+1. Unpaid parental leave is federally mandated of all US (read more about FMLA benefits [here](https://www.dol.gov/whd/fmla/)) institutions. The Canadian government mandates unpaid leave of employers and offers partial financial support during leave, even if employer doesn’t (read more about EI benefits [here](https://www.canada.ca/en/services/benefits/ei/ei-maternity-parental.html)).
 2. By this we mean, assistant, associate, or full professors. See [“Academic tenure in North America”](https://en.wikipedia.org/wiki/Academic_tenure_in_North_America).
 3. A few institutions lack policies for parental leave and instead refer faculty to apply for medical or disability leave. We coded these institutions as not guaranteeing paid parental leave to faculty, given the absence of a specific policy. Maternity leave, on the other hand, was coded as parental leave.

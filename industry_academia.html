@@ -1,0 +1,510 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
+
+<head>
+    <script src='//d3js.org/d3.v4.js'></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Paid Parental Leave Policies at North American Universities</title>
+</head>
+
+<style type="text/css">
+
+div.tooltip {	
+    	position: absolute;			
+    	text-align: left;			
+    	padding: 4px;				
+    	font: 12px sans-serif;		
+    	background: #eee;				
+	}
+
+	body {
+		font-family: "Helvetica";
+		font-size: 12px;
+		width: 590px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	h2 {
+		font-weight: 100;
+		font-size: 2em; 
+	}
+
+	h3 {
+		margin-top: 0px;
+	}
+
+	h4 {
+		font-size: 1.25em;
+		display: inline;
+		clear: none;
+		padding-right: 0.5em;
+	}
+
+    #controls {
+    	padding-top: 10px;
+    }
+
+    form {
+    	display: inline-block;
+    }
+
+    .legend_item {
+    	font-size: 1.3em;
+    }
+
+</style>
+
+<body>
+	<h2>Paid Parental Leave at North American Universities</h2>
+
+Here is some text about what this does. There are some errors in the data, but this is mostly complete. Yay.
+
+<div id="controls">
+	<p>
+		<h4 class="title">Sort by: </h4>
+		<button type="button" onclick="rearrange('sorted_by_name')">Name</button>
+		<button type="button" onclick="rearrange('sorted_by_women')">Women's Leave</button>
+		<button type="button" onclick="rearrange('sorted_by_men')">Men's Leave</button>
+	</p>
+	<p id="color_legend">
+		<h4 class="title">Colors:</h4>
+			<span class="legend_item" style="color: #3983D6;">Industry</span>, 
+			<span class="legend_item" style="color: #202020;">Academia</span>
+	</p>
+
+</div>
+
+    <h3></h3>
+
+    <!-- Begin D3 Javascript -->
+    <script type="text/javascript">
+        // Globals 
+        var TEXT_POS = 175;
+        var TEXT_PAD = 10;
+        var DEFAULT_F_COLOR = "#67C080";
+        var DEFAULT_M_COLOR = "#202020";
+        var PRIVATE_COLOR = "#B074E8"
+        var PUBLIC_COLOR = "#202020";
+        var REGION_COLORS = { "Midwest": "#AB4ADB", 
+        					  "Northeast": "#077187",
+        					  "South": "#CCA43B",
+        					  "West": "#5BBA6F",
+        					  "Canada": "#DB3A34"};
+        var DEFAULT_MARKER_COLOR = "#999999";
+        var INDUSTRY_COLOR = "#3983D6";
+        var TRANSITION_DURATION = 1000;
+
+        // Setup data
+        var tsvdata = [];
+        var loaded = 0;
+        var sortby = "sorted_by_name"; 
+
+        // Setup settings for graphic
+        var canvas_width = 550;
+        var canvas_height = 3000;
+        var yPadding = 60;
+        var xPadding = 200;
+        var xScale;
+        var yScale;
+        var shapes; 
+        var texts;
+        var xticks = [0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50];
+
+        // Presorting function
+        function presort_by(data, by, name, isNumeric)
+        {
+        	// Default to alphabetical if values are the same.
+        	var to_sort = []
+        	if (isNumeric) {
+				for (var i = 0; i < data.length; i++) 
+				{ to_sort.push([parseFloat(data[i][by]), i, data[i]["short_name"]]);}
+				to_sort.sort(function(left, right) {
+					if (left[0] != right[0])
+  						return left[0] > right[0] ? -1 : 1; 
+					else
+						return left[2] < right[2] ? -1 : 1; });
+        	}
+			else {
+				for (var i = 0; i < data.length; i++) 
+				{ to_sort.push([data[i][by], i, data[i]["short_name"]]); }
+				to_sort.sort(function(left, right) {
+  				
+  				if (left[0] != right[0])
+  						return left[0] < right[0] ? -1 : 1;
+					else
+						return left[2] < right[2] ? -1 : 1; });
+			}
+
+			// Fill in sorted and SCALED values
+			for (i=0; i<data.length; i++) { 
+				data[to_sort[i][1]][name] = yScale(i); 
+			}
+			return;
+        }
+
+        // Tooltip functions
+        function make_tooltip(d) {	
+
+        	var source_link; 
+        	if ("link" in d && d.link.includes("http"))
+        		source_link = "<br />[<a target='_blank' href='" + d.link + "'>source</a>]";
+        	else
+        		source_link = "";
+
+            div.transition()		
+                .duration(200)		
+                .style("opacity", .9);		
+            div	.html("<span class='title'>" + d.short_name + "</span>"
+            	+ "<br />Women: " + d.paid_leave_weeks_woman + " weeks"
+            	+ "<br />Men: " + d.paid_leave_weeks_man + " weeks"
+            	+ source_link)	
+                .style("left", (d3.event.pageX + 10) + "px")		
+                .style("top", (d3.event.pageY - 28) + "px");	
+         }
+
+         function hide_tooltip(d) {		
+         	div.transition()		
+                .duration(500)	
+                .delay(1000)	
+                .style("opacity", 0);	
+        }
+        
+        // Create SVG element
+        var svg = d3.select("h3")
+            .append("svg")
+            .attr("width", canvas_width)
+            .attr("height", canvas_height)
+
+        // Tooltip 
+        var div = d3.select("body").append("div")	
+    		.attr("class", "tooltip")				
+    		.style("opacity", 0);
+
+
+
+ 		// Load data and build the figure
+		d3.tsv("parental_leave_policies.tsv", function(data) {
+
+			// Only show universities where we found a policy
+			data = data.filter(function(entry) { return entry.missing == 0; });
+
+			for (var i = 0; i < data.length; i++) {
+    			data[i].f_color = DEFAULT_M_COLOR;
+    			data[i].m_color = DEFAULT_M_COLOR;
+    		}
+
+			loaded += 1;
+			tsvdata = tsvdata.concat(data);
+			build_vis();
+		});
+
+		// Load data and build the figure
+		d3.tsv("tech.tsv", function(data) {
+
+			for (var i=0; i<data.length; i++)
+			{
+				data[i].f_color = INDUSTRY_COLOR;
+    			data[i].m_color = INDUSTRY_COLOR;
+				data[i].short_name = data[i]["Company  (Don’t see yours? Add it!)"];
+				data[i].paid_leave_weeks_woman = data[i]["# weeks fully paid  Maternity/primary"];
+				data[i].paid_leave_weeks_man = data[i]["# weeks fully paid  Paternity/nonprimary"];
+			}
+
+			loaded += 1;
+			tsvdata = tsvdata.concat(data);
+			build_vis();
+		});
+
+		function build_vis() {
+
+			if (loaded < 2) return;
+
+			// Create scale functions
+	        xScale = d3.scaleLinear()
+	            .domain([0, 55])
+	            .range([TEXT_POS+TEXT_PAD, canvas_width]); 
+
+	        yScale = d3.scaleLinear() 
+	            .domain([0, tsvdata.length])
+	            .range([yPadding, canvas_height - yPadding/2]);
+
+    		// Pre-calculate sorted indicies
+    		presort_by(tsvdata, "paid_leave_weeks_woman", "sorted_by_women", true)
+    		presort_by(tsvdata, "paid_leave_weeks_man", "sorted_by_men", true)
+    		presort_by(tsvdata, "short_name", "sorted_by_name", false)
+
+	        // Custom grid
+	        for (i=0; i<xticks.length; i++)
+	        {
+	        	svg.append("line")
+	        		.style("stroke", "gray")	
+	        		.style("stroke-dasharray", ("1, 3"))
+	        		.attr("stroke-width", ".5")
+	        		.attr("x1", xScale(xticks[i]))
+	        		.attr("x2", xScale(xticks[i]))
+	        		.attr("y1", yScale(0) - 15)
+	        		.attr("y2", yScale(tsvdata.length));
+
+	        	svg.append("text")
+	        		.attr("color", DEFAULT_M_COLOR)
+	        		.attr("x", xScale(xticks[i]))
+	            	.attr("y", yScale(0) - 20)
+	            	.attr("font-weight", 100)
+	            	.attr("text-anchor", "middle")
+	            	.attr("font-size", "14px")
+	            	.text(xticks[i]);
+
+	            svg.append("text")
+	        		.attr("color", DEFAULT_M_COLOR)
+	        		.attr("x", xScale(xticks[i]))
+	            	.attr("y", yScale(tsvdata.length + 2))
+	            	.attr("font-weight", 100)
+	            	.attr("text-anchor", "middle")
+	            	.attr("font-size", "14px")
+	            	.text(xticks[i]);
+	        }
+
+	        // Title and legend
+			svg.append("text")
+	    		.attr("x", xScale(0))
+	        	.attr("y", yScale(0) - 45)
+	        	.attr("color", DEFAULT_M_COLOR)
+	        	.attr("font-weight", 100)
+	        	.attr("text-anchor", "start")
+	        	.attr("font-size", "16px")
+	        	.text("Paid Leave Duration (weeks)");	
+
+        	svg.append("circle")
+        		.attr("class", "f_marker")
+	    		.attr("cx", xScale(35))
+	    		.attr("cy", yScale(0) - 50)
+	    		.attr("fill", "#fff")
+	            .attr("stroke", DEFAULT_MARKER_COLOR)
+	            .attr("stroke-width", "2")
+	            .attr("r", 3.5);
+	        svg.append("text")
+	    		.attr("x", xScale(36))
+	        	.attr("y", yScale(0) - 45)
+	        	.attr("font-weight", 100)
+	        	.attr("text-anchor", "start")
+	        	.attr("font-size", "14px")
+	        	.attr("color", DEFAULT_M_COLOR)
+	        	.text("Women");
+
+	        svg.append("line")
+	        	.attr("class", "m_marker")
+	        	.attr("stroke", DEFAULT_MARKER_COLOR)
+	        	.attr("stroke-width", "1.25")
+	        	.attr("x1", xScale(45)-3)
+	        	.attr("x2", xScale(45)+3)
+	        	.attr("y1", yScale(0)-50-3)
+	        	.attr("y2", yScale(0)-50+3);
+	        svg.append("line")
+	        	.attr("class", "m_marker")
+	        	.attr("stroke", DEFAULT_MARKER_COLOR)
+	        	.attr("stroke-width", "1.25")
+	        	.attr("x1", xScale(45)-3)
+	        	.attr("x2", xScale(45)+3)
+	        	.attr("y1", yScale(0)-50+3)
+	        	.attr("y2", yScale(0)-50-3);
+	       	svg.append("text")
+	    		.attr("x", xScale(46))
+	        	.attr("y", yScale(0) - 45)
+	        	.attr("font-weight", 100)
+	        	.attr("text-anchor", "start")
+	        	.attr("font-size", "14px")
+	        	.attr("color", DEFAULT_M_COLOR)
+	        	.text("Men");
+
+	        // Create all of our markers
+	        shapes = svg.selectAll(".shapes").data(tsvdata).enter();
+
+	        // Line connecting the two markers
+	        shapes.append("line")
+	        	.style("stroke", "gray")
+	        	.attr("stroke-width", ".5")
+	        	.attr("class", "linesc movey")
+	        	.attr("x1", function(d, i) { return xScale(d.paid_leave_weeks_man); })
+	        	.attr("x2", function(d, i) { return xScale(d.paid_leave_weeks_woman); })
+	        	.attr("y1", function(d, i) { return d[sortby]; })
+	        	.attr("y2", function(d, i) { return d[sortby]; });
+
+	        // Women (circles)
+	        shapes.append("circle")
+	    		.attr("cx", function(d, i) { return xScale(d.paid_leave_weeks_woman); })
+	    		.attr("cy", function(d, i) { return d[sortby]; })
+	    		.attr("fill", "#fff")
+	            .attr("stroke", function(d, i) { return d.f_color; })
+	            .attr("stroke-width", "2")
+	            .attr("r", 3.5)
+	            .attr("class", "dots movey")
+	            .on("mouseover", function(d) { make_tooltip(d); })					
+        		.on("mouseout", function(d) { hide_tooltip(d); });
+
+	        // Men (draw X as two lines)
+	        shapes.append("line")
+	        	.attr("stroke", function(d, i) { return d.m_color; })
+	        	.attr("stroke-width", "1.25")
+	        	.attr("class", "x1")
+	        	.on("mouseover", function(d) { make_tooltip(d); })					
+        		.on("mouseout", function(d) { hide_tooltip(d); })
+	        	.attr("x1", function(d, i) { return xScale(d.paid_leave_weeks_man)-3; })
+	        	.attr("x2", function(d, i) { return xScale(d.paid_leave_weeks_man)+3; })
+	        	.attr("y1", function(d, i) { return d[sortby]-3; })
+	        	.attr("y2", function(d, i) { return d[sortby]+3; });
+	        shapes.append("line")
+	        	.attr("stroke", function(d, i) { return d.m_color; })
+	        	.attr("stroke-width", "1.25")
+	        	.attr("class", "x2")
+	        	.on("mouseover", function(d) { make_tooltip(d); })					
+        		.on("mouseout", function(d) { hide_tooltip(d); })
+	        	.attr("x1", function(d, i) { return xScale(d.paid_leave_weeks_man)-3; })
+	        	.attr("x2", function(d, i) { return xScale(d.paid_leave_weeks_man)+3; })
+	        	.attr("y1", function(d, i) { return d[sortby]+3; })
+	        	.attr("y2", function(d, i) { return d[sortby]-3; });
+
+	        // University labels
+	        texts = shapes.append("text")
+	            .attr("class", "names movey")
+	            .attr("color", function(d) { return d.m_color; })
+	            .attr("x", function(d, i) { return TEXT_POS; })
+	            .attr("y", function(d, i) { return d[sortby]; })
+	            .text(function(d) { return d.short_name; })
+	            .attr("font-weight", "100")
+	            .attr("alignment-baseline", "central")
+	            .attr("text-anchor", "end")
+	            .attr("font-size", "11px");
+		}
+
+        function rearrange(by, force_update = false) {
+    		
+    		// Bail if no changes needed
+    		if (sortby == by && !force_update) { return; }
+
+    		// Update sorting variable
+    		sortby = by; 
+
+            // Update female markers...
+            svg.selectAll(".dots")
+            .transition()
+            .duration(TRANSITION_DURATION)
+            .delay(function(d, i) { return i / tsvdata.length * 500; })
+            .attr("stroke", function(d, i) { return d.f_color; })
+            .attr("cy", function(d, i) { return d[sortby]; })
+
+            // ...connecting lines...
+			svg.selectAll(".linesc")
+			.transition()
+			.duration(TRANSITION_DURATION)
+			.delay(function(d, i) { return i / tsvdata.length * 500; })
+			.attr("y1", function(d, i) { return d[sortby]; })
+			.attr("y2", function(d, i) { return d[sortby]; });
+
+            // ...male markers...
+        	svg.selectAll(".x1")
+            .transition()
+            .duration(TRANSITION_DURATION)
+            .delay(function(d, i) { return i / tsvdata.length * 500; })
+            .attr("stroke", function(d, i) { return d.m_color; })
+        	.attr("y1", function(d, i) { return d[sortby]-3; })
+        	.attr("y2", function(d, i) { return d[sortby]+3; });
+        	svg.selectAll(".x2")
+            .transition()
+            .duration(TRANSITION_DURATION)
+            .delay(function(d, i) { return i / tsvdata.length * 500; })
+            .attr("stroke", function(d, i) { return d.m_color; })
+        	.attr("y1", function(d, i) { return d[sortby]+3; })
+        	.attr("y2", function(d, i) { return d[sortby]-3; });
+
+            // ...and names of the universities.
+			svg.selectAll(".names")
+            .transition()
+            .duration(TRANSITION_DURATION)
+            .delay(function(d, i) { return i / tsvdata.length * 500; })
+            .style('fill',  function(d, i) { return d.m_color; } )
+            .attr("y", function(d, i) { return d[sortby]; });
+        }
+
+        // Radio button controls (for selecting coloring options)
+        d3.selectAll("input[name='highlight']").on("change", 
+        	function() {
+
+    		// For updating the legend
+    		var f_marker_color = DEFAULT_MARKER_COLOR;
+    		var m_marker_color = DEFAULT_MARKER_COLOR; 
+
+    		// If coloring by public/private status
+	    	if (this.value == "pubpriv")
+	    	{
+	        	for (var i=0; i<tsvdata.length; i++){
+	    			if (tsvdata[i].is_private == 1)
+	    			{
+	        			tsvdata[i].f_color = PRIVATE_COLOR;
+	        			tsvdata[i].m_color = PRIVATE_COLOR;
+	    			}
+	    			else 
+	    			{
+	        			tsvdata[i].f_color = PUBLIC_COLOR;
+	        			tsvdata[i].m_color = PUBLIC_COLOR;
+	    			}
+	            }
+
+	            svg.selectAll(".pubpriv_legend").attr("opacity", "100%");
+	            svg.selectAll(".loc_legend").attr("opacity", "0");
+	            document.getElementById('color_legend').innerHTML = `
+						<h4 class="title">Colors:</h4>
+						<span class="legend_item" style="color: #202020;">Public</span>, 
+						<span class="legend_item" style="color: #B074E8;"> Private</span>
+	            `;
+	    	}
+
+	    	// If coloring by region
+	    	else if (this.value == "loc")
+	    	{
+	    		for (var i=0; i<tsvdata.length; i++){
+	    			color = REGION_COLORS[tsvdata[i].census_region];
+	    			tsvdata[i].f_color = color;
+	            	tsvdata[i].m_color = color;
+	            }
+
+	            svg.selectAll(".pubpriv_legend").attr("opacity", "0");
+	            svg.selectAll(".loc_legend").attr("opacity", "100%");
+	            document.getElementById('color_legend').innerHTML = `
+						<h4 class="title">Colors:</h4>
+						<span class="legend_item" style="color: #077187;">Northeast</span>, 
+						<span class="legend_item" style="color: #CCA43B;"> South</span>,
+						<span class="legend_item" style="color: #AB4ADB;"> Midwest</span>,
+						<span class="legend_item" style="color: #5BBA6F;"> West</span>,
+						<span class="legend_item" style="color: #DB3A34;"> Canada</span>
+	            `;
+	    	}
+
+	    	// If using default colors 
+	    	else
+	    	{
+	    		for (var i=0; i<tsvdata.length; i++){
+	    			tsvdata[i].f_color = DEFAULT_F_COLOR;
+	            	tsvdata[i].m_color = DEFAULT_M_COLOR;
+	            }	
+
+	            f_marker_color = DEFAULT_F_COLOR;
+	            m_marker_color = DEFAULT_M_COLOR;
+	            svg.selectAll(".pubpriv_legend").attr("opacity", "0");
+	            svg.selectAll(".loc_legend").attr("opacity", "0");
+	            document.getElementById('color_legend').innerHTML = ``;
+	    	}
+
+	    	// Update the legend colors
+	    	svg.selectAll(".f_marker").attr("stroke", f_marker_color);
+	        svg.selectAll(".m_marker").attr("stroke", m_marker_color);;
+
+	    	// Force redraw.
+	        rearrange(sortby, true);
+		});
+
+    </script>
+</body>
+</html>

@@ -556,6 +556,7 @@ Our analysis above suggests a complicated relationship between the prestige of a
 We hope that this blog post is thought provoking for faculty across institutions, and in particular, useful to new faculty navigating their institution’s parental leave policies. Feel free to explore this data set further and contact us with any questions or concerns (facultystudy@colorado.edu). 
 
 # About us
+<a name="about"></a>
 
 Our research group studies the structure and dynamics of the academic workforce. In the past, we’ve investigated patterns in [faculty hiring outcomes](http://advances.sciencemag.org/content/1/1/e1400005), [researcher productivity](http://www.pnas.org/content/114/44/E9216), [gender's effects on scientific careers](https://arxiv.org/abs/1602.00795), and [faculty retention and promotion](https://arxiv.org/abs/1804.02760). We're located at the University of Colorado at Boulder and the Santa Fe Institute.
 

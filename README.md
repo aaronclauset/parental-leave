@@ -92,7 +92,7 @@ One immediate takeaway from our data collection effort is that university parent
 
 # Visualization
 <a name="visualization"></a>
-Explore the data. The university ranking option sorts by the inferred prestige of a university according to its Computer Science department (details [here](http://advances.sciencemag.org/content/1/1/e1400005)). Regions are U.S. Census regions plus Canada. All data points represent university-provided paid parental leaves only. Hover over a data point to see more details on the policy, including its primary source. Using this [crowdsourced dataset](https://docs.google.com/spreadsheets/d/1GKWqhc3FVtSVKRZNBxyfwZ_QrB1f-i1T0-yBJ6X_YHM/edit), compare these university policies to the paid parental leave policies of roughly a hundred tech companies [here](https://aaronclauset.github.io/parental-leave/industry_academia.html).
+Explore the data. The university ranking option sorts by the inferred prestige of a university according to its Computer Science department (details [here](http://advances.sciencemag.org/content/1/1/e1400005)). Regions are U.S. Census regions plus Canada. All data points represent university-provided paid parental leaves only. Hover over a data point to see more details on the policy, including its primary source. Curious how tech-sector employers compare to universities? Explore paid parental leave in academic CS and Tech [here](https://aaronclauset.github.io/parental-leave/industry_academia.html).
 
 <div class="controls">
 	<h4 class="title">Sort by: </h4>

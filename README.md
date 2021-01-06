@@ -75,7 +75,7 @@ We've compiled the resulting dataset into a [spreadsheet](https://github.com/aar
 
 * If you spot an error or know the policy at an institution that isn't listed, please let us know using this [feedback form](https://goo.gl/forms/uZAVXaqRGpF3AjNS2). 
 * If you can instead confirm that we correctly recorded the policy at your institution, please let us know [here](https://goo.gl/forms/O6gHXZVho2QZmnL13). 
-* If you use this data set, please cite it as A.C. Morgan, S.F. Way, M. Galesic, D.B. Larremore, A. Clauset, "Paid parental leave at US and Canadian universities." Retreived from [https://aaronclauset.github.io/parentalleave](https://aaronclauset.github.io/parentalleave) (2018)
+* If you use this data set, please cite it as A.C. Morgan, S.F. Way, M. Galesic, D.B. Larremore, A. Clauset, "Paid parental leave at US and Canadian universities." Retreived from [https://aaronclauset.github.io/parental-leave/](https://aaronclauset.github.io/parental-leave/) (2018)
 
 Your feedback will help ensure that this dataset is as accurate as possible.
 

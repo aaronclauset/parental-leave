@@ -61,7 +61,7 @@ a {
 
 # Motivation
 
-Inspired in part by a study of university parental leave policies by [Antecol et al.](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnxzdGVhcm5zamV8Z3g6NDE0NTM4MTBhYjBmYjhmYw) ([New York Times](https://www.nytimes.com/2016/06/26/business/tenure-extension-policies-that-put-women-at-a-disadvantage.html), [Inside HigherEd](https://www.insidehighered.com/news/2016/06/27/stopping-tenure-clock-may-help-male-professors-more-female-study-finds)), we recently collected the paid<sup>1</sup> parental leave policies for tenure-track faculty<sup>2</sup> at 205 research universities in the US and Canada. The purpose of this post is to share the data we collected, highlight the complexity of many such policies, and share some preliminary analyses.
+Inspired in part by a 2016 study of university parental leave policies by [Antecol et al.](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnxzdGVhcm5zamV8Z3g6NDE0NTM4MTBhYjBmYjhmYw) ([New York Times](https://www.nytimes.com/2016/06/26/business/tenure-extension-policies-that-put-women-at-a-disadvantage.html), [Inside HigherEd](https://www.insidehighered.com/news/2016/06/27/stopping-tenure-clock-may-help-male-professors-more-female-study-finds)), in 2017-2018, we collected the paid<sup>1</sup> parental leave policies for tenure-track faculty<sup>2</sup> at 205 research universities in the US and Canada. The purpose of this post is to share the data we collected, highlight the complexity of many such policies, and share some preliminary analyses.
 
 # Methods
 
@@ -71,13 +71,13 @@ For each university, we Googled "[university name] faculty parental leave policy
 
 # Parental leave data
 
-We've compiled the resulting dataset into a [spreadsheet](https://github.com/aaronclauset/parental-leave/blob/master/parental_leave_policies.tsv), included in this GitHub project. 
+We've compiled the resulting 2018 dataset into a [spreadsheet](https://github.com/aaronclauset/parental-leave/blob/master/parental_leave_policies.tsv), included in this GitHub project. 
 
-* If you spot an error or know the policy at an institution that isn't listed, please let us know using this [feedback form](https://goo.gl/forms/uZAVXaqRGpF3AjNS2). 
-* If you can instead confirm that we correctly recorded the policy at your institution, please let us know [here](https://goo.gl/forms/O6gHXZVho2QZmnL13). 
+[comment]: <> (* If you spot an error or know the policy at an institution that isn't listed, please let us know using this [feedback form](https://goo.gl/forms/uZAVXaqRGpF3AjNS2). )
+[comment]: <> (* If you can instead confirm that we correctly recorded the policy at your institution, please let us know [here](https://goo.gl/forms/O6gHXZVho2QZmnL13). )
 * If you use this data set, please cite it as A.C. Morgan, S.F. Way, M. Galesic, D.B. Larremore, A. Clauset, "Paid parental leave at US and Canadian universities." Retreived from [https://aaronclauset.github.io/parental-leave/](https://aaronclauset.github.io/parental-leave/) (2018)
 
-Your feedback will help ensure that this dataset is as accurate as possible.
+[comment]: <> (Your feedback will help ensure that this dataset is as accurate as possible.)
 
 One immediate takeaway from our data collection effort is that university parental leave policies, as written, can be difficult to understand. For example, several policies we found state that if both parents are tenure-track faculty, they must share the parental leave benefit (e.g. [Toyota Technical Institute](http://www.ttic.edu/dl/faculty_handbook.pdf)). Other policies describe a short amount of time off at full-pay with relief from all duties, followed by a longer time off with relief only from some duties (e.g. Princeton's [leave](https://dof.princeton.edu/working-princeton/benefits/paid-leave-childbearing-for-faculty) and [workload relief](https://dof.princeton.edu/working-princeton/benefits/workload-relief-new-parents-for-faculty) policies). For consistency across universities, we recorded both types of policies as the longer amount of relief only. Confusingly, many parental leave policies are written in terms of “primary caregiver” benefits (e.g. [Michigan Technological University](https://www.mtu.edu/hr/current/benefits/docs/parental-leave.pdf)) without defining whether both parents can have that role or only one, as well as fractional amounts of salaries to be received (e.g. [University of Utah](https://regulations.utah.edu/academics/6-315.php)). Other policies are simple in structure and simple to understand, e.g., both parents can take 1 semester of paid leave with full relief of duties (e.g., [University of Colorado Boulder](https://www.cu.edu/ope/aps/5019)).
 

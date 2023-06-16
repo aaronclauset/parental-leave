@@ -67,7 +67,9 @@ Inspired in part by a 2016 study of university parental leave policies by [Antec
 
 We collected parental leave policies of the 205 universities on the [Computing Research Association's](https://cra.org/about/) [Forsythe list](http://archive.cra.org/reports/forsythe.html) of PhD-granting institutions in the US and Canada, which reflects our specific interest in computing departments.
 
-For each university, we Googled "[university name] faculty parental leave policy" or "[university name] faculty handbook" and recorded the institution's policy for female and male faculty separately, noting the duration of paid leave and form of relief granted, if stated (e.g. relief from just teaching, all duties, etc.). Several universities offer disability leave that may apply to some new parents.<sup>3</sup> Here, we focused our efforts on recording policies specifically for parental leave. This process took about 5 minutes per university and recovered policies for 197 of the 205 target institutions (96%). The eight missing policies correspond to institutions whose faculty handbooks are either not available online or require an employee login. 
+For each university, we Googled "[university name] faculty parental leave policy" or "[university name] faculty handbook" and recorded the institution's policy for female and male faculty separately, noting the duration of paid leave and form of relief granted, if stated (e.g. relief from just teaching, all duties, etc.). Several universities offer disability leave that may apply to some new parents.<sup>3</sup> Here, we focused our efforts on recording policies specifically for parental leave. This process took about 5 minutes per university and recovered policies for 197 of the 205 target institutions (96%). The eight missing policies correspond to institutions whose faculty handbooks are either not available online or require an employee login.
+
+In the intervening years since this data was collected, we note that several universities have since updated (most commonly: expanded) their paid parentel leave benefits. These updates are not reflected in these data, and at this time, we are not making further updates to this (now historical) data set.
 
 # Parental leave data
 
@@ -83,11 +85,12 @@ One immediate takeaway from our data collection effort is that university parent
 
 # Data summary
 
-* About 60% of institutions have some form of paid parental leave for new mothers or fathers.
-* For universities with paid leave policies, the average duration is 14.2 weeks for women and 11.6 weeks for men.
-* Among universities that offer paid leave, 68.3% have gender-neutral policies (same leave for men and women).
-* Private institutions have slightly longer leaves (by about 2 weeks).
-* The relationship between an institution's prestige and its leave policies is complex and will require careful analysis.
+In 2018:
+* About 60% of institutions had some form of paid parental leave for new mothers or fathers.
+* For universities with paid leave policies, the average duration was 14.2 weeks for women and 11.6 weeks for men.
+* Among universities that offered paid leave, 68.3% had gender-neutral policies (same leave for men and women).
+* Private institutions had slightly longer leaves (by about 2 weeks).
+* The relationship between an institution's prestige and its leave policies is complex and requires careful analysis.
 
 <p align="center" style="font-weight: 400;"><a href="#analysis">Read on below the visualization for more details.</a></p>
 

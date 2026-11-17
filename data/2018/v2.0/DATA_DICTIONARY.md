@@ -64,7 +64,7 @@ For each parent, the longer of (a) weeks of paid leave funded by the employer an
 | `n_pay_inferred` | Relief components with no stated pay level, read as full pay |
 | `conditional_refusal` | Benefits granted unless the institution makes a stated finding (for example "undue burden"), listed by component; counted as guaranteed |
 | `scope_limits` | Leave or relief provisions limited to one college or unit, which are not counted for the main campus |
-| `use_limits` | Stated limits on how often a benefit can be used (for example "1 per career"), listed by component |
+| `use_limits` | Stated limits on how often a benefit can be used (for example "1 per career"), listed by component. The list includes components not in force on the reference date; the record flags these `not_yet_effective` |
 
 ## Related files
 - **`records/`:** the structured encoding of each institution's policy, with the verbatim quotes behind every coded field.

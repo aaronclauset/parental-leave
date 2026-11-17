@@ -1,0 +1,3832 @@
+{
+ "institution": "Columbia University",
+ "slug": "columbia_university",
+ "country": "US",
+ "model": "claude-opus-5-5",
+ "codebook_version": "1.25",
+ "schema_version": "1.25",
+ "reference_date": "2018-02-22",
+ "calendar": {
+  "term_weeks": null,
+  "note": "R8: the handbook states the kind of term ('Semesters of partial leave ...'; 'Full-time faculty outside the Medical Center render service over a nine-month period') but not its length; semester default 16",
+  "kind": "semester"
+ },
+ "documents": [
+  {
+   "doc_id": "2018_01_faculty_handbook_officers_of_instruction",
+   "url": "http://www.columbia.edu/cu/vpaa/handbook/instruction.html",
+   "title": "Faculty Handbook, ch. III: Officers of Instruction",
+   "version_or_effective_date": "Leaves of Absence 'Last Revised November 2008'; Wayback capture 2018-02-26",
+   "retrieved": "2026-10-31"
+  },
+  {
+   "doc_id": "2018_02_faculty_handbook_benefits",
+   "url": "http://www.columbia.edu/cu/vpaa/handbook/benefits.html",
+   "title": "Faculty Handbook: Benefits and Family Services",
+   "version_or_effective_date": "Benefits Programs and Family Services 'Last Revised November 2008'; Wayback capture 2018-02-27",
+   "retrieved": "2026-10-31"
+  },
+  {
+   "doc_id": "2018_03_new_parent_guide_spring2018",
+   "url": "https://worklife.columbia.edu/sites/default/files/content/New%20parent%20guides/New%20Parent%20Guide%20for%20Faculty%20and%20Staff%20Spring%202018.pdf",
+   "title": "New Parents' Guide for Benefits Eligible Officers and Non-Union Support Staff (Spring 2018)",
+   "version_or_effective_date": "footer 4/25/2018 (after the reference date, same academic year); summary only",
+   "retrieved": "2026-10-31"
+  },
+  {
+   "doc_id": "2018_04_ny_paid_family_leave_policy_nov2017",
+   "url": "http://policylibrary.columbia.edu/files/policylib/imce_shared/NY_State_Paid_Family_Leave_Policy_11-17.pdf",
+   "title": "New York State Paid Family Leave (Columbia policy)",
+   "version_or_effective_date": "Latest Revision November 15, 2017; Effective Date January 1, 2018",
+   "retrieved": "2026-10-31"
+  },
+  {
+   "doc_id": "2026_00_us_fmla_29usc2612",
+   "title": "29 U.S.C. 2612 (FMLA leave requirement)",
+   "version_or_effective_date": "2026 text; leave length unchanged since 1993",
+   "url": "https://www.law.cornell.edu/uscode/text/29/2612",
+   "retrieved": "2026-10-19"
+  },
+  {
+   "doc_id": "2026_01_us_fmla_29usc2611_definitions",
+   "title": "29 U.S.C. 2611 (FMLA definitions)",
+   "version_or_effective_date": "2026 text",
+   "url": "https://www.law.cornell.edu/uscode/text/29/2611",
+   "retrieved": "2026-10-19"
+  }
+ ],
+ "missing": false,
+ "scope_accounting": {
+  "C1": {
+   "components": [
+    "columbia_university_c1",
+    "columbia_university_c2",
+    "columbia_university_c7",
+    "columbia_university_c23",
+    "columbia_university_c24",
+    "columbia_university_c26"
+   ]
+  },
+  "C2": {
+   "components": [
+    "columbia_university_c9",
+    "columbia_university_c10",
+    "columbia_university_c25"
+   ]
+  },
+  "C3": {
+   "components": [
+    "columbia_university_c3",
+    "columbia_university_c4",
+    "columbia_university_c5",
+    "columbia_university_c6",
+    "columbia_university_c19",
+    "columbia_university_c22"
+   ]
+  },
+  "C4": {
+   "components": [
+    "columbia_university_c17",
+    "columbia_university_c20",
+    "columbia_university_c21",
+    "columbia_university_c22"
+   ],
+   "not_components": [
+    {
+     "statute": "FMLA military-family provisions (26 weeks for a servicemember's family; qualifying exigency)",
+     "reason": "not related to becoming a parent (U4)"
+    },
+    {
+     "statute": "Uniformed Services Employment and Reemployment Rights Act of 1994",
+     "reason": "military leave; not related to becoming a parent (U4)"
+    },
+    {
+     "statute": "New York State Disability Benefits Law (NYSDBL)",
+     "reason": "named only in the PFL policy's combined 26-week cap, for groups the PFL policy covers; no saved document relies on it for a faculty benefit (faculty disability pay is the salary continuation plan, c3)"
+    },
+    {
+     "statute": "New York State legal definition of 'hard to place' children",
+     "reason": "a definition used for adoption eligibility, gives no leave or pay"
+    },
+    {
+     "statute": "Immigration Reform and Control Act of 1986",
+     "reason": "employment eligibility; not related to becoming a parent"
+    },
+    {
+     "statute": "Federal and state tax law (IRS rules; FICA and Medicare withholding)",
+     "reason": "payroll taxes and benefit deductions; not related to becoming a parent"
+    },
+    {
+     "statute": "University Statutes (sections 71d, 73b, 74, 75c)",
+     "reason": "institutional statutes on appointments, grievances and dismissal; section 71c(2) (tenure clock stop) is coded as c13"
+    }
+   ]
+  },
+  "C5": {
+   "components": [
+    "columbia_university_c17",
+    "columbia_university_c18",
+    "columbia_university_c22"
+   ]
+  },
+  "C6": {
+   "components": [
+    "columbia_university_c18",
+    "columbia_university_c19"
+   ]
+  },
+  "C7": {
+   "components": [
+    "columbia_university_c12",
+    "columbia_university_c13",
+    "columbia_university_c14",
+    "columbia_university_c16"
+   ]
+  },
+  "C8": {
+   "components": [
+    "columbia_university_c8",
+    "columbia_university_c11",
+    "columbia_university_c15"
+   ]
+  },
+  "C9": {
+   "absent": {
+    "documents": [
+     "2018_01_faculty_handbook_officers_of_instruction",
+     "2018_02_faculty_handbook_benefits",
+     "2018_03_new_parent_guide_spring2018",
+     "2018_04_ny_paid_family_leave_policy_nov2017"
+    ],
+    "terms": [
+     "accommodation",
+     "pregnan",
+     "transfer",
+     "hazard",
+     "lactation",
+     "light duty"
+    ]
+   }
+  },
+  "C10": {
+   "absent": {
+    "documents": [
+     "2018_01_faculty_handbook_officers_of_instruction",
+     "2018_02_faculty_handbook_benefits",
+     "2018_03_new_parent_guide_spring2018",
+     "2018_04_ny_paid_family_leave_policy_nov2017"
+    ],
+    "terms": [
+     "FMLA",
+     "first days",
+     "regular work time",
+     "paid FMLA",
+     "first 12 weeks"
+    ]
+   }
+  }
+ },
+ "mechanism_slots": {
+  "employer_paid_leave": {
+   "components": [
+    "columbia_university_c23"
+   ]
+  },
+  "employer_childbirth_benefit": {
+   "components": [
+    "columbia_university_c2"
+   ]
+  },
+  "generic_sick_or_disability_plan": {
+   "components": [
+    "columbia_university_c3",
+    "columbia_university_c4",
+    "columbia_university_c5"
+   ]
+  },
+  "own_accrual": {
+   "components": [
+    "columbia_university_c19",
+    "columbia_university_c22"
+   ]
+  },
+  "donated_leave": {
+   "absent": "no donated or shared leave bank in 2018_01, 2018_02, 2018_03, 2018_04 (searched: donat, shared leave, leave bank, catastrophic)"
+  },
+  "government_benefit": {
+   "components": [
+    "columbia_university_c20"
+   ]
+  },
+  "employer_topup": {
+   "absent": "no top-up of a government benefit for any group in 2018_01-2018_04 (searched: top-up, supplement, Paid Family Leave, disability benefits); PFL may be replaced by accrued time, which is not a top-up"
+  },
+  "modified_duties": {
+   "components": [
+    "columbia_university_c9",
+    "columbia_university_c10",
+    "columbia_university_c25"
+   ]
+  },
+  "unpaid_leave": {
+   "components": [
+    "columbia_university_c1",
+    "columbia_university_c6",
+    "columbia_university_c7",
+    "columbia_university_c17",
+    "columbia_university_c18",
+    "columbia_university_c21",
+    "columbia_university_c24",
+    "columbia_university_c26"
+   ]
+  },
+  "tenure_clock": {
+   "components": [
+    "columbia_university_c12",
+    "columbia_university_c13",
+    "columbia_university_c14",
+    "columbia_university_c16"
+   ]
+  },
+  "part_time_option": {
+   "components": [
+    "columbia_university_c8",
+    "columbia_university_c11",
+    "columbia_university_c15"
+   ]
+  },
+  "other": {
+   "absent": "no rearrangement, pregnancy accommodation, hazard programme or equal-treatment provision in 2018_01-2018_04 (searched: accommodation, transfer, hazard, pregnan)"
+  }
+ },
+ "baseline_accounting": {
+  "Family and Medical Leave Act (FMLA)": {
+   "components": [
+    "columbia_university_c17"
+   ]
+  },
+  "Federal Employee Paid Leave Act (paid parental leave for federal civilian employees)": {
+   "not_applicable": "covers federal civilian employees only; no saved document mentions it"
+  },
+  "Paid Family Leave (PFL)": {
+   "components": [
+    "columbia_university_c20",
+    "columbia_university_c21"
+   ]
+  },
+  "Disability Benefits Law (DBL)": {
+   "not_applicable": "named only in the PFL policy's combined 26-week cap (2018_04); no saved document relies on it for a benefit; listed under C4 not_components"
+  },
+  "Paid prenatal leave": {
+   "absent": "no saved document mentions it (enacted for 2025, after the reference date)"
+  }
+ },
+ "leave_limits": [
+  {
+   "weeks": 52,
+   "components": [
+    "columbia_university_c1",
+    "columbia_university_c7",
+    "columbia_university_c8"
+   ],
+   "roles": [
+    "birth",
+    "nonbirth"
+   ],
+   "note": "'The total period of leave, including the time during which a faculty member who has given birth is on a medical leave, normally may not exceed one year. Exceptions are permitted in cases of extended disabilities arising from pregnancy and childbirth.'",
+   "evidence": [
+    "The total period of leave, including the time during which a faculty member who has given birth is on a medical leave, normally may not exceed one year."
+   ],
+   "decision_log": [
+    {
+     "field": "leave_limits",
+     "rule": "R20",
+     "answer": "one year = 52 weeks (R11); covers the childbirth medical leave c1 and the full or partial child care leave c7, c8; both roles (c1 counts for the birth parent only)",
+     "quote": "The total period of leave, including the time during which a faculty member who has given birth is on a medical leave, normally may not exceed one year."
+    }
+   ]
+  }
+ ],
+ "components": [
+  {
+   "component_id": "columbia_university_c1",
+   "institution_label": "",
+   "description": "Medical leave of absence for the period around the birth that the physician certifies the faculty member cannot work; paid at full salary (c2, c3) for up to six months, after which long-term disability applies (c6).",
+   "mechanism": "unpaid_leave",
+   "mechanism_note": "U6: the text grants a leave of absence ('is entitled to a medical leave of absence'); the leave is coded here and its pay within it (c2 childbirth period, c3 the salary continuation plan).",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "pregnant officer (full-time officers of instruction; 'Full-time faculty may take advantage of several types of leaves')",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "A pregnant officer ... her child",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 6,
+    "units": "month",
+    "qualifier": "up_to"
+   },
+   "duration_note": "The leave lasts as long as the physician certifies inability to work; full salary is paid if it is 'six months or less' (and the general Medical Leaves paragraph gives leave with full salary 'for up to six months from the onset of the disability'). Longer disability moves to long-term disability with a medical leave without salary (c6), which has no stated length. Total leave with the child care leave normally not more than one year (leave_limits).",
+   "medical_certification": true,
+   "medical_certification_note": "the period 'during which her doctor certifies that she is unable to work'; written documentation from her physician of the anticipated duration of the disability",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "return_obligation": "expected to return for at least one year of full-time service after a leave of absence; those who do not return after a leave with salary are expected to reimburse the University (Provost may waive)",
+   "sequence": [
+    {
+     "relation": "in_lieu_of",
+     "component_id": "columbia_university_c9",
+     "note": "the workload relief plan 'is designed to replace the combination of medical and/or child care leaves' (R15b)"
+    },
+    {
+     "relation": "in_lieu_of",
+     "component_id": "columbia_university_c10"
+    },
+    {
+     "relation": "in_lieu_of",
+     "component_id": "columbia_university_c11"
+    }
+   ],
+   "flags": [
+    "ambiguous: workload relief 'is designed to replace the combination of medical and/or child care leaves', yet the FMLA sentence contemplates relief 'preceded by other periods of leave covered by the FMLA'; coded in_lieu_of"
+   ],
+   "doc_ids": [
+    "2018_01_faculty_handbook_officers_of_instruction",
+    "2018_02_faculty_handbook_benefits"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "U6",
+     "answer": "unpaid_leave",
+     "quote": "A pregnant officer is entitled to a medical leave of absence for the period surrounding the birth of her child during which her doctor certifies that she is unable to work."
+    },
+    {
+     "field": "payer",
+     "rule": "U6",
+     "answer": "none",
+     "quote": "A pregnant officer is entitled to a medical leave of absence for the period surrounding the birth of her child during which her doctor certifies that she is unable to work."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "A pregnant officer is entitled to a medical leave of absence for the period surrounding the birth of her child during which her doctor certifies that she is unable to work."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own disability)",
+     "quote": "A pregnant officer is entitled to a medical leave of absence for the period surrounding the birth of her child during which her doctor certifies that she is unable to work."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "A pregnant officer is entitled to a medical leave of absence for the period surrounding the birth of her child during which her doctor certifies that she is unable to work."
+    },
+    {
+     "field": "duration",
+     "rule": "U6",
+     "answer": "6 months up_to: the leave's stated maximum at full salary",
+     "quote": "The officer receives full salary and benefits under the University’s salary continuation plan if the period of leave is six months or less."
+    },
+    {
+     "field": "duration",
+     "rule": "U6",
+     "answer": "6 months up_to (general medical leave)",
+     "quote": "Full-time officers of instruction who cannot perform their responsibilities because of illness or injury are given leaves of absence with full salary for up to six months from the onset of the disability."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all relieved (formal leave)",
+     "quote": "A pregnant officer is entitled to a medical leave of absence for the period surrounding the birth of her child during which her doctor certifies that she is unable to work."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15b",
+     "answer": "in_lieu_of c9, c10, c11 (workload relief replaces medical and child care leaves)",
+     "quote": "The workload relief plan is designed to replace the combination of medical and/or child care leaves for individuals who meet their eligibility requirements."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "A pregnant officer is entitled to a medical leave of absence for the period surrounding the birth of her child during which her doctor certifies that she is unable to work."
+    }
+   ],
+   "evidence": {
+    "mechanism": [
+     "A pregnant officer is entitled to a medical leave of absence for the period surrounding the birth of her child during which her doctor certifies that she is unable to work."
+    ],
+    "faculty_group": [
+     "A pregnant officer is entitled to a medical leave of absence for the period surrounding the birth of her child during which her doctor certifies that she is unable to work."
+    ],
+    "eligible_parent": [
+     "A pregnant officer is entitled to a medical leave of absence for the period surrounding the birth of her child during which her doctor certifies that she is unable to work."
+    ],
+    "entitlement": [
+     "A pregnant officer is entitled to a medical leave of absence for the period surrounding the birth of her child during which her doctor certifies that she is unable to work."
+    ],
+    "duration": [
+     "The officer receives full salary and benefits under the University’s salary continuation plan if the period of leave is six months or less.",
+     "Full-time officers of instruction who cannot perform their responsibilities because of illness or injury are given leaves of absence with full salary for up to six months from the onset of the disability."
+    ],
+    "relief": [
+     "A pregnant officer is entitled to a medical leave of absence for the period surrounding the birth of her child during which her doctor certifies that she is unable to work."
+    ],
+    "sequence": [
+     "The workload relief plan is designed to replace the combination of medical and/or child care leaves for individuals who meet their eligibility requirements."
+    ],
+    "medical_certification": [
+     "A faculty member who will give birth should provide written documentation from her physician stating the anticipated duration of the disability."
+    ],
+    "return_obligation": [
+     "Faculty, with certain exceptions described below, are expected to return to the University for at least one year of full-time service after a leave of absence. Those who do not return after a leave with salary are expected to reimburse the University for its cost."
+    ]
+   },
+   "rule_applied": [
+    "U6",
+    "U5",
+    "V2",
+    "R9",
+    "R15b",
+    "U1"
+   ]
+  },
+  {
+   "component_id": "columbia_university_c2",
+   "institution_label": "Pregnancy-Related Disability Leave",
+   "description": "Full salary during the certified childbirth disability, typically 6-8 weeks, paid through the University's salary continuation plan; within the medical leave c1.",
+   "mechanism": "employer_childbirth_benefit",
+   "mechanism_note": "V1/V1b: childbirth-specific period (handbook, 'the period surrounding the birth of her child'), a default length (New Parents' Guide, 'typically 6-8 weeks') and a pay level (handbook, 'full salary') are all stated, so the salary continuation plan's childbirth period is a childbirth benefit. The plan in general is c3.",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "pregnant officer (full-time officers of instruction)",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "A pregnant officer ... her child",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 6,
+    "units": "week",
+    "qualifier": "at_least"
+   },
+   "duration_max": {
+    "value": 8,
+    "units": "week"
+   },
+   "duration_note": "'typically 6-8 weeks' (New Parents' Guide): R13b range, lower 6 at_least, upper 8. Pay continues for the whole certified disability up to six months (the plan's maximum; c1, c3).",
+   "duration_variants": "6-8 weeks typical; up to six months if the disability is certified that long",
+   "medical_certification": true,
+   "medical_certification_note": "period the doctor certifies she is unable to work",
+   "pay_fraction": "full salary",
+   "sequence": [
+    {
+     "relation": "within",
+     "component_id": "columbia_university_c1"
+    },
+    {
+     "relation": "in_lieu_of",
+     "component_id": "columbia_university_c9",
+     "note": "R15b: pay of the leaves option"
+    },
+    {
+     "relation": "in_lieu_of",
+     "component_id": "columbia_university_c10"
+    },
+    {
+     "relation": "in_lieu_of",
+     "component_id": "columbia_university_c11"
+    }
+   ],
+   "flags": [
+    "ambiguous: the 6-8 week length comes from 2018_03 (a summary dated 2018-04-25, after the reference date 2018-02-22, in the same academic year); V1b"
+   ],
+   "doc_ids": [
+    "2018_01_faculty_handbook_officers_of_instruction",
+    "2018_03_new_parent_guide_spring2018"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "V1",
+     "answer": "employer_childbirth_benefit",
+     "quote": "A pregnant officer is entitled to a medical leave of absence for the period surrounding the birth of her child during which her doctor certifies that she is unable to work."
+    },
+    {
+     "field": "mechanism",
+     "rule": "V1b",
+     "answer": "employer_childbirth_benefit",
+     "quote": "Pregnancy-Related Disability Leave is paid medical leave for any part of the pregnancy and post-partum period that a doctor certifies that the employee is medically unable to work (typically 6-8 weeks)"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "The officer receives full salary and benefits under the University’s salary continuation plan if the period of leave is six months or less."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "A pregnant officer is entitled to a medical leave of absence for the period surrounding the birth of her child during which her doctor certifies that she is unable to work."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent",
+     "quote": "A pregnant officer is entitled to a medical leave of absence for the period surrounding the birth of her child during which her doctor certifies that she is unable to work."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "The officer receives full salary and benefits under the University’s salary continuation plan if the period of leave is six months or less."
+    },
+    {
+     "field": "duration",
+     "rule": "R13b",
+     "answer": "6 at_least, max 8 weeks",
+     "quote": "Pregnancy-Related Disability Leave is paid medical leave for any part of the pregnancy and post-partum period that a doctor certifies that the employee is medically unable to work (typically 6-8 weeks)"
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "full salary",
+     "quote": "The officer receives full salary and benefits under the University’s salary continuation plan if the period of leave is six months or less."
+    },
+    {
+     "field": "sequence",
+     "rule": "U6",
+     "answer": "within c1 (pay during the granted leave)",
+     "quote": "The officer receives full salary and benefits under the University’s salary continuation plan if the period of leave is six months or less."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15b",
+     "answer": "in_lieu_of c9, c10, c11",
+     "quote": "The workload relief plan is designed to replace the combination of medical and/or child care leaves for individuals who meet their eligibility requirements."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "A pregnant officer is entitled to a medical leave of absence for the period surrounding the birth of her child during which her doctor certifies that she is unable to work."
+    }
+   ],
+   "evidence": {
+    "mechanism": [
+     "A pregnant officer is entitled to a medical leave of absence for the period surrounding the birth of her child during which her doctor certifies that she is unable to work.",
+     "Pregnancy-Related Disability Leave is paid medical leave for any part of the pregnancy and post-partum period that a doctor certifies that the employee is medically unable to work (typically 6-8 weeks)",
+     "The University treats disabilities arising from pregnancy and childbirth like any other nonoccupational disability.",
+     "The officer receives full salary and benefits under the University’s salary continuation plan if the period of leave is six months or less."
+    ],
+    "faculty_group": [
+     "A pregnant officer is entitled to a medical leave of absence for the period surrounding the birth of her child during which her doctor certifies that she is unable to work."
+    ],
+    "eligible_parent": [
+     "A pregnant officer is entitled to a medical leave of absence for the period surrounding the birth of her child during which her doctor certifies that she is unable to work."
+    ],
+    "entitlement": [
+     "The officer receives full salary and benefits under the University’s salary continuation plan if the period of leave is six months or less."
+    ],
+    "duration": [
+     "Pregnancy-Related Disability Leave is paid medical leave for any part of the pregnancy and post-partum period that a doctor certifies that the employee is medically unable to work (typically 6-8 weeks)"
+    ],
+    "pay_fraction": [
+     "The officer receives full salary and benefits under the University’s salary continuation plan if the period of leave is six months or less."
+    ],
+    "sequence": [
+     "The officer receives full salary and benefits under the University’s salary continuation plan if the period of leave is six months or less.",
+     "The workload relief plan is designed to replace the combination of medical and/or child care leaves for individuals who meet their eligibility requirements."
+    ]
+   },
+   "rule_applied": [
+    "V1",
+    "V1b",
+    "U5",
+    "V2",
+    "R13b",
+    "U6",
+    "R15b",
+    "U1"
+   ]
+  },
+  {
+   "component_id": "columbia_university_c3",
+   "institution_label": "salary continuation plan",
+   "description": "University salary continuation plan: full salary and benefits for an illness or injury, up to six months in any 12-month period; applies to pregnancy disability like any other disability.",
+   "mechanism": "generic_sick_or_disability_plan",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Full-time officers (benefits chapter); full-time officers of instruction (Medical Leaves)",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "officers who are unable to work due to an illness or injury",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "entitlement_note": "Benefits chapter 'may be eligible to receive'; the governing leave text says officers 'are given leaves of absence with full salary for up to six months' and the pregnant officer 'receives full salary'.",
+   "duration": {
+    "value": 6,
+    "units": "month",
+    "qualifier": "up_to"
+   },
+   "duration_note": "up to six months in any consecutive 12-month period or until return to work; the childbirth period is coded as c2 (V1)",
+   "medical_certification": true,
+   "medical_certification_note": "documentation from a physician specifying the nature and anticipated duration of the disability",
+   "pay_fraction": "full salary",
+   "sequence": [
+    {
+     "relation": "within",
+     "component_id": "columbia_university_c1",
+     "note": "the plan pays the medical leave of absence (U6)"
+    },
+    {
+     "relation": "in_lieu_of",
+     "component_id": "columbia_university_c9",
+     "note": "R15b: pay of the leaves option"
+    },
+    {
+     "relation": "in_lieu_of",
+     "component_id": "columbia_university_c10"
+    },
+    {
+     "relation": "in_lieu_of",
+     "component_id": "columbia_university_c11"
+    }
+   ],
+   "doc_ids": [
+    "2018_01_faculty_handbook_officers_of_instruction",
+    "2018_02_faculty_handbook_benefits"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "V1",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "Full-time officers who are unable to work due to an illness or injury may be eligible to receive their full salary and benefits under the University’s salary continuation plan for up to six months in any consecutive 12-month period or until they return to work, whichever occurs first."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "Eligible officers are automatically covered by both of these plans at no cost."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Full-time officers who are unable to work due to an illness or injury may be eligible to receive their full salary and benefits under the University’s salary continuation plan for up to six months in any consecutive 12-month period or until they return to work, whichever occurs first."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own illness)",
+     "quote": "Full-time officers who are unable to work due to an illness or injury may be eligible to receive their full salary and benefits under the University’s salary continuation plan for up to six months in any consecutive 12-month period or until they return to work, whichever occurs first."
+    },
+    {
+     "field": "entitlement",
+     "rule": "source_precedence",
+     "answer": "guaranteed",
+     "quote": "Full-time officers of instruction who cannot perform their responsibilities because of illness or injury are given leaves of absence with full salary for up to six months from the onset of the disability."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "6 months up_to",
+     "quote": "Full-time officers who are unable to work due to an illness or injury may be eligible to receive their full salary and benefits under the University’s salary continuation plan for up to six months in any consecutive 12-month period or until they return to work, whichever occurs first."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "full salary",
+     "quote": "Full-time officers who are unable to work due to an illness or injury may be eligible to receive their full salary and benefits under the University’s salary continuation plan for up to six months in any consecutive 12-month period or until they return to work, whichever occurs first."
+    },
+    {
+     "field": "sequence",
+     "rule": "U6",
+     "answer": "within c1",
+     "quote": "The officer receives full salary and benefits under the University’s salary continuation plan if the period of leave is six months or less."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Full-time officers who are unable to work due to an illness or injury may be eligible to receive their full salary and benefits under the University’s salary continuation plan for up to six months in any consecutive 12-month period or until they return to work, whichever occurs first."
+    }
+   ],
+   "evidence": {
+    "mechanism": [
+     "Full-time officers who are unable to work due to an illness or injury may be eligible to receive their full salary and benefits under the University’s salary continuation plan for up to six months in any consecutive 12-month period or until they return to work, whichever occurs first."
+    ],
+    "faculty_group": [
+     "Full-time officers who are unable to work due to an illness or injury may be eligible to receive their full salary and benefits under the University’s salary continuation plan for up to six months in any consecutive 12-month period or until they return to work, whichever occurs first."
+    ],
+    "eligible_parent": [
+     "Full-time officers who are unable to work due to an illness or injury may be eligible to receive their full salary and benefits under the University’s salary continuation plan for up to six months in any consecutive 12-month period or until they return to work, whichever occurs first."
+    ],
+    "entitlement": [
+     "Full-time officers of instruction who cannot perform their responsibilities because of illness or injury are given leaves of absence with full salary for up to six months from the onset of the disability.",
+     "The officer receives full salary and benefits under the University’s salary continuation plan if the period of leave is six months or less."
+    ],
+    "duration": [
+     "Full-time officers who are unable to work due to an illness or injury may be eligible to receive their full salary and benefits under the University’s salary continuation plan for up to six months in any consecutive 12-month period or until they return to work, whichever occurs first."
+    ],
+    "pay_fraction": [
+     "Full-time officers who are unable to work due to an illness or injury may be eligible to receive their full salary and benefits under the University’s salary continuation plan for up to six months in any consecutive 12-month period or until they return to work, whichever occurs first."
+    ],
+    "sequence": [
+     "The officer receives full salary and benefits under the University’s salary continuation plan if the period of leave is six months or less."
+    ],
+    "medical_certification": [
+     "A faculty member requesting a leave of absence for medical reasons is expected to provide documentation from a physician specifying the nature and anticipated duration of the disability."
+    ]
+   },
+   "rule_applied": [
+    "V1",
+    "U5",
+    "R13",
+    "U6",
+    "U1"
+   ]
+  },
+  {
+   "component_id": "columbia_university_c4",
+   "institution_label": "long-term disability (LTD) insurance plan",
+   "description": "Long-term disability insurance replacing a portion of salary once six months of salary continuation are exhausted; automatic, at no cost to the officer.",
+   "mechanism": "generic_sick_or_disability_plan",
+   "mechanism_note": "Long-term disability (schema §2): recorded without a duration.",
+   "payer": "insurance_plan",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Full-time officers; eligible officers are automatically covered",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "If the officer is disabled for a longer duration, she",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "pay_fraction": "a substantial portion of their salaries",
+   "time_window": "after six months of disability, once salary continuation is exhausted",
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "columbia_university_c3"
+    }
+   ],
+   "flags": [
+    "cross_reference_not_saved: Benefits in Brief (long-term disability program terms)"
+   ],
+   "doc_ids": [
+    "2018_01_faculty_handbook_officers_of_instruction",
+    "2018_02_faculty_handbook_benefits"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "If they are disabled after six months and their rights to salary continuation have been exhausted, the University’s long-term disability (LTD) insurance plan is designed to replace a substantial portion of their salaries."
+    },
+    {
+     "field": "payer",
+     "rule": "M1",
+     "answer": "insurance_plan",
+     "quote": "If the officer is disabled for a longer duration, she should apply to the University’s insurance carrier for long-term disability. If approved, she is placed on a medical leave of absence without salary and the University’s long-term disability carrier starts to make payments equal to a portion of her salary."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Eligible officers are automatically covered by both of these plans at no cost."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent",
+     "quote": "If the officer is disabled for a longer duration, she should apply to the University’s insurance carrier for long-term disability. If approved, she is placed on a medical leave of absence without salary and the University’s long-term disability carrier starts to make payments equal to a portion of her salary."
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "Eligible officers are automatically covered by both of these plans at no cost."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "a substantial portion of their salaries",
+     "quote": "If they are disabled after six months and their rights to salary continuation have been exhausted, the University’s long-term disability (LTD) insurance plan is designed to replace a substantial portion of their salaries."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "consecutive_after c3 (after salary continuation is exhausted)",
+     "quote": "If they are disabled after six months and their rights to salary continuation have been exhausted, the University’s long-term disability (LTD) insurance plan is designed to replace a substantial portion of their salaries."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "If they are disabled after six months and their rights to salary continuation have been exhausted, the University’s long-term disability (LTD) insurance plan is designed to replace a substantial portion of their salaries."
+    }
+   ],
+   "evidence": {
+    "mechanism": [
+     "If they are disabled after six months and their rights to salary continuation have been exhausted, the University’s long-term disability (LTD) insurance plan is designed to replace a substantial portion of their salaries."
+    ],
+    "faculty_group": [
+     "Eligible officers are automatically covered by both of these plans at no cost."
+    ],
+    "eligible_parent": [
+     "If the officer is disabled for a longer duration, she should apply to the University’s insurance carrier for long-term disability. If approved, she is placed on a medical leave of absence without salary and the University’s long-term disability carrier starts to make payments equal to a portion of her salary."
+    ],
+    "entitlement": [
+     "Eligible officers are automatically covered by both of these plans at no cost."
+    ],
+    "pay_fraction": [
+     "If they are disabled after six months and their rights to salary continuation have been exhausted, the University’s long-term disability (LTD) insurance plan is designed to replace a substantial portion of their salaries."
+    ],
+    "sequence": [
+     "If they are disabled after six months and their rights to salary continuation have been exhausted, the University’s long-term disability (LTD) insurance plan is designed to replace a substantial portion of their salaries."
+    ]
+   },
+   "rule_applied": [
+    "M1",
+    "U5",
+    "R15",
+    "U1"
+   ]
+  },
+  {
+   "component_id": "columbia_university_c5",
+   "institution_label": "",
+   "description": "Optional additional long-term disability coverage the officer buys through after-tax payroll deductions.",
+   "mechanism": "generic_sick_or_disability_plan",
+   "mechanism_note": "Long-term disability buy-up (schema §2; R1d): employee-paid, no duration.",
+   "payer": "employee_paid",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Officers (full-time officers of instruction among them)",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "Officers may elect to buy additional LTD coverage",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "entitlement_note": "R1d: access to a plan the employer makes available for employees to buy is guaranteed.",
+   "doc_ids": [
+    "2018_02_faculty_handbook_benefits"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "Officers may elect to buy additional LTD coverage under an optional plan through payroll deductions on an after-tax basis."
+    },
+    {
+     "field": "payer",
+     "rule": "R1d",
+     "answer": "employee_paid",
+     "quote": "Officers may elect to buy additional LTD coverage under an optional plan through payroll deductions on an after-tax basis."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Officers may elect to buy additional LTD coverage under an optional plan through payroll deductions on an after-tax basis."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent",
+     "quote": "Officers may elect to buy additional LTD coverage under an optional plan through payroll deductions on an after-tax basis."
+    },
+    {
+     "field": "entitlement",
+     "rule": "R1d",
+     "answer": "guaranteed",
+     "quote": "Officers may elect to buy additional LTD coverage under an optional plan through payroll deductions on an after-tax basis."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Officers may elect to buy additional LTD coverage under an optional plan through payroll deductions on an after-tax basis."
+    }
+   ],
+   "evidence": {
+    "mechanism": [
+     "Officers may elect to buy additional LTD coverage under an optional plan through payroll deductions on an after-tax basis."
+    ],
+    "faculty_group": [
+     "Officers may elect to buy additional LTD coverage under an optional plan through payroll deductions on an after-tax basis."
+    ],
+    "eligible_parent": [
+     "Officers may elect to buy additional LTD coverage under an optional plan through payroll deductions on an after-tax basis."
+    ],
+    "entitlement": [
+     "Officers may elect to buy additional LTD coverage under an optional plan through payroll deductions on an after-tax basis."
+    ]
+   },
+   "rule_applied": [
+    "R1d",
+    "U5",
+    "U1"
+   ]
+  },
+  {
+   "component_id": "columbia_university_c6",
+   "institution_label": "",
+   "description": "Medical leave of absence without salary once long-term disability is approved after six months of disability; no stated length.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "pregnant officer / full-time officers of instruction",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "she is placed on a medical leave of absence without salary",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "entitlement_note": "The leave follows the insurer's approval of the long-term disability claim (a medical determination); once approved the officer 'is placed on' the leave.",
+   "duration_note": "no stated length (adds no weeks; checklist §5 example 4); 'Exceptions are permitted in cases of extended disabilities arising from pregnancy and childbirth' to the one-year total",
+   "medical_certification": true,
+   "medical_certification_note": "approval by the long-term disability carrier",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "columbia_university_c1"
+    }
+   ],
+   "doc_ids": [
+    "2018_01_faculty_handbook_officers_of_instruction"
+   ],
+   "flags": [
+    "own_illness_leave"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "U6",
+     "answer": "unpaid_leave",
+     "quote": "If the officer is disabled for a longer duration, she should apply to the University’s insurance carrier for long-term disability. If approved, she is placed on a medical leave of absence without salary and the University’s long-term disability carrier starts to make payments equal to a portion of her salary."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "If approved, he or she is given a medical leave without salary and may receive a portion of his or her salary from the University’s insurance carrier according to the terms of the University’s long-term disability program."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "If the officer is disabled for a longer duration, she should apply to the University’s insurance carrier for long-term disability. If approved, she is placed on a medical leave of absence without salary and the University’s long-term disability carrier starts to make payments equal to a portion of her salary."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent",
+     "quote": "If the officer is disabled for a longer duration, she should apply to the University’s insurance carrier for long-term disability. If approved, she is placed on a medical leave of absence without salary and the University’s long-term disability carrier starts to make payments equal to a portion of her salary."
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "If the officer is disabled for a longer duration, she should apply to the University’s insurance carrier for long-term disability. If approved, she is placed on a medical leave of absence without salary and the University’s long-term disability carrier starts to make payments equal to a portion of her salary."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all relieved (formal leave)",
+     "quote": "If approved, he or she is given a medical leave without salary and may receive a portion of his or her salary from the University’s insurance carrier according to the terms of the University’s long-term disability program."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "consecutive_after c1 (disability longer than six months)",
+     "quote": "If the officer is disabled for a longer duration, she should apply to the University’s insurance carrier for long-term disability. If approved, she is placed on a medical leave of absence without salary and the University’s long-term disability carrier starts to make payments equal to a portion of her salary."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "If the officer is disabled for a longer duration, she should apply to the University’s insurance carrier for long-term disability. If approved, she is placed on a medical leave of absence without salary and the University’s long-term disability carrier starts to make payments equal to a portion of her salary."
+    }
+   ],
+   "evidence": {
+    "mechanism": [
+     "If the officer is disabled for a longer duration, she should apply to the University’s insurance carrier for long-term disability. If approved, she is placed on a medical leave of absence without salary and the University’s long-term disability carrier starts to make payments equal to a portion of her salary."
+    ],
+    "faculty_group": [
+     "If the officer is disabled for a longer duration, she should apply to the University’s insurance carrier for long-term disability. If approved, she is placed on a medical leave of absence without salary and the University’s long-term disability carrier starts to make payments equal to a portion of her salary."
+    ],
+    "eligible_parent": [
+     "If the officer is disabled for a longer duration, she should apply to the University’s insurance carrier for long-term disability. If approved, she is placed on a medical leave of absence without salary and the University’s long-term disability carrier starts to make payments equal to a portion of her salary."
+    ],
+    "entitlement": [
+     "If the officer is disabled for a longer duration, she should apply to the University’s insurance carrier for long-term disability. If approved, she is placed on a medical leave of absence without salary and the University’s long-term disability carrier starts to make payments equal to a portion of her salary."
+    ],
+    "relief": [
+     "If approved, he or she is given a medical leave without salary and may receive a portion of his or her salary from the University’s insurance carrier according to the terms of the University’s long-term disability program."
+    ],
+    "sequence": [
+     "If the officer is disabled for a longer duration, she should apply to the University’s insurance carrier for long-term disability. If approved, she is placed on a medical leave of absence without salary and the University’s long-term disability carrier starts to make payments equal to a portion of her salary."
+    ]
+   },
+   "rule_applied": [
+    "U6",
+    "U5",
+    "R9",
+    "R15",
+    "U1"
+   ]
+  },
+  {
+   "component_id": "columbia_university_c7",
+   "institution_label": "Child Care Leaves",
+   "description": "Leave of absence without salary to care for a newborn (or newly adopted) child; must begin within the first year; total with the childbirth medical leave normally not more than one year.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Full-time faculty with newborn infants",
+   "eligible_parent": [
+    "any_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "Full-time faculty with newborn infants; full-time faculty who are primarily responsible for the care of a newly adopted child; Same-sex domestic partners of women who give birth and of individuals who adopt",
+   "caregiver_condition": "other",
+   "caregiver_condition_wording": "for an adoption: 'primarily responsible for the care of a newly adopted child of less than school age'; none stated for a birth",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "V2: 'may take a leave of absence without salary', and faculty 'are given leaves for ... child care'; the request covers the arrangements (timing, coordination with the academic calendar).",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "up_to"
+   },
+   "duration_note": "No length of its own: 'The total period of leave, including the time during which a faculty member who has given birth is on a medical leave, normally may not exceed one year' (Q1: up_to; 'normally'). Exceptions for extended disabilities. Leaves are generally authorized for no more than one year at a time.",
+   "time_window": "must begin within the first year after the birth or adoption",
+   "service_requirement": "full-time faculty; expected two years of full-time residence between leaves of any kind (exceptions with approval)",
+   "return_obligation": "expected to return for at least one year of full-time service after a leave of absence (Provost may waive)",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "runs_concurrently_with": [
+    "FMLA"
+   ],
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "columbia_university_c1",
+     "roles": [
+      "birth"
+     ],
+     "note": "the total includes 'the time during which a faculty member who has given birth is on a medical leave'"
+    },
+    {
+     "relation": "in_lieu_of",
+     "component_id": "columbia_university_c9"
+    },
+    {
+     "relation": "in_lieu_of",
+     "component_id": "columbia_university_c10"
+    },
+    {
+     "relation": "in_lieu_of",
+     "component_id": "columbia_university_c11"
+    }
+   ],
+   "doc_ids": [
+    "2018_01_faculty_handbook_officers_of_instruction",
+    "2018_02_faculty_handbook_benefits",
+    "2018_03_new_parent_guide_spring2018"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "Full-time faculty with newborn infants may take a leave of absence without salary to care for the children."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Full-time faculty with newborn infants may take a leave of absence without salary to care for the children."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Full-time faculty with newborn infants may take a leave of absence without salary to care for the children."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "any_parent (role-neutral), adoptive",
+     "quote": "Full-time faculty with newborn infants may take a leave of absence without salary to care for the children."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "adoptive",
+     "quote": "Similar privileges are given to full-time faculty who are primarily responsible for the care of a newly adopted child of less than school age"
+    },
+    {
+     "field": "caregiver_condition",
+     "rule": "R6",
+     "answer": "other",
+     "quote": "Similar privileges are given to full-time faculty who are primarily responsible for the care of a newly adopted child of less than school age"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "Full-time faculty with newborn infants may take a leave of absence without salary to care for the children."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "In addition, faculty are given leaves for medical reasons, child care, military or public service, and compelling personal need."
+    },
+    {
+     "field": "duration",
+     "rule": "Q1",
+     "answer": "1 year up_to (normally may not exceed one year, total)",
+     "quote": "The total period of leave, including the time during which a faculty member who has given birth is on a medical leave, normally may not exceed one year."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "full-time; two years' residence between leaves",
+     "quote": "All faculty are expected to be in residence for at least two years of full-time service between leaves of any kind."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all relieved (formal leave)",
+     "quote": "Full-time faculty with newborn infants may take a leave of absence without salary to care for the children."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "consecutive_after c1 for the birth parent",
+     "quote": "The total period of leave, including the time during which a faculty member who has given birth is on a medical leave, normally may not exceed one year."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15b",
+     "answer": "in_lieu_of c9, c10, c11",
+     "quote": "The workload relief plan is designed to replace the combination of medical and/or child care leaves for individuals who meet their eligibility requirements."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Full-time faculty with newborn infants may take a leave of absence without salary to care for the children."
+    }
+   ],
+   "evidence": {
+    "mechanism": [
+     "Full-time faculty with newborn infants may take a leave of absence without salary to care for the children."
+    ],
+    "faculty_group": [
+     "Full-time faculty with newborn infants may take a leave of absence without salary to care for the children."
+    ],
+    "eligible_parent": [
+     "Full-time faculty with newborn infants may take a leave of absence without salary to care for the children.",
+     "Similar privileges are given to full-time faculty who are primarily responsible for the care of a newly adopted child of less than school age",
+     "Same-sex domestic partners of women who give birth and of individuals who adopt are also eligible for these leaves."
+    ],
+    "caregiver_condition": [
+     "Similar privileges are given to full-time faculty who are primarily responsible for the care of a newly adopted child of less than school age"
+    ],
+    "entitlement": [
+     "Full-time faculty with newborn infants may take a leave of absence without salary to care for the children.",
+     "In addition, faculty are given leaves for medical reasons, child care, military or public service, and compelling personal need."
+    ],
+    "duration": [
+     "The total period of leave, including the time during which a faculty member who has given birth is on a medical leave, normally may not exceed one year."
+    ],
+    "service_requirement": [
+     "All faculty are expected to be in residence for at least two years of full-time service between leaves of any kind."
+    ],
+    "relief": [
+     "Full-time faculty with newborn infants may take a leave of absence without salary to care for the children."
+    ],
+    "sequence": [
+     "The total period of leave, including the time during which a faculty member who has given birth is on a medical leave, normally may not exceed one year.",
+     "The workload relief plan is designed to replace the combination of medical and/or child care leaves for individuals who meet their eligibility requirements."
+    ],
+    "time_window": [
+     "Parental leaves must begin within the first year after the birth or adoption of the new child but may end after it is over."
+    ],
+    "return_obligation": [
+     "Faculty, with certain exceptions described below, are expected to return to the University for at least one year of full-time service after a leave of absence. Those who do not return after a leave with salary are expected to reimburse the University for its cost."
+    ]
+   },
+   "rule_applied": [
+    "R5",
+    "R6",
+    "V2",
+    "Q1",
+    "R9",
+    "R15",
+    "R15b",
+    "U1"
+   ]
+  },
+  {
+   "component_id": "columbia_university_c8",
+   "institution_label": "",
+   "description": "Partial leave of absence for child care: a reduced course load with partial salary.",
+   "mechanism": "part_time_option",
+   "mechanism_note": "R3: relief with a cut in pay ('with partial salary', New Parents' Guide) is part_time_option.",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Full-time faculty with newborn infants",
+   "eligible_parent": [
+    "any_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "Full-time faculty with newborn infants; newly adopted child",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "duration_note": "no length of its own; within the one-year total for child care leave",
+   "time_window": "must begin within the first year after the birth or adoption",
+   "pay_fraction": "partial salary",
+   "relief": {
+    "teaching": "partially_relieved",
+    "service_admin": "continues",
+    "research": "continues",
+    "advising_supervision": "continues",
+    "clinical": "continues"
+   },
+   "relief_inferred": "unnamed duties continue (R4b)",
+   "relief_note": "reduced course load; amount not stated",
+   "sequence": [
+    {
+     "relation": "in_lieu_of",
+     "component_id": "columbia_university_c7",
+     "note": "'full or partial leaves for child care'"
+    }
+   ],
+   "doc_ids": [
+    "2018_01_faculty_handbook_officers_of_instruction",
+    "2018_03_new_parent_guide_spring2018"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R3",
+     "answer": "part_time_option",
+     "quote": "Child Care Leave: leave without salary or with partial salary when self or spouse/partner has a baby, when adopting a child, or when becoming a foster parent."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "Child Care Leave: leave without salary or with partial salary when self or spouse/partner has a baby, when adopting a child, or when becoming a foster parent."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Full-time faculty with newborn infants may take a leave of absence without salary to care for the children."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "any_parent, adoptive",
+     "quote": "Full-time faculty with newborn infants may take a leave of absence without salary to care for the children."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "They may also teach a reduced course load on a partial leave of absence for that purpose."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "source_precedence",
+     "answer": "partial salary (summary supplies the detail)",
+     "quote": "Child Care Leave: leave without salary or with partial salary when self or spouse/partner has a baby, when adopting a child, or when becoming a foster parent."
+    },
+    {
+     "field": "relief",
+     "rule": "R4",
+     "answer": "teaching partially_relieved",
+     "quote": "They may also teach a reduced course load on a partial leave of absence for that purpose."
+    },
+    {
+     "field": "relief",
+     "rule": "R4b",
+     "answer": "unnamed duties continue",
+     "quote": "They may also teach a reduced course load on a partial leave of absence for that purpose."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15b",
+     "answer": "in_lieu_of c7 (full or partial leave)",
+     "quote": "Medical leaves for childbirth and full or partial leaves for child care are described below."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "They may also teach a reduced course load on a partial leave of absence for that purpose."
+    }
+   ],
+   "evidence": {
+    "mechanism": [
+     "Child Care Leave: leave without salary or with partial salary when self or spouse/partner has a baby, when adopting a child, or when becoming a foster parent."
+    ],
+    "faculty_group": [
+     "Full-time faculty with newborn infants may take a leave of absence without salary to care for the children."
+    ],
+    "eligible_parent": [
+     "Full-time faculty with newborn infants may take a leave of absence without salary to care for the children."
+    ],
+    "entitlement": [
+     "They may also teach a reduced course load on a partial leave of absence for that purpose."
+    ],
+    "pay_fraction": [
+     "Child Care Leave: leave without salary or with partial salary when self or spouse/partner has a baby, when adopting a child, or when becoming a foster parent."
+    ],
+    "relief": [
+     "They may also teach a reduced course load on a partial leave of absence for that purpose."
+    ],
+    "sequence": [
+     "Medical leaves for childbirth and full or partial leaves for child care are described below."
+    ],
+    "time_window": [
+     "Parental leaves must begin within the first year after the birth or adoption of the new child but may end after it is over."
+    ]
+   },
+   "rule_applied": [
+    "R3",
+    "R5",
+    "V2",
+    "R4",
+    "R4b",
+    "R15b",
+    "U1"
+   ]
+  },
+  {
+   "component_id": "columbia_university_c9",
+   "institution_label": "Parental Workload Relief Plan",
+   "description": "One term at full salary excused from teaching and administrative committees, research and student consultations continuing, for the primary parent of a newborn or newly adopted child; Morningside Faculties.",
+   "mechanism": "modified_duties",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "full-time officers of instruction (professor, associate professor, or assistant professor, not in a visiting rank) in a Faculty that has adopted the plan; all Morningside Faculties have",
+   "faculty_scope": "Morningside campus Faculties (all adopted); not the Medical Center",
+   "eligible_parent": [
+    "any_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "primary parent of a newborn child or a newly adopted child",
+   "caregiver_condition": "primary",
+   "caregiver_condition_wording": "primarily responsible for the care of a newborn child or a newly adopted child of less than school age; 'primary parent' if a single parent or, where there are two parents, if the other is working full-time or is enrolled as a full-time student; when both parents work at the University, one at a time may be primary",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "V2: 'Eligible faculty members may receive workload relief' (cf. 'may have'); no approval of whether is stated.",
+   "duration": {
+    "value": 1,
+    "units": "term",
+    "qualifier": "exact"
+   },
+   "time_window": "must begin within the first year after the birth or adoption; may continue beyond that year",
+   "service_requirement": "none stated for professorial ranks (two years of full-time teaching only for senior lecturer, lecturer, associate)",
+   "pay_fraction": "full salary",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "continues",
+    "advising_supervision": "continues",
+    "clinical": "continues"
+   },
+   "relief_inferred": "unnamed duties continue (R4b)",
+   "relief_note": "excused from teaching and from serving on administrative committees; available for consultations with students; research continues",
+   "return_obligation": "expected to return for at least one year of full-time service after a leave with salary, or reimburse (Provost may waive)",
+   "runs_concurrently_with": [
+    "FMLA"
+   ],
+   "sequence": [
+    {
+     "relation": "in_lieu_of",
+     "component_id": "columbia_university_c10"
+    },
+    {
+     "relation": "in_lieu_of",
+     "component_id": "columbia_university_c11"
+    }
+   ],
+   "doc_ids": [
+    "2018_01_faculty_handbook_officers_of_instruction",
+    "2018_02_faculty_handbook_benefits",
+    "2018_03_new_parent_guide_spring2018"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R4",
+     "answer": "modified_duties",
+     "quote": "During the period selected, faculty are excused from teaching and from serving on administrative committees. They are, however, expected to make themselves available for consultations with students and to continue their research."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "Eligible faculty members may receive workload relief for one term at full salary or one year at half salary."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "V3",
+     "answer": "main_campus_tenure_stream",
+     "quote": "The Faculties on the Morningside campus, but not at the Medical Center, have all adopted the workload relief plan."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R6",
+     "answer": "any_parent, adoptive",
+     "quote": "be primarily responsible for the care of a newborn child or a newly adopted child of less than school age"
+    },
+    {
+     "field": "caregiver_condition",
+     "rule": "R6",
+     "answer": "primary",
+     "quote": "For the purpose of this policy, an officer is the “primary parent” if he or she is a single parent or, where there are two parents, if the other is working full-time or is enrolled as a full-time student."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "Eligible faculty members may receive workload relief for one term at full salary or one year at half salary."
+    },
+    {
+     "field": "duration",
+     "rule": "R8",
+     "answer": "1 term exact (semester calendar)",
+     "quote": "Eligible faculty members may receive workload relief for one term at full salary or one year at half salary."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "none stated for professorial ranks",
+     "quote": "professor, associate professor, or assistant professor, including those with the clinical or practice modifier but excluding those in a visiting rank;"
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "full salary",
+     "quote": "Eligible faculty members may receive workload relief for one term at full salary or one year at half salary."
+    },
+    {
+     "field": "relief",
+     "rule": "R4",
+     "answer": "teaching and service relieved; research and advising continue",
+     "quote": "During the period selected, faculty are excused from teaching and from serving on administrative committees. They are, however, expected to make themselves available for consultations with students and to continue their research."
+    },
+    {
+     "field": "relief",
+     "rule": "R4b",
+     "answer": "clinical (unnamed) continues",
+     "quote": "During the period selected, faculty are excused from teaching and from serving on administrative committees. They are, however, expected to make themselves available for consultations with students and to continue their research."
+    },
+    {
+     "field": "sequence",
+     "rule": "R3c",
+     "answer": "in_lieu_of c10 and c11 (alternatives)",
+     "quote": "Eligible faculty members may receive workload relief for one term at full salary or one year at half salary."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "be primarily responsible for the care of a newborn child or a newly adopted child of less than school age"
+    }
+   ],
+   "evidence": {
+    "mechanism": [
+     "During the period selected, faculty are excused from teaching and from serving on administrative committees. They are, however, expected to make themselves available for consultations with students and to continue their research."
+    ],
+    "faculty_group": [
+     "The Faculties on the Morningside campus, but not at the Medical Center, have all adopted the workload relief plan.",
+     "be a full-time officer of instruction;"
+    ],
+    "eligible_parent": [
+     "be primarily responsible for the care of a newborn child or a newly adopted child of less than school age"
+    ],
+    "caregiver_condition": [
+     "For the purpose of this policy, an officer is the “primary parent” if he or she is a single parent or, where there are two parents, if the other is working full-time or is enrolled as a full-time student."
+    ],
+    "entitlement": [
+     "Eligible faculty members may receive workload relief for one term at full salary or one year at half salary."
+    ],
+    "duration": [
+     "Eligible faculty members may receive workload relief for one term at full salary or one year at half salary."
+    ],
+    "service_requirement": [
+     "professor, associate professor, or assistant professor, including those with the clinical or practice modifier but excluding those in a visiting rank;"
+    ],
+    "pay_fraction": [
+     "Eligible faculty members may receive workload relief for one term at full salary or one year at half salary."
+    ],
+    "relief": [
+     "During the period selected, faculty are excused from teaching and from serving on administrative committees. They are, however, expected to make themselves available for consultations with students and to continue their research."
+    ],
+    "sequence": [
+     "Eligible faculty members may receive workload relief for one term at full salary or one year at half salary."
+    ],
+    "time_window": [
+     "The period of workload relief must begin within the first year after the birth or adoption of the new child but may continue beyond that year."
+    ]
+   },
+   "rule_applied": [
+    "R4",
+    "V3",
+    "R6",
+    "V2",
+    "R8",
+    "R4b",
+    "R3c",
+    "U1"
+   ]
+  },
+  {
+   "component_id": "columbia_university_c10",
+   "institution_label": "Parental Workload Relief Plan",
+   "description": "Alternative: a year at full salary teaching half the normal course load each term and a comparable portion of administrative assignments; research and student meetings continue.",
+   "mechanism": "modified_duties",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "full-time officers of instruction (professor, associate professor, or assistant professor, not in a visiting rank) in a Faculty that has adopted the plan; all Morningside Faculties have",
+   "faculty_scope": "Morningside campus Faculties (all adopted); not the Medical Center",
+   "eligible_parent": [
+    "any_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "primary parent of a newborn child or a newly adopted child",
+   "caregiver_condition": "primary",
+   "caregiver_condition_wording": "primarily responsible for the care of a newborn child or a newly adopted child of less than school age; 'primary parent' if a single parent or, where there are two parents, if the other is working full-time or is enrolled as a full-time student; when both parents work at the University, one at a time may be primary",
+   "entitlement": "guaranteed_on_request",
+   "duration": {
+    "value": 1,
+    "units": "term",
+    "qualifier": "exact"
+   },
+   "duration_note": "R3c: coded by the amount of relief (half the course load in each of two terms = one term of teaching relief); the span is one year",
+   "time_window": "must begin within the first year after the birth or adoption",
+   "pay_fraction": "full salary",
+   "relief": {
+    "teaching": "partially_relieved",
+    "service_admin": "partially_relieved",
+    "research": "continues",
+    "advising_supervision": "continues",
+    "clinical": "continues"
+   },
+   "relief_inferred": "unnamed duties continue (R4b)",
+   "relief_note": "half of the normal course load in each term over one year; a comparable portion of administrative assignments (R3c)",
+   "sequence": [
+    {
+     "relation": "in_lieu_of",
+     "component_id": "columbia_university_c9"
+    },
+    {
+     "relation": "in_lieu_of",
+     "component_id": "columbia_university_c11"
+    }
+   ],
+   "doc_ids": [
+    "2018_01_faculty_handbook_officers_of_instruction",
+    "2018_03_new_parent_guide_spring2018"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R3c",
+     "answer": "modified_duties",
+     "quote": "Eligible faculty may also elect a year of workload relief at full salary by agreeing to teach half of their normal course load in each term and continuing to make themselves available for a comparable portion of the administrative assignments they normally perform as well as continuing to meet with students and conduct research."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "Eligible faculty may also elect a year of workload relief at full salary by agreeing to teach half of their normal course load in each term and continuing to make themselves available for a comparable portion of the administrative assignments they normally perform as well as continuing to meet with students and conduct research."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "V3",
+     "answer": "main_campus_tenure_stream",
+     "quote": "The Faculties on the Morningside campus, but not at the Medical Center, have all adopted the workload relief plan."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R6",
+     "answer": "any_parent, adoptive",
+     "quote": "be primarily responsible for the care of a newborn child or a newly adopted child of less than school age"
+    },
+    {
+     "field": "caregiver_condition",
+     "rule": "R6",
+     "answer": "primary",
+     "quote": "For the purpose of this policy, an officer is the “primary parent” if he or she is a single parent or, where there are two parents, if the other is working full-time or is enrolled as a full-time student."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "Eligible faculty may also elect a year of workload relief at full salary by agreeing to teach half of their normal course load in each term and continuing to make themselves available for a comparable portion of the administrative assignments they normally perform as well as continuing to meet with students and conduct research."
+    },
+    {
+     "field": "duration",
+     "rule": "R3c",
+     "answer": "1 term relief-equivalent, span one year in the note",
+     "quote": "Eligible faculty may also elect a year of workload relief at full salary by agreeing to teach half of their normal course load in each term and continuing to make themselves available for a comparable portion of the administrative assignments they normally perform as well as continuing to meet with students and conduct research."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "full salary",
+     "quote": "Eligible faculty may also elect a year of workload relief at full salary by agreeing to teach half of their normal course load in each term and continuing to make themselves available for a comparable portion of the administrative assignments they normally perform as well as continuing to meet with students and conduct research."
+    },
+    {
+     "field": "relief",
+     "rule": "R4",
+     "answer": "teaching and service partially relieved; research and advising continue",
+     "quote": "Eligible faculty may also elect a year of workload relief at full salary by agreeing to teach half of their normal course load in each term and continuing to make themselves available for a comparable portion of the administrative assignments they normally perform as well as continuing to meet with students and conduct research."
+    },
+    {
+     "field": "relief",
+     "rule": "R4b",
+     "answer": "clinical (unnamed) continues",
+     "quote": "Eligible faculty may also elect a year of workload relief at full salary by agreeing to teach half of their normal course load in each term and continuing to make themselves available for a comparable portion of the administrative assignments they normally perform as well as continuing to meet with students and conduct research."
+    },
+    {
+     "field": "sequence",
+     "rule": "R3c",
+     "answer": "in_lieu_of c9, c11",
+     "quote": "The relief must begin within the first year of birth or adoption and can be either one term at full salary (no teaching), one year at half salary (no teaching), or one year at full salary (reduced course load)."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Eligible faculty may also elect a year of workload relief at full salary by agreeing to teach half of their normal course load in each term and continuing to make themselves available for a comparable portion of the administrative assignments they normally perform as well as continuing to meet with students and conduct research."
+    }
+   ],
+   "evidence": {
+    "mechanism": [
+     "Eligible faculty may also elect a year of workload relief at full salary by agreeing to teach half of their normal course load in each term and continuing to make themselves available for a comparable portion of the administrative assignments they normally perform as well as continuing to meet with students and conduct research."
+    ],
+    "faculty_group": [
+     "The Faculties on the Morningside campus, but not at the Medical Center, have all adopted the workload relief plan."
+    ],
+    "eligible_parent": [
+     "be primarily responsible for the care of a newborn child or a newly adopted child of less than school age"
+    ],
+    "caregiver_condition": [
+     "For the purpose of this policy, an officer is the “primary parent” if he or she is a single parent or, where there are two parents, if the other is working full-time or is enrolled as a full-time student."
+    ],
+    "entitlement": [
+     "Eligible faculty may also elect a year of workload relief at full salary by agreeing to teach half of their normal course load in each term and continuing to make themselves available for a comparable portion of the administrative assignments they normally perform as well as continuing to meet with students and conduct research."
+    ],
+    "duration": [
+     "Eligible faculty may also elect a year of workload relief at full salary by agreeing to teach half of their normal course load in each term and continuing to make themselves available for a comparable portion of the administrative assignments they normally perform as well as continuing to meet with students and conduct research."
+    ],
+    "pay_fraction": [
+     "Eligible faculty may also elect a year of workload relief at full salary by agreeing to teach half of their normal course load in each term and continuing to make themselves available for a comparable portion of the administrative assignments they normally perform as well as continuing to meet with students and conduct research."
+    ],
+    "relief": [
+     "Eligible faculty may also elect a year of workload relief at full salary by agreeing to teach half of their normal course load in each term and continuing to make themselves available for a comparable portion of the administrative assignments they normally perform as well as continuing to meet with students and conduct research."
+    ],
+    "sequence": [
+     "The relief must begin within the first year of birth or adoption and can be either one term at full salary (no teaching), one year at half salary (no teaching), or one year at full salary (reduced course load)."
+    ],
+    "time_window": [
+     "The period of workload relief must begin within the first year after the birth or adoption of the new child but may continue beyond that year."
+    ]
+   },
+   "rule_applied": [
+    "R3c",
+    "V3",
+    "R6",
+    "V2",
+    "R4",
+    "R4b",
+    "U1"
+   ]
+  },
+  {
+   "component_id": "columbia_university_c11",
+   "institution_label": "Parental Workload Relief Plan",
+   "description": "Alternative: one year excused from teaching and administrative committees at half salary.",
+   "mechanism": "part_time_option",
+   "mechanism_note": "R3: relief that comes with a cut in pay is part_time_option.",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "full-time officers of instruction (professor, associate professor, or assistant professor, not in a visiting rank) in a Faculty that has adopted the plan; all Morningside Faculties have",
+   "faculty_scope": "Morningside campus Faculties (all adopted); not the Medical Center",
+   "eligible_parent": [
+    "any_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "primary parent of a newborn child or a newly adopted child",
+   "caregiver_condition": "primary",
+   "caregiver_condition_wording": "primarily responsible for the care of a newborn child or a newly adopted child of less than school age; 'primary parent' if a single parent or, where there are two parents, if the other is working full-time or is enrolled as a full-time student; when both parents work at the University, one at a time may be primary",
+   "entitlement": "guaranteed_on_request",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "exact"
+   },
+   "time_window": "must begin within the first year after the birth or adoption",
+   "pay_fraction": "half salary",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "continues",
+    "advising_supervision": "continues",
+    "clinical": "continues"
+   },
+   "relief_inferred": "unnamed duties continue (R4b)",
+   "sequence": [
+    {
+     "relation": "in_lieu_of",
+     "component_id": "columbia_university_c9"
+    },
+    {
+     "relation": "in_lieu_of",
+     "component_id": "columbia_university_c10"
+    }
+   ],
+   "doc_ids": [
+    "2018_01_faculty_handbook_officers_of_instruction",
+    "2018_03_new_parent_guide_spring2018"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R3",
+     "answer": "part_time_option",
+     "quote": "Eligible faculty members may receive workload relief for one term at full salary or one year at half salary."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "Eligible faculty members may receive workload relief for one term at full salary or one year at half salary."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "V3",
+     "answer": "main_campus_tenure_stream",
+     "quote": "The Faculties on the Morningside campus, but not at the Medical Center, have all adopted the workload relief plan."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R6",
+     "answer": "any_parent, adoptive",
+     "quote": "be primarily responsible for the care of a newborn child or a newly adopted child of less than school age"
+    },
+    {
+     "field": "caregiver_condition",
+     "rule": "R6",
+     "answer": "primary",
+     "quote": "For the purpose of this policy, an officer is the “primary parent” if he or she is a single parent or, where there are two parents, if the other is working full-time or is enrolled as a full-time student."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "Eligible faculty members may receive workload relief for one term at full salary or one year at half salary."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 year exact",
+     "quote": "Eligible faculty members may receive workload relief for one term at full salary or one year at half salary."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "half salary",
+     "quote": "Eligible faculty members may receive workload relief for one term at full salary or one year at half salary."
+    },
+    {
+     "field": "relief",
+     "rule": "R4",
+     "answer": "teaching and service relieved; research and advising continue",
+     "quote": "During the period selected, faculty are excused from teaching and from serving on administrative committees. They are, however, expected to make themselves available for consultations with students and to continue their research."
+    },
+    {
+     "field": "relief",
+     "rule": "R4b",
+     "answer": "clinical (unnamed) continues",
+     "quote": "During the period selected, faculty are excused from teaching and from serving on administrative committees. They are, however, expected to make themselves available for consultations with students and to continue their research."
+    },
+    {
+     "field": "sequence",
+     "rule": "R3c",
+     "answer": "in_lieu_of c9, c10",
+     "quote": "The relief must begin within the first year of birth or adoption and can be either one term at full salary (no teaching), one year at half salary (no teaching), or one year at full salary (reduced course load)."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Eligible faculty members may receive workload relief for one term at full salary or one year at half salary."
+    }
+   ],
+   "evidence": {
+    "mechanism": [
+     "Eligible faculty members may receive workload relief for one term at full salary or one year at half salary."
+    ],
+    "faculty_group": [
+     "The Faculties on the Morningside campus, but not at the Medical Center, have all adopted the workload relief plan."
+    ],
+    "eligible_parent": [
+     "be primarily responsible for the care of a newborn child or a newly adopted child of less than school age"
+    ],
+    "caregiver_condition": [
+     "For the purpose of this policy, an officer is the “primary parent” if he or she is a single parent or, where there are two parents, if the other is working full-time or is enrolled as a full-time student."
+    ],
+    "entitlement": [
+     "Eligible faculty members may receive workload relief for one term at full salary or one year at half salary."
+    ],
+    "duration": [
+     "Eligible faculty members may receive workload relief for one term at full salary or one year at half salary."
+    ],
+    "pay_fraction": [
+     "Eligible faculty members may receive workload relief for one term at full salary or one year at half salary."
+    ],
+    "relief": [
+     "During the period selected, faculty are excused from teaching and from serving on administrative committees. They are, however, expected to make themselves available for consultations with students and to continue their research."
+    ],
+    "sequence": [
+     "The relief must begin within the first year of birth or adoption and can be either one term at full salary (no teaching), one year at half salary (no teaching), or one year at full salary (reduced course load)."
+    ],
+    "time_window": [
+     "The period of workload relief must begin within the first year after the birth or adoption of the new child but may continue beyond that year."
+    ]
+   },
+   "rule_applied": [
+    "R3",
+    "V3",
+    "R6",
+    "V2",
+    "R13",
+    "R4",
+    "R4b",
+    "R3c",
+    "U1"
+   ]
+  },
+  {
+   "component_id": "columbia_university_c12",
+   "institution_label": "",
+   "description": "A child care leave (with any childbirth medical leave) of at least two months is excluded, automatically, from the eight-year limit on nontenured service.",
+   "mechanism": "tenure_clock",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "nontenured full-time faculty subject to the limits on nontenured service (assistant professors among them)",
+   "eligible_parent": [
+    "any_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "faculty on child care leave, including medical leaves required by pregnancy and childbirth",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 1,
+    "units": "term",
+    "qualifier": "exact"
+   },
+   "duration_note": "'will exclude the term' of the leave; together with the clock stop (c13) at most one year per child",
+   "use_limit_note": "combined with c13: 'the maximum time that can be excluded from the tenure count for any combination of those options and these statutory provisions is one year for each child'",
+   "flags": [
+    "ambiguous: restriction: applies only when the child care leave (with medical leave) totals at least two months",
+    "ambiguous: restriction: combined tenure-clock exclusion of one year per child across c12 and c13"
+   ],
+   "doc_ids": [
+    "2018_01_faculty_handbook_officers_of_instruction"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "If the total period of child care leave, including medical leaves required by pregnancy and childbirth, is at least two months in length, the Provost’s Office will exclude the term in determining the maximum period of time a nontenured faculty member may serve in a full-time instructional capacity at the University."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Full-time faculty appointments in the grades of assistant professor, instructor, lecturer, associate, and assistant are subject to the limits on nontenured service."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "any_parent, adoptive (any child care leave)",
+     "quote": "If the total period of child care leave, including medical leaves required by pregnancy and childbirth, is at least two months in length, the Provost’s Office will exclude the term in determining the maximum period of time a nontenured faculty member may serve in a full-time instructional capacity at the University."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "The faculty member does not need to ask for the exclusion."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 term exact",
+     "quote": "If the total period of child care leave, including medical leaves required by pregnancy and childbirth, is at least two months in length, the Provost’s Office will exclude the term in determining the maximum period of time a nontenured faculty member may serve in a full-time instructional capacity at the University."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "If the total period of child care leave, including medical leaves required by pregnancy and childbirth, is at least two months in length, the Provost’s Office will exclude the term in determining the maximum period of time a nontenured faculty member may serve in a full-time instructional capacity at the University."
+    },
+    {
+     "field": "duration.qualifier",
+     "rule": "R13",
+     "answer": "'maximum period' names the eight-year service limit, not the length of the exclusion, which is the term of the leave",
+     "quote": "the Provost’s Office will exclude the term in determining the maximum period of time"
+    }
+   ],
+   "evidence": {
+    "mechanism": [
+     "If the total period of child care leave, including medical leaves required by pregnancy and childbirth, is at least two months in length, the Provost’s Office will exclude the term in determining the maximum period of time a nontenured faculty member may serve in a full-time instructional capacity at the University."
+    ],
+    "faculty_group": [
+     "Full-time faculty appointments in the grades of assistant professor, instructor, lecturer, associate, and assistant are subject to the limits on nontenured service."
+    ],
+    "eligible_parent": [
+     "If the total period of child care leave, including medical leaves required by pregnancy and childbirth, is at least two months in length, the Provost’s Office will exclude the term in determining the maximum period of time a nontenured faculty member may serve in a full-time instructional capacity at the University."
+    ],
+    "entitlement": [
+     "The faculty member does not need to ask for the exclusion.",
+     "If the total period of child care leave, including medical leaves required by pregnancy and childbirth, is at least two months in length, the Provost’s Office will exclude the term in determining the maximum period of time a nontenured faculty member may serve in a full-time instructional capacity at the University."
+    ],
+    "duration": [
+     "If the total period of child care leave, including medical leaves required by pregnancy and childbirth, is at least two months in length, the Provost’s Office will exclude the term in determining the maximum period of time a nontenured faculty member may serve in a full-time instructional capacity at the University."
+    ]
+   },
+   "rule_applied": [
+    "R5",
+    "V2",
+    "R13",
+    "U1"
+   ]
+  },
+  {
+   "component_id": "columbia_university_c13",
+   "institution_label": "Tenure Clock Stoppage",
+   "description": "Stop of the tenure clock, up to one year per child for two children, for nontenured faculty who are the primary parent of a child under one, with or without a leave; on request to the Provost.",
+   "mechanism": "tenure_clock",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "nontenured faculty",
+   "eligible_parent": [
+    "any_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "primary parent; the child's birth or adoption",
+   "caregiver_condition": "primary",
+   "caregiver_condition_wording": "'primary parent' if she or he is a single parent or, where there are two parents, if the other is working full-time or is enrolled as a full-time student; primary parent for a minimum of three months; when both parents work at the University, one at a time may be primary",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "Source precedence: the Statutes clause says the Provost 'may stop' the clock; the implementing paragraph says 'On receipt of the request the Office of the Provost will change the faculty member's up-or-out date'. Read together, granted on request.",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "up_to"
+   },
+   "time_window": "child less than a year old",
+   "use_limit": [
+    {
+     "times": 2,
+     "per": "career",
+     "counts": "children"
+    }
+   ],
+   "use_limit_note": "'for up to one year of appointment for each of two children'",
+   "flags": [
+    "ambiguous: restriction: combined tenure-clock exclusion of one year per child across c12 and c13"
+   ],
+   "doc_ids": [
+    "2018_01_faculty_handbook_officers_of_instruction",
+    "2018_03_new_parent_guide_spring2018"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "Under Section §71c(2) of the University Statutes, the Provost may stop the tenure clock of nontenured faculty if they assume the primary responsibility for the care of a child less than a year old, even if they do not take a leave of absence for that purpose or participate in the University’s workload relief program."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Under Section §71c(2) of the University Statutes, the Provost may stop the tenure clock of nontenured faculty if they assume the primary responsibility for the care of a child less than a year old, even if they do not take a leave of absence for that purpose or participate in the University’s workload relief program."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "any_parent, adoptive",
+     "quote": "include the date of the child’s birth or adoption"
+    },
+    {
+     "field": "caregiver_condition",
+     "rule": "R6",
+     "answer": "primary",
+     "quote": "An officer is considered the “primary parent” if she or he is a single parent or, where there are two parents, if the other is working full-time or is enrolled as a full-time student."
+    },
+    {
+     "field": "entitlement",
+     "rule": "source_precedence",
+     "answer": "guaranteed_on_request",
+     "quote": "On receipt of the request the Office of the Provost will change the faculty member’s up-or-out date and inform the appropriate department chair and dean or vice president as well as the individual."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 year up_to",
+     "quote": "Faculty may have the tenure clock stopped in this manner for up to one year of appointment for each of two children."
+    },
+    {
+     "field": "use_limit",
+     "rule": "U9",
+     "answer": "2 children per career",
+     "quote": "Faculty may have the tenure clock stopped in this manner for up to one year of appointment for each of two children."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Under Section §71c(2) of the University Statutes, the Provost may stop the tenure clock of nontenured faculty if they assume the primary responsibility for the care of a child less than a year old, even if they do not take a leave of absence for that purpose or participate in the University’s workload relief program."
+    }
+   ],
+   "evidence": {
+    "mechanism": [
+     "Under Section §71c(2) of the University Statutes, the Provost may stop the tenure clock of nontenured faculty if they assume the primary responsibility for the care of a child less than a year old, even if they do not take a leave of absence for that purpose or participate in the University’s workload relief program."
+    ],
+    "faculty_group": [
+     "Under Section §71c(2) of the University Statutes, the Provost may stop the tenure clock of nontenured faculty if they assume the primary responsibility for the care of a child less than a year old, even if they do not take a leave of absence for that purpose or participate in the University’s workload relief program."
+    ],
+    "eligible_parent": [
+     "include the date of the child’s birth or adoption"
+    ],
+    "caregiver_condition": [
+     "An officer is considered the “primary parent” if she or he is a single parent or, where there are two parents, if the other is working full-time or is enrolled as a full-time student.",
+     "To be eligible for an exclusion under these provisions, officers of instruction must be the primary parent for a minimum of three months."
+    ],
+    "entitlement": [
+     "On receipt of the request the Office of the Provost will change the faculty member’s up-or-out date and inform the appropriate department chair and dean or vice president as well as the individual."
+    ],
+    "duration": [
+     "Faculty may have the tenure clock stopped in this manner for up to one year of appointment for each of two children."
+    ],
+    "use_limit": [
+     "Faculty may have the tenure clock stopped in this manner for up to one year of appointment for each of two children."
+    ],
+    "time_window": [
+     "Under Section §71c(2) of the University Statutes, the Provost may stop the tenure clock of nontenured faculty if they assume the primary responsibility for the care of a child less than a year old, even if they do not take a leave of absence for that purpose or participate in the University’s workload relief program."
+    ]
+   },
+   "rule_applied": [
+    "R5",
+    "R6",
+    "R13",
+    "U9",
+    "U1"
+   ]
+  },
+  {
+   "component_id": "columbia_university_c14",
+   "institution_label": "",
+   "description": "Routine exclusion of up to one year of any leave of absence from the eight-year limit; beyond that the Provost may exclude leaves for medical reasons, child care, military service or personal hardship.",
+   "mechanism": "tenure_clock",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "full-time nontenured faculty subject to the limits on nontenured service",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "the officer",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "up_to"
+   },
+   "duration_note": "further exclusions for medical, child care, military or hardship leaves at the Provost's ruling ('may rule'); as a general rule for leaves of at least two months",
+   "doc_ids": [
+    "2018_01_faculty_handbook_officers_of_instruction"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "Up to one full year of appointment in a nonprofessorial rank (i.e., instructor, senior lecturer, lecturer, associate, or assistant) or one year of a leave of absence is routinely excluded from the eight-year limit."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Full-time faculty appointments in the grades of assistant professor, instructor, lecturer, associate, and assistant are subject to the limits on nontenured service."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "Up to one full year of appointment in a nonprofessorial rank (i.e., instructor, senior lecturer, lecturer, associate, or assistant) or one year of a leave of absence is routinely excluded from the eight-year limit."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "The Office of the Provost will automatically make the appropriate adjustment and inform the officer and his or her department chair and dean or vice president."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 year up_to",
+     "quote": "Up to one full year of appointment in a nonprofessorial rank (i.e., instructor, senior lecturer, lecturer, associate, or assistant) or one year of a leave of absence is routinely excluded from the eight-year limit."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "Up to one full year of appointment in a nonprofessorial rank (i.e., instructor, senior lecturer, lecturer, associate, or assistant) or one year of a leave of absence is routinely excluded from the eight-year limit."
+    }
+   ],
+   "evidence": {
+    "mechanism": [
+     "Up to one full year of appointment in a nonprofessorial rank (i.e., instructor, senior lecturer, lecturer, associate, or assistant) or one year of a leave of absence is routinely excluded from the eight-year limit."
+    ],
+    "faculty_group": [
+     "Full-time faculty appointments in the grades of assistant professor, instructor, lecturer, associate, and assistant are subject to the limits on nontenured service."
+    ],
+    "eligible_parent": [
+     "Up to one full year of appointment in a nonprofessorial rank (i.e., instructor, senior lecturer, lecturer, associate, or assistant) or one year of a leave of absence is routinely excluded from the eight-year limit."
+    ],
+    "entitlement": [
+     "The Office of the Provost will automatically make the appropriate adjustment and inform the officer and his or her department chair and dean or vice president."
+    ],
+    "duration": [
+     "Up to one full year of appointment in a nonprofessorial rank (i.e., instructor, senior lecturer, lecturer, associate, or assistant) or one year of a leave of absence is routinely excluded from the eight-year limit."
+    ],
+    "duration_note": [
+     "However, when a leave of absence is granted for medical reasons, child care (including exemptions from teaching duties under the workload relief plan), military service, or personal hardship, the Provost may rule that it will not be counted in calculating the up-or-out date, regardless of whether periods of service have been excluded for other reasons."
+    ]
+   },
+   "rule_applied": [
+    "V2",
+    "R13",
+    "U1"
+   ]
+  },
+  {
+   "component_id": "columbia_university_c15",
+   "institution_label": "Part-Time Career Appointment for Parents",
+   "description": "Nontenured faculty who are primary carers of a child under nine may serve half time at half salary while keeping full-time status and benefits; each year counts as half a year on the tenure clock (c16).",
+   "mechanism": "part_time_option",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "full-time officers of instruction subject to the limits on nontenured service; faculty with tenure may not hold this appointment",
+   "eligible_parent": [
+    "any_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "primarily responsible for the care of a child",
+   "caregiver_condition": "primary",
+   "caregiver_condition_wording": "primarily responsible for the care of a child under the age of nine; the University follows the definition of a primary parent described earlier",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "V2: 'the University allows' eligible faculty to serve part time, and 'Faculty may hold such an appointment as long as they meet the eligibility requirements'; Provost authorization on recommendation covers the arrangement.",
+   "duration_note": "held annually as long as eligible (child under nine)",
+   "time_window": "child under the age of nine",
+   "pay_fraction": "half of their normal salary",
+   "relief": {
+    "teaching": "partially_relieved",
+    "service_admin": "partially_relieved",
+    "research": "partially_relieved",
+    "advising_supervision": "partially_relieved",
+    "clinical": "partially_relieved"
+   },
+   "relief_note": "perform half of their normal responsibilities",
+   "doc_ids": [
+    "2018_01_faculty_handbook_officers_of_instruction",
+    "2018_02_faculty_handbook_benefits",
+    "2018_03_new_parent_guide_spring2018"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R3",
+     "answer": "part_time_option",
+     "quote": "While they are on a part-time career appointment, faculty perform half of their normal responsibilities and are paid half of their normal salary but remain eligible to participate in the University’s benefits programs."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "While they are on a part-time career appointment, faculty perform half of their normal responsibilities and are paid half of their normal salary but remain eligible to participate in the University’s benefits programs."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "To assist full-time officers of instruction who must prepare for a tenure review while raising a family, the University allows those who are subject to the limits on nontenured service and have young children to retain their full-time status, and its associated benefits and privileges, while providing part-time service."
+    },
+    {
+     "field": "faculty_group_note",
+     "rule": "schema",
+     "answer": "tenured faculty may not hold it (noted)",
+     "quote": "Because of the purpose for which it was created, faculty with tenure and those who are exempt from the limits on nontenured service may not hold this type of appointment."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R6",
+     "answer": "any_parent, adoptive",
+     "quote": "To be eligible for the part-time career appointment, the faculty member must be primarily responsible for the care of a child under the age of nine and plan to devote the time freed up by the appointment to that responsibility."
+    },
+    {
+     "field": "caregiver_condition",
+     "rule": "R6",
+     "answer": "primary",
+     "quote": "To be eligible for the part-time career appointment, the faculty member must be primarily responsible for the care of a child under the age of nine and plan to devote the time freed up by the appointment to that responsibility."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "To assist full-time officers of instruction who must prepare for a tenure review while raising a family, the University allows those who are subject to the limits on nontenured service and have young children to retain their full-time status, and its associated benefits and privileges, while providing part-time service."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "Faculty may hold such an appointment as long as they meet the eligibility requirements for it and annually inform their chair and dean or vice president of their intention to continue to serve in a part-time capacity."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "half of their normal salary",
+     "quote": "While they are on a part-time career appointment, faculty perform half of their normal responsibilities and are paid half of their normal salary but remain eligible to participate in the University’s benefits programs."
+    },
+    {
+     "field": "relief",
+     "rule": "R3",
+     "answer": "all duties halved",
+     "quote": "While they are on a part-time career appointment, faculty perform half of their normal responsibilities and are paid half of their normal salary but remain eligible to participate in the University’s benefits programs."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "To be eligible for the part-time career appointment, the faculty member must be primarily responsible for the care of a child under the age of nine and plan to devote the time freed up by the appointment to that responsibility."
+    }
+   ],
+   "evidence": {
+    "mechanism": [
+     "While they are on a part-time career appointment, faculty perform half of their normal responsibilities and are paid half of their normal salary but remain eligible to participate in the University’s benefits programs."
+    ],
+    "faculty_group": [
+     "To assist full-time officers of instruction who must prepare for a tenure review while raising a family, the University allows those who are subject to the limits on nontenured service and have young children to retain their full-time status, and its associated benefits and privileges, while providing part-time service."
+    ],
+    "eligible_parent": [
+     "To be eligible for the part-time career appointment, the faculty member must be primarily responsible for the care of a child under the age of nine and plan to devote the time freed up by the appointment to that responsibility."
+    ],
+    "caregiver_condition": [
+     "To be eligible for the part-time career appointment, the faculty member must be primarily responsible for the care of a child under the age of nine and plan to devote the time freed up by the appointment to that responsibility."
+    ],
+    "entitlement": [
+     "To assist full-time officers of instruction who must prepare for a tenure review while raising a family, the University allows those who are subject to the limits on nontenured service and have young children to retain their full-time status, and its associated benefits and privileges, while providing part-time service.",
+     "Faculty may hold such an appointment as long as they meet the eligibility requirements for it and annually inform their chair and dean or vice president of their intention to continue to serve in a part-time capacity.",
+     "A part-time career appointment is authorized by the Provost on the recommendation of the department chair and dean or vice president."
+    ],
+    "pay_fraction": [
+     "While they are on a part-time career appointment, faculty perform half of their normal responsibilities and are paid half of their normal salary but remain eligible to participate in the University’s benefits programs."
+    ],
+    "relief": [
+     "While they are on a part-time career appointment, faculty perform half of their normal responsibilities and are paid half of their normal salary but remain eligible to participate in the University’s benefits programs."
+    ],
+    "time_window": [
+     "To be eligible for the part-time career appointment, the faculty member must be primarily responsible for the care of a child under the age of nine and plan to devote the time freed up by the appointment to that responsibility."
+    ]
+   },
+   "rule_applied": [
+    "R3",
+    "R6",
+    "V2",
+    "U1"
+   ]
+  },
+  {
+   "component_id": "columbia_university_c16",
+   "institution_label": "",
+   "description": "Each year of a part-time career appointment counts as half a year toward the up-or-out date.",
+   "mechanism": "tenure_clock",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "nontenured faculty on a part-time career appointment",
+   "eligible_parent": [
+    "any_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "primarily responsible for the care of a child",
+   "caregiver_condition": "primary",
+   "caregiver_condition_wording": "primarily responsible for the care of a child under the age of nine",
+   "entitlement": "guaranteed",
+   "duration_note": "half a year of clock time per year of part-time career appointment; no stated total",
+   "time_window": "child under the age of nine",
+   "sequence": [
+    {
+     "relation": "concurrent_with",
+     "component_id": "columbia_university_c15"
+    }
+   ],
+   "doc_ids": [
+    "2018_01_faculty_handbook_officers_of_instruction"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "V4",
+     "answer": "tenure_clock",
+     "quote": "Each year of a part-time career appointment is treated as a half-year in determining the officer’s up-or-out date, thereby providing additional time before the officer must be reviewed for tenure."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "To assist full-time officers of instruction who must prepare for a tenure review while raising a family, the University allows those who are subject to the limits on nontenured service and have young children to retain their full-time status, and its associated benefits and privileges, while providing part-time service."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R6",
+     "answer": "any_parent, adoptive",
+     "quote": "To be eligible for the part-time career appointment, the faculty member must be primarily responsible for the care of a child under the age of nine and plan to devote the time freed up by the appointment to that responsibility."
+    },
+    {
+     "field": "caregiver_condition",
+     "rule": "R6",
+     "answer": "primary",
+     "quote": "To be eligible for the part-time career appointment, the faculty member must be primarily responsible for the care of a child under the age of nine and plan to devote the time freed up by the appointment to that responsibility."
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "Each year of a part-time career appointment is treated as a half-year in determining the officer’s up-or-out date, thereby providing additional time before the officer must be reviewed for tenure."
+    },
+    {
+     "field": "sequence",
+     "rule": "V4",
+     "answer": "concurrent_with c15",
+     "quote": "Each year of a part-time career appointment is treated as a half-year in determining the officer’s up-or-out date, thereby providing additional time before the officer must be reviewed for tenure."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Each year of a part-time career appointment is treated as a half-year in determining the officer’s up-or-out date, thereby providing additional time before the officer must be reviewed for tenure."
+    }
+   ],
+   "evidence": {
+    "mechanism": [
+     "Each year of a part-time career appointment is treated as a half-year in determining the officer’s up-or-out date, thereby providing additional time before the officer must be reviewed for tenure."
+    ],
+    "faculty_group": [
+     "To assist full-time officers of instruction who must prepare for a tenure review while raising a family, the University allows those who are subject to the limits on nontenured service and have young children to retain their full-time status, and its associated benefits and privileges, while providing part-time service."
+    ],
+    "eligible_parent": [
+     "To be eligible for the part-time career appointment, the faculty member must be primarily responsible for the care of a child under the age of nine and plan to devote the time freed up by the appointment to that responsibility."
+    ],
+    "caregiver_condition": [
+     "To be eligible for the part-time career appointment, the faculty member must be primarily responsible for the care of a child under the age of nine and plan to devote the time freed up by the appointment to that responsibility."
+    ],
+    "entitlement": [
+     "Each year of a part-time career appointment is treated as a half-year in determining the officer’s up-or-out date, thereby providing additional time before the officer must be reviewed for tenure."
+    ],
+    "sequence": [
+     "Each year of a part-time career appointment is treated as a half-year in determining the officer’s up-or-out date, thereby providing additional time before the officer must be reviewed for tenure."
+    ]
+   },
+   "rule_applied": [
+    "V4",
+    "R6",
+    "U1"
+   ]
+  },
+  {
+   "component_id": "columbia_university_c17",
+   "institution_label": "FMLA Leaves",
+   "description": "Family and Medical Leave Act: 12 weeks of unpaid job-protected leave for a birth, adoption or foster placement, own medical disability or a spouse's serious illness; the University counts the first 12 weeks of its own child care, medical or workload-relief leave as FMLA leave.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "certain full- and part-time employees of the University (faculty)",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "the birth, adoption, or foster placement of a child; a medical disability; a serious illness of a spouse",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 12,
+    "units": "workweek",
+    "qualifier": "exact"
+   },
+   "duration_note": "handbook: 'The maximum period of FMLA leave for other purposes is 12 weeks in any 12-month period'; statute: 'a total of 12 workweeks of leave during any 12-month period' (R13: a total, exact). Runs alongside the University's leaves (S1).",
+   "service_requirement": "12 months and 1,250 hours",
+   "statute_source": "29 U.S.C. 2612(a)(1); eligibility 29 U.S.C. 2611(2)",
+   "statute_verified": true,
+   "runs_concurrently_with": [
+    "columbia_university_c1",
+    "columbia_university_c7",
+    "columbia_university_c9"
+   ],
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "sequence": [
+    {
+     "relation": "concurrent_with",
+     "component_id": "columbia_university_c1",
+     "note": "first 12 weeks of the childbirth medical leave are FMLA leave (S1)"
+    },
+    {
+     "relation": "concurrent_with",
+     "component_id": "columbia_university_c7",
+     "note": "first 12 weeks of any child care leave"
+    },
+    {
+     "relation": "concurrent_with",
+     "component_id": "columbia_university_c9",
+     "note": "first 12 weeks of workload relief not preceded by other FMLA leave"
+    }
+   ],
+   "doc_ids": [
+    "2018_01_faculty_handbook_officers_of_instruction",
+    "2018_03_new_parent_guide_spring2018",
+    "2026_00_us_fmla_29usc2612",
+    "2026_01_us_fmla_29usc2611_definitions"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "The Family and Medical Leave Act of 1993 (FMLA) gives certain full- and part-time employees of the University the right to unpaid leave to deal with the following:"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "The Family and Medical Leave Act of 1993 (FMLA) gives certain full- and part-time employees of the University the right to unpaid leave to deal with the following:"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "The Family and Medical Leave Act of 1993 (FMLA) gives certain full- and part-time employees of the University the right to unpaid leave to deal with the following:"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent, non_birth_parent, adoptive, foster",
+     "quote": "the birth, adoption, or foster placement of a child;"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "non_birth_parent (care of spouse)",
+     "quote": "a serious illness of a spouse, child, or parent; or"
+    },
+    {
+     "field": "entitlement",
+     "rule": "U2",
+     "answer": "guaranteed",
+     "quote": "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period for one or more of the following:"
+    },
+    {
+     "field": "duration",
+     "rule": "U2",
+     "answer": "12 workweeks exact",
+     "quote": "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period for one or more of the following:"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U2",
+     "answer": "12 months and 1,250 hours",
+     "quote": "To be eligible for an FMLA leave, faculty must have been employed and paid by the University for at least 12 months immediately preceding the commencement of the leave. In addition, they must have provided at least 1,250 hours of service during that 12-month period."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all relieved (formal leave)",
+     "quote": "The Family and Medical Leave Act of 1993 (FMLA) gives certain full- and part-time employees of the University the right to unpaid leave to deal with the following:"
+    },
+    {
+     "field": "sequence",
+     "rule": "S1",
+     "answer": "concurrent_with c1, c7",
+     "quote": "The first 12 weeks of any child care leave, including medical leaves required by pregnancy and childbirth, are deemed to be leave under the Family and Medical Leave Act of 1993 (FMLA) as described below."
+    },
+    {
+     "field": "sequence",
+     "rule": "S1",
+     "answer": "concurrent_with c9",
+     "quote": "If workload relief is not preceded by other periods of leave covered by the FMLA, the first 12 weeks are deemed to meet the requirements of that Act."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "the birth, adoption, or foster placement of a child;"
+    }
+   ],
+   "evidence": {
+    "mechanism": [
+     "The Family and Medical Leave Act of 1993 (FMLA) gives certain full- and part-time employees of the University the right to unpaid leave to deal with the following:"
+    ],
+    "faculty_group": [
+     "The Family and Medical Leave Act of 1993 (FMLA) gives certain full- and part-time employees of the University the right to unpaid leave to deal with the following:"
+    ],
+    "eligible_parent": [
+     "the birth, adoption, or foster placement of a child;",
+     "a serious illness of a spouse, child, or parent; or",
+     "Because of the birth of a son or daughter of the employee and in order to care for such son or daughter."
+    ],
+    "entitlement": [
+     "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period for one or more of the following:"
+    ],
+    "duration": [
+     "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period for one or more of the following:"
+    ],
+    "service_requirement": [
+     "To be eligible for an FMLA leave, faculty must have been employed and paid by the University for at least 12 months immediately preceding the commencement of the leave. In addition, they must have provided at least 1,250 hours of service during that 12-month period.",
+     "for at least 1,250 hours of service with such employer during the previous 12-month period."
+    ],
+    "relief": [
+     "The Family and Medical Leave Act of 1993 (FMLA) gives certain full- and part-time employees of the University the right to unpaid leave to deal with the following:"
+    ],
+    "sequence": [
+     "The first 12 weeks of any child care leave, including medical leaves required by pregnancy and childbirth, are deemed to be leave under the Family and Medical Leave Act of 1993 (FMLA) as described below.",
+     "If workload relief is not preceded by other periods of leave covered by the FMLA, the first 12 weeks are deemed to meet the requirements of that Act.",
+     "Consequently, the University considers the first 12 weeks of any such leave as fulfilling the requirements of the Family and Medical Leave Act, except for leaves arising from a family member’s military service in which case it counts for the first 26 weeks."
+    ]
+   },
+   "rule_applied": [
+    "U5",
+    "U2",
+    "R9",
+    "S1",
+    "U1"
+   ]
+  },
+  {
+   "component_id": "columbia_university_c18",
+   "institution_label": "",
+   "description": "Leave without salary for a compelling personal need (including family care beyond FMLA), at the Provost's discretion, generally up to one year.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Full-time faculty",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "Full-time faculty",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "up_to"
+   },
+   "duration_note": "'generally limited to a maximum of one year' (Q1); extensions possible",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "doc_ids": [
+    "2018_01_faculty_handbook_officers_of_instruction"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "U1",
+     "answer": "unpaid_leave",
+     "quote": "Full-time faculty may request a leave of absence without salary to deal with a compelling personal need."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Full-time faculty may request a leave of absence without salary to deal with a compelling personal need."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Full-time faculty may request a leave of absence without salary to deal with a compelling personal need."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U1",
+     "answer": "any_parent",
+     "quote": "Full-time faculty may request a leave of absence without salary to deal with a compelling personal need."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "Longer periods of leave for that purpose and all other types of personal leave are granted at the discretion of the Provost on the recommendation of the appropriate department chair, dean, or vice president."
+    },
+    {
+     "field": "duration",
+     "rule": "Q1",
+     "answer": "1 year up_to",
+     "quote": "Personal leaves are generally limited to a maximum of one year, but the Provost may authorize extensions on the recommendation of the department chair, dean, or vice president."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all relieved (formal leave)",
+     "quote": "Full-time faculty may request a leave of absence without salary to deal with a compelling personal need."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "Full-time faculty may request a leave of absence without salary to deal with a compelling personal need."
+    }
+   ],
+   "evidence": {
+    "mechanism": [
+     "Full-time faculty may request a leave of absence without salary to deal with a compelling personal need."
+    ],
+    "faculty_group": [
+     "Full-time faculty may request a leave of absence without salary to deal with a compelling personal need."
+    ],
+    "eligible_parent": [
+     "Full-time faculty may request a leave of absence without salary to deal with a compelling personal need."
+    ],
+    "entitlement": [
+     "Longer periods of leave for that purpose and all other types of personal leave are granted at the discretion of the Provost on the recommendation of the appropriate department chair, dean, or vice president."
+    ],
+    "duration": [
+     "Personal leaves are generally limited to a maximum of one year, but the Provost may authorize extensions on the recommendation of the department chair, dean, or vice president."
+    ],
+    "relief": [
+     "Full-time faculty may request a leave of absence without salary to deal with a compelling personal need."
+    ],
+    "description": [
+     "Faculty who take such leaves to care for seriously ill family members are entitled under the Family and Medical Leave Act of 1993 to at least 12 weeks of unpaid leave"
+    ]
+   },
+   "rule_applied": [
+    "U1",
+    "V2",
+    "Q1",
+    "R9"
+   ]
+  },
+  {
+   "component_id": "columbia_university_c19",
+   "institution_label": "Vacation",
+   "description": "Vacation accrued at two days per month (up to 23 days) by officers of instruction on 12-month calendars; faculty on nine-month calendars accrue none.",
+   "mechanism": "own_accrual",
+   "payer": "own_balance",
+   "faculty_group": "officers of instruction in programs with 12-month academic calendars",
+   "faculty_group_note": "Those who are on less than a 12-month academic calendar do not accrue vacation; Morningside faculty serve nine months",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "Full-time officers of instruction",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 23,
+    "units": "day",
+    "qualifier": "up_to"
+   },
+   "duration_note": "two days per month of full-time service, maximum 23 days (28 after 20 years); not accrued during leaves; may not be taken before earned",
+   "doc_ids": [
+    "2018_01_faculty_handbook_officers_of_instruction"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "own_accrual",
+     "quote": "earn two days of vacation for each month of full-time service, up to a maximum of 23 days, during their first 20 years of full-time appointment"
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "own_balance",
+     "quote": "They may not take vacation days that have not yet been earned."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "officers of instruction in programs with 12-month academic calendars",
+     "quote": "Full-time officers of instruction who teach in programs that have 12-month academic calendars earn vacation on an academic year basis. Those who are on less than a 12-month academic calendar do not accrue vacation."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U1",
+     "answer": "any_parent",
+     "quote": "Full-time officers of instruction who teach in programs that have 12-month academic calendars earn vacation on an academic year basis. Those who are on less than a 12-month academic calendar do not accrue vacation."
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "earn two days of vacation for each month of full-time service, up to a maximum of 23 days, during their first 20 years of full-time appointment"
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "23 days up_to",
+     "quote": "earn two days of vacation for each month of full-time service, up to a maximum of 23 days, during their first 20 years of full-time appointment"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "Full-time officers of instruction who teach in programs that have 12-month academic calendars earn vacation on an academic year basis. Those who are on less than a 12-month academic calendar do not accrue vacation."
+    }
+   ],
+   "evidence": {
+    "mechanism": [
+     "earn two days of vacation for each month of full-time service, up to a maximum of 23 days, during their first 20 years of full-time appointment"
+    ],
+    "faculty_group": [
+     "Full-time officers of instruction who teach in programs that have 12-month academic calendars earn vacation on an academic year basis. Those who are on less than a 12-month academic calendar do not accrue vacation."
+    ],
+    "eligible_parent": [
+     "Full-time officers of instruction who teach in programs that have 12-month academic calendars earn vacation on an academic year basis. Those who are on less than a 12-month academic calendar do not accrue vacation."
+    ],
+    "entitlement": [
+     "earn two days of vacation for each month of full-time service, up to a maximum of 23 days, during their first 20 years of full-time appointment"
+    ],
+    "duration": [
+     "earn two days of vacation for each month of full-time service, up to a maximum of 23 days, during their first 20 years of full-time appointment"
+    ]
+   },
+   "rule_applied": [
+    "R1",
+    "U1",
+    "R13"
+   ]
+  },
+  {
+   "component_id": "columbia_university_c20",
+   "institution_label": "New York State Paid Family Leave",
+   "description": "NY Paid Family Leave benefit in 2018: up to 8 weeks at 50% of average weekly wage (capped at 50% of the state average), to bond with a new child; does not apply to officers of instruction.",
+   "mechanism": "government_benefit",
+   "mechanism_note": "M1/R14: a state paid family leave programme (programs.csv, New York Paid Family Leave: government_benefit; payable from the first full day).",
+   "payer": "insurance_plan",
+   "faculty_group": "Officers of Research, Officers of the Libraries, Officers of Administration, Student Officers, Support Staff (not Officers of Instruction)",
+   "faculty_group_note": "Who Is Governed By This Policy; 'PFL does not apply to Officers of Instruction'",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "to bond with the employee's child ... after the child's birth, adoption or foster care placement",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 8,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "time_window": "during the first twelve months after the child's birth, adoption or foster care placement",
+   "service_requirement": "regularly 20 or more hours per week for at least 26 consecutive weeks, or 175 days",
+   "notice": "30 days' advance notice if foreseeable",
+   "dual_employee_rule": "both spouses may each take up to the maximum PFL benefit length",
+   "pay_fraction": "50% of the employee's average weekly wage or 50% of the state average weekly wage, whichever is less",
+   "pay_cap": "50% of the state average weekly wage",
+   "statute_source": "N.Y. Workers' Compensation Law art. 9 (Paid Family Leave); s. 204(1) (payable from the first full day)",
+   "statute_verified": false,
+   "sequence": [
+    {
+     "relation": "concurrent_with",
+     "component_id": "columbia_university_c21",
+     "note": "R21, programs.csv 0 weeks: 'Family leave benefits shall be payable to an eligible employee for the first full day when family leave is required' (WCL 204(1)); R21"
+    }
+   ],
+   "flags": [
+    "excludes_main_faculty",
+    "cross_reference_not_saved: New York Workers' Compensation Law art. 9, Paid Family Leave sections setting the 2018 length and benefit (only s. 204 is saved)",
+    "ambiguous: restriction: combined cap 26 weeks on c20 and NYS Disability Benefits"
+   ],
+   "doc_ids": [
+    "2018_04_ny_paid_family_leave_policy_nov2017",
+    "2018_03_new_parent_guide_spring2018"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "M1",
+     "answer": "government_benefit",
+     "quote": "In accordance with the New York State Paid Family Leave Program (PFL), Columbia University provides eligible employees with job-protected, paid leave to bond with a new child"
+    },
+    {
+     "field": "payer",
+     "rule": "M1",
+     "answer": "insurance_plan",
+     "quote": "The PFL Program is financed solely through employee payroll deductions."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "Officers of Research, Officers of the Libraries, Officers of Administration, Student Officers, Support Staff (not Officers of Instruction)",
+     "quote": "Full-time and Part-time Officers of Research (excluding Postdoctoral Research Fellows, Postdoctoral Clinical Fellows, and Postdoctoral Residency Fellows), Officers of the Libraries, Officers of Administration, Student Officers, Support Staff"
+    },
+    {
+     "field": "faculty_group_note",
+     "rule": "schema",
+     "answer": "excludes officers of instruction",
+     "quote": "PFL does not apply to Officers of Instruction"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "birth_parent, non_birth_parent, adoptive, foster",
+     "quote": "to bond with the employee’s child during the first twelve months after the child’s birth, adoption or foster care placement"
+    },
+    {
+     "field": "entitlement",
+     "rule": "U2",
+     "answer": "guaranteed",
+     "quote": "In accordance with the New York State Paid Family Leave Program (PFL), Columbia University provides eligible employees with job-protected, paid leave to bond with a new child"
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "8 weeks up_to",
+     "quote": "Eligible employees may take up to the maximum leave duration in any given 52 consecutive week period."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "20+ hours per week for 26 consecutive weeks",
+     "quote": "Regularly work 20 or more hours per week for at least 26 consecutive weeks"
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "50% of average weekly wage, capped",
+     "quote": "January 1, 2018 Eight (8) weeks 50% of the employee’s average weekly wage or 50%"
+    },
+    {
+     "field": "sequence",
+     "rule": "R21",
+     "answer": "concurrent_with c21, no offset (programs.csv: 0)",
+     "quote": "Any eligible employee who exercises his or her right to PFL will, upon the expiration of that leave, be entitled to be restored to the position held by the employee when the leave commenced"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "to bond with the employee’s child during the first twelve months after the child’s birth, adoption or foster care placement"
+    }
+   ],
+   "evidence": {
+    "mechanism": [
+     "In accordance with the New York State Paid Family Leave Program (PFL), Columbia University provides eligible employees with job-protected, paid leave to bond with a new child"
+    ],
+    "faculty_group": [
+     "Full-time and Part-time Officers of Research (excluding Postdoctoral Research Fellows, Postdoctoral Clinical Fellows, and Postdoctoral Residency Fellows), Officers of the Libraries, Officers of Administration, Student Officers, Support Staff"
+    ],
+    "eligible_parent": [
+     "to bond with the employee’s child during the first twelve months after the child’s birth, adoption or foster care placement"
+    ],
+    "entitlement": [
+     "In accordance with the New York State Paid Family Leave Program (PFL), Columbia University provides eligible employees with job-protected, paid leave to bond with a new child"
+    ],
+    "duration": [
+     "Eligible employees may take up to the maximum leave duration in any given 52 consecutive week period.",
+     "The maximum benefit is 8 weeks during the first year (2018)",
+     "January 1, 2018 Eight (8) weeks 50% of the employee’s average weekly wage or 50%"
+    ],
+    "service_requirement": [
+     "Regularly work 20 or more hours per week for at least 26 consecutive weeks"
+    ],
+    "pay_fraction": [
+     "January 1, 2018 Eight (8) weeks 50% of the employee’s average weekly wage or 50%"
+    ],
+    "sequence": [
+     "Any eligible employee who exercises his or her right to PFL will, upon the expiration of that leave, be entitled to be restored to the position held by the employee when the leave commenced"
+    ],
+    "flags": [
+     "An employee who is eligible for both NYSDBL and PFL during the same period of 52 consecutive weeks may not receive more than 26 total weeks of NYSDBL and PFL benefits during that period of time."
+    ],
+    "dual_employee_rule": [
+     "both spouses may each take up to the maximum PFL benefit length in any given 52-week period."
+    ],
+    "notice": [
+     "If the qualifying event is foreseeable, an eligible employee must provide 30 days’ advance notice"
+    ]
+   },
+   "rule_applied": [
+    "M1",
+    "R5",
+    "U2",
+    "R13",
+    "R21",
+    "U1"
+   ]
+  },
+  {
+   "component_id": "columbia_university_c21",
+   "institution_label": "New York State Paid Family Leave",
+   "description": "The job-protected leave of NY Paid Family Leave (8 weeks in 2018), with restoration to the same or a comparable position; does not apply to officers of instruction.",
+   "mechanism": "unpaid_leave",
+   "mechanism_note": "Checklist §5 example 8: a state paid-leave programme that protects the job is a government_benefit (c20) and an unpaid_leave for the protected weeks.",
+   "payer": "none",
+   "faculty_group": "Officers of Research, Officers of the Libraries, Officers of Administration, Student Officers, Support Staff (not Officers of Instruction)",
+   "faculty_group_note": "'PFL does not apply to Officers of Instruction'",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "to bond with the employee's child ... after the child's birth, adoption or foster care placement",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 8,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "time_window": "during the first twelve months after the child's birth, adoption or foster care placement",
+   "service_requirement": "regularly 20 or more hours per week for at least 26 consecutive weeks, or 175 days",
+   "statute_source": "N.Y. Workers' Compensation Law art. 9 (Paid Family Leave)",
+   "statute_verified": false,
+   "runs_concurrently_with": [
+    "FMLA"
+   ],
+   "sequence": [
+    {
+     "relation": "concurrent_with",
+     "component_id": "columbia_university_c17",
+     "note": "'FMLA leave and PFL will run concurrently'"
+    }
+   ],
+   "flags": [
+    "excludes_main_faculty",
+    "cross_reference_not_saved: New York Workers' Compensation Law art. 9, Paid Family Leave job-protection sections"
+   ],
+   "doc_ids": [
+    "2018_04_ny_paid_family_leave_policy_nov2017"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "M1",
+     "answer": "unpaid_leave",
+     "quote": "Any eligible employee who exercises his or her right to PFL will, upon the expiration of that leave, be entitled to be restored to the position held by the employee when the leave commenced"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Any eligible employee who exercises his or her right to PFL will, upon the expiration of that leave, be entitled to be restored to the position held by the employee when the leave commenced"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "Officers of Research, Officers of the Libraries, Officers of Administration, Student Officers, Support Staff (not Officers of Instruction)",
+     "quote": "Full-time and Part-time Officers of Research (excluding Postdoctoral Research Fellows, Postdoctoral Clinical Fellows, and Postdoctoral Residency Fellows), Officers of the Libraries, Officers of Administration, Student Officers, Support Staff"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "birth_parent, non_birth_parent, adoptive, foster",
+     "quote": "to bond with the employee’s child during the first twelve months after the child’s birth, adoption or foster care placement"
+    },
+    {
+     "field": "entitlement",
+     "rule": "U2",
+     "answer": "guaranteed",
+     "quote": "Any eligible employee who exercises his or her right to PFL will, upon the expiration of that leave, be entitled to be restored to the position held by the employee when the leave commenced"
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "8 weeks up_to",
+     "quote": "Eligible employees may take up to the maximum leave duration in any given 52 consecutive week period."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "20+ hours per week for 26 consecutive weeks",
+     "quote": "Regularly work 20 or more hours per week for at least 26 consecutive weeks"
+    },
+    {
+     "field": "sequence",
+     "rule": "S1",
+     "answer": "concurrent_with c17 (FMLA)",
+     "quote": "FMLA leave and PFL will run concurrently for any employee who is eligible for both types of leave."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "to bond with the employee’s child during the first twelve months after the child’s birth, adoption or foster care placement"
+    }
+   ],
+   "evidence": {
+    "mechanism": [
+     "Any eligible employee who exercises his or her right to PFL will, upon the expiration of that leave, be entitled to be restored to the position held by the employee when the leave commenced"
+    ],
+    "faculty_group": [
+     "Full-time and Part-time Officers of Research (excluding Postdoctoral Research Fellows, Postdoctoral Clinical Fellows, and Postdoctoral Residency Fellows), Officers of the Libraries, Officers of Administration, Student Officers, Support Staff",
+     "PFL does not apply to Officers of Instruction"
+    ],
+    "eligible_parent": [
+     "to bond with the employee’s child during the first twelve months after the child’s birth, adoption or foster care placement"
+    ],
+    "entitlement": [
+     "Any eligible employee who exercises his or her right to PFL will, upon the expiration of that leave, be entitled to be restored to the position held by the employee when the leave commenced"
+    ],
+    "duration": [
+     "Eligible employees may take up to the maximum leave duration in any given 52 consecutive week period."
+    ],
+    "service_requirement": [
+     "Regularly work 20 or more hours per week for at least 26 consecutive weeks"
+    ],
+    "sequence": [
+     "FMLA leave and PFL will run concurrently for any employee who is eligible for both types of leave."
+    ]
+   },
+   "rule_applied": [
+    "M1",
+    "R5",
+    "U2",
+    "R13",
+    "S1",
+    "U1"
+   ]
+  },
+  {
+   "component_id": "columbia_university_c22",
+   "institution_label": "New York City Earned Sick Time Act Policy",
+   "description": "Up to 40 hours of paid sick time per fiscal year for employees working in New York City, for their own illness or a family member's.",
+   "mechanism": "own_accrual",
+   "mechanism_note": "R1: an annual sick-time amount under the 'Earned Sick Time' Act; the saved summary does not say whether it is earned per hour worked or granted and restored; coded as an accrual.",
+   "payer": "own_balance",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "All Officers and Staff; all eligible employees who work in New York City",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent"
+   ],
+   "eligible_parent_wording": "illness or preventive care of one's self or one's family members",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 40,
+    "units": "hour",
+    "qualifier": "up_to"
+   },
+   "duration_note": "per fiscal year; 'In addition to other paid time off policies for one's own illness'",
+   "statute_source": "New York City Earned Sick Time Act",
+   "statute_verified": false,
+   "flags": [
+    "cross_reference_not_saved: Columbia policy 'New York City Earned Sick Time Act' (policylibrary.columbia.edu) and the Act",
+    "ambiguous: accrual mechanism not stated; coded own_accrual (R1) from the Act's title 'Earned Sick Time'"
+   ],
+   "doc_ids": [
+    "2018_03_new_parent_guide_spring2018"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "own_accrual",
+     "quote": "New York City Earned Sick Time Act Policy: In addition to other paid time off policies for one’s own illness, this provides all eligible employees who work in New York City up to a maximum of 40 hours of paid sick time per fiscal year, which can be used for illness or preventive care of one's self or one's family members."
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "own_balance",
+     "quote": "New York City Earned Sick Time Act Policy: In addition to other paid time off policies for one’s own illness, this provides all eligible employees who work in New York City up to a maximum of 40 hours of paid sick time per fiscal year, which can be used for illness or preventive care of one's self or one's family members."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "All Officers and Staff"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own illness), non_birth_parent (family care)",
+     "quote": "New York City Earned Sick Time Act Policy: In addition to other paid time off policies for one’s own illness, this provides all eligible employees who work in New York City up to a maximum of 40 hours of paid sick time per fiscal year, which can be used for illness or preventive care of one's self or one's family members."
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "New York City Earned Sick Time Act Policy: In addition to other paid time off policies for one’s own illness, this provides all eligible employees who work in New York City up to a maximum of 40 hours of paid sick time per fiscal year, which can be used for illness or preventive care of one's self or one's family members."
+    },
+    {
+     "field": "duration",
+     "rule": "R11",
+     "answer": "40 hours up_to (1 week)",
+     "quote": "New York City Earned Sick Time Act Policy: In addition to other paid time off policies for one’s own illness, this provides all eligible employees who work in New York City up to a maximum of 40 hours of paid sick time per fiscal year, which can be used for illness or preventive care of one's self or one's family members."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "New York City Earned Sick Time Act Policy: In addition to other paid time off policies for one’s own illness, this provides all eligible employees who work in New York City up to a maximum of 40 hours of paid sick time per fiscal year, which can be used for illness or preventive care of one's self or one's family members."
+    }
+   ],
+   "evidence": {
+    "mechanism": [
+     "New York City Earned Sick Time Act Policy: In addition to other paid time off policies for one’s own illness, this provides all eligible employees who work in New York City up to a maximum of 40 hours of paid sick time per fiscal year, which can be used for illness or preventive care of one's self or one's family members."
+    ],
+    "faculty_group": [
+     "All Officers and Staff"
+    ],
+    "eligible_parent": [
+     "New York City Earned Sick Time Act Policy: In addition to other paid time off policies for one’s own illness, this provides all eligible employees who work in New York City up to a maximum of 40 hours of paid sick time per fiscal year, which can be used for illness or preventive care of one's self or one's family members."
+    ],
+    "entitlement": [
+     "New York City Earned Sick Time Act Policy: In addition to other paid time off policies for one’s own illness, this provides all eligible employees who work in New York City up to a maximum of 40 hours of paid sick time per fiscal year, which can be used for illness or preventive care of one's self or one's family members."
+    ],
+    "duration": [
+     "New York City Earned Sick Time Act Policy: In addition to other paid time off policies for one’s own illness, this provides all eligible employees who work in New York City up to a maximum of 40 hours of paid sick time per fiscal year, which can be used for illness or preventive care of one's self or one's family members."
+    ]
+   },
+   "rule_applied": [
+    "R1",
+    "U5",
+    "R11",
+    "U1"
+   ]
+  },
+  {
+   "component_id": "columbia_university_c23",
+   "institution_label": "CUMC Faculty Leave Policy",
+   "description": "Medical Center (CUMC) faculty: parental leave up to 13 weeks at full salary, in some cases combining medical and parental leave; begins within the first year.",
+   "mechanism": "employer_paid_leave",
+   "payer": "employer",
+   "faculty_group": "CUMC (Medical Center) faculty",
+   "faculty_group_note": "CUMC Faculty Leave Policy: those eligible",
+   "faculty_scope": "Columbia University Medical Center only",
+   "eligible_parent": [
+    "any_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "the birth or adoption of the new child",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 13,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "duration_note": "in some cases a combination of medical and parental leave",
+   "time_window": "must begin within the first year after the birth or adoption",
+   "pay_fraction": "full salary",
+   "flags": [
+    "cross_reference_not_saved: CUMC Faculty Parental Leave Policy (ps.columbia.edu)",
+    "version_uncertain"
+   ],
+   "doc_ids": [
+    "2018_03_new_parent_guide_spring2018"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "employer_paid_leave",
+     "quote": "CUMC Faculty Leave Policy: those eligible will be entitled to parental leave for up to 13 weeks at full salary (which, in some cases, will be a combination of medical and parental leave)."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "CUMC Faculty Leave Policy: those eligible will be entitled to parental leave for up to 13 weeks at full salary (which, in some cases, will be a combination of medical and parental leave)."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "V3b",
+     "answer": "CUMC (Medical Center) faculty",
+     "quote": "CUMC Faculty Leave Policy: those eligible will be entitled to parental leave for up to 13 weeks at full salary (which, in some cases, will be a combination of medical and parental leave)."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "any_parent, adoptive",
+     "quote": "The period of parental leave must begin within the first year after the birth or adoption of the new child but may continue beyond that year."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "CUMC Faculty Leave Policy: those eligible will be entitled to parental leave for up to 13 weeks at full salary (which, in some cases, will be a combination of medical and parental leave)."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "13 weeks up_to",
+     "quote": "CUMC Faculty Leave Policy: those eligible will be entitled to parental leave for up to 13 weeks at full salary (which, in some cases, will be a combination of medical and parental leave)."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "full salary",
+     "quote": "CUMC Faculty Leave Policy: those eligible will be entitled to parental leave for up to 13 weeks at full salary (which, in some cases, will be a combination of medical and parental leave)."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "CUMC Faculty Leave Policy: those eligible will be entitled to parental leave for up to 13 weeks at full salary (which, in some cases, will be a combination of medical and parental leave)."
+    }
+   ],
+   "evidence": {
+    "mechanism": [
+     "CUMC Faculty Leave Policy: those eligible will be entitled to parental leave for up to 13 weeks at full salary (which, in some cases, will be a combination of medical and parental leave)."
+    ],
+    "faculty_group": [
+     "CUMC Faculty Leave Policy: those eligible will be entitled to parental leave for up to 13 weeks at full salary (which, in some cases, will be a combination of medical and parental leave)."
+    ],
+    "eligible_parent": [
+     "The period of parental leave must begin within the first year after the birth or adoption of the new child but may continue beyond that year."
+    ],
+    "entitlement": [
+     "CUMC Faculty Leave Policy: those eligible will be entitled to parental leave for up to 13 weeks at full salary (which, in some cases, will be a combination of medical and parental leave)."
+    ],
+    "duration": [
+     "CUMC Faculty Leave Policy: those eligible will be entitled to parental leave for up to 13 weeks at full salary (which, in some cases, will be a combination of medical and parental leave)."
+    ],
+    "pay_fraction": [
+     "CUMC Faculty Leave Policy: those eligible will be entitled to parental leave for up to 13 weeks at full salary (which, in some cases, will be a combination of medical and parental leave)."
+    ],
+    "time_window": [
+     "The period of parental leave must begin within the first year after the birth or adoption of the new child but may continue beyond that year."
+    ]
+   },
+   "rule_applied": [
+    "V3b",
+    "R5",
+    "V2",
+    "R13",
+    "U1"
+   ]
+  },
+  {
+   "component_id": "columbia_university_c24",
+   "institution_label": "Parental Care Leave",
+   "description": "Officers of administration and non-union support staff: unpaid parental care leave up to six months for a birth (own or partner's), adoption or foster placement.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "Officers of Administration and Non-Union Support Staff",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "self or spouse/partner has a baby, when adopting a child, or when becoming a foster parent",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "duration": {
+    "value": 6,
+    "units": "month",
+    "qualifier": "up_to"
+   },
+   "flags": [
+    "cross_reference_not_saved: Parental Care Leave policy (hr.columbia.edu/policy/parental-care-leave)"
+   ],
+   "doc_ids": [
+    "2018_03_new_parent_guide_spring2018"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "Parental Care Leave: eligible employees are able to take an unpaid parental care leave of up to six months when self or spouse/partner has a baby, when adopting a child, or when becoming a foster parent."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Parental Care Leave: eligible employees are able to take an unpaid parental care leave of up to six months when self or spouse/partner has a baby, when adopting a child, or when becoming a foster parent."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "Officers of Administration and Non-Union Support Staff",
+     "quote": "Officers of Administration and Non-Union Support Staff"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "birth_parent, non_birth_parent, adoptive, foster",
+     "quote": "Parental Care Leave: eligible employees are able to take an unpaid parental care leave of up to six months when self or spouse/partner has a baby, when adopting a child, or when becoming a foster parent."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "Parental Care Leave: eligible employees are able to take an unpaid parental care leave of up to six months when self or spouse/partner has a baby, when adopting a child, or when becoming a foster parent."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "6 months up_to",
+     "quote": "Parental Care Leave: eligible employees are able to take an unpaid parental care leave of up to six months when self or spouse/partner has a baby, when adopting a child, or when becoming a foster parent."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Parental Care Leave: eligible employees are able to take an unpaid parental care leave of up to six months when self or spouse/partner has a baby, when adopting a child, or when becoming a foster parent."
+    }
+   ],
+   "evidence": {
+    "mechanism": [
+     "Parental Care Leave: eligible employees are able to take an unpaid parental care leave of up to six months when self or spouse/partner has a baby, when adopting a child, or when becoming a foster parent."
+    ],
+    "faculty_group": [
+     "Officers of Administration and Non-Union Support Staff"
+    ],
+    "eligible_parent": [
+     "Parental Care Leave: eligible employees are able to take an unpaid parental care leave of up to six months when self or spouse/partner has a baby, when adopting a child, or when becoming a foster parent."
+    ],
+    "entitlement": [
+     "Parental Care Leave: eligible employees are able to take an unpaid parental care leave of up to six months when self or spouse/partner has a baby, when adopting a child, or when becoming a foster parent."
+    ],
+    "duration": [
+     "Parental Care Leave: eligible employees are able to take an unpaid parental care leave of up to six months when self or spouse/partner has a baby, when adopting a child, or when becoming a foster parent."
+    ]
+   },
+   "rule_applied": [
+    "R5",
+    "V2",
+    "R13",
+    "U1"
+   ]
+  },
+  {
+   "component_id": "columbia_university_c25",
+   "institution_label": "Workload Relief Plan",
+   "description": "Workload relief for full-time officers of the libraries with vested pension benefits who are primary carers of a newborn or newly adopted infant; terms not in the saved sources.",
+   "mechanism": "modified_duties",
+   "faculty_group": "Officers of the Libraries",
+   "eligible_parent": [
+    "any_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "primarily responsible for the care of a newborn child or a newly adopted infant",
+   "caregiver_condition": "primary",
+   "caregiver_condition_wording": "primarily responsible for the care of a newborn child or a newly adopted infant of one year or less",
+   "entitlement": "guaranteed_on_request",
+   "service_requirement": "vested pension benefits with the University",
+   "duration_note": "length and relief not stated in the saved sources",
+   "flags": [
+    "cross_reference_not_saved: Officers of the Libraries parental workload relief (columbia.edu/cu/vpaa/docs/libparental.html)"
+   ],
+   "doc_ids": [
+    "2018_03_new_parent_guide_spring2018"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "modified_duties",
+     "quote": "Workload Relief Plan: available for full-time Officers of the Libraries who have vested pension benefits with the University, and are primarily responsible for the care of a newborn child or a newly adopted infant of one year or less."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "Officers of the Libraries",
+     "quote": "Workload Relief Plan: available for full-time Officers of the Libraries who have vested pension benefits with the University, and are primarily responsible for the care of a newborn child or a newly adopted infant of one year or less."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R6",
+     "answer": "any_parent, adoptive",
+     "quote": "Workload Relief Plan: available for full-time Officers of the Libraries who have vested pension benefits with the University, and are primarily responsible for the care of a newborn child or a newly adopted infant of one year or less."
+    },
+    {
+     "field": "caregiver_condition",
+     "rule": "R6",
+     "answer": "primary",
+     "quote": "Workload Relief Plan: available for full-time Officers of the Libraries who have vested pension benefits with the University, and are primarily responsible for the care of a newborn child or a newly adopted infant of one year or less."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "Workload Relief Plan: available for full-time Officers of the Libraries who have vested pension benefits with the University, and are primarily responsible for the care of a newborn child or a newly adopted infant of one year or less."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "vested pension benefits",
+     "quote": "Workload Relief Plan: available for full-time Officers of the Libraries who have vested pension benefits with the University, and are primarily responsible for the care of a newborn child or a newly adopted infant of one year or less."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Workload Relief Plan: available for full-time Officers of the Libraries who have vested pension benefits with the University, and are primarily responsible for the care of a newborn child or a newly adopted infant of one year or less."
+    }
+   ],
+   "evidence": {
+    "mechanism": [
+     "Workload Relief Plan: available for full-time Officers of the Libraries who have vested pension benefits with the University, and are primarily responsible for the care of a newborn child or a newly adopted infant of one year or less."
+    ],
+    "faculty_group": [
+     "Workload Relief Plan: available for full-time Officers of the Libraries who have vested pension benefits with the University, and are primarily responsible for the care of a newborn child or a newly adopted infant of one year or less."
+    ],
+    "eligible_parent": [
+     "Workload Relief Plan: available for full-time Officers of the Libraries who have vested pension benefits with the University, and are primarily responsible for the care of a newborn child or a newly adopted infant of one year or less."
+    ],
+    "caregiver_condition": [
+     "Workload Relief Plan: available for full-time Officers of the Libraries who have vested pension benefits with the University, and are primarily responsible for the care of a newborn child or a newly adopted infant of one year or less."
+    ],
+    "entitlement": [
+     "Workload Relief Plan: available for full-time Officers of the Libraries who have vested pension benefits with the University, and are primarily responsible for the care of a newborn child or a newly adopted infant of one year or less."
+    ],
+    "service_requirement": [
+     "Workload Relief Plan: available for full-time Officers of the Libraries who have vested pension benefits with the University, and are primarily responsible for the care of a newborn child or a newly adopted infant of one year or less."
+    ]
+   },
+   "rule_applied": [
+    "R6",
+    "V2",
+    "U1"
+   ]
+  },
+  {
+   "component_id": "columbia_university_c26",
+   "institution_label": "Child Care Leave",
+   "description": "Officers of research: child care leave without salary or with partial salary for a birth (own or partner's), adoption or foster placement; terms in Handbook ch. IV, not saved.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "Officers of Research",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "self or spouse/partner has a baby, when adopting a child, or when becoming a foster parent",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "duration_note": "length not stated in the saved sources",
+   "flags": [
+    "cross_reference_not_saved: Faculty Handbook ch. IV, Officers of Research, Leaves of Absence"
+   ],
+   "doc_ids": [
+    "2018_03_new_parent_guide_spring2018",
+    "2018_01_faculty_handbook_officers_of_instruction"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "Child Care Leave: leave without salary or with partial salary when self or spouse/partner has a baby, when adopting a child, or when becoming a foster parent."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Child Care Leave: leave without salary or with partial salary when self or spouse/partner has a baby, when adopting a child, or when becoming a foster parent."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "Officers of Research",
+     "quote": "Officers of Research http://www.columbia.edu/cu/vpaa/handbook/research.html#leaves_of_absence"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "birth_parent, non_birth_parent, adoptive, foster",
+     "quote": "Child Care Leave: leave without salary or with partial salary when self or spouse/partner has a baby, when adopting a child, or when becoming a foster parent."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "Child Care Leave: leave without salary or with partial salary when self or spouse/partner has a baby, when adopting a child, or when becoming a foster parent."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Chapter IV contains similar information for officers of research."
+    }
+   ],
+   "evidence": {
+    "mechanism": [
+     "Child Care Leave: leave without salary or with partial salary when self or spouse/partner has a baby, when adopting a child, or when becoming a foster parent."
+    ],
+    "faculty_group": [
+     "Officers of Research http://www.columbia.edu/cu/vpaa/handbook/research.html#leaves_of_absence"
+    ],
+    "eligible_parent": [
+     "Child Care Leave: leave without salary or with partial salary when self or spouse/partner has a baby, when adopting a child, or when becoming a foster parent."
+    ],
+    "entitlement": [
+     "Child Care Leave: leave without salary or with partial salary when self or spouse/partner has a baby, when adopting a child, or when becoming a foster parent."
+    ]
+   },
+   "rule_applied": [
+    "R5",
+    "V2",
+    "U1"
+   ]
+  }
+ ],
+ "passage_dispositions": {
+  "2018_01_faculty_handbook_officers_of_instruction#001": {
+   "not_relevant": "page navigation and instructional titles"
+  },
+  "2018_01_faculty_handbook_officers_of_instruction#002": {
+   "not_relevant": "nine-month service calendar and outside appointments; informs the record calendar note only"
+  },
+  "2018_01_faculty_handbook_officers_of_instruction#003": {
+   "not_relevant": "appointment and promotion procedures"
+  },
+  "2018_01_faculty_handbook_officers_of_instruction#004": {
+   "not_relevant": "appointment review by the Provost"
+  },
+  "2018_01_faculty_handbook_officers_of_instruction#005": {
+   "not_relevant": "affirmative action procedures and notification of appointment"
+  },
+  "2018_01_faculty_handbook_officers_of_instruction#006": {
+   "not_relevant": "letters of appointment and the general eight-year limit; context for the tenure-clock components"
+  },
+  "2018_01_faculty_handbook_officers_of_instruction#007": {
+   "not_relevant": "switching between limited and exempt appointments"
+  },
+  "2018_01_faculty_handbook_officers_of_instruction#008": {
+   "used_in": [
+    "columbia_university_c13",
+    "columbia_university_c14"
+   ]
+  },
+  "2018_01_faculty_handbook_officers_of_instruction#009": {
+   "used_in": [
+    "columbia_university_c15",
+    "columbia_university_c16"
+   ]
+  },
+  "2018_01_faculty_handbook_officers_of_instruction#010": {
+   "used_in": [
+    "columbia_university_c15"
+   ]
+  },
+  "2018_01_faculty_handbook_officers_of_instruction#011": {
+   "not_relevant": "ninth-year exception and reappointment reviews"
+  },
+  "2018_01_faculty_handbook_officers_of_instruction#012": {
+   "not_relevant": "Arts and Sciences review schedule"
+  },
+  "2018_01_faculty_handbook_officers_of_instruction#013": {
+   "not_relevant": "review guidelines and practice-faculty appointments"
+  },
+  "2018_01_faculty_handbook_officers_of_instruction#014": {
+   "not_relevant": "practice-faculty Major Review"
+  },
+  "2018_01_faculty_handbook_officers_of_instruction#015": {
+   "not_relevant": "lecturer in (discipline) appointments"
+  },
+  "2018_01_faculty_handbook_officers_of_instruction#016": {
+   "not_relevant": "Medical Center appointment committee and tenure appointments"
+  },
+  "2018_01_faculty_handbook_officers_of_instruction#017": {
+   "used_in": [
+    "columbia_university_c7",
+    "columbia_university_c18"
+   ]
+  },
+  "2018_01_faculty_handbook_officers_of_instruction#018": {
+   "used_in": [
+    "columbia_university_c7",
+    "columbia_university_c17",
+    "columbia_university_c18"
+   ]
+  },
+  "2018_01_faculty_handbook_officers_of_instruction#019": {
+   "not_relevant": "leave request procedure and sabbatical entitlement (scholarly leave, not usable for a birth)"
+  },
+  "2018_01_faculty_handbook_officers_of_instruction#020": {
+   "not_relevant": "sabbatical postponement and return obligation"
+  },
+  "2018_01_faculty_handbook_officers_of_instruction#021": {
+   "not_relevant": "sabbatical applications and research leaves (scholarly purposes)"
+  },
+  "2018_01_faculty_handbook_officers_of_instruction#022": {
+   "used_in": [
+    "columbia_university_c1",
+    "columbia_university_c3",
+    "columbia_university_c6"
+   ]
+  },
+  "2018_01_faculty_handbook_officers_of_instruction#023": {
+   "used_in": [
+    "columbia_university_c1",
+    "columbia_university_c2",
+    "columbia_university_c6",
+    "columbia_university_c7",
+    "columbia_university_c8",
+    "columbia_university_c9",
+    "columbia_university_c10",
+    "columbia_university_c11",
+    "columbia_university_c12",
+    "columbia_university_c17",
+    "columbia_university_c18"
+   ]
+  },
+  "2018_01_faculty_handbook_officers_of_instruction#024": {
+   "not_relevant": "payroll deductions and salary advances"
+  },
+  "2018_01_faculty_handbook_officers_of_instruction#025": {
+   "not_relevant": "termination and notice of nonrenewal"
+  },
+  "2018_01_faculty_handbook_officers_of_instruction#026": {
+   "not_relevant": "termination on discontinuation of a unit"
+  },
+  "2018_01_faculty_handbook_officers_of_instruction#027": {
+   "not_relevant": "retirement agreements (final leave of absence for retirement)"
+  },
+  "2018_01_faculty_handbook_officers_of_instruction#028": {
+   "not_relevant": "grievance procedures"
+  },
+  "2018_02_faculty_handbook_benefits#001": {
+   "not_relevant": "overview of benefits eligibility"
+  },
+  "2018_02_faculty_handbook_benefits#002": {
+   "not_relevant": "dependent definitions and enrollment deadlines"
+  },
+  "2018_02_faculty_handbook_benefits#003": {
+   "used_in": [
+    "columbia_university_c3",
+    "columbia_university_c4",
+    "columbia_university_c5"
+   ]
+  },
+  "2018_02_faculty_handbook_benefits#004": {
+   "not_relevant": "life and long-term care insurance"
+  },
+  "2018_02_faculty_handbook_benefits#005": {
+   "not_relevant": "travel insurance, tuition and housing assistance"
+  },
+  "2018_02_faculty_handbook_benefits#006": {
+   "used_in": [
+    "columbia_university_c1",
+    "columbia_university_c7",
+    "columbia_university_c9",
+    "columbia_university_c12",
+    "columbia_university_c15",
+    "columbia_university_c17"
+   ]
+  },
+  "2018_02_faculty_handbook_benefits#007": {
+   "not_relevant": "lactation rooms and child-care centres (services; no leave, pay or relief)"
+  },
+  "2018_02_faculty_handbook_benefits#008": {
+   "not_relevant": "school admissions and backup care (a care service so parents need not take time off; not leave)"
+  },
+  "2018_02_faculty_handbook_benefits#009": {
+   "not_relevant": "retiree medical benefits"
+  },
+  "2018_03_new_parent_guide_spring2018#001": {
+   "used_in": [
+    "columbia_university_c2",
+    "columbia_university_c7",
+    "columbia_university_c8",
+    "columbia_university_c9",
+    "columbia_university_c10",
+    "columbia_university_c11",
+    "columbia_university_c13",
+    "columbia_university_c15",
+    "columbia_university_c17",
+    "columbia_university_c20",
+    "columbia_university_c22",
+    "columbia_university_c23",
+    "columbia_university_c24",
+    "columbia_university_c25",
+    "columbia_university_c26"
+   ]
+  },
+  "2018_04_ny_paid_family_leave_policy_nov2017#001": {
+   "used_in": [
+    "columbia_university_c20",
+    "columbia_university_c21"
+   ]
+  },
+  "2018_04_ny_paid_family_leave_policy_nov2017#002": {
+   "used_in": [
+    "columbia_university_c20",
+    "columbia_university_c21"
+   ]
+  },
+  "2018_04_ny_paid_family_leave_policy_nov2017#003": {
+   "used_in": [
+    "columbia_university_c20",
+    "columbia_university_c21"
+   ]
+  }
+ },
+ "notes": [
+  "Governing document: Faculty Handbook ch. III (Officers of Instruction), Leaves of Absence last revised November 2008, Wayback capture 2018-02-26; Benefits chapter capture 2018-02-27. Tenure-stream faculty on the Morningside campus (Arts and Sciences, Engineering and the other Morningside Faculties) are the main campus; the Medical Center (Dental Medicine, Medicine, Nursing, Public Health) is not (V3b).",
+  "2018_03 New Parents' Guide is a summary dated 4/25/2018 (after the reference date, same academic year); used only to supply details of provisions the handbook contains (the 6-8 week childbirth period, V1b; 'partial salary' for partial child care leave) and to record provisions for other groups whose governing documents are cited but not saved (governing document cited but not saved: c22-c26 flagged cross_reference_not_saved, not summary_only).",
+  "2018_04 Columbia NY Paid Family Leave policy (effective 2018-01-01) states 'PFL does not apply to Officers of Instruction'; coded for the covered groups (c20 benefit, c21 job-protected leave), flagged excludes_main_faculty.",
+  "The general Medical Leaves paragraph (leave with full salary up to six months for any illness or injury) is the same leave as c1 applied to childbirth; the specific childbirth paragraph governs, so the leave is coded once (c1) with the general plan's pay recorded as c3. Partial medical leave with partial salary for partial disability is not coded separately (not a childbirth provision).",
+  "Birth-parent chain: childbirth medical leave c1 (up to 6 months; full salary c2, typically 6-8 weeks, and c3 within it) -> child care leave without salary c7 (or partial c8), total normally one year (leave_limits 52); FMLA c17 alongside from the start of c1; disability beyond six months -> LTD c4 with unpaid medical leave c6. Alternative (in_lieu_of): workload relief c9 one term at full salary, or c10 a year at full salary with half load, or c11 a year at half salary.",
+  "Non-birth-parent chain: child care leave without salary c7 (up to one year, begun within the first year; or partial c8), FMLA c17 alongside from its start; alternative (in_lieu_of): workload relief c9 / c10 / c11 if the primary parent.",
+  "Workload relief versus the leaves: the plan 'is designed to replace the combination of medical and/or child care leaves', and eligible faculty 'may still elect to take those leaves rather than ask for workload relief', so c1, c2 and c7 are linked in_lieu_of c9-c11 (R15b); but the FMLA sentence ('If workload relief is not preceded by other periods of leave covered by the FMLA') suggests relief may follow a leave. Flagged ambiguous on c1; a reader taking the relief as additional to the childbirth medical leave would link c9 consecutive_after c1 (R3d).",
+  "Adoption assistance (reimbursement up to $5,000), dependent-care FSA, child-care benefit, backup care, lactation rooms, child-care centres and the School for Children are services or reimbursements, not leave, pay, relief or protection: not components.",
+  "Cited but not saved: Benefits in Brief (LTD terms); HR FMLA page; salary continuation plan documents; Faculty Handbook ch. IV (Officers of Research leaves); CUMC Faculty Parental Leave Policy; Parental Care Leave policy (HR); Officers of the Libraries workload relief (libparental.html); NYC Earned Sick Time Act policy; HR leaves-of-absence policy; Work/Life parental-leave policies page; University Statutes and Code of Academic Freedom and Tenure (Appendix B); School of Social Work Faculty Workload Policy (scholarly ETD, not parental)."
+ ],
+ "statutory_floor": {
+  "jurisdiction": "US",
+  "year": "2018",
+  "weeks_birth": 12.0,
+  "weeks_nonbirth": 12.0,
+  "statute": "Family and Medical Leave Act (FMLA) (29 U.S.C. 2611-2612)",
+  "source_doc": "2026_00_us_fmla_29usc2612",
+  "table": "statutory_baseline.csv"
+ }
+}

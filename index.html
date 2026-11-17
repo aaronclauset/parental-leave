@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Faculty Parental Leave Project</title>
+<meta name="description" content="Measuring and tracking the parental-leave benefits universities provide to their faculty. Data for 205 U.S. and Canadian universities, 2018.">
+<link rel="icon" href="assets/logo_green.png">
+<link rel="stylesheet" href="assets/site.css">
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js" integrity="sha384-CjloA8y00+1SDAUkjs099PVfnY2KmDC2BZnws9kh8D/lX1s46w6EPhpXdqMfjK6i" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="assets/common.js"></script>
+<script src="assets/explorer.js"></script>
+<script src="assets/prestige.js"></script>
+<script src="assets/viewer.js"></script>
+</head>
+<body>
+<a class="skip-link" href="#content">Skip to content</a>
+<div class="layout">
+<aside>
+  <img class="logo" src="assets/logo_green.png" alt="" width="400" height="400">
+  <div class="t">The Faculty Parental Leave Project</div>
+  <button class="menu-btn" type="button">Contents</button>
+  <nav id="toc" aria-label="Contents">
+    <a href="#top"><span>·</span>Overview</a>
+    <a href="#measured"><span>1</span>What we measure</a>
+    <a href="#receive"><span>2</span>What faculty receive</a>
+    <a href="#prestige"><span>3</span>Institutional prestige</a>
+    <a href="#policy"><span>4</span>Individual policies</a>
+    <a href="#datasets"><span>5</span>Data sets</a>
+    <a href="#protocol"><span>6</span>Data collection protocol</a>
+    <a href="#files"><span>7</span>Files and citation</a>
+    <a href="#about"><span>8</span>About us</a>
+  </nav>
+  <div class="act">
+    <a class="primary" href="#datasets">Data download</a>
+    <a href="https://github.com/aaronclauset/parental-leave/blob/master/data/2018/v2.0/DATA_DICTIONARY.md">Data dictionary</a>
+    <a href="#cite">Cite</a>
+  </div>
+</aside>
+<main>
+  <section class="sec lead" id="top">
+    <h1 id="content" tabindex="-1">The Faculty Parental Leave Project</h1>
+    <p>The Faculty Parental Leave Project aims to measure, track, and understand the parental-leave benefits that universities provide to faculty. Parenthood is among the most impactful events in a faculty career, and that impact can vary broadly across individuals and across institutions. This project aims to measure that variability, identify patterns in leave benefits, and understand how parenthood is changing for faculty.</p>
+    <p>Parental leave policies are often complicated, and many faculty are not aware of the benefits their own university provides. The Faculty Parental Leave Project aims to systematically collect and analyze these policies, and to provide open data for researchers to use to better understand how parenthood impacts academic careers.</p>
+    <p>This page describes several highlights of the project so far, and links to the data sets and their documentation for researchers who want to use them.</p>
+    <p><b>Update, November 2026:</b> a new version of the 2018 data (v2.0) is available. It re-collects the policies of the same <span data-n="institutions"></span> universities from each institution's own policy documents, and adds measures of pay and job protection. <a href="#v2">What changed</a>.</p>
+  </section>
+
+  <section class="sec" id="highlights">
+    <h2>Highlights from the 2018 data</h2>
+    <p>The highlights below are drawn from the 2018 data (v2.0): the parental-leave policies of <span data-n="institutions"></span> universities in the United States and Canada in the 2017–18 academic year, for tenured and tenure-track faculty.</p>
+    <ol class="mini-toc">
+      <li><a href="#measured">What we measure</a>: defining leave and relief benefits</li>
+      <li><a href="#receive">What faculty receive</a>: explore the distribution of leave benefits</li>
+      <li><a href="#prestige">Institutional prestige</a>: how benefits vary with prestige</li>
+      <li><a href="#policy">Individual policies</a>: every institution's policy, as a benefits timeline</li>
+    </ol>
+  </section>
+
+  <section class="sec" id="measured">
+    <h2><span class="num">1</span>Measuring parental leave benefits</h2>
+    <p>Parental leave benefits typically come in two forms. A <b>leave</b> is time away from all duties, often paid. <b>Relief</b> (or modified duties) keeps the faculty member employed at full pay while removing some duties, usually teaching.</p>
+    <p>The <b>primary value</b> measures, for each parent, the number of weeks of employer-paid leave or of full-pay relief, whichever is longer. Relief that follows a paid leave adds to this value. Pay drawn only from the faculty member's own sick or vacation balances is counted as zero, as is a general disability plan that has no provision specific to childbirth.</p>
+    <p>We record each value in two ways. The <b>guaranteed</b> value counts benefits a faculty member is entitled to, including those granted on request. The value <b>with discretionary benefits</b> adds in those benefits the institution may grant or refuse. Values are recorded separately for the <b>birth parent</b> and for the <b>non-birth parent</b> (a birth parent's partner). Four secondary values describe pay and job protection more broadly:</p>
+    <table class="plain">
+      <caption class="visually-hidden">Secondary values and their definitions</caption>
+      <tr><th scope="col">Secondary value</th><th scope="col">Definition</th></tr>
+      <tr><td>Full-pay-equivalent weeks</td><td>Weeks of employer-funded pay, each weighted by the share of salary paid</td></tr>
+      <tr><td>Paid weeks in total</td><td>Weeks with any pay because of the birth, from any source (employer, government benefit, insurance), excluding the faculty member's own balances</td></tr>
+      <tr><td>Sick-leave or disability plan weeks</td><td>Weeks a birth parent could be paid through a general sick-leave or disability plan, at its short-term entitlement</td></tr>
+      <tr><td>Job-protected weeks (a maximum)</td><td>The longest continuous period of job-protected leave because of the birth, including statutory leave; some of it requires a medical condition</td></tr>
+    </table>
+    <p class="note">Scope: main-campus tenured and tenure-track faculty with two years of service. Adoption and foster provisions are recorded in the policy encodings but are not counted here. The values describe entitlements granted by the policies.</p>
+  </section>
+
+  <section class="sec" id="receive">
+    <h2><span class="num">2</span>Variation in faculty leave benefits in 2018</h2>
+    <ul class="findings-list" id="findings"></ul>
+    <p>The figure below shows every institution's primary value. Explore the patterns by choosing the parent, whether to count discretionary benefits, and how to group the institutions (by country, region, public or private control, AAU membership, or limits on use); type a name to find an institution. Hover over a dot to see its value. Click a dot to see that institution's leave policy below.</p>
+    <div id="explorer"></div>
+    <p class="note" id="explorer-caption">Each dot is one institution with values available (<span data-n="available"></span> of <span data-n="institutions"></span>); the black bar is the group's median.</p>
+  </section>
+
+  <section class="sec" id="prestige">
+    <h2><span class="num">3</span>Better benefits at more prestigious universities</h2>
+    <p>Among U.S. universities, the primary value is larger at more prestigious institutions (prestige rank from Wapman et al. 2022): <span data-n="prestige"></span> Members of the Association of American Universities (AAU) in January 2018 offer more on average (<span data-n="aau"></span>).</p>
+    <div id="prestigeChart"></div>
+  </section>
+
+  <section class="sec" id="policy">
+    <h2><span class="num">4</span>Anatomy of a parental leave policy</h2>
+    <p>What a new parent receives as a benefit rarely comes from a single policy. It can depend on a parental-leave or childbirth policy, on sick leave and disability plans, on teaching relief, and even on statutes. To represent this complexity, each institution's policy was encoded as a set of <b>components</b>, one per provision that a document grants, linked in time. One component may run within, alongside, or after another component, or can be an alternative to it. The values are computed by placing the components on a timeline for each parent. The encodings hold <span data-n="components"></span> components in all. Explore any in-sample institution's components using the policy viewer below.</p>
+    <div id="viewer"><p class="note viewer-wait">The policy viewer loads as you scroll to it.</p></div>
+  </section>
+
+  <section class="sec" id="datasets">
+    <h2><span class="num">5</span>Parental leave data</h2>
+    <p>Each parental leave data set is a sample of institutions, measured at one point in time. The Faculty Parental Leave Project currently hosts the following data sets.</p>
+    <table class="plain">
+      <caption class="visually-hidden">Data sets hosted by the project</caption>
+      <tr><th scope="col">Sample</th><th scope="col">Version</th><th scope="col">Released</th><th scope="col">Institutions</th><th scope="col">Data</th></tr>
+      <tr><td>2018</td><td><b>v2.0</b> (current)</td><td>November 2026</td><td><span data-n="institutions"></span></td><td><a href="data/2018/v2.0/parental_leave_2018_v2.0.csv">CSV</a> · <a href="https://github.com/aaronclauset/parental-leave/blob/master/data/2018/v2.0/DATA_DICTIONARY.md">data dictionary</a> · <a href="release-notes/2018-v2.0.html">release notes</a></td></tr>
+      <tr><td>2018</td><td>v1.0</td><td>April 2018, corrected to January 2019</td><td>205</td><td><a href="data/2018/v1.0/parental_leave_policies.tsv">TSV</a> · <a href="archive/2018-v1.0/">archived 2018 site</a></td></tr>
+    </table>
+  </section>
+
+  <section class="sec" id="v2">
+    <h2>Revised 2018 data (v2.0): what changed</h2>
+    <p>For the guaranteed values, the v2.0 data agree with v1.0 at <span data-n="agree"></span> of the <span data-n="compared"></span> institutions that v1.0 recorded (weeks within 1 and the same kind of relief, for both parents). Differences have five causes:</p>
+    <ul id="causes"></ul>
+    <p><a href="release-notes/2018-v2.0.html">Release notes</a> describe the differences by institution, and the definitions that differ.</p>
+  </section>
+
+  <section class="sec" id="protocol">
+    <h2><span class="num">6</span>Data collection protocol</h2>
+    <p>For v2.0, policy discovery, collection, and extraction were automated using a structured pipeline of large language models (Claude) and deterministic code. Models found each institution's documents, read them and encoded each policy. Deterministic code then checked every record and computed every value. Questions the coding rules did not settle were decided by the research team and written into the rules. This protocol is reusable, and produces detailed audit trails for data provenance and analysis.</p>
+    <div class="flow">
+      <div><b>Find.</b> Models search for each institution's documents in force in the 2017–18 academic year (faculty handbooks, collective agreements, leave policies and benefit summaries), preferring web-archive captures from that time, and save them with their provenance.</div>
+      <div><b>Calendars.</b> For institutions whose leave is given in terms, models find the 2017–18 academic calendar, from which code computes the length of a term in weeks.</div>
+      <div><b>Read.</b> One model reads every usable document of an institution in full and encodes the policy as a set of structured components, under a fixed coding guide. Each coded field is paired with a verbatim quote from the source documents that supports it.</div>
+      <div><b>Check.</b> Code verifies every quote against the saved documents, and every code, field and link in the encoding. Questions the guide did not settle were decided by the research team, written into the guide, and applied as recorded corrections.</div>
+      <div><b>Compute.</b> Code derives numerical values from the encodings. The released code rebuilds the data set from the released encodings exactly.</div>
+    </div>
+    <p>An independent audit by a model from a different family re-read 20 randomly drawn institutions; 92.7% of its 600 values agreed with the data, and the disagreements were corrected. The whole collection used about 100 million tokens, or about $1,000 at API list prices as of November 2026.</p>
+    <h3>Limitations</h3>
+    <ul>
+      <li>A document's version in force on the reference date could not always be confirmed. Such components were flagged (<code>n_version_uncertain</code> in the data).</li>
+      <li>Policies were read by large language models. Each judgment was logged with its rule and quote, but some readings could be wrong.</li>
+      <li>For <span data-n="unavailable"></span> institutions the governing faculty policy was not publicly accessible, and no values were recorded.</li>
+    </ul>
+  </section>
+
+  <section class="sec" id="files">
+    <h2><span class="num">7</span>Files, licenses and citation</h2>
+    <p>The files of the 2018 v2.0 release are in <code>data/2018/v2.0/</code>:</p>
+    <ul class="files">
+      <li><a href="data/2018/v2.0/parental_leave_2018_v2.0.csv">parental_leave_2018_v2.0.csv</a>: the 2018 v2.0 data set, one row per institution; columns are described in the <a href="https://github.com/aaronclauset/parental-leave/blob/master/data/2018/v2.0/DATA_DICTIONARY.md">data dictionary</a></li>
+      <li><code>records/</code>: the structured encoding of each institution's policy, with the verbatim quote supporting every coded field</li>
+      <li><code>guidance/</code>: the coding rules, schema, checklist, field meanings, and reader instructions</li>
+      <li><a href="data/2018/v2.0/provenance/index.csv">provenance/index.csv</a>: list of every source document, with its URL and web-archive capture</li>
+      <li><code>reference/</code>: institution metadata, statutory baselines, programs, calendar term lengths and component tiers</li>
+      <li><code>code/</code>: the code that rebuilds every data file from the encodings (see <code>code/REPRODUCE.md</code>)</li>
+      <li><a href="data/2018/v2.0/v1_v2_differences.csv">v1_v2_differences.csv</a>: v1.0 and v2.0 values side by side, with the cause of each difference</li>
+      <li><code>data/2018/v1.0/</code>: archival copy of the 2018 v1.0 data set, and <a href="archive/2018-v1.0/">the 2018 website</a> that presented it</li>
+    </ul>
+    <p>All files are in the GitHub repository <a href="https://github.com/aaronclauset/parental-leave">aaronclauset/parental-leave</a>. The data, encodings, guidance and reference tables are released under the <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>, and the code under the BSD 3-Clause license. The verbatim quotes in the encodings are short excerpts of documents whose copyright remains with their owners.</p>
+    <div class="cite" id="cite"><b>Version 2.0:</b> A. Clauset, "Faculty parental-leave policies at U.S. and Canadian universities, 2018 v2.0" (2026). https://github.com/aaronclauset/parental-leave<br><br>
+      <b>Version 1.0:</b> A. C. Morgan, S. F. Way, M. Galesic, D. B. Larremore and A. Clauset, "Paid parental leave at US and Canadian universities" (2018).</div>
+  </section>
+
+  <section class="sec" id="about">
+    <h2><span class="num">8</span>About us</h2>
+    <p>The Faculty Parental Leave Project is based at the University of Colorado Boulder. Its contributors are:</p>
+    <ul>
+      <li><a href="https://allisonmorgan.github.io">Allison C. Morgan</a>, PhD</li>
+      <li><a href="http://samfway.com">Samuel F. Way</a>, PhD</li>
+      <li><a href="https://www.michaelhoefer.com">Michael J. D. Hoefer</a>, PhD</li>
+      <li><a href="https://larremorelab.github.io/dan">Daniel B. Larremore</a>, PhD</li>
+      <li><a href="https://sites.google.com/site/mirtagalesic/">Mirta Galesic</a>, PhD</li>
+      <li><a href="https://aaronclauset.github.io">Aaron Clauset</a>, PhD</li>
+    </ul>
+    <h3>Publications</h3>
+    <ul>
+      <li>A. C. Morgan, S. F. Way, M. J. D. Hoefer, D. B. Larremore, M. Galesic and A. Clauset, "The unequal impact of parenthood in academia." <i>Science Advances</i> 7(9), eabd1996 (2021). <a href="https://doi.org/10.1126/sciadv.abd1996">doi:10.1126/sciadv.abd1996</a></li>
+    </ul>
+    <h3>Funding</h3>
+    <p>The Faculty Parental Leave Project is supported in part by the National Science Foundation (award SMA 1633791), the Air Force Office of Scientific Research (award FA9550-19-1-0329), and a National Science Foundation Graduate Research Fellowship (award DGE 1650115).</p>
+  </section>
+
+  <section class="sec" id="log">
+    <h2>Change log</h2>
+    <ul class="log">
+      <li><span class="d">November 2026</span><span>Version 2.0 of the 2018 data: the policies re-collected from the governing documents, with encodings, guidance, provenance and code. Site rebuilt as the project's home.</span></li>
+      <li><span class="d">2019-01-28</span><span>v1.0 corrections: Virginia institutions updated after the governor's mandate; George Mason and Old Dominion.</span></li>
+      <li><span class="d">2018-10-24</span><span>v1.0 correction: UMass Amherst's policy includes one semester of leave.</span></li>
+      <li><span class="d">2018-04-12</span><span>v1.0 corrections through 2018-04-26: Penn, Notre Dame, Chicago, NYU, UMass Dartmouth, New Brunswick, UBC, Dalhousie and Memorial.</span></li>
+      <li><span class="d">2018-04-13</span><span>A comparison with parental leave in the technology industry, now kept as an <a href="archive/2018-v1.0/industry_academia.html">archived page</a>.</span></li>
+      <li><span class="d">2018-04-11</span><span>v1.0 data set and site published, with Morgan et al. (2018).</span></li>
+    </ul>
+  </section>
+</main>
+</div>
+<script>
+(async () => {
+  PL.sideNav();
+  const { csv, diffs } = await PL.load("csv", "diffs");
+  const avail = csv.filter(d => d.values_available === "yes");
+  const set = (k, v) => document.querySelectorAll(`[data-n="${k}"]`).forEach(e => (e.textContent = v));
+  const med = (rs, c) => PL.median(rs.map(d => d[c]));
+  set("institutions", csv.length);
+  set("available", avail.length);
+  set("unavailable", csv.length - avail.length);
+  set("components", d3.sum(csv, d => d.n_components).toLocaleString("en-US"));
+  // findings, as sentences computed from the CSV
+  const zero = c => PL.pct(avail.filter(d => d[c] === 0).length, avail.length);
+  const rises = PL.pct(avail.filter(d => d.birth_weeks_disc > d.birth_weeks).length, avail.length);
+  const us = avail.filter(d => d.country === "US"), ca = avail.filter(d => d.country !== "US");
+  const pub = us.filter(d => d.control === "public"), priv = us.filter(d => d.control === "private");
+  const wk = v => `${PL.fmt(v)} week${v === 1 ? "" : "s"}`;
+  const F = [
+    `The median institution guarantees a birth parent ${wk(med(avail, "birth_weeks"))} of paid leave or relief, and ${zero("birth_weeks")}% of institutions guarantee zero weeks.`,
+    `Non-birth parents receive less: the median guarantee is ${wk(med(avail, "nonbirth_weeks"))}, and ${zero("nonbirth_weeks")}% of institutions guarantee none.`,
+    `At ${rises}% of institutions, a birth parent could receive more leave if the institution grants benefits at its discretion.`,
+    `U.S. private universities guarantee a birth parent a median of ${wk(med(priv, "birth_weeks"))}, compared to ${wk(med(pub, "birth_weeks"))} at U.S. public universities.`,
+    `Canadian universities guarantee a birth parent a median of ${wk(med(ca, "birth_weeks"))}, compared to ${wk(med(us, "birth_weeks"))} in the U.S. All Canadian institutions top up the government parental benefit (EI, or QPIP in Quebec).`,
+  ];
+  d3.select("#findings").selectAll("li").data(F).join("li").text(d => d);
+  // the policy viewer's files (about 2.4 MB) load only when the viewer comes near the screen, or when a dot is clicked
+  let viewerReady = null;
+  const viewer = () => (viewerReady ||= PL.load("timelines", "provenance")
+    .then(({ timelines, provenance }) => Viewer("#viewer", timelines, provenance, csv, "carnegie_mellon_university"))
+    .catch(err => { viewerReady = null; throw err; }));
+  const near = new IntersectionObserver(es => { if (es.some(e => e.isIntersecting)) { near.disconnect(); viewer().catch(() => {}); } },
+    { rootMargin: "800px 0px" });
+  near.observe(document.getElementById("viewer"));
+  Explorer("#explorer", csv, { captionId: "explorer-caption", onPick: (id, parent) => viewer().then(v => v.show(id, parent)).catch(() => {}) });
+  // prestige: correlation and AAU medians, from the CSV
+  const ranked = us.filter(d => d.prestige_rank != null);
+  const rank = a => { const s = a.map((v, i) => [v, i]).sort((x, y) => x[0] - y[0]); const r = Array(a.length);
+    for (let i = 0; i < s.length;) { let j = i; while (j + 1 < s.length && s[j + 1][0] === s[i][0]) j++; for (let k = i; k <= j; k++) r[s[k][1]] = (i + j) / 2; i = j + 1; } return r; };
+  const rx = rank(ranked.map(d => d.prestige_rank)), ry = rank(ranked.map(d => d.birth_weeks));
+  const mx = d3.mean(rx), my = d3.mean(ry);
+  const rho = d3.sum(rx, (v, i) => (v - mx) * (ry[i] - my)) / Math.sqrt(d3.sum(rx, v => (v - mx) ** 2) * d3.sum(ry, v => (v - my) ** 2));
+  set("prestige", `the Spearman correlation between prestige rank and the birth parent's guaranteed weeks is ${rho.toFixed(2)} (${ranked.length} institutions; rank 1 is the most prestigious, so a negative value means more weeks at more prestigious institutions).`);
+  const aau = us.filter(d => d.aau_member_2018), non = us.filter(d => !d.aau_member_2018);
+  set("aau", `median ${PL.fmt(med(aau, "birth_weeks"))} weeks for the birth parent at the ${aau.length} U.S. members, compared to ${PL.fmt(med(non, "birth_weeks"))} at non-AAU institutions`);
+  Prestige("#prestigeChart", csv, diffs);
+  // version 2.0: agreement and causes, from the differences file
+  const compared = diffs.filter(d => d.agree_guaranteed !== "");
+  set("agree", compared.filter(d => d.agree_guaranteed === "1").length);
+  set("compared", compared.length);
+  const CAUSES = [["rule_difference", "Rule differences", "v2.0 counts a provision differently from v1.0; for example, relief that follows a paid leave adds to it."],
+    ["v1_missing_now_found", "Provisions missing in v1.0", "v1.0 had no value or missed a provision that v2.0 found."],
+    ["v1_error", "Errors in v1.0", "v1.0 misread a policy or applied it to the wrong parent."],
+    ["not_determinable", "Indeterminable", "v2.0 could not find the governing faculty policy."],
+    ["different_reference_date", "Different reference dates", "v1.0 read a policy that came into force later than 1 January 2018."]];
+  const counts = d3.rollup(compared.filter(d => d.cause_guaranteed), v => v.length, d => d.cause_guaranteed);
+  d3.select("#causes").selectAll("li").data(CAUSES).join("li")
+    .html(([k, label, text], i) => `<b>${label}</b> (${counts.get(k) || 0}${i === 0 ? " institutions" : ""}): ${text}`);
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,2379 @@
+{
+ "institution": "Kent State University",
+ "slug": "kent_state_university",
+ "country": "US",
+ "model": "claude-opus-5-5",
+ "codebook_version": "1.25",
+ "schema_version": "1.25",
+ "reference_date": "2018-02-22",
+ "calendar": {
+  "term_weeks": null,
+  "note": "semesters named without a length ('any regular academic term, that is, spring or fall semesters or the ten-week summer session'); semester default (R8)",
+  "kind": "semester"
+ },
+ "documents": [
+  {
+   "doc_id": "2018_01_aaup_ksu_tt_cba_2015_2018",
+   "url": "https://dam.assets.ohio.gov/image/upload/serb.ohio.gov/PDF/Contracts/2015/15-MED-04-0405.pdf",
+   "title": "Collective Bargaining Agreement, Kent State University and AAUP Kent State Chapter, Tenured/Tenure-Track Bargaining Unit, 2015-2018",
+   "version_or_effective_date": "effective August 19, 2015, in force until August 18, 2018",
+   "retrieved": "2026-10-22T18:35:42+00:00"
+  },
+  {
+   "doc_id": "2018_02_policy_6_13_probationary_period_modification",
+   "url": "https://www.kent.edu/policyreg/university-policy-and-procedure-governing-modification-faculty-probationary-period",
+   "title": "Policy 6-13: University policy and procedure governing modification of the faculty probationary period",
+   "version_or_effective_date": "Policy Effective Date Mar. 01, 2015",
+   "retrieved": "2026-10-22T18:37:52+00:00"
+  },
+  {
+   "doc_id": "2018_03_policy_6_11_11_fmla_leave",
+   "url": "http://www.kent.edu:80/policyreg/administrative-policy-regarding-leave-under-fmla",
+   "title": "Policy 6-11.11: Administrative policy regarding leave under the FMLA",
+   "version_or_effective_date": "Policy Effective Date Mar. 01, 2015",
+   "retrieved": "2026-10-22T18:37:58+00:00"
+  },
+  {
+   "doc_id": "2018_04_policy_faculty_leave_without_pay",
+   "url": "https://www.kent.edu/policyreg/administrative-policy-regarding-faculty-leaves-absence-without-pay",
+   "title": "Policy 6-11.9: Administrative policy regarding faculty leaves of absence without pay",
+   "version_or_effective_date": "Policy Effective Date Mar. 01, 2015",
+   "retrieved": "2026-10-22T18:38:27+00:00"
+  },
+  {
+   "doc_id": "2018_05_policy_temporary_disability_leave",
+   "url": "http://www.kent.edu:80/policyreg/administrative-policy-regarding-leave-absence-temporary-disability",
+   "title": "Policy 6-11.3: Administrative policy regarding leave of absence for temporary disability",
+   "version_or_effective_date": "Policy Effective Date Mar. 01, 2015",
+   "retrieved": "2026-10-22T18:38:12+00:00"
+  },
+  {
+   "doc_id": "2018_06_policy_sick_leave_unclassified",
+   "url": "http://www.kent.edu:80/policyreg/administrative-policy-and-procedures-regarding-sick-leave-salaried-unclassified-employees",
+   "title": "Policy 6-11.1: Administrative policy and procedures regarding sick leave for salaried unclassified employees including faculty",
+   "version_or_effective_date": "Policy Effective Date Oct. 15, 2015",
+   "retrieved": "2026-10-22T18:38:18+00:00"
+  },
+  {
+   "doc_id": "2026_00_us_fmla_29usc2612",
+   "url": "https://www.law.cornell.edu/uscode/text/29/2612",
+   "title": "29 U.S.C. 2612 (FMLA leave requirement)",
+   "version_or_effective_date": "2026 text; leave length unchanged since 1993",
+   "retrieved": "2026-10-19"
+  }
+ ],
+ "missing": false,
+ "scope_accounting": {
+  "C1": {
+   "components": [
+    "kent_state_university_c1",
+    "kent_state_university_c2",
+    "kent_state_university_c6",
+    "kent_state_university_c8"
+   ]
+  },
+  "C2": {
+   "absent": {
+    "documents": [
+     "2018_01_aaup_ksu_tt_cba_2015_2018",
+     "2018_02_policy_6_13_probationary_period_modification",
+     "2018_03_policy_6_11_11_fmla_leave",
+     "2018_04_policy_faculty_leave_without_pay",
+     "2018_05_policy_temporary_disability_leave",
+     "2018_06_policy_sick_leave_unclassified"
+    ],
+    "terms": [
+     "modified duties",
+     "teaching relief",
+     "release",
+     "reduced load",
+     "workload",
+     "course release",
+     "parental"
+    ]
+   }
+  },
+  "C3": {
+   "components": [
+    "kent_state_university_c3",
+    "kent_state_university_c4",
+    "kent_state_university_c5",
+    "kent_state_university_c7"
+   ]
+  },
+  "C4": {
+   "components": [
+    "kent_state_university_c10"
+   ],
+   "not_components": [
+    {
+     "statute": "FMLA military family leave and qualifying exigency leave (29 U.S.C. 2612(a)(1)(E), (a)(3))",
+     "reason": "other sections of the Act, unrelated to becoming a parent (U4)"
+    },
+    {
+     "statute": "Ohio Revised Code sections 124.38 and 124.39 (sick leave)",
+     "reason": "the policy implements them for University employees; its provision is coded as c3 (own accrual); statute text not saved"
+    },
+    {
+     "statute": "USERRA (via policy 3342-6-11.6, military leave)",
+     "reason": "military reemployment; unrelated to becoming a parent (U4)"
+    },
+    {
+     "statute": "Ohio Revised Code Chapter 4117 (sections 4117.01, 4117.08, 4117.09, 4117.14, 4117.18)",
+     "reason": "public-employee collective bargaining; unrelated to becoming a parent"
+    },
+    {
+     "statute": "Ohio Revised Code sections 3345.011 and 3345.14",
+     "reason": "definition of state university; intellectual property; unrelated"
+    },
+    {
+     "statute": "Ohio Revised Code section 149.43 (open records)",
+     "reason": "unrelated to becoming a parent"
+    },
+    {
+     "statute": "Ohio Revised Code section 2213.04 (release of decedent's wages)",
+     "reason": "sick leave conversion on death; unrelated"
+    },
+    {
+     "statute": "Internal Revenue Code sections 125 and 132",
+     "reason": "pre-tax benefit and transportation plans; no leave, pay or protection for a new parent"
+    },
+    {
+     "statute": "Copyright Revision Act of 1976, section 201(b)",
+     "reason": "intellectual property; unrelated"
+    },
+    {
+     "statute": "workers' compensation (named in the FMLA and sick leave policies)",
+     "reason": "work injury benefit; unrelated to becoming a parent"
+    }
+   ]
+  },
+  "C5": {
+   "components": [
+    "kent_state_university_c3",
+    "kent_state_university_c5",
+    "kent_state_university_c10"
+   ]
+  },
+  "C6": {
+   "components": [
+    "kent_state_university_c9",
+    "kent_state_university_c15",
+    "kent_state_university_c16"
+   ]
+  },
+  "C7": {
+   "components": [
+    "kent_state_university_c11",
+    "kent_state_university_c12",
+    "kent_state_university_c13",
+    "kent_state_university_c14"
+   ]
+  },
+  "C8": {
+   "absent": {
+    "documents": [
+     "2018_01_aaup_ksu_tt_cba_2015_2018",
+     "2018_02_policy_6_13_probationary_period_modification",
+     "2018_03_policy_6_11_11_fmla_leave",
+     "2018_04_policy_faculty_leave_without_pay",
+     "2018_05_policy_temporary_disability_leave",
+     "2018_06_policy_sick_leave_unclassified"
+    ],
+    "terms": [
+     "part-time",
+     "part time",
+     "reduced appointment",
+     "phased return",
+     "fractional appointment"
+    ]
+   }
+  },
+  "C9": {
+   "absent": {
+    "documents": [
+     "2018_01_aaup_ksu_tt_cba_2015_2018",
+     "2018_02_policy_6_13_probationary_period_modification",
+     "2018_03_policy_6_11_11_fmla_leave",
+     "2018_04_policy_faculty_leave_without_pay",
+     "2018_05_policy_temporary_disability_leave",
+     "2018_06_policy_sick_leave_unclassified"
+    ],
+    "terms": [
+     "accommodation",
+     "transfer",
+     "less strenuous",
+     "hazard",
+     "pregnancy discrimination",
+     "same as other"
+    ]
+   }
+  },
+  "C10": {
+   "absent": {
+    "documents": [
+     "2018_01_aaup_ksu_tt_cba_2015_2018",
+     "2018_02_policy_6_13_probationary_period_modification",
+     "2018_03_policy_6_11_11_fmla_leave",
+     "2018_04_policy_faculty_leave_without_pay",
+     "2018_05_policy_temporary_disability_leave",
+     "2018_06_policy_sick_leave_unclassified"
+    ],
+    "terms": [
+     "first days of FMLA",
+     "regular work time",
+     "paid FMLA",
+     "paid leave"
+    ]
+   }
+  }
+ },
+ "passage_dispositions": {
+  "2018_01_aaup_ksu_tt_cba_2015_2018#001": {
+   "not_relevant": "table of contents"
+  },
+  "2018_01_aaup_ksu_tt_cba_2015_2018#002": {
+   "not_relevant": "table of contents"
+  },
+  "2018_01_aaup_ksu_tt_cba_2015_2018#003": {
+   "not_relevant": "governance, grievance, workload, promotion, tenure or reappointment procedure; no leave, pay or tenure-clock provision"
+  },
+  "2018_01_aaup_ksu_tt_cba_2015_2018#004": {
+   "not_relevant": "governance, grievance, workload, promotion, tenure or reappointment procedure; no leave, pay or tenure-clock provision"
+  },
+  "2018_01_aaup_ksu_tt_cba_2015_2018#005": {
+   "not_relevant": "governance, grievance, workload, promotion, tenure or reappointment procedure; no leave, pay or tenure-clock provision"
+  },
+  "2018_01_aaup_ksu_tt_cba_2015_2018#006": {
+   "not_relevant": "governance, grievance, workload, promotion, tenure or reappointment procedure; no leave, pay or tenure-clock provision"
+  },
+  "2018_01_aaup_ksu_tt_cba_2015_2018#007": {
+   "not_relevant": "governance, grievance, workload, promotion, tenure or reappointment procedure; no leave, pay or tenure-clock provision"
+  },
+  "2018_01_aaup_ksu_tt_cba_2015_2018#008": {
+   "not_relevant": "governance, grievance, workload, promotion, tenure or reappointment procedure; no leave, pay or tenure-clock provision"
+  },
+  "2018_01_aaup_ksu_tt_cba_2015_2018#009": {
+   "not_relevant": "governance, grievance, workload, promotion, tenure or reappointment procedure; no leave, pay or tenure-clock provision"
+  },
+  "2018_01_aaup_ksu_tt_cba_2015_2018#010": {
+   "not_relevant": "governance, grievance, workload, promotion, tenure or reappointment procedure; no leave, pay or tenure-clock provision"
+  },
+  "2018_01_aaup_ksu_tt_cba_2015_2018#011": {
+   "not_relevant": "governance, grievance, workload, promotion, tenure or reappointment procedure; no leave, pay or tenure-clock provision"
+  },
+  "2018_01_aaup_ksu_tt_cba_2015_2018#012": {
+   "not_relevant": "governance, grievance, workload, promotion, tenure or reappointment procedure; no leave, pay or tenure-clock provision"
+  },
+  "2018_01_aaup_ksu_tt_cba_2015_2018#013": {
+   "not_relevant": "governance, grievance, workload, promotion, tenure or reappointment procedure; no leave, pay or tenure-clock provision"
+  },
+  "2018_01_aaup_ksu_tt_cba_2015_2018#014": {
+   "not_relevant": "governance, grievance, workload, promotion, tenure or reappointment procedure; no leave, pay or tenure-clock provision"
+  },
+  "2018_01_aaup_ksu_tt_cba_2015_2018#015": {
+   "not_relevant": "governance, grievance, workload, promotion, tenure or reappointment procedure; no leave, pay or tenure-clock provision"
+  },
+  "2018_01_aaup_ksu_tt_cba_2015_2018#016": {
+   "not_relevant": "governance, grievance, workload, promotion, tenure or reappointment procedure; no leave, pay or tenure-clock provision"
+  },
+  "2018_01_aaup_ksu_tt_cba_2015_2018#017": {
+   "not_relevant": "governance, grievance, workload, promotion, tenure or reappointment procedure; no leave, pay or tenure-clock provision"
+  },
+  "2018_01_aaup_ksu_tt_cba_2015_2018#018": {
+   "not_relevant": "governance, grievance, workload, promotion, tenure or reappointment procedure; no leave, pay or tenure-clock provision"
+  },
+  "2018_01_aaup_ksu_tt_cba_2015_2018#019": {
+   "not_relevant": "retrenchment procedure"
+  },
+  "2018_01_aaup_ksu_tt_cba_2015_2018#020": {
+   "not_relevant": "retrenchment procedure"
+  },
+  "2018_01_aaup_ksu_tt_cba_2015_2018#021": {
+   "not_relevant": "retrenchment notice"
+  },
+  "2018_01_aaup_ksu_tt_cba_2015_2018#022": {
+   "not_relevant": "retrenchment; promotion policy reference"
+  },
+  "2018_01_aaup_ksu_tt_cba_2015_2018#023": {
+   "not_relevant": "tenure/reappointment policy references and salary"
+  },
+  "2018_01_aaup_ksu_tt_cba_2015_2018#024": {
+   "used_in": [
+    "kent_state_university_c5",
+    "kent_state_university_c15"
+   ]
+  },
+  "2018_01_aaup_ksu_tt_cba_2015_2018#025": {
+   "not_relevant": "life insurance and Section 125 plan; no leave"
+  },
+  "2018_01_aaup_ksu_tt_cba_2015_2018#026": {
+   "used_in": [
+    "kent_state_university_c3",
+    "kent_state_university_c6",
+    "kent_state_university_c7",
+    "kent_state_university_c8",
+    "kent_state_university_c16"
+   ]
+  },
+  "2018_01_aaup_ksu_tt_cba_2015_2018#027": {
+   "used_in": [
+    "kent_state_university_c1",
+    "kent_state_university_c2",
+    "kent_state_university_c10"
+   ]
+  },
+  "2018_01_aaup_ksu_tt_cba_2015_2018#028": {
+   "not_relevant": "fitness for duty evaluation"
+  },
+  "2018_01_aaup_ksu_tt_cba_2015_2018#029": {
+   "not_relevant": "representation fee and non-reappointment dates"
+  },
+  "2018_01_aaup_ksu_tt_cba_2015_2018#030": {
+   "not_relevant": "Quality of Work/Life committee charge (child care services study); no benefit"
+  },
+  "2018_01_aaup_ksu_tt_cba_2015_2018#031": {
+   "not_relevant": "governance, grievance, workload, promotion, tenure or reappointment procedure; no leave, pay or tenure-clock provision"
+  },
+  "2018_01_aaup_ksu_tt_cba_2015_2018#032": {
+   "not_relevant": "governance, grievance, workload, promotion, tenure or reappointment procedure; no leave, pay or tenure-clock provision"
+  },
+  "2018_01_aaup_ksu_tt_cba_2015_2018#033": {
+   "not_relevant": "governance, grievance, workload, promotion, tenure or reappointment procedure; no leave, pay or tenure-clock provision"
+  },
+  "2018_01_aaup_ksu_tt_cba_2015_2018#034": {
+   "not_relevant": "governance, grievance, workload, promotion, tenure or reappointment procedure; no leave, pay or tenure-clock provision"
+  },
+  "2018_01_aaup_ksu_tt_cba_2015_2018#035": {
+   "not_relevant": "governance, grievance, workload, promotion, tenure or reappointment procedure; no leave, pay or tenure-clock provision"
+  },
+  "2018_01_aaup_ksu_tt_cba_2015_2018#036": {
+   "used_in": [
+    "kent_state_university_c14"
+   ]
+  },
+  "2018_01_aaup_ksu_tt_cba_2015_2018#037": {
+   "not_relevant": "governance, grievance, workload, promotion, tenure or reappointment procedure; no leave, pay or tenure-clock provision"
+  },
+  "2018_01_aaup_ksu_tt_cba_2015_2018#038": {
+   "not_relevant": "governance, grievance, workload, promotion, tenure or reappointment procedure; no leave, pay or tenure-clock provision"
+  },
+  "2018_01_aaup_ksu_tt_cba_2015_2018#039": {
+   "not_relevant": "governance, grievance, workload, promotion, tenure or reappointment procedure; no leave, pay or tenure-clock provision"
+  },
+  "2018_01_aaup_ksu_tt_cba_2015_2018#040": {
+   "not_relevant": "governance, grievance, workload, promotion, tenure or reappointment procedure; no leave, pay or tenure-clock provision"
+  },
+  "2018_01_aaup_ksu_tt_cba_2015_2018#041": {
+   "used_in": [
+    "kent_state_university_c14"
+   ]
+  },
+  "2018_01_aaup_ksu_tt_cba_2015_2018#042": {
+   "not_relevant": "governance, grievance, workload, promotion, tenure or reappointment procedure; no leave, pay or tenure-clock provision"
+  },
+  "2018_01_aaup_ksu_tt_cba_2015_2018#043": {
+   "not_relevant": "governance, grievance, workload, promotion, tenure or reappointment procedure; no leave, pay or tenure-clock provision"
+  },
+  "2018_01_aaup_ksu_tt_cba_2015_2018#044": {
+   "not_relevant": "health plan attachment (high deductible plan)"
+  },
+  "2018_02_policy_6_13_probationary_period_modification#001": {
+   "used_in": [
+    "kent_state_university_c11",
+    "kent_state_university_c12",
+    "kent_state_university_c13"
+   ]
+  },
+  "2018_03_policy_6_11_11_fmla_leave#001": {
+   "used_in": [
+    "kent_state_university_c10"
+   ]
+  },
+  "2018_03_policy_6_11_11_fmla_leave#002": {
+   "used_in": [
+    "kent_state_university_c10"
+   ]
+  },
+  "2018_03_policy_6_11_11_fmla_leave#003": {
+   "used_in": [
+    "kent_state_university_c10"
+   ]
+  },
+  "2018_04_policy_faculty_leave_without_pay#001": {
+   "used_in": [
+    "kent_state_university_c9"
+   ]
+  },
+  "2018_05_policy_temporary_disability_leave#001": {
+   "used_in": [
+    "kent_state_university_c6",
+    "kent_state_university_c7",
+    "kent_state_university_c8"
+   ]
+  },
+  "2018_06_policy_sick_leave_unclassified#001": {
+   "used_in": [
+    "kent_state_university_c3",
+    "kent_state_university_c4"
+   ]
+  }
+ },
+ "mechanism_slots": {
+  "employer_paid_leave": {
+   "components": [
+    "kent_state_university_c1"
+   ]
+  },
+  "employer_childbirth_benefit": {
+   "absent": "absent: searched all six usable sources (CBA, policies 6-13, 6-11.11, 6-11.9, 6-11.3, 6-11.1) for 'maternity', 'childbirth', 'disability benefit', 'salary continuation'; childbirth pay only from own sick leave"
+  },
+  "generic_sick_or_disability_plan": {
+   "absent": "absent: searched all six usable sources (CBA, policies 6-13, 6-11.11, 6-11.9, 6-11.3, 6-11.1) for 'disability', 'short-term', 'long-term disability', 'salary continuation', 'income protection'"
+  },
+  "own_accrual": {
+   "components": [
+    "kent_state_university_c2",
+    "kent_state_university_c3",
+    "kent_state_university_c4",
+    "kent_state_university_c15",
+    "kent_state_university_c16"
+   ]
+  },
+  "donated_leave": {
+   "components": [
+    "kent_state_university_c5"
+   ]
+  },
+  "government_benefit": {
+   "absent": "absent: searched all six usable sources (CBA, policies 6-13, 6-11.11, 6-11.9, 6-11.3, 6-11.1) for 'state program', 'disability insurance', 'paid family leave', 'unemployment'"
+  },
+  "employer_topup": {
+   "absent": "absent: searched all six usable sources (CBA, policies 6-13, 6-11.11, 6-11.9, 6-11.3, 6-11.1) for 'top-up', 'supplement', 'difference'"
+  },
+  "modified_duties": {
+   "absent": "absent: searched all six usable sources (CBA, policies 6-13, 6-11.11, 6-11.9, 6-11.3, 6-11.1) for 'modified duties', 'release', 'teaching relief', 'reduced workload'"
+  },
+  "unpaid_leave": {
+   "components": [
+    "kent_state_university_c6",
+    "kent_state_university_c7",
+    "kent_state_university_c8",
+    "kent_state_university_c9",
+    "kent_state_university_c10"
+   ]
+  },
+  "tenure_clock": {
+   "components": [
+    "kent_state_university_c11",
+    "kent_state_university_c12",
+    "kent_state_university_c13",
+    "kent_state_university_c14"
+   ]
+  },
+  "part_time_option": {
+   "absent": "absent: searched all six usable sources (CBA, policies 6-13, 6-11.11, 6-11.9, 6-11.3, 6-11.1) for 'part-time', 'reduced appointment', 'phased'"
+  },
+  "other": {
+   "absent": "absent: searched all six usable sources (CBA, policies 6-13, 6-11.11, 6-11.9, 6-11.3, 6-11.1) for 'accommodation', 'transfer', 'hazard'"
+  }
+ },
+ "baseline_accounting": {
+  "Family and Medical Leave Act (FMLA)": {
+   "components": [
+    "kent_state_university_c10"
+   ]
+  },
+  "Federal Employee Paid Leave Act (paid parental leave for federal civilian employees)": {
+   "not_applicable": "covers federal civilian employees; Kent State is a state university"
+  }
+ },
+ "leave_limits": [],
+ "components": [
+  {
+   "component_id": "kent_state_university_c1",
+   "institution_label": "Paid Parental Leave",
+   "description": "Six weeks of paid leave at 100% of base salary for a faculty member who becomes a parent by birth (either parent), adoption or foster placement, after one academic year of service; runs concurrently with FMLA.",
+   "mechanism": "employer_paid_leave",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "CBA Art. I.H: 'Faculty' = full-time tenured or tenure-track faculty of academic rank; Art. II s.1: the unit includes all Kent Campus and Regional Campus full-time teaching and research faculty",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "birth mother, birth father, adoptive parent, foster care parent with legal custody or guardianship, same sex spouse, or domestic partner",
+   "caregiver_condition": "none",
+   "service_requirement": "at least one full academic year of service, excluding summer sessions, before the leave begins (pro-rated benefit if the year is completed while on leave for the event)",
+   "dual_employee_rule": "each may take (individually entitled)",
+   "entitlement": "guaranteed",
+   "entitlement_note": "'The University will provide paid parental leave'; 'will be eligible for six (6) weeks'. Approval concerns intermittent use and use outside the 12-week window, not the grant.",
+   "duration": {
+    "value": 6,
+    "units": "week",
+    "qualifier": "exact"
+   },
+   "pay_fraction": "100% of the Faculty member’s regular base salary",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "relief_note": "A paid leave; no relief stated, so all duties relieved (R9).",
+   "runs_concurrently_with": [
+    "FMLA"
+   ],
+   "time_window": "should be used during the twelve (12) weeks immediately following the birth, adoption, or foster care placement (exceptions case by case with approval)",
+   "return_obligation": "return to full-time work for at least one full academic year, excluding summer sessions, or reimburse the salary received during the leave (waivable for non-reappointment, denial of tenure, disabling condition, newborn's serious condition, other circumstances beyond the employee's control)",
+   "rule_applied": [
+    "R9",
+    "V2",
+    "S1",
+    "U9"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "\"Faculty\", \"members of the Faculty\", and \"Faculty members\" -- full-time faculty of academic rank who hold tenured or tenure-track appointments at the University",
+     "The bargaining unit shall include all Kent Campus and Regional Campus full-time teaching and research Faculty members"
+    ],
+    "eligible_parent": [
+     "In order to be eligible for Paid Parental Leave, a Faculty member must have become a new parent as a birth mother, birth father, adoptive parent, foster care parent with legal custody or guardianship, same sex spouse, or domestic partner."
+    ],
+    "entitlement": [
+     "The University will provide paid parental leave to Faculty members to recover from childbirth and/or to care for or bond with a child.",
+     "A Faculty member will be eligible for six (6) weeks of Paid Parental Leave for a birth mother, birth father, adoptive parent, foster care parent with legal custody or guardianship, same sex spouse, or domestic partner to care for and bond with a newborn, newly adoptive child, or newly fostered child."
+    ],
+    "duration": [
+     "A Faculty member will be eligible for six (6) weeks of Paid Parental Leave for a birth mother, birth father, adoptive parent, foster care parent with legal custody or guardianship, same sex spouse, or domestic partner to care for and bond with a newborn, newly adoptive child, or newly fostered child."
+    ],
+    "pay_fraction": [
+     "Paid Parental Leave is paid at 100% of the Faculty member’s regular base salary only during the Faculty member’s nine (9) or twelve (12) month contract, as applicable."
+    ],
+    "service_requirement": [
+     "A Faculty member must have completed at least one full academic year of service, excluding summer sessions, prior to the date Paid Parental Leave is to commence."
+    ],
+    "dual_employee_rule": [
+     "Eligible parents who are both Faculty members are individually entitled to use Paid Parental Leave."
+    ],
+    "sequence": [
+     "Paid Parental Leave shall run concurrently with FMLA."
+    ],
+    "time_window": [
+     "Paid Parental Leave should be used during the twelve (12) weeks immediately following the birth, adoption, or foster care placement."
+    ],
+    "return_obligation": [
+     "A Faculty member who utilizes Paid Parental Leave is required to return to full-time work for at least one full academic year, excluding summer sessions, following the conclusion of the leave.",
+     "If the employee does not fulfill this obligation, he/she must reimburse the University for the salary that he/she received during the leave."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_aaup_ksu_tt_cba_2015_2018"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "employer_paid_leave",
+     "quote": "Paid Parental Leave is paid at 100% of the Faculty member’s regular base salary only during the Faculty member’s nine (9) or twelve (12) month contract, as applicable."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "The University will provide paid parental leave to Faculty members to recover from childbirth and/or to care for or bond with a child."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "\"Faculty\", \"members of the Faculty\", and \"Faculty members\" -- full-time faculty of academic rank who hold tenured or tenure-track appointments at the University"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "birth_parent, non_birth_parent, adoptive, foster",
+     "quote": "In order to be eligible for Paid Parental Leave, a Faculty member must have become a new parent as a birth mother, birth father, adoptive parent, foster care parent with legal custody or guardianship, same sex spouse, or domestic partner."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "The University will provide paid parental leave to Faculty members to recover from childbirth and/or to care for or bond with a child."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "6 weeks exact (no qualifying word)",
+     "quote": "A Faculty member will be eligible for six (6) weeks of Paid Parental Leave for a birth mother, birth father, adoptive parent, foster care parent with legal custody or guardianship, same sex spouse, or domestic partner to care for and bond with a newborn, newly adoptive child, or newly fostered child."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "100% of regular base salary",
+     "quote": "Paid Parental Leave is paid at 100% of the Faculty member’s regular base salary only during the Faculty member’s nine (9) or twelve (12) month contract, as applicable."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave, relief not stated)",
+     "quote": "A Faculty member will be eligible for six (6) weeks of Paid Parental Leave for a birth mother, birth father, adoptive parent, foster care parent with legal custody or guardianship, same sex spouse, or domestic partner to care for and bond with a newborn, newly adoptive child, or newly fostered child."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "The University will provide paid parental leave to Faculty members to recover from childbirth and/or to care for or bond with a child."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U8",
+     "answer": "one full academic year (within the two-year member)",
+     "quote": "A Faculty member must have completed at least one full academic year of service, excluding summer sessions, prior to the date Paid Parental Leave is to commence."
+    },
+    {
+     "field": "use_limit",
+     "rule": "U9",
+     "answer": "not recorded: the benefit renews with each event",
+     "quote": "One Paid Parental Leave benefit is available per Faculty member, per birth, adoption, or foster care placement event."
+    }
+   ]
+  },
+  {
+   "component_id": "kent_state_university_c2",
+   "institution_label": "",
+   "description": "Up to six further weeks of the member's own sick leave and/or vacation (or days transferred from the donated sick leave pool) may supplement Paid Parental Leave so that income continues through the 12 FMLA weeks; order relative to Paid Parental Leave is the member's choice.",
+   "mechanism": "own_accrual",
+   "payer": "own_balance",
+   "mechanism_note": "Pay drawn from the member's own accrued sick leave or vacation, or from the colleague-funded donated pool (R1, R1b, R1d); no employer guarantee of the six weeks.",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "CBA Art. I.H: 'Faculty' = full-time tenured or tenure-track faculty of academic rank; Art. II s.1: the unit includes all Kent Campus and Regional Campus full-time teaching and research faculty",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "a parent ... following childbirth, adoption, or foster care placement (Paid Parental Leave eligibility: birth mother, birth father, adoptive parent, foster care parent, same sex spouse, or domestic partner)",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "'may be used to supplement' gives the member the option; the order of use is at the member's discretion.",
+   "duration": {
+    "value": 6,
+    "units": "week",
+    "qualifier": "exact"
+   },
+   "duration_note": "Limited in practice by the member's own balance; together with the 6 weeks of Paid Parental Leave it covers the 12 FMLA weeks.",
+   "pay_fraction": "sick leave or vacation pay (own balance)",
+   "sequence": [
+    {
+     "relation": "also_available",
+     "component_id": "kent_state_university_c1",
+     "note": "the member chooses to use Paid Parental Leave before or after accrued sick leave and vacation; both within the 12 FMLA weeks"
+    }
+   ],
+   "rule_applied": [
+    "R1",
+    "R1b",
+    "R1d",
+    "V2",
+    "R15"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "\"Faculty\", \"members of the Faculty\", and \"Faculty members\" -- full-time faculty of academic rank who hold tenured or tenure-track appointments at the University"
+    ],
+    "eligible_parent": [
+     "An additional six (6) weeks of sick leave either from the Faculty member’s own accumulated total of sick leave and/or vacation or time transferred to the Faculty member from the sick leave pool may be used to supplement the Paid Parental Leave benefit so that a parent is able to maintain income for the entire twelve (12) weeks of FMLA eligibility following childbirth, adoption, or foster care placement for the purpose of recovery from childbirth, and bonding."
+    ],
+    "entitlement": [
+     "An additional six (6) weeks of sick leave either from the Faculty member’s own accumulated total of sick leave and/or vacation or time transferred to the Faculty member from the sick leave pool may be used to supplement the Paid Parental Leave benefit so that a parent is able to maintain income for the entire twelve (12) weeks of FMLA eligibility following childbirth, adoption, or foster care placement for the purpose of recovery from childbirth, and bonding."
+    ],
+    "duration": [
+     "An additional six (6) weeks of sick leave either from the Faculty member’s own accumulated total of sick leave and/or vacation or time transferred to the Faculty member from the sick leave pool may be used to supplement the Paid Parental Leave benefit so that a parent is able to maintain income for the entire twelve (12) weeks of FMLA eligibility following childbirth, adoption, or foster care placement for the purpose of recovery from childbirth, and bonding."
+    ],
+    "pay_fraction": [
+     "An additional six (6) weeks of sick leave either from the Faculty member’s own accumulated total of sick leave and/or vacation or time transferred to the Faculty member from the sick leave pool may be used to supplement the Paid Parental Leave benefit so that a parent is able to maintain income for the entire twelve (12) weeks of FMLA eligibility following childbirth, adoption, or foster care placement for the purpose of recovery from childbirth, and bonding."
+    ],
+    "sequence": [
+     "An eligible Faculty member will have the discretion to use Paid Parental Leave before or after accrued sick leave and vacation.",
+     "However, an employee must exhaust Paid Parental Leave and accrued sick and vacation leave prior to going on an unpaid FMLA status."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_aaup_ksu_tt_cba_2015_2018"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "own_accrual",
+     "quote": "An additional six (6) weeks of sick leave either from the Faculty member’s own accumulated total of sick leave and/or vacation or time transferred to the Faculty member from the sick leave pool may be used to supplement the Paid Parental Leave benefit so that a parent is able to maintain income for the entire twelve (12) weeks of FMLA eligibility following childbirth, adoption, or foster care placement for the purpose of recovery from childbirth, and bonding."
+    },
+    {
+     "field": "payer",
+     "rule": "R1d",
+     "answer": "own_balance",
+     "quote": "An additional six (6) weeks of sick leave either from the Faculty member’s own accumulated total of sick leave and/or vacation or time transferred to the Faculty member from the sick leave pool may be used to supplement the Paid Parental Leave benefit so that a parent is able to maintain income for the entire twelve (12) weeks of FMLA eligibility following childbirth, adoption, or foster care placement for the purpose of recovery from childbirth, and bonding."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "\"Faculty\", \"members of the Faculty\", and \"Faculty members\" -- full-time faculty of academic rank who hold tenured or tenure-track appointments at the University"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "birth_parent, non_birth_parent, adoptive, foster",
+     "quote": "An additional six (6) weeks of sick leave either from the Faculty member’s own accumulated total of sick leave and/or vacation or time transferred to the Faculty member from the sick leave pool may be used to supplement the Paid Parental Leave benefit so that a parent is able to maintain income for the entire twelve (12) weeks of FMLA eligibility following childbirth, adoption, or foster care placement for the purpose of recovery from childbirth, and bonding."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "An additional six (6) weeks of sick leave either from the Faculty member’s own accumulated total of sick leave and/or vacation or time transferred to the Faculty member from the sick leave pool may be used to supplement the Paid Parental Leave benefit so that a parent is able to maintain income for the entire twelve (12) weeks of FMLA eligibility following childbirth, adoption, or foster care placement for the purpose of recovery from childbirth, and bonding."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "6 weeks exact",
+     "quote": "An additional six (6) weeks of sick leave either from the Faculty member’s own accumulated total of sick leave and/or vacation or time transferred to the Faculty member from the sick leave pool may be used to supplement the Paid Parental Leave benefit so that a parent is able to maintain income for the entire twelve (12) weeks of FMLA eligibility following childbirth, adoption, or foster care placement for the purpose of recovery from childbirth, and bonding."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "R1",
+     "answer": "own balance pay; counts 0 paid weeks",
+     "quote": "An additional six (6) weeks of sick leave either from the Faculty member’s own accumulated total of sick leave and/or vacation or time transferred to the Faculty member from the sick leave pool may be used to supplement the Paid Parental Leave benefit so that a parent is able to maintain income for the entire twelve (12) weeks of FMLA eligibility following childbirth, adoption, or foster care placement for the purpose of recovery from childbirth, and bonding."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "also_available with c1 (order at the member's discretion)",
+     "quote": "An eligible Faculty member will have the discretion to use Paid Parental Leave before or after accrued sick leave and vacation."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "An additional six (6) weeks of sick leave either from the Faculty member’s own accumulated total of sick leave and/or vacation or time transferred to the Faculty member from the sick leave pool may be used to supplement the Paid Parental Leave benefit so that a parent is able to maintain income for the entire twelve (12) weeks of FMLA eligibility following childbirth, adoption, or foster care placement for the purpose of recovery from childbirth, and bonding."
+    }
+   ]
+  },
+  {
+   "component_id": "kent_state_university_c3",
+   "institution_label": "Sick leave",
+   "description": "Accrued paid sick leave (1.25 days per month of service), usable for the employee's own illness, for a pregnancy/childbirth disability period certified by a physician, or for an ill immediate family member.",
+   "mechanism": "own_accrual",
+   "payer": "own_balance",
+   "mechanism_note": "Days earned per month of service and carried over: an accrual (R1).",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "salaried unclassified employees including faculty; CBA Art. XIV s.4 keeps sick leave available to Faculty under University policy",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent"
+   ],
+   "eligible_parent_wording": "a pregnant employee; illness or injury of the employee or a member of the employee's immediate family",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "'Sick leave will be granted ... upon approval' and 'Upon request, a pregnant employee shall be permitted to use any or all ... sick leave credit': the approval covers the arrangements.",
+   "pay_fraction": "full pay from the employee's accrued sick leave",
+   "medical_certification": true,
+   "medical_certification_note": "pregnancy disability period as certified by a licensed physician; a physician's certificate may be required for family care",
+   "sequence": [
+    {
+     "relation": "within",
+     "component_id": "kent_state_university_c6",
+     "note": "for a pregnancy, sick leave pays the certified period of inability to work, and the pregnancy leave without pay covers the remainder (6-11.3 (B)(3)); birth parent only"
+    }
+   ],
+   "rule_applied": [
+    "R1",
+    "U5",
+    "U6",
+    "V2",
+    "R15"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Administrative policy and procedures regarding sick leave for salaried unclassified employees including faculty",
+     "Such leaves shall include: leave of absence without pay, sick leave, temporary disability leaves, court leave, and military leave of absence."
+    ],
+    "eligible_parent": [
+     "Upon request, a pregnant employee shall be permitted to use any or all of the employee's accumulated sick leave credit only for the period of time that the employee is unable to work as a result of pregnancy, childbirth, or related medical conditions.",
+     "Illness or injury of the employee or a member of the employee's immediate family;"
+    ],
+    "entitlement": [
+     "Sick leave will be granted to employees, upon approval of the appointing authority, for the following reasons:",
+     "Upon request, a pregnant employee shall be permitted to use any or all of the employee's accumulated sick leave credit only for the period of time that the employee is unable to work as a result of pregnancy, childbirth, or related medical conditions."
+    ],
+    "pay_fraction": [
+     "It shall be the policy of the university to provide paid sick leave for its employees in accordance with the provisions of sections 124.38 and 124.39 of the Ohio Revised Code."
+    ],
+    "sequence": [
+     "An employee using sick leave credit shall not be prevented from receiving a leave of absence without pay for the remainder of the period as defined in paragraph (B)(1) above.",
+     "An employee using sick leave credit shall not be prevented from receiving a leave of absence without pay for the remainder of the recovery period."
+    ],
+    "medical_certification": [
+     "This period may include reasonable predelivery, delivery, and recovery time, as certified by a licensed physician, not to exceed six (6) months.",
+     "Where sick leave is requested to care for a member of the immediate family, the supervisor or department chairperson may require a physician's certificate to the effect that the presence of the employee is necessary to care for the ill person."
+    ],
+    "mechanism": [
+     "Salaried full-time appointees earn sick leave at a rate of one and one-quarter day for each completed month of eligible service."
+    ]
+   },
+   "doc_ids": [
+    "2018_06_policy_sick_leave_unclassified",
+    "2018_05_policy_temporary_disability_leave",
+    "2018_01_aaup_ksu_tt_cba_2015_2018"
+   ],
+   "flags": [
+    "cross_reference_not_saved: Ohio Revised Code sections 124.38 and 124.39"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "own_accrual",
+     "quote": "Salaried full-time appointees earn sick leave at a rate of one and one-quarter day for each completed month of eligible service."
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "own_balance",
+     "quote": "Salaried full-time appointees earn sick leave at a rate of one and one-quarter day for each completed month of eligible service."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Administrative policy and procedures regarding sick leave for salaried unclassified employees including faculty"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own illness, pregnancy) and non_birth_parent (ill family member)",
+     "quote": "Illness or injury of the employee or a member of the employee's immediate family;"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "Upon request, a pregnant employee shall be permitted to use any or all of the employee's accumulated sick leave credit only for the period of time that the employee is unable to work as a result of pregnancy, childbirth, or related medical conditions."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "R1",
+     "answer": "own balance; 0 paid weeks",
+     "quote": "It shall be the policy of the university to provide paid sick leave for its employees in accordance with the provisions of sections 124.38 and 124.39 of the Ohio Revised Code."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "within c6 for the birth parent: sick leave first, the unpaid leave for the remainder",
+     "quote": "An employee using sick leave credit shall not be prevented from receiving a leave of absence without pay for the remainder of the period as defined in paragraph (B)(1) above."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Sick leave will be granted to employees, upon approval of the appointing authority, for the following reasons:"
+    }
+   ]
+  },
+  {
+   "component_id": "kent_state_university_c4",
+   "institution_label": "",
+   "description": "Where conditions warrant, up to five days of the employee's sick leave may be allowed to care for the employee's wife and family during the post-natal period.",
+   "mechanism": "own_accrual",
+   "payer": "own_balance",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "salaried unclassified employees including faculty",
+   "eligible_parent": [
+    "non_birth_parent"
+   ],
+   "eligible_parent_wording": "the employee's wife and family",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "entitlement_note": "'may be allowed' 'where conditions warrant': the approval decides whether.",
+   "duration": {
+    "value": 5,
+    "units": "day",
+    "qualifier": "up_to"
+   },
+   "pay_fraction": "full pay from the employee's accrued sick leave",
+   "time_window": "during the post natal period",
+   "rule_applied": [
+    "R1",
+    "V2",
+    "R13",
+    "R5"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Administrative policy and procedures regarding sick leave for salaried unclassified employees including faculty"
+    ],
+    "eligible_parent": [
+     "Where conditions warrant, a limit of five (5) days may be allowed for the care of the employee's wife and family during the post natal period."
+    ],
+    "entitlement": [
+     "Where conditions warrant, a limit of five (5) days may be allowed for the care of the employee's wife and family during the post natal period."
+    ],
+    "duration": [
+     "Where conditions warrant, a limit of five (5) days may be allowed for the care of the employee's wife and family during the post natal period."
+    ],
+    "pay_fraction": [
+     "It shall be the policy of the university to provide paid sick leave for its employees in accordance with the provisions of sections 124.38 and 124.39 of the Ohio Revised Code."
+    ]
+   },
+   "doc_ids": [
+    "2018_06_policy_sick_leave_unclassified"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "own_accrual",
+     "quote": "Where conditions warrant, a limit of five (5) days may be allowed for the care of the employee's wife and family during the post natal period."
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "own_balance",
+     "quote": "Where conditions warrant, a limit of five (5) days may be allowed for the care of the employee's wife and family during the post natal period."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Administrative policy and procedures regarding sick leave for salaried unclassified employees including faculty"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "non_birth_parent (care of the employee's wife after the birth)",
+     "quote": "Where conditions warrant, a limit of five (5) days may be allowed for the care of the employee's wife and family during the post natal period."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "Where conditions warrant, a limit of five (5) days may be allowed for the care of the employee's wife and family during the post natal period."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "5 days up_to ('a limit of')",
+     "quote": "Where conditions warrant, a limit of five (5) days may be allowed for the care of the employee's wife and family during the post natal period."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "R1",
+     "answer": "own balance; 0 paid weeks",
+     "quote": "It shall be the policy of the university to provide paid sick leave for its employees in accordance with the provisions of sections 124.38 and 124.39 of the Ohio Revised Code."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Where conditions warrant, a limit of five (5) days may be allowed for the care of the employee's wife and family during the post natal period."
+    }
+   ]
+  },
+  {
+   "component_id": "kent_state_university_c5",
+   "institution_label": "Donated Sick Leave Pool",
+   "description": "Faculty-donated sick leave days, usable after the member's own sick leave is exhausted for personal illness or other sick-leave reasons; normally up to 30 days per academic year, extendable on request up to 180 days.",
+   "mechanism": "donated_leave",
+   "payer": "own_balance",
+   "mechanism_note": "A colleague-funded bank; no employer shortfall stated (R1d).",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "CBA Art. I.H: 'Faculty' = full-time tenured or tenure-track faculty of academic rank; Art. II s.1: the unit includes all Kent Campus and Regional Campus full-time teaching and research faculty; the pool is for Faculty",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent"
+   ],
+   "eligible_parent_wording": "personal illness of, or injury to, the bank member and other qualifying circumstances as defined in the sick leave policy (which include illness of an immediate family member)",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "entitlement_note": "Use 'will be considered' after own sick leave is used; extensions are requested and decided by the administering office: no grant language (V2).",
+   "duration": {
+    "value": 30,
+    "units": "day",
+    "qualifier": "up_to"
+   },
+   "duration_note": "'Normally' not more than 30 days per academic year (Q1); a further 30 days may be requested for a documented medical condition, and further 30-day increments up to a total of 180 days in extraordinary circumstances.",
+   "must_exhaust_first": [
+    "sick"
+   ],
+   "pay_fraction": "pay from donated sick leave days",
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "kent_state_university_c3",
+     "note": "considered only after the member has used all accumulated sick leave"
+    }
+   ],
+   "rule_applied": [
+    "R1d",
+    "V2",
+    "Q1",
+    "U5",
+    "R15"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Only Faculty may use sick leave from this Donated Sick Leave Pool."
+    ],
+    "eligible_parent": [
+     "Use of days from the Donated Sick Leave Pool will be limited to personal illness of, or injury to, the bank member and to other qualifying circumstances as defined in the University's sick leave policy and procedures"
+    ],
+    "entitlement": [
+     "Use of days from the Donated Sick Leave Pool will be considered only after the individual has used all of his/her accumulated sick leave days.",
+     "a Faculty member may request an additional thirty (30) days."
+    ],
+    "duration": [
+     "Normally the maximum number of days that a Faculty member may use may not exceed thirty (30) days in any academic year.",
+     "up to a total of 180 days, may be made to the administering office or agency."
+    ],
+    "pay_fraction": [
+     "Only Faculty may use sick leave from this Donated Sick Leave Pool."
+    ],
+    "sequence": [
+     "Use of days from the Donated Sick Leave Pool will be considered only after the individual has used all of his/her accumulated sick leave days."
+    ],
+    "must_exhaust_first": [
+     "Use of days from the Donated Sick Leave Pool will be considered only after the individual has used all of his/her accumulated sick leave days."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_aaup_ksu_tt_cba_2015_2018"
+   ],
+   "flags": [
+    "ambiguous: restriction: use is described for 'the bank member' while participation (donation) is voluntary; whether a non-donor may draw on the pool is not stated"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1d",
+     "answer": "donated_leave",
+     "quote": "Only Faculty may use sick leave from this Donated Sick Leave Pool."
+    },
+    {
+     "field": "payer",
+     "rule": "R1d",
+     "answer": "own_balance",
+     "quote": "Participation by Faculty in the Donated Sick Leave Pool will be on a voluntary basis."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Only Faculty may use sick leave from this Donated Sick Leave Pool."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own illness) and non_birth_parent (family illness under the sick leave policy)",
+     "quote": "Use of days from the Donated Sick Leave Pool will be limited to personal illness of, or injury to, the bank member and to other qualifying circumstances as defined in the University's sick leave policy and procedures"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "Use of days from the Donated Sick Leave Pool will be considered only after the individual has used all of his/her accumulated sick leave days."
+    },
+    {
+     "field": "duration",
+     "rule": "Q1",
+     "answer": "30 days up_to ('Normally ... may not exceed'); extensions in duration_note",
+     "quote": "Normally the maximum number of days that a Faculty member may use may not exceed thirty (30) days in any academic year."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "R1d",
+     "answer": "colleague-funded bank; 0 paid weeks",
+     "quote": "Only Faculty may use sick leave from this Donated Sick Leave Pool."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "consecutive_after c3",
+     "quote": "Use of days from the Donated Sick Leave Pool will be considered only after the individual has used all of his/her accumulated sick leave days."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Use of days from the Donated Sick Leave Pool will be limited to personal illness of, or injury to, the bank member and to other qualifying circumstances as defined in the University's sick leave policy and procedures"
+    }
+   ]
+  },
+  {
+   "component_id": "kent_state_university_c6",
+   "institution_label": "Pregnancy, childbirth, and related conditions",
+   "description": "On written request a pregnant employee shall be granted unpaid leave for the physician-certified period she cannot perform her duties (pre-delivery, delivery and recovery), up to six months; accrued sick leave may pay part of it; the job is restored on return.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "'employee' (policy 6-11.3); CBA Art. XIV s.4 makes temporary disability leaves available to Faculty under University policy",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "a pregnant employee",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "'Upon written request, a pregnant employee shall be granted' (schema: 'shall be granted upon request').",
+   "duration": {
+    "value": 6,
+    "units": "month",
+    "qualifier": "up_to"
+   },
+   "duration_note": "The length is the certified period of inability to perform the duties (up to six months); child-care time after recovery falls under c8.",
+   "medical_certification": true,
+   "medical_certification_note": "licensed physician's certificate of the probable period of inability to perform the duties; fitness statement before return",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "rule_applied": [
+    "V2",
+    "R13",
+    "R9",
+    "U5",
+    "U3"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "The University will continue to make leaves of absence available to members of the Faculty in accordance with then-current University policy.",
+     "Such leaves shall include: leave of absence without pay, sick leave, temporary disability leaves, court leave, and military leave of absence."
+    ],
+    "eligible_parent": [
+     "Upon written request, a pregnant employee shall be granted a leave of absence without pay subject to the following provisions:"
+    ],
+    "entitlement": [
+     "Upon written request, a pregnant employee shall be granted a leave of absence without pay subject to the following provisions:"
+    ],
+    "duration": [
+     "This period may include reasonable predelivery, delivery, and recovery time, as certified by a licensed physician, not to exceed six (6) months.",
+     "Leaves of absence shall be limited to the period of time that the pregnant employee is unable to perform the substantial and material duties of the employee's position."
+    ],
+    "medical_certification": [
+     "This period may include reasonable predelivery, delivery, and recovery time, as certified by a licensed physician, not to exceed six (6) months."
+    ],
+    "return_obligation": [
+     "the employee will be restored to his/her former classification, provided the employee is capable of performing the normal assigned duties."
+    ]
+   },
+   "doc_ids": [
+    "2018_05_policy_temporary_disability_leave",
+    "2018_01_aaup_ksu_tt_cba_2015_2018"
+   ],
+   "flags": [
+    "cross_reference_not_saved: rule 3342-6-11.10 of the Administrative Code (child care leave)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "Upon written request, a pregnant employee shall be granted a leave of absence without pay subject to the following provisions:"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Upon written request, a pregnant employee shall be granted a leave of absence without pay subject to the following provisions:"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Such leaves shall include: leave of absence without pay, sick leave, temporary disability leaves, court leave, and military leave of absence."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent",
+     "quote": "Upon written request, a pregnant employee shall be granted a leave of absence without pay subject to the following provisions:"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "Upon written request, a pregnant employee shall be granted a leave of absence without pay subject to the following provisions:"
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "6 months up_to ('not to exceed')",
+     "quote": "This period may include reasonable predelivery, delivery, and recovery time, as certified by a licensed physician, not to exceed six (6) months."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave)",
+     "quote": "Upon written request, a pregnant employee shall be granted a leave of absence without pay subject to the following provisions:"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Upon written request, a pregnant employee shall be granted a leave of absence without pay subject to the following provisions:"
+    }
+   ]
+  },
+  {
+   "component_id": "kent_state_university_c7",
+   "institution_label": "Administrative policy regarding leave of absence for temporary disability",
+   "description": "Unpaid leave of up to six months that may be granted on written request after accumulated sick leave expires, for extended absence due to illness, pregnancy or temporary disability, with medical proof.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "'an employee' (policy 6-11.3); CBA Art. XIV s.4 makes temporary disability leaves available to Faculty",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "an employee ... on extended absence due to illness, pregnancy or temporary disability",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "entitlement_note": "'may be granted upon written request'. For pregnancy the specific paragraph (c6, 'shall be granted') governs (source precedence); this general provision is kept for own illness or disability after sick leave.",
+   "duration": {
+    "value": 6,
+    "units": "month",
+    "qualifier": "up_to"
+   },
+   "medical_certification": true,
+   "medical_certification_note": "satisfactory medical proof of the illness, pregnancy or temporary disability",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "kent_state_university_c3",
+     "note": "granted following expiration of accumulated sick leave benefits"
+    }
+   ],
+   "rule_applied": [
+    "V2",
+    "R13",
+    "R9",
+    "U5",
+    "R15",
+    "source_precedence"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Such leaves shall include: leave of absence without pay, sick leave, temporary disability leaves, court leave, and military leave of absence."
+    ],
+    "eligible_parent": [
+     "A leave of absence without pay may be granted upon written request for a period not to exceed six (6) months following expiration of accumulated sick leave benefits, when an employee is on extended absence due to illness, pregnancy or temporary disability."
+    ],
+    "entitlement": [
+     "A leave of absence without pay may be granted upon written request for a period not to exceed six (6) months following expiration of accumulated sick leave benefits, when an employee is on extended absence due to illness, pregnancy or temporary disability."
+    ],
+    "duration": [
+     "A leave of absence without pay may be granted upon written request for a period not to exceed six (6) months following expiration of accumulated sick leave benefits, when an employee is on extended absence due to illness, pregnancy or temporary disability."
+    ],
+    "medical_certification": [
+     "The employee shall furnish satisfactory medical proof of such illness, pregnancy or temporary disability."
+    ],
+    "sequence": [
+     "A leave of absence without pay may be granted upon written request for a period not to exceed six (6) months following expiration of accumulated sick leave benefits, when an employee is on extended absence due to illness, pregnancy or temporary disability."
+    ]
+   },
+   "doc_ids": [
+    "2018_05_policy_temporary_disability_leave",
+    "2018_01_aaup_ksu_tt_cba_2015_2018"
+   ],
+   "flags": [
+    "own_illness_leave"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "A leave of absence without pay may be granted upon written request for a period not to exceed six (6) months following expiration of accumulated sick leave benefits, when an employee is on extended absence due to illness, pregnancy or temporary disability."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "A leave of absence without pay may be granted upon written request for a period not to exceed six (6) months following expiration of accumulated sick leave benefits, when an employee is on extended absence due to illness, pregnancy or temporary disability."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Such leaves shall include: leave of absence without pay, sick leave, temporary disability leaves, court leave, and military leave of absence."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own illness or disability)",
+     "quote": "A leave of absence without pay may be granted upon written request for a period not to exceed six (6) months following expiration of accumulated sick leave benefits, when an employee is on extended absence due to illness, pregnancy or temporary disability."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "A leave of absence without pay may be granted upon written request for a period not to exceed six (6) months following expiration of accumulated sick leave benefits, when an employee is on extended absence due to illness, pregnancy or temporary disability."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "6 months up_to ('not to exceed')",
+     "quote": "A leave of absence without pay may be granted upon written request for a period not to exceed six (6) months following expiration of accumulated sick leave benefits, when an employee is on extended absence due to illness, pregnancy or temporary disability."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave)",
+     "quote": "A leave of absence without pay may be granted upon written request for a period not to exceed six (6) months following expiration of accumulated sick leave benefits, when an employee is on extended absence due to illness, pregnancy or temporary disability."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "consecutive_after c3 (after sick leave expires)",
+     "quote": "A leave of absence without pay may be granted upon written request for a period not to exceed six (6) months following expiration of accumulated sick leave benefits, when an employee is on extended absence due to illness, pregnancy or temporary disability."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "A leave of absence without pay may be granted upon written request for a period not to exceed six (6) months following expiration of accumulated sick leave benefits, when an employee is on extended absence due to illness, pregnancy or temporary disability."
+    }
+   ]
+  },
+  {
+   "component_id": "kent_state_university_c8",
+   "institution_label": "Child care",
+   "description": "Unpaid leave for child care that the appointing authority may grant at its discretion; no length stated in the saved policy (it refers to rule 3342-6-11.10, not saved).",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "'An employee' (policy 6-11.3); CBA Art. XIV s.4 makes University leaves available to Faculty",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "An employee",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "duration_note": "No length stated in the saved documents; the governing rule 3342-6-11.10 is not saved.",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "kent_state_university_c6",
+     "roles": [
+      "birth"
+     ],
+     "note": "the pregnancy leave excludes child-care time following recovery, which this leave covers"
+    }
+   ],
+   "rule_applied": [
+    "V2",
+    "R9",
+    "R15"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "The University will continue to make leaves of absence available to members of the Faculty in accordance with then-current University policy."
+    ],
+    "eligible_parent": [
+     "An employee may, at the discretion of the appointing authority, be granted a leave of absence without pay for the purpose of child care."
+    ],
+    "entitlement": [
+     "An employee may, at the discretion of the appointing authority, be granted a leave of absence without pay for the purpose of child care."
+    ],
+    "sequence": [
+     "Such leave shall not include time being requested for purposes of child care following the recovery of the employee."
+    ]
+   },
+   "doc_ids": [
+    "2018_05_policy_temporary_disability_leave",
+    "2018_01_aaup_ksu_tt_cba_2015_2018"
+   ],
+   "flags": [
+    "cross_reference_not_saved: rule 3342-6-11.10 of the Administrative Code (child care leave)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "An employee may, at the discretion of the appointing authority, be granted a leave of absence without pay for the purpose of child care."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "An employee may, at the discretion of the appointing authority, be granted a leave of absence without pay for the purpose of child care."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "The University will continue to make leaves of absence available to members of the Faculty in accordance with then-current University policy."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "any_parent (gender-neutral 'An employee')",
+     "quote": "An employee may, at the discretion of the appointing authority, be granted a leave of absence without pay for the purpose of child care."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "An employee may, at the discretion of the appointing authority, be granted a leave of absence without pay for the purpose of child care."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave)",
+     "quote": "An employee may, at the discretion of the appointing authority, be granted a leave of absence without pay for the purpose of child care."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "consecutive_after c6 for the birth parent",
+     "quote": "Such leave shall not include time being requested for purposes of child care following the recovery of the employee."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "An employee may, at the discretion of the appointing authority, be granted a leave of absence without pay for the purpose of child care."
+    }
+   ]
+  },
+  {
+   "component_id": "kent_state_university_c9",
+   "institution_label": "Administrative policy regarding faculty leaves of absence without pay",
+   "description": "Unpaid faculty leave of up to one year that may be arranged with chair, dean and vice-president approval, for research, study, travel, medical reasons, rest and similar purposes.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "faculty (policy 6-11.9)",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "faculty member",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "up_to"
+   },
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "notice": "requests for the next academic year by March 1; for the second semester at the beginning of the fall semester",
+   "rule_applied": [
+    "U1",
+    "V2",
+    "R13",
+    "R9"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Leaves of absence on a one-year (or less) basis without pay may be arranged through the department chairperson or school director and, with his/her approval, the approval of the dean of the college or school, and the approval of the vice president for academic and student affairs."
+    ],
+    "eligible_parent": [
+     "Leaves of absence on a one-year (or less) basis without pay may be arranged through the department chairperson or school director and, with his/her approval, the approval of the dean of the college or school, and the approval of the vice president for academic and student affairs."
+    ],
+    "entitlement": [
+     "Leaves of absence on a one-year (or less) basis without pay may be arranged through the department chairperson or school director and, with his/her approval, the approval of the dean of the college or school, and the approval of the vice president for academic and student affairs.",
+     "Research or other advanced study, travel, medical reasons, and rest may justify the granting of a leave of absence without pay."
+    ],
+    "duration": [
+     "Leaves of absence on a one-year (or less) basis without pay may be arranged through the department chairperson or school director and, with his/her approval, the approval of the dean of the college or school, and the approval of the vice president for academic and student affairs."
+    ],
+    "general_purpose": [
+     "Research or other advanced study, travel, medical reasons, and rest may justify the granting of a leave of absence without pay."
+    ],
+    "notice": [
+     "Requests for leaves of absence for the next academic year shall be filed not later than the first of March."
+    ]
+   },
+   "doc_ids": [
+    "2018_04_policy_faculty_leave_without_pay"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "Leaves of absence on a one-year (or less) basis without pay may be arranged through the department chairperson or school director and, with his/her approval, the approval of the dean of the college or school, and the approval of the vice president for academic and student affairs."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "The university does not provide leaves of absence with pay for faculty."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Leaves of absence on a one-year (or less) basis without pay may be arranged through the department chairperson or school director and, with his/her approval, the approval of the dean of the college or school, and the approval of the vice president for academic and student affairs."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "Leaves of absence on a one-year (or less) basis without pay may be arranged through the department chairperson or school director and, with his/her approval, the approval of the dean of the college or school, and the approval of the vice president for academic and student affairs."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "Research or other advanced study, travel, medical reasons, and rest may justify the granting of a leave of absence without pay."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 year up_to ('or less')",
+     "quote": "Leaves of absence on a one-year (or less) basis without pay may be arranged through the department chairperson or school director and, with his/her approval, the approval of the dean of the college or school, and the approval of the vice president for academic and student affairs."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave)",
+     "quote": "Leaves of absence on a one-year (or less) basis without pay may be arranged through the department chairperson or school director and, with his/her approval, the approval of the dean of the college or school, and the approval of the vice president for academic and student affairs."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "Research or other advanced study, travel, medical reasons, and rest may justify the granting of a leave of absence without pay."
+    }
+   ]
+  },
+  {
+   "component_id": "kent_state_university_c10",
+   "institution_label": "Administrative policy regarding leave under the FMLA",
+   "description": "Federal FMLA: up to 12 weeks of unpaid job-protected leave per rolling 12 months for eligible employees, for the employee's serious health condition (including pregnancy), care for a child in the first year after birth or placement, or care of an ill family member; runs concurrently with Paid Parental Leave and other paid or unpaid leaves.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Any university employee (excluding student employees)",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "Care for a child during the first year following birth, adoption or foster care placement",
+   "caregiver_condition": "none",
+   "service_requirement": "employed at least twelve months and at least 1,250 hours worked in the past twelve months",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 12,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "duration_note": "Statute: a total of 12 workweeks in any 12-month period (29 U.S.C. 2612(a)(1)); the policy says 'up to twelve weeks'. Paid Parental Leave, sick leave and vacation run inside it; the remainder is unpaid.",
+   "medical_certification": true,
+   "medical_certification_note": "medical certification by a licensed physician for every new event, including pregnancy and adoption",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "time_window": "care for a child during the first year following birth, adoption or foster care placement",
+   "notice": "thirty days in advance when foreseeable (expected birth, placement); otherwise as soon as possible",
+   "return_obligation": "returned to the position formerly occupied or an equivalent position",
+   "statute_source": "29 U.S.C. 2612(a)(1)(A)-(D); eligibility 29 U.S.C. 2611(2)",
+   "statute_verified": true,
+   "sequence": [
+    {
+     "relation": "concurrent_with",
+     "component_id": "kent_state_university_c1",
+     "note": "Paid Parental Leave shall run concurrently with FMLA (S1); 6 unpaid-by-employer weeks remain, which own sick leave or vacation may cover (c2)"
+    },
+    {
+     "relation": "concurrent_with",
+     "component_id": "kent_state_university_c6",
+     "note": "FMLA runs concurrently with unpaid temporary disability leave (S1); birth parent only"
+    }
+   ],
+   "rule_applied": [
+    "U2",
+    "U4",
+    "S1",
+    "U5",
+    "R9",
+    "R13"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Any university employee (excluding student employees) who has been employed by the university for at least twelve months; and has worked for at least one thousand two hundred fifty hours during the past twelve months is entitled to FMLA for covered circumstances."
+    ],
+    "eligible_parent": [
+     "Care for a child during the first year following birth, adoption or foster care placement; or",
+     "A serious health condition that prevents an employee from performing his or her job;",
+     "Care for a family member who has a serious health condition;"
+    ],
+    "entitlement": [
+     "Any university employee (excluding student employees) who has been employed by the university for at least twelve months; and has worked for at least one thousand two hundred fifty hours during the past twelve months is entitled to FMLA for covered circumstances.",
+     "shall be entitled to a total of 12 workweeks of leave during any 12-month period"
+    ],
+    "duration": [
+     "In compliance with the Federal Family and Medical Leave Act (FMLA), it is the policy of the university to grant up to twelve weeks of unpaid job protected leave to eligible employees per rolling twelve-month period.",
+     "shall be entitled to a total of 12 workweeks of leave during any 12-month period"
+    ],
+    "service_requirement": [
+     "Any university employee (excluding student employees) who has been employed by the university for at least twelve months; and has worked for at least one thousand two hundred fifty hours during the past twelve months is entitled to FMLA for covered circumstances."
+    ],
+    "sequence": [
+     "Paid Parental Leave shall run concurrently with FMLA.",
+     "Generally, any absence that meets the standards for FMLA shall be considered to be covered by unpaid FMLA leave, and will run concurrently with the employee's sick leave, personal leave, vacation leave and/or unpaid temporary disability/child care leave."
+    ],
+    "medical_certification": [
+     "Submit the required medical certification (completed by a licensed physician) for every new event (serious health condition of the employee, family member, pregnancy, adoption, qualifying exigency, or service member leave) within a twelve month period."
+    ],
+    "notice": [
+     "All leaves of absence and extensions thereof must be requested thirty days in advance of the date the leave is to begin, when the necessity for leave is foreseeable such as where leave is taken for: an expected birth"
+    ],
+    "return_obligation": [
+     "Upon completion of regular FMLA leave or military family leave of absence, the employee is to be returned to the position formerly occupied, or to an equivalent position if the employee's former position no longer exists."
+    ]
+   },
+   "doc_ids": [
+    "2018_03_policy_6_11_11_fmla_leave",
+    "2018_01_aaup_ksu_tt_cba_2015_2018",
+    "2026_00_us_fmla_29usc2612"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "U4",
+     "answer": "unpaid_leave",
+     "quote": "In compliance with the Federal Family and Medical Leave Act (FMLA), it is the policy of the university to grant up to twelve weeks of unpaid job protected leave to eligible employees per rolling twelve-month period."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "In compliance with the Federal Family and Medical Leave Act (FMLA), it is the policy of the university to grant up to twelve weeks of unpaid job protected leave to eligible employees per rolling twelve-month period."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Any university employee (excluding student employees) who has been employed by the university for at least twelve months; and has worked for at least one thousand two hundred fifty hours during the past twelve months is entitled to FMLA for covered circumstances."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent, non_birth_parent (bonding, own condition, family care), adoptive, foster",
+     "quote": "Care for a child during the first year following birth, adoption or foster care placement; or"
+    },
+    {
+     "field": "entitlement",
+     "rule": "U2",
+     "answer": "guaranteed",
+     "quote": "Any university employee (excluding student employees) who has been employed by the university for at least twelve months; and has worked for at least one thousand two hundred fifty hours during the past twelve months is entitled to FMLA for covered circumstances."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "12 weeks up_to as the policy words it; statute 12 workweeks",
+     "quote": "In compliance with the Federal Family and Medical Leave Act (FMLA), it is the policy of the university to grant up to twelve weeks of unpaid job protected leave to eligible employees per rolling twelve-month period."
+    },
+    {
+     "field": "duration",
+     "rule": "U2",
+     "answer": "checked against the saved statute: 12 workweeks",
+     "quote": "shall be entitled to a total of 12 workweeks of leave during any 12-month period"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U2",
+     "answer": "12 months and 1,250 hours",
+     "quote": "Any university employee (excluding student employees) who has been employed by the university for at least twelve months; and has worked for at least one thousand two hundred fifty hours during the past twelve months is entitled to FMLA for covered circumstances."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave)",
+     "quote": "In compliance with the Federal Family and Medical Leave Act (FMLA), it is the policy of the university to grant up to twelve weeks of unpaid job protected leave to eligible employees per rolling twelve-month period."
+    },
+    {
+     "field": "sequence",
+     "rule": "S1",
+     "answer": "concurrent_with c1 (Paid Parental Leave)",
+     "quote": "Paid Parental Leave shall run concurrently with FMLA."
+    },
+    {
+     "field": "sequence",
+     "rule": "S1",
+     "answer": "concurrent_with c6 (unpaid temporary disability leave)",
+     "quote": "Generally, any absence that meets the standards for FMLA shall be considered to be covered by unpaid FMLA leave, and will run concurrently with the employee's sick leave, personal leave, vacation leave and/or unpaid temporary disability/child care leave."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "FMLA will run concurrently with other paid or unpaid leaves for the following qualifying events:"
+    }
+   ]
+  },
+  {
+   "component_id": "kent_state_university_c11",
+   "institution_label": "University policy and procedure governing modification of the faculty probationary period",
+   "description": "A probationary faculty member who is a caregiver of a newborn, newly adopted or foster child (including a domestic partner's) is eligible on request to extend the probationary period by one year per event, up to two years in total.",
+   "mechanism": "tenure_clock",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "full-time tenure track faculty members (Kent and regional campuses)",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "the faculty (whether male or female) is a caregiver of a newborn, newly adopted or foster child, including a newborn, newly adopted or foster child of a domestic partner",
+   "caregiver_condition": "other",
+   "caregiver_condition_wording": "is a caregiver of a newborn, newly adopted or foster child",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "'shall be eligible ... upon request' (contrast 'may be eligible' for other circumstances); the request goes through chair/FAC/dean review, with written reasons for any rejection and appeals. No ground for refusing a qualifying caregiver is stated.",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "exact"
+   },
+   "use_limit": [
+    {
+     "times": 2,
+     "per": "career",
+     "counts": "uses"
+    }
+   ],
+   "use_limit_note": "one year for each qualifying event (or child), up to a total of two years; the maximum extension is no more than two full years (shared with the illness and compelling-circumstance extensions, c12, c13)",
+   "notice": "request reviewed and approved on or before March 1 of the spring semester before the tenure file is submitted",
+   "rule_applied": [
+    "V2",
+    "U9",
+    "R13",
+    "R6"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "The following principles shall govern the extension of the probationary period for full-time tenure track faculty members:"
+    ],
+    "eligible_parent": [
+     "A faculty member shall be eligible to extend the probationary period leading to a mandatory tenure review, upon request, if the faculty (whether male or female) is a caregiver of a newborn, newly adopted or foster child, including a newborn, newly adopted or foster child of a domestic partner."
+    ],
+    "caregiver_condition": [
+     "A faculty member shall be eligible to extend the probationary period leading to a mandatory tenure review, upon request, if the faculty (whether male or female) is a caregiver of a newborn, newly adopted or foster child, including a newborn, newly adopted or foster child of a domestic partner."
+    ],
+    "entitlement": [
+     "A faculty member shall be eligible to extend the probationary period leading to a mandatory tenure review, upon request, if the faculty (whether male or female) is a caregiver of a newborn, newly adopted or foster child, including a newborn, newly adopted or foster child of a domestic partner.",
+     "If the request is not approved by the unit administrator or regional campus dean, the reasons for the rejection will be set forth in writing and provided to the faculty member in question."
+    ],
+    "duration": [
+     "An extension, if approved, shall be only for increments of one year."
+    ],
+    "use_limit": [
+     "An extension of the probationary period shall be limited for one year for each qualifying event (or child), up to a total of two years.",
+     "The maximum extension of the probationary period will be no more than two full years."
+    ],
+    "notice": [
+     "Any request to extend the mandatory probationary period must be reviewed and approved on or before March first of the spring semester prior to the time that the candidate for tenure submits his or her tenure review file."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_policy_6_13_probationary_period_modification"
+   ],
+   "flags": [
+    "ambiguous: entitlement: 'shall be eligible ... upon request', but the procedure provides for approval or rejection (with written reasons) and appeal, with no stated ground for refusal; coded guaranteed_on_request (V2)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "A faculty member shall be eligible to extend the probationary period leading to a mandatory tenure review, upon request, if the faculty (whether male or female) is a caregiver of a newborn, newly adopted or foster child, including a newborn, newly adopted or foster child of a domestic partner."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "The following principles shall govern the extension of the probationary period for full-time tenure track faculty members:"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "birth_parent, non_birth_parent, adoptive, foster ('whether male or female')",
+     "quote": "A faculty member shall be eligible to extend the probationary period leading to a mandatory tenure review, upon request, if the faculty (whether male or female) is a caregiver of a newborn, newly adopted or foster child, including a newborn, newly adopted or foster child of a domestic partner."
+    },
+    {
+     "field": "caregiver_condition",
+     "rule": "R6",
+     "answer": "other",
+     "quote": "A faculty member shall be eligible to extend the probationary period leading to a mandatory tenure review, upon request, if the faculty (whether male or female) is a caregiver of a newborn, newly adopted or foster child, including a newborn, newly adopted or foster child of a domestic partner."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "A faculty member shall be eligible to extend the probationary period leading to a mandatory tenure review, upon request, if the faculty (whether male or female) is a caregiver of a newborn, newly adopted or foster child, including a newborn, newly adopted or foster child of a domestic partner."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 year exact (increments of one year only)",
+     "quote": "An extension, if approved, shall be only for increments of one year."
+    },
+    {
+     "field": "use_limit",
+     "rule": "U9",
+     "answer": "2 extensions per career (up to a total of two years)",
+     "quote": "An extension of the probationary period shall be limited for one year for each qualifying event (or child), up to a total of two years."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "A faculty member shall be eligible to extend the probationary period leading to a mandatory tenure review, upon request, if the faculty (whether male or female) is a caregiver of a newborn, newly adopted or foster child, including a newborn, newly adopted or foster child of a domestic partner."
+    }
+   ]
+  },
+  {
+   "component_id": "kent_state_university_c12",
+   "institution_label": "University policy and procedure governing modification of the faculty probationary period",
+   "description": "A probationary faculty member who develops a serious illness or disability, or whose immediate family member becomes seriously ill or disabled, is eligible on request to extend the probationary period by one year per event, up to two years in total.",
+   "mechanism": "tenure_clock",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "full-time tenure track faculty members",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent"
+   ],
+   "eligible_parent_wording": "the faculty member develops a serious illness or disability or a member of his or her immediate family ... becomes seriously ill or disabled",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "'shall be eligible ... upon request'; same review and appeal procedure as c11.",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "exact"
+   },
+   "use_limit": [
+    {
+     "times": 2,
+     "per": "career",
+     "counts": "uses"
+    }
+   ],
+   "use_limit_note": "one year for each qualifying event, up to a total of two years across all extensions",
+   "notice": "request reviewed and approved on or before March 1 of the spring semester before the tenure file is submitted",
+   "rule_applied": [
+    "V2",
+    "U9",
+    "U5",
+    "R13"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "The following principles shall govern the extension of the probationary period for full-time tenure track faculty members:"
+    ],
+    "eligible_parent": [
+     "A faculty member shall be eligible to extend the probationary period leading to a mandatory tenure review, upon request, if the faculty member develops a serious illness or disability or a member of his or her immediate family (as defined in the sick leave policy) becomes seriously ill or disabled."
+    ],
+    "entitlement": [
+     "A faculty member shall be eligible to extend the probationary period leading to a mandatory tenure review, upon request, if the faculty member develops a serious illness or disability or a member of his or her immediate family (as defined in the sick leave policy) becomes seriously ill or disabled.",
+     "If the request is not approved by the unit administrator or regional campus dean, the reasons for the rejection will be set forth in writing and provided to the faculty member in question."
+    ],
+    "duration": [
+     "An extension, if approved, shall be only for increments of one year."
+    ],
+    "use_limit": [
+     "An extension of the probationary period shall be limited for one year for each qualifying event (or child), up to a total of two years.",
+     "The maximum extension of the probationary period will be no more than two full years."
+    ],
+    "notice": [
+     "Any request to extend the mandatory probationary period must be reviewed and approved on or before March first of the spring semester prior to the time that the candidate for tenure submits his or her tenure review file."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_policy_6_13_probationary_period_modification"
+   ],
+   "flags": [
+    "ambiguous: entitlement: 'shall be eligible ... upon request', but the procedure provides for approval or rejection and appeal, with no stated ground for refusal; coded guaranteed_on_request (V2)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "A faculty member shall be eligible to extend the probationary period leading to a mandatory tenure review, upon request, if the faculty member develops a serious illness or disability or a member of his or her immediate family (as defined in the sick leave policy) becomes seriously ill or disabled."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "The following principles shall govern the extension of the probationary period for full-time tenure track faculty members:"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own illness) and non_birth_parent (ill family member)",
+     "quote": "A faculty member shall be eligible to extend the probationary period leading to a mandatory tenure review, upon request, if the faculty member develops a serious illness or disability or a member of his or her immediate family (as defined in the sick leave policy) becomes seriously ill or disabled."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "A faculty member shall be eligible to extend the probationary period leading to a mandatory tenure review, upon request, if the faculty member develops a serious illness or disability or a member of his or her immediate family (as defined in the sick leave policy) becomes seriously ill or disabled."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 year exact",
+     "quote": "An extension, if approved, shall be only for increments of one year."
+    },
+    {
+     "field": "use_limit",
+     "rule": "U9",
+     "answer": "2 extensions per career",
+     "quote": "An extension of the probationary period shall be limited for one year for each qualifying event (or child), up to a total of two years."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "A faculty member shall be eligible to extend the probationary period leading to a mandatory tenure review, upon request, if the faculty member develops a serious illness or disability or a member of his or her immediate family (as defined in the sick leave policy) becomes seriously ill or disabled."
+    }
+   ]
+  },
+  {
+   "component_id": "kent_state_university_c13",
+   "institution_label": "University policy and procedure governing modification of the faculty probationary period",
+   "description": "A probationary faculty member may be eligible, on request, to extend the probationary period for other personal or family circumstances of a compelling nature; one year per event, up to two years in total.",
+   "mechanism": "tenure_clock",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "full-time tenure track faculty members",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "a faculty member ... other personal and/or family circumstances of a compelling nature",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "exact"
+   },
+   "use_limit": [
+    {
+     "times": 2,
+     "per": "career",
+     "counts": "uses"
+    }
+   ],
+   "use_limit_note": "one year for each qualifying event, up to a total of two years across all extensions",
+   "rule_applied": [
+    "U1",
+    "V2",
+    "U9",
+    "R13"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "The following principles shall govern the extension of the probationary period for full-time tenure track faculty members:"
+    ],
+    "eligible_parent": [
+     "A faculty member may be eligible to extend the probationary period leading to a mandatory tenure review, upon request, if the faculty member has other personal and/or family circumstances of a compelling nature"
+    ],
+    "entitlement": [
+     "A faculty member may be eligible to extend the probationary period leading to a mandatory tenure review, upon request, if the faculty member has other personal and/or family circumstances of a compelling nature"
+    ],
+    "duration": [
+     "An extension, if approved, shall be only for increments of one year."
+    ],
+    "use_limit": [
+     "An extension of the probationary period shall be limited for one year for each qualifying event (or child), up to a total of two years."
+    ],
+    "general_purpose": [
+     "A faculty member may be eligible to extend the probationary period leading to a mandatory tenure review, upon request, if the faculty member has other personal and/or family circumstances of a compelling nature"
+    ]
+   },
+   "doc_ids": [
+    "2018_02_policy_6_13_probationary_period_modification"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "A faculty member may be eligible to extend the probationary period leading to a mandatory tenure review, upon request, if the faculty member has other personal and/or family circumstances of a compelling nature"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "The following principles shall govern the extension of the probationary period for full-time tenure track faculty members:"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "A faculty member may be eligible to extend the probationary period leading to a mandatory tenure review, upon request, if the faculty member has other personal and/or family circumstances of a compelling nature"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "A faculty member may be eligible to extend the probationary period leading to a mandatory tenure review, upon request, if the faculty member has other personal and/or family circumstances of a compelling nature"
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 year exact",
+     "quote": "An extension, if approved, shall be only for increments of one year."
+    },
+    {
+     "field": "use_limit",
+     "rule": "U9",
+     "answer": "2 extensions per career",
+     "quote": "An extension of the probationary period shall be limited for one year for each qualifying event (or child), up to a total of two years."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "A faculty member may be eligible to extend the probationary period leading to a mandatory tenure review, upon request, if the faculty member has other personal and/or family circumstances of a compelling nature"
+    }
+   ]
+  },
+  {
+   "component_id": "kent_state_university_c14",
+   "institution_label": "",
+   "description": "Time on any leave other than a scholarly leave of absence (and time under the probationary-period modification policy) is not counted in the probationary period (tenure and reappointment policies, CBA Addenda B and C). The CBA states that Paid Parental Leave by itself does not change the tenure review date.",
+   "mechanism": "tenure_clock",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "regular full-time tenured or tenure-track appointments",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "time spent on leave",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration_note": "The time removed from the probationary period equals the leave taken; no length of its own. Paid Parental Leave is carved out: 'use of Paid Parental Leave will not affect the date for his/her mandatory tenure review' unless an extension under policy 6-13 is granted.",
+   "rule_applied": [
+    "U1",
+    "V2"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "The term \"faculty\" shall be understood to mean those who hold regular full-time tenured or tenure-track appointments."
+    ],
+    "eligible_parent": [
+     "time spent on leave other than a scholarly leave of absence (e.g., university policy and procedures governing modification of the faculty probationary period) is not considered as part of the probationary period."
+    ],
+    "entitlement": [
+     "time spent on leave other than a scholarly leave of absence (e.g., university policy and procedures governing modification of the faculty probationary period) is not considered as part of the probationary period.",
+     "time spent on leave other than a scholarly leave of absence or time spent pursuant to the University policy and procedures governing modification of the faculty probationary period is not considered part of the probationary period."
+    ],
+    "general_purpose": [
+     "time spent on leave other than a scholarly leave of absence (e.g., university policy and procedures governing modification of the faculty probationary period) is not considered as part of the probationary period."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_aaup_ksu_tt_cba_2015_2018"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "time spent on leave other than a scholarly leave of absence (e.g., university policy and procedures governing modification of the faculty probationary period) is not considered as part of the probationary period."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "The term \"faculty\" shall be understood to mean those who hold regular full-time tenured or tenure-track appointments."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "time spent on leave other than a scholarly leave of absence (e.g., university policy and procedures governing modification of the faculty probationary period) is not considered as part of the probationary period."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "time spent on leave other than a scholarly leave of absence or time spent pursuant to the University policy and procedures governing modification of the faculty probationary period is not considered part of the probationary period."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "time spent on leave other than a scholarly leave of absence (e.g., university policy and procedures governing modification of the faculty probationary period) is not considered as part of the probationary period."
+    }
+   ]
+  },
+  {
+   "component_id": "kent_state_university_c15",
+   "institution_label": "Conversion of Sick Leave to Paid Personal Leave",
+   "description": "With advance approval, a faculty member may convert up to 4 days a year (9-month faculty; 5 days for 12-month faculty) of accrued sick leave into paid personal leave for family emergencies or any other personal matters, keeping at least 120 hours of sick leave.",
+   "mechanism": "own_accrual",
+   "payer": "own_balance",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "CBA Art. I.H: 'Faculty' = full-time tenured or tenure-track faculty of academic rank; Art. II s.1: the unit includes all Kent Campus and Regional Campus full-time teaching and research faculty",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "Faculty",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "duration": {
+    "value": 4,
+    "units": "day",
+    "qualifier": "up_to"
+   },
+   "duration_note": "Per year: 32 hours (4 days) for 9-month Faculty; 40 hours (5 days) for 12-month Faculty; a minimum sick leave balance of 120 hours must be kept.",
+   "pay_fraction": "pay from converted accrued sick leave",
+   "rule_applied": [
+    "U1",
+    "R1",
+    "V2",
+    "R13"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Faculty shall be eligible for and may request conversion of accrued sick leave to paid personal leave"
+    ],
+    "eligible_parent": [
+     "Faculty shall be eligible for and may request conversion of accrued sick leave to paid personal leave"
+    ],
+    "entitlement": [
+     "Personal leave requests will not be granted unless approved by the appropriate administrator."
+    ],
+    "duration": [
+     "A maximum of 32 hours (4 days) of accrued sick leave may be converted to personal leave per year for 9-month Faculty.",
+     "A Faculty member must retain a minimum balance of at least 120 hours of accrued sick leave."
+    ],
+    "pay_fraction": [
+     "Faculty shall be eligible for and may request conversion of accrued sick leave to paid personal leave"
+    ],
+    "general_purpose": [
+     "Requests to convert accrued sick leave to personal leave are intended to cover absences due to mandatory court appearances, legal or business matters, family emergencies or any other personal matters."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_aaup_ksu_tt_cba_2015_2018"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "own_accrual",
+     "quote": "Faculty shall be eligible for and may request conversion of accrued sick leave to paid personal leave"
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "own_balance",
+     "quote": "Faculty shall be eligible for and may request conversion of accrued sick leave to paid personal leave"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Faculty shall be eligible for and may request conversion of accrued sick leave to paid personal leave"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "Faculty shall be eligible for and may request conversion of accrued sick leave to paid personal leave"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "Personal leave requests will not be granted unless approved by the appropriate administrator."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "4 days up_to ('A maximum of') for 9-month faculty",
+     "quote": "A maximum of 32 hours (4 days) of accrued sick leave may be converted to personal leave per year for 9-month Faculty."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "R1",
+     "answer": "own balance; 0 paid weeks",
+     "quote": "Faculty shall be eligible for and may request conversion of accrued sick leave to paid personal leave"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "Requests to convert accrued sick leave to personal leave are intended to cover absences due to mandatory court appearances, legal or business matters, family emergencies or any other personal matters."
+    }
+   ]
+  },
+  {
+   "component_id": "kent_state_university_c16",
+   "institution_label": "Vacation for 12-month Faculty",
+   "description": "Twelve-month faculty accrue vacation on the same basis as full-time unclassified employees (accrual terms not in the saved documents); usable before or after Paid Parental Leave.",
+   "mechanism": "own_accrual",
+   "payer": "own_balance",
+   "faculty_group": "12-month Faculty",
+   "faculty_group_note": "12-month Faculty; academic-year (9-month) faculty are not covered",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "12-month Faculty",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "pay_fraction": "vacation pay (own balance)",
+   "rule_applied": [
+    "U1",
+    "R1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Vacation will accrue for 12-month Faculty on the same basis as full-time unclassified employees."
+    ],
+    "eligible_parent": [
+     "Vacation will accrue for 12-month Faculty on the same basis as full-time unclassified employees."
+    ],
+    "entitlement": [
+     "Vacation will accrue for 12-month Faculty on the same basis as full-time unclassified employees."
+    ],
+    "pay_fraction": [
+     "Vacation will accrue for 12-month Faculty on the same basis as full-time unclassified employees."
+    ],
+    "general_purpose": [
+     "Vacation will accrue for 12-month Faculty on the same basis as full-time unclassified employees."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_aaup_ksu_tt_cba_2015_2018"
+   ],
+   "flags": [
+    "general_purpose",
+    "cross_reference_not_saved: vacation policy for full-time unclassified employees"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "own_accrual",
+     "quote": "Vacation will accrue for 12-month Faculty on the same basis as full-time unclassified employees."
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "own_balance",
+     "quote": "Vacation will accrue for 12-month Faculty on the same basis as full-time unclassified employees."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "12-month Faculty",
+     "quote": "Vacation will accrue for 12-month Faculty on the same basis as full-time unclassified employees."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "Vacation will accrue for 12-month Faculty on the same basis as full-time unclassified employees."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "Vacation will accrue for 12-month Faculty on the same basis as full-time unclassified employees."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "R1",
+     "answer": "own balance; 0 paid weeks",
+     "quote": "Vacation will accrue for 12-month Faculty on the same basis as full-time unclassified employees."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "Vacation will accrue for 12-month Faculty on the same basis as full-time unclassified employees."
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "Reference date 2018-02-22. The CBA (effective 2015-08-19 to 2018-08-18) and the policy-register pages (effective dates 2015; Wayback copies 2016-08 to 2018-01) were in force on that date as far as the documents show.",
+  "The CBA is a governing collective agreement for tenured and tenure-track faculty (Kent and regional campuses), so missing = false.",
+  "Chain, birth parent: pregnancy disability leave without pay (c6, up to 6 months; own sick leave c3 within it from its start; FMLA c10 concurrent from its start) | Paid Parental Leave c1 6 weeks (FMLA concurrent) -> own sick/vacation supplement c2 6 weeks also available (order at the member's choice); donated pool c5 after own sick leave c3; general temporary disability leave c7 after sick leave c3; child care leave c8 (discretionary, no length) after c6.",
+  "Chain, non-birth parent: Paid Parental Leave c1 6 weeks with FMLA c10 12 weeks concurrent -> own sick/vacation supplement c2 6 weeks also available, to the end of the 12 FMLA weeks; post-natal sick leave days c4 (up to 5 days, discretionary, own balance) unplaced; child care leave c8 (discretionary, no length) unplaced.",
+  "Paid Parental Leave renews per event ('One Paid Parental Leave benefit is available per Faculty member, per birth, adoption, or foster care placement event'): not a use limit (U9).",
+  "Policy 6-11.9 states 'The university does not provide leaves of absence with pay for faculty'; read as about general leaves of absence; the CBA's Paid Parental Leave (Art. XIV s.11) governs paid parental leave for bargaining-unit faculty.",
+  "Calendar: the documents name semesters ('spring or fall semesters or the ten-week summer session') without a semester length: calendar.kind = semester, and the term length follows R8's order. No component is stated in semesters.",
+  "C8: FMLA intermittent and reduced-schedule leave are forms of the FMLA leave (c10), not a separate part-time option.",
+  "Cited but not saved: Administrative Code rule 3342-6-11.10 (child care leave); vacation policy for unclassified employees; Ohio Revised Code 124.38/124.39; policy 3342-6-12 (faculty professional improvement leave); 3342-6-11.6 (military leave); 3342-5-16 (nondiscrimination); 3342-6-09.1 (tuition benefits); 3342-6-17 (code of professional ethics); University Policy 5-09 and 5-09.1 (patents/IP); the university-wide and unit Faculty Handbooks."
+ ],
+ "statutory_floor": {
+  "jurisdiction": "US",
+  "year": "2018",
+  "weeks_birth": 12.0,
+  "weeks_nonbirth": 12.0,
+  "statute": "Family and Medical Leave Act (FMLA) (29 U.S.C. 2611-2612)",
+  "source_doc": "2026_00_us_fmla_29usc2612",
+  "table": "statutory_baseline.csv"
+ }
+}

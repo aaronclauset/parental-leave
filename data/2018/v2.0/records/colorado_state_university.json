@@ -1,0 +1,2863 @@
+{
+ "institution": "Colorado State University",
+ "slug": "colorado_state_university",
+ "country": "US",
+ "model": "claude-opus-5-5",
+ "codebook_version": "1.25",
+ "schema_version": "1.25",
+ "reference_date": "2018-02-22",
+ "calendar": {
+  "term_weeks": null,
+  "note": "semester calendar stated ('two (2) academic semesters' for 9-month faculty; nine-month period August 16 through May 15); length not stated, semester default (R8)",
+  "kind": "semester"
+ },
+ "documents": [
+  {
+   "doc_id": "2018_00_link",
+   "title": "CSU Policy Library: Parental Leave (Policy ID 3-6004-029)",
+   "version_or_effective_date": "Original effective 1/5/2015; last major revision 8/26/2015",
+   "retrieved": "Wayback 2018-07-10",
+   "url": "http://policylibrary.colostate.edu/policy.aspx?id=477"
+  },
+  {
+   "doc_id": "2018_01_afapm_section_f_leave",
+   "title": "Academic Faculty and Administrative Professional Manual, Section F: Leave Policies",
+   "version_or_effective_date": "F.3.16 and F.3.17 last revised August 5, 2016",
+   "retrieved": "Wayback 2018-02-14",
+   "url": "http://facultycouncil.colostate.edu/faculty-manual-section-f/"
+  },
+  {
+   "doc_id": "2018_02_afapm_section_e_appointments_tenure",
+   "title": "AFAPM Section E: Faculty (appointments, tenure)",
+   "version_or_effective_date": "E.10.4.1.2 last revised August 2, 2013",
+   "retrieved": "Wayback 2017-10-22",
+   "url": "http://facultycouncil.colostate.edu/faculty-manual-section-e/"
+  },
+  {
+   "doc_id": "2018_03_afapm_appendices",
+   "title": "AFAPM Appendices (Appendix 3: Family Medical Leave Policy)",
+   "version_or_effective_date": "Appendix 3 last revised August 8, 2014",
+   "retrieved": "Wayback 2017-10-26",
+   "url": "http://facultycouncil.colostate.edu/faculty-manual-appendices/"
+  },
+  {
+   "doc_id": "2018_04_hr_manual_section2_faculty_admin_pro",
+   "title": "HR Manual Section 2: Academic Faculty and Administrative Professionals",
+   "version_or_effective_date": "Parental Leave section updated July 1, 2016",
+   "retrieved": "Wayback 2017-07-08",
+   "url": "http://www.hrs.colostate.edu/pdfs/hrs-manual-2-faculty-admin-pro.pdf"
+  },
+  {
+   "doc_id": "2018_05_hr_parental_leave_afap_page",
+   "title": "HR page: Parental Leave, Faculty & Administrative Professionals",
+   "version_or_effective_date": "table marked 'Effective 07/2016'; undated page",
+   "retrieved": "Wayback 2018-02-11",
+   "url": "http://www.hrs.colostate.edu/benefits/Parental-Leave-AFAP.html"
+  },
+  {
+   "doc_id": "2026_00_us_fmla_29usc2612",
+   "title": "29 U.S.C. 2612 (FMLA leave requirement)",
+   "version_or_effective_date": "2026 text; leave length unchanged since 1993",
+   "retrieved": "2026-10-19",
+   "url": "https://www.law.cornell.edu/uscode/text/29/2612"
+  }
+ ],
+ "missing": false,
+ "scope_accounting": {
+  "C1": {
+   "components": [
+    "colorado_state_university_c1",
+    "colorado_state_university_c2",
+    "colorado_state_university_c3",
+    "colorado_state_university_c4",
+    "colorado_state_university_c5"
+   ]
+  },
+  "C2": {
+   "components": [
+    "colorado_state_university_c6"
+   ]
+  },
+  "C3": {
+   "components": [
+    "colorado_state_university_c2",
+    "colorado_state_university_c7",
+    "colorado_state_university_c8",
+    "colorado_state_university_c9",
+    "colorado_state_university_c10",
+    "colorado_state_university_c14"
+   ]
+  },
+  "C4": {
+   "components": [
+    "colorado_state_university_c11",
+    "colorado_state_university_c12"
+   ],
+   "not_components": [
+    {
+     "statute": "FMLA military family leave (qualifying exigency) and military caregiver leave (26 weeks)",
+     "reason": "not related to becoming a parent (U4)"
+    },
+    {
+     "statute": "Americans with Disabilities Act of 1990 / ADA Amendments Act of 2008 (incl. ADA tenure extension E.10.4.1.2.b)",
+     "reason": "disability-accommodation statute (U4)"
+    },
+    {
+     "statute": "Pregnancy Discrimination Act of 1978; Title VII of the Civil Rights Act of 1964; Civil Rights Act of 1991; Title IX; C.R.S. 24-34-401 et seq. and civil rights laws of Colorado",
+     "reason": "named only for non-discrimination; no absence length or protection relied on (U4)"
+    },
+    {
+     "statute": "Rehabilitation Act ss. 503-504; Age Discrimination in Employment Act; Genetic Information Nondiscrimination Act; Vietnam Era Veterans' Readjustment Assistance Act s. 402; Executive Orders 11246 and 11375",
+     "reason": "non-discrimination statutes unrelated to becoming a parent (U4)"
+    },
+    {
+     "statute": "Colorado military leave statute (annual encampment, 15 days) and 38 U.S.C. 2024 (reemployment)",
+     "reason": "military leave (U4)"
+    },
+    {
+     "statute": "Workers' Compensation (injury leave)",
+     "reason": "on-the-job injury only (U4)"
+    },
+    {
+     "statute": "C.R.S. 14-15-103 (civil union partner definition)",
+     "reason": "definition used by the Colorado Family Care Act component c12; no leave of its own"
+    },
+    {
+     "statute": "C.R.S. 23-31-104 / 23-31-113 and C.R.S. Title 23 Article 31 (faculty definition, university statutes); state statute on sabbatical frequency; Colorado State Personnel Act; PERA statutes (Title 24 Article 51); Social Security (Form SSA-1945)",
+     "reason": "unrelated to becoming a parent (U4)"
+    }
+   ]
+  },
+  "C5": {
+   "components": [
+    "colorado_state_university_c8",
+    "colorado_state_university_c11",
+    "colorado_state_university_c12"
+   ]
+  },
+  "C6": {
+   "components": [
+    "colorado_state_university_c14",
+    "colorado_state_university_c15",
+    "colorado_state_university_c16",
+    "colorado_state_university_c17"
+   ]
+  },
+  "C7": {
+   "components": [
+    "colorado_state_university_c18",
+    "colorado_state_university_c19",
+    "colorado_state_university_c20",
+    "colorado_state_university_c21"
+   ]
+  },
+  "C8": {
+   "components": [
+    "colorado_state_university_c13"
+   ]
+  },
+  "C9": {
+   "absent": {
+    "documents": [
+     "2018_00_link",
+     "2018_01_afapm_section_f_leave",
+     "2018_02_afapm_section_e_appointments_tenure",
+     "2018_03_afapm_appendices",
+     "2018_04_hr_manual_section2_faculty_admin_pro",
+     "2018_05_hr_parental_leave_afap_page"
+    ],
+    "terms": [
+     "pregnancy",
+     "accommodation",
+     "transfer",
+     "light duty",
+     "hazard",
+     "lactation",
+     "nursing"
+    ]
+   }
+  },
+  "C10": {
+   "absent": {
+    "documents": [
+     "2018_00_link",
+     "2018_01_afapm_section_f_leave",
+     "2018_02_afapm_section_e_appointments_tenure",
+     "2018_03_afapm_appendices",
+     "2018_04_hr_manual_section2_faculty_admin_pro",
+     "2018_05_hr_parental_leave_afap_page"
+    ],
+    "terms": [
+     "first days",
+     "FMLA-qualifying",
+     "regular work time",
+     "elimination period",
+     "waiting period"
+    ]
+   }
+  }
+ },
+ "passage_dispositions": {
+  "2018_01_afapm_section_f_leave#001": {
+   "not_relevant": "Section F table of contents and the absence-authorization rule (F.1)"
+  },
+  "2018_01_afapm_section_f_leave#005": {
+   "not_relevant": "sabbatical leave conditions: professional-development leave, not usable for a birth"
+  },
+  "2018_01_afapm_section_f_leave#006": {
+   "not_relevant": "annual military leave (Colorado statute): not related to becoming a parent"
+  },
+  "2018_01_afapm_section_f_leave#007": {
+   "not_relevant": "military leave and extended active duty"
+  },
+  "2018_01_afapm_section_f_leave#008": {
+   "not_relevant": "military reemployment; administrative leave for administrative officers; wartime civilian employment"
+  },
+  "2018_01_afapm_section_f_leave#009": {
+   "not_relevant": "leave for government assignment and jury duty"
+  },
+  "2018_01_afapm_section_f_leave#012": {
+   "not_relevant": "leave policy for overseas project personnel"
+  },
+  "2018_01_afapm_section_f_leave#013": {
+   "not_relevant": "overseas personnel and funeral leave"
+  },
+  "2018_02_afapm_section_e_appointments_tenure#001": {
+   "not_relevant": "Section E table of contents"
+  },
+  "2018_02_afapm_section_e_appointments_tenure#002": {
+   "not_relevant": "temporary and transitional appointment types (retirement transition, not a parental part-time option)"
+  },
+  "2018_02_afapm_section_e_appointments_tenure#003": {
+   "not_relevant": "transitional and joint appointments"
+  },
+  "2018_02_afapm_section_e_appointments_tenure#004": {
+   "not_relevant": "faculty responsibilities and recommendations"
+  },
+  "2018_02_afapm_section_e_appointments_tenure#005": {
+   "not_relevant": "general appointment policies and department heads' appointments"
+  },
+  "2018_02_afapm_section_e_appointments_tenure#006": {
+   "not_relevant": "effort distribution and negotiated workload changes in general; no parental provision"
+  },
+  "2018_02_afapm_section_e_appointments_tenure#007": {
+   "not_relevant": "conferring tenure and probationary-period lengths (extensions are in #009)"
+  },
+  "2018_02_afapm_section_e_appointments_tenure#008": {
+   "not_relevant": "administrative appointments and prior-service credit"
+  },
+  "2018_02_afapm_section_e_appointments_tenure#010": {
+   "not_relevant": "tenure-recommendation processing and postponement"
+  },
+  "2018_03_afapm_appendices#001": {
+   "not_relevant": "appendices table of contents"
+  },
+  "2018_03_afapm_appendices#002": {
+   "not_relevant": "discrimination policy purpose"
+  },
+  "2018_03_afapm_appendices#003": {
+   "not_relevant": "definitions of dating violence and harassment"
+  },
+  "2018_03_afapm_appendices#004": {
+   "not_relevant": "anti-discrimination statutes (incl. Pregnancy Discrimination Act) named for equal opportunity; listed under C4 not_components"
+  },
+  "2018_04_hr_manual_section2_faculty_admin_pro#001": {
+   "not_relevant": "appointment types"
+  },
+  "2018_04_hr_manual_section2_faculty_admin_pro#002": {
+   "not_relevant": "joint appointments and maximum summer employment"
+  },
+  "2018_04_hr_manual_section2_faculty_admin_pro#003": {
+   "not_relevant": "appointment and reappointment process"
+  },
+  "2018_04_hr_manual_section2_faculty_admin_pro#007": {
+   "not_relevant": "military and funeral leave"
+  },
+  "2018_04_hr_manual_section2_faculty_admin_pro#009": {
+   "not_relevant": "Social Security notice and the extended-sick-leave fringe-pool charge (department funding, not an employee benefit)"
+  },
+  "2018_00_link#001": {
+   "used_in": [
+    "colorado_state_university_c1",
+    "colorado_state_university_c2",
+    "colorado_state_university_c3",
+    "colorado_state_university_c5",
+    "colorado_state_university_c11"
+   ]
+  },
+  "2018_01_afapm_section_f_leave#002": {
+   "used_in": [
+    "colorado_state_university_c9"
+   ]
+  },
+  "2018_01_afapm_section_f_leave#003": {
+   "used_in": [
+    "colorado_state_university_c17",
+    "colorado_state_university_c9"
+   ]
+  },
+  "2018_01_afapm_section_f_leave#004": {
+   "used_in": [
+    "colorado_state_university_c7",
+    "colorado_state_university_c8",
+    "colorado_state_university_c11"
+   ]
+  },
+  "2018_01_afapm_section_f_leave#010": {
+   "used_in": [
+    "colorado_state_university_c15",
+    "colorado_state_university_c16",
+    "colorado_state_university_c1",
+    "colorado_state_university_c3",
+    "colorado_state_university_c4",
+    "colorado_state_university_c14"
+   ]
+  },
+  "2018_01_afapm_section_f_leave#011": {
+   "used_in": [
+    "colorado_state_university_c14",
+    "colorado_state_university_c3"
+   ]
+  },
+  "2018_02_afapm_section_e_appointments_tenure#009": {
+   "used_in": [
+    "colorado_state_university_c18",
+    "colorado_state_university_c19",
+    "colorado_state_university_c20",
+    "colorado_state_university_c21"
+   ]
+  },
+  "2018_02_afapm_section_e_appointments_tenure#011": {
+   "used_in": [
+    "colorado_state_university_c18"
+   ]
+  },
+  "2018_03_afapm_appendices#005": {
+   "used_in": [
+    "colorado_state_university_c11"
+   ]
+  },
+  "2018_03_afapm_appendices#006": {
+   "used_in": [
+    "colorado_state_university_c11",
+    "colorado_state_university_c12",
+    "colorado_state_university_c13",
+    "colorado_state_university_c18",
+    "colorado_state_university_c2",
+    "colorado_state_university_c10",
+    "colorado_state_university_c5",
+    "colorado_state_university_c7",
+    "colorado_state_university_c8"
+   ]
+  },
+  "2018_04_hr_manual_section2_faculty_admin_pro#004": {
+   "used_in": [
+    "colorado_state_university_c9",
+    "colorado_state_university_c7"
+   ]
+  },
+  "2018_04_hr_manual_section2_faculty_admin_pro#005": {
+   "used_in": [
+    "colorado_state_university_c17",
+    "colorado_state_university_c9"
+   ]
+  },
+  "2018_04_hr_manual_section2_faculty_admin_pro#006": {
+   "used_in": [
+    "colorado_state_university_c7",
+    "colorado_state_university_c8",
+    "colorado_state_university_c9"
+   ]
+  },
+  "2018_04_hr_manual_section2_faculty_admin_pro#008": {
+   "used_in": [
+    "colorado_state_university_c1",
+    "colorado_state_university_c2",
+    "colorado_state_university_c3",
+    "colorado_state_university_c4",
+    "colorado_state_university_c5",
+    "colorado_state_university_c6",
+    "colorado_state_university_c15"
+   ]
+  },
+  "2018_05_hr_parental_leave_afap_page#001": {
+   "used_in": [
+    "colorado_state_university_c1",
+    "colorado_state_university_c3",
+    "colorado_state_university_c4",
+    "colorado_state_university_c6"
+   ]
+  }
+ },
+ "mechanism_slots": {
+  "employer_paid_leave": {
+   "components": [
+    "colorado_state_university_c1",
+    "colorado_state_university_c3",
+    "colorado_state_university_c4",
+    "colorado_state_university_c14",
+    "colorado_state_university_c16"
+   ]
+  },
+  "employer_childbirth_benefit": {
+   "components": [
+    "colorado_state_university_c2"
+   ]
+  },
+  "generic_sick_or_disability_plan": {
+   "components": [
+    "colorado_state_university_c10"
+   ]
+  },
+  "own_accrual": {
+   "components": [
+    "colorado_state_university_c7",
+    "colorado_state_university_c8",
+    "colorado_state_university_c9"
+   ]
+  },
+  "donated_leave": {
+   "absent": "no donated or shared leave bank in any of the six documents (terms: donat, shared leave, leave bank, transfer of leave)"
+  },
+  "government_benefit": {
+   "absent": "no federal or state paid-leave programme in the six documents (terms: state program, paid family leave, disability insurance, FAMLI)"
+  },
+  "employer_topup": {
+   "absent": "no top-up of a government benefit (terms: top-up, supplement, integrate)"
+  },
+  "modified_duties": {
+   "components": [
+    "colorado_state_university_c6"
+   ]
+  },
+  "unpaid_leave": {
+   "components": [
+    "colorado_state_university_c5",
+    "colorado_state_university_c11",
+    "colorado_state_university_c12",
+    "colorado_state_university_c15",
+    "colorado_state_university_c17"
+   ]
+  },
+  "tenure_clock": {
+   "components": [
+    "colorado_state_university_c18",
+    "colorado_state_university_c19",
+    "colorado_state_university_c20",
+    "colorado_state_university_c21"
+   ]
+  },
+  "part_time_option": {
+   "components": [
+    "colorado_state_university_c13"
+   ]
+  },
+  "other": {
+   "absent": "no pregnancy accommodation, rearrangement, hazard or equal-treatment absence provision (terms: accommodation, transfer, hazard, pregnancy)"
+  }
+ },
+ "baseline_accounting": {
+  "Family and Medical Leave Act (FMLA)": {
+   "components": [
+    "colorado_state_university_c11"
+   ]
+  },
+  "Paid Family and Medical Leave Insurance (FAMLI)": {
+   "not_applicable": "benefits begin 2024, after the 2018-02-22 reference date; no saved document mentions it"
+  },
+  "Federal Employee Paid Leave Act (paid parental leave for federal civilian employees)": {
+   "not_applicable": "covers federal civilian employees only; no saved document mentions it"
+  }
+ },
+ "leave_limits": [
+  {
+   "weeks": 12,
+   "components": [
+    "colorado_state_university_c11",
+    "colorado_state_university_c12"
+   ],
+   "roles": [
+    "nonbirth"
+   ],
+   "note": "Colorado Family Care Act leave does not increase the total amount of FM Leave; runs concurrently with it",
+   "evidence": [
+    "However, the statute states that such leave does not increase the total amount of FM Leave available to the employee; it runs concurrently with FM Leave."
+   ],
+   "decision_log": [
+    {
+     "field": "leave_limits",
+     "rule": "R20",
+     "answer": "12 weeks combined for FML (c11) and FCA (c12); FCA counts only for the non-birth parent",
+     "quote": "However, the statute states that such leave does not increase the total amount of FM Leave available to the employee; it runs concurrently with FM Leave."
+    }
+   ]
+  }
+ ],
+ "components": [
+  {
+   "component_id": "colorado_state_university_c1",
+   "institution_label": "Parental Leave",
+   "description": "Three work weeks of paid time off at regular salary for a new birth, non-birth or adoptive parent, taken in one block within the first year; for the birth mother it starts after STD benefits end.",
+   "mechanism": "employer_paid_leave",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Academic Faculty ... with an appointment of at least half-time (50%) or greater (benefits-eligible, meeting STD eligibility requirements)",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "birth mother or non-birth parent of a child, including the child's mother or father, or the spouse, domestic partner or civil union partner of either; adoption (foster care as part of adoption is included)",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 3,
+    "units": "workweek",
+    "qualifier": "exact"
+   },
+   "pay_fraction": "100% (regular salary)",
+   "pay_fraction_pct": 100,
+   "service_requirement": "appointment of at least half-time (50%), benefits-eligible, and the STD plan's eligibility requirements (stated in the SPD booklet, not saved)",
+   "time_window": "within the first year after delivery/placement; not before the birth or placement; not during summer session for 9-month appointees or any period not in regular paid work status",
+   "notice": "at least 30 days in advance (unless impossible, then as soon as possible)",
+   "dual_employee_rule": "each may take (each is entitled to use his or her Parental Leave benefit for the same event)",
+   "medical_certification": false,
+   "medical_certification_note": "A Parent need not be found medically incapacitated",
+   "runs_concurrently_with": [
+    "FMLA"
+   ],
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "colorado_state_university_c2",
+     "roles": [
+      "birth"
+     ],
+     "note": "Parental Leave shall not commence until after STD benefits are exhausted (birth mother); the non-birth parent may start at any time within one year"
+    }
+   ],
+   "rule_applied": [
+    "R9",
+    "R15",
+    "V2",
+    "U9",
+    "S1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Academic Faculty, Administrative Professionals, Post-Doctoral Fellows, Veterinary Interns and Clinical Psychology Interns with an appointment of at least half-time (50%) or greater are eligible for Parental Leave.",
+     "Academic Faculty, Administrative Professionals, Post-Doctoral Fellows, Veterinary Interns and Clinical Psychology Interns with an appointment of at least half-time (50%) or greater who are benefits-eligible and who satisfy the eligibility requirements for short term disability (STD) are eligible for Parental Leave."
+    ],
+    "eligible_parent": [
+     "a “Parent” means an Eligible Employee who is the birth mother or non-birth parent of a child, including the child’s mother or father, or the spouse, domestic partner or civil union partner of either",
+     "Foster care placement is not included; however, foster care as part of adoption is included."
+    ],
+    "entitlement": [
+     "Parental Leave consists of 3 work weeks of paid time off, to be used for the purposes of caring for and bonding with the child.",
+     "After exhausting STD benefits, the birth mother then becomes entitled to Parental Leave, regardless of whether or not she has FML eligibility at that time."
+    ],
+    "duration": [
+     "Parental Leave consists of 3 work weeks of paid time off, to be used for the purposes of caring for and bonding with the child.",
+     "Parental Leave consists of 3 work weeks of paid time off, in addition to the employee’s accrued Sick Leave and Annual Leave and any Short Term Disability (STD) benefits to which the birth mother is entitled"
+    ],
+    "pay_fraction": [
+     "Parental Leave is paid at the employee’s regular salary as of the day that leave commences",
+     "Paid Parental Leave (3 weeks)"
+    ],
+    "service_requirement": [
+     "Academic Faculty, Administrative Professionals, Post-Doctoral Fellows, Veterinary Interns and Clinical Psychology Interns with an appointment of at least half-time (50%) or greater who are benefits-eligible and who satisfy the eligibility requirements for short term disability (STD) are eligible for Parental Leave."
+    ],
+    "sequence": [
+     "If the employee is eligible for STD due to medical incapacity, Parental Leave shall not commence until after STD benefits are exhausted.",
+     "For the non-birth Parent, STD does not apply, which allows Parental Leave to commence at any time within one year after the birth or adoption, and exhaustion of other types of leave is not required.",
+     "It runs concurrently with (is considered part of) FML for the birth or adoption, if the parent has remaining FML entitlement available."
+    ],
+    "time_window": [
+     "Parental Leave may be taken anytime within the first year after delivery/placement.",
+     "Parental Leave is not available during summer session for a 9-month employee"
+    ],
+    "notice": [
+     "Prior notice of intent to take Parental Leave must be given by the employee to his or her supervisor at least 30 days in advance"
+    ],
+    "dual_employee_rule": [
+     "If both Parents are employees, each is entitled to use his or her Parental Leave benefit for the same event."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link",
+    "2018_01_afapm_section_f_leave",
+    "2018_04_hr_manual_section2_faculty_admin_pro",
+    "2018_05_hr_parental_leave_afap_page"
+   ],
+   "flags": [
+    "cross_reference_not_saved: CSU Cost Share Faculty and Administrative Professional Privileges and Benefits Summary Plan (SPD) booklet (STD eligibility requirements)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "employer_paid_leave",
+     "quote": "Parental Leave consists of 3 work weeks of paid time off, to be used for the purposes of caring for and bonding with the child."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "Parental Leave is paid at the employee’s regular salary as of the day that leave commences"
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "100% (regular salary; Scenario Pay column 100%)",
+     "quote": "Parental Leave is paid at the employee’s regular salary as of the day that leave commences"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Parental Leave consists of 3 work weeks of paid time off, to be used for the purposes of caring for and bonding with the child."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Academic Faculty, Administrative Professionals, Post-Doctoral Fellows, Veterinary Interns and Clinical Psychology Interns with an appointment of at least half-time (50%) or greater are eligible for Parental Leave."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "birth_parent, non_birth_parent, adoptive; foster only as part of adoption",
+     "quote": "Foster care placement is not included; however, foster care as part of adoption is included."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "After exhausting STD benefits, the birth mother then becomes entitled to Parental Leave, regardless of whether or not she has FML eligibility at that time."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "3 workweeks exact ('3 work weeks', no qualifier)",
+     "quote": "Parental Leave consists of 3 work weeks of paid time off, to be used for the purposes of caring for and bonding with the child."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "formal leave with no relief stated: all duties relieved",
+     "quote": "Parental Leave consists of 3 work weeks of paid time off, to be used for the purposes of caring for and bonding with the child."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "consecutive_after the STD childbirth period, birth role only; FML runs alongside (S1, on c11)",
+     "quote": "If the employee is eligible for STD due to medical incapacity, Parental Leave shall not commence until after STD benefits are exhausted."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U8",
+     "answer": "half-time appointment and STD eligibility; the member is assumed eligible",
+     "quote": "Academic Faculty, Administrative Professionals, Post-Doctoral Fellows, Veterinary Interns and Clinical Psychology Interns with an appointment of at least half-time (50%) or greater who are benefits-eligible and who satisfy the eligibility requirements for short term disability (STD) are eligible for Parental Leave."
+    }
+   ],
+   "duration_note": "One Parental Leave benefit per birth or adoption; twins do not increase it. Renewal per birth, not a use limit (U9)."
+  },
+  {
+   "component_id": "colorado_state_university_c2",
+   "institution_label": "Short Term Disability (STD)",
+   "description": "CSU's short-term disability plan pays the birth mother during her medical incapacity after childbirth (typically 6 weeks, 8 after a caesarean), after accrued sick and annual leave; the policy shows 100% pay.",
+   "mechanism": "employer_childbirth_benefit",
+   "payer": "employer",
+   "mechanism_note": "V1: childbirth-specific period ('Normal childbirth typically constitutes a medical incapacity for 6 weeks; caesarean childbirth 8 weeks'), its length, and a pay level (Pay column '100%' in the Parental Leave Policy's Scenario #1, in both the low- and high-accrual columns). R1c/R1d: accrued leave is drawn first, but STD replaces income on its exhaustion and Special Leave with pay covers any shortfall in the elimination period (c3), so the 100% period is guaranteed whatever the balances.",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "enrolled Eligible Employees; all CSU appointment types other than State Classified personnel, including faculty",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "the birth mother of the child",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "'may be eligible for STD benefits'; benefits begin after an application is approved: approval covers the claim, not whether the plan pays an eligible member (V2).",
+   "duration": {
+    "value": 6,
+    "units": "week",
+    "qualifier": "at_least"
+   },
+   "duration_max": {
+    "value": 8,
+    "units": "week"
+   },
+   "duration_variants": {
+    "normal childbirth": "typically 6 weeks of medical incapacity",
+    "caesarean childbirth": "typically 8 weeks"
+   },
+   "duration_note": "'typically' 6 (normal) or 8 (caesarean) weeks of medical incapacity, coded by R13b. The first 10 continuous working days are the STD elimination period, paid from accrued leave or Special Leave with pay (c3, within). Plan maximum: 'sixty (60) days' (V6 note). The policy's design: 'typically 6 weeks of STD eligibility plus 3 weeks of Parental Leave'.",
+   "pay_fraction": "100%",
+   "pay_fraction_pct": 100,
+   "must_exhaust_first": [
+    "sick",
+    "vacation"
+   ],
+   "medical_certification": true,
+   "medical_certification_note": "birth mother medically incapacitated following labor and delivery",
+   "service_requirement": "enrolled in the STD plan; eligibility rules in the SPD booklet (not saved)",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "rule_applied": [
+    "V1",
+    "R13b",
+    "R1c",
+    "R1d",
+    "V2",
+    "V6",
+    "R9",
+    "U5"
+   ],
+   "evidence": {
+    "mechanism": [
+     "Normal childbirth typically constitutes a medical incapacity for 6 weeks; caesarean childbirth 8 weeks",
+     "If less than 6 weeks or 8 weeks total accrued leave, STD benefits will provide income replacement upon exhaustion of accrued leave.",
+     "100%"
+    ],
+    "faculty_group": [
+     "CSU’s short-term disability plan provides a continuation of income for enrolled Eligible Employees who exhaust all of their accrued sick and annual leave in the event of illness, injury, surgery, or pregnancy.",
+     "All CSU appointment/employee types other than State Classified personnel, including those with faculty"
+    ],
+    "eligible_parent": [
+     "After exhausting all accrued sick and annual leave, an employee who is the birth mother of the child and who is medically incapacitated following labor and delivery may be eligible for STD benefits."
+    ],
+    "entitlement": [
+     "After exhausting all accrued sick and annual leave, an employee who is the birth mother of the child and who is medically incapacitated following labor and delivery may be eligible for STD benefits.",
+     "These benefits begin only after a completed application has been received and approved by Human Resource Services."
+    ],
+    "duration": [
+     "Normal childbirth typically constitutes a medical incapacity for 6 weeks; caesarean childbirth 8 weeks",
+     "for at least 9 weeks of the birth mother’s 12-week Family Medical Leave (FML) period (typically 6 weeks of STD eligibility plus 3 weeks of Parental Leave)"
+    ],
+    "pay_fraction": [
+     "If less than 6 weeks or 8 weeks total accrued leave, STD benefits will provide income replacement upon exhaustion of accrued leave.",
+     "100%"
+    ],
+    "service_requirement": [
+     "CSU’s short-term disability plan provides a continuation of income for enrolled Eligible Employees who exhaust all of their accrued sick and annual leave in the event of illness, injury, surgery, or pregnancy."
+    ],
+    "must_exhaust_first": [
+     "After exhausting all accrued sick and annual leave, an employee who is the birth mother of the child and who is medically incapacitated following labor and delivery may be eligible for STD benefits."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link",
+    "2018_03_afapm_appendices",
+    "2018_04_hr_manual_section2_faculty_admin_pro"
+   ],
+   "flags": [
+    "cross_reference_not_saved: CSU Cost Share Faculty and Administrative Professional Privileges and Benefits Summary Plan (SPD) booklet (STD plan terms)",
+    "ambiguous: STD plan funding (premiums) and its own benefit percentage are not stated in the saved documents; the 100% pay level is taken from the policy's Scenario #1 Pay column"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "V1",
+     "answer": "employer_childbirth_benefit",
+     "quote": "Normal childbirth typically constitutes a medical incapacity for 6 weeks; caesarean childbirth 8 weeks"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "CSU’s short-term disability plan provides a continuation of income for enrolled Eligible Employees who exhaust all of their accrued sick and annual leave in the event of illness, injury, surgery, or pregnancy."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "CSU’s short-term disability plan provides a continuation of income for enrolled Eligible Employees who exhaust all of their accrued sick and annual leave in the event of illness, injury, surgery, or pregnancy."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "All CSU appointment/employee types other than State Classified personnel, including those with faculty"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own incapacity)",
+     "quote": "After exhausting all accrued sick and annual leave, an employee who is the birth mother of the child and who is medically incapacitated following labor and delivery may be eligible for STD benefits."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "After exhausting all accrued sick and annual leave, an employee who is the birth mother of the child and who is medically incapacitated following labor and delivery may be eligible for STD benefits."
+    },
+    {
+     "field": "duration",
+     "rule": "R13b",
+     "answer": "6 weeks at_least, max 8 (normal vs caesarean, 'typically')",
+     "quote": "Normal childbirth typically constitutes a medical incapacity for 6 weeks; caesarean childbirth 8 weeks"
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "R1c",
+     "answer": "100%: accrued leave first, then STD income replacement; employer covers the period",
+     "quote": "If less than 6 weeks or 8 weeks total accrued leave, STD benefits will provide income replacement upon exhaustion of accrued leave."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "period of incapacity away from work: all duties relieved",
+     "quote": "Normal childbirth typically constitutes a medical incapacity for 6 weeks; caesarean childbirth 8 weeks"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U8",
+     "answer": "member assumed enrolled and eligible",
+     "quote": "CSU’s short-term disability plan provides a continuation of income for enrolled Eligible Employees who exhaust all of their accrued sick and annual leave in the event of illness, injury, surgery, or pregnancy."
+    }
+   ]
+  },
+  {
+   "component_id": "colorado_state_university_c3",
+   "institution_label": "Special Leave",
+   "description": "Where a birth mother lacks accrued sick and annual leave to cover the 10-working-day STD elimination (waiting) period, Special Leave is granted with pay for the uncovered part.",
+   "mechanism": "employer_paid_leave",
+   "payer": "employer",
+   "mechanism_note": "Employer pay guaranteed for the elimination period once balances are used (R1c): the employer covers any shortfall.",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Academic Faculty ... with an appointment of at least half-time (50%) or greater (Parental Leave eligibility, F.3.16)",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "a birth mother",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "entitlement_note": "AFAPM F.3.16 and F.3.17 (both revised August 5, 2016): 'will be granted with pay' / 'must be granted'. The 2015 Policy Library text and the HR Manual narrative still say 'in the department head's discretion'; the HR Manual and HR page tables mark Special leave 'effective 7/1/16'. The later governing manual decides (source precedence).",
+   "duration": {
+    "value": 10,
+    "units": "workday",
+    "qualifier": "exact"
+   },
+   "duration_note": "the STD elimination period of 10 continuous working days; the Special Leave covers the part not covered by accrued sick or annual leave",
+   "pay_fraction": "with pay",
+   "must_exhaust_first": [
+    "sick",
+    "vacation"
+   ],
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "sequence": [
+    {
+     "relation": "within",
+     "component_id": "colorado_state_university_c2",
+     "start_offset_weeks": 0,
+     "note": "the elimination period is the first 10 working days of the childbirth incapacity period (Scenario #1, weeks 1-2)"
+    }
+   ],
+   "rule_applied": [
+    "R1c",
+    "R11",
+    "R15",
+    "R9",
+    "V2",
+    "source_precedence"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Academic Faculty, Administrative Professionals, Post-Doctoral Fellows, Veterinary Interns and Clinical Psychology Interns with an appointment of at least half-time (50%) or greater are eligible for Parental Leave."
+    ],
+    "eligible_parent": [
+     "If a birth mother does not have sufficient accrued Sick Leave and Annual Leave to cover the STD elimination (waiting) period, Special Leave will be granted with pay."
+    ],
+    "entitlement": [
+     "If a birth mother does not have sufficient accrued Sick Leave and Annual Leave to cover the STD elimination (waiting) period, Special Leave will be granted with pay.",
+     "In the rare case that an employee who is eligible for short-term disability (STD) benefits does not have enough paid leave to cover the 10-day STD elimination (waiting) period, paid leave must be granted for the unpaid portion"
+    ],
+    "duration": [
+     "In the rare case that an employee who is eligible for short-term disability (STD) benefits does not have enough paid leave to cover the 10-day STD elimination (waiting) period, paid leave must be granted for the unpaid portion",
+     "Elimination period for STD (10 continuous days)"
+    ],
+    "pay_fraction": [
+     "If a birth mother does not have sufficient accrued Sick Leave and Annual Leave to cover the STD elimination (waiting) period, Special Leave will be granted with pay."
+    ],
+    "sequence": [
+     "Elimination period for STD (10 continuous days)",
+     "Normal childbirth typically constitutes a medical incapacity for 6 weeks; caesarean childbirth 8 weeks"
+    ],
+    "must_exhaust_first": [
+     "If a birth mother does not have sufficient accrued Sick Leave and Annual Leave to cover the STD elimination (waiting) period, Special Leave will be granted with pay."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link",
+    "2018_01_afapm_section_f_leave",
+    "2018_04_hr_manual_section2_faculty_admin_pro",
+    "2018_05_hr_parental_leave_afap_page"
+   ],
+   "flags": [
+    "conflicting_sources: 2018_00_link, 2018_04_hr_manual_section2_faculty_admin_pro, 2018_01_afapm_section_f_leave"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1c",
+     "answer": "employer_paid_leave",
+     "quote": "If a birth mother does not have sufficient accrued Sick Leave and Annual Leave to cover the STD elimination (waiting) period, Special Leave will be granted with pay."
+    },
+    {
+     "field": "payer",
+     "rule": "R1c",
+     "answer": "employer",
+     "quote": "In the rare case that an employee who is eligible for short-term disability (STD) benefits does not have enough paid leave to cover the 10-day STD elimination (waiting) period, paid leave must be granted for the unpaid portion"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "If a birth mother does not have sufficient accrued Sick Leave and Annual Leave to cover the STD elimination (waiting) period, Special Leave will be granted with pay."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Academic Faculty, Administrative Professionals, Post-Doctoral Fellows, Veterinary Interns and Clinical Psychology Interns with an appointment of at least half-time (50%) or greater are eligible for Parental Leave."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "birth_parent",
+     "quote": "If a birth mother does not have sufficient accrued Sick Leave and Annual Leave to cover the STD elimination (waiting) period, Special Leave will be granted with pay."
+    },
+    {
+     "field": "entitlement",
+     "rule": "source_precedence",
+     "answer": "guaranteed",
+     "quote": "If a birth mother does not have sufficient accrued Sick Leave and Annual Leave to cover the STD elimination (waiting) period, Special Leave will be granted with pay."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "In the rare case that an employee who is eligible for short-term disability (STD) benefits does not have enough paid leave to cover the 10-day STD elimination (waiting) period, paid leave must be granted for the unpaid portion"
+    },
+    {
+     "field": "duration",
+     "rule": "R11",
+     "answer": "10 working days = 2 weeks, exact",
+     "quote": "In the rare case that an employee who is eligible for short-term disability (STD) benefits does not have enough paid leave to cover the 10-day STD elimination (waiting) period, paid leave must be granted for the unpaid portion"
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "with pay",
+     "quote": "If a birth mother does not have sufficient accrued Sick Leave and Annual Leave to cover the STD elimination (waiting) period, Special Leave will be granted with pay."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved",
+     "quote": "If a birth mother does not have sufficient accrued Sick Leave and Annual Leave to cover the STD elimination (waiting) period, Special Leave will be granted with pay."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "within c2 from its start (weeks 1-2 of the incapacity period)",
+     "quote": "Elimination period for STD (10 continuous days)"
+    }
+   ]
+  },
+  {
+   "component_id": "colorado_state_university_c4",
+   "institution_label": "Special Leave",
+   "description": "An adoptive parent who is the primary caregiver gets at least 9 weeks of paid leave (Parental Leave plus sick and annual leave); where sick and annual leave do not cover 6 weeks, Special Leave is granted with pay.",
+   "mechanism": "employer_paid_leave",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Academic Faculty ... with an appointment of at least half-time (50%) or greater",
+   "eligible_parent": [
+    "adoptive"
+   ],
+   "eligible_parent_wording": "adoptive parents ... the primary caregiver",
+   "caregiver_condition": "primary",
+   "caregiver_condition_wording": "“primary caregiver” means the one parent who has primary responsibility for the care of a child immediately following the coming of the child into custody, care, and control of the parent for the first time",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 6,
+    "units": "week",
+    "qualifier": "exact"
+   },
+   "duration_note": "6 weeks of paid leave from sick leave, annual leave and Special Leave with pay; with the 3 weeks of Parental Leave, 'a minimum of 9 weeks of paid leave'. Effective July 1, 2016.",
+   "pay_fraction": "with pay",
+   "must_exhaust_first": [
+    "sick",
+    "vacation"
+   ],
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "sequence": [
+    {
+     "relation": "also_available",
+     "component_id": "colorado_state_university_c1",
+     "note": "a combination of Parental Leave, sick and annual leave; order not stated"
+    }
+   ],
+   "rule_applied": [
+    "R1c",
+    "R5",
+    "R6",
+    "R9",
+    "R15",
+    "V2"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Academic Faculty, Administrative Professionals, Post-Doctoral Fellows, Veterinary Interns and Clinical Psychology Interns with an appointment of at least half-time (50%) or greater are eligible for Parental Leave."
+    ],
+    "eligible_parent": [
+     "For adoptive parents, an employee who is the primary caregiver is also eligible for 12 weeks of FML and a minimum of 9 weeks of paid leave, typically a combination of Parental Leave, Sick Leave, and Annual Leave."
+    ],
+    "caregiver_condition": [
+     "“primary caregiver” means the one parent who has primary responsibility for the care of a child immediately following the coming of the child into custody, care, and control of the parent for the first time"
+    ],
+    "entitlement": [
+     "If Sick Leave and Annual Leave are not sufficient to cover 6 weeks of leave, Special Leave will be granted with pay."
+    ],
+    "duration": [
+     "If Sick Leave and Annual Leave are not sufficient to cover 6 weeks of leave, Special Leave will be granted with pay.",
+     "For adoptive parents, an employee who is the primary caregiver is also eligible for 12 weeks of FML and a minimum of 9 weeks of paid leave, typically a combination of Parental Leave, Sick Leave, and Annual Leave."
+    ],
+    "pay_fraction": [
+     "If Sick Leave and Annual Leave are not sufficient to cover 6 weeks of leave, Special Leave will be granted with pay."
+    ],
+    "sequence": [
+     "For adoptive parents, an employee who is the primary caregiver is also eligible for 12 weeks of FML and a minimum of 9 weeks of paid leave, typically a combination of Parental Leave, Sick Leave, and Annual Leave."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_afapm_section_f_leave",
+    "2018_04_hr_manual_section2_faculty_admin_pro",
+    "2018_05_hr_parental_leave_afap_page"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1c",
+     "answer": "employer_paid_leave",
+     "quote": "If Sick Leave and Annual Leave are not sufficient to cover 6 weeks of leave, Special Leave will be granted with pay."
+    },
+    {
+     "field": "payer",
+     "rule": "R1c",
+     "answer": "employer",
+     "quote": "If Sick Leave and Annual Leave are not sufficient to cover 6 weeks of leave, Special Leave will be granted with pay."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "For adoptive parents, an employee who is the primary caregiver is also eligible for 12 weeks of FML and a minimum of 9 weeks of paid leave, typically a combination of Parental Leave, Sick Leave, and Annual Leave."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Academic Faculty, Administrative Professionals, Post-Doctoral Fellows, Veterinary Interns and Clinical Psychology Interns with an appointment of at least half-time (50%) or greater are eligible for Parental Leave."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "adoptive (recorded, not counted)",
+     "quote": "For adoptive parents, an employee who is the primary caregiver is also eligible for 12 weeks of FML and a minimum of 9 weeks of paid leave, typically a combination of Parental Leave, Sick Leave, and Annual Leave."
+    },
+    {
+     "field": "caregiver_condition",
+     "rule": "R6",
+     "answer": "primary",
+     "quote": "“primary caregiver” means the one parent who has primary responsibility for the care of a child immediately following the coming of the child into custody, care, and control of the parent for the first time"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "If Sick Leave and Annual Leave are not sufficient to cover 6 weeks of leave, Special Leave will be granted with pay."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "6 weeks exact",
+     "quote": "If Sick Leave and Annual Leave are not sufficient to cover 6 weeks of leave, Special Leave will be granted with pay."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "with pay",
+     "quote": "If Sick Leave and Annual Leave are not sufficient to cover 6 weeks of leave, Special Leave will be granted with pay."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved",
+     "quote": "If Sick Leave and Annual Leave are not sufficient to cover 6 weeks of leave, Special Leave will be granted with pay."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "also_available with Parental Leave (order not stated)",
+     "quote": "For adoptive parents, an employee who is the primary caregiver is also eligible for 12 weeks of FML and a minimum of 9 weeks of paid leave, typically a combination of Parental Leave, Sick Leave, and Annual Leave."
+    }
+   ]
+  },
+  {
+   "component_id": "colorado_state_university_c5",
+   "institution_label": "Additional Time Off",
+   "description": "Time off after the birth or adoption beyond the 12-week FML period, at the department head's discretion, as annual leave or unpaid; no length stated.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Eligible Employees under the Parental Leave policy (Academic Faculty ...); FM Leave policy covers faculty",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "an employee following the birth or adoption of a child",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "duration_note": "no length stated; adds no weeks",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "colorado_state_university_c11",
+     "note": "time off 'in excess of the total 12-week FML period'"
+    }
+   ],
+   "rule_applied": [
+    "V2",
+    "R9",
+    "R15"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Academic Faculty, Administrative Professionals, Post-Doctoral Fellows, Veterinary Interns and Clinical Psychology Interns with an appointment of at least half-time (50%) or greater who are benefits-eligible and who satisfy the eligibility requirements for short term disability (STD) are eligible for Parental Leave.",
+     "All CSU appointment/employee types other than State Classified personnel, including those with faculty"
+    ],
+    "eligible_parent": [
+     "The university’s FML policy provides for up to 12 weeks of time off for an employee following the birth or adoption of a child."
+    ],
+    "entitlement": [
+     "Any time off requested in excess of the total 12-week FML period may be granted at the discretion of the department head (or department head’s authorized designee).",
+     "Once FM Leave has been exhausted, the employee may request additional time off using other types of leave (see Section F.3). The granting of such additional leave is at the discretion of University administrators."
+    ],
+    "sequence": [
+     "Any time off requested in excess of the total 12-week FML period may be granted at the discretion of the department head (or department head’s authorized designee)."
+    ],
+    "pay_fraction": [
+     "If allowed, it may be taken as annual leave, if available, or unpaid."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link",
+    "2018_03_afapm_appendices",
+    "2018_04_hr_manual_section2_faculty_admin_pro"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "If allowed, it may be taken as annual leave, if available, or unpaid."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "If allowed, it may be taken as annual leave, if available, or unpaid."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Any time off requested in excess of the total 12-week FML period may be granted at the discretion of the department head (or department head’s authorized designee)."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Academic Faculty, Administrative Professionals, Post-Doctoral Fellows, Veterinary Interns and Clinical Psychology Interns with an appointment of at least half-time (50%) or greater who are benefits-eligible and who satisfy the eligibility requirements for short term disability (STD) are eligible for Parental Leave."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "birth_parent, non_birth_parent, adoptive",
+     "quote": "The university’s FML policy provides for up to 12 weeks of time off for an employee following the birth or adoption of a child."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "Any time off requested in excess of the total 12-week FML period may be granted at the discretion of the department head (or department head’s authorized designee)."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved",
+     "quote": "Any time off requested in excess of the total 12-week FML period may be granted at the discretion of the department head (or department head’s authorized designee)."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "consecutive_after FML",
+     "quote": "Any time off requested in excess of the total 12-week FML period may be granted at the discretion of the department head (or department head’s authorized designee)."
+    }
+   ]
+  },
+  {
+   "component_id": "colorado_state_university_c6",
+   "institution_label": "",
+   "description": "The HR fringe-pool reimbursement table lists, in a column headed 'Non-Tenure Track Faculty', up to 16 weeks for the birth mother: sick and annual leave, Parental Leave and an additional 5 (or 7) weeks of teaching relief (effective 7/1/16).",
+   "mechanism": "modified_duties",
+   "payer": "employer",
+   "faculty_group": "Non-Tenure Track Faculty",
+   "faculty_group_note": "column header in the Fringe Pool Reimbursement table (HR Manual Section 2 and HR page)",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "the birth mother",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "entitlement_note": "Stated only as an item the fringe pool reimburses to the department; no grant wording to the faculty member (V2).",
+   "duration": {
+    "value": 5,
+    "units": "week",
+    "qualifier": "at_least"
+   },
+   "duration_max": {
+    "value": 7,
+    "units": "week"
+   },
+   "duration_variants": "5 or 7 weeks; the totals suggest 7 after a normal birth (6 + 3 + 7 = 16) and 5 after a caesarean (8 + 3 + 5 = 16), but the table does not say so",
+   "duration_note": "'Plus an additional 5 (or 7) weeks of teaching relief', within 'up to 16 weeks for the birth mother' (R13b)",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "continues",
+    "research": "continues",
+    "advising_supervision": "continues",
+    "clinical": "continues"
+   },
+   "relief_inferred": "unnamed duties continue (R4b)",
+   "relief_note": "teaching relief only; other duties not named",
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "colorado_state_university_c1",
+     "note": "'Plus an additional' after sick/annual and Parental Leave"
+    }
+   ],
+   "rule_applied": [
+    "R3",
+    "R4",
+    "R4b",
+    "R13b",
+    "R3d",
+    "V2",
+    "source_precedence"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Non-Tenure Track Faculty"
+    ],
+    "eligible_parent": [
+     "up to 16 weeks for the birth mother"
+    ],
+    "entitlement": [
+     "Parental Leave Fringe Pool Reimbursement",
+     "Plus an additional 5 (or 7) weeks of teaching relief"
+    ],
+    "duration": [
+     "Plus an additional 5 (or 7) weeks of teaching relief",
+     "up to 16 weeks for the birth mother"
+    ],
+    "relief": [
+     "Plus an additional 5 (or 7) weeks of teaching relief"
+    ],
+    "sequence": [
+     "Plus an additional 5 (or 7) weeks of teaching relief"
+    ]
+   },
+   "doc_ids": [
+    "2018_04_hr_manual_section2_faculty_admin_pro",
+    "2018_05_hr_parental_leave_afap_page"
+   ],
+   "flags": [
+    "summary_only: 2018_05_hr_parental_leave_afap_page",
+    "ambiguous: the two-column table header layout ('Birth Mother' | 'Non-Tenure Track Faculty') may be a misplaced header; read literally the teaching-relief column is for non-tenure-track faculty",
+    "ambiguous: pay level not stated; full pay inferred (R3)",
+    "cross_reference_not_saved: Office of the Provost page linked under 'Other Helpful Resources for New Parents' (2018_05)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R4",
+     "answer": "modified_duties",
+     "quote": "Plus an additional 5 (or 7) weeks of teaching relief"
+    },
+    {
+     "field": "payer",
+     "rule": "R3",
+     "answer": "employer",
+     "quote": "Plus an additional 5 (or 7) weeks of teaching relief"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "up to 16 weeks for the birth mother"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "Non-Tenure Track Faculty",
+     "quote": "Non-Tenure Track Faculty"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "birth_parent",
+     "quote": "up to 16 weeks for the birth mother"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "Parental Leave Fringe Pool Reimbursement"
+    },
+    {
+     "field": "duration",
+     "rule": "R13b",
+     "answer": "5 weeks at_least, max 7",
+     "quote": "Plus an additional 5 (or 7) weeks of teaching relief"
+    },
+    {
+     "field": "relief",
+     "rule": "R4b",
+     "answer": "teaching relieved; other duties continue (inferred)",
+     "quote": "Plus an additional 5 (or 7) weeks of teaching relief"
+    },
+    {
+     "field": "sequence",
+     "rule": "R3d",
+     "answer": "consecutive_after Parental Leave ('Plus an additional')",
+     "quote": "Plus an additional 5 (or 7) weeks of teaching relief"
+    }
+   ]
+  },
+  {
+   "component_id": "colorado_state_university_c7",
+   "institution_label": "Sick Leave",
+   "description": "Accrued sick leave (1.25 days a month, no maximum; first year advanced) for the employee's own illness, including recovery from childbirth.",
+   "mechanism": "own_accrual",
+   "payer": "own_balance",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Full-time faculty members ... on nine (9) month appointments",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "his or her own illness or injury",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "duration_note": "own balance: 1.25 days per month, cumulative with no maximum; the first year's sick leave is advanced at hire (R1: an accrual)",
+   "medical_certification": true,
+   "medical_certification_note": "physician's statement in cases of extended sick leave absence",
+   "sequence": [
+    {
+     "relation": "within",
+     "component_id": "colorado_state_university_c11",
+     "note": "sick or annual leave must be used concurrently with FM Leave"
+    }
+   ],
+   "rule_applied": [
+    "R1",
+    "U5",
+    "V2",
+    "S1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Full-time faculty members and administrative professionals on nine (9) month appointments earn one and one-quarter (1.25) days of sick leave per month, cumulative with no maximum."
+    ],
+    "eligible_parent": [
+     "A faculty members or administrative professional may use accrued sick leave for treatment of and convalescence from his or her own illness or injury."
+    ],
+    "entitlement": [
+     "A faculty members or administrative professional may use accrued sick leave for treatment of and convalescence from his or her own illness or injury."
+    ],
+    "sequence": [
+     "The Eligible Employee must use sick or annual leave concurrently with FM Leave if such leaves are applicable and have not been exhausted"
+    ]
+   },
+   "doc_ids": [
+    "2018_01_afapm_section_f_leave",
+    "2018_03_afapm_appendices",
+    "2018_04_hr_manual_section2_faculty_admin_pro"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "own_accrual",
+     "quote": "Full-time faculty members and administrative professionals on nine (9) month appointments earn one and one-quarter (1.25) days of sick leave per month, cumulative with no maximum."
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "own_balance",
+     "quote": "This initial year of sick leave is an “advance” and is granted in lieu of monthly sick leave accruals during the first year of benefits eligible employment."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "A faculty members or administrative professional may use accrued sick leave for treatment of and convalescence from his or her own illness or injury."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Full-time faculty members and administrative professionals on nine (9) month appointments earn one and one-quarter (1.25) days of sick leave per month, cumulative with no maximum."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own illness)",
+     "quote": "A faculty members or administrative professional may use accrued sick leave for treatment of and convalescence from his or her own illness or injury."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "A faculty members or administrative professional may use accrued sick leave for treatment of and convalescence from his or her own illness or injury."
+    },
+    {
+     "field": "sequence",
+     "rule": "S1",
+     "answer": "within FML",
+     "quote": "The Eligible Employee must use sick or annual leave concurrently with FM Leave if such leaves are applicable and have not been exhausted"
+    }
+   ]
+  },
+  {
+   "component_id": "colorado_state_university_c8",
+   "institution_label": "",
+   "description": "Up to 480 hours of accrued sick leave per fiscal year for care of a newborn or newly adopted child (need not be ill) or of an ill family member.",
+   "mechanism": "own_accrual",
+   "payer": "own_balance",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "A faculty member or administrative professional",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "care for a newborn son or daughter or for a child newly placed for adoption with the employee; both males and females",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "duration": {
+    "value": 480,
+    "units": "hour",
+    "qualifier": "up_to"
+   },
+   "duration_note": "per fiscal year, from the employee's own accrued balance",
+   "sequence": [
+    {
+     "relation": "within",
+     "component_id": "colorado_state_university_c11",
+     "note": "used concurrently with FM Leave"
+    }
+   ],
+   "rule_applied": [
+    "R1",
+    "R11",
+    "U5",
+    "V2",
+    "S1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "A faculty member or administrative professional may use up to four hundred eighty (480) hours per fiscal year of his or her accrued sick leave for the following purposes:"
+    ],
+    "eligible_parent": [
+     "To provide care for a newborn son or daughter or for a child newly placed for adoption with the employee",
+     "Eligible Employees may use accrued sick leave to provide care for and/or bond with a Child who is newly born to or newly placed for adoption"
+    ],
+    "entitlement": [
+     "A faculty member or administrative professional may use up to four hundred eighty (480) hours per fiscal year of his or her accrued sick leave for the following purposes:"
+    ],
+    "duration": [
+     "A faculty member or administrative professional may use up to four hundred eighty (480) hours per fiscal year of his or her accrued sick leave for the following purposes:"
+    ],
+    "sequence": [
+     "The Eligible Employee must use sick or annual leave concurrently with FM Leave if such leaves are applicable and have not been exhausted"
+    ]
+   },
+   "doc_ids": [
+    "2018_01_afapm_section_f_leave",
+    "2018_03_afapm_appendices",
+    "2018_04_hr_manual_section2_faculty_admin_pro"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "own_accrual",
+     "quote": "A faculty member or administrative professional may use up to four hundred eighty (480) hours per fiscal year of his or her accrued sick leave for the following purposes:"
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "own_balance",
+     "quote": "A faculty member or administrative professional may use up to four hundred eighty (480) hours per fiscal year of his or her accrued sick leave for the following purposes:"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "To provide care for a newborn son or daughter or for a child newly placed for adoption with the employee"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "A faculty member or administrative professional may use up to four hundred eighty (480) hours per fiscal year of his or her accrued sick leave for the following purposes:"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "birth_parent, non_birth_parent, adoptive",
+     "quote": "To provide care for a newborn son or daughter or for a child newly placed for adoption with the employee"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "A faculty member or administrative professional may use up to four hundred eighty (480) hours per fiscal year of his or her accrued sick leave for the following purposes:"
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "480 hours up_to",
+     "quote": "A faculty member or administrative professional may use up to four hundred eighty (480) hours per fiscal year of his or her accrued sick leave for the following purposes:"
+    },
+    {
+     "field": "sequence",
+     "rule": "S1",
+     "answer": "within FML",
+     "quote": "The Eligible Employee must use sick or annual leave concurrently with FM Leave if such leaves are applicable and have not been exhausted"
+    }
+   ]
+  },
+  {
+   "component_id": "colorado_state_university_c9",
+   "institution_label": "Annual Leave",
+   "description": "Annual leave earned at 2 days a month (maximum accrual 48 days) by 12-month faculty and administrative professionals; 9-month faculty do not accrue it.",
+   "mechanism": "own_accrual",
+   "payer": "own_balance",
+   "faculty_group": "12-month faculty and administrative professionals",
+   "faculty_group_note": "Full-time faculty members on twelve (12) month regular, special, or senior teaching appointments ...; nine-month appointees do not accrue annual leave",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "no role words",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "duration_note": "own balance; 2 days per month; maximum accrual 48 days",
+   "rule_applied": [
+    "R1",
+    "U1",
+    "V2"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Full-time faculty members on twelve (12) month regular, special, or senior teaching appointments, and administrative professionals on regular or special twelve (12) month appointments earn annual leave at the rate of two (2) days per month.",
+     "Faculty members and administrative professionals on nine (9) month appointments do not accrue annual leave."
+    ],
+    "eligible_parent": [
+     "Full-time faculty members on twelve (12) month regular, special, or senior teaching appointments, and administrative professionals on regular or special twelve (12) month appointments earn annual leave at the rate of two (2) days per month."
+    ],
+    "entitlement": [
+     "Scheduling annual leave is a responsibility of department heads."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_afapm_section_f_leave",
+    "2018_04_hr_manual_section2_faculty_admin_pro"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "own_accrual",
+     "quote": "Full-time faculty members on twelve (12) month regular, special, or senior teaching appointments, and administrative professionals on regular or special twelve (12) month appointments earn annual leave at the rate of two (2) days per month."
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "own_balance",
+     "quote": "Full-time faculty members on twelve (12) month regular, special, or senior teaching appointments, and administrative professionals on regular or special twelve (12) month appointments earn annual leave at the rate of two (2) days per month."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "Full-time faculty members on twelve (12) month regular, special, or senior teaching appointments, and administrative professionals on regular or special twelve (12) month appointments earn annual leave at the rate of two (2) days per month."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "12-month faculty and administrative professionals",
+     "quote": "Faculty members and administrative professionals on nine (9) month appointments do not accrue annual leave."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "Full-time faculty members on twelve (12) month regular, special, or senior teaching appointments, and administrative professionals on regular or special twelve (12) month appointments earn annual leave at the rate of two (2) days per month."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "Scheduling annual leave is a responsibility of department heads."
+    }
+   ]
+  },
+  {
+   "component_id": "colorado_state_university_c10",
+   "institution_label": "long-term disability coverage",
+   "description": "Long-term disability coverage may provide pay during FM Leave; terms not in the saved documents.",
+   "mechanism": "generic_sick_or_disability_plan",
+   "payer": "insurance_plan",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Eligible Employees under the FM Leave policy, including faculty",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "Eligible Employee (own disability)",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "rule_applied": [
+    "V6",
+    "U5",
+    "V2"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "FM Leave is unpaid leave, but pay may be provided by using accrued sick leave, accrued annual leave, short-term disability coverage, long-term disability coverage, and/or Worker’s Compensation benefits concurrently with the FM Leave.",
+     "All CSU appointment/employee types other than State Classified personnel, including those with faculty"
+    ],
+    "eligible_parent": [
+     "FM Leave is unpaid leave, but pay may be provided by using accrued sick leave, accrued annual leave, short-term disability coverage, long-term disability coverage, and/or Worker’s Compensation benefits concurrently with the FM Leave."
+    ],
+    "entitlement": [
+     "FM Leave is unpaid leave, but pay may be provided by using accrued sick leave, accrued annual leave, short-term disability coverage, long-term disability coverage, and/or Worker’s Compensation benefits concurrently with the FM Leave.",
+     "the employee has exhausted or is ineligible for all other paid leave benefits, including, but not limited to, sick leave, annual leave, and short- and long-term disability."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_afapm_section_f_leave",
+    "2018_03_afapm_appendices"
+   ],
+   "flags": [
+    "ambiguous: LTD funding and terms not stated in the saved documents",
+    "cross_reference_not_saved: CSU Cost Share Faculty and Administrative Professional Privileges and Benefits Summary Plan (SPD) booklet (LTD terms)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "FM Leave is unpaid leave, but pay may be provided by using accrued sick leave, accrued annual leave, short-term disability coverage, long-term disability coverage, and/or Worker’s Compensation benefits concurrently with the FM Leave."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "insurance_plan",
+     "quote": "FM Leave is unpaid leave, but pay may be provided by using accrued sick leave, accrued annual leave, short-term disability coverage, long-term disability coverage, and/or Worker’s Compensation benefits concurrently with the FM Leave."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "FM Leave is unpaid leave, but pay may be provided by using accrued sick leave, accrued annual leave, short-term disability coverage, long-term disability coverage, and/or Worker’s Compensation benefits concurrently with the FM Leave."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "All CSU appointment/employee types other than State Classified personnel, including those with faculty"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent",
+     "quote": "FM Leave is unpaid leave, but pay may be provided by using accrued sick leave, accrued annual leave, short-term disability coverage, long-term disability coverage, and/or Worker’s Compensation benefits concurrently with the FM Leave."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "FM Leave is unpaid leave, but pay may be provided by using accrued sick leave, accrued annual leave, short-term disability coverage, long-term disability coverage, and/or Worker’s Compensation benefits concurrently with the FM Leave."
+    }
+   ]
+  },
+  {
+   "component_id": "colorado_state_university_c11",
+   "institution_label": "Family Medical Leave Policy",
+   "description": "CSU's Family Medical Leave policy (implementing the FMLA): up to 12 work weeks of unpaid, job-protected leave in a rolling 12 months for a birth, adoption or foster placement, care of an ill family member, or the employee's own serious health condition.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "All CSU appointment/employee types other than State Classified personnel, including faculty",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "birth of a Child to the Eligible Employee or the Eligible Employee's spouse or domestic partner or civil union partner; placement for adoption or foster care",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 12,
+    "units": "workweek",
+    "qualifier": "up_to"
+   },
+   "duration_note": "unpaid; pay comes through concurrent sick or annual leave, STD, LTD, Parental Leave. Rolling 12-month year.",
+   "service_requirement": "12 months and 1040 hours (9-month faculty at half-time or more deemed to meet the hours)",
+   "time_window": "must be completed within twelve (12) months of the date of birth or placement",
+   "notice": "at least thirty (30) days before the leave unless not reasonably practical",
+   "return_obligation": "returned to same or comparable position (exceptions listed)",
+   "statute_source": "29 U.S.C. 2612(a)(1)(A)-(B)",
+   "statute_verified": true,
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "sequence": [
+    {
+     "relation": "concurrent_with",
+     "component_id": "colorado_state_university_c2",
+     "note": "FML runs concurrently with all types of leave from the start (S1)"
+    },
+    {
+     "relation": "concurrent_with",
+     "component_id": "colorado_state_university_c1",
+     "note": "Parental Leave runs concurrently with (is part of) FML; unpaid remainder to 12 weeks"
+    }
+   ],
+   "rule_applied": [
+    "U2",
+    "U4",
+    "S1",
+    "R9",
+    "R11"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "All CSU appointment/employee types other than State Classified personnel, including those with faculty"
+    ],
+    "eligible_parent": [
+     "The birth of a Child to the Eligible Employee or the Eligible Employee’s spouse or domestic partner or civil union partner and care for the newborn Child.",
+     "The placement of a Child for adoption or foster care with the Eligible Employee or the Eligible Employee’s spouse or domestic partner or civil union partner and care for the newly placed Child.",
+     "Care for a spouse, domestic partner, civil union partner, Child, or parent with a serious health condition.",
+     "Inability of the Eligible Employee to perform one or more of the essential"
+    ],
+    "entitlement": [
+     "An Eligible Employee is entitled to up to twelve (12) work weeks of FM Leave during a rolling twelve (12) month year that begins on the first date the Eligible Employee uses FM Leave.",
+     "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period for one or more of the following:"
+    ],
+    "duration": [
+     "An Eligible Employee is entitled to up to twelve (12) work weeks of FM Leave during a rolling twelve (12) month year that begins on the first date the Eligible Employee uses FM Leave."
+    ],
+    "service_requirement": [
+     "who has been appointed or employed at CSU for at least twelve (12) months and who has worked at least 1040 hours during the twelve (12) months immediately preceding the commencement date of the leave",
+     "Faculty members with regular, special, or senior teaching nine (9) month appointments of half-time (0.5) or greater and administrative professionals with regular or special nine (9) month appointments of half-time or greater are deemed to meet the 1040 hour standard"
+    ],
+    "sequence": [
+     "FM Leave runs concurrently with all other types of leave taken (including Parental Leave, which may be taken anytime within the first twelve months from the Child’s date of birth or placement for adoption).",
+     "It runs concurrently with (is considered part of) FML for the birth or adoption, if the parent has remaining FML entitlement available."
+    ],
+    "statute_source": [
+     "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period for one or more of the following:",
+     "Because of the birth of a son or daughter of the employee and in order to care for such son or daughter"
+    ],
+    "time_window": [
+     "In this case, the FM Leave must be completed within twelve (12) months of the date of birth."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link",
+    "2018_01_afapm_section_f_leave",
+    "2018_03_afapm_appendices",
+    "2018_04_hr_manual_section2_faculty_admin_pro",
+    "2026_00_us_fmla_29usc2612"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "U4",
+     "answer": "unpaid_leave",
+     "quote": "FM Leave is not a form of paid leave; it is a job protection benefit afforded by the university in accordance with the law."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "FM Leave is not a form of paid leave; it is a job protection benefit afforded by the university in accordance with the law."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "An Eligible Employee is entitled to up to twelve (12) work weeks of FM Leave during a rolling twelve (12) month year that begins on the first date the Eligible Employee uses FM Leave."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "All CSU appointment/employee types other than State Classified personnel, including those with faculty"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "birth, non-birth (incl. partner of birth mother), adoptive, foster",
+     "quote": "The birth of a Child to the Eligible Employee or the Eligible Employee’s spouse or domestic partner or civil union partner and care for the newborn Child."
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "An Eligible Employee is entitled to up to twelve (12) work weeks of FM Leave during a rolling twelve (12) month year that begins on the first date the Eligible Employee uses FM Leave."
+    },
+    {
+     "field": "duration",
+     "rule": "U2",
+     "answer": "12 workweeks up_to; matches 29 U.S.C. 2612(a)(1)",
+     "quote": "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period for one or more of the following:"
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved",
+     "quote": "An Eligible Employee is entitled to up to twelve (12) work weeks of FM Leave during a rolling twelve (12) month year that begins on the first date the Eligible Employee uses FM Leave."
+    },
+    {
+     "field": "sequence",
+     "rule": "S1",
+     "answer": "concurrent_with the institution's leaves; starts with the earliest",
+     "quote": "FM Leave runs concurrently with all other types of leave taken (including Parental Leave, which may be taken anytime within the first twelve months from the Child’s date of birth or placement for adoption)."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U8",
+     "answer": "member assumed to meet 12 months and 1040 hours",
+     "quote": "who has been appointed or employed at CSU for at least twelve (12) months and who has worked at least 1040 hours during the twelve (12) months immediately preceding the commencement date of the leave"
+    }
+   ]
+  },
+  {
+   "component_id": "colorado_state_university_c12",
+   "institution_label": "Colorado Family Care Act (FCA)",
+   "description": "Up to 12 weeks of unpaid leave in 12 months to care for a civil-union or domestic partner with a serious health condition (so a partner after childbirth); runs concurrently with FM Leave and does not add to it.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "an eligible University employee",
+   "eligible_parent": [
+    "non_birth_parent"
+   ],
+   "eligible_parent_wording": "the employee's civil union partner ... or domestic partner",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 12,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "statute_source": "C.R.S. 8-13.3-203",
+   "statute_verified": false,
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "sequence": [
+    {
+     "relation": "concurrent_with",
+     "component_id": "colorado_state_university_c11",
+     "note": "runs concurrently with FM Leave; does not increase its total"
+    }
+   ],
+   "rule_applied": [
+    "U4",
+    "U5",
+    "U2",
+    "S1",
+    "R9"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "an eligible University employee is entitled to up to 12 weeks of unpaid leave in a 12-month period to care for a person with a serious health condition if that person is the employee’s civil union partner as defined in C.R.S. §14-15-103(5) or is the employee’s domestic partner who has satisfied the University’s criteria using the required affidavit."
+    ],
+    "eligible_parent": [
+     "an eligible University employee is entitled to up to 12 weeks of unpaid leave in a 12-month period to care for a person with a serious health condition if that person is the employee’s civil union partner as defined in C.R.S. §14-15-103(5) or is the employee’s domestic partner who has satisfied the University’s criteria using the required affidavit."
+    ],
+    "entitlement": [
+     "an eligible University employee is entitled to up to 12 weeks of unpaid leave in a 12-month period to care for a person with a serious health condition if that person is the employee’s civil union partner as defined in C.R.S. §14-15-103(5) or is the employee’s domestic partner who has satisfied the University’s criteria using the required affidavit."
+    ],
+    "duration": [
+     "an eligible University employee is entitled to up to 12 weeks of unpaid leave in a 12-month period to care for a person with a serious health condition if that person is the employee’s civil union partner as defined in C.R.S. §14-15-103(5) or is the employee’s domestic partner who has satisfied the University’s criteria using the required affidavit."
+    ],
+    "sequence": [
+     "However, the statute states that such leave does not increase the total amount of FM Leave available to the employee; it runs concurrently with FM Leave."
+    ],
+    "statute_source": [
+     "C.R.S. 8-13.3-203, the Colorado Family Care Act (FCA), provides that, in addition to the leave than an employee may be entitled to under the Family and Medical Leave Act"
+    ]
+   },
+   "doc_ids": [
+    "2018_03_afapm_appendices"
+   ],
+   "flags": [
+    "cross_reference_not_saved: C.R.S. 8-13.3-203 (Colorado Family Care Act)",
+    "family_illness_leave"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "U4",
+     "answer": "unpaid_leave",
+     "quote": "an eligible University employee is entitled to up to 12 weeks of unpaid leave in a 12-month period to care for a person with a serious health condition if that person is the employee’s civil union partner as defined in C.R.S. §14-15-103(5) or is the employee’s domestic partner who has satisfied the University’s criteria using the required affidavit."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "an eligible University employee is entitled to up to 12 weeks of unpaid leave in a 12-month period to care for a person with a serious health condition if that person is the employee’s civil union partner as defined in C.R.S. §14-15-103(5) or is the employee’s domestic partner who has satisfied the University’s criteria using the required affidavit."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "an eligible University employee is entitled to up to 12 weeks of unpaid leave in a 12-month period to care for a person with a serious health condition if that person is the employee’s civil union partner as defined in C.R.S. §14-15-103(5) or is the employee’s domestic partner who has satisfied the University’s criteria using the required affidavit."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "an eligible University employee is entitled to up to 12 weeks of unpaid leave in a 12-month period to care for a person with a serious health condition if that person is the employee’s civil union partner as defined in C.R.S. §14-15-103(5) or is the employee’s domestic partner who has satisfied the University’s criteria using the required affidavit."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "non_birth_parent (care of the partner after birth)",
+     "quote": "an eligible University employee is entitled to up to 12 weeks of unpaid leave in a 12-month period to care for a person with a serious health condition if that person is the employee’s civil union partner as defined in C.R.S. §14-15-103(5) or is the employee’s domestic partner who has satisfied the University’s criteria using the required affidavit."
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "an eligible University employee is entitled to up to 12 weeks of unpaid leave in a 12-month period to care for a person with a serious health condition if that person is the employee’s civil union partner as defined in C.R.S. §14-15-103(5) or is the employee’s domestic partner who has satisfied the University’s criteria using the required affidavit."
+    },
+    {
+     "field": "duration",
+     "rule": "U2",
+     "answer": "12 weeks up_to, as the policy states the statute (statute not saved)",
+     "quote": "an eligible University employee is entitled to up to 12 weeks of unpaid leave in a 12-month period to care for a person with a serious health condition if that person is the employee’s civil union partner as defined in C.R.S. §14-15-103(5) or is the employee’s domestic partner who has satisfied the University’s criteria using the required affidavit."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved",
+     "quote": "an eligible University employee is entitled to up to 12 weeks of unpaid leave in a 12-month period to care for a person with a serious health condition if that person is the employee’s civil union partner as defined in C.R.S. §14-15-103(5) or is the employee’s domestic partner who has satisfied the University’s criteria using the required affidavit."
+    },
+    {
+     "field": "sequence",
+     "rule": "S1",
+     "answer": "concurrent_with FML",
+     "quote": "However, the statute states that such leave does not increase the total amount of FM Leave available to the employee; it runs concurrently with FM Leave."
+    }
+   ]
+  },
+  {
+   "component_id": "colorado_state_university_c13",
+   "institution_label": "Intermittent or Reduced Family Medical Leave",
+   "description": "FM Leave may be taken intermittently or on a reduced schedule if the department or unit head approves (must be approved when medically necessary for own or family illness).",
+   "mechanism": "part_time_option",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "FM Leave Eligible Employees, including faculty",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "Eligible Employee (FM Leave purposes)",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "entitlement_note": "for birth or placement the reduced schedule needs the unit head's approval; for the employee's own or a family member's illness it must be approved when medically necessary",
+   "sequence": [
+    {
+     "relation": "within",
+     "component_id": "colorado_state_university_c11",
+     "note": "a way of taking FM Leave"
+    }
+   ],
+   "rule_applied": [
+    "R3",
+    "V2",
+    "S1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "All CSU appointment/employee types other than State Classified personnel, including those with faculty"
+    ],
+    "eligible_parent": [
+     "FM Leave time may be taken on an intermittent (or “reduced leave”) basis if this is approved by the department or unit head."
+    ],
+    "entitlement": [
+     "FM Leave time may be taken on an intermittent (or “reduced leave”) basis if this is approved by the department or unit head."
+    ],
+    "sequence": [
+     "FM Leave time may be taken on an intermittent (or “reduced leave”) basis if this is approved by the department or unit head."
+    ]
+   },
+   "doc_ids": [
+    "2018_03_afapm_appendices"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R3",
+     "answer": "part_time_option",
+     "quote": "FM Leave time may be taken on an intermittent (or “reduced leave”) basis if this is approved by the department or unit head."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "FM Leave is not a form of paid leave; it is a job protection benefit afforded by the university in accordance with the law."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "FM Leave time may be taken on an intermittent (or “reduced leave”) basis if this is approved by the department or unit head."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "All CSU appointment/employee types other than State Classified personnel, including those with faculty"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "FM Leave purposes",
+     "quote": "FM Leave time may be taken on an intermittent (or “reduced leave”) basis if this is approved by the department or unit head."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "FM Leave time may be taken on an intermittent (or “reduced leave”) basis if this is approved by the department or unit head."
+    },
+    {
+     "field": "sequence",
+     "rule": "S1",
+     "answer": "within FML",
+     "quote": "FM Leave time may be taken on an intermittent (or “reduced leave”) basis if this is approved by the department or unit head."
+    }
+   ]
+  },
+  {
+   "component_id": "colorado_state_university_c14",
+   "institution_label": "Catastrophic Circumstances Leave",
+   "description": "After all paid leave is exhausted, a unit head may authorize up to two work weeks of paid or unpaid time off for catastrophic circumstances (natural disaster, or severe illness of the employee or family member).",
+   "mechanism": "employer_paid_leave",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Academic Faculty ... with an appointment of half-time (50%) or greater who are benefits eligible",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent"
+   ],
+   "eligible_parent_wording": "the Eligible Employee, or the employee's immediate family member",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "duration": {
+    "value": 2,
+    "units": "workweek",
+    "qualifier": "up_to"
+   },
+   "pay_fraction": "paid or unpaid",
+   "must_exhaust_first": [
+    "sick",
+    "vacation"
+   ],
+   "sequence": [
+    {
+     "relation": "concurrent_with",
+     "component_id": "colorado_state_university_c11",
+     "note": "runs concurrently with FML if applicable"
+    }
+   ],
+   "rule_applied": [
+    "U1",
+    "U5",
+    "V2",
+    "S1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Eligible Employee: Academic Faculty, Administrative Professionals, Post-Doctoral Fellows, Veterinary Interns and Clinical Psychology Interns with an appointment of half-time (50%) or greater who are benefits eligible."
+    ],
+    "eligible_parent": [
+     "A severe injury or illness, as certified by a healthcare provider, that results in the inability of the employee to work."
+    ],
+    "entitlement": [
+     "When Catastrophic Circumstances are found to exist, and an Eligible Employee has exhausted all available paid leave, a Unit Head may authorize up to two work weeks of paid or unpaid time off in the Unit Head’s discretion."
+    ],
+    "duration": [
+     "When Catastrophic Circumstances are found to exist, and an Eligible Employee has exhausted all available paid leave, a Unit Head may authorize up to two work weeks of paid or unpaid time off in the Unit Head’s discretion."
+    ],
+    "pay_fraction": [
+     "When Catastrophic Circumstances are found to exist, and an Eligible Employee has exhausted all available paid leave, a Unit Head may authorize up to two work weeks of paid or unpaid time off in the Unit Head’s discretion."
+    ],
+    "sequence": [
+     "Leave granted under this policy cannot exceed two work weeks and must be taken contiguously, and runs concurrently with FML if applicable."
+    ],
+    "general_purpose": [
+     "A natural disaster that substantially damages or destroys the employee’s primary residence or displaces him or her from the home;"
+    ]
+   },
+   "doc_ids": [
+    "2018_01_afapm_section_f_leave"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "employer_paid_leave",
+     "quote": "When Catastrophic Circumstances are found to exist, and an Eligible Employee has exhausted all available paid leave, a Unit Head may authorize up to two work weeks of paid or unpaid time off in the Unit Head’s discretion."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "When Catastrophic Circumstances are found to exist, and an Eligible Employee has exhausted all available paid leave, a Unit Head may authorize up to two work weeks of paid or unpaid time off in the Unit Head’s discretion."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "A natural disaster that substantially damages or destroys the employee’s primary residence or displaces him or her from the home;"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Eligible Employee: Academic Faculty, Administrative Professionals, Post-Doctoral Fellows, Veterinary Interns and Clinical Psychology Interns with an appointment of half-time (50%) or greater who are benefits eligible."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent and non_birth_parent (own or family illness)",
+     "quote": "A severe injury or illness, as certified by a healthcare provider, that results in the inability of the employee to work."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "When Catastrophic Circumstances are found to exist, and an Eligible Employee has exhausted all available paid leave, a Unit Head may authorize up to two work weeks of paid or unpaid time off in the Unit Head’s discretion."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "2 workweeks up_to",
+     "quote": "When Catastrophic Circumstances are found to exist, and an Eligible Employee has exhausted all available paid leave, a Unit Head may authorize up to two work weeks of paid or unpaid time off in the Unit Head’s discretion."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "paid or unpaid",
+     "quote": "When Catastrophic Circumstances are found to exist, and an Eligible Employee has exhausted all available paid leave, a Unit Head may authorize up to two work weeks of paid or unpaid time off in the Unit Head’s discretion."
+    },
+    {
+     "field": "sequence",
+     "rule": "S1",
+     "answer": "concurrent_with FML",
+     "quote": "Leave granted under this policy cannot exceed two work weeks and must be taken contiguously, and runs concurrently with FML if applicable."
+    }
+   ]
+  },
+  {
+   "component_id": "colorado_state_university_c15",
+   "institution_label": "Leave Without Pay",
+   "description": "Leave without pay for regular faculty, granted with Board approval; no purpose or length stated.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "A faculty member on a regular ... appointment",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "no role words",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "rule_applied": [
+    "U1",
+    "V2"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "A faculty member on a regular, special appointment or senior teaching appointment or administrative professional on a regular or special appointment may be granted leave without pay with approval by the Board."
+    ],
+    "eligible_parent": [
+     "A faculty member on a regular, special appointment or senior teaching appointment or administrative professional on a regular or special appointment may be granted leave without pay with approval by the Board."
+    ],
+    "entitlement": [
+     "A faculty member on a regular, special appointment or senior teaching appointment or administrative professional on a regular or special appointment may be granted leave without pay with approval by the Board."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_afapm_section_f_leave",
+    "2018_04_hr_manual_section2_faculty_admin_pro"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "A faculty member on a regular, special appointment or senior teaching appointment or administrative professional on a regular or special appointment may be granted leave without pay with approval by the Board."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "A faculty member on a regular, special appointment or senior teaching appointment or administrative professional on a regular or special appointment may be granted leave without pay with approval by the Board."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "A faculty member on a regular, special appointment or senior teaching appointment or administrative professional on a regular or special appointment may be granted leave without pay with approval by the Board."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "A faculty member on a regular, special appointment or senior teaching appointment or administrative professional on a regular or special appointment may be granted leave without pay with approval by the Board."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "A faculty member on a regular, special appointment or senior teaching appointment or administrative professional on a regular or special appointment may be granted leave without pay with approval by the Board."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "A faculty member on a regular, special appointment or senior teaching appointment or administrative professional on a regular or special appointment may be granted leave without pay with approval by the Board."
+    }
+   ]
+  },
+  {
+   "component_id": "colorado_state_university_c16",
+   "institution_label": "Special Leave",
+   "description": "Any leave, with or without salary, not falling under another category of the Manual; each case considered on its merits.",
+   "mechanism": "employer_paid_leave",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "faculty members and administrative professionals covered by the Manual",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "no role words",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "pay_fraction": "with or without salary",
+   "rule_applied": [
+    "U1",
+    "V2"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Any leave, with or without salary or expenses, that does not fall under one (1) of the categories found in the other sections of this Manual, shall be designated as a special leave."
+    ],
+    "eligible_parent": [
+     "Any leave, with or without salary or expenses, that does not fall under one (1) of the categories found in the other sections of this Manual, shall be designated as a special leave."
+    ],
+    "entitlement": [
+     "Each case shall be considered on its merits upon recommendation through administrative channels to the President."
+    ],
+    "pay_fraction": [
+     "Any leave, with or without salary or expenses, that does not fall under one (1) of the categories found in the other sections of this Manual, shall be designated as a special leave."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_afapm_section_f_leave"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "employer_paid_leave",
+     "quote": "Any leave, with or without salary or expenses, that does not fall under one (1) of the categories found in the other sections of this Manual, shall be designated as a special leave."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "Any leave, with or without salary or expenses, that does not fall under one (1) of the categories found in the other sections of this Manual, shall be designated as a special leave."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "Any leave, with or without salary or expenses, that does not fall under one (1) of the categories found in the other sections of this Manual, shall be designated as a special leave."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Any leave, with or without salary or expenses, that does not fall under one (1) of the categories found in the other sections of this Manual, shall be designated as a special leave."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "Any leave, with or without salary or expenses, that does not fall under one (1) of the categories found in the other sections of this Manual, shall be designated as a special leave."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "Each case shall be considered on its merits upon recommendation through administrative channels to the President."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "with or without salary",
+     "quote": "Any leave, with or without salary or expenses, that does not fall under one (1) of the categories found in the other sections of this Manual, shall be designated as a special leave."
+    }
+   ]
+  },
+  {
+   "component_id": "colorado_state_university_c17",
+   "institution_label": "",
+   "description": "Nine-month faculty do not accrue annual leave but may be granted leave on a limited basis during the academic year, at the department head's determination; purpose, pay and length not stated.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Faculty members ... on nine (9) month appointments",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "no role words",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "duration_note": "'on a limited basis'; pay not stated",
+   "rule_applied": [
+    "U1",
+    "V2"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Faculty members and administrative professionals on nine (9) month appointments do not accrue annual leave."
+    ],
+    "eligible_parent": [
+     "These individuals may, however, be granted leave on a limited basis throughout the academic year to include the interim term between semesters."
+    ],
+    "entitlement": [
+     "These individuals may, however, be granted leave on a limited basis throughout the academic year to include the interim term between semesters.",
+     "Determination of this privilege shall be made by the department head."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_afapm_section_f_leave",
+    "2018_04_hr_manual_section2_faculty_admin_pro"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "These individuals may, however, be granted leave on a limited basis throughout the academic year to include the interim term between semesters."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "These individuals may, however, be granted leave on a limited basis throughout the academic year to include the interim term between semesters."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "These individuals may, however, be granted leave on a limited basis throughout the academic year to include the interim term between semesters."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Faculty members and administrative professionals on nine (9) month appointments do not accrue annual leave."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "These individuals may, however, be granted leave on a limited basis throughout the academic year to include the interim term between semesters."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "Determination of this privilege shall be made by the department head."
+    }
+   ]
+  },
+  {
+   "component_id": "colorado_state_university_c18",
+   "institution_label": "Effect of Family Medical Leave on the Tenure Process",
+   "description": "A tenure-track faculty member who takes at least 8 weeks of FM Leave has the probationary period (and the midpoint review, if not yet held) pushed back one year automatically; may decline.",
+   "mechanism": "tenure_clock",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "tenure-track faculty members",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "a tenure-track faculty member who takes FM Leave",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "exact"
+   },
+   "duration_note": "automatic once accumulated FM Leave is at least 8 weeks; a second extension on request in exceptional circumstances (E.10.4.1.2): 'Additional use of FM Leave will generally not lead to an additional one (1) year extension' (explanation, not a stated limit)",
+   "rule_applied": [
+    "U1",
+    "V2",
+    "U9"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "If a tenure-track faculty members takes FM Leave, and the accumulated amount of FM Leave taken is at least eight (8) weeks, then the end of his or her probationary period shall be pushed back by one (1) year."
+    ],
+    "eligible_parent": [
+     "If a tenure-track faculty members takes FM Leave, and the accumulated amount of FM Leave taken is at least eight (8) weeks, then the end of his or her probationary period shall be pushed back by one (1) year."
+    ],
+    "entitlement": [
+     "If a tenure-track faculty members takes FM Leave, and the accumulated amount of FM Leave taken is at least eight (8) weeks, then the end of his or her probationary period shall be pushed back by one (1) year.",
+     "The use of Family Medical Leave may lead to an automatic extension of the probationary period (see Appendix 3 for details)."
+    ],
+    "duration": [
+     "If a tenure-track faculty members takes FM Leave, and the accumulated amount of FM Leave taken is at least eight (8) weeks, then the end of his or her probationary period shall be pushed back by one (1) year."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_afapm_section_e_appointments_tenure",
+    "2018_03_afapm_appendices"
+   ],
+   "flags": [
+    "ambiguous: restriction: requires accumulated FM Leave of at least eight weeks"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "If a tenure-track faculty members takes FM Leave, and the accumulated amount of FM Leave taken is at least eight (8) weeks, then the end of his or her probationary period shall be pushed back by one (1) year."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "If a tenure-track faculty members takes FM Leave, and the accumulated amount of FM Leave taken is at least eight (8) weeks, then the end of his or her probationary period shall be pushed back by one (1) year."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "If a tenure-track faculty members takes FM Leave, and the accumulated amount of FM Leave taken is at least eight (8) weeks, then the end of his or her probationary period shall be pushed back by one (1) year."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "If a tenure-track faculty members takes FM Leave, and the accumulated amount of FM Leave taken is at least eight (8) weeks, then the end of his or her probationary period shall be pushed back by one (1) year."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "If a tenure-track faculty members takes FM Leave, and the accumulated amount of FM Leave taken is at least eight (8) weeks, then the end of his or her probationary period shall be pushed back by one (1) year."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "If a tenure-track faculty members takes FM Leave, and the accumulated amount of FM Leave taken is at least eight (8) weeks, then the end of his or her probationary period shall be pushed back by one (1) year."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 year exact",
+     "quote": "If a tenure-track faculty members takes FM Leave, and the accumulated amount of FM Leave taken is at least eight (8) weeks, then the end of his or her probationary period shall be pushed back by one (1) year."
+    }
+   ]
+  },
+  {
+   "component_id": "colorado_state_university_c19",
+   "institution_label": "Extension of the Probationary Period",
+   "description": "On request, extension of the probationary period for exceptional circumstances including birth or adoption, personal health and family care; up to two extensions of up to one year each; decided by the President.",
+   "mechanism": "tenure_clock",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "A faculty member (probationary, tenure-track)",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "birth or adoption of a child",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "up_to"
+   },
+   "use_limit": [
+    {
+     "times": 2,
+     "per": "career",
+     "counts": "uses"
+    }
+   ],
+   "use_limit_note": "'up to two (2) separate extensions of the probationary period'",
+   "rule_applied": [
+    "U1",
+    "V2",
+    "U9"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "A faculty member may request an extension of the probationary period due to exceptional circumstances, including, but not limited to, birth or adoption of a child, personal health issues, and care of immediate family members"
+    ],
+    "eligible_parent": [
+     "A faculty member may request an extension of the probationary period due to exceptional circumstances, including, but not limited to, birth or adoption of a child, personal health issues, and care of immediate family members"
+    ],
+    "entitlement": [
+     "A faculty member may request an extension of the probationary period due to exceptional circumstances, including, but not limited to, birth or adoption of a child, personal health issues, and care of immediate family members",
+     "The final decision on such an extension shall be made by the President."
+    ],
+    "duration": [
+     "The tenure committee may recommend up to two (2) separate extensions of the probationary period, each for a period not to exceed one (1) year."
+    ],
+    "use_limit": [
+     "The tenure committee may recommend up to two (2) separate extensions of the probationary period, each for a period not to exceed one (1) year."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_afapm_section_e_appointments_tenure"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "A faculty member may request an extension of the probationary period due to exceptional circumstances, including, but not limited to, birth or adoption of a child, personal health issues, and care of immediate family members"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "A faculty member may request an extension of the probationary period due to exceptional circumstances, including, but not limited to, birth or adoption of a child, personal health issues, and care of immediate family members"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "A faculty member may request an extension of the probationary period due to exceptional circumstances, including, but not limited to, birth or adoption of a child, personal health issues, and care of immediate family members"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "A faculty member may request an extension of the probationary period due to exceptional circumstances, including, but not limited to, birth or adoption of a child, personal health issues, and care of immediate family members"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "birth, non-birth, adoptive",
+     "quote": "A faculty member may request an extension of the probationary period due to exceptional circumstances, including, but not limited to, birth or adoption of a child, personal health issues, and care of immediate family members"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "The final decision on such an extension shall be made by the President."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 year up_to ('not to exceed')",
+     "quote": "The tenure committee may recommend up to two (2) separate extensions of the probationary period, each for a period not to exceed one (1) year."
+    },
+    {
+     "field": "use_limit",
+     "rule": "U9",
+     "answer": "2 per career",
+     "quote": "The tenure committee may recommend up to two (2) separate extensions of the probationary period, each for a period not to exceed one (1) year."
+    }
+   ]
+  },
+  {
+   "component_id": "colorado_state_university_c20",
+   "institution_label": "",
+   "description": "A faculty member may request that a leave (of up to one year) that is not scholarly, or during which development cannot be judged, not count toward the probationary period.",
+   "mechanism": "tenure_clock",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "the faculty member (probationary)",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "no role words",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "duration_note": "extension equals the length of the leave not counted (leaves up to one year); no fixed length",
+   "rule_applied": [
+    "U1",
+    "V2"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "However, if the leave is of such a nature that the individual’s development as a faculty member while on leave cannot be judged, or if the leave is for purposes that are not scholarly, the faculty member may request that the leave not count as part of the probationary period."
+    ],
+    "eligible_parent": [
+     "However, if the leave is of such a nature that the individual’s development as a faculty member while on leave cannot be judged, or if the leave is for purposes that are not scholarly, the faculty member may request that the leave not count as part of the probationary period."
+    ],
+    "entitlement": [
+     "However, if the leave is of such a nature that the individual’s development as a faculty member while on leave cannot be judged, or if the leave is for purposes that are not scholarly, the faculty member may request that the leave not count as part of the probationary period.",
+     "Any leave for a period not exceeding one (1) year shall normally count as part of the probationary period."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_afapm_section_e_appointments_tenure"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "However, if the leave is of such a nature that the individual’s development as a faculty member while on leave cannot be judged, or if the leave is for purposes that are not scholarly, the faculty member may request that the leave not count as part of the probationary period."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "However, if the leave is of such a nature that the individual’s development as a faculty member while on leave cannot be judged, or if the leave is for purposes that are not scholarly, the faculty member may request that the leave not count as part of the probationary period."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "However, if the leave is of such a nature that the individual’s development as a faculty member while on leave cannot be judged, or if the leave is for purposes that are not scholarly, the faculty member may request that the leave not count as part of the probationary period."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "However, if the leave is of such a nature that the individual’s development as a faculty member while on leave cannot be judged, or if the leave is for purposes that are not scholarly, the faculty member may request that the leave not count as part of the probationary period."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "However, if the leave is of such a nature that the individual’s development as a faculty member while on leave cannot be judged, or if the leave is for purposes that are not scholarly, the faculty member may request that the leave not count as part of the probationary period."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "However, if the leave is of such a nature that the individual’s development as a faculty member while on leave cannot be judged, or if the leave is for purposes that are not scholarly, the faculty member may request that the leave not count as part of the probationary period."
+    }
+   ]
+  },
+  {
+   "component_id": "colorado_state_university_c21",
+   "institution_label": "",
+   "description": "A faculty member granted prior-service credit may request, if circumstances warrant, that it be reduced, extending the probationary period.",
+   "mechanism": "tenure_clock",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "a faculty member granted credit for prior service",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "no role words",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "rule_applied": [
+    "U1",
+    "V2"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "If a faculty member has been granted credit for prior service, thus reducing the probationary period, then, if circumstances warrant, the faculty member may request that this credit for prior service be reduced, thus extending the probationary period."
+    ],
+    "eligible_parent": [
+     "If a faculty member has been granted credit for prior service, thus reducing the probationary period, then, if circumstances warrant, the faculty member may request that this credit for prior service be reduced, thus extending the probationary period."
+    ],
+    "entitlement": [
+     "If a faculty member has been granted credit for prior service, thus reducing the probationary period, then, if circumstances warrant, the faculty member may request that this credit for prior service be reduced, thus extending the probationary period."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_afapm_section_e_appointments_tenure"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "If a faculty member has been granted credit for prior service, thus reducing the probationary period, then, if circumstances warrant, the faculty member may request that this credit for prior service be reduced, thus extending the probationary period."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "If a faculty member has been granted credit for prior service, thus reducing the probationary period, then, if circumstances warrant, the faculty member may request that this credit for prior service be reduced, thus extending the probationary period."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "If a faculty member has been granted credit for prior service, thus reducing the probationary period, then, if circumstances warrant, the faculty member may request that this credit for prior service be reduced, thus extending the probationary period."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "If a faculty member has been granted credit for prior service, thus reducing the probationary period, then, if circumstances warrant, the faculty member may request that this credit for prior service be reduced, thus extending the probationary period."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "If a faculty member has been granted credit for prior service, thus reducing the probationary period, then, if circumstances warrant, the faculty member may request that this credit for prior service be reduced, thus extending the probationary period."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "If a faculty member has been granted credit for prior service, thus reducing the probationary period, then, if circumstances warrant, the faculty member may request that this credit for prior service be reduced, thus extending the probationary period."
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "Governing faculty documents are saved (AFAPM Sections E and F and Appendix 3; the CSU Parental Leave Policy), so missing = false (the no-policy coding (`missing`) not triggered).",
+  "Source precedence: AFAPM F.3.16 and F.3.17 (revised 2016-08-05) make Special Leave with pay for the STD elimination period mandatory ('will be granted with pay'; 'must be granted'); the 2015 Policy Library text and the HR Manual narrative still say 'in the department head's discretion'. Coded by the later governing manual, flagged conflicting_sources (c3).",
+  "Birth parent chain: sick/annual leave and Special Leave with pay for the 10-working-day STD elimination period (within) -> STD childbirth incapacity 6 weeks (8 caesarean) at 100% -> Parental Leave 3 work weeks -> FML remainder to 12 weeks (accrued leave or LWOP) -> discretionary additional time off; FML alongside from the start.",
+  "Non-birth parent chain: Parental Leave 3 work weeks (any time within the first year) with FML alongside -> FML remainder to 12 weeks (accrued leave or LWOP) -> discretionary additional time off; Colorado FCA leave for care of a civil-union/domestic partner runs concurrently with FML.",
+  "Fringe-pool reimbursement to departments (up to 12 weeks of salary for the birth mother's sick, annual and parental leave; 'up to 16 weeks' and 'up to 9 weeks' in the HR table) is internal funding, not an employee benefit, so not coded as a component or cap; only the table's teaching-relief item is coded (c6), under its literal 'Non-Tenure Track Faculty' header, flagged summary_only and ambiguous.",
+  "Annual leave accrues only to 12-month appointees (c9, not main campus); 9-month faculty have only discretionary limited leave (c17).",
+  "Documents cited but not saved: CSU Cost Share Faculty and Administrative Professional Privileges and Benefits Summary Plan (SPD) booklet / Academic Faculty and Administrative Professional Benefits and Privileges Handbook (STD and LTD terms, STD eligibility); HR Manual Section 1 (FML, extended sick leave); Leave Reporting Policy / Leave Reporting Procedures; Parental Leave Application form; Office of the Provost page linked under 'Other Helpful Resources for New Parents'; C.R.S. 8-13.3-203 (Colorado Family Care Act) text; AFAPM Sections C, D, G and K and department codes (cited for non-leave matters)."
+ ],
+ "statutory_floor": {
+  "jurisdiction": "US",
+  "year": "2018",
+  "weeks_birth": 12.0,
+  "weeks_nonbirth": 12.0,
+  "statute": "Family and Medical Leave Act (FMLA) (29 U.S.C. 2611-2612)",
+  "source_doc": "2026_00_us_fmla_29usc2612",
+  "table": "statutory_baseline.csv"
+ }
+}

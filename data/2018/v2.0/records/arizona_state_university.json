@@ -1,0 +1,1804 @@
+{
+ "institution": "Arizona State University",
+ "slug": "arizona_state_university",
+ "country": "US",
+ "model": "claude-opus-5-5",
+ "codebook_version": "1.25",
+ "schema_version": "1.25",
+ "reference_date": "2018-02-22",
+ "calendar": {
+  "term_weeks": null,
+  "note": "ACD 710 states a semester calendar ('If this period ends during a semester'), length not stated: semester default 16 (R8).",
+  "kind": "semester"
+ },
+ "documents": [
+  {
+   "doc_id": "2018_00_link",
+   "url": "https://provost.asu.edu/academic-personnel/parental-leave",
+   "title": "ASU Parental Leave Policy, Office of the University Provost (capture 2018-09-06; amended June 2018 to July 2019)",
+   "version_or_effective_date": "Effective October 16, 2006; amended June 11, 2018 through July 1, 2019",
+   "retrieved": "20180906021004"
+  },
+  {
+   "doc_id": "2018_01_acd710_parental_leave_rev2016",
+   "url": "http://www.asu.edu:80/aad/manuals/acd/acd710.html",
+   "title": "ACD 710: Parental Leave with Pay",
+   "version_or_effective_date": "Effective 10/16/2006, Revised 7/1/2016",
+   "retrieved": "20161009005420"
+  },
+  {
+   "doc_id": "2018_02_acd506-03_faculty_probationary_appointments",
+   "url": "http://www.asu.edu:80/aad/manuals/acd/acd506-03.html",
+   "title": "ACD 506-03: Faculty Probationary Appointments",
+   "version_or_effective_date": "Effective 7/1/1982, Revised 7/1/2011",
+   "retrieved": "20160724140044"
+  },
+  {
+   "doc_id": "2018_03_acd702-03_family_leave",
+   "url": "http://www.asu.edu:80/aad/manuals/acd/acd702-03.html",
+   "title": "ACD 702-03: Family Leave",
+   "version_or_effective_date": "Effective 8/5/1993, Revised 7/1/2011",
+   "retrieved": "20161109051404"
+  },
+  {
+   "doc_id": "2018_04_acd702-02_health_related_leave",
+   "url": "http://www.asu.edu:80/aad/manuals/acd/acd702-02.html",
+   "title": "ACD 702-02: Health-Related Leave",
+   "version_or_effective_date": "Effective 7/1/1978, Revised 7/1/2011",
+   "retrieved": "20160320184406"
+  },
+  {
+   "doc_id": "2018_05_provost_parental_leave_page_jul2017",
+   "url": "https://provost.asu.edu/academic-personnel/parental-leave",
+   "title": "ASU Parental Leave Policy, Office of the University Provost (capture 2017-07-12)",
+   "version_or_effective_date": "Effective October 16, 2006 (no amendment listed)",
+   "retrieved": "20170712052709"
+  },
+  {
+   "doc_id": "2018_06_acd707_leave_without_pay",
+   "url": "http://www.asu.edu:80/aad/manuals/acd/acd707.html",
+   "title": "ACD 707: Leave of Absence without Pay",
+   "version_or_effective_date": "Effective 4/1/1974, Revised 7/1/2011",
+   "retrieved": "20161109043149"
+  }
+ ],
+ "missing": false,
+ "scope_accounting": {
+  "C1": {
+   "components": [
+    "arizona_state_university_c1",
+    "arizona_state_university_c11",
+    "arizona_state_university_c12"
+   ]
+  },
+  "C2": {
+   "components": [
+    "arizona_state_university_c2"
+   ]
+  },
+  "C3": {
+   "components": [
+    "arizona_state_university_c4",
+    "arizona_state_university_c5"
+   ]
+  },
+  "C4": {
+   "components": [
+    "arizona_state_university_c3"
+   ],
+   "not_components": [
+    {
+     "statute": "National Defense Authorization Act 2008 (FMLA military exigency and caregiver leave, 26 weeks)",
+     "reason": "military-family leave, unrelated to becoming a parent (U4); cited as a source of ACD 702-02 and described in ACD 702-03"
+    },
+    {
+     "statute": "Arizona Revised Statutes § 35-615",
+     "reason": "listed only as a source of ACD 702-02 (sick leave); no parental leave, pay or protection relied on (U4)"
+    },
+    {
+     "statute": "Arizona Revised Statutes § 38-615",
+     "reason": "payment for accumulated sick leave on termination/retirement; unrelated to becoming a parent (U4)"
+    }
+   ]
+  },
+  "C5": {
+   "components": [
+    "arizona_state_university_c3",
+    "arizona_state_university_c4"
+   ]
+  },
+  "C6": {
+   "components": [
+    "arizona_state_university_c6",
+    "arizona_state_university_c7"
+   ]
+  },
+  "C7": {
+   "components": [
+    "arizona_state_university_c8",
+    "arizona_state_university_c9",
+    "arizona_state_university_c10"
+   ]
+  },
+  "C8": {
+   "absent": {
+    "documents": [
+     "2018_00_link",
+     "2018_01_acd710_parental_leave_rev2016",
+     "2018_02_acd506-03_faculty_probationary_appointments",
+     "2018_03_acd702-03_family_leave",
+     "2018_04_acd702-02_health_related_leave",
+     "2018_05_provost_parental_leave_page_jul2017",
+     "2018_06_acd707_leave_without_pay"
+    ],
+    "terms": [
+     "part-time",
+     "reduced",
+     "reduced work schedule",
+     "less than 100 percent FTE",
+     "phased",
+     "FTE"
+    ]
+   }
+  },
+  "C9": {
+   "absent": {
+    "documents": [
+     "2018_00_link",
+     "2018_01_acd710_parental_leave_rev2016",
+     "2018_02_acd506-03_faculty_probationary_appointments",
+     "2018_03_acd702-03_family_leave",
+     "2018_04_acd702-02_health_related_leave",
+     "2018_05_provost_parental_leave_page_jul2017",
+     "2018_06_acd707_leave_without_pay"
+    ],
+    "terms": [
+     "accommodat",
+     "alternative position",
+     "transfer",
+     "pregnan",
+     "light duty",
+     "hazard"
+    ]
+   }
+  },
+  "C10": {
+   "absent": {
+    "documents": [
+     "2018_00_link",
+     "2018_01_acd710_parental_leave_rev2016",
+     "2018_02_acd506-03_faculty_probationary_appointments",
+     "2018_03_acd702-03_family_leave",
+     "2018_04_acd702-02_health_related_leave",
+     "2018_05_provost_parental_leave_page_jul2017",
+     "2018_06_acd707_leave_without_pay"
+    ],
+    "terms": [
+     "first days",
+     "FMLA-qualifying",
+     "regular work time",
+     "paid family leave",
+     "family leave with pay"
+    ]
+   }
+  }
+ },
+ "passage_dispositions": {
+  "2018_00_link#001": {
+   "not_relevant": "site navigation menu"
+  },
+  "2018_00_link#002": {
+   "not_relevant": "site navigation menu"
+  },
+  "2018_00_link#003": {
+   "used_in": [
+    "arizona_state_university_c11"
+   ]
+  },
+  "2018_01_acd710_parental_leave_rev2016#001": {
+   "used_in": [
+    "arizona_state_university_c1",
+    "arizona_state_university_c2",
+    "arizona_state_university_c3",
+    "arizona_state_university_c4",
+    "arizona_state_university_c6",
+    "arizona_state_university_c8"
+   ]
+  },
+  "2018_02_acd506-03_faculty_probationary_appointments#001": {
+   "not_relevant": "probationary appointment basics, durations and part-FTE appointments; no parental provision (read for C7/C8)"
+  },
+  "2018_02_acd506-03_faculty_probationary_appointments#002": {
+   "used_in": [
+    "arizona_state_university_c8",
+    "arizona_state_university_c9",
+    "arizona_state_university_c10"
+   ]
+  },
+  "2018_02_acd506-03_faculty_probationary_appointments#003": {
+   "not_relevant": "annual feedback and probationary review procedure"
+  },
+  "2018_02_acd506-03_faculty_probationary_appointments#004": {
+   "not_relevant": "conditional retention and termination notice"
+  },
+  "2018_03_acd702-03_family_leave#001": {
+   "used_in": [
+    "arizona_state_university_c3"
+   ]
+  },
+  "2018_03_acd702-03_family_leave#002": {
+   "used_in": [
+    "arizona_state_university_c3",
+    "arizona_state_university_c7"
+   ]
+  },
+  "2018_03_acd702-03_family_leave#003": {
+   "used_in": [
+    "arizona_state_university_c3"
+   ]
+  },
+  "2018_03_acd702-03_family_leave#004": {
+   "not_relevant": "certification disputes, cross-references and navigation"
+  },
+  "2018_04_acd702-02_health_related_leave#001": {
+   "used_in": [
+    "arizona_state_university_c4",
+    "arizona_state_university_c5",
+    "arizona_state_university_c6"
+   ]
+  },
+  "2018_05_provost_parental_leave_page_jul2017#001": {
+   "not_relevant": "site navigation menu"
+  },
+  "2018_05_provost_parental_leave_page_jul2017#002": {
+   "used_in": [
+    "arizona_state_university_c1",
+    "arizona_state_university_c2",
+    "arizona_state_university_c8",
+    "arizona_state_university_c12"
+   ]
+  },
+  "2018_06_acd707_leave_without_pay#001": {
+   "used_in": [
+    "arizona_state_university_c6",
+    "arizona_state_university_c7",
+    "arizona_state_university_c10"
+   ]
+  }
+ },
+ "mechanism_slots": {
+  "employer_paid_leave": {
+   "components": [
+    "arizona_state_university_c1",
+    "arizona_state_university_c11",
+    "arizona_state_university_c12"
+   ]
+  },
+  "employer_childbirth_benefit": {
+   "absent": "no dedicated childbirth or maternity benefit; searched all 7 documents for 'maternity', 'childbirth', 'disability', 'short-term'"
+  },
+  "generic_sick_or_disability_plan": {
+   "components": [
+    "arizona_state_university_c5"
+   ]
+  },
+  "own_accrual": {
+   "components": [
+    "arizona_state_university_c4",
+    "arizona_state_university_c6"
+   ]
+  },
+  "donated_leave": {
+   "absent": "no donated or shared leave bank; searched all 7 documents for 'donat', 'shared', 'bank', 'pool'"
+  },
+  "government_benefit": {
+   "absent": "no state or federal paid program; searched all 7 documents for 'state', 'insurance', 'benefit', 'program'"
+  },
+  "employer_topup": {
+   "absent": "no top-up of a government benefit; ACD 710 coordinates with group disability insurance up to 100% (noted on c1); searched 'top', 'supplement', 'coordinate'"
+  },
+  "modified_duties": {
+   "components": [
+    "arizona_state_university_c2"
+   ]
+  },
+  "unpaid_leave": {
+   "components": [
+    "arizona_state_university_c3",
+    "arizona_state_university_c7"
+   ]
+  },
+  "tenure_clock": {
+   "components": [
+    "arizona_state_university_c8",
+    "arizona_state_university_c9",
+    "arizona_state_university_c10"
+   ]
+  },
+  "part_time_option": {
+   "absent": "no reduced or part-time appointment for parents; searched all 7 documents for 'part-time', 'reduced', 'FTE', 'phased'"
+  },
+  "other": {
+   "absent": "no accommodation, rearrangement or equal-treatment provision; searched all 7 documents for 'accommodat', 'transfer', 'hazard', 'light duty'"
+  }
+ },
+ "baseline_accounting": {
+  "Family and Medical Leave Act (FMLA)": {
+   "components": [
+    "arizona_state_university_c3"
+   ]
+  },
+  "Federal Employee Paid Leave Act (paid parental leave for federal civilian employees)": {
+   "not_applicable": "covers federal civilian employees only; ASU is a state university"
+  }
+ },
+ "leave_limits": [],
+ "components": [
+  {
+   "component_id": "arizona_state_university_c1",
+   "institution_label": "Parental Leave with Pay",
+   "description": "Six weeks of paid parental leave at 100% of regular pay, in a single block from the birth or adoption, for birth mothers, fathers, adoptive parents and domestic partners among faculty and academic professionals; service requirement waived for tenured/tenure-eligible faculty.",
+   "mechanism": "employer_paid_leave",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "All faculty and academic professionals ... (12 months and 1,250 hours, waived for tenured/tenure-eligible faculty)",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "the birth mother, father, adoptive parents, and domestic partners",
+   "caregiver_condition": "none",
+   "service_requirement": "none for tenured/tenure-eligible faculty (12 months and 1,250 hours required of others, waived for tenured/tenure-eligible faculty)",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "'will be approved if the eligible employee provides a written request' 60 days ahead: the approval covers the request, not whether there is a benefit (V2).",
+   "duration": {
+    "value": 6,
+    "units": "week",
+    "qualifier": "exact"
+   },
+   "duration_note": "A single six-week block from the birth or adoption; the Purpose says 'not to exceed six weeks'. Academic-year appointees with a birth outside the academic year receive a pro-rated amount for the part of the six weeks in the new academic year. Stillbirth: up to six weeks within the first six weeks of delivery.",
+   "pay_fraction": "100 percent of the employee’s regular rate of pay (based upon FTE)",
+   "pay_fraction_pct": 100,
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "relief_note": "A period of absence from work; no relief stated (R9).",
+   "time_window": "a single six-week block commencing upon the birth of the child or the adoption of the child",
+   "notice": "written request at least 60 days before the leave is to begin, if foreseeable; otherwise as far in advance as possible",
+   "return_obligation": "reimburse salary paid if the employee fails to return after this leave, any other authorized leave or a temporary assignment of alternate duties, or fails to remain for at least 30 days; excused for a serious health condition of the employee or child or circumstances beyond the employee's control",
+   "dual_employee_rule": "limited to a total of six-weeks per birth or adoption per family (provost summary page 2018_05 only; ACD 710 silent)",
+   "runs_concurrently_with": [
+    "FMLA"
+   ],
+   "sequence": [],
+   "flags": [
+    "version_uncertain",
+    "cross_reference_not_saved: SPP 708 (staff parental leave policy)",
+    "cross_reference_not_saved: HR Benefits Web site (short-term disability insurance)"
+   ],
+   "rule_applied": [
+    "V2",
+    "R9",
+    "R13",
+    "source_precedence",
+    "U8"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "All faculty and academic professionals who have been employed at ASU for at least 12 months in a benefits-eligible position and have worked at least 1,250 hours during the previous 12 months",
+     "The 12-month waiting period and 1,250 hours worked requirement is waived for tenured/tenure-eligible faculty and probationary/continuing academic professionals"
+    ],
+    "eligible_parent": [
+     "This paid leave may be used by the birth mother, father, adoptive parents, and domestic partners."
+    ],
+    "entitlement": [
+     "Paid parental leave will be approved if the eligible employee provides a written request to the academic unit head/chair/director requesting paid parental leave at least 60 days before the leave is to begin, if the leave is foreseeable."
+    ],
+    "duration": [
+     "Six weeks of paid parental leave is available to an eligible employee who:",
+     "Paid parental leave is available to be used in a single six-week block of time commencing upon the birth of the child or the adoption of the child."
+    ],
+    "pay_fraction": [
+     "Paid parental leave is paid at 100 percent of the employee’s regular rate of pay (based upon FTE)."
+    ],
+    "service_requirement": [
+     "The 12-month waiting period and 1,250 hours worked requirement is waived for tenured/tenure-eligible faculty and probationary/continuing academic professionals"
+    ],
+    "notice": [
+     "Paid parental leave will be approved if the eligible employee provides a written request to the academic unit head/chair/director requesting paid parental leave at least 60 days before the leave is to begin, if the leave is foreseeable."
+    ],
+    "return_obligation": [
+     "If the faculty member or academic professional fails to return to work after the expiration of this leave and/or any other authorized leave period (e.g., family leave) and/or the expiration of a temporary assignment of alternate duties, or returns to work but fails to remain for at least 30 days, the employee agrees to reimburse ASU the salary paid under this policy."
+    ],
+    "dual_employee_rule": [
+     "This paid leave will run concurrently with FMLA and is limited to a total of six-weeks per birth or adoption per family."
+    ],
+    "runs_concurrently_with": [
+     "The Family Medical Leave Act (ACD 702–03, “Family Leave”) is not an additional leave; rather, it is to be used concurrently with this policy."
+    ],
+    "duration_note": [
+     "To provide faculty and academic professionals with salary continuance for a period of absence from work for the birth or adoption of a child, not to exceed six weeks",
+     "If the birth or adoption of a child occurs outside of the academic year for an academic year appointee, the academic year appointee is eligible to receive a pro-rated amount of paid parental leave for any portion of the six-week period that occurs in the new academic year period.",
+     "Paid parental leave may be used in cases of stillbirth. In such an event, a maximum of six weeks of paid parental leave benefits will be paid within the first six weeks of delivery."
+    ],
+    "pay_cap": [
+     "Paid parental leave will coordinate benefits with any group disability income replacement benefit policy (e.g., short-term disability insurance), up to 100 percent of the recipient’s base salary."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_acd710_parental_leave_rev2016",
+    "2018_05_provost_parental_leave_page_jul2017"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "employer_paid_leave",
+     "quote": "Paid parental leave is paid at 100 percent of the employee’s regular rate of pay (based upon FTE)."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "This paid leave will not reduce an employee’s balance of accrued time under any other university paid leave program (e.g., sick leave)."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "To provide faculty and academic professionals with salary continuance for a period of absence from work for the birth or adoption of a child"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "All faculty and academic professionals who have been employed at ASU for at least 12 months in a benefits-eligible position and have worked at least 1,250 hours during the previous 12 months"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U8",
+     "answer": "none for tenured/tenure-eligible faculty",
+     "quote": "The 12-month waiting period and 1,250 hours worked requirement is waived for tenured/tenure-eligible faculty and probationary/continuing academic professionals"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "birth_parent, non_birth_parent, adoptive",
+     "quote": "This paid leave may be used by the birth mother, father, adoptive parents, and domestic partners."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "Paid parental leave will be approved if the eligible employee provides a written request to the academic unit head/chair/director requesting paid parental leave at least 60 days before the leave is to begin, if the leave is foreseeable."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "6 weeks exact (a single six-week block)",
+     "quote": "Paid parental leave is available to be used in a single six-week block of time commencing upon the birth of the child or the adoption of the child."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "100%",
+     "quote": "Paid parental leave is paid at 100 percent of the employee’s regular rate of pay (based upon FTE)."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave, no relief stated)",
+     "quote": "salary continuance for a period of absence from work for the birth or adoption of a child"
+    },
+    {
+     "field": "dual_employee_rule",
+     "rule": "source_precedence",
+     "answer": "per-family six-week limit stated only in the provost summary; recorded as written, not counted",
+     "quote": "This paid leave will run concurrently with FMLA and is limited to a total of six-weeks per birth or adoption per family."
+    }
+   ]
+  },
+  {
+   "component_id": "arizona_state_university_c2",
+   "institution_label": "Temporary Assignment of Alternate Duties",
+   "description": "After the six weeks of paid parental leave, chairs and deans are expected to accommodate a request for 12 weeks of alternate (non-teaching) duties, extended to the end of the term in progress if the 12 weeks end mid-semester; the teaching reduction is not made up later.",
+   "mechanism": "modified_duties",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "eligible employees under ACD 710 (all faculty and academic professionals); the provost page says 'For tenure-track/tenured faculty'",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "eligible employees; the birth of the employee’s child or the adoption by the employee of a child (ACD 710: birth mother, father, adoptive parents, and domestic partners)",
+   "caregiver_condition": "none",
+   "service_requirement": "none for tenured/tenure-eligible faculty (as for ACD 710 paid parental leave)",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "'expected to accommodate requests' is V2d (the rules name ASU ACD 710), not V2c.",
+   "duration": {
+    "value": 12,
+    "units": "week",
+    "qualifier": "at_least"
+   },
+   "duration_note": "A period of 12 weeks beyond the six weeks of paid parental leave; if it ends during a semester it is further extended to the end of the academic term in progress, so at least 12 weeks (end-of-term length not stated in weeks). The July 2017 provost page says 'up to 12 weeks'; ACD 710 governs (source precedence).",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "continues",
+    "research": "continues",
+    "advising_supervision": "continues",
+    "clinical": "continues"
+   },
+   "relief_inferred": "unnamed duties continue (R4b)",
+   "relief_note": "Alternate duties listed (research, course development, curriculum development, program/accreditation reviews, mentoring of graduate students) are non-teaching duties; 'any reduction in teaching is not to be made up at a later date'. Teaching relieved; research, service and mentoring continue (R4b, ASU ACD 710 example). Pay: the employee remains on 'full active employment'; no pay level stated.",
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "arizona_state_university_c1",
+     "note": "'for a period of 12 weeks beyond the six weeks of paid parental leave' (R3d)"
+    }
+   ],
+   "return_obligation": "reimburse salary paid under ACD 710 if the employee fails to return after the expiration of a temporary assignment of alternate duties or fails to remain 30 days",
+   "flags": [
+    "conditional_refusal: chairs/directors and deans are expected to accommodate requests",
+    "ambiguous: pay level not stated; full pay inferred (R3)",
+    "version_uncertain"
+   ],
+   "rule_applied": [
+    "V2d",
+    "R4b",
+    "R3",
+    "R3d",
+    "R10",
+    "source_precedence"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "All faculty and academic professionals who have been employed at ASU for at least 12 months in a benefits-eligible position and have worked at least 1,250 hours during the previous 12 months",
+     "For tenure-track/tenured faculty, department chairs and deans are expected to accommodate requests for temporary assignment of alternative duties for a period of up to 12 weeks beyond the six-weeks of paid leave."
+    ],
+    "eligible_parent": [
+     "Alternate duties should be designed to make it more feasible for the employee to remain on full active employment at the university following the birth of the employee’s child or the adoption by the employee of a child.",
+     "This paid leave may be used by the birth mother, father, adoptive parents, and domestic partners."
+    ],
+    "entitlement": [
+     "Academic unit chairs/directors and deans are expected to accommodate requests by eligible employees for a temporary assignment of alternate duties for a period of 12 weeks beyond the six weeks of paid parental leave."
+    ],
+    "duration": [
+     "Academic unit chairs/directors and deans are expected to accommodate requests by eligible employees for a temporary assignment of alternate duties for a period of 12 weeks beyond the six weeks of paid parental leave.",
+     "If this period ends during a semester, this temporary assignment of alternate duties will be further extended to the end of the academic term in progress."
+    ],
+    "relief": [
+     "Examples of alternate duty assignments include, but are not limited to, research, course development, curriculum development, working on program reviews or accreditation reviews and related documents, and the mentoring of graduate students.",
+     "Any reduction in teaching is not to be made up at a later date."
+    ],
+    "sequence": [
+     "Academic unit chairs/directors and deans are expected to accommodate requests by eligible employees for a temporary assignment of alternate duties for a period of 12 weeks beyond the six weeks of paid parental leave."
+    ],
+    "service_requirement": [
+     "The 12-month waiting period and 1,250 hours worked requirement is waived for tenured/tenure-eligible faculty and probationary/continuing academic professionals"
+    ],
+    "return_obligation": [
+     "If the faculty member or academic professional fails to return to work after the expiration of this leave and/or any other authorized leave period (e.g., family leave) and/or the expiration of a temporary assignment of alternate duties, or returns to work but fails to remain for at least 30 days, the employee agrees to reimburse ASU the salary paid under this policy."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_acd710_parental_leave_rev2016",
+    "2018_05_provost_parental_leave_page_jul2017"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R4b",
+     "answer": "modified_duties",
+     "quote": "Examples of alternate duty assignments include, but are not limited to, research, course development, curriculum development, working on program reviews or accreditation reviews and related documents, and the mentoring of graduate students."
+    },
+    {
+     "field": "payer",
+     "rule": "R3",
+     "answer": "employer",
+     "quote": "Alternate duties should be designed to make it more feasible for the employee to remain on full active employment at the university following the birth of the employee’s child or the adoption by the employee of a child."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Alternate duties should be designed to make it more feasible for the employee to remain on full active employment at the university following the birth of the employee’s child or the adoption by the employee of a child."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "For tenure-track/tenured faculty, department chairs and deans are expected to accommodate requests for temporary assignment of alternative duties for a period of up to 12 weeks beyond the six-weeks of paid leave."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U8",
+     "answer": "none for tenured/tenure-eligible faculty",
+     "quote": "The 12-month waiting period and 1,250 hours worked requirement is waived for tenured/tenure-eligible faculty and probationary/continuing academic professionals"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "birth_parent, non_birth_parent, adoptive",
+     "quote": "This paid leave may be used by the birth mother, father, adoptive parents, and domestic partners."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2d",
+     "answer": "guaranteed_on_request",
+     "quote": "Academic unit chairs/directors and deans are expected to accommodate requests by eligible employees for a temporary assignment of alternate duties for a period of 12 weeks beyond the six weeks of paid parental leave."
+    },
+    {
+     "field": "duration",
+     "rule": "R10",
+     "answer": "12 weeks at_least (extended to end of term in progress)",
+     "quote": "If this period ends during a semester, this temporary assignment of alternate duties will be further extended to the end of the academic term in progress."
+    },
+    {
+     "field": "duration",
+     "rule": "source_precedence",
+     "answer": "ACD 710 '12 weeks' over provost page 'up to 12 weeks'",
+     "quote": "Academic unit chairs/directors and deans are expected to accommodate requests by eligible employees for a temporary assignment of alternate duties for a period of 12 weeks beyond the six weeks of paid parental leave."
+    },
+    {
+     "field": "relief",
+     "rule": "R4b",
+     "answer": "teaching relieved; service_admin, research, advising_supervision, clinical continue",
+     "quote": "Examples of alternate duty assignments include, but are not limited to, research, course development, curriculum development, working on program reviews or accreditation reviews and related documents, and the mentoring of graduate students."
+    },
+    {
+     "field": "sequence",
+     "rule": "R3d",
+     "answer": "consecutive_after c1",
+     "quote": "Academic unit chairs/directors and deans are expected to accommodate requests by eligible employees for a temporary assignment of alternate duties for a period of 12 weeks beyond the six weeks of paid parental leave."
+    }
+   ]
+  },
+  {
+   "component_id": "arizona_state_university_c3",
+   "institution_label": "Family Leave",
+   "description": "ASU's FMLA policy: up to 12 workweeks of unpaid, job-protected leave in a 12-month period for a birth, adoption or foster placement (within 12 months), the employee's own serious health condition including pregnancy incapacity, or care of a seriously ill family member; accrued vacation may be used.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "All ASU employees, including faculty, academic professionals, administrators, service professionals, and classified staff",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "an eligible employee; birth, adoption, or placement ... for foster care; spouses who are both employed",
+   "caregiver_condition": "none",
+   "service_requirement": "12 months and 1,250 hours",
+   "entitlement": "guaranteed",
+   "entitlement_note": "Statutory (FMLA) leave: guaranteed even though the policy says 'entitled to apply'.",
+   "duration": {
+    "value": 12,
+    "units": "workweek",
+    "qualifier": "up_to"
+   },
+   "duration_note": "Up to 12 workweeks in a 12-month period (anniversary of hire date); child-care leave in one continuous period, or on a reduced schedule with supervisor approval. Runs concurrently with the six-week ACD 710 paid leave, leaving 6 unpaid workweeks.",
+   "time_window": "child care leave within the 12 months after the birth or placement",
+   "dual_employee_rule": "spouses both employed: aggregate of 12 weeks of child care leave",
+   "medical_certification": true,
+   "medical_certification_note": "certification of a serious health condition for medical leave (second and third opinions may be required); not stated for child-care leave",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "statute_source": "29 U.S.C. 2612(a)(1)",
+   "statute_verified": true,
+   "runs_concurrently_with": [
+    "FMLA"
+   ],
+   "sequence": [
+    {
+     "relation": "concurrent_with",
+     "component_id": "arizona_state_university_c1",
+     "note": "ACD 710: FMLA 'is not an additional leave; rather, it is to be used concurrently with this policy' (S1); 6 unpaid workweeks remain after the paid leave"
+    }
+   ],
+   "flags": [
+    "cross_reference_not_saved: P15 Family Leave Procedures"
+   ],
+   "rule_applied": [
+    "U2",
+    "U4",
+    "U5",
+    "S1",
+    "R9",
+    "R13"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "All ASU employees, including faculty, academic professionals, administrators, service professionals, and classified staff who have been employed at ASU for at least 12 months and have worked at least 1,250 hours during the previous 12 months"
+    ],
+    "eligible_parent": [
+     "A leave of absence may be used for the birth, adoption, or placement with an ASU employee for foster care of a child.",
+     "Any period of incapacity due to pregnancy or for prenatal care.",
+     "the care of a child, parent, spouse, or member of the employee’s established household who has a serious health condition."
+    ],
+    "entitlement": [
+     "An eligible employee is entitled to apply for up to a total of 12 work weeks for family leave during any 12-month period.",
+     "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period"
+    ],
+    "duration": [
+     "An eligible employee is entitled to apply for up to a total of 12 work weeks for family leave during any 12-month period.",
+     "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period"
+    ],
+    "sequence": [
+     "The Family Medical Leave Act (ACD 702–03, “Family Leave”) is not an additional leave; rather, it is to be used concurrently with this policy."
+    ],
+    "service_requirement": [
+     "All ASU employees, including faculty, academic professionals, administrators, service professionals, and classified staff who have been employed at ASU for at least 12 months and have worked at least 1,250 hours during the previous 12 months"
+    ],
+    "time_window": [
+     "Child care family leave must be taken within the 12 months after the birth or placement of the child with the employee."
+    ],
+    "dual_employee_rule": [
+     "If spouses who are both employed by the university desire child care leave, they are entitled to an aggregate of 12 weeks within the first 12 months after birth, adoption, or placement of the child in their household."
+    ],
+    "duration_note": [
+     "Child care leave must be taken during one continuous time period.",
+     "Accrued vacation time may be used for the leave. After accrued vacation time is exhausted, the remainder of the leave time is without pay."
+    ]
+   },
+   "doc_ids": [
+    "2018_03_acd702-03_family_leave",
+    "2018_01_acd710_parental_leave_rev2016"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "Accrued vacation time may be used for the leave. After accrued vacation time is exhausted, the remainder of the leave time is without pay."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Accrued vacation time may be used for the leave. After accrued vacation time is exhausted, the remainder of the leave time is without pay."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "To allow employees time off to care for family members or themselves during periods of medical urgency or the birth, adoption, or placement of a child with the employee"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "All ASU employees, including faculty, academic professionals, administrators, service professionals, and classified staff who have been employed at ASU for at least 12 months and have worked at least 1,250 hours during the previous 12 months"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U2",
+     "answer": "12 months and 1,250 hours",
+     "quote": "All ASU employees, including faculty, academic professionals, administrators, service professionals, and classified staff who have been employed at ASU for at least 12 months and have worked at least 1,250 hours during the previous 12 months"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own pregnancy incapacity), non_birth_parent (care of spouse), plus child-care leave for all; adoptive, foster",
+     "quote": "Any period of incapacity due to pregnancy or for prenatal care."
+    },
+    {
+     "field": "entitlement",
+     "rule": "U2",
+     "answer": "guaranteed",
+     "quote": "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period"
+    },
+    {
+     "field": "duration",
+     "rule": "U2",
+     "answer": "12 workweeks up_to",
+     "quote": "An eligible employee is entitled to apply for up to a total of 12 work weeks for family leave during any 12-month period."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave)",
+     "quote": "A leave of absence may be used for the birth, adoption, or placement with an ASU employee for foster care of a child."
+    },
+    {
+     "field": "sequence",
+     "rule": "S1",
+     "answer": "concurrent_with c1",
+     "quote": "The Family Medical Leave Act (ACD 702–03, “Family Leave”) is not an additional leave; rather, it is to be used concurrently with this policy."
+    }
+   ]
+  },
+  {
+   "component_id": "arizona_state_university_c4",
+   "institution_label": "Sick Leave",
+   "description": "Accrued sick leave (9 days a year for academic-year, 12 for fiscal-year full-time appointees; accumulates without limit) usable for the employee's own illness, pregnancy or childbirth, or for illness in the immediate family; an employee may use it to stay in pay status during family leave beyond the paid parental leave.",
+   "mechanism": "own_accrual",
+   "payer": "own_balance",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Faculty and academic professionals employed 50 percent FTE or more for a continuous period of six or more months",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent"
+   ],
+   "eligible_parent_wording": "an employee unable to perform duties because of pregnancy or childbirth; absence due to illness within the employee's immediate family",
+   "caregiver_condition": "none",
+   "service_requirement": "none stated (available immediately upon accrual; appointment of 50 percent FTE or more for a continuous period of six or more months)",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "Accrued balance usable for the listed purposes; supervisor approval covers the request (V2).",
+   "duration_note": "A balance, no stated length: accrual 3.69 hours per pay period at 100% FTE (9 days AY, 12 days FY a year), unlimited accumulation; no childbirth length. In extraordinary cases the president may approve additional sick leave (c5).",
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "arizona_state_university_c1",
+     "note": "ACD 710: sick or vacation hours keep the employee in pay status 'for any time taken beyond the paid parental leave period'"
+    }
+   ],
+   "rule_applied": [
+    "R1",
+    "U5",
+    "V2"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Faculty and academic professionals who are employed to work 20 hours per week (50 percent FTE) or more for a continuous period of six or more months"
+    ],
+    "eligible_parent": [
+     "is unable to perform assigned duties because of illness, injury, pregnancy, or childbirth or related medical conditions",
+     "is absent due to illness or communicable disease within the employee’s immediate family or established household or in situations that place primary responsibility for care on the employee."
+    ],
+    "entitlement": [
+     "Sick leave is available for use by all eligible faculty and academic professionals immediately upon accrual.",
+     "All requests for use of sick leave must be approved by the person’s supervisor."
+    ],
+    "sequence": [
+     "Family leave is unpaid, therefore, the employee must utilize accrued sick (ACD 702–02) or vacation (ACD 704–01) hours if he or she wishes to remain in pay status for any time taken beyond the paid parental leave period."
+    ],
+    "service_requirement": [
+     "Sick leave is available for use by all eligible faculty and academic professionals immediately upon accrual.",
+     "Faculty and academic professionals who are employed to work 20 hours per week (50 percent FTE) or more for a continuous period of six or more months"
+    ],
+    "duration_note": [
+     "A maximum number of 12 paid sick leave days may be accrued per calendar year. Sick leave may be accumulated without limitation."
+    ]
+   },
+   "doc_ids": [
+    "2018_04_acd702-02_health_related_leave",
+    "2018_01_acd710_parental_leave_rev2016"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "own_accrual",
+     "quote": "A maximum number of 12 paid sick leave days may be accrued per calendar year. Sick leave may be accumulated without limitation."
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "own_balance",
+     "quote": "A maximum number of 12 paid sick leave days may be accrued per calendar year. Sick leave may be accumulated without limitation."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "is unable to perform assigned duties because of illness, injury, pregnancy, or childbirth or related medical conditions"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Faculty and academic professionals who are employed to work 20 hours per week (50 percent FTE) or more for a continuous period of six or more months"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "none stated; available immediately upon accrual",
+     "quote": "Sick leave is available for use by all eligible faculty and academic professionals immediately upon accrual."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent, non_birth_parent",
+     "quote": "is absent due to illness or communicable disease within the employee’s immediate family or established household or in situations that place primary responsibility for care on the employee."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "All requests for use of sick leave must be approved by the person’s supervisor."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "consecutive_after c1",
+     "quote": "Family leave is unpaid, therefore, the employee must utilize accrued sick (ACD 702–02) or vacation (ACD 704–01) hours if he or she wishes to remain in pay status for any time taken beyond the paid parental leave period."
+    }
+   ]
+  },
+  {
+   "component_id": "arizona_state_university_c5",
+   "institution_label": "",
+   "description": "In extraordinary cases the president may approve paid sick leave beyond the employee's accrued balance; no amount stated.",
+   "mechanism": "generic_sick_or_disability_plan",
+   "payer": "employer",
+   "mechanism_note": "Paid sick time the employer may grant beyond the accrued balance (not the employee's own balance); handles childbirth like any illness; no childbirth period, length or pay level stated (V1 not met).",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Faculty and academic professionals employed 50 percent FTE or more for a continuous period of six or more months (ACD 702-02)",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent"
+   ],
+   "eligible_parent_wording": "as for sick leave: pregnancy, or childbirth; illness within the employee's immediate family",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "duration_note": "No amount stated.",
+   "rule_applied": [
+    "R1",
+    "V1",
+    "V2",
+    "U5"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Faculty and academic professionals who are employed to work 20 hours per week (50 percent FTE) or more for a continuous period of six or more months"
+    ],
+    "eligible_parent": [
+     "is unable to perform assigned duties because of illness, injury, pregnancy, or childbirth or related medical conditions",
+     "is absent due to illness or communicable disease within the employee’s immediate family or established household or in situations that place primary responsibility for care on the employee."
+    ],
+    "entitlement": [
+     "In extraordinary cases, the president may approve sick leave in addition to that allowed by this policy."
+    ],
+    "mechanism": [
+     "In extraordinary cases, the president may approve sick leave in addition to that allowed by this policy."
+    ]
+   },
+   "doc_ids": [
+    "2018_04_acd702-02_health_related_leave"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "V1",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "In extraordinary cases, the president may approve sick leave in addition to that allowed by this policy."
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "employer",
+     "quote": "In extraordinary cases, the president may approve sick leave in addition to that allowed by this policy."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "is unable to perform assigned duties because of illness, injury, pregnancy, or childbirth or related medical conditions"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Faculty and academic professionals who are employed to work 20 hours per week (50 percent FTE) or more for a continuous period of six or more months"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent, non_birth_parent",
+     "quote": "is absent due to illness or communicable disease within the employee’s immediate family or established household or in situations that place primary responsibility for care on the employee."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "In extraordinary cases, the president may approve sick leave in addition to that allowed by this policy."
+    }
+   ]
+  },
+  {
+   "component_id": "arizona_state_university_c6",
+   "institution_label": "Vacation Leave",
+   "description": "Accrued vacation hours (ACD 704-01, not saved) that an eligible employee may use to stay in pay status during family leave beyond the paid parental leave, or after sick leave runs out.",
+   "mechanism": "own_accrual",
+   "payer": "own_balance",
+   "faculty_group": "faculty and academic professionals eligible to accrue vacation (ACD 704-01, not saved; ACD 707 indicates fiscal-year appointees)",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "the employee",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "duration_note": "A balance with no stated length; accrual rates are not in the saved documents.",
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "arizona_state_university_c1",
+     "note": "ACD 710: 'for any time taken beyond the paid parental leave period'"
+    }
+   ],
+   "flags": [
+    "general_purpose",
+    "cross_reference_not_saved: ACD 704-01 Vacation Leave"
+   ],
+   "rule_applied": [
+    "R1",
+    "U1",
+    "V2"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Upon use of all sick leave, the person may, if desired, request to use accrued vacation leave (if eligible to do so) and/or request a leave without pay.",
+     "Fiscal-year appointees do not accrue vacation time while on a leave without pay."
+    ],
+    "eligible_parent": [
+     "Family leave is unpaid, therefore, the employee must utilize accrued sick (ACD 702–02) or vacation (ACD 704–01) hours if he or she wishes to remain in pay status for any time taken beyond the paid parental leave period."
+    ],
+    "entitlement": [
+     "Upon use of all sick leave, the person may, if desired, request to use accrued vacation leave (if eligible to do so) and/or request a leave without pay.",
+     "Accrued vacation time may be used for the leave. After accrued vacation time is exhausted, the remainder of the leave time is without pay."
+    ],
+    "sequence": [
+     "Family leave is unpaid, therefore, the employee must utilize accrued sick (ACD 702–02) or vacation (ACD 704–01) hours if he or she wishes to remain in pay status for any time taken beyond the paid parental leave period."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_acd710_parental_leave_rev2016",
+    "2018_03_acd702-03_family_leave",
+    "2018_04_acd702-02_health_related_leave",
+    "2018_06_acd707_leave_without_pay"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "own_accrual",
+     "quote": "Family leave is unpaid, therefore, the employee must utilize accrued sick (ACD 702–02) or vacation (ACD 704–01) hours if he or she wishes to remain in pay status for any time taken beyond the paid parental leave period."
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "own_balance",
+     "quote": "Family leave is unpaid, therefore, the employee must utilize accrued sick (ACD 702–02) or vacation (ACD 704–01) hours if he or she wishes to remain in pay status for any time taken beyond the paid parental leave period."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "Upon use of all sick leave, the person may, if desired, request to use accrued vacation leave (if eligible to do so) and/or request a leave without pay."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "faculty and academic professionals eligible to accrue vacation (ACD 704-01, not saved; ACD 707 indicates fiscal-year appointees)",
+     "quote": "Upon use of all sick leave, the person may, if desired, request to use accrued vacation leave (if eligible to do so) and/or request a leave without pay."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "Family leave is unpaid, therefore, the employee must utilize accrued sick (ACD 702–02) or vacation (ACD 704–01) hours if he or she wishes to remain in pay status for any time taken beyond the paid parental leave period."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "Upon use of all sick leave, the person may, if desired, request to use accrued vacation leave (if eligible to do so) and/or request a leave without pay."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "consecutive_after c1",
+     "quote": "Family leave is unpaid, therefore, the employee must utilize accrued sick (ACD 702–02) or vacation (ACD 704–01) hours if he or she wishes to remain in pay status for any time taken beyond the paid parental leave period."
+    }
+   ]
+  },
+  {
+   "component_id": "arizona_state_university_c7",
+   "institution_label": "Leave of Absence without Pay",
+   "description": "Unpaid leave of absence for faculty, granted at the provost's approval, normally for a semester or an academic year, for any purpose (pregnancy and dependent care mentioned); may follow the 12-week family leave.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "members of the faculty and academic professionals ... members of the Academic Assembly",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "a leave to accommodate pregnancy or dependent care",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "duration": {
+    "value": 1,
+    "units": "semester",
+    "qualifier": "at_least"
+   },
+   "duration_max": {
+    "value": 1,
+    "units": "year"
+   },
+   "duration_variants": {
+    "semester": "1 semester",
+    "academic_year": "1 academic year"
+   },
+   "duration_note": "Normally a semester or an academic year for academic-year faculty; may be extended if no adverse effect on academic planning.",
+   "notice": "apply at the earliest possible date; notice of return by March 1 (year leaves) or one month before the end of a semester leave",
+   "return_obligation": "for faculty only a teaching appointment is ensured on return unless otherwise approved in advance",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "arizona_state_university_c3",
+     "note": "ACD 702-03: extend leave after the 12-week family leave has expired under ACD 707"
+    }
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "rule_applied": [
+    "U1",
+    "V2",
+    "R13b",
+    "R9",
+    "R15"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Leaves of absence without pay may be granted to members of the faculty and academic professionals upon approval by the provost of the university or designee."
+    ],
+    "eligible_parent": [
+     "However, it is recognized that the need to request a leave to accommodate pregnancy or dependent care cannot always be anticipated."
+    ],
+    "entitlement": [
+     "Leaves of absence without pay may be granted to members of the faculty and academic professionals upon approval by the provost of the university or designee."
+    ],
+    "duration": [
+     "Normally, periods of leave will be for a semester or academic year for faculty or academic professionals employed on an academic-year basis"
+    ],
+    "sequence": [
+     "An employee who desires to extend leave after the 12-week family leave period has expired may request an extended leave of absence under ACD 707, “Leave of Absence Without Pay,” or ACD 702–02, “Health-Related Leave.”"
+    ],
+    "return_obligation": [
+     "A leave of absence without pay assures the faculty member or academic professional that following the expiration of the leave period, he or she may return to the university in the position he or she left as stated in the approval granted for the leave of absence."
+    ]
+   },
+   "doc_ids": [
+    "2018_06_acd707_leave_without_pay",
+    "2018_03_acd702-03_family_leave"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "To allow faculty and academic professionals leave without pay"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "To allow faculty and academic professionals leave without pay"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "To allow faculty and academic professionals leave without pay"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Leaves of absence without pay may be granted to members of the faculty and academic professionals upon approval by the provost of the university or designee."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "However, it is recognized that the need to request a leave to accommodate pregnancy or dependent care cannot always be anticipated."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "Leaves of absence without pay may be granted to members of the faculty and academic professionals upon approval by the provost of the university or designee."
+    },
+    {
+     "field": "duration",
+     "rule": "R13b",
+     "answer": "1 semester at_least, max 1 year",
+     "quote": "Normally, periods of leave will be for a semester or academic year for faculty or academic professionals employed on an academic-year basis"
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave)",
+     "quote": "Leaves of absence without pay may be granted to members of the faculty and academic professionals upon approval by the provost of the university or designee."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "consecutive_after c3",
+     "quote": "An employee who desires to extend leave after the 12-week family leave period has expired may request an extended leave of absence under ACD 707, “Leave of Absence Without Pay,” or ACD 702–02, “Health-Related Leave.”"
+    }
+   ]
+  },
+  {
+   "component_id": "arizona_state_university_c8",
+   "institution_label": "Probationary Appointments",
+   "description": "Use of ACD 710 parental leave is good cause for a one-year extension of the tenure probationary period under ACD 506-03, on request and approval by the president or designee.",
+   "mechanism": "tenure_clock",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "faculty ... on probationary appointments; ACD 506-03 applies to tenure-eligible faculty",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "use of parental leave under this policy (birth mother, father, adoptive parents, and domestic partners)",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "entitlement_note": "ACD 710 makes parental leave 'good cause', but ACD 506-03 leaves the grant to the president or designee ('may extend'; 'If such a request is granted'): the approval decides whether (V2; read together, source precedence).",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "exact"
+   },
+   "notice": "request no later than the fall semester of the year prior to the scheduled tenure review",
+   "duration_note": "One-year good-cause extension; individuals may apply for more than one extension (no use limit).",
+   "flags": [
+    "version_uncertain"
+   ],
+   "rule_applied": [
+    "V2",
+    "source_precedence",
+    "U9"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "For faculty and academic professionals on probationary appointments, use of parental leave under this policy shall be considered good cause for extending the probationary period under ACD 506–03, “Faculty Probationary Appointments”",
+     "Tenure-eligible faculty"
+    ],
+    "eligible_parent": [
+     "This paid leave may be used by the birth mother, father, adoptive parents, and domestic partners.",
+     "For faculty and academic professionals on probationary appointments, use of parental leave under this policy shall be considered good cause for extending the probationary period under ACD 506–03, “Faculty Probationary Appointments”"
+    ],
+    "entitlement": [
+     "Under special circumstances, the president or the president’s designee may extend the probationary period.",
+     "If such a request is granted, the faculty member shall not be subject to additional requirements at the time of the tenure decision.",
+     "For faculty and academic professionals on probationary appointments, use of parental leave under this policy shall be considered good cause for extending the probationary period under ACD 506–03, “Faculty Probationary Appointments”"
+    ],
+    "duration": [
+     "a one-year, good-cause extension of the probationary period granted while continuing employment. Good cause includes, but is not limited to, serious illness, or other disability and/or exceptional family care responsibilities such as pregnancy, childbirth, adoption, or being the primary caregiver of a minor child or other individual who requires extraordinary care and depends upon the employee for that care, or in case of extraordinary university-wide emergencies."
+    ],
+    "notice": [
+     "Faculty members may request, no later than the fall semester of the year prior to the year their tenure review is scheduled, an extension of the probationary period."
+    ],
+    "duration_note": [
+     "Individuals may apply for more than one extension and a leave may be extended upon approval of the president or president’s designee."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_acd710_parental_leave_rev2016",
+    "2018_02_acd506-03_faculty_probationary_appointments",
+    "2018_05_provost_parental_leave_page_jul2017"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "For faculty and academic professionals on probationary appointments, use of parental leave under this policy shall be considered good cause for extending the probationary period under ACD 506–03, “Faculty Probationary Appointments”"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "For faculty and academic professionals on probationary appointments, use of parental leave under this policy shall be considered good cause for extending the probationary period under ACD 506–03, “Faculty Probationary Appointments”"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "For faculty and academic professionals on probationary appointments, use of parental leave under this policy shall be considered good cause for extending the probationary period under ACD 506–03, “Faculty Probationary Appointments”"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "birth_parent, non_birth_parent, adoptive",
+     "quote": "This paid leave may be used by the birth mother, father, adoptive parents, and domestic partners."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "Under special circumstances, the president or the president’s designee may extend the probationary period."
+    },
+    {
+     "field": "entitlement",
+     "rule": "source_precedence",
+     "answer": "discretionary",
+     "quote": "If such a request is granted, the faculty member shall not be subject to additional requirements at the time of the tenure decision."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 year exact",
+     "quote": "a one-year, good-cause extension of the probationary period granted while continuing employment. Good cause includes, but is not limited to, serious illness, or other disability and/or exceptional family care responsibilities such as pregnancy, childbirth, adoption, or being the primary caregiver of a minor child or other individual who requires extraordinary care and depends upon the employee for that care, or in case of extraordinary university-wide emergencies."
+    }
+   ]
+  },
+  {
+   "component_id": "arizona_state_university_c9",
+   "institution_label": "Extension of the Probationary Period",
+   "description": "One-year good-cause extension of the tenure probationary period while continuing employment, at the president's discretion; good cause includes, but is not limited to, illness, disability, pregnancy, childbirth, adoption, primary caregiving and university-wide emergencies.",
+   "mechanism": "tenure_clock",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Tenure-eligible faculty",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "exceptional family care responsibilities such as pregnancy, childbirth, adoption, or being the primary caregiver of a minor child",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "exact"
+   },
+   "notice": "request no later than the fall semester of the year prior to the scheduled tenure review",
+   "duration_note": "Individuals may apply for more than one extension.",
+   "flags": [
+    "general_purpose"
+   ],
+   "rule_applied": [
+    "U1",
+    "V2"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Tenure-eligible faculty"
+    ],
+    "eligible_parent": [
+     "a one-year, good-cause extension of the probationary period granted while continuing employment. Good cause includes, but is not limited to, serious illness, or other disability and/or exceptional family care responsibilities such as pregnancy, childbirth, adoption, or being the primary caregiver of a minor child or other individual who requires extraordinary care and depends upon the employee for that care, or in case of extraordinary university-wide emergencies."
+    ],
+    "entitlement": [
+     "Under special circumstances, the president or the president’s designee may extend the probationary period."
+    ],
+    "duration": [
+     "a one-year, good-cause extension of the probationary period granted while continuing employment. Good cause includes, but is not limited to, serious illness, or other disability and/or exceptional family care responsibilities such as pregnancy, childbirth, adoption, or being the primary caregiver of a minor child or other individual who requires extraordinary care and depends upon the employee for that care, or in case of extraordinary university-wide emergencies."
+    ],
+    "notice": [
+     "Faculty members may request, no later than the fall semester of the year prior to the year their tenure review is scheduled, an extension of the probationary period."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_acd506-03_faculty_probationary_appointments"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "a one-year, good-cause extension of the probationary period granted while continuing employment. Good cause includes, but is not limited to, serious illness, or other disability and/or exceptional family care responsibilities such as pregnancy, childbirth, adoption, or being the primary caregiver of a minor child or other individual who requires extraordinary care and depends upon the employee for that care, or in case of extraordinary university-wide emergencies."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "a one-year, good-cause extension of the probationary period granted while continuing employment. Good cause includes, but is not limited to, serious illness, or other disability and/or exceptional family care responsibilities such as pregnancy, childbirth, adoption, or being the primary caregiver of a minor child or other individual who requires extraordinary care and depends upon the employee for that care, or in case of extraordinary university-wide emergencies."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Tenure-eligible faculty"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "a one-year, good-cause extension of the probationary period granted while continuing employment. Good cause includes, but is not limited to, serious illness, or other disability and/or exceptional family care responsibilities such as pregnancy, childbirth, adoption, or being the primary caregiver of a minor child or other individual who requires extraordinary care and depends upon the employee for that care, or in case of extraordinary university-wide emergencies."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "Under special circumstances, the president or the president’s designee may extend the probationary period."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 year exact",
+     "quote": "a one-year, good-cause extension of the probationary period granted while continuing employment. Good cause includes, but is not limited to, serious illness, or other disability and/or exceptional family care responsibilities such as pregnancy, childbirth, adoption, or being the primary caregiver of a minor child or other individual who requires extraordinary care and depends upon the employee for that care, or in case of extraordinary university-wide emergencies."
+    }
+   ]
+  },
+  {
+   "component_id": "arizona_state_university_c10",
+   "institution_label": "",
+   "description": "A one-semester or one-year unpaid leave for personal reasons may be exempted from the tenure probationary period on request, if deemed appropriate by the provost.",
+   "mechanism": "tenure_clock",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Tenure-eligible faculty (ACD 506-03); faculty (ACD 707)",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "leave of absence granted for purely personal reasons",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "duration": {
+    "value": 1,
+    "units": "semester",
+    "qualifier": "at_least"
+   },
+   "duration_max": {
+    "value": 1,
+    "units": "year"
+   },
+   "duration_variants": {
+    "semester": "one-semester leave exempted",
+    "year": "one-year leave exempted"
+   },
+   "duration_note": "The exempted period equals the unpaid leave: one semester or one year. Must be approved in writing when the leave is granted.",
+   "flags": [
+    "general_purpose"
+   ],
+   "rule_applied": [
+    "U1",
+    "V2",
+    "R13b"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Tenure-eligible faculty",
+     "Leaves of absence without pay may be granted to members of the faculty and academic professionals upon approval by the provost of the university or designee."
+    ],
+    "eligible_parent": [
+     "A one-semester or one-year leave of absence granted for purely personal reasons having no significant relationship to the professional activity of the employee may be exempted from the probationary period, if requested by the employee and deemed appropriate by the provost of the university or designee."
+    ],
+    "entitlement": [
+     "A one-semester or one-year leave of absence granted for purely personal reasons having no significant relationship to the professional activity of the employee may be exempted from the probationary period, if requested by the employee and deemed appropriate by the provost of the university or designee."
+    ],
+    "duration": [
+     "a one-year or one-semester unpaid leave of absence granted for personal reasons and having no significant relationship to the professional activity of the faculty member may be exempted from the probationary period"
+    ]
+   },
+   "doc_ids": [
+    "2018_02_acd506-03_faculty_probationary_appointments",
+    "2018_06_acd707_leave_without_pay"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "a one-year or one-semester unpaid leave of absence granted for personal reasons and having no significant relationship to the professional activity of the faculty member may be exempted from the probationary period"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "A one-semester or one-year leave of absence granted for purely personal reasons having no significant relationship to the professional activity of the employee may be exempted from the probationary period, if requested by the employee and deemed appropriate by the provost of the university or designee."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Tenure-eligible faculty"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "A one-semester or one-year leave of absence granted for purely personal reasons having no significant relationship to the professional activity of the employee may be exempted from the probationary period, if requested by the employee and deemed appropriate by the provost of the university or designee."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "A one-semester or one-year leave of absence granted for purely personal reasons having no significant relationship to the professional activity of the employee may be exempted from the probationary period, if requested by the employee and deemed appropriate by the provost of the university or designee."
+    },
+    {
+     "field": "duration",
+     "rule": "R13b",
+     "answer": "1 semester at_least, max 1 year",
+     "quote": "a one-year or one-semester unpaid leave of absence granted for personal reasons and having no significant relationship to the professional activity of the faculty member may be exempted from the probationary period"
+    }
+   ]
+  },
+  {
+   "component_id": "arizona_state_university_c11",
+   "institution_label": "Parental Leave Policy",
+   "description": "The provost page as amended after the reference date (June 2018 onward): twelve weeks of paid parental leave (18 weeks combined if both parents work at ASU). Not in force on 2018-02-22; recorded for completeness.",
+   "mechanism": "employer_paid_leave",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "All benefits-eligible (50% FTE or more) ASU employees, including faculty",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "the birth mother, father, adoptive parents and domestic (same or opposite sex) partners",
+   "caregiver_condition": "none",
+   "service_requirement": "none for tenured/tenure-track faculty (12 months and 1,250 hours waived)",
+   "entitlement": "guaranteed_on_request",
+   "duration": {
+    "value": 12,
+    "units": "week",
+    "qualifier": "exact"
+   },
+   "dual_employee_rule": "if both parents are employed by ASU, increased from 12 to 18 weeks, neither taking more than 12",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "flags": [
+    "not_yet_effective: 2018-06-11",
+    "cross_reference_not_saved: ACD 710 (as amended 2018-2019)"
+   ],
+   "rule_applied": [
+    "V5",
+    "V2",
+    "R9",
+    "U8"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "All benefits-eligible (50% FTE or more) ASU employees, including faculty, academic professionals, administrators, service professionals, university staff, and classified staff, who have been employed at ASU for at least 12-months and have worked at least 1,250 hours during the previous 12-months"
+    ],
+    "eligible_parent": [
+     "This paid leave may be used by the birth mother, father, adoptive parents and domestic (same or opposite sex) partners."
+    ],
+    "entitlement": [
+     "may request twelve weeks of paid leave for the purpose of recovery from childbirth and/or to care for and bond with a newborn or newly adopted child.",
+     "Paid parental leave is available to be used in a single twelve-week block of time commencing upon the birth of the child or the adoption of the child."
+    ],
+    "duration": [
+     "Paid parental leave is available to be used in a single twelve-week block of time commencing upon the birth of the child or the adoption of the child."
+    ],
+    "service_requirement": [
+     "The 12-month waiting period is waived for tenured/tenure-track faculty and continuing/probationary academic professionals."
+    ],
+    "dual_employee_rule": [
+     "If both parents are employed by ASU, the paid leave will be increased from 12 to 18 weeks, as long as neither parent takes more than 12 weeks."
+    ],
+    "flags": [
+     "Amended June 11, 2018"
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "employer_paid_leave",
+     "quote": "Paid parental leave is available to be used in a single twelve-week block of time commencing upon the birth of the child or the adoption of the child."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "Paid parental leave is available to be used in a single twelve-week block of time commencing upon the birth of the child or the adoption of the child."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "may request twelve weeks of paid leave for the purpose of recovery from childbirth and/or to care for and bond with a newborn or newly adopted child."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "All benefits-eligible (50% FTE or more) ASU employees, including faculty, academic professionals, administrators, service professionals, university staff, and classified staff, who have been employed at ASU for at least 12-months and have worked at least 1,250 hours during the previous 12-months"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U8",
+     "answer": "none for tenured/tenure-track faculty",
+     "quote": "The 12-month waiting period is waived for tenured/tenure-track faculty and continuing/probationary academic professionals."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "birth_parent, non_birth_parent, adoptive",
+     "quote": "This paid leave may be used by the birth mother, father, adoptive parents and domestic (same or opposite sex) partners."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "Paid parental leave is available to be used in a single twelve-week block of time commencing upon the birth of the child or the adoption of the child."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "12 weeks exact",
+     "quote": "Paid parental leave is available to be used in a single twelve-week block of time commencing upon the birth of the child or the adoption of the child."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave)",
+     "quote": "Paid parental leave is available to be used in a single twelve-week block of time commencing upon the birth of the child or the adoption of the child."
+    }
+   ]
+  },
+  {
+   "component_id": "arizona_state_university_c12",
+   "institution_label": "",
+   "description": "Postdoctoral scholars and half-time graduate RA/TAs with one academic year's service: up to six weeks of paid leave (stipend and benefits continue) to recover from childbirth; funded by the department.",
+   "mechanism": "employer_paid_leave",
+   "payer": "employer",
+   "faculty_group": "postdoctoral scholars and graduate students with a .50 FTE RA/TA appointment",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "for purposes of recovering from childbirth; does not include adoption or paternity leave",
+   "caregiver_condition": "none",
+   "service_requirement": "at least one academic year's service",
+   "entitlement": "guaranteed_on_request",
+   "duration": {
+    "value": 6,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "pay_fraction": "continue to receive their stipend",
+   "pay_fraction_pct": 100,
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "flags": [
+    "ambiguous: governing document for postdoctoral and graduate-assistant parental leave neither named nor saved; stated only on the provost summary page"
+   ],
+   "rule_applied": [
+    "V2",
+    "R5",
+    "R9"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Postdoctoral scholars and graduate students with a .50 FTE research or teaching assistantship (RA/TA) appointment who have completed at least one academic year's service are eligible for up to 6 weeks of paid parental leave and will continue to receive their stipend and associated benefits (health insurance and tuition remission) during this six-week period."
+    ],
+    "eligible_parent": [
+     "Graduate research and teaching associates/assistants with .50 FTE appointments and postdoctoral scholars may receive six weeks of paid leave for purposes of recovering from childbirth.",
+     "The accommodation period does not include adoption or paternity leave."
+    ],
+    "entitlement": [
+     "Postdoctoral scholars and graduate students with a .50 FTE research or teaching assistantship (RA/TA) appointment who have completed at least one academic year's service are eligible for up to 6 weeks of paid parental leave and will continue to receive their stipend and associated benefits (health insurance and tuition remission) during this six-week period."
+    ],
+    "duration": [
+     "Postdoctoral scholars and graduate students with a .50 FTE research or teaching assistantship (RA/TA) appointment who have completed at least one academic year's service are eligible for up to 6 weeks of paid parental leave and will continue to receive their stipend and associated benefits (health insurance and tuition remission) during this six-week period."
+    ],
+    "pay_fraction": [
+     "Postdoctoral scholars and graduate students with a .50 FTE research or teaching assistantship (RA/TA) appointment who have completed at least one academic year's service are eligible for up to 6 weeks of paid parental leave and will continue to receive their stipend and associated benefits (health insurance and tuition remission) during this six-week period."
+    ],
+    "service_requirement": [
+     "Postdoctoral scholars and graduate students with a .50 FTE research or teaching assistantship (RA/TA) appointment who have completed at least one academic year's service are eligible for up to 6 weeks of paid parental leave and will continue to receive their stipend and associated benefits (health insurance and tuition remission) during this six-week period."
+    ],
+    "payer": [
+     "The department is responsible for funding these costs."
+    ]
+   },
+   "doc_ids": [
+    "2018_05_provost_parental_leave_page_jul2017"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "employer_paid_leave",
+     "quote": "Postdoctoral scholars and graduate students with a .50 FTE research or teaching assistantship (RA/TA) appointment who have completed at least one academic year's service are eligible for up to 6 weeks of paid parental leave and will continue to receive their stipend and associated benefits (health insurance and tuition remission) during this six-week period."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "The department is responsible for funding these costs."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Graduate research and teaching associates/assistants with .50 FTE appointments and postdoctoral scholars may receive six weeks of paid leave for purposes of recovering from childbirth."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "postdoctoral scholars and graduate students with a .50 FTE RA/TA appointment",
+     "quote": "Postdoctoral scholars and graduate students with a .50 FTE research or teaching assistantship (RA/TA) appointment who have completed at least one academic year's service are eligible for up to 6 weeks of paid parental leave and will continue to receive their stipend and associated benefits (health insurance and tuition remission) during this six-week period."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "at least one academic year's service",
+     "quote": "Postdoctoral scholars and graduate students with a .50 FTE research or teaching assistantship (RA/TA) appointment who have completed at least one academic year's service are eligible for up to 6 weeks of paid parental leave and will continue to receive their stipend and associated benefits (health insurance and tuition remission) during this six-week period."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "birth_parent",
+     "quote": "The accommodation period does not include adoption or paternity leave."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "Postdoctoral scholars and graduate students with a .50 FTE research or teaching assistantship (RA/TA) appointment who have completed at least one academic year's service are eligible for up to 6 weeks of paid parental leave and will continue to receive their stipend and associated benefits (health insurance and tuition remission) during this six-week period."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "6 weeks up_to",
+     "quote": "Postdoctoral scholars and graduate students with a .50 FTE research or teaching assistantship (RA/TA) appointment who have completed at least one academic year's service are eligible for up to 6 weeks of paid parental leave and will continue to receive their stipend and associated benefits (health insurance and tuition remission) during this six-week period."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "stipend continues",
+     "quote": "Postdoctoral scholars and graduate students with a .50 FTE research or teaching assistantship (RA/TA) appointment who have completed at least one academic year's service are eligible for up to 6 weeks of paid parental leave and will continue to receive their stipend and associated benefits (health insurance and tuition remission) during this six-week period."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave)",
+     "quote": "Graduate research and teaching associates/assistants with .50 FTE appointments and postdoctoral scholars may receive six weeks of paid leave for purposes of recovering from childbirth."
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "Reference date 2018-02-22. Governing documents: ACD 710 (rev. 7/1/2016; accepted as in force, flagged version_uncertain), ACD 702-03, ACD 702-02, ACD 707, ACD 506-03 (all rev. 7/1/2011, captures 2016). The July 2017 provost page (2018_05) is an informational summary pointing to ACD 710 and SPP 708; where it differs ('up to 12 weeks' of alternate duties; per-family six-week limit) ACD 710 governs.",
+  "2018_00_link is a September 2018 capture of the provost page showing amendments of June 11, 2018 onward (12 weeks of paid leave, 18 combined for two ASU parents; alternative duties only to the end of the semester in progress, or the ensuing semester for those unable to use the leave; grad/postdoc 12 weeks with split between two student parents; Disability Resource Center accommodations for pregnant students). It is not policy on 2018-02-22: its 12-week leave is recorded as c11, flagged not_yet_effective; its other changes are noted here only.",
+  "Birth parent chain: ACD 710 paid parental leave 6 (FMLA family leave 12 workweeks concurrent from the start) -> temporary assignment of alternate duties 12+ weeks (to end of term) consecutive_after the paid leave; own sick/vacation balances may keep pay status beyond the paid leave (consecutive_after c1, uncounted); ACD 707 unpaid leave may follow the family leave (general purpose, uncounted).",
+  "Non-birth parent chain: identical to the birth parent's (ACD 710 is open to 'father' and 'domestic partners'): paid parental leave 6 (FMLA concurrent) -> alternate duties 12+ weeks consecutive_after it.",
+  "Short-term disability insurance: ACD 710 says paid parental leave coordinates with 'any group disability income replacement benefit policy (e.g., short-term disability insurance)' and refers to the HR Benefits Web site (not saved); no plan terms, funding or eligibility are in the saved documents, so no component was created.",
+  "Staff (SPP 708, not saved) are covered by the same provost summary; their provisions are not coded separately. Graduate assistants and postdocs (c12) are another group, recorded and not counted.",
+  "Documents cited but not saved: SPP 708; ACD 704-01 Vacation Leave; ACD 702-04 Bereavement Leave; ACD 705 Sabbatical Leave; ACD 507-05 Academic Professional Probationary Appointments; ACD 506-04 Tenure; ACD 506-05 Faculty Promotion; ACD 506-10; ACD 505-04; ACD 508-01; ACD 509-02; ACD 112-01; ACD 601-06 Workers' Compensation; P15 Family Leave Procedures; P2; P3; ABOR Policy Manual 6-201, 6-804, 6-805; HR Benefits Web site (short-term disability); Request for Leave of Absence form; the 'summary guide' linked from 2018_00. Only SPP 708, ACD 704-01, P15 and the HR Benefits site bear on parental provisions; flagged on c1, c3, c6.",
+  "Sabbatical leave (ACD 705) 'may not be used for parental leave': not a component. Bereavement leave: not a component (death). Stillbirth use of paid parental leave is part of c1."
+ ],
+ "statutory_floor": {
+  "jurisdiction": "US",
+  "year": "2018",
+  "weeks_birth": 12.0,
+  "weeks_nonbirth": 12.0,
+  "statute": "Family and Medical Leave Act (FMLA) (29 U.S.C. 2611-2612)",
+  "source_doc": "2026_00_us_fmla_29usc2612",
+  "table": "statutory_baseline.csv"
+ }
+}

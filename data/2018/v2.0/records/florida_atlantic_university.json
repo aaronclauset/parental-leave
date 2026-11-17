@@ -1,0 +1,2551 @@
+{
+ "institution": "Florida Atlantic University",
+ "slug": "florida_atlantic_university",
+ "country": "US",
+ "model": "claude-opus-5-5",
+ "codebook_version": "1.25",
+ "schema_version": "1.25",
+ "reference_date": "2018-02-22",
+ "calendar": {
+  "term_weeks": null,
+  "note": "R8: the handbook states the kind of term ('The University operates on a modified semester system with two semesters during the academic year and three summer terms'), so the semester default (16). The BOT/UFF agreement's definition ('semester' means one of the two approximately 19.5 week periods which together constitute the academic year) is the half of the 39-week academic-year appointment, like Wisconsin's 19.5-week pay semester in R8's example, not the teaching term; the request form ties the leave to 'the dates of the academic semester'. Raised as a question in notes.",
+  "kind": "semester"
+ },
+ "documents": [
+  {
+   "doc_id": "2018_00_link",
+   "title": "Academic Affairs Faculty Handbook (revised November 22, 2016)",
+   "url": "http://www.fau.edu/provost/faculty/files/facultyhandbook_2016.pdf",
+   "version_or_effective_date": "Revised November 22, 2016",
+   "retrieved": "wayback 2017-02-15"
+  },
+  {
+   "doc_id": "2018_01_cba_2015_2018",
+   "title": "FAU Board of Trustees and United Faculty of Florida Collective Bargaining Agreement 2015-2018",
+   "url": "http://www.fau.edu/provost/faculty/files/CBA-2015-2018_Ratified_6-7-16.pdf",
+   "version_or_effective_date": "Ratified June 7, 2016; term July 1, 2015 to June 30, 2018",
+   "retrieved": "wayback 2016-09-09"
+  },
+  {
+   "doc_id": "2018_02_paid_parental_leave_procedures",
+   "title": "Paid Parental Leave Procedures for 9 Month UFF Faculty",
+   "url": "http://www.fau.edu/provost/faculty/files/Paid-Parental-Leave-for-Faculty-Procedures.pdf",
+   "version_or_effective_date": "undated",
+   "retrieved": "wayback 2016-07-22"
+  },
+  {
+   "doc_id": "2018_03_paid_parental_leave_request_form",
+   "title": "Paid Parental Leave Request Form for 9 Month UFF Faculty Only",
+   "url": "http://www.fau.edu/provost/faculty/files/Paid-Parental-Leave-Form-UFF-2-2015-final-draft.pdf",
+   "version_or_effective_date": "02/2015",
+   "retrieved": "wayback 2016-07-22"
+  },
+  {
+   "doc_id": "2018_04_provost_paid_parental_leave_page",
+   "title": "Provost page: Paid Parental Leave",
+   "url": "http://www.fau.edu/provost/faculty/parental-leave.php",
+   "version_or_effective_date": "Last Modified 1/26/17",
+   "retrieved": "wayback 2017-11-30"
+  }
+ ],
+ "missing": false,
+ "scope_accounting": {
+  "C1": {
+   "components": [
+    "florida_atlantic_university_c1",
+    "florida_atlantic_university_c2",
+    "florida_atlantic_university_c3"
+   ]
+  },
+  "C2": {
+   "absent": {
+    "documents": [
+     "2018_00_link",
+     "2018_01_cba_2015_2018",
+     "2018_02_paid_parental_leave_procedures",
+     "2018_03_paid_parental_leave_request_form",
+     "2018_04_provost_paid_parental_leave_page"
+    ],
+    "terms": [
+     "modified duties",
+     "teaching relief",
+     "course release",
+     "reduced teaching",
+     "workload reduction",
+     "released time",
+     "relief",
+     "assignment"
+    ]
+   }
+  },
+  "C3": {
+   "components": [
+    "florida_atlantic_university_c3",
+    "florida_atlantic_university_c5",
+    "florida_atlantic_university_c6",
+    "florida_atlantic_university_c7",
+    "florida_atlantic_university_c8",
+    "florida_atlantic_university_c9",
+    "florida_atlantic_university_c18",
+    "florida_atlantic_university_c20"
+   ]
+  },
+  "C4": {
+   "components": [
+    "florida_atlantic_university_c4"
+   ],
+   "not_components": [
+    {
+     "statute": "29 U.S.C. 2612(a)(1)(C)-(D) (FMLA family-care and own serious health condition)",
+     "reason": "U4: the documents rely on FMLA for the parental leave (birth, adoption, foster care); family-care and own-health leave are covered by the institution's own c5 and not separately invoked"
+    },
+    {
+     "statute": "Chapter 43 of Title 38, United States Code (military leave)",
+     "reason": "military leave; unrelated to becoming a parent (U4)"
+    },
+    {
+     "statute": "Chapter 447, Florida Statutes (public employee collective bargaining), incl. s. 447.309(3)",
+     "reason": "union rights and contract ratification; not leave (U4)"
+    },
+    {
+     "statute": "42 U.S.C. 2000e et seq. (Title VII)",
+     "reason": "named only for EEOC filing deadlines in the grievance article; no leave or protection a parent takes (U4)"
+    },
+    {
+     "statute": "Chapter 119, Florida Statutes (Public Records Act)",
+     "reason": "records access; unrelated (U4)"
+    },
+    {
+     "statute": "Section 1004.23, Florida Statutes (intellectual property)",
+     "reason": "unrelated (U4)"
+    },
+    {
+     "statute": "Chapter 112, Part III, Florida Statutes (code of ethics) and s. 112.3187 (whistleblowers)",
+     "reason": "unrelated (U4)"
+    },
+    {
+     "statute": "Section 768.28, Florida Statutes (personal liability)",
+     "reason": "unrelated (U4)"
+    },
+    {
+     "statute": "Section 1009.26(4), Florida Statutes (fee waivers)",
+     "reason": "unrelated (U4)"
+    },
+    {
+     "statute": "Chapter 682, Florida Statutes (Florida Arbitration Code); Chapter 120, Florida Statutes",
+     "reason": "grievance procedure; unrelated (U4)"
+    },
+    {
+     "statute": "Florida workers' compensation law and Florida Retirement System disability provisions",
+     "reason": "job-related illness or injury and retirement disability; not becoming a parent (U4)"
+    },
+    {
+     "statute": "Florida Disaster Volunteer Leave and state and federal jury-duty law",
+     "reason": "civic leaves a parent cannot use for a birth; the open-ended administrative-leave clause is coded c15"
+    },
+    {
+     "statute": "Florida Statutes 'twelve hour law'; Florida Student Success Act (Ch. 2011-1); Florida Uniform Classified Commercial Driver's License Act; ss. 1006.51 and 1004.85",
+     "reason": "workload, school salaries, licensing, ombuds and textbooks; unrelated (U4)"
+    },
+    {
+     "statute": "Federal research regulations (45 CFR 46, 21 CFR 50 and 56, 42 CFR 50 and 94) and the unnamed federal statute on posting grades",
+     "reason": "research compliance and student records; unrelated (U4)"
+    }
+   ]
+  },
+  "C5": {
+   "components": [
+    "florida_atlantic_university_c5",
+    "florida_atlantic_university_c6",
+    "florida_atlantic_university_c18"
+   ]
+  },
+  "C6": {
+   "components": [
+    "florida_atlantic_university_c10",
+    "florida_atlantic_university_c15",
+    "florida_atlantic_university_c16",
+    "florida_atlantic_university_c17",
+    "florida_atlantic_university_c19",
+    "florida_atlantic_university_c20"
+   ]
+  },
+  "C7": {
+   "components": [
+    "florida_atlantic_university_c12",
+    "florida_atlantic_university_c13",
+    "florida_atlantic_university_c14"
+   ]
+  },
+  "C8": {
+   "components": [
+    "florida_atlantic_university_c11"
+   ]
+  },
+  "C9": {
+   "absent": {
+    "documents": [
+     "2018_00_link",
+     "2018_01_cba_2015_2018",
+     "2018_02_paid_parental_leave_procedures",
+     "2018_03_paid_parental_leave_request_form",
+     "2018_04_provost_paid_parental_leave_page"
+    ],
+    "terms": [
+     "accommodation",
+     "pregnancy",
+     "light duty",
+     "transfer",
+     "hazard",
+     "lactation",
+     "nursing"
+    ]
+   }
+  },
+  "C10": {
+   "absent": {
+    "documents": [
+     "2018_00_link",
+     "2018_01_cba_2015_2018",
+     "2018_02_paid_parental_leave_procedures",
+     "2018_03_paid_parental_leave_request_form",
+     "2018_04_provost_paid_parental_leave_page"
+    ],
+    "terms": [
+     "FMLA",
+     "first days",
+     "paid FMLA",
+     "regular work time",
+     "with pay"
+    ]
+   }
+  }
+ },
+ "passage_dispositions": {
+  "2018_00_link#001": {
+   "not_relevant": "table of contents of the handbook"
+  },
+  "2018_00_link#002": {
+   "not_relevant": "student-success programmes ('parents' of students)"
+  },
+  "2018_00_link#003": {
+   "not_relevant": "rank, promotion and tenure process; no clock provision"
+  },
+  "2018_00_link#004": {
+   "not_relevant": "discipline and leave pending investigation"
+  },
+  "2018_00_link#005": {
+   "used_in": [
+    "florida_atlantic_university_c20",
+    "florida_atlantic_university_c6",
+    "florida_atlantic_university_c9"
+   ]
+  },
+  "2018_00_link#006": {
+   "used_in": [
+    "florida_atlantic_university_c10"
+   ]
+  },
+  "2018_00_link#007": {
+   "used_in": [
+    "florida_atlantic_university_c1"
+   ]
+  },
+  "2018_01_cba_2015_2018#001": {
+   "not_relevant": "table of contents of the agreement"
+  },
+  "2018_01_cba_2015_2018#002": {
+   "not_relevant": "regulations and policies article"
+  },
+  "2018_01_cba_2015_2018#003": {
+   "not_relevant": "union leave of absence and released time"
+  },
+  "2018_01_cba_2015_2018#004": {
+   "not_relevant": "FAUS appointments and summer teaching"
+  },
+  "2018_01_cba_2015_2018#005": {
+   "not_relevant": "equitable assignment for promotion and tenure"
+  },
+  "2018_01_cba_2015_2018#006": {
+   "not_relevant": "FAUS lunch duty; evaluation policy"
+  },
+  "2018_01_cba_2015_2018#007": {
+   "not_relevant": "sustained performance evaluation; evaluation file"
+  },
+  "2018_01_cba_2015_2018#008": {
+   "not_relevant": "limited access records; non-reappointment notice"
+  },
+  "2018_01_cba_2015_2018#009": {
+   "not_relevant": "non-reappointment and layoff"
+  },
+  "2018_01_cba_2015_2018#010": {
+   "used_in": [
+    "florida_atlantic_university_c13"
+   ]
+  },
+  "2018_01_cba_2015_2018#011": {
+   "used_in": [
+    "florida_atlantic_university_c12"
+   ]
+  },
+  "2018_01_cba_2015_2018#012": {
+   "not_relevant": "discipline and job abandonment"
+  },
+  "2018_01_cba_2015_2018#013": {
+   "used_in": [
+    "florida_atlantic_university_c10"
+   ]
+  },
+  "2018_01_cba_2015_2018#014": {
+   "used_in": [
+    "florida_atlantic_university_c1",
+    "florida_atlantic_university_c2",
+    "florida_atlantic_university_c3",
+    "florida_atlantic_university_c4",
+    "florida_atlantic_university_c5",
+    "florida_atlantic_university_c6",
+    "florida_atlantic_university_c7",
+    "florida_atlantic_university_c8",
+    "florida_atlantic_university_c9",
+    "florida_atlantic_university_c11",
+    "florida_atlantic_university_c12"
+   ]
+  },
+  "2018_01_cba_2015_2018#015": {
+   "not_relevant": "compulsory leave imposed by the Provost (not a leave a parent takes; see notes)"
+  },
+  "2018_01_cba_2015_2018#016": {
+   "used_in": [
+    "florida_atlantic_university_c20"
+   ]
+  },
+  "2018_01_cba_2015_2018#017": {
+   "used_in": [
+    "florida_atlantic_university_c15",
+    "florida_atlantic_university_c16",
+    "florida_atlantic_university_c17"
+   ]
+  },
+  "2018_01_cba_2015_2018#018": {
+   "not_relevant": "arbitration"
+  },
+  "2018_01_cba_2015_2018#019": {
+   "not_relevant": "sabbatical terms"
+  },
+  "2018_01_cba_2015_2018#020": {
+   "not_relevant": "FAUS sabbatical; salary dates"
+  },
+  "2018_01_cba_2015_2018#021": {
+   "not_relevant": "part-time benefits; retiree benefits"
+  },
+  "2018_01_cba_2015_2018#022": {
+   "not_relevant": "phased retirement eligibility and re-employment"
+  },
+  "2018_01_cba_2015_2018#023": {
+   "used_in": [
+    "florida_atlantic_university_c18",
+    "florida_atlantic_university_c19"
+   ]
+  },
+  "2018_01_cba_2015_2018#024": {
+   "not_relevant": "phased retirement contracts; tuition; employee assistance"
+  },
+  "2018_01_cba_2015_2018#025": {
+   "not_relevant": "payroll deduction"
+  },
+  "2018_02_paid_parental_leave_procedures#001": {
+   "used_in": [
+    "florida_atlantic_university_c1",
+    "florida_atlantic_university_c4",
+    "florida_atlantic_university_c14"
+   ]
+  },
+  "2018_03_paid_parental_leave_request_form#001": {
+   "used_in": [
+    "florida_atlantic_university_c1",
+    "florida_atlantic_university_c14"
+   ]
+  },
+  "2018_04_provost_paid_parental_leave_page#001": {
+   "used_in": [
+    "florida_atlantic_university_c1"
+   ]
+  }
+ },
+ "mechanism_slots": {
+  "employer_paid_leave": {
+   "components": [
+    "florida_atlantic_university_c1",
+    "florida_atlantic_university_c15",
+    "florida_atlantic_university_c17",
+    "florida_atlantic_university_c19"
+   ]
+  },
+  "employer_childbirth_benefit": {
+   "absent": "no dedicated childbirth or maternity benefit in the handbook, agreement, procedures, form or provost page (searched: maternity, childbirth, pregnancy, disability)"
+  },
+  "generic_sick_or_disability_plan": {
+   "components": [
+    "florida_atlantic_university_c7",
+    "florida_atlantic_university_c8"
+   ]
+  },
+  "own_accrual": {
+   "components": [
+    "florida_atlantic_university_c3",
+    "florida_atlantic_university_c6",
+    "florida_atlantic_university_c16",
+    "florida_atlantic_university_c18",
+    "florida_atlantic_university_c20"
+   ]
+  },
+  "donated_leave": {
+   "components": [
+    "florida_atlantic_university_c9"
+   ]
+  },
+  "government_benefit": {
+   "absent": "no state or federal paid programme named; Florida has none in the documents (searched: benefit, insurance, state program, disability)"
+  },
+  "employer_topup": {
+   "absent": "no top-up of a government benefit in any document (searched: top-up, supplement, benefit)"
+  },
+  "modified_duties": {
+   "absent": "no modified duties or teaching relief for parents (searched: modified duties, relief, course release, workload, assignment)"
+  },
+  "unpaid_leave": {
+   "components": [
+    "florida_atlantic_university_c2",
+    "florida_atlantic_university_c4",
+    "florida_atlantic_university_c5",
+    "florida_atlantic_university_c10"
+   ]
+  },
+  "tenure_clock": {
+   "components": [
+    "florida_atlantic_university_c12",
+    "florida_atlantic_university_c13",
+    "florida_atlantic_university_c14"
+   ]
+  },
+  "part_time_option": {
+   "components": [
+    "florida_atlantic_university_c11"
+   ]
+  },
+  "other": {
+   "absent": "no accommodation, rearrangement, hazard or equal-treatment provision (searched: accommodation, transfer, light duty, hazard, pregnancy)"
+  }
+ },
+ "baseline_accounting": {
+  "Family and Medical Leave Act (FMLA)": {
+   "components": [
+    "florida_atlantic_university_c4"
+   ]
+  },
+  "Federal Employee Paid Leave Act (paid parental leave for federal civilian employees)": {
+   "not_applicable": "covers federal civilian employees; FAU faculty are state university employees"
+  }
+ },
+ "leave_limits": [],
+ "components": [
+  {
+   "component_id": "florida_atlantic_university_c1",
+   "institution_label": "Paid Parental Leave",
+   "description": "One regular (Fall or Spring) semester of paid leave for a 9-month faculty member who becomes a biological parent or adopts; once every three years; return-or-repay obligation.",
+   "mechanism": "employer_paid_leave",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "'A 9-month faculty member who does not accrue annual leave and is on a benefit-eligible line of 0.75 FTE or greater' (UFF bargaining unit, which includes Professor, Associate and Assistant Professor); the ineligible categories of 17.9(g) (FAUS, OPS, visiting, grant-funded, 10- or 12-month, phased retirement) do not include the academic-year tenure-stream member.",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "becomes a biological parent or a child is placed in the faculty member's home for purposes of adoption by the faculty member",
+   "caregiver_condition": "none",
+   "service_requirement": "none stated; benefit-eligible line of 0.75 FTE or greater",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "'may utilize' paid parental leave on written request, with a signed agreement; approval covers the arrangements (semester, coverage); 'No employee will be denied paid parental leave due to multiple requests' (V2).",
+   "duration": {
+    "value": 1,
+    "units": "semester",
+    "qualifier": "exact"
+   },
+   "duration_note": "One regular (Fall or Spring) semester; the leave period conforms to the dates of the academic semester.",
+   "pay_fraction": "paid; salary continues (level not stated)",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "relief_note": "A formal leave of absence; no duties named (R9). Outside employment needs prior approval.",
+   "use_limit": [
+    {
+     "times": 1,
+     "per": "window",
+     "window_years": 3,
+     "counts": "uses"
+    }
+   ],
+   "use_limit_note": "'no more than once every three years'; 'not ... more than one semester on a three year rolling basis'",
+   "time_window": "the regular (Fall or Spring) semester of the Triggering Event or the regular semester following it; a summer Triggering Event: Fall or Spring of the next academic year; handbook: no later than a year from the birth or placement",
+   "notice": "in writing no later than three (3) months before the leave; shorter notice for good cause at the Provost's sole discretion",
+   "return_obligation": "return to University employment for at least one regular semester after the leave, or repay all salary received during it (not required after non-reappointment, layoff, death or certified disability)",
+   "dual_employee_rule": "may not be granted to two faculty members for the same birth or adoption",
+   "runs_concurrently_with": [
+    "FMLA"
+   ],
+   "rule_applied": [
+    "V2",
+    "R9",
+    "U9",
+    "R8",
+    "S1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "A 9-month faculty member who does not accrue annual leave and is on a benefit-eligible line of 0.75 FTE or greater may utilize paid parental leave for a period of one (1) regular (Fall or Spring) semester no more than once every three years during his or her employment with the University.",
+     "4) Employees on 10- or 12-month appointments."
+    ],
+    "eligible_parent": [
+     "defined as the point when the faculty member becomes a biological parent or a child is placed in the faculty member’s home for purposes of adoption by the faculty member."
+    ],
+    "entitlement": [
+     "A 9-month faculty member who does not accrue annual leave and is on a benefit-eligible line of 0.75 FTE or greater may utilize paid parental leave for a period of one (1) regular (Fall or Spring) semester no more than once every three years during his or her employment with the University.",
+     "No employee will be denied paid parental leave due to multiple requests."
+    ],
+    "duration": [
+     "may utilize paid parental leave for a period of one (1) regular (Fall or Spring) semester",
+     "The requested leave period must conform to the dates of the academic semester."
+    ],
+    "pay_fraction": [
+     "will be responsible for repayment of all salary received during the period of paid parental leave."
+    ],
+    "use_limit": [
+     "A 9-month faculty member who does not accrue annual leave and is on a benefit-eligible line of 0.75 FTE or greater may utilize paid parental leave for a period of one (1) regular (Fall or Spring) semester no more than once every three years during his or her employment with the University.",
+     "Paid parental leave will not be granted for more than one semester on a three year rolling basis."
+    ],
+    "service_requirement": [
+     "A 9-month faculty member who does not accrue annual leave and is on a benefit-eligible line of 0.75 FTE or greater may utilize paid parental leave for a period of one (1) regular (Fall or Spring) semester no more than once every three years during his or her employment with the University."
+    ],
+    "time_window": [
+     "may choose to take paid parental leave in the regular (Fall or Spring) semester of the Triggering Event, or the regular semester following the Triggering Event.",
+     "Such paid parental leave will be taken no later than a year from the point when the faculty member becomes a biological parent or a child is placed in the faculty member’s home for purposes of adoption by the faculty member."
+    ],
+    "notice": [
+     "The eligible faculty member must request the use of paid parental leave in writing no later than three (3) months prior to beginning the leave."
+    ],
+    "dual_employee_rule": [
+     "Paid parental leave may not be granted to two faculty members for the same birth or adoption."
+    ],
+    "runs_concurrently_with": [
+     "Parental leave is separate from, but may run concurrent with, medical leave or FMLA leave.",
+     "If FMLA eligibility requirements are satisfied, the paid parental leave will be designated as FMLA and tracked concurrently."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_cba_2015_2018",
+    "2018_00_link",
+    "2018_02_paid_parental_leave_procedures",
+    "2018_03_paid_parental_leave_request_form",
+    "2018_04_provost_paid_parental_leave_page"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "employer_paid_leave",
+     "quote": "A 9-month faculty member who does not accrue annual leave and is on a benefit-eligible line of 0.75 FTE or greater may utilize paid parental leave for a period of one (1) regular (Fall or Spring) semester no more than once every three years during his or her employment with the University."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "will be responsible for repayment of all salary received during the period of paid parental leave."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "defined as the point when the faculty member becomes a biological parent or a child is placed in the faculty member’s home for purposes of adoption by the faculty member."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "A 9-month faculty member who does not accrue annual leave and is on a benefit-eligible line of 0.75 FTE or greater may utilize paid parental leave for a period of one (1) regular (Fall or Spring) semester no more than once every three years during his or her employment with the University."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "birth_parent, non_birth_parent, adoptive",
+     "quote": "defined as the point when the faculty member becomes a biological parent or a child is placed in the faculty member’s home for purposes of adoption by the faculty member."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "No employee will be denied paid parental leave due to multiple requests."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 semester, exact",
+     "quote": "may utilize paid parental leave for a period of one (1) regular (Fall or Spring) semester"
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "paid; salary continues (level not stated)",
+     "quote": "will be responsible for repayment of all salary received during the period of paid parental leave."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave)",
+     "quote": "A 9-month faculty member who does not accrue annual leave and is on a benefit-eligible line of 0.75 FTE or greater may utilize paid parental leave for a period of one (1) regular (Fall or Spring) semester no more than once every three years during his or her employment with the University."
+    },
+    {
+     "field": "use_limit",
+     "rule": "U9",
+     "answer": "1 per 3-year window",
+     "quote": "Paid parental leave will not be granted for more than one semester on a three year rolling basis."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "none stated; 0.75 FTE or greater",
+     "quote": "A 9-month faculty member who does not accrue annual leave and is on a benefit-eligible line of 0.75 FTE or greater may utilize paid parental leave for a period of one (1) regular (Fall or Spring) semester no more than once every three years during his or her employment with the University."
+    }
+   ]
+  },
+  {
+   "component_id": "florida_atlantic_university_c2",
+   "institution_label": "Unpaid Parental Leave",
+   "description": "Unpaid parental leave of up to six months for a faculty member who is ineligible for, or chooses not to use, paid parental leave; birth or adoption, not foster care.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "'a faculty member' who 'is ineligible or chooses not to utilize paid parental leave' (BOT/UFF agreement Art. 17.8)",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "becomes a biological parent or a child is placed in the employee's home pending adoption; 'Foster care is not covered under parental leave'",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "entitlement_note": "'will be granted' (outright grant); the Provost acknowledges the period in writing.",
+   "duration": {
+    "value": 6,
+    "units": "month",
+    "qualifier": "up_to"
+   },
+   "duration_note": "'not to exceed six (6) months'; beyond the first six weeks it may be covered by other accrued paid leave or remain unpaid; accrued leave may be used during it (17.2(c)) and to pay insurance contributions (17.10(a)(2)f).",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "time_window": "shall begin no more than two (2) weeks before the expected date of the child's arrival",
+   "sequence": [
+    {
+     "relation": "in_lieu_of",
+     "component_id": "florida_atlantic_university_c1",
+     "note": "taken by a faculty member who is ineligible for or chooses not to use paid parental leave (R15b)"
+    }
+   ],
+   "rule_applied": [
+    "R9",
+    "R13",
+    "R15b",
+    "U3"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "If a faculty member is ineligible or chooses not to utilize paid parental leave, the faculty member will be granted a parental leave not to exceed six (6) months when the employee becomes a biological parent or a child is placed in the employee's home pending adoption."
+    ],
+    "eligible_parent": [
+     "If a faculty member is ineligible or chooses not to utilize paid parental leave, the faculty member will be granted a parental leave not to exceed six (6) months when the employee becomes a biological parent or a child is placed in the employee's home pending adoption.",
+     "Foster care is not covered under parental leave but may be provided through the FMLA."
+    ],
+    "entitlement": [
+     "If a faculty member is ineligible or chooses not to utilize paid parental leave, the faculty member will be granted a parental leave not to exceed six (6) months when the employee becomes a biological parent or a child is placed in the employee's home pending adoption."
+    ],
+    "duration": [
+     "If a faculty member is ineligible or chooses not to utilize paid parental leave, the faculty member will be granted a parental leave not to exceed six (6) months when the employee becomes a biological parent or a child is placed in the employee's home pending adoption."
+    ],
+    "time_window": [
+     "The period of parental leave shall begin no more than two (2) weeks before the expected date of the child's arrival."
+    ],
+    "sequence": [
+     "If a faculty member is ineligible or chooses not to utilize paid parental leave, the faculty member will be granted a parental leave not to exceed six (6) months when the employee becomes a biological parent or a child is placed in the employee's home pending adoption."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_cba_2015_2018"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "If a faculty member is ineligible or chooses not to utilize paid parental leave, the faculty member will be granted a parental leave not to exceed six (6) months when the employee becomes a biological parent or a child is placed in the employee's home pending adoption."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Parental leave beyond the six week period may be covered by other accrued paid leave or remain a period of unpaid leave."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "If a faculty member is ineligible or chooses not to utilize paid parental leave, the faculty member will be granted a parental leave not to exceed six (6) months when the employee becomes a biological parent or a child is placed in the employee's home pending adoption."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "If a faculty member is ineligible or chooses not to utilize paid parental leave, the faculty member will be granted a parental leave not to exceed six (6) months when the employee becomes a biological parent or a child is placed in the employee's home pending adoption."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "birth_parent, non_birth_parent, adoptive (foster excluded)",
+     "quote": "If a faculty member is ineligible or chooses not to utilize paid parental leave, the faculty member will be granted a parental leave not to exceed six (6) months when the employee becomes a biological parent or a child is placed in the employee's home pending adoption."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "If a faculty member is ineligible or chooses not to utilize paid parental leave, the faculty member will be granted a parental leave not to exceed six (6) months when the employee becomes a biological parent or a child is placed in the employee's home pending adoption."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "6 months, up_to ('not to exceed')",
+     "quote": "If a faculty member is ineligible or chooses not to utilize paid parental leave, the faculty member will be granted a parental leave not to exceed six (6) months when the employee becomes a biological parent or a child is placed in the employee's home pending adoption."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave)",
+     "quote": "If a faculty member is ineligible or chooses not to utilize paid parental leave, the faculty member will be granted a parental leave not to exceed six (6) months when the employee becomes a biological parent or a child is placed in the employee's home pending adoption."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15b",
+     "answer": "in_lieu_of c1 (alternative to paid parental leave)",
+     "quote": "If a faculty member is ineligible or chooses not to utilize paid parental leave, the faculty member will be granted a parental leave not to exceed six (6) months when the employee becomes a biological parent or a child is placed in the employee's home pending adoption."
+    }
+   ]
+  },
+  {
+   "component_id": "florida_atlantic_university_c3",
+   "institution_label": "",
+   "description": "During unpaid parental leave, up to six weeks of the employee's own accrued sick leave may be used for the period immediately following a birth (eight for those ineligible for paid parental leave).",
+   "mechanism": "own_accrual",
+   "payer": "own_balance",
+   "mechanism_note": "Pay from the employee's own accrued sick leave (R1, R1b); the period is childbirth-specific but the pay is the employee's balance.",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "'Employees on parental leave' (Art. 17.8(b))",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent"
+   ],
+   "eligible_parent_wording": "Employees on parental leave ... immediately following the birth of a child",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "'may use' (V2): the employee elects to use the balance.",
+   "duration": {
+    "value": 6,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "duration_note": "U8: the member described is eligible for paid parental leave, so 6 weeks; employees ineligible for paid parental leave may use two more weeks, up to eight, if no other leave is available and no other employee uses Paid Parental Leave for the same event. Limited by the sick-leave balance.",
+   "pay_fraction": "paid sick leave (own accrued balance)",
+   "sequence": [
+    {
+     "relation": "within",
+     "component_id": "florida_atlantic_university_c2",
+     "note": "the period of leave immediately following the birth"
+    },
+    {
+     "relation": "in_lieu_of",
+     "component_id": "florida_atlantic_university_c1",
+     "note": "part of the unpaid-leave option, an alternative to paid parental leave (R15b)"
+    }
+   ],
+   "rule_applied": [
+    "R1",
+    "R1b",
+    "V2",
+    "U8",
+    "R15",
+    "R15b"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Employees on parental leave may use up to six weeks of paid sick leave for the period of leave immediately following the birth of a child."
+    ],
+    "eligible_parent": [
+     "Employees on parental leave may use up to six weeks of paid sick leave for the period of leave immediately following the birth of a child."
+    ],
+    "entitlement": [
+     "Employees on parental leave may use up to six weeks of paid sick leave for the period of leave immediately following the birth of a child."
+    ],
+    "duration": [
+     "Employees on parental leave may use up to six weeks of paid sick leave for the period of leave immediately following the birth of a child.",
+     "Employees who are ineligible for paid parental leave may use two additional weeks of paid sick leave up to a total of eight weeks if no other leave is available and no other employee will use Paid Parental Leave for the same Triggering Event."
+    ],
+    "pay_fraction": [
+     "Employees on parental leave may use up to six weeks of paid sick leave for the period of leave immediately following the birth of a child."
+    ],
+    "sequence": [
+     "Employees on parental leave may use up to six weeks of paid sick leave for the period of leave immediately following the birth of a child.",
+     "If a faculty member is ineligible or chooses not to utilize paid parental leave, the faculty member will be granted a parental leave not to exceed six (6) months when the employee becomes a biological parent or a child is placed in the employee's home pending adoption."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_cba_2015_2018"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "own_accrual",
+     "quote": "Employees on parental leave may use up to six weeks of paid sick leave for the period of leave immediately following the birth of a child."
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "own_balance",
+     "quote": "Employees on parental leave may use up to six weeks of paid sick leave for the period of leave immediately following the birth of a child."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Employees on parental leave may use up to six weeks of paid sick leave for the period of leave immediately following the birth of a child."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Employees on parental leave may use up to six weeks of paid sick leave for the period of leave immediately following the birth of a child."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "birth_parent, non_birth_parent (after a birth; not adoption)",
+     "quote": "Employees on parental leave may use up to six weeks of paid sick leave for the period of leave immediately following the birth of a child."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "Employees on parental leave may use up to six weeks of paid sick leave for the period of leave immediately following the birth of a child."
+    },
+    {
+     "field": "duration",
+     "rule": "U8",
+     "answer": "6 weeks up_to; 8 for those ineligible for paid leave in note",
+     "quote": "Employees who are ineligible for paid parental leave may use two additional weeks of paid sick leave up to a total of eight weeks if no other leave is available and no other employee will use Paid Parental Leave for the same Triggering Event."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "R1",
+     "answer": "own accrued sick leave",
+     "quote": "Employees on parental leave may use up to six weeks of paid sick leave for the period of leave immediately following the birth of a child."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "within c2",
+     "quote": "Employees on parental leave may use up to six weeks of paid sick leave for the period of leave immediately following the birth of a child."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15b",
+     "answer": "in_lieu_of c1",
+     "quote": "If a faculty member is ineligible or chooses not to utilize paid parental leave, the faculty member will be granted a parental leave not to exceed six (6) months when the employee becomes a biological parent or a child is placed in the employee's home pending adoption."
+    }
+   ]
+  },
+  {
+   "component_id": "florida_atlantic_university_c4",
+   "institution_label": "Family and Medical Leave Act (FMLA) Entitlements",
+   "description": "Federal FMLA leave, 12 workweeks for a birth or placement for adoption or foster care; paid parental leave is designated as FMLA and runs concurrently.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "'Employees' (members of the bargaining unit), Art. 17.7",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "29 U.S.C. 2612(a)(1)(A) birth of a son or daughter; (B) placement for adoption or foster care",
+   "caregiver_condition": "none",
+   "service_requirement": "12 months and 1,250 hours",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 12,
+    "units": "workweek",
+    "qualifier": "exact"
+   },
+   "duration_note": "'a total of 12 workweeks' in a 12-month period (R13: exact). Intermittent leave or a reduced schedule 'may be approved as permitted by law' (17.8(e)).",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "statute_source": "29 U.S.C. 2612(a)(1)(A)-(B); eligibility 29 U.S.C. 2611(2)",
+   "statute_verified": true,
+   "sequence": [
+    {
+     "relation": "concurrent_with",
+     "component_id": "florida_atlantic_university_c1",
+     "note": "S1: paid parental leave is designated as FMLA and tracked concurrently"
+    },
+    {
+     "relation": "concurrent_with",
+     "component_id": "florida_atlantic_university_c2",
+     "note": "S1: parental leave may run concurrent with FMLA leave; unpaid remainder after 12 workweeks"
+    }
+   ],
+   "rule_applied": [
+    "U2",
+    "U4",
+    "S1",
+    "R13",
+    "R9",
+    "U7"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Employees are entitled to use FMLA benefits in accordance with law and University policies."
+    ],
+    "eligible_parent": [
+     "Because of the birth of a son or daughter of the employee and in order to care for such son or daughter.",
+     "Because of the placement of a son or daughter with the employee for adoption or foster care.",
+     "Foster care is not covered under parental leave but may be provided through the FMLA."
+    ],
+    "entitlement": [
+     "Employees are entitled to use FMLA benefits in accordance with law and University policies."
+    ],
+    "duration": [
+     "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period for one or more of the following:"
+    ],
+    "service_requirement": [
+     "for at least 1,250 hours of service with such employer during the previous 12-month period."
+    ],
+    "sequence": [
+     "If FMLA eligibility requirements are satisfied, the paid parental leave will be designated as FMLA and tracked concurrently.",
+     "Parental leave is separate from, but may run concurrent with, medical leave or FMLA leave."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_cba_2015_2018",
+    "2018_02_paid_parental_leave_procedures",
+    "2026_00_us_fmla_29usc2612",
+    "2026_01_us_fmla_29usc2611_definitions"
+   ],
+   "flags": [
+    "cross_reference_not_saved: University FMLA policies (BOT/UFF agreement 17.7)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "U4",
+     "answer": "unpaid_leave",
+     "quote": "Employees are entitled to use FMLA benefits in accordance with law and University policies."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period for one or more of the following:"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Employees are entitled to use FMLA benefits in accordance with law and University policies."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Employees are entitled to use FMLA benefits in accordance with law and University policies."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U2",
+     "answer": "birth_parent, non_birth_parent, adoptive, foster",
+     "quote": "Because of the placement of a son or daughter with the employee for adoption or foster care."
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "Employees are entitled to use FMLA benefits in accordance with law and University policies."
+    },
+    {
+     "field": "duration",
+     "rule": "U2",
+     "answer": "12 workweeks, exact",
+     "quote": "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period for one or more of the following:"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U2",
+     "answer": "12 months and 1,250 hours",
+     "quote": "for at least 1,250 hours of service with such employer during the previous 12-month period."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave)",
+     "quote": "Employees are entitled to use FMLA benefits in accordance with law and University policies."
+    },
+    {
+     "field": "sequence",
+     "rule": "S1",
+     "answer": "concurrent_with c1 and c2",
+     "quote": "If FMLA eligibility requirements are satisfied, the paid parental leave will be designated as FMLA and tracked concurrently."
+    }
+   ]
+  },
+  {
+   "component_id": "florida_atlantic_university_c5",
+   "institution_label": "Leaves Due to Illness/Injury",
+   "description": "A documented medical absence for illness or injury, pregnancy included, normally up to six months and up to one year for a serious health condition of the employee or an immediate family member; paid from accrued leave, otherwise unpaid.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "mechanism_note": "U6: the text grants an absence; its pay comes from the employee's accrued leave (c6), so the leave is coded unpaid.",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "'an employee' (bargaining unit, Art. 17.10)",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent"
+   ],
+   "eligible_parent_wording": "the employee's own illness (including impairment 'proximately resulting from pregnancy'); 'the serious health condition of the employee or a member of the employee's immediate family'",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "entitlement_note": "'may be approved' (V2).",
+   "duration": {
+    "value": 6,
+    "units": "month",
+    "qualifier": "up_to"
+   },
+   "duration_max": {
+    "value": 1,
+    "units": "year"
+   },
+   "duration_variants": {
+    "normal": "up to 6 months",
+    "serious health condition": "up to one year"
+   },
+   "duration_note": "Q1/R13b: 'Normally ... up to six (6) months', up to one year for a serious health condition.",
+   "medical_certification": true,
+   "medical_certification_note": "appropriate medical documentation",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "rule_applied": [
+    "U5",
+    "U6",
+    "V2",
+    "Q1",
+    "R13b",
+    "R9"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Illness/Injury is defined as any physical or mental impairment of health, including such an impairment proximately resulting from pregnancy, which does not allow an employee to fully and properly perform the duties of the employee's position."
+    ],
+    "eligible_parent": [
+     "Illness/Injury is defined as any physical or mental impairment of health, including such an impairment proximately resulting from pregnancy, which does not allow an employee to fully and properly perform the duties of the employee's position.",
+     "Normally a documented medical absence may be approved for up to six (6) months with appropriate medical documentation, but may be approved for up to one year for the serious health condition of the employee or a member of the employee’s immediate family."
+    ],
+    "entitlement": [
+     "Normally a documented medical absence may be approved for up to six (6) months with appropriate medical documentation, but may be approved for up to one year for the serious health condition of the employee or a member of the employee’s immediate family."
+    ],
+    "duration": [
+     "Normally a documented medical absence may be approved for up to six (6) months with appropriate medical documentation, but may be approved for up to one year for the serious health condition of the employee or a member of the employee’s immediate family."
+    ],
+    "medical_certification": [
+     "Normally a documented medical absence may be approved for up to six (6) months with appropriate medical documentation, but may be approved for up to one year for the serious health condition of the employee or a member of the employee’s immediate family."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_cba_2015_2018"
+   ],
+   "flags": [
+    "own_illness_leave"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "U6",
+     "answer": "unpaid_leave",
+     "quote": "The term of a medical absence shall be paid using any type of accrued leave, or unpaid if no accrued leave is available."
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "none",
+     "quote": "The term of a medical absence shall be paid using any type of accrued leave, or unpaid if no accrued leave is available."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Illness/Injury is defined as any physical or mental impairment of health, including such an impairment proximately resulting from pregnancy, which does not allow an employee to fully and properly perform the duties of the employee's position."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Illness/Injury is defined as any physical or mental impairment of health, including such an impairment proximately resulting from pregnancy, which does not allow an employee to fully and properly perform the duties of the employee's position."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent, non_birth_parent",
+     "quote": "Normally a documented medical absence may be approved for up to six (6) months with appropriate medical documentation, but may be approved for up to one year for the serious health condition of the employee or a member of the employee’s immediate family."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "Normally a documented medical absence may be approved for up to six (6) months with appropriate medical documentation, but may be approved for up to one year for the serious health condition of the employee or a member of the employee’s immediate family."
+    },
+    {
+     "field": "duration",
+     "rule": "Q1",
+     "answer": "6 months up_to",
+     "quote": "Normally a documented medical absence may be approved for up to six (6) months with appropriate medical documentation, but may be approved for up to one year for the serious health condition of the employee or a member of the employee’s immediate family."
+    },
+    {
+     "field": "duration",
+     "rule": "R13b",
+     "answer": "duration_max 1 year (serious health condition)",
+     "quote": "Normally a documented medical absence may be approved for up to six (6) months with appropriate medical documentation, but may be approved for up to one year for the serious health condition of the employee or a member of the employee’s immediate family."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave)",
+     "quote": "Normally a documented medical absence may be approved for up to six (6) months with appropriate medical documentation, but may be approved for up to one year for the serious health condition of the employee or a member of the employee’s immediate family."
+    }
+   ]
+  },
+  {
+   "component_id": "florida_atlantic_university_c6",
+   "institution_label": "Sick Leave",
+   "description": "Accrued sick leave, four hours per biweekly pay period without limit, for the employee's illness or the illness of an immediate family member.",
+   "mechanism": "own_accrual",
+   "payer": "own_balance",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "'A full-time employee' (Art. 17.10(a)); handbook 'All full-time faculty'",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent"
+   ],
+   "eligible_parent_wording": "the employee's personal illness; the illness or injury of a member of the employee's immediate family",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration_note": "A balance: 4 hours per biweekly pay period, no maximum; no length of its own (R1).",
+   "medical_certification": true,
+   "medical_certification_note": "may be required for an absence of more than four consecutive days",
+   "rule_applied": [
+    "R1",
+    "U5"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "A full-time employee shall accrue four (4) hours of sick leave for each biweekly pay period"
+    ],
+    "eligible_parent": [
+     "The employee's personal illness or exposure to a contagious disease which would endanger others.",
+     "The illness or injury of a member of the employee's immediate family, in consultation with the supervisor."
+    ],
+    "entitlement": [
+     "Sick leave shall be authorized for the following:"
+    ],
+    "medical_certification": [
+     "the University may require an employee to furnish certification issued by an attending health care provider of the medical reasons necessitating the absence"
+    ]
+   },
+   "doc_ids": [
+    "2018_01_cba_2015_2018",
+    "2018_00_link"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "own_accrual",
+     "quote": "A full-time employee shall accrue four (4) hours of sick leave for each biweekly pay period"
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "own_balance",
+     "quote": "A full-time employee shall accrue four (4) hours of sick leave for each biweekly pay period"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Sick leave shall be authorized for the following:"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "A full-time employee shall accrue four (4) hours of sick leave for each biweekly pay period"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent, non_birth_parent",
+     "quote": "The illness or injury of a member of the employee's immediate family, in consultation with the supervisor."
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "Sick leave shall be authorized for the following:"
+    }
+   ]
+  },
+  {
+   "component_id": "florida_atlantic_university_c7",
+   "institution_label": "",
+   "description": "Illness caused or contributed to by pregnancy is treated, on request, as a temporary disability under the short-term disability (STD) plan; the plan's terms are not saved.",
+   "mechanism": "generic_sick_or_disability_plan",
+   "payer": "insurance_plan",
+   "mechanism_note": "A general disability plan to which pregnancy illness is referred, with no childbirth period, length or pay level stated (R2, V1).",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "employees covered by Art. 17.8(c)3 of the BOT/UFF agreement",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "illness caused or contributed to by pregnancy",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "'shall be treated as a temporary disability if requested' (V2): granted on request, on the plan's terms.",
+   "duration_note": "The STD plan provisions are not saved; no length or pay level can be coded.",
+   "rule_applied": [
+    "R2",
+    "V1",
+    "V6",
+    "M1",
+    "V2"
+   ],
+   "evidence": {
+    "mechanism": [
+     "Any illness caused or contributed to by pregnancy shall be treated as a temporary disability if requested, and in accordance with the STD and LTD plan provisions."
+    ],
+    "faculty_group": [
+     "Any illness caused or contributed to by pregnancy shall be treated as a temporary disability if requested, and in accordance with the STD and LTD plan provisions."
+    ],
+    "eligible_parent": [
+     "Any illness caused or contributed to by pregnancy shall be treated as a temporary disability if requested, and in accordance with the STD and LTD plan provisions."
+    ],
+    "entitlement": [
+     "Any illness caused or contributed to by pregnancy shall be treated as a temporary disability if requested, and in accordance with the STD and LTD plan provisions."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_cba_2015_2018"
+   ],
+   "flags": [
+    "cross_reference_not_saved: STD plan provisions (BOT/UFF agreement 17.8(c)3)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R2",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "Any illness caused or contributed to by pregnancy shall be treated as a temporary disability if requested, and in accordance with the STD and LTD plan provisions."
+    },
+    {
+     "field": "payer",
+     "rule": "M1",
+     "answer": "insurance_plan",
+     "quote": "Any illness caused or contributed to by pregnancy shall be treated as a temporary disability if requested, and in accordance with the STD and LTD plan provisions."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Any illness caused or contributed to by pregnancy shall be treated as a temporary disability if requested, and in accordance with the STD and LTD plan provisions."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Any illness caused or contributed to by pregnancy shall be treated as a temporary disability if requested, and in accordance with the STD and LTD plan provisions."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent",
+     "quote": "Any illness caused or contributed to by pregnancy shall be treated as a temporary disability if requested, and in accordance with the STD and LTD plan provisions."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "Any illness caused or contributed to by pregnancy shall be treated as a temporary disability if requested, and in accordance with the STD and LTD plan provisions."
+    }
+   ]
+  },
+  {
+   "component_id": "florida_atlantic_university_c8",
+   "institution_label": "",
+   "description": "Illness caused or contributed to by pregnancy is treated, on request, as a temporary disability under the long-term disability (LTD) plan; the plan's terms are not saved.",
+   "mechanism": "generic_sick_or_disability_plan",
+   "payer": "insurance_plan",
+   "mechanism_note": "A general disability plan to which pregnancy illness is referred, with no childbirth period, length or pay level stated (R2, V1).",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "employees covered by Art. 17.8(c)3 of the BOT/UFF agreement",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "illness caused or contributed to by pregnancy",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "'shall be treated as a temporary disability if requested' (V2): granted on request, on the plan's terms.",
+   "duration_note": "The LTD plan provisions are not saved; no length or pay level can be coded.",
+   "rule_applied": [
+    "R2",
+    "V1",
+    "V6",
+    "M1",
+    "V2"
+   ],
+   "evidence": {
+    "mechanism": [
+     "Any illness caused or contributed to by pregnancy shall be treated as a temporary disability if requested, and in accordance with the STD and LTD plan provisions."
+    ],
+    "faculty_group": [
+     "Any illness caused or contributed to by pregnancy shall be treated as a temporary disability if requested, and in accordance with the STD and LTD plan provisions."
+    ],
+    "eligible_parent": [
+     "Any illness caused or contributed to by pregnancy shall be treated as a temporary disability if requested, and in accordance with the STD and LTD plan provisions."
+    ],
+    "entitlement": [
+     "Any illness caused or contributed to by pregnancy shall be treated as a temporary disability if requested, and in accordance with the STD and LTD plan provisions."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_cba_2015_2018"
+   ],
+   "flags": [
+    "cross_reference_not_saved: LTD plan provisions (BOT/UFF agreement 17.8(c)3)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R2",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "Any illness caused or contributed to by pregnancy shall be treated as a temporary disability if requested, and in accordance with the STD and LTD plan provisions."
+    },
+    {
+     "field": "payer",
+     "rule": "M1",
+     "answer": "insurance_plan",
+     "quote": "Any illness caused or contributed to by pregnancy shall be treated as a temporary disability if requested, and in accordance with the STD and LTD plan provisions."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Any illness caused or contributed to by pregnancy shall be treated as a temporary disability if requested, and in accordance with the STD and LTD plan provisions."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Any illness caused or contributed to by pregnancy shall be treated as a temporary disability if requested, and in accordance with the STD and LTD plan provisions."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent",
+     "quote": "Any illness caused or contributed to by pregnancy shall be treated as a temporary disability if requested, and in accordance with the STD and LTD plan provisions."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "Any illness caused or contributed to by pregnancy shall be treated as a temporary disability if requested, and in accordance with the STD and LTD plan provisions."
+    }
+   ]
+  },
+  {
+   "component_id": "florida_atlantic_university_c9",
+   "institution_label": "Sick Leave Pool",
+   "description": "A sick leave pool funded by members' contributed sick leave; members may apply for up to 480 hours for a serious or catastrophic personal illness once their own leave is exhausted.",
+   "mechanism": "donated_leave",
+   "payer": "own_balance",
+   "mechanism_note": "A bank funded by members' contributions of their own sick leave (16 hours on joining): R1d, colleague-funded bank.",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "'All full-time faculty' with more than one year of continuous service who join the pool",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "serious or catastrophic personal illness or injury",
+   "caregiver_condition": "none",
+   "service_requirement": "more than one year of continuous employment; at least 64 hours of unused sick leave; membership (16 hours contributed)",
+   "entitlement": "discretionary",
+   "entitlement_note": "Members may 'apply for' hours; no grant language (V2).",
+   "duration": {
+    "value": 480,
+    "units": "hour",
+    "qualifier": "up_to"
+   },
+   "must_exhaust_first": [
+    "sick",
+    "vacation"
+   ],
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "florida_atlantic_university_c6",
+     "note": "available 'when they have exhausted all of their own leave hours'"
+    }
+   ],
+   "rule_applied": [
+    "R1d",
+    "V2",
+    "U5",
+    "R11",
+    "R15"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "All full-time faculty who have been employed continuously for more than one year with the University and who have at least 64 hours of unused sick leave may join the sick leave pool."
+    ],
+    "eligible_parent": [
+     "Membership in the Pool allows participating employees to apply for up to a maximum of 480 sick leave hours for serious or catastrophic personal illness or injury, when they have exhausted all of their own leave hours."
+    ],
+    "entitlement": [
+     "All full-time faculty who have been employed continuously for more than one year with the University and who have at least 64 hours of unused sick leave may join the sick leave pool.",
+     "Membership in the Pool allows participating employees to apply for up to a maximum of 480 sick leave hours for serious or catastrophic personal illness or injury, when they have exhausted all of their own leave hours."
+    ],
+    "duration": [
+     "Membership in the Pool allows participating employees to apply for up to a maximum of 480 sick leave hours for serious or catastrophic personal illness or injury, when they have exhausted all of their own leave hours."
+    ],
+    "service_requirement": [
+     "All full-time faculty who have been employed continuously for more than one year with the University and who have at least 64 hours of unused sick leave may join the sick leave pool."
+    ],
+    "sequence": [
+     "Membership in the Pool allows participating employees to apply for up to a maximum of 480 sick leave hours for serious or catastrophic personal illness or injury, when they have exhausted all of their own leave hours."
+    ],
+    "must_exhaust_first": [
+     "Membership in the Pool allows participating employees to apply for up to a maximum of 480 sick leave hours for serious or catastrophic personal illness or injury, when they have exhausted all of their own leave hours."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link",
+    "2018_01_cba_2015_2018"
+   ],
+   "flags": [
+    "cross_reference_not_saved: Sick leave pool rules (the pool is named in BOT/UFF agreement 17.10(a)(2); terms stated only in the faculty handbook)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1d",
+     "answer": "donated_leave",
+     "quote": "Each member contributes 16 hours of sick leave at the time they join the pool."
+    },
+    {
+     "field": "payer",
+     "rule": "R1d",
+     "answer": "own_balance",
+     "quote": "Each member contributes 16 hours of sick leave at the time they join the pool."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Membership in the Pool allows participating employees to apply for up to a maximum of 480 sick leave hours for serious or catastrophic personal illness or injury, when they have exhausted all of their own leave hours."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "All full-time faculty who have been employed continuously for more than one year with the University and who have at least 64 hours of unused sick leave may join the sick leave pool."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent",
+     "quote": "Membership in the Pool allows participating employees to apply for up to a maximum of 480 sick leave hours for serious or catastrophic personal illness or injury, when they have exhausted all of their own leave hours."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "Membership in the Pool allows participating employees to apply for up to a maximum of 480 sick leave hours for serious or catastrophic personal illness or injury, when they have exhausted all of their own leave hours."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "480 hours up_to",
+     "quote": "Membership in the Pool allows participating employees to apply for up to a maximum of 480 sick leave hours for serious or catastrophic personal illness or injury, when they have exhausted all of their own leave hours."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "more than one year; 64 hours unused sick leave",
+     "quote": "All full-time faculty who have been employed continuously for more than one year with the University and who have at least 64 hours of unused sick leave may join the sick leave pool."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "consecutive_after c6",
+     "quote": "Membership in the Pool allows participating employees to apply for up to a maximum of 480 sick leave hours for serious or catastrophic personal illness or injury, when they have exhausted all of their own leave hours."
+    }
+   ]
+  },
+  {
+   "component_id": "florida_atlantic_university_c10",
+   "institution_label": "Leave of Absence Without Pay",
+   "description": "Leave without pay for any purpose, granted on request unless inconsistent with the University's best interests; more than one academic year only in special circumstances.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "'the employee' (bargaining unit, Art. 17.1); handbook 'a faculty member'",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "the employee (no purpose or role named)",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "'shall grant ... unless ... inconsistent with the best interests of the University' (V2b).",
+   "duration_note": "No length stated; 'A request for leave in excess of one academic year will only be granted under special circumstances.'",
+   "notice": "written request not less than 120 days before a leave of one semester or more, if practicable",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "rule_applied": [
+    "U1",
+    "V2b",
+    "R9"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Upon the request of the employee, the President or his/her representative shall grant a leave without pay, unless the President or his/her representative determines that granting such leave would be inconsistent with the best interests of the University."
+    ],
+    "eligible_parent": [
+     "Upon the request of the employee, the President or his/her representative shall grant a leave without pay, unless the President or his/her representative determines that granting such leave would be inconsistent with the best interests of the University."
+    ],
+    "entitlement": [
+     "Upon the request of the employee, the President or his/her representative shall grant a leave without pay, unless the President or his/her representative determines that granting such leave would be inconsistent with the best interests of the University."
+    ],
+    "notice": [
+     "For a leave of one (1) semester or more, an employee shall make a written request not less than 120 days prior to the beginning of the proposed leave, if practicable."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_cba_2015_2018",
+    "2018_00_link"
+   ],
+   "flags": [
+    "general_purpose",
+    "conditional_refusal: inconsistent with the best interests of the University",
+    "ambiguous: restriction: a leave longer than one academic year is granted only under special circumstances"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "Upon the request of the employee, the President or his/her representative shall grant a leave without pay, unless the President or his/her representative determines that granting such leave would be inconsistent with the best interests of the University."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Upon the request of the employee, the President or his/her representative shall grant a leave without pay, unless the President or his/her representative determines that granting such leave would be inconsistent with the best interests of the University."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "Upon the request of the employee, the President or his/her representative shall grant a leave without pay, unless the President or his/her representative determines that granting such leave would be inconsistent with the best interests of the University."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Upon the request of the employee, the President or his/her representative shall grant a leave without pay, unless the President or his/her representative determines that granting such leave would be inconsistent with the best interests of the University."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "Upon the request of the employee, the President or his/her representative shall grant a leave without pay, unless the President or his/her representative determines that granting such leave would be inconsistent with the best interests of the University."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2b",
+     "answer": "guaranteed_on_request",
+     "quote": "Upon the request of the employee, the President or his/her representative shall grant a leave without pay, unless the President or his/her representative determines that granting such leave would be inconsistent with the best interests of the University."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave)",
+     "quote": "Upon the request of the employee, the President or his/her representative shall grant a leave without pay, unless the President or his/her representative determines that granting such leave would be inconsistent with the best interests of the University."
+    }
+   ]
+  },
+  {
+   "component_id": "florida_atlantic_university_c11",
+   "institution_label": "",
+   "description": "At the end of approved (unpaid) parental leave, part-time leave without pay for up to one year, granted on request unless inconsistent with the University's best interests.",
+   "mechanism": "part_time_option",
+   "payer": "none",
+   "mechanism_note": "A reduced appointment with a matching pay cut (part-time leave without pay): R3, part_time_option.",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "the employee at the end of the approved parental leave (Art. 17.8(c)2)",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "the employee at the end of the approved parental leave (biological parent or adoptive placement)",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "'shall grant ... unless ... inconsistent with the best interests of the University' (V2b).",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "up_to"
+   },
+   "duration_note": "'not to exceed one (1) year'; the part-time fraction is not stated.",
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "florida_atlantic_university_c2",
+     "note": "'At the end of the approved parental leave'"
+    }
+   ],
+   "rule_applied": [
+    "R3",
+    "V2b",
+    "R13",
+    "R15"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "At the end of the approved parental leave and at the employee's request, the Provost or designee shall grant part-time leave without pay for a period not to exceed one (1) year, unless the Provost or designee determines that granting such leave would be inconsistent with the best interests of the University."
+    ],
+    "eligible_parent": [
+     "At the end of the approved parental leave and at the employee's request, the Provost or designee shall grant part-time leave without pay for a period not to exceed one (1) year, unless the Provost or designee determines that granting such leave would be inconsistent with the best interests of the University.",
+     "If a faculty member is ineligible or chooses not to utilize paid parental leave, the faculty member will be granted a parental leave not to exceed six (6) months when the employee becomes a biological parent or a child is placed in the employee's home pending adoption."
+    ],
+    "entitlement": [
+     "At the end of the approved parental leave and at the employee's request, the Provost or designee shall grant part-time leave without pay for a period not to exceed one (1) year, unless the Provost or designee determines that granting such leave would be inconsistent with the best interests of the University."
+    ],
+    "duration": [
+     "At the end of the approved parental leave and at the employee's request, the Provost or designee shall grant part-time leave without pay for a period not to exceed one (1) year, unless the Provost or designee determines that granting such leave would be inconsistent with the best interests of the University."
+    ],
+    "sequence": [
+     "At the end of the approved parental leave and at the employee's request, the Provost or designee shall grant part-time leave without pay for a period not to exceed one (1) year, unless the Provost or designee determines that granting such leave would be inconsistent with the best interests of the University."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_cba_2015_2018"
+   ],
+   "flags": [
+    "conditional_refusal: inconsistent with the best interests of the University"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R3",
+     "answer": "part_time_option",
+     "quote": "At the end of the approved parental leave and at the employee's request, the Provost or designee shall grant part-time leave without pay for a period not to exceed one (1) year, unless the Provost or designee determines that granting such leave would be inconsistent with the best interests of the University."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "At the end of the approved parental leave and at the employee's request, the Provost or designee shall grant part-time leave without pay for a period not to exceed one (1) year, unless the Provost or designee determines that granting such leave would be inconsistent with the best interests of the University."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "At the end of the approved parental leave and at the employee's request, the Provost or designee shall grant part-time leave without pay for a period not to exceed one (1) year, unless the Provost or designee determines that granting such leave would be inconsistent with the best interests of the University."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "At the end of the approved parental leave and at the employee's request, the Provost or designee shall grant part-time leave without pay for a period not to exceed one (1) year, unless the Provost or designee determines that granting such leave would be inconsistent with the best interests of the University."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "birth_parent, non_birth_parent, adoptive",
+     "quote": "If a faculty member is ineligible or chooses not to utilize paid parental leave, the faculty member will be granted a parental leave not to exceed six (6) months when the employee becomes a biological parent or a child is placed in the employee's home pending adoption."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2b",
+     "answer": "guaranteed_on_request",
+     "quote": "At the end of the approved parental leave and at the employee's request, the Provost or designee shall grant part-time leave without pay for a period not to exceed one (1) year, unless the Provost or designee determines that granting such leave would be inconsistent with the best interests of the University."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 year up_to",
+     "quote": "At the end of the approved parental leave and at the employee's request, the Provost or designee shall grant part-time leave without pay for a period not to exceed one (1) year, unless the Provost or designee determines that granting such leave would be inconsistent with the best interests of the University."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "consecutive_after c2",
+     "quote": "At the end of the approved parental leave and at the employee's request, the Provost or designee shall grant part-time leave without pay for a period not to exceed one (1) year, unless the Provost or designee determines that granting such leave would be inconsistent with the best interests of the University."
+    }
+   ]
+  },
+  {
+   "component_id": "florida_atlantic_university_c12",
+   "institution_label": "Tenure Credit During Periods of Leave",
+   "description": "Semesters of paid or unpaid leave do not count toward tenure eligibility unless the employee and the University agree otherwise; applies to any leave.",
+   "mechanism": "tenure_clock",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "'an employee' (tenure-earning members of the bargaining unit, Art. 15 and 17.5)",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "an employee on compensated or uncompensated leave",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "entitlement_note": "Leave semesters are not credited by default; crediting them needs both parties' agreement.",
+   "duration_note": "The semester(s) of leave; no separate length.",
+   "rule_applied": [
+    "U1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Semester(s) during which an employee is on compensated or uncompensated leave shall not be creditable for the purpose of determining eligibility for tenure, except by mutual agreement of the employee and the University."
+    ],
+    "eligible_parent": [
+     "Semester(s) during which an employee is on compensated or uncompensated leave shall not be creditable for the purpose of determining eligibility for tenure, except by mutual agreement of the employee and the University."
+    ],
+    "entitlement": [
+     "Semester(s) during which an employee is on compensated or uncompensated leave shall not be creditable for the purpose of determining eligibility for tenure, except by mutual agreement of the employee and the University.",
+     "Under the provisions of Article 17.5, authorized leaves of absence shall not be credited for determining eligibility for tenure except by mutual agreement of the employee and the University."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_cba_2015_2018"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "Semester(s) during which an employee is on compensated or uncompensated leave shall not be creditable for the purpose of determining eligibility for tenure, except by mutual agreement of the employee and the University."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Semester(s) during which an employee is on compensated or uncompensated leave shall not be creditable for the purpose of determining eligibility for tenure, except by mutual agreement of the employee and the University."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "Semester(s) during which an employee is on compensated or uncompensated leave shall not be creditable for the purpose of determining eligibility for tenure, except by mutual agreement of the employee and the University."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Semester(s) during which an employee is on compensated or uncompensated leave shall not be creditable for the purpose of determining eligibility for tenure, except by mutual agreement of the employee and the University."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "Semester(s) during which an employee is on compensated or uncompensated leave shall not be creditable for the purpose of determining eligibility for tenure, except by mutual agreement of the employee and the University."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "Semester(s) during which an employee is on compensated or uncompensated leave shall not be creditable for the purpose of determining eligibility for tenure, except by mutual agreement of the employee and the University."
+    }
+   ]
+  },
+  {
+   "component_id": "florida_atlantic_university_c13",
+   "institution_label": "Stopping the Clock",
+   "description": "The tenure clock may be stopped for medical or related reasons for up to two years, on written request and with the Provost's approval.",
+   "mechanism": "tenure_clock",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "'the employee' in tenure-earning service (Art. 15.1)",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "medical or related reasons",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "entitlement_note": "'may be stopped ... upon ... approval of the Provost or designee' (V2).",
+   "duration": {
+    "value": 2,
+    "units": "year",
+    "qualifier": "up_to"
+   },
+   "rule_applied": [
+    "V2",
+    "U5",
+    "U1",
+    "R13"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "The tenure clock may be stopped for medical or related reasons for up to two years upon the written request of the employee, recommendation of the supervisor and dean/director, and approval of the Provost or designee."
+    ],
+    "eligible_parent": [
+     "The tenure clock may be stopped for medical or related reasons for up to two years upon the written request of the employee, recommendation of the supervisor and dean/director, and approval of the Provost or designee."
+    ],
+    "entitlement": [
+     "The tenure clock may be stopped for medical or related reasons for up to two years upon the written request of the employee, recommendation of the supervisor and dean/director, and approval of the Provost or designee."
+    ],
+    "duration": [
+     "The tenure clock may be stopped for medical or related reasons for up to two years upon the written request of the employee, recommendation of the supervisor and dean/director, and approval of the Provost or designee."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_cba_2015_2018"
+   ],
+   "flags": [
+    "ambiguous: restriction: 'medical or related reasons' does not say whether a birth, or a family member's medical need, qualifies; coded for the employee's own medical reasons (birth_parent)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "The tenure clock may be stopped for medical or related reasons for up to two years upon the written request of the employee, recommendation of the supervisor and dean/director, and approval of the Provost or designee."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "The tenure clock may be stopped for medical or related reasons for up to two years upon the written request of the employee, recommendation of the supervisor and dean/director, and approval of the Provost or designee."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "The tenure clock may be stopped for medical or related reasons for up to two years upon the written request of the employee, recommendation of the supervisor and dean/director, and approval of the Provost or designee."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "The tenure clock may be stopped for medical or related reasons for up to two years upon the written request of the employee, recommendation of the supervisor and dean/director, and approval of the Provost or designee."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent",
+     "quote": "The tenure clock may be stopped for medical or related reasons for up to two years upon the written request of the employee, recommendation of the supervisor and dean/director, and approval of the Provost or designee."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "The tenure clock may be stopped for medical or related reasons for up to two years upon the written request of the employee, recommendation of the supervisor and dean/director, and approval of the Provost or designee."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "2 years up_to",
+     "quote": "The tenure clock may be stopped for medical or related reasons for up to two years upon the written request of the employee, recommendation of the supervisor and dean/director, and approval of the Provost or designee."
+    }
+   ]
+  },
+  {
+   "component_id": "florida_atlantic_university_c14",
+   "institution_label": "",
+   "description": "With paid parental leave, the faculty member may request that the tenure clock be suspended during the leave; the request form says the clock is not stopped unless requested.",
+   "mechanism": "tenure_clock",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "9-month UFF faculty taking Paid Parental Leave",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "faculty member on Paid Parental Leave (birth or adoption)",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "entitlement_note": "On the faculty member's request the supervisor processes the suspension; the governing agreement (17.5) makes leave semesters non-creditable for tenure except by mutual agreement, so the exclusion is automatic and coded guaranteed; the request form, a summary, yields to it.",
+   "duration": {
+    "value": 1,
+    "units": "semester",
+    "qualifier": "exact"
+   },
+   "duration_note": "'during the leave': the one-semester paid parental leave.",
+   "sequence": [
+    {
+     "relation": "concurrent_with",
+     "component_id": "florida_atlantic_university_c1",
+     "note": "suspended during the paid parental leave"
+    }
+   ],
+   "rule_applied": [
+    "V2",
+    "source_precedence",
+    "R15"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "If requested by the faculty member, process the request to suspend the tenure clock during the leave."
+    ],
+    "eligible_parent": [
+     "If requested by the faculty member, process the request to suspend the tenure clock during the leave."
+    ],
+    "entitlement": [
+     "If requested by the faculty member, process the request to suspend the tenure clock during the leave.",
+     "By participating in this benefit program, my tenure clock will not be stopped unless requested below:"
+    ],
+    "duration": [
+     "If requested by the faculty member, process the request to suspend the tenure clock during the leave."
+    ],
+    "sequence": [
+     "If requested by the faculty member, process the request to suspend the tenure clock during the leave."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_paid_parental_leave_procedures",
+    "2018_03_paid_parental_leave_request_form",
+    "2018_01_cba_2015_2018"
+   ],
+   "flags": [
+    "conflicting_sources: 2018_03_paid_parental_leave_request_form, 2018_01_cba_2015_2018: the form says the clock is not stopped unless requested; agreement 17.5 excludes leave semesters from tenure credit unless both parties agree to credit them"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "If requested by the faculty member, process the request to suspend the tenure clock during the leave."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "If requested by the faculty member, process the request to suspend the tenure clock during the leave."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "If requested by the faculty member, process the request to suspend the tenure clock during the leave."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "If requested by the faculty member, process the request to suspend the tenure clock during the leave."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "birth_parent, non_birth_parent, adoptive",
+     "quote": "defined as the point when the faculty member becomes a biological parent or a child is placed in the faculty member’s home for purposes of adoption by the faculty member."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "If requested by the faculty member, process the request to suspend the tenure clock during the leave."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 semester (the leave)",
+     "quote": "If requested by the faculty member, process the request to suspend the tenure clock during the leave."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "concurrent_with c1",
+     "quote": "If requested by the faculty member, process the request to suspend the tenure clock during the leave."
+    }
+   ]
+  },
+  {
+   "component_id": "florida_atlantic_university_c15",
+   "institution_label": "Other Leaves Provided Not Affecting Accrued Leave Balances",
+   "description": "Other leaves not charged to accrued leave (disaster volunteer, civil disorder, athletic competition and other leaves under law or University policy) that may be granted.",
+   "mechanism": "employer_paid_leave",
+   "payer": "employer",
+   "mechanism_note": "Administrative leave not charged to the employee's balances (Art. 17.12).",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "'An employee' (Art. 17.12(d))",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "An employee",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "entitlement_note": "'may be granted' (V2).",
+   "rule_applied": [
+    "U1",
+    "V2"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "An employee may be granted other leaves not affecting accrued leave balances, such as Florida Disaster Volunteer Leave, Civil disorder or disaster leave"
+    ],
+    "eligible_parent": [
+     "An employee may be granted other leaves not affecting accrued leave balances, such as Florida Disaster Volunteer Leave, Civil disorder or disaster leave"
+    ],
+    "entitlement": [
+     "An employee may be granted other leaves not affecting accrued leave balances, such as Florida Disaster Volunteer Leave, Civil disorder or disaster leave"
+    ]
+   },
+   "doc_ids": [
+    "2018_01_cba_2015_2018"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "employer_paid_leave",
+     "quote": "Administrative Leaves and Other Leaves Not Affecting Accrued Leave Balances."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "Administrative Leaves and Other Leaves Not Affecting Accrued Leave Balances."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "An employee may be granted other leaves not affecting accrued leave balances, such as Florida Disaster Volunteer Leave, Civil disorder or disaster leave"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "An employee may be granted other leaves not affecting accrued leave balances, such as Florida Disaster Volunteer Leave, Civil disorder or disaster leave"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "An employee may be granted other leaves not affecting accrued leave balances, such as Florida Disaster Volunteer Leave, Civil disorder or disaster leave"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "An employee may be granted other leaves not affecting accrued leave balances, such as Florida Disaster Volunteer Leave, Civil disorder or disaster leave"
+    }
+   ]
+  },
+  {
+   "component_id": "florida_atlantic_university_c16",
+   "institution_label": "FAUS Personal Leave Days",
+   "description": "FAUS (laboratory school) employees may be granted four days a year for emergencies or personal reasons, taken from sick leave.",
+   "mechanism": "own_accrual",
+   "payer": "own_balance",
+   "faculty_group": "FAUS employees (A.D. Henderson University School and FAU High School)",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "An FAUS employee",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "entitlement_note": "'may be granted' (V2).",
+   "duration": {
+    "value": 4,
+    "units": "day",
+    "qualifier": "exact"
+   },
+   "duration_note": "per year, non-cumulative",
+   "rule_applied": [
+    "U1",
+    "V2",
+    "R1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "An FAUS employee may be granted four (4) days (non-cumulative) of leave per year for emergencies or for other personal reasons. The four days shall be taken from sick leave."
+    ],
+    "eligible_parent": [
+     "An FAUS employee may be granted four (4) days (non-cumulative) of leave per year for emergencies or for other personal reasons. The four days shall be taken from sick leave."
+    ],
+    "entitlement": [
+     "An FAUS employee may be granted four (4) days (non-cumulative) of leave per year for emergencies or for other personal reasons. The four days shall be taken from sick leave."
+    ],
+    "duration": [
+     "An FAUS employee may be granted four (4) days (non-cumulative) of leave per year for emergencies or for other personal reasons. The four days shall be taken from sick leave."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_cba_2015_2018"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "own_accrual",
+     "quote": "An FAUS employee may be granted four (4) days (non-cumulative) of leave per year for emergencies or for other personal reasons. The four days shall be taken from sick leave."
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "own_balance",
+     "quote": "An FAUS employee may be granted four (4) days (non-cumulative) of leave per year for emergencies or for other personal reasons. The four days shall be taken from sick leave."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "An FAUS employee may be granted four (4) days (non-cumulative) of leave per year for emergencies or for other personal reasons. The four days shall be taken from sick leave."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "FAUS employees (A.D. Henderson University School and FAU High School)",
+     "quote": "An FAUS employee may be granted four (4) days (non-cumulative) of leave per year for emergencies or for other personal reasons. The four days shall be taken from sick leave."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "An FAUS employee may be granted four (4) days (non-cumulative) of leave per year for emergencies or for other personal reasons. The four days shall be taken from sick leave."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "An FAUS employee may be granted four (4) days (non-cumulative) of leave per year for emergencies or for other personal reasons. The four days shall be taken from sick leave."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "4 days exact",
+     "quote": "An FAUS employee may be granted four (4) days (non-cumulative) of leave per year for emergencies or for other personal reasons. The four days shall be taken from sick leave."
+    }
+   ]
+  },
+  {
+   "component_id": "florida_atlantic_university_c17",
+   "institution_label": "",
+   "description": "FAUS employees may be granted a fifth personal day a year, not charged to any leave balance.",
+   "mechanism": "employer_paid_leave",
+   "payer": "employer",
+   "faculty_group": "FAUS employees (A.D. Henderson University School and FAU High School)",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "The employee (FAUS)",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "entitlement_note": "'may be granted' (V2).",
+   "duration": {
+    "value": 1,
+    "units": "day",
+    "qualifier": "exact"
+   },
+   "rule_applied": [
+    "U1",
+    "V2",
+    "V4"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "The employee may be granted a fifth day of leave per year for emergencies or for other personal reasons and the fifth day will not be charged to any of the employee’s leave balances."
+    ],
+    "eligible_parent": [
+     "The employee may be granted a fifth day of leave per year for emergencies or for other personal reasons and the fifth day will not be charged to any of the employee’s leave balances."
+    ],
+    "entitlement": [
+     "The employee may be granted a fifth day of leave per year for emergencies or for other personal reasons and the fifth day will not be charged to any of the employee’s leave balances."
+    ],
+    "duration": [
+     "The employee may be granted a fifth day of leave per year for emergencies or for other personal reasons and the fifth day will not be charged to any of the employee’s leave balances."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_cba_2015_2018"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "V4",
+     "answer": "employer_paid_leave",
+     "quote": "The employee may be granted a fifth day of leave per year for emergencies or for other personal reasons and the fifth day will not be charged to any of the employee’s leave balances."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "The employee may be granted a fifth day of leave per year for emergencies or for other personal reasons and the fifth day will not be charged to any of the employee’s leave balances."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "The employee may be granted a fifth day of leave per year for emergencies or for other personal reasons and the fifth day will not be charged to any of the employee’s leave balances."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "FAUS employees (A.D. Henderson University School and FAU High School)",
+     "quote": "The employee may be granted a fifth day of leave per year for emergencies or for other personal reasons and the fifth day will not be charged to any of the employee’s leave balances."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "The employee may be granted a fifth day of leave per year for emergencies or for other personal reasons and the fifth day will not be charged to any of the employee’s leave balances."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "The employee may be granted a fifth day of leave per year for emergencies or for other personal reasons and the fifth day will not be charged to any of the employee’s leave balances."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 day exact",
+     "quote": "The employee may be granted a fifth day of leave per year for emergencies or for other personal reasons and the fifth day will not be charged to any of the employee’s leave balances."
+    }
+   ]
+  },
+  {
+   "component_id": "florida_atlantic_university_c18",
+   "institution_label": "Leave for Illness/Injury",
+   "description": "Phased-retirement participants are credited five days of paid leave each semester for their own or an immediate family member's illness or injury; the leave accumulates.",
+   "mechanism": "own_accrual",
+   "payer": "own_balance",
+   "mechanism_note": "Days credited per semester worked and carried over (accumulated): an accrual (R1).",
+   "faculty_group": "Phased Retirement Program participants",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent"
+   ],
+   "eligible_parent_wording": "illness or injury of the participant or a member of the participant's immediate family",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration_note": "5 days credited per full-time semester appointment; accumulates.",
+   "rule_applied": [
+    "R1",
+    "U5"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Each participant shall be credited with five (5) days of leave with pay at the beginning of each full-time semester appointment."
+    ],
+    "eligible_parent": [
+     "to perform assigned duties as a result of illness or injury of the participant or a member of the participant's immediate family"
+    ],
+    "entitlement": [
+     "Each participant shall be credited with five (5) days of leave with pay at the beginning of each full-time semester appointment."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_cba_2015_2018"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "own_accrual",
+     "quote": "Such leave may be accumulated; however, upon termination of the post-retirement re-employment period, the participant shall not be reimbursed for unused leave."
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "own_balance",
+     "quote": "Such leave may be accumulated; however, upon termination of the post-retirement re-employment period, the participant shall not be reimbursed for unused leave."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "to perform assigned duties as a result of illness or injury of the participant or a member of the participant's immediate family"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "Phased Retirement Program participants",
+     "quote": "Each participant shall be credited with five (5) days of leave with pay at the beginning of each full-time semester appointment."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent, non_birth_parent",
+     "quote": "to perform assigned duties as a result of illness or injury of the participant or a member of the participant's immediate family"
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "Each participant shall be credited with five (5) days of leave with pay at the beginning of each full-time semester appointment."
+    }
+   ]
+  },
+  {
+   "component_id": "florida_atlantic_university_c19",
+   "institution_label": "Personal Non-Medical Leave",
+   "description": "Phased-retirement participants who were on 12-month appointments are credited five days of paid personal leave each semester, not accumulated.",
+   "mechanism": "employer_paid_leave",
+   "payer": "employer",
+   "faculty_group": "Phased Retirement Program participants who were on a twelve (12) month appointment",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "each participant (personal reasons unrelated to illness or injury)",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "Credited each semester; the supervisor's discretion covers the dates (V2).",
+   "duration": {
+    "value": 5,
+    "units": "day",
+    "qualifier": "exact"
+   },
+   "duration_note": "per full-time semester appointment; not accumulated",
+   "rule_applied": [
+    "U1",
+    "V2",
+    "R1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Each participant who was on a twelve (12) month appointment upon entering the Phased Retirement Program"
+    ],
+    "eligible_parent": [
+     "This leave is to be used in increments of not less than four (4) hours (½ day) for personal reasons unrelated to illness or injury."
+    ],
+    "entitlement": [
+     "This leave is to be used in increments of not less than four (4) hours (½ day) for personal reasons unrelated to illness or injury.",
+     "Approval of the dates on which the employee wishes to take such leave shall be at the discretion of the supervisor"
+    ],
+    "duration": [
+     "Each participant shall be credited with five (5) days of leave with pay at the beginning of each full-time semester appointment."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_cba_2015_2018"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "employer_paid_leave",
+     "quote": "Such leave shall not be accumulated, nor shall the participant be reimbursed for unused leave upon termination of the post-retirement period."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "Each participant shall be credited with five (5) days of leave with pay at the beginning of each full-time semester appointment."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "This leave is to be used in increments of not less than four (4) hours (½ day) for personal reasons unrelated to illness or injury."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "Phased Retirement Program participants who were on a twelve (12) month appointment",
+     "quote": "Each participant who was on a twelve (12) month appointment upon entering the Phased Retirement Program"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "This leave is to be used in increments of not less than four (4) hours (½ day) for personal reasons unrelated to illness or injury."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "Approval of the dates on which the employee wishes to take such leave shall be at the discretion of the supervisor"
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "5 days per semester",
+     "quote": "Each participant shall be credited with five (5) days of leave with pay at the beginning of each full-time semester appointment."
+    }
+   ]
+  },
+  {
+   "component_id": "florida_atlantic_university_c20",
+   "institution_label": "Annual Leave",
+   "description": "Annual (vacation) leave accrued by employees on appointments of more than nine months; academic-year faculty do not accrue it. Usable for any purpose, including to cover parental leave beyond six weeks.",
+   "mechanism": "own_accrual",
+   "payer": "own_balance",
+   "faculty_group": "Full-time employees appointed for more than nine (9) months (not academic-year appointees)",
+   "faculty_group_note": "Academic-year (9-month) faculty, the standard tenure-stream appointment, do not accrue annual leave.",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "employees (any purpose)",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration_note": "6.769 hours biweekly; the Provost may authorise advancing annual leave.",
+   "rule_applied": [
+    "R1",
+    "U1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Full-time employees appointed for more than nine (9) months, except employees on academic year appointments and FAUS employees, shall accrue annual leave at the rate of 6.769 hours biweekly",
+     "Academic year employees, FAUS employees, employees appointed for less than nine (9) months, employees on 12-month non-annual leave accruing contracts, Temporary and OPS funded employees shall not accrue annual leave."
+    ],
+    "eligible_parent": [
+     "Full-time employees appointed for more than nine (9) months, except employees on academic year appointments and FAUS employees, shall accrue annual leave at the rate of 6.769 hours biweekly"
+    ],
+    "entitlement": [
+     "Full-time employees appointed for more than nine (9) months, except employees on academic year appointments and FAUS employees, shall accrue annual leave at the rate of 6.769 hours biweekly"
+    ]
+   },
+   "doc_ids": [
+    "2018_01_cba_2015_2018",
+    "2018_00_link"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "own_accrual",
+     "quote": "Full-time employees appointed for more than nine (9) months, except employees on academic year appointments and FAUS employees, shall accrue annual leave at the rate of 6.769 hours biweekly"
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "own_balance",
+     "quote": "Full-time employees appointed for more than nine (9) months, except employees on academic year appointments and FAUS employees, shall accrue annual leave at the rate of 6.769 hours biweekly"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "When employees are on personal business, the appropriate forms should be filled out to report the use of annual leave."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "Full-time employees appointed for more than nine (9) months (not academic-year appointees)",
+     "quote": "Academic year employees, FAUS employees, employees appointed for less than nine (9) months, employees on 12-month non-annual leave accruing contracts, Temporary and OPS funded employees shall not accrue annual leave."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "Full-time employees appointed for more than nine (9) months, except employees on academic year appointments and FAUS employees, shall accrue annual leave at the rate of 6.769 hours biweekly"
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "Full-time employees appointed for more than nine (9) months, except employees on academic year appointments and FAUS employees, shall accrue annual leave at the rate of 6.769 hours biweekly"
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "2018_00_link.txt is the Academic Affairs Faculty Handbook, revised 2016-11-22; 2018_01_cba_2015_2018.txt is the BOT/UFF agreement 2015-2018, ratified 2016-06-07, term to 2018-06-30.",
+  "Governing documents: the 2015-2018 collective bargaining agreement (in force on 2018-02-22) and the 2016 faculty handbook; the procedures and request form implement Art. 17.9 (17.9(d) requires the signed agreement); the provost page restates eligibility. The handbook's 'Other policies' list still names the 2012-2015 agreement; its Parental Leave section points to 'the most recently-ratified version' (the saved 2015-2018 agreement).",
+  "Population: tenure-stream faculty are 9-month (39-week academic-year) members of the UFF bargaining unit and do not accrue annual leave, so Art. 17.9 paid parental leave applies to them; 10- and 12-month appointees are excluded from it.",
+  "Paths (U8): the member described is eligible for paid parental leave and FMLA. The paid semester (c1) and the unpaid six-month leave (c2, with up to 6 weeks of own sick leave c3, then optional part-time leave without pay c11) are alternatives (17.8(a): 'ineligible or chooses not to utilize'), linked in_lieu_of. For those ineligible for paid leave, the sick-leave allowance rises to 8 weeks (in c3's duration_note).",
+  "Chain, birth parent: paid parental leave 1 semester, FMLA 12 workweeks concurrent from its start; or, instead, unpaid parental leave up to 6 months (own sick leave up to 6 weeks within it from the birth; FMLA concurrent) -> part-time leave without pay up to 1 year. Own illness: documented medical absence (c5), STD/LTD (c7, c8), sick leave pool after own leave (c9) are not linked to the parental chain.",
+  "Chain, non-birth parent: paid parental leave 1 semester with FMLA concurrent; or unpaid parental leave up to 6 months (own sick leave up to 6 weeks within it; FMLA concurrent) -> part-time leave without pay up to 1 year.",
+  "Pay level of the paid parental leave: the agreement says 'paid parental leave' and requires repayment of 'all salary received'; no percentage is stated. pay_fraction records it as written.",
+  "The agreement defines 'semester' as one of two approximately 19.5-week periods of the 39-week academic year. That is a pay or appointment period, not a term length (R8, which names this agreement): calendar.kind = semester, and the term length follows R8's order.",
+  "Tenure clock: Art. 17.5 excludes any leave semester from tenure credit unless both parties agree (c12, general purpose); the PPL procedures and signed form instead stop the clock only on request (c14, flagged conflicting_sources); 15.1(b)(3) allows a discretionary stop of up to two years for medical or related reasons (c13).",
+  "Not components: compulsory leave (17.10(c); imposed by the Provost when an employee cannot work, not a leave a parent requests; up to one year, paid from accrued leave or unpaid); sabbatical and study leave (professional development); union leave and released time; military, jury, holiday and investigation leave; job-related illness (workers' compensation).",
+  "Cited but not saved: STD and LTD plan provisions (17.8(c)3); University FMLA policies (17.7); sick leave pool rules (pool named in 17.10(a)(2), terms only in the handbook); University policy on jury, military and other administrative leaves (17.12); Provost memoranda (handbook); University Regulations (handbook); 2012-2015 agreement (handbook list; superseded).",
+  "Statutory baseline: FMLA (US) -> c4, verified against statute texts 2026_00 and 2026_01; Federal Employee Paid Leave Act not applicable. Florida has no rows in the baseline table and the documents name no Florida leave statute."
+ ],
+ "statutory_floor": {
+  "jurisdiction": "US",
+  "year": "2018",
+  "weeks_birth": 12.0,
+  "weeks_nonbirth": 12.0,
+  "statute": "Family and Medical Leave Act (FMLA) (29 U.S.C. 2611-2612)",
+  "source_doc": "2026_00_us_fmla_29usc2612",
+  "table": "statutory_baseline.csv"
+ }
+}

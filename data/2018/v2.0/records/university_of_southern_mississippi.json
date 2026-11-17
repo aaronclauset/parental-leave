@@ -1,0 +1,942 @@
+{
+ "institution": "University of Southern Mississippi",
+ "slug": "university_of_southern_mississippi",
+ "country": "US",
+ "model": "claude-opus-5-5",
+ "codebook_version": "1.25",
+ "schema_version": "1.25",
+ "reference_date": "2018-03-13",
+ "calendar": {
+  "term_weeks": null,
+  "note": "Semesters stated without a length (Faculty Handbook 4.4: 'The expected undergraduate teaching load for full-time members of the Corps of Instruction is four (4) courses or twelve (12) credit hours per semester, or the equivalent, for the fall and spring semesters.'); semester default (R8).",
+  "kind": "semester"
+ },
+ "documents": [
+  {
+   "doc_id": "2018_00_hr_faculty_staff_policy_handbooks",
+   "url": "https://www.usm.edu/employment-hr/facultystaff-policy",
+   "title": "Faculty/Staff policy (USM Human Resources page)",
+   "version_or_effective_date": "Wayback capture 2017-07-03; page footer '© 1995 - 2017'",
+   "retrieved": "2026-10-21"
+  },
+  {
+   "doc_id": "2018_01_faculty_handbook_2017_10-27-17",
+   "url": "https://www.usm.edu/sites/default/files/groups/office-provost/pdf/2017_faculty_handbook_10-27-17.pdf",
+   "title": "The University of Southern Mississippi 2017-2018 Faculty Handbook",
+   "version_or_effective_date": "Effective August 2017 (cover notice); file dated 10-27-17; Wayback capture 2022-01-20",
+   "retrieved": "2026-10-21"
+  },
+  {
+   "doc_id": "2018_02_ihl_board_policies_bylaws",
+   "url": "http://www.mississippi.edu:80/board/downloads/policiesandbylaws.pdf",
+   "title": "Board of Trustees, Institutions of Higher Learning, State of Mississippi: Policies and Bylaws",
+   "version_or_effective_date": "Amended through June 15, 2017; Wayback capture 2017-09-09",
+   "retrieved": "2026-10-21"
+  }
+ ],
+ "missing": false,
+ "scope_accounting": {
+  "C1": {
+   "absent": {
+    "documents": [
+     "2018_00_hr_faculty_staff_policy_handbooks",
+     "2018_01_faculty_handbook_2017_10-27-17",
+     "2018_02_ihl_board_policies_bylaws"
+    ],
+    "terms": [
+     "maternity",
+     "paternity",
+     "parental",
+     "childbirth",
+     "childbearing",
+     "adoption",
+     "foster",
+     "newborn",
+     "infant",
+     "birth",
+     "family leave"
+    ]
+   }
+  },
+  "C2": {
+   "absent": {
+    "documents": [
+     "2018_00_hr_faculty_staff_policy_handbooks",
+     "2018_01_faculty_handbook_2017_10-27-17",
+     "2018_02_ihl_board_policies_bylaws"
+    ],
+    "terms": [
+     "modified duties",
+     "teaching relief",
+     "course release",
+     "reassigned time",
+     "reduced load",
+     "release time"
+    ]
+   }
+  },
+  "C3": {
+   "components": [
+    "university_of_southern_mississippi_c1",
+    "university_of_southern_mississippi_c2",
+    "university_of_southern_mississippi_c3"
+   ]
+  },
+  "C4": {
+   "components": [
+    "university_of_southern_mississippi_c1",
+    "university_of_southern_mississippi_c3"
+   ],
+   "not_components": [
+    {
+     "statute": "Family and Medical Leave Act (FMLA)",
+     "reason": "Not named in any saved document; searched 'FMLA', 'Family and Medical'. The statutory floor applies (U7), not coded here."
+    },
+    {
+     "statute": "Miss. Code Ann. §25-3-95 (personal and major medical leave)",
+     "reason": "Relied on by IHL 802, 803 and 805.04; its leave is coded from the Board policy text as c1 (major medical leave) and c2 (personal leave). Statute text not saved."
+    },
+    {
+     "statute": "Miss. Code Ann. §25-3-97 (disability leave)",
+     "reason": "Cited as authority for IHL 804; the leave is coded from the Board policy text as c3. Statute text not saved."
+    },
+    {
+     "statute": "Miss. Code Ann. §25-3-93 (payment for unused personal leave)",
+     "reason": "Terminal pay for unused leave on separation (IHL 801.10, 804.02); no leave, pay or protection for becoming a parent."
+    },
+    {
+     "statute": "Miss. Code Ann. §25-3-92 (administrative leave)",
+     "reason": "Administrative leave with pay for jury or witness service and extreme weather (IHL 805.01-805.03); a parent cannot use it for a birth."
+    },
+    {
+     "statute": "Miss. Code Ann. §33-1-21 (military leave)",
+     "reason": "Military leave (IHL 805.05); unrelated to becoming a parent."
+    },
+    {
+     "statute": "29 USCS §706(8) (Rehabilitation Act) and the Americans with Disabilities Act",
+     "reason": "Disability nondiscrimination (IHL 801.02; Faculty Handbook 3.8.1-3.8.2); disability-accommodation statutes are not components (U4)."
+    },
+    {
+     "statute": "Fair Labor Standards Act; Title IV, Title VII and Title IX; Family Educational Rights and Privacy Act (Buckley Amendment); Drug-Free Workplace Act of 1988 and Drug-Free Schools and Communities Act Amendments of 1989; Higher Education Opportunity Act §133; 34 C.F.R. §668",
+     "reason": "Wage-hour, nondiscrimination and harassment, student records, drug-free workplace, textbook and copyright rules; none gives leave, pay or protection for becoming a parent."
+    },
+    {
+     "statute": "Miss. Code Ann. §§37-101-181 and 37-101-183 (educational and sabbatical leave); §25-11-109(8) (PERS credit for professional leave)",
+     "reason": "Academic leaves for study, credentials, professional employment and sabbatical (IHL 408; Faculty Handbook 6.2); for professional improvement, not usable for a birth."
+    },
+    {
+     "statute": "Miss. Code Ann. §25-3-95 as cited in IHL 805.04 (death in the family)",
+     "reason": "Use of major medical leave for a death in the family; bereavement leave is not a component (checklist §1)."
+    },
+    {
+     "statute": "Mississippi Constitution (Art. IV §109; Art. VI §175; Art. VIII §213-A) and Miss. Code Ann. governance, finance, admissions, ethics, retirement, records, tort and property provisions (incl. §§1-3-41, 7-7-27, 7-9-41, 7-9-43, 11-46-11, 11-46-15, 11-46-17, 25-1-15, 25-1-53, 25-3-41, 25-4-101 et seq., 25-4-105, 25-4-109, 25-5-1, 25-11-401, 25-15-3, 25-41-1, 25-41-11, 25-43-2.103, 25-61-1 to -17, 27-105-33, 31-101-1, 37-101-1 to 37-101-15, 37-101-30, 37-101-41, 37-101-61, 37-101-63, 37-102-1 to 37-102-15, 37-103-3 to 37-103-21, 37-105-1, 37-147-15, 63-23-1, 71-3-5, 79-11-269, 79-11-601, 97-7-10; Mississippi University Research Act of 1992; Uniform Management of Institutional Funds Act)",
+     "reason": "Board organisation, finance, admissions, tuition, ethics, nepotism, retirement plans, public records, tort claims and property law; none concerns leave, pay or protection for becoming a parent."
+    }
+   ]
+  },
+  "C5": {
+   "absent": {
+    "documents": [
+     "2018_00_hr_faculty_staff_policy_handbooks",
+     "2018_01_faculty_handbook_2017_10-27-17",
+     "2018_02_ihl_board_policies_bylaws"
+    ],
+    "terms": [
+     "family member",
+     "care of",
+     "ill family",
+     "immediate family",
+     "family leave",
+     "FMLA"
+    ]
+   }
+  },
+  "C6": {
+   "components": [
+    "university_of_southern_mississippi_c2",
+    "university_of_southern_mississippi_c4"
+   ]
+  },
+  "C7": {
+   "components": [
+    "university_of_southern_mississippi_c5"
+   ]
+  },
+  "C8": {
+   "absent": {
+    "documents": [
+     "2018_00_hr_faculty_staff_policy_handbooks",
+     "2018_01_faculty_handbook_2017_10-27-17",
+     "2018_02_ihl_board_policies_bylaws"
+    ],
+    "terms": [
+     "part-time",
+     "reduced appointment",
+     "phased return",
+     "FTE"
+    ]
+   }
+  },
+  "C9": {
+   "absent": {
+    "documents": [
+     "2018_00_hr_faculty_staff_policy_handbooks",
+     "2018_01_faculty_handbook_2017_10-27-17",
+     "2018_02_ihl_board_policies_bylaws"
+    ],
+    "terms": [
+     "pregnancy",
+     "pregnant",
+     "accommodation",
+     "hazard",
+     "transfer to a less strenuous"
+    ]
+   }
+  },
+  "C10": {
+   "absent": {
+    "documents": [
+     "2018_00_hr_faculty_staff_policy_handbooks",
+     "2018_01_faculty_handbook_2017_10-27-17",
+     "2018_02_ihl_board_policies_bylaws"
+    ],
+    "terms": [
+     "FMLA",
+     "first days",
+     "regular work time",
+     "qualifying absence"
+    ]
+   }
+  }
+ },
+ "passage_dispositions": {
+  "2018_01_faculty_handbook_2017_10-27-17#001": {
+   "not_relevant": "Table of contents (chapters 5-6); no provision."
+  },
+  "2018_01_faculty_handbook_2017_10-27-17#002": {
+   "not_relevant": "Table of contents (9.6 tenure requirements); the deferral itself is coded from 9.6.6 (c5)."
+  },
+  "2018_01_faculty_handbook_2017_10-27-17#003": {
+   "not_relevant": "2.9-2.10 duties of deans and chairs; no leave provision."
+  },
+  "2018_01_faculty_handbook_2017_10-27-17#004": {
+   "not_relevant": "6.1-6.2 academic leaves (study, credentials, professional, sabbatical): for professional development, not usable for a birth."
+  },
+  "2018_01_faculty_handbook_2017_10-27-17#005": {
+   "not_relevant": "6.2.5 sabbatical leave terms; for professional improvement only."
+  },
+  "2018_01_faculty_handbook_2017_10-27-17#006": {
+   "not_relevant": "6.3 academic leave application process; no parental provision."
+  },
+  "2018_01_faculty_handbook_2017_10-27-17#007": {
+   "not_relevant": "6.6 free courses for employees."
+  },
+  "2018_01_faculty_handbook_2017_10-27-17#008": {
+   "not_relevant": "7.6 political activities (leave without pay for political activity); not usable for a birth."
+  },
+  "2018_01_faculty_handbook_2017_10-27-17#009": {
+   "not_relevant": "7.8 harassment policy."
+  },
+  "2018_01_faculty_handbook_2017_10-27-17#010": {
+   "not_relevant": "8.3.4 departmental personnel committee functions."
+  },
+  "2018_01_faculty_handbook_2017_10-27-17#011": {
+   "not_relevant": "8.4.7 periodic review of chairs."
+  },
+  "2018_01_faculty_handbook_2017_10-27-17#012": {
+   "not_relevant": "3.9 hiring and chapter 9 introduction; no leave provision."
+  },
+  "2018_01_faculty_handbook_2017_10-27-17#013": {
+   "not_relevant": "9.3.3 advisory officers in personnel actions."
+  },
+  "2018_01_faculty_handbook_2017_10-27-17#014": {
+   "not_relevant": "9.6.1-9.6.2 tenure authority and definition; context for c5 only."
+  },
+  "2018_01_faculty_handbook_2017_10-27-17#015": {
+   "used_in": [
+    "university_of_southern_mississippi_c5"
+   ]
+  },
+  "2018_01_faculty_handbook_2017_10-27-17#016": {
+   "not_relevant": "9.7.1 tenure committee membership."
+  },
+  "2018_01_faculty_handbook_2017_10-27-17#017": {
+   "not_relevant": "9.7.1 pre-tenure review; no clock provision."
+  },
+  "2018_01_faculty_handbook_2017_10-27-17#018": {
+   "not_relevant": "10.1.1 termination for cause (leave without pay pending termination); not a parental provision."
+  },
+  "2018_01_faculty_handbook_2017_10-27-17#019": {
+   "not_relevant": "Summary of changes 2012-13 (tenure year, negation of transferred credit); no parental provision."
+  },
+  "2018_01_faculty_handbook_2017_10-27-17#020": {
+   "not_relevant": "Summary of changes 2015-16 (probationary credit); no parental provision."
+  },
+  "2018_01_faculty_handbook_2017_10-27-17#021": {
+   "not_relevant": "Index."
+  },
+  "2018_01_faculty_handbook_2017_10-27-17#022": {
+   "not_relevant": "Index (tenure entries, incl. 'Deferral'); provision coded from 9.6.6 (c5)."
+  },
+  "2018_01_faculty_handbook_2017_10-27-17#023": {
+   "not_relevant": "Index."
+  },
+  "2018_02_ihl_board_policies_bylaws#001": {
+   "not_relevant": "Table of contents (800 personnel policies); provisions coded from the sections themselves."
+  },
+  "2018_02_ihl_board_policies_bylaws#002": {
+   "not_relevant": "201.0201 duties of the Commissioner."
+  },
+  "2018_02_ihl_board_policies_bylaws#003": {
+   "not_relevant": "201.0302 procedures for changing Board policies."
+  },
+  "2018_02_ihl_board_policies_bylaws#004": {
+   "not_relevant": "401.0101 statute on contracting with faculty."
+  },
+  "2018_02_ihl_board_policies_bylaws#005": {
+   "not_relevant": "402.03 promotion criteria."
+  },
+  "2018_02_ihl_board_policies_bylaws#006": {
+   "not_relevant": "405-408.03 grievances, evaluation, graduate study, upgrading credentials and sabbatical qualifications; not usable for a birth."
+  },
+  "2018_02_ihl_board_policies_bylaws#007": {
+   "not_relevant": "408.03 sabbatical contractual terms."
+  },
+  "2018_02_ihl_board_policies_bylaws#008": {
+   "not_relevant": "408.03 sabbatical quota and 408.04 professional leave."
+  },
+  "2018_02_ihl_board_policies_bylaws#009": {
+   "not_relevant": "408.04 professional leave service credit."
+  },
+  "2018_02_ihl_board_policies_bylaws#010": {
+   "not_relevant": "611 residency of military dependents (students)."
+  },
+  "2018_02_ihl_board_policies_bylaws#011": {
+   "not_relevant": "611 student residency during a medical withdrawal; students, not employees."
+  },
+  "2018_02_ihl_board_policies_bylaws#012": {
+   "not_relevant": "617 textbook policy."
+  },
+  "2018_02_ihl_board_policies_bylaws#013": {
+   "not_relevant": "703.04 student financial aid criteria."
+  },
+  "2018_02_ihl_board_policies_bylaws#014": {
+   "not_relevant": "801.09-801.12 resignations, terminal pay for unused leave, political activity leave without pay, optional retirement; not parental provisions."
+  },
+  "2018_02_ihl_board_policies_bylaws#015": {
+   "not_relevant": "801.15 staff and dependent tuition waivers."
+  },
+  "2018_02_ihl_board_policies_bylaws#016": {
+   "used_in": [
+    "university_of_southern_mississippi_c1",
+    "university_of_southern_mississippi_c2",
+    "university_of_southern_mississippi_c3"
+   ]
+  },
+  "2018_02_ihl_board_policies_bylaws#017": {
+   "used_in": [
+    "university_of_southern_mississippi_c4"
+   ]
+  },
+  "2018_02_ihl_board_policies_bylaws#018": {
+   "not_relevant": "Index."
+  },
+  "2018_02_ihl_board_policies_bylaws#019": {
+   "not_relevant": "Index."
+  },
+  "2018_02_ihl_board_policies_bylaws#020": {
+   "not_relevant": "Index."
+  }
+ },
+ "mechanism_slots": {
+  "employer_paid_leave": {
+   "absent": "No employer-paid leave for a birth or adoption; searched all three sources for 'paid leave', 'with pay', 'maternity', 'parental', 'childbirth'. Paid administrative leave (jury, weather) and sabbatical are not usable for a birth."
+  },
+  "employer_childbirth_benefit": {
+   "absent": "No childbirth-specific period with length and pay (V1); childbearing appears only within the general disability leave (c3). Searched 'childbearing', 'maternity', 'childbirth'."
+  },
+  "generic_sick_or_disability_plan": {
+   "absent": "No employer sick-pay allotment, short- or long-term disability plan or salary continuation in the saved sources; searched 'disability', 'sick', 'salary continuation', 'insurance'. Sick pay is the employee's accrued major medical leave (c1)."
+  },
+  "own_accrual": {
+   "components": [
+    "university_of_southern_mississippi_c1",
+    "university_of_southern_mississippi_c2"
+   ]
+  },
+  "donated_leave": {
+   "absent": "No leave bank or donated leave; searched 'donat', 'bank', 'shared leave', 'transfer of accrued leave' (IHL 805.07 is transfer between state agencies, not donation)."
+  },
+  "government_benefit": {
+   "absent": "No government or state benefit named; searched 'benefit', 'state program', 'insurance'. IHL 711.04 State Employee Health and Life Program is health/life insurance, not leave pay."
+  },
+  "employer_topup": {
+   "absent": "No top-up of any government benefit; searched 'top-up', 'supplement'."
+  },
+  "modified_duties": {
+   "absent": "No modified duties or teaching relief for parents; searched 'modified duties', 'relief', 'reassigned time', 'course release' (Faculty Handbook 4.4 and 5.6.3 reassigned time is for research, service and administration)."
+  },
+  "unpaid_leave": {
+   "components": [
+    "university_of_southern_mississippi_c3",
+    "university_of_southern_mississippi_c4"
+   ]
+  },
+  "tenure_clock": {
+   "components": [
+    "university_of_southern_mississippi_c5"
+   ]
+  },
+  "part_time_option": {
+   "absent": "No part-time or reduced appointment option; searched 'part-time', 'reduced', 'FTE'."
+  },
+  "other": {
+   "absent": "No pregnancy accommodation, hazard programme or equal-treatment provision with a pregnancy reference; searched 'pregnan', 'accommodation'."
+  }
+ },
+ "baseline_accounting": {
+  "Family and Medical Leave Act (FMLA)": {
+   "absent": "No saved document mentions it (searched 'FMLA', 'Family and Medical'). The statutory floor (U7) is filled from statutory_baseline.csv."
+  },
+  "Federal Employee Paid Leave Act (paid parental leave for federal civilian employees)": {
+   "not_applicable": "Applies to federal civilian employees, not university employees; no saved document mentions it."
+  },
+  "Mississippi paid parental leave for state employees": {
+   "not_applicable": "A 2025 act effective 2026-01-01, after the reference date 2018-03-13; no saved document mentions it."
+  }
+ },
+ "leave_limits": [],
+ "components": [
+  {
+   "component_id": "university_of_southern_mississippi_c1",
+   "institution_label": "MAJOR MEDICAL LEAVE",
+   "description": "Accrued major medical leave of state employees (IHL Board Policy 803, administered under state statute), which pays a temporary disability absence, childbearing included, from the employee's own balance during the IHL 804 disability leave. Accrual rates are set by statute and are not in the saved documents.",
+   "mechanism": "own_accrual",
+   "mechanism_note": "An accrued balance administered 'in accordance with state statute'; no childbirth-specific period or length is stated, so V1 does not make it a childbirth benefit; pay from the employee's own balance (R1, R1b).",
+   "payer": "own_balance",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "IHL 803 applies to institutional employees; the Faculty Handbook refers to faculty absences on 'earned major medical leave', and IHL 804.03 speaks of nine-month faculty with 'accrued personal and major medical leave'.",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "temporary sickness or disability; 'Leave necessary for the purpose of childbearing is included in this policy' (IHL 804.01)",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "entitlement_note": "The balance is the employee's accrued leave, administered 'in accordance with state statute'; no approval language governs its use for a covered disability. Its use for childbearing comes through IHL 804, whose leave status is discretionary (c3).",
+   "sequence": [
+    {
+     "relation": "within",
+     "component_id": "university_of_southern_mississippi_c3",
+     "note": "IHL 804 covers 'leave with or without pay' for a temporary disability; the accrued balance pays the disability absence, and the unpaid leave 'accompanies' it. The text does not fix the order; the balance is placed at the start of the disability leave. A balance of unknown length adds no weeks."
+    }
+   ],
+   "rule_applied": [
+    "R1",
+    "R1b",
+    "V1",
+    "U5",
+    "U6"
+   ],
+   "flags": [
+    "statutory_detail_not_in_sources: Miss. Code Ann. §25-3-95 (accrual and use of major medical leave)",
+    "cross_reference_not_saved: USM Employee Handbook (linked from the HR Faculty/Staff policy page as 'Employee Handbook (PDF)'; not saved)",
+    "ambiguous: restriction: nine-month faculty are not continued on paid leave status after the contract period ends, nor placed on paid leave status for a disability between academic years (IHL 804.03)"
+   ],
+   "evidence": {
+    "mechanism": [
+     "The department or office head will maintain and certify major medical leave records and administer the leave in accordance with state statute."
+    ],
+    "payer": [
+     "The department or office head will maintain and certify major medical leave records and administer the leave in accordance with state statute."
+    ],
+    "faculty_group": [
+     "Absences due to earned personal leave, earned major medical leave, and other approved leaves of absence are not regarded as breaks in continuous employment.",
+     "If any nine-month faculty member becomes temporarily disabled prior to the end of a contract period but has accrued personal and major medical leave, he or she is not eligible to be continued on a paid leave status after the end of the contract period if the contract ends prior to using all earned leave days."
+    ],
+    "eligible_parent": [
+     "Leave necessary for the purpose of childbearing is included in this policy.",
+     "This policy describes employee entitlement, including leave with or without pay, for such temporary sickness or disabilities."
+    ],
+    "entitlement": [
+     "The department or office head will maintain and certify major medical leave records and administer the leave in accordance with state statute."
+    ],
+    "sequence": [
+     "This policy describes employee entitlement, including leave with or without pay, for such temporary sickness or disabilities.",
+     "Any regular full-time employee who has successfully completed the respective institution's or agency's probation period and who suffers temporary sickness or disability, thus making him or her unable to perform assigned duties, may be granted a leave of absence without pay for a reasonable time, but not to extend normally beyond a twelve-month period, to accompany the combined accrued personal and major medical leave."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_ihl_board_policies_bylaws",
+    "2018_01_faculty_handbook_2017_10-27-17"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "own_accrual",
+     "quote": "The department or office head will maintain and certify major medical leave records and administer the leave in accordance with state statute."
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "own_balance",
+     "quote": "The department or office head will maintain and certify major medical leave records and administer the leave in accordance with state statute."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "It is the intention of this policy and its entitlement to provide leave for any temporary disability occurrence that normally has a reasonably predictable time frame, encompassing an onset and an end of the condition."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Absences due to earned personal leave, earned major medical leave, and other approved leaves of absence are not regarded as breaks in continuous employment."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own disability; childbearing named)",
+     "quote": "Leave necessary for the purpose of childbearing is included in this policy."
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "The department or office head will maintain and certify major medical leave records and administer the leave in accordance with state statute."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "within c3 (pay from the balance during the disability leave; order not stated)",
+     "quote": "This policy describes employee entitlement, including leave with or without pay, for such temporary sickness or disabilities."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_southern_mississippi_c2",
+   "institution_label": "PERSONAL LEAVE",
+   "description": "Accrued personal leave (IHL Board Policy 802) usable for vacation and personal business and required for the first day of an illness; faculty on nine-month contracts are not eligible for it.",
+   "mechanism": "own_accrual",
+   "mechanism_note": "An accrued balance administered under state statute (Miss. Code Ann. §25-3-95), for vacation, personal business and the first day of illness.",
+   "payer": "own_balance",
+   "faculty_group": "employees other than faculty on nine-month contracts (staff and twelve-month appointees)",
+   "faculty_group_note": "IHL 802.02: 'Faculty members employed by the eight (8) public universities on a nine-month contract shall not be eligible for personal leave.' Corps of Instruction contracts are normally nine months (Faculty Handbook 3.11.5).",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "no role words; 'vacation and personal business'",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "'may be used for vacation and personal business': the employee's option on an accrued balance (V2); approval wording not stated.",
+   "rule_applied": [
+    "R1",
+    "U1",
+    "V2"
+   ],
+   "flags": [
+    "general_purpose",
+    "excludes_main_faculty",
+    "statutory_detail_not_in_sources: Miss. Code Ann. §25-3-95 (accrual and use of personal leave)",
+    "cross_reference_not_saved: USM Employee Handbook (linked from the HR Faculty/Staff policy page as 'Employee Handbook (PDF)'; not saved)"
+   ],
+   "evidence": {
+    "mechanism": [
+     "The department or office head will maintain and certify personal leave records and administer the leave in accordance with state statute."
+    ],
+    "payer": [
+     "The department or office head will maintain and certify personal leave records and administer the leave in accordance with state statute."
+    ],
+    "faculty_group": [
+     "Faculty members employed by the eight (8) public universities on a nine-month contract shall not be eligible for personal leave.",
+     "Employment contracts issued to members of the Corps of Instruction are normally of nine (9) months’ duration, extending from the commencement of the fall semester (mid- to late August) until the conclusion of the spring semester (early to mid-May)."
+    ],
+    "eligible_parent": [
+     "Personal leave may be used for vacation and personal business and shall be used for the first day of an employee's illness."
+    ],
+    "entitlement": [
+     "Personal leave may be used for vacation and personal business and shall be used for the first day of an employee's illness."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_ihl_board_policies_bylaws",
+    "2018_01_faculty_handbook_2017_10-27-17"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "own_accrual",
+     "quote": "The department or office head will maintain and certify personal leave records and administer the leave in accordance with state statute."
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "own_balance",
+     "quote": "The department or office head will maintain and certify personal leave records and administer the leave in accordance with state statute."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "Personal leave may be used for vacation and personal business and shall be used for the first day of an employee's illness."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "employees other than faculty on nine-month contracts (staff and twelve-month appointees)",
+     "quote": "Faculty members employed by the eight (8) public universities on a nine-month contract shall not be eligible for personal leave."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent (no role words)",
+     "quote": "Personal leave may be used for vacation and personal business and shall be used for the first day of an employee's illness."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "Personal leave may be used for vacation and personal business and shall be used for the first day of an employee's illness."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_southern_mississippi_c3",
+   "institution_label": "DISABILITY LEAVE",
+   "description": "IHL Board Policy 804: a regular full-time employee unable to work because of a temporary sickness or disability, childbearing included, may be granted a leave of absence without pay, normally not beyond twelve months, together with accrued personal and major medical leave, with return to the same or an equivalent position.",
+   "mechanism": "unpaid_leave",
+   "mechanism_note": "A leave of absence for the employee's own temporary disability, granted without pay; any pay comes from the accrued balance (c1) within it (U6 structure). Cites Miss. Code Ann. §25-3-97 (not saved).",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "'Any regular full-time employee'; IHL 804.03 applies the policy to nine-month faculty members.",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "'temporary sickness or disability'; 'Leave necessary for the purpose of childbearing is included in this policy.'",
+   "caregiver_condition": "none",
+   "service_requirement": "regular full-time employee who has successfully completed the institution's probation period (length not stated)",
+   "entitlement": "discretionary",
+   "entitlement_note": "804.02 (headed 'ENTITLEMENT') says the leave 'may be granted'; 804.01 says the policy 'describes employee entitlement' and disclaims an entitlement for frequent absentees. The specific grant wording governs (source precedence): the approval decides whether there is a leave (V2).",
+   "duration": {
+    "value": 12,
+    "units": "month",
+    "qualifier": "up_to"
+   },
+   "duration_note": "'for a reasonable time, but not to extend normally beyond a twelve-month period' (Q1: 'normally' kept here); runs together with the accrued balance.",
+   "medical_certification": true,
+   "medical_certification_note": "beginning and ending dates of disability determined by the employee's physician, possibly approved by the institution's health service; physician's statement of ability to resume work on return",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "relief_note": "Leave of absence; relief not stated (R9).",
+   "rule_applied": [
+    "U5",
+    "U6",
+    "V2",
+    "Q1",
+    "R13",
+    "R9",
+    "R11"
+   ],
+   "flags": [
+    "cross_reference_not_saved: Miss. Code Ann. §25-3-97 (cited as authority for IHL 804; statute text not saved)",
+    "cross_reference_not_saved: USM Employee Handbook (linked from the HR Faculty/Staff policy page as 'Employee Handbook (PDF)'; not saved)",
+    "ambiguous: entitlement: 804.02 is headed 'ENTITLEMENT' and 804.01 says the policy 'describes employee entitlement', but the grant reads 'may be granted'; coded discretionary",
+    "own_illness_leave"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Any regular full-time employee who has successfully completed the respective institution's or agency's probation period",
+     "If any nine-month faculty member becomes temporarily disabled between the end of one academic year and the beginning of another (during the interim the employee is not teaching), he or she is not eligible for paid leave status."
+    ],
+    "eligible_parent": [
+     "Leave necessary for the purpose of childbearing is included in this policy."
+    ],
+    "entitlement": [
+     "Any regular full-time employee who has successfully completed the respective institution's or agency's probation period and who suffers temporary sickness or disability, thus making him or her unable to perform assigned duties, may be granted a leave of absence without pay for a reasonable time, but not to extend normally beyond a twelve-month period, to accompany the combined accrued personal and major medical leave.",
+     "This policy describes employee entitlement, including leave with or without pay, for such temporary sickness or disabilities.",
+     "This policy does not guarantee an entitlement for any employee who is absent from work on a frequent and/or regular basis and whose attendance habits are such that the employee fails to accomplish assigned job responsibilities."
+    ],
+    "duration": [
+     "may be granted a leave of absence without pay for a reasonable time, but not to extend normally beyond a twelve-month period"
+    ],
+    "service_requirement": [
+     "Any regular full-time employee who has successfully completed the respective institution's or agency's probation period"
+    ],
+    "medical_certification": [
+     "The beginning date of disability will be determined by the employee's physician and, at the discretion of the institution, may have to be approved by the institution's health service."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_ihl_board_policies_bylaws"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "U6",
+     "answer": "unpaid_leave",
+     "quote": "Any regular full-time employee who has successfully completed the respective institution's or agency's probation period and who suffers temporary sickness or disability, thus making him or her unable to perform assigned duties, may be granted a leave of absence without pay for a reasonable time, but not to extend normally beyond a twelve-month period, to accompany the combined accrued personal and major medical leave."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "may be granted a leave of absence without pay for a reasonable time, but not to extend normally beyond a twelve-month period"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "It is the intention of this policy and its entitlement to provide leave for any temporary disability occurrence that normally has a reasonably predictable time frame, encompassing an onset and an end of the condition."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Any regular full-time employee who has successfully completed the respective institution's or agency's probation period"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own disability; childbearing named)",
+     "quote": "Leave necessary for the purpose of childbearing is included in this policy."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "may be granted a leave of absence without pay for a reasonable time, but not to extend normally beyond a twelve-month period"
+    },
+    {
+     "field": "entitlement",
+     "rule": "source_precedence",
+     "answer": "discretionary",
+     "quote": "This policy describes employee entitlement, including leave with or without pay, for such temporary sickness or disabilities."
+    },
+    {
+     "field": "duration",
+     "rule": "Q1",
+     "answer": "12 month up_to ('not to extend normally beyond')",
+     "quote": "may be granted a leave of absence without pay for a reasonable time, but not to extend normally beyond a twelve-month period"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "completion of the institution's probation period; regular full-time",
+     "quote": "Any regular full-time employee who has successfully completed the respective institution's or agency's probation period"
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave; relief not stated)",
+     "quote": "Any regular full-time employee who has successfully completed the respective institution's or agency's probation period and who suffers temporary sickness or disability, thus making him or her unable to perform assigned duties, may be granted a leave of absence without pay for a reasonable time, but not to extend normally beyond a twelve-month period, to accompany the combined accrued personal and major medical leave."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_southern_mississippi_c4",
+   "institution_label": "LEAVE WITHOUT PAY",
+   "description": "IHL Board Policy 805.06: leave without pay for personal business, arranged with the department head and approved by the President (Institutional Executive Officer); no length stated.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "IHL miscellaneous leave policy for institutional employees; no group restriction stated.",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "no role words; 'attending to personal business'",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "entitlement_note": "'may be arranged ... subject to approval by the Institutional Executive Officer': the approval decides whether there is a leave (V2).",
+   "duration_note": "No length stated.",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "relief_note": "Leave without pay; relief not stated (R9).",
+   "rule_applied": [
+    "U1",
+    "V2",
+    "R9"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Leave without pay for attending to personal business may be arranged with the department head, subject to approval by the Institutional Executive Officer."
+    ],
+    "eligible_parent": [
+     "Leave without pay for attending to personal business may be arranged with the department head, subject to approval by the Institutional Executive Officer."
+    ],
+    "entitlement": [
+     "Leave without pay for attending to personal business may be arranged with the department head, subject to approval by the Institutional Executive Officer."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_ihl_board_policies_bylaws"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "Leave without pay for attending to personal business may be arranged with the department head, subject to approval by the Institutional Executive Officer."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Leave without pay for attending to personal business may be arranged with the department head, subject to approval by the Institutional Executive Officer."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "Leave without pay for attending to personal business may be arranged with the department head, subject to approval by the Institutional Executive Officer."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Leave without pay for attending to personal business may be arranged with the department head, subject to approval by the Institutional Executive Officer."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent (no role words)",
+     "quote": "Leave without pay for attending to personal business may be arranged with the department head, subject to approval by the Institutional Executive Officer."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "Leave without pay for attending to personal business may be arranged with the department head, subject to approval by the Institutional Executive Officer."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave; relief not stated)",
+     "quote": "Leave without pay for attending to personal business may be arranged with the department head, subject to approval by the Institutional Executive Officer."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_southern_mississippi_c5",
+   "institution_label": "Deferral",
+   "description": "Faculty Handbook 9.6.6: at the candidate's request, and on the advice of chair, dean and Provost, the President may defer the tenure recommendation from the sixth year to the seventh year of employment or later; no purpose is stated.",
+   "mechanism": "tenure_clock",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "tenure-track faculty of professorial rank, normally recommended for tenure in the sixth year (Faculty Handbook 9.6.4)",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "no role words; 'At the request of a candidate'",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "entitlement_note": "'the President may defer': the President's decision settles whether there is a deferral (V2).",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "at_least"
+   },
+   "duration_note": "Deferral 'to the seventh (7th) year of employment or later' from the normal sixth-year recommendation: one year, or longer.",
+   "rule_applied": [
+    "U1",
+    "V2",
+    "R10"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Beginning with appointment to any professorial rank, a faculty member may be recommended for tenure in his/her sixth year of full-time employment with the university"
+    ],
+    "eligible_parent": [
+     "At the request of a candidate and upon the advice of a candidate's department chair, college dean, and the Provost, the President may defer the tenure recommendation to the seventh (7th) year of employment or later."
+    ],
+    "entitlement": [
+     "At the request of a candidate and upon the advice of a candidate's department chair, college dean, and the Provost, the President may defer the tenure recommendation to the seventh (7th) year of employment or later."
+    ],
+    "duration": [
+     "the President may defer the tenure recommendation to the seventh (7th) year of employment or later",
+     "Exceptions include a deferral of the tenure recommendation (see Section 9.6.6)"
+    ]
+   },
+   "doc_ids": [
+    "2018_01_faculty_handbook_2017_10-27-17"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "At the request of a candidate and upon the advice of a candidate's department chair, college dean, and the Provost, the President may defer the tenure recommendation to the seventh (7th) year of employment or later."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "At the request of a candidate and upon the advice of a candidate's department chair, college dean, and the Provost, the President may defer the tenure recommendation to the seventh (7th) year of employment or later."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Beginning with appointment to any professorial rank, a faculty member may be recommended for tenure in his/her sixth year of full-time employment with the university"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent (no role words; no purpose stated)",
+     "quote": "At the request of a candidate and upon the advice of a candidate's department chair, college dean, and the Provost, the President may defer the tenure recommendation to the seventh (7th) year of employment or later."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "At the request of a candidate and upon the advice of a candidate's department chair, college dean, and the Provost, the President may defer the tenure recommendation to the seventh (7th) year of employment or later."
+    },
+    {
+     "field": "duration",
+     "rule": "R10",
+     "answer": "1 year at_least (seventh year 'or later')",
+     "quote": "the President may defer the tenure recommendation to the seventh (7th) year of employment or later"
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "Reference date 2018-03-13; reference period academic year 2017-18.",
+  "2018_00_hr_faculty_staff_policy_handbooks: an HR navigation page that holds no policy; it links an 'Employee Handbook (PDF)', a 'Faculty Handbook' and other documents. The Faculty Handbook is saved; the Employee Handbook is not.",
+  "2018_01_faculty_handbook_2017_10-27-17: the 2017-2018 Faculty Handbook (effective August 2017). It contains no parental, maternity, family or medical leave provision of its own; it refers to leaves to which employees are entitled 'under the terms of contracted employment, i.e., annual leave, medical leave' (6.2.1) and to the USM Employee Handbook for benefits. Coded from it: tenure deferral 9.6.6 (c5). Academic leaves (6.2) are for professional development only.",
+  "2018_02_ihl_board_policies_bylaws: IHL Board Policies and Bylaws amended through 2017-06-15, which control the USM handbooks. Its personnel leave policies are coded: 802 personal leave (c2; nine-month faculty excluded), 803 major medical leave (c1), 804 disability leave incl. childbearing (c3), 805.06 leave without pay (c4). No FMLA, maternity, paternity, parental or adoption provision appears in any saved source.",
+  "missing: false. The rule for records with no governing document (reader instructions §3) does not apply: the saved IHL Board Policies set faculty leave (804 disability leave, including childbearing, applies to 'any regular full-time employee' and 804.03 addresses nine-month faculty), and the Faculty Handbook is a governing faculty handbook. The governing USM leave document most likely missing is the USM Employee Handbook (cross_reference_not_saved), which the handbook cites for benefits; any USM FMLA or parental-leave policy would probably be there.",
+  "Cited but not saved: USM Employee Handbook (HR page link and Faculty Handbook 3.4.1, 12.2.1); Miss. Code Ann. §25-3-95 (personal and major medical leave accrual and use), §25-3-97 (disability leave), §25-3-93 (terminal leave pay), §25-3-92 (administrative leave); USM Sexual Misconduct Policy PRES-AA-001/002, Academic Integrity Policy, Scholarly Misconduct Policy (not leave-related).",
+  "Birth parent chain: IHL 804 disability leave without pay, up to 12 months ('not to extend normally beyond'), discretionary (c3), with the accrued major medical leave balance paying from its start (c1 within c3; own balance, length unknown, counts 0 paid weeks under R1). No employer-funded paid leave, top-up or relief.",
+  "Non-birth parent chain: no leave for the non-birth parent other than general-purpose provisions (c4 leave without pay for personal business, discretionary; c5 tenure deferral, discretionary). Personal leave (c2) excludes nine-month faculty. FMLA is not named; the statutory floor is filled from statutory_baseline.csv (U7).",
+  "Calendar: the handbook states fall and spring semesters (teaching load per semester) without a length: calendar.kind = semester, and the term length follows R8's order. A sabbatical semester is described as '4 1/2 months' for pay purposes; not used as a term length (R8).",
+  "Accrual rates and maximums for personal and major medical leave are not in the saved sources (set by Miss. Code Ann. §25-3-95); so the balance available at a birth cannot be determined."
+ ],
+ "statutory_floor": {
+  "jurisdiction": "US",
+  "year": "2018",
+  "weeks_birth": 12.0,
+  "weeks_nonbirth": 12.0,
+  "statute": "Family and Medical Leave Act (FMLA) (29 U.S.C. 2611-2612)",
+  "source_doc": "2026_00_us_fmla_29usc2612",
+  "table": "statutory_baseline.csv"
+ }
+}

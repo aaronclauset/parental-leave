@@ -1,0 +1,1767 @@
+{
+ "institution": "Old Dominion University",
+ "slug": "old_dominion_university",
+ "country": "US",
+ "model": "claude-opus-5-5",
+ "codebook_version": "1.25",
+ "schema_version": "1.25",
+ "reference_date": "2018-01-01",
+ "calendar": {
+  "term_weeks": 15,
+  "note": "The University provides and supports the traditional semester credit courses of 15 weeks of instruction during the fall and spring semesters"
+ },
+ "documents": [
+  {
+   "doc_id": "2018_00_link",
+   "url": "https://www.odu.edu/content/dam/odu/offices/human-resources/docs/faculty-handbook.pdf",
+   "title": "ODU Teaching and Research Faculty Handbook, July 2017",
+   "version_or_effective_date": "July 2017 (cover: 'July 2017', next update October 2017); Wayback capture 2017-08-22",
+   "retrieved": "2026-10-18T17:38:45+00:00"
+  },
+  {
+   "doc_id": "2018_01_bov1430_sick_leave",
+   "url": "https://www.odu.edu/content/dam/odu/offices/bov/policies/1400/BOV1430.pdf",
+   "title": "BOV Policy 1430 Sick Leave Policy (rev. June 16, 2011)",
+   "version_or_effective_date": "Revised June 16, 2011",
+   "retrieved": "2026-10-21T14:37:12+00:00"
+  },
+  {
+   "doc_id": "2018_02_bov1432_leave_without_compensation",
+   "url": "https://www.odu.edu/content/dam/odu/offices/bov/policies/1400/bov1432.pdf",
+   "title": "BOV Policy 1432 Leave of Absence Without Compensation (rev. November 16, 1989)",
+   "version_or_effective_date": "Revised November 16, 1989",
+   "retrieved": "2026-10-21T14:37:17+00:00"
+  },
+  {
+   "doc_id": "2018_03_univ6050_fmla_rev2016",
+   "url": "https://www.odu.edu/content/dam/odu/policies/university/6000/univ-6050.pdf",
+   "title": "University Policy 6050 Family and Medical Leave Act Policy (rev. December 16, 2016)",
+   "version_or_effective_date": "Date of Current Revision or Creation: December 16, 2016",
+   "retrieved": "2026-10-21T14:37:24+00:00"
+  },
+  {
+   "doc_id": "2018_04_dhrm421_parental_leave_classified",
+   "url": "https://www.odu.edu/content/dam/odu/offices/human-resources/docs/parental-leave-policy.pdf",
+   "title": "Virginia DHRM Policy 4.21 Parental Leave (effective June 26, 2018), as posted by ODU HR",
+   "version_or_effective_date": "Effective Date: June 26, 2018",
+   "retrieved": "2026-10-21T14:37:33+00:00"
+  },
+  {
+   "doc_id": "2018_05_bov_agenda_2018jun14_tenure_revision",
+   "url": "https://odu.edu/sites/default/files/documents/agenda_7.pdf",
+   "title": "ODU Board of Visitors agenda book, June 14, 2018 (incl. BOV Policy 1411 Tenure, revised eff. July 1, 2018)",
+   "version_or_effective_date": "June 14, 2018; Tenure revisions effective July 1, 2018",
+   "retrieved": "2026-10-21T14:37:38+00:00"
+  },
+  {
+   "doc_id": "2018_06_bov_ara_minutes_2018jun14",
+   "url": "https://odu.edu/sites/default/files/documents/academic-research-advancement-minutes-6-14-18.pdf",
+   "title": "BOV Academic and Research Advancement Committee minutes, June 14, 2018",
+   "version_or_effective_date": "June 14, 2018 (approved 9/20/18)",
+   "retrieved": "2026-10-21T14:37:43+00:00"
+  },
+  {
+   "doc_id": "2026_00_us_fmla_29usc2612",
+   "url": "https://www.law.cornell.edu/uscode/text/29/2612",
+   "title": "29 U.S.C. 2612 (FMLA leave requirement)",
+   "version_or_effective_date": "statute text (saved statute)",
+   "retrieved": "2026-10-19T03:57:12+00:00"
+  },
+  {
+   "doc_id": "2026_01_us_fmla_29usc2611_definitions",
+   "url": "https://www.law.cornell.edu/uscode/text/29/2611",
+   "title": "29 U.S.C. 2611 (FMLA definitions)",
+   "version_or_effective_date": "statute text (saved statute)",
+   "retrieved": "2026-10-19T03:57:14+00:00"
+  },
+  {
+   "doc_id": "2018_15_va_code_2.2-2905_vpa_exemptions",
+   "url": "https://law.lis.virginia.gov/vacode/title2.2/chapter29/section2.2-2905/",
+   "title": "Va. Code 2.2-2905 (Virginia Personnel Act exemptions)",
+   "version_or_effective_date": "statute text (saved statute)",
+   "retrieved": "2026-10-30T01:00:59+00:00"
+  }
+ ],
+ "missing": false,
+ "scope_accounting": {
+  "C1": {
+   "components": [
+    "old_dominion_university_c2",
+    "old_dominion_university_c10"
+   ]
+  },
+  "C2": {
+   "components": [
+    "old_dominion_university_c1"
+   ]
+  },
+  "C3": {
+   "components": [
+    "old_dominion_university_c3",
+    "old_dominion_university_c5",
+    "old_dominion_university_c6"
+   ]
+  },
+  "C4": {
+   "components": [
+    "old_dominion_university_c2"
+   ],
+   "not_components": [
+    {
+     "statute": "Virginia Personnel Act, Va. Code 2.2-2900 et seq. / 2.2-2905(8)",
+     "reason": "defines who DHRM 4.21 covers; exempts teaching and research staff; not a leave statute (U4). Used as evidence on c10."
+    },
+    {
+     "statute": "Governor's Executive Order #12 (2018)",
+     "reason": "basis of DHRM Policy 4.21 (coded as c10, classified staff only); order text not saved"
+    },
+    {
+     "statute": "Virginia Sickness and Disability Program (state program; Va. Code not cited in documents)",
+     "reason": "short-term and long-term disability for faculty who elected VRS; an alternative path to BOV 1430 sick leave set by retirement-plan election; recorded in notes and in c3's flag (U8, checklist §1)"
+    },
+    {
+     "statute": "Civil Rights Act of 1964; Americans with Disabilities Act; Age Discrimination Act of 1975; Title IX; Section 504 of the Rehabilitation Act; Virginia Human Rights Act; Governor's Executive Order Number One (2014); Executive Order 1 (2006); DHRM Policy 2.05",
+     "reason": "non-discrimination statements (sex including pregnancy); no leave, pay or job protection of their own (U4)"
+    },
+    {
+     "statute": "Fair Labor Standards Act; Immigration Reform and Control Act; Drug-Free Workplace Act; Tax Reform Act of 1986; federal Wage Garnishment Act; Social Security/Medicare",
+     "reason": "unrelated to becoming a parent (U4)"
+    },
+    {
+     "statute": "Va. Code 23.1-1301, 23-9.2:3, 23.1-2000 to 2004, 23.1-1300, 23.1-1304, 2.2-108, 2.2-507, 2.2-1201, 2.2-3708, 2.2-3710, 23-4.3:1, 2.1-191.11; Virginia FOIA; State and Local Government Conflict of Interests Act; Virginia Public Procurement Act; Virginia Privacy Protection Act; FERPA; HIPAA; Hatch Act; America Competes Reauthorization Act; 10 U.S.C. 688",
+     "reason": "governance, authority, records, procurement, military-definition or privacy statutes; unrelated to becoming a parent (U4)"
+    }
+   ]
+  },
+  "C5": {
+   "components": [
+    "old_dominion_university_c2",
+    "old_dominion_university_c4"
+   ]
+  },
+  "C6": {
+   "components": [
+    "old_dominion_university_c7"
+   ]
+  },
+  "C7": {
+   "components": [
+    "old_dominion_university_c8",
+    "old_dominion_university_c9"
+   ]
+  },
+  "C8": {
+   "absent": {
+    "documents": [
+     "2018_00_link",
+     "2018_01_bov1430_sick_leave",
+     "2018_02_bov1432_leave_without_compensation",
+     "2018_03_univ6050_fmla_rev2016",
+     "2018_04_dhrm421_parental_leave_classified",
+     "2018_05_bov_agenda_2018jun14_tenure_revision",
+     "2018_06_bov_ara_minutes_2018jun14"
+    ],
+    "terms": [
+     "part-time",
+     "reduced",
+     "phased",
+     "half-time",
+     "50%",
+     "workload",
+     "job sharing"
+    ]
+   }
+  },
+  "C9": {
+   "absent": {
+    "documents": [
+     "2018_00_link",
+     "2018_01_bov1430_sick_leave",
+     "2018_02_bov1432_leave_without_compensation",
+     "2018_03_univ6050_fmla_rev2016",
+     "2018_04_dhrm421_parental_leave_classified",
+     "2018_05_bov_agenda_2018jun14_tenure_revision",
+     "2018_06_bov_ara_minutes_2018jun14"
+    ],
+    "terms": [
+     "accommodation",
+     "pregnan",
+     "lactation",
+     "transfer",
+     "hazard",
+     "reassign"
+    ]
+   }
+  },
+  "C10": {
+   "absent": {
+    "documents": [
+     "2018_00_link",
+     "2018_01_bov1430_sick_leave",
+     "2018_02_bov1432_leave_without_compensation",
+     "2018_03_univ6050_fmla_rev2016",
+     "2018_04_dhrm421_parental_leave_classified",
+     "2018_05_bov_agenda_2018jun14_tenure_revision",
+     "2018_06_bov_ara_minutes_2018jun14"
+    ],
+    "terms": [
+     "FMLA",
+     "first days",
+     "paid",
+     "work time",
+     "qualifying"
+    ]
+   }
+  }
+ },
+ "passage_dispositions": {
+  "2018_00_link#001": {
+   "not_relevant": "no parental, leave or tenure-clock provision (matched 'tenure' on unrelated text: TOC, index, hiring, rank, evaluation, promotion, grievance, bylaws, appointments or schedules)"
+  },
+  "2018_00_link#002": {
+   "not_relevant": "no parental, leave or tenure-clock provision (matched 'parent' on unrelated text: TOC, index, hiring, rank, evaluation, promotion, grievance, bylaws, appointments or schedules)"
+  },
+  "2018_00_link#003": {
+   "not_relevant": "no parental, leave or tenure-clock provision (matched 'statute' on unrelated text: TOC, index, hiring, rank, evaluation, promotion, grievance, bylaws, appointments or schedules)"
+  },
+  "2018_00_link#004": {
+   "not_relevant": "table of contents (leave policy titles only)"
+  },
+  "2018_00_link#005": {
+   "not_relevant": "no parental, leave or tenure-clock provision (matched 'tenure' on unrelated text: TOC, index, hiring, rank, evaluation, promotion, grievance, bylaws, appointments or schedules)"
+  },
+  "2018_00_link#006": {
+   "not_relevant": "no parental, leave or tenure-clock provision (matched 'parent' on unrelated text: TOC, index, hiring, rank, evaluation, promotion, grievance, bylaws, appointments or schedules)"
+  },
+  "2018_00_link#007": {
+   "not_relevant": "no parental, leave or tenure-clock provision (matched 'parent' on unrelated text: TOC, index, hiring, rank, evaluation, promotion, grievance, bylaws, appointments or schedules)"
+  },
+  "2018_00_link#008": {
+   "not_relevant": "no parental, leave or tenure-clock provision (matched 'parent' on unrelated text: TOC, index, hiring, rank, evaluation, promotion, grievance, bylaws, appointments or schedules)"
+  },
+  "2018_00_link#009": {
+   "not_relevant": "no parental, leave or tenure-clock provision (matched 'tenure' on unrelated text: TOC, index, hiring, rank, evaluation, promotion, grievance, bylaws, appointments or schedules)"
+  },
+  "2018_00_link#010": {
+   "not_relevant": "no parental, leave or tenure-clock provision (matched 'tenure' on unrelated text: TOC, index, hiring, rank, evaluation, promotion, grievance, bylaws, appointments or schedules)"
+  },
+  "2018_00_link#011": {
+   "not_relevant": "no parental, leave or tenure-clock provision (matched 'tenure' on unrelated text: TOC, index, hiring, rank, evaluation, promotion, grievance, bylaws, appointments or schedules)"
+  },
+  "2018_00_link#012": {
+   "not_relevant": "no parental, leave or tenure-clock provision (matched 'tenure' on unrelated text: TOC, index, hiring, rank, evaluation, promotion, grievance, bylaws, appointments or schedules)"
+  },
+  "2018_00_link#013": {
+   "not_relevant": "no parental, leave or tenure-clock provision (matched 'tenure' on unrelated text: TOC, index, hiring, rank, evaluation, promotion, grievance, bylaws, appointments or schedules)"
+  },
+  "2018_00_link#014": {
+   "not_relevant": "no parental, leave or tenure-clock provision (matched 'tenure' on unrelated text: TOC, index, hiring, rank, evaluation, promotion, grievance, bylaws, appointments or schedules)"
+  },
+  "2018_00_link#015": {
+   "not_relevant": "no parental, leave or tenure-clock provision (matched 'tenure' on unrelated text: TOC, index, hiring, rank, evaluation, promotion, grievance, bylaws, appointments or schedules)"
+  },
+  "2018_00_link#016": {
+   "not_relevant": "no parental, leave or tenure-clock provision (matched 'tenure' on unrelated text: TOC, index, hiring, rank, evaluation, promotion, grievance, bylaws, appointments or schedules)"
+  },
+  "2018_00_link#017": {
+   "not_relevant": "no parental, leave or tenure-clock provision (matched 'tenure' on unrelated text: TOC, index, hiring, rank, evaluation, promotion, grievance, bylaws, appointments or schedules)"
+  },
+  "2018_00_link#018": {
+   "not_relevant": "no parental, leave or tenure-clock provision (matched 'tenure' on unrelated text: TOC, index, hiring, rank, evaluation, promotion, grievance, bylaws, appointments or schedules)"
+  },
+  "2018_00_link#019": {
+   "not_relevant": "no parental, leave or tenure-clock provision (matched 'tenure' on unrelated text: TOC, index, hiring, rank, evaluation, promotion, grievance, bylaws, appointments or schedules)"
+  },
+  "2018_00_link#020": {
+   "not_relevant": "no parental, leave or tenure-clock provision (matched 'tenure' on unrelated text: TOC, index, hiring, rank, evaluation, promotion, grievance, bylaws, appointments or schedules)"
+  },
+  "2018_00_link#021": {
+   "not_relevant": "no parental, leave or tenure-clock provision (matched 'tenure' on unrelated text: TOC, index, hiring, rank, evaluation, promotion, grievance, bylaws, appointments or schedules)"
+  },
+  "2018_00_link#022": {
+   "not_relevant": "no parental, leave or tenure-clock provision (matched 'tenure' on unrelated text: TOC, index, hiring, rank, evaluation, promotion, grievance, bylaws, appointments or schedules)"
+  },
+  "2018_00_link#023": {
+   "not_relevant": "no parental, leave or tenure-clock provision (matched 'tenure' on unrelated text: TOC, index, hiring, rank, evaluation, promotion, grievance, bylaws, appointments or schedules)"
+  },
+  "2018_00_link#024": {
+   "not_relevant": "superseded June 2016 text of BOV 1411 (purpose, eligibility); the July 2018 revision in 2018_05 is coded"
+  },
+  "2018_00_link#025": {
+   "not_relevant": "superseded June 2016 text of BOV 1411 III (same exclusion wording); the July 2018 revision in 2018_05 is coded (c8, c9)"
+  },
+  "2018_00_link#026": {
+   "not_relevant": "no parental, leave or tenure-clock provision (matched 'tenure' on unrelated text: TOC, index, hiring, rank, evaluation, promotion, grievance, bylaws, appointments or schedules)"
+  },
+  "2018_00_link#027": {
+   "not_relevant": "no parental, leave or tenure-clock provision (matched 'tenure' on unrelated text: TOC, index, hiring, rank, evaluation, promotion, grievance, bylaws, appointments or schedules)"
+  },
+  "2018_00_link#028": {
+   "not_relevant": "no parental, leave or tenure-clock provision (matched 'tenure' on unrelated text: TOC, index, hiring, rank, evaluation, promotion, grievance, bylaws, appointments or schedules)"
+  },
+  "2018_00_link#029": {
+   "not_relevant": "no parental, leave or tenure-clock provision (matched 'tenure' on unrelated text: TOC, index, hiring, rank, evaluation, promotion, grievance, bylaws, appointments or schedules)"
+  },
+  "2018_00_link#030": {
+   "not_relevant": "no parental, leave or tenure-clock provision (matched 'tenure' on unrelated text: TOC, index, hiring, rank, evaluation, promotion, grievance, bylaws, appointments or schedules)"
+  },
+  "2018_00_link#031": {
+   "not_relevant": "no parental, leave or tenure-clock provision (matched 'tenure' on unrelated text: TOC, index, hiring, rank, evaluation, promotion, grievance, bylaws, appointments or schedules)"
+  },
+  "2018_00_link#032": {
+   "not_relevant": "no parental, leave or tenure-clock provision (matched 'tenure' on unrelated text: TOC, index, hiring, rank, evaluation, promotion, grievance, bylaws, appointments or schedules)"
+  },
+  "2018_00_link#033": {
+   "not_relevant": "no parental, leave or tenure-clock provision (matched 'tenure' on unrelated text: TOC, index, hiring, rank, evaluation, promotion, grievance, bylaws, appointments or schedules)"
+  },
+  "2018_00_link#034": {
+   "not_relevant": "no parental, leave or tenure-clock provision (matched 'tenure' on unrelated text: TOC, index, hiring, rank, evaluation, promotion, grievance, bylaws, appointments or schedules)"
+  },
+  "2018_00_link#035": {
+   "not_relevant": "no parental, leave or tenure-clock provision (matched 'tenure' on unrelated text: TOC, index, hiring, rank, evaluation, promotion, grievance, bylaws, appointments or schedules)"
+  },
+  "2018_00_link#036": {
+   "not_relevant": "no parental, leave or tenure-clock provision (matched 'tenure' on unrelated text: TOC, index, hiring, rank, evaluation, promotion, grievance, bylaws, appointments or schedules)"
+  },
+  "2018_00_link#037": {
+   "used_in": [
+    "old_dominion_university_c1"
+   ]
+  },
+  "2018_00_link#038": {
+   "used_in": [
+    "old_dominion_university_c1",
+    "old_dominion_university_c2",
+    "old_dominion_university_c3"
+   ]
+  },
+  "2018_00_link#039": {
+   "not_relevant": "no parental, leave or tenure-clock provision (matched 'parent' on unrelated text: TOC, index, hiring, rank, evaluation, promotion, grievance, bylaws, appointments or schedules)"
+  },
+  "2018_00_link#040": {
+   "not_relevant": "no parental, leave or tenure-clock provision (matched 'tenure' on unrelated text: TOC, index, hiring, rank, evaluation, promotion, grievance, bylaws, appointments or schedules)"
+  },
+  "2018_00_link#041": {
+   "not_relevant": "no parental, leave or tenure-clock provision (matched 'tenure' on unrelated text: TOC, index, hiring, rank, evaluation, promotion, grievance, bylaws, appointments or schedules)"
+  },
+  "2018_00_link#042": {
+   "not_relevant": "no parental, leave or tenure-clock provision (matched 'parent' on unrelated text: TOC, index, hiring, rank, evaluation, promotion, grievance, bylaws, appointments or schedules)"
+  },
+  "2018_00_link#043": {
+   "not_relevant": "no parental, leave or tenure-clock provision (matched 'parent' on unrelated text: TOC, index, hiring, rank, evaluation, promotion, grievance, bylaws, appointments or schedules)"
+  },
+  "2018_00_link#044": {
+   "not_relevant": "link stubs for annual, sick, civil and military leave policies; the sick leave policy is saved as 2018_01 and coded"
+  },
+  "2018_00_link#045": {
+   "not_relevant": "link stubs (recognition, school assistance, lactation, leave without compensation, tuition); BOV 1432 saved as 2018_02 and coded; lactation policy not saved"
+  },
+  "2018_00_link#046": {
+   "used_in": [
+    "old_dominion_university_c3",
+    "old_dominion_university_c2"
+   ]
+  },
+  "2018_00_link#047": {
+   "used_in": [
+    "old_dominion_university_c5",
+    "old_dominion_university_c6"
+   ]
+  },
+  "2018_00_link#048": {
+   "not_relevant": "no parental, leave or tenure-clock provision (matched 'tenure' on unrelated text: TOC, index, hiring, rank, evaluation, promotion, grievance, bylaws, appointments or schedules)"
+  },
+  "2018_00_link#049": {
+   "not_relevant": "no parental, leave or tenure-clock provision (matched 'tenure' on unrelated text: TOC, index, hiring, rank, evaluation, promotion, grievance, bylaws, appointments or schedules)"
+  },
+  "2018_00_link#050": {
+   "not_relevant": "no parental, leave or tenure-clock provision (matched 'tenure' on unrelated text: TOC, index, hiring, rank, evaluation, promotion, grievance, bylaws, appointments or schedules)"
+  },
+  "2018_00_link#051": {
+   "not_relevant": "no parental, leave or tenure-clock provision (matched 'tenure' on unrelated text: TOC, index, hiring, rank, evaluation, promotion, grievance, bylaws, appointments or schedules)"
+  },
+  "2018_00_link#052": {
+   "not_relevant": "no parental, leave or tenure-clock provision (matched 'tenure' on unrelated text: TOC, index, hiring, rank, evaluation, promotion, grievance, bylaws, appointments or schedules)"
+  },
+  "2018_00_link#053": {
+   "not_relevant": "no parental, leave or tenure-clock provision (matched 'tenure' on unrelated text: TOC, index, hiring, rank, evaluation, promotion, grievance, bylaws, appointments or schedules)"
+  },
+  "2018_00_link#054": {
+   "not_relevant": "no parental, leave or tenure-clock provision (matched 'tenure' on unrelated text: TOC, index, hiring, rank, evaluation, promotion, grievance, bylaws, appointments or schedules)"
+  },
+  "2018_00_link#055": {
+   "not_relevant": "no parental, leave or tenure-clock provision (matched 'parent' on unrelated text: TOC, index, hiring, rank, evaluation, promotion, grievance, bylaws, appointments or schedules)"
+  },
+  "2018_00_link#056": {
+   "not_relevant": "no parental, leave or tenure-clock provision (matched 'parent,statute,tenure' on unrelated text: TOC, index, hiring, rank, evaluation, promotion, grievance, bylaws, appointments or schedules)"
+  },
+  "2018_00_link#057": {
+   "not_relevant": "no parental, leave or tenure-clock provision (matched 'parent,statute,tenure' on unrelated text: TOC, index, hiring, rank, evaluation, promotion, grievance, bylaws, appointments or schedules)"
+  },
+  "2018_00_link#058": {
+   "not_relevant": "no parental, leave or tenure-clock provision (matched 'tenure' on unrelated text: TOC, index, hiring, rank, evaluation, promotion, grievance, bylaws, appointments or schedules)"
+  },
+  "2018_00_link#059": {
+   "not_relevant": "no parental, leave or tenure-clock provision (matched 'statute' on unrelated text: TOC, index, hiring, rank, evaluation, promotion, grievance, bylaws, appointments or schedules)"
+  },
+  "2018_00_link#060": {
+   "not_relevant": "no parental, leave or tenure-clock provision (matched 'statute' on unrelated text: TOC, index, hiring, rank, evaluation, promotion, grievance, bylaws, appointments or schedules)"
+  },
+  "2018_01_bov1430_sick_leave#001": {
+   "used_in": [
+    "old_dominion_university_c3",
+    "old_dominion_university_c4",
+    "old_dominion_university_c5"
+   ]
+  },
+  "2018_02_bov1432_leave_without_compensation#001": {
+   "used_in": [
+    "old_dominion_university_c7"
+   ]
+  },
+  "2018_03_univ6050_fmla_rev2016#001": {
+   "used_in": [
+    "old_dominion_university_c2"
+   ]
+  },
+  "2018_03_univ6050_fmla_rev2016#002": {
+   "used_in": [
+    "old_dominion_university_c2"
+   ]
+  },
+  "2018_03_univ6050_fmla_rev2016#003": {
+   "not_relevant": "FMLA certification procedures (second and third opinions)"
+  },
+  "2018_03_univ6050_fmla_rev2016#004": {
+   "not_relevant": "FMLA recertification and military-exigency certification"
+  },
+  "2018_03_univ6050_fmla_rev2016#005": {
+   "used_in": [
+    "old_dominion_university_c2"
+   ]
+  },
+  "2018_03_univ6050_fmla_rev2016#006": {
+   "used_in": [
+    "old_dominion_university_c2"
+   ]
+  },
+  "2018_04_dhrm421_parental_leave_classified#001": {
+   "used_in": [
+    "old_dominion_university_c10"
+   ]
+  },
+  "2018_05_bov_agenda_2018jun14_tenure_revision#001": {
+   "not_relevant": "no parental, leave or tenure-clock provision (matched 'tenure' on unrelated text: TOC, index, hiring, rank, evaluation, promotion, grievance, bylaws, appointments or schedules)"
+  },
+  "2018_05_bov_agenda_2018jun14_tenure_revision#002": {
+   "not_relevant": "no parental, leave or tenure-clock provision (matched 'parent' on unrelated text: TOC, index, hiring, rank, evaluation, promotion, grievance, bylaws, appointments or schedules)"
+  },
+  "2018_05_bov_agenda_2018jun14_tenure_revision#003": {
+   "not_relevant": "no parental, leave or tenure-clock provision (matched 'parent' on unrelated text: TOC, index, hiring, rank, evaluation, promotion, grievance, bylaws, appointments or schedules)"
+  },
+  "2018_05_bov_agenda_2018jun14_tenure_revision#004": {
+   "not_relevant": "no parental, leave or tenure-clock provision (matched 'parent' on unrelated text: TOC, index, hiring, rank, evaluation, promotion, grievance, bylaws, appointments or schedules)"
+  },
+  "2018_05_bov_agenda_2018jun14_tenure_revision#005": {
+   "not_relevant": "no parental, leave or tenure-clock provision (matched 'tenure' on unrelated text: TOC, index, hiring, rank, evaluation, promotion, grievance, bylaws, appointments or schedules)"
+  },
+  "2018_05_bov_agenda_2018jun14_tenure_revision#006": {
+   "not_relevant": "no parental, leave or tenure-clock provision (matched 'tenure' on unrelated text: TOC, index, hiring, rank, evaluation, promotion, grievance, bylaws, appointments or schedules)"
+  },
+  "2018_05_bov_agenda_2018jun14_tenure_revision#007": {
+   "not_relevant": "no parental, leave or tenure-clock provision (matched 'tenure' on unrelated text: TOC, index, hiring, rank, evaluation, promotion, grievance, bylaws, appointments or schedules)"
+  },
+  "2018_05_bov_agenda_2018jun14_tenure_revision#008": {
+   "not_relevant": "no parental, leave or tenure-clock provision (matched 'tenure' on unrelated text: TOC, index, hiring, rank, evaluation, promotion, grievance, bylaws, appointments or schedules)"
+  },
+  "2018_05_bov_agenda_2018jun14_tenure_revision#009": {
+   "not_relevant": "no parental, leave or tenure-clock provision (matched 'tenure' on unrelated text: TOC, index, hiring, rank, evaluation, promotion, grievance, bylaws, appointments or schedules)"
+  },
+  "2018_05_bov_agenda_2018jun14_tenure_revision#010": {
+   "not_relevant": "no parental, leave or tenure-clock provision (matched 'tenure' on unrelated text: TOC, index, hiring, rank, evaluation, promotion, grievance, bylaws, appointments or schedules)"
+  },
+  "2018_05_bov_agenda_2018jun14_tenure_revision#011": {
+   "used_in": [
+    "old_dominion_university_c8",
+    "old_dominion_university_c9"
+   ]
+  },
+  "2018_05_bov_agenda_2018jun14_tenure_revision#012": {
+   "not_relevant": "no parental, leave or tenure-clock provision (matched 'tenure' on unrelated text: TOC, index, hiring, rank, evaluation, promotion, grievance, bylaws, appointments or schedules)"
+  },
+  "2018_05_bov_agenda_2018jun14_tenure_revision#013": {
+   "used_in": [
+    "old_dominion_university_c8",
+    "old_dominion_university_c9"
+   ]
+  },
+  "2018_05_bov_agenda_2018jun14_tenure_revision#014": {
+   "used_in": [
+    "old_dominion_university_c8"
+   ]
+  },
+  "2018_05_bov_agenda_2018jun14_tenure_revision#015": {
+   "not_relevant": "no parental, leave or tenure-clock provision (matched 'tenure' on unrelated text: TOC, index, hiring, rank, evaluation, promotion, grievance, bylaws, appointments or schedules)"
+  },
+  "2018_05_bov_agenda_2018jun14_tenure_revision#016": {
+   "not_relevant": "no parental, leave or tenure-clock provision (matched 'tenure' on unrelated text: TOC, index, hiring, rank, evaluation, promotion, grievance, bylaws, appointments or schedules)"
+  },
+  "2018_06_bov_ara_minutes_2018jun14#001": {
+   "used_in": [
+    "old_dominion_university_c8",
+    "old_dominion_university_c9"
+   ]
+  }
+ },
+ "mechanism_slots": {
+  "employer_paid_leave": {
+   "components": [
+    "old_dominion_university_c10"
+   ]
+  },
+  "employer_childbirth_benefit": {
+   "absent": "no dedicated childbirth benefit with a stated period; searched all usable documents for maternity, childbirth, pregnancy, delivery (BOV 1430 names childbirth but states no period: generic plan, c3)"
+  },
+  "generic_sick_or_disability_plan": {
+   "components": [
+    "old_dominion_university_c3",
+    "old_dominion_university_c4",
+    "old_dominion_university_c5",
+    "old_dominion_university_c6"
+   ]
+  },
+  "own_accrual": {
+   "absent": "no accrued sick or vacation balance for academic-year faculty in the saved texts; searched for accrue, annual leave, balance (BOV 1491 annual leave for 12-month faculty is cited but not saved; FMLA policy mentions accrued leave generically)"
+  },
+  "donated_leave": {
+   "absent": "searched all usable documents for donat, shared leave, leave bank: none"
+  },
+  "government_benefit": {
+   "absent": "no state or federal paid benefit applies; searched for Virginia paid family leave, disability insurance, state program; VSDP is the state employer's own plan for VRS members (notes)"
+  },
+  "employer_topup": {
+   "absent": "searched for top-up, supplement, difference: none"
+  },
+  "modified_duties": {
+   "components": [
+    "old_dominion_university_c1"
+   ]
+  },
+  "unpaid_leave": {
+   "components": [
+    "old_dominion_university_c2",
+    "old_dominion_university_c7"
+   ]
+  },
+  "tenure_clock": {
+   "components": [
+    "old_dominion_university_c8",
+    "old_dominion_university_c9"
+   ]
+  },
+  "part_time_option": {
+   "absent": "searched for part-time, reduced, phased, half-time: only FMLA reduced-schedule leave (part of c2) and the Voluntary Phased Separation Program for tenured faculty aged 55+ with 10 years (retirement only, not usable for a birth)"
+  },
+  "other": {
+   "absent": "searched for accommodation, pregnancy, lactation, transfer: Lactation Support Policy #6052 cited but not saved; no pregnancy accommodation text saved"
+  }
+ },
+ "baseline_accounting": {
+  "Family and Medical Leave Act (FMLA)": {
+   "components": [
+    "old_dominion_university_c2"
+   ]
+  },
+  "Federal Employee Paid Leave Act (paid parental leave for federal civilian employees)": {
+   "not_applicable": "federal civilian employees only; no saved document mentions it"
+  },
+  "Virginia paid parental leave for state employees": {
+   "components": [
+    "old_dominion_university_c10"
+   ]
+  },
+  "Virginia Sickness and Disability Program (VSDP)": {
+   "not_applicable": "named in the handbook as the plan for faculty who elected the Virginia Retirement System; alternative path to the coded BOV 1430 sick leave (c3), recorded in notes and c3's flag (U8, checklist §1)"
+  }
+ },
+ "leave_limits": [],
+ "components": [
+  {
+   "component_id": "old_dominion_university_c1",
+   "institution_label": "Temporary Change in Duties for Full-Time Teaching Faculty Who Expect a New Family Member through Birth or Adoption",
+   "description": "Full-time (ten-month) teaching faculty expecting a birth or adoption may request one semester (fall, spring or summer) with no teaching, assigned non-teaching duties (research, advising, other) with pay; final approval by the provost. Available from the first year of employment.",
+   "mechanism": "modified_duties",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "full-time teaching faculty; \"ten-month teaching faculty\" (university-wide faculty handbook policy)",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "teaching faculty who expect a new family member through birth or adoption; \"both parents\"",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "entitlement_note": "V2: faculty are 'eligible to request' the change, and the request goes through chair and dean recommendations to the provost 'for final approval'; the approval decides whether the relief is given, not merely its arrangements. Borderline with V2's 'is eligible for' (guaranteed_on_request); flagged.",
+   "duration": {
+    "value": 1,
+    "units": "semester",
+    "qualifier": "up_to"
+   },
+   "duration_note": "'a maximum of one semester'; the semester may be fall, spring or summer.",
+   "duration_variants": "summer option for ten-month faculty: pay equivalent to a three-credit course, if the member has regularly taught in summer",
+   "pay_fraction": "with pay",
+   "payer": "employer",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "continues",
+    "research": "continues",
+    "advising_supervision": "continues",
+    "clinical": "continues"
+   },
+   "relief_inferred": "unnamed duties continue (R4b)",
+   "relief_note": "Teaching is the duty released; the member is assigned 'non-teaching duties' such as research and advising. Service and clinical duties are not named and are coded continues (R4b). Category: Just teaching.",
+   "service_requirement": "none stated; available in the first year of employment regardless of hours worked",
+   "dual_employee_rule": "both parents in the same department must propose staggered periods",
+   "notice": "written request to the department chair, as soon as practicable",
+   "rule_applied": [
+    "V2",
+    "R4",
+    "R4b",
+    "R11b",
+    "R12"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "An application process is available for ten-month teaching faculty with anticipated due /adoption dates during the year.",
+     "The University is committed to supporting teaching faculty who expect a new family member through birth or adoption"
+    ],
+    "eligible_parent": [
+     "The University is committed to supporting teaching faculty who expect a new family member through birth or adoption",
+     "In the event both parents have teaching responsibilities in the same department and both wish to access this policy, they are required to propose staggered periods to ensure that the instructional needs of the department are met."
+    ],
+    "entitlement": [
+     "faculty members are eligible to request a temporary change in duties that would cover a maximum of one semester for the birth or adoption of a child.",
+     "The dean will forward a recommendation to the provost and vice president for academic affairs for final approval.",
+     "Upon approval, the faculty member is assigned non-teaching duties with pay for the approved period."
+    ],
+    "duration": [
+     "faculty members are eligible to request a temporary change in duties that would cover a maximum of one semester for the birth or adoption of a child.",
+     "Faculty must consult with her/his chair in order to arrange for one semester (fall, spring or summer) in which she/he has no teaching responsibilities."
+    ],
+    "pay_fraction": [
+     "Upon approval, the faculty member is assigned non-teaching duties with pay for the approved period."
+    ],
+    "relief": [
+     "This change of duties would only release the faculty member from teaching duties.",
+     "encouraging flexible work arrangements such as research, advising, and other non-teaching duties that would ease the transition from work to parental care."
+    ],
+    "service_requirement": [
+     "the new parental policy regarding a temporary change of duties is available in the first year of employment regardless of hours worked"
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "ambiguous: entitlement: 'eligible to request' a change in duties with provost 'final approval' (V2: discretionary vs guaranteed_on_request)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "modified_duties",
+     "quote": "This change of duties would only release the faculty member from teaching duties."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "Upon approval, the faculty member is assigned non-teaching duties with pay for the approved period."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "faculty members are eligible to request a temporary change in duties that would cover a maximum of one semester for the birth or adoption of a child."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "An application process is available for ten-month teaching faculty with anticipated due /adoption dates during the year."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "birth_parent, non_birth_parent, adoptive",
+     "quote": "The University is committed to supporting teaching faculty who expect a new family member through birth or adoption"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "The dean will forward a recommendation to the provost and vice president for academic affairs for final approval."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 semester up_to ('a maximum of one semester')",
+     "quote": "faculty members are eligible to request a temporary change in duties that would cover a maximum of one semester for the birth or adoption of a child."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "with pay",
+     "quote": "Upon approval, the faculty member is assigned non-teaching duties with pay for the approved period."
+    },
+    {
+     "field": "relief",
+     "rule": "R4b",
+     "answer": "teaching relieved; research and advising named as continuing duties; service and clinical unnamed -> continues",
+     "quote": "encouraging flexible work arrangements such as research, advising, and other non-teaching duties that would ease the transition from work to parental care."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "none; available in first year of employment",
+     "quote": "the new parental policy regarding a temporary change of duties is available in the first year of employment regardless of hours worked"
+    }
+   ]
+  },
+  {
+   "component_id": "old_dominion_university_c2",
+   "institution_label": "Family and Medical Leave Act Policy",
+   "description": "University Policy 6050: up to 12 weeks of unpaid, job-protected leave in a rolling 12-month period for the birth of a child, adoption or foster placement, care of a spouse, child or parent with a serious health condition, or the employee's own serious health condition; accrued paid leave runs concurrently; intermittent or reduced-schedule leave with supervisor approval.",
+   "mechanism": "unpaid_leave",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "\"All full-time faculty, administrative and professional faculty, part-time faculty, wage and classified staff\"",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "birth of a child and to care for that child; placement of a child for adoption or foster care; care for a spouse with a serious health condition; the employee's own serious health condition",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "entitlement_note": "Statutory entitlement (schema: a statute stays guaranteed even where it requires notice or a request).",
+   "duration": {
+    "value": 12,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "duration_note": "'up to 12 weeks (60 workdays or 480 work hours)'; statute: 'a total of 12 workweeks' (29 U.S.C. 2612(a)(1)). Military caregiver leave (26 weeks) is not a parental purpose.",
+   "payer": "none",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "service_requirement": "12 months of employment with the University or the Commonwealth in the past seven years and 1,250 hours in the 12 months before the leave",
+   "dual_employee_rule": "spouses both employed by the University: aggregate of 12 weeks for birth, adoption or foster placement",
+   "notice": "30 days' advance written notice when foreseeable",
+   "return_obligation": "none stated; right to return to the same or an equivalent job",
+   "runs_concurrently_with": [
+    "accrued paid leave (University requires concurrent use)"
+   ],
+   "statute_source": "29 U.S.C. 2612(a)(1)(A)-(B) (12 workweeks); 29 U.S.C. 2611(2) (12 months, 1,250 hours)",
+   "statute_verified": true,
+   "sequence": [
+    {
+     "relation": "concurrent_with",
+     "component_id": "old_dominion_university_c1",
+     "note": "Handbook: FMLA runs concurrently with an approved temporary change in duties (S1)."
+    }
+   ],
+   "rule_applied": [
+    "U2",
+    "U4",
+    "U5",
+    "S1",
+    "R9",
+    "R13",
+    "U8"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "All full-time faculty, administrative and professional faculty, part-time faculty, wage and classified staff employed at the University or the Commonwealth of Virginia for at least 12 months in the past seven years and who have worked 1,250 hours during the 12 months before the start of the FMLA leave are eligible.",
+     "Employees include all staff, administrators, faculty, full- or part-time, and classified or non-classified persons who are paid by the University."
+    ],
+    "eligible_parent": [
+     "1. birth of a child and to care for that child, 2. placement of a child for adoption or foster care and to care for the newly placed child, 3. to care for a spouse, child or parent with a serious health condition, 4. serious health condition of the employee that makes the employee unable to perform his/her job,"
+    ],
+    "entitlement": [
+     "provides eligible employees with up to 12 weeks of unpaid, job-protected family or medical leave for the birth, adoption, or foster care of a child",
+     "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period for one or more of the following:"
+    ],
+    "duration": [
+     "Eligible full-time faculty and staff may request up to 12 weeks (60 workdays or 480 work hours) of unpaid, job-protected leave during a designated 12-month FMLA leave year for the following circumstances:",
+     "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period for one or more of the following:"
+    ],
+    "service_requirement": [
+     "All full-time faculty, administrative and professional faculty, part-time faculty, wage and classified staff employed at the University or the Commonwealth of Virginia for at least 12 months in the past seven years and who have worked 1,250 hours during the 12 months before the start of the FMLA leave are eligible."
+    ],
+    "sequence": [
+     "If the faculty member who has approval for a temporary change in duties is also eligible for FMLA leave, that leave will run concurrently for up to 480 hours or 12 weeks."
+    ],
+    "relief": [
+     "Eligible full-time faculty and staff may request up to 12 weeks (60 workdays or 480 work hours) of unpaid, job-protected leave during a designated 12-month FMLA leave year for the following circumstances:"
+    ]
+   },
+   "doc_ids": [
+    "2018_03_univ6050_fmla_rev2016",
+    "2018_00_link",
+    "2026_00_us_fmla_29usc2612"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "provides eligible employees with up to 12 weeks of unpaid, job-protected family or medical leave for the birth, adoption, or foster care of a child"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Eligible full-time faculty and staff may request up to 12 weeks (60 workdays or 480 work hours) of unpaid, job-protected leave during a designated 12-month FMLA leave year for the following circumstances:"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "1. birth of a child and to care for that child, 2. placement of a child for adoption or foster care and to care for the newly placed child, 3. to care for a spouse, child or parent with a serious health condition, 4. serious health condition of the employee that makes the employee unable to perform his/her job,"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "All full-time faculty, administrative and professional faculty, part-time faculty, wage and classified staff employed at the University or the Commonwealth of Virginia for at least 12 months in the past seven years and who have worked 1,250 hours during the 12 months before the start of the FMLA leave are eligible."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth, placement and own/family serious health condition: birth_parent, non_birth_parent, adoptive, foster",
+     "quote": "1. birth of a child and to care for that child, 2. placement of a child for adoption or foster care and to care for the newly placed child, 3. to care for a spouse, child or parent with a serious health condition, 4. serious health condition of the employee that makes the employee unable to perform his/her job,"
+    },
+    {
+     "field": "entitlement",
+     "rule": "U2",
+     "answer": "guaranteed",
+     "quote": "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period for one or more of the following:"
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "12 week up_to as written in Policy 6050; statute 12 workweeks",
+     "quote": "Eligible full-time faculty and staff may request up to 12 weeks (60 workdays or 480 work hours) of unpaid, job-protected leave during a designated 12-month FMLA leave year for the following circumstances:"
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "formal leave, relief not stated: all duties relieved",
+     "quote": "Eligible full-time faculty and staff may request up to 12 weeks (60 workdays or 480 work hours) of unpaid, job-protected leave during a designated 12-month FMLA leave year for the following circumstances:"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U2",
+     "answer": "12 months and 1,250 hours",
+     "quote": "All full-time faculty, administrative and professional faculty, part-time faculty, wage and classified staff employed at the University or the Commonwealth of Virginia for at least 12 months in the past seven years and who have worked 1,250 hours during the 12 months before the start of the FMLA leave are eligible."
+    },
+    {
+     "field": "sequence",
+     "rule": "S1",
+     "answer": "concurrent_with old_dominion_university_c1",
+     "quote": "If the faculty member who has approval for a temporary change in duties is also eligible for FMLA leave, that leave will run concurrently for up to 480 hours or 12 weeks."
+    }
+   ]
+  },
+  {
+   "component_id": "old_dominion_university_c3",
+   "institution_label": "Sick Leave Policy",
+   "description": "BOV Policy 1430: sick leave with pay, granted when necessary during the contract period, continuing until the member can resume duties but for no longer than six months of sick leave per contract period; the period before, during and after delivery certified by the physician as medically necessary may be charged to it; any further absence is without pay.",
+   "mechanism": "generic_sick_or_disability_plan",
+   "mechanism_note": "V1: the policy names pregnancy and childbirth but states no childbirth-specific period or default length (the physician-certified period is the measure), so it stays a generic plan. R1: a fixed paid allotment the employer grants each contract period (not days earned and carried over), so an employer plan, not own_accrual. U6: the text charges certified absences to sick leave (pay applied to absences), it does not grant a leave status of stated length, so no separate leave component.",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "\"faculty members or administrative and professional faculty (AP faculty)\"; 'teaching and research faculty'",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "recuperation due to pregnancy or childbirth; \"the mother's health condition related to childbirth\"",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 6,
+    "units": "month",
+    "qualifier": "up_to"
+   },
+   "duration_note": "Plan maximum: 'no longer than six months of sick leave during those months normally covered by contract'. No childbirth period is stated; the childbirth use is the physician-certified period (V6: plan's short-term entitlement).",
+   "pay_fraction": "with pay",
+   "payer": "employer",
+   "medical_certification": true,
+   "medical_certification_note": "period of absence 'certified by a physician as medically necessary'",
+   "sequence": [
+    {
+     "relation": "concurrent_with",
+     "component_id": "old_dominion_university_c2",
+     "note": "BOV 1430: FMLA applies to absences for the birth or the mother's childbirth-related health condition; sick pay runs alongside the FMLA leave (not within it, since the plan can run up to six months)."
+    }
+   ],
+   "rule_applied": [
+    "V1",
+    "R1",
+    "R2",
+    "V6",
+    "U5",
+    "U6",
+    "U8",
+    "R11",
+    "R13"
+   ],
+   "evidence": {
+    "mechanism": [
+     "Faculty or AP faculty may use sick leave with pay for the period of absence that is certified by a physician as medically necessary because of illness, health conditions, or recuperation due to pregnancy or childbirth.",
+     "the period of absence before, during and after delivery that is certified by the attending physician as medically necessary may be charged to sick leave."
+    ],
+    "faculty_group": [
+     "It is the policy of the university to grant sick leave with pay to faculty members or administrative and professional faculty (AP faculty) when this becomes necessary during the period covered by the person's contract."
+    ],
+    "eligible_parent": [
+     "Faculty or AP faculty may use sick leave with pay for the period of absence that is certified by a physician as medically necessary because of illness, health conditions, or recuperation due to pregnancy or childbirth."
+    ],
+    "entitlement": [
+     "It is the policy of the university to grant sick leave with pay to faculty members or administrative and professional faculty (AP faculty) when this becomes necessary during the period covered by the person's contract."
+    ],
+    "duration": [
+     "Sick leave will continue until the person is able to resume his or her responsibilities, but for no longer than six months of sick leave during those months normally covered by contract for teaching and research faculty"
+    ],
+    "pay_fraction": [
+     "Faculty or AP faculty may use sick leave with pay for the period of absence that is certified by a physician as medically necessary because of illness, health conditions, or recuperation due to pregnancy or childbirth."
+    ],
+    "sequence": [
+     "The provisions of the Family and Medical Leave Act (FMLA) apply to absences due to the birth of a child or the mother's health condition related to childbirth."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_bov1430_sick_leave",
+    "2018_00_link"
+   ],
+   "flags": [
+    "ambiguous: rule gap: two sick-pay paths set by the member's retirement-plan election: BOV 1430 sick leave (coded) and, for faculty who elected the Virginia Retirement System, the Virginia Sickness and Disability Program (8-10 days sick leave a year; short-term disability after a 7-calendar-day wait at 100/80/60% for up to 125 workdays; LTD after 180 days at 60%), recorded in notes, not linked (checklist §1, U8)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "V1",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "the period of absence before, during and after delivery that is certified by the attending physician as medically necessary may be charged to sick leave."
+    },
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "Sick leave will continue until the person is able to resume his or her responsibilities, but for no longer than six months of sick leave during those months normally covered by contract for teaching and research faculty"
+    },
+    {
+     "field": "mechanism",
+     "rule": "U6",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "the period of absence before, during and after delivery that is certified by the attending physician as medically necessary may be charged to sick leave."
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "employer",
+     "quote": "It is the policy of the university to grant sick leave with pay to faculty members or administrative and professional faculty (AP faculty) when this becomes necessary during the period covered by the person's contract."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Faculty or AP faculty may use sick leave with pay for the period of absence that is certified by a physician as medically necessary because of illness, health conditions, or recuperation due to pregnancy or childbirth."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "It is the policy of the university to grant sick leave with pay to faculty members or administrative and professional faculty (AP faculty) when this becomes necessary during the period covered by the person's contract."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own illness, pregnancy, childbirth)",
+     "quote": "Faculty or AP faculty may use sick leave with pay for the period of absence that is certified by a physician as medically necessary because of illness, health conditions, or recuperation due to pregnancy or childbirth."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "It is the policy of the university to grant sick leave with pay to faculty members or administrative and professional faculty (AP faculty) when this becomes necessary during the period covered by the person's contract."
+    },
+    {
+     "field": "duration",
+     "rule": "V6",
+     "answer": "6 month up_to (plan maximum; no childbirth period stated)",
+     "quote": "Sick leave will continue until the person is able to resume his or her responsibilities, but for no longer than six months of sick leave during those months normally covered by contract for teaching and research faculty"
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "with pay",
+     "quote": "Faculty or AP faculty may use sick leave with pay for the period of absence that is certified by a physician as medically necessary because of illness, health conditions, or recuperation due to pregnancy or childbirth."
+    },
+    {
+     "field": "sequence",
+     "rule": "S1",
+     "answer": "concurrent_with old_dominion_university_c2",
+     "quote": "The provisions of the Family and Medical Leave Act (FMLA) apply to absences due to the birth of a child or the mother's health condition related to childbirth."
+    }
+   ]
+  },
+  {
+   "component_id": "old_dominion_university_c4",
+   "institution_label": "",
+   "description": "BOV Policy 1430: a faculty member may use sick leave, up to 10 days at a time and no more than 10 days per contract cycle, for an illness or death in the immediate family (spouse and domestic partner included).",
+   "mechanism": "generic_sick_or_disability_plan",
+   "mechanism_note": "Use of the employer-granted sick-leave plan (c3) for family illness or death; a separate provision with its own limit (V4).",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "\"A faculty member or AP faculty\"; 'teaching and research faculty'",
+   "eligible_parent": [
+    "non_birth_parent"
+   ],
+   "eligible_parent_wording": "illness or death in their immediate families; immediate family includes spouse, domestic partner, children",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "duration": {
+    "value": 10,
+    "units": "day",
+    "qualifier": "up_to"
+   },
+   "duration_note": "up to 10 days at a time; may not exceed 10 days in a contract cycle",
+   "payer": "employer",
+   "rule_applied": [
+    "U1",
+    "U5",
+    "V2",
+    "R1",
+    "R11",
+    "V4"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "A faculty member or AP faculty may use their sick leave, up to 10 days at a time, for an illness or death in their immediate families."
+    ],
+    "eligible_parent": [
+     "A faculty member or AP faculty may use their sick leave, up to 10 days at a time, for an illness or death in their immediate families.",
+     "Immediate family includes parents, stepparents, spouse, domestic partner, children, stepchildren, foster children, legal ward, grandparents, siblings, stepsiblings, corresponding in-laws"
+    ],
+    "entitlement": [
+     "A faculty member or AP faculty may use their sick leave, up to 10 days at a time, for an illness or death in their immediate families."
+    ],
+    "duration": [
+     "A faculty member or AP faculty may use their sick leave, up to 10 days at a time, for an illness or death in their immediate families.",
+     "Leave for this purpose may not exceed 10 days in a contract cycle for teaching and research faculty"
+    ]
+   },
+   "doc_ids": [
+    "2018_01_bov1430_sick_leave"
+   ],
+   "flags": [
+    "general_purpose",
+    "family_illness_leave"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "A faculty member or AP faculty may use their sick leave, up to 10 days at a time, for an illness or death in their immediate families."
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "employer",
+     "quote": "It is the policy of the university to grant sick leave with pay to faculty members or administrative and professional faculty (AP faculty) when this becomes necessary during the period covered by the person's contract."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "A faculty member or AP faculty may use their sick leave, up to 10 days at a time, for an illness or death in their immediate families."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "A faculty member or AP faculty may use their sick leave, up to 10 days at a time, for an illness or death in their immediate families."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "non_birth_parent (care of an ill family member)",
+     "quote": "A faculty member or AP faculty may use their sick leave, up to 10 days at a time, for an illness or death in their immediate families."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "A faculty member or AP faculty may use their sick leave, up to 10 days at a time, for an illness or death in their immediate families."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "10 day up_to",
+     "quote": "Leave for this purpose may not exceed 10 days in a contract cycle for teaching and research faculty"
+    }
+   ]
+  },
+  {
+   "component_id": "old_dominion_university_c5",
+   "institution_label": "Long-Term Disability",
+   "description": "Disability insurance offered through Human Resources that faculty are encouraged to carry, beginning after six months when sick leave is exhausted; listed in the handbook among optional benefits through payroll deduction (plan document not saved).",
+   "mechanism": "generic_sick_or_disability_plan",
+   "mechanism_note": "Long-term disability (schema §2): recorded without a duration.",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "\"Faculty members\"; optional benefits \"for full-time faculty\"",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "own disability",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "entitlement_note": "R1d: a plan the employer makes available for employees to buy; access guaranteed.",
+   "payer": "employee_paid",
+   "time_window": "begins coverage after six months when sick leave is exhausted",
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "old_dominion_university_c3",
+     "note": "coverage begins when the six months of sick leave are exhausted"
+    }
+   ],
+   "rule_applied": [
+    "R1d",
+    "U5",
+    "R15"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Faculty members are encouraged to carry a disability insurance policy that begins coverage after six months when sick leave is exhausted and the faculty member is removed from the payroll.",
+     "The university offers a comprehensive optional benefits program for full-time faculty."
+    ],
+    "eligible_parent": [
+     "Faculty members are encouraged to carry a disability insurance policy that begins coverage after six months when sick leave is exhausted and the faculty member is removed from the payroll."
+    ],
+    "entitlement": [
+     "Such a policy is offered through the university's Department of Human Resources.",
+     "The university offers a comprehensive optional benefits program for full-time faculty."
+    ],
+    "sequence": [
+     "Faculty members are encouraged to carry a disability insurance policy that begins coverage after six months when sick leave is exhausted and the faculty member is removed from the payroll."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_bov1430_sick_leave",
+    "2018_00_link"
+   ],
+   "flags": [
+    "cross_reference_not_saved: Long-Term Disability (ODU benefits page, https://www.odu.edu/facultystaff/employee-services/benefits/101)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "Faculty members are encouraged to carry a disability insurance policy that begins coverage after six months when sick leave is exhausted and the faculty member is removed from the payroll."
+    },
+    {
+     "field": "payer",
+     "rule": "R1d",
+     "answer": "employee_paid",
+     "quote": "Optional Benefits Through Payroll Deduction"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Faculty members are encouraged to carry a disability insurance policy that begins coverage after six months when sick leave is exhausted and the faculty member is removed from the payroll."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Faculty members are encouraged to carry a disability insurance policy that begins coverage after six months when sick leave is exhausted and the faculty member is removed from the payroll."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent",
+     "quote": "Faculty members are encouraged to carry a disability insurance policy that begins coverage after six months when sick leave is exhausted and the faculty member is removed from the payroll."
+    },
+    {
+     "field": "entitlement",
+     "rule": "R1d",
+     "answer": "guaranteed",
+     "quote": "Such a policy is offered through the university's Department of Human Resources."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "consecutive_after old_dominion_university_c3",
+     "quote": "Faculty members are encouraged to carry a disability insurance policy that begins coverage after six months when sick leave is exhausted and the faculty member is removed from the payroll."
+    }
+   ]
+  },
+  {
+   "component_id": "old_dominion_university_c6",
+   "institution_label": "ODU Short-Term Disability",
+   "description": "Optional short-term disability insurance offered to full-time faculty through payroll deduction; only its title and the optional-benefit listing are saved, so its terms (waiting period, length, benefit level) are unknown.",
+   "mechanism": "generic_sick_or_disability_plan",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "\"optional benefits program for full-time faculty\"",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "own disability (no wording saved)",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "entitlement_note": "R1d: an optional plan the university offers for employees to buy.",
+   "payer": "employee_paid",
+   "rule_applied": [
+    "R1d",
+    "U5"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "The university offers a comprehensive optional benefits program for full-time faculty."
+    ],
+    "eligible_parent": [
+     "ODU Short-Term Disability"
+    ],
+    "entitlement": [
+     "The university offers a comprehensive optional benefits program for full-time faculty."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "cross_reference_not_saved: ODU Short-Term Disability (ODU benefits page, https://www.odu.edu/facultystaff/employee-services/benefits/101)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "ODU Short-Term Disability"
+    },
+    {
+     "field": "payer",
+     "rule": "R1d",
+     "answer": "employee_paid",
+     "quote": "Optional Benefits Through Payroll Deduction"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "ODU Short-Term Disability"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "The university offers a comprehensive optional benefits program for full-time faculty."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent",
+     "quote": "ODU Short-Term Disability"
+    },
+    {
+     "field": "entitlement",
+     "rule": "R1d",
+     "answer": "guaranteed",
+     "quote": "The university offers a comprehensive optional benefits program for full-time faculty."
+    }
+   ]
+  },
+  {
+   "component_id": "old_dominion_university_c7",
+   "institution_label": "Leave of Absence Without Compensation",
+   "description": "BOV Policy 1432: unpaid leave of absence that may be granted for reasons in the interests of the university, one year at a time, normally no more than two consecutive years; approval by chair, dean, provost and president; return to position at the prior salary plus increments.",
+   "mechanism": "unpaid_leave",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "\"Faculty\"; \"A faculty member's request\"",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "no parent wording; any reason 'in the interests of the university'",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "duration": {
+    "value": 2,
+    "units": "year",
+    "qualifier": "up_to"
+   },
+   "duration_note": "granted for one year at a time; 'no more than two consecutive years ... shall normally be permitted' (Q1: up_to, 'normally' kept here)",
+   "payer": "none",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "return_obligation": "return to position at prior salary plus increments; no full-time employment elsewhere unless approved",
+   "rule_applied": [
+    "U1",
+    "V2",
+    "R9",
+    "R13",
+    "Q1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Faculty granted such leave shall return to their positions at the salary they were earning at the time the leave was granted plus any increments that may have been awarded."
+    ],
+    "eligible_parent": [
+     "Leave of absence without compensation may be granted for reasons that are in the interests of the university."
+    ],
+    "entitlement": [
+     "Leave of absence without compensation may be granted for reasons that are in the interests of the university.",
+     "A faculty member's request for leave of absence must be approved by the department chair, the dean, the provost and vice president for academic affairs, and the president."
+    ],
+    "duration": [
+     "Such leaves are granted for one year at a time and no more than two consecutive years of leaves of absence shall normally be permitted."
+    ],
+    "relief": [
+     "Leave of absence without compensation may be granted for reasons that are in the interests of the university."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_bov1432_leave_without_compensation"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "Leave of absence without compensation may be granted for reasons that are in the interests of the university."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Leave of absence without compensation may be granted for reasons that are in the interests of the university."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "Leave of absence without compensation may be granted for reasons that are in the interests of the university."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Faculty granted such leave shall return to their positions at the salary they were earning at the time the leave was granted plus any increments that may have been awarded."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U1",
+     "answer": "any_parent (no stated purpose limit)",
+     "quote": "Leave of absence without compensation may be granted for reasons that are in the interests of the university."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "Leave of absence without compensation may be granted for reasons that are in the interests of the university."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "2 year up_to (Q1: normally no more than two consecutive years; granted one year at a time)",
+     "quote": "Such leaves are granted for one year at a time and no more than two consecutive years of leaves of absence shall normally be permitted."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "formal leave, relief not stated: all relieved",
+     "quote": "Leave of absence without compensation may be granted for reasons that are in the interests of the university."
+    }
+   ]
+  },
+  {
+   "component_id": "old_dominion_university_c8",
+   "institution_label": "",
+   "description": "BOV Policy 1411 (Tenure) III.C, as revised effective July 1, 2018: up to one year may be excluded from the probationary period, on provost approval, after a 'serious event' (birth, adoption of a child under six, serious illness, family care, among others) requiring more than eight hours a day for more than six weeks; request within one year of the event and before the tenure application.",
+   "mechanism": "tenure_clock",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "probationary tenure-track faculty (\"initial full-time, tenure-track appointment\")",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "birth of a child; adoption of a child under the age of six years",
+   "caregiver_condition": "other",
+   "caregiver_condition_wording": "A “serious event” is defined as a life-altering situation which requires the faculty member to devote more than eight hours of each day to alleviate the impact of the event for a period greater than six weeks and less than one year.",
+   "entitlement": "discretionary",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "up_to"
+   },
+   "time_window": "request no later than one year from the first day of the serious event, and before the tenure application is submitted; adoption of a child under the age of six years",
+   "rule_applied": [
+    "U1",
+    "V2",
+    "R13",
+    "R6"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "The probationary period begins with the initial full-time, tenure-track appointment at Old Dominion University at the rank of instructor, assistant professor, associate professor, or full professor;"
+    ],
+    "eligible_parent": [
+     "These events may include the birth of a child, adoption of a child under the age of six years, serious personal illness or care of an immediate family member including parent, stepparent, child, or spouse."
+    ],
+    "entitlement": [
+     "A period of time, not to exceed one year, may be excluded from the probationary period, upon the approval of the provost and vice president for academic affairs subject to the following conditions:",
+     "The decision of the provost and vice president for academic affairs is final."
+    ],
+    "duration": [
+     "A period of time, not to exceed one year, may be excluded from the probationary period, upon the approval of the provost and vice president for academic affairs subject to the following conditions:"
+    ],
+    "caregiver_condition": [
+     "A “serious event” is defined as a life-altering situation which requires the faculty member to devote more than eight hours of each day to alleviate the impact of the event"
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link",
+    "2018_05_bov_agenda_2018jun14_tenure_revision",
+    "2018_06_bov_ara_minutes_2018jun14"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "A period of time, not to exceed one year, may be excluded from the probationary period, upon the approval of the provost and vice president for academic affairs subject to the following conditions:"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "These events may include the birth of a child, adoption of a child under the age of six years, serious personal illness or care of an immediate family member including parent, stepparent, child, or spouse."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "The probationary period begins with the initial full-time, tenure-track appointment at Old Dominion University at the rank of instructor, assistant professor, associate professor, or full professor;"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "birth_parent, non_birth_parent, adoptive",
+     "quote": "These events may include the birth of a child, adoption of a child under the age of six years, serious personal illness or care of an immediate family member including parent, stepparent, child, or spouse."
+    },
+    {
+     "field": "caregiver_condition",
+     "rule": "R6",
+     "answer": "other",
+     "quote": "A “serious event” is defined as a life-altering situation which requires the faculty member to devote more than eight hours of each day to alleviate the impact of the event"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "A period of time, not to exceed one year, may be excluded from the probationary period, upon the approval of the provost and vice president for academic affairs subject to the following conditions:"
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 year up_to ('not to exceed one year')",
+     "quote": "A period of time, not to exceed one year, may be excluded from the probationary period, upon the approval of the provost and vice president for academic affairs subject to the following conditions:"
+    },
+    {
+     "field": "duration",
+     "rule": "source_precedence",
+     "answer": "2018 revision (eff. July 1, 2018) governs over the handbook's June 2016 text (same wording)",
+     "quote": "the Board of Visitors approves the proposed revisions to the policy on Tenure effective July 1, 2018."
+    }
+   ]
+  },
+  {
+   "component_id": "old_dominion_university_c9",
+   "institution_label": "",
+   "description": "BOV Policy 1411 III.B.4 (rev. eff. July 1, 2018): time spent on leave of absence does not count toward the probationary period.",
+   "mechanism": "tenure_clock",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "probationary tenure-track faculty",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "any leave of absence; no parent wording",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "rule_applied": [
+    "U1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "The probationary period begins with the initial full-time, tenure-track appointment at Old Dominion University at the rank of instructor, assistant professor, associate professor, or full professor;"
+    ],
+    "eligible_parent": [
+     "4. Time spent on leave of absence."
+    ],
+    "entitlement": [
+     "The following do not count as part of the probationary period:",
+     "4. Time spent on leave of absence."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link",
+    "2018_05_bov_agenda_2018jun14_tenure_revision",
+    "2018_06_bov_ara_minutes_2018jun14"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "4. Time spent on leave of absence."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "4. Time spent on leave of absence."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "The probationary period begins with the initial full-time, tenure-track appointment at Old Dominion University at the rank of instructor, assistant professor, associate professor, or full professor;"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U1",
+     "answer": "any_parent",
+     "quote": "4. Time spent on leave of absence."
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "The following do not count as part of the probationary period:"
+    }
+   ]
+  },
+  {
+   "component_id": "old_dominion_university_c10",
+   "institution_label": "Parental Leave",
+   "description": "Commonwealth of Virginia DHRM Policy 4.21 (effective June 26, 2018), as posted by ODU Human Resources: up to 8 weeks (320 hours) of paid parental leave within six months of a birth or placement, for salaried classified, restricted and at-will employees under the Virginia Personnel Act; runs concurrently with FML. Teaching and research staff are exempt from the Act (Va. Code 2.2-2905(8)), so tenure-stream faculty are not covered.",
+   "mechanism": "employer_paid_leave",
+   "faculty_group": "classified, restricted and salaried at-will employees covered by the Virginia Personnel Act",
+   "faculty_scope": "positions covered by the Virginia Personnel Act (teaching and research staff exempt, Va. Code 2.2-2905(8))",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "\"Legally recognized biological, adoptive, foster, or custodial parent\"; \"To give birth to, care for, and bond with a newborn child\"",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 8,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "duration_note": "up to eight weeks (320 hours) for full-time employees; pro-rated for quasi-full-time and part-time",
+   "payer": "employer",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "service_requirement": "FML eligibility: 12 months of Commonwealth employment in the past seven years and 1,250 hours in the previous 12 months",
+   "dual_employee_rule": "each parent employed by the Commonwealth is entitled to up to 320 hours",
+   "time_window": "within six months of the birth or placement",
+   "use_limit": [
+    {
+     "times": 1,
+     "per": "window",
+     "window_years": 1,
+     "counts": "uses"
+    }
+   ],
+   "use_limit_note": "the 320 hours may be used once per child and once within a 12 month period (once per child is a renewal, not recorded, U9)",
+   "notice": "written request at least 30 calendar days before the leave or as soon as practicable",
+   "sequence": [
+    {
+     "relation": "concurrent_with",
+     "component_id": "old_dominion_university_c2",
+     "note": "DHRM 4.21: paid parental leave is designated as FML and runs concurrently with the FML period."
+    }
+   ],
+   "rule_applied": [
+    "U9",
+    "S1",
+    "R9",
+    "R13",
+    "V5"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Application: All positions covered under the Virginia Personnel Act to include salaried full-time, quasi-full-time, and part-time classified and restricted employees. The policy also applies to salaried “at-will” employees.",
+     "8. The presidents and teaching and research staffs of state educational institutions;"
+    ],
+    "eligible_parent": [
+     "To give birth to, care for, and bond with a newborn child.",
+     "To care for and bond with a child placed with the employee through adoption or foster care or a legal custodial arrangement.",
+     "Parent – Legally recognized biological, adoptive, foster, or custodial parent."
+    ],
+    "entitlement": [
+     "Eligible full-time employees are to receive up to eight (8) weeks (320 hours) of paid parental leave to be used within six (6) months of the birth/placement of a child for any one or more of the following reasons:"
+    ],
+    "duration": [
+     "Eligible full-time employees are to receive up to eight (8) weeks (320 hours) of paid parental leave to be used within six (6) months of the birth/placement of a child for any one or more of the following reasons:"
+    ],
+    "service_requirement": [
+     "Must have been employed by the Commonwealth for a minimum of twelve months in the past seven years AND",
+     "Must have worked for at least 1,250 hours in the previous 12-month period."
+    ],
+    "use_limit": [
+     "The 320 hours of parental leave may be used only once per child and only once within a 12 month period."
+    ],
+    "sequence": [
+     "Paid parental leave is designated as Family and Medical Leave (FML) and runs concurrently with the FML period."
+    ],
+    "relief": [
+     "Eligible full-time employees are to receive up to eight (8) weeks (320 hours) of paid parental leave to be used within six (6) months of the birth/placement of a child for any one or more of the following reasons:"
+    ]
+   },
+   "doc_ids": [
+    "2018_04_dhrm421_parental_leave_classified",
+    "2018_15_va_code_2.2-2905_vpa_exemptions"
+   ],
+   "flags": [
+    "cross_reference_not_saved: Executive Order #12 (2018)",
+    "cross_reference_not_saved: DHRM Policy 4.20 Family and Medical Leave",
+    "not_yet_effective: DHRM Policy 4.21 Paid Parental Leave effective 2018-06-26, after the 2018 baseline date (2018-01-01)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "employer_paid_leave",
+     "quote": "Eligible full-time employees are to receive up to eight (8) weeks (320 hours) of paid parental leave to be used within six (6) months of the birth/placement of a child for any one or more of the following reasons:"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "Eligible full-time employees are to receive up to eight (8) weeks (320 hours) of paid parental leave to be used within six (6) months of the birth/placement of a child for any one or more of the following reasons:"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "To give birth to, care for, and bond with a newborn child."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "classified, restricted and salaried at-will employees covered by the Virginia Personnel Act",
+     "quote": "Application: All positions covered under the Virginia Personnel Act to include salaried full-time, quasi-full-time, and part-time classified and restricted employees. The policy also applies to salaried “at-will” employees."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "birth_parent, non_birth_parent, adoptive, foster",
+     "quote": "Parent – Legally recognized biological, adoptive, foster, or custodial parent."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "Eligible full-time employees are to receive up to eight (8) weeks (320 hours) of paid parental leave to be used within six (6) months of the birth/placement of a child for any one or more of the following reasons:"
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "8 week up_to",
+     "quote": "Eligible full-time employees are to receive up to eight (8) weeks (320 hours) of paid parental leave to be used within six (6) months of the birth/placement of a child for any one or more of the following reasons:"
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "formal leave, relief not stated: all relieved",
+     "quote": "Eligible full-time employees are to receive up to eight (8) weeks (320 hours) of paid parental leave to be used within six (6) months of the birth/placement of a child for any one or more of the following reasons:"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "FML eligibility 12 months / 1,250 hours",
+     "quote": "Must have worked for at least 1,250 hours in the previous 12-month period."
+    },
+    {
+     "field": "use_limit",
+     "rule": "U9",
+     "answer": "once within a 12-month window",
+     "quote": "The 320 hours of parental leave may be used only once per child and only once within a 12 month period."
+    },
+    {
+     "field": "sequence",
+     "rule": "S1",
+     "answer": "concurrent_with old_dominion_university_c2",
+     "quote": "Paid parental leave is designated as Family and Medical Leave (FML) and runs concurrently with the FML period."
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "Reference date 2018-01-01. First coded in January 2019 (2019-01-29), after the 2017-18 academic year; DHRM Policy 4.21 (c10), effective 2018-06-26, is flagged not_yet_effective (V5) and enters no value.",
+  "Many handbook sections are only links to policies that are not saved (e.g. BOV 1491 Annual Leave for 12-month faculty, BOV 1431 Military, 1433 Civil and Administrative, 1434 Bone Marrow and Organ Donor, 1435 Emergency/Disaster, 1436 Recognition, 1437 School Assistance and Volunteer Service Leave, University Policy 6052 Lactation Support, 5406 Accommodations for Individuals with Disabilities, 6702 Children in the Workplace, the ODU benefits page for ODU Short-Term Disability, Long-Term Disability and Aflac, and the VSDP Guidebook).",
+  "BOV Policy 1411 (Tenure): the handbook (2018_00) prints the June 9, 2016 version, in force on the reference date; the revision effective July 1, 2018 (agenda book 2018_05, adopted per the minutes 2018_06) leaves III.B.4 and III.C unchanged in substance, so c8-c9 hold under both. The agenda copy is a redline (deleted and inserted words run together); quotes are taken from unchanged passages.",
+  "Path by retirement-plan election (U8, checklist §1): faculty who elected the Virginia Retirement System are enrolled in the Virginia Sickness and Disability Program (handbook pp. 210): 8-10 days of sick leave and 4-5 days of family and personal leave a year; short-term disability after a seven-calendar-day wait, 100/80/60% of income for up to 125 workdays depending on state service (60% for fewer than five years; employees hired on or after July 1, 2009 have a one-year waiting period and a different, unstated schedule); long-term disability after 180 calendar days at 60%. The coded path is BOV 1430 sick leave (up to six months with pay per contract period), the Board's faculty sick-leave policy that the parental Temporary Change in Duties policy refers to; VSDP is not coded as a component and the two are not linked in_lieu_of. Flagged on c3 as a rule gap.",
+  "DHRM Policy 4.21 (8 weeks paid parental leave, effective 2018-06-26) took effect after the reference date (c10, flagged not_yet_effective) and in any case covers only positions under the Virginia Personnel Act; teaching and research staff are exempt (Va. Code 2.2-2905(8), saved statute). Coded as c10 with a named group, so it counts in no faculty figure. No ODU policy extending paid parental leave to teaching and research faculty is among the saved sources.",
+  "BOV 1430 also says any absence beyond the physician-certified period 'must be taken as leave without pay'; no length is stated, so that unpaid time is covered by FMLA (c2) and no separate component is coded.",
+  "Calendar: the handbook's accelerated-course policy states 'traditional semester credit courses of 15 weeks of instruction during the fall and spring semesters'; coded term_weeks 15 (R8). This is instruction weeks; the semester also has a final-examination period.",
+  "Chain, birth parent: one semester with no teaching (c1, discretionary, Just teaching) in the semester of the birth, with FMLA 12 weeks (c2) concurrent from its start and BOV 1430 sick leave with pay for the physician-certified period (c3, generic plan, up to six months) concurrent with FMLA; LTD (c5, employee-paid) only after six months of sick leave.",
+  "Chain, non-birth parent: one semester with no teaching (c1, discretionary) with FMLA 12 weeks (c2) concurrent from its start; family-illness sick leave (c4, 10 days, general purpose) not placed.",
+  "Guaranteed paid leave for tenure-stream faculty after a birth: none dedicated; the only parental relief (c1) requires provost approval (coded discretionary, flagged)."
+ ],
+ "statutory_floor": {
+  "jurisdiction": "US",
+  "year": "2018",
+  "weeks_birth": 12.0,
+  "weeks_nonbirth": 12.0,
+  "statute": "Family and Medical Leave Act (FMLA) (29 U.S.C. 2611-2612)",
+  "source_doc": "2026_00_us_fmla_29usc2612",
+  "table": "statutory_baseline.csv"
+ }
+}

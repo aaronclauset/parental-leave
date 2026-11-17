@@ -1,0 +1,2336 @@
+{
+ "institution": "University of Delaware",
+ "slug": "university_of_delaware",
+ "country": "US",
+ "model": "claude-opus-5-5",
+ "codebook_version": "1.25",
+ "schema_version": "1.25",
+ "reference_date": "2018-03-13",
+ "calendar": {
+  "term_weeks": null,
+  "note": "The agreement states a semester calendar ('regular fall and spring semesters', Art. 17.3) without a length: semester default 16 (R8).",
+  "kind": "semester"
+ },
+ "documents": [
+  {
+   "doc_id": "2018_00_link",
+   "url": "https://sites.udel.edu/generalcounsel/policies/parental-leave/",
+   "title": "General Counsel policy: Parental Leave (HR policy 4-24)",
+   "version_or_effective_date": "revised February 13, 2018; capture 2018-03-13",
+   "retrieved": "2026-10-31T04:42:20+00:00"
+  },
+  {
+   "doc_id": "2018_01_aaup_cba_2016_2021",
+   "url": "https://www.udel.edu/content/dam/udelImages/human-resources/EmployeeRelations/cbas/AAUP.pdf",
+   "title": "Collective Bargaining Agreement, University of Delaware and UD-AAUP, July 1, 2016 - June 30, 2021",
+   "version_or_effective_date": "effective July 1, 2016 to June 30, 2021; made May 18, 2017",
+   "retrieved": "2026-10-31T05:34:00+00:00"
+  },
+  {
+   "doc_id": "2018_02_handbook_4114_academic_leaves",
+   "url": "http://facultyhandbook.udel.edu/handbook/4114-academic-leaves-absence",
+   "title": "Faculty Handbook 4.1.14 Academic Leaves of Absence",
+   "version_or_effective_date": "Rev. 11/93; capture 2017-12-03",
+   "retrieved": "2026-10-31T05:36:33+00:00"
+  },
+  {
+   "doc_id": "2018_03_handbook_41142_family_leave",
+   "url": "http://facultyhandbook.udel.edu/handbook/41142-family-leave",
+   "title": "Faculty Handbook 4.1.14.2 Family Leave",
+   "version_or_effective_date": "Rev. 9/95; capture 2017-04-21",
+   "retrieved": "2026-10-31T05:36:40+00:00"
+  },
+  {
+   "doc_id": "2018_04_handbook_41143_parental_leave_2017cap",
+   "url": "http://facultyhandbook.udel.edu/handbook/41143-parental-leave",
+   "title": "Faculty Handbook 4.1.14.3 Parental Leave",
+   "version_or_effective_date": "Rev 10/1/15; capture 2017-04-21",
+   "retrieved": "2026-10-31T05:36:48+00:00"
+  },
+  {
+   "doc_id": "2018_07_handbook_41144_medical_leave_2016cap",
+   "url": "http://facultyhandbook.udel.edu/handbook/41144-medical-leave",
+   "title": "Faculty Handbook 4.1.14.4 Medical Leave",
+   "version_or_effective_date": "added 11/93; capture 2016-04-28",
+   "retrieved": "2026-10-31T05:52:24+00:00"
+  },
+  {
+   "doc_id": "2018_08_handbook_41148_sick_leave_2019cap",
+   "url": "https://facultyhandbook.udel.edu/handbook/41148-sick-leave",
+   "title": "Faculty Handbook 4.1.14.8 Sick Leave",
+   "version_or_effective_date": "undated; only capture 2019-09-16 (version uncertain)",
+   "retrieved": "2026-10-31T05:52:31+00:00"
+  },
+  {
+   "doc_id": "2018_09_gc_disability_policy",
+   "url": "https://sites.udel.edu/generalcounsel/policies/disability/",
+   "title": "General Counsel policy: Disability (HR policy 4-70)",
+   "version_or_effective_date": "revised November 18, 2016; capture 2017-08-24",
+   "retrieved": "2026-10-31T05:53:25+00:00"
+  },
+  {
+   "doc_id": "2026_00_us_fmla_29usc2612",
+   "title": "29 U.S.C. 2612 (FMLA leave requirement)",
+   "url": "https://www.law.cornell.edu/uscode/text/29/2612",
+   "retrieved": "2026-10-19"
+  },
+  {
+   "doc_id": "2026_01_us_fmla_29usc2611_definitions",
+   "title": "29 U.S.C. 2611 (FMLA definitions)",
+   "url": "https://www.law.cornell.edu/uscode/text/29/2611",
+   "retrieved": "2026-10-19"
+  }
+ ],
+ "missing": false,
+ "scope_accounting": {
+  "C1": {
+   "components": [
+    "university_of_delaware_c1",
+    "university_of_delaware_c2",
+    "university_of_delaware_c7"
+   ]
+  },
+  "C2": {
+   "components": [
+    "university_of_delaware_c4",
+    "university_of_delaware_c5"
+   ]
+  },
+  "C3": {
+   "components": [
+    "university_of_delaware_c3",
+    "university_of_delaware_c9",
+    "university_of_delaware_c10",
+    "university_of_delaware_c11",
+    "university_of_delaware_c12",
+    "university_of_delaware_c13",
+    "university_of_delaware_c14"
+   ]
+  },
+  "C4": {
+   "components": [
+    "university_of_delaware_c6"
+   ],
+   "not_components": [
+    {
+     "statute": "29 Del. C. §5253(b)(1) and (b)(7) (State of Delaware Disability Insurance Program, short- and long-term disability)",
+     "reason": "Disability path for Delaware State Employees' Pension Plan participants enrolled in the DIP; the member's path (403(b) faculty) is coded (U8); recorded in notes. Statute text not saved."
+    },
+    {
+     "statute": "29 Del. C. §5524(b)(3) (State Employees' Disability Pension: salary continuation)",
+     "reason": "Path for State Employees' Pension Plan participants not in the DIP (U8); recorded in notes. Statute text not saved."
+    },
+    {
+     "statute": "Workers' Compensation (State of Delaware)",
+     "reason": "Occupational injury or disease; unrelated to becoming a parent (U4)."
+    }
+   ]
+  },
+  "C5": {
+   "components": [
+    "university_of_delaware_c6",
+    "university_of_delaware_c9"
+   ]
+  },
+  "C6": {
+   "components": [
+    "university_of_delaware_c8"
+   ]
+  },
+  "C7": {
+   "components": [
+    "university_of_delaware_c15",
+    "university_of_delaware_c16"
+   ]
+  },
+  "C8": {
+   "absent": {
+    "documents": [
+     "2018_00_link",
+     "2018_01_aaup_cba_2016_2021",
+     "2018_02_handbook_4114_academic_leaves",
+     "2018_03_handbook_41142_family_leave",
+     "2018_04_handbook_41143_parental_leave_2017cap",
+     "2018_07_handbook_41144_medical_leave_2016cap",
+     "2018_08_handbook_41148_sick_leave_2019cap",
+     "2018_09_gc_disability_policy"
+    ],
+    "terms": [
+     "part-time",
+     "part time",
+     "reduced appointment",
+     "reduced load",
+     "phased",
+     "fractional",
+     "percent time"
+    ]
+   }
+  },
+  "C9": {
+   "components": [
+    "university_of_delaware_c17",
+    "university_of_delaware_c12"
+   ]
+  },
+  "C10": {
+   "absent": {
+    "documents": [
+     "2018_00_link",
+     "2018_01_aaup_cba_2016_2021",
+     "2018_02_handbook_4114_academic_leaves",
+     "2018_03_handbook_41142_family_leave",
+     "2018_04_handbook_41143_parental_leave_2017cap",
+     "2018_07_handbook_41144_medical_leave_2016cap",
+     "2018_08_handbook_41148_sick_leave_2019cap",
+     "2018_09_gc_disability_policy"
+    ],
+    "terms": [
+     "first days",
+     "FMLA",
+     "regular work time",
+     "paid",
+     "with pay",
+     "salary"
+    ]
+   }
+  }
+ },
+ "passage_dispositions": {
+  "2018_00_link#001": {
+   "not_relevant": "site navigation header"
+  },
+  "2018_00_link#002": {
+   "used_in": [
+    "university_of_delaware_c7",
+    "university_of_delaware_c8",
+    "university_of_delaware_c9",
+    "university_of_delaware_c10",
+    "university_of_delaware_c17",
+    "university_of_delaware_c6"
+   ]
+  },
+  "2018_01_aaup_cba_2016_2021#001": {
+   "not_relevant": "Article II: the Agreement controls over conflicting University policies (used as source precedence, in notes)"
+  },
+  "2018_01_aaup_cba_2016_2021#002": {
+   "not_relevant": "course reductions for AAUP representatives"
+  },
+  "2018_01_aaup_cba_2016_2021#003": {
+   "not_relevant": "information the University provides to the AAUP"
+  },
+  "2018_01_aaup_cba_2016_2021#004": {
+   "not_relevant": "mortgage continuation on total disability; insurance for members aged 65+; dental plan"
+  },
+  "2018_01_aaup_cba_2016_2021#005": {
+   "used_in": [
+    "university_of_delaware_c15",
+    "university_of_delaware_c16",
+    "university_of_delaware_c12"
+   ]
+  },
+  "2018_01_aaup_cba_2016_2021#006": {
+   "not_relevant": "retirement notice, leave and payments"
+  },
+  "2018_01_aaup_cba_2016_2021#007": {
+   "used_in": [
+    "university_of_delaware_c1",
+    "university_of_delaware_c4",
+    "university_of_delaware_c5",
+    "university_of_delaware_c6"
+   ]
+  },
+  "2018_01_aaup_cba_2016_2021#008": {
+   "not_relevant": "benefits not grievable; carrier rules"
+  },
+  "2018_01_aaup_cba_2016_2021#009": {
+   "not_relevant": "precedence of laws; 17.1 continues existing written policies (including maternity leave policies) not covered by the Agreement (noted)"
+  },
+  "2018_02_handbook_4114_academic_leaves#001": {
+   "not_relevant": "unpaid academic leave for exchange, degrees, fellowships, research or public service: not usable for a birth (noted)"
+  },
+  "2018_03_handbook_41142_family_leave#001": {
+   "used_in": [
+    "university_of_delaware_c2"
+   ]
+  },
+  "2018_04_handbook_41143_parental_leave_2017cap#001": {
+   "used_in": [
+    "university_of_delaware_c1",
+    "university_of_delaware_c3",
+    "university_of_delaware_c4",
+    "university_of_delaware_c5",
+    "university_of_delaware_c6"
+   ]
+  },
+  "2018_07_handbook_41144_medical_leave_2016cap#001": {
+   "used_in": [
+    "university_of_delaware_c6"
+   ]
+  },
+  "2018_08_handbook_41148_sick_leave_2019cap#001": {
+   "used_in": [
+    "university_of_delaware_c11"
+   ]
+  },
+  "2018_09_gc_disability_policy#001": {
+   "used_in": [
+    "university_of_delaware_c14"
+   ]
+  },
+  "2018_09_gc_disability_policy#002": {
+   "used_in": [
+    "university_of_delaware_c13"
+   ]
+  }
+ },
+ "mechanism_slots": {
+  "employer_paid_leave": {
+   "absent": "no employer-paid parental leave in any source; searched all eight documents for 'paid', 'with pay', 'salary', 'parental leave', 'maternity'"
+  },
+  "employer_childbirth_benefit": {
+   "absent": "the Handbook's pregnancy time off with pay states no length (V1(ii) fails: c3 generic); searched 'childbirth', 'pregnancy', 'maternity', 'weeks'"
+  },
+  "generic_sick_or_disability_plan": {
+   "components": [
+    "university_of_delaware_c3",
+    "university_of_delaware_c10",
+    "university_of_delaware_c11",
+    "university_of_delaware_c13",
+    "university_of_delaware_c14"
+   ]
+  },
+  "own_accrual": {
+   "components": [
+    "university_of_delaware_c9"
+   ]
+  },
+  "donated_leave": {
+   "absent": "searched all documents for 'donat', 'bank', 'shared', 'pool': none"
+  },
+  "government_benefit": {
+   "absent": "no state or federal paid programme for faculty; the State DIP is the SEPP path (notes); searched 'Delaware', 'state', 'insurance', 'benefit'"
+  },
+  "employer_topup": {
+   "absent": "no top-up of a government benefit; searched 'top-up', 'supplement', 'difference'"
+  },
+  "modified_duties": {
+   "components": [
+    "university_of_delaware_c4",
+    "university_of_delaware_c5"
+   ]
+  },
+  "unpaid_leave": {
+   "components": [
+    "university_of_delaware_c1",
+    "university_of_delaware_c2",
+    "university_of_delaware_c6",
+    "university_of_delaware_c7",
+    "university_of_delaware_c8"
+   ]
+  },
+  "tenure_clock": {
+   "components": [
+    "university_of_delaware_c15",
+    "university_of_delaware_c16"
+   ]
+  },
+  "part_time_option": {
+   "absent": "searched all documents for 'part-time', 'reduced', 'phased', 'fractional': only phased retirement and part-time faculty use, not parental"
+  },
+  "other": {
+   "components": [
+    "university_of_delaware_c12",
+    "university_of_delaware_c17"
+   ]
+  }
+ },
+ "baseline_accounting": {
+  "Family and Medical Leave Act (FMLA)": {
+   "components": [
+    "university_of_delaware_c6"
+   ]
+  },
+  "Federal Employee Paid Leave Act (paid parental leave for federal civilian employees)": {
+   "not_applicable": "federal civilian employees only"
+  },
+  "Paid Family and Medical Leave": {
+   "absent": "no saved document mentions it (Delaware PFML benefits begin in 2026, after the reference date)"
+  }
+ },
+ "leave_limits": [],
+ "components": [
+  {
+   "component_id": "university_of_delaware_c1",
+   "institution_label": "",
+   "description": "Faculty taking family leave receive FMLA (job-protected, unpaid) leave for up to one semester, longer than the statute's 12 workweeks, because of the academic calendar (CBA 9.16; Faculty Handbook 4.1.14.3).",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "mechanism_note": "An agreement article that adds length to the statutory leave (one semester instead of 12 workweeks) is the institution's own leave, concurrent with the statute (schema statute_source; S1). The Handbook says the semester is unpaid.",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "members of the bargaining unit (all full-time regular members of the voting faculty); Handbook: faculty",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "caregiving, parenting, childbirth or adoption",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "entitlement_note": "'shall receive FMLA benefits for up to one semester'.",
+   "duration": {
+    "value": 1,
+    "units": "semester",
+    "qualifier": "up_to"
+   },
+   "duration_note": "CBA 9.16 'for up to one semester'; Handbook 4.1.14.3 'for an entire semester'. The agreement governs (Art. II, 17.1).",
+   "pay_fraction": "unpaid",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "sequence": [
+    {
+     "relation": "within",
+     "component_id": "university_of_delaware_c2",
+     "note": "CBA 9.16: the semester of FMLA benefits runs during the family leave the member chooses to take (Handbook 4.1.14.2)."
+    }
+   ],
+   "rule_applied": [
+    "S1",
+    "R9",
+    "R13",
+    "V2",
+    "U1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "members of the bargaining unit who choose to utilize the family leave policy approved by the University Faculty Senate (Faculty Handbook, Section 4) shall receive FMLA benefits for up to one semester during the period of approved FMLA leave",
+     "All full-time employees who are regular members of the voting faculty of the University of Delaware under the Bylaws and whose appointments are confirmed by the Board of Trustees and no others."
+    ],
+    "eligible_parent": [
+     "An FMLA leave may be used for caregiving, parenting, childbirth or adoption."
+    ],
+    "entitlement": [
+     "members of the bargaining unit who choose to utilize the family leave policy approved by the University Faculty Senate (Faculty Handbook, Section 4) shall receive FMLA benefits for up to one semester during the period of approved FMLA leave"
+    ],
+    "duration": [
+     "members of the bargaining unit who choose to utilize the family leave policy approved by the University Faculty Senate (Faculty Handbook, Section 4) shall receive FMLA benefits for up to one semester during the period of approved FMLA leave",
+     "Due to the academic calendar, faculty may receive unpaid FMLA leave for an entire semester."
+    ],
+    "pay_fraction": [
+     "Due to the academic calendar, faculty may receive unpaid FMLA leave for an entire semester."
+    ],
+    "sequence": [
+     "members of the bargaining unit who choose to utilize the family leave policy approved by the University Faculty Senate (Faculty Handbook, Section 4) shall receive FMLA benefits for up to one semester during the period of approved FMLA leave"
+    ]
+   },
+   "doc_ids": [
+    "2018_01_aaup_cba_2016_2021",
+    "2018_04_handbook_41143_parental_leave_2017cap"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "Due to the academic calendar, faculty may receive unpaid FMLA leave for an entire semester."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Due to the academic calendar, faculty may receive unpaid FMLA leave for an entire semester."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "An FMLA leave may be used for caregiving, parenting, childbirth or adoption."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "All full-time employees who are regular members of the voting faculty of the University of Delaware under the Bylaws and whose appointments are confirmed by the Board of Trustees and no others."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent: role-neutral purposes",
+     "quote": "An FMLA leave may be used for caregiving, parenting, childbirth or adoption."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "members of the bargaining unit who choose to utilize the family leave policy approved by the University Faculty Senate (Faculty Handbook, Section 4) shall receive FMLA benefits for up to one semester during the period of approved FMLA leave"
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 semester up_to (agreement governs the Handbook's 'entire semester')",
+     "quote": "members of the bargaining unit who choose to utilize the family leave policy approved by the University Faculty Senate (Faculty Handbook, Section 4) shall receive FMLA benefits for up to one semester during the period of approved FMLA leave"
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "unpaid",
+     "quote": "Due to the academic calendar, faculty may receive unpaid FMLA leave for an entire semester."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "formal leave, no relief stated: all duties relieved",
+     "quote": "Due to the academic calendar, faculty may receive unpaid FMLA leave for an entire semester."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "within the family leave (c2)",
+     "quote": "members of the bargaining unit who choose to utilize the family leave policy approved by the University Faculty Senate (Faculty Handbook, Section 4) shall receive FMLA benefits for up to one semester during the period of approved FMLA leave"
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_delaware_c2",
+   "institution_label": "Family Leave",
+   "description": "Unpaid family leave of absence of up to one year for each new child (birth, adoption or foster placement), at most two years per faculty member; the University continues its health-insurance contribution for up to one semester.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "A faculty member (Faculty Handbook, Personnel Policies for Faculty); CBA 9.16 refers to it as the family leave policy for members of the bargaining unit",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "A faculty member who becomes the parent of a newborn or newly adopted child or a child placed in foster care",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "V2: the member 'may choose to take' the leave and the policy 'is intended to establish a faculty member's entitlement to a minimum standard'; 'may be granted for up to one year' read as setting the maximum length. Flagged ambiguous because 'may be granted' alone would be discretionary.",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "up_to"
+   },
+   "duration_note": "Up to one year for each child; a maximum of two years per faculty member over a career. If the two-year maximum has been reached, the member may use the 12 weeks of FMLA leave.",
+   "pay_fraction": "without pay",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "notice": "when possible, one semester in advance by written request to the chair or program director, dean and Provost",
+   "rule_applied": [
+    "V2",
+    "R9",
+    "R13",
+    "U1",
+    "U9"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "A faculty member who becomes the parent of a newborn or newly adopted child or a child placed in foster care in the faculty member's home, and who wishes time off for child care purposes, may choose to take a family leave of absence."
+    ],
+    "eligible_parent": [
+     "A faculty member who becomes the parent of a newborn or newly adopted child or a child placed in foster care in the faculty member's home, and who wishes time off for child care purposes, may choose to take a family leave of absence."
+    ],
+    "entitlement": [
+     "A faculty member who becomes the parent of a newborn or newly adopted child or a child placed in foster care in the faculty member's home, and who wishes time off for child care purposes, may choose to take a family leave of absence.",
+     "Family leave may be granted for up to one year for each child, with a maximum of two years per faculty member.",
+     "This policy is intended to establish a faculty member's entitlement to a minimum standard, not to replace other informal or flexible arrangements that may be worked out between a faculty member and his or her Department chair."
+    ],
+    "duration": [
+     "Family leave may be granted for up to one year for each child, with a maximum of two years per faculty member."
+    ],
+    "pay_fraction": [
+     "Family leave is without pay."
+    ],
+    "notice": [
+     "Request for family leave, when possible, should be made one semester in advance by written request to the Department chair or program director, Dean of the College and the Office of the Provost."
+    ]
+   },
+   "doc_ids": [
+    "2018_03_handbook_41142_family_leave"
+   ],
+   "flags": [
+    "ambiguous: entitlement: 'may choose to take' and 'entitlement to a minimum standard' against 'may be granted for up to one year' (V2); coded guaranteed_on_request",
+    "ambiguous: restriction: career maximum of two years of family leave per faculty member"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "Family leave is without pay."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Family leave is without pay."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "A faculty member who becomes the parent of a newborn or newly adopted child or a child placed in foster care in the faculty member's home, and who wishes time off for child care purposes, may choose to take a family leave of absence."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "A faculty member who becomes the parent of a newborn or newly adopted child or a child placed in foster care in the faculty member's home, and who wishes time off for child care purposes, may choose to take a family leave of absence."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent: role-neutral wording covering birth, adoption and foster",
+     "quote": "A faculty member who becomes the parent of a newborn or newly adopted child or a child placed in foster care in the faculty member's home, and who wishes time off for child care purposes, may choose to take a family leave of absence."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "This policy is intended to establish a faculty member's entitlement to a minimum standard, not to replace other informal or flexible arrangements that may be worked out between a faculty member and his or her Department chair."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 year up_to per child",
+     "quote": "Family leave may be granted for up to one year for each child, with a maximum of two years per faculty member."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "without pay",
+     "quote": "Family leave is without pay."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "formal leave of absence, no relief stated: all duties relieved",
+     "quote": "A faculty member who becomes the parent of a newborn or newly adopted child or a child placed in foster care in the faculty member's home, and who wishes time off for child care purposes, may choose to take a family leave of absence."
+    },
+    {
+     "field": "use_limit",
+     "rule": "U9",
+     "answer": "no use_limit: 'for each child' is a renewal; the two-year career maximum is a time limit, flagged as a restriction",
+     "quote": "Family leave may be granted for up to one year for each child, with a maximum of two years per faculty member."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_delaware_c3",
+   "institution_label": "",
+   "description": "Faculty physically unable to work because of pregnancy, childbirth or related conditions may have time off with pay; no length is stated (a doctor's certification may be required beyond six weeks).",
+   "mechanism": "generic_sick_or_disability_plan",
+   "payer": "employer",
+   "mechanism_note": "V1: a childbirth-related paid period with a pay level ('with pay') but no stated length or default length (six weeks is the certification threshold), so V1(ii) fails and it stays a generic plan. U6 considered: it grants 'time off' but states no length, so a separate leave component would carry no length; the protected leave is c1/c6.",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Faculty",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "physically unable to work due to pregnancy, childbirth",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "V2: 'may have time off with pay' (as Chicago's 'may have').",
+   "pay_fraction": "with pay",
+   "medical_certification": true,
+   "medical_certification_note": "a doctor's certification may be required at any time for periods longer than six weeks",
+   "notice": "if possible, three months before the anticipated date of the leave",
+   "rule_applied": [
+    "V1",
+    "V2",
+    "U5",
+    "U6",
+    "V6"
+   ],
+   "evidence": {
+    "mechanism": [
+     "Faculty may have time off with pay if they are physically unable to work due to pregnancy, childbirth, miscarriage, abortion, or other related medical conditions.",
+     "The University reserves the right to require a doctor's certification at any time for periods longer than six weeks."
+    ],
+    "faculty_group": [
+     "Faculty may have time off with pay if they are physically unable to work due to pregnancy, childbirth, miscarriage, abortion, or other related medical conditions."
+    ],
+    "eligible_parent": [
+     "Faculty may have time off with pay if they are physically unable to work due to pregnancy, childbirth, miscarriage, abortion, or other related medical conditions."
+    ],
+    "entitlement": [
+     "Faculty may have time off with pay if they are physically unable to work due to pregnancy, childbirth, miscarriage, abortion, or other related medical conditions."
+    ],
+    "pay_fraction": [
+     "Faculty may have time off with pay if they are physically unable to work due to pregnancy, childbirth, miscarriage, abortion, or other related medical conditions."
+    ],
+    "medical_certification": [
+     "The University reserves the right to require a doctor's certification at any time for periods longer than six weeks."
+    ],
+    "notice": [
+     "If possible, faculty requesting time off for reasons associated with childbirth must notify their supervisor three months prior to the anticipated date of the leave."
+    ]
+   },
+   "doc_ids": [
+    "2018_04_handbook_41143_parental_leave_2017cap"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "V1",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "The University reserves the right to require a doctor's certification at any time for periods longer than six weeks."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "Faculty may have time off with pay if they are physically unable to work due to pregnancy, childbirth, miscarriage, abortion, or other related medical conditions."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Faculty may have time off with pay if they are physically unable to work due to pregnancy, childbirth, miscarriage, abortion, or other related medical conditions."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Faculty may have time off with pay if they are physically unable to work due to pregnancy, childbirth, miscarriage, abortion, or other related medical conditions."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent: own pregnancy-related incapacity",
+     "quote": "Faculty may have time off with pay if they are physically unable to work due to pregnancy, childbirth, miscarriage, abortion, or other related medical conditions."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "Faculty may have time off with pay if they are physically unable to work due to pregnancy, childbirth, miscarriage, abortion, or other related medical conditions."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "with pay",
+     "quote": "Faculty may have time off with pay if they are physically unable to work due to pregnancy, childbirth, miscarriage, abortion, or other related medical conditions."
+    }
+   ]
+  },
+  {
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "members of the bargaining unit (all full-time regular members of the voting faculty); Handbook 4.1.14.3: faculty",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "the primary caregiver, he or she; the birth or the adoption of a child under the age of five by the faculty member",
+   "caregiver_condition": "primary",
+   "caregiver_condition_wording": "If the faculty member is the primary caregiver",
+   "time_window": "during the semester of the birth or the adoption of a child under the age of five, or immediately following the birth or adoption",
+   "component_id": "university_of_delaware_c4",
+   "institution_label": "one semester administered load",
+   "description": "A primary-caregiver faculty member is granted a one-semester administered load; this option gives full relief from assigned teaching and service, in the semester of the birth or adoption (child under five) or the one immediately following.",
+   "mechanism": "modified_duties",
+   "payer": "employer",
+   "entitlement": "guaranteed",
+   "entitlement_note": "'will be granted'; the member chooses partial or full relief.",
+   "duration": {
+    "value": 1,
+    "units": "semester",
+    "qualifier": "exact"
+   },
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "continues",
+    "advising_supervision": "continues",
+    "clinical": "continues"
+   },
+   "relief_inferred": "unnamed duties continue (R4b)",
+   "relief_note": "Full relief from assigned teaching and service; research, advising and clinical duties not named (continue, R4b). Pay not stated; full pay inferred (R3).",
+   "sequence": [
+    {
+     "relation": "in_lieu_of",
+     "component_id": "university_of_delaware_c5",
+     "note": "R3c: the member chooses full or partial relief"
+    }
+   ],
+   "rule_applied": [
+    "R3",
+    "R3c",
+    "R4",
+    "R4b",
+    "R6",
+    "V2",
+    "R15"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "If the faculty member is the primary caregiver, he or she will be granted a one semester administered load that grants the faculty member a choice of either partial or full relief from assigned teaching and service responsibilities during the semester of the birth or the adoption of a child under the age of five by the faculty member or immediately following the birth or adoption.",
+     "All full-time employees who are regular members of the voting faculty of the University of Delaware under the Bylaws and whose appointments are confirmed by the Board of Trustees and no others."
+    ],
+    "eligible_parent": [
+     "If the faculty member is the primary caregiver, he or she will be granted a one semester administered load that grants the faculty member a choice of either partial or full relief from assigned teaching and service responsibilities during the semester of the birth or the adoption of a child under the age of five by the faculty member or immediately following the birth or adoption."
+    ],
+    "caregiver_condition": [
+     "If the faculty member is the primary caregiver, he or she will be granted a one semester administered load that grants the faculty member a choice of either partial or full relief from assigned teaching and service responsibilities during the semester of the birth or the adoption of a child under the age of five by the faculty member or immediately following the birth or adoption."
+    ],
+    "entitlement": [
+     "If the faculty member is the primary caregiver, he or she will be granted a one semester administered load that grants the faculty member a choice of either partial or full relief from assigned teaching and service responsibilities during the semester of the birth or the adoption of a child under the age of five by the faculty member or immediately following the birth or adoption."
+    ],
+    "duration": [
+     "If the faculty member is the primary caregiver, he or she will be granted a one semester administered load that grants the faculty member a choice of either partial or full relief from assigned teaching and service responsibilities during the semester of the birth or the adoption of a child under the age of five by the faculty member or immediately following the birth or adoption."
+    ],
+    "relief": [
+     "If the faculty member is the primary caregiver, he or she will be granted a one semester administered load that grants the faculty member a choice of either partial or full relief from assigned teaching and service responsibilities during the semester of the birth or the adoption of a child under the age of five by the faculty member or immediately following the birth or adoption.",
+     "If the faculty member is the primary caregiver, he or she will be granted a one semester administered load that allows a choice of either partial or full relief from teaching and service during the semester of the birth or the adoption of a child under the age of five by the faculty member or immediately following the birth or adoption."
+    ],
+    "sequence": [
+     "If the faculty member is the primary caregiver, he or she will be granted a one semester administered load that grants the faculty member a choice of either partial or full relief from assigned teaching and service responsibilities during the semester of the birth or the adoption of a child under the age of five by the faculty member or immediately following the birth or adoption."
+    ],
+    "time_window": [
+     "If the faculty member is the primary caregiver, he or she will be granted a one semester administered load that grants the faculty member a choice of either partial or full relief from assigned teaching and service responsibilities during the semester of the birth or the adoption of a child under the age of five by the faculty member or immediately following the birth or adoption."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_aaup_cba_2016_2021",
+    "2018_04_handbook_41143_parental_leave_2017cap"
+   ],
+   "flags": [
+    "ambiguous: pay level not stated; full pay inferred (R3)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "modified_duties",
+     "quote": "If the faculty member is the primary caregiver, he or she will be granted a one semester administered load that grants the faculty member a choice of either partial or full relief from assigned teaching and service responsibilities during the semester of the birth or the adoption of a child under the age of five by the faculty member or immediately following the birth or adoption."
+    },
+    {
+     "field": "payer",
+     "rule": "R3",
+     "answer": "employer",
+     "quote": "If the faculty member is the primary caregiver, he or she will be granted a one semester administered load that grants the faculty member a choice of either partial or full relief from assigned teaching and service responsibilities during the semester of the birth or the adoption of a child under the age of five by the faculty member or immediately following the birth or adoption."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "If the faculty member is the primary caregiver, he or she will be granted a one semester administered load that grants the faculty member a choice of either partial or full relief from assigned teaching and service responsibilities during the semester of the birth or the adoption of a child under the age of five by the faculty member or immediately following the birth or adoption."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "All full-time employees who are regular members of the voting faculty of the University of Delaware under the Bylaws and whose appointments are confirmed by the Board of Trustees and no others."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R6",
+     "answer": "any_parent; primary caregiver condition gender-neutral",
+     "quote": "If the faculty member is the primary caregiver, he or she will be granted a one semester administered load that grants the faculty member a choice of either partial or full relief from assigned teaching and service responsibilities during the semester of the birth or the adoption of a child under the age of five by the faculty member or immediately following the birth or adoption."
+    },
+    {
+     "field": "caregiver_condition",
+     "rule": "schema",
+     "answer": "primary",
+     "quote": "If the faculty member is the primary caregiver, he or she will be granted a one semester administered load that grants the faculty member a choice of either partial or full relief from assigned teaching and service responsibilities during the semester of the birth or the adoption of a child under the age of five by the faculty member or immediately following the birth or adoption."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "If the faculty member is the primary caregiver, he or she will be granted a one semester administered load that grants the faculty member a choice of either partial or full relief from assigned teaching and service responsibilities during the semester of the birth or the adoption of a child under the age of five by the faculty member or immediately following the birth or adoption."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 semester exact",
+     "quote": "If the faculty member is the primary caregiver, he or she will be granted a one semester administered load that grants the faculty member a choice of either partial or full relief from assigned teaching and service responsibilities during the semester of the birth or the adoption of a child under the age of five by the faculty member or immediately following the birth or adoption."
+    },
+    {
+     "field": "relief",
+     "rule": "R4b",
+     "answer": "teaching and service relieved; research, advising and clinical continue (unnamed)",
+     "quote": "If the faculty member is the primary caregiver, he or she will be granted a one semester administered load that grants the faculty member a choice of either partial or full relief from assigned teaching and service responsibilities during the semester of the birth or the adoption of a child under the age of five by the faculty member or immediately following the birth or adoption."
+    },
+    {
+     "field": "sequence",
+     "rule": "R3c",
+     "answer": "in_lieu_of the partial-relief option (c5)",
+     "quote": "If the faculty member is the primary caregiver, he or she will be granted a one semester administered load that grants the faculty member a choice of either partial or full relief from assigned teaching and service responsibilities during the semester of the birth or the adoption of a child under the age of five by the faculty member or immediately following the birth or adoption."
+    }
+   ]
+  },
+  {
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "members of the bargaining unit (all full-time regular members of the voting faculty); Handbook 4.1.14.3: faculty",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "the primary caregiver, he or she; the birth or the adoption of a child under the age of five by the faculty member",
+   "caregiver_condition": "primary",
+   "caregiver_condition_wording": "If the faculty member is the primary caregiver",
+   "time_window": "during the semester of the birth or the adoption of a child under the age of five, or immediately following the birth or adoption",
+   "component_id": "university_of_delaware_c5",
+   "institution_label": "one semester administered load",
+   "description": "The alternative option of the primary-caregiver administered load: partial relief from assigned teaching and service for the semester; the amount of relief is not stated.",
+   "mechanism": "modified_duties",
+   "payer": "employer",
+   "entitlement": "guaranteed",
+   "entitlement_note": "'will be granted'; the member chooses partial or full relief.",
+   "relief": {
+    "teaching": "partially_relieved",
+    "service_admin": "partially_relieved",
+    "research": "continues",
+    "advising_supervision": "continues",
+    "clinical": "continues"
+   },
+   "relief_inferred": "unnamed duties continue (R4b)",
+   "relief_note": "Partial relief from teaching and service over one semester; amount unstated, so no duration (R3c). Pay not stated; full pay inferred (R3).",
+   "sequence": [
+    {
+     "relation": "in_lieu_of",
+     "component_id": "university_of_delaware_c4",
+     "note": "R3c: the member chooses full or partial relief"
+    }
+   ],
+   "rule_applied": [
+    "R3",
+    "R3c",
+    "R4b",
+    "R6",
+    "V2"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "If the faculty member is the primary caregiver, he or she will be granted a one semester administered load that grants the faculty member a choice of either partial or full relief from assigned teaching and service responsibilities during the semester of the birth or the adoption of a child under the age of five by the faculty member or immediately following the birth or adoption.",
+     "All full-time employees who are regular members of the voting faculty of the University of Delaware under the Bylaws and whose appointments are confirmed by the Board of Trustees and no others."
+    ],
+    "eligible_parent": [
+     "If the faculty member is the primary caregiver, he or she will be granted a one semester administered load that grants the faculty member a choice of either partial or full relief from assigned teaching and service responsibilities during the semester of the birth or the adoption of a child under the age of five by the faculty member or immediately following the birth or adoption."
+    ],
+    "caregiver_condition": [
+     "If the faculty member is the primary caregiver, he or she will be granted a one semester administered load that grants the faculty member a choice of either partial or full relief from assigned teaching and service responsibilities during the semester of the birth or the adoption of a child under the age of five by the faculty member or immediately following the birth or adoption."
+    ],
+    "entitlement": [
+     "If the faculty member is the primary caregiver, he or she will be granted a one semester administered load that grants the faculty member a choice of either partial or full relief from assigned teaching and service responsibilities during the semester of the birth or the adoption of a child under the age of five by the faculty member or immediately following the birth or adoption."
+    ],
+    "relief": [
+     "If the faculty member is the primary caregiver, he or she will be granted a one semester administered load that grants the faculty member a choice of either partial or full relief from assigned teaching and service responsibilities during the semester of the birth or the adoption of a child under the age of five by the faculty member or immediately following the birth or adoption.",
+     "If the faculty member is the primary caregiver, he or she will be granted a one semester administered load that allows a choice of either partial or full relief from teaching and service during the semester of the birth or the adoption of a child under the age of five by the faculty member or immediately following the birth or adoption."
+    ],
+    "sequence": [
+     "If the faculty member is the primary caregiver, he or she will be granted a one semester administered load that grants the faculty member a choice of either partial or full relief from assigned teaching and service responsibilities during the semester of the birth or the adoption of a child under the age of five by the faculty member or immediately following the birth or adoption."
+    ],
+    "time_window": [
+     "If the faculty member is the primary caregiver, he or she will be granted a one semester administered load that grants the faculty member a choice of either partial or full relief from assigned teaching and service responsibilities during the semester of the birth or the adoption of a child under the age of five by the faculty member or immediately following the birth or adoption."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_aaup_cba_2016_2021",
+    "2018_04_handbook_41143_parental_leave_2017cap"
+   ],
+   "flags": [
+    "ambiguous: pay level not stated; full pay inferred (R3)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "modified_duties",
+     "quote": "If the faculty member is the primary caregiver, he or she will be granted a one semester administered load that grants the faculty member a choice of either partial or full relief from assigned teaching and service responsibilities during the semester of the birth or the adoption of a child under the age of five by the faculty member or immediately following the birth or adoption."
+    },
+    {
+     "field": "payer",
+     "rule": "R3",
+     "answer": "employer",
+     "quote": "If the faculty member is the primary caregiver, he or she will be granted a one semester administered load that grants the faculty member a choice of either partial or full relief from assigned teaching and service responsibilities during the semester of the birth or the adoption of a child under the age of five by the faculty member or immediately following the birth or adoption."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "If the faculty member is the primary caregiver, he or she will be granted a one semester administered load that grants the faculty member a choice of either partial or full relief from assigned teaching and service responsibilities during the semester of the birth or the adoption of a child under the age of five by the faculty member or immediately following the birth or adoption."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "All full-time employees who are regular members of the voting faculty of the University of Delaware under the Bylaws and whose appointments are confirmed by the Board of Trustees and no others."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R6",
+     "answer": "any_parent; primary caregiver condition gender-neutral",
+     "quote": "If the faculty member is the primary caregiver, he or she will be granted a one semester administered load that grants the faculty member a choice of either partial or full relief from assigned teaching and service responsibilities during the semester of the birth or the adoption of a child under the age of five by the faculty member or immediately following the birth or adoption."
+    },
+    {
+     "field": "caregiver_condition",
+     "rule": "schema",
+     "answer": "primary",
+     "quote": "If the faculty member is the primary caregiver, he or she will be granted a one semester administered load that grants the faculty member a choice of either partial or full relief from assigned teaching and service responsibilities during the semester of the birth or the adoption of a child under the age of five by the faculty member or immediately following the birth or adoption."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "If the faculty member is the primary caregiver, he or she will be granted a one semester administered load that grants the faculty member a choice of either partial or full relief from assigned teaching and service responsibilities during the semester of the birth or the adoption of a child under the age of five by the faculty member or immediately following the birth or adoption."
+    },
+    {
+     "field": "relief",
+     "rule": "R3c",
+     "answer": "teaching and service partially relieved, amount unstated, no duration; others continue (R4b)",
+     "quote": "If the faculty member is the primary caregiver, he or she will be granted a one semester administered load that grants the faculty member a choice of either partial or full relief from assigned teaching and service responsibilities during the semester of the birth or the adoption of a child under the age of five by the faculty member or immediately following the birth or adoption."
+    },
+    {
+     "field": "sequence",
+     "rule": "R3c",
+     "answer": "in_lieu_of the full-relief option (c4)",
+     "quote": "If the faculty member is the primary caregiver, he or she will be granted a one semester administered load that grants the faculty member a choice of either partial or full relief from assigned teaching and service responsibilities during the semester of the birth or the adoption of a child under the age of five by the faculty member or immediately following the birth or adoption."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_delaware_c6",
+   "institution_label": "Family and Medical Leave Act (FMLA)",
+   "description": "Federal FMLA: 12 workweeks of unpaid job-protected leave in a 12-month period for a birth and care of the child, adoption or foster placement, the employee's own serious health condition, or care of a family member; the Handbook restates it for parental and medical leave.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "an eligible employee; Handbook: faculty / an eligible faculty member",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "birth of a son or daughter of the employee and in order to care for such son or daughter; placement for adoption or foster care; own serious health condition; care of a spouse, child or parent",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 12,
+    "units": "workweek",
+    "qualifier": "exact"
+   },
+   "duration_note": "A total of 12 workweeks in any 12-month period (statute). For faculty the agreement extends FMLA benefits to up to one semester (c1). Handbook 4.1.14.4 restates the medical-leave purposes at the same 12 workweeks.",
+   "service_requirement": "12 months of employment and 1,250 hours in the previous 12 months (29 U.S.C. 2611(2)(A)); Handbook 4.1.14.4: at least one academic year for medical leave",
+   "pay_fraction": "unpaid",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "statute_source": "29 U.S.C. 2612(a)(1)(A)-(D); eligibility 29 U.S.C. 2611(2)(A)",
+   "statute_verified": true,
+   "runs_concurrently_with": [
+    "university_of_delaware_c1",
+    "university_of_delaware_c2",
+    "university_of_delaware_c7"
+   ],
+   "sequence": [
+    {
+     "relation": "concurrent_with",
+     "component_id": "university_of_delaware_c1",
+     "note": "S1: the semester of FMLA benefits (c1) extends the statutory 12 workweeks; unpaid remainder of the semester beyond 12 workweeks is the institution's"
+    },
+    {
+     "relation": "concurrent_with",
+     "component_id": "university_of_delaware_c2",
+     "note": "S1: FMLA runs alongside the family leave"
+    },
+    {
+     "relation": "concurrent_with",
+     "component_id": "university_of_delaware_c7",
+     "note": "S1: the GC parental leave runs concurrently with FMLA"
+    }
+   ],
+   "rule_applied": [
+    "U2",
+    "U4",
+    "S1",
+    "U5",
+    "R9"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "It is the policy of the University to comply with the Family and Medical Leave Act (FMLA) of 1993, which grants an eligible employee up to a total of 12 workweeks of unpaid leave in any 12-month period for certain circumstances.",
+     "An eligible faculty member is entitled to up to a total of 12 workweeks of unpaid medical leave during a 12-month period to care for an immediate family member (spouse, child or parent) with a serious health condition, or when the faculty member is unable to work because of his or her own serious health condition."
+    ],
+    "eligible_parent": [
+     "Because of the birth of a son or daughter of the employee and in order to care for such son or daughter",
+     "An eligible employee is entitled to up to a total of 12 workweeks of parental leave during a 12-month period for the birth or placement of a child for adoption or foster care.",
+     "An eligible faculty member is entitled to up to a total of 12 workweeks of unpaid medical leave during a 12-month period to care for an immediate family member (spouse, child or parent) with a serious health condition, or when the faculty member is unable to work because of his or her own serious health condition."
+    ],
+    "entitlement": [
+     "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period for one or more of the following:",
+     "An eligible employee is entitled to up to a total of 12 workweeks of parental leave during a 12-month period for the birth or placement of a child for adoption or foster care."
+    ],
+    "duration": [
+     "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period for one or more of the following:",
+     "This parental leave will count against the employee's total family and medical leave entitlement of 12 weeks in any 12-month period."
+    ],
+    "service_requirement": [
+     "for at least 12 months by the employer with respect to whom leave is requested under section 2612 of this title",
+     "at least 1,250 hours of service with such employer during the previous 12-month period",
+     "To be eligible for medical leave, the faculty member must have worked for the University for at least one academic year."
+    ],
+    "pay_fraction": [
+     "It is the policy of the University to comply with the Family and Medical Leave Act (FMLA) of 1993, which grants an eligible employee up to a total of 12 workweeks of unpaid leave in any 12-month period for certain circumstances."
+    ],
+    "sequence": [
+     "members of the bargaining unit who choose to utilize the family leave policy approved by the University Faculty Senate (Faculty Handbook, Section 4) shall receive FMLA benefits for up to one semester during the period of approved FMLA leave",
+     "This parental leave policy applies to all benefited employees of the University and will run concurrently with FMLA leave, where applicable.",
+     "This parental leave will count against the employee's total family and medical leave entitlement of 12 weeks in any 12-month period."
+    ]
+   },
+   "doc_ids": [
+    "2026_00_us_fmla_29usc2612",
+    "2026_01_us_fmla_29usc2611_definitions",
+    "2018_04_handbook_41143_parental_leave_2017cap",
+    "2018_07_handbook_41144_medical_leave_2016cap",
+    "2018_01_aaup_cba_2016_2021",
+    "2018_00_link"
+   ],
+   "flags": [
+    "cross_reference_not_saved: University Family and Medical Leave Policy (General Counsel policies)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "U4",
+     "answer": "unpaid_leave",
+     "quote": "It is the policy of the University to comply with the Family and Medical Leave Act (FMLA) of 1993, which grants an eligible employee up to a total of 12 workweeks of unpaid leave in any 12-month period for certain circumstances."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "It is the policy of the University to comply with the Family and Medical Leave Act (FMLA) of 1993, which grants an eligible employee up to a total of 12 workweeks of unpaid leave in any 12-month period for certain circumstances."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Because of the birth of a son or daughter of the employee and in order to care for such son or daughter"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "An eligible faculty member is entitled to up to a total of 12 workweeks of unpaid medical leave during a 12-month period to care for an immediate family member (spouse, child or parent) with a serious health condition, or when the faculty member is unable to work because of his or her own serious health condition."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "any_parent: bonding for either parent; own condition and family care also covered",
+     "quote": "Because of the birth of a son or daughter of the employee and in order to care for such son or daughter"
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period for one or more of the following:"
+    },
+    {
+     "field": "duration",
+     "rule": "U2",
+     "answer": "12 workweeks exact ('a total of')",
+     "quote": "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period for one or more of the following:"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U2",
+     "answer": "12 months and 1,250 hours",
+     "quote": "at least 1,250 hours of service with such employer during the previous 12-month period"
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "unpaid",
+     "quote": "It is the policy of the University to comply with the Family and Medical Leave Act (FMLA) of 1993, which grants an eligible employee up to a total of 12 workweeks of unpaid leave in any 12-month period for certain circumstances."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "formal leave: all duties relieved",
+     "quote": "It is the policy of the University to comply with the Family and Medical Leave Act (FMLA) of 1993, which grants an eligible employee up to a total of 12 workweeks of unpaid leave in any 12-month period for certain circumstances."
+    },
+    {
+     "field": "sequence",
+     "rule": "S1",
+     "answer": "concurrent_with c1, c2, c7",
+     "quote": "This parental leave policy applies to all benefited employees of the University and will run concurrently with FMLA leave, where applicable."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_delaware_c7",
+   "institution_label": "Parental Leave",
+   "description": "HR Parental Leave policy for all benefited employees, FMLA-eligible or not: 12 workweeks of unpaid parental leave in a 12-month period for a birth, adoption or foster placement or pregnancy-related conditions; accrued sick leave and vacation must be used first to stay in paid status.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Eligible Employee: Benefited employees; applies to all benefited employees of the University",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "men and women; birth or placement of a child for adoption or foster care, or to address pregnancy-related health conditions",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 12,
+    "units": "workweek",
+    "qualifier": "exact"
+   },
+   "duration_note": "'a total of 12 work weeks' (R13: a total with no qualifier is exact). Leave beyond 12 weeks is a personal leave of absence (c8).",
+   "service_requirement": "none stated (covers employees not eligible for FMLA)",
+   "dual_employee_rule": "combined 12 weeks",
+   "must_exhaust_first": [
+    "sick",
+    "vacation"
+   ],
+   "medical_certification": true,
+   "medical_certification_note": "employees eligible for sick leave who take parental leave submit a certification form (WH-380-E)",
+   "notice": "30 days if foreseeable; otherwise the same or next business day",
+   "pay_fraction": "unpaid",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "runs_concurrently_with": [
+    "FMLA"
+   ],
+   "rule_applied": [
+    "R13",
+    "R9",
+    "U1",
+    "R1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Eligible Employee: Benefited employees.",
+     "This parental leave policy applies to all benefited employees of the University and will run concurrently with FMLA leave, where applicable."
+    ],
+    "eligible_parent": [
+     "Parental leave: An eligible employee is entitled to a total of 12 work weeks of unpaid parental leave during a 12- month period for the birth or placement of a child for adoption or foster care, or to address pregnancy-related health conditions.",
+     "The University of Delaware recognizes the importance of having a parental leave policy for men and women which helps employees balance the responsibilities of work and parenthood."
+    ],
+    "entitlement": [
+     "Parental leave: An eligible employee is entitled to a total of 12 work weeks of unpaid parental leave during a 12- month period for the birth or placement of a child for adoption or foster care, or to address pregnancy-related health conditions."
+    ],
+    "duration": [
+     "Parental leave: An eligible employee is entitled to a total of 12 work weeks of unpaid parental leave during a 12- month period for the birth or placement of a child for adoption or foster care, or to address pregnancy-related health conditions."
+    ],
+    "service_requirement": [
+     "This policy addresses parental leave available to all eligible FMLA employees and for employees of the University who are not eligible for FMLA."
+    ],
+    "dual_employee_rule": [
+     "If spouses are employees of the University, they are entitled to 12 weeks combined parental leave under this policy."
+    ],
+    "must_exhaust_first": [
+     "During periods of parental leave, employees must use all eligible, accrued sick leave pursuant to the Sick Leave Policy, and thereafter must use accrued vacation time to remain in paid status."
+    ],
+    "medical_certification": [
+     "Employees eligible for sick leave that are taking leave under this parental leave policy will be required to submit a certification form provided by the University."
+    ],
+    "notice": [
+     "An employee must provide 30 days advance notice to the University if the need for parental leave is foreseeable by providing notice to their supervisor."
+    ],
+    "pay_fraction": [
+     "Parental leave: An eligible employee is entitled to a total of 12 work weeks of unpaid parental leave during a 12- month period for the birth or placement of a child for adoption or foster care, or to address pregnancy-related health conditions.",
+     "Employees who have exhausted accrued sick leave and vacation may take the remainder of their 12 weeks of parental leave on an unpaid basis."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "Parental leave: An eligible employee is entitled to a total of 12 work weeks of unpaid parental leave during a 12- month period for the birth or placement of a child for adoption or foster care, or to address pregnancy-related health conditions."
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "none",
+     "quote": "Employees who have exhausted accrued sick leave and vacation may take the remainder of their 12 weeks of parental leave on an unpaid basis."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Parental leave: An eligible employee is entitled to a total of 12 work weeks of unpaid parental leave during a 12- month period for the birth or placement of a child for adoption or foster care, or to address pregnancy-related health conditions."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "This parental leave policy applies to all benefited employees of the University and will run concurrently with FMLA leave, where applicable."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "The University of Delaware recognizes the importance of having a parental leave policy for men and women which helps employees balance the responsibilities of work and parenthood."
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "Parental leave: An eligible employee is entitled to a total of 12 work weeks of unpaid parental leave during a 12- month period for the birth or placement of a child for adoption or foster care, or to address pregnancy-related health conditions."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "12 workweeks exact",
+     "quote": "Parental leave: An eligible employee is entitled to a total of 12 work weeks of unpaid parental leave during a 12- month period for the birth or placement of a child for adoption or foster care, or to address pregnancy-related health conditions."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "none stated; covers employees not eligible for FMLA",
+     "quote": "This policy addresses parental leave available to all eligible FMLA employees and for employees of the University who are not eligible for FMLA."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "unpaid",
+     "quote": "Parental leave: An eligible employee is entitled to a total of 12 work weeks of unpaid parental leave during a 12- month period for the birth or placement of a child for adoption or foster care, or to address pregnancy-related health conditions."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "formal leave: all duties relieved",
+     "quote": "Parental leave: An eligible employee is entitled to a total of 12 work weeks of unpaid parental leave during a 12- month period for the birth or placement of a child for adoption or foster care, or to address pregnancy-related health conditions."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_delaware_c8",
+   "institution_label": "personal leave of absence",
+   "description": "After the 12 weeks of parental leave, an employee may request a personal leave of absence without pay, with the prior approval of the Chief Human Resources Officer, under the Leave of Absence Without Pay Policy.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Benefited employees (Parental Leave policy)",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "entitlement_note": "'may request ... with the prior approval': the approval decides (V2).",
+   "pay_fraction": "without pay",
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "university_of_delaware_c7"
+    }
+   ],
+   "rule_applied": [
+    "U1",
+    "V2",
+    "R15"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "This parental leave policy applies to all benefited employees of the University and will run concurrently with FMLA leave, where applicable."
+    ],
+    "eligible_parent": [
+     "Employees may request a personal leave of absence after exhaustion of the 12 weeks of parental leave with the prior approval of the Chief Human Resources Officer."
+    ],
+    "entitlement": [
+     "Employees may request a personal leave of absence after exhaustion of the 12 weeks of parental leave with the prior approval of the Chief Human Resources Officer."
+    ],
+    "pay_fraction": [
+     "All such leave beyond the 12-week parental leave shall be designated a personal leave of absence and governed by the Leave of Absence Without Pay Policy."
+    ],
+    "sequence": [
+     "Employees may request a personal leave of absence after exhaustion of the 12 weeks of parental leave with the prior approval of the Chief Human Resources Officer."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "general_purpose",
+    "cross_reference_not_saved: Leave of Absence Without Pay Policy"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "All such leave beyond the 12-week parental leave shall be designated a personal leave of absence and governed by the Leave of Absence Without Pay Policy."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "All such leave beyond the 12-week parental leave shall be designated a personal leave of absence and governed by the Leave of Absence Without Pay Policy."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "All such leave beyond the 12-week parental leave shall be designated a personal leave of absence and governed by the Leave of Absence Without Pay Policy."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "This parental leave policy applies to all benefited employees of the University and will run concurrently with FMLA leave, where applicable."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "Employees may request a personal leave of absence after exhaustion of the 12 weeks of parental leave with the prior approval of the Chief Human Resources Officer."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "Employees may request a personal leave of absence after exhaustion of the 12 weeks of parental leave with the prior approval of the Chief Human Resources Officer."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "without pay (Leave of Absence Without Pay Policy)",
+     "quote": "All such leave beyond the 12-week parental leave shall be designated a personal leave of absence and governed by the Leave of Absence Without Pay Policy."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "consecutive_after the 12-week parental leave (c7)",
+     "quote": "Employees may request a personal leave of absence after exhaustion of the 12 weeks of parental leave with the prior approval of the Chief Human Resources Officer."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_delaware_c9",
+   "institution_label": "Sick Leave for Parental Leave",
+   "description": "During parental leave, employees with accrued sick leave (for their own pregnancy-related incapacity or care of a family member) and accrued vacation must use them to remain in paid status.",
+   "mechanism": "own_accrual",
+   "payer": "own_balance",
+   "faculty_group": "employees eligible for sick leave under the Sick Leave Policy (accrued sick leave and vacation)",
+   "faculty_group_note": "The Parental Leave policy covers all benefited employees, but its accrued sick-leave and vacation mechanics apply to 'employees eligible for sick leave' under the Sick Leave Policy; the Faculty Handbook (4.1.14.8) describes faculty sick leave as an informal policy, not an accrual.",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "physically unable to work due to pregnancy, childbirth ... or to care for an immediate family member; employees on parental leave (vacation)",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "pay_fraction": "accrued sick leave, then accrued vacation (regular pay)",
+   "sequence": [
+    {
+     "relation": "within",
+     "component_id": "university_of_delaware_c7"
+    }
+   ],
+   "rule_applied": [
+    "R1",
+    "U5",
+    "R15"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Employees eligible for sick leave that are taking leave under this parental leave policy will be required to submit a certification form provided by the University.",
+     "The University has an informal policy with respect to sick leave for faculty. Individual cases are handled so as to impose the least possible hardship on the faculty member and his or her family within the resources of the University."
+    ],
+    "eligible_parent": [
+     "Employees requiring parental leave must use all eligible, accrued sick leave pursuant to the Sick Leave Policy if they are physically unable to work due to pregnancy, childbirth, miscarriage, abortion, or other related medical conditions or to care for an immediate family member as stated in the Sick Leave Policy.",
+     "Employees on parental leave must use accrued vacation to remain in paid status during parental leave."
+    ],
+    "entitlement": [
+     "Employees requiring parental leave must use all eligible, accrued sick leave pursuant to the Sick Leave Policy if they are physically unable to work due to pregnancy, childbirth, miscarriage, abortion, or other related medical conditions or to care for an immediate family member as stated in the Sick Leave Policy."
+    ],
+    "pay_fraction": [
+     "During periods of parental leave, employees must use all eligible, accrued sick leave pursuant to the Sick Leave Policy, and thereafter must use accrued vacation time to remain in paid status."
+    ],
+    "sequence": [
+     "During periods of parental leave, employees must use all eligible, accrued sick leave pursuant to the Sick Leave Policy, and thereafter must use accrued vacation time to remain in paid status."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link",
+    "2018_08_handbook_41148_sick_leave_2019cap"
+   ],
+   "flags": [
+    "cross_reference_not_saved: Sick Leave Policy",
+    "ambiguous: faculty coverage: the accrual mechanics apply to 'employees eligible for sick leave'; Faculty Handbook 4.1.14.8 describes faculty sick leave as informal; coded as the staff group"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "own_accrual",
+     "quote": "During periods of parental leave, employees must use all eligible, accrued sick leave pursuant to the Sick Leave Policy, and thereafter must use accrued vacation time to remain in paid status."
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "own_balance",
+     "quote": "During periods of parental leave, employees must use all eligible, accrued sick leave pursuant to the Sick Leave Policy, and thereafter must use accrued vacation time to remain in paid status."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Employees requiring parental leave must use all eligible, accrued sick leave pursuant to the Sick Leave Policy if they are physically unable to work due to pregnancy, childbirth, miscarriage, abortion, or other related medical conditions or to care for an immediate family member as stated in the Sick Leave Policy."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "employees eligible for sick leave under the Sick Leave Policy (accrued sick leave and vacation)",
+     "quote": "Employees eligible for sick leave that are taking leave under this parental leave policy will be required to submit a certification form provided by the University."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "any_parent: sick leave for own incapacity or family care; vacation for any parent",
+     "quote": "Employees requiring parental leave must use all eligible, accrued sick leave pursuant to the Sick Leave Policy if they are physically unable to work due to pregnancy, childbirth, miscarriage, abortion, or other related medical conditions or to care for an immediate family member as stated in the Sick Leave Policy."
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "Employees requiring parental leave must use all eligible, accrued sick leave pursuant to the Sick Leave Policy if they are physically unable to work due to pregnancy, childbirth, miscarriage, abortion, or other related medical conditions or to care for an immediate family member as stated in the Sick Leave Policy."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "R1",
+     "answer": "own balances only",
+     "quote": "During periods of parental leave, employees must use all eligible, accrued sick leave pursuant to the Sick Leave Policy, and thereafter must use accrued vacation time to remain in paid status."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "within the parental leave (c7)",
+     "quote": "During periods of parental leave, employees must use all eligible, accrued sick leave pursuant to the Sick Leave Policy, and thereafter must use accrued vacation time to remain in paid status."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_delaware_c10",
+   "institution_label": "Special Circumstances",
+   "description": "Where an employee's absence exceeds earned sick leave, the chair or director may recommend to the Chief Human Resources Officer an additional period of sick leave.",
+   "mechanism": "generic_sick_or_disability_plan",
+   "payer": "employer",
+   "faculty_group": "employees eligible for sick leave under the Sick Leave Policy (accrued sick leave and vacation)",
+   "faculty_group_note": "applies where an individual's absence exceeds earned sick leave (staff accrual system)",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "entitlement_note": "'may recommend': the approval decides (V2).",
+   "pay_fraction": "sick leave (paid)",
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "university_of_delaware_c9"
+    }
+   ],
+   "rule_applied": [
+    "V2",
+    "U5",
+    "R15",
+    "V6"
+   ],
+   "evidence": {
+    "mechanism": [
+     "In those cases where an individual’s absence exceeds earned sick leave, the Department Chair or Director may recommend to the Chief Human Resources Officer an additional period of sick leave."
+    ],
+    "faculty_group": [
+     "In those cases where an individual’s absence exceeds earned sick leave, the Department Chair or Director may recommend to the Chief Human Resources Officer an additional period of sick leave."
+    ],
+    "eligible_parent": [
+     "In those cases where an individual’s absence exceeds earned sick leave, the Department Chair or Director may recommend to the Chief Human Resources Officer an additional period of sick leave.",
+     "Employees requiring parental leave must use all eligible, accrued sick leave pursuant to the Sick Leave Policy if they are physically unable to work due to pregnancy, childbirth, miscarriage, abortion, or other related medical conditions or to care for an immediate family member as stated in the Sick Leave Policy."
+    ],
+    "entitlement": [
+     "In those cases where an individual’s absence exceeds earned sick leave, the Department Chair or Director may recommend to the Chief Human Resources Officer an additional period of sick leave."
+    ],
+    "pay_fraction": [
+     "In those cases where an individual’s absence exceeds earned sick leave, the Department Chair or Director may recommend to the Chief Human Resources Officer an additional period of sick leave."
+    ],
+    "sequence": [
+     "In those cases where an individual’s absence exceeds earned sick leave, the Department Chair or Director may recommend to the Chief Human Resources Officer an additional period of sick leave."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "ambiguous: faculty coverage: tied to earned sick leave, which faculty do not accrue (Faculty Handbook 4.1.14.8)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "V1",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "In those cases where an individual’s absence exceeds earned sick leave, the Department Chair or Director may recommend to the Chief Human Resources Officer an additional period of sick leave."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "In those cases where an individual’s absence exceeds earned sick leave, the Department Chair or Director may recommend to the Chief Human Resources Officer an additional period of sick leave."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "In those cases where an individual’s absence exceeds earned sick leave, the Department Chair or Director may recommend to the Chief Human Resources Officer an additional period of sick leave."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "employees eligible for sick leave under the Sick Leave Policy (accrued sick leave and vacation)",
+     "quote": "In those cases where an individual’s absence exceeds earned sick leave, the Department Chair or Director may recommend to the Chief Human Resources Officer an additional period of sick leave."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent: own illness",
+     "quote": "In those cases where an individual’s absence exceeds earned sick leave, the Department Chair or Director may recommend to the Chief Human Resources Officer an additional period of sick leave."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "In those cases where an individual’s absence exceeds earned sick leave, the Department Chair or Director may recommend to the Chief Human Resources Officer an additional period of sick leave."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "sick leave, level not stated beyond 'sick leave'",
+     "quote": "In those cases where an individual’s absence exceeds earned sick leave, the Department Chair or Director may recommend to the Chief Human Resources Officer an additional period of sick leave."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "consecutive_after the earned sick leave (c9)",
+     "quote": "In those cases where an individual’s absence exceeds earned sick leave, the Department Chair or Director may recommend to the Chief Human Resources Officer an additional period of sick leave."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_delaware_c11",
+   "institution_label": "Sick Leave",
+   "description": "Faculty sick leave is an informal policy: individual cases are handled to impose the least possible hardship within the University's resources; no length or pay level is stated.",
+   "mechanism": "generic_sick_or_disability_plan",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "sick leave for faculty",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "entitlement_note": "case-by-case handling within the University's resources (V2).",
+   "rule_applied": [
+    "V2",
+    "U5",
+    "V6"
+   ],
+   "evidence": {
+    "mechanism": [
+     "The University has an informal policy with respect to sick leave for faculty. Individual cases are handled so as to impose the least possible hardship on the faculty member and his or her family within the resources of the University."
+    ],
+    "faculty_group": [
+     "The University has an informal policy with respect to sick leave for faculty. Individual cases are handled so as to impose the least possible hardship on the faculty member and his or her family within the resources of the University."
+    ],
+    "eligible_parent": [
+     "The University has an informal policy with respect to sick leave for faculty. Individual cases are handled so as to impose the least possible hardship on the faculty member and his or her family within the resources of the University."
+    ],
+    "entitlement": [
+     "The University has an informal policy with respect to sick leave for faculty. Individual cases are handled so as to impose the least possible hardship on the faculty member and his or her family within the resources of the University."
+    ]
+   },
+   "doc_ids": [
+    "2018_08_handbook_41148_sick_leave_2019cap"
+   ],
+   "flags": [
+    "version_uncertain"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "V1",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "The University has an informal policy with respect to sick leave for faculty. Individual cases are handled so as to impose the least possible hardship on the faculty member and his or her family within the resources of the University."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "The University has an informal policy with respect to sick leave for faculty. Individual cases are handled so as to impose the least possible hardship on the faculty member and his or her family within the resources of the University."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "The University has an informal policy with respect to sick leave for faculty. Individual cases are handled so as to impose the least possible hardship on the faculty member and his or her family within the resources of the University."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "The University has an informal policy with respect to sick leave for faculty. Individual cases are handled so as to impose the least possible hardship on the faculty member and his or her family within the resources of the University."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent: own illness",
+     "quote": "The University has an informal policy with respect to sick leave for faculty. Individual cases are handled so as to impose the least possible hardship on the faculty member and his or her family within the resources of the University."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "The University has an informal policy with respect to sick leave for faculty. Individual cases are handled so as to impose the least possible hardship on the faculty member and his or her family within the resources of the University."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_delaware_c12",
+   "institution_label": "",
+   "description": "If illness or injury prevents a faculty member from meeting University obligations, the member and chair or director agree how to accommodate the member's needs and cover the semester's workload; failing agreement, the Provost decides.",
+   "mechanism": "other",
+   "payer": "none",
+   "mechanism_note": "An accommodation and coverage of workload for illness or injury (a pregnancy-related incapacity included), with no stated relief amount or pay; coded other and counted in no figure (R16).",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "a faculty member (bargaining unit)",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "caregiver_condition": "none",
+   "entitlement": "negotiated",
+   "entitlement_note": "R12: the form of the accommodation is agreed with the chair or director, or set by the Provost, with no guaranteed minimum.",
+   "rule_applied": [
+    "R12",
+    "R16",
+    "U5"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "If illness or injury prevents a faculty member from performing his or her University obligations, and if the faculty member is able, the faculty member shall inform his or her chair or dean."
+    ],
+    "eligible_parent": [
+     "If illness or injury prevents a faculty member from performing his or her University obligations, and if the faculty member is able, the faculty member shall inform his or her chair or dean."
+    ],
+    "entitlement": [
+     "If the faculty member is able, he/she shall discuss how to accommodate his/her needs, and how to cover his/her assigned workload for the current semester with his/her chair or director. Should an accommodation that satisfies the faculty member not be reached, the AAUP shall schedule a meeting with the Provost or the Provost’s Designee, whose decision on an appropriate accommodation shall be final."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_aaup_cba_2016_2021"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R16",
+     "answer": "other",
+     "quote": "If the faculty member is able, he/she shall discuss how to accommodate his/her needs, and how to cover his/her assigned workload for the current semester with his/her chair or director. Should an accommodation that satisfies the faculty member not be reached, the AAUP shall schedule a meeting with the Provost or the Provost’s Designee, whose decision on an appropriate accommodation shall be final."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "If the faculty member is able, he/she shall discuss how to accommodate his/her needs, and how to cover his/her assigned workload for the current semester with his/her chair or director. Should an accommodation that satisfies the faculty member not be reached, the AAUP shall schedule a meeting with the Provost or the Provost’s Designee, whose decision on an appropriate accommodation shall be final."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "If illness or injury prevents a faculty member from performing his or her University obligations, and if the faculty member is able, the faculty member shall inform his or her chair or dean."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "If illness or injury prevents a faculty member from performing his or her University obligations, and if the faculty member is able, the faculty member shall inform his or her chair or dean."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent: own illness or injury",
+     "quote": "If illness or injury prevents a faculty member from performing his or her University obligations, and if the faculty member is able, the faculty member shall inform his or her chair or dean."
+    },
+    {
+     "field": "entitlement",
+     "rule": "R12",
+     "answer": "negotiated",
+     "quote": "If the faculty member is able, he/she shall discuss how to accommodate his/her needs, and how to cover his/her assigned workload for the current semester with his/her chair or director. Should an accommodation that satisfies the faculty member not be reached, the AAUP shall schedule a meeting with the Provost or the Provost’s Designee, whose decision on an appropriate accommodation shall be final."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_delaware_c13",
+   "institution_label": "University Long-Term Disability Insurance Plan for eligible Faculty & Exempt Staff",
+   "description": "For faculty in the 403(b) plan there is no short-term disability benefit; during the six-month waiting period for long-term disability the University continues salary: in the third and fourth years of service 12 weeks at base salary and 60% for the rest of the six months.",
+   "mechanism": "generic_sick_or_disability_plan",
+   "payer": "employer",
+   "mechanism_note": "Salary continuation for any illness or injury causing an extended absence; no childbirth-specific period (V1(i) fails). It replaces salary and grants no leave (U6).",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Faculty & Exempt Staff with the 403(b) Retirement Savings Plan as their primary retirement income option; employees who are not Delaware State Employees' Pension Plan participants",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 6,
+    "units": "month",
+    "qualifier": "exact"
+   },
+   "duration_note": "The six-month LTD waiting (application) period, paid in stages by service band: years 1-2: 8 weeks at base salary, then 60%; years 3-4: 12 weeks at base, then 60% (coded, U8); years 5-6: 16 weeks; years 7-8: 20 weeks; 9+ years: full salary for six months.",
+   "service_requirement": "none stated; the full-salary weeks step up with years of benefits-eligible service (third- and fourth-year band coded, U8)",
+   "pay_fraction": "12 weeks at base salary, then 60% base salary for the remainder of the six-month application period",
+   "rule_applied": [
+    "V1",
+    "V6",
+    "U6",
+    "U8",
+    "R11"
+   ],
+   "evidence": {
+    "mechanism": [
+     "Eligible employees may apply for disability income from the designated disability insurance provider (as described herein) when illness or injury causes an extended absence from work.",
+     "There is no short-term disability benefit available to this group of employees. A six-month waiting period is required before the long-term disability income benefit begins. During this waiting period, the disability insurance provider evaluates the claim for approval or denial and the University continues salary as follows:"
+    ],
+    "faculty_group": [
+     "University Long-Term Disability Insurance Plan: Faculty & Exempt Staff with the 403(b) Retirement Savings Plan as their primary retirement income option.",
+     "Employees who are not Delaware State Employees’ Pension Plan Participants have two long-term disability options:"
+    ],
+    "eligible_parent": [
+     "Eligible employees may apply for disability income from the designated disability insurance provider (as described herein) when illness or injury causes an extended absence from work."
+    ],
+    "entitlement": [
+     "There is no short-term disability benefit available to this group of employees. A six-month waiting period is required before the long-term disability income benefit begins. During this waiting period, the disability insurance provider evaluates the claim for approval or denial and the University continues salary as follows:"
+    ],
+    "duration": [
+     "There is no short-term disability benefit available to this group of employees. A six-month waiting period is required before the long-term disability income benefit begins. During this waiting period, the disability insurance provider evaluates the claim for approval or denial and the University continues salary as follows:",
+     "Employees in their third and fourth years of benefits-eligible University employment receive 12 weeks at base salary, with the remainder of the six-month application period at 60% base salary."
+    ],
+    "service_requirement": [
+     "Employees in their first or second years of benefits-eligible University of Delaware employment receive 8 weeks at base salary, with the remainder of the six-month application period at 60% base salary.",
+     "Employees in their third and fourth years of benefits-eligible University employment receive 12 weeks at base salary, with the remainder of the six-month application period at 60% base salary.",
+     "Employees with 9 years or more of benefits-eligible University employment receive full salary for the six-month application period."
+    ],
+    "pay_fraction": [
+     "Employees in their third and fourth years of benefits-eligible University employment receive 12 weeks at base salary, with the remainder of the six-month application period at 60% base salary."
+    ]
+   },
+   "doc_ids": [
+    "2018_09_gc_disability_policy"
+   ],
+   "flags": [
+    "cross_reference_not_saved: University Long-Term Disability Insurance plan document"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "V1",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "Eligible employees may apply for disability income from the designated disability insurance provider (as described herein) when illness or injury causes an extended absence from work."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "There is no short-term disability benefit available to this group of employees. A six-month waiting period is required before the long-term disability income benefit begins. During this waiting period, the disability insurance provider evaluates the claim for approval or denial and the University continues salary as follows:"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Eligible employees may apply for disability income from the designated disability insurance provider (as described herein) when illness or injury causes an extended absence from work."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "University Long-Term Disability Insurance Plan: Faculty & Exempt Staff with the 403(b) Retirement Savings Plan as their primary retirement income option."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent: own disability",
+     "quote": "Eligible employees may apply for disability income from the designated disability insurance provider (as described herein) when illness or injury causes an extended absence from work."
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "There is no short-term disability benefit available to this group of employees. A six-month waiting period is required before the long-term disability income benefit begins. During this waiting period, the disability insurance provider evaluates the claim for approval or denial and the University continues salary as follows:"
+    },
+    {
+     "field": "duration",
+     "rule": "V6",
+     "answer": "6 months exact (plan's short-term entitlement; no childbirth period stated)",
+     "quote": "There is no short-term disability benefit available to this group of employees. A six-month waiting period is required before the long-term disability income benefit begins. During this waiting period, the disability insurance provider evaluates the claim for approval or denial and the University continues salary as follows:"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U8",
+     "answer": "member with two years of service is in the third-year band: 12 weeks at base salary",
+     "quote": "Employees in their third and fourth years of benefits-eligible University employment receive 12 weeks at base salary, with the remainder of the six-month application period at 60% base salary."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "U8",
+     "answer": "staged: 12 weeks at 100%, then 60%; pay_fraction_pct left empty (staged pay)",
+     "quote": "Employees in their third and fourth years of benefits-eligible University employment receive 12 weeks at base salary, with the remainder of the six-month application period at 60% base salary."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_delaware_c14",
+   "institution_label": "University Long-Term Disability Insurance Plan",
+   "description": "Long-term disability income through the disability insurance provider after a six-month waiting period, at 60% (standard option) or 66 2/3% (high option) of salary.",
+   "mechanism": "generic_sick_or_disability_plan",
+   "payer": "insurance_plan",
+   "mechanism_note": "Long-term disability: recorded without a duration (schema section 2).",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Faculty & Exempt Staff with the 403(b) Retirement Savings Plan as their primary retirement income option",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "pay_fraction": "Standard Option, a 60% salary replacement; High Option, a 66 2/3% salary replacement",
+   "time_window": "after a six-month waiting period",
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "university_of_delaware_c13"
+    }
+   ],
+   "rule_applied": [
+    "V6",
+    "M1",
+    "R15"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "University Long-Term Disability Insurance Plan: Faculty & Exempt Staff with the 403(b) Retirement Savings Plan as their primary retirement income option."
+    ],
+    "eligible_parent": [
+     "Eligible employees may apply for disability income from the designated disability insurance provider (as described herein) when illness or injury causes an extended absence from work."
+    ],
+    "entitlement": [
+     "Employees who are not Delaware State Employees’ Pension Plan Participants have two long-term disability options:"
+    ],
+    "pay_fraction": [
+     "Standard Option, a 60% salary replacement, and"
+    ],
+    "time_window": [
+     "There is no short-term disability benefit available to this group of employees. A six-month waiting period is required before the long-term disability income benefit begins. During this waiting period, the disability insurance provider evaluates the claim for approval or denial and the University continues salary as follows:"
+    ],
+    "sequence": [
+     "There is no short-term disability benefit available to this group of employees. A six-month waiting period is required before the long-term disability income benefit begins. During this waiting period, the disability insurance provider evaluates the claim for approval or denial and the University continues salary as follows:"
+    ]
+   },
+   "doc_ids": [
+    "2018_09_gc_disability_policy"
+   ],
+   "flags": [
+    "cross_reference_not_saved: University Long-Term Disability Insurance plan document"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "Employees who are not Delaware State Employees’ Pension Plan Participants have two long-term disability options:"
+    },
+    {
+     "field": "payer",
+     "rule": "M1",
+     "answer": "insurance_plan",
+     "quote": "Eligible employees may apply for disability income from the designated disability insurance provider (as described herein) when illness or injury causes an extended absence from work."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Eligible employees may apply for disability income from the designated disability insurance provider (as described herein) when illness or injury causes an extended absence from work."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "University Long-Term Disability Insurance Plan: Faculty & Exempt Staff with the 403(b) Retirement Savings Plan as their primary retirement income option."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent: own disability",
+     "quote": "Eligible employees may apply for disability income from the designated disability insurance provider (as described herein) when illness or injury causes an extended absence from work."
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "Employees who are not Delaware State Employees’ Pension Plan Participants have two long-term disability options:"
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "60% standard option (66 2/3% high option)",
+     "quote": "Standard Option, a 60% salary replacement, and"
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "consecutive_after the six-month salary-continuation period (c13)",
+     "quote": "There is no short-term disability benefit available to this group of employees. A six-month waiting period is required before the long-term disability income benefit begins. During this waiting period, the disability insurance provider evaluates the claim for approval or denial and the University continues salary as follows:"
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_delaware_c15",
+   "institution_label": "Stop the Clock",
+   "description": "The pre-tenure probationary period is extended one year on request for a tenure-track faculty member who becomes the parent of a newborn or newly adopted child and is a primary or coequal caregiver, or who takes FMLA leave of at least one semester; at most two one-year extensions.",
+   "mechanism": "tenure_clock",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "tenure-track faculty members",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "become the parent of a newborn or newly adopted child, and is a primary or coequal caregiver of the child",
+   "caregiver_condition": "equal_or_more_than_partner",
+   "caregiver_condition_wording": "is a primary or coequal caregiver of the child",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "'shall be extended for one year upon ... submitting' the web form: granted on request.",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "exact"
+   },
+   "time_window": "form submitted within one calendar year of the birth or adoption, or of the start of the FMLA leave",
+   "use_limit": [
+    {
+     "times": 2,
+     "per": "career",
+     "counts": "uses"
+    }
+   ],
+   "use_limit_note": "two one-year extensions of the probationary period at most (agreement 9.5), read as a limit on all extensions",
+   "rule_applied": [
+    "V2",
+    "R6",
+    "U9",
+    "U1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "This policy applies to tenure-track faculty members who become the parent of a newborn or newly adopted child, and is a primary or coequal caregiver of the child, or who is granted a leave of absence pursuant to the Family and Medical Leave Act of 1993 for a period of at least one semester."
+    ],
+    "eligible_parent": [
+     "This policy applies to tenure-track faculty members who become the parent of a newborn or newly adopted child, and is a primary or coequal caregiver of the child, or who is granted a leave of absence pursuant to the Family and Medical Leave Act of 1993 for a period of at least one semester."
+    ],
+    "caregiver_condition": [
+     "This policy applies to tenure-track faculty members who become the parent of a newborn or newly adopted child, and is a primary or coequal caregiver of the child, or who is granted a leave of absence pursuant to the Family and Medical Leave Act of 1993 for a period of at least one semester."
+    ],
+    "entitlement": [
+     "The pre-tenure probationary period shall be extended for one year upon a tenure-track faculty member submitting a “Stop the Tenure Clock” electronic web form."
+    ],
+    "duration": [
+     "The pre-tenure probationary period shall be extended for one year upon a tenure-track faculty member submitting a “Stop the Tenure Clock” electronic web form."
+    ],
+    "time_window": [
+     "Submission of the “Stop the Tenure Clock” electronic web form must be made within one calendar year of the birth or adoption of the child, or of the commencement of the FMLA leave."
+    ],
+    "use_limit": [
+     "A tenure-track faculty member may extend the probationary period for any reason approved by the appropriate chair/director and dean, but may do so only twice, resulting in no more than two, one-year extensions of the probationary period."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_aaup_cba_2016_2021"
+   ],
+   "flags": [
+    "ambiguous: use limit: the two-extension limit follows the any-reason sentence; read as applying to all extensions"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "The pre-tenure probationary period shall be extended for one year upon a tenure-track faculty member submitting a “Stop the Tenure Clock” electronic web form."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "The faculty member will continue to perform faculty duties at full salary."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "This policy applies to tenure-track faculty members who become the parent of a newborn or newly adopted child, and is a primary or coequal caregiver of the child, or who is granted a leave of absence pursuant to the Family and Medical Leave Act of 1993 for a period of at least one semester."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "This policy applies to tenure-track faculty members who become the parent of a newborn or newly adopted child, and is a primary or coequal caregiver of the child, or who is granted a leave of absence pursuant to the Family and Medical Leave Act of 1993 for a period of at least one semester."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R6",
+     "answer": "any_parent with caregiver condition",
+     "quote": "This policy applies to tenure-track faculty members who become the parent of a newborn or newly adopted child, and is a primary or coequal caregiver of the child, or who is granted a leave of absence pursuant to the Family and Medical Leave Act of 1993 for a period of at least one semester."
+    },
+    {
+     "field": "caregiver_condition",
+     "rule": "schema",
+     "answer": "equal_or_more_than_partner",
+     "quote": "This policy applies to tenure-track faculty members who become the parent of a newborn or newly adopted child, and is a primary or coequal caregiver of the child, or who is granted a leave of absence pursuant to the Family and Medical Leave Act of 1993 for a period of at least one semester."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "The pre-tenure probationary period shall be extended for one year upon a tenure-track faculty member submitting a “Stop the Tenure Clock” electronic web form."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 year exact",
+     "quote": "The pre-tenure probationary period shall be extended for one year upon a tenure-track faculty member submitting a “Stop the Tenure Clock” electronic web form."
+    },
+    {
+     "field": "use_limit",
+     "rule": "U9",
+     "answer": "2 per career",
+     "quote": "A tenure-track faculty member may extend the probationary period for any reason approved by the appropriate chair/director and dean, but may do so only twice, resulting in no more than two, one-year extensions of the probationary period."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_delaware_c16",
+   "institution_label": "",
+   "description": "A tenure-track faculty member may extend the probationary period for any reason approved by the chair or director and dean, at most twice (one year each).",
+   "mechanism": "tenure_clock",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "A tenure-track faculty member",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "entitlement_note": "'for any reason approved by the appropriate chair/director and dean': the approval decides.",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "exact"
+   },
+   "use_limit": [
+    {
+     "times": 2,
+     "per": "career",
+     "counts": "uses"
+    }
+   ],
+   "use_limit_note": "two one-year extensions of the probationary period at most (agreement 9.5)",
+   "rule_applied": [
+    "U1",
+    "V2",
+    "U9"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "A tenure-track faculty member may extend the probationary period for any reason approved by the appropriate chair/director and dean, but may do so only twice, resulting in no more than two, one-year extensions of the probationary period."
+    ],
+    "eligible_parent": [
+     "A tenure-track faculty member may extend the probationary period for any reason approved by the appropriate chair/director and dean, but may do so only twice, resulting in no more than two, one-year extensions of the probationary period."
+    ],
+    "entitlement": [
+     "A tenure-track faculty member may extend the probationary period for any reason approved by the appropriate chair/director and dean, but may do so only twice, resulting in no more than two, one-year extensions of the probationary period."
+    ],
+    "duration": [
+     "A tenure-track faculty member may extend the probationary period for any reason approved by the appropriate chair/director and dean, but may do so only twice, resulting in no more than two, one-year extensions of the probationary period."
+    ],
+    "use_limit": [
+     "A tenure-track faculty member may extend the probationary period for any reason approved by the appropriate chair/director and dean, but may do so only twice, resulting in no more than two, one-year extensions of the probationary period."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_aaup_cba_2016_2021"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "A tenure-track faculty member may extend the probationary period for any reason approved by the appropriate chair/director and dean, but may do so only twice, resulting in no more than two, one-year extensions of the probationary period."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "A tenure-track faculty member may extend the probationary period for any reason approved by the appropriate chair/director and dean, but may do so only twice, resulting in no more than two, one-year extensions of the probationary period."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "A tenure-track faculty member may extend the probationary period for any reason approved by the appropriate chair/director and dean, but may do so only twice, resulting in no more than two, one-year extensions of the probationary period."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "A tenure-track faculty member may extend the probationary period for any reason approved by the appropriate chair/director and dean, but may do so only twice, resulting in no more than two, one-year extensions of the probationary period."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "A tenure-track faculty member may extend the probationary period for any reason approved by the appropriate chair/director and dean, but may do so only twice, resulting in no more than two, one-year extensions of the probationary period."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "A tenure-track faculty member may extend the probationary period for any reason approved by the appropriate chair/director and dean, but may do so only twice, resulting in no more than two, one-year extensions of the probationary period."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 year exact (one-year extensions)",
+     "quote": "A tenure-track faculty member may extend the probationary period for any reason approved by the appropriate chair/director and dean, but may do so only twice, resulting in no more than two, one-year extensions of the probationary period."
+    },
+    {
+     "field": "use_limit",
+     "rule": "U9",
+     "answer": "2 per career",
+     "quote": "A tenure-track faculty member may extend the probationary period for any reason approved by the appropriate chair/director and dean, but may do so only twice, resulting in no more than two, one-year extensions of the probationary period."
+    },
+    {
+     "field": "duration.qualifier",
+     "rule": "R13",
+     "answer": "'no more than two' limits the number of extensions; each extension is exactly one year",
+     "quote": "resulting in no more than two, one-year extensions of the probationary period"
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_delaware_c17",
+   "institution_label": "",
+   "description": "Benefited employees have a right to reasonable accommodation of known limitations related to pregnancy, childbirth and related conditions, and need not take leave where another reasonable accommodation can be provided.",
+   "mechanism": "other",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "all benefited employees (Parental Leave policy)",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "rule_applied": [
+    "R16"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "This parental leave policy applies to all benefited employees of the University and will run concurrently with FMLA leave, where applicable."
+    ],
+    "eligible_parent": [
+     "Employees have a right to be free from discrimination in relation to pregnancy, childbirth, and related conditions, including the right to reasonable accommodation to known limitations related to pregnancy, childbirth, and related conditions."
+    ],
+    "entitlement": [
+     "Employees have a right to be free from discrimination in relation to pregnancy, childbirth, and related conditions, including the right to reasonable accommodation to known limitations related to pregnancy, childbirth, and related conditions.",
+     "Notwithstanding the foregoing, an employee is not required to take leave to accommodate pregnancy if there is another reasonable accommodation that can be provided to the known limitations related to the pregnancy of the employee."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R16",
+     "answer": "other",
+     "quote": "Notwithstanding the foregoing, an employee is not required to take leave to accommodate pregnancy if there is another reasonable accommodation that can be provided to the known limitations related to the pregnancy of the employee."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Employees have a right to be free from discrimination in relation to pregnancy, childbirth, and related conditions, including the right to reasonable accommodation to known limitations related to pregnancy, childbirth, and related conditions."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Employees have a right to be free from discrimination in relation to pregnancy, childbirth, and related conditions, including the right to reasonable accommodation to known limitations related to pregnancy, childbirth, and related conditions."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "This parental leave policy applies to all benefited employees of the University and will run concurrently with FMLA leave, where applicable."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "birth_parent",
+     "quote": "Employees have a right to be free from discrimination in relation to pregnancy, childbirth, and related conditions, including the right to reasonable accommodation to known limitations related to pregnancy, childbirth, and related conditions."
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "Employees have a right to be free from discrimination in relation to pregnancy, childbirth, and related conditions, including the right to reasonable accommodation to known limitations related to pregnancy, childbirth, and related conditions."
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "Source precedence: the AAUP agreement controls over conflicting University policies (Art. II; 17.1). The Faculty Handbook sets the faculty terms (family leave, parental leave, medical leave, sick leave). The General Counsel Parental Leave policy covers all benefited employees, faculty included, but its sick and vacation mechanics are written for employees who accrue sick leave (staff).",
+  "Documents and contents: 2018_00 HR Parental Leave policy (12 weeks unpaid for all benefited employees; sick/vacation use; personal leave after 12 weeks; pregnancy accommodation); 2018_01 AAUP agreement (9.5 stop the clock; 9.6 illness accommodation; 9.16 FMLA for up to one semester and the primary-caregiver administered load); 2018_02 Handbook 4.1.14 academic leaves without salary for professional purposes only (not a component: it cannot be used for a birth) and informal short leaves of a day or two (not coded); 2018_03 Handbook family leave (unpaid, up to one year per child); 2018_04 Handbook parental leave (FMLA restatement, semester of unpaid FMLA leave, time off with pay for pregnancy incapacity, the 9.16 workload option); 2018_07 Handbook medical leave (FMLA restatement for own or family serious health condition; one academic year of service); 2018_08 Handbook sick leave (informal; version uncertain, only capture 2019-09-16); 2018_09 Disability policy (salary continuation during the LTD waiting period; LTD; State DIP and SEPP paths).",
+  "Paths (U8): the Disability policy sets disability pay by retirement plan. The member's path coded is the 403(b) plan ('Faculty & Exempt Staff'; the agreement's 9.7 retirement plan is the 403(b)): no short-term disability; salary continuation during the six-month LTD waiting period (c13), then LTD (c14). Not coded: (a) State Employees' Pension Plan participants enrolled in the State DIP (29 Del. C. 5253(b)(1)): STD from the 31st calendar day after a 30-calendar-day elimination period, up to 182 calendar days, at 75% of base salary; LTD after 182 days at 60% or 66 2/3%; (b) SEPP participants not in the DIP (29 Del. C. 5524(b)(3)): full salary for the month of onset and three months, then full salary while sick leave lasts (or 60% less the state disability pension) to the end of the six-month LTD waiting period.",
+  "Service band (U8): c13's full-salary weeks step up with service (years 1-2: 8; 3-4: 12; 5-6: 16; 7-8: 20; 9+: full six months). A member with two completed years is in the third year: 12 weeks coded (as Purdue's 2-3-year band).",
+  "Chain, birth parent: family leave up to 1 year (c2), containing the semester of FMLA leave (c1, within c2), with the FMLA 12 workweeks (c6) and the HR 12-week parental leave (c7) alongside from the start; pregnancy-incapacity time off with pay (c3, no length) and salary continuation during the LTD waiting period (c13, 6 months, then LTD c14) unlinked; primary-caregiver administered load: full relief for one semester (c4) in lieu of partial relief (c5), in the semester of the birth or the one immediately following, unlinked to the leaves.",
+  "Chain, non-birth parent: family leave up to 1 year (c2) containing the semester of FMLA leave (c1), with FMLA (c6) and the HR parental leave (c7) alongside; primary-caregiver administered load c4 in lieu of c5, unlinked.",
+  "Not linked: the relief semester (c4/c5) is placed by the text relative to the birth ('during the semester of the birth ... or immediately following'), not relative to a leave; no link was coded between the relief and the leaves.",
+  "Documents cited but not saved: University Family and Medical Leave Policy (GC); Sick Leave Policy (GC, staff); Leave of Absence Without Pay Policy (GC); the disability insurance policies and plan documents (Disability policy: the plan document prevails); Faculty Handbook 4.1.14.9 Vacation Leave and 4.1.14.11 Emergency Involuntary Leave of Absence with Pay (listed in the Handbook navigation; not saved); the written policies on 'maternity leave' continued by agreement 17.1 (probably Handbook 4.1.14.3, which is saved); the 2013-2016 agreement cited by Handbook 4.1.14.3 (superseded by the saved 2016-2021 agreement); Faculty Workload Policy (Handbook section 4; workload, not leave); 29 Del. C. 5253 and 5524 (statute texts not saved).",
+  "Handbook 4.1.14.3 was read from the 2017-04-21 capture (2018_04); the document's version note says the 2018-10-26 capture has the same text. Handbook 4.1.14.4 is a 2016 capture (no 2017-18 capture); Handbook 4.1.14.8 is a 2019 capture, so c11 carries version_uncertain.",
+  "Leave limits: none recorded. The HR policy bars using vacation to extend parental leave beyond its 12 weeks (a limit on c7 itself); the family leave's two-year maximum is a career limit (flagged on c2)."
+ ],
+ "statutory_floor": {
+  "jurisdiction": "US",
+  "year": "2018",
+  "weeks_birth": 12.0,
+  "weeks_nonbirth": 12.0,
+  "statute": "Family and Medical Leave Act (FMLA) (29 U.S.C. 2611-2612)",
+  "source_doc": "2026_00_us_fmla_29usc2612",
+  "table": "statutory_baseline.csv"
+ }
+}

@@ -1,0 +1,2545 @@
+{
+ "institution": "University of Virginia",
+ "slug": "university_of_virginia",
+ "country": "US",
+ "model": "claude-opus-5-5",
+ "codebook_version": "1.25",
+ "schema_version": "1.25",
+ "reference_date": "2018-01-01",
+ "calendar": {
+  "term_weeks": null,
+  "note": "Semester calendar stated without a length ('Faculty awarded sabbatical leave can be compensated one semester at full salary or two semesters at half salary'); semester default 16 (R8)",
+  "kind": "semester"
+ },
+ "documents": [
+  {
+   "doc_id": "2018_02_hrm038_faculty_leaves_rev2019-01-09",
+   "url": "https://uvapolicy.virginia.edu/policy/HRM-038",
+   "title": "HRM-038: Faculty Leaves (revised 1/9/19; capture 2019-09-15, page 'Last Revised 04/17/2019')",
+   "version_or_effective_date": "Revised 1/9/19; links updated 4/17/19",
+   "retrieved": "2026-10-30T00:49:56+00:00"
+  },
+  {
+   "doc_id": "2018_03_prov017_promotion_tenure",
+   "url": "http://uvapolicy.virginia.edu:80/policy/PROV-017",
+   "title": "PROV-017: Promotion and Tenure",
+   "version_or_effective_date": "Last Revised 10/06/2014",
+   "retrieved": "2026-10-30T00:50:04+00:00"
+  },
+  {
+   "doc_id": "2018_04_hrm026_family_medical_military_leave",
+   "url": "http://uvapolicy.virginia.edu:80/policy/HRM-026",
+   "title": "HRM-026: Family, Medical, and Military Leave",
+   "version_or_effective_date": "Last Revised 08/21/2009",
+   "retrieved": "2026-10-30T00:50:12+00:00"
+  },
+  {
+   "doc_id": "2018_05_provost_short_term_disability_faculty",
+   "url": "http://provost.virginia.edu/policies/short-term-disability-leave-faculty",
+   "title": "Short Term Disability Leave for Faculty (Provost's Office)",
+   "version_or_effective_date": "undated; capture 2018-10-11",
+   "retrieved": "2026-10-30T00:51:31+00:00"
+  },
+  {
+   "doc_id": "2018_06_hr_disability_benefits",
+   "url": "http://hr.virginia.edu/benefits/disability-benefits",
+   "title": "Disability Benefits (UVA HR)",
+   "version_or_effective_date": "undated; capture 2018-11-23",
+   "retrieved": "2026-10-30T00:51:38+00:00"
+  },
+  {
+   "doc_id": "2018_07_va_dhrm_policy_4-21_paid_parental_leave_2018-06-26",
+   "url": "https://dhrm.am.virginia.gov/docs/default-source/hrpolicy/parental-leave-policy-4-21-6-26-180BFA850A134E.pdf?sfvrsn=0",
+   "title": "Virginia DHRM Policy 4.21 Parental Leave",
+   "version_or_effective_date": "Effective Date: June 26, 2018",
+   "retrieved": "2026-10-30T00:52:15+00:00"
+  },
+  {
+   "doc_id": "2018_20_hrm038_faculty_leaves_2017-12-23",
+   "url": "https://uvapolicy.virginia.edu/policy/HRM-038",
+   "title": "HRM-038: Faculty Leaves (Last Revised 01/04/2017; capture 2017-12-23), in force on the reference date",
+   "version_or_effective_date": "Last Revised 01/04/2017",
+   "retrieved": "2026-11-03T05:43:36+00:00"
+  }
+ ],
+ "missing": false,
+ "scope_accounting": {
+  "C1": {
+   "components": [
+    "university_of_virginia_c1",
+    "university_of_virginia_c2",
+    "university_of_virginia_c3",
+    "university_of_virginia_c15"
+   ]
+  },
+  "C2": {
+   "components": [
+    "university_of_virginia_c4"
+   ]
+  },
+  "C3": {
+   "components": [
+    "university_of_virginia_c11",
+    "university_of_virginia_c12",
+    "university_of_virginia_c13",
+    "university_of_virginia_c16"
+   ]
+  },
+  "C4": {
+   "components": [
+    "university_of_virginia_c14"
+   ],
+   "not_components": [
+    {
+     "statute": "FMLA military leave (qualified exigency; covered servicemember, 26 weeks) and 29 C.F.R. Part 825",
+     "reason": "military-leave sections are unrelated to becoming a parent (U4); the regulations implement the FMLA leave coded as c14"
+    },
+    {
+     "statute": "Pregnancy Discrimination Act (Civil Rights Act)",
+     "reason": "named on the Provost page only to explain why pregnancy is handled as short-term disability; it grants no leave or length of its own; the equal treatment is carried by c11/c12 (U4)"
+    },
+    {
+     "statute": "Virginia Sickness and Disability Program (VSDP; Virginia Retirement System members)",
+     "reason": "the alternative disability path for faculty enrolled in VRS; the ORP path is coded (U8) and VSDP's terms are in notes; flagged on c11/c12"
+    },
+    {
+     "statute": "Virginia Personnel Act, Va. Code 2.2-2900 et seq. and 2.2-2905",
+     "reason": "sets which employees DHRM Policy 4.21 covers; s. 2.2-2905(8) exempts teaching and research staffs; gives no leave itself"
+    },
+    {
+     "statute": "Code of Virginia 2.2-1201",
+     "reason": "DHRM's authority to interpret its policies; no leave"
+    },
+    {
+     "statute": "Executive Order #12 (2018)",
+     "reason": "establishes the state paid parental leave coded as c15 (DHRM Policy 4.21); not a separate component"
+    },
+    {
+     "statute": "Uniformed Services Employment and Reemployment Rights Act of 1994 (USERRA)",
+     "reason": "military leave; unrelated to becoming a parent (U4)"
+    },
+    {
+     "statute": "Social Security (disability and retirement age) and workers' compensation",
+     "reason": "named only as offsets or limits in the disability plans; not parental provisions (U4)"
+    }
+   ]
+  },
+  "C5": {
+   "components": [
+    "university_of_virginia_c5",
+    "university_of_virginia_c14"
+   ]
+  },
+  "C6": {
+   "components": [
+    "university_of_virginia_c8",
+    "university_of_virginia_c4"
+   ]
+  },
+  "C7": {
+   "components": [
+    "university_of_virginia_c7",
+    "university_of_virginia_c10"
+   ]
+  },
+  "C8": {
+   "components": [
+    "university_of_virginia_c6",
+    "university_of_virginia_c9"
+   ]
+  },
+  "C9": {
+   "absent": {
+    "documents": [
+     "2018_02_hrm038_faculty_leaves_rev2019-01-09",
+     "2018_03_prov017_promotion_tenure",
+     "2018_04_hrm026_family_medical_military_leave",
+     "2018_05_provost_short_term_disability_faculty",
+     "2018_06_hr_disability_benefits",
+     "2018_07_va_dhrm_policy_4-21_paid_parental_leave_2018-06-26",
+     "2018_20_hrm038_faculty_leaves_2017-12-23"
+    ],
+    "terms": [
+     "accommodation",
+     "pregnancy",
+     "transfer",
+     "less strenuous",
+     "hazard",
+     "lactation",
+     "nursing",
+     "equal treatment"
+    ]
+   }
+  },
+  "C10": {
+   "absent": {
+    "documents": [
+     "2018_02_hrm038_faculty_leaves_rev2019-01-09",
+     "2018_03_prov017_promotion_tenure",
+     "2018_04_hrm026_family_medical_military_leave",
+     "2018_05_provost_short_term_disability_faculty",
+     "2018_06_hr_disability_benefits",
+     "2018_07_va_dhrm_policy_4-21_paid_parental_leave_2018-06-26",
+     "2018_20_hrm038_faculty_leaves_2017-12-23"
+    ],
+    "terms": [
+     "FMLA-qualifying",
+     "first days",
+     "regular work time",
+     "paid FMLA",
+     "paid family leave",
+     "work days of an FMLA event"
+    ]
+   }
+  }
+ },
+ "passage_dispositions": {
+  "2018_02_hrm038_faculty_leaves_rev2019-01-09#001": {
+   "used_in": [
+    "university_of_virginia_c1",
+    "university_of_virginia_c4",
+    "university_of_virginia_c5",
+    "university_of_virginia_c14"
+   ]
+  },
+  "2018_02_hrm038_faculty_leaves_rev2019-01-09#002": {
+   "used_in": [
+    "university_of_virginia_c1",
+    "university_of_virginia_c6",
+    "university_of_virginia_c9",
+    "university_of_virginia_c10"
+   ]
+  },
+  "2018_02_hrm038_faculty_leaves_rev2019-01-09#003": {
+   "not_relevant": "approval letter, unit policies and professional-reasons leave (sabbatical); no parental provision"
+  },
+  "2018_02_hrm038_faculty_leaves_rev2019-01-09#004": {
+   "used_in": [
+    "university_of_virginia_c1",
+    "university_of_virginia_c2",
+    "university_of_virginia_c3",
+    "university_of_virginia_c4",
+    "university_of_virginia_c5",
+    "university_of_virginia_c6",
+    "university_of_virginia_c7",
+    "university_of_virginia_c8",
+    "university_of_virginia_c9",
+    "university_of_virginia_c11",
+    "university_of_virginia_c14"
+   ]
+  },
+  "2018_02_hrm038_faculty_leaves_rev2019-01-09#005": {
+   "used_in": [
+    "university_of_virginia_c16"
+   ]
+  },
+  "2018_02_hrm038_faculty_leaves_rev2019-01-09#006": {
+   "not_relevant": "jury duty, extension procedures and FMLA request routing; extension procedure noted on c1"
+  },
+  "2018_02_hrm038_faculty_leaves_rev2019-01-09#007": {
+   "not_relevant": "school procedures for leave beyond 24 months or partial pay below 25%, related-information links (cross-references noted)"
+  },
+  "2018_03_prov017_promotion_tenure#001": {
+   "used_in": [
+    "university_of_virginia_c10"
+   ]
+  },
+  "2018_03_prov017_promotion_tenure#002": {
+   "used_in": [
+    "university_of_virginia_c10"
+   ]
+  },
+  "2018_03_prov017_promotion_tenure#003": {
+   "not_relevant": "tenure criteria (student instruction); no leave or clock provision"
+  },
+  "2018_03_prov017_promotion_tenure#004": {
+   "not_relevant": "expedited tenure review dossier; no leave or clock provision"
+  },
+  "2018_04_hrm026_family_medical_military_leave#001": {
+   "used_in": [
+    "university_of_virginia_c14"
+   ]
+  },
+  "2018_04_hrm026_family_medical_military_leave#002": {
+   "used_in": [
+    "university_of_virginia_c14"
+   ]
+  },
+  "2018_04_hrm026_family_medical_military_leave#003": {
+   "used_in": [
+    "university_of_virginia_c14"
+   ]
+  },
+  "2018_04_hrm026_family_medical_military_leave#004": {
+   "used_in": [
+    "university_of_virginia_c14"
+   ]
+  },
+  "2018_04_hrm026_family_medical_military_leave#005": {
+   "used_in": [
+    "university_of_virginia_c14"
+   ]
+  },
+  "2018_05_provost_short_term_disability_faculty#001": {
+   "used_in": [
+    "university_of_virginia_c11",
+    "university_of_virginia_c12"
+   ]
+  },
+  "2018_05_provost_short_term_disability_faculty#002": {
+   "used_in": [
+    "university_of_virginia_c11",
+    "university_of_virginia_c12",
+    "university_of_virginia_c14"
+   ]
+  },
+  "2018_05_provost_short_term_disability_faculty#003": {
+   "used_in": [
+    "university_of_virginia_c12"
+   ]
+  },
+  "2018_06_hr_disability_benefits#001": {
+   "not_relevant": "VSDP (VRS members) terms; the VRS path is not coded (U8) and is described in notes"
+  },
+  "2018_06_hr_disability_benefits#002": {
+   "used_in": [
+    "university_of_virginia_c11",
+    "university_of_virginia_c12",
+    "university_of_virginia_c13"
+   ]
+  },
+  "2018_06_hr_disability_benefits#003": {
+   "not_relevant": "MCRP and housestaff disability plans (other groups, not faculty); described in notes"
+  },
+  "2018_07_va_dhrm_policy_4-21_paid_parental_leave_2018-06-26#001": {
+   "used_in": [
+    "university_of_virginia_c15"
+   ]
+  },
+  "2018_20_hrm038_faculty_leaves_2017-12-23#001": {
+   "used_in": [
+    "university_of_virginia_c1"
+   ]
+  },
+  "2018_20_hrm038_faculty_leaves_2017-12-23#002": {
+   "not_relevant": "2017 text of HRM-038, in force on the reference date; the leaves in this passage are coded from the 2019 revision (2018_02), flagged version_uncertain"
+  },
+  "2018_20_hrm038_faculty_leaves_2017-12-23#003": {
+   "not_relevant": "2017 text of HRM-038, in force on the reference date; the leaves in this passage are coded from the 2019 revision (2018_02), flagged version_uncertain"
+  },
+  "2018_20_hrm038_faculty_leaves_2017-12-23#004": {
+   "used_in": [
+    "university_of_virginia_c1",
+    "university_of_virginia_c2",
+    "university_of_virginia_c3"
+   ]
+  },
+  "2018_20_hrm038_faculty_leaves_2017-12-23#005": {
+   "not_relevant": "2017 text of HRM-038, in force on the reference date; the leaves in this passage are coded from the 2019 revision (2018_02), flagged version_uncertain"
+  },
+  "2018_20_hrm038_faculty_leaves_2017-12-23#006": {
+   "not_relevant": "2017 text of HRM-038, in force on the reference date; the leaves in this passage are coded from the 2019 revision (2018_02), flagged version_uncertain"
+  },
+  "2018_20_hrm038_faculty_leaves_2017-12-23#007": {
+   "not_relevant": "2017 text of HRM-038, in force on the reference date; the leaves in this passage are coded from the 2019 revision (2018_02), flagged version_uncertain"
+  }
+ },
+ "mechanism_slots": {
+  "employer_paid_leave": {
+   "components": [
+    "university_of_virginia_c1",
+    "university_of_virginia_c2",
+    "university_of_virginia_c15"
+   ]
+  },
+  "employer_childbirth_benefit": {
+   "absent": "no dedicated childbirth benefit; short-term disability covers childbirth as any disability with no childbirth-specific length (searched all usable documents for 'maternity', 'childbirth', 'birth', 'pregnancy', 'weeks')"
+  },
+  "generic_sick_or_disability_plan": {
+   "components": [
+    "university_of_virginia_c12",
+    "university_of_virginia_c13"
+   ]
+  },
+  "own_accrual": {
+   "components": [
+    "university_of_virginia_c16"
+   ]
+  },
+  "donated_leave": {
+   "absent": "no leave-sharing or donated bank in any usable document (searched 'donat', 'shared leave', 'leave bank', 'transfer')"
+  },
+  "government_benefit": {
+   "absent": "no government benefit for faculty; Virginia had no state paid-leave programme in the documents; VSDP is the VRS members' disability plan, not coded (U8) (searched 'state program', 'paid family', 'VSDP', 'benefit')"
+  },
+  "employer_topup": {
+   "absent": "no top-up of a government benefit (searched 'top', 'supplement', 'difference'); DHRM 4.21's use of parental leave to supplement VSDP income replacement concerns VPA-covered staff and is noted on c15"
+  },
+  "modified_duties": {
+   "components": [
+    "university_of_virginia_c4"
+   ]
+  },
+  "unpaid_leave": {
+   "components": [
+    "university_of_virginia_c3",
+    "university_of_virginia_c5",
+    "university_of_virginia_c8",
+    "university_of_virginia_c11",
+    "university_of_virginia_c14"
+   ]
+  },
+  "tenure_clock": {
+   "components": [
+    "university_of_virginia_c7",
+    "university_of_virginia_c10"
+   ]
+  },
+  "part_time_option": {
+   "components": [
+    "university_of_virginia_c6",
+    "university_of_virginia_c9"
+   ]
+  },
+  "other": {
+   "absent": "no rearrangement, pregnancy accommodation or hazard programme (searched 'accommodat', 'transfer', 'hazard', 'pregnan')"
+  }
+ },
+ "baseline_accounting": {
+  "Family and Medical Leave Act (FMLA)": {
+   "components": [
+    "university_of_virginia_c14"
+   ]
+  },
+  "Federal Employee Paid Leave Act (paid parental leave for federal civilian employees)": {
+   "absent": "no saved document mentions it"
+  },
+  "Virginia paid parental leave for state employees": {
+   "components": [
+    "university_of_virginia_c15"
+   ]
+  },
+  "Virginia Sickness and Disability Program (VSDP)": {
+   "not_applicable": "named in the documents for faculty enrolled in the Virginia Retirement System; the record codes the ORP path (U8), with VSDP's terms in notes and the path choice flagged on c11/c12"
+  }
+ },
+ "leave_limits": [],
+ "components": [
+  {
+   "component_id": "university_of_virginia_c1",
+   "institution_label": "Parental Leave",
+   "description": "Paid parental leave of up to three weeks at full pay on becoming a parent (birth, adoption, foster placement, or guardianship of a child under seven), for tenured, tenure-track and longer-term non-tenure-track faculty; offered as one of two options (the other is six weeks at half pay).",
+   "mechanism": "employer_paid_leave",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "A faculty member who is tenured or tenure-track or who is non-tenure-track with an appointment of one year or more (HRM-038, Applies To: Academic Division)",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "upon becoming a parent, either through the birth of a child or through the adoption, placement of a foster child, or assumption of legal guardianship for a child under seven years of age",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "entitlement_note": "'may request' with no grant language; Parental Leave sits under Section 2 'Leave for Personal Reasons', whose opening paragraph states that such leave 'may be approved at the discretion of' the supervisor and dean and 'Such approval is not guaranteed' (V2; source precedence: the section statement governs the subsection).",
+   "duration": {
+    "value": 3,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "duration_note": "Option of 'up to three weeks of leave with full pay or six weeks of leave at half-pay' (in_lieu_of c2), in HRM-038 as captured 2017-12-23, which governs on the reference date 2018-01-01; that version has no intermittent-use sentence. Extensions beyond a leave category's limits need approval of the executive vice president or president in the best interests of the University (Procedures).",
+   "pay_fraction": "full pay",
+   "pay_fraction_pct": 100,
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "relief_note": "Leave of absence; no relief stated, so every duty relieved (R9).",
+   "time_window": "must be completed within twelve months of the date of the birth or placement of the child",
+   "dual_employee_rule": "No more than two faculty members may be approved for parental leave related to the same event; faculty parents in the same unit may be required to stagger or coordinate paid and unpaid parental leave",
+   "runs_concurrently_with": [
+    "FMLA"
+   ],
+   "sequence": [
+    {
+     "relation": "in_lieu_of",
+     "component_id": "university_of_virginia_c2",
+     "note": "option of three weeks at full pay or six weeks at half pay (R15b: link on each option)"
+    },
+    {
+     "relation": "also_available",
+     "component_id": "university_of_virginia_c11",
+     "note": "for the birth parent the paid parental leave is 'in addition to' paid short-term disability leave; no order stated (R3d/R15 longest-leave convention). Link counts only for the birth parent, the only role c11 covers."
+    }
+   ],
+   "rule_applied": [
+    "V2",
+    "V4",
+    "R15b",
+    "R9",
+    "R15",
+    "U1",
+    "source_precedence"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "A faculty member who is tenured or tenure-track or who is non-tenure-track with an appointment of one year or more may request up to three weeks of leave with full pay or six weeks of leave at half-pay upon becoming a parent",
+     "Applies To: Academic Division."
+    ],
+    "eligible_parent": [
+     "either through the birth of a child or through the adoption, placement of a foster child, or assumption of legal guardianship for a child under seven years of age"
+    ],
+    "entitlement": [
+     "A faculty member who is tenured or tenure-track or who is non-tenure-track with an appointment of one year or more may request up to three weeks of leave with full pay or six weeks of leave at half-pay upon becoming a parent",
+     "Other than unpaid leave provided under FMLA, leave for personal reasons may be approved at the discretion of the faculty member’s supervisor and dean or vice president. Such approval is not guaranteed."
+    ],
+    "duration": [
+     "may request up to three weeks of leave with full pay"
+    ],
+    "pay_fraction": [
+     "up to three weeks of leave with full pay"
+    ],
+    "sequence": [
+     "A faculty member who is tenured or tenure-track or who is non-tenure-track with an appointment of one year or more may request up to three weeks of leave with full pay or six weeks of leave at half-pay upon becoming a parent",
+     "For faculty members who give birth, any approved paid parental leave is in addition to paid leave received as a result of short-term disability.",
+     "All paid and unpaid parental leave runs concurrently with any unpaid leave granted under FMLA"
+    ],
+    "time_window": [
+     "Parental leave must be completed within twelve months of the date of the birth or placement of the child.",
+     "Parental leave must be completed within twelve months of the date of the birth or placement of the child."
+    ],
+    "dual_employee_rule": [
+     "No more than two faculty members may be approved for parental leave related to a single birth or placement event.",
+     "the faculty members may be required by their school or unit to stagger or otherwise coordinate their periods of paid and unpaid parental leave"
+    ]
+   },
+   "doc_ids": [
+    "2018_20_hrm038_faculty_leaves_2017-12-23",
+    "2018_02_hrm038_faculty_leaves_rev2019-01-09"
+   ],
+   "flags": [
+    "version_uncertain"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "employer_paid_leave",
+     "quote": "A faculty member who is tenured or tenure-track or who is non-tenure-track with an appointment of one year or more may request up to three weeks of leave with full pay or six weeks of leave at half-pay upon becoming a parent"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "up to three weeks of leave with full pay"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "A faculty member who is tenured or tenure-track or who is non-tenure-track with an appointment of one year or more may request up to three weeks of leave with full pay or six weeks of leave at half-pay upon becoming a parent"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent (role-neutral events: birth, adoption, placement, guardianship)",
+     "quote": "either through the birth of a child or through the adoption, placement of a foster child, or assumption of legal guardianship for a child under seven years of age"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "A faculty member who is tenured or tenure-track or who is non-tenure-track with an appointment of one year or more may request up to three weeks of leave with full pay or six weeks of leave at half-pay upon becoming a parent"
+    },
+    {
+     "field": "entitlement",
+     "rule": "source_precedence",
+     "answer": "discretionary",
+     "quote": "Other than unpaid leave provided under FMLA, leave for personal reasons may be approved at the discretion of the faculty member’s supervisor and dean or vice president. Such approval is not guaranteed."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "3 weeks up_to",
+     "quote": "may request up to three weeks of leave with full pay"
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "full pay (100)",
+     "quote": "up to three weeks of leave with full pay"
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave, relief not stated)",
+     "quote": "The faculty member's benefits remain unchanged during the period of paid leave."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15b",
+     "answer": "in_lieu_of c2 (one of two pay options)",
+     "quote": "A faculty member who is tenured or tenure-track or who is non-tenure-track with an appointment of one year or more may request up to three weeks of leave with full pay or six weeks of leave at half-pay upon becoming a parent"
+    },
+    {
+     "field": "sequence",
+     "rule": "R3d",
+     "answer": "also_available with c11 (in addition to short-term disability leave; no order stated)",
+     "quote": "For faculty members who give birth, any approved paid parental leave is in addition to paid leave received as a result of short-term disability."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "A faculty member who is tenured or tenure-track or who is non-tenure-track with an appointment of one year or more may request up to three weeks of leave with full pay or six weeks of leave at half-pay upon becoming a parent"
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_virginia_c2",
+   "institution_label": "Parental Leave",
+   "description": "The half-pay option of the paid parental leave: up to six weeks of leave at half pay instead of three weeks at full pay.",
+   "mechanism": "employer_paid_leave",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "A faculty member who is tenured or tenure-track or who is non-tenure-track with an appointment of one year or more (HRM-038, Applies To: Academic Division)",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "upon becoming a parent, either through the birth of a child or through the adoption, placement of a foster child, or assumption of legal guardianship for a child under seven years of age",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "entitlement_note": "As c1: 'may request'; leave for personal reasons is approved at the discretion of the supervisor and dean, 'Such approval is not guaranteed' (V2, source precedence).",
+   "duration": {
+    "value": 6,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "duration_note": "'up to three weeks of leave with full pay or six weeks of leave at half-pay' (HRM-038 as captured 2017-12-23): the 'up to' is read as governing both options.",
+   "pay_fraction": "half-pay",
+   "pay_fraction_pct": 50,
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "relief_note": "Coded as a full leave at half pay (R9). The policy's definition of 'Leave With Partial Pay' is a workload reduction with commensurate salary reduction; whether 'leave at half-pay' means a full absence or a half-time workload is not stated (flagged).",
+   "time_window": "must be completed within twelve months of the date of the birth or placement of the child",
+   "dual_employee_rule": "No more than two faculty members may be approved for parental leave related to the same event",
+   "runs_concurrently_with": [
+    "FMLA"
+   ],
+   "sequence": [
+    {
+     "relation": "in_lieu_of",
+     "component_id": "university_of_virginia_c1",
+     "note": "option of three weeks at full pay or six weeks at half pay (R15b)"
+    },
+    {
+     "relation": "also_available",
+     "component_id": "university_of_virginia_c11",
+     "note": "in addition to short-term disability leave for the birth parent; no order stated"
+    }
+   ],
+   "rule_applied": [
+    "V2",
+    "V4",
+    "R15b",
+    "R9",
+    "R3",
+    "source_precedence"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "A faculty member who is tenured or tenure-track or who is non-tenure-track with an appointment of one year or more may request up to three weeks of leave with full pay or six weeks of leave at half-pay upon becoming a parent"
+    ],
+    "eligible_parent": [
+     "either through the birth of a child or through the adoption, placement of a foster child, or assumption of legal guardianship for a child under seven years of age"
+    ],
+    "entitlement": [
+     "A faculty member who is tenured or tenure-track or who is non-tenure-track with an appointment of one year or more may request up to three weeks of leave with full pay or six weeks of leave at half-pay upon becoming a parent",
+     "Other than unpaid leave provided under FMLA, leave for personal reasons may be approved at the discretion of the faculty member’s supervisor and dean or vice president. Such approval is not guaranteed."
+    ],
+    "duration": [
+     "A faculty member who is tenured or tenure-track or who is non-tenure-track with an appointment of one year or more may request up to three weeks of leave with full pay or six weeks of leave at half-pay upon becoming a parent"
+    ],
+    "pay_fraction": [
+     "six weeks of leave at half-pay"
+    ],
+    "sequence": [
+     "A faculty member who is tenured or tenure-track or who is non-tenure-track with an appointment of one year or more may request up to three weeks of leave with full pay or six weeks of leave at half-pay upon becoming a parent",
+     "For faculty members who give birth, any approved paid parental leave is in addition to paid leave received as a result of short-term disability."
+    ],
+    "time_window": [
+     "Parental leave must be completed within twelve months of the date of the birth or placement of the child."
+    ],
+    "dual_employee_rule": [
+     "No more than two faculty members may be approved for parental leave related to a single birth or placement event."
+    ]
+   },
+   "doc_ids": [
+    "2018_20_hrm038_faculty_leaves_2017-12-23",
+    "2018_02_hrm038_faculty_leaves_rev2019-01-09"
+   ],
+   "flags": [
+    "version_uncertain",
+    "ambiguous: whether 'six weeks of leave at half-pay' is a full absence at half salary or a half-time workload reduction (the policy's 'Leave With Partial Pay' definition); coded as a leave at 50% pay"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "V4",
+     "answer": "employer_paid_leave",
+     "quote": "A faculty member who is tenured or tenure-track or who is non-tenure-track with an appointment of one year or more may request up to three weeks of leave with full pay or six weeks of leave at half-pay upon becoming a parent"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "six weeks of leave at half-pay"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "A faculty member who is tenured or tenure-track or who is non-tenure-track with an appointment of one year or more may request up to three weeks of leave with full pay or six weeks of leave at half-pay upon becoming a parent"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "either through the birth of a child or through the adoption, placement of a foster child, or assumption of legal guardianship for a child under seven years of age"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "A faculty member who is tenured or tenure-track or who is non-tenure-track with an appointment of one year or more may request up to three weeks of leave with full pay or six weeks of leave at half-pay upon becoming a parent"
+    },
+    {
+     "field": "entitlement",
+     "rule": "source_precedence",
+     "answer": "discretionary",
+     "quote": "Other than unpaid leave provided under FMLA, leave for personal reasons may be approved at the discretion of the faculty member’s supervisor and dean or vice president. Such approval is not guaranteed."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "6 weeks up_to ('up to' governs both options)",
+     "quote": "A faculty member who is tenured or tenure-track or who is non-tenure-track with an appointment of one year or more may request up to three weeks of leave with full pay or six weeks of leave at half-pay upon becoming a parent"
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "half-pay (50)",
+     "quote": "six weeks of leave at half-pay"
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave); half-time reading flagged",
+     "quote": "a faculty member who is approved for half-time leave retains approximately half of his/her regular responsibilities for a specified period of time, during which he/she receives 50% of his/her salary"
+    },
+    {
+     "field": "sequence",
+     "rule": "R15b",
+     "answer": "in_lieu_of c1",
+     "quote": "A faculty member who is tenured or tenure-track or who is non-tenure-track with an appointment of one year or more may request up to three weeks of leave with full pay or six weeks of leave at half-pay upon becoming a parent"
+    },
+    {
+     "field": "sequence",
+     "rule": "R3d",
+     "answer": "also_available with c11",
+     "quote": "For faculty members who give birth, any approved paid parental leave is in addition to paid leave received as a result of short-term disability."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "A faculty member who is tenured or tenure-track or who is non-tenure-track with an appointment of one year or more may request up to three weeks of leave with full pay or six weeks of leave at half-pay upon becoming a parent"
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_virginia_c3",
+   "institution_label": "unpaid parental leave",
+   "description": "An additional nine weeks of unpaid parental leave that a faculty member taking paid parental leave may request; the University continues its share of health and life premiums.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "A faculty member who is tenured or tenure-track or who is non-tenure-track with an appointment of one year or more (HRM-038, Applies To: Academic Division); a faculty member 'who is taking paid parental leave'",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "In addition to the period of paid leave, the faculty member",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "entitlement_note": "'may also request' with no grant language; leave for personal reasons is approved at the discretion of supervisor and dean and 'Such approval is not guaranteed' (V2, source precedence).",
+   "duration": {
+    "value": 9,
+    "units": "week",
+    "qualifier": "exact"
+   },
+   "duration_note": "'an additional nine weeks of unpaid parental leave' (HRM-038 as captured 2017-12-23); no qualifying word.",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "time_window": "must be completed within twelve months of the date of the birth or placement of the child",
+   "runs_concurrently_with": [
+    "FMLA"
+   ],
+   "sequence": [
+    {
+     "relation": "also_available",
+     "component_id": "university_of_virginia_c1",
+     "note": "'additional' to the paid parental leave; order not stated; linked to both pay options since it is available with either (R15b)"
+    },
+    {
+     "relation": "also_available",
+     "component_id": "university_of_virginia_c2",
+     "note": "as above, for the half-pay option"
+    }
+   ],
+   "rule_applied": [
+    "V2",
+    "R9",
+    "R13",
+    "R15",
+    "R15b",
+    "source_precedence"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "In addition to the period of paid leave, the faculty member may request an additional nine weeks of unpaid parental leave."
+    ],
+    "eligible_parent": [
+     "In addition to the period of paid leave, the faculty member may request an additional nine weeks of unpaid parental leave."
+    ],
+    "entitlement": [
+     "In addition to the period of paid leave, the faculty member may request an additional nine weeks of unpaid parental leave.",
+     "Other than unpaid leave provided under FMLA, leave for personal reasons may be approved at the discretion of the faculty member’s supervisor and dean or vice president. Such approval is not guaranteed."
+    ],
+    "duration": [
+     "may request an additional nine weeks of unpaid parental leave"
+    ],
+    "sequence": [
+     "In addition to the period of paid leave, the faculty member may request an additional nine weeks of unpaid parental leave."
+    ],
+    "time_window": [
+     "Parental leave must be completed within twelve months of the date of the birth or placement of the child."
+    ]
+   },
+   "doc_ids": [
+    "2018_20_hrm038_faculty_leaves_2017-12-23",
+    "2018_02_hrm038_faculty_leaves_rev2019-01-09"
+   ],
+   "flags": [
+    "version_uncertain"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "During the nine weeks of unpaid parental leave, the University will pay no salary"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "During the nine weeks of unpaid parental leave, the University will pay no salary"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "A faculty member who is tenured or tenure-track or who is non-tenure-track with an appointment of one year or more may request up to three weeks of leave with full pay or six weeks of leave at half-pay upon becoming a parent"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent (every faculty member taking paid parental leave)",
+     "quote": "In addition to the period of paid leave, the faculty member may request an additional nine weeks of unpaid parental leave."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "In addition to the period of paid leave, the faculty member may request an additional nine weeks of unpaid parental leave."
+    },
+    {
+     "field": "entitlement",
+     "rule": "source_precedence",
+     "answer": "discretionary",
+     "quote": "Other than unpaid leave provided under FMLA, leave for personal reasons may be approved at the discretion of the faculty member’s supervisor and dean or vice president. Such approval is not guaranteed."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "9 weeks exact",
+     "quote": "may request an additional nine weeks of unpaid parental leave"
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave)",
+     "quote": "In addition to the period of paid leave, the faculty member may request an additional nine weeks of unpaid parental leave."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "also_available with c1 and c2",
+     "quote": "In addition to the period of paid leave, the faculty member may request an additional nine weeks of unpaid parental leave."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "In addition to the period of paid leave, the faculty member may request an additional nine weeks of unpaid parental leave."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_virginia_c4",
+   "institution_label": "Modified Duties",
+   "description": "In association with any leave for personal reasons (family, parental or other personal leave), relief from organized teaching and service during the semester of the leave, with research and graduate advising continuing at 100% effort; school-specific policies set the details.",
+   "mechanism": "modified_duties",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "faculty members (HRM-038, Applies To: Academic Division); each school publishes its own policy",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "faculty members ... during a semester in which they take leave",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "entitlement_note": "'may request'; Modified Duties is part of Section 2, Leave for Personal Reasons, approved at the discretion of supervisor and dean, 'Such approval is not guaranteed' (V2).",
+   "duration": {
+    "value": 1,
+    "units": "semester",
+    "qualifier": "exact"
+   },
+   "duration_note": "'during a semester in which they take leave': relief for the semester of the leave, coded as one semester containing the leave (R3b reading).",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "continues",
+    "advising_supervision": "continues",
+    "clinical": "continues"
+   },
+   "relief_inferred": "unnamed duties continue (R4b)",
+   "relief_note": "Relieved from 'organized teaching and service'; research (writing and reviewing papers, submitting proposals) and advising graduate students continue at 100% effort. Clinical duties are not named as relieved, so coded continues (R4b); clinical faculty are to receive 'other modifications' appropriate to their circumstances.",
+   "flags": [
+    "version_uncertain",
+    "general_purpose",
+    "ambiguous: pay level not stated; full pay inferred (R3)",
+    "cross_reference_not_saved: school-specific modified duties policies (each school's policy approved by the provost)",
+    "ambiguous: rule gap: relief attaches to any leave for personal reasons in the semester of the leave, not to one leave component; the R3b containment is described here and not linked, since the relief is general_purpose and counted in no figure",
+    "not_yet_effective: modified duties semester added in the 2019-01-09 revision; not in HRM-038 as captured 2017-12-23"
+   ],
+   "rule_applied": [
+    "U1",
+    "V2",
+    "R3",
+    "R4",
+    "R4b",
+    "R3b"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "In association with and in addition to a period of leave for personal reasons, faculty members may request to have modified duties during a semester in which they take leave.",
+     "Applies To: Academic Division."
+    ],
+    "eligible_parent": [
+     "In association with and in addition to a period of leave for personal reasons, faculty members may request to have modified duties during a semester in which they take leave."
+    ],
+    "entitlement": [
+     "In association with and in addition to a period of leave for personal reasons, faculty members may request to have modified duties during a semester in which they take leave.",
+     "Other than unpaid leave provided under FMLA, leave for personal reasons may be approved at the discretion of the faculty member’s supervisor and dean or vice president. Such approval is not guaranteed."
+    ],
+    "duration": [
+     "In association with and in addition to a period of leave for personal reasons, faculty members may request to have modified duties during a semester in which they take leave."
+    ],
+    "relief": [
+     "During the period of modified duties, the school will relieve the faculty member from organized teaching and service responsibilities.",
+     "During the period of modified duties, the faculty member is expected to fulfill their other professional responsibilities at 100% effort. This includes those responsibilities for which the faculty member is uniquely qualified and which may not be delegated, such as writing and reviewing papers, submitting proposals, and advising graduate students.",
+     "For faculty members with significant direct clinical responsibilities or limited teaching obligations, other modifications should be provided appropriate to their circumstances."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_hrm038_faculty_leaves_rev2019-01-09"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "modified_duties",
+     "quote": "During the period of modified duties, the school will relieve the faculty member from organized teaching and service responsibilities."
+    },
+    {
+     "field": "payer",
+     "rule": "R3",
+     "answer": "employer",
+     "quote": "Modified duties are not a reduction in effort"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "In association with and in addition to a period of leave for personal reasons, faculty members may request to have modified duties during a semester in which they take leave."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "In association with and in addition to a period of leave for personal reasons, faculty members may request to have modified duties during a semester in which they take leave."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent (any faculty member taking leave for personal reasons)",
+     "quote": "In association with and in addition to a period of leave for personal reasons, faculty members may request to have modified duties during a semester in which they take leave."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "In association with and in addition to a period of leave for personal reasons, faculty members may request to have modified duties during a semester in which they take leave."
+    },
+    {
+     "field": "duration",
+     "rule": "R3b",
+     "answer": "1 semester (the semester in which the leave is taken)",
+     "quote": "In association with and in addition to a period of leave for personal reasons, faculty members may request to have modified duties during a semester in which they take leave."
+    },
+    {
+     "field": "relief",
+     "rule": "R4",
+     "answer": "teaching and service relieved; research and advising continue (stated)",
+     "quote": "During the period of modified duties, the faculty member is expected to fulfill their other professional responsibilities at 100% effort. This includes those responsibilities for which the faculty member is uniquely qualified and which may not be delegated, such as writing and reviewing papers, submitting proposals, and advising graduate students."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_virginia_c5",
+   "institution_label": "Family Leave",
+   "description": "Family leave without pay of up to one year when family circumstances make it difficult to carry out duties, including serving temporarily as primary caretaker of one's child, spouse or a disabled or elderly adult.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "A faculty member who is tenured or tenure-track or who is non-tenure-track with an appointment of one year or more (HRM-038, Applies To: Academic Division)",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "to serve temporarily as the primary caretaker of his/her child, spouse, or other disabled or elderly adult",
+   "caregiver_condition": "primary",
+   "caregiver_condition_wording": "serve temporarily as the primary caretaker of his/her child, spouse, or other disabled or elderly adult",
+   "entitlement": "discretionary",
+   "entitlement_note": "'may request'; 'Family leave may be approved'; leave for personal reasons is approved at the discretion of supervisor and dean, 'Such approval is not guaranteed' (V2).",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "up_to"
+   },
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "runs_concurrently_with": [
+    "FMLA"
+   ],
+   "rule_applied": [
+    "U1",
+    "U5",
+    "V2",
+    "R9",
+    "V4",
+    "R6"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "A faculty member who is tenured or tenure-track or who is non-tenure-track with an appointment of one year or more may request leave with partial pay or without pay for up to one year"
+    ],
+    "eligible_parent": [
+     "Family leave may be approved to allow the faculty member to serve temporarily as the primary caretaker of his/her child, spouse, or other disabled or elderly adult."
+    ],
+    "caregiver_condition": [
+     "Family leave may be approved to allow the faculty member to serve temporarily as the primary caretaker of his/her child, spouse, or other disabled or elderly adult."
+    ],
+    "entitlement": [
+     "may request leave with partial pay or without pay for up to one year when circumstances in his/her family make it difficult for the faculty member to carry out assigned duties.",
+     "Family leave may be approved to allow the faculty member to serve temporarily as the primary caretaker of his/her child, spouse, or other disabled or elderly adult.",
+     "Other than unpaid leave provided under FMLA, leave for personal reasons may be approved at the discretion of the faculty member’s supervisor and dean or vice president. Such approval is not guaranteed."
+    ],
+    "duration": [
+     "may request leave with partial pay or without pay for up to one year when circumstances in his/her family make it difficult for the faculty member to carry out assigned duties."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_hrm038_faculty_leaves_rev2019-01-09"
+   ],
+   "flags": [
+    "version_uncertain"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "V4",
+     "answer": "unpaid_leave",
+     "quote": "may request leave with partial pay or without pay for up to one year when circumstances in his/her family make it difficult for the faculty member to carry out assigned duties."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "may request leave with partial pay or without pay for up to one year when circumstances in his/her family make it difficult for the faculty member to carry out assigned duties."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "may request leave with partial pay or without pay for up to one year when circumstances in his/her family make it difficult for the faculty member to carry out assigned duties."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "A faculty member who is tenured or tenure-track or who is non-tenure-track with an appointment of one year or more may request leave with partial pay or without pay for up to one year"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent: care of one's own child is a stated purpose, so either parent of a newborn may use it",
+     "quote": "Family leave may be approved to allow the faculty member to serve temporarily as the primary caretaker of his/her child, spouse, or other disabled or elderly adult."
+    },
+    {
+     "field": "caregiver_condition",
+     "rule": "schema",
+     "answer": "primary",
+     "quote": "Family leave may be approved to allow the faculty member to serve temporarily as the primary caretaker of his/her child, spouse, or other disabled or elderly adult."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "Family leave may be approved to allow the faculty member to serve temporarily as the primary caretaker of his/her child, spouse, or other disabled or elderly adult."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 year up_to",
+     "quote": "may request leave with partial pay or without pay for up to one year when circumstances in his/her family make it difficult for the faculty member to carry out assigned duties."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave)",
+     "quote": "may request leave with partial pay or without pay for up to one year when circumstances in his/her family make it difficult for the faculty member to carry out assigned duties."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_virginia_c6",
+   "institution_label": "Family Leave",
+   "description": "Family leave with partial pay (a reduced workload with commensurate salary reduction) of up to one year, for the same family-care purposes as c5.",
+   "mechanism": "part_time_option",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "A faculty member who is tenured or tenure-track or who is non-tenure-track with an appointment of one year or more (HRM-038, Applies To: Academic Division)",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "to serve temporarily as the primary caretaker of his/her child, spouse, or other disabled or elderly adult",
+   "caregiver_condition": "primary",
+   "caregiver_condition_wording": "serve temporarily as the primary caretaker of his/her child, spouse, or other disabled or elderly adult",
+   "entitlement": "discretionary",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "up_to"
+   },
+   "pay_fraction": "partial pay (commensurate with the reduced workload; e.g. half-time leave at 50% salary)",
+   "relief_note": "Leave with partial pay is defined as a temporary reduction of workload with commensurate reduction in salary (R3: relief with a pay cut is a part-time option).",
+   "sequence": [
+    {
+     "relation": "in_lieu_of",
+     "component_id": "university_of_virginia_c5",
+     "note": "family leave is taken with partial pay or without pay"
+    }
+   ],
+   "rule_applied": [
+    "R3",
+    "V2",
+    "V4",
+    "U1",
+    "R6"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "A faculty member who is tenured or tenure-track or who is non-tenure-track with an appointment of one year or more may request leave with partial pay or without pay for up to one year"
+    ],
+    "eligible_parent": [
+     "Family leave may be approved to allow the faculty member to serve temporarily as the primary caretaker of his/her child, spouse, or other disabled or elderly adult."
+    ],
+    "caregiver_condition": [
+     "Family leave may be approved to allow the faculty member to serve temporarily as the primary caretaker of his/her child, spouse, or other disabled or elderly adult."
+    ],
+    "entitlement": [
+     "may request leave with partial pay or without pay for up to one year when circumstances in his/her family make it difficult for the faculty member to carry out assigned duties.",
+     "Other than unpaid leave provided under FMLA, leave for personal reasons may be approved at the discretion of the faculty member’s supervisor and dean or vice president. Such approval is not guaranteed."
+    ],
+    "duration": [
+     "may request leave with partial pay or without pay for up to one year when circumstances in his/her family make it difficult for the faculty member to carry out assigned duties."
+    ],
+    "pay_fraction": [
+     "Approved temporary reduction of a faculty member’s workload accompanied by a commensurate reduction in salary",
+     "for a faculty member approved for family leave of half-time, the University will contribute half of the faculty member's retirement contribution"
+    ],
+    "sequence": [
+     "may request leave with partial pay or without pay for up to one year when circumstances in his/her family make it difficult for the faculty member to carry out assigned duties."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_hrm038_faculty_leaves_rev2019-01-09"
+   ],
+   "flags": [
+    "version_uncertain"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R3",
+     "answer": "part_time_option",
+     "quote": "Approved temporary reduction of a faculty member’s workload accompanied by a commensurate reduction in salary"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "a faculty member who is approved for half-time leave retains approximately half of his/her regular responsibilities for a specified period of time, during which he/she receives 50% of his/her salary"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "may request leave with partial pay or without pay for up to one year when circumstances in his/her family make it difficult for the faculty member to carry out assigned duties."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "A faculty member who is tenured or tenure-track or who is non-tenure-track with an appointment of one year or more may request leave with partial pay or without pay for up to one year"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "Family leave may be approved to allow the faculty member to serve temporarily as the primary caretaker of his/her child, spouse, or other disabled or elderly adult."
+    },
+    {
+     "field": "caregiver_condition",
+     "rule": "schema",
+     "answer": "primary",
+     "quote": "Family leave may be approved to allow the faculty member to serve temporarily as the primary caretaker of his/her child, spouse, or other disabled or elderly adult."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "Family leave may be approved to allow the faculty member to serve temporarily as the primary caretaker of his/her child, spouse, or other disabled or elderly adult."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 year up_to",
+     "quote": "may request leave with partial pay or without pay for up to one year when circumstances in his/her family make it difficult for the faculty member to carry out assigned duties."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "R3",
+     "answer": "partial pay commensurate with workload; no single level stated",
+     "quote": "a faculty member who is approved for half-time leave retains approximately half of his/her regular responsibilities for a specified period of time, during which he/she receives 50% of his/her salary"
+    },
+    {
+     "field": "sequence",
+     "rule": "V4",
+     "answer": "in_lieu_of c5 (with partial pay or without pay)",
+     "quote": "may request leave with partial pay or without pay for up to one year when circumstances in his/her family make it difficult for the faculty member to carry out assigned duties."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_virginia_c7",
+   "institution_label": "",
+   "description": "A tenure-track faculty member may request in advance that family leave not count toward the probationary period, with approval of the dean or vice president and the provost.",
+   "mechanism": "tenure_clock",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Tenure-track faculty members",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "Tenure-track faculty members ... family leave",
+   "caregiver_condition": "primary",
+   "caregiver_condition_wording": "serve temporarily as the primary caretaker of his/her child, spouse, or other disabled or elderly adult (the family leave it attaches to)",
+   "entitlement": "discretionary",
+   "entitlement_note": "'may request in advance'; 'The request must be approved' (V2).",
+   "duration_note": "The family leave (up to one year) is not counted as part of the probationary period; no separate length stated.",
+   "sequence": [
+    {
+     "relation": "concurrent_with",
+     "component_id": "university_of_virginia_c5",
+     "note": "the excluded period is the family leave"
+    }
+   ],
+   "rule_applied": [
+    "V2",
+    "U1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Tenure-track faculty members may request in advance that family leave not be counted as part of the probationary period. The request must be approved by the dean or vice president and the executive vice president and provost."
+    ],
+    "eligible_parent": [
+     "Tenure-track faculty members may request in advance that family leave not be counted as part of the probationary period. The request must be approved by the dean or vice president and the executive vice president and provost.",
+     "Family leave may be approved to allow the faculty member to serve temporarily as the primary caretaker of his/her child, spouse, or other disabled or elderly adult."
+    ],
+    "caregiver_condition": [
+     "Family leave may be approved to allow the faculty member to serve temporarily as the primary caretaker of his/her child, spouse, or other disabled or elderly adult."
+    ],
+    "entitlement": [
+     "Tenure-track faculty members may request in advance that family leave not be counted as part of the probationary period. The request must be approved by the dean or vice president and the executive vice president and provost."
+    ],
+    "sequence": [
+     "Tenure-track faculty members may request in advance that family leave not be counted as part of the probationary period. The request must be approved by the dean or vice president and the executive vice president and provost."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_hrm038_faculty_leaves_rev2019-01-09"
+   ],
+   "flags": [
+    "version_uncertain"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "Tenure-track faculty members may request in advance that family leave not be counted as part of the probationary period. The request must be approved by the dean or vice president and the executive vice president and provost."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Tenure-track faculty members may request in advance that family leave not be counted as part of the probationary period. The request must be approved by the dean or vice president and the executive vice president and provost."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Tenure-track faculty members may request in advance that family leave not be counted as part of the probationary period. The request must be approved by the dean or vice president and the executive vice president and provost."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Tenure-track faculty members may request in advance that family leave not be counted as part of the probationary period. The request must be approved by the dean or vice president and the executive vice president and provost."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent (family leave, which covers care of one's child)",
+     "quote": "Family leave may be approved to allow the faculty member to serve temporarily as the primary caretaker of his/her child, spouse, or other disabled or elderly adult."
+    },
+    {
+     "field": "caregiver_condition",
+     "rule": "schema",
+     "answer": "primary",
+     "quote": "Family leave may be approved to allow the faculty member to serve temporarily as the primary caretaker of his/her child, spouse, or other disabled or elderly adult."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "Tenure-track faculty members may request in advance that family leave not be counted as part of the probationary period. The request must be approved by the dean or vice president and the executive vice president and provost."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "concurrent_with c5 (the family leave it excludes)",
+     "quote": "Tenure-track faculty members may request in advance that family leave not be counted as part of the probationary period. The request must be approved by the dean or vice president and the executive vice president and provost."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_virginia_c8",
+   "institution_label": "Leave for Other Personal Reasons",
+   "description": "Leave without pay of up to two years for personal reasons other than family or parental reasons; usable by a parent but available for any purpose.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "A faculty member who is tenured or tenure-track or who is non-tenure-track with an appointment of one year or more (HRM-038, Applies To: Academic Division)",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "A faculty member",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "duration": {
+    "value": 2,
+    "units": "year",
+    "qualifier": "up_to"
+   },
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "rule_applied": [
+    "U1",
+    "V2",
+    "R9",
+    "V4"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "A faculty member who is tenured or tenure-track or who is non-tenure-track with an appointment of one year or more may request leave for personal reasons other than those specified above."
+    ],
+    "eligible_parent": [
+     "A faculty member who is tenured or tenure-track or who is non-tenure-track with an appointment of one year or more may request leave for personal reasons other than those specified above."
+    ],
+    "entitlement": [
+     "Personal leave may be granted with partial pay or without pay for up to two years.",
+     "Other than unpaid leave provided under FMLA, leave for personal reasons may be approved at the discretion of the faculty member’s supervisor and dean or vice president. Such approval is not guaranteed."
+    ],
+    "duration": [
+     "Personal leave may be granted with partial pay or without pay for up to two years."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_hrm038_faculty_leaves_rev2019-01-09"
+   ],
+   "flags": [
+    "version_uncertain",
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "V4",
+     "answer": "unpaid_leave",
+     "quote": "Personal leave may be granted with partial pay or without pay for up to two years."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Personal leave may be granted with partial pay or without pay for up to two years."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "may request leave for personal reasons other than those specified above."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "A faculty member who is tenured or tenure-track or who is non-tenure-track with an appointment of one year or more may request leave for personal reasons other than those specified above."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "A faculty member who is tenured or tenure-track or who is non-tenure-track with an appointment of one year or more may request leave for personal reasons other than those specified above."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "Personal leave may be granted with partial pay or without pay for up to two years."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "2 years up_to",
+     "quote": "Personal leave may be granted with partial pay or without pay for up to two years."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave)",
+     "quote": "Personal leave may be granted with partial pay or without pay for up to two years."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_virginia_c9",
+   "institution_label": "Leave for Other Personal Reasons",
+   "description": "Personal leave with partial pay (reduced workload, commensurate salary) of up to two years, for any personal reason.",
+   "mechanism": "part_time_option",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "A faculty member who is tenured or tenure-track or who is non-tenure-track with an appointment of one year or more (HRM-038, Applies To: Academic Division)",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "A faculty member",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "duration": {
+    "value": 2,
+    "units": "year",
+    "qualifier": "up_to"
+   },
+   "pay_fraction": "partial pay (commensurate with the reduced workload)",
+   "sequence": [
+    {
+     "relation": "in_lieu_of",
+     "component_id": "university_of_virginia_c8",
+     "note": "personal leave is granted with partial pay or without pay"
+    }
+   ],
+   "rule_applied": [
+    "U1",
+    "R3",
+    "V2",
+    "V4"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "A faculty member who is tenured or tenure-track or who is non-tenure-track with an appointment of one year or more may request leave for personal reasons other than those specified above."
+    ],
+    "eligible_parent": [
+     "A faculty member who is tenured or tenure-track or who is non-tenure-track with an appointment of one year or more may request leave for personal reasons other than those specified above."
+    ],
+    "entitlement": [
+     "Personal leave may be granted with partial pay or without pay for up to two years."
+    ],
+    "duration": [
+     "Personal leave may be granted with partial pay or without pay for up to two years."
+    ],
+    "pay_fraction": [
+     "Approved temporary reduction of a faculty member’s workload accompanied by a commensurate reduction in salary",
+     "If a faculty member is approved for personal leave with partial pay, the faculty member will remain enrolled in the University’s health plan"
+    ],
+    "sequence": [
+     "Personal leave may be granted with partial pay or without pay for up to two years."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_hrm038_faculty_leaves_rev2019-01-09"
+   ],
+   "flags": [
+    "version_uncertain",
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R3",
+     "answer": "part_time_option",
+     "quote": "Approved temporary reduction of a faculty member’s workload accompanied by a commensurate reduction in salary"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "a faculty member who is approved for half-time leave retains approximately half of his/her regular responsibilities for a specified period of time, during which he/she receives 50% of his/her salary"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "may request leave for personal reasons other than those specified above."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "A faculty member who is tenured or tenure-track or who is non-tenure-track with an appointment of one year or more may request leave for personal reasons other than those specified above."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "A faculty member who is tenured or tenure-track or who is non-tenure-track with an appointment of one year or more may request leave for personal reasons other than those specified above."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "Personal leave may be granted with partial pay or without pay for up to two years."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "2 years up_to",
+     "quote": "Personal leave may be granted with partial pay or without pay for up to two years."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "R3",
+     "answer": "partial pay; no single level stated",
+     "quote": "a faculty member who is approved for half-time leave retains approximately half of his/her regular responsibilities for a specified period of time, during which he/she receives 50% of his/her salary"
+    },
+    {
+     "field": "sequence",
+     "rule": "V4",
+     "answer": "in_lieu_of c8",
+     "quote": "Personal leave may be granted with partial pay or without pay for up to two years."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_virginia_c10",
+   "institution_label": "clock-stopping",
+   "description": "Extension of the tenure-track probationary period ('clock-stopping') on written request approved by the dean and provost, for an open list of circumstances including maternity or family parenting; a leave of absence counts toward the probationary period unless exempted.",
+   "mechanism": "tenure_clock",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Tenured and Tenure-Eligible Academic Faculty in the Academic Division (PROV-017); tenure-track faculty members (HRM-038)",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "maternity or family parenting",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "entitlement_note": "Extension requires a written request approved in writing by the dean and the provost; 'clock-stopping' 'may be approved' (V2).",
+   "rule_applied": [
+    "U1",
+    "V2"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Applies To: Tenured and Tenure-Eligible Academic Faculty in the Academic Division.",
+     "For tenure-track faculty members, the duration of a leave of absence counts within the probationary period unless specifically exempted as a \"clock-stoppage\" by the dean with approval from the executive vice president and provost."
+    ],
+    "eligible_parent": [
+     "Examples of circumstances under which \"clock-stopping\" may be approved include but are not limited to: (1) engagement in important public or University service, (2) maternity or family parenting, and (3) serious personal or family illness."
+    ],
+    "entitlement": [
+     "The probationary period may be extended beyond its ordinary term only if a written request by the faculty member has been approved in writing by the appropriate dean and the provost.",
+     "Examples of circumstances under which \"clock-stopping\" may be approved include but are not limited to: (1) engagement in important public or University service, (2) maternity or family parenting, and (3) serious personal or family illness."
+    ]
+   },
+   "doc_ids": [
+    "2018_03_prov017_promotion_tenure",
+    "2018_02_hrm038_faculty_leaves_rev2019-01-09"
+   ],
+   "flags": [
+    "version_uncertain",
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "The probationary period may be extended beyond its ordinary term only if a written request by the faculty member has been approved in writing by the appropriate dean and the provost."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "The probationary period may be extended beyond its ordinary term only if a written request by the faculty member has been approved in writing by the appropriate dean and the provost."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "Examples of circumstances under which \"clock-stopping\" may be approved include but are not limited to: (1) engagement in important public or University service, (2) maternity or family parenting, and (3) serious personal or family illness."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Applies To: Tenured and Tenure-Eligible Academic Faculty in the Academic Division."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent ('maternity or family parenting')",
+     "quote": "Examples of circumstances under which \"clock-stopping\" may be approved include but are not limited to: (1) engagement in important public or University service, (2) maternity or family parenting, and (3) serious personal or family illness."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "The probationary period may be extended beyond its ordinary term only if a written request by the faculty member has been approved in writing by the appropriate dean and the provost."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_virginia_c11",
+   "institution_label": "Short Term Disability Leave for Faculty",
+   "description": "Short-term disability leave for faculty enrolled in an Optional Retirement Plan: an approved leave of up to 180 calendar days (six months) for ill health or pregnancy and recovery from childbirth, with the position held while benefits are payable; the pay is c12.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "mechanism_note": "U6: the text grants leave status ('Paid leave for an approved time period ... up to a maximum of six months'; '180 calendar days of disability leave'; position held open until benefits run out), so the leave is coded here and its pay (c12) within it.",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "faculty employees enrolled in an optional retirement plan (ORP); 'all employees enrolled in an optional retirement plan (ORP)'",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "pregnancy/recovery from childbirth; maternity leave",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "entitlement_note": "Coverage stated as a fact for all ORP employees and faculty 'will receive' salary continuation for the approved leave period; approval is of the medical claim.",
+   "duration": {
+    "value": 180,
+    "units": "calendar_day",
+    "qualifier": "up_to"
+   },
+   "duration_note": "'up to 180 calendar days' (HR page); 'up to a maximum of six months' (Provost page). For absences of more than five days; faculty salary continuation starts with the approved leave. No childbirth-specific length stated.",
+   "medical_certification": true,
+   "medical_certification_note": "Attending Physician's Statement completed by the employee's doctor for The Standard",
+   "service_requirement": "Immediate eligibility",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "relief_note": "Department arranges coverage of teaching and research during the approved absence.",
+   "return_obligation": "position not held open if unable to return before short-term disability benefits run out",
+   "runs_concurrently_with": [
+    "FMLA"
+   ],
+   "rule_applied": [
+    "U6",
+    "U5",
+    "V1",
+    "R9",
+    "R13",
+    "R11b",
+    "U8"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Since December 15, 2009, all employees enrolled in an optional retirement plan (ORP) are covered by a short-term disability plan administered by The Standard Insurance Company, a third party vendor contracted by the University.",
+     "Short-term disability is generally described as a type of sick leave for absences of more than 5 days - including maternity leave - for up to 180 calendar days. Current and future faculty employees will receive 100% salary continuation for the approved leave period - with no waiting period."
+    ],
+    "eligible_parent": [
+     "Paid leave for an approved time period for absences greater than five days for reasons of ill health or pregnancy/recovery from childbirth, up to a maximum of six months.",
+     "Short-term disability is generally described as a type of sick leave for absences of more than 5 days - including maternity leave - for up to 180 calendar days. Current and future faculty employees will receive 100% salary continuation for the approved leave period - with no waiting period."
+    ],
+    "entitlement": [
+     "Since December 15, 2009, all employees enrolled in an optional retirement plan (ORP) are covered by a short-term disability plan administered by The Standard Insurance Company, a third party vendor contracted by the University.",
+     "Short-term disability is generally described as a type of sick leave for absences of more than 5 days - including maternity leave - for up to 180 calendar days. Current and future faculty employees will receive 100% salary continuation for the approved leave period - with no waiting period."
+    ],
+    "duration": [
+     "Short-Term Disability for Faculty Immediate eligibility 100% of salary for up to 180 calendar days",
+     "Paid leave for an approved time period for absences greater than five days for reasons of ill health or pregnancy/recovery from childbirth, up to a maximum of six months."
+    ],
+    "service_requirement": [
+     "Short-Term Disability for Faculty Immediate eligibility 100% of salary for up to 180 calendar days"
+    ],
+    "medical_certification": [
+     "The Standard will provide you with an Attending Physician’s Statement for your doctor to complete."
+    ],
+    "mechanism": [
+     "Paid leave for an approved time period for absences greater than five days for reasons of ill health or pregnancy/recovery from childbirth, up to a maximum of six months.",
+     "Nine-month faculty will receive 180 calendar days of disability leave.",
+     "If you are unable to return to work before short-term disability benefits run out, your position will no longer be held open for our return."
+    ]
+   },
+   "doc_ids": [
+    "2018_05_provost_short_term_disability_faculty",
+    "2018_06_hr_disability_benefits",
+    "2018_02_hrm038_faculty_leaves_rev2019-01-09"
+   ],
+   "flags": [
+    "cross_reference_not_saved: The Standard Disability Group Certificate and plan document (ORP short-term disability plan)",
+    "ambiguous: rule gap: the disability plan depends on the faculty member's retirement-plan election (ORP: The Standard plan; VRS: VSDP), not on appointment or residence; the ORP path, which the Provost's faculty page and HRM-038 point faculty to, is coded (U8) and VSDP is in notes",
+    "own_illness_leave"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "U6",
+     "answer": "unpaid_leave",
+     "quote": "Paid leave for an approved time period for absences greater than five days for reasons of ill health or pregnancy/recovery from childbirth, up to a maximum of six months."
+    },
+    {
+     "field": "payer",
+     "rule": "U6",
+     "answer": "none",
+     "quote": "Nine-month faculty will receive 180 calendar days of disability leave."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Paid leave for an approved time period for absences greater than five days for reasons of ill health or pregnancy/recovery from childbirth, up to a maximum of six months."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Short-term disability is generally described as a type of sick leave for absences of more than 5 days - including maternity leave - for up to 180 calendar days. Current and future faculty employees will receive 100% salary continuation for the approved leave period - with no waiting period."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own disability)",
+     "quote": "Paid leave for an approved time period for absences greater than five days for reasons of ill health or pregnancy/recovery from childbirth, up to a maximum of six months."
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "Short-term disability is generally described as a type of sick leave for absences of more than 5 days - including maternity leave - for up to 180 calendar days. Current and future faculty employees will receive 100% salary continuation for the approved leave period - with no waiting period."
+    },
+    {
+     "field": "duration",
+     "rule": "R11b",
+     "answer": "180 calendar days up_to",
+     "quote": "Short-Term Disability for Faculty Immediate eligibility 100% of salary for up to 180 calendar days"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "Immediate eligibility",
+     "quote": "Short-Term Disability for Faculty Immediate eligibility 100% of salary for up to 180 calendar days"
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave)",
+     "quote": "Arrangements for covering responsibilities, including teaching and research, will be coordinated by your department after The Standard has made a decision regarding your absence."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_virginia_c12",
+   "institution_label": "Short-Term Disability for Faculty",
+   "description": "Salary continuation at 100% for up to 180 calendar days during approved short-term disability, including pregnancy and recovery from childbirth, for faculty enrolled in an ORP; paid by the University through payroll from department funds.",
+   "mechanism": "generic_sick_or_disability_plan",
+   "payer": "employer",
+   "mechanism_note": "Childbirth handled as any short-term disability; no childbirth-specific length is stated, so V1 fails (ii) and the plan stays generic. Self-funded: paid through payroll from department funds; the University bears all risks under the plan (The Standard is claims administrator).",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "faculty employees enrolled in an optional retirement plan (ORP)",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "pregnancy/recovery from childbirth; maternity leave",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 180,
+    "units": "calendar_day",
+    "qualifier": "up_to"
+   },
+   "duration_note": "Plan maximum 180 calendar days (six months); no childbirth period stated (V6). Paid on days the faculty member would normally be paid (nine-month faculty: unpaid summer days still count toward the 180).",
+   "pay_fraction": "100% of salary",
+   "pay_fraction_pct": 100,
+   "medical_certification": true,
+   "medical_certification_note": "Attending Physician's Statement",
+   "service_requirement": "Immediate eligibility",
+   "sequence": [
+    {
+     "relation": "within",
+     "component_id": "university_of_virginia_c11",
+     "note": "pay for the short-term disability leave (U6)"
+    }
+   ],
+   "runs_concurrently_with": [
+    "FMLA"
+   ],
+   "rule_applied": [
+    "V1",
+    "V6",
+    "R2",
+    "U6",
+    "R11b",
+    "M1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Since December 15, 2009, all employees enrolled in an optional retirement plan (ORP) are covered by a short-term disability plan administered by The Standard Insurance Company, a third party vendor contracted by the University.",
+     "Short-term disability is generally described as a type of sick leave for absences of more than 5 days - including maternity leave - for up to 180 calendar days. Current and future faculty employees will receive 100% salary continuation for the approved leave period - with no waiting period."
+    ],
+    "eligible_parent": [
+     "Paid leave for an approved time period for absences greater than five days for reasons of ill health or pregnancy/recovery from childbirth, up to a maximum of six months."
+    ],
+    "entitlement": [
+     "Short-term disability is generally described as a type of sick leave for absences of more than 5 days - including maternity leave - for up to 180 calendar days. Current and future faculty employees will receive 100% salary continuation for the approved leave period - with no waiting period."
+    ],
+    "duration": [
+     "Short-Term Disability for Faculty Immediate eligibility 100% of salary for up to 180 calendar days"
+    ],
+    "pay_fraction": [
+     "Short-Term Disability for Faculty Immediate eligibility 100% of salary for up to 180 calendar days",
+     "Short-term disability is generally described as a type of sick leave for absences of more than 5 days - including maternity leave - for up to 180 calendar days. Current and future faculty employees will receive 100% salary continuation for the approved leave period - with no waiting period."
+    ],
+    "service_requirement": [
+     "Short-Term Disability for Faculty Immediate eligibility 100% of salary for up to 180 calendar days"
+    ],
+    "sequence": [
+     "Short-term disability is generally described as a type of sick leave for absences of more than 5 days - including maternity leave - for up to 180 calendar days. Current and future faculty employees will receive 100% salary continuation for the approved leave period - with no waiting period."
+    ],
+    "payer": [
+     "Salary will be paid through the normal payroll cycle through existing department funds.",
+     "The University is solely responsible for all risks, liabilities, benefits and claims under the Plan."
+    ],
+    "mechanism": [
+     "Short-term disability is generally described as a type of “sick” leave for absences of more than five days, including leave for the birth of a child.",
+     "Paid leave for an approved time period for absences greater than five days for reasons of ill health or pregnancy/recovery from childbirth, up to a maximum of six months."
+    ]
+   },
+   "doc_ids": [
+    "2018_05_provost_short_term_disability_faculty",
+    "2018_06_hr_disability_benefits",
+    "2018_02_hrm038_faculty_leaves_rev2019-01-09"
+   ],
+   "flags": [
+    "cross_reference_not_saved: The Standard Disability Group Certificate and plan document (ORP short-term disability plan)",
+    "ambiguous: rule gap: the disability plan depends on the faculty member's retirement-plan election (ORP: The Standard plan; VRS: VSDP), not on appointment or residence; the ORP path, which the Provost's faculty page and HRM-038 point faculty to, is coded (U8) and VSDP is in notes"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "V1",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "Short-term disability is generally described as a type of “sick” leave for absences of more than five days, including leave for the birth of a child."
+    },
+    {
+     "field": "payer",
+     "rule": "M1",
+     "answer": "employer",
+     "quote": "Salary will be paid through the normal payroll cycle through existing department funds."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Paid leave for an approved time period for absences greater than five days for reasons of ill health or pregnancy/recovery from childbirth, up to a maximum of six months."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Short-term disability is generally described as a type of sick leave for absences of more than 5 days - including maternity leave - for up to 180 calendar days. Current and future faculty employees will receive 100% salary continuation for the approved leave period - with no waiting period."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent",
+     "quote": "Paid leave for an approved time period for absences greater than five days for reasons of ill health or pregnancy/recovery from childbirth, up to a maximum of six months."
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "Short-term disability is generally described as a type of sick leave for absences of more than 5 days - including maternity leave - for up to 180 calendar days. Current and future faculty employees will receive 100% salary continuation for the approved leave period - with no waiting period."
+    },
+    {
+     "field": "duration",
+     "rule": "V6",
+     "answer": "180 calendar days up_to (plan maximum; no childbirth period stated)",
+     "quote": "Short-Term Disability for Faculty Immediate eligibility 100% of salary for up to 180 calendar days"
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "100% of salary",
+     "quote": "Short-Term Disability for Faculty Immediate eligibility 100% of salary for up to 180 calendar days"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "Immediate eligibility",
+     "quote": "Short-Term Disability for Faculty Immediate eligibility 100% of salary for up to 180 calendar days"
+    },
+    {
+     "field": "sequence",
+     "rule": "U6",
+     "answer": "within c11",
+     "quote": "Short-term disability is generally described as a type of sick leave for absences of more than 5 days - including maternity leave - for up to 180 calendar days. Current and future faculty employees will receive 100% salary continuation for the approved leave period - with no waiting period."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_virginia_c13",
+   "institution_label": "long-term disability",
+   "description": "Long-term disability for faculty in the ORP plan (The Standard): 66.66% of monthly salary from the end of the short-term disability period, for total disability.",
+   "mechanism": "generic_sick_or_disability_plan",
+   "payer": "insurance_plan",
+   "mechanism_note": "Long-term disability (schema §2): recorded without a duration.",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "ORP members (faculty)",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "pay_fraction": "66.66% of monthly salary",
+   "pay_fraction_pct": 66.66,
+   "pay_cap": "Benefit cannot exceed $20,000 / month",
+   "time_window": "Begins at the end of the Standard Disability period",
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "university_of_virginia_c12",
+     "note": "begins at the end of the short-term disability period"
+    }
+   ],
+   "rule_applied": [
+    "V6",
+    "M1",
+    "U5"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "ORP members have short- and long-term disability coverage through The Standard Insurance Company."
+    ],
+    "eligible_parent": [
+     "If you become totally disabled, you are eligible for income replacement benefits."
+    ],
+    "entitlement": [
+     "If you become totally disabled, you are eligible for income replacement benefits."
+    ],
+    "pay_fraction": [
+     "Pays a monthly income benefit equal to 66.66% of monthly salary, offset by Social Security or workers’ compensation benefits"
+    ],
+    "sequence": [
+     "Begins at the end of the Standard Disability period and continues for the duration of disability, or until normal Social Security retirement age"
+    ]
+   },
+   "doc_ids": [
+    "2018_06_hr_disability_benefits"
+   ],
+   "flags": [
+    "cross_reference_not_saved: The Standard Disability Group Certificate (ORP long-term disability plan)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "Begins at the end of the Standard Disability period and continues for the duration of disability, or until normal Social Security retirement age"
+    },
+    {
+     "field": "payer",
+     "rule": "M1",
+     "answer": "insurance_plan",
+     "quote": "ORP members have short- and long-term disability coverage through The Standard Insurance Company."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "If you become totally disabled, you are eligible for income replacement benefits."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "ORP members have short- and long-term disability coverage through The Standard Insurance Company."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own disability)",
+     "quote": "If you become totally disabled, you are eligible for income replacement benefits."
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "If you become totally disabled, you are eligible for income replacement benefits."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "66.66%",
+     "quote": "Pays a monthly income benefit equal to 66.66% of monthly salary, offset by Social Security or workers’ compensation benefits"
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "consecutive_after c12",
+     "quote": "Begins at the end of the Standard Disability period and continues for the duration of disability, or until normal Social Security retirement age"
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_virginia_c14",
+   "institution_label": "Family and Medical Leave",
+   "description": "Federal FMLA leave as implemented by HRM-026 for all University employees including faculty: up to 12 workweeks of job-protected unpaid leave in a leave plan year for a birth, placement, family care or own serious health condition, running concurrently with the faculty leaves.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Faculty, professional research staff, classified salaried employees, University staff, salaried research assistants, and wage employees (HRM-026)",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "the birth of a child; the placement of a child with the employee for adoption or foster care; care for a family member (child, spouse, or parent); own serious health condition",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 12,
+    "units": "workweek",
+    "qualifier": "up_to"
+   },
+   "duration_note": "'up to 12 weeks (60 workdays; 480 work hours)' per Leave Plan Year (HRM-026); statute: 'a total of 12 workweeks of leave during any 12-month period'.",
+   "service_requirement": "at least 12 months within the last seven years and at least 1,250 hours during the 12 months before the start of the leave",
+   "dual_employee_rule": "When both parents of a child work for the University, combined total of 12 workweeks in a 12-month period for birth, adoption or foster placement",
+   "time_window": "to be taken within 12 months of the child's birth or placement",
+   "notice": "written request at least 30 days before the anticipated beginning of the leave, unless emergencies or unforeseen events preclude it",
+   "statute_source": "29 U.S.C. 2612(a)(1); eligibility 29 U.S.C. 2611(2)",
+   "statute_verified": true,
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "sequence": [
+    {
+     "relation": "concurrent_with",
+     "component_id": "university_of_virginia_c11",
+     "note": "FMLA is automatically triggered by the short-term disability claim and runs concurrently (birth parent) (S1)"
+    },
+    {
+     "relation": "concurrent_with",
+     "component_id": "university_of_virginia_c1",
+     "note": "all paid and unpaid parental leave runs concurrently with FMLA (S1)"
+    },
+    {
+     "relation": "concurrent_with",
+     "component_id": "university_of_virginia_c2",
+     "note": "as above, half-pay option"
+    },
+    {
+     "relation": "concurrent_with",
+     "component_id": "university_of_virginia_c3",
+     "note": "as above, unpaid parental leave"
+    }
+   ],
+   "rule_applied": [
+    "U2",
+    "U4",
+    "S1",
+    "U7",
+    "U8",
+    "R11"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Faculty, professional research staff, classified salaried employees, University staff, salaried research assistants, and wage employees who have been employed by the University for: (1) at least 12 months within the last seven years; and (2) at least 1,250 hours during the 12 months before the start of the leave."
+    ],
+    "eligible_parent": [
+     "the birth of a child (to be taken within 12 months of the child’s birth);",
+     "the placement of a child with the employee for adoption or foster care (to be taken within 12 months of the child’s placement);",
+     "the employee is needed to care for a family member (child, spouse, or parent) with a serious health condition;",
+     "the employee's own serious health condition makes him or her unable to do his or her job; or"
+    ],
+    "entitlement": [
+     "The University provides an eligible employee with up to 12 weeks (60 workdays; 480 work hours) of unpaid family or medical leave (up to 26 weeks in the case of qualified Military Leave) in a Leave Plan Year for the following reasons:",
+     "By federal law, a faculty member who has been with the University at least 12 months and has worked at least 1,250 hours during the 12 months before the start of the leave is entitled to unpaid family or medical leave under the following conditions:",
+     "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period for one or more of the following:"
+    ],
+    "duration": [
+     "The University provides an eligible employee with up to 12 weeks (60 workdays; 480 work hours) of unpaid family or medical leave (up to 26 weeks in the case of qualified Military Leave) in a Leave Plan Year for the following reasons:",
+     "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period for one or more of the following:"
+    ],
+    "service_requirement": [
+     "Faculty, professional research staff, classified salaried employees, University staff, salaried research assistants, and wage employees who have been employed by the University for: (1) at least 12 months within the last seven years; and (2) at least 1,250 hours during the 12 months before the start of the leave."
+    ],
+    "dual_employee_rule": [
+     "When both parents of a child work for the University, the full amount of leave is limited to a combined total of 12 workweeks in a 12-month period when the leave is for the birth, adoption, or foster care placement of a child."
+    ],
+    "sequence": [
+     "All paid and unpaid parental leave runs concurrently with any unpaid leave granted under FMLA",
+     "Another option is FMLA, which is automatically triggered by the claim and runs concurrent to the short-term disability, allowing for 12 amount of weeks unpaid leave.",
+     "Unpaid leave approved for faculty members under FMLA runs concurrently with other paid and unpaid leave described in this policy, including but not limited to, Family Leave, Parental Leave, and Medical Leave."
+    ],
+    "notice": [
+     "An employee should submit a written request for family and medical leave or military leave (whether for a “qualified exigency” or to care for a seriously ill or injured covered service member) at least 30 days before the anticipated beginning of the leave"
+    ]
+   },
+   "doc_ids": [
+    "2018_04_hrm026_family_medical_military_leave",
+    "2018_02_hrm038_faculty_leaves_rev2019-01-09",
+    "2018_05_provost_short_term_disability_faculty",
+    "2026_00_us_fmla_29usc2612"
+   ],
+   "flags": [
+    "version_uncertain"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "U4",
+     "answer": "unpaid_leave",
+     "quote": "A job-protected leave without pay (or use of an employee's accrued leave with pay) for up to 12 workweeks"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "The University provides an eligible employee with up to 12 weeks (60 workdays; 480 work hours) of unpaid family or medical leave (up to 26 weeks in the case of qualified Military Leave) in a Leave Plan Year for the following reasons:"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "The University provides an eligible employee with up to 12 weeks (60 workdays; 480 work hours) of unpaid family or medical leave (up to 26 weeks in the case of qualified Military Leave) in a Leave Plan Year for the following reasons:"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Faculty, professional research staff, classified salaried employees, University staff, salaried research assistants, and wage employees who have been employed by the University for: (1) at least 12 months within the last seven years; and (2) at least 1,250 hours during the 12 months before the start of the leave."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "any_parent (birth or placement; own health condition and family care also listed)",
+     "quote": "the birth of a child (to be taken within 12 months of the child’s birth);"
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "By federal law, a faculty member who has been with the University at least 12 months and has worked at least 1,250 hours during the 12 months before the start of the leave is entitled to unpaid family or medical leave under the following conditions:"
+    },
+    {
+     "field": "duration",
+     "rule": "U2",
+     "answer": "12 workweeks up_to",
+     "quote": "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period for one or more of the following:"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U2",
+     "answer": "12 months and 1,250 hours",
+     "quote": "Faculty, professional research staff, classified salaried employees, University staff, salaried research assistants, and wage employees who have been employed by the University for: (1) at least 12 months within the last seven years; and (2) at least 1,250 hours during the 12 months before the start of the leave."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave)",
+     "quote": "A job-protected leave without pay (or use of an employee's accrued leave with pay) for up to 12 workweeks"
+    },
+    {
+     "field": "sequence",
+     "rule": "S1",
+     "answer": "concurrent_with c11, c1, c2, c3",
+     "quote": "All paid and unpaid parental leave runs concurrently with any unpaid leave granted under FMLA"
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_virginia_c15",
+   "institution_label": "Parental Leave",
+   "description": "Commonwealth of Virginia paid parental leave (Executive Order 12 (2018)): up to eight weeks (320 hours) of paid leave within six months of a birth or placement, for employees covered by the Virginia Personnel Act; the Act exempts the teaching and research staffs of state educational institutions.",
+   "mechanism": "employer_paid_leave",
+   "payer": "employer",
+   "faculty_group": "salaried classified, restricted and at-will employees covered by the Virginia Personnel Act",
+   "faculty_group_note": "Application: All positions covered under the Virginia Personnel Act ... classified and restricted employees ... salaried 'at-will' employees. Va. Code 2.2-2905(8) exempts 'The presidents and teaching and research staffs of state educational institutions' from the Act.",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "Employees who become parents via birth, adoption, or foster or custodial care",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 8,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "duration_note": "'up to eight (8) weeks (320 hours)'; may also supplement reduced VSDP income replacement after a birth, or follow VSDP benefits.",
+   "pay_fraction": "paid parental leave (full pay)",
+   "pay_fraction_pct": 100,
+   "service_requirement": "FML eligibility: twelve months with the Commonwealth in the past seven years and 1,250 hours in the previous 12 months",
+   "dual_employee_rule": "If both parents work for the Commonwealth and meet the eligibility criteria, each is entitled to up to 320 hours",
+   "time_window": "to be used within six (6) months of the birth/placement",
+   "use_limit": [
+    {
+     "times": 1,
+     "per": "window",
+     "window_years": 1,
+     "counts": "uses"
+    }
+   ],
+   "use_limit_note": "used once per child (a renewal per child, not recorded) and once within a 12 month period",
+   "notice": "written request at least thirty (30) calendar days prior or as soon as practicable",
+   "runs_concurrently_with": [
+    "FMLA"
+   ],
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "rule_applied": [
+    "U9",
+    "R9",
+    "R13",
+    "U4"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Application: All positions covered under the Virginia Personnel Act to include salaried full-time, quasi-full-time, and part-time classified and restricted employees. The policy also applies to salaried “at-will” employees.",
+     "The presidents and teaching and research staffs of state educational institutions;"
+    ],
+    "eligible_parent": [
+     "Employees who become parents via birth, adoption, or foster or custodial care and meet the following criteria:"
+    ],
+    "entitlement": [
+     "Eligible full-time employees are to receive up to eight (8) weeks (320 hours) of paid parental leave to be used within six (6) months of the birth/placement of a child for any one or more of the following reasons:",
+     "If both parents work for the Commonwealth and meet the eligibility criteria, each is entitled to up to 320 hours of parental leave."
+    ],
+    "duration": [
+     "Eligible full-time employees are to receive up to eight (8) weeks (320 hours) of paid parental leave to be used within six (6) months of the birth/placement of a child for any one or more of the following reasons:"
+    ],
+    "pay_fraction": [
+     "Eligible full-time employees are to receive up to eight (8) weeks (320 hours) of paid parental leave to be used within six (6) months of the birth/placement of a child for any one or more of the following reasons:"
+    ],
+    "service_requirement": [
+     "Must have been employed by the Commonwealth for a minimum of twelve months in the past seven years AND",
+     "Must have worked for at least 1,250 hours in the previous 12-month period."
+    ],
+    "use_limit": [
+     "The 320 hours of parental leave may be used only once per child and only once within a 12 month period."
+    ],
+    "dual_employee_rule": [
+     "If both parents work for the Commonwealth and meet the eligibility criteria, each is entitled to up to 320 hours of parental leave."
+    ]
+   },
+   "doc_ids": [
+    "2018_07_va_dhrm_policy_4-21_paid_parental_leave_2018-06-26",
+    "2018_15_va_code_2.2-2905_vpa_exemptions"
+   ],
+   "flags": [
+    "not_yet_effective: DHRM Policy 4.21 Paid Parental Leave effective 2018-06-26, after the 2018 baseline date (2018-01-01)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "employer_paid_leave",
+     "quote": "Eligible full-time employees are to receive up to eight (8) weeks (320 hours) of paid parental leave to be used within six (6) months of the birth/placement of a child for any one or more of the following reasons:"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "Eligible full-time employees are to receive up to eight (8) weeks (320 hours) of paid parental leave to be used within six (6) months of the birth/placement of a child for any one or more of the following reasons:"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Eligible full-time employees are to receive up to eight (8) weeks (320 hours) of paid parental leave to be used within six (6) months of the birth/placement of a child for any one or more of the following reasons:"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "salaried classified, restricted and at-will employees covered by the Virginia Personnel Act",
+     "quote": "The presidents and teaching and research staffs of state educational institutions;"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "Employees who become parents via birth, adoption, or foster or custodial care and meet the following criteria:"
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "If both parents work for the Commonwealth and meet the eligibility criteria, each is entitled to up to 320 hours of parental leave."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "8 weeks up_to",
+     "quote": "Eligible full-time employees are to receive up to eight (8) weeks (320 hours) of paid parental leave to be used within six (6) months of the birth/placement of a child for any one or more of the following reasons:"
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "paid leave, full pay",
+     "quote": "Eligible full-time employees are to receive up to eight (8) weeks (320 hours) of paid parental leave to be used within six (6) months of the birth/placement of a child for any one or more of the following reasons:"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "FML eligibility",
+     "quote": "Must have been employed by the Commonwealth for a minimum of twelve months in the past seven years AND"
+    },
+    {
+     "field": "use_limit",
+     "rule": "U9",
+     "answer": "once within a 12-month window; once per child is a renewal and not recorded",
+     "quote": "The 320 hours of parental leave may be used only once per child and only once within a 12 month period."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave)",
+     "quote": "Eligible full-time employees are to receive up to eight (8) weeks (320 hours) of paid parental leave to be used within six (6) months of the birth/placement of a child for any one or more of the following reasons:"
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_virginia_c16",
+   "institution_label": "Annual Leave",
+   "description": "Annual (vacation) leave of 16-22 working days a year by contractual cycle for faculty with full-time appointments of a year or longer; nine-month teaching faculty receive none. May extend an approved personal leave with the supervisor's approval.",
+   "mechanism": "own_accrual",
+   "payer": "own_balance",
+   "faculty_group": "faculty members who hold full-time appointments of a year or longer (not nine-month teaching faculty)",
+   "faculty_group_note": "Annual leave is available to faculty members who hold full-time appointments of a year or longer; Teaching faculty members employed for nine months do not receive annual leave.",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "faculty members",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "Granted by schedule; taken 'at the faculty member's option with the concurrence of the supervisor' (V2).",
+   "duration": {
+    "value": 22,
+    "units": "workday",
+    "qualifier": "exact"
+   },
+   "duration_note": "12-month cycle 22 working days, 11-month 20, 10-month 18, 09-month 16; lapses at fiscal-year end.",
+   "pay_fraction": "full pay (paid leave)",
+   "pay_fraction_pct": 100,
+   "rule_applied": [
+    "R1",
+    "U1",
+    "V2",
+    "schema"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Annual leave is available to faculty members who hold full-time appointments of a year or longer.",
+     "Teaching faculty members employed for nine months do not receive annual leave."
+    ],
+    "eligible_parent": [
+     "With a supervisor’s approval, the faculty member may use available annual leave to extend the approved period of personal leave."
+    ],
+    "entitlement": [
+     "Annual leave may be distributed throughout the year at the faculty member's option with the concurrence of the supervisor."
+    ],
+    "duration": [
+     "12-month contractual cycle ---- 22 working days"
+    ],
+    "pay_fraction": [
+     "Annual leave is a form of paid leave"
+    ]
+   },
+   "doc_ids": [
+    "2018_02_hrm038_faculty_leaves_rev2019-01-09"
+   ],
+   "flags": [
+    "version_uncertain",
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "own_accrual",
+     "quote": "Any unused annual leave lapses at the end of each fiscal year and may not be accumulated."
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "own_balance",
+     "quote": "Annual leave is available to faculty members who hold full-time appointments of a year or longer."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "Annual leave may be distributed throughout the year at the faculty member's option with the concurrence of the supervisor."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "faculty members who hold full-time appointments of a year or longer (not nine-month teaching faculty)",
+     "quote": "Teaching faculty members employed for nine months do not receive annual leave."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "With a supervisor’s approval, the faculty member may use available annual leave to extend the approved period of personal leave."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "Annual leave may be distributed throughout the year at the faculty member's option with the concurrence of the supervisor."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "22 workdays (12-month cycle)",
+     "quote": "12-month contractual cycle ---- 22 working days"
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "paid leave",
+     "quote": "With a supervisor’s approval, the faculty member may use available annual leave to extend the approved period of personal leave."
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "Reference date 2018-01-01. The record was first read as of the original 2018 coding date (2019-01-28); where the policy in force on 2018-01-01 differs, the record follows that policy: HRM-038 as revised 1/4/17 (2018_20) for the parental leave (c1-c3), and the modified duties of the 2019 text (c4) are flagged not_yet_effective (V5).",
+  "Sources: 2018_02 HRM-038 rev. 1/9/19; 2018_03 PROV-017; 2018_04 HRM-026; 2018_05 Provost short-term disability page; 2018_06 UVA HR disability benefits; 2018_07 DHRM Policy 4.21; 2018_20 HRM-038 (2017 text).",
+  "Governing documents: HRM-038 Faculty Leaves as revised 1/4/17 (2018_20, captured 2017-12-23), in force on the reference date, for the parental leave (c1-c3); and HRM-038 as revised 1/9/19 (2018_02), the only saved copy of the later text (a 2019-09-15 capture headed 'Last Revised: 04/17/2019', revision history 'Updated links 4/17/19; Revised 1/9/19'), for the other leaves, whose components citing it are flagged version_uncertain.",
+  "2018_20 is HRM-038 as revised 1/4/17 (capture 2017-12-23), the version in force on the reference date 2018-01-01. Its parental leave was 'up to three weeks of leave with full pay or six weeks of leave at half-pay' (child under seven for guardianship), plus 'an additional nine weeks of unpaid parental leave'; it had no Modified Duties section and no intermittent-use sentence. Differences between 2018_20 and 2018_02: header/menu lines; Last Revised date; Modified Duties added to the table of contents and as a section; sabbatical definition ('periodic' dropped); 'Some may be taken' -> 'Other types may be taken'; partial-pay threshold wording; probationary-period sentence reworded as 'clock-stoppage'; benefits-counselor sentence; 'Schools and units may have specific procedures or more restrictive policies' dropped; Section 2.E -> 2.F references; UHR -> UVA HR; parental leave paragraph (3/6 weeks -> 8/16 weeks; guardianship age 7 -> 18; 'thesame qualifying parental leave event'); unpaid 9 weeks -> 4 weeks for those taking paid leave; intermittent use and 'every effort to accommodate' sentences added; disability section adds the VRS/ORP sentence and HR page link; annual-leave table reformatted; jury-duty pronoun; procedures and related-information links.",
+  "HRM-038's general statements govern every leave in it: faculty must request leave and obtain approvals; 'A leave request will be considered in light of the faculty member's particular situation and the needs of the faculty member's department or unit'; leave for personal reasons (Family, Parental, Other Personal, and Modified Duties in Section 2) 'may be approved at the discretion of the faculty member's supervisor and dean or vice president. Such approval is not guaranteed.' Hence the parental leave is coded discretionary.",
+  "Disability path (U8): HRM-038 says disability benefits are determined by the retirement plan (VRS or ORP). The ORP path (The Standard; for faculty: immediate eligibility, 100% of salary for up to 180 calendar days, no waiting period; LTD 66.66%) is coded as c11-c13. Not coded, VRS path: VSDP short-term disability up to 125 workdays; for a member hired on or after 1 July 2009 coverage begins after one year, and with 13-59 months of state service income replacement is 125 workdays at 60% (with fewer than 60 months, hired before 1 July 2009: 5 days at 100%, 20 at 80%, 100 at 60%); LTD 60%. HRM-026: leave managed through VSDP's carrier is automatically deemed FMLA leave.",
+  "Other groups' disability plans described but not coded as components (not faculty, generic plans): ORP short-term disability for staff (five-day waiting period, 100% for 25 workdays, 80% through day 180); MCRP members (UNUM, 60% weekly up to $1,100 from day 15; LTD 60%); housestaff LTD (70%, 90-day elimination).",
+  "DHRM Policy 4.21 (c15) applies to positions covered by the Virginia Personnel Act; Va. Code 2.2-2905(8) (saved statute) exempts 'The presidents and teaching and research staffs of state educational institutions', so it does not cover UVA tenure-stream faculty; recorded with its group. Effective June 26, 2018, after the reference date (flagged not_yet_effective, V5).",
+  "Other HRM-038 leaves read and not coded (a parent could not use them for a birth or adoption, or they are professional): sabbatical, educational leave, military duty leave, conversion leave, jury duty. Sick days below the short-term disability threshold are 'managed between the employee and his or her supervisor' (no balance stated). A leave of absence is not granted for longer than two consecutive years except in exceptional circumstances; extensions need executive approval in the best interests of the University (not a per-event cap; leave_limits left empty).",
+  "Provost page: after short-term disability, 'Accommodations can be made regarding release time, a partial return to work, working from an alternate location, or using your annual leave, as long as these accommodations are consistently applied regardless of the reason for the absence' (departmental discretion for any absence; not a parental provision, not coded). The ORP plan also allows part-time disability (part of c12).",
+  "Cross-references cited but not saved: school-specific modified duties policies; The Standard Disability Group Certificate, Group Certificate Amendment and plan document; 'The Standard Disability at a Glance'; UHR Guidelines for Requesting Family, Medical, or Military Leave; PROV-009 Faculty Holding Appointments at Other Institutions; VSDP Handbook; MCRP short- and long-term disability summaries and booklets; Medical Center Policy 600 (Leaves of Absence); DHRM Policies 2.20, 4.10, 4.20, 4.30, 4.55, 4.57; Executive Order #12 (2018); each school's sabbatical policy.",
+  "Calendar: the documents use semesters ('one semester at full salary or two semesters at half salary'; 'a semester in which they take leave'; 'semester breaks') without a length, so term_weeks is the semester default 16 (R8).",
+  "Birth parent chain: short-term disability leave c11 up to 180 calendar days (ORP pay c12 at 100% within it) -> paid parental leave c1 3 weeks at full pay (or c2 6 weeks at half pay, in_lieu_of) 'in addition to' the disability leave (also_available) -> unpaid parental leave c3 9 weeks (also_available); FMLA c14 concurrent_with from the start of c11; modified duties c4 (general_purpose) relief in the semester of the leave, unlinked.",
+  "Non-birth parent chain: paid parental leave c1 3 weeks at full pay (or c2 6 weeks at half pay, in_lieu_of) -> unpaid parental leave c3 9 weeks (also_available); FMLA c14 concurrent_with from the start of c1; c11/c12 do not apply (HR: paternity 'does not fall under the short term disability plan')."
+ ],
+ "statutory_floor": {
+  "jurisdiction": "US",
+  "year": "2018",
+  "weeks_birth": 12.0,
+  "weeks_nonbirth": 12.0,
+  "statute": "Family and Medical Leave Act (FMLA) (29 U.S.C. 2611-2612)",
+  "source_doc": "2026_00_us_fmla_29usc2612",
+  "table": "statutory_baseline.csv"
+ }
+}

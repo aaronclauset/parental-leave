@@ -1,0 +1,2332 @@
+{
+ "institution": "Harvard University",
+ "slug": "harvard_university",
+ "country": "US",
+ "model": "claude-opus-5-5",
+ "codebook_version": "1.25",
+ "schema_version": "1.25",
+ "reference_date": "2018-02-22",
+ "calendar": {
+  "term_weeks": null,
+  "note": "Semesters stated without length ('one semester or half-time duty for two semesters', 2018_01; 'up to one semester', 2018_04); R8 semester default",
+  "kind": "semester"
+ },
+ "documents": [
+  {
+   "doc_id": "2018_00_link",
+   "url": "https://academic-appointments.fas.harvard.edu/g-other-leaves-family-maternity-parental-medical-and-personal-leaves",
+   "title": "FAS Appointment and Promotion Handbook, ch. 3H: Other Leaves (Family, Medical, and Personal) and Extensions",
+   "version_or_effective_date": "capture 2018-01-25 (copyright 2018)",
+   "retrieved": "2026-10-29T23:43:55+00:00"
+  },
+  {
+   "doc_id": "2018_01_fas_parental_teaching_relief_form",
+   "url": "https://facultyresources.fas.harvard.edu/files/facultyresources/files/final_parental_teaching_relief_application.pdf",
+   "title": "FAS Application for Parental Teaching Relief (form)",
+   "version_or_effective_date": "undated; capture 2018-02-08",
+   "retrieved": "2026-10-30T00:34:02+00:00"
+  },
+  {
+   "doc_id": "2018_02_fas_aph_ch3a_general_leave",
+   "url": "https://academic-appointments.fas.harvard.edu/general-leave-policies",
+   "title": "FAS Appointment and Promotion Handbook, ch. 3A: General Leave Policies",
+   "version_or_effective_date": "capture 2018-01-25 (copyright 2018)",
+   "retrieved": "2026-10-30T00:34:05+00:00"
+  },
+  {
+   "doc_id": "2018_03_harvard_ofd_parental_leave_page",
+   "url": "https://faculty.harvard.edu/parental-leave",
+   "title": "Office for Faculty Development and Diversity: Parental Leave page (links only)",
+   "version_or_effective_date": "capture 2018-03-05",
+   "retrieved": "2026-10-30T00:34:31+00:00"
+  },
+  {
+   "doc_id": "2018_04_univ_framework_parental_ladder_faculty_2015",
+   "url": "http://faculty.harvard.edu/files/fdd/files/university_framework_for_parental_policies_final_12.17.2015.pdf",
+   "title": "University-Wide Policy Framework for Parental Leave for Full-Time Ladder Faculty (December 2015)",
+   "version_or_effective_date": "December 2015; capture 2017-04-21, same digest across 2016-2024",
+   "retrieved": "2026-10-30T00:35:00+00:00"
+  },
+  {
+   "doc_id": "2018_05_univ_framework_medical_leave_ladder_faculty_2015",
+   "url": "http://faculty.harvard.edu/files/fdd/files/university_framework_for_medical_leave_policies_final_12.17.2015.pdf",
+   "title": "University-wide Policy Framework for Paid Medical Leave for Full-Time Ladder Faculty (December 2015)",
+   "version_or_effective_date": "December 2015; capture 2017-04-21, same digest 2017-2024",
+   "retrieved": "2026-10-30T00:35:02+00:00"
+  }
+ ],
+ "missing": false,
+ "scope_accounting": {
+  "C1": {
+   "components": [
+    "harvard_university_c1",
+    "harvard_university_c2",
+    "harvard_university_c3"
+   ]
+  },
+  "C2": {
+   "components": [
+    "harvard_university_c6",
+    "harvard_university_c7",
+    "harvard_university_c15"
+   ]
+  },
+  "C3": {
+   "components": [
+    "harvard_university_c4",
+    "harvard_university_c5",
+    "harvard_university_c13",
+    "harvard_university_c14"
+   ]
+  },
+  "C4": {
+   "components": [
+    "harvard_university_c1",
+    "harvard_university_c2",
+    "harvard_university_c13"
+   ],
+   "not_components": [
+    {
+     "statute": "FMLA military family leave entitlements (qualifying exigency leave; up to 26 weeks of military caregiver leave)",
+     "reason": "U4: sections for military family members, unrelated to becoming a parent; the documents do not rely on them for a birth"
+    }
+   ]
+  },
+  "C5": {
+   "components": [
+    "harvard_university_c1",
+    "harvard_university_c12",
+    "harvard_university_c13"
+   ]
+  },
+  "C6": {
+   "components": [
+    "harvard_university_c12"
+   ]
+  },
+  "C7": {
+   "components": [
+    "harvard_university_c8",
+    "harvard_university_c9",
+    "harvard_university_c10",
+    "harvard_university_c11"
+   ]
+  },
+  "C8": {
+   "absent": {
+    "documents": [
+     "2018_00_link",
+     "2018_01_fas_parental_teaching_relief_form",
+     "2018_02_fas_aph_ch3a_general_leave",
+     "2018_03_harvard_ofd_parental_leave_page",
+     "2018_04_univ_framework_parental_ladder_faculty_2015",
+     "2018_05_univ_framework_medical_leave_ladder_faculty_2015"
+    ],
+    "terms": [
+     "part-time appointment",
+     "reduced appointment",
+     "phased return",
+     "half-time",
+     "reduction in appointment",
+     "salary reduction"
+    ]
+   }
+  },
+  "C9": {
+   "absent": {
+    "documents": [
+     "2018_00_link",
+     "2018_01_fas_parental_teaching_relief_form",
+     "2018_02_fas_aph_ch3a_general_leave",
+     "2018_03_harvard_ofd_parental_leave_page",
+     "2018_04_univ_framework_parental_ladder_faculty_2015",
+     "2018_05_univ_framework_medical_leave_ladder_faculty_2015"
+    ],
+    "terms": [
+     "accommodation",
+     "pregnan",
+     "transfer",
+     "hazard",
+     "lactation",
+     "discrimination"
+    ]
+   }
+  },
+  "C10": {
+   "absent": {
+    "documents": [
+     "2018_00_link",
+     "2018_01_fas_parental_teaching_relief_form",
+     "2018_02_fas_aph_ch3a_general_leave",
+     "2018_03_harvard_ofd_parental_leave_page",
+     "2018_04_univ_framework_parental_ladder_faculty_2015",
+     "2018_05_univ_framework_medical_leave_ladder_faculty_2015"
+    ],
+    "terms": [
+     "first days",
+     "FMLA-qualifying",
+     "paid as regular",
+     "salary continuation",
+     "group health insurance"
+    ]
+   }
+  }
+ },
+ "passage_dispositions": {
+  "2018_00_link#001": {
+   "used_in": [
+    "harvard_university_c1",
+    "harvard_university_c2",
+    "harvard_university_c3",
+    "harvard_university_c4",
+    "harvard_university_c6",
+    "harvard_university_c7",
+    "harvard_university_c9",
+    "harvard_university_c10",
+    "harvard_university_c15"
+   ]
+  },
+  "2018_00_link#002": {
+   "used_in": [
+    "harvard_university_c9",
+    "harvard_university_c10",
+    "harvard_university_c11",
+    "harvard_university_c12"
+   ]
+  },
+  "2018_01_fas_parental_teaching_relief_form#001": {
+   "used_in": [
+    "harvard_university_c6",
+    "harvard_university_c7"
+   ]
+  },
+  "2018_02_fas_aph_ch3a_general_leave#001": {
+   "used_in": [
+    "harvard_university_c12"
+   ]
+  },
+  "2018_02_fas_aph_ch3a_general_leave#002": {
+   "not_relevant": "approval procedure for sabbatical, research and public-service leaves; no parental provision"
+  },
+  "2018_02_fas_aph_ch3a_general_leave#003": {
+   "used_in": [
+    "harvard_university_c13"
+   ]
+  },
+  "2018_03_harvard_ofd_parental_leave_page#001": {
+   "not_relevant": "navigation page: links to the two University-wide frameworks (saved as 2018_04 and 2018_05); no policy text"
+  },
+  "2018_04_univ_framework_parental_ladder_faculty_2015#001": {
+   "used_in": [
+    "harvard_university_c1",
+    "harvard_university_c2",
+    "harvard_university_c3",
+    "harvard_university_c6",
+    "harvard_university_c7",
+    "harvard_university_c8"
+   ]
+  },
+  "2018_05_univ_framework_medical_leave_ladder_faculty_2015#001": {
+   "used_in": [
+    "harvard_university_c1",
+    "harvard_university_c3",
+    "harvard_university_c4",
+    "harvard_university_c5",
+    "harvard_university_c14"
+   ]
+  }
+ },
+ "mechanism_slots": {
+  "employer_paid_leave": {
+   "absent": "no employer-paid parental leave other than the childbirth medical leave (c3); searched all six documents for 'paid parental leave', 'paid leave', 'family leave'"
+  },
+  "employer_childbirth_benefit": {
+   "components": [
+    "harvard_university_c3"
+   ]
+  },
+  "generic_sick_or_disability_plan": {
+   "components": [
+    "harvard_university_c5",
+    "harvard_university_c13",
+    "harvard_university_c14"
+   ]
+  },
+  "own_accrual": {
+   "absent": "no accrued sick or vacation balance described; MA paid sick time is front-loaded each year without rollover (R1, coded c13); searched for 'accru', 'vacation', 'sick leave', 'balance'"
+  },
+  "donated_leave": {
+   "absent": "no donated or shared leave bank; searched for 'donat', 'shared leave', 'bank'"
+  },
+  "government_benefit": {
+   "absent": "no government or state paid-leave programme named (MA PFML not in force in 2018 and not mentioned); searched for 'paid family', 'PFML', 'disability insurance', 'state program'"
+  },
+  "employer_topup": {
+   "absent": "no top-up of a government benefit; searched for 'top-up', 'supplement', 'difference'"
+  },
+  "modified_duties": {
+   "components": [
+    "harvard_university_c6",
+    "harvard_university_c7",
+    "harvard_university_c15"
+   ]
+  },
+  "unpaid_leave": {
+   "components": [
+    "harvard_university_c1",
+    "harvard_university_c2",
+    "harvard_university_c4",
+    "harvard_university_c12"
+   ]
+  },
+  "tenure_clock": {
+   "components": [
+    "harvard_university_c8",
+    "harvard_university_c9",
+    "harvard_university_c10",
+    "harvard_university_c11"
+   ]
+  },
+  "part_time_option": {
+   "absent": "no reduced appointment with reduced pay; searched for 'part-time', 'reduced appointment', 'half-time'"
+  },
+  "other": {
+   "absent": "no pregnancy accommodation, rearrangement or equal-treatment provision; searched for 'accommodat', 'pregnan', 'transfer', 'hazard'"
+  }
+ },
+ "baseline_accounting": {
+  "Family and Medical Leave Act (FMLA)": {
+   "components": [
+    "harvard_university_c1"
+   ]
+  },
+  "Federal Employee Paid Leave Act (paid parental leave for federal civilian employees)": {
+   "not_applicable": "covers federal civilian employees only; Harvard is a private employer"
+  },
+  "Paid Family and Medical Leave (PFML)": {
+   "absent": "no saved document mentions it (Massachusetts PFML was not yet in force on 2018-02-22)"
+  },
+  "Massachusetts Parental Leave Act": {
+   "components": [
+    "harvard_university_c2"
+   ]
+  }
+ },
+ "leave_limits": [
+  {
+   "weeks": 32,
+   "components": [
+    "harvard_university_c1",
+    "harvard_university_c2",
+    "harvard_university_c3",
+    "harvard_university_c6",
+    "harvard_university_c7"
+   ],
+   "roles": [
+    "birth",
+    "nonbirth"
+   ],
+   "note": "Under the ordinary application of the policies governing family and research leaves, no more than two consecutive terms of relief from full-time departmental teaching duties; two semesters at 16 weeks (R8 default for semesters) = 32 weeks. Medical leave (c4, c5) sits under a separate section and is not listed.",
+   "evidence": [
+    "Under the ordinary application of the policies governing family and research leaves, no faculty member will be eligible for more than two consecutive terms of relief from full-time departmental teaching duties."
+   ],
+   "decision_log": [
+    {
+     "field": "leave_limits",
+     "rule": "R20",
+     "answer": "2 terms x 16 weeks = 32 weeks; family-leave components c1, c2, c3, c6, c7; both roles",
+     "quote": "no faculty member will be eligible for more than two consecutive terms of relief from full-time departmental teaching duties"
+    }
+   ]
+  }
+ ],
+ "components": [
+  {
+   "component_id": "harvard_university_c1",
+   "institution_label": "Family and Medical Leave Act of 1993 (FMLA)",
+   "description": "Federal FMLA: up to 12 weeks of unpaid job-protected leave for the birth of a child and to care for the child (also adoption, foster care, own or family serious health condition); FAS deems faculty eligible after three consecutive months at half-time or more.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "FAS: 'faculty members (ladder and non-ladder) and those holding professional research appointments'; framework: 'all full-time ladder faculty'",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "all parents, i.e., fathers and mothers alike",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 12,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "duration_note": "Statute: a total of 12 workweeks in any 12-month period (29 U.S.C. 2612(a)(1)). Taken and completed during a 12-month period. FMLA also covers own serious health condition and care of a parent, child or spouse (U5).",
+   "service_requirement": "Statute: 12 months and 1,250 hours (29 U.S.C. 2611(2)); FAS policy deems faculty eligible after at least half-time appointment in the FAS for three consecutive months",
+   "time_window": "within 12 months of birth, adoption, or the initiation of foster care",
+   "statute_source": "29 U.S.C. 2612(a)(1)(A)-(B)",
+   "statute_verified": true,
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "sequence": [
+    {
+     "relation": "concurrent_with",
+     "component_id": "harvard_university_c3",
+     "note": "S1: the FAS may count the 8 weeks of paid childbirth medical leave toward FMLA; the unpaid remainder (up to 4 weeks) follows the paid weeks"
+    },
+    {
+     "relation": "concurrent_with",
+     "component_id": "harvard_university_c4",
+     "note": "S1: medical leaves may be counted toward FMLA where the reason meets FMLA criteria"
+    }
+   ],
+   "rule_applied": [
+    "U2",
+    "U4",
+    "S1",
+    "R9",
+    "U5",
+    "U8"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Those holding faculty and professional research appointments who are eligible for FMLA coverage may take no more than 12 weeks FMLA leave"
+    ],
+    "eligible_parent": [
+     "The provisions of FMLA apply to all parents, i.e., fathers and mothers alike.",
+     "can take up to 12 weeks of unpaid FMLA leave for the birth of a child and to care for a child within 12 months of birth, adoption, or the initiation of foster care"
+    ],
+    "entitlement": [
+     "The Family and Medical Leave Act of 1993 requires the FAS to grant eligible employees up to 12 weeks of unpaid leave",
+     "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period"
+    ],
+    "duration": [
+     "can take up to 12 weeks of unpaid FMLA leave for the birth of a child and to care for a child within 12 months of birth, adoption, or the initiation of foster care"
+    ],
+    "service_requirement": [
+     "deemed eligible for the provisions of FMLA if they have held at least half-time appointment in the FAS for three consecutive months or more"
+    ],
+    "sequence": [
+     "The FAS may count these eight weeks of paid medical leave toward the fulfillment of the FMLA 12-week leave entitlement.",
+     "Thus, a faculty member may have the option of taking up to four weeks of unpaid FMLA leave in addition to her eight weeks of paid medical leave.",
+     "The FAS may count medical leaves toward the fulfillment of the FMLA 12-week leave entitlement, if the reason for the leave meets the FMLA criteria."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link",
+    "2018_04_univ_framework_parental_ladder_faculty_2015",
+    "2018_05_univ_framework_medical_leave_ladder_faculty_2015",
+    "2026_00_us_fmla_29usc2612"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "U4",
+     "answer": "unpaid_leave",
+     "quote": "The Family and Medical Leave Act of 1993 requires the FAS to grant eligible employees up to 12 weeks of unpaid leave"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "The Family and Medical Leave Act of 1993 requires the FAS to grant eligible employees up to 12 weeks of unpaid leave"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "can take up to 12 weeks of unpaid FMLA leave for the birth of a child and to care for a child within 12 months of birth, adoption, or the initiation of foster care"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Those holding faculty and professional research appointments who are eligible for FMLA coverage may take no more than 12 weeks FMLA leave"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth, non-birth, adoptive, foster",
+     "quote": "The provisions of FMLA apply to all parents, i.e., fathers and mothers alike."
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "The Family and Medical Leave Act of 1993 requires the FAS to grant eligible employees up to 12 weeks of unpaid leave"
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "12 weeks up_to (text 'up to'); statute 12 workweeks verified",
+     "quote": "can take up to 12 weeks of unpaid FMLA leave for the birth of a child and to care for a child within 12 months of birth, adoption, or the initiation of foster care"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U8",
+     "answer": "FAS three-month half-time eligibility; statute 12 months/1,250 hours",
+     "quote": "deemed eligible for the provisions of FMLA if they have held at least half-time appointment in the FAS for three consecutive months or more"
+    },
+    {
+     "field": "sequence",
+     "rule": "S1",
+     "answer": "concurrent_with c3 and c4; 4 unpaid weeks after the 8 paid",
+     "quote": "Thus, a faculty member may have the option of taking up to four weeks of unpaid FMLA leave in addition to her eight weeks of paid medical leave."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "formal leave: all duties relieved",
+     "quote": "The Family and Medical Leave Act of 1993 requires the FAS to grant eligible employees up to 12 weeks of unpaid leave"
+    }
+   ]
+  },
+  {
+   "component_id": "harvard_university_c2",
+   "institution_label": "Massachusetts Parental Leave Act (MPLA)",
+   "description": "State statute: eight weeks of unpaid leave to care for a newborn or newly adopted child, after three months of employment; usually superseded by FMLA or FAS leaves.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "'a faculty member who has been employed for at least three months'",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "a faculty member ... to care for a newborn or newly-adopted child",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 8,
+    "units": "week",
+    "qualifier": "exact"
+   },
+   "duration_note": "Framework calls it 'eight weeks of full leave'; 'In most cases, this leave entitlement is superseded by another, more generous, leave available under FAS policies or the FMLA.'",
+   "service_requirement": "at least three months",
+   "statute_source": "Massachusetts Parental Leave Act (section not cited in the documents)",
+   "statute_verified": false,
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "sequence": [
+    {
+     "relation": "concurrent_with",
+     "component_id": "harvard_university_c3",
+     "note": "S1: medical leaves for childbirth count toward the MPLA eight-week entitlement"
+    },
+    {
+     "relation": "concurrent_with",
+     "component_id": "harvard_university_c1",
+     "note": "S1: superseded in most cases by FMLA, which runs alongside"
+    }
+   ],
+   "rule_applied": [
+    "U2",
+    "U4",
+    "S1",
+    "R9"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Under the Massachusetts Parental Leave Act, a faculty member who has been employed for at least three months is entitled to eight weeks of unpaid leave to care for a newborn or newly-adopted child."
+    ],
+    "eligible_parent": [
+     "Under the Massachusetts Parental Leave Act, a faculty member who has been employed for at least three months is entitled to eight weeks of unpaid leave to care for a newborn or newly-adopted child."
+    ],
+    "entitlement": [
+     "Under the Massachusetts Parental Leave Act, a faculty member who has been employed for at least three months is entitled to eight weeks of unpaid leave to care for a newborn or newly-adopted child."
+    ],
+    "duration": [
+     "Under the Massachusetts Parental Leave Act, a faculty member who has been employed for at least three months is entitled to eight weeks of unpaid leave to care for a newborn or newly-adopted child."
+    ],
+    "service_requirement": [
+     "Under the Massachusetts Parental Leave Act, a faculty member who has been employed for at least three months is entitled to eight weeks of unpaid leave to care for a newborn or newly-adopted child."
+    ],
+    "sequence": [
+     "These medical leaves count toward the fulfillment of the FMLA 12-week or MPLA eight-week leave entitlement, if the reason for the leave meets the FMLA or MPLA criteria.",
+     "In most cases, this leave entitlement is superseded by another, more generous, leave available under FAS policies or the FMLA."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link",
+    "2018_04_univ_framework_parental_ladder_faculty_2015"
+   ],
+   "flags": [
+    "cross_reference_not_saved: Massachusetts Parental Leave Act (statute text)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "U4",
+     "answer": "unpaid_leave",
+     "quote": "Under the Massachusetts Parental Leave Act, a faculty member who has been employed for at least three months is entitled to eight weeks of unpaid leave to care for a newborn or newly-adopted child."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Under the Massachusetts Parental Leave Act, a faculty member who has been employed for at least three months is entitled to eight weeks of unpaid leave to care for a newborn or newly-adopted child."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Under the Massachusetts Parental Leave Act, a faculty member who has been employed for at least three months is entitled to eight weeks of unpaid leave to care for a newborn or newly-adopted child."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Under the Massachusetts Parental Leave Act, a faculty member who has been employed for at least three months is entitled to eight weeks of unpaid leave to care for a newborn or newly-adopted child."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "birth, non-birth, adoptive",
+     "quote": "Under the Massachusetts Parental Leave Act, a faculty member who has been employed for at least three months is entitled to eight weeks of unpaid leave to care for a newborn or newly-adopted child."
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "Under the Massachusetts Parental Leave Act, a faculty member who has been employed for at least three months is entitled to eight weeks of unpaid leave to care for a newborn or newly-adopted child."
+    },
+    {
+     "field": "duration",
+     "rule": "U2",
+     "answer": "8 weeks exact, as stated by the policy; statute not saved",
+     "quote": "Under the Massachusetts Parental Leave Act, a faculty member who has been employed for at least three months is entitled to eight weeks of unpaid leave to care for a newborn or newly-adopted child."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U2",
+     "answer": "at least three months",
+     "quote": "Under the Massachusetts Parental Leave Act, a faculty member who has been employed for at least three months is entitled to eight weeks of unpaid leave to care for a newborn or newly-adopted child."
+    },
+    {
+     "field": "sequence",
+     "rule": "S1",
+     "answer": "concurrent_with c3 and c1",
+     "quote": "These medical leaves count toward the fulfillment of the FMLA 12-week or MPLA eight-week leave entitlement, if the reason for the leave meets the FMLA or MPLA criteria."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "formal leave: all duties relieved",
+     "quote": "Under the Massachusetts Parental Leave Act, a faculty member who has been employed for at least three months is entitled to eight weeks of unpaid leave to care for a newborn or newly-adopted child."
+    }
+   ]
+  },
+  {
+   "component_id": "harvard_university_c3",
+   "institution_label": "Paid Medical Leave for Childbirth and Recovery",
+   "description": "Birth mothers among full-time ladder faculty may ordinarily take eight weeks of paid medical leave for childbirth and recovery, drawn from the paid medical leave benefit (up to six months).",
+   "mechanism": "employer_childbirth_benefit",
+   "payer": "employer",
+   "mechanism_note": "V1: childbirth-specific period (childbirth and recovery), length (eight weeks) and pay ('paid medical leave') all stated; drawn from the employer's medical leave benefit, not an accrual.",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "framework: 'full-time ladder faculty members who are birth mothers'; FAS: professor, associate professor, assistant professor and other ranks",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "birth mothers",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "V2: 'may take' gives the benefit; the notice to the chair and assistant dean and the School's approval procedures cover arrangements; departments 'are expected to accommodate'. 'Ordinarily' qualifies the length (a normal, uncomplicated delivery), not the grant.",
+   "duration": {
+    "value": 8,
+    "units": "week",
+    "qualifier": "normally"
+   },
+   "duration_note": "'ordinarily take eight weeks ... following a normal, uncomplicated delivery'; a complicated delivery may draw further on the up-to-six-month medical leave (c4). Not beyond the termination date of the appointment.",
+   "medical_certification": true,
+   "medical_certification_note": "written medical certification required with requests for medical leave (framework); procedures at the School's discretion",
+   "notice": "notifies department chair and assistant dean with as much advance notice as possible",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "sequence": [
+    {
+     "relation": "within",
+     "component_id": "harvard_university_c4",
+     "note": "'out of their allotted medical leave benefit': the eight weeks are part of the medical leave of absence"
+    }
+   ],
+   "rule_applied": [
+    "V1",
+    "V2",
+    "R13",
+    "R9",
+    "U6",
+    "V3c"
+   ],
+   "evidence": {
+    "mechanism": [
+     "Full-time ladder faculty members who are birth mothers may ordinarily take eight weeks of paid medical leave following a normal, uncomplicated delivery, out of their allotted medical leave benefit."
+    ],
+    "faculty_group": [
+     "full-time ladder faculty members who are birth mothers may take eight weeks of paid medical leave out of their allotted medical leave benefit.",
+     "These benefits are available to all full-time ladder faculty."
+    ],
+    "eligible_parent": [
+     "who are birth mothers may ordinarily take eight weeks of paid medical leave in connection with childbirth and recovery, out of their allotted medical leave benefit."
+    ],
+    "entitlement": [
+     "full-time ladder faculty members who are birth mothers may take eight weeks of paid medical leave out of their allotted medical leave benefit.",
+     "Departments are expected to accommodate faculty members who take paid medical leave in connection with childbirth and recovery and/or unpaid FMLA leave."
+    ],
+    "duration": [
+     "Full-time ladder faculty members who are birth mothers may ordinarily take eight weeks of paid medical leave following a normal, uncomplicated delivery, out of their allotted medical leave benefit.",
+     "who are birth mothers may ordinarily take eight weeks of paid medical leave in connection with childbirth and recovery, out of their allotted medical leave benefit."
+    ],
+    "sequence": [
+     "Full-time ladder faculty members who are birth mothers may ordinarily take eight weeks of paid medical leave following a normal, uncomplicated delivery, out of their allotted medical leave benefit."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link",
+    "2018_04_univ_framework_parental_ladder_faculty_2015",
+    "2018_05_univ_framework_medical_leave_ladder_faculty_2015"
+   ],
+   "flags": [
+    "ambiguous: restriction: paid medical leave will not extend beyond the termination date of the appointment"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "V1",
+     "answer": "employer_childbirth_benefit",
+     "quote": "Full-time ladder faculty members who are birth mothers may ordinarily take eight weeks of paid medical leave following a normal, uncomplicated delivery, out of their allotted medical leave benefit."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "full-time ladder faculty members who are birth mothers may take eight weeks of paid medical leave out of their allotted medical leave benefit."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "who are birth mothers may ordinarily take eight weeks of paid medical leave in connection with childbirth and recovery, out of their allotted medical leave benefit."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "full-time ladder faculty members who are birth mothers may take eight weeks of paid medical leave out of their allotted medical leave benefit."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "birth_parent",
+     "quote": "who are birth mothers may ordinarily take eight weeks of paid medical leave in connection with childbirth and recovery, out of their allotted medical leave benefit."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "full-time ladder faculty members who are birth mothers may take eight weeks of paid medical leave out of their allotted medical leave benefit."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "8 weeks, qualifier normally ('ordinarily')",
+     "quote": "Full-time ladder faculty members who are birth mothers may ordinarily take eight weeks of paid medical leave following a normal, uncomplicated delivery, out of their allotted medical leave benefit."
+    },
+    {
+     "field": "sequence",
+     "rule": "U6",
+     "answer": "within c4 (out of the allotted medical leave benefit)",
+     "quote": "Full-time ladder faculty members who are birth mothers may ordinarily take eight weeks of paid medical leave following a normal, uncomplicated delivery, out of their allotted medical leave benefit."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "formal leave: all duties relieved",
+     "quote": "who are birth mothers may ordinarily take eight weeks of paid medical leave in connection with childbirth and recovery, out of their allotted medical leave benefit."
+    },
+    {
+     "field": "medical_certification",
+     "rule": "schema",
+     "answer": "true",
+     "quote": "must be accompanied by written medical certification"
+    }
+   ]
+  },
+  {
+   "component_id": "harvard_university_c4",
+   "institution_label": "Medical Leave",
+   "description": "Paid medical leave of absence of up to six months for a serious health condition that prevents normal duties (the leave status; its pay is c5). Covers a birth parent's own disability.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "mechanism_note": "U6: the text grants an absence ('a paid medical leave of absence of up to six months'); coded as the leave plus its pay (c5) within it.",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "'Ladder faculty members (assistant, associate, or full professors), professors in residence, Benjamin Peirce Fellows, professors of the practice, senior preceptors, or senior lecturers'; framework: 'Full-time ladder faculty members'",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "faculty members suffering from a serious health condition",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "V2: 'may be entitled to' read as an entitlement conditional on a certified serious health condition; requests are 'subject to final approval by the FAS Dean'. Flagged ambiguous.",
+   "duration": {
+    "value": 6,
+    "units": "month",
+    "qualifier": "up_to"
+   },
+   "duration_note": "Up to six months; not beyond the termination date of the appointment. College Fellows and multi-year preceptors, lecturers and Briggs-Copeland Lecturers (other groups) receive eight weeks.",
+   "medical_certification": true,
+   "medical_certification_note": "written medical certification of a serious health condition that prevents the fulfillment of normal duties",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "rule_applied": [
+    "U6",
+    "U5",
+    "V2",
+    "R9",
+    "R13"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Ladder faculty members (assistant, associate, or full professors)",
+     "Full-time ladder faculty members suffering from a serious health condition that prevents the fulfillment of normal duties may be entitled to a paid medical leave of absence of up to six months."
+    ],
+    "eligible_parent": [
+     "Full-time ladder faculty members suffering from a serious health condition that prevents the fulfillment of normal duties may be entitled to a paid medical leave of absence of up to six months."
+    ],
+    "entitlement": [
+     "suffering from a serious health condition such as serious physical or mental impairment that prevents the fulfillment of normal duties may be entitled to a paid medical leave of absence of up to six months, not to extend beyond the termination date of his or her appointment.",
+     "Written requests for medical leave should be submitted to the assistant dean for the appropriate division (subject to final approval by the FAS Dean) and must be accompanied by written medical certification."
+    ],
+    "duration": [
+     "suffering from a serious health condition such as serious physical or mental impairment that prevents the fulfillment of normal duties may be entitled to a paid medical leave of absence of up to six months, not to extend beyond the termination date of his or her appointment.",
+     "Full-time ladder faculty members suffering from a serious health condition that prevents the fulfillment of normal duties may be entitled to a paid medical leave of absence of up to six months."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link",
+    "2018_05_univ_framework_medical_leave_ladder_faculty_2015"
+   ],
+   "flags": [
+    "ambiguous: entitlement: 'may be entitled to' a paid medical leave, subject to final approval by the Dean; read as guaranteed_on_request (V2)",
+    "ambiguous: restriction: medical leave not to extend beyond the termination date of the appointment",
+    "own_illness_leave"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "U6",
+     "answer": "unpaid_leave",
+     "quote": "Full-time ladder faculty members suffering from a serious health condition that prevents the fulfillment of normal duties may be entitled to a paid medical leave of absence of up to six months."
+    },
+    {
+     "field": "payer",
+     "rule": "U6",
+     "answer": "none",
+     "quote": "Full-time ladder faculty members suffering from a serious health condition that prevents the fulfillment of normal duties may be entitled to a paid medical leave of absence of up to six months."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Full-time ladder faculty members suffering from a serious health condition that prevents the fulfillment of normal duties may be entitled to a paid medical leave of absence of up to six months."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Ladder faculty members (assistant, associate, or full professors)"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own serious health condition)",
+     "quote": "Full-time ladder faculty members suffering from a serious health condition that prevents the fulfillment of normal duties may be entitled to a paid medical leave of absence of up to six months."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "suffering from a serious health condition such as serious physical or mental impairment that prevents the fulfillment of normal duties may be entitled to a paid medical leave of absence of up to six months, not to extend beyond the termination date of his or her appointment."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "6 months up_to",
+     "quote": "Full-time ladder faculty members suffering from a serious health condition that prevents the fulfillment of normal duties may be entitled to a paid medical leave of absence of up to six months."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "formal leave: all duties relieved",
+     "quote": "Full-time ladder faculty members suffering from a serious health condition that prevents the fulfillment of normal duties may be entitled to a paid medical leave of absence of up to six months."
+    },
+    {
+     "field": "medical_certification",
+     "rule": "schema",
+     "answer": "true",
+     "quote": "Written requests for medical leave should be submitted to the assistant dean for the appropriate division (subject to final approval by the FAS Dean) and must be accompanied by written medical certification."
+    }
+   ]
+  },
+  {
+   "component_id": "harvard_university_c5",
+   "institution_label": "Medical Leave",
+   "description": "The pay for the medical leave of absence (c4): paid medical leave of up to six months for a serious health condition, a general medical benefit (not childbirth-specific beyond c3).",
+   "mechanism": "generic_sick_or_disability_plan",
+   "payer": "employer",
+   "mechanism_note": "U6/V6: pay for a general medical leave; the childbirth-specific eight weeks are c3 (V1).",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "'Full-time ladder faculty members'",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "faculty members suffering from a serious health condition",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "As c4: 'may be entitled to', subject to the Dean's final approval.",
+   "duration": {
+    "value": 6,
+    "units": "month",
+    "qualifier": "up_to"
+   },
+   "duration_note": "Pay level not stated beyond 'paid'. V6: the stated childbirth period is eight weeks (c3); plan maximum six months.",
+   "medical_certification": true,
+   "medical_certification_note": "written medical certification",
+   "sequence": [
+    {
+     "relation": "within",
+     "component_id": "harvard_university_c4",
+     "note": "U6: the pay lies within the leave of absence"
+    }
+   ],
+   "rule_applied": [
+    "U6",
+    "V6",
+    "V2",
+    "R13"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Full-time ladder faculty members suffering from a serious health condition that prevents the fulfillment of normal duties may be entitled to a paid medical leave of absence of up to six months."
+    ],
+    "eligible_parent": [
+     "Full-time ladder faculty members suffering from a serious health condition that prevents the fulfillment of normal duties may be entitled to a paid medical leave of absence of up to six months."
+    ],
+    "entitlement": [
+     "suffering from a serious health condition such as serious physical or mental impairment that prevents the fulfillment of normal duties may be entitled to a paid medical leave of absence of up to six months, not to extend beyond the termination date of his or her appointment."
+    ],
+    "duration": [
+     "Full-time ladder faculty members suffering from a serious health condition that prevents the fulfillment of normal duties may be entitled to a paid medical leave of absence of up to six months."
+    ],
+    "sequence": [
+     "Full-time ladder faculty members suffering from a serious health condition that prevents the fulfillment of normal duties may be entitled to a paid medical leave of absence of up to six months."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link",
+    "2018_05_univ_framework_medical_leave_ladder_faculty_2015"
+   ],
+   "flags": [
+    "ambiguous: entitlement: 'may be entitled to' a paid medical leave, subject to final approval by the Dean; read as guaranteed_on_request (V2)",
+    "ambiguous: restriction: medical leave not to extend beyond the termination date of the appointment"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "U6",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "Full-time ladder faculty members suffering from a serious health condition that prevents the fulfillment of normal duties may be entitled to a paid medical leave of absence of up to six months."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "Full-time ladder faculty members suffering from a serious health condition that prevents the fulfillment of normal duties may be entitled to a paid medical leave of absence of up to six months."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Full-time ladder faculty members suffering from a serious health condition that prevents the fulfillment of normal duties may be entitled to a paid medical leave of absence of up to six months."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Full-time ladder faculty members suffering from a serious health condition that prevents the fulfillment of normal duties may be entitled to a paid medical leave of absence of up to six months."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent",
+     "quote": "Full-time ladder faculty members suffering from a serious health condition that prevents the fulfillment of normal duties may be entitled to a paid medical leave of absence of up to six months."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "suffering from a serious health condition such as serious physical or mental impairment that prevents the fulfillment of normal duties may be entitled to a paid medical leave of absence of up to six months, not to extend beyond the termination date of his or her appointment."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "6 months up_to",
+     "quote": "Full-time ladder faculty members suffering from a serious health condition that prevents the fulfillment of normal duties may be entitled to a paid medical leave of absence of up to six months."
+    },
+    {
+     "field": "sequence",
+     "rule": "U6",
+     "answer": "within c4",
+     "quote": "Full-time ladder faculty members suffering from a serious health condition that prevents the fulfillment of normal duties may be entitled to a paid medical leave of absence of up to six months."
+    }
+   ]
+  },
+  {
+   "component_id": "harvard_university_c6",
+   "institution_label": "Parental Teaching Relief",
+   "description": "Primary-caregiver ladder faculty: exemption from formal classroom teaching for one full term (semester), taken just before or within one year after the birth or adoption; service and advising continue.",
+   "mechanism": "modified_duties",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "framework: 'an eligible ladder faculty member'; FAS: professor, associate professor, assistant professor, professor in residence, Benjamin Peirce Fellow, professor of the practice",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "primary caregivers for a newborn or newly-adopted child; 'If the primary caregiver is also the birth mother' / 'is not the birth mother'",
+   "caregiver_condition": "primary",
+   "caregiver_condition_wording": "Primary caregiving is defined as having substantial daily responsibility for child care of at least twenty hours per week from Monday through Friday, from 9 a.m. to 5 p.m. Framework: 'not intended for parents whose newborn or newly adopted child is cared for more than half time by either a spouse/partner and/or a childcare provider.'",
+   "entitlement": "guaranteed",
+   "entitlement_note": "Framework: 'entitled automatically to a workload reduction'; FAS: 'eligible for parental teaching relief' on written request to the assistant dean (arrangements). Either reading counts in the guaranteed figures.",
+   "time_window": "just prior to, or within one year after, the birth or adoption",
+   "dual_employee_rule": "both FAS parents may take it if each meets the caregiving hours; ordinarily consecutive",
+   "notice": "written request to the assistant dean, copy to the chair, with as much advance notice as possible",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "continues",
+    "research": "continues",
+    "advising_supervision": "continues",
+    "clinical": "continues"
+   },
+   "relief_inferred": "unnamed duties continue (R4b)",
+   "use_limit": [
+    {
+     "times": 2,
+     "per": "career",
+     "counts": "uses"
+    }
+   ],
+   "use_limit_note": "Framework: workload reduction 'following up to two birth or adoption events while in the ladder ranks'; additional consideration may be requested for a third.",
+   "doc_ids": [
+    "2018_00_link",
+    "2018_01_fas_parental_teaching_relief_form",
+    "2018_04_univ_framework_parental_ladder_faculty_2015"
+   ],
+   "flags": [
+    "ambiguous: pay level not stated; full pay inferred (R3)"
+   ],
+   "duration": {
+    "value": 1,
+    "units": "semester",
+    "qualifier": "up_to"
+   },
+   "duration_note": "1 semester up_to (framework 'for up to one semester on a full-time basis'; FAS 'one term')",
+   "relief_note": "Full teaching relief for one term.",
+   "sequence": [
+    {
+     "relation": "in_lieu_of",
+     "component_id": "harvard_university_c7",
+     "note": "R3c: full relief for one term or half relief over two terms"
+    },
+    {
+     "relation": "also_available",
+     "component_id": "harvard_university_c3",
+     "note": "R3d: a birth mother who is primary caregiver is eligible for relief and the eight-week childbirth leave; order not fixed (relief 'just prior to, or within one year after'; Schools 'may' run it concurrent)"
+    }
+   ],
+   "rule_applied": [
+    "R3",
+    "R3c",
+    "R3d",
+    "R4",
+    "R4b",
+    "R6",
+    "R5",
+    "U9",
+    "R8",
+    "R13"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Faculty members holding the rank of professor, associate professor, assistant professor, professor in residence, Benjamin Peirce Fellow, or professor of the practice and who are the primary caregivers for a newborn or newly-adopted child are eligible for parental teaching relief.",
+     "A ladder faculty member using workload reduction would be the primary caregiver for at least twenty hours during the workweek normally during the hours from 9 a.m. to 5 p.m., Monday through Friday."
+    ],
+    "eligible_parent": [
+     "If the primary caregiver is also the birth mother, she is eligible for this parental teaching relief and (as described above) paid medical leave of eight weeks in connection with childbirth and recovery.",
+     "If the primary caregiver in these ranks is not the birth mother, he or she is still eligible for parental teaching relief as defined in section ii.a) above."
+    ],
+    "caregiver_condition": [
+     "Primary caregiving is defined as having substantial daily responsibility for child care of at least twenty hours per week from Monday through Friday, from 9 a.m. to 5 p.m.",
+     "Workload reduction is not intended for parents whose newborn or newly adopted child is cared for more than half time by either a spouse/partner and/or a childcare provider."
+    ],
+    "entitlement": [
+     "is entitled automatically to a workload reduction, as defined by the School, either for up to one semester on a full-time basis or over the course of two semesters or one year on a part-time basis.",
+     "FAS ladder faculty members and senior non-ladder faculty members who are primary caregivers are eligible for parental teaching relief (a workload reduction), as specified below."
+    ],
+    "duration": [
+     "is entitled automatically to a workload reduction, as defined by the School, either for up to one semester on a full-time basis or over the course of two semesters or one year on a part-time basis.",
+     "Parental teaching relief is defined as an exemption from formal classroom duties, either for full teaching duties during one term or half duty for two terms."
+    ],
+    "relief": [
+     "Parental teaching relief is defined as an exemption from formal classroom duties, either for full teaching duties during one term or half duty for two terms.",
+     "The faculty member is expected to remain in residence and to continue departmental service, committee assignments, advising, and other such professional duties when taking parental teaching relief.",
+     "the extent to which he or she wishes to spend time on research is up to him or her"
+    ],
+    "sequence": [
+     "If the primary caregiver is also the birth mother, she is eligible for this parental teaching relief and (as described above) paid medical leave of eight weeks in connection with childbirth and recovery.",
+     "Such relief is taken just prior to, or within one year after, the birth or adoption.",
+     "For birthmothers who are primary caregivers, the Schools may provide workload reduction that runs concurrent with paid medical leave for childbirth."
+    ],
+    "use_limit": [
+     "All new parents in ladder faculty positions who are primary caregivers can take a workload reduction following up to two birth or adoption events while in the ladder ranks.",
+     "Faculty may request additional consideration for workload reduction for a third birth or adoption event while in the ladder ranks."
+    ]
+   },
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "modified_duties",
+     "quote": "Parental teaching relief is defined as an exemption from formal classroom duties, either for full teaching duties during one term or half duty for two terms."
+    },
+    {
+     "field": "payer",
+     "rule": "R3",
+     "answer": "employer",
+     "quote": "by providing paid parental leave in the form of medical leave for childbirth, workload reduction, and clock and contract extensions."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Such relief is taken just prior to, or within one year after, the birth or adoption."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Faculty members holding the rank of professor, associate professor, assistant professor, professor in residence, Benjamin Peirce Fellow, or professor of the practice and who are the primary caregivers for a newborn or newly-adopted child are eligible for parental teaching relief."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R6",
+     "answer": "birth, non-birth, adoptive (primary caregivers)",
+     "quote": "If the primary caregiver in these ranks is not the birth mother, he or she is still eligible for parental teaching relief as defined in section ii.a) above."
+    },
+    {
+     "field": "caregiver_condition",
+     "rule": "R6",
+     "answer": "primary",
+     "quote": "Primary caregiving is defined as having substantial daily responsibility for child care of at least twenty hours per week from Monday through Friday, from 9 a.m. to 5 p.m."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "is entitled automatically to a workload reduction, as defined by the School, either for up to one semester on a full-time basis or over the course of two semesters or one year on a part-time basis."
+    },
+    {
+     "field": "duration",
+     "rule": "R3c",
+     "answer": "1 semester up_to (framework 'for up to one semester on a full-time basis'; FAS 'one term')",
+     "quote": "is entitled automatically to a workload reduction, as defined by the School, either for up to one semester on a full-time basis or over the course of two semesters or one year on a part-time basis."
+    },
+    {
+     "field": "relief",
+     "rule": "R4b",
+     "answer": "teaching relieved; service and advising continue (stated); research continues",
+     "quote": "The faculty member is expected to remain in residence and to continue departmental service, committee assignments, advising, and other such professional duties when taking parental teaching relief."
+    },
+    {
+     "field": "sequence",
+     "rule": "R3c",
+     "answer": "in_lieu_of c7",
+     "quote": "Parental teaching relief is defined as an exemption from formal classroom duties, either for full teaching duties during one term or half duty for two terms."
+    },
+    {
+     "field": "sequence",
+     "rule": "R3d",
+     "answer": "also_available c3",
+     "quote": "If the primary caregiver is also the birth mother, she is eligible for this parental teaching relief and (as described above) paid medical leave of eight weeks in connection with childbirth and recovery."
+    },
+    {
+     "field": "use_limit",
+     "rule": "U9",
+     "answer": "2 uses per career (birth or adoption events)",
+     "quote": "All new parents in ladder faculty positions who are primary caregivers can take a workload reduction following up to two birth or adoption events while in the ladder ranks."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "R3",
+     "answer": "no pay level stated; full pay inferred, flagged",
+     "quote": "by providing paid parental leave in the form of medical leave for childbirth, workload reduction, and clock and contract extensions."
+    }
+   ]
+  },
+  {
+   "component_id": "harvard_university_c7",
+   "institution_label": "Parental Teaching Relief",
+   "description": "Alternative form of the same relief: half teaching duty for two terms (one semester of relief spread over the year).",
+   "mechanism": "modified_duties",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "framework: 'an eligible ladder faculty member'; FAS: professor, associate professor, assistant professor, professor in residence, Benjamin Peirce Fellow, professor of the practice",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "primary caregivers for a newborn or newly-adopted child; 'If the primary caregiver is also the birth mother' / 'is not the birth mother'",
+   "caregiver_condition": "primary",
+   "caregiver_condition_wording": "Primary caregiving is defined as having substantial daily responsibility for child care of at least twenty hours per week from Monday through Friday, from 9 a.m. to 5 p.m. Framework: 'not intended for parents whose newborn or newly adopted child is cared for more than half time by either a spouse/partner and/or a childcare provider.'",
+   "entitlement": "guaranteed",
+   "entitlement_note": "Framework: 'entitled automatically to a workload reduction'; FAS: 'eligible for parental teaching relief' on written request to the assistant dean (arrangements). Either reading counts in the guaranteed figures.",
+   "time_window": "just prior to, or within one year after, the birth or adoption",
+   "dual_employee_rule": "both FAS parents may take it if each meets the caregiving hours; ordinarily consecutive",
+   "notice": "written request to the assistant dean, copy to the chair, with as much advance notice as possible",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "continues",
+    "research": "continues",
+    "advising_supervision": "continues",
+    "clinical": "continues"
+   },
+   "relief_inferred": "unnamed duties continue (R4b)",
+   "use_limit": [
+    {
+     "times": 2,
+     "per": "career",
+     "counts": "uses"
+    }
+   ],
+   "use_limit_note": "Framework: workload reduction 'following up to two birth or adoption events while in the ladder ranks'; additional consideration may be requested for a third.",
+   "doc_ids": [
+    "2018_00_link",
+    "2018_01_fas_parental_teaching_relief_form",
+    "2018_04_univ_framework_parental_ladder_faculty_2015"
+   ],
+   "flags": [
+    "ambiguous: pay level not stated; full pay inferred (R3)"
+   ],
+   "duration": {
+    "value": 1,
+    "units": "semester",
+    "qualifier": "up_to"
+   },
+   "duration_note": "1 semester relief-equivalent (half duty over two terms), up_to; span in relief_note (R3c)",
+   "relief_note": "Half teaching duty over two terms; coded at its relief-equivalent of one semester, the two-term span in this note (R3c).",
+   "sequence": [
+    {
+     "relation": "in_lieu_of",
+     "component_id": "harvard_university_c6",
+     "note": "R3c: full relief for one term or half relief over two terms"
+    },
+    {
+     "relation": "also_available",
+     "component_id": "harvard_university_c3",
+     "note": "R3d: a birth mother who is primary caregiver is eligible for relief and the eight-week childbirth leave; order not fixed (relief 'just prior to, or within one year after'; Schools 'may' run it concurrent)"
+    }
+   ],
+   "rule_applied": [
+    "R3",
+    "R3c",
+    "R3d",
+    "R4",
+    "R4b",
+    "R6",
+    "R5",
+    "U9",
+    "R8",
+    "R13"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Faculty members holding the rank of professor, associate professor, assistant professor, professor in residence, Benjamin Peirce Fellow, or professor of the practice and who are the primary caregivers for a newborn or newly-adopted child are eligible for parental teaching relief.",
+     "A ladder faculty member using workload reduction would be the primary caregiver for at least twenty hours during the workweek normally during the hours from 9 a.m. to 5 p.m., Monday through Friday."
+    ],
+    "eligible_parent": [
+     "If the primary caregiver is also the birth mother, she is eligible for this parental teaching relief and (as described above) paid medical leave of eight weeks in connection with childbirth and recovery.",
+     "If the primary caregiver in these ranks is not the birth mother, he or she is still eligible for parental teaching relief as defined in section ii.a) above."
+    ],
+    "caregiver_condition": [
+     "Primary caregiving is defined as having substantial daily responsibility for child care of at least twenty hours per week from Monday through Friday, from 9 a.m. to 5 p.m.",
+     "Workload reduction is not intended for parents whose newborn or newly adopted child is cared for more than half time by either a spouse/partner and/or a childcare provider."
+    ],
+    "entitlement": [
+     "is entitled automatically to a workload reduction, as defined by the School, either for up to one semester on a full-time basis or over the course of two semesters or one year on a part-time basis.",
+     "FAS ladder faculty members and senior non-ladder faculty members who are primary caregivers are eligible for parental teaching relief (a workload reduction), as specified below."
+    ],
+    "duration": [
+     "is entitled automatically to a workload reduction, as defined by the School, either for up to one semester on a full-time basis or over the course of two semesters or one year on a part-time basis.",
+     "Parental teaching relief is defined as an exemption from formal classroom duties, either for full teaching duties during one term or half duty for two terms.",
+     "Parental teaching relief means that you are excused from either full-time teaching duties for one semester or half-time duty for two semesters."
+    ],
+    "relief": [
+     "Parental teaching relief is defined as an exemption from formal classroom duties, either for full teaching duties during one term or half duty for two terms.",
+     "The faculty member is expected to remain in residence and to continue departmental service, committee assignments, advising, and other such professional duties when taking parental teaching relief.",
+     "the extent to which he or she wishes to spend time on research is up to him or her"
+    ],
+    "sequence": [
+     "If the primary caregiver is also the birth mother, she is eligible for this parental teaching relief and (as described above) paid medical leave of eight weeks in connection with childbirth and recovery.",
+     "Such relief is taken just prior to, or within one year after, the birth or adoption.",
+     "For birthmothers who are primary caregivers, the Schools may provide workload reduction that runs concurrent with paid medical leave for childbirth."
+    ],
+    "use_limit": [
+     "All new parents in ladder faculty positions who are primary caregivers can take a workload reduction following up to two birth or adoption events while in the ladder ranks.",
+     "Faculty may request additional consideration for workload reduction for a third birth or adoption event while in the ladder ranks."
+    ]
+   },
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "modified_duties",
+     "quote": "Parental teaching relief is defined as an exemption from formal classroom duties, either for full teaching duties during one term or half duty for two terms."
+    },
+    {
+     "field": "payer",
+     "rule": "R3",
+     "answer": "employer",
+     "quote": "by providing paid parental leave in the form of medical leave for childbirth, workload reduction, and clock and contract extensions."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Such relief is taken just prior to, or within one year after, the birth or adoption."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Faculty members holding the rank of professor, associate professor, assistant professor, professor in residence, Benjamin Peirce Fellow, or professor of the practice and who are the primary caregivers for a newborn or newly-adopted child are eligible for parental teaching relief."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R6",
+     "answer": "birth, non-birth, adoptive (primary caregivers)",
+     "quote": "If the primary caregiver in these ranks is not the birth mother, he or she is still eligible for parental teaching relief as defined in section ii.a) above."
+    },
+    {
+     "field": "caregiver_condition",
+     "rule": "R6",
+     "answer": "primary",
+     "quote": "Primary caregiving is defined as having substantial daily responsibility for child care of at least twenty hours per week from Monday through Friday, from 9 a.m. to 5 p.m."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "is entitled automatically to a workload reduction, as defined by the School, either for up to one semester on a full-time basis or over the course of two semesters or one year on a part-time basis."
+    },
+    {
+     "field": "duration",
+     "rule": "R3c",
+     "answer": "1 semester relief-equivalent (half duty over two terms), up_to; span in relief_note (R3c)",
+     "quote": "is entitled automatically to a workload reduction, as defined by the School, either for up to one semester on a full-time basis or over the course of two semesters or one year on a part-time basis."
+    },
+    {
+     "field": "relief",
+     "rule": "R4b",
+     "answer": "teaching relieved; service and advising continue (stated); research continues",
+     "quote": "The faculty member is expected to remain in residence and to continue departmental service, committee assignments, advising, and other such professional duties when taking parental teaching relief."
+    },
+    {
+     "field": "sequence",
+     "rule": "R3c",
+     "answer": "in_lieu_of c6",
+     "quote": "Parental teaching relief is defined as an exemption from formal classroom duties, either for full teaching duties during one term or half duty for two terms."
+    },
+    {
+     "field": "sequence",
+     "rule": "R3d",
+     "answer": "also_available c3",
+     "quote": "If the primary caregiver is also the birth mother, she is eligible for this parental teaching relief and (as described above) paid medical leave of eight weeks in connection with childbirth and recovery."
+    },
+    {
+     "field": "use_limit",
+     "rule": "U9",
+     "answer": "2 uses per career (birth or adoption events)",
+     "quote": "All new parents in ladder faculty positions who are primary caregivers can take a workload reduction following up to two birth or adoption events while in the ladder ranks."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "R3",
+     "answer": "no pay level stated; full pay inferred, flagged",
+     "quote": "by providing paid parental leave in the form of medical leave for childbirth, workload reduction, and clock and contract extensions."
+    }
+   ]
+  },
+  {
+   "component_id": "harvard_university_c8",
+   "institution_label": "Tenure Clock and Contract Extensions for Pre-Tenure Ladder Faculty",
+   "description": "University-wide framework: primary-caregiver pre-tenure ladder faculty receive an automatic one-year clock and contract extension per birth or adoption, up to two.",
+   "mechanism": "tenure_clock",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "'All new parents in pre-tenure ladder faculty positions who are primary caregivers'",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "new parents ... who are primary caregivers; birth or adoption event",
+   "caregiver_condition": "primary",
+   "caregiver_condition_wording": "'who are primary caregivers' (framework; primary caregiver defined for workload reduction as at least twenty hours during the workweek, 9 a.m. to 5 p.m., Monday through Friday)",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "exact"
+   },
+   "duration_note": "One year per birth or adoption event; promotion review ordinarily postponed by a year.",
+   "use_limit": [
+    {
+     "times": 2,
+     "per": "career",
+     "counts": "uses"
+    }
+   ],
+   "use_limit_note": "'for up to two years (one year per birth or adoption event)'; additional consideration may be requested for a third birth or adoption.",
+   "rule_applied": [
+    "U9",
+    "R6",
+    "V3c"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "All new parents in pre-tenure ladder faculty positions who are primary caregivers will receive automatic one-year clock and contract extensions for up to two years (one year per birth or adoption event)."
+    ],
+    "eligible_parent": [
+     "All new parents in pre-tenure ladder faculty positions who are primary caregivers will receive automatic one-year clock and contract extensions for up to two years (one year per birth or adoption event)."
+    ],
+    "caregiver_condition": [
+     "All new parents in pre-tenure ladder faculty positions who are primary caregivers will receive automatic one-year clock and contract extensions for up to two years (one year per birth or adoption event).",
+     "A ladder faculty member using workload reduction would be the primary caregiver for at least twenty hours during the workweek normally during the hours from 9 a.m. to 5 p.m., Monday through Friday."
+    ],
+    "entitlement": [
+     "All new parents in pre-tenure ladder faculty positions who are primary caregivers will receive automatic one-year clock and contract extensions for up to two years (one year per birth or adoption event)."
+    ],
+    "duration": [
+     "All new parents in pre-tenure ladder faculty positions who are primary caregivers will receive automatic one-year clock and contract extensions for up to two years (one year per birth or adoption event)."
+    ],
+    "use_limit": [
+     "All new parents in pre-tenure ladder faculty positions who are primary caregivers will receive automatic one-year clock and contract extensions for up to two years (one year per birth or adoption event).",
+     "Faculty may request additional consideration for clock and contract extensions for a third birth or adoption event while in the ladder ranks."
+    ]
+   },
+   "doc_ids": [
+    "2018_04_univ_framework_parental_ladder_faculty_2015"
+   ],
+   "flags": [
+    "ambiguous: restriction: contract extensions not available in the terminal year of an appointment"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "All new parents in pre-tenure ladder faculty positions who are primary caregivers will receive automatic one-year clock and contract extensions for up to two years (one year per birth or adoption event)."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "All new parents in pre-tenure ladder faculty positions who are primary caregivers will receive automatic one-year clock and contract extensions for up to two years (one year per birth or adoption event)."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "All new parents in pre-tenure ladder faculty positions who are primary caregivers will receive automatic one-year clock and contract extensions for up to two years (one year per birth or adoption event)."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "All new parents in pre-tenure ladder faculty positions who are primary caregivers will receive automatic one-year clock and contract extensions for up to two years (one year per birth or adoption event)."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R6",
+     "answer": "birth, non-birth, adoptive (primary caregivers)",
+     "quote": "All new parents in pre-tenure ladder faculty positions who are primary caregivers will receive automatic one-year clock and contract extensions for up to two years (one year per birth or adoption event)."
+    },
+    {
+     "field": "caregiver_condition",
+     "rule": "R6",
+     "answer": "primary",
+     "quote": "All new parents in pre-tenure ladder faculty positions who are primary caregivers will receive automatic one-year clock and contract extensions for up to two years (one year per birth or adoption event)."
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "All new parents in pre-tenure ladder faculty positions who are primary caregivers will receive automatic one-year clock and contract extensions for up to two years (one year per birth or adoption event)."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 year exact",
+     "quote": "All new parents in pre-tenure ladder faculty positions who are primary caregivers will receive automatic one-year clock and contract extensions for up to two years (one year per birth or adoption event)."
+    },
+    {
+     "field": "use_limit",
+     "rule": "U9",
+     "answer": "2 per career",
+     "quote": "All new parents in pre-tenure ladder faculty positions who are primary caregivers will receive automatic one-year clock and contract extensions for up to two years (one year per birth or adoption event)."
+    },
+    {
+     "field": "duration.qualifier",
+     "rule": "R13",
+     "answer": "the length per event is exactly one year; \"up to two years\" is the count of extensions, recorded in use_limit",
+     "quote": "one year per birth or adoption event"
+    }
+   ]
+  },
+  {
+   "component_id": "harvard_university_c9",
+   "institution_label": "Childcare Appointment Extension and Postponement of Review Policies for Tenure-Track Faculty",
+   "description": "FAS: on a birth or adoption, a tenure-track faculty member's contract is automatically extended by one year (either parent, no caregiver condition), with review postponement; opt-out in writing.",
+   "mechanism": "tenure_clock",
+   "payer": "none",
+   "faculty_group": "FAS tenure-track faculty",
+   "faculty_group_note": "Unit-level (FAS) version that differs from the University-wide framework (c8: primary caregivers only); V3c: the university-wide policy sets the figures, the FAS version is recorded by unit. FAS covers arts and sciences and SEAS.",
+   "faculty_scope": "Faculty of Arts and Sciences (including SEAS) only",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "either parent (or to both, if both are FAS faculty members)",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "entitlement_note": "automatic on notification of the birth or adoption; faculty member may decline in writing",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "exact"
+   },
+   "dual_employee_rule": "both, if both are FAS faculty members",
+   "use_limit": [
+    {
+     "times": 2,
+     "per": "career",
+     "counts": "uses"
+    }
+   ],
+   "use_limit_note": "Ordinarily a maximum of two one-year appointment extensions and two review postponements, regardless of the reason; a third may be requested for a third child.",
+   "sequence": [
+    {
+     "relation": "concurrent_with",
+     "component_id": "harvard_university_c8",
+     "note": "V3c: the same extension at unit and university level; the more generous counts, neither adds"
+    }
+   ],
+   "rule_applied": [
+    "V3c",
+    "U9",
+    "V3"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Such extensions are available to either parent (or to both, if both are FAS faculty members)."
+    ],
+    "eligible_parent": [
+     "Such extensions are available to either parent (or to both, if both are FAS faculty members)."
+    ],
+    "entitlement": [
+     "current contract will be automatically extended by one year"
+    ],
+    "duration": [
+     "current contract will be automatically extended by one year"
+    ],
+    "use_limit": [
+     "Ordinarily, a maximum of two one-year appointment extensions and two one-year review postponements, regardless of the reason, are possible over the course of tenure-track faculty appointments.",
+     "Tenure-track faculty may make a request for a third appointment extension and review postponement in the event of a birth or adoption of a third child."
+    ],
+    "sequence": [
+     "All new parents in pre-tenure ladder faculty positions who are primary caregivers will receive automatic one-year clock and contract extensions for up to two years (one year per birth or adoption event).",
+     "Such extensions are available to either parent (or to both, if both are FAS faculty members)."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link",
+    "2018_04_univ_framework_parental_ladder_faculty_2015"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "current contract will be automatically extended by one year"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "current contract will be automatically extended by one year"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "in order to accommodate time spent on childcare commitments"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "V3c",
+     "answer": "FAS tenure-track faculty",
+     "quote": "Such extensions are available to either parent (or to both, if both are FAS faculty members)."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "birth, non-birth, adoptive",
+     "quote": "Such extensions are available to either parent (or to both, if both are FAS faculty members)."
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "current contract will be automatically extended by one year"
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 year exact",
+     "quote": "current contract will be automatically extended by one year"
+    },
+    {
+     "field": "use_limit",
+     "rule": "U9",
+     "answer": "2 per career (any reason)",
+     "quote": "Ordinarily, a maximum of two one-year appointment extensions and two one-year review postponements, regardless of the reason, are possible over the course of tenure-track faculty appointments."
+    },
+    {
+     "field": "sequence",
+     "rule": "V3c",
+     "answer": "concurrent_with c8",
+     "quote": "Such extensions are available to either parent (or to both, if both are FAS faculty members)."
+    }
+   ]
+  },
+  {
+   "component_id": "harvard_university_c10",
+   "institution_label": "Medical Appointment Extension and Postponement of Review for Promotion",
+   "description": "FAS: a tenure-track faculty member may request an appointment extension (ordinarily a year, or less) for a serious health condition, subject to the Dean's approval.",
+   "mechanism": "tenure_clock",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "'A tenure-track faculty member' (FAS Handbook; no University-wide counterpart; FAS covers arts and sciences and SEAS, V3)",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "a serious health condition such as serious physical or mental impairment",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "up_to"
+   },
+   "duration_note": "Extended by a year, or for a period less than a year with an equivalent postponement.",
+   "medical_certification": false,
+   "use_limit": [
+    {
+     "times": 2,
+     "per": "career",
+     "counts": "uses"
+    }
+   ],
+   "use_limit_note": "Ordinarily a maximum of two one-year appointment extensions and two review postponements, regardless of the reason.",
+   "rule_applied": [
+    "V2",
+    "U5",
+    "U9",
+    "V3"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "A tenure-track faculty member may request an extension of his or her existing appointment on the basis of a serious health condition such as serious physical or mental impairment that prevents the fulfillment of normal duties."
+    ],
+    "eligible_parent": [
+     "A tenure-track faculty member may request an extension of his or her existing appointment on the basis of a serious health condition such as serious physical or mental impairment that prevents the fulfillment of normal duties."
+    ],
+    "entitlement": [
+     "A tenure-track faculty member may request an extension of his or her existing appointment on the basis of a serious health condition such as serious physical or mental impairment that prevents the fulfillment of normal duties.",
+     "Such requests are subject to the approval of the FAS Dean."
+    ],
+    "duration": [
+     "Ordinarily, if an appointment is extended by a year for medical reasons",
+     "Ordinarily, a maximum of two one-year appointment extensions and two one-year review postponements, regardless of the reason, are possible over the course of tenure-track faculty appointments."
+    ],
+    "use_limit": [
+     "Ordinarily, a maximum of two one-year appointment extensions and two one-year review postponements, regardless of the reason, are possible over the course of tenure-track faculty appointments."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "A tenure-track faculty member may request an extension of his or her existing appointment on the basis of a serious health condition such as serious physical or mental impairment that prevents the fulfillment of normal duties."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "A tenure-track faculty member may request an extension of his or her existing appointment on the basis of a serious health condition such as serious physical or mental impairment that prevents the fulfillment of normal duties."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "A tenure-track faculty member may request an extension of his or her existing appointment on the basis of a serious health condition such as serious physical or mental impairment that prevents the fulfillment of normal duties."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "V3",
+     "answer": "main_campus_tenure_stream",
+     "quote": "A tenure-track faculty member may request an extension of his or her existing appointment on the basis of a serious health condition such as serious physical or mental impairment that prevents the fulfillment of normal duties."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own health)",
+     "quote": "A tenure-track faculty member may request an extension of his or her existing appointment on the basis of a serious health condition such as serious physical or mental impairment that prevents the fulfillment of normal duties."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "Such requests are subject to the approval of the FAS Dean."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 year up_to (a year or less)",
+     "quote": "Ordinarily, if an appointment is extended by a year for medical reasons"
+    },
+    {
+     "field": "use_limit",
+     "rule": "U9",
+     "answer": "2 per career (any reason)",
+     "quote": "Ordinarily, a maximum of two one-year appointment extensions and two one-year review postponements, regardless of the reason, are possible over the course of tenure-track faculty appointments."
+    }
+   ]
+  },
+  {
+   "component_id": "harvard_university_c11",
+   "institution_label": "Personal Appointment Extension and Postponement of Review for Tenure-Track Faculty",
+   "description": "FAS: a tenure-track faculty member may request an appointment extension for compelling personal reasons (open list), subject to the Dean's approval.",
+   "mechanism": "tenure_clock",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "'A tenure-track faculty member' (FAS Handbook)",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "compelling personal reasons (for example, the care of a seriously ill spouse, partner, parent, or child)",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "up_to"
+   },
+   "duration_note": "Extended by a year, or for less than a year with an equivalent postponement.",
+   "use_limit": [
+    {
+     "times": 2,
+     "per": "career",
+     "counts": "uses"
+    }
+   ],
+   "use_limit_note": "Ordinarily a maximum of two one-year appointment extensions and two review postponements, regardless of the reason.",
+   "rule_applied": [
+    "U1",
+    "V2",
+    "U9"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "A tenure-track faculty member may request an extension of his or her existing appointment on the basis of compelling personal reasons (for example, the care of a seriously ill spouse, partner, parent, or child)."
+    ],
+    "eligible_parent": [
+     "A tenure-track faculty member may request an extension of his or her existing appointment on the basis of compelling personal reasons (for example, the care of a seriously ill spouse, partner, parent, or child)."
+    ],
+    "entitlement": [
+     "A tenure-track faculty member may request an extension of his or her existing appointment on the basis of compelling personal reasons (for example, the care of a seriously ill spouse, partner, parent, or child).",
+     "Such requests are subject to the approval of the FAS Dean."
+    ],
+    "duration": [
+     "Ordinarily, if an appointment is extended by a year for personal reasons",
+     "Ordinarily, a maximum of two one-year appointment extensions and two one-year review postponements, regardless of the reason, are possible over the course of tenure-track faculty appointments."
+    ],
+    "use_limit": [
+     "Ordinarily, a maximum of two one-year appointment extensions and two one-year review postponements, regardless of the reason, are possible over the course of tenure-track faculty appointments."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "A tenure-track faculty member may request an extension of his or her existing appointment on the basis of compelling personal reasons (for example, the care of a seriously ill spouse, partner, parent, or child)."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "A tenure-track faculty member may request an extension of his or her existing appointment on the basis of compelling personal reasons (for example, the care of a seriously ill spouse, partner, parent, or child)."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "A tenure-track faculty member may request an extension of his or her existing appointment on the basis of compelling personal reasons (for example, the care of a seriously ill spouse, partner, parent, or child)."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "A tenure-track faculty member may request an extension of his or her existing appointment on the basis of compelling personal reasons (for example, the care of a seriously ill spouse, partner, parent, or child)."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent (compelling personal reasons)",
+     "quote": "A tenure-track faculty member may request an extension of his or her existing appointment on the basis of compelling personal reasons (for example, the care of a seriously ill spouse, partner, parent, or child)."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "Such requests are subject to the approval of the FAS Dean."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 year up_to",
+     "quote": "Ordinarily, if an appointment is extended by a year for personal reasons"
+    },
+    {
+     "field": "use_limit",
+     "rule": "U9",
+     "answer": "2 per career (any reason)",
+     "quote": "Ordinarily, a maximum of two one-year appointment extensions and two one-year review postponements, regardless of the reason, are possible over the course of tenure-track faculty appointments."
+    }
+   ]
+  },
+  {
+   "component_id": "harvard_university_c12",
+   "institution_label": "Personal Leave",
+   "description": "FAS: unpaid leave may be granted for compelling personal reasons (open list, e.g. care of a seriously ill family member), subject to the Dean's approval; leaves are not granted for more than one year at a time.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "'ladder faculty members (assistant, associate, or full professors), professors in residence, Benjamin Peirce Fellows, professors of the practice, senior preceptors, or senior lecturers'",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "compelling personal reasons (for example, the care of a seriously ill spouse, partner, parent, or child)",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "up_to"
+   },
+   "duration_note": "No length in the personal-leave section; the general limit in APH 3A(1) applies: 'Leaves may not be granted for more than one year at a time.' May be counted toward FMLA where the reason meets FMLA criteria.",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "rule_applied": [
+    "U1",
+    "V2",
+    "R9",
+    "R13"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Unpaid leave may be granted to ladder faculty members (assistant, associate, or full professors), professors in residence, Benjamin Peirce Fellows, professors of the practice, senior preceptors, or senior lecturers (if that title is not dependent upon an administrative appointment) for compelling personal reasons (for example, the care of a seriously ill spouse, partner, parent, or child)."
+    ],
+    "eligible_parent": [
+     "Unpaid leave may be granted to ladder faculty members (assistant, associate, or full professors), professors in residence, Benjamin Peirce Fellows, professors of the practice, senior preceptors, or senior lecturers (if that title is not dependent upon an administrative appointment) for compelling personal reasons (for example, the care of a seriously ill spouse, partner, parent, or child)."
+    ],
+    "entitlement": [
+     "Unpaid leave may be granted to ladder faculty members (assistant, associate, or full professors), professors in residence, Benjamin Peirce Fellows, professors of the practice, senior preceptors, or senior lecturers (if that title is not dependent upon an administrative appointment) for compelling personal reasons (for example, the care of a seriously ill spouse, partner, parent, or child).",
+     "Written requests are submitted to the assistant dean for the appropriate division and are subject to approval by the FAS Dean."
+    ],
+    "duration": [
+     "Leaves may not be granted for more than one year at a time."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link",
+    "2018_02_fas_aph_ch3a_general_leave"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "Unpaid leave may be granted to ladder faculty members (assistant, associate, or full professors), professors in residence, Benjamin Peirce Fellows, professors of the practice, senior preceptors, or senior lecturers (if that title is not dependent upon an administrative appointment) for compelling personal reasons (for example, the care of a seriously ill spouse, partner, parent, or child)."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Unpaid leave may be granted to ladder faculty members (assistant, associate, or full professors), professors in residence, Benjamin Peirce Fellows, professors of the practice, senior preceptors, or senior lecturers (if that title is not dependent upon an administrative appointment) for compelling personal reasons (for example, the care of a seriously ill spouse, partner, parent, or child)."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "Unpaid leave may be granted to ladder faculty members (assistant, associate, or full professors), professors in residence, Benjamin Peirce Fellows, professors of the practice, senior preceptors, or senior lecturers (if that title is not dependent upon an administrative appointment) for compelling personal reasons (for example, the care of a seriously ill spouse, partner, parent, or child)."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Unpaid leave may be granted to ladder faculty members (assistant, associate, or full professors), professors in residence, Benjamin Peirce Fellows, professors of the practice, senior preceptors, or senior lecturers (if that title is not dependent upon an administrative appointment) for compelling personal reasons (for example, the care of a seriously ill spouse, partner, parent, or child)."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U1",
+     "answer": "any_parent",
+     "quote": "Unpaid leave may be granted to ladder faculty members (assistant, associate, or full professors), professors in residence, Benjamin Peirce Fellows, professors of the practice, senior preceptors, or senior lecturers (if that title is not dependent upon an administrative appointment) for compelling personal reasons (for example, the care of a seriously ill spouse, partner, parent, or child)."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "Unpaid leave may be granted to ladder faculty members (assistant, associate, or full professors), professors in residence, Benjamin Peirce Fellows, professors of the practice, senior preceptors, or senior lecturers (if that title is not dependent upon an administrative appointment) for compelling personal reasons (for example, the care of a seriously ill spouse, partner, parent, or child)."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 year up_to (general limit on leaves, APH 3A)",
+     "quote": "Leaves may not be granted for more than one year at a time."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "formal leave: all duties relieved",
+     "quote": "Unpaid leave may be granted to ladder faculty members (assistant, associate, or full professors), professors in residence, Benjamin Peirce Fellows, professors of the practice, senior preceptors, or senior lecturers (if that title is not dependent upon an administrative appointment) for compelling personal reasons (for example, the care of a seriously ill spouse, partner, parent, or child)."
+    }
+   ]
+  },
+  {
+   "component_id": "harvard_university_c13",
+   "institution_label": "Paid Sick Time",
+   "description": "Massachusetts Paid Sick Time Law as applied by Harvard: full-time academic appointees receive 40 hours of paid sick time at the start of each academic year, for own illness or to care for a child, spouse or parent; no rollover.",
+   "mechanism": "generic_sick_or_disability_plan",
+   "payer": "employer",
+   "mechanism_note": "R1: a fixed annual amount granted at the start of each academic year and not carried over is an employer plan, not an accrual.",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "'Harvard employees, including those on paid academic teaching and research appointments (e.g. academic appointees)'",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent"
+   ],
+   "eligible_parent_wording": "illness, injury or condition affecting the employee or the employee’s child, spouse, parent, or parent of a spouse",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 40,
+    "units": "hour",
+    "qualifier": "up_to"
+   },
+   "duration_note": "Up to 40 hours per academic year (July 1 to June 30); full-time appointees receive the full 40 hours at the start of the year. Harvard's own more favourable sick-pay policies apply where they exist.",
+   "statute_source": "Massachusetts Paid Sick Time Law (section not cited in the documents)",
+   "statute_verified": false,
+   "rule_applied": [
+    "R1",
+    "U4",
+    "U5",
+    "U6",
+    "U2"
+   ],
+   "evidence": {
+    "mechanism": [
+     "Harvard grants academic appointees their full entitlement as of July 1, 2015 (the effective date of the Law), and thereafter, as of the start of each academic year",
+     "Unused sick time does not roll over from one academic year to the next."
+    ],
+    "faculty_group": [
+     "The Law entitles Harvard employees, including those on paid academic teaching and research appointments (e.g. academic appointees), to a guaranteed minimum amount of paid sick time each year: specifically, one hour of sick time for every 30 hours worked, up to 40 hours of paid sick time per academic year (from July 1 to June 30)."
+    ],
+    "eligible_parent": [
+     "Employees can use paid sick time to care for a physical or mental illness, injury or condition affecting the employee or the employee’s child, spouse, parent, or parent of a spouse"
+    ],
+    "entitlement": [
+     "The Law entitles Harvard employees, including those on paid academic teaching and research appointments (e.g. academic appointees), to a guaranteed minimum amount of paid sick time each year: specifically, one hour of sick time for every 30 hours worked, up to 40 hours of paid sick time per academic year (from July 1 to June 30).",
+     "Under the Law, full-time academic appointees are entitled to 40 hours of sick time each academic year"
+    ],
+    "duration": [
+     "The Law entitles Harvard employees, including those on paid academic teaching and research appointments (e.g. academic appointees), to a guaranteed minimum amount of paid sick time each year: specifically, one hour of sick time for every 30 hours worked, up to 40 hours of paid sick time per academic year (from July 1 to June 30)."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_fas_aph_ch3a_general_leave"
+   ],
+   "flags": [
+    "cross_reference_not_saved: Massachusetts Paid Sick Time Law (statute text)",
+    "cross_reference_not_saved: existing Harvard sick leave policies (named in APH 3A(5), not saved)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "Harvard grants academic appointees their full entitlement as of July 1, 2015 (the effective date of the Law), and thereafter, as of the start of each academic year"
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "employer",
+     "quote": "Harvard grants academic appointees their full entitlement as of July 1, 2015 (the effective date of the Law), and thereafter, as of the start of each academic year"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Employees can use paid sick time to care for a physical or mental illness, injury or condition affecting the employee or the employee’s child, spouse, parent, or parent of a spouse"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "The Law entitles Harvard employees, including those on paid academic teaching and research appointments (e.g. academic appointees), to a guaranteed minimum amount of paid sick time each year: specifically, one hour of sick time for every 30 hours worked, up to 40 hours of paid sick time per academic year (from July 1 to June 30)."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own illness) and non_birth_parent (care of spouse or child)",
+     "quote": "Employees can use paid sick time to care for a physical or mental illness, injury or condition affecting the employee or the employee’s child, spouse, parent, or parent of a spouse"
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "The Law entitles Harvard employees, including those on paid academic teaching and research appointments (e.g. academic appointees), to a guaranteed minimum amount of paid sick time each year: specifically, one hour of sick time for every 30 hours worked, up to 40 hours of paid sick time per academic year (from July 1 to June 30)."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "40 hours up_to",
+     "quote": "The Law entitles Harvard employees, including those on paid academic teaching and research appointments (e.g. academic appointees), to a guaranteed minimum amount of paid sick time each year: specifically, one hour of sick time for every 30 hours worked, up to 40 hours of paid sick time per academic year (from July 1 to June 30)."
+    }
+   ]
+  },
+  {
+   "component_id": "harvard_university_c14",
+   "institution_label": "long-term disability (LTD) coverage",
+   "description": "Long-term disability coverage, if previously elected by the faculty member, after the six-month paid medical leave; terms not in the saved documents.",
+   "mechanism": "generic_sick_or_disability_plan",
+   "payer": "insurance_plan",
+   "mechanism_note": "Schema §2: long-term disability recorded minimally, no duration.",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "'Full-time ladder faculty members' (framework medical leave); FAS ladder ranks",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "if the illness is expected to continue",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "Available 'if previously elected by the faculty member'; funding (who pays premiums) not stated, so insurance_plan (M1).",
+   "time_window": "following the completion of the six-month paid medical leave",
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "harvard_university_c5",
+     "note": "follows the completion of the six-month paid medical leave"
+    }
+   ],
+   "rule_applied": [
+    "M1",
+    "V2",
+    "U5"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Full-time ladder faculty members suffering from a serious health condition that prevents the fulfillment of normal duties may be entitled to a paid medical leave of absence of up to six months."
+    ],
+    "eligible_parent": [
+     "If the illness is expected to continue following the completion of the six-month paid medical leave, use of long-term disability (LTD) coverage, if previously elected by the faculty member, should be investigated during the medical leave."
+    ],
+    "entitlement": [
+     "If the illness is expected to continue following the completion of the six-month paid medical leave, use of long-term disability (LTD) coverage, if previously elected by the faculty member, should be investigated during the medical leave."
+    ],
+    "sequence": [
+     "If the illness is expected to continue following the completion of the six-month paid medical leave, use of long-term disability (LTD) coverage, if previously elected by the faculty member, should be investigated during the medical leave."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link",
+    "2018_05_univ_framework_medical_leave_ladder_faculty_2015"
+   ],
+   "flags": [
+    "cross_reference_not_saved: Harvard long-term disability (LTD) plan (Harvard Benefits Office)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "If the illness is expected to continue following the completion of the six-month paid medical leave, use of long-term disability (LTD) coverage, if previously elected by the faculty member, should be investigated during the medical leave."
+    },
+    {
+     "field": "payer",
+     "rule": "M1",
+     "answer": "insurance_plan",
+     "quote": "If the illness is expected to continue following the completion of the six-month paid medical leave, use of long-term disability (LTD) coverage, if previously elected by the faculty member, should be investigated during the medical leave."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "If the illness is expected to continue following the completion of the six-month paid medical leave, use of long-term disability (LTD) coverage, if previously elected by the faculty member, should be investigated during the medical leave."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Full-time ladder faculty members suffering from a serious health condition that prevents the fulfillment of normal duties may be entitled to a paid medical leave of absence of up to six months."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent",
+     "quote": "If the illness is expected to continue following the completion of the six-month paid medical leave, use of long-term disability (LTD) coverage, if previously elected by the faculty member, should be investigated during the medical leave."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "If the illness is expected to continue following the completion of the six-month paid medical leave, use of long-term disability (LTD) coverage, if previously elected by the faculty member, should be investigated during the medical leave."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "consecutive_after c5",
+     "quote": "If the illness is expected to continue following the completion of the six-month paid medical leave, use of long-term disability (LTD) coverage, if previously elected by the faculty member, should be investigated during the medical leave."
+    }
+   ]
+  },
+  {
+   "component_id": "harvard_university_c15",
+   "institution_label": "Parental Teaching Relief",
+   "description": "FAS senior preceptors and senior lecturers who are primary caregivers: full-time teaching relief for the remainder of the semester of the birth or adoption (birth mothers: after the eight-week childbirth leave). Not tenure-stream.",
+   "mechanism": "modified_duties",
+   "payer": "employer",
+   "faculty_group": "FAS senior preceptors and senior lecturers",
+   "faculty_group_note": "non-ladder ranks; 'senior preceptor or senior lecturer (if that title is not dependent upon an administrative appointment)'",
+   "faculty_scope": "Faculty of Arts and Sciences only",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "primary caregivers for a newborn or newly-adopted child; birth mother / not the birth mother",
+   "caregiver_condition": "primary",
+   "caregiver_condition_wording": "Primary caregiving is defined as having substantial daily responsibility for child care of at least twenty hours per week from Monday through Friday, from 9 a.m. to 5 p.m.",
+   "entitlement": "guaranteed_on_request",
+   "duration": {
+    "value": 1,
+    "units": "semester",
+    "qualifier": "exact"
+   },
+   "duration_note": "The remainder of the semester in which the birth or adoption occurs (R3b: coded as the semester, containing the childbirth leave for a birth mother).",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "continues",
+    "research": "continues",
+    "advising_supervision": "continues",
+    "clinical": "continues"
+   },
+   "relief_inferred": "unnamed duties continue (R4b)",
+   "relief_note": "Full-time teaching relief for the remainder of the semester; FAS PTR definition (service and advising continue). R3b containment of the childbirth leave stated here, not linked, because this group's relief is not counted and c3 is shared with ladder faculty.",
+   "rule_applied": [
+    "R3b",
+    "R3",
+    "R4b",
+    "V2",
+    "R6"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Faculty members holding the rank of senior preceptor or senior lecturer (if that title is not dependent upon an administrative appointment) and who are the primary caregivers for a newborn or newly-adopted child are eligible for parental teaching relief."
+    ],
+    "eligible_parent": [
+     "If the primary caregiver is also the birth mother, she is eligible (as described above) for paid medical leave of eight weeks in connection with childbirth and recovery, plus full-time parental teaching relief for the remainder of the semester in which she gives birth.",
+     "If the primary caregiver in these ranks is not the birth mother, he or she is eligible for full-time parental teaching relief for the remainder of the semester in which the birth or adoption has occurred."
+    ],
+    "caregiver_condition": [
+     "Primary caregiving is defined as having substantial daily responsibility for child care of at least twenty hours per week from Monday through Friday, from 9 a.m. to 5 p.m."
+    ],
+    "entitlement": [
+     "Faculty members holding the rank of senior preceptor or senior lecturer (if that title is not dependent upon an administrative appointment) and who are the primary caregivers for a newborn or newly-adopted child are eligible for parental teaching relief.",
+     "FAS ladder faculty members and senior non-ladder faculty members who are primary caregivers are eligible for parental teaching relief (a workload reduction), as specified below."
+    ],
+    "duration": [
+     "If the primary caregiver is also the birth mother, she is eligible (as described above) for paid medical leave of eight weeks in connection with childbirth and recovery, plus full-time parental teaching relief for the remainder of the semester in which she gives birth.",
+     "If the primary caregiver in these ranks is not the birth mother, he or she is eligible for full-time parental teaching relief for the remainder of the semester in which the birth or adoption has occurred."
+    ],
+    "relief": [
+     "Parental teaching relief is defined as an exemption from formal classroom duties, either for full teaching duties during one term or half duty for two terms.",
+     "The faculty member is expected to remain in residence and to continue departmental service, committee assignments, advising, and other such professional duties when taking parental teaching relief."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "ambiguous: pay level not stated; full pay inferred (R3)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "modified_duties",
+     "quote": "If the primary caregiver in these ranks is not the birth mother, he or she is eligible for full-time parental teaching relief for the remainder of the semester in which the birth or adoption has occurred."
+    },
+    {
+     "field": "payer",
+     "rule": "R3",
+     "answer": "employer",
+     "quote": "If the primary caregiver is also the birth mother, she is eligible (as described above) for paid medical leave of eight weeks in connection with childbirth and recovery, plus full-time parental teaching relief for the remainder of the semester in which she gives birth."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Faculty members holding the rank of senior preceptor or senior lecturer (if that title is not dependent upon an administrative appointment) and who are the primary caregivers for a newborn or newly-adopted child are eligible for parental teaching relief."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "FAS senior preceptors and senior lecturers",
+     "quote": "Faculty members holding the rank of senior preceptor or senior lecturer (if that title is not dependent upon an administrative appointment) and who are the primary caregivers for a newborn or newly-adopted child are eligible for parental teaching relief."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R6",
+     "answer": "birth, non-birth, adoptive",
+     "quote": "If the primary caregiver in these ranks is not the birth mother, he or she is eligible for full-time parental teaching relief for the remainder of the semester in which the birth or adoption has occurred."
+    },
+    {
+     "field": "caregiver_condition",
+     "rule": "R6",
+     "answer": "primary",
+     "quote": "Primary caregiving is defined as having substantial daily responsibility for child care of at least twenty hours per week from Monday through Friday, from 9 a.m. to 5 p.m."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "Faculty members holding the rank of senior preceptor or senior lecturer (if that title is not dependent upon an administrative appointment) and who are the primary caregivers for a newborn or newly-adopted child are eligible for parental teaching relief."
+    },
+    {
+     "field": "duration",
+     "rule": "R3b",
+     "answer": "1 semester exact (remainder of the semester, coded as the semester, R3b)",
+     "quote": "If the primary caregiver in these ranks is not the birth mother, he or she is eligible for full-time parental teaching relief for the remainder of the semester in which the birth or adoption has occurred."
+    },
+    {
+     "field": "relief",
+     "rule": "R4b",
+     "answer": "teaching relieved; service and advising continue",
+     "quote": "The faculty member is expected to remain in residence and to continue departmental service, committee assignments, advising, and other such professional duties when taking parental teaching relief."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "R3",
+     "answer": "no pay level stated; full pay inferred, flagged",
+     "quote": "If the primary caregiver is also the birth mother, she is eligible (as described above) for paid medical leave of eight weeks in connection with childbirth and recovery, plus full-time parental teaching relief for the remainder of the semester in which she gives birth."
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "Reference date 2018-02-22.",
+  "Document roles: 2018_04 and 2018_05 are the University-wide frameworks (Dec 2015, in force on the reference date per their metadata) setting a floor for every School's full-time ladder faculty; 2018_00 (FAS Handbook ch. 3H) and 2018_02 (ch. 3A) are the FAS implementation (FAS covers arts and sciences and SEAS, so it is main campus under V3); 2018_01 is the FAS request form for Parental Teaching Relief (consistent with the Handbook); 2018_03 is a navigation page with links only, no policy.",
+  "V3c: where the FAS Handbook and the University-wide framework state the same benefit (FMLA, MPLA, eight-week childbirth medical leave, six-month medical leave, workload reduction / Parental Teaching Relief), one component cites both. The tenure-clock extension differs (framework: primary caregivers only; FAS: either parent, automatic), so the framework version (c8) is the main-campus component and the FAS version (c9) is recorded by unit and linked concurrent_with c8. The FAS medical and personal clock extensions, personal leave and paid sick time have no University-wide counterpart and are coded as main-campus provisions.",
+  "Workload reduction / Parental Teaching Relief: the framework defers the form of the reduction to each School ('as defined by the School'; for Schools with significant teaching responsibilities, Parental Teaching Relief); the FAS definition (teaching only; service and advising continue; research up to the faculty member) supplies the relief fields. The framework states the limit of two birth or adoption events (use_limit). No pay level is stated for the relief (framework calls the package 'paid parental leave'), so R3's ambiguous flag is set.",
+  "Other groups (not tenure-stream), recorded in notes: College Fellows and multi-year preceptors, lecturers and Briggs-Copeland Lecturers receive eight weeks of paid medical leave (including the eight-week childbirth leave) but are not eligible for parental teaching relief; dependent lectureships follow staff or research policies. Senior preceptors and senior lecturers receive relief for the remainder of the semester (c15).",
+  "FMLA eligibility: FAS deems faculty eligible after at least half-time appointment in the FAS for three consecutive months (more generous than the statute's 12 months and 1,250 hours). Harvard continues the employer health-insurance contribution during FMLA leave (not pay).",
+  "Leave limit: 'no faculty member will be eligible for more than two consecutive terms of relief from full-time departmental teaching duties' (ordinary application; family and research leaves) recorded as 32 weeks; also 'Ordinarily, faculty members should not be out of the Harvard classroom for more than a year at a time' and APH 3A 'Leaves may not be granted for more than one year at a time' (not recorded as a limit; a per-leave maximum used as c12's length).",
+  "Calendar: semesters stated ('one semester or half-time duty for two semesters'; 'up to one semester'); length not stated, so calendar.kind = semester, and the term length follows R8's order.",
+  "Chain, birth parent: medical leave of absence up to 6 months (c4) containing its pay (c5) and, from its start, the 8-week childbirth medical leave (c3, within c4); FMLA 12 (c1) and MPLA 8 (c2) concurrent from the start (4 unpaid FMLA weeks after the 8 paid); parental teaching relief 1 semester (c6, or c7 half over two terms in lieu) also_available with c3 (order not fixed); LTD (c14) consecutive_after the six-month paid medical leave (c5).",
+  "Chain, non-birth parent: FMLA 12 (c1) with MPLA 8 (c2) concurrent; parental teaching relief 1 semester for a primary caregiver (c6, or c7 in lieu), not linked to FMLA (its also_available link to c3 does not count for this role).",
+  "Cited but not saved: Massachusetts Parental Leave Act text; Massachusetts Paid Sick Time Law text; existing Harvard sick leave policies (APH 3A(5)); Harvard long-term disability (LTD) coverage information (Harvard Benefits Office); each School's Faculty Handbook (framework; only FAS saved); FAS APH ch. 3B Short-Term Absence during Term Time, 3C-3E research leaves, 3F Leaves for Non-Ladder Faculty Members, 3G Leaves of Absence for Public Service, 3I Family Leave Policy for Postdoctoral Fellows and Research Associates (navigation links; not faculty parental provisions as far as titles show); FAS APH Chapter 2 (compensation). The FAS PTR application URL in the Handbook is the saved form 2018_01."
+ ],
+ "statutory_floor": {
+  "jurisdiction": "US",
+  "year": "2018",
+  "weeks_birth": 12.0,
+  "weeks_nonbirth": 12.0,
+  "statute": "Family and Medical Leave Act (FMLA) (29 U.S.C. 2611-2612)",
+  "source_doc": "2026_00_us_fmla_29usc2612",
+  "table": "statutory_baseline.csv"
+ }
+}

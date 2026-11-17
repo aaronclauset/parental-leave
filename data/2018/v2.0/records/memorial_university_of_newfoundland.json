@@ -1,0 +1,3363 @@
+{
+ "institution": "Memorial University of Newfoundland",
+ "slug": "memorial_university_of_newfoundland",
+ "country": "Canada",
+ "model": "claude-opus-5-5",
+ "codebook_version": "1.25",
+ "schema_version": "1.25",
+ "reference_date": "2018-04-19",
+ "calendar": {
+  "term_weeks": 13,
+  "note": "Clause 1.03(m): a course is 'normally taught for three (3) or more hours a week over a thirteen-week semester'; three semesters per Academic Year (3.14). No component is coded in semesters."
+ },
+ "documents": [
+  {
+   "doc_id": "2018_00_link",
+   "url": "http://www.mun.ca/munfa/CA2014-2017.pdf",
+   "title": "Collective Agreement between Memorial University of Newfoundland and MUNFA, October 30, 2014 - August 31, 2017",
+   "version_or_effective_date": "2014-10-30 to 2017-08-31; in effect until a new agreement is signed (1.39); successor signed 2019-02-26 per version note",
+   "retrieved": "2026-10-31 (Wayback 2019-10-21)"
+  },
+  {
+   "doc_id": "2018_01_munfa_current_agreement_page",
+   "url": "http://munfa.ca/agreements_type/current-munmunfa-collective-agreement-october-30-2014-august-31-2017/",
+   "title": "MUNFA: Current MUN/MUNFA Collective Agreement October 30, 2014 - August 31, 2017",
+   "version_or_effective_date": "Wayback 2018-09-17",
+   "retrieved": "2026-10-31"
+  },
+  {
+   "doc_id": "2018_02_nl_labour_standards_act",
+   "url": "www.assembly.nl.ca/Legislation/sr/statutes/l02.htm",
+   "title": "Labour Standards Act, RSNL 1990 c. L-2 (consolidated to 2018 c1)",
+   "version_or_effective_date": "Wayback 2018-04-22; 2018 c1 commencement not stated",
+   "retrieved": "2026-10-31"
+  },
+  {
+   "doc_id": "2018_03_ei_maternity_parental_benefits",
+   "url": "https://www.canada.ca/en/services/benefits/ei/ei-maternity-parental.html",
+   "title": "EI Maternity and Parental Benefits - Overview (Canada.ca)",
+   "version_or_effective_date": "Date modified 2018-01-24; Wayback 2018-05-15",
+   "retrieved": "2026-10-31"
+  },
+  {
+   "doc_id": "2018_05_ei_sub_plan_requirements",
+   "url": "https://www.canada.ca/en/employment-social-development/programs/ei/ei-list/reports/supplemental-unemployment-benefit/requirements.html",
+   "title": "Supplemental Unemployment Benefit: Part I - Plan requirements (Canada.ca)",
+   "version_or_effective_date": "Date modified 2016-06-03; Wayback 2018-05-16",
+   "retrieved": "2026-10-31"
+  },
+  {
+   "doc_id": "2018_17_ca_ei_act_pit_2018-04-01",
+   "url": "https://laws-lois.justice.gc.ca/eng/acts/E-5.6/20180401/P1TT3xt3.html",
+   "title": "Employment Insurance Act (point in time 2018-04-01)",
+   "version_or_effective_date": "2018-04-01",
+   "retrieved": "2026-10-31"
+  },
+  {
+   "doc_id": "2018_28_nl_labour_standards",
+   "url": "http://www.assembly.nl.ca/legislation/sr/statutes/l02.htm",
+   "title": "Labour Standards Act, RSNL 1990 c. L-2 (consolidation before 2018 c1)",
+   "version_or_effective_date": "Wayback 2017-12-24",
+   "retrieved": "2026-11-02"
+  }
+ ],
+ "missing": false,
+ "scope_accounting": {
+  "C1": {
+   "components": [
+    "memorial_university_of_newfoundland_c1",
+    "memorial_university_of_newfoundland_c2",
+    "memorial_university_of_newfoundland_c3",
+    "memorial_university_of_newfoundland_c5",
+    "memorial_university_of_newfoundland_c6",
+    "memorial_university_of_newfoundland_c7",
+    "memorial_university_of_newfoundland_c9",
+    "memorial_university_of_newfoundland_c10",
+    "memorial_university_of_newfoundland_c11"
+   ]
+  },
+  "C2": {
+   "absent": {
+    "documents": [
+     "2018_00_link"
+    ],
+    "terms": [
+     "modified duties",
+     "teaching relief",
+     "course release",
+     "remission",
+     "reduction in teaching",
+     "adjustment of the normal duties",
+     "workload"
+    ]
+   }
+  },
+  "C3": {
+   "components": [
+    "memorial_university_of_newfoundland_c13",
+    "memorial_university_of_newfoundland_c14",
+    "memorial_university_of_newfoundland_c15",
+    "memorial_university_of_newfoundland_c21"
+   ]
+  },
+  "C4": {
+   "components": [
+    "memorial_university_of_newfoundland_c4",
+    "memorial_university_of_newfoundland_c8",
+    "memorial_university_of_newfoundland_c22",
+    "memorial_university_of_newfoundland_c23",
+    "memorial_university_of_newfoundland_c24"
+   ],
+   "not_components": [
+    {
+     "statute": "Labour Standards Act (NL), Parts I-VI, VII.1-XII (ss. 1-38, 43.10-80), incl. s. 43.10 bereavement, s. 43.11 sick and family responsibility leave, s. 43.14 compassionate care leave, s. 43.18 reservist leave, s. 43.24 crime-related child death leave, s. 43.29 critical illness leave",
+     "reason": "U4: the agreement does not name the Act or rely on these sections; only Part VII (pregnancy, adoption, parental leave) is coded"
+    },
+    {
+     "statute": "Employment Insurance Act: sickness, compassionate care, critically ill benefits; EI Regulations; Supplemental Unemployment Benefit plan rules (2018_05)",
+     "reason": "U4: the agreement relies on EI only for maternity and parental benefits; the SUB rules regulate the employer's top-up plan and give no leave or pay of their own (the 95% SUB-plus-EI limit is noted in notes)"
+    },
+    {
+     "statute": "Income Tax Act (Canada)",
+     "reason": "named for sabbatical research grants and salary designation (22.18, 22.19, 26.32); unrelated to becoming a parent"
+    },
+    {
+     "statute": "Labour Relations Act (NL)",
+     "reason": "named for the no-strike clause (1.41); unrelated to becoming a parent"
+    },
+    {
+     "statute": "Employment Equity Act (Canada, 1995)",
+     "reason": "named for employment equity measures (29.01); unrelated to becoming a parent"
+    },
+    {
+     "statute": "Access to Information and Protection of Privacy Act (NL)",
+     "reason": "named for privacy of records (26.18); unrelated"
+    },
+    {
+     "statute": "An Act Respecting The Memorial University of Newfoundland, c. M-7",
+     "reason": "definition of the University (1.03(d)); unrelated"
+    },
+    {
+     "statute": "Statutes named inside the Labour Standards Act (Executive Council Act, Bank Act, Credit Union Act, Corporations Act, Co-operatives Act, Canada Labour Code, Criminal Code, National Defence Act, School Attendance Act, Summary Proceedings Act)",
+     "reason": "cross-references within the Act unrelated to becoming a parent"
+    }
+   ]
+  },
+  "C5": {
+   "components": [
+    "memorial_university_of_newfoundland_c16",
+    "memorial_university_of_newfoundland_c17"
+   ]
+  },
+  "C6": {
+   "components": [
+    "memorial_university_of_newfoundland_c16",
+    "memorial_university_of_newfoundland_c18",
+    "memorial_university_of_newfoundland_c19"
+   ]
+  },
+  "C7": {
+   "components": [
+    "memorial_university_of_newfoundland_c12"
+   ]
+  },
+  "C8": {
+   "components": [
+    "memorial_university_of_newfoundland_c20"
+   ]
+  },
+  "C9": {
+   "absent": {
+    "documents": [
+     "2018_00_link",
+     "2018_02_nl_labour_standards_act"
+    ],
+    "terms": [
+     "accommodation",
+     "pregnan",
+     "hazard",
+     "transfer",
+     "non-discrimination",
+     "childcare"
+    ]
+   }
+  },
+  "C10": {
+   "absent": {
+    "documents": [
+     "2018_00_link"
+    ],
+    "terms": [
+     "FMLA",
+     "first days",
+     "first five",
+     "family medical leave"
+    ]
+   }
+  }
+ },
+ "passage_dispositions": {
+  "2018_00_link#001": {
+   "not_relevant": "table of contents (tenure procedures); no provision"
+  },
+  "2018_00_link#002": {
+   "not_relevant": "table of contents (librarian tenure); no provision"
+  },
+  "2018_00_link#003": {
+   "not_relevant": "table of contents listing the leave clauses; provisions coded from Article 22 text"
+  },
+  "2018_00_link#004": {
+   "not_relevant": "definitions (tenure-track, University); used only to read faculty_group"
+  },
+  "2018_00_link#005": {
+   "not_relevant": "joint committee and pensions committee; no leave provision"
+  },
+  "2018_00_link#006": {
+   "not_relevant": "personal file contents (records of leaves); no leave provision"
+  },
+  "2018_00_link#007": {
+   "not_relevant": "academic freedom and non-discrimination (2.08); no pregnancy-specific protection or length"
+  },
+  "2018_00_link#008": {
+   "not_relevant": "research appointments; no leave provision"
+  },
+  "2018_00_link#009": {
+   "not_relevant": "search procedures; no leave provision"
+  },
+  "2018_00_link#010": {
+   "not_relevant": "promotion and tenure committee formation; no leave provision"
+  },
+  "2018_00_link#011": {
+   "not_relevant": "promotion and tenure committee formation; no leave provision"
+  },
+  "2018_00_link#012": {
+   "not_relevant": "tenure review timing; deferral is in 22.86 (coded c12)"
+  },
+  "2018_00_link#013": {
+   "not_relevant": "tenure committee procedure; no leave provision"
+  },
+  "2018_00_link#014": {
+   "not_relevant": "non-decision year reviews; no leave provision"
+  },
+  "2018_00_link#015": {
+   "not_relevant": "tenure notification procedure; no leave provision"
+  },
+  "2018_00_link#016": {
+   "not_relevant": "librarian search procedure; no leave provision"
+  },
+  "2018_00_link#017": {
+   "not_relevant": "librarian committee procedure; no leave provision"
+  },
+  "2018_00_link#018": {
+   "not_relevant": "librarian tenure invitation procedure; no leave provision"
+  },
+  "2018_00_link#019": {
+   "not_relevant": "librarian tenure-track terms; no leave provision"
+  },
+  "2018_00_link#020": {
+   "not_relevant": "librarian tenure terms (17.09 cites 22.84); no parental provision"
+  },
+  "2018_00_link#021": {
+   "not_relevant": "discipline and medical disability (19.06); refers to sick leave and LTD coded from Article 22"
+  },
+  "2018_00_link#022": {
+   "not_relevant": "dismissal arbitration; no leave provision"
+  },
+  "2018_00_link#023": {
+   "not_relevant": "criminal charges leave (19.27-19.28); not usable for a birth"
+  },
+  "2018_00_link#024": {
+   "not_relevant": "religious holidays and sabbatical eligibility; research leave, not a parental provision"
+  },
+  "2018_00_link#025": {
+   "not_relevant": "sabbatical terms; research leave, not a parental provision"
+  },
+  "2018_00_link#026": {
+   "used_in": [
+    "memorial_university_of_newfoundland_c18",
+    "memorial_university_of_newfoundland_c16",
+    "memorial_university_of_newfoundland_c13",
+    "memorial_university_of_newfoundland_c14",
+    "memorial_university_of_newfoundland_c15",
+    "memorial_university_of_newfoundland_c1",
+    "memorial_university_of_newfoundland_c2",
+    "memorial_university_of_newfoundland_c3",
+    "memorial_university_of_newfoundland_c4",
+    "memorial_university_of_newfoundland_c5",
+    "memorial_university_of_newfoundland_c6",
+    "memorial_university_of_newfoundland_c7",
+    "memorial_university_of_newfoundland_c8",
+    "memorial_university_of_newfoundland_c9",
+    "memorial_university_of_newfoundland_c10",
+    "memorial_university_of_newfoundland_c11",
+    "memorial_university_of_newfoundland_c17"
+   ]
+  },
+  "2018_00_link#027": {
+   "used_in": [
+    "memorial_university_of_newfoundland_c19",
+    "memorial_university_of_newfoundland_c12",
+    "memorial_university_of_newfoundland_c17"
+   ]
+  },
+  "2018_00_link#028": {
+   "not_relevant": "term appointments; no leave provision"
+  },
+  "2018_00_link#029": {
+   "not_relevant": "accommodation of students with disabilities and childcare facilities (26.30-26.31): childcare services, not leave, pay, relief or protection"
+  },
+  "2018_00_link#030": {
+   "not_relevant": "ASM-CFE research release time; not a parental provision"
+  },
+  "2018_00_link#031": {
+   "not_relevant": "professional development fund; no leave provision"
+  },
+  "2018_00_link#032": {
+   "not_relevant": "moving expenses; no leave provision"
+  },
+  "2018_02_nl_labour_standards_act#001": {
+   "not_relevant": "table of contents of the Act"
+  },
+  "2018_02_nl_labour_standards_act#002": {
+   "used_in": [
+    "memorial_university_of_newfoundland_c22",
+    "memorial_university_of_newfoundland_c23",
+    "memorial_university_of_newfoundland_c24"
+   ]
+  },
+  "2018_02_nl_labour_standards_act#003": {
+   "not_relevant": "Part VII.2-VII.4 (travel costs, compassionate care, reservists): not relied on by the agreement (U4; C4 not_components)"
+  },
+  "2018_02_nl_labour_standards_act#004": {
+   "not_relevant": "reservist leave: unrelated to becoming a parent (U4)"
+  },
+  "2018_02_nl_labour_standards_act#005": {
+   "not_relevant": "crime-related child death or disappearance leave: not usable for a birth (U4)"
+  },
+  "2018_02_nl_labour_standards_act#006": {
+   "not_relevant": "critical illness leave and employment of children: not relied on by the agreement (U4)"
+  },
+  "2018_02_nl_labour_standards_act#007": {
+   "not_relevant": "employment of children and notice of termination: unrelated"
+  },
+  "2018_02_nl_labour_standards_act#008": {
+   "not_relevant": "administration of the Act: unrelated"
+  },
+  "2018_02_nl_labour_standards_act#009": {
+   "not_relevant": "regulations power: unrelated"
+  },
+  "2018_03_ei_maternity_parental_benefits#001": {
+   "used_in": [
+    "memorial_university_of_newfoundland_c4",
+    "memorial_university_of_newfoundland_c8"
+   ]
+  },
+  "2018_05_ei_sub_plan_requirements#001": {
+   "not_relevant": "SUB plan requirements (federal rules for the employer's top-up plan); no leave or pay of its own"
+  },
+  "2018_05_ei_sub_plan_requirements#002": {
+   "not_relevant": "SUB payment rules and 95% limit; noted in notes, no component"
+  },
+  "2018_05_ei_sub_plan_requirements#003": {
+   "not_relevant": "SUB plan financing; no component"
+  },
+  "2018_05_ei_sub_plan_requirements#004": {
+   "not_relevant": "SUB plan conditions; no component"
+  }
+ },
+ "mechanism_slots": {
+  "employer_paid_leave": {
+   "components": [
+    "memorial_university_of_newfoundland_c2",
+    "memorial_university_of_newfoundland_c6",
+    "memorial_university_of_newfoundland_c11",
+    "memorial_university_of_newfoundland_c16",
+    "memorial_university_of_newfoundland_c17",
+    "memorial_university_of_newfoundland_c18"
+   ]
+  },
+  "employer_childbirth_benefit": {
+   "absent": "2018_00_link searched for 'maternity', 'childbirth', 'pregnan', 'sick leave': maternity pay is coded as employer pay within the maternity leave and a top-up; no childbirth period through a sick or disability plan"
+  },
+  "generic_sick_or_disability_plan": {
+   "components": [
+    "memorial_university_of_newfoundland_c14",
+    "memorial_university_of_newfoundland_c15"
+   ]
+  },
+  "own_accrual": {
+   "components": [
+    "memorial_university_of_newfoundland_c21"
+   ]
+  },
+  "donated_leave": {
+   "absent": "2018_00_link searched for 'donat', 'bank', 'shared leave': none"
+  },
+  "government_benefit": {
+   "components": [
+    "memorial_university_of_newfoundland_c4",
+    "memorial_university_of_newfoundland_c8"
+   ]
+  },
+  "employer_topup": {
+   "components": [
+    "memorial_university_of_newfoundland_c3",
+    "memorial_university_of_newfoundland_c7"
+   ]
+  },
+  "modified_duties": {
+   "absent": "2018_00_link searched for 'modified duties', 'relief', 'remission', 'reduction in teaching', 'adjustment of the normal duties': 22.53 states leave shall not lead to any adjustment of normal duties; no relief for new parents"
+  },
+  "unpaid_leave": {
+   "components": [
+    "memorial_university_of_newfoundland_c1",
+    "memorial_university_of_newfoundland_c5",
+    "memorial_university_of_newfoundland_c9",
+    "memorial_university_of_newfoundland_c10",
+    "memorial_university_of_newfoundland_c13",
+    "memorial_university_of_newfoundland_c19",
+    "memorial_university_of_newfoundland_c22",
+    "memorial_university_of_newfoundland_c23",
+    "memorial_university_of_newfoundland_c24"
+   ]
+  },
+  "tenure_clock": {
+   "components": [
+    "memorial_university_of_newfoundland_c12"
+   ]
+  },
+  "part_time_option": {
+   "components": [
+    "memorial_university_of_newfoundland_c20"
+   ]
+  },
+  "other": {
+   "absent": "2018_00_link searched for 'accommodation', 'pregnan', 'hazard', 'transfer': no pregnancy accommodation or hazard programme"
+  }
+ },
+ "baseline_accounting": {
+  "Labour Standards Act: pregnancy and parental leave": {
+   "components": [
+    "memorial_university_of_newfoundland_c22",
+    "memorial_university_of_newfoundland_c23"
+   ]
+  },
+  "Employment Insurance maternity and parental benefits": {
+   "components": [
+    "memorial_university_of_newfoundland_c4",
+    "memorial_university_of_newfoundland_c8"
+   ]
+  }
+ },
+ "leave_limits": [
+  {
+   "weeks": 52,
+   "components": [
+    "memorial_university_of_newfoundland_c1",
+    "memorial_university_of_newfoundland_c5",
+    "memorial_university_of_newfoundland_c9"
+   ],
+   "roles": [
+    "birth",
+    "nonbirth"
+   ],
+   "note": "Clause 22.65: Parental Leave Without Pay 'such that the total duration of leave does not exceed one (1) year', following Supplemented Maternity or Supplemented Parental Leave. Statutory leaves (c22, c23) are not listed: the agreement cannot cap the statute (LSA s. 3).",
+   "evidence": [
+    "An ASM who is eligible for Supplemented Maternity or Supplemented Parental Leave is entitled to Parental Leave Without Pay such that the total duration of leave does not exceed one (1) year."
+   ],
+   "decision_log": [
+    {
+     "field": "leave_limits",
+     "rule": "R20",
+     "answer": "one year = 52 weeks (R11), over c1, c5 and c9, both roles",
+     "quote": "An ASM who is eligible for Supplemented Maternity or Supplemented Parental Leave is entitled to Parental Leave Without Pay such that the total duration of leave does not exceed one (1) year."
+    }
+   ]
+  }
+ ],
+ "components": [
+  {
+   "component_id": "memorial_university_of_newfoundland_c1",
+   "institution_label": "Supplemented Maternity Leave",
+   "description": "Maternity leave from work of up to 17 weeks for an ASM giving birth, with pay as set out in Clause 22.57 (coded as separate pay components c2 and c3).",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "ASMs holding a tenure-track or tenured appointment, or in the second or subsequent year of a term appointment (22.50)",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "her (Supplemented Maternity Leave; 'her Administrative Head', 'if she qualifies')",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "22.49: applications 'shall be approved providing the applicant meets the eligibility requirements' (schema: must grant once applied for).",
+   "duration": {
+    "value": 17,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "duration_note": "22.57 adds: 'A further period of leave under the provisions of this Collective Agreement is possible' (22.65 Parental Leave Without Pay, c9).",
+   "service_requirement": "tenure-track or tenured appointment, or second or subsequent year of a term appointment (22.50); none stated beyond appointment type for tenure-stream members",
+   "return_obligation": "expected to work for the University for at least six months following return unless the end of a term appointment prevents it (22.51)",
+   "notice": "apply to the Administrative Head as early as practicable, with date of commencement and duration; EI documentation to accompany application (22.49, 22.56)",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "relief_note": "22.53: leave 'shall not lead to any adjustment of the normal duties following the leave'; 22.87 no make-up of duties.",
+   "rule_applied": [
+    "R9",
+    "V2",
+    "schema"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "track or tenured appointment or, be in the second or subsequent year of a term appointment"
+    ],
+    "eligible_parent": [
+     "In order to qualify for Supplemented Maternity Leave an ASM shall apply to her Administrative Head as early as practicable indicating her intention to take leave under this provision"
+    ],
+    "entitlement": [
+     "Applications for such leaves shall be approved providing the applicant meets the eligibility requirements."
+    ],
+    "duration": [
+     "Supplemented Maternity Leave is a leave from work of up to seventeen (17) weeks with pay and benefits as specified in Clause 22.57."
+    ],
+    "service_requirement": [
+     "track or tenured appointment or, be in the second or subsequent year of a term appointment"
+    ],
+    "return_obligation": [
+     "on the understanding that the ASM is expected to work for the University for at least six (6) months following the date of his or her return from any of these leaves unless the conclusion of a term appointment prevents it."
+    ],
+    "relief": [
+     "Leave taken according to the provisions of Clauses 22.49 - 22.67 shall not lead to any adjustment of the normal duties following the leave"
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "cross_reference_not_saved: Employment Insurance Regulations (22.49, 22.52)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "Supplemented Maternity Leave is a leave from work of up to seventeen (17) weeks with pay and benefits as specified in Clause 22.57."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Supplemented Maternity Leave is a leave from work of up to seventeen (17) weeks with pay and benefits as specified in Clause 22.57."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Supplemented Maternity Leave is a leave from work of up to seventeen (17) weeks with pay and benefits as specified in Clause 22.57."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "track or tenured appointment or, be in the second or subsequent year of a term appointment"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "birth_parent (maternity leave; 'her')",
+     "quote": "In order to qualify for Supplemented Maternity Leave an ASM shall apply to her Administrative Head as early as practicable indicating her intention to take leave under this provision"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "Applications for such leaves shall be approved providing the applicant meets the eligibility requirements."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "17 weeks up_to",
+     "quote": "Supplemented Maternity Leave is a leave from work of up to seventeen (17) weeks with pay and benefits as specified in Clause 22.57."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "tenure-track or tenured appointment",
+     "quote": "track or tenured appointment or, be in the second or subsequent year of a term appointment"
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave; relief not stated)",
+     "quote": "Supplemented Maternity Leave is a leave from work of up to seventeen (17) weeks with pay and benefits as specified in Clause 22.57."
+    }
+   ]
+  },
+  {
+   "component_id": "memorial_university_of_newfoundland_c2",
+   "institution_label": "",
+   "description": "University pays 100% of weekly salary for the first two weeks of Supplemented Maternity Leave.",
+   "mechanism": "employer_paid_leave",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "ASMs holding tenure-track or tenured appointments (Clause 22.50; the bargaining unit holds the Faculty Members)",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "Supplemented Maternity Leave",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 2,
+    "units": "week",
+    "qualifier": "exact"
+   },
+   "pay_fraction": "100%",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "sequence": [
+    {
+     "relation": "within",
+     "component_id": "memorial_university_of_newfoundland_c1",
+     "note": "the first two weeks of the 17-week leave"
+    }
+   ],
+   "return_obligation": "expected to work for the University for at least six months following return (22.51)",
+   "rule_applied": [
+    "R9",
+    "R15",
+    "V4",
+    "R21"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "track or tenured appointment or, be in the second or subsequent year of a term appointment"
+    ],
+    "eligible_parent": [
+     "The University shall pay one hundred (100) percent of the ASM’s weekly salary from the University for the first two (2) weeks of Supplemented Maternity Leave."
+    ],
+    "entitlement": [
+     "The University shall pay one hundred (100) percent of the ASM’s weekly salary from the University for the first two (2) weeks of Supplemented Maternity Leave."
+    ],
+    "duration": [
+     "The University shall pay one hundred (100) percent of the ASM’s weekly salary from the University for the first two (2) weeks of Supplemented Maternity Leave."
+    ],
+    "pay_fraction": [
+     "The University shall pay one hundred (100) percent of the ASM’s weekly salary from the University for the first two (2) weeks of Supplemented Maternity Leave."
+    ],
+    "sequence": [
+     "The University shall pay one hundred (100) percent of the ASM’s weekly salary from the University for the first two (2) weeks of Supplemented Maternity Leave."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "cross_reference_not_saved: Supplemental Employment Benefits plan (22.54)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "V4",
+     "answer": "employer_paid_leave",
+     "quote": "The University shall pay one hundred (100) percent of the ASM’s weekly salary from the University for the first two (2) weeks of Supplemented Maternity Leave."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "The University shall pay one hundred (100) percent of the ASM’s weekly salary from the University for the first two (2) weeks of Supplemented Maternity Leave."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "The University shall pay one hundred (100) percent of the ASM’s weekly salary from the University for the first two (2) weeks of Supplemented Maternity Leave."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "track or tenured appointment or, be in the second or subsequent year of a term appointment"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "birth_parent",
+     "quote": "The University shall pay one hundred (100) percent of the ASM’s weekly salary from the University for the first two (2) weeks of Supplemented Maternity Leave."
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "The University shall pay one hundred (100) percent of the ASM’s weekly salary from the University for the first two (2) weeks of Supplemented Maternity Leave."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "2 weeks exact",
+     "quote": "The University shall pay one hundred (100) percent of the ASM’s weekly salary from the University for the first two (2) weeks of Supplemented Maternity Leave."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "100%",
+     "quote": "The University shall pay one hundred (100) percent of the ASM’s weekly salary from the University for the first two (2) weeks of Supplemented Maternity Leave."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "within c1 (first two weeks); the employer's schedule sets what it pays, not when EI starts (R21)",
+     "quote": "The University shall pay one hundred (100) percent of the ASM’s weekly salary from the University for the first two (2) weeks of Supplemented Maternity Leave."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (paid weeks of a formal leave)",
+     "quote": "Supplemented Maternity Leave is a leave from work of up to seventeen (17) weeks with pay and benefits as specified in Clause 22.57."
+    }
+   ]
+  },
+  {
+   "component_id": "memorial_university_of_newfoundland_c3",
+   "institution_label": "",
+   "description": "During weeks 3-17 of Supplemented Maternity Leave the University pays the difference between 100% of weekly salary and the expected EI maternity benefit.",
+   "mechanism": "employer_topup",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "ASMs holding tenure-track or tenured appointments (Clause 22.50; the bargaining unit holds the Faculty Members)",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "she",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 15,
+    "units": "week",
+    "qualifier": "exact"
+   },
+   "pay_fraction": "100% (difference between 100% of weekly salary and the expected EI Maternity Benefit)",
+   "pay_fraction_pct": 100,
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "memorial_university_of_newfoundland_c2",
+     "note": "'During the following fifteen (15) weeks'"
+    },
+    {
+     "relation": "within",
+     "component_id": "memorial_university_of_newfoundland_c1"
+    }
+   ],
+   "return_obligation": "expected to work for the University for at least six months following return (22.51)",
+   "rule_applied": [
+    "R15",
+    "V4",
+    "R7",
+    "R21"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "track or tenured appointment or, be in the second or subsequent year of a term appointment"
+    ],
+    "eligible_parent": [
+     "During the following fifteen (15) weeks of the Supplemented Maternity Leave the ASM shall receive from the University a payment equal to the difference between one hundred (100) percent of the ASM’s weekly salary and the amount of Employment Insurance Maternity Benefit the ASM is expected to receive if she qualifies for Employment Insurance Benefits."
+    ],
+    "entitlement": [
+     "During the following fifteen (15) weeks of the Supplemented Maternity Leave the ASM shall receive from the University a payment equal to the difference between one hundred (100) percent of the ASM’s weekly salary and the amount of Employment Insurance Maternity Benefit the ASM is expected to receive if she qualifies for Employment Insurance Benefits."
+    ],
+    "duration": [
+     "During the following fifteen (15) weeks of the Supplemented Maternity Leave the ASM shall receive from the University a payment equal to the difference between one hundred (100) percent of the ASM’s weekly salary and the amount of Employment Insurance Maternity Benefit the ASM is expected to receive if she qualifies for Employment Insurance Benefits."
+    ],
+    "pay_fraction": [
+     "During the following fifteen (15) weeks of the Supplemented Maternity Leave the ASM shall receive from the University a payment equal to the difference between one hundred (100) percent of the ASM’s weekly salary and the amount of Employment Insurance Maternity Benefit the ASM is expected to receive if she qualifies for Employment Insurance Benefits."
+    ],
+    "sequence": [
+     "During the following fifteen (15) weeks of the Supplemented Maternity Leave the ASM shall receive from the University a payment equal to the difference between one hundred (100) percent of the ASM’s weekly salary and the amount of Employment Insurance Maternity Benefit the ASM is expected to receive if she qualifies for Employment Insurance Benefits."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "cross_reference_not_saved: Supplemental Employment Benefits plan (22.54)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "employer_topup",
+     "quote": "During the following fifteen (15) weeks of the Supplemented Maternity Leave the ASM shall receive from the University a payment equal to the difference between one hundred (100) percent of the ASM’s weekly salary and the amount of Employment Insurance Maternity Benefit the ASM is expected to receive if she qualifies for Employment Insurance Benefits."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "During the following fifteen (15) weeks of the Supplemented Maternity Leave the ASM shall receive from the University a payment equal to the difference between one hundred (100) percent of the ASM’s weekly salary and the amount of Employment Insurance Maternity Benefit the ASM is expected to receive if she qualifies for Employment Insurance Benefits."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "During the following fifteen (15) weeks of the Supplemented Maternity Leave the ASM shall receive from the University a payment equal to the difference between one hundred (100) percent of the ASM’s weekly salary and the amount of Employment Insurance Maternity Benefit the ASM is expected to receive if she qualifies for Employment Insurance Benefits."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "track or tenured appointment or, be in the second or subsequent year of a term appointment"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "birth_parent",
+     "quote": "During the following fifteen (15) weeks of the Supplemented Maternity Leave the ASM shall receive from the University a payment equal to the difference between one hundred (100) percent of the ASM’s weekly salary and the amount of Employment Insurance Maternity Benefit the ASM is expected to receive if she qualifies for Employment Insurance Benefits."
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "During the following fifteen (15) weeks of the Supplemented Maternity Leave the ASM shall receive from the University a payment equal to the difference between one hundred (100) percent of the ASM’s weekly salary and the amount of Employment Insurance Maternity Benefit the ASM is expected to receive if she qualifies for Employment Insurance Benefits."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "15 weeks exact",
+     "quote": "During the following fifteen (15) weeks of the Supplemented Maternity Leave the ASM shall receive from the University a payment equal to the difference between one hundred (100) percent of the ASM’s weekly salary and the amount of Employment Insurance Maternity Benefit the ASM is expected to receive if she qualifies for Employment Insurance Benefits."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "tops up to 100% of weekly salary; paid on the EI benefit the ASM is expected to receive",
+     "quote": "During the following fifteen (15) weeks of the Supplemented Maternity Leave the ASM shall receive from the University a payment equal to the difference between one hundred (100) percent of the ASM’s weekly salary and the amount of Employment Insurance Maternity Benefit the ASM is expected to receive if she qualifies for Employment Insurance Benefits."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "consecutive_after c2 and within c1 (weeks 3-17)",
+     "quote": "During the following fifteen (15) weeks of the Supplemented Maternity Leave the ASM shall receive from the University a payment equal to the difference between one hundred (100) percent of the ASM’s weekly salary and the amount of Employment Insurance Maternity Benefit the ASM is expected to receive if she qualifies for Employment Insurance Benefits."
+    }
+   ]
+  },
+  {
+   "component_id": "memorial_university_of_newfoundland_c4",
+   "institution_label": "EI maternity benefits",
+   "description": "Federal Employment Insurance maternity benefit, up to 15 weeks at 55% of insurable earnings, on which the agreement's maternity top-up is based.",
+   "mechanism": "government_benefit",
+   "payer": "government",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "insured employees outside Quebec; the agreement relies on EI for every ASM taking maternity leave (22.49, 22.57)",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "biological mothers, including surrogate mothers",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 15,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "pay_fraction": "55%",
+   "pay_cap": "up to a maximum amount ($547 per week stated on the 2018 SUB requirements page)",
+   "sequence": [
+    {
+     "relation": "concurrent_with",
+     "component_id": "memorial_university_of_newfoundland_c1",
+     "start_offset_weeks": 1,
+     "note": "EI one-week unpaid waiting period from the start of the leave (EI Act s. 13; programs.csv); the agreement's two weeks at 100% were written for the old two-week wait and do not move EI (R21)"
+    }
+   ],
+   "statute_source": "Employment Insurance Act, S.C. 1996, c. 23, ss. 12(3)(a), 13, 14(1), 22",
+   "statute_verified": true,
+   "rule_applied": [
+    "M1",
+    "R7",
+    "R21",
+    "U2",
+    "R5"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "During the following fifteen (15) weeks of the Supplemented Maternity Leave the ASM shall receive from the University a payment equal to the difference between one hundred (100) percent of the ASM’s weekly salary and the amount of Employment Insurance Maternity Benefit the ASM is expected to receive if she qualifies for Employment Insurance Benefits."
+    ],
+    "eligible_parent": [
+     "EI maternity benefits are offered to biological mothers, including surrogate mothers, who cannot work because they are pregnant or have recently given birth. A maximum of 15 weeks of EI maternity benefits is available."
+    ],
+    "entitlement": [
+     "(a) because of pregnancy is 15;"
+    ],
+    "duration": [
+     "EI maternity benefits are offered to biological mothers, including surrogate mothers, who cannot work because they are pregnant or have recently given birth. A maximum of 15 weeks of EI maternity benefits is available.",
+     "(a) because of pregnancy is 15;"
+    ],
+    "pay_fraction": [
+     "The weekly benefit rate is 55% of the claimant’s average weekly insurable earnings up to a maximum amount.",
+     "The rate of weekly benefits payable to a claimant is 55% of their weekly insurable earnings"
+    ],
+    "sequence": [
+     "A claimant is not entitled to be paid benefits in a benefit period until, after the beginning of the benefit period, the claimant has served a waiting period of one week of unemployment for which benefits would otherwise be payable."
+    ]
+   },
+   "doc_ids": [
+    "2018_03_ei_maternity_parental_benefits",
+    "2018_17_ca_ei_act_pit_2018-04-01",
+    "2018_00_link"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "M1",
+     "answer": "government_benefit",
+     "quote": "EI maternity benefits are offered to biological mothers, including surrogate mothers, who cannot work because they are pregnant or have recently given birth. A maximum of 15 weeks of EI maternity benefits is available."
+    },
+    {
+     "field": "payer",
+     "rule": "M1",
+     "answer": "government",
+     "quote": "EI maternity benefits are offered to biological mothers, including surrogate mothers, who cannot work because they are pregnant or have recently given birth. A maximum of 15 weeks of EI maternity benefits is available."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "EI maternity benefits are offered to biological mothers, including surrogate mothers, who cannot work because they are pregnant or have recently given birth. A maximum of 15 weeks of EI maternity benefits is available."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "During the following fifteen (15) weeks of the Supplemented Maternity Leave the ASM shall receive from the University a payment equal to the difference between one hundred (100) percent of the ASM’s weekly salary and the amount of Employment Insurance Maternity Benefit the ASM is expected to receive if she qualifies for Employment Insurance Benefits."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "birth_parent (biological mothers including surrogate mothers who give birth)",
+     "quote": "EI maternity benefits are offered to biological mothers, including surrogate mothers, who cannot work because they are pregnant or have recently given birth. A maximum of 15 weeks of EI maternity benefits is available."
+    },
+    {
+     "field": "entitlement",
+     "rule": "U2",
+     "answer": "guaranteed",
+     "quote": "(a) because of pregnancy is 15;"
+    },
+    {
+     "field": "duration",
+     "rule": "U2",
+     "answer": "15 weeks up_to",
+     "quote": "EI maternity benefits are offered to biological mothers, including surrogate mothers, who cannot work because they are pregnant or have recently given birth. A maximum of 15 weeks of EI maternity benefits is available."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "U2",
+     "answer": "55%",
+     "quote": "The rate of weekly benefits payable to a claimant is 55% of their weekly insurable earnings"
+    },
+    {
+     "field": "sequence",
+     "rule": "R21",
+     "answer": "concurrent_with c1, start_offset_weeks 1",
+     "quote": "A claimant is not entitled to be paid benefits in a benefit period until, after the beginning of the benefit period, the claimant has served a waiting period of one week of unemployment for which benefits would otherwise be payable."
+    }
+   ]
+  },
+  {
+   "component_id": "memorial_university_of_newfoundland_c5",
+   "institution_label": "Supplemented Parental Leave",
+   "description": "Leave from work of up to 15 weeks for an ASM who is the partner of the birth mother or who adopts, with pay as in Clause 22.63 (coded as c6 and c7).",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "ASMs holding a tenure-track or tenured appointment, or in the second or subsequent year of a term appointment (22.50)",
+   "eligible_parent": [
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "the partner of the birth mother or who adopts a child",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "22.59 'is eligible to apply'; 22.49 applications 'shall be approved providing the applicant meets the eligibility requirements'.",
+   "duration": {
+    "value": 15,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "dual_employee_rule": "adoption where both adoptive parents are ASMs: a maximum of 15 weeks in total, which they may divide (22.61)",
+   "time_window": "commences when the child is born or anytime during the following 52 weeks; for adoption, the date of placement (22.62)",
+   "service_requirement": "tenure-track or tenured appointment, or second or subsequent year of a term appointment (22.50)",
+   "return_obligation": "expected to work for the University for at least six months following return unless the end of a term appointment prevents it (22.51)",
+   "notice": "apply to the Administrative Head as early as practicable with commencement date and duration (22.62)",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "relief_note": "22.53: no adjustment of normal duties following the leave.",
+   "rule_applied": [
+    "R9",
+    "V2",
+    "R5",
+    "schema"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "track or tenured appointment or, be in the second or subsequent year of a term appointment"
+    ],
+    "eligible_parent": [
+     "An ASM who is the partner of the birth mother or who adopts a child is eligible to apply for Supplemented Parental Leave."
+    ],
+    "entitlement": [
+     "An ASM who is the partner of the birth mother or who adopts a child is eligible to apply for Supplemented Parental Leave.",
+     "Applications for such leaves shall be approved providing the applicant meets the eligibility requirements."
+    ],
+    "duration": [
+     "Supplemented Parental Leave is a leave from work of up to fifteen (15) weeks with pay and benefits as specified in Clauses 22.61 - 22.63."
+    ],
+    "dual_employee_rule": [
+     "In the case of an adoption where both adoptive parents are ASMs, a maximum of fifteen (15) weeks Supplemented Parental Leave will be granted. The parents may choose which one will apply for the Supplemented Parental Leave, and may request that the leave time be divided between them."
+    ],
+    "time_window": [
+     "The leave shall commence when the child is born or anytime during the following 52 weeks, or, in the case of adoption, the date on which the child is placed with the ASM."
+    ],
+    "service_requirement": [
+     "track or tenured appointment or, be in the second or subsequent year of a term appointment"
+    ],
+    "return_obligation": [
+     "on the understanding that the ASM is expected to work for the University for at least six (6) months following the date of his or her return from any of these leaves unless the conclusion of a term appointment prevents it."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "cross_reference_not_saved: Employment Insurance Regulations (22.49, 22.52)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "Supplemented Parental Leave is a leave from work of up to fifteen (15) weeks with pay and benefits as specified in Clauses 22.61 - 22.63."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Supplemented Parental Leave is a leave from work of up to fifteen (15) weeks with pay and benefits as specified in Clauses 22.61 - 22.63."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "An ASM who is the partner of the birth mother or who adopts a child is eligible to apply for Supplemented Parental Leave."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "track or tenured appointment or, be in the second or subsequent year of a term appointment"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "non_birth_parent, adoptive",
+     "quote": "An ASM who is the partner of the birth mother or who adopts a child is eligible to apply for Supplemented Parental Leave."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "Applications for such leaves shall be approved providing the applicant meets the eligibility requirements."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "15 weeks up_to",
+     "quote": "Supplemented Parental Leave is a leave from work of up to fifteen (15) weeks with pay and benefits as specified in Clauses 22.61 - 22.63."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "tenure-track or tenured appointment",
+     "quote": "track or tenured appointment or, be in the second or subsequent year of a term appointment"
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave; relief not stated)",
+     "quote": "Supplemented Parental Leave is a leave from work of up to fifteen (15) weeks with pay and benefits as specified in Clauses 22.61 - 22.63."
+    }
+   ]
+  },
+  {
+   "component_id": "memorial_university_of_newfoundland_c6",
+   "institution_label": "",
+   "description": "University pays 100% of weekly salary for the first two weeks of Supplemented Parental Leave.",
+   "mechanism": "employer_paid_leave",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "ASMs holding tenure-track or tenured appointments (Clause 22.50; the bargaining unit holds the Faculty Members)",
+   "eligible_parent": [
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "the partner of the birth mother or who adopts a child",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 2,
+    "units": "week",
+    "qualifier": "exact"
+   },
+   "pay_fraction": "100%",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "sequence": [
+    {
+     "relation": "within",
+     "component_id": "memorial_university_of_newfoundland_c5",
+     "note": "the first two weeks of the 15-week leave"
+    }
+   ],
+   "return_obligation": "expected to work for the University for at least six months following return (22.51)",
+   "rule_applied": [
+    "R9",
+    "R15",
+    "V4",
+    "R21"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "track or tenured appointment or, be in the second or subsequent year of a term appointment"
+    ],
+    "eligible_parent": [
+     "An ASM who is the partner of the birth mother or who adopts a child is eligible to apply for Supplemented Parental Leave."
+    ],
+    "entitlement": [
+     "The University shall pay one hundred (100) percent of the ASM’s weekly salary from the University for the first two (2) weeks of the Supplemented Parental Leave."
+    ],
+    "duration": [
+     "The University shall pay one hundred (100) percent of the ASM’s weekly salary from the University for the first two (2) weeks of the Supplemented Parental Leave."
+    ],
+    "pay_fraction": [
+     "The University shall pay one hundred (100) percent of the ASM’s weekly salary from the University for the first two (2) weeks of the Supplemented Parental Leave."
+    ],
+    "sequence": [
+     "The University shall pay one hundred (100) percent of the ASM’s weekly salary from the University for the first two (2) weeks of the Supplemented Parental Leave."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "cross_reference_not_saved: Supplemental Employment Benefits plan (22.54)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "V4",
+     "answer": "employer_paid_leave",
+     "quote": "The University shall pay one hundred (100) percent of the ASM’s weekly salary from the University for the first two (2) weeks of the Supplemented Parental Leave."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "The University shall pay one hundred (100) percent of the ASM’s weekly salary from the University for the first two (2) weeks of the Supplemented Parental Leave."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "The University shall pay one hundred (100) percent of the ASM’s weekly salary from the University for the first two (2) weeks of the Supplemented Parental Leave."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "track or tenured appointment or, be in the second or subsequent year of a term appointment"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "non_birth_parent, adoptive",
+     "quote": "An ASM who is the partner of the birth mother or who adopts a child is eligible to apply for Supplemented Parental Leave."
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "The University shall pay one hundred (100) percent of the ASM’s weekly salary from the University for the first two (2) weeks of the Supplemented Parental Leave."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "2 weeks exact",
+     "quote": "The University shall pay one hundred (100) percent of the ASM’s weekly salary from the University for the first two (2) weeks of the Supplemented Parental Leave."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "100%",
+     "quote": "The University shall pay one hundred (100) percent of the ASM’s weekly salary from the University for the first two (2) weeks of the Supplemented Parental Leave."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "within c5 (first two weeks)",
+     "quote": "The University shall pay one hundred (100) percent of the ASM’s weekly salary from the University for the first two (2) weeks of the Supplemented Parental Leave."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (paid weeks of a formal leave)",
+     "quote": "Supplemented Parental Leave is a leave from work of up to fifteen (15) weeks with pay and benefits as specified in Clauses 22.61 - 22.63."
+    }
+   ]
+  },
+  {
+   "component_id": "memorial_university_of_newfoundland_c7",
+   "institution_label": "",
+   "description": "During weeks 3-15 of Supplemented Parental Leave the University pays the difference between 100% of weekly salary and the expected EI parental benefit.",
+   "mechanism": "employer_topup",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "ASMs holding tenure-track or tenured appointments (Clause 22.50; the bargaining unit holds the Faculty Members)",
+   "eligible_parent": [
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "the partner of the birth mother or who adopts a child",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 13,
+    "units": "week",
+    "qualifier": "exact"
+   },
+   "pay_fraction": "100% (difference between 100% of weekly salary and the expected EI Parental Benefit)",
+   "pay_fraction_pct": 100,
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "memorial_university_of_newfoundland_c6",
+     "note": "'During the following thirteen (13) weeks'"
+    },
+    {
+     "relation": "within",
+     "component_id": "memorial_university_of_newfoundland_c5"
+    }
+   ],
+   "return_obligation": "expected to work for the University for at least six months following return (22.51)",
+   "rule_applied": [
+    "R15",
+    "V4",
+    "R7",
+    "R21"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "track or tenured appointment or, be in the second or subsequent year of a term appointment"
+    ],
+    "eligible_parent": [
+     "An ASM who is the partner of the birth mother or who adopts a child is eligible to apply for Supplemented Parental Leave."
+    ],
+    "entitlement": [
+     "During the following thirteen (13) weeks of the Supplemented Parental Leave the ASM shall receive from the University a payment equal to the difference between one hundred (100) percent of the ASM’s weekly salary and the amount of Employment Insurance Parental Benefit the ASM is expected to receive if the ASM qualifies for Employment Insurance Benefits."
+    ],
+    "duration": [
+     "During the following thirteen (13) weeks of the Supplemented Parental Leave the ASM shall receive from the University a payment equal to the difference between one hundred (100) percent of the ASM’s weekly salary and the amount of Employment Insurance Parental Benefit the ASM is expected to receive if the ASM qualifies for Employment Insurance Benefits."
+    ],
+    "pay_fraction": [
+     "During the following thirteen (13) weeks of the Supplemented Parental Leave the ASM shall receive from the University a payment equal to the difference between one hundred (100) percent of the ASM’s weekly salary and the amount of Employment Insurance Parental Benefit the ASM is expected to receive if the ASM qualifies for Employment Insurance Benefits."
+    ],
+    "sequence": [
+     "During the following thirteen (13) weeks of the Supplemented Parental Leave the ASM shall receive from the University a payment equal to the difference between one hundred (100) percent of the ASM’s weekly salary and the amount of Employment Insurance Parental Benefit the ASM is expected to receive if the ASM qualifies for Employment Insurance Benefits."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "cross_reference_not_saved: Supplemental Employment Benefits plan (22.54)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "employer_topup",
+     "quote": "During the following thirteen (13) weeks of the Supplemented Parental Leave the ASM shall receive from the University a payment equal to the difference between one hundred (100) percent of the ASM’s weekly salary and the amount of Employment Insurance Parental Benefit the ASM is expected to receive if the ASM qualifies for Employment Insurance Benefits."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "During the following thirteen (13) weeks of the Supplemented Parental Leave the ASM shall receive from the University a payment equal to the difference between one hundred (100) percent of the ASM’s weekly salary and the amount of Employment Insurance Parental Benefit the ASM is expected to receive if the ASM qualifies for Employment Insurance Benefits."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "During the following thirteen (13) weeks of the Supplemented Parental Leave the ASM shall receive from the University a payment equal to the difference between one hundred (100) percent of the ASM’s weekly salary and the amount of Employment Insurance Parental Benefit the ASM is expected to receive if the ASM qualifies for Employment Insurance Benefits."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "track or tenured appointment or, be in the second or subsequent year of a term appointment"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "non_birth_parent, adoptive",
+     "quote": "An ASM who is the partner of the birth mother or who adopts a child is eligible to apply for Supplemented Parental Leave."
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "During the following thirteen (13) weeks of the Supplemented Parental Leave the ASM shall receive from the University a payment equal to the difference between one hundred (100) percent of the ASM’s weekly salary and the amount of Employment Insurance Parental Benefit the ASM is expected to receive if the ASM qualifies for Employment Insurance Benefits."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "13 weeks exact",
+     "quote": "During the following thirteen (13) weeks of the Supplemented Parental Leave the ASM shall receive from the University a payment equal to the difference between one hundred (100) percent of the ASM’s weekly salary and the amount of Employment Insurance Parental Benefit the ASM is expected to receive if the ASM qualifies for Employment Insurance Benefits."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "tops up to 100% of weekly salary with the expected EI parental benefit",
+     "quote": "During the following thirteen (13) weeks of the Supplemented Parental Leave the ASM shall receive from the University a payment equal to the difference between one hundred (100) percent of the ASM’s weekly salary and the amount of Employment Insurance Parental Benefit the ASM is expected to receive if the ASM qualifies for Employment Insurance Benefits."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "consecutive_after c6 and within c5 (weeks 3-15)",
+     "quote": "During the following thirteen (13) weeks of the Supplemented Parental Leave the ASM shall receive from the University a payment equal to the difference between one hundred (100) percent of the ASM’s weekly salary and the amount of Employment Insurance Parental Benefit the ASM is expected to receive if the ASM qualifies for Employment Insurance Benefits."
+    }
+   ]
+  },
+  {
+   "component_id": "memorial_university_of_newfoundland_c8",
+   "institution_label": "EI parental benefits",
+   "description": "Federal Employment Insurance parental benefit, standard option up to 35 weeks at 55%, shared between the parents; the agreement's parental top-up is based on it.",
+   "mechanism": "government_benefit",
+   "payer": "government",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "insured employees outside Quebec; the agreement relies on EI for parental leave (22.52, 22.63)",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "parents who are caring for a newborn or newly adopted child or children",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 35,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "duration_variants": {
+    "standard": "35 weeks at 55% (counted, U2)",
+    "extended": "61 weeks at 33% (births from 2017-12-03; recorded only, U2)"
+   },
+   "duration_note": "The two parents can share the 35 weeks; counted in full for each role (U2). Must be claimed within 52 weeks of the birth or placement.",
+   "time_window": "must be claimed within a 52 week period (12 months) after the week the child was born or placed",
+   "pay_fraction": "55%",
+   "pay_cap": "up to a maximum amount",
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "memorial_university_of_newfoundland_c4",
+     "roles": [
+      "birth"
+     ],
+     "note": "birth parent: parental benefits follow maternity benefits; no second waiting period (R21)"
+    },
+    {
+     "relation": "concurrent_with",
+     "component_id": "memorial_university_of_newfoundland_c5",
+     "start_offset_weeks": 1,
+     "roles": [
+      "nonbirth"
+     ],
+     "note": "non-birth parent serves its own one-week waiting period (R21); deferral where the other parent served it (EI Act s. 23(5)) not applied"
+    }
+   ],
+   "statute_source": "Employment Insurance Act, S.C. 1996, c. 23, ss. 12(3)(b), 12(4)(b), 13, 14(1), 23",
+   "statute_verified": true,
+   "rule_applied": [
+    "M1",
+    "R7",
+    "R21",
+    "U2"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "During the following thirteen (13) weeks of the Supplemented Parental Leave the ASM shall receive from the University a payment equal to the difference between one hundred (100) percent of the ASM’s weekly salary and the amount of Employment Insurance Parental Benefit the ASM is expected to receive if the ASM qualifies for Employment Insurance Benefits."
+    ],
+    "eligible_parent": [
+     "EI parental benefits are offered to parents who are caring for a newborn or newly adopted child or children."
+    ],
+    "entitlement": [
+     "(b) for the care of one or more new-born or adopted children as a result of a single pregnancy or placement is, in accordance with the election under section 23, 35 or 61."
+    ],
+    "duration": [
+     "Standard parental benefits can be paid for a maximum of 35 weeks and must be claimed within a 52 week period (12 months) after the week the child was born or placed for the purpose of adoption.",
+     "(b) for the care of one or more new-born or adopted children as a result of a single pregnancy or placement is, in accordance with the election under section 23, 35 or 61."
+    ],
+    "pay_fraction": [
+     "The weekly benefit rate is 55% of the claimant’s average weekly insurable earnings up to a maximum amount.",
+     "The rate of weekly benefits payable to a claimant is 55% of their weekly insurable earnings"
+    ],
+    "sequence": [
+     "A claimant is not entitled to be paid benefits in a benefit period until, after the beginning of the benefit period, the claimant has served a waiting period of one week of unemployment for which benefits would otherwise be payable.",
+     "The two parents can share these 35 weeks of standard parental benefits."
+    ],
+    "time_window": [
+     "Standard parental benefits can be paid for a maximum of 35 weeks and must be claimed within a 52 week period (12 months) after the week the child was born or placed for the purpose of adoption."
+    ]
+   },
+   "doc_ids": [
+    "2018_03_ei_maternity_parental_benefits",
+    "2018_17_ca_ei_act_pit_2018-04-01",
+    "2018_00_link"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "M1",
+     "answer": "government_benefit",
+     "quote": "EI parental benefits are offered to parents who are caring for a newborn or newly adopted child or children."
+    },
+    {
+     "field": "payer",
+     "rule": "M1",
+     "answer": "government",
+     "quote": "EI parental benefits are offered to parents who are caring for a newborn or newly adopted child or children."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "EI parental benefits are offered to parents who are caring for a newborn or newly adopted child or children."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "During the following thirteen (13) weeks of the Supplemented Parental Leave the ASM shall receive from the University a payment equal to the difference between one hundred (100) percent of the ASM’s weekly salary and the amount of Employment Insurance Parental Benefit the ASM is expected to receive if the ASM qualifies for Employment Insurance Benefits."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent (gender- and role-neutral 'parents')",
+     "quote": "EI parental benefits are offered to parents who are caring for a newborn or newly adopted child or children."
+    },
+    {
+     "field": "entitlement",
+     "rule": "U2",
+     "answer": "guaranteed",
+     "quote": "(b) for the care of one or more new-born or adopted children as a result of a single pregnancy or placement is, in accordance with the election under section 23, 35 or 61."
+    },
+    {
+     "field": "duration",
+     "rule": "U2",
+     "answer": "35 weeks up_to (standard option; extended 61 in duration_variants)",
+     "quote": "Standard parental benefits can be paid for a maximum of 35 weeks and must be claimed within a 52 week period (12 months) after the week the child was born or placed for the purpose of adoption."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "U2",
+     "answer": "55%",
+     "quote": "The rate of weekly benefits payable to a claimant is 55% of their weekly insurable earnings"
+    },
+    {
+     "field": "sequence",
+     "rule": "R21",
+     "answer": "birth: consecutive_after c4; non-birth: concurrent_with c5 with start_offset_weeks 1",
+     "quote": "A claimant is not entitled to be paid benefits in a benefit period until, after the beginning of the benefit period, the claimant has served a waiting period of one week of unemployment for which benefits would otherwise be payable."
+    }
+   ]
+  },
+  {
+   "component_id": "memorial_university_of_newfoundland_c9",
+   "institution_label": "Parental Leave Without Pay Following a Supplemented Maternity or Parental Leave",
+   "description": "Unpaid parental leave beginning immediately after Supplemented Maternity or Supplemented Parental Leave, such that total leave does not exceed one year; the University continues its share of benefit premiums.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "An ASM who is eligible for Supplemented Maternity or Supplemented Parental Leave (22.50: tenure-track or tenured)",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "An ASM who is eligible for Supplemented Maternity or Supplemented Parental Leave",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "up_to"
+   },
+   "duration_note": "Stated as a total: 'such that the total duration of leave does not exceed one (1) year' including the preceding supplemented leave; the one-year total is recorded in leave_limits (52 weeks over c1, c5, c9). Birth parent: 17 + 35 = 52; non-birth parent: 15 + 37 = 52.",
+   "service_requirement": "eligible for Supplemented Maternity or Supplemented Parental Leave (tenure-track or tenured appointment, 22.50)",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "memorial_university_of_newfoundland_c1",
+     "roles": [
+      "birth"
+     ]
+    },
+    {
+     "relation": "consecutive_after",
+     "component_id": "memorial_university_of_newfoundland_c5",
+     "roles": [
+      "nonbirth"
+     ]
+    }
+   ],
+   "rule_applied": [
+    "R9",
+    "R15",
+    "R20",
+    "R13"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "An ASM who is eligible for Supplemented Maternity or Supplemented Parental Leave is entitled to Parental Leave Without Pay such that the total duration of leave does not exceed one (1) year."
+    ],
+    "eligible_parent": [
+     "An ASM who is eligible for Supplemented Maternity or Supplemented Parental Leave is entitled to Parental Leave Without Pay such that the total duration of leave does not exceed one (1) year."
+    ],
+    "entitlement": [
+     "An ASM who is eligible for Supplemented Maternity or Supplemented Parental Leave is entitled to Parental Leave Without Pay such that the total duration of leave does not exceed one (1) year."
+    ],
+    "duration": [
+     "An ASM who is eligible for Supplemented Maternity or Supplemented Parental Leave is entitled to Parental Leave Without Pay such that the total duration of leave does not exceed one (1) year."
+    ],
+    "service_requirement": [
+     "An ASM who is eligible for Supplemented Maternity or Supplemented Parental Leave is entitled to Parental Leave Without Pay such that the total duration of leave does not exceed one (1) year."
+    ],
+    "sequence": [
+     "Such leave shall begin immediately following the end of the Supplemented Maternity or Supplemented Parental Leave."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "An ASM who is eligible for Supplemented Maternity or Supplemented Parental Leave is entitled to Parental Leave Without Pay such that the total duration of leave does not exceed one (1) year."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "An ASM who is eligible for Supplemented Maternity or Supplemented Parental Leave is entitled to Parental Leave Without Pay such that the total duration of leave does not exceed one (1) year."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "An ASM who is eligible for Supplemented Maternity or Supplemented Parental Leave is entitled to Parental Leave Without Pay such that the total duration of leave does not exceed one (1) year."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "An ASM who is eligible for Supplemented Maternity or Supplemented Parental Leave is entitled to Parental Leave Without Pay such that the total duration of leave does not exceed one (1) year."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "birth_parent, non_birth_parent, adoptive (whoever took c1 or c5)",
+     "quote": "An ASM who is eligible for Supplemented Maternity or Supplemented Parental Leave is entitled to Parental Leave Without Pay such that the total duration of leave does not exceed one (1) year."
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "An ASM who is eligible for Supplemented Maternity or Supplemented Parental Leave is entitled to Parental Leave Without Pay such that the total duration of leave does not exceed one (1) year."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 year up_to ('does not exceed'), as a total including the preceding leave; cap in leave_limits",
+     "quote": "An ASM who is eligible for Supplemented Maternity or Supplemented Parental Leave is entitled to Parental Leave Without Pay such that the total duration of leave does not exceed one (1) year."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "eligible for supplemented leave",
+     "quote": "An ASM who is eligible for Supplemented Maternity or Supplemented Parental Leave is entitled to Parental Leave Without Pay such that the total duration of leave does not exceed one (1) year."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "consecutive_after c1 (birth) / c5 (non-birth)",
+     "quote": "Such leave shall begin immediately following the end of the Supplemented Maternity or Supplemented Parental Leave."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave)",
+     "quote": "An ASM who is eligible for Supplemented Maternity or Supplemented Parental Leave is entitled to Parental Leave Without Pay such that the total duration of leave does not exceed one (1) year."
+    }
+   ]
+  },
+  {
+   "component_id": "memorial_university_of_newfoundland_c10",
+   "institution_label": "Maternity or Parental Leave for ASMs Ineligible for Supplemented Maternity or Parental Leave",
+   "description": "Maternity or parental leave of up to 52 weeks (or to the end of the appointment) for ASMs not eligible for supplemented leave, i.e. term appointees before their second year; first two weeks paid (c11).",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "ASMs ineligible for Supplemented Maternity or Parental Leave (term appointees in the first year of a term appointment)",
+   "faculty_group_note": "Tenure-track and tenured ASMs are eligible for supplemented leave (22.50) and so are not in this group",
+   "eligible_parent": [
+    "any_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "before the birth of a child, or before the child came into an ASM’s care and custody",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 52,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "duration_note": "or until the end of the appointment, whichever comes first",
+   "service_requirement": "employed at least 13 weeks before the birth or placement",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "rule_applied": [
+    "R9",
+    "schema"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "MATERNITY OR PARENTAL LEAVE FOR ASMs INELIGIBLE FOR SUPPLEMENTED MATERNITY OR PARENTAL LEAVE",
+     "An ASM who is not eligible should consult Clause 22.66."
+    ],
+    "eligible_parent": [
+     "An ASM who has been employed with the University for at least thirteen (13) weeks before the birth of a child, or before the child came into an ASM’s care and custody for the first time, is entitled to a leave of up to fifty-two (52) weeks or until the end of the appointment, whichever comes first."
+    ],
+    "entitlement": [
+     "An ASM who has been employed with the University for at least thirteen (13) weeks before the birth of a child, or before the child came into an ASM’s care and custody for the first time, is entitled to a leave of up to fifty-two (52) weeks or until the end of the appointment, whichever comes first."
+    ],
+    "duration": [
+     "An ASM who has been employed with the University for at least thirteen (13) weeks before the birth of a child, or before the child came into an ASM’s care and custody for the first time, is entitled to a leave of up to fifty-two (52) weeks or until the end of the appointment, whichever comes first."
+    ],
+    "service_requirement": [
+     "An ASM who has been employed with the University for at least thirteen (13) weeks before the birth of a child, or before the child came into an ASM’s care and custody for the first time, is entitled to a leave of up to fifty-two (52) weeks or until the end of the appointment, whichever comes first."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "An ASM who has been employed with the University for at least thirteen (13) weeks before the birth of a child, or before the child came into an ASM’s care and custody for the first time, is entitled to a leave of up to fifty-two (52) weeks or until the end of the appointment, whichever comes first."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "An ASM who has been employed with the University for at least thirteen (13) weeks before the birth of a child, or before the child came into an ASM’s care and custody for the first time, is entitled to a leave of up to fifty-two (52) weeks or until the end of the appointment, whichever comes first."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "An ASM who has been employed with the University for at least thirteen (13) weeks before the birth of a child, or before the child came into an ASM’s care and custody for the first time, is entitled to a leave of up to fifty-two (52) weeks or until the end of the appointment, whichever comes first."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "ASMs ineligible for Supplemented Maternity or Parental Leave (term appointees in the first year of a term appointment)",
+     "quote": "MATERNITY OR PARENTAL LEAVE FOR ASMs INELIGIBLE FOR SUPPLEMENTED MATERNITY OR PARENTAL LEAVE"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent, adoptive (role-neutral; birth or placement)",
+     "quote": "An ASM who has been employed with the University for at least thirteen (13) weeks before the birth of a child, or before the child came into an ASM’s care and custody for the first time, is entitled to a leave of up to fifty-two (52) weeks or until the end of the appointment, whichever comes first."
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "An ASM who has been employed with the University for at least thirteen (13) weeks before the birth of a child, or before the child came into an ASM’s care and custody for the first time, is entitled to a leave of up to fifty-two (52) weeks or until the end of the appointment, whichever comes first."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "52 weeks up_to",
+     "quote": "An ASM who has been employed with the University for at least thirteen (13) weeks before the birth of a child, or before the child came into an ASM’s care and custody for the first time, is entitled to a leave of up to fifty-two (52) weeks or until the end of the appointment, whichever comes first."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "13 weeks before the birth",
+     "quote": "An ASM who has been employed with the University for at least thirteen (13) weeks before the birth of a child, or before the child came into an ASM’s care and custody for the first time, is entitled to a leave of up to fifty-two (52) weeks or until the end of the appointment, whichever comes first."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave)",
+     "quote": "An ASM who has been employed with the University for at least thirteen (13) weeks before the birth of a child, or before the child came into an ASM’s care and custody for the first time, is entitled to a leave of up to fifty-two (52) weeks or until the end of the appointment, whichever comes first."
+    }
+   ]
+  },
+  {
+   "component_id": "memorial_university_of_newfoundland_c11",
+   "institution_label": "",
+   "description": "University pays 100% of weekly salary for the first two weeks of the leave for ASMs ineligible for supplemented leave.",
+   "mechanism": "employer_paid_leave",
+   "payer": "employer",
+   "faculty_group": "ASMs ineligible for Supplemented Maternity or Parental Leave (term appointees in the first year of a term appointment)",
+   "faculty_group_note": "Clause 22.67, attached to 22.66",
+   "eligible_parent": [
+    "any_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "before the birth of a child, or before the child came into an ASM’s care and custody",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 2,
+    "units": "week",
+    "qualifier": "exact"
+   },
+   "pay_fraction": "100%",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "sequence": [
+    {
+     "relation": "within",
+     "component_id": "memorial_university_of_newfoundland_c10"
+    }
+   ],
+   "rule_applied": [
+    "R9",
+    "R15",
+    "V4"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "MATERNITY OR PARENTAL LEAVE FOR ASMs INELIGIBLE FOR SUPPLEMENTED MATERNITY OR PARENTAL LEAVE"
+    ],
+    "eligible_parent": [
+     "An ASM who has been employed with the University for at least thirteen (13) weeks before the birth of a child, or before the child came into an ASM’s care and custody for the first time, is entitled to a leave of up to fifty-two (52) weeks or until the end of the appointment, whichever comes first."
+    ],
+    "entitlement": [
+     "The University shall pay one hundred (100) percent of the ASM’s weekly salary for the first two weeks of the leave."
+    ],
+    "duration": [
+     "The University shall pay one hundred (100) percent of the ASM’s weekly salary for the first two weeks of the leave."
+    ],
+    "pay_fraction": [
+     "The University shall pay one hundred (100) percent of the ASM’s weekly salary for the first two weeks of the leave."
+    ],
+    "sequence": [
+     "The University shall pay one hundred (100) percent of the ASM’s weekly salary for the first two weeks of the leave."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "V4",
+     "answer": "employer_paid_leave",
+     "quote": "The University shall pay one hundred (100) percent of the ASM’s weekly salary for the first two weeks of the leave."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "The University shall pay one hundred (100) percent of the ASM’s weekly salary for the first two weeks of the leave."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "The University shall pay one hundred (100) percent of the ASM’s weekly salary for the first two weeks of the leave."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "ASMs ineligible for Supplemented Maternity or Parental Leave (term appointees in the first year of a term appointment)",
+     "quote": "MATERNITY OR PARENTAL LEAVE FOR ASMs INELIGIBLE FOR SUPPLEMENTED MATERNITY OR PARENTAL LEAVE"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent, adoptive",
+     "quote": "An ASM who has been employed with the University for at least thirteen (13) weeks before the birth of a child, or before the child came into an ASM’s care and custody for the first time, is entitled to a leave of up to fifty-two (52) weeks or until the end of the appointment, whichever comes first."
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "The University shall pay one hundred (100) percent of the ASM’s weekly salary for the first two weeks of the leave."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "2 weeks exact",
+     "quote": "The University shall pay one hundred (100) percent of the ASM’s weekly salary for the first two weeks of the leave."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "100%",
+     "quote": "The University shall pay one hundred (100) percent of the ASM’s weekly salary for the first two weeks of the leave."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "within c10 (first two weeks of the leave)",
+     "quote": "The University shall pay one hundred (100) percent of the ASM’s weekly salary for the first two weeks of the leave."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved",
+     "quote": "An ASM who has been employed with the University for at least thirteen (13) weeks before the birth of a child, or before the child came into an ASM’s care and custody for the first time, is entitled to a leave of up to fifty-two (52) weeks or until the end of the appointment, whichever comes first."
+    }
+   ]
+  },
+  {
+   "component_id": "memorial_university_of_newfoundland_c12",
+   "institution_label": "",
+   "description": "An ASM absent on sick leave, LTD, maternity or parental or other leaves for a continuous period over three months may elect to defer reviews and consideration for extension of the tenure-track appointment or tenure by one year (two years possible for leave over 15 months).",
+   "mechanism": "tenure_clock",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "ASMs (tenure-track Faculty Members and Librarians)",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "Supplemented or Non-Supplemented Maternity or Parental or other leaves",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "'may elect to defer' (V2: the member elects; no approval of whether)",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "exact"
+   },
+   "duration_note": "For a total leave of 3 to 15 months: one year beyond the end of the leave plus the interval to September 1. For a leave over 15 months: one or two years. A parent's leave under the agreement totals at most one year (22.65), so one year applies.",
+   "time_window": "available only after a continuous leave exceeding three months",
+   "rule_applied": [
+    "U1",
+    "V2",
+    "R13"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "In the event that an ASM is absent on sick leave, Long Term Disability, Supplemented or Non-Supplemented Maternity or Parental or other leaves for a continuous period exceeding three (3) months, the ASM may elect to defer non-decision year reviews and consideration for extension of the tenure track appointment or tenure in accordance with the following:"
+    ],
+    "eligible_parent": [
+     "In the event that an ASM is absent on sick leave, Long Term Disability, Supplemented or Non-Supplemented Maternity or Parental or other leaves for a continuous period exceeding three (3) months, the ASM may elect to defer non-decision year reviews and consideration for extension of the tenure track appointment or tenure in accordance with the following:"
+    ],
+    "entitlement": [
+     "In the event that an ASM is absent on sick leave, Long Term Disability, Supplemented or Non-Supplemented Maternity or Parental or other leaves for a continuous period exceeding three (3) months, the ASM may elect to defer non-decision year reviews and consideration for extension of the tenure track appointment or tenure in accordance with the following:"
+    ],
+    "duration": [
+     "where the total period of leave is between three (3) months and fifteen (15) months the deferral shall be for one (1) year beyond the time leave ends and the interval to September 1",
+     "where the total period of the leave exceeds fifteen (15) months the deferral shall be for either one (1) or two (2) years beyond the time the leave ends"
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "general_purpose",
+    "ambiguous: restriction: deferral available only where the leave is continuous and exceeds three months"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "In the event that an ASM is absent on sick leave, Long Term Disability, Supplemented or Non-Supplemented Maternity or Parental or other leaves for a continuous period exceeding three (3) months, the ASM may elect to defer non-decision year reviews and consideration for extension of the tenure track appointment or tenure in accordance with the following:"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "In the event that an ASM is absent on sick leave, Long Term Disability, Supplemented or Non-Supplemented Maternity or Parental or other leaves for a continuous period exceeding three (3) months, the ASM may elect to defer non-decision year reviews and consideration for extension of the tenure track appointment or tenure in accordance with the following:"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "In the event that an ASM is absent on sick leave, Long Term Disability, Supplemented or Non-Supplemented Maternity or Parental or other leaves for a continuous period exceeding three (3) months, the ASM may elect to defer non-decision year reviews and consideration for extension of the tenure track appointment or tenure in accordance with the following:"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "In the event that an ASM is absent on sick leave, Long Term Disability, Supplemented or Non-Supplemented Maternity or Parental or other leaves for a continuous period exceeding three (3) months, the ASM may elect to defer non-decision year reviews and consideration for extension of the tenure track appointment or tenure in accordance with the following:"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "In the event that an ASM is absent on sick leave, Long Term Disability, Supplemented or Non-Supplemented Maternity or Parental or other leaves for a continuous period exceeding three (3) months, the ASM may elect to defer non-decision year reviews and consideration for extension of the tenure track appointment or tenure in accordance with the following:"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "In the event that an ASM is absent on sick leave, Long Term Disability, Supplemented or Non-Supplemented Maternity or Parental or other leaves for a continuous period exceeding three (3) months, the ASM may elect to defer non-decision year reviews and consideration for extension of the tenure track appointment or tenure in accordance with the following:"
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 year exact (3-15 month leave)",
+     "quote": "where the total period of leave is between three (3) months and fifteen (15) months the deferral shall be for one (1) year beyond the time leave ends and the interval to September 1"
+    }
+   ]
+  },
+  {
+   "component_id": "memorial_university_of_newfoundland_c13",
+   "institution_label": "Sick Leave",
+   "description": "Absence from work for sickness or disability during the 60-calendar-day waiting period of the Long Term Disability Plan (leave status; pay coded as c14).",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "mechanism_note": "U6: the text grants absence ('absent from work with full pay') for a stated period (the 60-calendar-day LTD waiting period), so the leave and its pay are separate components.",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "ASMs",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "an ASM ... sick or disabled",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 60,
+    "units": "calendar_day",
+    "qualifier": "exact"
+   },
+   "duration_note": "Sick leave runs while the ASM is sick or disabled, during the 60-calendar-day LTD waiting period; LTD (c15) follows for prolonged disability. No childbirth-specific period stated.",
+   "notice": "notify the Administrative Head of sick leave likely to last 10 or more days, within 15 days of its start (22.44)",
+   "time_window": "during the sixty (60) calendar day waiting period under the Long Term Disability Plan",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "rule_applied": [
+    "U6",
+    "U5",
+    "R9",
+    "R11b"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "An ASM shall be entitled to sick leave from the University during the sixty (60) calendar day waiting period under this Plan."
+    ],
+    "eligible_parent": [
+     "Sick leave means the period of time an ASM is absent from work with full pay by virtue of being sick or disabled, or quarantined by virtue of being exposed to a contagious disease."
+    ],
+    "entitlement": [
+     "An ASM shall be entitled to sick leave from the University during the sixty (60) calendar day waiting period under this Plan."
+    ],
+    "duration": [
+     "An ASM shall be entitled to sick leave from the University during the sixty (60) calendar day waiting period under this Plan."
+    ],
+    "notice": [
+     "ASMs shall notify the Administrative Head of all periods of sick leave that are likely to result in sick leave of ten (10) or more days. This information shall be provided within fifteen (15) days of the commencement of the sick leave."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "cross_reference_not_saved: Long Term Disability Plan",
+    "own_illness_leave"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "U6",
+     "answer": "unpaid_leave",
+     "quote": "Sick leave means the period of time an ASM is absent from work with full pay by virtue of being sick or disabled, or quarantined by virtue of being exposed to a contagious disease."
+    },
+    {
+     "field": "payer",
+     "rule": "U6",
+     "answer": "none",
+     "quote": "Sick leave means the period of time an ASM is absent from work with full pay by virtue of being sick or disabled, or quarantined by virtue of being exposed to a contagious disease."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Sick leave means the period of time an ASM is absent from work with full pay by virtue of being sick or disabled, or quarantined by virtue of being exposed to a contagious disease."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "An ASM shall be entitled to sick leave from the University during the sixty (60) calendar day waiting period under this Plan."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own illness or disability)",
+     "quote": "Sick leave means the period of time an ASM is absent from work with full pay by virtue of being sick or disabled, or quarantined by virtue of being exposed to a contagious disease."
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "An ASM shall be entitled to sick leave from the University during the sixty (60) calendar day waiting period under this Plan."
+    },
+    {
+     "field": "duration",
+     "rule": "R11b",
+     "answer": "60 calendar days exact (the LTD waiting period)",
+     "quote": "An ASM shall be entitled to sick leave from the University during the sixty (60) calendar day waiting period under this Plan."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (absence from work)",
+     "quote": "Sick leave means the period of time an ASM is absent from work with full pay by virtue of being sick or disabled, or quarantined by virtue of being exposed to a contagious disease."
+    }
+   ]
+  },
+  {
+   "component_id": "memorial_university_of_newfoundland_c14",
+   "institution_label": "Sick Leave",
+   "description": "Full pay during sick leave (the 60-calendar-day LTD waiting period); childbirth is not named, so it is a generic plan.",
+   "mechanism": "generic_sick_or_disability_plan",
+   "payer": "employer",
+   "mechanism_note": "V1: no childbirth-specific period is stated, so the paid sick leave stays a generic plan; employer-granted, not an accrued balance (R1).",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "ASMs",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "an ASM ... sick or disabled",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 60,
+    "units": "calendar_day",
+    "qualifier": "exact"
+   },
+   "pay_fraction": "full pay",
+   "sequence": [
+    {
+     "relation": "within",
+     "component_id": "memorial_university_of_newfoundland_c13"
+    }
+   ],
+   "time_window": "during the sixty (60) calendar day waiting period under the Long Term Disability Plan",
+   "rule_applied": [
+    "U6",
+    "V1",
+    "V6",
+    "R1",
+    "U5"
+   ],
+   "evidence": {
+    "mechanism": [
+     "Sick leave means the period of time an ASM is absent from work with full pay by virtue of being sick or disabled, or quarantined by virtue of being exposed to a contagious disease."
+    ],
+    "faculty_group": [
+     "An ASM shall be entitled to sick leave from the University during the sixty (60) calendar day waiting period under this Plan."
+    ],
+    "eligible_parent": [
+     "Sick leave means the period of time an ASM is absent from work with full pay by virtue of being sick or disabled, or quarantined by virtue of being exposed to a contagious disease."
+    ],
+    "entitlement": [
+     "An ASM shall be entitled to sick leave from the University during the sixty (60) calendar day waiting period under this Plan."
+    ],
+    "duration": [
+     "An ASM shall be entitled to sick leave from the University during the sixty (60) calendar day waiting period under this Plan."
+    ],
+    "pay_fraction": [
+     "Sick leave means the period of time an ASM is absent from work with full pay by virtue of being sick or disabled, or quarantined by virtue of being exposed to a contagious disease."
+    ],
+    "sequence": [
+     "Sick leave means the period of time an ASM is absent from work with full pay by virtue of being sick or disabled, or quarantined by virtue of being exposed to a contagious disease."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "cross_reference_not_saved: Long Term Disability Plan"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "V1",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "Sick leave means the period of time an ASM is absent from work with full pay by virtue of being sick or disabled, or quarantined by virtue of being exposed to a contagious disease."
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "employer",
+     "quote": "An ASM shall be entitled to sick leave from the University during the sixty (60) calendar day waiting period under this Plan."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Sick leave means the period of time an ASM is absent from work with full pay by virtue of being sick or disabled, or quarantined by virtue of being exposed to a contagious disease."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "An ASM shall be entitled to sick leave from the University during the sixty (60) calendar day waiting period under this Plan."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent",
+     "quote": "Sick leave means the period of time an ASM is absent from work with full pay by virtue of being sick or disabled, or quarantined by virtue of being exposed to a contagious disease."
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "An ASM shall be entitled to sick leave from the University during the sixty (60) calendar day waiting period under this Plan."
+    },
+    {
+     "field": "duration",
+     "rule": "V6",
+     "answer": "60 calendar days exact (short-term entitlement)",
+     "quote": "An ASM shall be entitled to sick leave from the University during the sixty (60) calendar day waiting period under this Plan."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "full pay",
+     "quote": "Sick leave means the period of time an ASM is absent from work with full pay by virtue of being sick or disabled, or quarantined by virtue of being exposed to a contagious disease."
+    },
+    {
+     "field": "sequence",
+     "rule": "U6",
+     "answer": "within c13",
+     "quote": "Sick leave means the period of time an ASM is absent from work with full pay by virtue of being sick or disabled, or quarantined by virtue of being exposed to a contagious disease."
+    }
+   ]
+  },
+  {
+   "component_id": "memorial_university_of_newfoundland_c15",
+   "institution_label": "Long Term Disability Plan",
+   "description": "Compulsory long-term disability insurance for prolonged disability after the 60-calendar-day waiting period.",
+   "mechanism": "generic_sick_or_disability_plan",
+   "payer": "insurance_plan",
+   "mechanism_note": "Long-term disability (schema §2): recorded without a duration.",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "eligible ASMs",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "prolonged periods of disability",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "time_window": "after the sixty (60) calendar day waiting period",
+   "rule_applied": [
+    "schema",
+    "U5",
+    "M1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Benefits for prolonged periods of disability are provided under the Long Term Disability Plan, and membership in this Plan is compulsory for eligible ASMs."
+    ],
+    "eligible_parent": [
+     "Benefits for prolonged periods of disability are provided under the Long Term Disability Plan, and membership in this Plan is compulsory for eligible ASMs."
+    ],
+    "entitlement": [
+     "Benefits for prolonged periods of disability are provided under the Long Term Disability Plan, and membership in this Plan is compulsory for eligible ASMs."
+    ],
+    "payer": [
+     "All insurance benefit plans in place at the time this Collective Agreement is signed shall remain in force on the current cost-sharing basis."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "cross_reference_not_saved: Long Term Disability Plan"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "Benefits for prolonged periods of disability are provided under the Long Term Disability Plan, and membership in this Plan is compulsory for eligible ASMs."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "insurance_plan",
+     "quote": "All insurance benefit plans in place at the time this Collective Agreement is signed shall remain in force on the current cost-sharing basis."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Benefits for prolonged periods of disability are provided under the Long Term Disability Plan, and membership in this Plan is compulsory for eligible ASMs."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Benefits for prolonged periods of disability are provided under the Long Term Disability Plan, and membership in this Plan is compulsory for eligible ASMs."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent",
+     "quote": "Benefits for prolonged periods of disability are provided under the Long Term Disability Plan, and membership in this Plan is compulsory for eligible ASMs."
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "Benefits for prolonged periods of disability are provided under the Long Term Disability Plan, and membership in this Plan is compulsory for eligible ASMs."
+    }
+   ]
+  },
+  {
+   "component_id": "memorial_university_of_newfoundland_c16",
+   "institution_label": "Leave in Special Circumstances",
+   "description": "Up to three days a year of paid special leave for temporary care of a sick family member, medical, dental or legal appointments, and home or family emergencies.",
+   "mechanism": "employer_paid_leave",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "an ASM",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent"
+   ],
+   "eligible_parent_wording": "temporary care of a sick family member; medical, dental ... appointments",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 3,
+    "units": "day",
+    "qualifier": "up_to"
+   },
+   "duration_note": "per year",
+   "pay_fraction": "with pay",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "rule_applied": [
+    "U1",
+    "U5",
+    "R9",
+    "R11"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Following consultation with the Administrative Head an ASM shall be granted special leave with pay not exceeding three (3) days a year to attend to the temporary care of a sick family member; medical, dental or legal appointments; and for home or family emergencies."
+    ],
+    "eligible_parent": [
+     "Following consultation with the Administrative Head an ASM shall be granted special leave with pay not exceeding three (3) days a year to attend to the temporary care of a sick family member; medical, dental or legal appointments; and for home or family emergencies."
+    ],
+    "entitlement": [
+     "Following consultation with the Administrative Head an ASM shall be granted special leave with pay not exceeding three (3) days a year to attend to the temporary care of a sick family member; medical, dental or legal appointments; and for home or family emergencies."
+    ],
+    "duration": [
+     "Following consultation with the Administrative Head an ASM shall be granted special leave with pay not exceeding three (3) days a year to attend to the temporary care of a sick family member; medical, dental or legal appointments; and for home or family emergencies."
+    ],
+    "pay_fraction": [
+     "Following consultation with the Administrative Head an ASM shall be granted special leave with pay not exceeding three (3) days a year to attend to the temporary care of a sick family member; medical, dental or legal appointments; and for home or family emergencies."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "employer_paid_leave",
+     "quote": "Following consultation with the Administrative Head an ASM shall be granted special leave with pay not exceeding three (3) days a year to attend to the temporary care of a sick family member; medical, dental or legal appointments; and for home or family emergencies."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "Following consultation with the Administrative Head an ASM shall be granted special leave with pay not exceeding three (3) days a year to attend to the temporary care of a sick family member; medical, dental or legal appointments; and for home or family emergencies."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "Following consultation with the Administrative Head an ASM shall be granted special leave with pay not exceeding three (3) days a year to attend to the temporary care of a sick family member; medical, dental or legal appointments; and for home or family emergencies."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Following consultation with the Administrative Head an ASM shall be granted special leave with pay not exceeding three (3) days a year to attend to the temporary care of a sick family member; medical, dental or legal appointments; and for home or family emergencies."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own medical appointments) and non_birth_parent (care of a sick family member)",
+     "quote": "Following consultation with the Administrative Head an ASM shall be granted special leave with pay not exceeding three (3) days a year to attend to the temporary care of a sick family member; medical, dental or legal appointments; and for home or family emergencies."
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "Following consultation with the Administrative Head an ASM shall be granted special leave with pay not exceeding three (3) days a year to attend to the temporary care of a sick family member; medical, dental or legal appointments; and for home or family emergencies."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "3 days up_to ('not exceeding')",
+     "quote": "Following consultation with the Administrative Head an ASM shall be granted special leave with pay not exceeding three (3) days a year to attend to the temporary care of a sick family member; medical, dental or legal appointments; and for home or family emergencies."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "with pay",
+     "quote": "Following consultation with the Administrative Head an ASM shall be granted special leave with pay not exceeding three (3) days a year to attend to the temporary care of a sick family member; medical, dental or legal appointments; and for home or family emergencies."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved",
+     "quote": "Following consultation with the Administrative Head an ASM shall be granted special leave with pay not exceeding three (3) days a year to attend to the temporary care of a sick family member; medical, dental or legal appointments; and for home or family emergencies."
+    }
+   ]
+  },
+  {
+   "component_id": "memorial_university_of_newfoundland_c17",
+   "institution_label": "Compassionate Leave",
+   "description": "Up to ten days of leave without loss of pay for the death or serious illness of a near relative, spouse or live-in partner; longer requests not unreasonably denied.",
+   "mechanism": "employer_paid_leave",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "an ASM",
+   "eligible_parent": [
+    "non_birth_parent"
+   ],
+   "eligible_parent_wording": "serious illness of a near relative, common-law spouse, or other live-in partner",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 10,
+    "units": "day",
+    "qualifier": "up_to"
+   },
+   "duration_note": "A request for a longer period 'shall not be unreasonably denied' (no length stated).",
+   "pay_fraction": "without loss of pay",
+   "notice": "reasonable notice to the Administrative Head (22.69)",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "rule_applied": [
+    "U1",
+    "U5",
+    "R9",
+    "R11"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "An ASM shall be entitled to leave without loss of pay not exceeding a total of ten (10) days in the case of death or serious illness of a near relative, common-law spouse, or other live-in partner."
+    ],
+    "eligible_parent": [
+     "An ASM shall be entitled to leave without loss of pay not exceeding a total of ten (10) days in the case of death or serious illness of a near relative, common-law spouse, or other live-in partner."
+    ],
+    "entitlement": [
+     "An ASM shall be entitled to leave without loss of pay not exceeding a total of ten (10) days in the case of death or serious illness of a near relative, common-law spouse, or other live-in partner."
+    ],
+    "duration": [
+     "An ASM shall be entitled to leave without loss of pay not exceeding a total of ten (10) days in the case of death or serious illness of a near relative, common-law spouse, or other live-in partner.",
+     "A request for a period in excess of this total shall not be unreasonably denied."
+    ],
+    "pay_fraction": [
+     "An ASM shall be entitled to leave without loss of pay not exceeding a total of ten (10) days in the case of death or serious illness of a near relative, common-law spouse, or other live-in partner."
+    ],
+    "notice": [
+     "An ASM shall give reasonable notice of the need for compassionate leave to the Administrative Head."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "family_illness_leave"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "employer_paid_leave",
+     "quote": "An ASM shall be entitled to leave without loss of pay not exceeding a total of ten (10) days in the case of death or serious illness of a near relative, common-law spouse, or other live-in partner."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "An ASM shall be entitled to leave without loss of pay not exceeding a total of ten (10) days in the case of death or serious illness of a near relative, common-law spouse, or other live-in partner."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "An ASM shall be entitled to leave without loss of pay not exceeding a total of ten (10) days in the case of death or serious illness of a near relative, common-law spouse, or other live-in partner."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "An ASM shall be entitled to leave without loss of pay not exceeding a total of ten (10) days in the case of death or serious illness of a near relative, common-law spouse, or other live-in partner."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "non_birth_parent (serious illness of spouse or partner; care of the birth parent)",
+     "quote": "An ASM shall be entitled to leave without loss of pay not exceeding a total of ten (10) days in the case of death or serious illness of a near relative, common-law spouse, or other live-in partner."
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "An ASM shall be entitled to leave without loss of pay not exceeding a total of ten (10) days in the case of death or serious illness of a near relative, common-law spouse, or other live-in partner."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "10 days up_to ('not exceeding a total of')",
+     "quote": "An ASM shall be entitled to leave without loss of pay not exceeding a total of ten (10) days in the case of death or serious illness of a near relative, common-law spouse, or other live-in partner."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "without loss of pay",
+     "quote": "An ASM shall be entitled to leave without loss of pay not exceeding a total of ten (10) days in the case of death or serious illness of a near relative, common-law spouse, or other live-in partner."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved",
+     "quote": "An ASM shall be entitled to leave without loss of pay not exceeding a total of ten (10) days in the case of death or serious illness of a near relative, common-law spouse, or other live-in partner."
+    }
+   ]
+  },
+  {
+   "component_id": "memorial_university_of_newfoundland_c18",
+   "institution_label": "Other Leave with Pay",
+   "description": "Leave for appropriate purposes with full or partial salary on terms negotiated between the ASM and the University.",
+   "mechanism": "employer_paid_leave",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "An ASM",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "An ASM",
+   "caregiver_condition": "none",
+   "entitlement": "negotiated",
+   "entitlement_note": "R12: amount and form 'on terms negotiated', no guaranteed minimum.",
+   "pay_fraction": "full or partial salary",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "rule_applied": [
+    "U1",
+    "R12",
+    "R9"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "An ASM may receive leave for appropriate purposes with full or partial salary and employee benefits on terms negotiated between the ASM and the University."
+    ],
+    "eligible_parent": [
+     "An ASM may receive leave for appropriate purposes with full or partial salary and employee benefits on terms negotiated between the ASM and the University."
+    ],
+    "entitlement": [
+     "An ASM may receive leave for appropriate purposes with full or partial salary and employee benefits on terms negotiated between the ASM and the University."
+    ],
+    "pay_fraction": [
+     "An ASM may receive leave for appropriate purposes with full or partial salary and employee benefits on terms negotiated between the ASM and the University."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "employer_paid_leave",
+     "quote": "An ASM may receive leave for appropriate purposes with full or partial salary and employee benefits on terms negotiated between the ASM and the University."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "An ASM may receive leave for appropriate purposes with full or partial salary and employee benefits on terms negotiated between the ASM and the University."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "An ASM may receive leave for appropriate purposes with full or partial salary and employee benefits on terms negotiated between the ASM and the University."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "An ASM may receive leave for appropriate purposes with full or partial salary and employee benefits on terms negotiated between the ASM and the University."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "An ASM may receive leave for appropriate purposes with full or partial salary and employee benefits on terms negotiated between the ASM and the University."
+    },
+    {
+     "field": "entitlement",
+     "rule": "R12",
+     "answer": "negotiated",
+     "quote": "An ASM may receive leave for appropriate purposes with full or partial salary and employee benefits on terms negotiated between the ASM and the University."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "full or partial salary (negotiated)",
+     "quote": "An ASM may receive leave for appropriate purposes with full or partial salary and employee benefits on terms negotiated between the ASM and the University."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved",
+     "quote": "An ASM may receive leave for appropriate purposes with full or partial salary and employee benefits on terms negotiated between the ASM and the University."
+    }
+   ]
+  },
+  {
+   "component_id": "memorial_university_of_newfoundland_c19",
+   "institution_label": "Special Leave Without Pay",
+   "description": "Leave without pay for appropriate purposes on terms negotiated between the ASM and the University; applications not unreasonably denied.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "An ASM",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "An ASM",
+   "caregiver_condition": "none",
+   "entitlement": "negotiated",
+   "entitlement_note": "R12: 'on terms negotiated' with no guaranteed minimum; R12 governs over V2d although 'Applications shall not be unreasonably denied'.",
+   "notice": "application a reasonable period of time in advance, stating reasons, commencement and duration (22.79)",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "rule_applied": [
+    "U1",
+    "R12",
+    "V2d",
+    "R9"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "An ASM may receive leave for appropriate purposes without pay on terms negotiated between the ASM and the University."
+    ],
+    "eligible_parent": [
+     "An ASM may receive leave for appropriate purposes without pay on terms negotiated between the ASM and the University."
+    ],
+    "entitlement": [
+     "An ASM may receive leave for appropriate purposes without pay on terms negotiated between the ASM and the University.",
+     "Applications shall not be unreasonably denied."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "An ASM may receive leave for appropriate purposes without pay on terms negotiated between the ASM and the University."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "An ASM may receive leave for appropriate purposes without pay on terms negotiated between the ASM and the University."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "An ASM may receive leave for appropriate purposes without pay on terms negotiated between the ASM and the University."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "An ASM may receive leave for appropriate purposes without pay on terms negotiated between the ASM and the University."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "An ASM may receive leave for appropriate purposes without pay on terms negotiated between the ASM and the University."
+    },
+    {
+     "field": "entitlement",
+     "rule": "R12",
+     "answer": "negotiated",
+     "quote": "An ASM may receive leave for appropriate purposes without pay on terms negotiated between the ASM and the University."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved",
+     "quote": "An ASM may receive leave for appropriate purposes without pay on terms negotiated between the ASM and the University."
+    }
+   ]
+  },
+  {
+   "component_id": "memorial_university_of_newfoundland_c20",
+   "institution_label": "REDUCTION IN DUTIES AND RESPONSIBILITIES",
+   "description": "Tenure-track or tenured ASMs may apply for a reduction to not less than half-time, with salary prorated, for a defined period of up to five years or indefinitely; outside pre-retirement cases, decided case by case.",
+   "mechanism": "part_time_option",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Tenure-track or tenured ASMs or permanent ASM-CFEs",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "a full-time ASM",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "entitlement_note": "Outside the pre-retirement case (normally granted), 'other circumstances ... shall be dealt with on a case-by-case basis' (V2).",
+   "duration": {
+    "value": 5,
+    "units": "year",
+    "qualifier": "up_to"
+   },
+   "duration_note": "or an indefinite period; renewal and return require ten months' notice (5.02)",
+   "pay_fraction": "prorated to the Basic Annual Salary",
+   "rule_applied": [
+    "R3",
+    "U1",
+    "V2"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Tenure-track or tenured ASMs or permanent ASM-CFEs may apply for a reduction in duties and responsibilities to not less than half of the full-time duties and responsibilities in the unit on the following basis:"
+    ],
+    "eligible_parent": [
+     "The Parties recognize that there may be other circumstances in which a full-time ASM may wish to be granted a reduction in duties and responsibilities. Such situations shall be dealt with on a case-by-case basis."
+    ],
+    "entitlement": [
+     "The Parties recognize that there may be other circumstances in which a full-time ASM may wish to be granted a reduction in duties and responsibilities. Such situations shall be dealt with on a case-by-case basis."
+    ],
+    "duration": [
+     "the ASM shall specify whether the request is for an indefinite period or for a defined period of up to five (5) years."
+    ],
+    "pay_fraction": [
+     "Similarly the salaries of ASMs with a reduction in duties and responsibilities shall be prorated to the Basic Annual Salary."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R3",
+     "answer": "part_time_option",
+     "quote": "Similarly the salaries of ASMs with a reduction in duties and responsibilities shall be prorated to the Basic Annual Salary."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "Similarly the salaries of ASMs with a reduction in duties and responsibilities shall be prorated to the Basic Annual Salary."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "The Parties recognize that there may be other circumstances in which a full-time ASM may wish to be granted a reduction in duties and responsibilities. Such situations shall be dealt with on a case-by-case basis."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Tenure-track or tenured ASMs or permanent ASM-CFEs may apply for a reduction in duties and responsibilities to not less than half of the full-time duties and responsibilities in the unit on the following basis:"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "The Parties recognize that there may be other circumstances in which a full-time ASM may wish to be granted a reduction in duties and responsibilities. Such situations shall be dealt with on a case-by-case basis."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "The Parties recognize that there may be other circumstances in which a full-time ASM may wish to be granted a reduction in duties and responsibilities. Such situations shall be dealt with on a case-by-case basis."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "5 years up_to",
+     "quote": "the ASM shall specify whether the request is for an indefinite period or for a defined period of up to five (5) years."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "R3",
+     "answer": "prorated salary",
+     "quote": "Similarly the salaries of ASMs with a reduction in duties and responsibilities shall be prorated to the Basic Annual Salary."
+    }
+   ]
+  },
+  {
+   "component_id": "memorial_university_of_newfoundland_c21",
+   "institution_label": "Vacations",
+   "description": "Annual vacation of 25 days per academic year (30 after ten years), carry-forward of up to one year's entitlement; the member's own balance.",
+   "mechanism": "own_accrual",
+   "payer": "own_balance",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "ASMs",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "ASMs",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 25,
+    "units": "day",
+    "qualifier": "exact"
+   },
+   "duration_note": "per Academic Year; 30 days after ten years of service (U8: two-year member takes 25); up to one year's entitlement may be carried forward; taken outside normal course commitments on notice, otherwise with approval (22.07).",
+   "rule_applied": [
+    "R1",
+    "U1",
+    "U8",
+    "R11"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "ASMs shall be entitled to twenty-five (25) days vacation leave in each Academic Year."
+    ],
+    "eligible_parent": [
+     "ASMs shall be entitled to twenty-five (25) days vacation leave in each Academic Year."
+    ],
+    "entitlement": [
+     "ASMs shall be entitled to twenty-five (25) days vacation leave in each Academic Year."
+    ],
+    "duration": [
+     "ASMs shall be entitled to twenty-five (25) days vacation leave in each Academic Year.",
+     "After ten (10) years of service an ASM shall be entitled to thirty (30) days vacation leave in each Academic Year."
+    ],
+    "notice": [
+     "ASMs other than Librarians and Counselling Faculty Members may take their vacation leave at any time outside the period required for their normal course commitments subject to the prior notification of the Administrative Head."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "own_accrual",
+     "quote": "ASMs shall be entitled to twenty-five (25) days vacation leave in each Academic Year."
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "own_balance",
+     "quote": "ASMs shall be entitled to twenty-five (25) days vacation leave in each Academic Year."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "ASMs other than Librarians and Counselling Faculty Members may take their vacation leave at any time outside the period required for their normal course commitments subject to the prior notification of the Administrative Head."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "ASMs shall be entitled to twenty-five (25) days vacation leave in each Academic Year."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "ASMs shall be entitled to twenty-five (25) days vacation leave in each Academic Year."
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "ASMs shall be entitled to twenty-five (25) days vacation leave in each Academic Year."
+    },
+    {
+     "field": "duration",
+     "rule": "U8",
+     "answer": "25 days (two-year member; 30 after ten years in note)",
+     "quote": "After ten (10) years of service an ASM shall be entitled to thirty (30) days vacation leave in each Academic Year."
+    }
+   ]
+  },
+  {
+   "component_id": "memorial_university_of_newfoundland_c22",
+   "institution_label": "Pregnancy leave",
+   "description": "Newfoundland and Labrador Labour Standards Act: unpaid pregnancy leave of 17 weeks for a pregnant employee with 20 consecutive weeks of service.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "employees under a contract of service in the province (s. 40(1); see s. 2(b) flag)",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "A pregnant employee",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 17,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "duration_note": "ends 17 weeks after it begins, or on an earlier day on 4 weeks' notice (s. 42(1), (3)); may begin no earlier than 17 weeks before the expected birth date (s. 40(2)). Length unchanged between the 2017-12-24 and 2018-04-22 consolidations.",
+   "service_requirement": "20 consecutive weeks with the same employer immediately before the expected birth date",
+   "notice": "at least 2 weeks written notice and a medical or nurse practitioner's certificate of the estimated birth date (s. 40(3))",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "sequence": [
+    {
+     "relation": "concurrent_with",
+     "component_id": "memorial_university_of_newfoundland_c1",
+     "note": "S1: statutory pregnancy leave runs alongside the agreement's 17-week Supplemented Maternity Leave"
+    }
+   ],
+   "statute_source": "Labour Standards Act, RSNL 1990, c. L-2, ss. 40-42",
+   "statute_verified": true,
+   "rule_applied": [
+    "U2",
+    "U4",
+    "S1",
+    "R13",
+    "R9"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "A pregnant employee who has been employed under a contract of service with the same employer for a period of 20 consecutive weeks immediately before the expected birth date is entitled to a leave of absence without pay.",
+     "but does not include a contract entered into by an employee qualified in or training for qualification in and working for an employer in the practice of",
+     "accountancy, architecture, law, medicine, pharmacy, professional engineering, surveying, teaching, veterinary science, and"
+    ],
+    "eligible_parent": [
+     "A pregnant employee who has been employed under a contract of service with the same employer for a period of 20 consecutive weeks immediately before the expected birth date is entitled to a leave of absence without pay."
+    ],
+    "entitlement": [
+     "A pregnant employee who has been employed under a contract of service with the same employer for a period of 20 consecutive weeks immediately before the expected birth date is entitled to a leave of absence without pay."
+    ],
+    "duration": [
+     "The pregnancy leave of an employee who is entitled to take parental leave ends 17 weeks after the pregnancy leave begins.",
+     "The pregnancy leave of an employee ends on a day earlier than the day provided for in subsection (1) or (2) if the employee gives the employer at least 4 weeks written notice of that day."
+    ],
+    "service_requirement": [
+     "A pregnant employee who has been employed under a contract of service with the same employer for a period of 20 consecutive weeks immediately before the expected birth date is entitled to a leave of absence without pay."
+    ],
+    "sequence": [
+     "The pregnancy leave of an employee who is entitled to take parental leave ends 17 weeks after the pregnancy leave begins."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_nl_labour_standards_act",
+    "2018_28_nl_labour_standards"
+   ],
+   "flags": [
+    "ambiguous: rule gap: the Labour Standards Act is saved among the institution's sources but the collective agreement does not name it; coded as statutory leave (U4) on that basis",
+    "ambiguous: s. 2(b) excludes from 'contract of service' a contract of an employee qualified in and working in the practice of teaching; whether university faculty are covered is not settled by the sources"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "U2",
+     "answer": "unpaid_leave",
+     "quote": "A pregnant employee who has been employed under a contract of service with the same employer for a period of 20 consecutive weeks immediately before the expected birth date is entitled to a leave of absence without pay."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "A pregnant employee who has been employed under a contract of service with the same employer for a period of 20 consecutive weeks immediately before the expected birth date is entitled to a leave of absence without pay."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "A pregnant employee who has been employed under a contract of service with the same employer for a period of 20 consecutive weeks immediately before the expected birth date is entitled to a leave of absence without pay."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "U4",
+     "answer": "main_campus_tenure_stream",
+     "quote": "accountancy, architecture, law, medicine, pharmacy, professional engineering, surveying, teaching, veterinary science, and"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "birth_parent",
+     "quote": "A pregnant employee who has been employed under a contract of service with the same employer for a period of 20 consecutive weeks immediately before the expected birth date is entitled to a leave of absence without pay."
+    },
+    {
+     "field": "entitlement",
+     "rule": "U2",
+     "answer": "guaranteed",
+     "quote": "A pregnant employee who has been employed under a contract of service with the same employer for a period of 20 consecutive weeks immediately before the expected birth date is entitled to a leave of absence without pay."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "17 weeks up_to ('ends on a day earlier' on notice)",
+     "quote": "The pregnancy leave of an employee ends on a day earlier than the day provided for in subsection (1) or (2) if the employee gives the employer at least 4 weeks written notice of that day."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U2",
+     "answer": "20 consecutive weeks",
+     "quote": "A pregnant employee who has been employed under a contract of service with the same employer for a period of 20 consecutive weeks immediately before the expected birth date is entitled to a leave of absence without pay."
+    },
+    {
+     "field": "sequence",
+     "rule": "S1",
+     "answer": "concurrent_with c1",
+     "quote": "The pregnancy leave of an employee who is entitled to take parental leave ends 17 weeks after the pregnancy leave begins."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved",
+     "quote": "A pregnant employee who has been employed under a contract of service with the same employer for a period of 20 consecutive weeks immediately before the expected birth date is entitled to a leave of absence without pay."
+    }
+   ]
+  },
+  {
+   "component_id": "memorial_university_of_newfoundland_c23",
+   "institution_label": "Parental leave",
+   "description": "Newfoundland and Labrador Labour Standards Act: unpaid parental leave for a parent with 20 consecutive weeks of service, ending 61 weeks after it began in the saved 2018-04-22 consolidation (35 weeks in the 2017-12-24 consolidation).",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "employees under a contract of service in the province (s. 43.3(1); see s. 2(b) flag)",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "the parent of a child ('parent' includes a person with whom a child is placed for adoption)",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 61,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "duration_note": "s. 43.5 as amended by 2018 c1 s3 (institution copy, Wayback 2018-04-22): 61 weeks, or an earlier day on 4 weeks' notice. The 2017-12-24 consolidation (statute text 2018_28_nl_labour_standards) reads 35 weeks. The commencement of 2018 c1 relative to the reference date 2018-04-19 is not stated in the sources (decision on the document: flag version_uncertain).",
+   "time_window": "may begin no more than 35 weeks after the birth or placement (s. 43.3(2)); for a birth parent who takes pregnancy leave, begins when pregnancy leave ends (s. 43.3(3))",
+   "service_requirement": "at least 20 consecutive weeks with the same employer",
+   "notice": "at least 2 weeks written notice (s. 43.3(4))",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "memorial_university_of_newfoundland_c22",
+     "roles": [
+      "birth"
+     ],
+     "note": "s. 43.3(3): parental leave of an employee who takes pregnancy leave begins when the pregnancy leave ends"
+    },
+    {
+     "relation": "concurrent_with",
+     "component_id": "memorial_university_of_newfoundland_c5",
+     "roles": [
+      "nonbirth"
+     ],
+     "note": "S1: runs alongside the agreement's Supplemented Parental Leave from its start"
+    }
+   ],
+   "statute_source": "Labour Standards Act, RSNL 1990, c. L-2, ss. 43.3-43.5 (as amended by 2018 c1 s3)",
+   "statute_verified": true,
+   "rule_applied": [
+    "U2",
+    "U4",
+    "S1",
+    "S1a",
+    "R13",
+    "R9",
+    "U7"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "An employee who has been employed under a contract of service with the same employer for at least 20 consecutive weeks and who is the parent of a child is entitled to a leave of absence without pay following (a) the birth of the child; or",
+     "accountancy, architecture, law, medicine, pharmacy, professional engineering, surveying, teaching, veterinary science, and"
+    ],
+    "eligible_parent": [
+     "An employee who has been employed under a contract of service with the same employer for at least 20 consecutive weeks and who is the parent of a child is entitled to a leave of absence without pay following (a) the birth of the child; or",
+     "\"parent\" includes a person with whom a child is placed for adoption;"
+    ],
+    "entitlement": [
+     "An employee who has been employed under a contract of service with the same employer for at least 20 consecutive weeks and who is the parent of a child is entitled to a leave of absence without pay following (a) the birth of the child; or"
+    ],
+    "duration": [
+     "Parental leave ends 61 weeks after it began or on an earlier day if the employee gives the employer at least 4 weeks' written notice of that day.",
+     "Parental leave ends 35 weeks after it began or on an earlier day if the employee gives the employer at least 4 weeks written notice of that day."
+    ],
+    "service_requirement": [
+     "An employee who has been employed under a contract of service with the same employer for at least 20 consecutive weeks and who is the parent of a child is entitled to a leave of absence without pay following (a) the birth of the child; or"
+    ],
+    "sequence": [
+     "The parental leave of an employee who takes pregnancy leave shall begin when the pregnancy leave ends unless the child has not yet come into the care and custody of the parent for the 1st time."
+    ],
+    "time_window": [
+     "Parental leave may begin no more than 35 weeks after the day the child is born or comes into the care and custody of a parent for the 1st time."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_nl_labour_standards_act",
+    "2018_28_nl_labour_standards"
+   ],
+   "flags": [
+    "version_uncertain",
+    "ambiguous: rule gap: the Labour Standards Act is saved among the institution's sources but the collective agreement does not name it; coded as statutory leave (U4) on that basis",
+    "ambiguous: s. 2(b) excludes from 'contract of service' a contract of an employee qualified in and working in the practice of teaching; whether university faculty are covered is not settled by the sources",
+    "conflicting_sources: 2018_02_nl_labour_standards_act, 2018_28_nl_labour_standards (61 vs 35 weeks; 2018 c1 commencement not in sources)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "U2",
+     "answer": "unpaid_leave",
+     "quote": "An employee who has been employed under a contract of service with the same employer for at least 20 consecutive weeks and who is the parent of a child is entitled to a leave of absence without pay following (a) the birth of the child; or"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "An employee who has been employed under a contract of service with the same employer for at least 20 consecutive weeks and who is the parent of a child is entitled to a leave of absence without pay following (a) the birth of the child; or"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "An employee who has been employed under a contract of service with the same employer for at least 20 consecutive weeks and who is the parent of a child is entitled to a leave of absence without pay following (a) the birth of the child; or"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "U4",
+     "answer": "main_campus_tenure_stream",
+     "quote": "accountancy, architecture, law, medicine, pharmacy, professional engineering, surveying, teaching, veterinary science, and"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent ('the parent of a child', role-neutral)",
+     "quote": "An employee who has been employed under a contract of service with the same employer for at least 20 consecutive weeks and who is the parent of a child is entitled to a leave of absence without pay following (a) the birth of the child; or"
+    },
+    {
+     "field": "entitlement",
+     "rule": "U2",
+     "answer": "guaranteed",
+     "quote": "An employee who has been employed under a contract of service with the same employer for at least 20 consecutive weeks and who is the parent of a child is entitled to a leave of absence without pay following (a) the birth of the child; or"
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "61 weeks up_to ('or on an earlier day'); 35 in the 2017-12-24 consolidation, version_uncertain",
+     "quote": "Parental leave ends 61 weeks after it began or on an earlier day if the employee gives the employer at least 4 weeks' written notice of that day."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U2",
+     "answer": "20 consecutive weeks",
+     "quote": "An employee who has been employed under a contract of service with the same employer for at least 20 consecutive weeks and who is the parent of a child is entitled to a leave of absence without pay following (a) the birth of the child; or"
+    },
+    {
+     "field": "sequence",
+     "rule": "S1a",
+     "answer": "birth: consecutive_after c22 (statute places it after pregnancy leave); non-birth: concurrent_with c5 (S1)",
+     "quote": "The parental leave of an employee who takes pregnancy leave shall begin when the pregnancy leave ends unless the child has not yet come into the care and custody of the parent for the 1st time."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved",
+     "quote": "An employee who has been employed under a contract of service with the same employer for at least 20 consecutive weeks and who is the parent of a child is entitled to a leave of absence without pay following (a) the birth of the child; or"
+    }
+   ]
+  },
+  {
+   "component_id": "memorial_university_of_newfoundland_c24",
+   "institution_label": "Adoption leave",
+   "description": "Newfoundland and Labrador Labour Standards Act: unpaid adoption leave of 17 weeks following placement, for an employee with 20 consecutive weeks of service.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "employees under a contract of service in the province (s. 43(1); see s. 2(b) flag)",
+   "eligible_parent": [
+    "adoptive"
+   ],
+   "eligible_parent_wording": "the parent of a child ... coming of the child into the care and custody of the parent",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 17,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "service_requirement": "at least 20 consecutive weeks with the same employer",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "statute_source": "Labour Standards Act, RSNL 1990, c. L-2, ss. 43-43.2",
+   "statute_verified": true,
+   "rule_applied": [
+    "U2",
+    "U4",
+    "R13",
+    "R5",
+    "R9"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "An employee who has been employed under a contract of service with the same employer for at least 20 consecutive weeks and who is the parent of a child is entitled to a leave of absence without pay following the coming of the child into the care and custody of the parent for the 1st time.",
+     "accountancy, architecture, law, medicine, pharmacy, professional engineering, surveying, teaching, veterinary science, and"
+    ],
+    "eligible_parent": [
+     "An employee who has been employed under a contract of service with the same employer for at least 20 consecutive weeks and who is the parent of a child is entitled to a leave of absence without pay following the coming of the child into the care and custody of the parent for the 1st time."
+    ],
+    "entitlement": [
+     "An employee who has been employed under a contract of service with the same employer for at least 20 consecutive weeks and who is the parent of a child is entitled to a leave of absence without pay following the coming of the child into the care and custody of the parent for the 1st time."
+    ],
+    "duration": [
+     "Adoption leave ends 17 weeks after it began or on an earlier day if the employee gives his or her employer at least 4 weeks written notice of that day."
+    ],
+    "service_requirement": [
+     "An employee who has been employed under a contract of service with the same employer for at least 20 consecutive weeks and who is the parent of a child is entitled to a leave of absence without pay following the coming of the child into the care and custody of the parent for the 1st time."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_nl_labour_standards_act"
+   ],
+   "flags": [
+    "ambiguous: rule gap: the Labour Standards Act is saved among the institution's sources but the collective agreement does not name it; coded as statutory leave (U4) on that basis",
+    "ambiguous: s. 2(b) excludes from 'contract of service' a contract of an employee qualified in and working in the practice of teaching; whether university faculty are covered is not settled by the sources"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "U2",
+     "answer": "unpaid_leave",
+     "quote": "An employee who has been employed under a contract of service with the same employer for at least 20 consecutive weeks and who is the parent of a child is entitled to a leave of absence without pay following the coming of the child into the care and custody of the parent for the 1st time."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "An employee who has been employed under a contract of service with the same employer for at least 20 consecutive weeks and who is the parent of a child is entitled to a leave of absence without pay following the coming of the child into the care and custody of the parent for the 1st time."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "An employee who has been employed under a contract of service with the same employer for at least 20 consecutive weeks and who is the parent of a child is entitled to a leave of absence without pay following the coming of the child into the care and custody of the parent for the 1st time."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "U4",
+     "answer": "main_campus_tenure_stream",
+     "quote": "accountancy, architecture, law, medicine, pharmacy, professional engineering, surveying, teaching, veterinary science, and"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "adoptive",
+     "quote": "An employee who has been employed under a contract of service with the same employer for at least 20 consecutive weeks and who is the parent of a child is entitled to a leave of absence without pay following the coming of the child into the care and custody of the parent for the 1st time."
+    },
+    {
+     "field": "entitlement",
+     "rule": "U2",
+     "answer": "guaranteed",
+     "quote": "An employee who has been employed under a contract of service with the same employer for at least 20 consecutive weeks and who is the parent of a child is entitled to a leave of absence without pay following the coming of the child into the care and custody of the parent for the 1st time."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "17 weeks up_to ('or on an earlier day')",
+     "quote": "Adoption leave ends 17 weeks after it began or on an earlier day if the employee gives his or her employer at least 4 weeks written notice of that day."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U2",
+     "answer": "20 consecutive weeks",
+     "quote": "An employee who has been employed under a contract of service with the same employer for at least 20 consecutive weeks and who is the parent of a child is entitled to a leave of absence without pay following the coming of the child into the care and custody of the parent for the 1st time."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved",
+     "quote": "An employee who has been employed under a contract of service with the same employer for at least 20 consecutive weeks and who is the parent of a child is entitled to a leave of absence without pay following the coming of the child into the care and custody of the parent for the 1st time."
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "Model claude-opus-5-5. Reference date 2018-04-19; reference period 2017-18.",
+  "2018_00_link.txt is the collective agreement; 2018_01_munfa_current_agreement_page.txt is an index page: it lists the 2014-2017 agreement as current on 2018-09-17, no policy.",
+  "Governing document: MUN/MUNFA Collective Agreement 2014-2017, in effect until a new agreement is signed (1.39); MUNFA's page lists it as current on 2018-09-17. The bargaining unit holds the Faculty Members (tenure-track, tenured) and Librarians of St. John's, Grenfell and the Marine Institute; Article 22 applies to all ASMs, so main-campus tenure-stream faculty are covered.",
+  "Statute comparison: 2018_02_nl_labour_standards_act.txt (Wayback 2018-04-22, consolidated to 2018 c1) differs from statute text 2018_28_nl_labour_standards (Wayback 2017-12-24) only in: the copyright year and the list of amending acts; certificate wording in ss. 40(3), 41(2), 43.11(2), 43.14(1), 43.15(4) (medical or nurse practitioner); s. 43.5 parental leave 61 weeks (2018 c1 s3) versus 35 weeks; Part VII.6 renamed and extended to critically ill adults (ss. 43.28-43.32). Pregnancy (s. 42) and adoption (s. 43.2) lengths are identical.",
+  "c23 (LSA parental leave) is coded at 61 weeks from the institution's saved copy and flagged version_uncertain per the decision recorded in the document's version note; if 2018 c1 was not in force on 2018-04-19 the length was 35 weeks (statutory floor at 2018-01-01: 17 + 35).",
+  "The collective agreement never names the Labour Standards Act; the Act's Part VII is coded because the statute is saved among the institution's usable sources and sets the province's pregnancy and parental leave (flagged as a rule gap). LSA s. 2(b) excludes from 'contract of service' contracts of employees 'qualified in ... and working for an employer in the practice of ... teaching'; whether this excludes university faculty is not settled by the sources (flagged on c22-c24).",
+  "Birth parent chain: Supplemented Maternity Leave 17 weeks (c1; 100% salary weeks 1-2 c2, then top-up to 100% with EI weeks 3-17 c3) -> Parental Leave Without Pay to a one-year total, 35 weeks (c9; leave limit 52). EI maternity 15 weeks from week 2 (c4, offset 1) -> EI parental 35 weeks (c8) to week 51. Statute: LSA pregnancy leave 17 alongside c1 (c22) -> LSA parental leave 61 (c23) to week 78 (version_uncertain).",
+  "Non-birth parent chain: Supplemented Parental Leave 15 weeks (c5; 100% salary weeks 1-2 c6, then top-up to 100% with EI weeks 3-15 c7) -> Parental Leave Without Pay to a one-year total, 37 weeks (c9; leave limit 52). EI parental 35 weeks from week 2 (c8, offset 1, own waiting period). Statute: LSA parental leave 61 alongside c5 from its start (c23).",
+  "The agreement's maternity and parental pay (100% for two weeks, then 100% of salary less expected EI) was written for the earlier two-week EI waiting period; per R21 EI starts one week after the leave (EI Act s. 13). The SUB requirements page (2018_05) caps SUB plus EI at 95% of normal weekly earnings for registered plans; the agreement states 100%, coded as written.",
+  "No relief from duties for new parents: 22.53 states the maternity and parental leaves 'shall not lead to any adjustment of the normal duties following the leave'; 22.87 no make-up of duties. Childcare (26.30-26.31) is a best-efforts facility commitment, not a component.",
+  "Leave for ASMs ineligible for supplemented leave (c10, c11; 22.66-22.67) covers term appointees in the first year; tenure-stream members are always eligible for supplemented leave (22.50), so these are recorded with the group named.",
+  "Documents cited but not saved: Employment Insurance Regulations; Supplemental Employment Benefits plan filed with HRDC (22.54); Long Term Disability Plan; Appendices A.1-I to the agreement (Labour Relations Board orders, CAUT Teaching Dossier, sexual harassment procedures, salary scales, teaching norms, Clause 25.32 protocol, Grenfell programme units, professional association letter, strikes protocol); Procedures Governing the Appointment, Review, Promotion and Tenure of Academic Administrators (2014-04-02); Travel - General and Travel - Relocation and Removal policies; Tri-Council Policy Statement; Senate regulations. Only the EI Regulations, the SEB plan and the LTD plan bear on parental provisions (flagged on the components).",
+  "calendar: 1.03(m) defines a course over a 'thirteen-week semester'; recorded as term_weeks 13, though no component is stated in semesters."
+ ],
+ "statutory_floor": {
+  "jurisdiction": "NL",
+  "year": "2018",
+  "weeks_birth": 52.0,
+  "weeks_nonbirth": 35.0,
+  "statute": "Labour Standards Act: pregnancy and parental leave (RSNL 1990 c. L-2, s. 39-43)",
+  "source_doc": "2018_28_nl_labour_standards",
+  "table": "statutory_baseline.csv"
+ }
+}

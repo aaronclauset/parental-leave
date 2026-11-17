@@ -1,0 +1,926 @@
+{
+ "institution": "Utah State University",
+ "slug": "utah_state_university",
+ "country": "US",
+ "model": "claude-opus-5-5",
+ "codebook_version": "1.25",
+ "schema_version": "1.25",
+ "reference_date": "2018-02-26",
+ "calendar": {
+  "term_weeks": 16,
+  "note": "Policy 366 2.4(1): 'during the 16-week semester that he/she is on PCMD'; also 1.1(4) 'during the 16 week semester'. The policy's January-June / July-December 'semester' definition is for pay purposes (footnote 1) and is not used (R8)."
+ },
+ "documents": [
+  {
+   "doc_id": "2018_00_link",
+   "url": "https://www.usu.edu/policies/366/",
+   "title": "Utah State University Policy 366: Parental Caregiving with Modified Duties (PCMD)",
+   "version_or_effective_date": "Origin and Effective Date June 23, 2017 (Wayback capture 2020-11-01; version note: same text in force on 2018-02-26)",
+   "retrieved": "2026-10-30"
+  }
+ ],
+ "missing": false,
+ "scope_accounting": {
+  "C1": {
+   "absent": {
+    "documents": [
+     "2018_00_link"
+    ],
+    "terms": [
+     "parental leave",
+     "maternity",
+     "paternity",
+     "childbirth",
+     "adoption leave",
+     "paid leave",
+     "leave"
+    ]
+   }
+  },
+  "C2": {
+   "components": [
+    "utah_state_university_c1",
+    "utah_state_university_c4"
+   ]
+  },
+  "C3": {
+   "components": [
+    "utah_state_university_c5"
+   ]
+  },
+  "C4": {
+   "components": [
+    "utah_state_university_c2"
+   ],
+   "not_components": []
+  },
+  "C5": {
+   "absent": {
+    "documents": [
+     "2018_00_link"
+    ],
+    "terms": [
+     "family care",
+     "ill family member",
+     "serious health condition",
+     "care for"
+    ]
+   }
+  },
+  "C6": {
+   "absent": {
+    "documents": [
+     "2018_00_link"
+    ],
+    "terms": [
+     "leave without pay",
+     "personal leave",
+     "leave of absence",
+     "special leave",
+     "emergency leave",
+     "sabbatical"
+    ]
+   }
+  },
+  "C7": {
+   "components": [
+    "utah_state_university_c3"
+   ]
+  },
+  "C8": {
+   "components": [
+    "utah_state_university_c1",
+    "utah_state_university_c4"
+   ]
+  },
+  "C9": {
+   "absent": {
+    "documents": [
+     "2018_00_link"
+    ],
+    "terms": [
+     "accommodation",
+     "pregnancy",
+     "hazard",
+     "lactation",
+     "transfer",
+     "equal treatment"
+    ]
+   }
+  },
+  "C10": {
+   "absent": {
+    "documents": [
+     "2018_00_link"
+    ],
+    "terms": [
+     "FMLA",
+     "first days",
+     "qualifying absence",
+     "regular work time"
+    ]
+   }
+  }
+ },
+ "passage_dispositions": {
+  "2018_00_link#001": {
+   "used_in": [
+    "utah_state_university_c1",
+    "utah_state_university_c3",
+    "utah_state_university_c4"
+   ]
+  },
+  "2018_00_link#002": {
+   "used_in": [
+    "utah_state_university_c1",
+    "utah_state_university_c2",
+    "utah_state_university_c5"
+   ]
+  },
+  "2018_00_link#003": {
+   "used_in": [
+    "utah_state_university_c1"
+   ]
+  }
+ },
+ "mechanism_slots": {
+  "employer_paid_leave": {
+   "absent": "No employer-paid parental leave in 2018_00_link (PCMD is teaching relief at 90% pay, c1); terms: paid leave, parental leave, with pay"
+  },
+  "employer_childbirth_benefit": {
+   "absent": "No childbirth-specific period with length and pay level in 2018_00_link; the short-term disability pregnancy portion's terms are not saved (c5); terms: pregnancy, childbirth, maternity, disability"
+  },
+  "generic_sick_or_disability_plan": {
+   "components": [
+    "utah_state_university_c5"
+   ]
+  },
+  "own_accrual": {
+   "absent": "Sick and annual leave are named only to say they may not be used with PCMD; no terms in 2018_00_link; terms: sick leave, annual leave, accrue, balance"
+  },
+  "donated_leave": {
+   "absent": "None in 2018_00_link; terms: donated, shared, bank, pool"
+  },
+  "government_benefit": {
+   "absent": "No government or Utah state paid programme named in 2018_00_link; terms: state, benefit, insurance, paid family"
+  },
+  "employer_topup": {
+   "absent": "None in 2018_00_link; terms: top-up, supplement, difference"
+  },
+  "modified_duties": {
+   "components": [
+    "utah_state_university_c1"
+   ]
+  },
+  "unpaid_leave": {
+   "components": [
+    "utah_state_university_c2"
+   ]
+  },
+  "tenure_clock": {
+   "components": [
+    "utah_state_university_c3"
+   ]
+  },
+  "part_time_option": {
+   "components": [
+    "utah_state_university_c4"
+   ]
+  },
+  "other": {
+   "absent": "None in 2018_00_link; terms: accommodation, transfer, hazard, rearrangement"
+  }
+ },
+ "baseline_accounting": {
+  "Family and Medical Leave Act (FMLA)": {
+   "components": [
+    "utah_state_university_c2"
+   ]
+  },
+  "Federal Employee Paid Leave Act (paid parental leave for federal civilian employees)": {
+   "not_applicable": "Utah State University is a state university, not a federal employer; no saved document mentions it"
+  }
+ },
+ "leave_limits": [],
+ "components": [
+  {
+   "component_id": "utah_state_university_c1",
+   "institution_label": "Parental Caregiving with Modified Duties (PCMD)",
+   "description": "One semester (spring or fall) of relief from up to six credit hours of teaching for a primary-caregiver parent after a birth or adoption, with research, graduate-student work and other responsibilities continuing, at 90% of base salary (10% kept by the department to fund replacement teaching); approval at the University's discretion.",
+   "mechanism": "modified_duties",
+   "mechanism_note": "Teaching relief with research and other duties continuing, paid at 90% of base salary: the relief is disproportionate to the pay cut, so it is coded modified_duties with its pay level (R3). The policy calls it 'PCMD leave', but its relief is of teaching, with research and other duties continuing.",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Covered Employees: All Faculty; 'All faculty, both male and female, are eligible for PCMD.'",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "All faculty, both male and female; due to the birth or adoption of a child; primary caregiver for the newborn or adopted child",
+   "caregiver_condition": "primary",
+   "caregiver_condition_wording": "The faculty member must be the primary caregiver for the newborn or adopted child during the period that PCMD is in place. The faculty member will affirm that he/she will be the primary caregiver for the child during the semester in which the PCMD is used.",
+   "entitlement": "discretionary",
+   "entitlement_note": "Approval decides whether there is a benefit: 'may be granted' after a best-interest determination; 'a privilege granted at the University's discretion' (V2). Section 2.6 ('In most cases, the semester requested ... will be approved') concerns which semester is approved, not whether PCMD is granted.",
+   "duration": {
+    "value": 1,
+    "units": "semester",
+    "qualifier": "exact"
+   },
+   "duration_note": "One semester, spring or fall; 'The leave cannot span over two semesters.' The policy defines its semesters for pay purposes as January 1 - June 30 (spring) and July 1 - December 31 (fall), and also speaks of 'the 16-week semester'. Summer use requires negotiation with the department head and dean and Provost approval (footnote 1).",
+   "duration_variants": "A faculty couple sharing primary care may split PCMD: relief from a total of six credits for the couple, each at 95% of salary during the semester (or two different semesters) each uses it.",
+   "dual_employee_rule": "A faculty couple jointly sharing primary care may split PCMD: relief from a total of six credits for the couple for a semester, each at 95% of salary",
+   "pay_fraction": "90% of base salary",
+   "pay_fraction_pct": 90,
+   "pay_cap": "Not more than the PCMD compensation that, with any outside (grant or contract) compensation, equals 110% of full regular salary for the period of leave",
+   "relief": {
+    "teaching": "partially_relieved",
+    "service_admin": "continues",
+    "research": "continues",
+    "advising_supervision": "continues",
+    "clinical": "continues"
+   },
+   "relief_note": "Relief of up to six credit hours of teaching for the semester (all teaching for a member whose load is six credits or fewer); research, work with graduate students and 'other job responsibilities' continue as stated. Further reduction beyond six credits comes with a commensurate salary cut (c4).",
+   "time_window": "Begins January 1 (spring) or July 1 (fall), no more than 3 months before and no more than 12 months after the expected birth or placement; an adopted child under six, or a special-needs child under 18",
+   "service_requirement": "none stated",
+   "notice": "Formal request on the HR PCMD form as soon as possible; notice to the department head normally no fewer than four months before the expected arrival of the child",
+   "return_obligation": "Return to university service for at least one semester, or repay the salary released (10%) plus any other funding used to cover the teaching assignment",
+   "must_exhaust_first": [],
+   "runs_concurrently_with": [
+    "FMLA"
+   ],
+   "rule_applied": [
+    "R3",
+    "V2",
+    "R4",
+    "R6",
+    "R5",
+    "R8",
+    "S1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Covered Employees: All Faculty",
+     "All faculty, both male and female, are eligible for PCMD."
+    ],
+    "eligible_parent": [
+     "Parental caregiving with modified duties (PCMD) is designed to allow all faculty to request relief of up to six credit hours of teaching for one semester either spring or fall due to the birth or adoption of a child, while continuing to perform other job responsibilities.",
+     "All faculty, both male and female, are eligible for PCMD."
+    ],
+    "caregiver_condition": [
+     "The faculty member must be the primary caregiver for the newborn or adopted child during the period that PCMD is in place."
+    ],
+    "entitlement": [
+     "Administrative approval may be granted after determining that the PCMD leave request is in the mutual best interest of the faculty member and the University.",
+     "PCMD leave is a privilege granted at the University’s discretion."
+    ],
+    "duration": [
+     "The faculty member receives 90% of base salary during the 16-week semester that he/she is on PCMD.",
+     "The leave cannot span over two semesters."
+    ],
+    "pay_fraction": [
+     "The faculty member receives 90% of base salary during the 16-week semester that he/she is on PCMD."
+    ],
+    "relief": [
+     "Parental caregiving with modified duties (PCMD) is designed to allow all faculty to request relief of up to six credit hours of teaching for one semester either spring or fall due to the birth or adoption of a child, while continuing to perform other job responsibilities.",
+     "The faculty member will be expected to continue professional activities such as research and working with graduate students."
+    ],
+    "service_requirement": [
+     "All faculty, both male and female, are eligible for PCMD."
+    ],
+    "mechanism": [
+     "The faculty member receives 90% of base salary during the 16-week semester that he/she is on PCMD.",
+     "Parental caregiving with modified duties (PCMD) is designed to allow all faculty to request relief of up to six credit hours of teaching for one semester either spring or fall due to the birth or adoption of a child, while continuing to perform other job responsibilities."
+    ],
+    "time_window": [
+     "Under this policy, PCMD shall begin January 1 for spring semester and July 1 for fall semester and, no more than three (3) months prior to the expected birth/placement of a child and no more than twelve (12) months following the birth/placement.",
+     "An adopted child must be under the age of six or a special needs child under 18 years of age."
+    ],
+    "dual_employee_rule": [
+     "A faculty couple jointly sharing responsibility as primary caregivers for a child may split the use of PCMD and each receive relief from a total of six credits for the couple for a semester.",
+     "Each faculty member would then receive 95% of their salary during the 16 week semester (or two different semesters) that they use the PCMD policy."
+    ],
+    "pay_cap": [
+     "The university shall not be obligated to pay more than the amount of PCMD compensation that, when added to the outside source of compensation, will equal 110% of the faculty member’s full regular salary for the period of leave."
+    ],
+    "notice": [
+     "This notice would normally be no fewer than four months prior to the expected arrival of the child; however, it may not be possible to provide this much notice."
+    ],
+    "return_obligation": [
+     "The faculty member is obligated to return to university service for at least one semester following the use of PCMD."
+    ],
+    "runs_concurrently_with": [
+     "Parental Caregiving with Modified Duties (PCMD) under this policy will run concurrently with FMLA leave (Policy 351 Family and Medical Leave) if applicable."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "cross_reference_not_saved: Policy 351 Family and Medical Leave"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R3",
+     "answer": "modified_duties",
+     "quote": "The faculty member receives 90% of base salary during the 16-week semester that he/she is on PCMD."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "The faculty member receives 90% of base salary during the 16-week semester that he/she is on PCMD."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Parental caregiving with modified duties (PCMD) is designed to allow all faculty to request relief of up to six credit hours of teaching for one semester either spring or fall due to the birth or adoption of a child, while continuing to perform other job responsibilities."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Covered Employees: All Faculty"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "birth_parent, non_birth_parent, adoptive (gendered words inclusive: both male and female)",
+     "quote": "All faculty, both male and female, are eligible for PCMD."
+    },
+    {
+     "field": "caregiver_condition",
+     "rule": "R6",
+     "answer": "primary",
+     "quote": "The faculty member must be the primary caregiver for the newborn or adopted child during the period that PCMD is in place."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "PCMD leave is a privilege granted at the University’s discretion."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 semester, exact; cannot span two semesters",
+     "quote": "The leave cannot span over two semesters."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "R3",
+     "answer": "90% of base salary (a pay cut, so not partial relief)",
+     "quote": "The faculty member receives 90% of base salary during the 16-week semester that he/she is on PCMD."
+    },
+    {
+     "field": "relief",
+     "rule": "R4",
+     "answer": "teaching partially relieved (up to six credit hours); research, advising, service and other duties continue as stated",
+     "quote": "The faculty member will be expected to continue professional activities such as research and working with graduate students."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "none stated",
+     "quote": "All faculty, both male and female, are eligible for PCMD."
+    }
+   ]
+  },
+  {
+   "component_id": "utah_state_university_c2",
+   "institution_label": "Family and Medical Leave Act",
+   "description": "Federal FMLA job-protected unpaid leave of 12 workweeks in a 12-month period for the birth of a child and to care for it, or a placement for adoption or foster care; the policy states that PCMD runs concurrently with FMLA leave (USU Policy 351, not saved). Terms from the saved statute.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Named in Policy 366 (Covered Employees: All Faculty) for PCMD users; FMLA covers eligible employees",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "birth of a son or daughter of the employee and in order to care for such son or daughter; placement of a son or daughter with the employee for adoption or foster care (statute)",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "entitlement_note": "A statutory entitlement ('shall be entitled') is guaranteed.",
+   "duration": {
+    "value": 12,
+    "units": "workweek",
+    "qualifier": "exact"
+   },
+   "duration_note": "A total of 12 workweeks during any 12-month period (29 U.S.C. 2612(a)(1)); unpaid unless paid leave is substituted. Policy 366: PCMD runs concurrently with FMLA leave 'if applicable'; no intermittent leave may be used for PCMD.",
+   "service_requirement": "12 months and 1,250 hours (29 U.S.C. 2611(2)(A))",
+   "statute_source": "29 U.S.C. 2612(a)(1)(A)-(B); eligibility 29 U.S.C. 2611(2)(A)",
+   "statute_verified": true,
+   "sequence": [
+    {
+     "relation": "concurrent_with",
+     "component_id": "utah_state_university_c1",
+     "note": "S1: the policy states PCMD runs concurrently with FMLA leave; FMLA's remaining weeks are unpaid job protection"
+    }
+   ],
+   "rule_applied": [
+    "U2",
+    "U4",
+    "S1",
+    "U8",
+    "R13"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Covered Employees: All Faculty",
+     "Parental Caregiving with Modified Duties (PCMD) under this policy will run concurrently with FMLA leave (Policy 351 Family and Medical Leave) if applicable."
+    ],
+    "eligible_parent": [
+     "Because of the birth of a son or daughter of the employee and in order to care for such son or daughter.",
+     "Because of the placement of a son or daughter with the employee for adoption or foster care."
+    ],
+    "entitlement": [
+     "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period for one or more of the following:"
+    ],
+    "duration": [
+     "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period for one or more of the following:"
+    ],
+    "service_requirement": [
+     "for at least 1,250 hours of service with such employer during the previous 12-month period."
+    ],
+    "sequence": [
+     "Parental Caregiving with Modified Duties (PCMD) under this policy will run concurrently with FMLA leave (Policy 351 Family and Medical Leave) if applicable."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link",
+    "2026_00_us_fmla_29usc2612",
+    "2026_01_us_fmla_29usc2611_definitions"
+   ],
+   "flags": [
+    "cross_reference_not_saved: Policy 351 Family and Medical Leave"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "Parental Caregiving with Modified Duties (PCMD) under this policy will run concurrently with FMLA leave (Policy 351 Family and Medical Leave) if applicable."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Parental Caregiving with Modified Duties (PCMD) under this policy will run concurrently with FMLA leave (Policy 351 Family and Medical Leave) if applicable."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Because of the birth of a son or daughter of the employee and in order to care for such son or daughter."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Covered Employees: All Faculty"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U2",
+     "answer": "birth_parent, non_birth_parent, adoptive, foster (statute (a)(1)(A)-(B))",
+     "quote": "Because of the placement of a son or daughter with the employee for adoption or foster care."
+    },
+    {
+     "field": "entitlement",
+     "rule": "U2",
+     "answer": "guaranteed",
+     "quote": "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period for one or more of the following:"
+    },
+    {
+     "field": "duration",
+     "rule": "U2",
+     "answer": "12 workweeks from the statute; 'a total of' carries no qualifying word (R13): exact",
+     "quote": "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period for one or more of the following:"
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "exact",
+     "quote": "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period for one or more of the following:"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U8",
+     "answer": "12 months and 1,250 hours",
+     "quote": "for at least 1,250 hours of service with such employer during the previous 12-month period."
+    },
+    {
+     "field": "sequence",
+     "rule": "S1",
+     "answer": "concurrent_with c1",
+     "quote": "Parental Caregiving with Modified Duties (PCMD) under this policy will run concurrently with FMLA leave (Policy 351 Family and Medical Leave) if applicable."
+    }
+   ]
+  },
+  {
+   "component_id": "utah_state_university_c3",
+   "institution_label": "Tenure and Post-Tenure Review Extensions",
+   "description": "On approval of a PCMD request, a tenure-eligible faculty member may seek a one-year extension of the pre-tenure probationary period (under Policy 405.1.4(4), not among the usable sources).",
+   "mechanism": "tenure_clock",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "a tenure-eligible faculty member (Policy 366, Covered Employees: All Faculty)",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "All faculty, both male and female; due to the birth or adoption of a child; primary caregiver for the newborn or adopted child",
+   "caregiver_condition": "primary",
+   "caregiver_condition_wording": "Available upon approval of a PCMD request; PCMD requires that The faculty member must be the primary caregiver for the newborn or adopted child during the period that PCMD is in place.",
+   "entitlement": "discretionary",
+   "entitlement_note": "'May seek' an extension, with no grant language, and it follows approval of a discretionary PCMD request (V2).",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "exact"
+   },
+   "duration_note": "One-year extension of the pre-tenure probationary period. The same section lets post-tenure review (Policy 405.12.2) be postponed for one year if PCMD is used (recorded in notes, not as a component).",
+   "service_requirement": "none stated",
+   "rule_applied": [
+    "V2",
+    "U1",
+    "R6"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Upon approval of a PCMD request, a tenure-eligible faculty member may seek a one-year extension of her/his pre-tenure probationary period (Policy 405.1.4(4) Tenured and Term Appointments: Evaluation, Promotion and Retention)."
+    ],
+    "eligible_parent": [
+     "Parental caregiving with modified duties (PCMD) is designed to allow all faculty to request relief of up to six credit hours of teaching for one semester either spring or fall due to the birth or adoption of a child, while continuing to perform other job responsibilities.",
+     "Upon approval of a PCMD request, a tenure-eligible faculty member may seek a one-year extension of her/his pre-tenure probationary period (Policy 405.1.4(4) Tenured and Term Appointments: Evaluation, Promotion and Retention)."
+    ],
+    "caregiver_condition": [
+     "The faculty member must be the primary caregiver for the newborn or adopted child during the period that PCMD is in place."
+    ],
+    "entitlement": [
+     "Upon approval of a PCMD request, a tenure-eligible faculty member may seek a one-year extension of her/his pre-tenure probationary period (Policy 405.1.4(4) Tenured and Term Appointments: Evaluation, Promotion and Retention)."
+    ],
+    "duration": [
+     "Upon approval of a PCMD request, a tenure-eligible faculty member may seek a one-year extension of her/his pre-tenure probationary period (Policy 405.1.4(4) Tenured and Term Appointments: Evaluation, Promotion and Retention)."
+    ],
+    "service_requirement": [
+     "Upon approval of a PCMD request, a tenure-eligible faculty member may seek a one-year extension of her/his pre-tenure probationary period (Policy 405.1.4(4) Tenured and Term Appointments: Evaluation, Promotion and Retention)."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "cross_reference_not_saved: Policy 405.1.4(4) Tenured and Term Appointments: Evaluation, Promotion and Retention (a copy is in the folder but not used)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "Upon approval of a PCMD request, a tenure-eligible faculty member may seek a one-year extension of her/his pre-tenure probationary period (Policy 405.1.4(4) Tenured and Term Appointments: Evaluation, Promotion and Retention)."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Upon approval of a PCMD request, a tenure-eligible faculty member may seek a one-year extension of her/his pre-tenure probationary period (Policy 405.1.4(4) Tenured and Term Appointments: Evaluation, Promotion and Retention)."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Upon approval of a PCMD request, a tenure-eligible faculty member may seek a one-year extension of her/his pre-tenure probationary period (Policy 405.1.4(4) Tenured and Term Appointments: Evaluation, Promotion and Retention)."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Upon approval of a PCMD request, a tenure-eligible faculty member may seek a one-year extension of her/his pre-tenure probationary period (Policy 405.1.4(4) Tenured and Term Appointments: Evaluation, Promotion and Retention)."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "birth_parent, non_birth_parent, adoptive (through PCMD eligibility)",
+     "quote": "Parental caregiving with modified duties (PCMD) is designed to allow all faculty to request relief of up to six credit hours of teaching for one semester either spring or fall due to the birth or adoption of a child, while continuing to perform other job responsibilities."
+    },
+    {
+     "field": "caregiver_condition",
+     "rule": "R6",
+     "answer": "primary",
+     "quote": "The faculty member must be the primary caregiver for the newborn or adopted child during the period that PCMD is in place."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "Upon approval of a PCMD request, a tenure-eligible faculty member may seek a one-year extension of her/his pre-tenure probationary period (Policy 405.1.4(4) Tenured and Term Appointments: Evaluation, Promotion and Retention)."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 year, exact",
+     "quote": "Upon approval of a PCMD request, a tenure-eligible faculty member may seek a one-year extension of her/his pre-tenure probationary period (Policy 405.1.4(4) Tenured and Term Appointments: Evaluation, Promotion and Retention)."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "none stated",
+     "quote": "Upon approval of a PCMD request, a tenure-eligible faculty member may seek a one-year extension of her/his pre-tenure probationary period (Policy 405.1.4(4) Tenured and Term Appointments: Evaluation, Promotion and Retention)."
+    }
+   ]
+  },
+  {
+   "component_id": "utah_state_university_c4",
+   "institution_label": "",
+   "description": "A PCMD participant who teaches more than six credit hours may request a further reduction in teaching credit hours, with a salary reduction commensurate with the credit hours beyond six.",
+   "mechanism": "part_time_option",
+   "mechanism_note": "Teaching reduction with a commensurate cut in pay: part_time_option (R3).",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Faculty who teach more than six credit hours (Policy 366, Covered Employees: All Faculty)",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "All faculty, both male and female; due to the birth or adoption of a child; primary caregiver for the newborn or adopted child",
+   "caregiver_condition": "primary",
+   "caregiver_condition_wording": "The faculty member must be the primary caregiver for the newborn or adopted child during the period that PCMD is in place.",
+   "entitlement": "discretionary",
+   "entitlement_note": "'May request' with no grant language, within a PCMD granted at the University's discretion (V2).",
+   "duration": {
+    "value": 1,
+    "units": "semester",
+    "qualifier": "exact"
+   },
+   "duration_note": "Runs within the PCMD semester; the amount of further reduction is not stated.",
+   "pay_fraction": "reduction in salary commensurate with the number of credit hours beyond six credits",
+   "relief": {
+    "teaching": "partially_relieved",
+    "service_admin": "continues",
+    "research": "continues",
+    "advising_supervision": "continues",
+    "clinical": "continues"
+   },
+   "relief_note": "Additional teaching credit hours beyond the six relieved by PCMD; amount not stated; other duties continue as under PCMD.",
+   "service_requirement": "none stated",
+   "sequence": [
+    {
+     "relation": "concurrent_with",
+     "component_id": "utah_state_university_c1",
+     "note": "An additional reduction in the same PCMD semester"
+    }
+   ],
+   "rule_applied": [
+    "R3",
+    "V2",
+    "R4",
+    "R6",
+    "R15"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Faculty who teach more than six credit hours may request to receive additional reduction in teaching credit hours with a reduction in salary commensurate with the number of credit hours beyond six credits.",
+     "Covered Employees: All Faculty"
+    ],
+    "eligible_parent": [
+     "Parental caregiving with modified duties (PCMD) is designed to allow all faculty to request relief of up to six credit hours of teaching for one semester either spring or fall due to the birth or adoption of a child, while continuing to perform other job responsibilities.",
+     "All faculty, both male and female, are eligible for PCMD."
+    ],
+    "caregiver_condition": [
+     "The faculty member must be the primary caregiver for the newborn or adopted child during the period that PCMD is in place."
+    ],
+    "entitlement": [
+     "Faculty who teach more than six credit hours may request to receive additional reduction in teaching credit hours with a reduction in salary commensurate with the number of credit hours beyond six credits.",
+     "PCMD leave is a privilege granted at the University’s discretion."
+    ],
+    "duration": [
+     "The faculty member receives 90% of base salary during the 16-week semester that he/she is on PCMD.",
+     "The leave cannot span over two semesters."
+    ],
+    "pay_fraction": [
+     "Faculty who teach more than six credit hours may request to receive additional reduction in teaching credit hours with a reduction in salary commensurate with the number of credit hours beyond six credits."
+    ],
+    "relief": [
+     "Faculty who teach more than six credit hours may request to receive additional reduction in teaching credit hours with a reduction in salary commensurate with the number of credit hours beyond six credits.",
+     "The faculty member will be expected to continue professional activities such as research and working with graduate students."
+    ],
+    "service_requirement": [
+     "All faculty, both male and female, are eligible for PCMD."
+    ],
+    "sequence": [
+     "Faculty who teach more than six credit hours may request to receive additional reduction in teaching credit hours with a reduction in salary commensurate with the number of credit hours beyond six credits."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R3",
+     "answer": "part_time_option",
+     "quote": "Faculty who teach more than six credit hours may request to receive additional reduction in teaching credit hours with a reduction in salary commensurate with the number of credit hours beyond six credits."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "Faculty who teach more than six credit hours may request to receive additional reduction in teaching credit hours with a reduction in salary commensurate with the number of credit hours beyond six credits."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Parental caregiving with modified duties (PCMD) is designed to allow all faculty to request relief of up to six credit hours of teaching for one semester either spring or fall due to the birth or adoption of a child, while continuing to perform other job responsibilities."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Covered Employees: All Faculty"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "birth_parent, non_birth_parent, adoptive",
+     "quote": "All faculty, both male and female, are eligible for PCMD."
+    },
+    {
+     "field": "caregiver_condition",
+     "rule": "R6",
+     "answer": "primary",
+     "quote": "The faculty member must be the primary caregiver for the newborn or adopted child during the period that PCMD is in place."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "Faculty who teach more than six credit hours may request to receive additional reduction in teaching credit hours with a reduction in salary commensurate with the number of credit hours beyond six credits."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 semester, the PCMD semester",
+     "quote": "The leave cannot span over two semesters."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "R3",
+     "answer": "salary reduced commensurately",
+     "quote": "Faculty who teach more than six credit hours may request to receive additional reduction in teaching credit hours with a reduction in salary commensurate with the number of credit hours beyond six credits."
+    },
+    {
+     "field": "relief",
+     "rule": "R4",
+     "answer": "teaching partially relieved; research and other duties continue",
+     "quote": "The faculty member will be expected to continue professional activities such as research and working with graduate students."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "none stated",
+     "quote": "All faculty, both male and female, are eligible for PCMD."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "concurrent_with c1 (same semester)",
+     "quote": "Faculty who teach more than six credit hours may request to receive additional reduction in teaching credit hours with a reduction in salary commensurate with the number of credit hours beyond six credits."
+    }
+   ]
+  },
+  {
+   "component_id": "utah_state_university_c5",
+   "institution_label": "Pregnancy/ Short-term Disability Leave",
+   "description": "A birth parent who has short-term disability leave available may choose to use its pregnancy portion instead of PCMD. The short-term disability plan's terms (length, pay, funding, eligibility) are not in the saved documents.",
+   "mechanism": "generic_sick_or_disability_plan",
+   "mechanism_note": "Short-term disability leave whose pregnancy portion is used for childbirth; no childbirth-specific length or pay level is stated in the saved documents, so V1's test is not met: generic plan (V1, R2).",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "an eligible faculty member [who] has short-term disability leave available",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "the pregnancy portion of this leave",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "Where the member has short-term disability leave available, the choice is the employee's ('at the employee's discretion, the employee may choose'): V2. Whether a member has such leave available is not stated.",
+   "service_requirement": "not stated (requires short-term disability leave to be available)",
+   "sequence": [
+    {
+     "relation": "in_lieu_of",
+     "component_id": "utah_state_university_c1",
+     "note": "the employee may choose to use the pregnancy portion of short-term disability leave instead of PCMD"
+    }
+   ],
+   "rule_applied": [
+    "V1",
+    "R2",
+    "V2",
+    "R15b",
+    "U5",
+    "V6"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "If an eligible faculty member has short- term disability leave available, at the employee’s discretion, the employee may choose to use the pregnancy portion of this leave instead of PCMD."
+    ],
+    "eligible_parent": [
+     "If an eligible faculty member has short- term disability leave available, at the employee’s discretion, the employee may choose to use the pregnancy portion of this leave instead of PCMD."
+    ],
+    "entitlement": [
+     "If an eligible faculty member has short- term disability leave available, at the employee’s discretion, the employee may choose to use the pregnancy portion of this leave instead of PCMD."
+    ],
+    "mechanism": [
+     "If an eligible faculty member has short- term disability leave available, at the employee’s discretion, the employee may choose to use the pregnancy portion of this leave instead of PCMD."
+    ],
+    "service_requirement": [
+     "If an eligible faculty member has short- term disability leave available, at the employee’s discretion, the employee may choose to use the pregnancy portion of this leave instead of PCMD."
+    ],
+    "sequence": [
+     "If an eligible faculty member has short- term disability leave available, at the employee’s discretion, the employee may choose to use the pregnancy portion of this leave instead of PCMD."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "cross_reference_not_saved: short-term disability leave policy (terms of the pregnancy portion)",
+    "ambiguous: payer, length and pay of the short-term disability leave not stated in the saved documents; whether it is employer-provided or employee-purchased is unknown",
+    "ambiguous: restriction: available only if the member 'has short-term disability leave available'"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "V1",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "If an eligible faculty member has short- term disability leave available, at the employee’s discretion, the employee may choose to use the pregnancy portion of this leave instead of PCMD."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "If an eligible faculty member has short- term disability leave available, at the employee’s discretion, the employee may choose to use the pregnancy portion of this leave instead of PCMD."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "If an eligible faculty member has short- term disability leave available, at the employee’s discretion, the employee may choose to use the pregnancy portion of this leave instead of PCMD."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (pregnancy portion of disability leave)",
+     "quote": "If an eligible faculty member has short- term disability leave available, at the employee’s discretion, the employee may choose to use the pregnancy portion of this leave instead of PCMD."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "If an eligible faculty member has short- term disability leave available, at the employee’s discretion, the employee may choose to use the pregnancy portion of this leave instead of PCMD."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "not stated",
+     "quote": "If an eligible faculty member has short- term disability leave available, at the employee’s discretion, the employee may choose to use the pregnancy portion of this leave instead of PCMD."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15b",
+     "answer": "in_lieu_of c1",
+     "quote": "If an eligible faculty member has short- term disability leave available, at the employee’s discretion, the employee may choose to use the pregnancy portion of this leave instead of PCMD."
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "Usable sources: one file, 2018_00_link (Policy 366, PCMD).",
+  "Reference date 2018-02-26. Policy 366 shows Origin and Effective Date June 23, 2017; the capture is 2020-11-01 and the version note states this is the text in force on the reference date.",
+  "PCMD (c1) is the institution's only parental provision in the saved documents: relief from up to six credit hours of teaching for one semester, research and graduate-student work continuing, at 90% of base salary, discretionary. Under R3 a relief with a pay cut is coded part_time_option and is not counted; flagged here as a hard case because the cut is only 10% and funds replacement teaching.",
+  "Post-tenure review (Policy 405.12.2) may be postponed for one year if PCMD is used (2.2); recorded here, not as a component: it is not a tenure-clock extension and gives no time off, pay or relief.",
+  "Sick or annual leave may not be used in conjunction with PCMD (2.5(3)); no sick-leave terms are saved. Sabbatical and other leave do not affect PCMD eligibility (2.5(4)); not a component.",
+  "Administrators in Library and Extension are encouraged to explore making the policy work in their units (366.3); no unit-scope restriction for academic faculty.",
+  "Cited but not saved: Policy 351 Family and Medical Leave; Policy 405.1.4(4) and Policy 405.12.2 (Policy 405 is in the folder but not used); the short-term disability leave policy (no title given).",
+  "Birth parent chain: PCMD semester (c1, part_time_option at 90%) with the further reduction c4 concurrent in the same semester, or the short-term disability pregnancy portion (c5) in lieu of PCMD; FMLA 12 workweeks (c2) runs alongside PCMD from its start.",
+  "Non-birth parent chain: PCMD semester (c1) with c4 concurrent; FMLA 12 workweeks (c2) alongside from its start; c5 does not apply (birth parent only)."
+ ],
+ "statutory_floor": {
+  "jurisdiction": "US",
+  "year": "2018",
+  "weeks_birth": 12.0,
+  "weeks_nonbirth": 12.0,
+  "statute": "Family and Medical Leave Act (FMLA) (29 U.S.C. 2611-2612)",
+  "source_doc": "2026_00_us_fmla_29usc2612",
+  "table": "statutory_baseline.csv"
+ }
+}

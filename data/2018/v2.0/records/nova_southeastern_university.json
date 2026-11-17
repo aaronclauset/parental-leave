@@ -1,0 +1,733 @@
+{
+ "institution": "Nova Southeastern University",
+ "slug": "nova_southeastern_university",
+ "country": "US",
+ "model": "claude-opus-5-5",
+ "codebook_version": "1.25",
+ "schema_version": "1.25",
+ "reference_date": "2018-02-27",
+ "documents": [
+  {
+   "doc_id": "2018_00_link",
+   "url": "http://www.nova.edu/academic-affairs/academic-policies.html",
+   "title": "Academic Policies and Procedures | NSU (navigation page)",
+   "version_or_effective_date": "wayback 2018-05-08; page footer (c) 2018",
+   "retrieved": "2026-10-18"
+  },
+  {
+   "doc_id": "2018_01_hr_leaves_of_absence",
+   "url": "https://www.nova.edu/hr/benefits/leaves-of-absence.html",
+   "title": "How to Request a Leave of Absence (HR Benefits page)",
+   "version_or_effective_date": "undated; wayback 2018-03-03; page footer (c) 2018",
+   "retrieved": "2026-10-20"
+  },
+  {
+   "doc_id": "2018_02_hr_life_and_disability_std",
+   "url": "https://www.nova.edu/hr/benefits/life-and-disability.html",
+   "title": "Life Insurance & Disability Benefits (HR Benefits page)",
+   "version_or_effective_date": "undated; wayback 2018-03-03; page footer (c) 2018",
+   "retrieved": "2026-10-21"
+  }
+ ],
+ "missing": "no_policy_on_page",
+ "scope_accounting": {
+  "C1": {
+   "absent": {
+    "documents": [
+     "2018_00_link",
+     "2018_01_hr_leaves_of_absence",
+     "2018_02_hr_life_and_disability_std"
+    ],
+    "terms": [
+     "maternity",
+     "paternity",
+     "parental",
+     "childbirth",
+     "birth",
+     "adoption",
+     "foster",
+     "newborn",
+     "child"
+    ]
+   }
+  },
+  "C2": {
+   "absent": {
+    "documents": [
+     "2018_00_link",
+     "2018_01_hr_leaves_of_absence",
+     "2018_02_hr_life_and_disability_std"
+    ],
+    "terms": [
+     "modified duties",
+     "teaching relief",
+     "course release",
+     "reduced load",
+     "relief"
+    ]
+   }
+  },
+  "C3": {
+   "components": [
+    "nova_southeastern_university_c2",
+    "nova_southeastern_university_c3",
+    "nova_southeastern_university_c4"
+   ]
+  },
+  "C4": {
+   "components": [
+    "nova_southeastern_university_c1"
+   ],
+   "not_components": [
+    {
+     "statute": "IRS Section 125 (Internal Revenue Code s. 125, cafeteria plans)",
+     "reason": "named only for the timing of optional term life insurance elections ('IRS Section 125 qualifying life event'); gives no leave, pay or job protection to a parent (U4)"
+    }
+   ]
+  },
+  "C5": {
+   "components": [
+    "nova_southeastern_university_c1"
+   ]
+  },
+  "C6": {
+   "absent": {
+    "documents": [
+     "2018_00_link",
+     "2018_01_hr_leaves_of_absence",
+     "2018_02_hr_life_and_disability_std"
+    ],
+    "terms": [
+     "personal leave",
+     "leave without pay",
+     "special leave",
+     "emergency leave",
+     "leave of absence (general purpose)"
+    ]
+   }
+  },
+  "C7": {
+   "absent": {
+    "documents": [
+     "2018_00_link",
+     "2018_01_hr_leaves_of_absence",
+     "2018_02_hr_life_and_disability_std"
+    ],
+    "terms": [
+     "tenure",
+     "tenure clock",
+     "probationary period",
+     "extension"
+    ]
+   }
+  },
+  "C8": {
+   "absent": {
+    "documents": [
+     "2018_00_link",
+     "2018_01_hr_leaves_of_absence",
+     "2018_02_hr_life_and_disability_std"
+    ],
+    "terms": [
+     "part-time",
+     "reduced appointment",
+     "phased return",
+     "reduced schedule"
+    ]
+   }
+  },
+  "C9": {
+   "absent": {
+    "documents": [
+     "2018_00_link",
+     "2018_01_hr_leaves_of_absence",
+     "2018_02_hr_life_and_disability_std"
+    ],
+    "terms": [
+     "pregnancy",
+     "accommodation",
+     "hazard",
+     "lactation",
+     "transfer"
+    ]
+   }
+  },
+  "C10": {
+   "absent": {
+    "documents": [
+     "2018_01_hr_leaves_of_absence"
+    ],
+    "terms": [
+     "first days",
+     "FMLA paid",
+     "regular work time",
+     "paid FMLA"
+    ]
+   }
+  }
+ },
+ "passage_dispositions": {
+  "2018_01_hr_leaves_of_absence#001": {
+   "used_in": [
+    "nova_southeastern_university_c1",
+    "nova_southeastern_university_c2",
+    "nova_southeastern_university_c3"
+   ]
+  },
+  "2018_02_hr_life_and_disability_std#001": {
+   "used_in": [
+    "nova_southeastern_university_c2",
+    "nova_southeastern_university_c4"
+   ]
+  }
+ },
+ "mechanism_slots": {
+  "employer_paid_leave": {
+   "absent": "no employer-paid leave in 2018_01, 2018_02 (2018_00 is navigation only); terms: paid leave, parental leave, maternity, with pay"
+  },
+  "employer_childbirth_benefit": {
+   "absent": "no childbirth-specific period stated in 2018_01, 2018_02; terms: childbirth, maternity, pregnancy, birth"
+  },
+  "generic_sick_or_disability_plan": {
+   "components": [
+    "nova_southeastern_university_c2",
+    "nova_southeastern_university_c4"
+   ]
+  },
+  "own_accrual": {
+   "components": [
+    "nova_southeastern_university_c3"
+   ]
+  },
+  "donated_leave": {
+   "absent": "not in 2018_01, 2018_02; terms: donated, shared leave, leave bank, pool"
+  },
+  "government_benefit": {
+   "absent": "no government or state programme named in 2018_01, 2018_02; terms: state, paid family leave, disability insurance"
+  },
+  "employer_topup": {
+   "absent": "not in 2018_01, 2018_02; terms: top-up, supplement"
+  },
+  "modified_duties": {
+   "absent": "not in 2018_01, 2018_02; terms: modified duties, relief, teaching load, course release"
+  },
+  "unpaid_leave": {
+   "components": [
+    "nova_southeastern_university_c1"
+   ]
+  },
+  "tenure_clock": {
+   "absent": "not in 2018_01, 2018_02; terms: tenure, clock, probationary"
+  },
+  "part_time_option": {
+   "absent": "not in 2018_01, 2018_02; terms: part-time, reduced appointment, phased"
+  },
+  "other": {
+   "absent": "not in 2018_01, 2018_02; terms: accommodation, pregnancy, transfer, hazard"
+  }
+ },
+ "baseline_accounting": {
+  "Family and Medical Leave Act (FMLA)": {
+   "components": [
+    "nova_southeastern_university_c1"
+   ]
+  },
+  "Federal Employee Paid Leave Act (paid parental leave for federal civilian employees)": {
+   "not_applicable": "covers federal civilian employees only; the institution is not a federal employer and no saved document mentions it"
+  }
+ },
+ "leave_limits": [],
+ "components": [
+  {
+   "component_id": "nova_southeastern_university_c1",
+   "institution_label": "Family Medical Leave",
+   "description": "FMLA as described on the HR leave page: up to 12 weeks of unpaid, job-protected leave for the employee's own serious health condition or to care for a family member with a serious health condition, after 12 months and 1,250 hours.",
+   "mechanism": "unpaid_leave",
+   "mechanism_note": "Statutory leave (FMLA), unpaid as stated.",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "\"eligible employees\" of NSU (FMLA eligibility: employed with NSU for 12 months and 1,250 hours); no exclusion of faculty stated",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent"
+   ],
+   "eligible_parent_wording": "\"to care for themselves and/or to provide care for eligible family members with a serious health condition\"",
+   "caregiver_condition": "none",
+   "service_requirement": "12 months and 1,250 hours",
+   "entitlement": "guaranteed",
+   "entitlement_note": "A statute: guaranteed (checklist, entitlement).",
+   "duration": {
+    "value": 12,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "duration_note": "The page says \"up to 12 weeks\"; the statute (29 U.S.C. 2612(a)(1)) says \"a total of 12 workweeks of leave during any 12-month period\".",
+   "must_exhaust_first": [
+    "paid time off"
+   ],
+   "medical_certification": true,
+   "medical_certification_note": "Matrix sends a medical certification to the employee's or the family member's healthcare provider; a Fitness for Duty Form before return (when applicable).",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "relief_note": "Formal leave of absence; relief not stated (R9). The page states \"Working is not permitted while on a leave of absence.\"",
+   "statute_source": "29 U.S.C. 2612(a)(1)(C)-(D) (family member's and own serious health condition); eligibility 29 U.S.C. 2611(2)",
+   "statute_verified": true,
+   "rule_applied": [
+    "U2",
+    "U4",
+    "U5",
+    "R9",
+    "U7"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "To be eligible for FMLA, employees must have been employed with NSU for 12 months and worked a minimum of 1,250 hours."
+    ],
+    "eligible_parent": [
+     "The Family Medical Leave Act (FMLA) provides eligible employees with up to 12 weeks of unpaid, protected leave to care for themselves and/or to provide care for eligible family members with a serious health condition."
+    ],
+    "entitlement": [
+     "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period for one or more of the following:"
+    ],
+    "duration": [
+     "provides eligible employees with up to 12 weeks of unpaid, protected leave"
+    ],
+    "service_requirement": [
+     "employees must have been employed with NSU for 12 months and worked a minimum of 1,250 hours",
+     "for at least 1,250 hours of service with such employer during the previous 12-month period."
+    ],
+    "must_exhaust_first": [
+     "while on a leave of absence, university closures and holidays are not paid, using your available paid time off is required"
+    ],
+    "medical_certification": [
+     "Let your healthcare provider, or your family member's healthcare provider, know that Matrix will be sending medical certification for your leave request."
+    ],
+    "relief": [
+     "Working is not permitted while on a leave of absence."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_hr_leaves_of_absence",
+    "2026_00_us_fmla_29usc2612",
+    "2026_01_us_fmla_29usc2611_definitions"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "up to 12 weeks of unpaid, protected leave"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "up to 12 weeks of unpaid, protected leave"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "to care for themselves and/or to provide care for eligible family members with a serious health condition"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "To be eligible for FMLA, employees must have been employed with NSU for 12 months and worked a minimum of 1,250 hours."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own serious health condition) and non_birth_parent (care of a family member); the birth and bonding purpose (2612(a)(1)(A)) is not invoked by the documents (U4) and is covered by the statutory floor (U7)",
+     "quote": "to care for themselves and/or to provide care for eligible family members with a serious health condition"
+    },
+    {
+     "field": "entitlement",
+     "rule": "U2",
+     "answer": "guaranteed",
+     "quote": "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period for one or more of the following:"
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "12 week up_to (as written on the page)",
+     "quote": "provides eligible employees with up to 12 weeks of unpaid, protected leave"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U2",
+     "answer": "12 months and 1,250 hours",
+     "quote": "employees must have been employed with NSU for 12 months and worked a minimum of 1,250 hours"
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave)",
+     "quote": "Working is not permitted while on a leave of absence."
+    }
+   ]
+  },
+  {
+   "component_id": "nova_southeastern_university_c2",
+   "institution_label": "Short Term Disability",
+   "description": "NSU's self-funded Short Term Disability program: reduced salary for an approved disability period, after the employee's paid time off is exhausted; for employees working 19.2+ hours a week after 90 days of employment. No length or pay level stated on the saved pages.",
+   "mechanism": "generic_sick_or_disability_plan",
+   "mechanism_note": "A general disability program; no childbirth-specific period, length or pay level is stated (V1 not met).",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "\"eligible employees working 19.2 hours or more per week at NSU and who have successfully completed 90 days of employment\"; no exclusion of faculty stated",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "\"eligible employees\"; \"eligible participants\"",
+   "caregiver_condition": "none",
+   "service_requirement": "working 19.2 hours or more per week and 90 days of employment",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "The program is provided to eligible employees with no action to participate; approval (by the leave administrator) decides eligibility for payment for a disability, i.e. the arrangements and the medical finding, not whether the program exists (V2).",
+   "pay_fraction": "reduced salary benefits",
+   "must_exhaust_first": [
+    "paid time off"
+   ],
+   "medical_certification": true,
+   "medical_certification_note": "Matrix determines eligibility for payment; medical certification returned by the employee's healthcare provider.",
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "nova_southeastern_university_c3",
+     "note": "salary is reduced (STD pay begins) only after paid time off is exhausted, within the approved disability period"
+    }
+   ],
+   "rule_applied": [
+    "V1",
+    "V6",
+    "U5",
+    "U6",
+    "M1",
+    "V2",
+    "R15"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Short Term Disability (STD) is available for eligible employees working 19.2 hours or more per week at NSU and who have successfully completed 90 days of employment."
+    ],
+    "eligible_parent": [
+     "STD is a self-funded program (not an insurance product) designed to provide reduced salary benefits to eligible participants under the terms and conditions of the Program in accordance with NSU policy."
+    ],
+    "entitlement": [
+     "STD is provided by NSU at no cost to employees, no action is required to participate in this program.",
+     "Matrix Absence Management administers Family Medical Leaves, Medical Leaves of Absence, and determines eligibility for payment under NSU's Short Term Disability program."
+    ],
+    "pay_fraction": [
+     "designed to provide reduced salary benefits to eligible participants"
+    ],
+    "service_requirement": [
+     "working 19.2 hours or more per week at NSU and who have successfully completed 90 days of employment"
+    ],
+    "sequence": [
+     "If approved for short term disability benefits, your salary will be reduced only after you have exhausted your paid time off (not to exceed the approved disability period)."
+    ],
+    "must_exhaust_first": [
+     "your salary will be reduced only after you have exhausted your paid time off"
+    ],
+    "payer": [
+     "STD is a self-funded program (not an insurance product)"
+    ],
+    "mechanism": [
+     "STD is a self-funded program (not an insurance product) designed to provide reduced salary benefits to eligible participants under the terms and conditions of the Program in accordance with NSU policy."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_hr_leaves_of_absence",
+    "2018_02_hr_life_and_disability_std"
+   ],
+   "flags": [
+    "summary_only: 2018_02_hr_life_and_disability_std",
+    "cross_reference_not_saved: Short Term Disability Program Description",
+    "cross_reference_not_saved: NSU Leave Policies (www.nova.edu/portal/hr/policies/index) / NSU employee policy manual"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "V1",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "STD is a self-funded program (not an insurance product) designed to provide reduced salary benefits to eligible participants"
+    },
+    {
+     "field": "payer",
+     "rule": "M1",
+     "answer": "employer",
+     "quote": "STD is a self-funded program (not an insurance product)"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Family Medical Leave and Short Term Disability at NSU"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Short Term Disability (STD) is available for eligible employees working 19.2 hours or more per week at NSU"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own disability)",
+     "quote": "designed to provide reduced salary benefits to eligible participants under the terms and conditions of the Program"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "STD is provided by NSU at no cost to employees, no action is required to participate in this program."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "reduced salary benefits (level not stated; pay_fraction_pct omitted)",
+     "quote": "designed to provide reduced salary benefits to eligible participants"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "working 19.2 hours or more per week and 90 days of employment",
+     "quote": "working 19.2 hours or more per week at NSU and who have successfully completed 90 days of employment"
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "consecutive_after c3 (paid time off first, then STD reduced salary)",
+     "quote": "your salary will be reduced only after you have exhausted your paid time off (not to exceed the approved disability period)"
+    }
+   ]
+  },
+  {
+   "component_id": "nova_southeastern_university_c3",
+   "institution_label": "",
+   "description": "Required use of the employee's own accrued paid time off during a leave of absence (FMLA or medical leave); PTO is used first, before STD reduced salary begins. Balance size not stated.",
+   "mechanism": "own_accrual",
+   "mechanism_note": "The employee's own paid time off balance (sick, personal and vacation time accrue to it), which must be used during a leave of absence (R1).",
+   "payer": "own_balance",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "employees on a leave of absence (\"your available paid time off\"); no exclusion of faculty stated",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent"
+   ],
+   "eligible_parent_wording": "\"you\" (the employee on a leave of absence: own health or care of a family member)",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "entitlement_note": "Use of the balance is required on leave (\"is required\"); the employee's own balance.",
+   "sequence": [
+    {
+     "relation": "within",
+     "component_id": "nova_southeastern_university_c1",
+     "note": "PTO is used while on the leave of absence, from its start (S1: pay for a statutory leave is within it)"
+    }
+   ],
+   "rule_applied": [
+    "R1",
+    "S1",
+    "U5",
+    "U1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Remember that while on a leave of absence, university closures and holidays are not paid, using your available paid time off is required, and you do not accrue sick, personal, or vacation time."
+    ],
+    "eligible_parent": [
+     "to care for themselves and/or to provide care for eligible family members with a serious health condition"
+    ],
+    "entitlement": [
+     "using your available paid time off is required"
+    ],
+    "sequence": [
+     "Remember that while on a leave of absence, university closures and holidays are not paid, using your available paid time off is required"
+    ]
+   },
+   "doc_ids": [
+    "2018_01_hr_leaves_of_absence"
+   ],
+   "flags": [
+    "summary_only: 2018_01_hr_leaves_of_absence",
+    "cross_reference_not_saved: NSU Leave Policies (www.nova.edu/portal/hr/policies/index) / NSU employee policy manual",
+    "cross_reference_not_saved: Leave of Absence Paid Time Off Calculator"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "own_accrual",
+     "quote": "using your available paid time off is required, and you do not accrue sick, personal, or vacation time"
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "own_balance",
+     "quote": "using your available paid time off is required"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "while on a leave of absence, university closures and holidays are not paid, using your available paid time off is required"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "using your available paid time off is required"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent and non_birth_parent (applied during leave for own health and for family care)",
+     "quote": "to care for themselves and/or to provide care for eligible family members with a serious health condition"
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "using your available paid time off is required"
+    },
+    {
+     "field": "sequence",
+     "rule": "S1",
+     "answer": "within c1",
+     "quote": "while on a leave of absence, university closures and holidays are not paid, using your available paid time off is required"
+    }
+   ]
+  },
+  {
+   "component_id": "nova_southeastern_university_c4",
+   "institution_label": "Long Term Disability (LTD)",
+   "description": "Employer-provided group long-term disability insurance (Reliance Standard), reduced salary benefits for the totally disabled; employees working 19.2+ hours a week after 90 days of employment. Recorded without a length (schema §2).",
+   "mechanism": "generic_sick_or_disability_plan",
+   "mechanism_note": "Long-term disability plan (schema §2): recorded without a duration.",
+   "payer": "insurance_plan",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "\"eligible employees working 19.2 hours or more per week at NSU and who have successfully completed 90 days of employment\"",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "\"eligible participants who become totally disabled\"",
+   "caregiver_condition": "none",
+   "service_requirement": "working 19.2 hours or more per week and 90 days of employment",
+   "entitlement": "guaranteed",
+   "entitlement_note": "\"provided by NSU at no cost to employees, no action is required to enroll\": coverage is provided outright.",
+   "pay_fraction": "reduced salary benefits",
+   "rule_applied": [
+    "M1",
+    "U5",
+    "V6"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Long Term Disability (LTD) is available for eligible employees working 19.2 hours or more per week at NSU and who have successfully completed 90 days of employment."
+    ],
+    "eligible_parent": [
+     "LTD is an insurance product designed to provide reduced salary benefits to eligible participants who become totally disabled under the terms and conditions of the Program."
+    ],
+    "entitlement": [
+     "LTD is provided by NSU at no cost to employees, no action is required to enroll in this benefit."
+    ],
+    "pay_fraction": [
+     "designed to provide reduced salary benefits to eligible participants who become totally disabled"
+    ],
+    "service_requirement": [
+     "Long Term Disability (LTD) is available for eligible employees working 19.2 hours or more per week at NSU and who have successfully completed 90 days of employment."
+    ],
+    "payer": [
+     "LTD is an insurance product",
+     "LTD is administered by Reliance Standard."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_hr_life_and_disability_std"
+   ],
+   "flags": [
+    "summary_only: 2018_02_hr_life_and_disability_std",
+    "cross_reference_not_saved: Group Long Term Disability Insurance Certificate"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "LTD is an insurance product designed to provide reduced salary benefits to eligible participants who become totally disabled"
+    },
+    {
+     "field": "payer",
+     "rule": "M1",
+     "answer": "insurance_plan",
+     "quote": "LTD is an insurance product designed to provide reduced salary benefits"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "eligible participants who become totally disabled"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Long Term Disability (LTD) is available for eligible employees working 19.2 hours or more per week at NSU"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own disability)",
+     "quote": "eligible participants who become totally disabled"
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "LTD is provided by NSU at no cost to employees, no action is required to enroll in this benefit."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "reduced salary benefits (level not stated)",
+     "quote": "designed to provide reduced salary benefits to eligible participants who become totally disabled"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "working 19.2 hours or more per week and 90 days of employment",
+     "quote": "working 19.2 hours or more per week at NSU and who have successfully completed 90 days of employment"
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "missing = no_policy_on_page under the rule for records with no governing document (reader instructions §3): none of the three usable sources is a governing document for faculty leave. 2018_00_link is the Academic Affairs 'Academic Policies and Procedures' navigation page; it holds no policy and only lists a 'Faculty Policy Manual' link, which is not saved. 2018_01_hr_leaves_of_absence is an HR 'How to Request a Leave of Absence' page summarising FMLA, Medical Leaves of Absence and Short Term Disability administration (Matrix) and the required use of paid time off. 2018_02_hr_life_and_disability_std is an HR benefits page summarising Short Term Disability, Long Term Disability, Basic Life/AD&D and optional life insurance.",
+  "Governing documents cited but not saved: the NSU Faculty Policy Manual (2018_00); NSU's Leave Policies (www.nova.edu/portal/hr/policies/index) and the NSU employee policy manual (2018_01); the Short Term Disability Program Description (2018_01, 2018_02); the Group Long Term Disability Insurance Certificate (2018_02); also the Leave of Absence Paid Time Off Calculator (2018_01) and the Group Accident (AD&D) and Group Life Insurance Certificates (2018_02, not relevant to leave).",
+  "No saved source mentions maternity, paternity, parental, childbirth, adoption or pregnancy leave, modified duties, tenure-clock extension, or part-time options. 'Medical Leaves of Absence' is named once (administered by Matrix) with no terms, so it is not coded as a component; its governing policy is not saved.",
+  "The three HR-page provisions (STD, LTD, required PTO use) are flagged summary_only: they appear only on HR summary pages and the governing documents (STD Program Description, NSU leave policies, LTD certificate) are not saved. FMLA (c1) is verified against the saved statute (statute texts 2026_00, 2026_01) and is not flagged.",
+  "Faculty group: the HR pages address 'eligible employees' (benefits-eligible, 19.2+ hours a week) without excluding faculty, so main_campus_tenure_stream is coded (schema §2b); no saved source names faculty specifically.",
+  "Reference date 2018-02-27. The HR pages are undated; their Wayback captures are 2018-03-03 (reference academic year 2017-18), so they are accepted as in force; the navigation page capture is 2018-05-08.",
+  "Statutory baseline (US; no FL rows in statutory_baseline.csv): FMLA -> c1; Federal Employee Paid Leave Act -> not applicable. No Florida statute is named in the documents.",
+  "Chain, birth parent: FMLA up to 12 weeks (own serious health condition) with own paid time off used within it from its start -> STD reduced salary after PTO is exhausted (no length stated); LTD unlinked (no length, schema §2).",
+  "Chain, non-birth parent: FMLA up to 12 weeks (care of a family member with a serious health condition, U5) with own paid time off used within it from its start."
+ ],
+ "statutory_floor": {
+  "jurisdiction": "US",
+  "year": "2018",
+  "weeks_birth": 12.0,
+  "weeks_nonbirth": 12.0,
+  "statute": "Family and Medical Leave Act (FMLA) (29 U.S.C. 2611-2612)",
+  "source_doc": "2026_00_us_fmla_29usc2612",
+  "table": "statutory_baseline.csv"
+ }
+}

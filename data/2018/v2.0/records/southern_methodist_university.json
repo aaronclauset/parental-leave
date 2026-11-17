@@ -1,0 +1,959 @@
+{
+ "institution": "Southern Methodist University",
+ "slug": "southern_methodist_university",
+ "country": "US",
+ "model": "claude-opus-5-5",
+ "codebook_version": "1.25",
+ "schema_version": "1.25",
+ "reference_date": "2018-02-24",
+ "documents": [
+  {
+   "doc_id": "2018_00_link",
+   "url": "https://www.smu.edu/BusinessFinance/HR/BenefitsAndWellness/HealthAndOtherBenefits/Leave-of-Absence-FMLA",
+   "title": "Leave of Absence and FMLA - SMU (Human Resources, Health and Other Benefits)",
+   "version_or_effective_date": "no version date on the page; Wayback capture 2017-11-15 (20171115094441), within the reference academic year 2017-18; the page links 'Benefits Guide 2018'",
+   "retrieved": "2026-10-29T23:44:21+00:00"
+  }
+ ],
+ "missing": "no_policy_on_page",
+ "scope_accounting": {
+  "C1": {
+   "components": [
+    "southern_methodist_university_c1",
+    "southern_methodist_university_c2"
+   ]
+  },
+  "C2": {
+   "absent": {
+    "documents": [
+     "2018_00_link"
+    ],
+    "terms": [
+     "modified duties",
+     "teaching relief",
+     "course release",
+     "workload",
+     "relief",
+     "faculty"
+    ]
+   }
+  },
+  "C3": {
+   "components": [
+    "southern_methodist_university_c5",
+    "southern_methodist_university_c3"
+   ]
+  },
+  "C4": {
+   "components": [
+    "southern_methodist_university_c4"
+   ],
+   "not_components": [
+    {
+     "statute": "FMLA servicemember family leave (Military Caregiver Leave, 26 workweeks; 29 U.S.C. 2612(a)(3))",
+     "reason": "care of a covered servicemember; unrelated to becoming a parent (U4)"
+    },
+    {
+     "statute": "FMLA qualifying exigency leave (29 U.S.C. 2612(a)(1)(E))",
+     "reason": "exigencies of a family member's active duty; unrelated to becoming a parent (U4)"
+    },
+    {
+     "statute": "Federal or State law prohibiting discrimination (named generically; no act identified)",
+     "reason": "an anti-discrimination savings clause with no leave, pay or length of its own (U4)"
+    },
+    {
+     "statute": "military leave obligations (Military and Civic Leave; no act named)",
+     "reason": "military service and jury duty; not usable for a birth or adoption (checklist §1)"
+    }
+   ]
+  },
+  "C5": {
+   "components": [
+    "southern_methodist_university_c4",
+    "southern_methodist_university_c5"
+   ]
+  },
+  "C6": {
+   "components": [
+    "southern_methodist_university_c3"
+   ]
+  },
+  "C7": {
+   "absent": {
+    "documents": [
+     "2018_00_link"
+    ],
+    "terms": [
+     "tenure",
+     "tenure clock",
+     "probationary",
+     "extension",
+     "faculty"
+    ]
+   }
+  },
+  "C8": {
+   "absent": {
+    "documents": [
+     "2018_00_link"
+    ],
+    "terms": [
+     "part-time",
+     "reduced",
+     "phased",
+     "partial year"
+    ]
+   }
+  },
+  "C9": {
+   "absent": {
+    "documents": [
+     "2018_00_link"
+    ],
+    "terms": [
+     "accommodation",
+     "pregnancy",
+     "light duty",
+     "transfer",
+     "hazard"
+    ]
+   }
+  },
+  "C10": {
+   "absent": {
+    "documents": [
+     "2018_00_link"
+    ],
+    "terms": [
+     "FMLA",
+     "paid",
+     "first days",
+     "regular work time"
+    ]
+   }
+  }
+ },
+ "passage_dispositions": {
+  "2018_00_link#001": {
+   "not_relevant": "site navigation menu only; no policy text"
+  },
+  "2018_00_link#002": {
+   "used_in": [
+    "southern_methodist_university_c1",
+    "southern_methodist_university_c2",
+    "southern_methodist_university_c3",
+    "southern_methodist_university_c4",
+    "southern_methodist_university_c5"
+   ]
+  }
+ },
+ "mechanism_slots": {
+  "employer_paid_leave": {
+   "components": [
+    "southern_methodist_university_c1"
+   ]
+  },
+  "employer_childbirth_benefit": {
+   "components": [
+    "southern_methodist_university_c2"
+   ]
+  },
+  "generic_sick_or_disability_plan": {
+   "absent": "2018_00_link searched for disability, short-term disability, salary continuation, long-term disability: only 'the disability portion of maternity' (no plan stated)"
+  },
+  "own_accrual": {
+   "components": [
+    "southern_methodist_university_c5"
+   ]
+  },
+  "donated_leave": {
+   "absent": "2018_00_link searched for donated, shared, bank, pool: none"
+  },
+  "government_benefit": {
+   "absent": "2018_00_link searched for state program, paid family leave, disability insurance, benefit: none (Texas)"
+  },
+  "employer_topup": {
+   "absent": "2018_00_link searched for top-up, supplement, difference: only the military pay difference (not a parent provision)"
+  },
+  "modified_duties": {
+   "absent": "2018_00_link searched for modified duties, relief, teaching, course release: none"
+  },
+  "unpaid_leave": {
+   "components": [
+    "southern_methodist_university_c4",
+    "southern_methodist_university_c3"
+   ]
+  },
+  "tenure_clock": {
+   "absent": "2018_00_link searched for tenure, clock, probationary: none"
+  },
+  "part_time_option": {
+   "absent": "2018_00_link searched for part-time, reduced schedule, phased: only part-time staff eligibility and prorated accrual"
+  },
+  "other": {
+   "absent": "2018_00_link searched for accommodation, transfer, pregnancy, hazard: none"
+  }
+ },
+ "baseline_accounting": {
+  "Family and Medical Leave Act (FMLA)": {
+   "components": [
+    "southern_methodist_university_c4"
+   ]
+  },
+  "Federal Employee Paid Leave Act (paid parental leave for federal civilian employees)": {
+   "not_applicable": "federal civilian employees only; SMU is a private university; no saved document mentions it"
+  },
+  "Parental leave for state employees not eligible for FMLA": {
+   "not_applicable": "Tex. Gov't Code 661.913 covers state employees; SMU is private; no saved document mentions it"
+  }
+ },
+ "leave_limits": [],
+ "components": [
+  {
+   "component_id": "southern_methodist_university_c1",
+   "institution_label": "Adoption Leave",
+   "description": "Three weeks (15 consecutive work days) of paid leave at usual wages for a benefit-eligible staff employee who adopts a child aged two or younger and is the primary caretaker; after one year of service. Staff only.",
+   "mechanism": "employer_paid_leave",
+   "payer": "employer",
+   "faculty_group": "benefit-eligible staff",
+   "faculty_group_note": "benefit-eligible staff employee; Benefit-eligible staff, including benefit-eligible part-time staff",
+   "eligible_parent": [
+    "adoptive"
+   ],
+   "eligible_parent_wording": "a benefit-eligible staff employee who adopts a child",
+   "caregiver_condition": "primary",
+   "caregiver_condition_wording": "is the primary caretaker for the child. Primary caregivers are eligible",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "'The University will provide paid Adoption Leave' grants the benefit; the employee 'may request' it and the leave must be approved in writing (the page's general approval line), which reads as approval of the arrangements (V2).",
+   "duration": {
+    "value": 3,
+    "units": "week",
+    "qualifier": "exact"
+   },
+   "duration_note": "a total of three weeks (15 consecutive work days); 'a total of' carries no qualifier (R13)",
+   "pay_fraction": "usual wages and elected benefits",
+   "pay_fraction_pct": 100,
+   "service_requirement": "one year of service to the University",
+   "time_window": "child two years (24 months) of age or younger at adoption",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "relief_note": "A leave of absence; relief not stated, so every duty relieved (R9).",
+   "rule_applied": [
+    "V2",
+    "R9",
+    "R13",
+    "R5",
+    "U1",
+    "source_precedence"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "The University will provide paid Adoption Leave to a benefit-eligible staff employee who adopts a child two years (24 months) of age or younger, and is the primary caretaker for the child.",
+     "Benefit-eligible staff, including benefit-eligible part-time staff, may request a paid Adoption Leave after one year of service to the University."
+    ],
+    "eligible_parent": [
+     "The University will provide paid Adoption Leave to a benefit-eligible staff employee who adopts a child two years (24 months) of age or younger, and is the primary caretaker for the child."
+    ],
+    "caregiver_condition": [
+     "The University will provide paid Adoption Leave to a benefit-eligible staff employee who adopts a child two years (24 months) of age or younger, and is the primary caretaker for the child.",
+     "Primary caregivers are eligible for a total of three weeks (15 consecutive work days) of paid leave."
+    ],
+    "entitlement": [
+     "The University will provide paid Adoption Leave to a benefit-eligible staff employee who adopts a child two years (24 months) of age or younger, and is the primary caretaker for the child.",
+     "Benefit-eligible staff, including benefit-eligible part-time staff, may request a paid Adoption Leave after one year of service to the University.",
+     "All leaves of absence must be approved in writing by"
+    ],
+    "duration": [
+     "Primary caregivers are eligible for a total of three weeks (15 consecutive work days) of paid leave."
+    ],
+    "pay_fraction": [
+     "During an approved Adoption Leave, a staff member will continue to receive usual wages and elected benefits."
+    ],
+    "service_requirement": [
+     "Benefit-eligible staff, including benefit-eligible part-time staff, may request a paid Adoption Leave after one year of service to the University."
+    ],
+    "time_window": [
+     "The University will provide paid Adoption Leave to a benefit-eligible staff employee who adopts a child two years (24 months) of age or younger, and is the primary caretaker for the child."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "summary_only: 2018_00_link"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "employer_paid_leave",
+     "quote": "The University will provide paid Adoption Leave to a benefit-eligible staff employee who adopts a child two years (24 months) of age or younger, and is the primary caretaker for the child."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "During an approved Adoption Leave, a staff member will continue to receive usual wages and elected benefits."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "The University will provide paid Adoption Leave to a benefit-eligible staff employee who adopts a child two years (24 months) of age or younger, and is the primary caretaker for the child."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "benefit-eligible staff",
+     "quote": "The University will provide paid Adoption Leave to a benefit-eligible staff employee who adopts a child two years (24 months) of age or younger, and is the primary caretaker for the child."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "adoptive (counted in neither role)",
+     "quote": "The University will provide paid Adoption Leave to a benefit-eligible staff employee who adopts a child two years (24 months) of age or younger, and is the primary caretaker for the child."
+    },
+    {
+     "field": "caregiver_condition",
+     "rule": "schema",
+     "answer": "primary",
+     "quote": "Primary caregivers are eligible for a total of three weeks (15 consecutive work days) of paid leave."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "The University will provide paid Adoption Leave to a benefit-eligible staff employee who adopts a child two years (24 months) of age or younger, and is the primary caretaker for the child."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "3 weeks exact",
+     "quote": "Primary caregivers are eligible for a total of three weeks (15 consecutive work days) of paid leave."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "usual wages and elected benefits (100)",
+     "quote": "During an approved Adoption Leave, a staff member will continue to receive usual wages and elected benefits."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "one year of service",
+     "quote": "Benefit-eligible staff, including benefit-eligible part-time staff, may request a paid Adoption Leave after one year of service to the University."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave)",
+     "quote": "Primary caregivers are eligible for a total of three weeks (15 consecutive work days) of paid leave."
+    },
+    {
+     "field": "flags",
+     "rule": "source_precedence",
+     "answer": "summary_only: 2018_00_link",
+     "quote": "The University will provide paid Adoption Leave to a benefit-eligible staff employee who adopts a child two years (24 months) of age or younger, and is the primary caretaker for the child."
+    }
+   ]
+  },
+  {
+   "component_id": "southern_methodist_university_c2",
+   "institution_label": "Maternity Leave",
+   "description": "Paid maternity leave at usual wages for benefit-eligible female staff after one year of service: six weeks for a normal delivery, eight for a caesarian delivery. Staff only.",
+   "mechanism": "employer_childbirth_benefit",
+   "mechanism_note": "A dedicated maternity leave stating a childbirth-specific period (6 or 8 weeks), its length and its pay (usual wages): V1's three parts, R2.",
+   "payer": "employer",
+   "faculty_group": "benefit-eligible female staff",
+   "faculty_group_note": "Benefit-eligible female staff; Staff Leave of Absence form",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "female staff; her usual wages",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "'may request' with grant language ('will receive her usual wages'; 'A total of six (6) weeks of paid leave'); the form 'with appropriate approvals' and the page's written-approval line read as approval of the arrangements (V2). The page does not say whether approval may be refused; flagged ambiguous.",
+   "duration": {
+    "value": 6,
+    "units": "week",
+    "qualifier": "at_least"
+   },
+   "duration_max": {
+    "value": 8,
+    "units": "week"
+   },
+   "duration_variants": {
+    "normal_delivery": "6 weeks",
+    "caesarian_delivery": "8 weeks"
+   },
+   "duration_note": "six weeks for a normal delivery, eight for a caesarian delivery: a conditional length coded as a range (R13b)",
+   "pay_fraction": "usual wages and benefits",
+   "pay_fraction_pct": 100,
+   "service_requirement": "one (1) year of service",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "relief_note": "A leave of absence; relief not stated, so every duty relieved (R9).",
+   "rule_applied": [
+    "V1",
+    "R2",
+    "V2",
+    "R13b",
+    "R9",
+    "R5",
+    "U1",
+    "source_precedence"
+   ],
+   "evidence": {
+    "mechanism": [
+     "Benefit-eligible female staff may request a paid Maternity Leave after one (1) year of service.",
+     "The staff member will receive her usual wages and benefits.",
+     "A total of six (6) weeks of paid leave for a normal delivery and eight (8) weeks, for a caesarian delivery."
+    ],
+    "faculty_group": [
+     "Benefit-eligible female staff may request a paid Maternity Leave after one (1) year of service.",
+     "A completed Staff Leave of Absence form with appropriate approvals is required."
+    ],
+    "eligible_parent": [
+     "Benefit-eligible female staff may request a paid Maternity Leave after one (1) year of service.",
+     "The staff member will receive her usual wages and benefits."
+    ],
+    "entitlement": [
+     "Benefit-eligible female staff may request a paid Maternity Leave after one (1) year of service.",
+     "The staff member will receive her usual wages and benefits.",
+     "A completed Staff Leave of Absence form with appropriate approvals is required.",
+     "All leaves of absence must be approved in writing by"
+    ],
+    "duration": [
+     "A total of six (6) weeks of paid leave for a normal delivery and eight (8) weeks, for a caesarian delivery."
+    ],
+    "pay_fraction": [
+     "The staff member will receive her usual wages and benefits."
+    ],
+    "service_requirement": [
+     "Benefit-eligible female staff may request a paid Maternity Leave after one (1) year of service."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "summary_only: 2018_00_link",
+    "ambiguous: entitlement: 'may request' and written approval required; the page does not say whether approval decides the benefit or only its arrangements"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "V1",
+     "answer": "employer_childbirth_benefit",
+     "quote": "A total of six (6) weeks of paid leave for a normal delivery and eight (8) weeks, for a caesarian delivery."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "The staff member will receive her usual wages and benefits."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Benefit-eligible female staff may request a paid Maternity Leave after one (1) year of service."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "benefit-eligible female staff",
+     "quote": "Benefit-eligible female staff may request a paid Maternity Leave after one (1) year of service."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "birth_parent",
+     "quote": "Benefit-eligible female staff may request a paid Maternity Leave after one (1) year of service."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "The staff member will receive her usual wages and benefits."
+    },
+    {
+     "field": "duration",
+     "rule": "R13b",
+     "answer": "6 weeks at_least, max 8 (caesarian)",
+     "quote": "A total of six (6) weeks of paid leave for a normal delivery and eight (8) weeks, for a caesarian delivery."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "usual wages and benefits (100)",
+     "quote": "The staff member will receive her usual wages and benefits."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "one (1) year of service",
+     "quote": "Benefit-eligible female staff may request a paid Maternity Leave after one (1) year of service."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave)",
+     "quote": "A total of six (6) weeks of paid leave for a normal delivery and eight (8) weeks, for a caesarian delivery."
+    },
+    {
+     "field": "flags",
+     "rule": "source_precedence",
+     "answer": "summary_only: 2018_00_link",
+     "quote": "Benefit-eligible female staff may request a paid Maternity Leave after one (1) year of service."
+    }
+   ]
+  },
+  {
+   "component_id": "southern_methodist_university_c3",
+   "institution_label": "Extended Leave (Unpaid)",
+   "description": "Unpaid extended leave that may be granted to staff for various reasons (government service, education, medical leave once medical and vacation balances are used, including the disability portion of maternity), with return to the same or a comparable position.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "staff",
+   "faculty_group_note": "staff member's accumulated medical and vacation leave allowances; Upon return, staff member will resume",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "an illness ... (including the disability portion of maternity)",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "entitlement_note": "'May be granted' (V2).",
+   "must_exhaust_first": [
+    "sick",
+    "vacation"
+   ],
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "relief_note": "A leave of absence; relief not stated, so every duty relieved (R9).",
+   "return_obligation": "none stated; staff member resumes the same position if still available, or a comparable one",
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "southern_methodist_university_c5",
+     "note": "medical leave if an illness extends beyond the accumulated medical and vacation allowances (checklist §5 example 4)"
+    }
+   ],
+   "rule_applied": [
+    "U1",
+    "U5",
+    "V2",
+    "R9",
+    "R15"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "May be granted for a variety of reasons such as government service, a full time educational objective, medical leave if an illness extends beyond a staff member's accumulated medical and vacation leave allowances (including the disability portion of maternity).",
+     "Upon return, staff member will resume the same position if still available, or another available position at a comparable salary if the staff member is qualified."
+    ],
+    "eligible_parent": [
+     "May be granted for a variety of reasons such as government service, a full time educational objective, medical leave if an illness extends beyond a staff member's accumulated medical and vacation leave allowances (including the disability portion of maternity)."
+    ],
+    "entitlement": [
+     "May be granted for a variety of reasons such as government service, a full time educational objective, medical leave if an illness extends beyond a staff member's accumulated medical and vacation leave allowances (including the disability portion of maternity)."
+    ],
+    "must_exhaust_first": [
+     "May be granted for a variety of reasons such as government service, a full time educational objective, medical leave if an illness extends beyond a staff member's accumulated medical and vacation leave allowances (including the disability portion of maternity)."
+    ],
+    "sequence": [
+     "May be granted for a variety of reasons such as government service, a full time educational objective, medical leave if an illness extends beyond a staff member's accumulated medical and vacation leave allowances (including the disability portion of maternity)."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "general_purpose",
+    "summary_only: 2018_00_link"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "May be granted for a variety of reasons such as government service, a full time educational objective, medical leave if an illness extends beyond a staff member's accumulated medical and vacation leave allowances (including the disability portion of maternity)."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "May be granted for a variety of reasons such as government service, a full time educational objective, medical leave if an illness extends beyond a staff member's accumulated medical and vacation leave allowances (including the disability portion of maternity)."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "May be granted for a variety of reasons such as government service, a full time educational objective, medical leave if an illness extends beyond a staff member's accumulated medical and vacation leave allowances (including the disability portion of maternity)."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "staff",
+     "quote": "Upon return, staff member will resume the same position if still available, or another available position at a comparable salary if the staff member is qualified."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own illness, including the disability portion of maternity)",
+     "quote": "May be granted for a variety of reasons such as government service, a full time educational objective, medical leave if an illness extends beyond a staff member's accumulated medical and vacation leave allowances (including the disability portion of maternity)."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "May be granted for a variety of reasons such as government service, a full time educational objective, medical leave if an illness extends beyond a staff member's accumulated medical and vacation leave allowances (including the disability portion of maternity)."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave)",
+     "quote": "May be granted for a variety of reasons such as government service, a full time educational objective, medical leave if an illness extends beyond a staff member's accumulated medical and vacation leave allowances (including the disability portion of maternity)."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "consecutive_after c5 (medical leave balance)",
+     "quote": "May be granted for a variety of reasons such as government service, a full time educational objective, medical leave if an illness extends beyond a staff member's accumulated medical and vacation leave allowances (including the disability portion of maternity)."
+    },
+    {
+     "field": "flags",
+     "rule": "source_precedence",
+     "answer": "summary_only: 2018_00_link",
+     "quote": "May be granted for a variety of reasons such as government service, a full time educational objective, medical leave if an illness extends beyond a staff member's accumulated medical and vacation leave allowances (including the disability portion of maternity)."
+    }
+   ],
+   "job_protected_weeks": 0
+  },
+  {
+   "component_id": "southern_methodist_university_c4",
+   "institution_label": "FMLA Leave",
+   "description": "Federal FMLA leave: 12 workweeks of unpaid, job-protected leave for eligible employees (12 months and 1,250 hours) for a birth, a placement for adoption or foster care, care of a child in the first 12 months, the employee's own serious health condition, or care of a seriously ill spouse.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "eligible employees; Employees may be eligible for FMLA leave if they have been employed by the University",
+   "eligible_parent": [
+    "any_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "Birth of a child; Placement with the employee of a child for adoption or foster care; Care of a spouse/domestic partner",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "entitlement_note": "A statutory entitlement ('grants eligible employees the right'): guaranteed.",
+   "duration": {
+    "value": 12,
+    "units": "workweek",
+    "qualifier": "exact"
+   },
+   "duration_note": "12 work weeks over a calendar year (the page's measuring period); statute: 12 workweeks during any 12-month period (29 U.S.C. 2612(a)(1)).",
+   "medical_certification": true,
+   "medical_certification_note": "for the employee's own serious health condition (certified by their health care provider) and for care of a family member (certified by the family member's health care provider); none stated for birth or placement",
+   "service_requirement": "at least 12 months (consecutive or non-consecutive) and at least 1,250 hours in the preceding 12 months",
+   "time_window": "care of a child during the first 12 months following birth or placement",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "relief_note": "A leave of absence; relief not stated, so every duty relieved (R9).",
+   "statute_source": "29 U.S.C. 2612(a)(1)(A)-(D); eligibility 29 U.S.C. 2611(2)",
+   "statute_verified": true,
+   "sequence": [
+    {
+     "relation": "concurrent_with",
+     "component_id": "southern_methodist_university_c2",
+     "note": "S1: statutory leave runs alongside the institution's paid maternity leave ('certain leaves must run concurrently with FMLA Leave'); maternity leave is staff-only, so the link applies to staff only"
+    },
+    {
+     "relation": "concurrent_with",
+     "component_id": "southern_methodist_university_c1",
+     "note": "S1: alongside the staff adoption leave"
+    }
+   ],
+   "rule_applied": [
+    "U2",
+    "U4",
+    "U5",
+    "S1",
+    "R9",
+    "R5",
+    "U1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "The Family and Medical Leave Act (FMLA) grants eligible employees the right to take 12 work weeks of job-protected leave over a calendar year for the reasons addressed below.",
+     "Employees may be eligible for FMLA leave if they have been employed by the University for at least 12 months, (consecutive or non-consecutive,) and have worked at least 1,250 hours (actual hours worked) during the 12-month period preceding the date their leave commences."
+    ],
+    "eligible_parent": [
+     "Birth of a child",
+     "Placement with the employee of a child for adoption or foster care",
+     "Care of a child during the first 12 months following birth or placement",
+     "Serious health condition that makes an employee unable to perform one or more of the essential functions of their job, as certified by their health care provider",
+     "Care of a spouse/domestic partner, child, or parent with a serious health condition, as certified by the family member's health care provider."
+    ],
+    "entitlement": [
+     "The Family and Medical Leave Act (FMLA) grants eligible employees the right to take 12 work weeks of job-protected leave over a calendar year for the reasons addressed below.",
+     "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period"
+    ],
+    "duration": [
+     "The Family and Medical Leave Act (FMLA) grants eligible employees the right to take 12 work weeks of job-protected leave over a calendar year for the reasons addressed below.",
+     "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period"
+    ],
+    "service_requirement": [
+     "Employees may be eligible for FMLA leave if they have been employed by the University for at least 12 months, (consecutive or non-consecutive,) and have worked at least 1,250 hours (actual hours worked) during the 12-month period preceding the date their leave commences."
+    ],
+    "sequence": [
+     "FMLA leave does not eliminate or reduce other University leaves; however, certain leaves must run concurrently with FMLA Leave."
+    ],
+    "time_window": [
+     "Care of a child during the first 12 months following birth or placement"
+    ],
+    "medical_certification": [
+     "Serious health condition that makes an employee unable to perform one or more of the essential functions of their job, as certified by their health care provider",
+     "Care of a spouse/domestic partner, child, or parent with a serious health condition, as certified by the family member's health care provider."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link",
+    "2026_00_us_fmla_29usc2612"
+   ],
+   "flags": [
+    "cross_reference_not_saved: The Employee's Guide to the Family and Medical Leave Act (U.S. Department of Labor)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "U4",
+     "answer": "unpaid_leave",
+     "quote": "The Family and Medical Leave Act (FMLA) grants eligible employees the right to take 12 work weeks of job-protected leave over a calendar year for the reasons addressed below."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "The Family and Medical Leave Act (FMLA) grants eligible employees the right to take 12 work weeks of job-protected leave over a calendar year for the reasons addressed below."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Employees are eligible for FMLA Leave for the following reasons:"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Employees may be eligible for FMLA leave if they have been employed by the University for at least 12 months, (consecutive or non-consecutive,) and have worked at least 1,250 hours (actual hours worked) during the 12-month period preceding the date their leave commences."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "any_parent, adoptive, foster (birth, placement, own condition, care of spouse)",
+     "quote": "Birth of a child"
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "The Family and Medical Leave Act (FMLA) grants eligible employees the right to take 12 work weeks of job-protected leave over a calendar year for the reasons addressed below."
+    },
+    {
+     "field": "duration",
+     "rule": "U2",
+     "answer": "12 workweeks exact (verified against 29 U.S.C. 2612(a)(1))",
+     "quote": "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U2",
+     "answer": "12 months and 1,250 hours",
+     "quote": "Employees may be eligible for FMLA leave if they have been employed by the University for at least 12 months, (consecutive or non-consecutive,) and have worked at least 1,250 hours (actual hours worked) during the 12-month period preceding the date their leave commences."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave)",
+     "quote": "The Family and Medical Leave Act (FMLA) grants eligible employees the right to take 12 work weeks of job-protected leave over a calendar year for the reasons addressed below."
+    },
+    {
+     "field": "sequence",
+     "rule": "S1",
+     "answer": "concurrent_with c2 and c1",
+     "quote": "FMLA leave does not eliminate or reduce other University leaves; however, certain leaves must run concurrently with FMLA Leave."
+    }
+   ]
+  },
+  {
+   "component_id": "southern_methodist_university_c5",
+   "institution_label": "Paid Medical Leave",
+   "description": "Accrued paid medical (sick) leave: one day per month of employment, usable after six months, up to 90 work days, for illness or injury of the staff member, spouse, children or parents; must be used under FMLA.",
+   "mechanism": "own_accrual",
+   "payer": "own_balance",
+   "faculty_group": "staff",
+   "faculty_group_note": "Illness or injury of staff member; Part-time and partial year employees accrue prorated leave",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent"
+   ],
+   "eligible_parent_wording": "staff member, spouse, dependent children, or parents",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "entitlement_note": "An accrued balance the employee may use ('may be used after six months of employment').",
+   "duration_note": "Balance accrues one day per month; unused days accumulate to a maximum of 90 work days. A balance of unknown length adds no weeks (R1).",
+   "pay_fraction": "paid",
+   "service_requirement": "may be used after six months of employment",
+   "sequence": [
+    {
+     "relation": "within",
+     "component_id": "southern_methodist_university_c4",
+     "note": "S1: accrued pay substituted during the statutory leave ('Under the Family and Medical Leave Act of 1993 you must use accrued time')"
+    }
+   ],
+   "rule_applied": [
+    "R1",
+    "U5",
+    "S1",
+    "U1",
+    "source_precedence"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Illness or injury of staff member, spouse, dependent children, or parents"
+    ],
+    "eligible_parent": [
+     "Illness or injury of staff member, spouse, dependent children, or parents"
+    ],
+    "entitlement": [
+     "One paid day of Medical Leave is accrued for each month of employment and may be used after six months of employment."
+    ],
+    "service_requirement": [
+     "One paid day of Medical Leave is accrued for each month of employment and may be used after six months of employment."
+    ],
+    "pay_fraction": [
+     "One paid day of Medical Leave is accrued for each month of employment and may be used after six months of employment."
+    ],
+    "sequence": [
+     "Under the Family and Medical Leave Act of 1993 you must use accrued time."
+    ],
+    "duration_note": [
+     "Unused days may be accumulated to a maximum of 90 work days."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "summary_only: 2018_00_link"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "own_accrual",
+     "quote": "One paid day of Medical Leave is accrued for each month of employment and may be used after six months of employment."
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "own_balance",
+     "quote": "One paid day of Medical Leave is accrued for each month of employment and may be used after six months of employment."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Illness or injury of staff member, spouse, dependent children, or parents"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "staff",
+     "quote": "Illness or injury of staff member, spouse, dependent children, or parents"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own illness), non_birth_parent (care of spouse)",
+     "quote": "Illness or injury of staff member, spouse, dependent children, or parents"
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "One paid day of Medical Leave is accrued for each month of employment and may be used after six months of employment."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "after six months of employment",
+     "quote": "One paid day of Medical Leave is accrued for each month of employment and may be used after six months of employment."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "R1",
+     "answer": "paid from own balance (0 paid weeks)",
+     "quote": "One paid day of Medical Leave is accrued for each month of employment and may be used after six months of employment."
+    },
+    {
+     "field": "sequence",
+     "rule": "S1",
+     "answer": "within c4 (FMLA)",
+     "quote": "Under the Family and Medical Leave Act of 1993 you must use accrued time."
+    },
+    {
+     "field": "flags",
+     "rule": "source_precedence",
+     "answer": "summary_only: 2018_00_link",
+     "quote": "One paid day of Medical Leave is accrued for each month of employment and may be used after six months of employment."
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "The rule for records with no governing document (reader instructions §3) applies: missing = no_policy_on_page. The only usable source is 2018_00_link, the SMU Human Resources 'Leave of Absence and FMLA' page (Wayback capture 2017-11-15). It is an HR summary page, not a governing document for faculty leave.",
+  "What the page contains: Adoption Leave (benefit-eligible staff, 3 weeks paid, primary caretaker; c1); Extended Leave (Unpaid) (staff, discretionary, any purpose including medical leave beyond balances; c3, general_purpose); FMLA Leave (all eligible employees, so it reaches faculty; c4, statute verified against 29 U.S.C. 2612/2611); Maternity Leave (benefit-eligible female staff, 6 weeks normal / 8 caesarian at usual wages; c2); Military and Civic Leave, Military Caregiver Leave and Qualifying Exigency Leave (not parental; C4 not_components); Paid Medical Leave (accrued sick leave of the staff member; c5).",
+  "Governing document missing: no faculty handbook, faculty leave policy, parental-leave, modified-duties or tenure-clock policy covering SMU tenure-stream faculty is among the saved sources. The page names no faculty policy. The document's version note says the governing faculty document is the SMU University Policy Manual's faculty family and medical leave policy (behind a login in 2015-2018, not obtained); that document is not saved and its terms are unknown. Faculty figures beyond FMLA are not determinable from the saved sources.",
+  "Faculty coverage: only c4 (FMLA) is coded main_campus_tenure_stream; the adoption, maternity, extended and paid medical leave provisions name staff ('staff employee', 'female staff', 'staff member') and are coded with those groups. Paid Medical Leave names the 'staff member' among its uses; whether faculty accrue it is not stated.",
+  "Cited but not saved: The Employee's Guide to the Family and Medical Leave Act (U.S. Department of Labor) (flagged on c4); 'Benefits Guide 2017' and 'Benefits Guide 2018' and the 'Eligibility' and 'Life Events' pages (navigation links); the 'Staff Leave of Absence form' (a form, not a policy). Vacation leave is mentioned (accrual continues during leave; Extended Leave follows it) but no vacation provision is stated, so it is not a component.",
+  "summary_only flags: c1, c2, c3, c5 are stated only on this HR summary page; no governing staff policy is saved. They are not faculty provisions in any case.",
+  "Chain, birth parent (tenure-stream faculty): FMLA 12 workweeks (unpaid, statutory) is the only faculty provision found; no faculty paid leave or relief in the saved sources. (Staff birth parent: Maternity Leave 6/8 weeks with FMLA concurrent; accrued Paid Medical Leave within FMLA; Extended Leave (Unpaid) after balances are exhausted.)",
+  "Chain, non-birth parent (tenure-stream faculty): FMLA 12 workweeks (unpaid, statutory). (Staff: accrued Paid Medical Leave for care of a spouse, within FMLA.)",
+  "No calendar, leave limit or all-sources cap is stated. Reference date 2018-02-24."
+ ],
+ "statutory_floor": {
+  "jurisdiction": "US",
+  "year": "2018",
+  "weeks_birth": 12.0,
+  "weeks_nonbirth": 12.0,
+  "statute": "Family and Medical Leave Act (FMLA) (29 U.S.C. 2611-2612)",
+  "source_doc": "2026_00_us_fmla_29usc2612",
+  "table": "statutory_baseline.csv"
+ }
+}

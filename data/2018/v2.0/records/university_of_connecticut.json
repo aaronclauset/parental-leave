@@ -1,0 +1,2651 @@
+{
+ "institution": "University of Connecticut",
+ "slug": "university_of_connecticut",
+ "country": "US",
+ "model": "claude-opus-5-5",
+ "codebook_version": "1.25",
+ "schema_version": "1.25",
+ "reference_date": "2018-03-13",
+ "calendar": {
+  "term_weeks": null,
+  "note": "semester calendar stated ('the traditional academic year (e.g. Fall and Spring semesters)', CBA 39.2; By-Laws XV.M), length not stated → R8 default 16",
+  "kind": "semester"
+ },
+ "documents": [
+  {
+   "doc_id": "2018_00_link",
+   "url": "https://hr.uconn.edu/2015/05/26/faculty-medical-leave-guidelines/",
+   "title": "Faculty Medical Leave Guidelines (HR page)",
+   "version_or_effective_date": "Effective Date: May 7, 2015; Wayback capture 2019-08-20, same body text as the 2016-05-14 capture",
+   "retrieved": "2026-10-22T18:47:01+00:00"
+  },
+  {
+   "doc_id": "2018_01_cba_uconn_aaup_2017_2021",
+   "url": "https://lr.uconn.edu/wp-content/uploads/sites/988/2017/08/AAUP.CBA_.07.01.17.pdf",
+   "title": "Collective Bargaining Agreement, UConn Board of Trustees and UConn-AAUP, July 1, 2017 - June 30, 2021",
+   "version_or_effective_date": "in full force and effect from July 1, 2017 through June 30, 2021 (Art. 40.1)",
+   "retrieved": "2026-10-22T18:48:17+00:00"
+  },
+  {
+   "doc_id": "2018_02_hr_aaup_leave_type_parental",
+   "url": "http://hr.uconn.edu/lt_aaup_parental_leave/",
+   "title": "AAUP Leave Type: Paternity/Parental Leave (HR page)",
+   "version_or_effective_date": "undated; Wayback capture 2017-10-16",
+   "retrieved": "2026-10-22T18:52:00+00:00"
+  },
+  {
+   "doc_id": "2018_03_hr_aaup_leave_type_maternity",
+   "url": "http://hr.uconn.edu/lt_aaup_maternity/",
+   "title": "AAUP Leave Type: Maternity (HR page)",
+   "version_or_effective_date": "undated; Wayback capture 2017-10-17",
+   "retrieved": "2026-10-22T18:52:08+00:00"
+  },
+  {
+   "doc_id": "2018_04_university_bylaws_rev20170329",
+   "url": "http://policy.uconn.edu/wp-content/uploads/sites/243/2017/04/20170329-By-Law-Revisions-final.pdf",
+   "title": "By-Laws of the University of Connecticut",
+   "version_or_effective_date": "Board of Trustees approved March 29, 2017",
+   "retrieved": "2026-10-22T18:52:18+00:00"
+  },
+  {
+   "doc_id": "2018_05_hr_aaup_tenure_clock_adjustment_procedure",
+   "url": "http://hr.uconn.edu/wp-content/uploads/sites/445/2015/01/AAUP_Tenure_Track_Adjustment_Stop_Clock.doc",
+   "title": "Documentation Procedure: Tenure Clock Adjustments for Qualifying Life Events (HR)",
+   "version_or_effective_date": "Rev. 10/2013; Wayback capture 2019-10-04",
+   "retrieved": "2026-10-22T18:53:10+00:00"
+  },
+  {
+   "doc_id": "2026_00_us_fmla_29usc2612",
+   "title": "29 U.S.C. 2612 (FMLA leave requirement)",
+   "url": "https://www.law.cornell.edu/uscode/text/29/2612",
+   "retrieved": "2026-10-19"
+  },
+  {
+   "doc_id": "2026_01_us_fmla_29usc2611_definitions",
+   "title": "29 U.S.C. 2611 (FMLA definitions)",
+   "url": "https://www.law.cornell.edu/uscode/text/29/2611",
+   "retrieved": "2026-10-19"
+  },
+  {
+   "doc_id": "2018_30_ct_fmla_chap557_2017rev",
+   "title": "Connecticut General Statutes ch. 557, ss. 31-51kk to 31-51qq (2017 revision)",
+   "url": "https://www.cga.ct.gov/current/pub/chap_557.htm",
+   "retrieved": "2026-11-04"
+  }
+ ],
+ "missing": false,
+ "scope_accounting": {
+  "C1": {
+   "components": [
+    "university_of_connecticut_c1",
+    "university_of_connecticut_c2"
+   ]
+  },
+  "C2": {
+   "components": [
+    "university_of_connecticut_c16"
+   ]
+  },
+  "C3": {
+   "components": [
+    "university_of_connecticut_c3",
+    "university_of_connecticut_c4",
+    "university_of_connecticut_c5",
+    "university_of_connecticut_c6",
+    "university_of_connecticut_c17",
+    "university_of_connecticut_c18",
+    "university_of_connecticut_c19"
+   ]
+  },
+  "C4": {
+   "components": [
+    "university_of_connecticut_c7",
+    "university_of_connecticut_c8",
+    "university_of_connecticut_c9",
+    "university_of_connecticut_c10"
+   ],
+   "not_components": [
+    {
+     "statute": "Connecticut Family and Medical Leave Act (C.G.S. 31-51kk to 31-51qq)",
+     "reason": "Named only as a trigger for the School of Medicine tenure-clock increase (By-Laws XIV.C.4; c13) and generically ('the state medical leave law', Appendix B). 31-51kk(4) excludes the state from 'employer', so it does not cover UConn; the state-employee leave the HR page relies on is C.G.S. 5-248a (c8)."
+    },
+    {
+     "statute": "C.G.S. 5-196(20)",
+     "reason": "Definition of 'permanent employee' used for 5-248a eligibility (c8 service_requirement); gives no leave. Not saved."
+    },
+    {
+     "statute": "Americans with Disabilities Act",
+     "reason": "Disability accommodation statute (U4); Appendix B F says medical leaves run concurrently with ADA accommodations."
+    },
+    {
+     "statute": "State of Connecticut Workers' Compensation Act",
+     "reason": "Work injury; named only as a School of Medicine tenure-clock trigger (U4)."
+    },
+    {
+     "statute": "Federal Fair Labor Standards Act",
+     "reason": "Compensatory time for non-exempt employees (CBA 19.12); unrelated to becoming a parent."
+    },
+    {
+     "statute": "C.G.S. ch. 68, s. 5-270(e)-(g); s. 5-280",
+     "reason": "Collective-bargaining definitions and agency fee (CBA Art. 1, 17); unrelated."
+    },
+    {
+     "statute": "C.G.S. ch. 185b, s. 10a-105",
+     "reason": "Tuition waiver (CBA 19.6.A); unrelated."
+    },
+    {
+     "statute": "C.G.S. s. 5-257",
+     "reason": "Group life insurance (CBA 19.6.D); unrelated."
+    },
+    {
+     "statute": "C.G.S. ss. 10a-110b to 10a-110d",
+     "reason": "Patent rights (CBA Art. 29); unrelated."
+    },
+    {
+     "statute": "Code of Ethics for Public Officials (C.G.S. ch. 10)",
+     "reason": "Discipline grounds; unrelated."
+    },
+    {
+     "statute": "C.G.S. ch. 368a",
+     "reason": "Medical peer review (By-Laws V.E); unrelated."
+    },
+    {
+     "statute": "State Retirement Act",
+     "reason": "Emeritus eligibility (By-Laws XIV.K); unrelated."
+    }
+   ]
+  },
+  "C5": {
+   "components": [
+    "university_of_connecticut_c1",
+    "university_of_connecticut_c6",
+    "university_of_connecticut_c7"
+   ]
+  },
+  "C6": {
+   "components": [
+    "university_of_connecticut_c14",
+    "university_of_connecticut_c15"
+   ]
+  },
+  "C7": {
+   "components": [
+    "university_of_connecticut_c11",
+    "university_of_connecticut_c12",
+    "university_of_connecticut_c13"
+   ]
+  },
+  "C8": {
+   "absent": {
+    "documents": [
+     "2018_00_link",
+     "2018_01_cba_uconn_aaup_2017_2021",
+     "2018_02_hr_aaup_leave_type_parental",
+     "2018_03_hr_aaup_leave_type_maternity",
+     "2018_04_university_bylaws_rev20170329",
+     "2018_05_hr_aaup_tenure_clock_adjustment_procedure"
+    ],
+    "terms": [
+     "part-time",
+     "part time",
+     "half time",
+     "reduced load",
+     "reduced schedule",
+     "phased return",
+     "Voluntary Schedule Reduction Program",
+     "voluntary leave program"
+    ]
+   }
+  },
+  "C9": {
+   "components": [
+    "university_of_connecticut_c10"
+   ]
+  },
+  "C10": {
+   "absent": {
+    "documents": [
+     "2018_00_link",
+     "2018_01_cba_uconn_aaup_2017_2021",
+     "2018_02_hr_aaup_leave_type_parental",
+     "2018_03_hr_aaup_leave_type_maternity",
+     "2018_04_university_bylaws_rev20170329",
+     "2018_05_hr_aaup_tenure_clock_adjustment_procedure"
+    ],
+    "terms": [
+     "first days of FMLA",
+     "paid as regular work time",
+     "FMLA-qualifying absence paid",
+     "family FMLA"
+    ]
+   }
+  }
+ },
+ "passage_dispositions": {
+  "2018_00_link#001": {
+   "used_in": [
+    "university_of_connecticut_c2",
+    "university_of_connecticut_c3",
+    "university_of_connecticut_c4",
+    "university_of_connecticut_c5",
+    "university_of_connecticut_c7"
+   ]
+  },
+  "2018_00_link#002": {
+   "used_in": [
+    "university_of_connecticut_c2",
+    "university_of_connecticut_c3"
+   ]
+  },
+  "2018_01_cba_uconn_aaup_2017_2021#001": {
+   "not_relevant": "table of contents"
+  },
+  "2018_01_cba_uconn_aaup_2017_2021#002": {
+   "used_in": [
+    "university_of_connecticut_c1"
+   ]
+  },
+  "2018_01_cba_uconn_aaup_2017_2021#003": {
+   "not_relevant": "Board prerogatives over leaves in general (Art. 7.2); no provision"
+  },
+  "2018_01_cba_uconn_aaup_2017_2021#004": {
+   "not_relevant": "grievance procedure and personnel files"
+  },
+  "2018_01_cba_uconn_aaup_2017_2021#005": {
+   "not_relevant": "non-tenure-track probation and appointments"
+  },
+  "2018_01_cba_uconn_aaup_2017_2021#006": {
+   "not_relevant": "non-tenure-track audit and evaluation"
+  },
+  "2018_01_cba_uconn_aaup_2017_2021#007": {
+   "used_in": [
+    "university_of_connecticut_c18"
+   ]
+  },
+  "2018_01_cba_uconn_aaup_2017_2021#008": {
+   "not_relevant": "non-tenure-track discipline"
+  },
+  "2018_01_cba_uconn_aaup_2017_2021#009": {
+   "not_relevant": "payroll deductions and longevity"
+  },
+  "2018_01_cba_uconn_aaup_2017_2021#010": {
+   "not_relevant": "salary minima and tuition waiver for dependent children"
+  },
+  "2018_01_cba_uconn_aaup_2017_2021#011": {
+   "used_in": [
+    "university_of_connecticut_c1",
+    "university_of_connecticut_c5",
+    "university_of_connecticut_c6",
+    "university_of_connecticut_c11"
+   ]
+  },
+  "2018_01_cba_uconn_aaup_2017_2021#012": {
+   "not_relevant": "job security under SEBAC 2017"
+  },
+  "2018_01_cba_uconn_aaup_2017_2021#013": {
+   "used_in": [
+    "university_of_connecticut_c19"
+   ]
+  },
+  "2018_01_cba_uconn_aaup_2017_2021#014": {
+   "not_relevant": "temporary employees' sick leave handled case by case under By-Laws XIV.L.4; temporary titles, not tenure-stream; no terms beyond c3's base"
+  },
+  "2018_01_cba_uconn_aaup_2017_2021#015": {
+   "not_relevant": "adjunct terms and tenure-stream discipline"
+  },
+  "2018_01_cba_uconn_aaup_2017_2021#016": {
+   "not_relevant": "discipline, student evaluations, patent statutes"
+  },
+  "2018_01_cba_uconn_aaup_2017_2021#017": {
+   "not_relevant": "department governance, PTR, tenure appeal"
+  },
+  "2018_01_cba_uconn_aaup_2017_2021#018": {
+   "not_relevant": "athletics appointments"
+  },
+  "2018_01_cba_uconn_aaup_2017_2021#019": {
+   "not_relevant": "athletics stipends and evaluation"
+  },
+  "2018_01_cba_uconn_aaup_2017_2021#020": {
+   "used_in": [
+    "university_of_connecticut_c2",
+    "university_of_connecticut_c3",
+    "university_of_connecticut_c4",
+    "university_of_connecticut_c5"
+   ]
+  },
+  "2018_01_cba_uconn_aaup_2017_2021#021": {
+   "used_in": [
+    "university_of_connecticut_c3"
+   ]
+  },
+  "2018_02_hr_aaup_leave_type_parental#001": {
+   "used_in": [
+    "university_of_connecticut_c1",
+    "university_of_connecticut_c7",
+    "university_of_connecticut_c8",
+    "university_of_connecticut_c11",
+    "university_of_connecticut_c17"
+   ]
+  },
+  "2018_03_hr_aaup_leave_type_maternity#001": {
+   "used_in": [
+    "university_of_connecticut_c2",
+    "university_of_connecticut_c7",
+    "university_of_connecticut_c9",
+    "university_of_connecticut_c10",
+    "university_of_connecticut_c11",
+    "university_of_connecticut_c17"
+   ]
+  },
+  "2018_04_university_bylaws_rev20170329#001": {
+   "not_relevant": "table of contents"
+  },
+  "2018_04_university_bylaws_rev20170329#002": {
+   "not_relevant": "Board of Trustees meetings"
+  },
+  "2018_04_university_bylaws_rev20170329#003": {
+   "not_relevant": "Health Center Board of Directors"
+  },
+  "2018_04_university_bylaws_rev20170329#004": {
+   "not_relevant": "Senate elections (alternates for senators on leave)"
+  },
+  "2018_04_university_bylaws_rev20170329#005": {
+   "not_relevant": "academic freedom ('request a leave of absence or resign' as a matter of conscience)"
+  },
+  "2018_04_university_bylaws_rev20170329#006": {
+   "not_relevant": "kinds of appointment and tenure-eligible ranks"
+  },
+  "2018_04_university_bylaws_rev20170329#007": {
+   "used_in": [
+    "university_of_connecticut_c11",
+    "university_of_connecticut_c12",
+    "university_of_connecticut_c13"
+   ]
+  },
+  "2018_04_university_bylaws_rev20170329#008": {
+   "not_relevant": "promotion and tenure standards"
+  },
+  "2018_04_university_bylaws_rev20170329#009": {
+   "not_relevant": "qualities desired in faculty"
+  },
+  "2018_04_university_bylaws_rev20170329#010": {
+   "not_relevant": "termination of appointments"
+  },
+  "2018_04_university_bylaws_rev20170329#011": {
+   "not_relevant": "financial exigency and dismissal"
+  },
+  "2018_04_university_bylaws_rev20170329#012": {
+   "not_relevant": "emeritus status and sabbatical leave (for advancement of knowledge; not usable for a birth)"
+  },
+  "2018_04_university_bylaws_rev20170329#013": {
+   "not_relevant": "sabbatical leave terms"
+  },
+  "2018_04_university_bylaws_rev20170329#014": {
+   "used_in": [
+    "university_of_connecticut_c14"
+   ]
+  },
+  "2018_04_university_bylaws_rev20170329#015": {
+   "used_in": [
+    "university_of_connecticut_c14",
+    "university_of_connecticut_c3",
+    "university_of_connecticut_c15"
+   ]
+  },
+  "2018_04_university_bylaws_rev20170329#016": {
+   "not_relevant": "faculty grievance procedure"
+  },
+  "2018_04_university_bylaws_rev20170329#017": {
+   "not_relevant": "faculty grievance procedure"
+  },
+  "2018_04_university_bylaws_rev20170329#018": {
+   "not_relevant": "Health Center grievance procedure"
+  },
+  "2018_04_university_bylaws_rev20170329#019": {
+   "not_relevant": "Health Center grievance procedure"
+  },
+  "2018_05_hr_aaup_tenure_clock_adjustment_procedure#001": {
+   "used_in": [
+    "university_of_connecticut_c11"
+   ]
+  }
+ },
+ "mechanism_slots": {
+  "employer_paid_leave": {
+   "absent": "No employer-paid parental or family leave in any source (CBA 19.6.I family leave is unpaid; HR parental page: 'Parental leaves are unpaid'); searched all six sources for 'paid', 'with pay', 'parental', 'paternity', 'family leave'."
+  },
+  "employer_childbirth_benefit": {
+   "components": [
+    "university_of_connecticut_c2"
+   ]
+  },
+  "generic_sick_or_disability_plan": {
+   "components": [
+    "university_of_connecticut_c3",
+    "university_of_connecticut_c5",
+    "university_of_connecticut_c18",
+    "university_of_connecticut_c19"
+   ]
+  },
+  "own_accrual": {
+   "components": [
+    "university_of_connecticut_c6",
+    "university_of_connecticut_c17"
+   ]
+  },
+  "donated_leave": {
+   "absent": "No sick-leave bank or donated leave; searched all sources for 'donat', 'bank', 'pool', 'shared leave' (the only pool is the child-care reimbursement pool, CBA 19.6.H)."
+  },
+  "government_benefit": {
+   "absent": "No government or state paid programme named; searched for 'paid leave', 'insurance', 'state program', 'Paid Family'. Connecticut had no paid family leave programme named in the documents."
+  },
+  "employer_topup": {
+   "absent": "The only supplement is the University's LTD supplement (Appendix B, CBA 19.6.G) for longer-service bands on an approved paid extension; for a member with under three years of service 'the University will not supplement the LTD benefit'. No top-up of a government benefit."
+  },
+  "modified_duties": {
+   "absent": "No modified duties or teaching relief for new parents; searched for 'modified', 'teaching relief', 'course release', 'workload reduction', 'load adjustment' (found only union-representative release, CBA 16.7, and intersession load adjustment, CBA 38.1.A.iii)."
+  },
+  "unpaid_leave": {
+   "components": [
+    "university_of_connecticut_c1",
+    "university_of_connecticut_c4",
+    "university_of_connecticut_c7",
+    "university_of_connecticut_c8",
+    "university_of_connecticut_c9",
+    "university_of_connecticut_c14",
+    "university_of_connecticut_c15"
+   ]
+  },
+  "tenure_clock": {
+   "components": [
+    "university_of_connecticut_c11",
+    "university_of_connecticut_c12",
+    "university_of_connecticut_c13"
+   ]
+  },
+  "part_time_option": {
+   "absent": "No part-time or reduced-appointment option for parents; searched for 'part-time', 'half time', 'reduced load', 'reduced schedule', 'Voluntary Schedule Reduction Program' (named in CBA 19.10.B, not saved)."
+  },
+  "other": {
+   "components": [
+    "university_of_connecticut_c10",
+    "university_of_connecticut_c16"
+   ]
+  }
+ },
+ "baseline_accounting": {
+  "Family and Medical Leave Act (FMLA)": {
+   "components": [
+    "university_of_connecticut_c7"
+   ]
+  },
+  "Federal Employee Paid Leave Act (paid parental leave for federal civilian employees)": {
+   "not_applicable": "covers federal civilian employees; UConn is a state employer"
+  },
+  "Connecticut Paid Leave (CT PL)": {
+   "absent": "no saved document mentions it"
+  },
+  "Connecticut Family and Medical Leave Act (CT FMLA)": {
+   "not_applicable": "C.G.S. 31-51kk(4) excludes 'the state' from 'employer' (saved 2017 revision); the documents name it only as a School of Medicine tenure-clock trigger; the state-employee family leave they rely on is C.G.S. 5-248a (c8)"
+  }
+ },
+ "leave_limits": [
+  {
+   "weeks": 104,
+   "components": [
+    "university_of_connecticut_c2",
+    "university_of_connecticut_c3",
+    "university_of_connecticut_c4"
+   ],
+   "roles": [
+    "birth"
+   ],
+   "note": "Appendix B E: any continuous period of medical leave (paid, unpaid or a combination) shall not exceed two (2) years, unless otherwise required by law.",
+   "evidence": [
+    "Unless otherwise required by law, any continuous period of medical leave (paid, unpaid or a combination of paid/unpaid) shall not exceed two (2) years."
+   ],
+   "decision_log": [
+    {
+     "field": "leave_limits",
+     "rule": "R20",
+     "answer": "2 years = 104 weeks (R11); covers the medical leaves c2, c3, c4; birth parent only (own illness)",
+     "quote": "Unless otherwise required by law, any continuous period of medical leave (paid, unpaid or a combination of paid/unpaid) shall not exceed two (2) years."
+    }
+   ]
+  }
+ ],
+ "components": [
+  {
+   "component_id": "university_of_connecticut_c1",
+   "institution_label": "Family/Medical Leave",
+   "description": "Unpaid family leave of absence of up to six months following the birth or adoption of a child (or another qualifying major life event), for members of the UConn-AAUP bargaining unit; the University pays the member's individual health insurance during the unpaid leave.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "a member of the bargaining unit (UConn-AAUP unit: Professor, Associate Professor, Assistant Professor, ...; Medicine, Dental Medicine and Law faculty are outside the unit)",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "a member of the bargaining unit, following the birth or adoption of a child",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "'may take' gives the member the leave; no approval step is stated (V2: 'is allowed', 'may elect').",
+   "duration": {
+    "value": 6,
+    "units": "month",
+    "qualifier": "up_to"
+   },
+   "duration_note": "'for up to six months'; the HR AAUP parental page summarises it as 'Up to six months unpaid parental leave following the birth or adoption of a child'.",
+   "pay_fraction": "unpaid",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "time_window": "following the birth or adoption of a child",
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "university_of_connecticut_c2",
+     "note": "HR maternity page: a non-medical leave following the period of disability is parental leave; the birth parent's family leave follows the maternity (disability) period. For the non-birth parent the link is ignored (c2 is birth-only) and the leave starts at the birth."
+    }
+   ],
+   "rule_applied": [
+    "V2",
+    "R9",
+    "R15",
+    "U5"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Following the birth or adoption of a child or other major life event (as defined below for qualified family leaves), a member of the bargaining unit may take an unpaid family leave of absence for up to six months.",
+     "who hold the following titles: University Professor, Professor, Associate Professor, Assistant Professor"
+    ],
+    "eligible_parent": [
+     "Following the birth or adoption of a child or other major life event (as defined below for qualified family leaves), a member of the bargaining unit may take an unpaid family leave of absence for up to six months."
+    ],
+    "entitlement": [
+     "Following the birth or adoption of a child or other major life event (as defined below for qualified family leaves), a member of the bargaining unit may take an unpaid family leave of absence for up to six months."
+    ],
+    "duration": [
+     "Following the birth or adoption of a child or other major life event (as defined below for qualified family leaves), a member of the bargaining unit may take an unpaid family leave of absence for up to six months.",
+     "Up to six months unpaid parental leave following the birth or adoption of a child"
+    ],
+    "pay_fraction": [
+     "Following the birth or adoption of a child or other major life event (as defined below for qualified family leaves), a member of the bargaining unit may take an unpaid family leave of absence for up to six months.",
+     "Parental leaves are unpaid."
+    ],
+    "sequence": [
+     "Medically certified leaves prior to birth are not considered maternity (personal illness), nor is a non-medical leave following the period of disability (parental leave)."
+    ],
+    "mechanism": [
+     "Following the birth or adoption of a child or other major life event (as defined below for qualified family leaves), a member of the bargaining unit may take an unpaid family leave of absence for up to six months."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_cba_uconn_aaup_2017_2021",
+    "2018_02_hr_aaup_leave_type_parental",
+    "2018_03_hr_aaup_leave_type_maternity"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "Following the birth or adoption of a child or other major life event (as defined below for qualified family leaves), a member of the bargaining unit may take an unpaid family leave of absence for up to six months."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Following the birth or adoption of a child or other major life event (as defined below for qualified family leaves), a member of the bargaining unit may take an unpaid family leave of absence for up to six months."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Qualified family leaves include leaves for the following events: the faculty member’s serious illness or for the birth, adoption or serious illness of a child or serious illness of a spouse or parent."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "who hold the following titles: University Professor, Professor, Associate Professor, Assistant Professor"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent, non_birth_parent, adoptive (birth or adoption of a child; the faculty member's own serious illness and a spouse's serious illness are also qualifying events)",
+     "quote": "Qualified family leaves include leaves for the following events: the faculty member’s serious illness or for the birth, adoption or serious illness of a child or serious illness of a spouse or parent."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "Following the birth or adoption of a child or other major life event (as defined below for qualified family leaves), a member of the bargaining unit may take an unpaid family leave of absence for up to six months."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "6 months, up_to",
+     "quote": "Following the birth or adoption of a child or other major life event (as defined below for qualified family leaves), a member of the bargaining unit may take an unpaid family leave of absence for up to six months."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "unpaid",
+     "quote": "Following the birth or adoption of a child or other major life event (as defined below for qualified family leaves), a member of the bargaining unit may take an unpaid family leave of absence for up to six months."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave, relief not stated)",
+     "quote": "Following the birth or adoption of a child or other major life event (as defined below for qualified family leaves), a member of the bargaining unit may take an unpaid family leave of absence for up to six months."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "consecutive_after c2 (follows the maternity disability period for the birth parent)",
+     "quote": "Medically certified leaves prior to birth are not considered maternity (personal illness), nor is a non-medical leave following the period of disability (parental leave)."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_connecticut_c2",
+   "institution_label": "Maternity leave",
+   "description": "Paid maternity leave for the birth parent: the medically certified period of disability after the birth, generally 6 weeks (8 after a Caesarean), paid under the Faculty Medical Leave Guidelines (CBA Appendix B).",
+   "mechanism": "employer_childbirth_benefit",
+   "mechanism_note": "V1b: the HR maternity page states a childbirth-specific period and its default length ('generally 6 weeks (or 8 weeks following a Cesarean birth)'); the pay level comes from the governing Faculty Medical Leave Guidelines (CBA Appendix B; HR page 2018_00), under which a faculty member 'will be eligible to be paid for a qualifying medical leave ... not to exceed six (6) months'. Rule V1b names this case (UConn).",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "tenured and tenure-track faculty and non-tenure track faculty members who are on multi-year appointments",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "Maternity leave; the medically certified period of disability",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "Appendix B: faculty 'will be eligible to be paid' for a qualifying medical leave; HR approval covers the medical certification (V2). The HR summary's 'can be paid or unpaid. Each case is considered separately' and the By-Laws' case-by-case wording are the general statements that the Guidelines were written to clarify; the specific Guidelines govern (V1b, source precedence).",
+   "duration": {
+    "value": 6,
+    "units": "week",
+    "qualifier": "at_least"
+   },
+   "duration_max": {
+    "value": 8,
+    "units": "week"
+   },
+   "duration_variants": {
+    "vaginal": "generally 6 weeks",
+    "c_section": "generally 8 weeks"
+   },
+   "duration_note": "'generally 6 weeks (or 8 weeks following a Cesarean birth)': a length that depends on a stated condition → lower value at_least, upper in duration_max (R13b). The period is the medically certified disability; the Guidelines cap paid medical leave at six months for a member with under three years of service.",
+   "pay_fraction": "paid",
+   "medical_certification": true,
+   "medical_certification_note": "the medically certified period of disability; Caesarean birth requires medical certification; Appendix B: Sick Leave must be supported by medical certification and approved by HR",
+   "service_requirement": "none stated (Guidelines band for less than three years of service: up to six months paid)",
+   "use_limit": [
+    {
+     "times": 1,
+     "per": "window",
+     "window_years": 3,
+     "counts": "uses"
+    }
+   ],
+   "use_limit_note": "Appendix B I: paid medical leave benefits once every three (3) years unless otherwise approved by the Dean and the Provost.",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "time_window": "begins on the date of birth",
+   "sequence": [
+    {
+     "relation": "within",
+     "component_id": "university_of_connecticut_c3",
+     "note": "the maternity period is paid as part of the Faculty Medical Leave Guidelines' paid medical leave (up to six months)."
+    }
+   ],
+   "rule_applied": [
+    "V1",
+    "V1b",
+    "V2",
+    "R13b",
+    "R9",
+    "U8",
+    "U9",
+    "R15"
+   ],
+   "evidence": {
+    "mechanism": [
+     "“Maternity leave” begins on the date of birth and continues during the medically certified period of disability, which is generally 6 weeks (or 8 weeks following a Cesarean birth).",
+     "Faculty members with less than three (3) years of service will be eligible to be paid for a qualifying medical leave under the FMLA and/or the state medical leave law, up to the period provided for in the medical certification, not to exceed six (6) months"
+    ],
+    "faculty_group": [
+     "These guidelines are for long term illnesses only (FMLA qualifying medical leaves) and apply only to tenured and tenure-track faculty and non-tenure track faculty members who are on multi-year appointments."
+    ],
+    "eligible_parent": [
+     "“Maternity leave” begins on the date of birth and continues during the medically certified period of disability, which is generally 6 weeks (or 8 weeks following a Cesarean birth)."
+    ],
+    "entitlement": [
+     "Faculty members with less than three (3) years of service will be eligible to be paid for a qualifying medical leave under the FMLA and/or the state medical leave law, up to the period provided for in the medical certification, not to exceed six (6) months",
+     "Sick Leave must be supported by medical certification and be approved by the Department of Human Resources, with notification provided to the department head and the Dean."
+    ],
+    "duration": [
+     "“Maternity leave” begins on the date of birth and continues during the medically certified period of disability, which is generally 6 weeks (or 8 weeks following a Cesarean birth)."
+    ],
+    "pay_fraction": [
+     "Faculty members with less than three (3) years of service will be eligible to be paid for a qualifying medical leave under the FMLA and/or the state medical leave law, up to the period provided for in the medical certification, not to exceed six (6) months"
+    ],
+    "relief": [
+     "“Maternity leave” begins on the date of birth and continues during the medically certified period of disability, which is generally 6 weeks (or 8 weeks following a Cesarean birth)."
+    ],
+    "service_requirement": [
+     "Faculty members with less than three (3) years of service will be eligible to be paid for a qualifying medical leave under the FMLA and/or the state medical leave law, up to the period provided for in the medical certification, not to exceed six (6) months"
+    ],
+    "use_limit": [
+     "Faculty members may only access the paid medical leave benefits described in this policy once every three (3) years unless otherwise approved by the Dean and the Provost"
+    ],
+    "sequence": [
+     "Faculty members with less than three (3) years of service will be eligible to be paid for a qualifying medical leave under the FMLA and/or the state medical leave law, up to the period provided for in the medical certification, not to exceed six (6) months"
+    ],
+    "medical_certification": [
+     "If delivery is by Cesarean section, must provide Leave Administrator with medical certification reflecting Cesarean birth.",
+     "Sick Leave must be supported by medical certification and be approved by the Department of Human Resources, with notification provided to the department head and the Dean."
+    ]
+   },
+   "doc_ids": [
+    "2018_03_hr_aaup_leave_type_maternity",
+    "2018_00_link",
+    "2018_01_cba_uconn_aaup_2017_2021"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "V1b",
+     "answer": "employer_childbirth_benefit",
+     "quote": "“Maternity leave” begins on the date of birth and continues during the medically certified period of disability, which is generally 6 weeks (or 8 weeks following a Cesarean birth)."
+    },
+    {
+     "field": "payer",
+     "rule": "V1b",
+     "answer": "employer",
+     "quote": "Faculty members with less than three (3) years of service will be eligible to be paid for a qualifying medical leave under the FMLA and/or the state medical leave law, up to the period provided for in the medical certification, not to exceed six (6) months"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "“Maternity leave” begins on the date of birth and continues during the medically certified period of disability, which is generally 6 weeks (or 8 weeks following a Cesarean birth)."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "These guidelines are for long term illnesses only (FMLA qualifying medical leaves) and apply only to tenured and tenure-track faculty and non-tenure track faculty members who are on multi-year appointments."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "birth_parent",
+     "quote": "“Maternity leave” begins on the date of birth and continues during the medically certified period of disability, which is generally 6 weeks (or 8 weeks following a Cesarean birth)."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "Faculty members with less than three (3) years of service will be eligible to be paid for a qualifying medical leave under the FMLA and/or the state medical leave law, up to the period provided for in the medical certification, not to exceed six (6) months"
+    },
+    {
+     "field": "entitlement",
+     "rule": "source_precedence",
+     "answer": "guaranteed_on_request",
+     "quote": "Maternity leave can be paid or unpaid. Each case is considered separately."
+    },
+    {
+     "field": "duration",
+     "rule": "R13b",
+     "answer": "6 weeks at_least, max 8 (Caesarean)",
+     "quote": "“Maternity leave” begins on the date of birth and continues during the medically certified period of disability, which is generally 6 weeks (or 8 weeks following a Cesarean birth)."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "V1b",
+     "answer": "paid (level from the Faculty Medical Leave Guidelines; no percentage stated)",
+     "quote": "Faculty members with less than three (3) years of service will be eligible to be paid for a qualifying medical leave under the FMLA and/or the state medical leave law, up to the period provided for in the medical certification, not to exceed six (6) months"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U8",
+     "answer": "band for less than three years of service (a two-year member)",
+     "quote": "Faculty members with less than three (3) years of service will be eligible to be paid for a qualifying medical leave under the FMLA and/or the state medical leave law, up to the period provided for in the medical certification, not to exceed six (6) months"
+    },
+    {
+     "field": "use_limit",
+     "rule": "U9",
+     "answer": "once every three years",
+     "quote": "Faculty members may only access the paid medical leave benefits described in this policy once every three (3) years unless otherwise approved by the Dean and the Provost"
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (leave; relief not stated)",
+     "quote": "“Maternity leave” begins on the date of birth and continues during the medically certified period of disability, which is generally 6 weeks (or 8 weeks following a Cesarean birth)."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "within c3 (paid under the Guidelines' six months)",
+     "quote": "Faculty members with less than three (3) years of service will be eligible to be paid for a qualifying medical leave under the FMLA and/or the state medical leave law, up to the period provided for in the medical certification, not to exceed six (6) months"
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_connecticut_c3",
+   "institution_label": "Faculty Medical Leave Guidelines",
+   "description": "Paid sick leave for a qualifying (FMLA-qualifying) medical leave, up to the period in the medical certification, not to exceed six months for faculty with less than three years of service (longer, partly discretionary, for longer service).",
+   "mechanism": "generic_sick_or_disability_plan",
+   "mechanism_note": "Childbirth handled as any FMLA-qualifying medical leave; the childbirth-specific period is c2 (V1b).",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "tenured and tenure-track faculty and non-tenure track faculty members who are on multi-year appointments",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "faculty members ... a qualifying medical leave",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "'will be eligible to be paid'; HR approval covers the medical certification. The By-Laws XIV.L.4 'Each case is considered separately' is the general statement the Guidelines clarify (source precedence).",
+   "duration": {
+    "value": 6,
+    "units": "month",
+    "qualifier": "up_to"
+   },
+   "duration_note": "Band for less than three years of service (U8, two-year member): up to six calendar months paid; a further extension is unpaid and discretionary (c4). Longer-service bands: 3-6 years, 6 months plus a discretionary 6-month paid extension; 7-10 years, up to 18 months; over 10 years, up to 24 months (extensions 'may be requested ... subject to the approval of the Dean and the Provost'). 'months' means calendar months.",
+   "pay_fraction": "paid",
+   "medical_certification": true,
+   "medical_certification_note": "Sick Leave must be supported by medical certification and be approved by the Department of Human Resources",
+   "service_requirement": "none stated; length by years of service (under 3 years: six months)",
+   "use_limit": [
+    {
+     "times": 1,
+     "per": "window",
+     "window_years": 3,
+     "counts": "uses"
+    }
+   ],
+   "use_limit_note": "Appendix B I: the paid medical leave benefits once every three (3) years, unless otherwise approved by the Dean and the Provost",
+   "runs_concurrently_with": [
+    "FMLA"
+   ],
+   "rule_applied": [
+    "V1",
+    "V6",
+    "V2",
+    "U8",
+    "U9",
+    "U5",
+    "Q1"
+   ],
+   "evidence": {
+    "mechanism": [
+     "These guidelines are for long term illnesses only (FMLA qualifying medical leaves) and apply only to tenured and tenure-track faculty and non-tenure track faculty members who are on multi-year appointments.",
+     "Faculty members with less than three (3) years of service will be eligible to be paid for a qualifying medical leave under the FMLA and/or the state medical leave law, up to the period provided for in the medical certification, not to exceed six (6) months"
+    ],
+    "faculty_group": [
+     "These guidelines are for long term illnesses only (FMLA qualifying medical leaves) and apply only to tenured and tenure-track faculty and non-tenure track faculty members who are on multi-year appointments."
+    ],
+    "eligible_parent": [
+     "Faculty members with less than three (3) years of service will be eligible to be paid for a qualifying medical leave under the FMLA and/or the state medical leave law, up to the period provided for in the medical certification, not to exceed six (6) months"
+    ],
+    "entitlement": [
+     "Faculty members with less than three (3) years of service will be eligible to be paid for a qualifying medical leave under the FMLA and/or the state medical leave law, up to the period provided for in the medical certification, not to exceed six (6) months",
+     "Sick Leave must be supported by medical certification and be approved by the Department of Human Resources, with notification provided to the department head and the Dean."
+    ],
+    "duration": [
+     "Faculty members with less than three (3) years of service will be eligible to be paid for a qualifying medical leave under the FMLA and/or the state medical leave law, up to the period provided for in the medical certification, not to exceed six (6) months",
+     "The term “months” is intended to mean calendar months."
+    ],
+    "pay_fraction": [
+     "Faculty members with less than three (3) years of service will be eligible to be paid for a qualifying medical leave under the FMLA and/or the state medical leave law, up to the period provided for in the medical certification, not to exceed six (6) months"
+    ],
+    "service_requirement": [
+     "Faculty members with less than three (3) years of service will be eligible to be paid for a qualifying medical leave under the FMLA and/or the state medical leave law, up to the period provided for in the medical certification, not to exceed six (6) months"
+    ],
+    "use_limit": [
+     "Faculty members may only access the paid medical leave benefits described in this policy once every three (3) years unless otherwise approved by the Dean and the Provost"
+    ],
+    "medical_certification": [
+     "Sick Leave must be supported by medical certification and be approved by the Department of Human Resources, with notification provided to the department head and the Dean."
+    ],
+    "runs_concurrently_with": [
+     "All medical leaves under these guidelines shall run concurrently with federal FMLA and other legal entitlements"
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link",
+    "2018_01_cba_uconn_aaup_2017_2021",
+    "2018_04_university_bylaws_rev20170329"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "V1",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "These guidelines are for long term illnesses only (FMLA qualifying medical leaves) and apply only to tenured and tenure-track faculty and non-tenure track faculty members who are on multi-year appointments."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "Faculty members with less than three (3) years of service will be eligible to be paid for a qualifying medical leave under the FMLA and/or the state medical leave law, up to the period provided for in the medical certification, not to exceed six (6) months"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "These guidelines are for long term illnesses only (FMLA qualifying medical leaves) and apply only to tenured and tenure-track faculty and non-tenure track faculty members who are on multi-year appointments."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "These guidelines are for long term illnesses only (FMLA qualifying medical leaves) and apply only to tenured and tenure-track faculty and non-tenure track faculty members who are on multi-year appointments."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own illness or disability)",
+     "quote": "Faculty members with less than three (3) years of service will be eligible to be paid for a qualifying medical leave under the FMLA and/or the state medical leave law, up to the period provided for in the medical certification, not to exceed six (6) months"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "Faculty members with less than three (3) years of service will be eligible to be paid for a qualifying medical leave under the FMLA and/or the state medical leave law, up to the period provided for in the medical certification, not to exceed six (6) months"
+    },
+    {
+     "field": "entitlement",
+     "rule": "source_precedence",
+     "answer": "guaranteed_on_request",
+     "quote": "Faculty medical leaves have historically been at the discretion of the University"
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "6 months up_to ('not to exceed')",
+     "quote": "Faculty members with less than three (3) years of service will be eligible to be paid for a qualifying medical leave under the FMLA and/or the state medical leave law, up to the period provided for in the medical certification, not to exceed six (6) months"
+    },
+    {
+     "field": "duration",
+     "rule": "U8",
+     "answer": "two-year member: band of less than three years",
+     "quote": "Faculty members with less than three (3) years of service will be eligible to be paid for a qualifying medical leave under the FMLA and/or the state medical leave law, up to the period provided for in the medical certification, not to exceed six (6) months"
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "paid (no level stated)",
+     "quote": "Faculty members with less than three (3) years of service will be eligible to be paid for a qualifying medical leave under the FMLA and/or the state medical leave law, up to the period provided for in the medical certification, not to exceed six (6) months"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U8",
+     "answer": "under three years band",
+     "quote": "Faculty members with less than three (3) years of service will be eligible to be paid for a qualifying medical leave under the FMLA and/or the state medical leave law, up to the period provided for in the medical certification, not to exceed six (6) months"
+    },
+    {
+     "field": "use_limit",
+     "rule": "U9",
+     "answer": "once every three years",
+     "quote": "Faculty members may only access the paid medical leave benefits described in this policy once every three (3) years unless otherwise approved by the Dean and the Provost"
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_connecticut_c4",
+   "institution_label": "",
+   "description": "For faculty with less than three years of service still medically unable to return after six months of paid medical leave: an extension of unpaid sick leave on request, subject to the approval of the Dean and the Provost.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "tenured and tenure-track faculty and non-tenure track faculty members who are on multi-year appointments",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "the faculty member is still medically unable to return to work",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "entitlement_note": "'may be requested ... subject to the approval of the Dean and the Provost' (V2).",
+   "duration_note": "No length stated; extensions 'in conformity with the By-Laws'; any continuous period of medical leave (paid, unpaid or combined) shall not exceed two years (leave_limits).",
+   "pay_fraction": "unpaid",
+   "medical_certification": true,
+   "medical_certification_note": "proper medical certification",
+   "service_requirement": "less than three (3) years of service",
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "university_of_connecticut_c3",
+     "note": "after six months of continuous leave"
+    }
+   ],
+   "rule_applied": [
+    "V2",
+    "U5",
+    "U6",
+    "R15"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "These guidelines are for long term illnesses only (FMLA qualifying medical leaves) and apply only to tenured and tenure-track faculty and non-tenure track faculty members who are on multi-year appointments."
+    ],
+    "eligible_parent": [
+     "If after six (6) months of continuous leave the faculty member is still medically unable to return to work, an extension of unpaid sick leave may be requested with proper medical certification and is subject to the approval of the Dean and the Provost."
+    ],
+    "entitlement": [
+     "If after six (6) months of continuous leave the faculty member is still medically unable to return to work, an extension of unpaid sick leave may be requested with proper medical certification and is subject to the approval of the Dean and the Provost."
+    ],
+    "pay_fraction": [
+     "If after six (6) months of continuous leave the faculty member is still medically unable to return to work, an extension of unpaid sick leave may be requested with proper medical certification and is subject to the approval of the Dean and the Provost."
+    ],
+    "service_requirement": [
+     "Faculty members with less than three (3) years of service will be eligible to be paid for a qualifying medical leave under the FMLA and/or the state medical leave law, up to the period provided for in the medical certification, not to exceed six (6) months"
+    ],
+    "sequence": [
+     "If after six (6) months of continuous leave the faculty member is still medically unable to return to work, an extension of unpaid sick leave may be requested with proper medical certification and is subject to the approval of the Dean and the Provost."
+    ],
+    "medical_certification": [
+     "If after six (6) months of continuous leave the faculty member is still medically unable to return to work, an extension of unpaid sick leave may be requested with proper medical certification and is subject to the approval of the Dean and the Provost."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link",
+    "2018_01_cba_uconn_aaup_2017_2021"
+   ],
+   "flags": [
+    "own_illness_leave"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "U6",
+     "answer": "unpaid_leave",
+     "quote": "If after six (6) months of continuous leave the faculty member is still medically unable to return to work, an extension of unpaid sick leave may be requested with proper medical certification and is subject to the approval of the Dean and the Provost."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "If after six (6) months of continuous leave the faculty member is still medically unable to return to work, an extension of unpaid sick leave may be requested with proper medical certification and is subject to the approval of the Dean and the Provost."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "If after six (6) months of continuous leave the faculty member is still medically unable to return to work, an extension of unpaid sick leave may be requested with proper medical certification and is subject to the approval of the Dean and the Provost."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "These guidelines are for long term illnesses only (FMLA qualifying medical leaves) and apply only to tenured and tenure-track faculty and non-tenure track faculty members who are on multi-year appointments."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own illness)",
+     "quote": "If after six (6) months of continuous leave the faculty member is still medically unable to return to work, an extension of unpaid sick leave may be requested with proper medical certification and is subject to the approval of the Dean and the Provost."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "If after six (6) months of continuous leave the faculty member is still medically unable to return to work, an extension of unpaid sick leave may be requested with proper medical certification and is subject to the approval of the Dean and the Provost."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "unpaid",
+     "quote": "If after six (6) months of continuous leave the faculty member is still medically unable to return to work, an extension of unpaid sick leave may be requested with proper medical certification and is subject to the approval of the Dean and the Provost."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U8",
+     "answer": "band of less than three years",
+     "quote": "Faculty members with less than three (3) years of service will be eligible to be paid for a qualifying medical leave under the FMLA and/or the state medical leave law, up to the period provided for in the medical certification, not to exceed six (6) months"
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "consecutive_after c3",
+     "quote": "If after six (6) months of continuous leave the faculty member is still medically unable to return to work, an extension of unpaid sick leave may be requested with proper medical certification and is subject to the approval of the Dean and the Provost."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_connecticut_c5",
+   "institution_label": "Disability Pay",
+   "description": "Long-term disability coverage for Alternate Retirement Plan participants: approved medical leaves are referred for coverage once the leave exceeds the deductible period. For faculty with under three years of service the University does not supplement the LTD benefit.",
+   "mechanism": "generic_sick_or_disability_plan",
+   "mechanism_note": "long-term disability plan (schema §2): recorded without a length.",
+   "payer": "insurance_plan",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "all Alternate Retirement Plan participants ... bargaining unit members so insured (members in the State Employees Retirement System are not covered by this clause)",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "approved medical leaves of absence",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "time_window": "when the medical leave exceeds the deductible period",
+   "rule_applied": [
+    "U5",
+    "U6"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "In that all Alternate Retirement Plan participants receive disability coverage, all approved medical leaves of absence of bargaining unit members so insured should be referred for coverage when the medical leave exceeds the deductible period."
+    ],
+    "eligible_parent": [
+     "In that all Alternate Retirement Plan participants receive disability coverage, all approved medical leaves of absence of bargaining unit members so insured should be referred for coverage when the medical leave exceeds the deductible period."
+    ],
+    "entitlement": [
+     "In that all Alternate Retirement Plan participants receive disability coverage, all approved medical leaves of absence of bargaining unit members so insured should be referred for coverage when the medical leave exceeds the deductible period."
+    ],
+    "mechanism": [
+     "In that all Alternate Retirement Plan participants receive disability coverage, all approved medical leaves of absence of bargaining unit members so insured should be referred for coverage when the medical leave exceeds the deductible period.",
+     "If the faculty member with less than three years of service is an ARP participant and is eligible to collect long-term disability (LTD) benefits during a period of approved unpaid leave, the University will not supplement the LTD benefit."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_cba_uconn_aaup_2017_2021",
+    "2018_00_link"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "In that all Alternate Retirement Plan participants receive disability coverage, all approved medical leaves of absence of bargaining unit members so insured should be referred for coverage when the medical leave exceeds the deductible period."
+    },
+    {
+     "field": "payer",
+     "rule": "M1",
+     "answer": "insurance_plan",
+     "quote": "In that all Alternate Retirement Plan participants receive disability coverage, all approved medical leaves of absence of bargaining unit members so insured should be referred for coverage when the medical leave exceeds the deductible period."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "In that all Alternate Retirement Plan participants receive disability coverage, all approved medical leaves of absence of bargaining unit members so insured should be referred for coverage when the medical leave exceeds the deductible period."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "In that all Alternate Retirement Plan participants receive disability coverage, all approved medical leaves of absence of bargaining unit members so insured should be referred for coverage when the medical leave exceeds the deductible period."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own disability)",
+     "quote": "In that all Alternate Retirement Plan participants receive disability coverage, all approved medical leaves of absence of bargaining unit members so insured should be referred for coverage when the medical leave exceeds the deductible period."
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "In that all Alternate Retirement Plan participants receive disability coverage, all approved medical leaves of absence of bargaining unit members so insured should be referred for coverage when the medical leave exceeds the deductible period."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_connecticut_c6",
+   "institution_label": "",
+   "description": "Under the SEBAC 2017 Agreement, bargaining unit members may use their sick leave time to pay for family FMLA leave and take more intermittent leave, provided additional unpaid leave is not tacked on the end of FMLA leave.",
+   "mechanism": "own_accrual",
+   "payer": "own_balance",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "members of the bargaining unit",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "family FMLA",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "'will be allowed to use' (V2: 'is allowed').",
+   "duration_note": "No balance or length stated; the agreement does not say what sick leave balance tenure-stream faculty hold.",
+   "sequence": [
+    {
+     "relation": "within",
+     "component_id": "university_of_connecticut_c7",
+     "note": "pay from own sick leave during family FMLA leave"
+    }
+   ],
+   "rule_applied": [
+    "R1",
+    "V2",
+    "S1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "members of the bargaining unit will be allowed to use sick leave time to pay for family FMLA, and be allowed more intermittent leave, provided that change is made so that additional unpaid leave is not tacked on the end of FMLA leave."
+    ],
+    "eligible_parent": [
+     "members of the bargaining unit will be allowed to use sick leave time to pay for family FMLA, and be allowed more intermittent leave, provided that change is made so that additional unpaid leave is not tacked on the end of FMLA leave."
+    ],
+    "entitlement": [
+     "members of the bargaining unit will be allowed to use sick leave time to pay for family FMLA, and be allowed more intermittent leave, provided that change is made so that additional unpaid leave is not tacked on the end of FMLA leave."
+    ],
+    "sequence": [
+     "members of the bargaining unit will be allowed to use sick leave time to pay for family FMLA, and be allowed more intermittent leave, provided that change is made so that additional unpaid leave is not tacked on the end of FMLA leave."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_cba_uconn_aaup_2017_2021"
+   ],
+   "flags": [
+    "cross_reference_not_saved: SEBAC 2017 Agreement",
+    "ambiguous: restriction: 'provided that change is made so that additional unpaid leave is not tacked on the end of FMLA leave' (condition of the SEBAC change; its effect on other unpaid leave is not stated)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "own_accrual",
+     "quote": "members of the bargaining unit will be allowed to use sick leave time to pay for family FMLA, and be allowed more intermittent leave, provided that change is made so that additional unpaid leave is not tacked on the end of FMLA leave."
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "own_balance",
+     "quote": "members of the bargaining unit will be allowed to use sick leave time to pay for family FMLA, and be allowed more intermittent leave, provided that change is made so that additional unpaid leave is not tacked on the end of FMLA leave."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "members of the bargaining unit will be allowed to use sick leave time to pay for family FMLA, and be allowed more intermittent leave, provided that change is made so that additional unpaid leave is not tacked on the end of FMLA leave."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "members of the bargaining unit will be allowed to use sick leave time to pay for family FMLA, and be allowed more intermittent leave, provided that change is made so that additional unpaid leave is not tacked on the end of FMLA leave."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent (family FMLA, role-neutral)",
+     "quote": "members of the bargaining unit will be allowed to use sick leave time to pay for family FMLA, and be allowed more intermittent leave, provided that change is made so that additional unpaid leave is not tacked on the end of FMLA leave."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "members of the bargaining unit will be allowed to use sick leave time to pay for family FMLA, and be allowed more intermittent leave, provided that change is made so that additional unpaid leave is not tacked on the end of FMLA leave."
+    },
+    {
+     "field": "sequence",
+     "rule": "S1",
+     "answer": "within c7 (pay for a statutory leave)",
+     "quote": "members of the bargaining unit will be allowed to use sick leave time to pay for family FMLA, and be allowed more intermittent leave, provided that change is made so that additional unpaid leave is not tacked on the end of FMLA leave."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_connecticut_c7",
+   "institution_label": "Federal FMLA",
+   "description": "Federal Family and Medical Leave Act: 12 workweeks of job-protected unpaid leave in a 12-month period for the birth and care of a child, adoption or foster placement, the employee's own serious health condition, or care of a family member.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "eligible employees (named on the HR AAUP leave pages and in the Faculty Medical Leave Guidelines)",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "birth of a son or daughter of the employee; placement for adoption or foster care; the employee's own serious health condition",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 12,
+    "units": "workweek",
+    "qualifier": "exact"
+   },
+   "duration_note": "'a total of 12 workweeks' (R13: a total with no qualifying word → exact); HR page: 'Up to 12 weeks of leave during 12-month FMLA period'. HR pages: leave for the birth must begin immediately following the birth or the period of disability, and may not be taken intermittently.",
+   "pay_fraction": "unpaid",
+   "service_requirement": "12 months and 1,250 hours",
+   "statute_source": "29 U.S.C. 2612(a)(1)(A)-(D); eligibility 29 U.S.C. 2611(2)",
+   "statute_verified": true,
+   "sequence": [
+    {
+     "relation": "concurrent_with",
+     "component_id": "university_of_connecticut_c2",
+     "note": "Guidelines F: medical leaves run concurrently with federal FMLA"
+    },
+    {
+     "relation": "concurrent_with",
+     "component_id": "university_of_connecticut_c3",
+     "note": "Guidelines F"
+    },
+    {
+     "relation": "concurrent_with",
+     "component_id": "university_of_connecticut_c1",
+     "note": "S1: statutory leave alongside the institution's own (longer) family leave"
+    }
+   ],
+   "rule_applied": [
+    "U2",
+    "U4",
+    "S1",
+    "R13",
+    "U8"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Eligible after one year of employment and after working 1,250 hours or more in previous 12-months"
+    ],
+    "eligible_parent": [
+     "Because of the birth of a son or daughter of the employee and in order to care for such son or daughter.",
+     "Because of a serious health condition that makes the employee unable to perform the functions of the position of such employee."
+    ],
+    "entitlement": [
+     "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period for one or more of the following:"
+    ],
+    "duration": [
+     "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period for one or more of the following:"
+    ],
+    "pay_fraction": [
+     "Parental leaves are unpaid."
+    ],
+    "service_requirement": [
+     "for at least 1,250 hours of service with such employer during the previous 12-month period.",
+     "Eligible after one year of employment and after working 1,250 hours or more in previous 12-months"
+    ],
+    "sequence": [
+     "All medical leaves under these guidelines shall run concurrently with federal FMLA and other legal entitlements"
+    ]
+   },
+   "doc_ids": [
+    "2018_02_hr_aaup_leave_type_parental",
+    "2018_03_hr_aaup_leave_type_maternity",
+    "2018_00_link",
+    "2018_01_cba_uconn_aaup_2017_2021",
+    "2026_00_us_fmla_29usc2612",
+    "2026_01_us_fmla_29usc2611_definitions"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "U4",
+     "answer": "unpaid_leave",
+     "quote": "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period for one or more of the following:"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Parental leaves are unpaid."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Because of the birth of a son or daughter of the employee and in order to care for such son or daughter."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Eligible after one year of employment and after working 1,250 hours or more in previous 12-months"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent, non_birth_parent, adoptive, foster",
+     "quote": "Because of the birth of a son or daughter of the employee and in order to care for such son or daughter."
+    },
+    {
+     "field": "entitlement",
+     "rule": "U2",
+     "answer": "guaranteed",
+     "quote": "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period for one or more of the following:"
+    },
+    {
+     "field": "duration",
+     "rule": "U2",
+     "answer": "12 workweeks exact (statute)",
+     "quote": "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period for one or more of the following:"
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "U2",
+     "answer": "unpaid",
+     "quote": "Parental leaves are unpaid."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U2",
+     "answer": "12 months and 1,250 hours",
+     "quote": "for at least 1,250 hours of service with such employer during the previous 12-month period."
+    },
+    {
+     "field": "sequence",
+     "rule": "S1",
+     "answer": "concurrent_with c2, c3 and c1",
+     "quote": "All medical leaves under these guidelines shall run concurrently with federal FMLA and other legal entitlements"
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_connecticut_c8",
+   "institution_label": "CT State Statute 5-248a",
+   "description": "Connecticut state-employee family leave (C.G.S. 5-248a) as summarised on the HR AAUP parental-leave page: up to 24 weeks of unpaid leave within a two-year period for permanent employees, beginning immediately after the birth, adoption or placement or after the period of disability.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Eligible as a permanent employee as defined in CT State Statute 5-196(20) (listed on the HR page for AAUP members)",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "following birth, adoption or placement",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 24,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "duration_note": "'Up to 24 weeks of unpaid leave within a two-year period' (per two-year window; the amount for one event). Statute text not saved; terms from the HR page (U2). May not be taken intermittently or on a reduced schedule.",
+   "pay_fraction": "unpaid",
+   "service_requirement": "permanent employee as defined in C.G.S. 5-196(20)",
+   "time_window": "Leave must begin immediately following birth, adoption or placement or immediately following the period of disability",
+   "statute_source": "C.G.S. 5-248a",
+   "statute_verified": false,
+   "sequence": [
+    {
+     "relation": "concurrent_with",
+     "component_id": "university_of_connecticut_c1",
+     "note": "S1: the state-employee statutory leave runs alongside the CBA's six-month family leave; both start after the birth parent's disability period (HR page) or at the birth"
+    }
+   ],
+   "rule_applied": [
+    "U2",
+    "U4",
+    "S1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Eligible as a permanent employee as defined in CT State Statute 5-196(20)"
+    ],
+    "eligible_parent": [
+     "Leave must begin immediately following birth, adoption or placement or immediately following the period of disability"
+    ],
+    "entitlement": [
+     "Up to 24 weeks of unpaid leave within a two-year period",
+     "Leave must begin immediately following birth, adoption or placement or immediately following the period of disability"
+    ],
+    "duration": [
+     "Up to 24 weeks of unpaid leave within a two-year period"
+    ],
+    "pay_fraction": [
+     "Up to 24 weeks of unpaid leave within a two-year period"
+    ],
+    "service_requirement": [
+     "Eligible as a permanent employee as defined in CT State Statute 5-196(20)"
+    ],
+    "sequence": [
+     "Leave must begin immediately following birth, adoption or placement or immediately following the period of disability"
+    ]
+   },
+   "doc_ids": [
+    "2018_02_hr_aaup_leave_type_parental"
+   ],
+   "flags": [
+    "cross_reference_not_saved: C.G.S. 5-248a",
+    "cross_reference_not_saved: C.G.S. 5-196(20)",
+    "cross_reference_not_saved: Statewide Family and Medical Leave Policy"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "U4",
+     "answer": "unpaid_leave",
+     "quote": "Up to 24 weeks of unpaid leave within a two-year period"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Up to 24 weeks of unpaid leave within a two-year period"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Leave must begin immediately following birth, adoption or placement or immediately following the period of disability"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Eligible as a permanent employee as defined in CT State Statute 5-196(20)"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "birth_parent, non_birth_parent, adoptive, foster (birth, adoption or placement)",
+     "quote": "Leave must begin immediately following birth, adoption or placement or immediately following the period of disability"
+    },
+    {
+     "field": "entitlement",
+     "rule": "U2",
+     "answer": "guaranteed",
+     "quote": "Up to 24 weeks of unpaid leave within a two-year period"
+    },
+    {
+     "field": "duration",
+     "rule": "U2",
+     "answer": "24 weeks up_to, from the HR page (statute not saved)",
+     "quote": "Up to 24 weeks of unpaid leave within a two-year period"
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "U2",
+     "answer": "unpaid",
+     "quote": "Up to 24 weeks of unpaid leave within a two-year period"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U2",
+     "answer": "permanent employee (5-196(20))",
+     "quote": "Eligible as a permanent employee as defined in CT State Statute 5-196(20)"
+    },
+    {
+     "field": "sequence",
+     "rule": "S1",
+     "answer": "concurrent_with c1",
+     "quote": "Leave must begin immediately following birth, adoption or placement or immediately following the period of disability"
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_connecticut_c9",
+   "institution_label": "Connecticut General Statute 46a.60(a).7",
+   "description": "Connecticut statute (as summarised on the HR maternity page): a reasonable leave for disability resulting from pregnancy, use of pay accruals during the leave, and reinstatement to the original or an equivalent job.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "employees (listed on the HR AAUP maternity page)",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "disability resulting from pregnancy",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration_note": "'a reasonable leave': no length stated; statute text not saved.",
+   "pay_fraction": "unpaid (employees may use pay accruals)",
+   "statute_source": "C.G.S. 46a-60(a)(7)",
+   "statute_verified": false,
+   "sequence": [
+    {
+     "relation": "concurrent_with",
+     "component_id": "university_of_connecticut_c2",
+     "note": "S1: statutory pregnancy-disability leave alongside the maternity leave"
+    }
+   ],
+   "rule_applied": [
+    "U2",
+    "U4",
+    "S1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Provides for a reasonable leave for disability resulting from pregnancy"
+    ],
+    "eligible_parent": [
+     "Provides for a reasonable leave for disability resulting from pregnancy"
+    ],
+    "entitlement": [
+     "Provides for a reasonable leave for disability resulting from pregnancy",
+     "Provides for reinstatement to original job or to an equivalent position following leave"
+    ],
+    "pay_fraction": [
+     "Requires employers to allow employees to use pay accruals during the leave"
+    ],
+    "sequence": [
+     "Provides for a reasonable leave for disability resulting from pregnancy"
+    ]
+   },
+   "doc_ids": [
+    "2018_03_hr_aaup_leave_type_maternity"
+   ],
+   "flags": [
+    "cross_reference_not_saved: C.G.S. 46a-60(a)(7)",
+    "statutory_detail_not_in_sources: C.G.S. 46a-60(a)(7)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "U4",
+     "answer": "unpaid_leave",
+     "quote": "Provides for a reasonable leave for disability resulting from pregnancy"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Requires employers to allow employees to use pay accruals during the leave"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Provides for a reasonable leave for disability resulting from pregnancy"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Provides for a reasonable leave for disability resulting from pregnancy"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "birth_parent",
+     "quote": "Provides for a reasonable leave for disability resulting from pregnancy"
+    },
+    {
+     "field": "entitlement",
+     "rule": "U2",
+     "answer": "guaranteed",
+     "quote": "Provides for a reasonable leave for disability resulting from pregnancy"
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "U2",
+     "answer": "unpaid; pay accruals may be used",
+     "quote": "Requires employers to allow employees to use pay accruals during the leave"
+    },
+    {
+     "field": "sequence",
+     "rule": "S1",
+     "answer": "concurrent_with c2",
+     "quote": "Provides for a reasonable leave for disability resulting from pregnancy"
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_connecticut_c10",
+   "institution_label": "Pregnancy Discrimination Act",
+   "description": "Pregnancy Discrimination Act (HR maternity page): a job must be held open for a pregnancy-related absence as long as for employees on sick or disability leave; equal treatment, no length of its own.",
+   "mechanism": "other",
+   "payer": "none",
+   "mechanism_note": "U4: protection by equal treatment with other leaves, no length of its own → other, counted in no figure (rule example: UConn).",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "employees (listed on the HR AAUP maternity page)",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "pregnancy-related absence",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "statute_source": "Pregnancy Discrimination Act",
+   "statute_verified": false,
+   "rule_applied": [
+    "U4"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Job must be held open for a pregnancy-related absence the same length of time jobs are held open for employees on sick or disability leave"
+    ],
+    "eligible_parent": [
+     "Job must be held open for a pregnancy-related absence the same length of time jobs are held open for employees on sick or disability leave"
+    ],
+    "entitlement": [
+     "Job must be held open for a pregnancy-related absence the same length of time jobs are held open for employees on sick or disability leave"
+    ],
+    "mechanism": [
+     "Job must be held open for a pregnancy-related absence the same length of time jobs are held open for employees on sick or disability leave"
+    ]
+   },
+   "doc_ids": [
+    "2018_03_hr_aaup_leave_type_maternity"
+   ],
+   "flags": [
+    "cross_reference_not_saved: Pregnancy Discrimination Act",
+    "statutory_detail_not_in_sources: Pregnancy Discrimination Act"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "U4",
+     "answer": "other",
+     "quote": "Job must be held open for a pregnancy-related absence the same length of time jobs are held open for employees on sick or disability leave"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Job must be held open for a pregnancy-related absence the same length of time jobs are held open for employees on sick or disability leave"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Job must be held open for a pregnancy-related absence the same length of time jobs are held open for employees on sick or disability leave"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Job must be held open for a pregnancy-related absence the same length of time jobs are held open for employees on sick or disability leave"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "birth_parent",
+     "quote": "Job must be held open for a pregnancy-related absence the same length of time jobs are held open for employees on sick or disability leave"
+    },
+    {
+     "field": "entitlement",
+     "rule": "U2",
+     "answer": "guaranteed",
+     "quote": "Job must be held open for a pregnancy-related absence the same length of time jobs are held open for employees on sick or disability leave"
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_connecticut_c11",
+   "institution_label": "Tenure Track Extension",
+   "description": "Automatic one-year extension of the tenure clock for tenure-track faculty who take a qualified family leave or experience a qualifying major life event (birth, adoption, serious illness) before the mandatory tenure evaluation year; at most two stops.",
+   "mechanism": "tenure_clock",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Tenure-track faculty members (bargaining unit; By-Laws: Faculty members)",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "the birth, adoption or serious illness of a child",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "exact"
+   },
+   "use_limit": [
+    {
+     "times": 2,
+     "per": "career",
+     "counts": "uses"
+    }
+   ],
+   "use_limit_note": "'The tenure clock will be stopped no more than twice. Exceptions to this may be granted at the discretion of the Provost.' (HR pages: 'to a maximum of two extensions').",
+   "time_window": "prior to their mandatory tenure evaluation year",
+   "notice": "timely notice (By-Laws); proof of the qualifying event to the HR Leave Administrator within 31 days following a foreseeable event or within a reasonable period, not to exceed six months (HR procedure)",
+   "rule_applied": [
+    "U1",
+    "U9"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Tenure-track faculty members taking a qualified family leave or who experience a qualifying major life event, prior to their mandatory tenure evaluation year, will receive an automatic one-year extension of the tenure clock."
+    ],
+    "eligible_parent": [
+     "Qualified family leaves include leaves for the following events: the faculty member’s serious illness or for the birth, adoption or serious illness of a child or serious illness of a spouse or parent."
+    ],
+    "entitlement": [
+     "Tenure-track faculty members taking a qualified family leave or who experience a qualifying major life event, prior to their mandatory tenure evaluation year, will receive an automatic one-year extension of the tenure clock.",
+     "Faculty members who provide timely notice to the University that they have experienced a qualifying major life event, as defined under the Federal Family and Medical Leave Act, prior to their mandatory tenure evaluation year will receive an automatic one-year extension of the tenure clock."
+    ],
+    "duration": [
+     "Tenure-track faculty members taking a qualified family leave or who experience a qualifying major life event, prior to their mandatory tenure evaluation year, will receive an automatic one-year extension of the tenure clock."
+    ],
+    "use_limit": [
+     "The tenure clock will be stopped no more than twice. Exceptions to this may be granted at the discretion of the Provost."
+    ],
+    "notice": [
+     "must contact the Human Resources Leave Administrator and provide proof of the qualifying event within 31 days following a foreseeable event or within a reasonable period of time, not to exceed six months."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_cba_uconn_aaup_2017_2021",
+    "2018_04_university_bylaws_rev20170329",
+    "2018_05_hr_aaup_tenure_clock_adjustment_procedure",
+    "2018_02_hr_aaup_leave_type_parental",
+    "2018_03_hr_aaup_leave_type_maternity"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "Tenure-track faculty members taking a qualified family leave or who experience a qualifying major life event, prior to their mandatory tenure evaluation year, will receive an automatic one-year extension of the tenure clock."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Tenure-track faculty members taking a qualified family leave or who experience a qualifying major life event, prior to their mandatory tenure evaluation year, will receive an automatic one-year extension of the tenure clock."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Qualified family leaves include leaves for the following events: the faculty member’s serious illness or for the birth, adoption or serious illness of a child or serious illness of a spouse or parent."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Tenure-track faculty members taking a qualified family leave or who experience a qualifying major life event, prior to their mandatory tenure evaluation year, will receive an automatic one-year extension of the tenure clock."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "birth_parent, non_birth_parent, adoptive",
+     "quote": "Qualified family leaves include leaves for the following events: the faculty member’s serious illness or for the birth, adoption or serious illness of a child or serious illness of a spouse or parent."
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "Tenure-track faculty members taking a qualified family leave or who experience a qualifying major life event, prior to their mandatory tenure evaluation year, will receive an automatic one-year extension of the tenure clock."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 year exact",
+     "quote": "Tenure-track faculty members taking a qualified family leave or who experience a qualifying major life event, prior to their mandatory tenure evaluation year, will receive an automatic one-year extension of the tenure clock."
+    },
+    {
+     "field": "use_limit",
+     "rule": "U9",
+     "answer": "twice per career",
+     "quote": "The tenure clock will be stopped no more than twice. Exceptions to this may be granted at the discretion of the Provost."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_connecticut_c12",
+   "institution_label": "",
+   "description": "A leave of at least one semester for personal or other reasons, requested and granted in writing, ordinarily is not counted in the probationary period toward tenure.",
+   "mechanism": "tenure_clock",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "faculty in tenure track positions (By-Laws XIV.C.4)",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "personal or other reasons",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "'ordinarily will not be included': granted by default with an unstated exception (V2d); the leave itself must be granted in writing.",
+   "duration_note": "The exclusion equals the leave taken (at least one semester); no length of its own.",
+   "rule_applied": [
+    "U1",
+    "V2d"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "A leave of at least one semester for personal or other reasons ordinarily will not be included in the probationary period toward tenure."
+    ],
+    "eligible_parent": [
+     "A leave of at least one semester for personal or other reasons ordinarily will not be included in the probationary period toward tenure."
+    ],
+    "entitlement": [
+     "A leave of at least one semester for personal or other reasons ordinarily will not be included in the probationary period toward tenure.",
+     "Such leaves must be requested in writing by the faculty member and granted in writing by the department head, dean, and the Provost."
+    ]
+   },
+   "doc_ids": [
+    "2018_04_university_bylaws_rev20170329"
+   ],
+   "flags": [
+    "general_purpose",
+    "conditional_refusal: ordinarily"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "A leave of at least one semester for personal or other reasons ordinarily will not be included in the probationary period toward tenure."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "A leave of at least one semester for personal or other reasons ordinarily will not be included in the probationary period toward tenure."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "A leave of at least one semester for personal or other reasons ordinarily will not be included in the probationary period toward tenure."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "A leave of at least one semester for personal or other reasons ordinarily will not be included in the probationary period toward tenure."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "A leave of at least one semester for personal or other reasons ordinarily will not be included in the probationary period toward tenure."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2d",
+     "answer": "guaranteed_on_request",
+     "quote": "A leave of at least one semester for personal or other reasons ordinarily will not be included in the probationary period toward tenure."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_connecticut_c13",
+   "institution_label": "",
+   "description": "School of Medicine faculty: the probationary period is automatically increased when the faculty member takes FMLA, CT FMLA or Workers' Compensation leave, up to a maximum of 24 months (or on request for a significant life event).",
+   "mechanism": "tenure_clock",
+   "payer": "none",
+   "faculty_group": "faculty with primary appointments in the School of Medicine",
+   "faculty_scope": "School of Medicine only",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "significant life events; leave documented and approved under the Federal Family Medical Leave Act",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 24,
+    "units": "month",
+    "qualifier": "up_to"
+   },
+   "duration_note": "'for a maximum of twenty-four months'; the automatic increase's own length is not stated.",
+   "rule_applied": [
+    "V3b",
+    "U1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "For faculty with primary appointments in the School of Medicine, significant life events may be allowed to increase the probationary period leading to promotion or tenure for a maximum of twenty-four months."
+    ],
+    "eligible_parent": [
+     "An increase in the probationary period leading to promotion and/or tenure is automatically awarded when the faculty member takes leave documented and approved under the Federal Family Medical Leave Act, the State of Connecticut Family Medical Leave Act, or the State of Connecticut Workers’ Compensation Act."
+    ],
+    "entitlement": [
+     "An increase in the probationary period leading to promotion and/or tenure is automatically awarded when the faculty member takes leave documented and approved under the Federal Family Medical Leave Act, the State of Connecticut Family Medical Leave Act, or the State of Connecticut Workers’ Compensation Act."
+    ],
+    "duration": [
+     "For faculty with primary appointments in the School of Medicine, significant life events may be allowed to increase the probationary period leading to promotion or tenure for a maximum of twenty-four months."
+    ]
+   },
+   "doc_ids": [
+    "2018_04_university_bylaws_rev20170329"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "For faculty with primary appointments in the School of Medicine, significant life events may be allowed to increase the probationary period leading to promotion or tenure for a maximum of twenty-four months."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "For faculty with primary appointments in the School of Medicine, significant life events may be allowed to increase the probationary period leading to promotion or tenure for a maximum of twenty-four months."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "An increase in the probationary period leading to promotion and/or tenure is automatically awarded when the faculty member takes leave documented and approved under the Federal Family Medical Leave Act, the State of Connecticut Family Medical Leave Act, or the State of Connecticut Workers’ Compensation Act."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "V3b",
+     "answer": "faculty with primary appointments in the School of Medicine",
+     "quote": "For faculty with primary appointments in the School of Medicine, significant life events may be allowed to increase the probationary period leading to promotion or tenure for a maximum of twenty-four months."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "An increase in the probationary period leading to promotion and/or tenure is automatically awarded when the faculty member takes leave documented and approved under the Federal Family Medical Leave Act, the State of Connecticut Family Medical Leave Act, or the State of Connecticut Workers’ Compensation Act."
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "An increase in the probationary period leading to promotion and/or tenure is automatically awarded when the faculty member takes leave documented and approved under the Federal Family Medical Leave Act, the State of Connecticut Family Medical Leave Act, or the State of Connecticut Workers’ Compensation Act."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "24 months up_to",
+     "quote": "For faculty with primary appointments in the School of Medicine, significant life events may be allowed to increase the probationary period leading to promotion or tenure for a maximum of twenty-four months."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_connecticut_c14",
+   "institution_label": "Leave Without Pay",
+   "description": "Leave of absence without pay, granted by the Provost or a Vice President for reasons in the best interest of the University and the staff member's professional growth; ordinarily up to a year.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Professional staff members (By-Laws Article XIV, the University Staff, includes the faculty)",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "the staff member concerned",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "up_to"
+   },
+   "duration_note": "'ordinarily granted for up to a year' (Q1: 'normally not more than' → up_to).",
+   "pay_fraction": "without pay",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "rule_applied": [
+    "U1",
+    "V2",
+    "Q1",
+    "R9"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "All such cases are treated as special cases and are in the first instance, ordinarily granted for up to a year."
+    ],
+    "eligible_parent": [
+     "Leave of absence without pay may be granted by the President for those units which report to the President or by the Provost or the Vice Presidents for reasons considered to be in the best interest of the University and in the interests of professional growth and improvement of the staff member concerned."
+    ],
+    "entitlement": [
+     "Leave of absence without pay may be granted by the President for those units which report to the President or by the Provost or the Vice Presidents for reasons considered to be in the best interest of the University and in the interests of professional growth and improvement of the staff member concerned."
+    ],
+    "duration": [
+     "All such cases are treated as special cases and are in the first instance, ordinarily granted for up to a year."
+    ],
+    "pay_fraction": [
+     "Leave of absence without pay may be granted by the President for those units which report to the President or by the Provost or the Vice Presidents for reasons considered to be in the best interest of the University and in the interests of professional growth and improvement of the staff member concerned."
+    ],
+    "relief": [
+     "Leave of absence without pay may be granted by the President for those units which report to the President or by the Provost or the Vice Presidents for reasons considered to be in the best interest of the University and in the interests of professional growth and improvement of the staff member concerned."
+    ]
+   },
+   "doc_ids": [
+    "2018_04_university_bylaws_rev20170329"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "Leave of absence without pay may be granted by the President for those units which report to the President or by the Provost or the Vice Presidents for reasons considered to be in the best interest of the University and in the interests of professional growth and improvement of the staff member concerned."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Leave of absence without pay may be granted by the President for those units which report to the President or by the Provost or the Vice Presidents for reasons considered to be in the best interest of the University and in the interests of professional growth and improvement of the staff member concerned."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "Leave of absence without pay may be granted by the President for those units which report to the President or by the Provost or the Vice Presidents for reasons considered to be in the best interest of the University and in the interests of professional growth and improvement of the staff member concerned."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "All such cases are treated as special cases and are in the first instance, ordinarily granted for up to a year."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "Leave of absence without pay may be granted by the President for those units which report to the President or by the Provost or the Vice Presidents for reasons considered to be in the best interest of the University and in the interests of professional growth and improvement of the staff member concerned."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "Leave of absence without pay may be granted by the President for those units which report to the President or by the Provost or the Vice Presidents for reasons considered to be in the best interest of the University and in the interests of professional growth and improvement of the staff member concerned."
+    },
+    {
+     "field": "duration",
+     "rule": "Q1",
+     "answer": "1 year up_to",
+     "quote": "All such cases are treated as special cases and are in the first instance, ordinarily granted for up to a year."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "without pay",
+     "quote": "Leave of absence without pay may be granted by the President for those units which report to the President or by the Provost or the Vice Presidents for reasons considered to be in the best interest of the University and in the interests of professional growth and improvement of the staff member concerned."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave)",
+     "quote": "Leave of absence without pay may be granted by the President for those units which report to the President or by the Provost or the Vice Presidents for reasons considered to be in the best interest of the University and in the interests of professional growth and improvement of the staff member concerned."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_connecticut_c15",
+   "institution_label": "",
+   "description": "Short leaves to cover emergency situations, granted by the department head, for up to ten days (longer only with the Provost's or appropriate Vice President's permission). Pay not stated.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "mechanism_note": "Pay is not stated; coded as a leave with no stated pay. General-purpose (U1), counted in no figure.",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "member of the professional staff",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "emergency situations",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "duration": {
+    "value": 10,
+    "units": "day",
+    "qualifier": "up_to"
+   },
+   "duration_note": "'No such emergency leave shall be granted for a longer period than ten days without previous permission'.",
+   "rule_applied": [
+    "U1",
+    "V2"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "No member of the professional staff shall be absent from his/her duties at the University except by permission of the department head."
+    ],
+    "eligible_parent": [
+     "Short leaves to cover emergency situations may be granted by the department head"
+    ],
+    "entitlement": [
+     "Short leaves to cover emergency situations may be granted by the department head"
+    ],
+    "duration": [
+     "No such emergency leave shall be granted for a longer period than ten days without previous permission of the President"
+    ]
+   },
+   "doc_ids": [
+    "2018_04_university_bylaws_rev20170329"
+   ],
+   "flags": [
+    "general_purpose",
+    "ambiguous: pay not stated"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "Short leaves to cover emergency situations may be granted by the department head"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Short leaves to cover emergency situations may be granted by the department head"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "Short leaves to cover emergency situations may be granted by the department head"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "No member of the professional staff shall be absent from his/her duties at the University except by permission of the department head."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "Short leaves to cover emergency situations may be granted by the department head"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "Short leaves to cover emergency situations may be granted by the department head"
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "10 days up_to",
+     "quote": "No such emergency leave shall be granted for a longer period than ten days without previous permission of the President"
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_connecticut_c16",
+   "institution_label": "Flexible Semesters",
+   "description": "With the department head's and/or Dean's approval, a faculty member may substitute a summer teaching assignment for a fall or spring teaching obligation, as part of the regular load: a rearrangement, not a reduction.",
+   "mechanism": "other",
+   "payer": "none",
+   "mechanism_note": "R16: a rearrangement that moves duties within the year without reducing them is not relief → other, counted in no figure.",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "a faculty member (bargaining unit)",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "a faculty member",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "rule_applied": [
+    "R16",
+    "U1",
+    "V2"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "On a voluntary basis and with the approval of the department head and/or Dean, a faculty member may be allowed to substitute a summer teaching assignment for a fall or spring teaching obligation."
+    ],
+    "eligible_parent": [
+     "On a voluntary basis and with the approval of the department head and/or Dean, a faculty member may be allowed to substitute a summer teaching assignment for a fall or spring teaching obligation."
+    ],
+    "entitlement": [
+     "On a voluntary basis and with the approval of the department head and/or Dean, a faculty member may be allowed to substitute a summer teaching assignment for a fall or spring teaching obligation."
+    ],
+    "mechanism": [
+     "On a voluntary basis and with the approval of the department head and/or Dean, a faculty member may be allowed to substitute a summer teaching assignment for a fall or spring teaching obligation.",
+     "This exchange will be considered as part of the faculty member’s regular teaching load and will not be eligible for extra compensation."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_cba_uconn_aaup_2017_2021"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R16",
+     "answer": "other",
+     "quote": "This exchange will be considered as part of the faculty member’s regular teaching load and will not be eligible for extra compensation."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "This exchange will be considered as part of the faculty member’s regular teaching load and will not be eligible for extra compensation."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "The University and the UConn-AAUP recognize the importance of encouraging research activity during the academic year"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "On a voluntary basis and with the approval of the department head and/or Dean, a faculty member may be allowed to substitute a summer teaching assignment for a fall or spring teaching obligation."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "On a voluntary basis and with the approval of the department head and/or Dean, a faculty member may be allowed to substitute a summer teaching assignment for a fall or spring teaching obligation."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "On a voluntary basis and with the approval of the department head and/or Dean, a faculty member may be allowed to substitute a summer teaching assignment for a fall or spring teaching obligation."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_connecticut_c17",
+   "institution_label": "",
+   "description": "Academic Assistants, Research Assistants and Research Associates may use personal leave, vacation and holidays toward an unpaid parental or maternity leave (HR summary pages).",
+   "mechanism": "own_accrual",
+   "payer": "own_balance",
+   "faculty_group": "Academic Assistants, Research Assistants and Research Associates",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "unpaid parental leave; unpaid maternity leave",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "'can use' (V2).",
+   "rule_applied": [
+    "R1",
+    "V2",
+    "source_precedence"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Academic Assistants, Research Assistants and Research Associates can use the following paid time entitlements toward an unpaid parental leave:"
+    ],
+    "eligible_parent": [
+     "Academic Assistants, Research Assistants and Research Associates can use the following paid time entitlements toward an unpaid parental leave:",
+     "In lieu of unpaid maternity leave, Academic Assistants, Research Assistants and Research Associates can use their following paid time entitlements:"
+    ],
+    "entitlement": [
+     "Academic Assistants, Research Assistants and Research Associates can use the following paid time entitlements toward an unpaid parental leave:"
+    ]
+   },
+   "doc_ids": [
+    "2018_02_hr_aaup_leave_type_parental",
+    "2018_03_hr_aaup_leave_type_maternity"
+   ],
+   "flags": [
+    "summary_only: 2018_02_hr_aaup_leave_type_parental"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "own_accrual",
+     "quote": "Academic Assistants, Research Assistants and Research Associates can use the following paid time entitlements toward an unpaid parental leave:"
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "own_balance",
+     "quote": "Academic Assistants, Research Assistants and Research Associates can use the following paid time entitlements toward an unpaid parental leave:"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Academic Assistants, Research Assistants and Research Associates can use the following paid time entitlements toward an unpaid parental leave:"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "Academic Assistants, Research Assistants and Research Associates",
+     "quote": "Academic Assistants, Research Assistants and Research Associates can use the following paid time entitlements toward an unpaid parental leave:"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "Academic Assistants, Research Assistants and Research Associates can use the following paid time entitlements toward an unpaid parental leave:"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "Academic Assistants, Research Assistants and Research Associates can use the following paid time entitlements toward an unpaid parental leave:"
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_connecticut_c18",
+   "institution_label": "Sick Leave",
+   "description": "Academic Assistants and Facilities Scientists receive paid sick leave for personal illness of up to 15 work days a year, not carried over.",
+   "mechanism": "generic_sick_or_disability_plan",
+   "payer": "employer",
+   "mechanism_note": "R1: a fixed annual amount granted by the employer and not carried over → employer plan.",
+   "faculty_group": "Academic Assistants and Facilities Scientists",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "bona fide personal illness",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 15,
+    "units": "workday",
+    "qualifier": "up_to"
+   },
+   "pay_fraction": "paid",
+   "medical_certification": true,
+   "medical_certification_note": "may be required to provide an acceptable medical certificate",
+   "rule_applied": [
+    "R1",
+    "U5"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Academic Assistants and Facilities Scientists shall receive paid sick leave for bona fide personal illness up to fifteen (15) work days annually."
+    ],
+    "eligible_parent": [
+     "Academic Assistants and Facilities Scientists shall receive paid sick leave for bona fide personal illness up to fifteen (15) work days annually."
+    ],
+    "entitlement": [
+     "Academic Assistants and Facilities Scientists shall receive paid sick leave for bona fide personal illness up to fifteen (15) work days annually."
+    ],
+    "duration": [
+     "Academic Assistants and Facilities Scientists shall receive paid sick leave for bona fide personal illness up to fifteen (15) work days annually."
+    ],
+    "pay_fraction": [
+     "Academic Assistants and Facilities Scientists shall receive paid sick leave for bona fide personal illness up to fifteen (15) work days annually."
+    ],
+    "mechanism": [
+     "Academic Assistants and Facilities Scientists shall receive paid sick leave for bona fide personal illness up to fifteen (15) work days annually.",
+     "Leave not taken annually will be neither carried over nor compensated."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_cba_uconn_aaup_2017_2021"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "Leave not taken annually will be neither carried over nor compensated."
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "employer",
+     "quote": "Academic Assistants and Facilities Scientists shall receive paid sick leave for bona fide personal illness up to fifteen (15) work days annually."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Academic Assistants and Facilities Scientists shall receive paid sick leave for bona fide personal illness up to fifteen (15) work days annually."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "Academic Assistants and Facilities Scientists",
+     "quote": "Academic Assistants and Facilities Scientists shall receive paid sick leave for bona fide personal illness up to fifteen (15) work days annually."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own illness)",
+     "quote": "Academic Assistants and Facilities Scientists shall receive paid sick leave for bona fide personal illness up to fifteen (15) work days annually."
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "Academic Assistants and Facilities Scientists shall receive paid sick leave for bona fide personal illness up to fifteen (15) work days annually."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "15 workdays up_to",
+     "quote": "Academic Assistants and Facilities Scientists shall receive paid sick leave for bona fide personal illness up to fifteen (15) work days annually."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "paid",
+     "quote": "Academic Assistants and Facilities Scientists shall receive paid sick leave for bona fide personal illness up to fifteen (15) work days annually."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_connecticut_c19",
+   "institution_label": "Sick Leave",
+   "description": "Research Assistants and Research Associates receive paid sick leave for personal illness of up to 15 work days a year, not carried over.",
+   "mechanism": "generic_sick_or_disability_plan",
+   "payer": "employer",
+   "mechanism_note": "R1: a fixed annual amount granted by the employer and not carried over → employer plan.",
+   "faculty_group": "Research Assistants and Research Associates",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "bona fide personal illness",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 15,
+    "units": "workday",
+    "qualifier": "up_to"
+   },
+   "pay_fraction": "paid",
+   "medical_certification": true,
+   "medical_certification_note": "may be required to provide an acceptable medical certificate",
+   "rule_applied": [
+    "R1",
+    "U5"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Research Assistants and Research Associates shall receive paid sick leave for bona fide personal illness up to fifteen (15) work days annually."
+    ],
+    "eligible_parent": [
+     "Research Assistants and Research Associates shall receive paid sick leave for bona fide personal illness up to fifteen (15) work days annually."
+    ],
+    "entitlement": [
+     "Research Assistants and Research Associates shall receive paid sick leave for bona fide personal illness up to fifteen (15) work days annually."
+    ],
+    "duration": [
+     "Research Assistants and Research Associates shall receive paid sick leave for bona fide personal illness up to fifteen (15) work days annually."
+    ],
+    "pay_fraction": [
+     "Research Assistants and Research Associates shall receive paid sick leave for bona fide personal illness up to fifteen (15) work days annually."
+    ],
+    "mechanism": [
+     "Research Assistants and Research Associates shall receive paid sick leave for bona fide personal illness up to fifteen (15) work days annually.",
+     "Leave not taken annually will be neither carried over nor compensated."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_cba_uconn_aaup_2017_2021"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "Leave not taken annually will be neither carried over nor compensated."
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "employer",
+     "quote": "Research Assistants and Research Associates shall receive paid sick leave for bona fide personal illness up to fifteen (15) work days annually."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Research Assistants and Research Associates shall receive paid sick leave for bona fide personal illness up to fifteen (15) work days annually."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "Research Assistants and Research Associates",
+     "quote": "Research Assistants and Research Associates shall receive paid sick leave for bona fide personal illness up to fifteen (15) work days annually."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own illness)",
+     "quote": "Research Assistants and Research Associates shall receive paid sick leave for bona fide personal illness up to fifteen (15) work days annually."
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "Research Assistants and Research Associates shall receive paid sick leave for bona fide personal illness up to fifteen (15) work days annually."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "15 workdays up_to",
+     "quote": "Research Assistants and Research Associates shall receive paid sick leave for bona fide personal illness up to fifteen (15) work days annually."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "paid",
+     "quote": "Research Assistants and Research Associates shall receive paid sick leave for bona fide personal illness up to fifteen (15) work days annually."
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "Reference date 2018-03-13. Sources: 2018_00_link (HR Faculty Medical Leave Guidelines); 2018_01 CBA 2017-2021; 2018_02 HR AAUP parental page; 2018_03 HR AAUP maternity page; 2018_04 By-Laws (rev. 2017-03-29); 2018_05 HR tenure-clock procedure.",
+  "Governing documents in force: the UConn-AAUP collective bargaining agreement 2017-2021 (covers Professor, Associate and Assistant Professor; excludes faculty of Medicine, Dental Medicine and Law) with Appendix B Faculty Medical Leave Guidelines, and the By-Laws approved 2017-03-29. The HR leave-type pages are summaries (undated, captured October 2017) and cite the 2007 contract's numbering (Art. 13.7, 19.IV.I, 24.2, 26.1) and By-Laws XIV.C.4 and XIV.L.4.",
+  "No paid parental leave: the CBA family leave (19.6.I) is unpaid, up to six months, with the University paying individual health insurance. The birth parent's paid time is the maternity (medically certified disability) period, generally 6 weeks (8 after a Caesarean), paid under the Faculty Medical Leave Guidelines (V1b, the UConn example in the rule).",
+  "Birth parent chain: maternity leave c2 (6-8 weeks, paid, within the Guidelines' paid medical leave c3) → CBA unpaid family leave c1 (up to 6 months); FMLA c7 alongside from the birth (concurrent_with c2, c3, c1); C.G.S. 46a-60 pregnancy-disability leave c9 alongside c2; C.G.S. 5-248a c8 alongside c1. Medical leave beyond the disability: c3 then the discretionary unpaid extension c4, capped at 2 years continuous (leave_limits).",
+  "Non-birth parent chain: CBA unpaid family leave c1 (up to 6 months) from the birth, with FMLA c7 and C.G.S. 5-248a c8 alongside; own sick leave may pay family FMLA (c6, within c7).",
+  "U8: the Guidelines' paid medical leave steps up with service; the two-year member is in the under-three-years band (six months paid, extension unpaid and discretionary). Longer bands add discretionary paid extensions (in c3 duration_note).",
+  "The SEBAC 2017 clause (CBA 19.6.I last paragraph) lets members use sick leave time to pay for family FMLA 'provided that change is made so that additional unpaid leave is not tacked on the end of FMLA leave'; its effect on the six-month family leave is not stated (flagged on c6). Tenure-stream faculty's sick-leave balances are not described in any source (By-Laws XIV.L.4: each case considered separately).",
+  "Cited but not saved: SEBAC 2017 Agreement; voluntary leave program 'as constituted between the parties in 1994' (CBA 19.6.J; terms unknown, not coded); Voluntary Schedule Reduction Program (CBA 19.10.B); C.G.S. 5-248a, 5-196(20), 46a-60(a)(7); Pregnancy Discrimination Act; Statewide Family and Medical Leave Policy; 'Understanding Family and Medical Leave (A primer for Connecticut State Employees)'; CBA child-care reimbursement guidelines (19.6.H); Provost's Guidelines on Promotion, Tenure, and Reappointment.",
+  "Not components: CBA 19.6.H child-care reimbursement pool ($160,000 a year; not leave, pay for absence, relief or protection); sabbatical leave (By-Laws XIV.L.1; for advancement of knowledge, not usable for a birth); military leave; CBA 16.7 union release.",
+  "Calendar: the documents state a semester calendar (fall and spring semesters) without a length → calendar.kind = semester, and the term length follows R8's order. No component is measured in semesters.",
+  "School of Medicine provisions (c13) are recorded with faculty_group naming the school (V3b); the Health Center faculty are outside the AAUP unit."
+ ],
+ "statutory_floor": {
+  "jurisdiction": "US",
+  "year": "2018",
+  "weeks_birth": 12.0,
+  "weeks_nonbirth": 12.0,
+  "statute": "Family and Medical Leave Act (FMLA) (29 U.S.C. 2611-2612)",
+  "source_doc": "2026_00_us_fmla_29usc2612",
+  "table": "statutory_baseline.csv"
+ }
+}

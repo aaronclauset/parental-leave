@@ -1,0 +1,2306 @@
+{
+ "institution": "Syracuse University",
+ "slug": "syracuse_university",
+ "country": "US",
+ "model": "claude-opus-5-5",
+ "codebook_version": "1.25",
+ "schema_version": "1.25",
+ "reference_date": "2018-02-24",
+ "calendar": {
+  "term_weeks": null,
+  "note": "semesters named ('fall semester leaves', 'spring semester leaves', Faculty Manual 2.55); length not stated → semester default (R8)",
+  "kind": "semester"
+ },
+ "documents": [
+  {
+   "doc_id": "2018_01_faculty_parental_leave_policy_2017",
+   "url": "http://supolicies.syr.edu/fac_teach/leave_parental.htm",
+   "title": "Syracuse University Policies: Leave, Faculty Parental (dated October 2000)",
+   "version_or_effective_date": "October 2000; capture 2017-01-27",
+   "retrieved": "2026-10-31T05:14:44+00:00"
+  },
+  {
+   "doc_id": "2018_02_faculty_manual_2_37_tenure_clock_flexibility",
+   "url": "http://provost.syr.edu/faculty-manual/2-37-tenure-clock-flexibility/",
+   "title": "Faculty Manual 2.37 Tenure Clock Flexibility (approved April 2008)",
+   "version_or_effective_date": "April 2008; capture 2018-05-19",
+   "retrieved": "2026-10-31T05:29:56+00:00"
+  },
+  {
+   "doc_id": "2018_03_faculty_manual_2_54_benefits",
+   "url": "http://provost.syr.edu/faculty-manual/2-54-benefits/",
+   "title": "Faculty Manual 2.54 Benefits (August 19, 2013)",
+   "version_or_effective_date": "August 19, 2013; capture 2017-09-08",
+   "retrieved": "2026-10-31T05:30:03+00:00"
+  },
+  {
+   "doc_id": "2018_04_faculty_manual_2_55_research_admin_leaves",
+   "url": "http://provost.syr.edu/faculty-manual/2-55-research-and-administrative-leaves-of-absence/",
+   "title": "Faculty Manual 2.55 Research and Administrative Leaves of Absence (August 19, 2013)",
+   "version_or_effective_date": "August 19, 2013 (future service revised 2/06); capture 2017-09-08",
+   "retrieved": "2026-10-31T05:30:11+00:00"
+  },
+  {
+   "doc_id": "2018_05_fmla_policy",
+   "url": "http://supolicies.syr.edu/emp_ben/fmla.htm",
+   "title": "Syracuse University Policies: Family and Medical Leave Act (FMLA), Compliance With (amended May 2011; dated February 2012)",
+   "version_or_effective_date": "Amended May 2011, February 2012; capture 2017-01-19",
+   "retrieved": "2026-10-31T05:30:18+00:00"
+  },
+  {
+   "doc_id": "2018_06_disability_benefits_policy",
+   "url": "http://supolicies.syr.edu/emp_ben/disability.htm",
+   "title": "Syracuse University Disability Benefits Policy (amended February 2012)",
+   "version_or_effective_date": "Amended February 2012; capture 2016-06-04",
+   "retrieved": "2026-10-31T05:30:25+00:00"
+  },
+  {
+   "doc_id": "2018_07_news_2017_12_07_ny_paid_family_leave_staff",
+   "url": "https://news.syr.edu/blog/2017/12/07/new-paid-leave-benefit-for-staff-effective-jan-1/",
+   "title": "SU News, 2017-12-07: New Paid Family Leave Benefit for Staff Effective Jan. 1",
+   "version_or_effective_date": "article dated 2017-12-07; capture 2019-07-18",
+   "retrieved": "2026-10-31T05:31:29+00:00"
+  }
+ ],
+ "missing": false,
+ "scope_accounting": {
+  "C1": {
+   "components": [
+    "syracuse_university_c4",
+    "syracuse_university_c5"
+   ]
+  },
+  "C2": {
+   "components": [
+    "syracuse_university_c3",
+    "syracuse_university_c6"
+   ]
+  },
+  "C3": {
+   "components": [
+    "syracuse_university_c7",
+    "syracuse_university_c8",
+    "syracuse_university_c9",
+    "syracuse_university_c10",
+    "syracuse_university_c12"
+   ]
+  },
+  "C4": {
+   "components": [
+    "syracuse_university_c10",
+    "syracuse_university_c11",
+    "syracuse_university_c14",
+    "syracuse_university_c15"
+   ],
+   "not_components": [
+    {
+     "statute": "FMLA military family leave (Qualifying Exigency Leave, Military Caregiver Leave; National Defense Authorization Act amendments)",
+     "reason": "U4: leave for a servicemember's family, unrelated to becoming a parent"
+    },
+    {
+     "statute": "Workers' Compensation Law of New York (workers' compensation for accidental injuries)",
+     "reason": "U4: covers injuries sustained in the course of employment, unrelated to becoming a parent (2.54; FMLA policy)"
+    },
+    {
+     "statute": "'applicable state disability laws' (FMLA policy)",
+     "reason": "the New York disability benefits law is coded as c10; no other state law is named"
+    }
+   ]
+  },
+  "C5": {
+   "components": [
+    "syracuse_university_c11",
+    "syracuse_university_c12"
+   ]
+  },
+  "C6": {
+   "components": [
+    "syracuse_university_c13"
+   ]
+  },
+  "C7": {
+   "components": [
+    "syracuse_university_c1",
+    "syracuse_university_c2"
+   ]
+  },
+  "C8": {
+   "absent": {
+    "documents": [
+     "2018_01_faculty_parental_leave_policy_2017",
+     "2018_02_faculty_manual_2_37_tenure_clock_flexibility",
+     "2018_03_faculty_manual_2_54_benefits",
+     "2018_04_faculty_manual_2_55_research_admin_leaves",
+     "2018_05_fmla_policy",
+     "2018_06_disability_benefits_policy",
+     "2018_07_news_2017_12_07_ny_paid_family_leave_staff"
+    ],
+    "terms": [
+     "part-time",
+     "part time",
+     "reduced appointment",
+     "reduced schedule",
+     "phased",
+     "fractional",
+     "half pay",
+     "partial salary"
+    ]
+   }
+  },
+  "C9": {
+   "absent": {
+    "documents": [
+     "2018_01_faculty_parental_leave_policy_2017",
+     "2018_02_faculty_manual_2_37_tenure_clock_flexibility",
+     "2018_03_faculty_manual_2_54_benefits",
+     "2018_04_faculty_manual_2_55_research_admin_leaves",
+     "2018_05_fmla_policy",
+     "2018_06_disability_benefits_policy",
+     "2018_07_news_2017_12_07_ny_paid_family_leave_staff"
+    ],
+    "terms": [
+     "accommodation",
+     "pregnan",
+     "hazard",
+     "transfer",
+     "alternative position",
+     "equal",
+     "discriminat",
+     "light duty"
+    ]
+   }
+  },
+  "C10": {
+   "absent": {
+    "documents": [
+     "2018_01_faculty_parental_leave_policy_2017",
+     "2018_02_faculty_manual_2_37_tenure_clock_flexibility",
+     "2018_03_faculty_manual_2_54_benefits",
+     "2018_04_faculty_manual_2_55_research_admin_leaves",
+     "2018_05_fmla_policy",
+     "2018_06_disability_benefits_policy",
+     "2018_07_news_2017_12_07_ny_paid_family_leave_staff"
+    ],
+    "terms": [
+     "first days",
+     "paid FMLA",
+     "regular work time",
+     "unless otherwise stated",
+     "paid sick days",
+     "FMLA leaves are unpaid"
+    ]
+   }
+  }
+ },
+ "passage_dispositions": {
+  "2018_01_faculty_parental_leave_policy_2017#001": {
+   "used_in": [
+    "syracuse_university_c1",
+    "syracuse_university_c3",
+    "syracuse_university_c4",
+    "syracuse_university_c5",
+    "syracuse_university_c6",
+    "syracuse_university_c7",
+    "syracuse_university_c8"
+   ]
+  },
+  "2018_02_faculty_manual_2_37_tenure_clock_flexibility#001": {
+   "used_in": [
+    "syracuse_university_c2"
+   ]
+  },
+  "2018_03_faculty_manual_2_54_benefits#001": {
+   "not_relevant": "Faculty Manual 2.54 index of benefit links (Disability Plan, Leave of Absence) to policies; Workers' Compensation for accidental injuries only (C4 not_components)"
+  },
+  "2018_04_faculty_manual_2_55_research_admin_leaves#001": {
+   "used_in": [
+    "syracuse_university_c13"
+   ]
+  },
+  "2018_04_faculty_manual_2_55_research_admin_leaves#002": {
+   "used_in": [
+    "syracuse_university_c13"
+   ]
+  },
+  "2018_05_fmla_policy#001": {
+   "not_relevant": "page header and navigation of the FMLA policy"
+  },
+  "2018_05_fmla_policy#002": {
+   "used_in": [
+    "syracuse_university_c11",
+    "syracuse_university_c12"
+   ]
+  },
+  "2018_05_fmla_policy#003": {
+   "not_relevant": "FMLA military family leave (qualifying exigency, military caregiver): not a parental purpose (C4 not_components)"
+  },
+  "2018_05_fmla_policy#004": {
+   "used_in": [
+    "syracuse_university_c11"
+   ]
+  },
+  "2018_06_disability_benefits_policy#001": {
+   "not_relevant": "page header and navigation of the Disability Benefits policy"
+  },
+  "2018_06_disability_benefits_policy#002": {
+   "used_in": [
+    "syracuse_university_c7",
+    "syracuse_university_c8",
+    "syracuse_university_c9",
+    "syracuse_university_c10"
+   ]
+  },
+  "2018_07_news_2017_12_07_ny_paid_family_leave_staff#001": {
+   "used_in": [
+    "syracuse_university_c13",
+    "syracuse_university_c14",
+    "syracuse_university_c15"
+   ]
+  }
+ },
+ "mechanism_slots": {
+  "employer_paid_leave": {
+   "components": [
+    "syracuse_university_c4"
+   ]
+  },
+  "employer_childbirth_benefit": {
+   "components": [
+    "syracuse_university_c5"
+   ]
+  },
+  "generic_sick_or_disability_plan": {
+   "components": [
+    "syracuse_university_c7",
+    "syracuse_university_c8",
+    "syracuse_university_c9",
+    "syracuse_university_c10"
+   ]
+  },
+  "own_accrual": {
+   "components": [
+    "syracuse_university_c12"
+   ]
+  },
+  "donated_leave": {
+   "absent": "searched all seven usable documents for 'donat', 'shared leave', 'leave bank', 'sick bank', 'catastrophic': none"
+  },
+  "government_benefit": {
+   "components": [
+    "syracuse_university_c14"
+   ]
+  },
+  "employer_topup": {
+   "absent": "searched all seven usable documents for 'top-up', 'supplement', 'difference between', 'integrat': none (the Disability Benefits Plan 'supplemental' benefits are for non-exempt staff and are a disability plan, not a top-up of a government benefit)"
+  },
+  "modified_duties": {
+   "components": [
+    "syracuse_university_c3",
+    "syracuse_university_c6"
+   ]
+  },
+  "unpaid_leave": {
+   "components": [
+    "syracuse_university_c11",
+    "syracuse_university_c13",
+    "syracuse_university_c15"
+   ]
+  },
+  "tenure_clock": {
+   "components": [
+    "syracuse_university_c1",
+    "syracuse_university_c2"
+   ]
+  },
+  "part_time_option": {
+   "absent": "searched all seven usable documents for 'part-time', 'reduced appointment', 'reduced schedule', 'half pay', 'phased': only the academic-year research leave at half pay (2.55), which is for scholarly purposes and not a component"
+  },
+  "other": {
+   "absent": "searched all seven usable documents for 'accommodation', 'pregnan', 'transfer', 'hazard', 'equal': no pregnancy accommodation or equal-treatment provision"
+  }
+ },
+ "baseline_accounting": {
+  "Family and Medical Leave Act (FMLA)": {
+   "components": [
+    "syracuse_university_c11"
+   ]
+  },
+  "Federal Employee Paid Leave Act (paid parental leave for federal civilian employees)": {
+   "not_applicable": "covers federal civilian employees only; Syracuse University is a private employer"
+  },
+  "Paid Family Leave (PFL)": {
+   "components": [
+    "syracuse_university_c14",
+    "syracuse_university_c15"
+   ]
+  },
+  "Disability Benefits Law (DBL)": {
+   "components": [
+    "syracuse_university_c10"
+   ]
+  },
+  "Paid prenatal leave": {
+   "not_applicable": "baseline row states it applies from 2025; not in force on the 2018-02-24 reference date, and no saved document mentions it"
+  }
+ },
+ "leave_limits": [],
+ "components": [
+  {
+   "component_id": "syracuse_university_c1",
+   "institution_label": "Extension of Tenure Probationary Period",
+   "description": "A full-time tenure-track (or tenured) faculty member who becomes a parent by childbirth or adoption during the first five credited years may extend the probationary period by one year; at most twice; request within 6 months of the birth or adoption.",
+   "mechanism": "tenure_clock",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "A full-time tenured or tenure-track faculty member who becomes a parent",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "a faculty member who becomes a parent (through childbirth or adoption of a child under the age of 7)",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "Listed under 'Entitlements for Faculty who become Parents' with the stated 'Benefit'; the request passes chair, dean and Vice Chancellor ('If the chair concurs', 'If the dean concurs'). Read as approval of the request (V2), flagged ambiguous because the concurrence steps could be read as deciding whether the extension is granted.",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "exact"
+   },
+   "time_window": "becoming a parent during the first five years credited towards tenure; request within the first 6 months of birth or adoption; not permitted once the sixth credited year has begun; adopted child under the age of 7",
+   "use_limit": [
+    {
+     "times": 2,
+     "per": "career",
+     "counts": "uses"
+    }
+   ],
+   "use_limit_note": "no more than twice for becoming a parent (multiple births or adoptions are a single occasion); the Faculty Manual allows faculty exercising Family and Medical Leave rights to exceed this limitation",
+   "notice": "request within the first 6 months of birth or adoption",
+   "rule_applied": [
+    "V2",
+    "U9",
+    "U1",
+    "R13"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "A full-time tenured or tenure-track faculty member who becomes a parent (through childbirth or adoption of a child under the age of 7) during the first five years credited towards tenure."
+    ],
+    "eligible_parent": [
+     "A full-time tenured or tenure-track faculty member who becomes a parent (through childbirth or adoption of a child under the age of 7) during the first five years credited towards tenure."
+    ],
+    "entitlement": [
+     "Entitlements for Faculty who become Parents",
+     "Extension of the pre-tenure probationary period by one year.",
+     "If the dean concurs, s/he will sign the request and forward it to the Vice Chancellor."
+    ],
+    "duration": [
+     "Extension of the pre-tenure probationary period by one year."
+    ],
+    "use_limit": [
+     "A faculty member may exercise this privilege no more than twice for becoming a parent (multiple births or adoptions are considered a single occasion of becoming a parent).",
+     "According to the terms of the Faculty Manual, faculty members exercising their right to Family and Medical Leave may exceed this limitation."
+    ],
+    "time_window": [
+     "The faculty member must request the extension within the first 6 months of birth or adoption.",
+     "Once the sixth credited year towards tenure has begun, extension of the tenure probation period is not permitted."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_faculty_parental_leave_policy_2017"
+   ],
+   "flags": [
+    "ambiguous: entitlement: the policy lists the extension under 'Entitlements' but each step of the procedure is conditioned on concurrence ('If the chair concurs', 'If the dean concurs')",
+    "cross_reference_not_saved: Faculty Manual terms on exceeding the limit for faculty exercising Family and Medical Leave rights"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "Extension of the pre-tenure probationary period by one year."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Extension of the pre-tenure probationary period by one year."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "A full-time tenured or tenure-track faculty member who becomes a parent (through childbirth or adoption of a child under the age of 7) during the first five years credited towards tenure."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "A full-time tenured or tenure-track faculty member who becomes a parent (through childbirth or adoption of a child under the age of 7) during the first five years credited towards tenure."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent: role-neutral 'becomes a parent' through childbirth or adoption",
+     "quote": "A full-time tenured or tenure-track faculty member who becomes a parent (through childbirth or adoption of a child under the age of 7) during the first five years credited towards tenure."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "Entitlements for Faculty who become Parents"
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 year, exact",
+     "quote": "Extension of the pre-tenure probationary period by one year."
+    },
+    {
+     "field": "use_limit",
+     "rule": "U9",
+     "answer": "twice per career, counted in occasions (uses)",
+     "quote": "A faculty member may exercise this privilege no more than twice for becoming a parent (multiple births or adoptions are considered a single occasion of becoming a parent)."
+    }
+   ]
+  },
+  {
+   "component_id": "syracuse_university_c2",
+   "institution_label": "2.37 Tenure Clock Flexibility",
+   "description": "Faculty Manual 2.37: the tenure clock may be stopped, on request approved by the Provost, for life events that would generate a request for parental, maternity, family medical, military or disability leave, and for extraordinary institutional service.",
+   "mechanism": "tenure_clock",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "faculty member on a full-time tenure-track appointment (probationary period)",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "life events that would ... have generated a request for parental, maternity, family medical ... leave",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "entitlement_note": "'can be stopped when the request is ... approved by the Office of the Provost': the approval decides whether the clock stops (V2). 'Events for which the clock may normally be stopped' describes the qualifying events, not a statement that requests are normally granted (V2d not applied).",
+   "duration_note": "No fixed length: 'one or more semesters' of disruption; 'The year(s) approved ... will not count as credited years toward tenure'.",
+   "time_window": "during the probationary period",
+   "rule_applied": [
+    "U1",
+    "V2"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "The term “credited year” means a year of service at Syracuse University identified in the faculty member’s appointment letter as a full-time tenure-track appointment."
+    ],
+    "eligible_parent": [
+     "Events for which the clock may normally be stopped, after the submission of documentation, include life events that would, in most circumstances, have generated a request for parental, maternity, family medical, military or disability leave, disrupting one or more semesters of work during the probationary period."
+    ],
+    "entitlement": [
+     "Under certain circumstances, the tenure clock can be stopped when the request is made by the faculty member through the department and/or school/college and approved by the Office of the Provost."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_faculty_manual_2_37_tenure_clock_flexibility"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "Under certain circumstances, the tenure clock can be stopped when the request is made by the faculty member through the department and/or school/college and approved by the Office of the Provost."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Under certain circumstances, the tenure clock can be stopped when the request is made by the faculty member through the department and/or school/college and approved by the Office of the Provost."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "Other situations that may warrant consideration of stopping the tenure clock include fulfillment of extraordinary institutional service, such as teaching in SU Abroad or serving in an administrative position during the probationary period, where these circumstances interrupt or substantially slow progress toward tenure."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "The term “credited year” means a year of service at Syracuse University identified in the faculty member’s appointment letter as a full-time tenure-track appointment."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent: parental and maternity leave events",
+     "quote": "Events for which the clock may normally be stopped, after the submission of documentation, include life events that would, in most circumstances, have generated a request for parental, maternity, family medical, military or disability leave, disrupting one or more semesters of work during the probationary period."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "Under certain circumstances, the tenure clock can be stopped when the request is made by the faculty member through the department and/or school/college and approved by the Office of the Provost."
+    }
+   ]
+  },
+  {
+   "component_id": "syracuse_university_c3",
+   "institution_label": "Parental Leave",
+   "description": "Parental leave option (a): for the primary caregiver, a 50% reduction of work load in a semester, including up to one course relief, without reduction of salary; an alternative to option (b).",
+   "mechanism": "modified_duties",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "A full-time tenured or tenure-track faculty member (policy scope: Faculty)",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "A full-time tenured or tenure-track faculty member who becomes a parent (through childbirth or adoption of a child younger than 7 years of age)",
+   "caregiver_condition": "primary",
+   "caregiver_condition_wording": "will be the person most responsible for the child's care or will spend the most time caring for the child",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "'Parental leave shall consist of either' the two options; the chair or dean and the faculty member agree only the semester (arrangements): V2.",
+   "duration": {
+    "value": 0.5,
+    "units": "semester",
+    "qualifier": "exact"
+   },
+   "duration_note": "Coded by the amount of relief (R3c): a 50% reduction of work load across one semester = half a semester of relief; the span (one semester) is in relief_note.",
+   "pay_fraction": "without reduction of salary",
+   "relief": {
+    "teaching": "partially_relieved",
+    "service_admin": "continues",
+    "research": "continues",
+    "advising_supervision": "continues",
+    "clinical": "continues"
+   },
+   "relief_inferred": "unnamed duties continue (R4b)",
+   "relief_note": "a reduction of work load in a semester by 50%, including up to one course relief; spread over one semester. Only course relief is named; how the 50% work-load reduction falls on other duties is not stated.",
+   "time_window": "must begin within 12 months of the birth or adoption; adopted child younger than 7",
+   "dual_employee_rule": "If both parents are tenured or tenure-track faculty, they may each receive parental leave during different semesters",
+   "notice": "request should be made 5 months in advance of the expected birth or adoption date (or as soon as the arrival date is known)",
+   "sequence": [
+    {
+     "relation": "in_lieu_of",
+     "component_id": "syracuse_university_c4",
+     "note": "Parental leave 'shall consist of either' option (a) or option (b)"
+    },
+    {
+     "relation": "in_lieu_of",
+     "component_id": "syracuse_university_c6",
+     "note": "for a birth parent whose disability extends at least 4 weeks into the semester, the combination of maternity and parental leave gives the full-semester release in place of the separate parental-leave options"
+    },
+    {
+     "relation": "also_available",
+     "component_id": "syracuse_university_c5",
+     "note": "the policy gives maternity leave and parental leave to a birth parent without stating their order"
+    }
+   ],
+   "rule_applied": [
+    "R3c",
+    "R4b",
+    "R3",
+    "R3d",
+    "V2",
+    "V4",
+    "R6",
+    "R15b"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "A full-time tenured or tenure-track faculty member who becomes a parent (through childbirth or adoption of a child younger than 7 years of age) and who, during the period of the requested leave, will be the person most responsible for the child's care or will spend the most time caring for the child."
+    ],
+    "eligible_parent": [
+     "A full-time tenured or tenure-track faculty member who becomes a parent (through childbirth or adoption of a child younger than 7 years of age) and who, during the period of the requested leave, will be the person most responsible for the child's care or will spend the most time caring for the child."
+    ],
+    "caregiver_condition": [
+     "A full-time tenured or tenure-track faculty member who becomes a parent (through childbirth or adoption of a child younger than 7 years of age) and who, during the period of the requested leave, will be the person most responsible for the child's care or will spend the most time caring for the child.",
+     "The dean and chair sign the Faculty Parental Leave form, certifying the faculty member's primary caregiver status and agreeing to the terms of the leave."
+    ],
+    "entitlement": [
+     "A parental leave without reduction of salary. Parental leave shall consist of either:",
+     "The individual requesting leave and the department chair or dean must agree upon the semester."
+    ],
+    "duration": [
+     "a reduction of work load in a semester by 50%, including up to one course relief, or"
+    ],
+    "pay_fraction": [
+     "A parental leave without reduction of salary. Parental leave shall consist of either:"
+    ],
+    "relief": [
+     "a reduction of work load in a semester by 50%, including up to one course relief, or"
+    ],
+    "sequence": [
+     "A parental leave without reduction of salary. Parental leave shall consist of either:",
+     "a reduction of work load in a semester by 50%, including up to one course relief, or",
+     "up to one half of a semester without formal duties.",
+     "The combination of maternity and parental leave results in a full semester's release from teaching duties at full pay."
+    ],
+    "time_window": [
+     "A parental leave must begin within 12 months of the birth or adoption."
+    ],
+    "dual_employee_rule": [
+     "If both the parents are tenured or tenure-track faculty members, they may each receive parental leave during different semesters."
+    ],
+    "notice": [
+     "The request should be made 5 months in advance of the expected birth or adoption date."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_faculty_parental_leave_policy_2017"
+   ],
+   "flags": [
+    "ambiguous: relief: a 50% reduction of 'work load' with only course relief named; other duties coded continues under R4b",
+    "cross_reference_not_saved: Faculty Parental Leave form"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "modified_duties",
+     "quote": "a reduction of work load in a semester by 50%, including up to one course relief, or"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "A parental leave without reduction of salary. Parental leave shall consist of either:"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "A full-time tenured or tenure-track faculty member who becomes a parent (through childbirth or adoption of a child younger than 7 years of age) and who, during the period of the requested leave, will be the person most responsible for the child's care or will spend the most time caring for the child."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "A full-time tenured or tenure-track faculty member who becomes a parent (through childbirth or adoption of a child younger than 7 years of age) and who, during the period of the requested leave, will be the person most responsible for the child's care or will spend the most time caring for the child."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R6",
+     "answer": "any_parent: role-neutral wording",
+     "quote": "A full-time tenured or tenure-track faculty member who becomes a parent (through childbirth or adoption of a child younger than 7 years of age) and who, during the period of the requested leave, will be the person most responsible for the child's care or will spend the most time caring for the child."
+    },
+    {
+     "field": "caregiver_condition",
+     "rule": "R6",
+     "answer": "primary",
+     "quote": "A full-time tenured or tenure-track faculty member who becomes a parent (through childbirth or adoption of a child younger than 7 years of age) and who, during the period of the requested leave, will be the person most responsible for the child's care or will spend the most time caring for the child."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "The individual requesting leave and the department chair or dean must agree upon the semester."
+    },
+    {
+     "field": "duration",
+     "rule": "R3c",
+     "answer": "0.5 semester (50% relief over one semester), exact",
+     "quote": "a reduction of work load in a semester by 50%, including up to one course relief, or"
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "R3",
+     "answer": "without reduction of salary (full pay)",
+     "quote": "A parental leave without reduction of salary. Parental leave shall consist of either:"
+    },
+    {
+     "field": "relief",
+     "rule": "R4b",
+     "answer": "teaching partially_relieved; unnamed duties continue",
+     "quote": "a reduction of work load in a semester by 50%, including up to one course relief, or"
+    },
+    {
+     "field": "sequence",
+     "rule": "R3c",
+     "answer": "in_lieu_of c4 (either-or options)",
+     "quote": "A parental leave without reduction of salary. Parental leave shall consist of either:"
+    },
+    {
+     "field": "sequence",
+     "rule": "R15b",
+     "answer": "in_lieu_of c6 (the combined semester release replaces the separate parental-leave options for a qualifying birth parent)",
+     "quote": "The combination of maternity and parental leave results in a full semester's release from teaching duties at full pay."
+    },
+    {
+     "field": "sequence",
+     "rule": "R3d",
+     "answer": "also_available with c5 (no order stated)",
+     "quote": "A parental leave without reduction of salary. Parental leave shall consist of either:"
+    },
+    {
+     "field": "duration.qualifier",
+     "rule": "R13",
+     "answer": "'up to' bounds the number of courses relieved, not the length; the reduction is stated for a semester",
+     "quote": "a reduction of work load in a semester by 50%"
+    }
+   ]
+  },
+  {
+   "component_id": "syracuse_university_c4",
+   "institution_label": "Parental Leave",
+   "description": "Parental leave option (b): for the primary caregiver, up to one half of a semester without formal duties, without reduction of salary; an alternative to option (a).",
+   "mechanism": "employer_paid_leave",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "A full-time tenured or tenure-track faculty member (policy scope: Faculty)",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "A full-time tenured or tenure-track faculty member who becomes a parent (through childbirth or adoption of a child younger than 7 years of age)",
+   "caregiver_condition": "primary",
+   "caregiver_condition_wording": "will be the person most responsible for the child's care or will spend the most time caring for the child",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "'Parental leave shall consist of either' the two options; the chair or dean and the faculty member agree the semester, an arrangement: V2.",
+   "duration": {
+    "value": 0.5,
+    "units": "semester",
+    "qualifier": "up_to"
+   },
+   "pay_fraction": "without reduction of salary",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_note": "without formal duties",
+   "time_window": "must begin within 12 months of the birth or adoption; adopted child younger than 7",
+   "dual_employee_rule": "If both parents are tenured or tenure-track faculty, they may each receive parental leave during different semesters",
+   "notice": "request should be made 5 months in advance of the expected birth or adoption date (or as soon as the arrival date is known)",
+   "sequence": [
+    {
+     "relation": "in_lieu_of",
+     "component_id": "syracuse_university_c3",
+     "note": "Parental leave 'shall consist of either' option (a) or option (b)"
+    },
+    {
+     "relation": "in_lieu_of",
+     "component_id": "syracuse_university_c6",
+     "note": "for a birth parent whose disability extends at least 4 weeks into the semester, the combination gives the full-semester release in place of the separate parental-leave options"
+    },
+    {
+     "relation": "also_available",
+     "component_id": "syracuse_university_c5",
+     "note": "the policy gives maternity leave and parental leave to a birth parent without stating their order"
+    }
+   ],
+   "rule_applied": [
+    "R3c",
+    "V2",
+    "V4",
+    "R6",
+    "R15b",
+    "R13"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "A full-time tenured or tenure-track faculty member who becomes a parent (through childbirth or adoption of a child younger than 7 years of age) and who, during the period of the requested leave, will be the person most responsible for the child's care or will spend the most time caring for the child."
+    ],
+    "eligible_parent": [
+     "A full-time tenured or tenure-track faculty member who becomes a parent (through childbirth or adoption of a child younger than 7 years of age) and who, during the period of the requested leave, will be the person most responsible for the child's care or will spend the most time caring for the child."
+    ],
+    "caregiver_condition": [
+     "A full-time tenured or tenure-track faculty member who becomes a parent (through childbirth or adoption of a child younger than 7 years of age) and who, during the period of the requested leave, will be the person most responsible for the child's care or will spend the most time caring for the child.",
+     "The dean and chair sign the Faculty Parental Leave form, certifying the faculty member's primary caregiver status and agreeing to the terms of the leave."
+    ],
+    "entitlement": [
+     "A parental leave without reduction of salary. Parental leave shall consist of either:",
+     "The individual requesting leave and the department chair or dean must agree upon the semester."
+    ],
+    "duration": [
+     "up to one half of a semester without formal duties."
+    ],
+    "pay_fraction": [
+     "A parental leave without reduction of salary. Parental leave shall consist of either:"
+    ],
+    "relief": [
+     "up to one half of a semester without formal duties."
+    ],
+    "sequence": [
+     "A parental leave without reduction of salary. Parental leave shall consist of either:",
+     "a reduction of work load in a semester by 50%, including up to one course relief, or",
+     "up to one half of a semester without formal duties.",
+     "The combination of maternity and parental leave results in a full semester's release from teaching duties at full pay."
+    ],
+    "time_window": [
+     "A parental leave must begin within 12 months of the birth or adoption."
+    ],
+    "dual_employee_rule": [
+     "If both the parents are tenured or tenure-track faculty members, they may each receive parental leave during different semesters."
+    ],
+    "notice": [
+     "The request should be made 5 months in advance of the expected birth or adoption date."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_faculty_parental_leave_policy_2017"
+   ],
+   "flags": [
+    "cross_reference_not_saved: Faculty Parental Leave form"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "employer_paid_leave",
+     "quote": "up to one half of a semester without formal duties."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "A parental leave without reduction of salary. Parental leave shall consist of either:"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "A full-time tenured or tenure-track faculty member who becomes a parent (through childbirth or adoption of a child younger than 7 years of age) and who, during the period of the requested leave, will be the person most responsible for the child's care or will spend the most time caring for the child."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "A full-time tenured or tenure-track faculty member who becomes a parent (through childbirth or adoption of a child younger than 7 years of age) and who, during the period of the requested leave, will be the person most responsible for the child's care or will spend the most time caring for the child."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R6",
+     "answer": "any_parent: role-neutral wording",
+     "quote": "A full-time tenured or tenure-track faculty member who becomes a parent (through childbirth or adoption of a child younger than 7 years of age) and who, during the period of the requested leave, will be the person most responsible for the child's care or will spend the most time caring for the child."
+    },
+    {
+     "field": "caregiver_condition",
+     "rule": "R6",
+     "answer": "primary",
+     "quote": "A full-time tenured or tenure-track faculty member who becomes a parent (through childbirth or adoption of a child younger than 7 years of age) and who, during the period of the requested leave, will be the person most responsible for the child's care or will spend the most time caring for the child."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "The individual requesting leave and the department chair or dean must agree upon the semester."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "0.5 semester, up_to",
+     "quote": "up to one half of a semester without formal duties."
+    },
+    {
+     "field": "relief",
+     "rule": "schema",
+     "answer": "all duties relieved ('without formal duties')",
+     "quote": "up to one half of a semester without formal duties."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "without reduction of salary (full pay)",
+     "quote": "A parental leave without reduction of salary. Parental leave shall consist of either:"
+    },
+    {
+     "field": "sequence",
+     "rule": "R3c",
+     "answer": "in_lieu_of c3 (either-or options)",
+     "quote": "A parental leave without reduction of salary. Parental leave shall consist of either:"
+    },
+    {
+     "field": "sequence",
+     "rule": "R15b",
+     "answer": "in_lieu_of c6",
+     "quote": "The combination of maternity and parental leave results in a full semester's release from teaching duties at full pay."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "also_available with c5 (no order stated)",
+     "quote": "A parental leave without reduction of salary. Parental leave shall consist of either:"
+    }
+   ]
+  },
+  {
+   "component_id": "syracuse_university_c5",
+   "institution_label": "Maternity Leave",
+   "description": "Maternity leave for a faculty member medically disabled by childbirth: the disability period, normally six to eight weeks, at full pay under the salary continuation plan.",
+   "mechanism": "employer_childbirth_benefit",
+   "mechanism_note": "V1: a childbirth-specific period (maternity leave for disability due to childbirth), a length ('normally ... between six and eight weeks') and a pay level (full pay for the first 16 weeks of disability) are all stated.",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Faculty (policy scope); 'the faculty member will receive full pay'",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "A woman who, due to childbirth, receives a declaration of medical disability",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 6,
+    "units": "week",
+    "qualifier": "at_least"
+   },
+   "duration_max": {
+    "value": 8,
+    "units": "week"
+   },
+   "duration_note": "'normally will extend between six and eight weeks' (R13b: lower value at_least, upper in duration_max; 'normally' kept here). The disability may last longer; pay then continues under the salary continuation plan (c7, c8).",
+   "duration_variants": "the period of certified medical disability: normally 6 to 8 weeks",
+   "pay_fraction": "full pay",
+   "medical_certification": true,
+   "medical_certification_note": "declaration of medical disability from the doctor or midwife, including the dates of disability",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "notice": "notify department chair or dean and Human Resources in writing five months in advance of the expected birth date (or as soon as aware)",
+   "sequence": [
+    {
+     "relation": "within",
+     "component_id": "syracuse_university_c6",
+     "note": "where the disability extends at least 4 weeks into the semester, the combination of maternity and parental leave gives a full semester's release that contains the maternity leave (R3b)"
+    }
+   ],
+   "rule_applied": [
+    "V1",
+    "R2",
+    "R13b",
+    "R9",
+    "R3b"
+   ],
+   "evidence": {
+    "mechanism": [
+     "It is anticipated that the period of medical disability normally will extend between six and eight weeks.",
+     "As defined in the University's salary continuation plan, during the first 16 weeks of disability, the faculty member will receive full pay."
+    ],
+    "faculty_group": [
+     "As defined in the University's salary continuation plan, during the first 16 weeks of disability, the faculty member will receive full pay."
+    ],
+    "eligible_parent": [
+     "A woman who, due to childbirth, receives a declaration of medical disability from her doctor or midwife."
+    ],
+    "entitlement": [
+     "As defined in the University's salary continuation plan, during the first 16 weeks of disability, the faculty member will receive full pay."
+    ],
+    "duration": [
+     "It is anticipated that the period of medical disability normally will extend between six and eight weeks."
+    ],
+    "pay_fraction": [
+     "As defined in the University's salary continuation plan, during the first 16 weeks of disability, the faculty member will receive full pay."
+    ],
+    "medical_certification": [
+     "Requires a declaration of medical disability from the doctor or midwife, which includes the dates of disability."
+    ],
+    "sequence": [
+     "A woman who, due to childbirth, receives a declaration of medical disability from her doctor or midwife which extends at least 4 weeks into the semester.",
+     "The combination of maternity and parental leave results in a full semester's release from teaching duties at full pay."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_faculty_parental_leave_policy_2017"
+   ],
+   "flags": [
+    "cross_reference_not_saved: Salary Continuation Plan (plan document)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "V1",
+     "answer": "employer_childbirth_benefit",
+     "quote": "It is anticipated that the period of medical disability normally will extend between six and eight weeks."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "As defined in the University's salary continuation plan, during the first 16 weeks of disability, the faculty member will receive full pay."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "A woman who, due to childbirth, receives a declaration of medical disability from her doctor or midwife."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "As defined in the University's salary continuation plan, during the first 16 weeks of disability, the faculty member will receive full pay."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "birth_parent",
+     "quote": "A woman who, due to childbirth, receives a declaration of medical disability from her doctor or midwife."
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "As defined in the University's salary continuation plan, during the first 16 weeks of disability, the faculty member will receive full pay."
+    },
+    {
+     "field": "duration",
+     "rule": "R13b",
+     "answer": "6 weeks at_least, max 8",
+     "quote": "It is anticipated that the period of medical disability normally will extend between six and eight weeks."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "V1",
+     "answer": "full pay",
+     "quote": "As defined in the University's salary continuation plan, during the first 16 weeks of disability, the faculty member will receive full pay."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave, relief not stated)",
+     "quote": "A woman who, due to childbirth, receives a declaration of medical disability from her doctor or midwife."
+    },
+    {
+     "field": "sequence",
+     "rule": "R3b",
+     "answer": "within c6 (semester release contains the maternity leave)",
+     "quote": "The combination of maternity and parental leave results in a full semester's release from teaching duties at full pay."
+    }
+   ]
+  },
+  {
+   "component_id": "syracuse_university_c6",
+   "institution_label": "Combination of Maternity and Parental Leaves",
+   "description": "For a birth parent whose childbirth disability extends at least 4 weeks into the semester and who is certified as primary caregiver, maternity and parental leave combine into a full semester's release from teaching duties at full pay.",
+   "mechanism": "modified_duties",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Faculty (policy scope); a woman faculty member with a Faculty Parental Leave form",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "A woman who, due to childbirth, receives a declaration of medical disability",
+   "caregiver_condition": "primary",
+   "caregiver_condition_wording": "certifying her primary caregiver status",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "'results in a full semester's release ... at full pay'; the chair and dean sign the form 'certifying her primary caregiver status and agreeing to the terms of the leave' (arrangements): V2.",
+   "duration": {
+    "value": 1,
+    "units": "semester",
+    "qualifier": "exact"
+   },
+   "pay_fraction": "full pay",
+   "medical_certification": true,
+   "medical_certification_note": "declaration of medical disability from the doctor or midwife, including dates of disability, extending at least 4 weeks into the semester",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "continues",
+    "research": "continues",
+    "advising_supervision": "continues",
+    "clinical": "continues"
+   },
+   "relief_inferred": "unnamed duties continue (R4b)",
+   "relief_note": "a full semester's release from teaching duties; the maternity leave (all duties) lies within it",
+   "time_window": "the medical disability due to childbirth extends at least 4 weeks into the semester",
+   "notice": "notify chair or dean and Human Resources in writing five months in advance of the expected birth date (or within five weeks of learning it)",
+   "rule_applied": [
+    "R3b",
+    "R4",
+    "R4b",
+    "V2",
+    "R6",
+    "R15b"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "The combination of maternity and parental leave results in a full semester's release from teaching duties at full pay."
+    ],
+    "eligible_parent": [
+     "A woman who, due to childbirth, receives a declaration of medical disability from her doctor or midwife which extends at least 4 weeks into the semester."
+    ],
+    "caregiver_condition": [
+     "obtaining the dean and department chair's signature certifying her primary caregiver status and agreeing to the terms of the leave."
+    ],
+    "entitlement": [
+     "The combination of maternity and parental leave results in a full semester's release from teaching duties at full pay.",
+     "obtaining the dean and department chair's signature certifying her primary caregiver status and agreeing to the terms of the leave."
+    ],
+    "duration": [
+     "The combination of maternity and parental leave results in a full semester's release from teaching duties at full pay."
+    ],
+    "pay_fraction": [
+     "The combination of maternity and parental leave results in a full semester's release from teaching duties at full pay."
+    ],
+    "relief": [
+     "The combination of maternity and parental leave results in a full semester's release from teaching duties at full pay."
+    ],
+    "time_window": [
+     "A woman who, due to childbirth, receives a declaration of medical disability from her doctor or midwife which extends at least 4 weeks into the semester."
+    ],
+    "medical_certification": [
+     "Requires a declaration of medical disability from the doctor or midwife, which includes dates of disability and a completed \"Faculty Parental Leave\" form with signed approval by department chair and dean."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_faculty_parental_leave_policy_2017"
+   ],
+   "flags": [
+    "cross_reference_not_saved: Faculty Parental Leave form"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R4",
+     "answer": "modified_duties",
+     "quote": "The combination of maternity and parental leave results in a full semester's release from teaching duties at full pay."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "The combination of maternity and parental leave results in a full semester's release from teaching duties at full pay."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "A woman who, due to childbirth, receives a declaration of medical disability from her doctor or midwife which extends at least 4 weeks into the semester."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "The combination of maternity and parental leave results in a full semester's release from teaching duties at full pay."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "birth_parent",
+     "quote": "A woman who, due to childbirth, receives a declaration of medical disability from her doctor or midwife which extends at least 4 weeks into the semester."
+    },
+    {
+     "field": "caregiver_condition",
+     "rule": "R6",
+     "answer": "primary",
+     "quote": "obtaining the dean and department chair's signature certifying her primary caregiver status and agreeing to the terms of the leave."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "obtaining the dean and department chair's signature certifying her primary caregiver status and agreeing to the terms of the leave."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 semester, exact",
+     "quote": "The combination of maternity and parental leave results in a full semester's release from teaching duties at full pay."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "full pay",
+     "quote": "The combination of maternity and parental leave results in a full semester's release from teaching duties at full pay."
+    },
+    {
+     "field": "relief",
+     "rule": "R4b",
+     "answer": "teaching relieved; unnamed duties continue",
+     "quote": "The combination of maternity and parental leave results in a full semester's release from teaching duties at full pay."
+    }
+   ]
+  },
+  {
+   "component_id": "syracuse_university_c7",
+   "institution_label": "Salary Continuation Plan",
+   "description": "The University's Salary Continuation Plan for benefits-eligible faculty and exempt staff: short-term disability pay, including maternity; full pay for the first 16 weeks of disability.",
+   "mechanism": "generic_sick_or_disability_plan",
+   "mechanism_note": "A general short-term disability plan; its childbirth application is coded separately as the maternity benefit (c5, V1).",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Benefits Eligible faculty and exempt staff",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "qualifying short-term disabilities, including maternity leaves",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 16,
+    "units": "week",
+    "qualifier": "exact"
+   },
+   "duration_note": "first 16 weeks of disability at full pay; then 10 weeks at 60% (c8). Plan requirements are not stated in the saved documents.",
+   "pay_fraction": "full pay",
+   "service_requirement": "Benefits Eligible; other plan requirements not stated (plan document not saved)",
+   "medical_certification": true,
+   "medical_certification_note": "qualifying disability (for childbirth, a declaration of medical disability)",
+   "sequence": [
+    {
+     "relation": "concurrent_with",
+     "component_id": "syracuse_university_c5",
+     "note": "the maternity leave's pay is defined by this plan; both start with the disability"
+    }
+   ],
+   "rule_applied": [
+    "V1",
+    "V6",
+    "R2",
+    "U5",
+    "U6"
+   ],
+   "evidence": {
+    "mechanism": [
+     "The University's Salary Continuation Plan for Benefits Eligible faculty and exempt staff provides benefits for qualifying short-term disabilities, including maternity leaves, and long-term disabilities."
+    ],
+    "faculty_group": [
+     "The University's Salary Continuation Plan for Benefits Eligible faculty and exempt staff provides benefits for qualifying short-term disabilities, including maternity leaves, and long-term disabilities."
+    ],
+    "eligible_parent": [
+     "The University's Salary Continuation Plan for Benefits Eligible faculty and exempt staff provides benefits for qualifying short-term disabilities, including maternity leaves, and long-term disabilities."
+    ],
+    "entitlement": [
+     "The University's Salary Continuation Plan for Benefits Eligible faculty and exempt staff provides benefits for qualifying short-term disabilities, including maternity leaves, and long-term disabilities.",
+     "As defined in the University's salary continuation plan, during the first 16 weeks of disability, the faculty member will receive full pay."
+    ],
+    "duration": [
+     "As defined in the University's salary continuation plan, during the first 16 weeks of disability, the faculty member will receive full pay."
+    ],
+    "pay_fraction": [
+     "As defined in the University's salary continuation plan, during the first 16 weeks of disability, the faculty member will receive full pay."
+    ],
+    "service_requirement": [
+     "The Salary Continuation Plan has requirements that must be satisfied in order to receive benefits."
+    ],
+    "sequence": [
+     "As defined in the University's salary continuation plan, during the first 16 weeks of disability, the faculty member will receive full pay."
+    ]
+   },
+   "doc_ids": [
+    "2018_06_disability_benefits_policy",
+    "2018_01_faculty_parental_leave_policy_2017"
+   ],
+   "flags": [
+    "cross_reference_not_saved: Salary Continuation Plan (plan document)",
+    "cross_reference_not_saved: Disability Benefits and the Salary Continuation Plan"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R2",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "The University's Salary Continuation Plan for Benefits Eligible faculty and exempt staff provides benefits for qualifying short-term disabilities, including maternity leaves, and long-term disabilities."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "The University's Salary Continuation Plan for Benefits Eligible faculty and exempt staff provides benefits for qualifying short-term disabilities, including maternity leaves, and long-term disabilities."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "The University's Salary Continuation Plan for Benefits Eligible faculty and exempt staff provides benefits for qualifying short-term disabilities, including maternity leaves, and long-term disabilities."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "The University's Salary Continuation Plan for Benefits Eligible faculty and exempt staff provides benefits for qualifying short-term disabilities, including maternity leaves, and long-term disabilities."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own disability)",
+     "quote": "The University's Salary Continuation Plan for Benefits Eligible faculty and exempt staff provides benefits for qualifying short-term disabilities, including maternity leaves, and long-term disabilities."
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "As defined in the University's salary continuation plan, during the first 16 weeks of disability, the faculty member will receive full pay."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "16 weeks, exact",
+     "quote": "As defined in the University's salary continuation plan, during the first 16 weeks of disability, the faculty member will receive full pay."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "full pay",
+     "quote": "As defined in the University's salary continuation plan, during the first 16 weeks of disability, the faculty member will receive full pay."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "plan requirements not stated",
+     "quote": "The Salary Continuation Plan has requirements that must be satisfied in order to receive benefits."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "concurrent_with c5 (same disability period, counted once)",
+     "quote": "As defined in the University's salary continuation plan, during the first 16 weeks of disability, the faculty member will receive full pay."
+    }
+   ]
+  },
+  {
+   "component_id": "syracuse_university_c8",
+   "institution_label": "Salary Continuation Plan",
+   "description": "Second stage of the Salary Continuation Plan's short-term benefit: 60% of base regular pay for the next 10 weeks of disability after the first 16.",
+   "mechanism": "generic_sick_or_disability_plan",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Benefits Eligible faculty and exempt staff",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "qualifying short-term disabilities, including maternity leaves",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 10,
+    "units": "week",
+    "qualifier": "exact"
+   },
+   "pay_fraction": "60% of base regular pay",
+   "service_requirement": "Benefits Eligible; other plan requirements not stated (plan document not saved)",
+   "medical_certification": true,
+   "medical_certification_note": "continuing qualifying disability",
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "syracuse_university_c7",
+     "note": "'For the next 10 weeks of disability'"
+    }
+   ],
+   "rule_applied": [
+    "V6",
+    "R2",
+    "U5",
+    "V4"
+   ],
+   "evidence": {
+    "mechanism": [
+     "The University's Salary Continuation Plan for Benefits Eligible faculty and exempt staff provides benefits for qualifying short-term disabilities, including maternity leaves, and long-term disabilities."
+    ],
+    "faculty_group": [
+     "The University's Salary Continuation Plan for Benefits Eligible faculty and exempt staff provides benefits for qualifying short-term disabilities, including maternity leaves, and long-term disabilities."
+    ],
+    "eligible_parent": [
+     "The University's Salary Continuation Plan for Benefits Eligible faculty and exempt staff provides benefits for qualifying short-term disabilities, including maternity leaves, and long-term disabilities."
+    ],
+    "entitlement": [
+     "For the next 10 weeks of disability, the faculty member will receive 60% of base regular pay."
+    ],
+    "duration": [
+     "For the next 10 weeks of disability, the faculty member will receive 60% of base regular pay."
+    ],
+    "pay_fraction": [
+     "For the next 10 weeks of disability, the faculty member will receive 60% of base regular pay."
+    ],
+    "service_requirement": [
+     "The Salary Continuation Plan has requirements that must be satisfied in order to receive benefits."
+    ],
+    "sequence": [
+     "As defined in the University's salary continuation plan, during the first 16 weeks of disability, the faculty member will receive full pay.",
+     "For the next 10 weeks of disability, the faculty member will receive 60% of base regular pay."
+    ]
+   },
+   "doc_ids": [
+    "2018_06_disability_benefits_policy",
+    "2018_01_faculty_parental_leave_policy_2017"
+   ],
+   "flags": [
+    "cross_reference_not_saved: Salary Continuation Plan (plan document)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R2",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "The University's Salary Continuation Plan for Benefits Eligible faculty and exempt staff provides benefits for qualifying short-term disabilities, including maternity leaves, and long-term disabilities."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "The University's Salary Continuation Plan for Benefits Eligible faculty and exempt staff provides benefits for qualifying short-term disabilities, including maternity leaves, and long-term disabilities."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "The University's Salary Continuation Plan for Benefits Eligible faculty and exempt staff provides benefits for qualifying short-term disabilities, including maternity leaves, and long-term disabilities."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "The University's Salary Continuation Plan for Benefits Eligible faculty and exempt staff provides benefits for qualifying short-term disabilities, including maternity leaves, and long-term disabilities."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own disability)",
+     "quote": "The University's Salary Continuation Plan for Benefits Eligible faculty and exempt staff provides benefits for qualifying short-term disabilities, including maternity leaves, and long-term disabilities."
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "For the next 10 weeks of disability, the faculty member will receive 60% of base regular pay."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "10 weeks, exact",
+     "quote": "For the next 10 weeks of disability, the faculty member will receive 60% of base regular pay."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "60% of base regular pay",
+     "quote": "For the next 10 weeks of disability, the faculty member will receive 60% of base regular pay."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "plan requirements not stated",
+     "quote": "The Salary Continuation Plan has requirements that must be satisfied in order to receive benefits."
+    },
+    {
+     "field": "sequence",
+     "rule": "V4",
+     "answer": "consecutive_after c7 (stated stage)",
+     "quote": "For the next 10 weeks of disability, the faculty member will receive 60% of base regular pay."
+    }
+   ]
+  },
+  {
+   "component_id": "syracuse_university_c9",
+   "institution_label": "Salary Continuation Plan",
+   "description": "Long-term disability benefits under the Salary Continuation Plan for benefits-eligible faculty and exempt staff; recorded without a length (schema §2).",
+   "mechanism": "generic_sick_or_disability_plan",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Benefits Eligible faculty and exempt staff",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "long-term disabilities",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "service_requirement": "Benefits Eligible; other plan requirements not stated (plan document not saved)",
+   "rule_applied": [
+    "schema",
+    "U5"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "The University's Salary Continuation Plan for Benefits Eligible faculty and exempt staff provides benefits for qualifying short-term disabilities, including maternity leaves, and long-term disabilities."
+    ],
+    "eligible_parent": [
+     "The University's Salary Continuation Plan for Benefits Eligible faculty and exempt staff provides benefits for qualifying short-term disabilities, including maternity leaves, and long-term disabilities."
+    ],
+    "entitlement": [
+     "The University's Salary Continuation Plan for Benefits Eligible faculty and exempt staff provides benefits for qualifying short-term disabilities, including maternity leaves, and long-term disabilities."
+    ],
+    "service_requirement": [
+     "The Salary Continuation Plan has requirements that must be satisfied in order to receive benefits."
+    ]
+   },
+   "doc_ids": [
+    "2018_06_disability_benefits_policy"
+   ],
+   "flags": [
+    "cross_reference_not_saved: Salary Continuation Plan (plan document)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "The University's Salary Continuation Plan for Benefits Eligible faculty and exempt staff provides benefits for qualifying short-term disabilities, including maternity leaves, and long-term disabilities."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "The University's Salary Continuation Plan for Benefits Eligible faculty and exempt staff provides benefits for qualifying short-term disabilities, including maternity leaves, and long-term disabilities."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "The University's Salary Continuation Plan for Benefits Eligible faculty and exempt staff provides benefits for qualifying short-term disabilities, including maternity leaves, and long-term disabilities."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "The University's Salary Continuation Plan for Benefits Eligible faculty and exempt staff provides benefits for qualifying short-term disabilities, including maternity leaves, and long-term disabilities."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own disability)",
+     "quote": "The University's Salary Continuation Plan for Benefits Eligible faculty and exempt staff provides benefits for qualifying short-term disabilities, including maternity leaves, and long-term disabilities."
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "The University's Salary Continuation Plan for Benefits Eligible faculty and exempt staff provides benefits for qualifying short-term disabilities, including maternity leaves, and long-term disabilities."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "plan requirements not stated",
+     "quote": "The Salary Continuation Plan has requirements that must be satisfied in order to receive benefits."
+    }
+   ]
+  },
+  {
+   "component_id": "syracuse_university_c10",
+   "institution_label": "",
+   "description": "New York statutory disability benefits (Workers' Compensation Law, art. 9), including maternity, that the University provides to all employees; for faculty the Salary Continuation Plan is additional.",
+   "mechanism": "generic_sick_or_disability_plan",
+   "mechanism_note": "M1 and programs.csv: New York Disability Benefits Law is an own-disability programme; the documents state no childbirth period with its length for it.",
+   "payer": "insurance_plan",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "all employees",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "short-term disabilities, including maternity",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration_note": "Maximum duration is set by WCL s. 205, not saved; benefits begin with the eighth day of disability (WCL s. 204(1)).",
+   "pay_fraction": "one-half of the employee's weekly wage, not to exceed $170 per week",
+   "pay_cap": "$170 per week",
+   "statute_source": "N.Y. Workers' Compensation Law s. 204(1), (2)(b)",
+   "statute_verified": true,
+   "sequence": [
+    {
+     "relation": "concurrent_with",
+     "component_id": "syracuse_university_c7",
+     "start_offset_weeks": 1,
+     "note": "the University provides the statutory benefit and, for faculty, the Salary Continuation Plan in addition; how the University meets the statutory obligation is not stated; the statute pays from the eighth day of disability (R21, programs.csv: 1 week)"
+    }
+   ],
+   "rule_applied": [
+    "M1",
+    "R21",
+    "U2",
+    "U4",
+    "U5"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "The University provides benefits for short-term disabilities, including maternity, to all employees pursuant to the disability benefits provisions of the Workers' Compensation Law of the State of New York."
+    ],
+    "eligible_parent": [
+     "The University provides benefits for short-term disabilities, including maternity, to all employees pursuant to the disability benefits provisions of the Workers' Compensation Law of the State of New York."
+    ],
+    "entitlement": [
+     "The University provides benefits for short-term disabilities, including maternity, to all employees pursuant to the disability benefits provisions of the Workers' Compensation Law of the State of New York."
+    ],
+    "pay_fraction": [
+     "The weekly benefit which the disabled employee is entitled to receive for disability commencing on or after May first, nineteen hundred eighty-nine shall be one-half of the employee's weekly wage, but in no case shall such benefit exceed one hundred seventy dollars"
+    ],
+    "sequence": [
+     "The University provides benefits for short-term disabilities, including maternity, to all employees pursuant to the disability benefits provisions of the Workers' Compensation Law of the State of New York.",
+     "Disability benefits shall be payable to an eligible employee for disabilities, beginning with the eighth day of disability and thereafter during the continuance of disability"
+    ]
+   },
+   "doc_ids": [
+    "2018_06_disability_benefits_policy"
+   ],
+   "flags": [
+    "statutory_detail_not_in_sources: N.Y. Workers' Compensation Law s. 205 (maximum duration of disability benefits)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "M1",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "The University provides benefits for short-term disabilities, including maternity, to all employees pursuant to the disability benefits provisions of the Workers' Compensation Law of the State of New York."
+    },
+    {
+     "field": "payer",
+     "rule": "M1",
+     "answer": "insurance_plan",
+     "quote": "The University provides benefits for short-term disabilities, including maternity, to all employees pursuant to the disability benefits provisions of the Workers' Compensation Law of the State of New York."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "The University provides benefits for short-term disabilities, including maternity, to all employees pursuant to the disability benefits provisions of the Workers' Compensation Law of the State of New York."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "The University provides benefits for short-term disabilities, including maternity, to all employees pursuant to the disability benefits provisions of the Workers' Compensation Law of the State of New York."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own disability, including maternity)",
+     "quote": "The University provides benefits for short-term disabilities, including maternity, to all employees pursuant to the disability benefits provisions of the Workers' Compensation Law of the State of New York."
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "The University provides benefits for short-term disabilities, including maternity, to all employees pursuant to the disability benefits provisions of the Workers' Compensation Law of the State of New York."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "U2",
+     "answer": "one-half of weekly wage, max $170",
+     "quote": "The weekly benefit which the disabled employee is entitled to receive for disability commencing on or after May first, nineteen hundred eighty-nine shall be one-half of the employee's weekly wage, but in no case shall such benefit exceed one hundred seventy dollars"
+    },
+    {
+     "field": "sequence",
+     "rule": "R21",
+     "answer": "concurrent_with c7, start_offset_weeks 1 (benefits from the eighth day)",
+     "quote": "Disability benefits shall be payable to an eligible employee for disabilities, beginning with the eighth day of disability and thereafter during the continuance of disability"
+    },
+    {
+     "field": "sequence",
+     "rule": "M1",
+     "answer": "linked to the University's own plan so time counts once",
+     "quote": "The University provides benefits for short-term disabilities, including maternity, to all employees pursuant to the disability benefits provisions of the Workers' Compensation Law of the State of New York."
+    }
+   ]
+  },
+  {
+   "component_id": "syracuse_university_c11",
+   "institution_label": "Basic FMLA Leave",
+   "description": "Federal Family and Medical Leave Act leave: up to 12 work weeks of unpaid, job-protected leave in a rolling 12-month period, for the birth or placement of a child, care of a family member, or the employee's own serious health condition.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Employees (policy scope); eligible employees",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "the birth of the employee's newborn child and/or to care for the newborn child; placement of a child with the employee for adoption or foster care; own serious health condition; care of a spouse",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 12,
+    "units": "workweek",
+    "qualifier": "up_to"
+   },
+   "duration_note": "'up to a total of twelve (12) work weeks' in a rolling twelve-month period; the 26-workweek total applies to military caregiver leave, not a parental purpose.",
+   "service_requirement": "12 months and 1,250 hours",
+   "dual_employee_rule": "If both parents work at the University, combined total of 12 weeks for the birth or placement",
+   "time_window": "child care within the first 12 months following birth or placement",
+   "notice": "at least 30 days in advance for care of a newborn or placed child, or as close to 30 days as possible",
+   "medical_certification": true,
+   "medical_certification_note": "medical certification of the serious health condition may be required (own or family member's condition)",
+   "return_obligation": "none stated; restoration to the previous position or equivalent on return (key-employee exception)",
+   "statute_source": "29 U.S.C. 2612(a)(1); eligibility 29 U.S.C. 2611(2)",
+   "statute_verified": true,
+   "sequence": [
+    {
+     "relation": "concurrent_with",
+     "component_id": "syracuse_university_c5",
+     "note": "S1: statutory leave alongside the institution's maternity leave; unpaid remainder after paid leave"
+    },
+    {
+     "relation": "concurrent_with",
+     "component_id": "syracuse_university_c4",
+     "note": "S1: statutory leave alongside the institution's parental leave"
+    }
+   ],
+   "rule_applied": [
+    "U2",
+    "U4",
+    "U5",
+    "S1",
+    "R13",
+    "U8"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Employees are eligible for FMLA leave is they have been employed by the University for twelve (12) months and have worked 1,250 hours or more during the twelve-month period immediately preceding the leave."
+    ],
+    "eligible_parent": [
+     "the birth of the employee's newborn child and/or to care for the newborn child during the first 12 months following birth; or",
+     "the placement of a child with the employee for adoption or foster care and/or to care for the child during the first 12 months following placement.",
+     "for a serious health condition that makes the employee unable to perform his or her job (including absences covered by Workers' Compensation, NYS Disability, and paid sick days);",
+     "to care of a spouse, child, or parent who has a serious health condition; and/or"
+    ],
+    "entitlement": [
+     "The FMLA provides that an eligible employee is entitled to take up to a total of twelve (12) work weeks of leave during a twelve-month period for one or more of the following reasons:"
+    ],
+    "duration": [
+     "The FMLA provides that an eligible employee is entitled to take up to a total of twelve (12) work weeks of leave during a twelve-month period for one or more of the following reasons:",
+     "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period for one or more of the following:"
+    ],
+    "service_requirement": [
+     "Employees are eligible for FMLA leave is they have been employed by the University for twelve (12) months and have worked 1,250 hours or more during the twelve-month period immediately preceding the leave."
+    ],
+    "sequence": [
+     "The University reserves the right to run FMLA Leave concurrently with any time off from work that the employee may take for his/her own injuries that may be covered pursuant to Workers' Compensation or applicable state disability laws."
+    ],
+    "dual_employee_rule": [
+     "If both parents work at the University. they are entitled to a combined total of 12 weeks leave in the twelve-month period immediately following the birth or placement of the child."
+    ],
+    "notice": [
+     "In the case of FMLA Leave related to care of a newborn or child placed with an employee for adoption or foster care, the employee must make the leave request at least 30 days in advance, or as close to 30 days as possible."
+    ],
+    "return_obligation": [
+     "Whenever possible, employees who return to work at the end of approved FMLA leave will be restored to their previous position with equivalent pay, benefits and other terms and conditions of employment."
+    ]
+   },
+   "doc_ids": [
+    "2018_05_fmla_policy"
+   ],
+   "flags": [
+    "cross_reference_not_saved: FMLA Notice Posting"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "In general, FMLA leaves are unpaid, unless otherwise stated in this Policy."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "In general, FMLA leaves are unpaid, unless otherwise stated in this Policy."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "The FMLA provides that an eligible employee is entitled to take up to a total of twelve (12) work weeks of leave during a twelve-month period for one or more of the following reasons:"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Employees are eligible for FMLA leave is they have been employed by the University for twelve (12) months and have worked 1,250 hours or more during the twelve-month period immediately preceding the leave."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth, non-birth (birth/newborn care; care of spouse), adoptive, foster",
+     "quote": "the birth of the employee's newborn child and/or to care for the newborn child during the first 12 months following birth; or"
+    },
+    {
+     "field": "entitlement",
+     "rule": "U2",
+     "answer": "guaranteed",
+     "quote": "The FMLA provides that an eligible employee is entitled to take up to a total of twelve (12) work weeks of leave during a twelve-month period for one or more of the following reasons:"
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "12 workweeks, up_to ('up to a total of')",
+     "quote": "The FMLA provides that an eligible employee is entitled to take up to a total of twelve (12) work weeks of leave during a twelve-month period for one or more of the following reasons:"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U2",
+     "answer": "12 months and 1,250 hours",
+     "quote": "Employees are eligible for FMLA leave is they have been employed by the University for twelve (12) months and have worked 1,250 hours or more during the twelve-month period immediately preceding the leave."
+    },
+    {
+     "field": "sequence",
+     "rule": "S1",
+     "answer": "concurrent_with c5 and c4 (statutory leave alongside the institution's paid leaves)",
+     "quote": "The University reserves the right to run FMLA Leave concurrently with any time off from work that the employee may take for his/her own injuries that may be covered pursuant to Workers' Compensation or applicable state disability laws."
+    }
+   ]
+  },
+  {
+   "component_id": "syracuse_university_c12",
+   "institution_label": "",
+   "description": "Accrued sick time and accrued vacation time that an employee must use as part of FMLA leave taken for the employee's own or a family member's serious health condition; balances and accrual rates are not stated in the saved documents.",
+   "mechanism": "own_accrual",
+   "payer": "own_balance",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Employees (FMLA policy scope)",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent"
+   ],
+   "eligible_parent_wording": "serious health condition of the employee or a family member",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "entitlement_note": "the policy requires the employee to use accrued sick and vacation time as part of the leave",
+   "duration_note": "No balance stated; adds no weeks. For FMLA child-care leave the vacation requirement is stated for staff employees.",
+   "sequence": [
+    {
+     "relation": "within",
+     "component_id": "syracuse_university_c11",
+     "note": "S1: pay for a statutory leave, used as part of the FMLA leave"
+    }
+   ],
+   "rule_applied": [
+    "R1",
+    "S1",
+    "U5"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "When leave is taken because of the serious health condition of the employee or a family member. the employee must (except as may otherwise be required by applicable law):"
+    ],
+    "eligible_parent": [
+     "When leave is taken because of the serious health condition of the employee or a family member. the employee must (except as may otherwise be required by applicable law):"
+    ],
+    "entitlement": [
+     "When leave is taken because of the serious health condition of the employee or a family member. the employee must (except as may otherwise be required by applicable law):",
+     "use as part of the leave any accrued sick time; and",
+     "use accrued vacation benefit time to which the employee is otherwise entitled (i.e., use up allowable paid and unpaid leave days concurrently)."
+    ],
+    "sequence": [
+     "use as part of the leave any accrued sick time; and",
+     "use accrued vacation benefit time to which the employee is otherwise entitled (i.e., use up allowable paid and unpaid leave days concurrently)."
+    ]
+   },
+   "doc_ids": [
+    "2018_05_fmla_policy"
+   ],
+   "flags": [
+    "cross_reference_not_saved: University sick-time and vacation policies for faculty (accrued sick time, accrued vacation benefit time)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "own_accrual",
+     "quote": "use as part of the leave any accrued sick time; and"
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "own_balance",
+     "quote": "use as part of the leave any accrued sick time; and"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "When leave is taken because of the serious health condition of the employee or a family member. the employee must (except as may otherwise be required by applicable law):"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "When leave is taken because of the serious health condition of the employee or a family member. the employee must (except as may otherwise be required by applicable law):"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own condition), non_birth_parent (family member's condition)",
+     "quote": "When leave is taken because of the serious health condition of the employee or a family member. the employee must (except as may otherwise be required by applicable law):"
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "use as part of the leave any accrued sick time; and"
+    },
+    {
+     "field": "sequence",
+     "rule": "S1",
+     "answer": "within c11",
+     "quote": "use accrued vacation benefit time to which the employee is otherwise entitled (i.e., use up allowable paid and unpaid leave days concurrently)."
+    }
+   ]
+  },
+  {
+   "component_id": "syracuse_university_c13",
+   "institution_label": "Administrative leaves",
+   "description": "Faculty Manual 2.55: administrative leaves, with or without salary, that may be granted for purposes including personal business, government service, teaching or family needs; brief absences or relief may be arranged with the dean; others may apply for leave without pay.",
+   "mechanism": "unpaid_leave",
+   "mechanism_note": "Pay is not fixed: 'with or without salary and/or benefits'; coded as the leave itself.",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Faculty members holding regular appointments",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "family needs",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "duration_note": "No stated length: 'Most leaves will be for the duration of a semester or an academic year'; extensions not ordinarily over one year; leaves over two weeks need formal approval.",
+   "pay_fraction": "with or without salary",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "notice": "ordinarily seven months before the end of the preceding semester; later for health or other reasons beyond the applicant's control",
+   "return_obligation": "for a leave with pay, return to full-time service for the equivalent period or reimburse the salary paid, unless relieved by the Vice Chancellor and Provost",
+   "rule_applied": [
+    "U1",
+    "V2",
+    "R9"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Faculty members holding regular appointments may apply for research or administrative leaves."
+    ],
+    "eligible_parent": [
+     "Administrative leaves may be granted to accommodate a variety of purposes including personal business, government service, teaching, or family needs."
+    ],
+    "entitlement": [
+     "Administrative leaves may be granted to accommodate a variety of purposes including personal business, government service, teaching, or family needs."
+    ],
+    "pay_fraction": [
+     "Leaves may be recommended and granted with or without salary and/or benefits."
+    ],
+    "return_obligation": [
+     "Under normal circumstances, Syracuse University requires that a faculty member granted research leave, or another type of leave, with pay will return to full-time service to the University for the equivalent period following his/her leave."
+    ]
+   },
+   "doc_ids": [
+    "2018_04_faculty_manual_2_55_research_admin_leaves",
+    "2018_07_news_2017_12_07_ny_paid_family_leave_staff"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "U1",
+     "answer": "unpaid_leave",
+     "quote": "Leaves may be recommended and granted with or without salary and/or benefits."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Leaves may be recommended and granted with or without salary and/or benefits."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "Administrative leaves may be granted to accommodate a variety of purposes including personal business, government service, teaching, or family needs."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Faculty members holding regular appointments may apply for research or administrative leaves."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U1",
+     "answer": "any_parent ('family needs')",
+     "quote": "Administrative leaves may be granted to accommodate a variety of purposes including personal business, government service, teaching, or family needs."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "Administrative leaves may be granted to accommodate a variety of purposes including personal business, government service, teaching, or family needs."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "with or without salary",
+     "quote": "Leaves may be recommended and granted with or without salary and/or benefits."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "formal leave: all duties relieved",
+     "quote": "Faculty members holding regular appointments may apply for research or administrative leaves."
+    }
+   ]
+  },
+  {
+   "component_id": "syracuse_university_c14",
+   "institution_label": "New York Paid Family Leave",
+   "description": "New York Paid Family Leave (from 2018-01-01): 8 weeks of wage replacement at 50% of pay for eligible staff and student employees to bond with a new child; does not apply to those working in a teaching capacity.",
+   "mechanism": "government_benefit",
+   "payer": "insurance_plan",
+   "mechanism_note": "M1 and programs.csv: New York Paid Family Leave is a family leave benefit (government_benefit). Payer: the documents say the programme is employee-funded through payroll deduction but not how it is delivered; insurance_plan with this note (M1).",
+   "faculty_group": "staff and student employees, including graduate assistants (not those working in a teaching capacity)",
+   "faculty_group_note": "Staff and student employees, including graduate assistants, working in New York State",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "to bond with a new child",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 8,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "duration_note": "8 weeks in 2018 ('shall not exceed eight weeks during any fifty-two week calendar period', WCL s. 204(2)(a)); rising to 12 weeks in 2021.",
+   "pay_fraction": "50 percent of pay (up to 50 percent of the state average weekly wage)",
+   "pay_cap": "50 percent of the state average weekly wage",
+   "service_requirement": "26 consecutive weeks of employment (20 or more hours per week); 175 days worked (under 20 hours)",
+   "statute_source": "N.Y. Workers' Compensation Law s. 204(1), (2)(a)",
+   "statute_verified": true,
+   "sequence": [
+    {
+     "relation": "concurrent_with",
+     "component_id": "syracuse_university_c15",
+     "note": "payable from the first full day of family leave (WCL s. 204(1)); no waiting period (programs.csv: 0)"
+    }
+   ],
+   "rule_applied": [
+    "M1",
+    "R14",
+    "U2",
+    "U4",
+    "R21"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Staff and student employees, including graduate assistants, working in New York State are eligible if they meet the following requirements:",
+     "New York’s legislation establishing Paid Family Leave does not apply to those working in a teaching capacity."
+    ],
+    "eligible_parent": [
+     "providing paid leave for eligible staff members to bond with a new child, care for a family member with a serious health condition or prepare for a family member’s call to active military service."
+    ],
+    "entitlement": [
+     "wage replacement for eight weeks of leave at 50 percent of pay (up to 50 percent of the state’s average weekly wage), increasing to 12 weeks and 67 percent pay in 2021;",
+     "Family leave benefits shall be payable to an eligible employee for the first full day when family leave is required"
+    ],
+    "duration": [
+     "wage replacement for eight weeks of leave at 50 percent of pay (up to 50 percent of the state’s average weekly wage), increasing to 12 weeks and 67 percent pay in 2021;",
+     "The weekly benefit for family leave that occurs (i) on or after January first, two thousand eighteen shall not exceed eight weeks during any fifty-two week calendar period and shall be fifty percent of the employee's average weekly wage but shall not exceed fifty percent of the state average weekly wage"
+    ],
+    "pay_fraction": [
+     "wage replacement for eight weeks of leave at 50 percent of pay (up to 50 percent of the state’s average weekly wage), increasing to 12 weeks and 67 percent pay in 2021;"
+    ],
+    "service_requirement": [
+     "If a regular work schedule is 20 or more hours per week, an employee is eligible after 26 consecutive weeks of employment."
+    ],
+    "sequence": [
+     "job protection upon return from Paid Family Leave; and",
+     "Family leave benefits shall be payable to an eligible employee for the first full day when family leave is required"
+    ]
+   },
+   "doc_ids": [
+    "2018_07_news_2017_12_07_ny_paid_family_leave_staff"
+   ],
+   "flags": [
+    "excludes_main_faculty",
+    "summary_only: 2018_07_news_2017_12_07_ny_paid_family_leave_staff",
+    "cross_reference_not_saved: Human Resources website Paid Family Leave FAQ"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "M1",
+     "answer": "government_benefit",
+     "quote": "wage replacement for eight weeks of leave at 50 percent of pay (up to 50 percent of the state’s average weekly wage), increasing to 12 weeks and 67 percent pay in 2021;"
+    },
+    {
+     "field": "payer",
+     "rule": "M1",
+     "answer": "insurance_plan",
+     "quote": "New York State specified that the Paid Family Leave Program is employee-funded, and that employers shall collect an employee contribution through a payroll deduction determined annually by the New York State Department of Financial Services."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "providing paid leave for eligible staff members to bond with a new child, care for a family member with a serious health condition or prepare for a family member’s call to active military service."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "staff and student employees, including graduate assistants (not those working in a teaching capacity)",
+     "quote": "New York’s legislation establishing Paid Family Leave does not apply to those working in a teaching capacity."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent ('bond with a new child')",
+     "quote": "providing paid leave for eligible staff members to bond with a new child, care for a family member with a serious health condition or prepare for a family member’s call to active military service."
+    },
+    {
+     "field": "entitlement",
+     "rule": "U2",
+     "answer": "guaranteed",
+     "quote": "wage replacement for eight weeks of leave at 50 percent of pay (up to 50 percent of the state’s average weekly wage), increasing to 12 weeks and 67 percent pay in 2021;"
+    },
+    {
+     "field": "duration",
+     "rule": "U2",
+     "answer": "8 weeks, up_to ('shall not exceed eight weeks')",
+     "quote": "The weekly benefit for family leave that occurs (i) on or after January first, two thousand eighteen shall not exceed eight weeks during any fifty-two week calendar period and shall be fifty percent of the employee's average weekly wage but shall not exceed fifty percent of the state average weekly wage"
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "U2",
+     "answer": "50 percent of pay",
+     "quote": "wage replacement for eight weeks of leave at 50 percent of pay (up to 50 percent of the state’s average weekly wage), increasing to 12 weeks and 67 percent pay in 2021;"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "26 consecutive weeks",
+     "quote": "If a regular work schedule is 20 or more hours per week, an employee is eligible after 26 consecutive weeks of employment."
+    },
+    {
+     "field": "sequence",
+     "rule": "M1",
+     "answer": "concurrent_with c15 (job-protected leave), no offset (R21)",
+     "quote": "Family leave benefits shall be payable to an eligible employee for the first full day when family leave is required"
+    }
+   ]
+  },
+  {
+   "component_id": "syracuse_university_c15",
+   "institution_label": "New York Paid Family Leave",
+   "description": "The job-protected leave of New York Paid Family Leave (8 weeks in 2018) for eligible staff; does not apply to those working in a teaching capacity.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "mechanism_note": "Checklist §5 example 8: a state paid-leave programme that protects the job is a government_benefit plus an unpaid_leave for the protected weeks.",
+   "faculty_group": "staff and student employees, including graduate assistants (not those working in a teaching capacity)",
+   "faculty_group_note": "Staff and student employees, including graduate assistants, working in New York State",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "to bond with a new child",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 8,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "service_requirement": "26 consecutive weeks of employment (20 or more hours per week); 175 days worked (under 20 hours)",
+   "statute_source": "N.Y. Workers' Compensation Law art. 9 (Paid Family Leave job protection; section not saved)",
+   "statute_verified": false,
+   "rule_applied": [
+    "M1",
+    "U3",
+    "U2",
+    "U4"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Staff and student employees, including graduate assistants, working in New York State are eligible if they meet the following requirements:",
+     "New York’s legislation establishing Paid Family Leave does not apply to those working in a teaching capacity."
+    ],
+    "eligible_parent": [
+     "providing paid leave for eligible staff members to bond with a new child, care for a family member with a serious health condition or prepare for a family member’s call to active military service."
+    ],
+    "entitlement": [
+     "job protection upon return from Paid Family Leave; and",
+     "Staff and student employees, including graduate assistants, working in New York State are eligible if they meet the following requirements:"
+    ],
+    "duration": [
+     "wage replacement for eight weeks of leave at 50 percent of pay (up to 50 percent of the state’s average weekly wage), increasing to 12 weeks and 67 percent pay in 2021;",
+     "The weekly benefit for family leave that occurs (i) on or after January first, two thousand eighteen shall not exceed eight weeks during any fifty-two week calendar period and shall be fifty percent of the employee's average weekly wage but shall not exceed fifty percent of the state average weekly wage"
+    ],
+    "service_requirement": [
+     "If a regular work schedule is 20 or more hours per week, an employee is eligible after 26 consecutive weeks of employment."
+    ]
+   },
+   "doc_ids": [
+    "2018_07_news_2017_12_07_ny_paid_family_leave_staff"
+   ],
+   "flags": [
+    "excludes_main_faculty",
+    "summary_only: 2018_07_news_2017_12_07_ny_paid_family_leave_staff",
+    "cross_reference_not_saved: New York Paid Family Leave job-protection provision (Workers' Compensation Law s. 203-b)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "U3",
+     "answer": "unpaid_leave",
+     "quote": "job protection upon return from Paid Family Leave; and"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "job protection upon return from Paid Family Leave; and"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "providing paid leave for eligible staff members to bond with a new child, care for a family member with a serious health condition or prepare for a family member’s call to active military service."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "staff and student employees, including graduate assistants (not those working in a teaching capacity)",
+     "quote": "New York’s legislation establishing Paid Family Leave does not apply to those working in a teaching capacity."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent ('bond with a new child')",
+     "quote": "providing paid leave for eligible staff members to bond with a new child, care for a family member with a serious health condition or prepare for a family member’s call to active military service."
+    },
+    {
+     "field": "entitlement",
+     "rule": "U2",
+     "answer": "guaranteed",
+     "quote": "job protection upon return from Paid Family Leave; and"
+    },
+    {
+     "field": "duration",
+     "rule": "U2",
+     "answer": "8 weeks, up_to",
+     "quote": "The weekly benefit for family leave that occurs (i) on or after January first, two thousand eighteen shall not exceed eight weeks during any fifty-two week calendar period and shall be fifty percent of the employee's average weekly wage but shall not exceed fifty percent of the state average weekly wage"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "26 consecutive weeks",
+     "quote": "If a regular work schedule is 20 or more hours per week, an employee is eligible after 26 consecutive weeks of employment."
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "Governing document: the Faculty Parental Leave policy (2018_01, dated October 2000; capture 2017-01-27, which its version note says is in force on 2018-02-24). The faculty are not unionised per the version note. Faculty Manual 2.37 and 2.55, the FMLA policy and the Disability Benefits policy are governing policies; the 2017-12-07 SU News article is a summary.",
+  "Calendar: the documents name fall and spring semesters ('fall semester leaves to begin the following September', 'spring semester leaves'); kind of term stated without length → calendar.kind = semester, and the term length follows R8's order.",
+  "Parental leave options (c3, c4) are linked in_lieu_of each other (R3c) and in_lieu_of the combined semester release (c6), which the policy gives a birth parent whose childbirth disability extends at least 4 weeks into the semester in place of the separate parental-leave options; the maternity leave (c5) is within c6 (R3b) and carries no in_lieu_of (R15b).",
+  "Birth parent chain: maternity leave c5 (6-8 weeks, full pay) within the semester teaching release c6 [alternative: c5 then parental leave c4 (up to half a semester without duties) or c3 (50% workload reduction for a semester), also_available, longest-leave order]; Salary Continuation Plan c7 (16 weeks full pay) concurrent with c5, then c8 (10 weeks at 60%); NY disability benefits c10 concurrent with c7 from week 2; FMLA c11 alongside from the start of c5 (S1), with accrued sick/vacation c12 within FMLA.",
+  "Non-birth parent chain: parental leave c4 (up to half a semester without formal duties) or c3 (50% workload reduction in a semester), in lieu of each other, if the primary caregiver; FMLA c11 alongside c4 from its start (S1). c6 and c5 are birth-parent only.",
+  "The Faculty Parental Leave policy requires primary-caregiver status for parental leave and the combination; the derivation treats caregiver conditions as gender-neutral (R6).",
+  "Not components: the research leave in Faculty Manual 2.55 (one semester at full pay or an academic year at half pay) exists to encourage scholarly research and cannot be taken for a birth; FMLA military family leave; workers' compensation.",
+  "Faculty Manual 2.55's future-service clause ('research leave, or another type of leave, with pay') is recorded on the administrative leave (c13); the text does not say whether it applies to the parental leave policy.",
+  "SU News 2017-12-07 (2018_07): New York Paid Family Leave applies to staff and student employees, not to those working in a teaching capacity; faculty 'continue to be eligible for leaves of absence and paid parental leave benefits, and may request administrative leave'. PFL coded as c14/c15 with the staff group, excludes_main_faculty and summary_only.",
+  "Documents cited but not saved: the Salary Continuation Plan document and 'Disability Benefits and the Salary Continuation Plan'; 'Syracuse University Non-Exempt Disability Benefits'; Faculty Parental Leave Form; Faculty Leave Deadlines and Procedures; Parental and Maternity Leave Checklist for Deans and Chairs; FMLA Notice Posting; the Faculty Manual provision letting faculty exercising FMLA rights exceed the tenure-extension limit; the SU Policies pages linked from Faculty Manual 2.54 (Benefits Eligibility, Disability Plan, Leave of Absence); faculty sick-time and vacation policies (accrued sick time); the HR website PFL FAQ; N.Y. WCL s. 205 (DBL duration) and s. 203-b (PFL job protection).",
+  "Reference date 2018-02-24."
+ ],
+ "statutory_floor": {
+  "jurisdiction": "US",
+  "year": "2018",
+  "weeks_birth": 12.0,
+  "weeks_nonbirth": 12.0,
+  "statute": "Family and Medical Leave Act (FMLA) (29 U.S.C. 2611-2612)",
+  "source_doc": "2026_00_us_fmla_29usc2612",
+  "table": "statutory_baseline.csv"
+ }
+}

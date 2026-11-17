@@ -1,0 +1,2336 @@
+{
+ "institution": "Indiana University",
+ "slug": "indiana_university",
+ "country": "US",
+ "model": "claude-opus-5-5",
+ "codebook_version": "1.25",
+ "schema_version": "1.25",
+ "reference_date": "2018-02-22",
+ "calendar": {
+  "term_weeks": null,
+  "note": "ACA-50 states semesters without their length ('at least one fall or spring semester between leaves'); R8 semester default 16.",
+  "kind": "semester"
+ },
+ "documents": [
+  {
+   "doc_id": "2018_00_link",
+   "title": "ACA-50 Paid Family Leave for Academic Appointees",
+   "version_or_effective_date": "effective 06-20-2008, last updated 10-06-2017",
+   "retrieved": "wayback 2018-06-14",
+   "url": "https://policies.iu.edu/policies/aca-50-paid-family-leave-academic-appointees/index.html"
+  },
+  {
+   "doc_id": "2018_01_aca49_other_leaves_absences_academic_appointees",
+   "title": "ACA-49 Other Leaves and Absences for Academic Appointees",
+   "version_or_effective_date": "effective 12-20-1942, last updated 06-29-1974",
+   "retrieved": "wayback 2018-06-14",
+   "url": "https://policies.iu.edu/policies/aca-49-other-leaves-absences-academic-appointees/index.html"
+  },
+  {
+   "doc_id": "2018_02_aca48_leave_without_pay_academic_appointees",
+   "title": "ACA-48 Leave without Pay for Academic Appointees",
+   "version_or_effective_date": "effective 05-05-1964, last updated 01-06-2016",
+   "retrieved": "wayback 2018-06-14",
+   "url": "https://policies.iu.edu/policies/aca-48-leave-without-pay-academic-appointees/index.html"
+  },
+  {
+   "doc_id": "2018_03_aca22_reappointment_probationary_period",
+   "title": "ACA-22 Reappointment and Non-Reappointment During Probationary Period",
+   "version_or_effective_date": "last updated 02-23-2016",
+   "retrieved": "wayback 2018-06-14",
+   "url": "https://policies.iu.edu/policies/aca-22-reappointment-non-reappointment-probationary-period/index.html"
+  },
+  {
+   "doc_id": "2018_04_aca37_faculty_librarian_tenure",
+   "title": "ACA-37 Faculty and Librarian Tenure",
+   "version_or_effective_date": "last updated 07-27-2016",
+   "retrieved": "wayback 2018-06-14",
+   "url": "https://policies.iu.edu/policies/aca-37-faculty-librarian-tenure/index.html"
+  },
+  {
+   "doc_id": "2018_05_hr0520_fmla_family_medical_leave",
+   "title": "HR-05-20 Family and Medical Leave Act (FMLA) Rights",
+   "version_or_effective_date": "effective 10-28-2009, last updated 10-24-2017",
+   "retrieved": "wayback 2018-06-14",
+   "url": "https://policies.iu.edu/policies/hr-05-20-fmla-family-medical-leave/index.html"
+  },
+  {
+   "doc_id": "2018_06_vpfaa_faculty_leaves_tenure_clock_chart_2012",
+   "title": "VPFAA chart: Faculty Leaves and the Tenure Clock",
+   "version_or_effective_date": "file dated 2/27/2012 (guidance; partly stale on the reference date)",
+   "retrieved": "wayback 2015-09-13",
+   "url": "http://vpfaa.indiana.edu/docs/faculty_leaves/faculty-leaves-tenure-clock-2272012.pdf"
+  },
+  {
+   "doc_id": "2026_00_us_fmla_29usc2612",
+   "title": "29 U.S.C. 2612 (FMLA leave requirement)",
+   "version_or_effective_date": "2026 text; length unchanged since 1993",
+   "retrieved": "2026-10-19",
+   "url": "https://www.law.cornell.edu/uscode/text/29/2612"
+  },
+  {
+   "doc_id": "2026_01_us_fmla_29usc2611_definitions",
+   "title": "29 U.S.C. 2611 (FMLA definitions)",
+   "version_or_effective_date": "2026 text",
+   "retrieved": "2026-10-19",
+   "url": "https://www.law.cornell.edu/uscode/text/29/2611"
+  }
+ ],
+ "missing": false,
+ "scope_accounting": {
+  "C1": {
+   "components": [
+    "indiana_university_c1",
+    "indiana_university_c2",
+    "indiana_university_c10"
+   ]
+  },
+  "C2": {
+   "components": [
+    "indiana_university_c15"
+   ]
+  },
+  "C3": {
+   "components": [
+    "indiana_university_c3",
+    "indiana_university_c4",
+    "indiana_university_c5",
+    "indiana_university_c6",
+    "indiana_university_c16"
+   ]
+  },
+  "C4": {
+   "components": [
+    "indiana_university_c7",
+    "indiana_university_c8"
+   ],
+   "not_components": [
+    {
+     "statute": "Indiana General Assembly regulation on military leave for National Guard and reserve members (quoted in ACA-49)",
+     "reason": "military leave, unrelated to becoming a parent (U4)"
+    },
+    {
+     "statute": "Uniformed Services Employment and Reemployment Rights Act (USERRA) (HR-05-20)",
+     "reason": "counts military service toward FMLA eligibility only; unrelated to becoming a parent (U4)"
+    },
+    {
+     "statute": "FMLA military caregiver leave and qualifying exigency leave (29 U.S.C. 2612(a)(1)(E), (a)(3); HR-05-20)",
+     "reason": "sections of the Act for service members' families, not relied on for a birth or adoption (U4)"
+    },
+    {
+     "statute": "FMLA Federal Regulations (29 CFR part 825) (HR-05-20 related information)",
+     "reason": "implementing regulations named only as related information; not saved; no term relied on beyond the Act's length and eligibility (U4)"
+    },
+    {
+     "statute": "Worker's Compensation (HR-05-20)",
+     "reason": "work-related injury; unrelated to becoming a parent (U4)"
+    },
+    {
+     "statute": "Indiana law defining 'spouse' (HR-05-20)",
+     "reason": "a definition, not a leave provision (U4)"
+    }
+   ]
+  },
+  "C5": {
+   "components": [
+    "indiana_university_c9",
+    "indiana_university_c7"
+   ]
+  },
+  "C6": {
+   "components": [
+    "indiana_university_c11"
+   ]
+  },
+  "C7": {
+   "components": [
+    "indiana_university_c12",
+    "indiana_university_c13",
+    "indiana_university_c14"
+   ]
+  },
+  "C8": {
+   "absent": {
+    "documents": [
+     "2018_00_link",
+     "2018_01_aca49_other_leaves_absences_academic_appointees",
+     "2018_02_aca48_leave_without_pay_academic_appointees",
+     "2018_03_aca22_reappointment_probationary_period",
+     "2018_04_aca37_faculty_librarian_tenure",
+     "2018_05_hr0520_fmla_family_medical_leave",
+     "2018_06_vpfaa_faculty_leaves_tenure_clock_chart_2012"
+    ],
+    "terms": [
+     "part-time",
+     "reduced appointment",
+     "phased",
+     "half-time",
+     "reduced teaching schedule",
+     "partial pay"
+    ]
+   }
+  },
+  "C9": {
+   "absent": {
+    "documents": [
+     "2018_00_link",
+     "2018_01_aca49_other_leaves_absences_academic_appointees",
+     "2018_02_aca48_leave_without_pay_academic_appointees",
+     "2018_03_aca22_reappointment_probationary_period",
+     "2018_04_aca37_faculty_librarian_tenure",
+     "2018_05_hr0520_fmla_family_medical_leave",
+     "2018_06_vpfaa_faculty_leaves_tenure_clock_chart_2012"
+    ],
+    "terms": [
+     "accommodation",
+     "transfer",
+     "light duty",
+     "less strenuous",
+     "hazard",
+     "modified position"
+    ]
+   }
+  },
+  "C10": {
+   "absent": {
+    "documents": [
+     "2018_00_link",
+     "2018_01_aca49_other_leaves_absences_academic_appointees",
+     "2018_02_aca48_leave_without_pay_academic_appointees",
+     "2018_03_aca22_reappointment_probationary_period",
+     "2018_04_aca37_faculty_librarian_tenure",
+     "2018_05_hr0520_fmla_family_medical_leave",
+     "2018_06_vpfaa_faculty_leaves_tenure_clock_chart_2012"
+    ],
+    "terms": [
+     "first days",
+     "regular work time",
+     "FMLA",
+     "paid",
+     "accruals"
+    ]
+   }
+  }
+ },
+ "passage_dispositions": {
+  "2018_00_link#001": {
+   "used_in": [
+    "indiana_university_c1"
+   ]
+  },
+  "2018_00_link#002": {
+   "used_in": [
+    "indiana_university_c1",
+    "indiana_university_c7",
+    "indiana_university_c9"
+   ]
+  },
+  "2018_00_link#003": {
+   "used_in": [
+    "indiana_university_c1",
+    "indiana_university_c9"
+   ]
+  },
+  "2018_00_link#004": {
+   "used_in": [
+    "indiana_university_c15",
+    "indiana_university_c12",
+    "indiana_university_c14",
+    "indiana_university_c1"
+   ]
+  },
+  "2018_01_aca49_other_leaves_absences_academic_appointees#001": {
+   "used_in": [
+    "indiana_university_c2",
+    "indiana_university_c3",
+    "indiana_university_c4",
+    "indiana_university_c5",
+    "indiana_university_c6",
+    "indiana_university_c10"
+   ]
+  },
+  "2018_02_aca48_leave_without_pay_academic_appointees#001": {
+   "used_in": [
+    "indiana_university_c11",
+    "indiana_university_c13",
+    "indiana_university_c10"
+   ]
+  },
+  "2018_03_aca22_reappointment_probationary_period#001": {
+   "not_relevant": "ACA-22 reappointment notice and review procedures; no leave or tenure-clock provision for parents"
+  },
+  "2018_03_aca22_reappointment_probationary_period#002": {
+   "not_relevant": "one-year probationary extension only for procedural failures found by the Faculty Board of Review; not parental"
+  },
+  "2018_04_aca37_faculty_librarian_tenure#001": {
+   "not_relevant": "ACA-37 probationary period and school-wide extension by the Trustees; not tied to leave or parenthood"
+  },
+  "2018_04_aca37_faculty_librarian_tenure#002": {
+   "not_relevant": "tenure dossier procedures"
+  },
+  "2018_04_aca37_faculty_librarian_tenure#003": {
+   "not_relevant": "tenure procedures for librarians and probationary appointment length"
+  },
+  "2018_04_aca37_faculty_librarian_tenure#004": {
+   "not_relevant": "geographic limitation and criteria for tenure"
+  },
+  "2018_05_hr0520_fmla_family_medical_leave#001": {
+   "used_in": [
+    "indiana_university_c8"
+   ]
+  },
+  "2018_05_hr0520_fmla_family_medical_leave#002": {
+   "used_in": [
+    "indiana_university_c8",
+    "indiana_university_c16"
+   ]
+  },
+  "2018_05_hr0520_fmla_family_medical_leave#003": {
+   "used_in": [
+    "indiana_university_c8"
+   ]
+  },
+  "2018_05_hr0520_fmla_family_medical_leave#004": {
+   "not_relevant": "FMLA military caregiver leave (26 weeks for a covered servicemember); not parental"
+  },
+  "2018_05_hr0520_fmla_family_medical_leave#005": {
+   "used_in": [
+    "indiana_university_c8"
+   ]
+  },
+  "2018_06_vpfaa_faculty_leaves_tenure_clock_chart_2012#001": {
+   "used_in": [
+    "indiana_university_c1",
+    "indiana_university_c2",
+    "indiana_university_c4",
+    "indiana_university_c6",
+    "indiana_university_c10",
+    "indiana_university_c12",
+    "indiana_university_c13",
+    "indiana_university_c14"
+   ]
+  }
+ },
+ "mechanism_slots": {
+  "employer_paid_leave": {
+   "components": [
+    "indiana_university_c1",
+    "indiana_university_c9"
+   ]
+  },
+  "employer_childbirth_benefit": {
+   "components": [
+    "indiana_university_c2"
+   ]
+  },
+  "generic_sick_or_disability_plan": {
+   "components": [
+    "indiana_university_c3",
+    "indiana_university_c4",
+    "indiana_university_c6"
+   ]
+  },
+  "own_accrual": {
+   "components": [
+    "indiana_university_c16"
+   ]
+  },
+  "donated_leave": {
+   "absent": "all seven sources searched for 'donat', 'shared leave', 'leave bank', 'pool': none"
+  },
+  "government_benefit": {
+   "absent": "all seven sources searched for 'disability insurance', 'state', 'benefit', 'Indiana' programme: no government or state paid programme named"
+  },
+  "employer_topup": {
+   "absent": "no government benefit to top up; searched 'top-up', 'supplement', 'difference'"
+  },
+  "modified_duties": {
+   "absent": "all sources searched for 'modified duties', 'teaching relief', 'course release', 'reduced teaching': only ACA-50's flexibility arrangement of the family leave itself (c15, other)"
+  },
+  "unpaid_leave": {
+   "components": [
+    "indiana_university_c5",
+    "indiana_university_c7",
+    "indiana_university_c8",
+    "indiana_university_c10",
+    "indiana_university_c11"
+   ]
+  },
+  "tenure_clock": {
+   "components": [
+    "indiana_university_c12",
+    "indiana_university_c13",
+    "indiana_university_c14"
+   ]
+  },
+  "part_time_option": {
+   "absent": "all sources searched for 'part-time', 'half-time', 'reduced appointment', 'phased': none for faculty parents (part-time appointees are excluded from ACA-50)"
+  },
+  "other": {
+   "components": [
+    "indiana_university_c15"
+   ]
+  }
+ },
+ "baseline_accounting": {
+  "Family and Medical Leave Act (FMLA)": {
+   "components": [
+    "indiana_university_c7",
+    "indiana_university_c8"
+   ]
+  },
+  "Federal Employee Paid Leave Act (paid parental leave for federal civilian employees)": {
+   "not_applicable": "federal civilian employees only; no saved document mentions it"
+  }
+ },
+ "leave_limits": [
+  {
+   "weeks": 12,
+   "components": [
+    "indiana_university_c1",
+    "indiana_university_c9"
+   ],
+   "roles": [
+    "birth",
+    "nonbirth"
+   ],
+   "note": "'up to twelve weeks of fully or partially paid leave for either or both of the following events' (family formation, family care); 'The first week of any family leave begins the period for calculating both the twelve weeks and five-year eligibility period.'",
+   "evidence": [
+    "Family leave provides eligible academic appointees with up to twelve weeks of fully or partially paid leave for either or both of the following events:",
+    "The first week of any family leave begins the period for calculating both the twelve weeks and five-year eligibility period."
+   ],
+   "decision_log": [
+    {
+     "field": "leave_limits",
+     "rule": "R20",
+     "answer": "12 weeks (stated in weeks) across family formation (c1) and family care (c9), both roles",
+     "quote": "Family leave provides eligible academic appointees with up to twelve weeks of fully or partially paid leave for either or both of the following events:"
+    }
+   ]
+  }
+ ],
+ "components": [
+  {
+   "component_id": "indiana_university_c1",
+   "institution_label": "Paid Family Leave for Academic Appointees",
+   "description": "ACA-50 paid family leave for family formation: up to 12 weeks at full salary for the birth or adoption of a child by the appointee or the appointee's spouse or domestic partner, after one year of service.",
+   "mechanism": "employer_paid_leave",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "All full-time academic appointees with, at least, one year of service (10- and 12-month appointees; visiting, adjunct, part-time, post-doctoral and intermittent appointees not eligible; School of Medicine clinical faculty governed by a separate School of Medicine policy)",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "the birth or adoption of a child by the academic appointee or the academic appointee’s spouse or domestic partner",
+   "caregiver_condition": "none",
+   "service_requirement": "one year of continuous full-time Indiana University service",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "V2: the policy provides the leave to eligible appointees ('Family leave provides eligible academic appointees with up to twelve weeks'; 'are eligible for family leave'); approval is routine through a request form (2012 VPFAA chart). The approval covers the arrangements, not whether there is a leave.",
+   "duration": {
+    "value": 12,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "duration_note": "'up to twelve weeks'; 'paid leave periods will vary by need and circumstance and may extend across semesters'; semester breaks count in the leave period. The 12 weeks are shared with family-care leave (c9): leave_limits.",
+   "pay_fraction": "full salary",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_note": "Stated: 'An appointee should not be expected to perform duties while on leave, to make up time or work, or to be on call in clinical settings.' Absences of three weeks or less are arranged informally in the department.",
+   "time_window": "must be concluded within six months of the birth of the child or the date on which the child is placed in the physical custody of the appointee",
+   "use_limit": [
+    {
+     "times": 2,
+     "per": "window",
+     "window_years": 5,
+     "counts": "uses"
+    }
+   ],
+   "use_limit_note": "'Academic appointees may take family leave up to twice every five years'; 'The first week of any family leave begins the period for calculating both the twelve weeks and five-year eligibility period.'",
+   "return_obligation": "must return to full-time service for at least one fall or spring semester between leaves (five months for non-teaching appointments)",
+   "runs_concurrently_with": [
+    "FMLA"
+   ],
+   "sequence": [
+    {
+     "relation": "also_available",
+     "component_id": "indiana_university_c2",
+     "roles": [
+      "birth"
+     ],
+     "note": "ACA-50: family leave is 'separate from and in addition to sick leave, including pregnancy-related leave'; no order stated in the policy. The 2012 VPFAA chart: pregnancy leave 'may be combined with paid family leave providing 18 weeks at full-pay'."
+    }
+   ],
+   "rule_applied": [
+    "V2",
+    "R4",
+    "U9",
+    "R15",
+    "U8",
+    "source_precedence"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "All full-time academic appointees with, at least, one year of service."
+    ],
+    "eligible_parent": [
+     "Family formation, which includes the birth or adoption of a child by the academic appointee or the academic appointee’s spouse or domestic partner,"
+    ],
+    "entitlement": [
+     "Family leave provides eligible academic appointees with up to twelve weeks of fully or partially paid leave for either or both of the following events:"
+    ],
+    "duration": [
+     "Family leave provides eligible academic appointees with up to twelve weeks of fully or partially paid leave for either or both of the following events:"
+    ],
+    "pay_fraction": [
+     "Leaves for the purpose of family formation shall be at full salary for the duration of the leave period covered by this policy."
+    ],
+    "relief": [
+     "An appointee should not be expected to perform duties while on leave, to make up time or work, or to be on call in clinical settings. The leave is intended to relieve the appointee of responsibilities so he or she may attend to the family need."
+    ],
+    "service_requirement": [
+     "All full-time academic appointees with, at least, one year of service.",
+     "The change in eligibility from two years of required service to one year is effective beginning August 1, 2017"
+    ],
+    "use_limit": [
+     "Academic appointees may take family leave up to twice every five years, but the appointee must return to full-time service for at least one fall or spring semester between leaves.",
+     "The first week of any family leave begins the period for calculating both the twelve weeks and five-year eligibility period."
+    ],
+    "time_window": [
+     "leave must be concluded within six months of the birth of the child or the date on which the child is placed in the physical custody of the academic appointee."
+    ],
+    "sequence": [
+     "Family leave is separate from and in addition to sick leave, including pregnancy-related leave for the academic employee.",
+     "family leave providing 18 weeks at full-pay."
+    ],
+    "runs_concurrently_with": [
+     "Leave taken pursuant to this policy shall fulfill all or part of the requirements of the federal Family and Medical Leave Act."
+    ],
+    "return_obligation": [
+     "Academic appointees may take family leave up to twice every five years, but the appointee must return to full-time service for at least one fall or spring semester between leaves."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link",
+    "2018_06_vpfaa_faculty_leaves_tenure_clock_chart_2012"
+   ],
+   "flags": [
+    "conflicting_sources: 2018_06_vpfaa_faculty_leaves_tenure_clock_chart_2012, 2018_00_link",
+    "cross_reference_not_saved: School of Medicine family-leave policy (clinical faculty)",
+    "ambiguous: restriction: absences of three weeks or less are arranged informally within the department, not under the policy"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "employer_paid_leave",
+     "quote": "Leaves for the purpose of family formation shall be at full salary for the duration of the leave period covered by this policy."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "Leaves for the purpose of family formation shall be at full salary for the duration of the leave period covered by this policy."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Family formation, which includes the birth or adoption of a child by the academic appointee or the academic appointee’s spouse or domestic partner,"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "All full-time academic appointees with, at least, one year of service."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "birth_parent, non_birth_parent, adoptive",
+     "quote": "Family formation, which includes the birth or adoption of a child by the academic appointee or the academic appointee’s spouse or domestic partner,"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "Family leave provides eligible academic appointees with up to twelve weeks of fully or partially paid leave for either or both of the following events:"
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "12 weeks, up_to",
+     "quote": "Family leave provides eligible academic appointees with up to twelve weeks of fully or partially paid leave for either or both of the following events:"
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "full salary",
+     "quote": "Leaves for the purpose of family formation shall be at full salary for the duration of the leave period covered by this policy."
+    },
+    {
+     "field": "relief",
+     "rule": "R4",
+     "answer": "all duties relieved (stated)",
+     "quote": "An appointee should not be expected to perform duties while on leave, to make up time or work, or to be on call in clinical settings. The leave is intended to relieve the appointee of responsibilities so he or she may attend to the family need."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "source_precedence",
+     "answer": "one year (ACA-50, effective 2017-08-01) governs over the 2012 chart's two years; U8's two-year member qualifies either way",
+     "quote": "The change in eligibility from two years of required service to one year is effective beginning August 1, 2017"
+    },
+    {
+     "field": "use_limit",
+     "rule": "U9",
+     "answer": "2 uses per 5-year window",
+     "quote": "Academic appointees may take family leave up to twice every five years, but the appointee must return to full-time service for at least one fall or spring semester between leaves."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "also_available with the pregnancy leave (c2), birth parent only; no order stated",
+     "quote": "Family leave is separate from and in addition to sick leave, including pregnancy-related leave for the academic employee."
+    }
+   ]
+  },
+  {
+   "component_id": "indiana_university_c2",
+   "institution_label": "pregnancy leave",
+   "description": "ACA-49 pregnancy leave: from up to two weeks before the expected delivery through up to four weeks after it, at full salary for up to six weeks.",
+   "mechanism": "employer_childbirth_benefit",
+   "payer": "employer",
+   "mechanism_note": "V1: a childbirth-specific period (up to two weeks before delivery through up to four weeks after), a length (up to six weeks) and a pay level (full salary) are all stated; it is paid on the sick-leave terms (pregnancy treated like any temporary medical disability), so the half-pay continuation 'when medically required' is a separate generic component (c3).",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "A pregnant academic appointee (ACA-49 scope: All academic appointees)",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "A pregnant academic appointee",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "V2: 'may take, but is not required to take' (the appointee elects it); its pay 'shall be paid'. The 2012 chart: 'Routine approvals through department'.",
+   "duration": {
+    "value": 6,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "duration_note": "Up to two weeks before the expected delivery plus up to four weeks after it, 'and such additional time as is medically required' (the additional time is paid at 50% for the balance of the semester: c3). Pay: 'up to six weeks’ full salary during the leave'.",
+   "pay_fraction": "full salary",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "time_window": "from up to two weeks prior to expected delivery date through up to four weeks following delivery",
+   "medical_certification": false,
+   "medical_certification_note": "None stated for the first six weeks; time beyond them is 'when medically required'.",
+   "rule_applied": [
+    "V1",
+    "R2",
+    "V2",
+    "R9",
+    "R13",
+    "R5"
+   ],
+   "evidence": {
+    "mechanism": [
+     "A pregnant academic appointee may take, but is not required to take, a leave, to be known as a pregnancy leave, extending from up to two weeks prior to expected delivery date through up to four weeks following delivery and such additional time as is medically required.",
+     "Appointees on pregnancy leave shall be paid up to six weeks’ full salary during the leave and 50% for the balance of the semester when medically required."
+    ],
+    "faculty_group": [
+     "A pregnant academic appointee may take, but is not required to take, a leave, to be known as a pregnancy leave, extending from up to two weeks prior to expected delivery date through up to four weeks following delivery and such additional time as is medically required.",
+     "All academic appointees."
+    ],
+    "eligible_parent": [
+     "A pregnant academic appointee may take, but is not required to take, a leave, to be known as a pregnancy leave, extending from up to two weeks prior to expected delivery date through up to four weeks following delivery and such additional time as is medically required."
+    ],
+    "entitlement": [
+     "A pregnant academic appointee may take, but is not required to take, a leave, to be known as a pregnancy leave, extending from up to two weeks prior to expected delivery date through up to four weeks following delivery and such additional time as is medically required.",
+     "Appointees on pregnancy leave shall be paid up to six weeks’ full salary during the leave and 50% for the balance of the semester when medically required."
+    ],
+    "duration": [
+     "A pregnant academic appointee may take, but is not required to take, a leave, to be known as a pregnancy leave, extending from up to two weeks prior to expected delivery date through up to four weeks following delivery and such additional time as is medically required.",
+     "Appointees on pregnancy leave shall be paid up to six weeks’ full salary during the leave and 50% for the balance of the semester when medically required."
+    ],
+    "pay_fraction": [
+     "Appointees on pregnancy leave shall be paid up to six weeks’ full salary during the leave and 50% for the balance of the semester when medically required."
+    ],
+    "time_window": [
+     "A pregnant academic appointee may take, but is not required to take, a leave, to be known as a pregnancy leave, extending from up to two weeks prior to expected delivery date through up to four weeks following delivery and such additional time as is medically required."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_aca49_other_leaves_absences_academic_appointees",
+    "2018_06_vpfaa_faculty_leaves_tenure_clock_chart_2012"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "V1",
+     "answer": "employer_childbirth_benefit",
+     "quote": "Appointees on pregnancy leave shall be paid up to six weeks’ full salary during the leave and 50% for the balance of the semester when medically required."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "Appointees on pregnancy leave shall be paid up to six weeks’ full salary during the leave and 50% for the balance of the semester when medically required."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Such pregnancy leave shall be considered to be necessitated by disabilities resulting from pregnancy."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "All academic appointees."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "birth_parent",
+     "quote": "A pregnant academic appointee may take, but is not required to take, a leave, to be known as a pregnancy leave, extending from up to two weeks prior to expected delivery date through up to four weeks following delivery and such additional time as is medically required."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "A pregnant academic appointee may take, but is not required to take, a leave, to be known as a pregnancy leave, extending from up to two weeks prior to expected delivery date through up to four weeks following delivery and such additional time as is medically required."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "6 weeks, up_to (2 before + 4 after; pay up to six weeks)",
+     "quote": "Appointees on pregnancy leave shall be paid up to six weeks’ full salary during the leave and 50% for the balance of the semester when medically required."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "full salary",
+     "quote": "Appointees on pregnancy leave shall be paid up to six weeks’ full salary during the leave and 50% for the balance of the semester when medically required."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave, relief not stated)",
+     "quote": "A pregnant academic appointee may take, but is not required to take, a leave, to be known as a pregnancy leave, extending from up to two weeks prior to expected delivery date through up to four weeks following delivery and such additional time as is medically required."
+    }
+   ]
+  },
+  {
+   "component_id": "indiana_university_c3",
+   "institution_label": "",
+   "description": "ACA-49 pregnancy leave continued when medically required: 50% of salary for the balance of the semester after the full-pay weeks.",
+   "mechanism": "generic_sick_or_disability_plan",
+   "payer": "employer",
+   "mechanism_note": "V1 not met for this stage: it runs 'when medically required' (the sick-leave terms applied to pregnancy disability), with no childbirth-specific length; V6 generic plan.",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Appointees on pregnancy leave (ACA-49 scope: All academic appointees)",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "Appointees on pregnancy leave",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 1,
+    "units": "semester",
+    "qualifier": "up_to"
+   },
+   "duration_note": "'50% for the balance of the semester when medically required': coded with the semester as its length, containing the full-pay weeks (c2), by R3b's reading of 'the balance of the semester'; the half-pay part is the semester less the full-pay weeks. A discretionary extension beyond the semester is c4.",
+   "pay_fraction": "50%",
+   "medical_certification": true,
+   "medical_certification_note": "'when medically required'",
+   "sequence": [
+    {
+     "relation": "concurrent_with",
+     "component_id": "indiana_university_c2",
+     "note": "The semester of pay (coded with the semester as its length, R3b reading) starts with the pregnancy leave and contains its six full-pay weeks (c2); overlapping time counts once at the higher pay (R19). Linked on c3 so that c2, shared by both options (c3, c4), is placed independently (R15b)."
+    }
+   ],
+   "rule_applied": [
+    "V1",
+    "V6",
+    "R3b",
+    "U5",
+    "R15b",
+    "R19"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "All academic appointees."
+    ],
+    "eligible_parent": [
+     "Appointees on pregnancy leave shall be paid up to six weeks’ full salary during the leave and 50% for the balance of the semester when medically required."
+    ],
+    "entitlement": [
+     "Appointees on pregnancy leave shall be paid up to six weeks’ full salary during the leave and 50% for the balance of the semester when medically required."
+    ],
+    "duration": [
+     "Appointees on pregnancy leave shall be paid up to six weeks’ full salary during the leave and 50% for the balance of the semester when medically required."
+    ],
+    "pay_fraction": [
+     "Appointees on pregnancy leave shall be paid up to six weeks’ full salary during the leave and 50% for the balance of the semester when medically required."
+    ],
+    "mechanism": [
+     "are to be treated as are any other temporary medical disabilities for purposes of granting sick leave, regardless of marital status."
+    ],
+    "sequence": [
+     "Appointees on pregnancy leave shall be paid up to six weeks’ full salary during the leave and 50% for the balance of the semester when medically required."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_aca49_other_leaves_absences_academic_appointees"
+   ],
+   "flags": [
+    "ambiguous: rule gap: R3b's 'balance of the semester' reading is stated for relief; applied here to half pay for the balance of the semester, coded as one semester containing the full-pay weeks"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "V1",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "Appointees on pregnancy leave shall be paid up to six weeks’ full salary during the leave and 50% for the balance of the semester when medically required."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "Appointees on pregnancy leave shall be paid up to six weeks’ full salary during the leave and 50% for the balance of the semester when medically required."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "are to be treated as are any other temporary medical disabilities for purposes of granting sick leave, regardless of marital status."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "All academic appointees."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent",
+     "quote": "Appointees on pregnancy leave shall be paid up to six weeks’ full salary during the leave and 50% for the balance of the semester when medically required."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "Appointees on pregnancy leave shall be paid up to six weeks’ full salary during the leave and 50% for the balance of the semester when medically required."
+    },
+    {
+     "field": "duration",
+     "rule": "R3b",
+     "answer": "1 semester, up_to (balance of the semester, containing c2)",
+     "quote": "Appointees on pregnancy leave shall be paid up to six weeks’ full salary during the leave and 50% for the balance of the semester when medically required."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "50%",
+     "quote": "Appointees on pregnancy leave shall be paid up to six weeks’ full salary during the leave and 50% for the balance of the semester when medically required."
+    },
+    {
+     "field": "sequence",
+     "rule": "R3b",
+     "answer": "concurrent_with c2 (the semester of pay begins with the pregnancy leave)",
+     "quote": "Appointees on pregnancy leave shall be paid up to six weeks’ full salary during the leave and 50% for the balance of the semester when medically required."
+    }
+   ]
+  },
+  {
+   "component_id": "indiana_university_c4",
+   "institution_label": "",
+   "description": "ACA-49: on recommendation and concurrence, pregnancy leave may be extended beyond the semester when medically required, to a total of six weeks at full pay and nine further weeks at half pay.",
+   "mechanism": "generic_sick_or_disability_plan",
+   "payer": "employer",
+   "mechanism_note": "Medical-need extension on the sick-leave terms; no childbirth-specific length (V1 not met).",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Appointees on pregnancy leave (ACA-49 scope: All academic appointees)",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "the period of pregnancy leave",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "entitlement_note": "V2: 'can be extended' 'Upon recommendation of the chairperson ... followed by concurrence of the appropriate dean or Provost or Chancellor': the approval decides whether.",
+   "duration": {
+    "value": 9,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "duration_note": "'a total maximum of six weeks at full pay and nine additional weeks at one-half pay': the nine half-pay weeks follow the six full-pay weeks (c2). Applies where the semester ends before the medical need does; an alternative to c3's half pay for the balance of the semester.",
+   "pay_fraction": "one-half pay",
+   "medical_certification": true,
+   "medical_certification_note": "'when medically required'",
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "indiana_university_c2"
+    },
+    {
+     "relation": "in_lieu_of",
+     "component_id": "indiana_university_c3",
+     "note": "Either the half pay for the balance of the semester (c3) or, extended beyond the semester, a total of nine half-pay weeks; which applies depends on when the birth falls in the semester."
+    }
+   ],
+   "rule_applied": [
+    "V1",
+    "V6",
+    "V2",
+    "R15",
+    "R15b",
+    "U5"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "All academic appointees."
+    ],
+    "eligible_parent": [
+     "Upon recommendation of the chairperson or immediate supervisor followed by concurrence of the appropriate dean or Provost or Chancellor, the period of pregnancy leave can be extended beyond the limits of a semester to a total maximum of six weeks at full pay and nine additional weeks at one-half pay when medically required."
+    ],
+    "entitlement": [
+     "Upon recommendation of the chairperson or immediate supervisor followed by concurrence of the appropriate dean or Provost or Chancellor, the period of pregnancy leave can be extended beyond the limits of a semester to a total maximum of six weeks at full pay and nine additional weeks at one-half pay when medically required.",
+     "beyond the semester end may be requested if"
+    ],
+    "duration": [
+     "Upon recommendation of the chairperson or immediate supervisor followed by concurrence of the appropriate dean or Provost or Chancellor, the period of pregnancy leave can be extended beyond the limits of a semester to a total maximum of six weeks at full pay and nine additional weeks at one-half pay when medically required."
+    ],
+    "pay_fraction": [
+     "Upon recommendation of the chairperson or immediate supervisor followed by concurrence of the appropriate dean or Provost or Chancellor, the period of pregnancy leave can be extended beyond the limits of a semester to a total maximum of six weeks at full pay and nine additional weeks at one-half pay when medically required."
+    ],
+    "sequence": [
+     "Upon recommendation of the chairperson or immediate supervisor followed by concurrence of the appropriate dean or Provost or Chancellor, the period of pregnancy leave can be extended beyond the limits of a semester to a total maximum of six weeks at full pay and nine additional weeks at one-half pay when medically required."
+    ],
+    "mechanism": [
+     "Upon recommendation of the chairperson or immediate supervisor followed by concurrence of the appropriate dean or Provost or Chancellor, the period of pregnancy leave can be extended beyond the limits of a semester to a total maximum of six weeks at full pay and nine additional weeks at one-half pay when medically required."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_aca49_other_leaves_absences_academic_appointees",
+    "2018_06_vpfaa_faculty_leaves_tenure_clock_chart_2012"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "V1",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "Upon recommendation of the chairperson or immediate supervisor followed by concurrence of the appropriate dean or Provost or Chancellor, the period of pregnancy leave can be extended beyond the limits of a semester to a total maximum of six weeks at full pay and nine additional weeks at one-half pay when medically required."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "Upon recommendation of the chairperson or immediate supervisor followed by concurrence of the appropriate dean or Provost or Chancellor, the period of pregnancy leave can be extended beyond the limits of a semester to a total maximum of six weeks at full pay and nine additional weeks at one-half pay when medically required."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Upon recommendation of the chairperson or immediate supervisor followed by concurrence of the appropriate dean or Provost or Chancellor, the period of pregnancy leave can be extended beyond the limits of a semester to a total maximum of six weeks at full pay and nine additional weeks at one-half pay when medically required."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "All academic appointees."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent",
+     "quote": "Upon recommendation of the chairperson or immediate supervisor followed by concurrence of the appropriate dean or Provost or Chancellor, the period of pregnancy leave can be extended beyond the limits of a semester to a total maximum of six weeks at full pay and nine additional weeks at one-half pay when medically required."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "Upon recommendation of the chairperson or immediate supervisor followed by concurrence of the appropriate dean or Provost or Chancellor, the period of pregnancy leave can be extended beyond the limits of a semester to a total maximum of six weeks at full pay and nine additional weeks at one-half pay when medically required."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "9 weeks, up_to (total maximum)",
+     "quote": "Upon recommendation of the chairperson or immediate supervisor followed by concurrence of the appropriate dean or Provost or Chancellor, the period of pregnancy leave can be extended beyond the limits of a semester to a total maximum of six weeks at full pay and nine additional weeks at one-half pay when medically required."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "one-half pay",
+     "quote": "Upon recommendation of the chairperson or immediate supervisor followed by concurrence of the appropriate dean or Provost or Chancellor, the period of pregnancy leave can be extended beyond the limits of a semester to a total maximum of six weeks at full pay and nine additional weeks at one-half pay when medically required."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "consecutive_after c2; in_lieu_of c3 (alternatives set by the timing of the birth)",
+     "quote": "Upon recommendation of the chairperson or immediate supervisor followed by concurrence of the appropriate dean or Provost or Chancellor, the period of pregnancy leave can be extended beyond the limits of a semester to a total maximum of six weeks at full pay and nine additional weeks at one-half pay when medically required."
+    }
+   ]
+  },
+  {
+   "component_id": "indiana_university_c5",
+   "institution_label": "",
+   "description": "ACA-49: beyond the paid pregnancy (or sick) leave periods, or once the disability is recognized as prolonged, the appointee is placed on leave without pay.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Appointees on pregnancy leave; any full-time academic appointee on sick leave (ACA-49 scope: All academic appointees)",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "the individual (on pregnancy leave)",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration_note": "No length stated ('Beyond such periods ... the individual shall be placed on leave without pay'). The sick-leave paragraph states the same for illness.",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "medical_certification": true,
+   "medical_certification_note": "'upon recognition that the disability will be more prolonged'",
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "indiana_university_c3"
+    }
+   ],
+   "rule_applied": [
+    "U5",
+    "U6",
+    "R9",
+    "R15"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "All academic appointees."
+    ],
+    "eligible_parent": [
+     "Beyond such periods or upon recognition that the disability will be more prolonged, the individual shall be placed on leave without pay."
+    ],
+    "entitlement": [
+     "Beyond such periods or upon recognition that the disability will be more prolonged, the individual shall be placed on leave without pay."
+    ],
+    "sequence": [
+     "Beyond such periods or upon recognition that the disability will be more prolonged, the individual shall be placed on leave without pay."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_aca49_other_leaves_absences_academic_appointees"
+   ],
+   "flags": [
+    "open_ended_medical_leave"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "Beyond such periods or upon recognition that the disability will be more prolonged, the individual shall be placed on leave without pay."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Beyond such periods or upon recognition that the disability will be more prolonged, the individual shall be placed on leave without pay."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Beyond such periods or upon recognition that the disability will be more prolonged, the individual shall be placed on leave without pay."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "All academic appointees."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent",
+     "quote": "Beyond such periods or upon recognition that the disability will be more prolonged, the individual shall be placed on leave without pay."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "Beyond such periods or upon recognition that the disability will be more prolonged, the individual shall be placed on leave without pay."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave)",
+     "quote": "Beyond such periods or upon recognition that the disability will be more prolonged, the individual shall be placed on leave without pay."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "consecutive_after c3 ('Beyond such periods')",
+     "quote": "Beyond such periods or upon recognition that the disability will be more prolonged, the individual shall be placed on leave without pay."
+    }
+   ]
+  },
+  {
+   "component_id": "indiana_university_c6",
+   "institution_label": "Sick Leave",
+   "description": "ACA-49 sick leave for any full-time academic appointee: six weeks at full salary, then 50% for the balance of the semester; discretionary extension to six weeks full and nine weeks half pay; then leave without pay. Pregnancy disabilities are treated as any other temporary medical disability.",
+   "mechanism": "generic_sick_or_disability_plan",
+   "payer": "employer",
+   "mechanism_note": "Generic plan (R2, V6): childbirth handled like any other temporary disability; the pregnancy-specific restatement is c2-c5.",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "any full-time academic appointee",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "any full-time academic appointee (own illness)",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 1,
+    "units": "semester",
+    "qualifier": "up_to"
+   },
+   "duration_note": "Six weeks at full salary 'and 50% for the balance of the semester in case the illness continues that long'; the University 'may' extend beyond the semester to a total maximum of six weeks at full pay and nine additional weeks at one-half pay; beyond that, leave without pay (c5).",
+   "pay_fraction": "six weeks’ full salary during the illness and 50% for the balance of the semester",
+   "sequence": [
+    {
+     "relation": "concurrent_with",
+     "component_id": "indiana_university_c2",
+     "note": "For a birth, the pregnancy-leave paragraph (c2-c4) applies these sick-leave terms; the time counts once."
+    }
+   ],
+   "rule_applied": [
+    "R2",
+    "V6",
+    "U5",
+    "R3b",
+    "source_precedence"
+   ],
+   "evidence": {
+    "mechanism": [
+     "are to be treated as are any other temporary medical disabilities for purposes of granting sick leave, regardless of marital status.",
+     "In case of illness of any full-time academic appointee he or she shall be paid six weeks’ full salary during the illness and 50% for the balance of the semester in case the illness continues that long."
+    ],
+    "faculty_group": [
+     "In case of illness of any full-time academic appointee he or she shall be paid six weeks’ full salary during the illness and 50% for the balance of the semester in case the illness continues that long."
+    ],
+    "eligible_parent": [
+     "In case of illness of any full-time academic appointee he or she shall be paid six weeks’ full salary during the illness and 50% for the balance of the semester in case the illness continues that long.",
+     "are to be treated as are any other temporary medical disabilities for purposes of granting sick leave, regardless of marital status."
+    ],
+    "entitlement": [
+     "In case of illness of any full-time academic appointee he or she shall be paid six weeks’ full salary during the illness and 50% for the balance of the semester in case the illness continues that long."
+    ],
+    "duration": [
+     "In case of illness of any full-time academic appointee he or she shall be paid six weeks’ full salary during the illness and 50% for the balance of the semester in case the illness continues that long.",
+     "Where prognosis for early recovery is favorable, the University may, upon recommendation of the chairperson or immediate supervisor followed by concurrence of the appropriate dean, provost or chancellor, extend the period of sick leave beyond the limits of one semester to a total maximum of six weeks at full pay and nine additional weeks at one-half pay."
+    ],
+    "pay_fraction": [
+     "In case of illness of any full-time academic appointee he or she shall be paid six weeks’ full salary during the illness and 50% for the balance of the semester in case the illness continues that long."
+    ],
+    "sequence": [
+     "are to be treated as are any other temporary medical disabilities for purposes of granting sick leave, regardless of marital status."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_aca49_other_leaves_absences_academic_appointees",
+    "2018_06_vpfaa_faculty_leaves_tenure_clock_chart_2012"
+   ],
+   "flags": [
+    "ambiguous: rule gap: R3b's 'balance of the semester' reading is stated for relief; applied here to staged sick pay for the balance of the semester"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R2",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "are to be treated as are any other temporary medical disabilities for purposes of granting sick leave, regardless of marital status."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "In case of illness of any full-time academic appointee he or she shall be paid six weeks’ full salary during the illness and 50% for the balance of the semester in case the illness continues that long."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "In case of illness of any full-time academic appointee he or she shall be paid six weeks’ full salary during the illness and 50% for the balance of the semester in case the illness continues that long."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "In case of illness of any full-time academic appointee he or she shall be paid six weeks’ full salary during the illness and 50% for the balance of the semester in case the illness continues that long."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent",
+     "quote": "In case of illness of any full-time academic appointee he or she shall be paid six weeks’ full salary during the illness and 50% for the balance of the semester in case the illness continues that long."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "In case of illness of any full-time academic appointee he or she shall be paid six weeks’ full salary during the illness and 50% for the balance of the semester in case the illness continues that long."
+    },
+    {
+     "field": "duration",
+     "rule": "R3b",
+     "answer": "1 semester, up_to (six weeks full then the balance of the semester at 50%)",
+     "quote": "In case of illness of any full-time academic appointee he or she shall be paid six weeks’ full salary during the illness and 50% for the balance of the semester in case the illness continues that long."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "staged: six weeks full salary, then 50%; pay_fraction_pct left empty",
+     "quote": "In case of illness of any full-time academic appointee he or she shall be paid six weeks’ full salary during the illness and 50% for the balance of the semester in case the illness continues that long."
+    },
+    {
+     "field": "sequence",
+     "rule": "source_precedence",
+     "answer": "concurrent_with c2: the pregnancy-specific paragraph governs a birth; time counted once",
+     "quote": "are to be treated as are any other temporary medical disabilities for purposes of granting sick leave, regardless of marital status."
+    }
+   ]
+  },
+  {
+   "component_id": "indiana_university_c7",
+   "institution_label": "federal Family and Medical Leave Act",
+   "description": "FMLA, relied on by ACA-50 (family leave fulfils FMLA requirements): 12 workweeks of job-protected unpaid leave in a 12-month period for a birth, adoption or foster placement, care of a seriously ill spouse, or the employee's own serious health condition.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "eligible employees (ACA-50 applies it to academic appointees' family leave)",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "birth of a son or daughter of the employee; placement ... for adoption or foster care; care for the spouse; own serious health condition",
+   "caregiver_condition": "none",
+   "service_requirement": "12 months and 1,250 hours",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 12,
+    "units": "workweek",
+    "qualifier": "exact"
+   },
+   "duration_note": "'a total of 12 workweeks of leave during any 12-month period' (R13: a stated total with no qualifying word is exact).",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "statute_source": "29 U.S.C. 2612(a)(1)(A)-(D); 29 U.S.C. 2611(2)",
+   "statute_verified": true,
+   "sequence": [
+    {
+     "relation": "concurrent_with",
+     "component_id": "indiana_university_c2",
+     "note": "S1: statutory leave alongside the paid pregnancy leave (birth parent)."
+    },
+    {
+     "relation": "concurrent_with",
+     "component_id": "indiana_university_c1",
+     "note": "S1: 'Leave taken pursuant to this policy shall fulfill all or part of the requirements of the federal Family and Medical Leave Act.' Unpaid remainder: none beyond the paid family leave's 12 weeks."
+    },
+    {
+     "relation": "concurrent_with",
+     "component_id": "indiana_university_c9",
+     "note": "S1: family-care leave also fulfils FMLA."
+    }
+   ],
+   "rule_applied": [
+    "U2",
+    "U4",
+    "S1",
+    "R9",
+    "R13",
+    "U5"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Leave taken pursuant to this policy shall fulfill all or part of the requirements of the federal Family and Medical Leave Act.",
+     "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period for one or more of the following:"
+    ],
+    "eligible_parent": [
+     "Because of the birth of a son or daughter of the employee and in order to care for such son or daughter.",
+     "Because of the placement of a son or daughter with the employee for adoption or foster care.",
+     "In order to care for the spouse, or a son, daughter, or parent, of the employee, if such spouse, son, daughter, or parent has a serious health condition.",
+     "Because of a serious health condition that makes the employee unable to perform the functions of the position of such employee."
+    ],
+    "entitlement": [
+     "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period for one or more of the following:"
+    ],
+    "duration": [
+     "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period for one or more of the following:"
+    ],
+    "service_requirement": [
+     "for at least 12 months by the employer with respect to whom leave is requested under section 2612 of this title; and",
+     "for at least 1,250 hours of service with such employer during the previous 12-month period."
+    ],
+    "sequence": [
+     "Leave taken pursuant to this policy shall fulfill all or part of the requirements of the federal Family and Medical Leave Act."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link",
+    "2026_00_us_fmla_29usc2612",
+    "2026_01_us_fmla_29usc2611_definitions"
+   ],
+   "flags": [
+    "cross_reference_not_saved: FMLA Federal Regulations (29 CFR part 825)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "U4",
+     "answer": "unpaid_leave",
+     "quote": "Leave taken pursuant to this policy shall fulfill all or part of the requirements of the federal Family and Medical Leave Act."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period for one or more of the following:"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Because of the birth of a son or daughter of the employee and in order to care for such son or daughter."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "U4",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Leave taken pursuant to this policy shall fulfill all or part of the requirements of the federal Family and Medical Leave Act."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent, non_birth_parent, adoptive, foster",
+     "quote": "Because of the birth of a son or daughter of the employee and in order to care for such son or daughter."
+    },
+    {
+     "field": "entitlement",
+     "rule": "U2",
+     "answer": "guaranteed",
+     "quote": "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period for one or more of the following:"
+    },
+    {
+     "field": "duration",
+     "rule": "U2",
+     "answer": "12 workweeks, exact",
+     "quote": "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period for one or more of the following:"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U2",
+     "answer": "12 months and 1,250 hours",
+     "quote": "for at least 1,250 hours of service with such employer during the previous 12-month period."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave)",
+     "quote": "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period for one or more of the following:"
+    },
+    {
+     "field": "sequence",
+     "rule": "S1",
+     "answer": "concurrent_with c2, c1 and c9",
+     "quote": "Leave taken pursuant to this policy shall fulfill all or part of the requirements of the federal Family and Medical Leave Act."
+    }
+   ]
+  },
+  {
+   "component_id": "indiana_university_c8",
+   "institution_label": "Family and Medical Leave Act (FMLA) Rights",
+   "description": "HR-05-20: Indiana University's FMLA policy for staff and temporary employees: up to 12 workweeks in a calendar year, extended voluntarily to same-sex domestic partners; staff use accruals first, the remainder unpaid.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "Staff and Temporary employees",
+   "faculty_group_note": "This policy applies to all Staff and Temporary employees in Indiana University.",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "Birth of a child and to care for a newborn child of the employee, spouse as defined by Indiana law, or same-sex domestic partner; placement through adoption or foster care",
+   "caregiver_condition": "none",
+   "service_requirement": "at least 12 months and 1,250 hours worked in the preceding 12 months",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 12,
+    "units": "workweek",
+    "qualifier": "up_to"
+   },
+   "duration_note": "12-month period defined as a calendar year; discretionary further leave under the Discretionary Leave of Absence policy (not saved).",
+   "notice": "at least 30 days advance notice of an anticipated FMLA leave, or as soon as practicable",
+   "statute_source": "29 U.S.C. 2612(a)(1)",
+   "statute_verified": true,
+   "rule_applied": [
+    "U2",
+    "U4",
+    "S1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "This policy applies to all Staff and Temporary employees in Indiana University."
+    ],
+    "eligible_parent": [
+     "Birth of a child and to care for a newborn child of the employee, spouse as defined by Indiana law, or same-sex domestic partner.",
+     "Placement with the employee of a child through adoption or foster care of a child"
+    ],
+    "entitlement": [
+     "In accordance with the FMLA, eligible employees may receive up to a total of 12 weeks of leave in a 12-month period, defined as a calendar year.",
+     "Employees will be entitled to return to the same or an equivalent position at the conclusion of the leave"
+    ],
+    "duration": [
+     "An eligible employee may take up to 12 workweeks of leave during a 12-month period defined as a calendar year."
+    ],
+    "service_requirement": [
+     "The employee must have been employed by IU for at least 12 months.",
+     "For the 12 months immediately preceding the first day of the FMLA leave, the employee must have worked at least 1,250 hours."
+    ],
+    "notice": [
+     "Employees must provide at least 30 days advance notice of an anticipated FMLA leave."
+    ]
+   },
+   "doc_ids": [
+    "2018_05_hr0520_fmla_family_medical_leave"
+   ],
+   "flags": [
+    "cross_reference_not_saved: Discretionary Leave of Absence Policy (HR)",
+    "cross_reference_not_saved: FMLA Procedures (HR)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "U4",
+     "answer": "unpaid_leave",
+     "quote": "When the time off accruals are exhausted, the remainder of the FMLA leave is without pay."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "When the time off accruals are exhausted, the remainder of the FMLA leave is without pay."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Birth of a child and to care for a newborn child of the employee, spouse as defined by Indiana law, or same-sex domestic partner."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "Staff and Temporary employees",
+     "quote": "This policy applies to all Staff and Temporary employees in Indiana University."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "birth_parent, non_birth_parent, adoptive, foster",
+     "quote": "Birth of a child and to care for a newborn child of the employee, spouse as defined by Indiana law, or same-sex domestic partner."
+    },
+    {
+     "field": "entitlement",
+     "rule": "U2",
+     "answer": "guaranteed",
+     "quote": "In accordance with the FMLA, eligible employees may receive up to a total of 12 weeks of leave in a 12-month period, defined as a calendar year."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "12 workweeks, up_to",
+     "quote": "An eligible employee may take up to 12 workweeks of leave during a 12-month period defined as a calendar year."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U2",
+     "answer": "12 months and 1,250 hours",
+     "quote": "For the 12 months immediately preceding the first day of the FMLA leave, the employee must have worked at least 1,250 hours."
+    }
+   ]
+  },
+  {
+   "component_id": "indiana_university_c9",
+   "institution_label": "Paid Family Leave for Academic Appointees",
+   "description": "ACA-50 paid family leave for family care: up to 12 weeks for the primary care of a spouse, domestic partner, parent or dependent child with a serious health condition, at full salary up to $125,000 and reduced above it (not below 50%).",
+   "mechanism": "employer_paid_leave",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "All full-time academic appointees with, at least, one year of service",
+   "eligible_parent": [
+    "non_birth_parent"
+   ],
+   "eligible_parent_wording": "the primary care of an eligible family member (spouse, domestic partner, parent, dependent child)",
+   "caregiver_condition": "primary",
+   "caregiver_condition_wording": "the primary care of an eligible family member with a serious health condition",
+   "service_requirement": "one year of continuous full-time Indiana University service",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "V2: as for family formation (c1): 'Family leave provides eligible academic appointees with up to twelve weeks'.",
+   "duration": {
+    "value": 12,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "duration_note": "Shares the 12 weeks with family-formation leave (c1): 'for either or both of the following events' (leave_limits).",
+   "pay_fraction": "full salary for salaries up to and including $125,000 annually; reduced by 1% for each $2,000 above $125,000, not below 50%",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_note": "Stated: 'An appointee should not be expected to perform duties while on leave'.",
+   "use_limit": [
+    {
+     "times": 2,
+     "per": "window",
+     "window_years": 5,
+     "counts": "uses"
+    }
+   ],
+   "use_limit_note": "'Academic appointees may take family leave up to twice every five years' (any family leave).",
+   "return_obligation": "must return to full-time service for at least one fall or spring semester between leaves",
+   "runs_concurrently_with": [
+    "FMLA"
+   ],
+   "sequence": [
+    {
+     "relation": "also_available",
+     "component_id": "indiana_university_c1",
+     "note": "'for either or both of the following events', within the combined 12 weeks (leave_limits)."
+    }
+   ],
+   "rule_applied": [
+    "U5",
+    "R6",
+    "V2",
+    "R4",
+    "U9",
+    "R20"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "All full-time academic appointees with, at least, one year of service."
+    ],
+    "eligible_parent": [
+     "Family care, which includes the primary care of an eligible family member with a serious health condition."
+    ],
+    "caregiver_condition": [
+     "Family care, which includes the primary care of an eligible family member with a serious health condition."
+    ],
+    "entitlement": [
+     "Family leave provides eligible academic appointees with up to twelve weeks of fully or partially paid leave for either or both of the following events:"
+    ],
+    "duration": [
+     "Family leave provides eligible academic appointees with up to twelve weeks of fully or partially paid leave for either or both of the following events:"
+    ],
+    "pay_fraction": [
+     "Leaves for the purpose of family care shall be covered at the following amounts for the duration of the leave period covered by this policy:",
+     "For eligible academic appointees earning salaries up to and including $125,000 annually, the leave shall be at full salary. For eligible academic appointees earning salaries above $125,000 annually, the percentage of paid leave shall be reduced by 1% for each $2,000 in salary above $125,000. However, the percentage of paid leave shall not fall below 50% of the academic appointee’s salary."
+    ],
+    "relief": [
+     "An appointee should not be expected to perform duties while on leave, to make up time or work, or to be on call in clinical settings. The leave is intended to relieve the appointee of responsibilities so he or she may attend to the family need."
+    ],
+    "service_requirement": [
+     "All full-time academic appointees with, at least, one year of service."
+    ],
+    "use_limit": [
+     "Academic appointees may take family leave up to twice every five years, but the appointee must return to full-time service for at least one fall or spring semester between leaves."
+    ],
+    "sequence": [
+     "Family leave provides eligible academic appointees with up to twelve weeks of fully or partially paid leave for either or both of the following events:"
+    ],
+    "return_obligation": [
+     "Academic appointees may take family leave up to twice every five years, but the appointee must return to full-time service for at least one fall or spring semester between leaves."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link",
+    "2018_06_vpfaa_faculty_leaves_tenure_clock_chart_2012"
+   ],
+   "flags": [
+    "family_illness_leave"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "employer_paid_leave",
+     "quote": "Leaves for the purpose of family care shall be covered at the following amounts for the duration of the leave period covered by this policy:"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "For eligible academic appointees earning salaries up to and including $125,000 annually, the leave shall be at full salary. For eligible academic appointees earning salaries above $125,000 annually, the percentage of paid leave shall be reduced by 1% for each $2,000 in salary above $125,000. However, the percentage of paid leave shall not fall below 50% of the academic appointee’s salary."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Family care, which includes the primary care of an eligible family member with a serious health condition."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "All full-time academic appointees with, at least, one year of service."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "non_birth_parent",
+     "quote": "Family care, which includes the primary care of an eligible family member with a serious health condition."
+    },
+    {
+     "field": "caregiver_condition",
+     "rule": "R6",
+     "answer": "primary",
+     "quote": "Family care, which includes the primary care of an eligible family member with a serious health condition."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "Family leave provides eligible academic appointees with up to twelve weeks of fully or partially paid leave for either or both of the following events:"
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "12 weeks, up_to",
+     "quote": "Family leave provides eligible academic appointees with up to twelve weeks of fully or partially paid leave for either or both of the following events:"
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "full salary up to $125,000, reduced above, floor 50%",
+     "quote": "For eligible academic appointees earning salaries up to and including $125,000 annually, the leave shall be at full salary. For eligible academic appointees earning salaries above $125,000 annually, the percentage of paid leave shall be reduced by 1% for each $2,000 in salary above $125,000. However, the percentage of paid leave shall not fall below 50% of the academic appointee’s salary."
+    },
+    {
+     "field": "relief",
+     "rule": "R4",
+     "answer": "all duties relieved (stated)",
+     "quote": "An appointee should not be expected to perform duties while on leave, to make up time or work, or to be on call in clinical settings. The leave is intended to relieve the appointee of responsibilities so he or she may attend to the family need."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U8",
+     "answer": "one year",
+     "quote": "All full-time academic appointees with, at least, one year of service."
+    },
+    {
+     "field": "use_limit",
+     "rule": "U9",
+     "answer": "2 uses per 5-year window",
+     "quote": "Academic appointees may take family leave up to twice every five years, but the appointee must return to full-time service for at least one fall or spring semester between leaves."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "also_available with c1 ('either or both')",
+     "quote": "Family leave provides eligible academic appointees with up to twelve weeks of fully or partially paid leave for either or both of the following events:"
+    }
+   ]
+  },
+  {
+   "component_id": "indiana_university_c10",
+   "institution_label": "childrearing leaves",
+   "description": "ACA-49 childrearing leave: unpaid leave for mothers and fathers under the leave-without-pay rules (ACA-48: may be granted for one year, extendable a second year for good cause), on conditions agreed with the department head.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "both mothers and fathers; all academic appointees",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent"
+   ],
+   "eligible_parent_wording": "both mothers and fathers",
+   "caregiver_condition": "none",
+   "entitlement": "negotiated",
+   "entitlement_note": "R12: 'shall be available ... under conditions mutually agreed upon between an individual and his or her department head', and 'as prescribed by the policy on leave without pay' (ACA-48: 'may be granted', campus approval). The leave's form is set by agreement with no guaranteed minimum; negotiated even where the grant is also discretionary.",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "at_least"
+   },
+   "duration_max": {
+    "value": 2,
+    "units": "year"
+   },
+   "duration_note": "Length from the leave-without-pay policy (ACA-48): 'may be granted for one year and may be extended for a second year for good cause' (R13b: the conditional extension as duration_max). The 2012 chart: 'Normally restricted to one year'.",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "rule_applied": [
+    "R12",
+    "V2",
+    "R13b",
+    "R9",
+    "source_precedence"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Pregnancy and childrearing shall be considered a permissible purpose for applying for a leave without pay and shall be available as prescribed by the policy on leave without pay, to all academic appointees."
+    ],
+    "eligible_parent": [
+     "A reasonable number of childrearing leaves shall be available under rules normally governing leaves without pay to both mothers and fathers, under conditions mutually agreed upon between an individual and his or her department head."
+    ],
+    "entitlement": [
+     "A reasonable number of childrearing leaves shall be available under rules normally governing leaves without pay to both mothers and fathers, under conditions mutually agreed upon between an individual and his or her department head.",
+     "Pregnancy and childrearing shall be considered a permissible purpose for applying for a leave without pay and shall be available as prescribed by the policy on leave without pay, to all academic appointees.",
+     "If approved by the campus, faculty members may be granted leaves of absence without pay. Such leaves may be granted for one year and may be extended for a second year for good cause."
+    ],
+    "duration": [
+     "If approved by the campus, faculty members may be granted leaves of absence without pay. Such leaves may be granted for one year and may be extended for a second year for good cause."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_aca49_other_leaves_absences_academic_appointees",
+    "2018_02_aca48_leave_without_pay_academic_appointees",
+    "2018_06_vpfaa_faculty_leaves_tenure_clock_chart_2012"
+   ],
+   "flags": [
+    "cross_reference_not_saved: campus criteria and approval process for leaves without pay (ACA-48)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "Pregnancy and childrearing shall be considered a permissible purpose for applying for a leave without pay and shall be available as prescribed by the policy on leave without pay, to all academic appointees."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Pregnancy and childrearing shall be considered a permissible purpose for applying for a leave without pay and shall be available as prescribed by the policy on leave without pay, to all academic appointees."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "A reasonable number of childrearing leaves shall be available under rules normally governing leaves without pay to both mothers and fathers, under conditions mutually agreed upon between an individual and his or her department head."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Pregnancy and childrearing shall be considered a permissible purpose for applying for a leave without pay and shall be available as prescribed by the policy on leave without pay, to all academic appointees."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "birth_parent, non_birth_parent",
+     "quote": "A reasonable number of childrearing leaves shall be available under rules normally governing leaves without pay to both mothers and fathers, under conditions mutually agreed upon between an individual and his or her department head."
+    },
+    {
+     "field": "entitlement",
+     "rule": "R12",
+     "answer": "negotiated",
+     "quote": "A reasonable number of childrearing leaves shall be available under rules normally governing leaves without pay to both mothers and fathers, under conditions mutually agreed upon between an individual and his or her department head."
+    },
+    {
+     "field": "duration",
+     "rule": "R13b",
+     "answer": "1 year at_least, max 2 years (ACA-48)",
+     "quote": "If approved by the campus, faculty members may be granted leaves of absence without pay. Such leaves may be granted for one year and may be extended for a second year for good cause."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave)",
+     "quote": "Pregnancy and childrearing shall be considered a permissible purpose for applying for a leave without pay and shall be available as prescribed by the policy on leave without pay, to all academic appointees."
+    }
+   ]
+  },
+  {
+   "component_id": "indiana_university_c11",
+   "institution_label": "Leave without Pay for Academic Appointees",
+   "description": "ACA-48 leave of absence without pay for faculty, for any reason stated in the request: may be granted for one year and extended a second year for good cause, with campus approval.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "faculty members (scope: All academic appointees)",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "faculty members",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "entitlement_note": "V2: 'may be granted', 'If approved by the campus'; final approval rests with the provost or chancellor.",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "at_least"
+   },
+   "duration_max": {
+    "value": 2,
+    "units": "year"
+   },
+   "duration_note": "'may be granted for one year and may be extended for a second year for good cause' (R13b).",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "rule_applied": [
+    "U1",
+    "V2",
+    "R13b",
+    "R9"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "If approved by the campus, faculty members may be granted leaves of absence without pay. Such leaves may be granted for one year and may be extended for a second year for good cause."
+    ],
+    "eligible_parent": [
+     "If approved by the campus, faculty members may be granted leaves of absence without pay. Such leaves may be granted for one year and may be extended for a second year for good cause."
+    ],
+    "entitlement": [
+     "If approved by the campus, faculty members may be granted leaves of absence without pay. Such leaves may be granted for one year and may be extended for a second year for good cause.",
+     "Additional criteria and the approval process for leaves without pay shall be adopted by the campuses, and final approval shall rest with the provost or chancellor."
+    ],
+    "duration": [
+     "If approved by the campus, faculty members may be granted leaves of absence without pay. Such leaves may be granted for one year and may be extended for a second year for good cause."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_aca48_leave_without_pay_academic_appointees"
+   ],
+   "flags": [
+    "general_purpose",
+    "cross_reference_not_saved: campus criteria and approval process for leaves without pay (ACA-48)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "If approved by the campus, faculty members may be granted leaves of absence without pay. Such leaves may be granted for one year and may be extended for a second year for good cause."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "If approved by the campus, faculty members may be granted leaves of absence without pay. Such leaves may be granted for one year and may be extended for a second year for good cause."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "This request should be accompanied by a brief statement of the reasons for which the leave is sought."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "If approved by the campus, faculty members may be granted leaves of absence without pay. Such leaves may be granted for one year and may be extended for a second year for good cause."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "If approved by the campus, faculty members may be granted leaves of absence without pay. Such leaves may be granted for one year and may be extended for a second year for good cause."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "If approved by the campus, faculty members may be granted leaves of absence without pay. Such leaves may be granted for one year and may be extended for a second year for good cause."
+    },
+    {
+     "field": "duration",
+     "rule": "R13b",
+     "answer": "1 year at_least, max 2 years",
+     "quote": "If approved by the campus, faculty members may be granted leaves of absence without pay. Such leaves may be granted for one year and may be extended for a second year for good cause."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave)",
+     "quote": "If approved by the campus, faculty members may be granted leaves of absence without pay. Such leaves may be granted for one year and may be extended for a second year for good cause."
+    }
+   ]
+  },
+  {
+   "component_id": "indiana_university_c12",
+   "institution_label": "Tenure Clock",
+   "description": "ACA-50: the tenure clock stops during a paid family leave unless the appointee requests otherwise; failure to perform duties during the leave is not considered in evaluation.",
+   "mechanism": "tenure_clock",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "academic appointees on family leave",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "the academic appointee (family leave)",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "entitlement_note": "Automatic: 'the tenure clock stops during a family leave unless the academic appointee requests otherwise'.",
+   "duration_note": "For the duration of the family leave. The 2012 VPFAA chart: adjustments are cumulative, 10 months of leave = one year off the clock.",
+   "rule_applied": [
+    "U1",
+    "V2"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "All full-time academic appointees with, at least, one year of service."
+    ],
+    "eligible_parent": [
+     "Family formation, which includes the birth or adoption of a child by the academic appointee or the academic appointee’s spouse or domestic partner,"
+    ],
+    "entitlement": [
+     "As with sick leaves, the tenure clock stops during a family leave unless the academic appointee requests otherwise."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link",
+    "2018_06_vpfaa_faculty_leaves_tenure_clock_chart_2012"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "As with sick leaves, the tenure clock stops during a family leave unless the academic appointee requests otherwise."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "As with sick leaves, the tenure clock stops during a family leave unless the academic appointee requests otherwise."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "As with sick leaves, the tenure clock stops during a family leave unless the academic appointee requests otherwise."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "All full-time academic appointees with, at least, one year of service."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "birth_parent, non_birth_parent, adoptive",
+     "quote": "Family formation, which includes the birth or adoption of a child by the academic appointee or the academic appointee’s spouse or domestic partner,"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "As with sick leaves, the tenure clock stops during a family leave unless the academic appointee requests otherwise."
+    }
+   ]
+  },
+  {
+   "component_id": "indiana_university_c13",
+   "institution_label": "Status of Time Spent on Leave Without Pay",
+   "description": "ACA-48: a year or semester on leave without pay normally does not count toward tenure (with exceptions for competitive fellowships and full-time faculty service elsewhere), so leave without pay for any purpose stops the tenure clock.",
+   "mechanism": "tenure_clock",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "faculty on leave without pay (scope: All academic appointees)",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "(any appointee on leave without pay)",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "entitlement_note": "Stated as a rule of the policy ('will not be counted'), 'does not normally count', with named exceptions that would count the time.",
+   "duration_note": "For the time on leave without pay. The 2012 VPFAA chart says the opposite for leaves without pay ('Normally does NOT stop the tenure clock unless taken for health or family reasons covered under FMLA'); ACA-48 governs.",
+   "rule_applied": [
+    "U1",
+    "source_precedence"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "If approved by the campus, faculty members may be granted leaves of absence without pay. Such leaves may be granted for one year and may be extended for a second year for good cause."
+    ],
+    "eligible_parent": [
+     "A year or semester on LWOP does not normally count as a year or semester of service to the University, except in the case of recipients of nationally or internationally competitive fellowships."
+    ],
+    "entitlement": [
+     "A year or semester on LWOP does not normally count as a year or semester of service to the University, except in the case of recipients of nationally or internationally competitive fellowships.",
+     "credit toward tenure, except that it may be counted if the leave is spent as a full--time faculty member at some other institution."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_aca48_leave_without_pay_academic_appointees",
+    "2018_06_vpfaa_faculty_leaves_tenure_clock_chart_2012"
+   ],
+   "flags": [
+    "general_purpose",
+    "conflicting_sources: 2018_06_vpfaa_faculty_leaves_tenure_clock_chart_2012, 2018_02_aca48_leave_without_pay_academic_appointees",
+    "cross_reference_not_saved: Understanding on Tenure Status (VPFAA form)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "credit toward tenure, except that it may be counted if the leave is spent as a full--time faculty member at some other institution."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "A year or semester on LWOP does not normally count as a year or semester of service to the University, except in the case of recipients of nationally or internationally competitive fellowships."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "A year or semester on LWOP does not normally count as a year or semester of service to the University, except in the case of recipients of nationally or internationally competitive fellowships."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "If approved by the campus, faculty members may be granted leaves of absence without pay. Such leaves may be granted for one year and may be extended for a second year for good cause."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "A year or semester on LWOP does not normally count as a year or semester of service to the University, except in the case of recipients of nationally or internationally competitive fellowships."
+    },
+    {
+     "field": "entitlement",
+     "rule": "source_precedence",
+     "answer": "guaranteed",
+     "quote": "A year or semester on LWOP does not normally count as a year or semester of service to the University, except in the case of recipients of nationally or internationally competitive fellowships."
+    }
+   ]
+  },
+  {
+   "component_id": "indiana_university_c14",
+   "institution_label": "",
+   "description": "The tenure clock stops during sick leave, including pregnancy leave (ACA-50 'As with sick leaves'; the 2012 VPFAA chart: medical and pregnancy leave automatically stop the clock for the duration of the leave).",
+   "mechanism": "tenure_clock",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "academic appointees on sick or pregnancy leave",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "(appointee on sick leave, including pregnancy leave)",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "entitlement_note": "ACA-50 states it as existing practice ('As with sick leaves, the tenure clock stops'); the chart: 'Automatically stops tenure clock for duration of leave'.",
+   "duration_note": "For the duration of the leave.",
+   "rule_applied": [
+    "U5",
+    "source_precedence"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "As with sick leaves, the tenure clock stops during a family leave unless the academic appointee requests otherwise."
+    ],
+    "eligible_parent": [
+     "Sick leave, including pregnancy, is separate from family leave."
+    ],
+    "entitlement": [
+     "As with sick leaves, the tenure clock stops during a family leave unless the academic appointee requests otherwise.",
+     "Automatically stops tenure clock for duration"
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link",
+    "2018_06_vpfaa_faculty_leaves_tenure_clock_chart_2012"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "As with sick leaves, the tenure clock stops during a family leave unless the academic appointee requests otherwise."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "As with sick leaves, the tenure clock stops during a family leave unless the academic appointee requests otherwise."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "As with sick leaves, the tenure clock stops during a family leave unless the academic appointee requests otherwise."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "As with sick leaves, the tenure clock stops during a family leave unless the academic appointee requests otherwise."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent",
+     "quote": "Sick leave, including pregnancy, is separate from family leave."
+    },
+    {
+     "field": "entitlement",
+     "rule": "source_precedence",
+     "answer": "guaranteed",
+     "quote": "As with sick leaves, the tenure clock stops during a family leave unless the academic appointee requests otherwise."
+    }
+   ]
+  },
+  {
+   "component_id": "indiana_university_c15",
+   "institution_label": "Flexibility and Teaching Assignments",
+   "description": "ACA-50: where a family leave would prevent teaching in two consecutive semesters, the appointee and unit must agree an arrangement (reduced teaching in one or more semesters, partial-semester teaching, additional non-teaching duties, or paid and unpaid leave combined), in writing and approved by the Vice Provost.",
+   "mechanism": "other",
+   "payer": "none",
+   "mechanism_note": "R16: an arrangement of the 12-week family leave across semesters (duties moved or reduced in exchange for the leave), adding no relief of its own; counted in no figure.",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "appointees whose family leave spans two consecutive semesters",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "an appointee (on leave under this policy)",
+   "caregiver_condition": "none",
+   "entitlement": "negotiated",
+   "entitlement_note": "R12: the form is set by agreement with the academic unit ('must reach an agreement'), with no stated minimum.",
+   "rule_applied": [
+    "R16",
+    "R12"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "When a proposed leave under this policy would prevent an appointee from carrying out his or her regular teaching responsibilities in two consecutive semesters, he or she must reach an agreement with the relevant academic unit that meets the needs of both the appointee and the academic unit."
+    ],
+    "eligible_parent": [
+     "When a proposed leave under this policy would prevent an appointee from carrying out his or her regular teaching responsibilities in two consecutive semesters, he or she must reach an agreement with the relevant academic unit that meets the needs of both the appointee and the academic unit."
+    ],
+    "entitlement": [
+     "When a proposed leave under this policy would prevent an appointee from carrying out his or her regular teaching responsibilities in two consecutive semesters, he or she must reach an agreement with the relevant academic unit that meets the needs of both the appointee and the academic unit.",
+     "All agreements must be committed to writing, signed by the appointee and the head of the relevant academic unit, and approved by the Vice Provost for Faculty Affairs or Vice Chancellor of Academic Affairs."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R16",
+     "answer": "other",
+     "quote": "Agreements may include a reduced teaching schedule in one or more semesters"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "When a proposed leave under this policy would prevent an appointee from carrying out his or her regular teaching responsibilities in two consecutive semesters, he or she must reach an agreement with the relevant academic unit that meets the needs of both the appointee and the academic unit."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "When a proposed leave under this policy would prevent an appointee from carrying out his or her regular teaching responsibilities in two consecutive semesters, he or she must reach an agreement with the relevant academic unit that meets the needs of both the appointee and the academic unit."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "When a proposed leave under this policy would prevent an appointee from carrying out his or her regular teaching responsibilities in two consecutive semesters, he or she must reach an agreement with the relevant academic unit that meets the needs of both the appointee and the academic unit."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "birth_parent, non_birth_parent, adoptive",
+     "quote": "When a proposed leave under this policy would prevent an appointee from carrying out his or her regular teaching responsibilities in two consecutive semesters, he or she must reach an agreement with the relevant academic unit that meets the needs of both the appointee and the academic unit."
+    },
+    {
+     "field": "entitlement",
+     "rule": "R12",
+     "answer": "negotiated",
+     "quote": "When a proposed leave under this policy would prevent an appointee from carrying out his or her regular teaching responsibilities in two consecutive semesters, he or she must reach an agreement with the relevant academic unit that meets the needs of both the appointee and the academic unit."
+    }
+   ]
+  },
+  {
+   "component_id": "indiana_university_c16",
+   "institution_label": "",
+   "description": "HR-05-20: staff must use all time-off accruals (compensatory time first, then holidays, income protection (sick) time, vacation, PTO) as part of the 12-week FMLA leave; the remainder is unpaid.",
+   "mechanism": "own_accrual",
+   "payer": "own_balance",
+   "faculty_group": "Staff employees",
+   "faculty_group_note": "staff (temporary employees' FMLA leave is unpaid)",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "staff on FMLA leave",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "must_exhaust_first": [
+    "compensatory"
+   ],
+   "pay_fraction": "time off accruals",
+   "sequence": [
+    {
+     "relation": "within",
+     "component_id": "indiana_university_c8"
+    }
+   ],
+   "rule_applied": [
+    "R1",
+    "S1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Beginning on the first day of the leave, staff must use all time off accruals as part of the 12-week FMLA leave."
+    ],
+    "eligible_parent": [
+     "Beginning on the first day of the leave, staff must use all time off accruals as part of the 12-week FMLA leave."
+    ],
+    "entitlement": [
+     "Beginning on the first day of the leave, staff must use all time off accruals as part of the 12-week FMLA leave."
+    ],
+    "pay_fraction": [
+     "Time off accruals that must be used during FMLA leave include holidays, income protection time (sick time), vacation, and PTO for Professional Staff."
+    ],
+    "sequence": [
+     "Beginning on the first day of the leave, staff must use all time off accruals as part of the 12-week FMLA leave."
+    ]
+   },
+   "doc_ids": [
+    "2018_05_hr0520_fmla_family_medical_leave"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "own_accrual",
+     "quote": "Beginning on the first day of the leave, staff must use all time off accruals as part of the 12-week FMLA leave."
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "own_balance",
+     "quote": "Time off accruals that must be used during FMLA leave include holidays, income protection time (sick time), vacation, and PTO for Professional Staff."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Beginning on the first day of the leave, staff must use all time off accruals as part of the 12-week FMLA leave."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "Staff employees",
+     "quote": "Beginning on the first day of the leave, staff must use all time off accruals as part of the 12-week FMLA leave."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "birth_parent, non_birth_parent, adoptive, foster",
+     "quote": "Beginning on the first day of the leave, staff must use all time off accruals as part of the 12-week FMLA leave."
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "Beginning on the first day of the leave, staff must use all time off accruals as part of the 12-week FMLA leave."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "R1",
+     "answer": "own accruals",
+     "quote": "Time off accruals that must be used during FMLA leave include holidays, income protection time (sick time), vacation, and PTO for Professional Staff."
+    },
+    {
+     "field": "sequence",
+     "rule": "S1",
+     "answer": "within c8 (accruals used as part of the FMLA leave)",
+     "quote": "Beginning on the first day of the leave, staff must use all time off accruals as part of the 12-week FMLA leave."
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "reference date 2018-02-22.",
+  "Governing documents on 2018-02-22: ACA-50 (last updated 10-06-2017), ACA-49 (1974), ACA-48 (2016). HR-05-20 (FMLA, last updated 10-24-2017) covers staff and temporary employees only. 2018_06_vpfaa_faculty_leaves_tenure_clock_chart_2012 is a 2012 VPFAA explanatory chart (captured 2015); it is guidance, partly stale (it states two years of service for paid family leave; ACA-50 changed this to one year from 2017-08-01). Used only for details consistent with the governing documents; conflicts flagged on c1 and c13.",
+  "2018_03_aca22_reappointment_probationary_period (ACA-22) and 2018_04_aca37_faculty_librarian_tenure (ACA-37) contain no leave, parental or tenure-clock-stop provision; recorded as not relevant.",
+  "Birth parent chain: pregnancy leave 6 weeks full pay (c2; c3, concurrent with it: half pay for the balance of the semester when medically required, containing c2; c4 discretionary extension to 9 half-pay weeks, in lieu of c3; c5 leave without pay after the paid periods; c6 general sick pay concurrent with c2) -> family-formation leave 12 weeks full salary (c1, also_available after c2; the 2012 chart: combined 18 weeks at full pay); FMLA 12 workweeks (c7) concurrent from the start of c2; childrearing leave without pay (c10, negotiated) unlinked.",
+  "Non-birth parent chain: family-formation leave 12 weeks (c1) and family-care leave (c9, care of the birth parent, U5) also_available, within the combined 12-week leave limit; FMLA 12 workweeks (c7) concurrent with them; childrearing leave without pay (c10, negotiated) unlinked.",
+  "c10 (childrearing leave without pay) is not linked to the paid leaves: ACA-49 makes it available under the leave-without-pay rules on agreed conditions, and no text places it before, after or alongside the pregnancy or family leave. ACA-50's flexibility clause mentions 'a combination of paid and unpaid leave' only within agreements for leaves spanning two semesters (c15).",
+  "c10 and c11 describe the same leave-without-pay mechanism: c10 is ACA-49's dedicated childrearing provision (C1), c11 the general ACA-48 policy (general_purpose, U1). Not linked; c11 counts in no figure.",
+  "Cited but not saved: School of Medicine family-leave policy (ACA-50); campus criteria and approval process for leaves without pay (ACA-48); IU HR policy 'Health Care Benefits During An Unpaid Leave of Absence' (ACA-48; benefits only); FMLA Procedures, FMLA Q and A, 29 CFR part 825 and the Discretionary Leave of Absence Policy (HR-05-20); PFL request form and 'Understanding on Tenure Status' (VPFAA chart); FIN-ACC-I-610 Allowable Travel Payments (ACA-48/49; not leave)."
+ ],
+ "statutory_floor": {
+  "jurisdiction": "US",
+  "year": "2018",
+  "weeks_birth": 12.0,
+  "weeks_nonbirth": 12.0,
+  "statute": "Family and Medical Leave Act (FMLA) (29 U.S.C. 2611-2612)",
+  "source_doc": "2026_00_us_fmla_29usc2612",
+  "table": "statutory_baseline.csv"
+ }
+}

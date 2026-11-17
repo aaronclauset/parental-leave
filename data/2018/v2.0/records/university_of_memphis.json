@@ -1,0 +1,1783 @@
+{
+ "institution": "University of Memphis",
+ "slug": "university_of_memphis",
+ "country": "US",
+ "model": "claude-opus-5-5",
+ "codebook_version": "1.25",
+ "schema_version": "1.25",
+ "reference_date": "2018-03-13",
+ "calendar": {
+  "term_weeks": null,
+  "note": "semester calendar stated without a length (\"fall and spring semesters\"); R8 default",
+  "kind": "semester"
+ },
+ "documents": [
+  {
+   "doc_id": "2018_01_paid_parental_leave_hr5024_ex_um1853",
+   "url": "https://www.memphis.edu/policies/policy-files/hr5024-paid-parental-leave-540.pdf",
+   "title": "HR5024 (ex UM1853) Paid Parental Leave",
+   "version_or_effective_date": "UM1853 created December 8, 2017; renumbered HR5024 March 22, 2018",
+   "retrieved": "2026-10-22T06:44:59+00:00"
+  },
+  {
+   "doc_id": "2018_02_faculty_handbook_2015",
+   "url": "http://www.memphis.edu/aa/resources/facres/facultyhandbook/docs/2015_faculty_handbook.pdf",
+   "title": "2015 Faculty Handbook (revised June 2015)",
+   "version_or_effective_date": "Revised June 2015 (current edition on the reference date per the Oct 2017 index page)",
+   "retrieved": "2026-10-22T06:45:07+00:00"
+  },
+  {
+   "doc_id": "2018_03_aa_faculty_handbook_index_oct2017",
+   "url": "http://www.memphis.edu:80/aa/resources/facres/facultyhandbook",
+   "title": "Academic Affairs Faculty Handbook index page (captured 2017-10-14)",
+   "version_or_effective_date": "capture 2017-10-14",
+   "retrieved": "2026-10-22T06:45:12+00:00"
+  },
+  {
+   "doc_id": "2018_04_sick_leave_hr5022_ex_um1544",
+   "url": "https://www.memphis.edu/policies/policy-files/hr5022-sick-leave-538.pdf",
+   "title": "HR5022 (ex UM1544) Sick Leave",
+   "version_or_effective_date": "UM1544 revised September 8, 2017; renumbered HR5022 March 22, 2018",
+   "retrieved": "2026-10-22T06:45:17+00:00"
+  },
+  {
+   "doc_id": "2018_05_fmla_hr5028_ex_um1569",
+   "url": "https://www.memphis.edu/policies/policy-files/hr5028-family-medical-and-service-member-leave-544.pdf",
+   "title": "HR5028 (ex UM1569) Family, Medical and Servicemember Leave",
+   "version_or_effective_date": "UM1569 revised June 14, 2017; renumbered HR5028 April 26, 2018",
+   "retrieved": "2026-10-22T06:45:22+00:00"
+  },
+  {
+   "doc_id": "2018_06_leaves_of_absence_um1572",
+   "url": "http://umwa.memphis.edu/umpolicies/UM1572.htm",
+   "title": "UM1572 Leaves of Absence",
+   "version_or_effective_date": "UM1572 Rev.1 August 26, 2008 (superseded by HR5025 May 1, 2018)",
+   "retrieved": "2026-10-22T06:45:27+00:00"
+  },
+  {
+   "doc_id": "2018_07_nine_month_faculty_sick_leave_hr5030_ex_um1791",
+   "url": "https://www.memphis.edu/policies/policy-files/hr5030-nine-month-faculty-sick-leave-reporting-546.pdf",
+   "title": "HR5030 (ex UM1791) Nine-Month Faculty Sick Leave Reporting",
+   "version_or_effective_date": "UM1791 created April 28, 2016; renumbered HR5030 March 29, 2018",
+   "retrieved": "2026-10-22T06:45:31+00:00"
+  }
+ ],
+ "missing": false,
+ "scope_accounting": {
+  "C1": {
+   "components": [
+    "university_of_memphis_c1",
+    "university_of_memphis_c7"
+   ]
+  },
+  "C2": {
+   "components": [
+    "university_of_memphis_c2"
+   ]
+  },
+  "C3": {
+   "components": [
+    "university_of_memphis_c8",
+    "university_of_memphis_c9"
+   ]
+  },
+  "C4": {
+   "components": [
+    "university_of_memphis_c5",
+    "university_of_memphis_c6",
+    "university_of_memphis_c7"
+   ],
+   "not_components": [
+    {
+     "statute": "FMLA other sections (military caregiver leave, qualifying exigency; 29 U.S.C. 2612(a)(1)(E), (a)(3))",
+     "reason": "not leave for becoming a parent; the documents' birth, placement, own-health and family-care sections are c5 (U4)"
+    },
+    {
+     "statute": "Animal Welfare Act (9 CFR Ch. 1) and PHS regulations",
+     "reason": "research compliance; unrelated to becoming a parent (U4)"
+    },
+    {
+     "statute": "45 CFR 46 and 21 CFR 50.56 (human subjects)",
+     "reason": "research compliance (U4)"
+    },
+    {
+     "statute": "Tenn. Code Ann. 49-8-201 to 49-8-203 (Tennessee Board of Regents)",
+     "reason": "governance (U4)"
+    },
+    {
+     "statute": "Tenn. Code Ann. 49-5-406 (applicant disclosure)",
+     "reason": "hiring (U4)"
+    },
+    {
+     "statute": "Tennessee Public Records Act, Tenn. Code Ann. 10-7-503, 504 (Open Records Law)",
+     "reason": "records disclosure (U4)"
+    },
+    {
+     "statute": "Tenn. Code Ann. 8-31-100 et seq. (nepotism)",
+     "reason": "employment of relatives (U4)"
+    },
+    {
+     "statute": "Title VII of the Civil Rights Act of 1964; Title IX of the Education Amendments of 1972",
+     "reason": "anti-harassment and equal treatment named without any leave or pregnancy provision (U4)"
+    },
+    {
+     "statute": "Tenn. Code Ann. 49-8-302 (termination for adequate cause)",
+     "reason": "tenure termination (U4)"
+    },
+    {
+     "statute": "Family Educational Rights and Privacy Act (FERPA, Buckley Amendment)",
+     "reason": "student records (U4)"
+    },
+    {
+     "statute": "OSHA Laboratory Standard 29 CFR 1910.1450; Bloodborne Pathogens Standard 29 CFR 1910.1030; federal select-agent laws",
+     "reason": "laboratory safety (U4)"
+    },
+    {
+     "statute": "Tenn. Code Ann. 49-5-410 (extra compensation course limit)",
+     "reason": "pay limits (U4)"
+    },
+    {
+     "statute": "OMB Circular A-21; IRS rules for 403(b)/401(k) plans; Tennessee Consolidated Retirement System",
+     "reason": "cost principles, tax-deferred savings and retirement (U4)"
+    },
+    {
+     "statute": "workers' compensation (named in HR5022 and UM1572)",
+     "reason": "work injury pay, not leave for becoming a parent (U4)"
+    }
+   ]
+  },
+  "C5": {
+   "components": [
+    "university_of_memphis_c5",
+    "university_of_memphis_c8"
+   ]
+  },
+  "C6": {
+   "components": [
+    "university_of_memphis_c10"
+   ]
+  },
+  "C7": {
+   "components": [
+    "university_of_memphis_c3",
+    "university_of_memphis_c4"
+   ]
+  },
+  "C8": {
+   "absent": {
+    "documents": [
+     "2018_01_paid_parental_leave_hr5024_ex_um1853",
+     "2018_02_faculty_handbook_2015",
+     "2018_03_aa_faculty_handbook_index_oct2017",
+     "2018_04_sick_leave_hr5022_ex_um1544",
+     "2018_05_fmla_hr5028_ex_um1569",
+     "2018_06_leaves_of_absence_um1572",
+     "2018_07_nine_month_faculty_sick_leave_hr5030_ex_um1791"
+    ],
+    "terms": [
+     "part-time",
+     "reduced schedule",
+     "reduced load",
+     "phased",
+     "FTE"
+    ]
+   }
+  },
+  "C9": {
+   "absent": {
+    "documents": [
+     "2018_01_paid_parental_leave_hr5024_ex_um1853",
+     "2018_02_faculty_handbook_2015",
+     "2018_03_aa_faculty_handbook_index_oct2017",
+     "2018_04_sick_leave_hr5022_ex_um1544",
+     "2018_05_fmla_hr5028_ex_um1569",
+     "2018_06_leaves_of_absence_um1572",
+     "2018_07_nine_month_faculty_sick_leave_hr5030_ex_um1791"
+    ],
+    "terms": [
+     "pregnancy",
+     "accommodation",
+     "transfer",
+     "hazard",
+     "light duty"
+    ]
+   }
+  },
+  "C10": {
+   "absent": {
+    "documents": [
+     "2018_01_paid_parental_leave_hr5024_ex_um1853",
+     "2018_02_faculty_handbook_2015",
+     "2018_03_aa_faculty_handbook_index_oct2017",
+     "2018_04_sick_leave_hr5022_ex_um1544",
+     "2018_05_fmla_hr5028_ex_um1569",
+     "2018_06_leaves_of_absence_um1572",
+     "2018_07_nine_month_faculty_sick_leave_hr5030_ex_um1791"
+    ],
+    "terms": [
+     "FMLA",
+     "first days",
+     "paid FMLA",
+     "substitution"
+    ]
+   }
+  }
+ },
+ "passage_dispositions": {
+  "2018_01_paid_parental_leave_hr5024_ex_um1853#001": {
+   "used_in": [
+    "university_of_memphis_c1",
+    "university_of_memphis_c2",
+    "university_of_memphis_c3",
+    "university_of_memphis_c5",
+    "university_of_memphis_c6",
+    "university_of_memphis_c7"
+   ]
+  },
+  "2018_02_faculty_handbook_2015#001": {
+   "not_relevant": "table of contents (tenure chapter); the sections it lists are coded where relevant"
+  },
+  "2018_02_faculty_handbook_2015#002": {
+   "not_relevant": "table of contents (chapter 8)"
+  },
+  "2018_02_faculty_handbook_2015#003": {
+   "not_relevant": "Undergraduate Council bylaws"
+  },
+  "2018_02_faculty_handbook_2015#004": {
+   "not_relevant": "types of appointments; no leave provision"
+  },
+  "2018_02_faculty_handbook_2015#005": {
+   "not_relevant": "tenure clock start for hires without a terminal degree; not related to becoming a parent"
+  },
+  "2018_02_faculty_handbook_2015#006": {
+   "not_relevant": "chapter contents list"
+  },
+  "2018_02_faculty_handbook_2015#007": {
+   "not_relevant": "evaluation and renewal of tenure-track appointments"
+  },
+  "2018_02_faculty_handbook_2015#008": {
+   "not_relevant": "tenure appeals hearing procedure"
+  },
+  "2018_02_faculty_handbook_2015#009": {
+   "not_relevant": "TBR appeals rule; tenure decisions"
+  },
+  "2018_02_faculty_handbook_2015#010": {
+   "not_relevant": "fast-track and credit for prior service toward the probationary period; not parental"
+  },
+  "2018_02_faculty_handbook_2015#011": {
+   "used_in": [
+    "university_of_memphis_c3",
+    "university_of_memphis_c4"
+   ]
+  },
+  "2018_02_faculty_handbook_2015#012": {
+   "not_relevant": "notice of non-renewal"
+  },
+  "2018_02_faculty_handbook_2015#013": {
+   "not_relevant": "post-tenure review"
+  },
+  "2018_02_faculty_handbook_2015#014": {
+   "not_relevant": "relinquishment of tenure; tenure is kept during approved leaves (no benefit of its own)"
+  },
+  "2018_02_faculty_handbook_2015#015": {
+   "not_relevant": "termination for curricular reasons"
+  },
+  "2018_02_faculty_handbook_2015#016": {
+   "not_relevant": "order of faculty reductions"
+  },
+  "2018_02_faculty_handbook_2015#017": {
+   "not_relevant": "lecturer appointments"
+  },
+  "2018_02_faculty_handbook_2015#018": {
+   "not_relevant": "lecturer criteria"
+  },
+  "2018_02_faculty_handbook_2015#019": {
+   "not_relevant": "lecturer promotion"
+  },
+  "2018_02_faculty_handbook_2015#020": {
+   "not_relevant": "instructor appointments"
+  },
+  "2018_02_faculty_handbook_2015#021": {
+   "not_relevant": "instructor promotion"
+  },
+  "2018_02_faculty_handbook_2015#022": {
+   "not_relevant": "instructor promotion"
+  },
+  "2018_02_faculty_handbook_2015#023": {
+   "not_relevant": "student academic discipline"
+  },
+  "2018_02_faculty_handbook_2015#024": {
+   "not_relevant": "faculty class absences and inclement weather; points to sick leave (coded c8)"
+  },
+  "2018_02_faculty_handbook_2015#025": {
+   "not_relevant": "professional development assignments (not a parental or general leave parents could use for a birth)"
+  },
+  "2018_02_faculty_handbook_2015#026": {
+   "not_relevant": "faculty awards; chapter 8 contents"
+  },
+  "2018_02_faculty_handbook_2015#027": {
+   "not_relevant": "research incentive pay and educational benefits"
+  },
+  "2018_02_faculty_handbook_2015#028": {
+   "used_in": [
+    "university_of_memphis_c10",
+    "university_of_memphis_c8",
+    "university_of_memphis_c9",
+    "university_of_memphis_c5",
+    "university_of_memphis_c4"
+   ]
+  },
+  "2018_02_faculty_handbook_2015#029": {
+   "not_relevant": "IT and bookstore"
+  },
+  "2018_04_sick_leave_hr5022_ex_um1544#001": {
+   "used_in": [
+    "university_of_memphis_c8",
+    "university_of_memphis_c9",
+    "university_of_memphis_c10"
+   ]
+  },
+  "2018_05_fmla_hr5028_ex_um1569#001": {
+   "used_in": [
+    "university_of_memphis_c5"
+   ]
+  },
+  "2018_06_leaves_of_absence_um1572#001": {
+   "used_in": [
+    "university_of_memphis_c10"
+   ]
+  },
+  "2018_07_nine_month_faculty_sick_leave_hr5030_ex_um1791#001": {
+   "used_in": [
+    "university_of_memphis_c8"
+   ]
+  }
+ },
+ "mechanism_slots": {
+  "employer_paid_leave": {
+   "components": [
+    "university_of_memphis_c1"
+   ]
+  },
+  "employer_childbirth_benefit": {
+   "absent": "absent: no dedicated maternity or childbirth pay benefit; pregnancy incapacity is paid only from own sick leave (searched all usable documents for maternity, childbirth, pregnancy, disability)"
+  },
+  "generic_sick_or_disability_plan": {
+   "absent": "absent: no employer sick-pay plan or short-term disability plan is described; short/long-term disability is only named in HR5024 (no saved document) (searched all usable documents for disability, salary continuation, short-term, long-term)"
+  },
+  "own_accrual": {
+   "components": [
+    "university_of_memphis_c8"
+   ]
+  },
+  "donated_leave": {
+   "components": [
+    "university_of_memphis_c9"
+   ]
+  },
+  "government_benefit": {
+   "absent": "absent: no state or federal paid programme for Tennessee is named (searched all usable documents for state program, insurance, benefit, paid family leave)"
+  },
+  "employer_topup": {
+   "absent": "absent: no top-up of a government benefit (searched all usable documents for top-up, supplement, benefit)"
+  },
+  "modified_duties": {
+   "components": [
+    "university_of_memphis_c2"
+   ]
+  },
+  "unpaid_leave": {
+   "components": [
+    "university_of_memphis_c5",
+    "university_of_memphis_c6",
+    "university_of_memphis_c7",
+    "university_of_memphis_c10"
+   ]
+  },
+  "tenure_clock": {
+   "components": [
+    "university_of_memphis_c3",
+    "university_of_memphis_c4"
+   ]
+  },
+  "part_time_option": {
+   "absent": "absent: no reduced or part-time appointment for parents; Paid Parental Leave may be taken on a reduced schedule, which is part of c1 (searched all usable documents for part-time, reduced, FTE, phased)"
+  },
+  "other": {
+   "absent": "absent: no pregnancy accommodation, hazard programme or equal-treatment provision (searched all usable documents for accommodation, transfer, hazard, pregnancy)"
+  }
+ },
+ "baseline_accounting": {
+  "Family and Medical Leave Act (FMLA)": {
+   "components": [
+    "university_of_memphis_c5"
+   ]
+  },
+  "Federal Employee Paid Leave Act (paid parental leave for federal civilian employees)": {
+   "not_applicable": "covers federal civilian employees only; not named in any saved document"
+  },
+  "Tennessee Maternity Leave Act (TMLA)": {
+   "components": [
+    "university_of_memphis_c6"
+   ]
+  }
+ },
+ "leave_limits": [],
+ "components": [
+  {
+   "component_id": "university_of_memphis_c1",
+   "institution_label": "Paid Parental Leave",
+   "description": "Six weeks (225 hours) of paid leave at 100% of base pay for an eligible faculty or staff member (12 months' service) after the birth or adoption of a child, taken within 12 months of the event; concurrent with FMLA and the Tennessee leave statutes.",
+   "mechanism": "employer_paid_leave",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "eligible faculty and staff: \"Full-time and part-time faculty and staff employed by the University in a regular position\"; \"Faculty (includes post-docs) and staff\"",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "\"biological parent(s) or adoptive parent(s)\"; \"Surrogate mothers and sperm donors are not eligible\"",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 6,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "duration_note": "\"up to six (6) weeks (225 hours)\"; prorated by FTE; intermittent or reduced-schedule use needs supervisor approval; unused leave is forfeited 12 months after the birth or adoption.",
+   "pay_fraction": "100 percent of the employee’s base pay rate",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "relief_note": "a paid leave of absence; no relief stated (R9). The department may receive replacement funds to cover courses and essential duties.",
+   "service_requirement": "continuously employed in a regular position for at least 12 months prior to the birth or adoption",
+   "time_window": "within twelve (12) months following the birth or adoption of a child; births or adoptions on or after December 1, 2017",
+   "use_limit": [
+    {
+     "times": 3,
+     "per": "career",
+     "counts": "uses"
+    }
+   ],
+   "use_limit_note": "\"limited to receiving the Paid Parental Leave benefit up to three times during their career at the University, regardless of any breaks in service\"; multiple births at the same time do not increase the leave.",
+   "dual_employee_rule": "each parent may receive up to six (6) weeks (225 hours)",
+   "notice": "Paid Parental Leave Request Form to HR at least three (3) months before the leave, or as soon as practicable; birth or adoption documentation within 30 days",
+   "return_obligation": "reimburse salary paid if the employee does not return or leaves within 90 days, unless employed 5 or more years or the failure is due to a medical condition of the employee or child",
+   "runs_concurrently_with": [
+    "FMLA",
+    "T.C.A. 4-21-408",
+    "T.C.A. 8-50-806"
+   ],
+   "sequence": [
+    {
+     "relation": "within",
+     "component_id": "university_of_memphis_c2",
+     "note": "R3b: the modified-duties period runs to the end of the semester in which the six weeks end, so it is coded as that semester and contains the leave"
+    }
+   ],
+   "rule_applied": [
+    "R9",
+    "R3b",
+    "R15",
+    "S1",
+    "U9",
+    "R5",
+    "V2",
+    "U8"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Full-time and part-time faculty and staff employed by the University in a regular position for at least twelve (12) months prior to the birth or adoption of the child.",
+     "Faculty (includes post-docs) and staff employed in a regular position regardless of FTE."
+    ],
+    "eligible_parent": [
+     "Employee who is the biological parent(s) or adoptive parent(s).",
+     "Surrogate mothers and sperm donors are not eligible for Paid Parental Leave."
+    ],
+    "entitlement": [
+     "An eligible faculty or staff employee will be provided up to six (6) weeks (225 hours) of Paid Parental Leave within twelve (12) months following the birth or adoption of a child."
+    ],
+    "duration": [
+     "An eligible faculty or staff employee will be provided up to six (6) weeks (225 hours) of Paid Parental Leave within twelve (12) months following the birth or adoption of a child."
+    ],
+    "pay_fraction": [
+     "Paid Parental Leave will be paid at 100 percent of the employee’s base pay rate."
+    ],
+    "service_requirement": [
+     "The employee must be continuously employed by the University in a regular position for at least twelve (12) months prior to the birth or adoption of the child."
+    ],
+    "use_limit": [
+     "An eligible faculty or staff employee is limited to receiving the Paid Parental Leave benefit up to three times during their career at the University, regardless of any breaks in service."
+    ],
+    "sequence": [
+     "Faculty may request modified duties at the end of the six (6) weeks of Paid Parental Leave, but not to extend beyond the semester in which the six (6) weeks end.",
+     "Paid Parental Leave will run concurrently with FMLA leave, if the employee meets the eligibility requirements of the FMLA."
+    ],
+    "time_window": [
+     "Paid Parental Leave may be taken within the twelve (12) months following the birth or adoption of a child and is available on a continuous, intermittent (separate blocks of time), or reduced schedule (reduces number of work hours per day or per week) basis.",
+     "The birth or adoption of the child should have taken place no earlier than December 1, 2017."
+    ],
+    "dual_employee_rule": [
+     "If both eligible parents are employed at the University of Memphis, each parent may receive up to six (6) weeks (225 hours) of Paid Parental Leave."
+    ],
+    "notice": [
+     "submit the approved form to the Department of Human Resources for review and processing at least three (3) months prior to the start of the leave."
+    ],
+    "return_obligation": [
+     "If the employee fails to return to work after the period of paid parental leave or returns to work but fails to remain at the University for at least ninety (90) days, the employee must reimburse the University of Memphis the salary paid under this policy, unless employed at the University of Memphis for five (5) or more years."
+    ],
+    "mechanism": [
+     "A period of paid leave of absence (that does not reduce an employee’s balance of any other paid leave)"
+    ]
+   },
+   "doc_ids": [
+    "2018_01_paid_parental_leave_hr5024_ex_um1853"
+   ],
+   "flags": [
+    "version_uncertain: the saved copy is HR5024, renumbered from UM1853 on March 22, 2018 (after the reference date); the copy's links name later policy numbers (HR5025, AA3009), so wording changes at renumbering cannot be ruled out",
+    "cross_reference_not_saved: short/long-term disability plan (named as usable consecutively; no saved document)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "employer_paid_leave",
+     "quote": "A period of paid leave of absence (that does not reduce an employee’s balance of any other paid leave)"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "Paid Parental Leave will be paid at 100 percent of the employee’s base pay rate."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "An eligible faculty or staff employee will be provided up to six (6) weeks (225 hours) of Paid Parental Leave within twelve (12) months following the birth or adoption of a child."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Faculty (includes post-docs) and staff employed in a regular position regardless of FTE."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "birth_parent, non_birth_parent, adoptive (biological parents of either role; surrogate mothers excluded)",
+     "quote": "Employee who is the biological parent(s) or adoptive parent(s)."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "An eligible faculty or staff employee will be provided up to six (6) weeks (225 hours) of Paid Parental Leave within twelve (12) months following the birth or adoption of a child."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "6 weeks, up_to",
+     "quote": "An eligible faculty or staff employee will be provided up to six (6) weeks (225 hours) of Paid Parental Leave within twelve (12) months following the birth or adoption of a child."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "100%",
+     "quote": "Paid Parental Leave will be paid at 100 percent of the employee’s base pay rate."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave, relief not stated)",
+     "quote": "A period of paid leave of absence (that does not reduce an employee’s balance of any other paid leave)"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U8",
+     "answer": "12 months continuous regular employment; the member with two years qualifies",
+     "quote": "The employee must be continuously employed by the University in a regular position for at least twelve (12) months prior to the birth or adoption of the child."
+    },
+    {
+     "field": "use_limit",
+     "rule": "U9",
+     "answer": "3 times per career",
+     "quote": "An eligible faculty or staff employee is limited to receiving the Paid Parental Leave benefit up to three times during their career at the University, regardless of any breaks in service."
+    },
+    {
+     "field": "sequence",
+     "rule": "R3b",
+     "answer": "within c2 (modified duties to the end of the semester in which the six weeks end)",
+     "quote": "Faculty may request modified duties at the end of the six (6) weeks of Paid Parental Leave, but not to extend beyond the semester in which the six (6) weeks end."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_memphis_c2",
+   "institution_label": "",
+   "description": "Faculty may request modified (reduced or changed) duties after the six weeks of Paid Parental Leave, up to the end of the semester in which the six weeks end; chairs and deans are strongly encouraged to accommodate; the modifications are proposed on a form and agreed with the chair, with the dean's help if needed.",
+   "mechanism": "modified_duties",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "\"Faculty\" (Specific Provisions for Faculty) who take Paid Parental Leave",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "faculty taking Paid Parental Leave: \"biological parent(s) or adoptive parent(s)\"",
+   "caregiver_condition": "none",
+   "entitlement": "negotiated",
+   "entitlement_note": "The text gives a right to request (\"may request\") and merely encourages chairs to accommodate (\"strongly encouraged\", V2c); the modifications themselves are proposed by the faculty member and agreed with the chair, with the dean's help where there is no agreement, and no minimum is stated: amount and form set by agreement (R12), which governs even where the grant is also discretionary.",
+   "duration": {
+    "value": 1,
+    "units": "semester",
+    "qualifier": "up_to"
+   },
+   "duration_note": "from the end of the six weeks of Paid Parental Leave to the end of the semester in which they end (\"not to extend beyond\"); coded as that semester, containing the leave (R3b).",
+   "relief": {
+    "teaching": "partially_relieved",
+    "service_admin": "partially_relieved",
+    "research": "partially_relieved",
+    "advising_supervision": "partially_relieved",
+    "clinical": "partially_relieved"
+   },
+   "relief_note": "Duties that may be modified include teaching, clinical field placement, research or clinical laboratory duties, librarian duties, student advising, committee work and other service; the extent is not stated and is agreed case by case. Modified duties are not to be made up later.",
+   "time_window": "at the end of the six weeks of Paid Parental Leave, not beyond the semester in which the six weeks end",
+   "notice": "Modification of Duties Form proposing the specific modifications, filed with HR",
+   "sequence": [],
+   "rule_applied": [
+    "R12",
+    "V2c",
+    "R3",
+    "R3b",
+    "R4"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Faculty may request modified duties at the end of the six (6) weeks of Paid Parental Leave, but not to extend beyond the semester in which the six (6) weeks end."
+    ],
+    "eligible_parent": [
+     "Employee who is the biological parent(s) or adoptive parent(s)."
+    ],
+    "entitlement": [
+     "Faculty may request modified duties at the end of the six (6) weeks of Paid Parental Leave, but not to extend beyond the semester in which the six (6) weeks end.",
+     "Department Chairs, Supervisors, and Deans are strongly encouraged to accommodate requests for temporary assignment of “modified duties”.",
+     "If there is a lack of mutual agreement in the modification of duties requested, faculty and Department Chairs/supervisors may request the assistance of the Dean to reach an agreed-upon solution."
+    ],
+    "duration": [
+     "Faculty may request modified duties at the end of the six (6) weeks of Paid Parental Leave, but not to extend beyond the semester in which the six (6) weeks end."
+    ],
+    "relief": [
+     "Modified duties are considered to include, but should not be limited to, on-site and online duties, including teaching, clinical field placement, research or clinical laboratory duties, librarian duties, student advising, committee work, and other service.",
+     "Any modification in duties is not to be made up at a later date."
+    ],
+    "notice": [
+     "faculty will complete a Modification of Duties Form which will propose their specific modifications."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_paid_parental_leave_hr5024_ex_um1853"
+   ],
+   "flags": [
+    "ambiguous: pay level not stated; full pay inferred (R3)",
+    "version_uncertain: the saved copy is HR5024, renumbered from UM1853 on March 22, 2018 (after the reference date)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "modified_duties",
+     "quote": "Faculty may request modified duties at the end of the six (6) weeks of Paid Parental Leave, but not to extend beyond the semester in which the six (6) weeks end."
+    },
+    {
+     "field": "payer",
+     "rule": "R3",
+     "answer": "employer",
+     "quote": "Faculty may request modified duties at the end of the six (6) weeks of Paid Parental Leave, but not to extend beyond the semester in which the six (6) weeks end."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Faculty may request modified duties at the end of the six (6) weeks of Paid Parental Leave, but not to extend beyond the semester in which the six (6) weeks end."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Faculty may request modified duties at the end of the six (6) weeks of Paid Parental Leave, but not to extend beyond the semester in which the six (6) weeks end."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "birth_parent, non_birth_parent, adoptive (those taking Paid Parental Leave)",
+     "quote": "Employee who is the biological parent(s) or adoptive parent(s)."
+    },
+    {
+     "field": "entitlement",
+     "rule": "R12",
+     "answer": "negotiated",
+     "quote": "If there is a lack of mutual agreement in the modification of duties requested, faculty and Department Chairs/supervisors may request the assistance of the Dean to reach an agreed-upon solution."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2c",
+     "answer": "negotiated",
+     "quote": "Department Chairs, Supervisors, and Deans are strongly encouraged to accommodate requests for temporary assignment of “modified duties”."
+    },
+    {
+     "field": "duration",
+     "rule": "R3b",
+     "answer": "1 semester, up_to (rest of the semester in which the leave ends, containing the leave)",
+     "quote": "Faculty may request modified duties at the end of the six (6) weeks of Paid Parental Leave, but not to extend beyond the semester in which the six (6) weeks end."
+    },
+    {
+     "field": "relief",
+     "rule": "R4",
+     "answer": "named duties partially relieved, extent not stated",
+     "quote": "Modified duties are considered to include, but should not be limited to, on-site and online duties, including teaching, clinical field placement, research or clinical laboratory duties, librarian duties, student advising, committee work, and other service."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_memphis_c3",
+   "institution_label": "Stopping the Clock",
+   "description": "A tenure-track faculty member may request a one-year stop of the tenure clock when circumstances such as childbirth or adoption interrupt progress toward tenure; approved or denied by the president; at most two stops. The Paid Parental Leave policy points parents to this procedure.",
+   "mechanism": "tenure_clock",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "\"A faculty member in a tenure-track position\"",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "\"childbirth or adoption\"; \"Following the birth or adoption of a child, tenure-track faculty\"",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "exact"
+   },
+   "use_limit": [
+    {
+     "times": 2,
+     "per": "career",
+     "counts": "uses"
+    }
+   ],
+   "use_limit_note": "\"A faculty member may apply for a maximum of two (2) 'stop the clock' periods.\"",
+   "notice": "written request through chair, dean and provost to the president; not granted retroactively",
+   "sequence": [],
+   "rule_applied": [
+    "U1",
+    "V2",
+    "U9"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "In such cases, the faculty member may request to stop the clock for one year if he/she demonstrates that circumstances reasonably warrant extension."
+    ],
+    "eligible_parent": [
+     "Examples may include, but are not limited to, childbirth or adoption, care of dependents, medical conditions or obligations, physical disasters or disruptions, or similar circumstances that require a fundamental alteration of one's professional life.",
+     "Following the birth or adoption of a child, tenure-track faculty may request a one-year extension to the tenure clock in accordance with existing “stop the clock” procedures as specified in the Faculty Handbook."
+    ],
+    "entitlement": [
+     "In such cases, the faculty member may request to stop the clock for one year if he/she demonstrates that circumstances reasonably warrant extension.",
+     "and finally to the president for approval or denial."
+    ],
+    "duration": [
+     "In such cases, the faculty member may request to stop the clock for one year if he/she demonstrates that circumstances reasonably warrant extension.",
+     "Following the birth or adoption of a child, tenure-track faculty may request a one-year extension to the tenure clock in accordance with existing “stop the clock” procedures as specified in the Faculty Handbook."
+    ],
+    "use_limit": [
+     "A faculty member may apply for a maximum of two (2) \"stop the"
+    ],
+    "notice": [
+     "\"Stop the clock\" requests will not be granted retroactively."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_faculty_handbook_2015",
+    "2018_01_paid_parental_leave_hr5024_ex_um1853"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "In such cases, the faculty member may request to stop the clock for one year if he/she demonstrates that circumstances reasonably warrant extension."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "In such cases, the faculty member may request to stop the clock for one year if he/she demonstrates that circumstances reasonably warrant extension."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "Examples may include, but are not limited to, childbirth or adoption, care of dependents, medical conditions or obligations, physical disasters or disruptions, or similar circumstances that require a fundamental alteration of one's professional life."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "In such cases, the faculty member may request to stop the clock for one year if he/she demonstrates that circumstances reasonably warrant extension."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent (childbirth or adoption, role-neutral)",
+     "quote": "Examples may include, but are not limited to, childbirth or adoption, care of dependents, medical conditions or obligations, physical disasters or disruptions, or similar circumstances that require a fundamental alteration of one's professional life."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "In such cases, the faculty member may request to stop the clock for one year if he/she demonstrates that circumstances reasonably warrant extension."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 year, exact",
+     "quote": "In such cases, the faculty member may request to stop the clock for one year if he/she demonstrates that circumstances reasonably warrant extension."
+    },
+    {
+     "field": "use_limit",
+     "rule": "U9",
+     "answer": "2 per career",
+     "quote": "A faculty member may apply for a maximum of two (2) \"stop the"
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_memphis_c4",
+   "institution_label": "Leaves of Absence",
+   "description": "The period of any approved leave of absence (including leave without pay) is excluded from the tenure probationary period unless the provost specifies in writing, before approving the leave, that it will be included.",
+   "mechanism": "tenure_clock",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "tenure-track faculty serving the probationary period",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "any faculty member on \"an approved leave of absence\"",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "The exclusion follows automatically once a leave is approved, \"unless\" the provost specifies inclusion in writing before approval (V2b).",
+   "duration_note": "equal to the approved leave's length; no more than one year of an approved leave may be included in the probationary period",
+   "sequence": [],
+   "rule_applied": [
+    "U1",
+    "V2b"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "The period for an approved leave of absence will be excluded from the requisite probationary period unless the provost has specified in writing prior to approving the leave that it will be included."
+    ],
+    "eligible_parent": [
+     "The period for an approved leave of absence will be excluded from the requisite probationary period unless the provost has specified in writing prior to approving the leave that it will be included."
+    ],
+    "entitlement": [
+     "The period for an approved leave of absence will be excluded from the requisite probationary period unless the provost has specified in writing prior to approving the leave that it will be included.",
+     "Leaves without pay are not counted in fulfillment of the probation period for tenure."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_faculty_handbook_2015"
+   ],
+   "flags": [
+    "general_purpose",
+    "conditional_refusal: the provost may specify in writing, before approving the leave, that it will be included in the probationary period"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "The period for an approved leave of absence will be excluded from the requisite probationary period unless the provost has specified in writing prior to approving the leave that it will be included."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "The period for an approved leave of absence will be excluded from the requisite probationary period unless the provost has specified in writing prior to approving the leave that it will be included."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "The period for an approved leave of absence will be excluded from the requisite probationary period unless the provost has specified in writing prior to approving the leave that it will be included."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "The period for an approved leave of absence will be excluded from the requisite probationary period unless the provost has specified in writing prior to approving the leave that it will be included."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent (any approved leave)",
+     "quote": "The period for an approved leave of absence will be excluded from the requisite probationary period unless the provost has specified in writing prior to approving the leave that it will be included."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2b",
+     "answer": "guaranteed_on_request",
+     "quote": "The period for an approved leave of absence will be excluded from the requisite probationary period unless the provost has specified in writing prior to approving the leave that it will be included."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_memphis_c5",
+   "institution_label": "Family, Medical and Servicemember Leave",
+   "description": "Federal FMLA leave as implemented by university policy: up to 12 workweeks of unpaid, job-protected leave in a 12-month period for the birth and care of a newborn, adoption or foster placement, the employee's own serious health condition or care of an ill family member; 12 months and 1,250 hours of service.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "\"eligible employees\"; handbook: \"Faculty are eligible\"",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "\"The birth of a son/daughter and to care for the newborn child\"; \"adoptive or foster care placement\"; own serious health condition; care of an immediate family member",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 12,
+    "units": "workweek",
+    "qualifier": "exact"
+   },
+   "duration_note": "statute: \"a total of 12 workweeks\"; the university policy says \"up to 12 workweeks\"; leave for a birth or placement must end within 12 months of it.",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "service_requirement": "12 months and 1,250 hours during the year preceding the leave",
+   "time_window": "within the 12-month period beginning on the date of the birth or placement",
+   "dual_employee_rule": "spouses both employed by the University: combined total of 12 workweeks for birth, placement or care of a parent",
+   "medical_certification": true,
+   "medical_certification_note": "certification from a health care provider to support the need for leave (for medical reasons)",
+   "statute_source": "29 U.S.C. 2612(a)(1)(A)-(D); eligibility 29 U.S.C. 2611(2)",
+   "statute_verified": true,
+   "runs_concurrently_with": [
+    "sick leave",
+    "accrued compensatory time",
+    "annual leave in excess of 10 days"
+   ],
+   "sequence": [
+    {
+     "relation": "concurrent_with",
+     "component_id": "university_of_memphis_c1",
+     "note": "S1: Paid Parental Leave runs concurrently with FMLA; the unpaid remainder (6 weeks) follows within the 12 workweeks"
+    }
+   ],
+   "rule_applied": [
+    "U2",
+    "U4",
+    "S1",
+    "R13",
+    "R9",
+    "U5",
+    "U8"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "it is the policy of the University of Memphis to provide eligible employees up to 12 workweeks of leave during a 12-month period for family or medical leave",
+     "Faculty are eligible for up to twelve weeks of unpaid leave during a twelve month period for specified family and medical reasons provided they have worked for the State of Tennessee for at least twelve months and at least 1,250 hours during the preceding year."
+    ],
+    "eligible_parent": [
+     "The birth of a son/daughter and to care for the newborn child",
+     "The adoptive or foster care placement of a son or daughter",
+     "An employee’s own serious health condition",
+     "To care for the employee's immediate family member with a serious health condition"
+    ],
+    "entitlement": [
+     "Employees are entitled to 12 weeks of unpaid leave for the following",
+     "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period for one or more of the following"
+    ],
+    "duration": [
+     "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period for one or more of the following"
+    ],
+    "service_requirement": [
+     "In order to be eligible for FMLA, an employee must work for at least 12 months and work at least 1,250 hours during the year preceding the start of the leave.",
+     "for at least 1,250 hours of service with such employer during the previous 12-month period."
+    ],
+    "sequence": [
+     "Paid Parental Leave will run concurrently with FMLA leave, if the employee meets the eligibility requirements of the FMLA."
+    ],
+    "dual_employee_rule": [
+     "Spouses who are both employees of the University are limited to a combined total of 12 workweeks of FMLA leave during a 12-month period"
+    ],
+    "time_window": [
+     "expires at the end of the 12-month period beginning on the date of the birth or placement."
+    ],
+    "medical_certification": [
+     "The University will request a certification from a health care provider to support the need for leave."
+    ],
+    "runs_concurrently_with": [
+     "An employee is required to use, concurrently with the FMLA leave, the following paid leaves in the order listed"
+    ]
+   },
+   "doc_ids": [
+    "2018_05_fmla_hr5028_ex_um1569",
+    "2018_02_faculty_handbook_2015",
+    "2018_01_paid_parental_leave_hr5024_ex_um1853",
+    "2018_06_leaves_of_absence_um1572"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "Employees are entitled to 12 weeks of unpaid leave for the following"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Employees are entitled to 12 weeks of unpaid leave for the following"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "The birth of a son/daughter and to care for the newborn child"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Faculty are eligible for up to twelve weeks of unpaid leave during a twelve month period for specified family and medical reasons provided they have worked for the State of Tennessee for at least twelve months and at least 1,250 hours during the preceding year."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent, non_birth_parent, adoptive, foster (birth, placement, own illness, family care)",
+     "quote": "The birth of a son/daughter and to care for the newborn child"
+    },
+    {
+     "field": "entitlement",
+     "rule": "U2",
+     "answer": "guaranteed",
+     "quote": "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period for one or more of the following"
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "12 workweeks, exact (a total with no qualifying word)",
+     "quote": "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period for one or more of the following"
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave)",
+     "quote": "Employees are entitled to 12 weeks of unpaid leave for the following"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U8",
+     "answer": "12 months and 1,250 hours; the member with two years qualifies",
+     "quote": "In order to be eligible for FMLA, an employee must work for at least 12 months and work at least 1,250 hours during the year preceding the start of the leave."
+    },
+    {
+     "field": "sequence",
+     "rule": "S1",
+     "answer": "concurrent_with c1",
+     "quote": "Paid Parental Leave will run concurrently with FMLA leave, if the employee meets the eligibility requirements of the FMLA."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_memphis_c6",
+   "institution_label": "State of Tennessee Leave for Adoption, Pregnancy, Childbirth and Nursing an Infant",
+   "description": "Tennessee statutory leave (T.C.A. 4-21-408): up to four months of unpaid, job-protected leave for adoption, pregnancy, childbirth and nursing an infant for employees with 12 consecutive months of full-time service; Paid Parental Leave is used concurrently with it.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "\"employees\" (policy definitions); statute: full-time employees with 12 consecutive months' service",
+   "eligible_parent": [
+    "birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "\"adoption, pregnancy, childbirth and nursing an infant\"",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 4,
+    "units": "month",
+    "qualifier": "up_to"
+   },
+   "duration_note": "\"up to four (4) months\" (policy); \"a period not to exceed four (4) months\" (statute); for adoption it begins when the employee receives custody.",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "service_requirement": "at least twelve (12) consecutive months as a full-time employee",
+   "notice": "three months' advance notice (statute), with exceptions for medical emergency or late notice of adoption",
+   "statute_source": "Tenn. Code Ann. 4-21-408(a)",
+   "statute_verified": true,
+   "sequence": [
+    {
+     "relation": "concurrent_with",
+     "component_id": "university_of_memphis_c1",
+     "note": "S1: Paid Parental Leave is used concurrent with this leave"
+    }
+   ],
+   "rule_applied": [
+    "U2",
+    "U4",
+    "S1",
+    "R13",
+    "R9",
+    "U8"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "employees for adoption, pregnancy, childbirth and nursing an infant,"
+    ],
+    "eligible_parent": [
+     "employees for adoption, pregnancy, childbirth and nursing an infant,",
+     "may be absent from such employment for a period not to exceed four (4) months for adoption, pregnancy, childbirth, and nursing an infant, where applicable"
+    ],
+    "entitlement": [
+     "may be absent from such employment for a period not to exceed four (4) months for adoption, pregnancy, childbirth, and nursing an infant, where applicable"
+    ],
+    "duration": [
+     "Provides a period of up to four (4) months of unpaid leave to",
+     "may be absent from such employment for a period not to exceed four (4) months for adoption, pregnancy, childbirth, and nursing an infant, where applicable"
+    ],
+    "service_requirement": [
+     "Employees who have been employed by the same employer for at least twelve (12) consecutive months as full-time employees"
+    ],
+    "sequence": [
+     "Paid Parental Leave is to be used concurrent with FMLA, the State of Tennessee Leave for Adoption, Pregnancy, Childbirth and Nursing an Infant, and the State of Tennessee Leave for Adoptive Parents."
+    ],
+    "notice": [
+     "Employees who give at least three (3) months' advance notice to their employer of their anticipated date of departure for such leave"
+    ],
+    "statute_source": [
+     "accordance with T.C.A. § 4-21-408. With regard to adoption, the four"
+    ],
+    "payer": [
+     "Leave may be with or without pay at the discretion of the employer."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_paid_parental_leave_hr5024_ex_um1853"
+   ],
+   "flags": [
+    "ambiguous: whether a non-birth parent qualifies for leave for \"childbirth\" is not stated; coded birth_parent and adoptive only",
+    "ambiguous: the saved statute text is the 2025 Justia edition (amended 2025, ch. 471); its length and service terms match the policy's 2018 statement"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "Provides a period of up to four (4) months of unpaid leave to"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Provides a period of up to four (4) months of unpaid leave to"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "may be absent from such employment for a period not to exceed four (4) months for adoption, pregnancy, childbirth, and nursing an infant, where applicable"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "employees for adoption, pregnancy, childbirth and nursing an infant,"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "birth_parent, adoptive (pregnancy, childbirth, nursing; adoption)",
+     "quote": "may be absent from such employment for a period not to exceed four (4) months for adoption, pregnancy, childbirth, and nursing an infant, where applicable"
+    },
+    {
+     "field": "entitlement",
+     "rule": "U2",
+     "answer": "guaranteed",
+     "quote": "may be absent from such employment for a period not to exceed four (4) months for adoption, pregnancy, childbirth, and nursing an infant, where applicable"
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "4 months, up_to",
+     "quote": "Provides a period of up to four (4) months of unpaid leave to"
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave)",
+     "quote": "Provides a period of up to four (4) months of unpaid leave to"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U2",
+     "answer": "12 consecutive months full-time",
+     "quote": "Employees who have been employed by the same employer for at least twelve (12) consecutive months as full-time employees"
+    },
+    {
+     "field": "sequence",
+     "rule": "S1",
+     "answer": "concurrent_with c1",
+     "quote": "Paid Parental Leave is to be used concurrent with FMLA, the State of Tennessee Leave for Adoption, Pregnancy, Childbirth and Nursing an Infant, and the State of Tennessee Leave for Adoptive Parents."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_memphis_c7",
+   "institution_label": "State of Tennessee Leave for Adoptive Parents",
+   "description": "Tennessee statutory leave (T.C.A. 8-50-806) of thirty working days of unpaid leave for adoptive parents; Paid Parental Leave is used concurrently with it.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "employees who are adoptive parents (eligibility per T.C.A. 8-50-806)",
+   "eligible_parent": [
+    "adoptive"
+   ],
+   "eligible_parent_wording": "\"adoptive parents\"",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 30,
+    "units": "workday",
+    "qualifier": "exact"
+   },
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "statute_source": "Tenn. Code Ann. 8-50-806",
+   "statute_verified": false,
+   "sequence": [
+    {
+     "relation": "concurrent_with",
+     "component_id": "university_of_memphis_c1",
+     "note": "S1: Paid Parental Leave is used concurrent with this leave"
+    }
+   ],
+   "rule_applied": [
+    "U2",
+    "U4",
+    "S1",
+    "R9",
+    "R11"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "adoptive parents. Employee eligibility for this type of leave must be in"
+    ],
+    "eligible_parent": [
+     "adoptive parents. Employee eligibility for this type of leave must be in"
+    ],
+    "entitlement": [
+     "Provides a period of thirty (30) working days of unpaid leave to"
+    ],
+    "duration": [
+     "Provides a period of thirty (30) working days of unpaid leave to"
+    ],
+    "sequence": [
+     "Paid Parental Leave is to be used concurrent with FMLA, the State of Tennessee Leave for Adoption, Pregnancy, Childbirth and Nursing an Infant, and the State of Tennessee Leave for Adoptive Parents."
+    ],
+    "statute_source": [
+     "accordance with T.C.A. § 8-50-806."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_paid_parental_leave_hr5024_ex_um1853"
+   ],
+   "flags": [
+    "cross_reference_not_saved: T.C.A. 8-50-806 (Tennessee leave for adoptive parents)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "Provides a period of thirty (30) working days of unpaid leave to"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Provides a period of thirty (30) working days of unpaid leave to"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Provides a period of thirty (30) working days of unpaid leave to"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "adoptive parents. Employee eligibility for this type of leave must be in"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "adoptive",
+     "quote": "adoptive parents. Employee eligibility for this type of leave must be in"
+    },
+    {
+     "field": "entitlement",
+     "rule": "U2",
+     "answer": "guaranteed",
+     "quote": "Provides a period of thirty (30) working days of unpaid leave to"
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "30 working days, exact",
+     "quote": "Provides a period of thirty (30) working days of unpaid leave to"
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave)",
+     "quote": "Provides a period of thirty (30) working days of unpaid leave to"
+    },
+    {
+     "field": "sequence",
+     "rule": "S1",
+     "answer": "concurrent_with c1",
+     "quote": "Paid Parental Leave is to be used concurrent with FMLA, the State of Tennessee Leave for Adoption, Pregnancy, Childbirth and Nursing an Infant, and the State of Tennessee Leave for Adoptive Parents."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_memphis_c8",
+   "institution_label": "Sick Leave",
+   "description": "Accrued sick leave (nine-month faculty earn 67.5 hours a year, 7.5 hours a month; no maximum accumulation; no advances), usable for the employee's illness including incapacity due to pregnancy, for maternity and paternity leave, and for serious illness of an immediate family member; runs concurrently with FMLA.",
+   "mechanism": "own_accrual",
+   "payer": "own_balance",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "\"Regular full-time and part-time employees\"; \"Full-time faculty members\"; \"all nine-month faculty members who accumulate sick leave\"",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent"
+   ],
+   "eligible_parent_wording": "\"illness or incapacity to work due to pregnancy\"; \"maternity leave, paternity leave\"; \"serious illness of an immediate family member\"",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration_note": "the accrued balance: 7.5 hours per month of service (67.5 hours for a full academic year, up to 22.5 hours for summer); cumulative with no maximum; not advanced",
+   "pay_fraction": "regular pay from the employee's own accrued balance",
+   "medical_certification": true,
+   "medical_certification_note": "an acceptable statement from a licensed health care provider; release to return to work",
+   "service_requirement": "accrues from the date of employment",
+   "runs_concurrently_with": [
+    "FMLA"
+   ],
+   "sequence": [
+    {
+     "relation": "within",
+     "component_id": "university_of_memphis_c5",
+     "note": "S1: own sick leave substituted for FMLA leave is pay for the statutory leave (\"sick leave and FMLA will run concurrently\"); a balance of unknown length adds no weeks"
+    }
+   ],
+   "rule_applied": [
+    "R1",
+    "U5",
+    "S1",
+    "V2"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Regular full-time and part-time employees are eligible to accrue sick leave from the date of employment.",
+     "Full-time faculty members earn sick leave at the rate of 7.5 hours per month for the nine month academic year.",
+     "This policy applies to all nine-month faculty members who accumulate sick leave."
+    ],
+    "eligible_parent": [
+     "Sick leave is applicable to absences due to illness or injury of an employee, including illness or incapacity to work due to pregnancy, medical examinations, and dental appointments.",
+     "In addition, sick leave may be used for maternity leave, paternity leave, and for a serious illness of an immediate family member."
+    ],
+    "entitlement": [
+     "Sick leave may not be denied when an employee notifies the supervisor or department head of his/her absence and furnishes an acceptable statement from a licensed health care provider."
+    ],
+    "pay_fraction": [
+     "It is the policy of the University to protect regular employees against loss of earnings due to illness, injury, or incapacity to work",
+     "Available sick leave will be paid monthly, to the extent the faculty member's leave balance is sufficient, and this paid leave will be charged during the period of FMLA absence."
+    ],
+    "service_requirement": [
+     "Regular full-time and part-time employees are eligible to accrue sick leave from the date of employment."
+    ],
+    "sequence": [
+     "In those cases, sick leave and FMLA will run concurrently.",
+     "Available sick leave will be paid monthly, to the extent the faculty member's leave balance is sufficient, and this paid leave will be charged during the period of FMLA absence."
+    ],
+    "duration_note": [
+     "Regular nine-month academic personnel accrue 67.5 hours of sick leave for full-time employment for the full academic year",
+     "Accrued hours of sick leave are cumulative for all hours not used. There is no maximum accumulation.",
+     "Sick leave hours shall not be advanced."
+    ],
+    "medical_certification": [
+     "Sick leave may not be denied when an employee notifies the supervisor or department head of his/her absence and furnishes an acceptable statement from a licensed health care provider."
+    ]
+   },
+   "doc_ids": [
+    "2018_04_sick_leave_hr5022_ex_um1544",
+    "2018_02_faculty_handbook_2015",
+    "2018_07_nine_month_faculty_sick_leave_hr5030_ex_um1791",
+    "2018_05_fmla_hr5028_ex_um1569"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "own_accrual",
+     "quote": "Regular nine-month academic personnel accrue 67.5 hours of sick leave for full-time employment for the full academic year"
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "own_balance",
+     "quote": "Accrued hours of sick leave are cumulative for all hours not used. There is no maximum accumulation."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Sick leave is applicable to absences due to illness or injury of an employee, including illness or incapacity to work due to pregnancy, medical examinations, and dental appointments."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Full-time faculty members earn sick leave at the rate of 7.5 hours per month for the nine month academic year."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own illness, pregnancy, maternity) and non_birth_parent (paternity; family illness)",
+     "quote": "In addition, sick leave may be used for maternity leave, paternity leave, and for a serious illness of an immediate family member."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "Sick leave may not be denied when an employee notifies the supervisor or department head of his/her absence and furnishes an acceptable statement from a licensed health care provider."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "R1",
+     "answer": "own balance at regular pay; counts 0 paid weeks",
+     "quote": "Available sick leave will be paid monthly, to the extent the faculty member's leave balance is sufficient, and this paid leave will be charged during the period of FMLA absence."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "accrues from the date of employment",
+     "quote": "Regular full-time and part-time employees are eligible to accrue sick leave from the date of employment."
+    },
+    {
+     "field": "sequence",
+     "rule": "S1",
+     "answer": "within c5 (FMLA)",
+     "quote": "In those cases, sick leave and FMLA will run concurrently."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_memphis_c9",
+   "institution_label": "Sick Leave Bank",
+   "description": "Faculty Sick Leave Bank: members (who join by donating three days of sick leave) may draw emergency sick leave for their own serious illness once their own sick and annual leave is exhausted; run by a committee under TBR regulations.",
+   "mechanism": "donated_leave",
+   "payer": "own_balance",
+   "mechanism_note": "a colleague-funded bank (R1d): counts 0 paid weeks",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "\"faculty who elect to become members\"",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "\"a faculty member's own serious illness\"",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "Members are \"allowed\" to draw on the bank once their own balance is exhausted; the committee's policies (HR5026 / UM1609, not saved) set the procedure.",
+   "must_exhaust_first": [
+    "sick",
+    "vacation"
+   ],
+   "service_requirement": "membership by donating three days (22.5 hours) of sick leave",
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "university_of_memphis_c8",
+     "note": "drawn once the member's own sick and annual leave is exhausted"
+    }
+   ],
+   "rule_applied": [
+    "R1d",
+    "U5",
+    "V2"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "The Faculty Sick Leave Bank is available to faculty who elect to become members."
+    ],
+    "eligible_parent": [
+     "Sick bank time applies to a faculty member's own serious illness."
+    ],
+    "entitlement": [
+     "It allows each faculty member the opportunity to draw upon it should their own leave balance be exhausted.",
+     "the Sick Leave Banks provide emergency sick leave hours to members of the programs who have suffered an illness, injury, or disability and exhausted their personal sick and annual leave."
+    ],
+    "service_requirement": [
+     "Membership is obtained by donating three days of sick leave (22.5 hours) into the bank."
+    ],
+    "sequence": [
+     "the Sick Leave Banks provide emergency sick leave hours to members of the programs who have suffered an illness, injury, or disability and exhausted their personal sick and annual leave."
+    ],
+    "must_exhaust_first": [
+     "the Sick Leave Banks provide emergency sick leave hours to members of the programs who have suffered an illness, injury, or disability and exhausted their personal sick and annual leave."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_faculty_handbook_2015",
+    "2018_04_sick_leave_hr5022_ex_um1544"
+   ],
+   "flags": [
+    "cross_reference_not_saved: HR5026 Sick Leave Banks - Faculty and Staff (UM1609)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "donated_leave",
+     "quote": "Membership is obtained by donating three days of sick leave (22.5 hours) into the bank."
+    },
+    {
+     "field": "payer",
+     "rule": "R1d",
+     "answer": "own_balance",
+     "quote": "Membership is obtained by donating three days of sick leave (22.5 hours) into the bank."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Sick bank time applies to a faculty member's own serious illness."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "The Faculty Sick Leave Bank is available to faculty who elect to become members."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own serious illness)",
+     "quote": "Sick bank time applies to a faculty member's own serious illness."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "It allows each faculty member the opportunity to draw upon it should their own leave balance be exhausted."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "membership by donation of three days",
+     "quote": "Membership is obtained by donating three days of sick leave (22.5 hours) into the bank."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "consecutive_after c8",
+     "quote": "the Sick Leave Banks provide emergency sick leave hours to members of the programs who have suffered an illness, injury, or disability and exhausted their personal sick and annual leave."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_memphis_c10",
+   "institution_label": "Leaves of Absence",
+   "description": "Unpaid leave of absence of up to one year that may be granted for reasons such as the employee's illness or disability once annual and sick leave are insufficient, education, or other justifiable personal reasons; approval by level of length (provost for faculty from 6 weeks to 6 months, president beyond); covers time beyond FMLA.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "\"regular employees\"; handbook: \"Faculty may apply for leave without pay\"",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "any regular employee; purposes \"such as\" own illness or disability, education, other justifiable personal reasons",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "up_to"
+   },
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "must_exhaust_first": [
+    "sick",
+    "vacation"
+   ],
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "university_of_memphis_c5",
+     "note": "the period beyond the FMLA maximum is processed under this policy"
+    }
+   ],
+   "rule_applied": [
+    "U1",
+    "V2",
+    "R9",
+    "R13"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "It is the policy of the University of Memphis to provide approved, unpaid time off to regular employees for such reasons as (1) illness or disability of an employee who has insufficient accumulated annual and/or sick leave; (2) leave for educational purposes; and/or (3) leave for other justifiable personal reasons.",
+     "Faculty may apply for leave without pay for a period not to exceed one year."
+    ],
+    "eligible_parent": [
+     "It is the policy of the University of Memphis to provide approved, unpaid time off to regular employees for such reasons as (1) illness or disability of an employee who has insufficient accumulated annual and/or sick leave; (2) leave for educational purposes; and/or (3) leave for other justifiable personal reasons."
+    ],
+    "entitlement": [
+     "Unpaid leaves of absence, not to exceed one year, may be granted for justifiable absences under certain circumstances."
+    ],
+    "duration": [
+     "Unpaid leaves of absence, not to exceed one year, may be granted for justifiable absences under certain circumstances.",
+     "Faculty may apply for leave without pay for a period not to exceed one year."
+    ],
+    "sequence": [
+     "If an employee is not eligible for FMLA leave or the leave exceeds the maximum covered under FMLA, the uncovered leave period shall be processed in accordance with this policy."
+    ],
+    "must_exhaust_first": [
+     "Leaves due to illness, injury or disability, including non-qualifying FMLA leave - Employee is required to use available sick/annual leave",
+     "In the case of illness, all accrued sick leave hours must be used before a leave of absence without pay will be considered."
+    ]
+   },
+   "doc_ids": [
+    "2018_06_leaves_of_absence_um1572",
+    "2018_02_faculty_handbook_2015",
+    "2018_04_sick_leave_hr5022_ex_um1544"
+   ],
+   "flags": [
+    "general_purpose",
+    "ambiguous: rule gap: the same provision is the leave used for the employee's own illness or disability after sick and annual leave run out (purpose (1); HR5022: 'placed on a leave without pay status'), which checklist example 4 would code as a birth-parent medical leave; coded as one general-purpose leave under U1 because its purposes are an open list ('such reasons as')",
+    "cross_reference_not_saved: Tennessee Board of Regents Leaves of Absence policy"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "Unpaid leaves of absence, not to exceed one year, may be granted for justifiable absences under certain circumstances."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Unpaid leaves of absence, not to exceed one year, may be granted for justifiable absences under certain circumstances."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "It is the policy of the University of Memphis to provide approved, unpaid time off to regular employees for such reasons as (1) illness or disability of an employee who has insufficient accumulated annual and/or sick leave; (2) leave for educational purposes; and/or (3) leave for other justifiable personal reasons."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Faculty may apply for leave without pay for a period not to exceed one year."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U1",
+     "answer": "any_parent (open purposes)",
+     "quote": "It is the policy of the University of Memphis to provide approved, unpaid time off to regular employees for such reasons as (1) illness or disability of an employee who has insufficient accumulated annual and/or sick leave; (2) leave for educational purposes; and/or (3) leave for other justifiable personal reasons."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "Unpaid leaves of absence, not to exceed one year, may be granted for justifiable absences under certain circumstances."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 year, up_to",
+     "quote": "Unpaid leaves of absence, not to exceed one year, may be granted for justifiable absences under certain circumstances."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave)",
+     "quote": "Unpaid leaves of absence, not to exceed one year, may be granted for justifiable absences under certain circumstances."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "consecutive_after c5",
+     "quote": "If an employee is not eligible for FMLA leave or the leave exceeds the maximum covered under FMLA, the uncovered leave period shall be processed in accordance with this policy."
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "Reference date 2018-03-13. 2018_03 is an index page with no policy, evidence that the 2015 handbook was the current edition.",
+  "Version: HR5024 Paid Parental Leave (2018_01) is a live copy of the policy renumbered on March 22, 2018, nine days after the reference date; its revision history shows UM1853 created December 8, 2017 with no later substantive revision, but its links name post-renumbering policy numbers, so c1 and c2 carry version_uncertain. The 2015 handbook predates the Paid Parental Leave policy and does not mention it; its 'Leaves - Additional Information' points to HR policies for maternity and paternity leave.",
+  "Birth parent chain: Paid Parental Leave 6 weeks (c1), with FMLA 12 workweeks (c5) and the Tennessee 4-month leave (c6) concurrent from its start; c1 lies within the negotiated modified-duties relief that runs to the end of the semester in which the six weeks end (c2); own sick leave (c8) within FMLA, then the sick leave bank (c9) after own balances; any general leave without pay (c10) after FMLA.",
+  "Non-birth parent chain: Paid Parental Leave 6 weeks (c1) with FMLA 12 workweeks (c5) concurrent from its start; c1 within the negotiated modified-duties relief to the end of that semester (c2); own sick leave (paternity use) within FMLA (c8). The Tennessee 4-month leave is coded for birth and adoptive parents only (ambiguous for a non-birth parent).",
+  "Named but not saved: HR5025 Leaves of Absence (the 2018 successor of UM1572); HR5026 / UM1609 Sick Leave Banks; HR5027 Sick Leave Transfer Between Employees; HR5023 Bereavement Leave; HR5029 Timekeeping and Leave Reporting; HR5031 Leave Transfer Between State Institutions; AA3009 / UM1288 Professional Development Assignments; Tennessee Board of Regents Leaves of Absence policy; TBR Guideline P-120 Longevity; the Paid Parental Leave Request Form, FMLA request form and Faculty Modified Duties Request Form; T.C.A. 8-50-806; the short/long-term disability plans named in HR5024; UM1290 tenure policy (updated Feb 2017, per the handbook's version note); UM1564 grievance policy; UM1490 outside employment.",
+  "Sick leave transfer between employees (HR5027) is only named, not described; no component. Annual leave is named (substitution for FMLA, use after sick leave) but no faculty accrual terms are given; no component. Professional Development Assignments (one semester at full pay or a year at half pay) exist for professional development and are not a leave a parent could use for a birth; not a component.",
+  "Calendar: the handbook names fall and spring semesters with no length; calendar.kind = semester, and the term length follows R8's order."
+ ],
+ "statutory_floor": {
+  "jurisdiction": "US",
+  "year": "2018",
+  "weeks_birth": 12.0,
+  "weeks_nonbirth": 12.0,
+  "statute": "Family and Medical Leave Act (FMLA) (29 U.S.C. 2611-2612)",
+  "source_doc": "2026_00_us_fmla_29usc2612",
+  "table": "statutory_baseline.csv"
+ }
+}

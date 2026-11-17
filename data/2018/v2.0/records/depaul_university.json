@@ -1,0 +1,1419 @@
+{
+ "institution": "DePaul University",
+ "slug": "depaul_university",
+ "country": "US",
+ "model": "claude-opus-5-5",
+ "codebook_version": "1.25",
+ "schema_version": "1.25",
+ "reference_date": "2018-02-22",
+ "calendar": {
+  "term_weeks": null,
+  "note": "Faculty Handbook 6.6.3.1: 'The normal teaching load is nine full courses per academic year, usually three per quarter'; quarters (Fall, Winter, Spring) stated without length → quarter default 11 (R8). College of Law uses semesters.",
+  "kind": "quarter"
+ },
+ "documents": [
+  {
+   "doc_id": "2018_00_link",
+   "url": "https://offices.depaul.edu/human-resources/benefits/leave-of-absence/Pages/Parental-Leave.aspx",
+   "title": "Parental Leave | Leave of Absence | Benefits | Human Resources | DePaul University",
+   "version_or_effective_date": "undated HR page; benefit effective for births on or after 2017-11-01; Wayback capture 2019-07-23 (page footer 3/26/2019)",
+   "retrieved": "2026-10-18"
+  },
+  {
+   "doc_id": "2018_01_maternity_leave",
+   "url": "https://offices.depaul.edu/human-resources/benefits/leave-of-absence/Pages/Maternity-Leave.aspx",
+   "title": "Maternity Leave | Leave of Absence | Benefits | Human Resources | DePaul University",
+   "version_or_effective_date": "undated HR page; mentions parental leave effective 2017-11-01; Wayback capture 2019-07-19 (page footer 2/6/2019)",
+   "retrieved": "2026-10-20"
+  },
+  {
+   "doc_id": "2018_02_faculty_handbook_2016ed",
+   "url": "https://offices.depaul.edu/secretary/policies-procedures/policies/Documents/Faculty%20Handbook_superseded_2016.pdf",
+   "title": "DePaul University Faculty Handbook, July 1, 2016 edition",
+   "version_or_effective_date": "effective 2016-07-01 (in force 2018-02-22; superseded by the 7-1-18 edition)",
+   "retrieved": "2026-10-21"
+  }
+ ],
+ "missing": false,
+ "scope_accounting": {
+  "C1": {
+   "components": [
+    "depaul_university_c1",
+    "depaul_university_c2"
+   ]
+  },
+  "C2": {
+   "absent": {
+    "documents": [
+     "2018_00_link",
+     "2018_01_maternity_leave",
+     "2018_02_faculty_handbook_2016ed"
+    ],
+    "terms": [
+     "modified duties",
+     "teaching relief",
+     "course release",
+     "reduced load",
+     "load may be reduced",
+     "relief",
+     "new parent",
+     "childbirth"
+    ]
+   }
+  },
+  "C3": {
+   "components": [
+    "depaul_university_c2",
+    "depaul_university_c4",
+    "depaul_university_c5",
+    "depaul_university_c6"
+   ]
+  },
+  "C4": {
+   "components": [
+    "depaul_university_c3"
+   ],
+   "not_components": [
+    {
+     "statute": "Illinois law on employee review of personnel records (Faculty Handbook 3.6.2.3 and 5.3)",
+     "reason": "Governs access to personnel files; gives no leave, pay or job protection to a new parent (U4)."
+    }
+   ]
+  },
+  "C5": {
+   "absent": {
+    "documents": [
+     "2018_00_link",
+     "2018_01_maternity_leave",
+     "2018_02_faculty_handbook_2016ed"
+    ],
+    "terms": [
+     "family care",
+     "care for",
+     "ill family member",
+     "seriously ill",
+     "spouse",
+     "family or medical leave"
+    ]
+   }
+  },
+  "C6": {
+   "components": [
+    "depaul_university_c7"
+   ]
+  },
+  "C7": {
+   "components": [
+    "depaul_university_c8",
+    "depaul_university_c9"
+   ]
+  },
+  "C8": {
+   "absent": {
+    "documents": [
+     "2018_00_link",
+     "2018_01_maternity_leave",
+     "2018_02_faculty_handbook_2016ed"
+    ],
+    "terms": [
+     "part-time",
+     "part time",
+     "reduced appointment",
+     "phased return",
+     "reduced load"
+    ]
+   }
+  },
+  "C9": {
+   "absent": {
+    "documents": [
+     "2018_00_link",
+     "2018_01_maternity_leave",
+     "2018_02_faculty_handbook_2016ed"
+    ],
+    "terms": [
+     "accommodation",
+     "pregnancy",
+     "pregnant",
+     "hazard",
+     "transfer",
+     "equal treatment",
+     "reasonable accommodation"
+    ]
+   }
+  },
+  "C10": {
+   "absent": {
+    "documents": [
+     "2018_00_link",
+     "2018_01_maternity_leave",
+     "2018_02_faculty_handbook_2016ed"
+    ],
+    "terms": [
+     "first days",
+     "FMLA-qualifying",
+     "regular work time",
+     "paid FMLA"
+    ]
+   }
+  }
+ },
+ "passage_dispositions": {
+  "2018_00_link#001": {
+   "used_in": [
+    "depaul_university_c1",
+    "depaul_university_c3"
+   ]
+  },
+  "2018_01_maternity_leave#001": {
+   "used_in": [
+    "depaul_university_c1",
+    "depaul_university_c2",
+    "depaul_university_c3",
+    "depaul_university_c4"
+   ]
+  },
+  "2018_02_faculty_handbook_2016ed#001": {
+   "not_relevant": "Chapter 2 table of contents"
+  },
+  "2018_02_faculty_handbook_2016ed#002": {
+   "not_relevant": "Equal employment opportunity statement (parental status among protected classes); no leave, pay or protection for a birth"
+  },
+  "2018_02_faculty_handbook_2016ed#003": {
+   "not_relevant": "Tenure clock start for instructors awaiting a terminal degree; not parental"
+  },
+  "2018_02_faculty_handbook_2016ed#004": {
+   "not_relevant": "Term faculty contract duration"
+  },
+  "2018_02_faculty_handbook_2016ed#005": {
+   "not_relevant": "Visiting faculty titles and contracts"
+  },
+  "2018_02_faculty_handbook_2016ed#006": {
+   "not_relevant": "Chapter 3 table of contents (lists 3.2.2; the section itself is used via #007)"
+  },
+  "2018_02_faculty_handbook_2016ed#007": {
+   "used_in": [
+    "depaul_university_c8",
+    "depaul_university_c9"
+   ]
+  },
+  "2018_02_faculty_handbook_2016ed#008": {
+   "not_relevant": "Informal probationary reviews"
+  },
+  "2018_02_faculty_handbook_2016ed#009": {
+   "not_relevant": "Unit guidelines on reviewers unavailable for illness or leave; no benefit"
+  },
+  "2018_02_faculty_handbook_2016ed#010": {
+   "not_relevant": "Institutional considerations in tenure"
+  },
+  "2018_02_faculty_handbook_2016ed#011": {
+   "not_relevant": "Tenure application deadlines"
+  },
+  "2018_02_faculty_handbook_2016ed#012": {
+   "not_relevant": "Voting exemption for faculty on approved leave; no benefit"
+  },
+  "2018_02_faculty_handbook_2016ed#013": {
+   "not_relevant": "Student input to tenure dossiers"
+  },
+  "2018_02_faculty_handbook_2016ed#014": {
+   "not_relevant": "Chapter 4 table of contents (lists 4.8; the section itself is used via #018)"
+  },
+  "2018_02_faculty_handbook_2016ed#015": {
+   "not_relevant": "Chapter 4 overview (discipline and termination)"
+  },
+  "2018_02_faculty_handbook_2016ed#016": {
+   "not_relevant": "Notice of nonrenewal dates"
+  },
+  "2018_02_faculty_handbook_2016ed#017": {
+   "not_relevant": "Faculty misconduct"
+  },
+  "2018_02_faculty_handbook_2016ed#018": {
+   "used_in": [
+    "depaul_university_c3",
+    "depaul_university_c5",
+    "depaul_university_c6"
+   ]
+  },
+  "2018_02_faculty_handbook_2016ed#019": {
+   "not_relevant": "Chapter 5 table of contents"
+  },
+  "2018_02_faculty_handbook_2016ed#020": {
+   "not_relevant": "Chapter 5 table of contents"
+  },
+  "2018_02_faculty_handbook_2016ed#021": {
+   "not_relevant": "Appeal procedures (academic freedom)"
+  },
+  "2018_02_faculty_handbook_2016ed#022": {
+   "not_relevant": "Appeals calendar"
+  },
+  "2018_02_faculty_handbook_2016ed#023": {
+   "not_relevant": "Appeal of termination after medical leave over 36 months; procedure only"
+  },
+  "2018_02_faculty_handbook_2016ed#024": {
+   "not_relevant": "Appeals calendar"
+  },
+  "2018_02_faculty_handbook_2016ed#025": {
+   "not_relevant": "Appeals calendar"
+  },
+  "2018_02_faculty_handbook_2016ed#026": {
+   "not_relevant": "Appeals calendar"
+  },
+  "2018_02_faculty_handbook_2016ed#027": {
+   "not_relevant": "Chapter 6 table of contents"
+  },
+  "2018_02_faculty_handbook_2016ed#028": {
+   "used_in": [
+    "depaul_university_c7"
+   ]
+  }
+ },
+ "mechanism_slots": {
+  "employer_paid_leave": {
+   "components": [
+    "depaul_university_c1"
+   ]
+  },
+  "employer_childbirth_benefit": {
+   "components": [
+    "depaul_university_c2"
+   ]
+  },
+  "generic_sick_or_disability_plan": {
+   "components": [
+    "depaul_university_c5"
+   ]
+  },
+  "own_accrual": {
+   "components": [
+    "depaul_university_c4"
+   ]
+  },
+  "donated_leave": {
+   "absent": "None found in the three sources; terms: donated, donation, shared leave, leave bank, catastrophic"
+  },
+  "government_benefit": {
+   "absent": "All three sources: no state or federal paid programme named (terms: state disability, paid family leave, insurance, benefit programme)"
+  },
+  "employer_topup": {
+   "absent": "All three sources: no government benefit to top up (terms: top-up, supplement, difference)"
+  },
+  "modified_duties": {
+   "absent": "None found in the three sources; terms: modified duties, teaching relief, course release, reduced load, active service"
+  },
+  "unpaid_leave": {
+   "components": [
+    "depaul_university_c3",
+    "depaul_university_c6",
+    "depaul_university_c7"
+   ]
+  },
+  "tenure_clock": {
+   "components": [
+    "depaul_university_c8",
+    "depaul_university_c9"
+   ]
+  },
+  "part_time_option": {
+   "absent": "None found in the three sources; terms: part-time, reduced appointment, phased return"
+  },
+  "other": {
+   "absent": "All three sources: no pregnancy accommodation, rearrangement, hazard programme or equal-treatment provision for absence (terms: accommodation, pregnancy, transfer, hazard)"
+  }
+ },
+ "baseline_accounting": {
+  "Family and Medical Leave Act (FMLA)": {
+   "components": [
+    "depaul_university_c3"
+   ]
+  },
+  "Federal Employee Paid Leave Act (paid parental leave for federal civilian employees)": {
+   "not_applicable": "Federal civilian employees only; DePaul is a private university and no saved document mentions it."
+  }
+ },
+ "leave_limits": [
+  {
+   "weeks": 12,
+   "components": [
+    "depaul_university_c1",
+    "depaul_university_c3"
+   ],
+   "roles": [
+    "birth",
+    "nonbirth"
+   ],
+   "note": "The total amount of leave under the FMLA policy and the parental leave policy whether paid or unpaid, will not exceed the twelve (12) weeks of leave under FMLA.",
+   "evidence": [
+    "The total amount of leave under the FMLA policy and the parental leave policy whether paid or unpaid, will not exceed the twelve (12) weeks of leave under FMLA.",
+    "For maternity leave, employees may choose to continue on FMLA leave through the full 12 weeks after paid benefit ends."
+   ],
+   "decision_log": [
+    {
+     "field": "leave_limits",
+     "rule": "R20",
+     "answer": "12 weeks (stated in weeks); the FMLA leave (c3) and the paid parental leave (c1); both roles. The short-term disability period runs concurrently with FMLA, so it lies inside the same 12 weeks.",
+     "quote": "The total amount of leave under the FMLA policy and the parental leave policy whether paid or unpaid, will not exceed the twelve (12) weeks of leave under FMLA."
+    }
+   ]
+  }
+ ],
+ "components": [
+  {
+   "component_id": "depaul_university_c1",
+   "institution_label": "Parental Leave",
+   "description": "Up to two weeks of paid parental leave at 100% of regular weekly pay for the birth, adoption or foster placement of a child (events on or after 2017-11-01), for full-time staff and faculty with one year and 1,250 hours; runs concurrently with FMLA. For the birth mother it is stated as additional to the 6- or 8-week short-term disability period.",
+   "mechanism": "employer_paid_leave",
+   "rule_applied": [
+    "R9",
+    "R15",
+    "S1",
+    "V2",
+    "R20",
+    "U8"
+   ],
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Full-time staff and faculty",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "Eligible employees ... for the birth, adoption, or placement of a foster child/children",
+   "caregiver_condition": "none",
+   "service_requirement": "one (1) year of service (consecutively or nonconsecutively) and a minimum of 1,250 hours during the 12 months immediately preceding the leave",
+   "entitlement": "guaranteed",
+   "entitlement_note": "'Eligible employees receive'; approval follows FMLA approval by the leave administrator, i.e. statutory eligibility, not a discretionary grant.",
+   "duration": {
+    "value": 2,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "duration_note": "'a maximum of two(2) weeks per twelve (12) month'; the allowance renews per 12-month window; coded at its amount for one event.",
+   "pay_fraction": "one-hundred (100) percent of regular, straight time weekly pay",
+   "pay_fraction_pct": 100,
+   "payer": "employer",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "relief_note": "A leave of absence; no relief stated (R9).",
+   "runs_concurrently_with": [
+    "FMLA"
+   ],
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "depaul_university_c2",
+     "roles": [
+      "birth"
+     ],
+     "note": "Maternity page: 'Additional 2 weeks' after the 6 or 8 weeks of short-term disability; the 12-month window lets it start when the disability period ends (longest-leave convention). For the non-birth parent it is placed with FMLA, which runs concurrently (S1)."
+    }
+   ],
+   "time_window": "within the twelve (12) month period immediately following the birth, adoption or placement; one continuous period",
+   "notice": "at least thirty (30) days in advance (or as soon as possible when the leave was not forseeable)",
+   "flags": [
+    "version_uncertain",
+    "cross_reference_not_saved: DePaul Parental Leave policy ('See the policy')",
+    "ambiguous: governing policy not saved; terms taken from an HR benefits page (a summary); summary_only not applied because the governing document that would show whether it contains the provision is not saved"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Full-time staff and faculty who have completed one (1) year of service (consecutively or nonconsecutively) and have worked a minimum of 1,250 hours during the 12 months immediately preceding the date of leave would begin."
+    ],
+    "eligible_parent": [
+     "Eligible employees receive a maximum of two(2) weeks per twelve (12) month of paid parental leave for the birth, adoption, or placement of a foster child/children, occurring on or after November 1, 2017."
+    ],
+    "entitlement": [
+     "Eligible employees receive a maximum of two(2) weeks per twelve (12) month of paid parental leave for the birth, adoption, or placement of a foster child/children, occurring on or after November 1, 2017.",
+     "The approval of your parental leave is based upon approval of your FMLA leave by Lincoln Financial."
+    ],
+    "duration": [
+     "Eligible employees receive a maximum of two(2) weeks per twelve (12) month of paid parental leave for the birth, adoption, or placement of a foster child/children, occurring on or after November 1, 2017."
+    ],
+    "pay_fraction": [
+     "Each week of paid parental leave is compensated at one-hundred (100) percent of regular, straight time weekly pay."
+    ],
+    "service_requirement": [
+     "Full-time staff and faculty who have completed one (1) year of service (consecutively or nonconsecutively) and have worked a minimum of 1,250 hours during the 12 months immediately preceding the date of leave would begin."
+    ],
+    "sequence": [
+     "Additional 2 weeks *parental leave to be coordinated with FMLA.",
+     "Approved paid parental leave may be taken at any time during the twelve (12) month period immediately following the birth, adoption or placement of a foster child with the employee and must be taken as one continuous period of leave.",
+     "Paid parental leave will run concurrently with leave under FMLA."
+    ],
+    "time_window": [
+     "Approved paid parental leave may be taken at any time during the twelve (12) month period immediately following the birth, adoption or placement of a foster child with the employee and must be taken as one continuous period of leave."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link",
+    "2018_01_maternity_leave"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "employer_paid_leave",
+     "quote": "Each week of paid parental leave is compensated at one-hundred (100) percent of regular, straight time weekly pay."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "Each week of paid parental leave is compensated at one-hundred (100) percent of regular, straight time weekly pay."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Full-time staff and faculty who have completed one (1) year of service (consecutively or nonconsecutively) and have worked a minimum of 1,250 hours during the 12 months immediately preceding the date of leave would begin."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent (role-neutral; birth, adoption, foster)",
+     "quote": "Eligible employees receive a maximum of two(2) weeks per twelve (12) month of paid parental leave for the birth, adoption, or placement of a foster child/children, occurring on or after November 1, 2017."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "Eligible employees receive a maximum of two(2) weeks per twelve (12) month of paid parental leave for the birth, adoption, or placement of a foster child/children, occurring on or after November 1, 2017."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "2 weeks up_to ('a maximum of')",
+     "quote": "Eligible employees receive a maximum of two(2) weeks per twelve (12) month of paid parental leave for the birth, adoption, or placement of a foster child/children, occurring on or after November 1, 2017."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Eligible employees receive a maximum of two(2) weeks per twelve (12) month of paid parental leave for the birth, adoption, or placement of a foster child/children, occurring on or after November 1, 2017."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "100% of regular, straight time weekly pay",
+     "quote": "Each week of paid parental leave is compensated at one-hundred (100) percent of regular, straight time weekly pay."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave, relief not stated)",
+     "quote": "Eligible employees receive a maximum of two(2) weeks per twelve (12) month of paid parental leave for the birth, adoption, or placement of a foster child/children, occurring on or after November 1, 2017."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "consecutive_after c2 for the birth parent ('Additional 2 weeks')",
+     "quote": "Additional 2 weeks *parental leave to be coordinated with FMLA."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U8",
+     "answer": "1 year and 1,250 hours (within two years; member eligible)",
+     "quote": "Full-time staff and faculty who have completed one (1) year of service (consecutively or nonconsecutively) and have worked a minimum of 1,250 hours during the 12 months immediately preceding the date of leave would begin."
+    }
+   ]
+  },
+  {
+   "component_id": "depaul_university_c2",
+   "institution_label": "Maternity Leave",
+   "description": "Paid maternity leave for the birth mother: 6 or 8 weeks of short-term disability paid at 100%, after 6 months of cumulative full-time service; FMLA runs concurrently.",
+   "mechanism": "employer_childbirth_benefit",
+   "mechanism_note": "V1: a childbirth-specific period ('Maternity Leave'), a length (6 or 8 weeks) and a pay level (100%) are all stated, so the short-term disability period is a childbirth benefit (the rules' own DePaul example). Not split into leave plus pay under U6: V1 codes the stated period itself as the dedicated childbirth benefit.",
+   "rule_applied": [
+    "V1",
+    "R2",
+    "R13b",
+    "R9",
+    "V2",
+    "S1"
+   ],
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Employees (the page also addresses 'Staff employees' separately, so it covers faculty and staff)",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "Maternity Leave; For birth mothers, see the maternity leave page",
+   "caregiver_condition": "none",
+   "service_requirement": "At least 6 months of cumulative full-time service",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "'will be eligible for' (V2: the approval covers the claim and arrangements).",
+   "duration": {
+    "value": 6,
+    "units": "week",
+    "qualifier": "at_least"
+   },
+   "duration_max": {
+    "value": 8,
+    "units": "week"
+   },
+   "duration_variants": {
+    "stated": "6 or 8 weeks",
+    "condition": "not stated on the page"
+   },
+   "duration_note": "'6 or 8 weeks' (R13b: lower value at_least, upper in duration_max); what decides 6 or 8 is not stated.",
+   "pay_fraction": "100%",
+   "pay_fraction_pct": 100,
+   "payer": "employer",
+   "medical_certification": true,
+   "medical_certification_note": "Complete the release form and provide it to your physician.",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "relief_note": "A leave of absence; no relief stated (R9).",
+   "runs_concurrently_with": [
+    "FMLA"
+   ],
+   "notice": "It is recommended to file a claim at least 30 days in advance.",
+   "flags": [
+    "version_uncertain",
+    "cross_reference_not_saved: Sick Pay, Short and Long Term Disability policy",
+    "ambiguous: governing policy not saved; terms taken from an HR benefits page (a summary); summary_only not applied because the governing document that would show whether it contains the provision is not saved"
+   ],
+   "evidence": {
+    "mechanism": [
+     "Employees will be eligible for 6 or 8 weeks of short-term disability paid at 100%.",
+     "Maternity Leave"
+    ],
+    "faculty_group": [
+     "Employees will be eligible for 6 or 8 weeks of short-term disability paid at 100%.",
+     "Staff employees may apply accrued vacation hours and/or floating holidays to get paid during this period."
+    ],
+    "eligible_parent": [
+     "For birth mothers, see the maternity leave page for additional leave provisions."
+    ],
+    "entitlement": [
+     "Employees will be eligible for 6 or 8 weeks of short-term disability paid at 100%."
+    ],
+    "duration": [
+     "Employees will be eligible for 6 or 8 weeks of short-term disability paid at 100%."
+    ],
+    "pay_fraction": [
+     "Employees will be eligible for 6 or 8 weeks of short-term disability paid at 100%."
+    ],
+    "service_requirement": [
+     "At least 6 months of cumulative full-time service"
+    ],
+    "medical_certification": [
+     "Complete the release form and provide it to your physician."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_maternity_leave",
+    "2018_00_link"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "V1",
+     "answer": "employer_childbirth_benefit",
+     "quote": "Employees will be eligible for 6 or 8 weeks of short-term disability paid at 100%."
+    },
+    {
+     "field": "mechanism",
+     "rule": "R2",
+     "answer": "employer_childbirth_benefit",
+     "quote": "Employees will be eligible for 6 or 8 weeks of short-term disability paid at 100%."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "Employees will be eligible for 6 or 8 weeks of short-term disability paid at 100%."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Employees will be eligible for 6 or 8 weeks of short-term disability paid at 100%."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "birth_parent",
+     "quote": "For birth mothers, see the maternity leave page for additional leave provisions."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "Employees will be eligible for 6 or 8 weeks of short-term disability paid at 100%."
+    },
+    {
+     "field": "duration",
+     "rule": "R13b",
+     "answer": "6 weeks at_least, duration_max 8",
+     "quote": "Employees will be eligible for 6 or 8 weeks of short-term disability paid at 100%."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Employees will be eligible for 6 or 8 weeks of short-term disability paid at 100%."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "100%",
+     "quote": "Employees will be eligible for 6 or 8 weeks of short-term disability paid at 100%."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave, relief not stated)",
+     "quote": "Employees will be eligible for 6 or 8 weeks of short-term disability paid at 100%."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U8",
+     "answer": "6 months of cumulative full-time service",
+     "quote": "At least 6 months of cumulative full-time service"
+    }
+   ]
+  },
+  {
+   "component_id": "depaul_university_c3",
+   "institution_label": "Family Medical Leave Act (FMLA)",
+   "description": "Unpaid, job-protected FMLA leave of up to 12 weeks (birth and bonding), after one year and 1,250 hours; runs concurrently with the short-term disability (maternity) period and with the paid parental leave; a birth mother may continue on FMLA to the full 12 weeks after the paid benefit ends.",
+   "mechanism": "unpaid_leave",
+   "rule_applied": [
+    "U2",
+    "U4",
+    "S1",
+    "R20",
+    "U8"
+   ],
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "an employee (HR pages); 'a faculty member may request a medical leave under the university's Family and Medical Leave Act policy' (Handbook 4.8)",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "an employee; bonding leave",
+   "caregiver_condition": "none",
+   "service_requirement": "1 year of service (consecutive or nonconsecutive) and have worked a minimum of 1,250 hours during the 12-month period immediately preceding the start of the leave",
+   "entitlement": "guaranteed",
+   "entitlement_note": "A statute; 'is entitled to be reinstated'.",
+   "duration": {
+    "value": 12,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "duration_note": "'Up to 12 weeks'; statute: 12 workweeks in any 12-month period (29 U.S.C. 2612(a)(1)). Unpaid remainder after the paid periods: 12 − (6 or 8) − 2 for the birth parent; 12 − 2 for the non-birth parent.",
+   "pay_fraction": "no salary paid",
+   "pay_fraction_pct": 0,
+   "payer": "none",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "relief_note": "A leave of absence; no relief stated (R9).",
+   "sequence": [
+    {
+     "relation": "concurrent_with",
+     "component_id": "depaul_university_c2",
+     "note": "FMLA runs concurrently with the short-term disability (maternity) leave (S1); unpaid remainder in duration_note."
+    },
+    {
+     "relation": "concurrent_with",
+     "component_id": "depaul_university_c1",
+     "note": "Paid parental leave runs concurrently with FMLA (S1)."
+    }
+   ],
+   "statute_source": "29 U.S.C. 2612(a)(1)(A)-(B); eligibility 29 U.S.C. 2611(2)",
+   "statute_verified": true,
+   "flags": [
+    "version_uncertain",
+    "cross_reference_not_saved: DePaul Family and Medical Leave Act policy"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Benefit: In general, an employee who takes approved FMLA leave is entitled to be reinstated to the same or an equivalent position that the employee held when the leave started; most benefits remain active (if premiums are paid); no salary paid.",
+     "obligations and duties, the faculty member may request a medical leave under the university’s",
+     "Family and Medical Leave Act policy and the Sick Pay, Short and Long Term Disability policy."
+    ],
+    "eligible_parent": [
+     "If you plan to extend your leave through the full 12 weeks of FMLA, you’ll need to inform Lincoln Financial to open a “bonding” leave.",
+     "shall be entitled to a total of 12 workweeks of leave during any 12-month period"
+    ],
+    "entitlement": [
+     "Benefit: In general, an employee who takes approved FMLA leave is entitled to be reinstated to the same or an equivalent position that the employee held when the leave started; most benefits remain active (if premiums are paid); no salary paid.",
+     "shall be entitled to a total of 12 workweeks of leave during any 12-month period"
+    ],
+    "duration": [
+     "Duration: Up to 12 weeks.",
+     "shall be entitled to a total of 12 workweeks of leave during any 12-month period"
+    ],
+    "pay_fraction": [
+     "Benefit: In general, an employee who takes approved FMLA leave is entitled to be reinstated to the same or an equivalent position that the employee held when the leave started; most benefits remain active (if premiums are paid); no salary paid."
+    ],
+    "service_requirement": [
+     "1 year of service (consecutive or nonconsecutive) and have worked a minimum of 1,250 hours during the 12-month period immediately preceding the start of the leave",
+     "for at least 1,250 hours of service with such employer during the previous 12-month period"
+    ],
+    "sequence": [
+     "Note: FMLA leave runs concurrently with short term disability leave.",
+     "Paid parental leave will run concurrently with leave under FMLA.",
+     "For maternity leave, employees may choose to continue on FMLA leave through the full 12 weeks after paid benefit ends."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_maternity_leave",
+    "2018_00_link",
+    "2018_02_faculty_handbook_2016ed",
+    "2026_00_us_fmla_29usc2612",
+    "2026_01_us_fmla_29usc2611_definitions"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "U4",
+     "answer": "unpaid_leave",
+     "quote": "Benefit: In general, an employee who takes approved FMLA leave is entitled to be reinstated to the same or an equivalent position that the employee held when the leave started; most benefits remain active (if premiums are paid); no salary paid."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Benefit: In general, an employee who takes approved FMLA leave is entitled to be reinstated to the same or an equivalent position that the employee held when the leave started; most benefits remain active (if premiums are paid); no salary paid."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "obligations and duties, the faculty member may request a medical leave under the university’s"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U2",
+     "answer": "birth, non-birth, adoptive, foster (statutory eligibility)",
+     "quote": "shall be entitled to a total of 12 workweeks of leave during any 12-month period"
+    },
+    {
+     "field": "entitlement",
+     "rule": "U2",
+     "answer": "guaranteed",
+     "quote": "shall be entitled to a total of 12 workweeks of leave during any 12-month period"
+    },
+    {
+     "field": "duration",
+     "rule": "U2",
+     "answer": "12 weeks up_to",
+     "quote": "Duration: Up to 12 weeks."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Benefit: In general, an employee who takes approved FMLA leave is entitled to be reinstated to the same or an equivalent position that the employee held when the leave started; most benefits remain active (if premiums are paid); no salary paid."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "no salary paid (0)",
+     "quote": "Benefit: In general, an employee who takes approved FMLA leave is entitled to be reinstated to the same or an equivalent position that the employee held when the leave started; most benefits remain active (if premiums are paid); no salary paid."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave)",
+     "quote": "Benefit: In general, an employee who takes approved FMLA leave is entitled to be reinstated to the same or an equivalent position that the employee held when the leave started; most benefits remain active (if premiums are paid); no salary paid."
+    },
+    {
+     "field": "sequence",
+     "rule": "S1",
+     "answer": "concurrent_with c2 (maternity STD) and with c1 (paid parental leave)",
+     "quote": "Note: FMLA leave runs concurrently with short term disability leave."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U2",
+     "answer": "12 months and 1,250 hours",
+     "quote": "1 year of service (consecutive or nonconsecutive) and have worked a minimum of 1,250 hours during the 12-month period immediately preceding the start of the leave"
+    }
+   ]
+  },
+  {
+   "component_id": "depaul_university_c4",
+   "institution_label": "",
+   "description": "Staff employees may use accrued vacation hours and floating holidays to be paid during the unpaid continuation of FMLA after the short-term disability benefit ends.",
+   "mechanism": "own_accrual",
+   "rule_applied": [
+    "R1",
+    "V2",
+    "R15"
+   ],
+   "faculty_group": "Staff employees",
+   "faculty_group_note": "Staff employees",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "For maternity leave ... Staff employees",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "'may apply' (V2).",
+   "payer": "own_balance",
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "depaul_university_c2",
+     "note": "Used in the unpaid FMLA continuation after the short-term disability benefit ends."
+    }
+   ],
+   "flags": [
+    "version_uncertain"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Staff employees may apply accrued vacation hours and/or floating holidays to get paid during this period."
+    ],
+    "eligible_parent": [
+     "For maternity leave, employees may choose to continue on FMLA leave through the full 12 weeks after paid benefit ends."
+    ],
+    "entitlement": [
+     "Staff employees may apply accrued vacation hours and/or floating holidays to get paid during this period."
+    ],
+    "sequence": [
+     "The period of continuation of FMLA leave after short-term disability benefit ends will remain unpaid.",
+     "Staff employees may apply accrued vacation hours and/or floating holidays to get paid during this period."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_maternity_leave"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "own_accrual",
+     "quote": "Staff employees may apply accrued vacation hours and/or floating holidays to get paid during this period."
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "own_balance",
+     "quote": "Staff employees may apply accrued vacation hours and/or floating holidays to get paid during this period."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "Staff employees",
+     "quote": "Staff employees may apply accrued vacation hours and/or floating holidays to get paid during this period."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "birth_parent (maternity-leave context)",
+     "quote": "For maternity leave, employees may choose to continue on FMLA leave through the full 12 weeks after paid benefit ends."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "Staff employees may apply accrued vacation hours and/or floating holidays to get paid during this period."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Staff employees may apply accrued vacation hours and/or floating holidays to get paid during this period."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "consecutive_after c2",
+     "quote": "The period of continuation of FMLA leave after short-term disability benefit ends will remain unpaid."
+    }
+   ]
+  },
+  {
+   "component_id": "depaul_university_c5",
+   "institution_label": "Long Term Disability",
+   "description": "Long-term disability under the university's Sick Pay, Short and Long Term Disability policy, which a faculty member may request when illness or disability prevents work; recorded without a length (schema §2).",
+   "mechanism": "generic_sick_or_disability_plan",
+   "mechanism_note": "A long-term disability plan (schema §2): one component, no duration.",
+   "rule_applied": [
+    "V2",
+    "U5"
+   ],
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "a faculty member",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "a faculty member (own illness or disability)",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "entitlement_note": "'may request' with no grant language (V2); the governing Sick Pay, Short and Long Term Disability policy is not saved.",
+   "payer": "employer",
+   "medical_certification": true,
+   "medical_certification_note": "physician certification of illness or disability and ability to return to work",
+   "flags": [
+    "cross_reference_not_saved: Sick Pay, Short and Long Term Disability policy"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "If illness or disability prevents a faculty member from performing his or her university"
+    ],
+    "eligible_parent": [
+     "If illness or disability prevents a faculty member from performing his or her university"
+    ],
+    "entitlement": [
+     "obligations and duties, the faculty member may request a medical leave under the university’s",
+     "Family and Medical Leave Act policy and the Sick Pay, Short and Long Term Disability policy."
+    ],
+    "medical_certification": [
+     "All medical leaves are subject to the policies and procedures of the applicable leave and benefit programs, including physician certification of illness or disability and ability to return to work."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_faculty_handbook_2016ed"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "Family and Medical Leave Act policy and the Sick Pay, Short and Long Term Disability policy."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "Family and Medical Leave Act policy and the Sick Pay, Short and Long Term Disability policy."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "If illness or disability prevents a faculty member from performing his or her university"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own illness or disability)",
+     "quote": "If illness or disability prevents a faculty member from performing his or her university"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "obligations and duties, the faculty member may request a medical leave under the university’s"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Family and Medical Leave Act policy and the Sick Pay, Short and Long Term Disability policy."
+    }
+   ]
+  },
+  {
+   "component_id": "depaul_university_c6",
+   "institution_label": "",
+   "description": "A tenured faculty member on approved long-term disability leave may resume the position at any time within 36 consecutive months of the first day of short-term disability leave (job protection for tenured faculty only).",
+   "mechanism": "unpaid_leave",
+   "mechanism_note": "Leave status with a right to resume the position; pay comes from the disability plans (c2, c5).",
+   "rule_applied": [
+    "U5",
+    "V2",
+    "R11"
+   ],
+   "faculty_group": "tenured faculty",
+   "faculty_group_note": "A tenured faculty member (tenure-track faculty not covered)",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "A tenured faculty member (own illness or disability)",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "'may resume ... at any time' gives the member the right (V2).",
+   "duration": {
+    "value": 36,
+    "units": "month",
+    "qualifier": "up_to"
+   },
+   "duration_note": "within thirty-six consecutive months of the first day of Short Term Disability leave",
+   "payer": "none",
+   "medical_certification": true,
+   "medical_certification_note": "physician certification of illness or disability and ability to return to work",
+   "flags": [
+    "own_illness_leave"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "A tenured faculty member who goes on approved Long Term Disability leave may resume his or"
+    ],
+    "eligible_parent": [
+     "A tenured faculty member who goes on approved Long Term Disability leave may resume his or"
+    ],
+    "entitlement": [
+     "A tenured faculty member who goes on approved Long Term Disability leave may resume his or",
+     "her university position at any time within thirty-six consecutive months of the first day of Short"
+    ],
+    "duration": [
+     "her university position at any time within thirty-six consecutive months of the first day of Short"
+    ],
+    "medical_certification": [
+     "All medical leaves are subject to the policies and procedures of the applicable leave and benefit programs, including physician certification of illness or disability and ability to return to work."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_faculty_handbook_2016ed"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "A tenured faculty member who goes on approved Long Term Disability leave may resume his or"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "A tenured faculty member who goes on approved Long Term Disability leave may resume his or"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "tenured faculty",
+     "quote": "A tenured faculty member who goes on approved Long Term Disability leave may resume his or"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own disability)",
+     "quote": "A tenured faculty member who goes on approved Long Term Disability leave may resume his or"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "A tenured faculty member who goes on approved Long Term Disability leave may resume his or"
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "36 months up_to ('within')",
+     "quote": "her university position at any time within thirty-six consecutive months of the first day of Short"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "A tenured faculty member who goes on approved Long Term Disability leave may resume his or"
+    }
+   ]
+  },
+  {
+   "component_id": "depaul_university_c7",
+   "institution_label": "Leaves of Absence",
+   "description": "Leave of absence for study and research, a temporary position elsewhere, medical need or disability, or personal reasons; a full academic year or one or more terms, more than a year only exceptionally; approved by the chair, dean and provost; non-medical leaves generally unpaid.",
+   "mechanism": "unpaid_leave",
+   "rule_applied": [
+    "U1",
+    "V2",
+    "Q1",
+    "R11"
+   ],
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "faculty (Faculty Handbook 6.7, all faculty)",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "faculty member; purposes include medical need or disability and personal reasons",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "entitlement_note": "'may be granted'; the chair, dean and provost 'must approve' and weigh the unit's needs (V2).",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "up_to"
+   },
+   "duration_note": "'a full academic year or one or more terms. Only in exceptional cases will a leave be granted for more than one year' (Q1).",
+   "pay_fraction": "Non-medical leaves are generally granted without salary; for other types of leave, the salary is reduced by one-third for each quarter of leave",
+   "payer": "none",
+   "notice": "full year: by January 15 of the preceding academic year; one term: by the beginning of the preceding term",
+   "flags": [
+    "general_purpose",
+    "ambiguous: pay for medical leaves under 6.7 ('salary is reduced by one-third for each quarter of leave') is unclear; payer coded none",
+    "cross_reference_not_saved: university policy on leaves for medical need or disability (Faculty Handbook 6.7 'in accordance with university policy')"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Leaves of absence may be granted for advanced study and research, a temporary position elsewhere compatible with one held at DePaul, medical need or disability in accordance with"
+    ],
+    "eligible_parent": [
+     "Leaves of absence may be granted for advanced study and research, a temporary position elsewhere compatible with one held at DePaul, medical need or disability in accordance with",
+     "university policy, or personal reasons. The duration of a leave may be a full academic year or one"
+    ],
+    "entitlement": [
+     "Leaves of absence may be granted for advanced study and research, a temporary position elsewhere compatible with one held at DePaul, medical need or disability in accordance with",
+     "The local academic unit officer, the college dean, and the provost must approve a leave."
+    ],
+    "duration": [
+     "university policy, or personal reasons. The duration of a leave may be a full academic year or one",
+     "Only in exceptional cases will a leave be granted for more than one year."
+    ],
+    "pay_fraction": [
+     "Non-medical leaves are generally granted without salary. For other types of leave, the salary is reduced by one-third for each quarter of leave; for faculty of the College of Law, salary is reduced by one-half for each semester of leave."
+    ],
+    "notice": [
+     "A request for leave for an academic term should be submitted in writing"
+    ]
+   },
+   "doc_ids": [
+    "2018_02_faculty_handbook_2016ed"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "Non-medical leaves are generally granted without salary. For other types of leave, the salary is reduced by one-third for each quarter of leave; for faculty of the College of Law, salary is reduced by one-half for each semester of leave."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Non-medical leaves are generally granted without salary. For other types of leave, the salary is reduced by one-third for each quarter of leave; for faculty of the College of Law, salary is reduced by one-half for each semester of leave."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Leaves of absence may be granted for advanced study and research, a temporary position elsewhere compatible with one held at DePaul, medical need or disability in accordance with"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "university policy, or personal reasons. The duration of a leave may be a full academic year or one"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "Leaves of absence may be granted for advanced study and research, a temporary position elsewhere compatible with one held at DePaul, medical need or disability in accordance with"
+    },
+    {
+     "field": "duration",
+     "rule": "Q1",
+     "answer": "1 year up_to (more than one year only exceptionally)",
+     "quote": "Only in exceptional cases will a leave be granted for more than one year."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "university policy, or personal reasons. The duration of a leave may be a full academic year or one"
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "as written; no single pay level",
+     "quote": "Non-medical leaves are generally granted without salary. For other types of leave, the salary is reduced by one-third for each quarter of leave; for faculty of the College of Law, salary is reduced by one-half for each semester of leave."
+    }
+   ]
+  },
+  {
+   "component_id": "depaul_university_c8",
+   "institution_label": "Leaves of Absence",
+   "description": "For an untenured tenure-line faculty member, the year in which a leave of one quarter or longer (family or medical, research, teaching or military leave) occurs is normally not counted as a probationary year, unless the member notifies the dean within six months of return that it should count.",
+   "mechanism": "tenure_clock",
+   "rule_applied": [
+    "U1",
+    "V2d",
+    "R11"
+   ],
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "untenured tenure-line faculty member",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "untenured tenure-line faculty member who takes a leave ... including family or medical leave",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "Automatic exclusion stated as 'normally not considered'; V2d (normally granted) → guaranteed_on_request with conditional_refusal. The member may opt out by notifying the dean within six months of return.",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "exact"
+   },
+   "duration_note": "'the year during which the leave occurs'; applies to 'A leave of one quarter or longer'.",
+   "flags": [
+    "general_purpose",
+    "conditional_refusal: is normally not considered as a year of probationary service",
+    "ambiguous: restriction: applies only to a leave of one quarter or longer"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "If an untenured tenure-line faculty member takes a leave as defined by DePaul policies, including family or medical leave, research leave, teaching leave, or military service leave, the year during which the leave occurs is normally not considered as a year of probationary service, and the leave does not break the required continuity of full-time service."
+    ],
+    "eligible_parent": [
+     "If an untenured tenure-line faculty member takes a leave as defined by DePaul policies, including family or medical leave, research leave, teaching leave, or military service leave, the year during which the leave occurs is normally not considered as a year of probationary service, and the leave does not break the required continuity of full-time service."
+    ],
+    "entitlement": [
+     "If an untenured tenure-line faculty member takes a leave as defined by DePaul policies, including family or medical leave, research leave, teaching leave, or military service leave, the year during which the leave occurs is normally not considered as a year of probationary service, and the leave does not break the required continuity of full-time service.",
+     "A leave of one quarter or longer may interrupt the faculty member’s probationary period.",
+     "the leave not to affect the length of the probationary period, he or she must notify the dean in"
+    ],
+    "duration": [
+     "If an untenured tenure-line faculty member takes a leave as defined by DePaul policies, including family or medical leave, research leave, teaching leave, or military service leave, the year during which the leave occurs is normally not considered as a year of probationary service, and the leave does not break the required continuity of full-time service.",
+     "A leave of one quarter or longer may interrupt the faculty member’s probationary period."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_faculty_handbook_2016ed"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "If an untenured tenure-line faculty member takes a leave as defined by DePaul policies, including family or medical leave, research leave, teaching leave, or military service leave, the year during which the leave occurs is normally not considered as a year of probationary service, and the leave does not break the required continuity of full-time service."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "If an untenured tenure-line faculty member takes a leave as defined by DePaul policies, including family or medical leave, research leave, teaching leave, or military service leave, the year during which the leave occurs is normally not considered as a year of probationary service, and the leave does not break the required continuity of full-time service."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "If an untenured tenure-line faculty member takes a leave as defined by DePaul policies, including family or medical leave, research leave, teaching leave, or military service leave, the year during which the leave occurs is normally not considered as a year of probationary service, and the leave does not break the required continuity of full-time service."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2d",
+     "answer": "guaranteed_on_request",
+     "quote": "If an untenured tenure-line faculty member takes a leave as defined by DePaul policies, including family or medical leave, research leave, teaching leave, or military service leave, the year during which the leave occurs is normally not considered as a year of probationary service, and the leave does not break the required continuity of full-time service."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 year exact (the year of the leave)",
+     "quote": "If an untenured tenure-line faculty member takes a leave as defined by DePaul policies, including family or medical leave, research leave, teaching leave, or military service leave, the year during which the leave occurs is normally not considered as a year of probationary service, and the leave does not break the required continuity of full-time service."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "If an untenured tenure-line faculty member takes a leave as defined by DePaul policies, including family or medical leave, research leave, teaching leave, or military service leave, the year during which the leave occurs is normally not considered as a year of probationary service, and the leave does not break the required continuity of full-time service."
+    }
+   ]
+  },
+  {
+   "component_id": "depaul_university_c9",
+   "institution_label": "",
+   "description": "For a personal leave outside the listed categories, the provost decides how the leave affects the probationary period.",
+   "mechanism": "tenure_clock",
+   "rule_applied": [
+    "U1",
+    "V2"
+   ],
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "candidate (untenured tenure-line faculty member)",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "Faculty ... a personal leave",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "entitlement_note": "The provost decides (V2).",
+   "flags": [
+    "general_purpose"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Faculty sometimes request and are granted a personal leave that does not fall into any of the"
+    ],
+    "eligible_parent": [
+     "Faculty sometimes request and are granted a personal leave that does not fall into any of the"
+    ],
+    "entitlement": [
+     "Faculty sometimes request and are granted a personal leave that does not fall into any of the",
+     "categories covered in the prior paragraph. If a candidate takes such a leave, the provost makes the",
+     "decision on how the leave affects the probationary period."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_faculty_handbook_2016ed"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "decision on how the leave affects the probationary period."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Faculty sometimes request and are granted a personal leave that does not fall into any of the"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "Faculty sometimes request and are granted a personal leave that does not fall into any of the"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "categories covered in the prior paragraph. If a candidate takes such a leave, the provost makes the"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "Faculty sometimes request and are granted a personal leave that does not fall into any of the"
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "Model: claude-opus-5-5. Reference date 2018-02-22; reference period 2017-18.",
+  "2018_00_link.txt is the HR Parental Leave page; 2018_01_maternity_leave.txt is the HR Maternity Leave page.",
+  "Under the rule for records with no governing document (reader instructions §3): the Faculty Handbook (July 1, 2016 edition, in force on the reference date) is a governing faculty handbook covering tenure-stream faculty, with a leave-of-absence section (6.7) and a tenure-clock provision (3.2.2), so missing is false. It contains no parental, maternity or modified-duties provision; the childbirth benefits come only from the two HR benefit pages, which point to governing policies that are not saved (the Parental Leave policy, the FMLA policy, the Sick Pay, Short and Long Term Disability policy).",
+  "Version: the two HR pages are Wayback captures of 2019 (footers 3/26/2019 and 2/6/2019), outside the 2017-18 reference year, so their components carry version_uncertain; both pages state the paid parental leave is effective for events on or after 2017-11-01, i.e. before the reference date.",
+  "Summary vs governing document: the HR pages are summaries ('See the policy'). summary_only was not applied because the governing policies are not saved, so it cannot be shown that the governing document lacks the provision; the components are flagged ambiguous and cross_reference_not_saved instead. This remains an open point.",
+  "Chain, birth parent: short-term disability maternity leave 6 (max 8) weeks at 100% (c2) → paid parental leave 2 weeks at 100% (c1, consecutive_after c2, birth role) → unpaid FMLA remainder; FMLA (c3) concurrent with c2 from the start, 12 weeks in all; leave limit 12 weeks on FMLA + parental leave.",
+  "Chain, non-birth parent: paid parental leave 2 weeks at 100% (c1) with FMLA (c3) concurrent from its start → unpaid FMLA remainder to 12 weeks.",
+  "Not components: Faculty Handbook 6.7 university-sponsored paid leaves through the Quality of Instruction Council and University Research Council (competitive research/teaching leaves for projects; a parent could not take them for a birth); Handbook 2.1 equal-opportunity statement naming parental status; Handbook 2.6.1 probationary extension on change of affiliation (not leave-related).",
+  "Documents cited but not saved: DePaul Parental Leave policy ('See the policy', HR page); DePaul Family and Medical Leave Act policy (HR page, Handbook 4.8); Sick Pay, Short and Long Term Disability policy (Handbook 4.8); university policy on leaves for medical need or disability (Handbook 6.7); Quality of Instruction Council and University Research Council leave guidelines (Handbook 6.7); college or departmental leave programmes (Handbook 6.7); Floating Holiday/Vacation/Parental Leave election form; Anti-Discrimination and Anti-Harassment Policy, Records Management policy, Faculty Council bylaws, unit tenure guidelines (not leave-related).",
+  "Handbook 4.8 gives tenured faculty on long-term disability a right to resume the position within 36 months of the first day of short-term disability leave (c6); coded with faculty_group 'tenured faculty' because tenure-track faculty are not covered.",
+  "The 6 vs 8 weeks of the maternity short-term disability period: the page does not state what decides which."
+ ],
+ "statutory_floor": {
+  "jurisdiction": "US",
+  "year": "2018",
+  "weeks_birth": 12.0,
+  "weeks_nonbirth": 12.0,
+  "statute": "Family and Medical Leave Act (FMLA) (29 U.S.C. 2611-2612)",
+  "source_doc": "2026_00_us_fmla_29usc2612",
+  "table": "statutory_baseline.csv"
+ }
+}

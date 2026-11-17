@@ -1,0 +1,1719 @@
+{
+ "institution": "University of New Mexico",
+ "slug": "university_of_new_mexico",
+ "country": "US",
+ "model": "claude-opus-5-5",
+ "codebook_version": "1.25",
+ "schema_version": "1.25",
+ "reference_date": "2018-03-12",
+ "calendar": {
+  "term_weeks": null,
+  "note": "R8: the documents state a semester calendar without its length ('The appointment period for the first semester ends Dec. 31, even though the semester may end at a different time'; Fall and Spring semesters, B4) -> semester default 16",
+  "kind": "semester"
+ },
+ "documents": [
+  {
+   "doc_id": "2018_00_link",
+   "url": "https://handbook.unm.edu/policies/section-c/leave-absence/c215.html",
+   "title": "Faculty Handbook C215: Parental Leave",
+   "version_or_effective_date": "Approved Faculty Senate 2010-11-23; President 2011-11-29; Wayback capture 20180330",
+   "retrieved": "2026-10-22T02:17:30+00:00"
+  },
+  {
+   "doc_id": "2018_01_handbook_c210_sick_leave",
+   "url": "https://handbook.unm.edu/policies/section-c/leave-absence/c210.html",
+   "title": "Faculty Handbook C210: Sick Leave",
+   "version_or_effective_date": "Approved 1974-1978; Wayback capture 20180403",
+   "retrieved": "2026-10-22T07:55:34+00:00"
+  },
+  {
+   "doc_id": "2018_02_handbook_c280_leave_without_pay",
+   "url": "https://handbook.unm.edu/policies/section-c/leave-absence/c280.html",
+   "title": "Faculty Handbook C280: Leave Without Pay",
+   "version_or_effective_date": "Effective 2014-05-09; Wayback capture 20180403",
+   "retrieved": "2026-10-22T07:55:39+00:00"
+  },
+  {
+   "doc_id": "2018_03_handbook_c245_absence_from_duties",
+   "url": "https://handbook.unm.edu/policies/section-c/leave-absence/c245.html",
+   "title": "Faculty Handbook C245: Faculty Absence from Assigned Duties",
+   "version_or_effective_date": "Approved 1974-1978; Wayback capture 20180330",
+   "retrieved": "2026-10-22T07:55:44+00:00"
+  },
+  {
+   "doc_id": "2018_04_handbook_b3_appointments_contracts",
+   "url": "https://handbook.unm.edu/policies/section-b/b3.html",
+   "title": "Faculty Handbook B3: Faculty Appointments and Contracts",
+   "version_or_effective_date": "Approved Regents 1998-12-08; Wayback capture 20180213",
+   "retrieved": "2026-10-22T07:55:49+00:00"
+  },
+  {
+   "doc_id": "2018_05_handbook_b4_faculty_reviews",
+   "url": "https://handbook.unm.edu/policies/section-b/b4.html",
+   "title": "Faculty Handbook B4: Faculty Reviews",
+   "version_or_effective_date": "Approved Regents 1998-12-08; Wayback capture 20180213",
+   "retrieved": "2026-10-22T07:55:55+00:00"
+  },
+  {
+   "doc_id": "2018_06_regents_policy_5_4_leaves",
+   "url": "https://policy.unm.edu/regents-policies/section-5/5-4.html",
+   "title": "Regents' Policy Manual 5.4: Leaves of Absence",
+   "version_or_effective_date": "Adopted 1996-09-12; Wayback capture 20180307",
+   "retrieved": "2026-10-22T07:56:00+00:00"
+  },
+  {
+   "doc_id": "2018_07_uap_3440_fmla",
+   "url": "https://policy.unm.edu/university-policies/3000/3440.html",
+   "title": "UAP Policy 3440: Family and Medical Leave",
+   "version_or_effective_date": "Revised 2015-01-08; Wayback capture 20180221",
+   "retrieved": "2026-10-22T07:56:05+00:00"
+  },
+  {
+   "doc_id": "2026_00_us_fmla_29usc2612",
+   "title": "29 U.S.C. 2612 (FMLA leave requirement)",
+   "url": "https://www.law.cornell.edu/uscode/text/29/2612",
+   "retrieved": "2026-10-19"
+  }
+ ],
+ "missing": false,
+ "scope_accounting": {
+  "C1": {
+   "components": [
+    "university_of_new_mexico_c1",
+    "university_of_new_mexico_c2"
+   ]
+  },
+  "C2": {
+   "components": [
+    "university_of_new_mexico_c1"
+   ]
+  },
+  "C3": {
+   "components": [
+    "university_of_new_mexico_c3",
+    "university_of_new_mexico_c4",
+    "university_of_new_mexico_c6"
+   ]
+  },
+  "C4": {
+   "components": [
+    "university_of_new_mexico_c5"
+   ],
+   "not_components": [
+    {
+     "statute": "FMLA military family leave (qualifying exigency, military caregiver 26 weeks; UAP 3440 5.4-5.5)",
+     "reason": "U4: sections not relied on for becoming a parent"
+    },
+    {
+     "statute": "Uniformed Services Employment and Reemployment Rights Act",
+     "reason": "U4: named only for counting FMLA eligibility hours; military service, unrelated to becoming a parent"
+    },
+    {
+     "statute": "Genetic Information Nondiscrimination Act (GINA)",
+     "reason": "U4: privacy of medical information; gives no leave, pay or protection"
+    },
+    {
+     "statute": "Federal Employee Paid Leave Act",
+     "reason": "baseline row only; not named in the documents; federal civilian employees"
+    }
+   ]
+  },
+  "C5": {
+   "components": [
+    "university_of_new_mexico_c5"
+   ]
+  },
+  "C6": {
+   "components": [
+    "university_of_new_mexico_c7"
+   ]
+  },
+  "C7": {
+   "components": [
+    "university_of_new_mexico_c8",
+    "university_of_new_mexico_c9"
+   ]
+  },
+  "C8": {
+   "components": [
+    "university_of_new_mexico_c10",
+    "university_of_new_mexico_c11"
+   ]
+  },
+  "C9": {
+   "absent": {
+    "documents": [
+     "2018_00_link",
+     "2018_01_handbook_c210_sick_leave",
+     "2018_02_handbook_c280_leave_without_pay",
+     "2018_03_handbook_c245_absence_from_duties",
+     "2018_04_handbook_b3_appointments_contracts",
+     "2018_05_handbook_b4_faculty_reviews",
+     "2018_06_regents_policy_5_4_leaves",
+     "2018_07_uap_3440_fmla"
+    ],
+    "terms": [
+     "accommodation",
+     "pregnan",
+     "lactation",
+     "transfer",
+     "hazard",
+     "less strenuous"
+    ]
+   }
+  },
+  "C10": {
+   "absent": {
+    "documents": [
+     "2018_00_link",
+     "2018_01_handbook_c210_sick_leave",
+     "2018_02_handbook_c280_leave_without_pay",
+     "2018_03_handbook_c245_absence_from_duties",
+     "2018_04_handbook_b3_appointments_contracts",
+     "2018_05_handbook_b4_faculty_reviews",
+     "2018_06_regents_policy_5_4_leaves",
+     "2018_07_uap_3440_fmla"
+    ],
+    "terms": [
+     "first days",
+     "work days",
+     "regular work time",
+     "paid FMLA",
+     "FMLA leave with pay"
+    ]
+   }
+  }
+ },
+ "passage_dispositions": {
+  "2018_00_link#001": {
+   "used_in": [
+    "university_of_new_mexico_c1",
+    "university_of_new_mexico_c2",
+    "university_of_new_mexico_c5",
+    "university_of_new_mexico_c8"
+   ]
+  },
+  "2018_01_handbook_c210_sick_leave#001": {
+   "used_in": [
+    "university_of_new_mexico_c3",
+    "university_of_new_mexico_c4"
+   ]
+  },
+  "2018_02_handbook_c280_leave_without_pay#001": {
+   "used_in": [
+    "university_of_new_mexico_c7",
+    "university_of_new_mexico_c9"
+   ]
+  },
+  "2018_02_handbook_c280_leave_without_pay#002": {
+   "used_in": [
+    "university_of_new_mexico_c7"
+   ]
+  },
+  "2018_04_handbook_b3_appointments_contracts#001": {
+   "not_relevant": "types of appointment and probationary review timing; no leave provision"
+  },
+  "2018_04_handbook_b3_appointments_contracts#002": {
+   "used_in": [
+    "university_of_new_mexico_c9"
+   ]
+  },
+  "2018_04_handbook_b3_appointments_contracts#003": {
+   "used_in": [
+    "university_of_new_mexico_c11"
+   ]
+  },
+  "2018_04_handbook_b3_appointments_contracts#004": {
+   "used_in": [
+    "university_of_new_mexico_c11"
+   ]
+  },
+  "2018_04_handbook_b3_appointments_contracts#005": {
+   "not_relevant": "joint and administrative appointments; no leave provision"
+  },
+  "2018_04_handbook_b3_appointments_contracts#006": {
+   "used_in": [
+    "university_of_new_mexico_c10"
+   ]
+  },
+  "2018_05_handbook_b4_faculty_reviews#001": {
+   "not_relevant": "mid-probationary review standards; no leave or clock provision"
+  },
+  "2018_05_handbook_b4_faculty_reviews#002": {
+   "not_relevant": "tenure review standards and timetable; no leave or clock provision"
+  },
+  "2018_05_handbook_b4_faculty_reviews#003": {
+   "not_relevant": "promotion timetable; no leave or clock provision"
+  },
+  "2018_06_regents_policy_5_4_leaves#001": {
+   "not_relevant": "page header and navigation"
+  },
+  "2018_06_regents_policy_5_4_leaves#002": {
+   "not_relevant": "navigation menu of policy titles"
+  },
+  "2018_06_regents_policy_5_4_leaves#003": {
+   "not_relevant": "navigation menu of policy titles (UAP 3000 series)"
+  },
+  "2018_06_regents_policy_5_4_leaves#004": {
+   "not_relevant": "navigation menu of policy titles"
+  },
+  "2018_06_regents_policy_5_4_leaves#005": {
+   "not_relevant": "RPM 5.4 lists authorized faculty leaves (incl. 'maternity leave') and defers to the Faculty Handbook; no terms; recorded in notes"
+  },
+  "2018_07_uap_3440_fmla#001": {
+   "not_relevant": "page header and navigation"
+  },
+  "2018_07_uap_3440_fmla#002": {
+   "not_relevant": "navigation menu of policy titles"
+  },
+  "2018_07_uap_3440_fmla#003": {
+   "not_relevant": "navigation menu of policy titles (UAP 3000 series)"
+  },
+  "2018_07_uap_3440_fmla#004": {
+   "not_relevant": "navigation menu of policy titles (UAP 3000 series)"
+  },
+  "2018_07_uap_3440_fmla#005": {
+   "used_in": [
+    "university_of_new_mexico_c5",
+    "university_of_new_mexico_c6"
+   ]
+  },
+  "2018_07_uap_3440_fmla#006": {
+   "used_in": [
+    "university_of_new_mexico_c5"
+   ]
+  },
+  "2018_07_uap_3440_fmla#007": {
+   "used_in": [
+    "university_of_new_mexico_c5"
+   ]
+  }
+ },
+ "mechanism_slots": {
+  "employer_paid_leave": {
+   "components": [
+    "university_of_new_mexico_c1",
+    "university_of_new_mexico_c2"
+   ]
+  },
+  "employer_childbirth_benefit": {
+   "absent": "No childbirth-specific paid period in any saved source (searched all 8 documents for maternity, childbirth, birth mother, disability); C215 1.3 refers only to 'any medically required leave'"
+  },
+  "generic_sick_or_disability_plan": {
+   "components": [
+    "university_of_new_mexico_c4"
+   ]
+  },
+  "own_accrual": {
+   "components": [
+    "university_of_new_mexico_c6"
+   ]
+  },
+  "donated_leave": {
+   "absent": "UAP 3440 names UAP 3430 Catastrophic Leave Program only as running concurrently with FMLA; its terms are not saved (searched all documents for catastrophic, donat, shared leave)"
+  },
+  "government_benefit": {
+   "absent": "No government or state paid programme named (searched all documents for state, disability insurance, paid family leave, benefit)"
+  },
+  "employer_topup": {
+   "absent": "No top-up of a government benefit (searched all documents for top-up, supplement, difference)"
+  },
+  "modified_duties": {
+   "absent": "C215 relief is part of the paid parental leave (c1, R4c); no separate modified-duties provision (searched for modified duties, teaching relief, course release, workload)"
+  },
+  "unpaid_leave": {
+   "components": [
+    "university_of_new_mexico_c3",
+    "university_of_new_mexico_c5",
+    "university_of_new_mexico_c7"
+   ]
+  },
+  "tenure_clock": {
+   "components": [
+    "university_of_new_mexico_c8",
+    "university_of_new_mexico_c9"
+   ]
+  },
+  "part_time_option": {
+   "components": [
+    "university_of_new_mexico_c10",
+    "university_of_new_mexico_c11"
+   ]
+  },
+  "other": {
+   "absent": "No accommodation, rearrangement or hazard provision (searched all documents for accommodation, pregnan, transfer, lactation)"
+  }
+ },
+ "baseline_accounting": {
+  "Family and Medical Leave Act (FMLA)": {
+   "components": [
+    "university_of_new_mexico_c5"
+   ]
+  },
+  "Federal Employee Paid Leave Act (paid parental leave for federal civilian employees)": {
+   "not_applicable": "federal civilian employees only; UNM is a state university; not named in the documents"
+  }
+ },
+ "leave_limits": [],
+ "components": [
+  {
+   "component_id": "university_of_new_mexico_c1",
+   "institution_label": "C215: Parental Leave",
+   "description": "One semester of parental leave at full pay for a primary or coequal care-giving faculty parent (birth, partner of a birth mother, adoption, foster); full relief from teaching, with research and advising normally continuing; half pay each if both parents (both UNM faculty) take leave.",
+   "mechanism": "employer_paid_leave",
+   "mechanism_note": "A dedicated paid parental leave granted by the Faculty Handbook; relief is partial (teaching relieved, research and advising continue), so its relief category comes from its relief fields (R4c).",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "All regular contract faculty at .50 FTE or higher (Faculty Handbook C215 2.1); HSC defines its own relief (2.3)",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "Mothers giving birth, spouses or domestic partners of mothers giving birth, parents adopting, and parents accepting a long-term foster placement or fostering toward adoption",
+   "caregiver_condition": "equal_or_more_than_partner",
+   "caregiver_condition_wording": "a primary or coequal care-giving faculty parent as defined within this policy",
+   "service_requirement": "at least one semester of employment at UNM; .50 FTE or higher",
+   "dual_employee_rule": "each is eligible; if both parents take leave, each reimbursed at one-half of usual salary; same-department couples discuss concurrent or consecutive (preferable) leave with the chair",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "V2: the policy provides the leave and states that eligible faculty 'are eligible'; the dean or chair and the faculty member develop a plan (arrangements), with appeal on the plan to the EVP. The policy calls it 'a revocable benefit under certain circumstances' (misuse: outside paid work, return obligation), which does not make the grant discretionary.",
+   "duration": {
+    "value": 1,
+    "units": "semester",
+    "qualifier": "exact"
+   },
+   "duration_note": "One semester; the policy states no qualifier. Additional leave in extraordinary circumstances is a separate component (c2).",
+   "pay_fraction": "full pay",
+   "pay_fraction_pct": 100,
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "continues",
+    "research": "continues",
+    "advising_supervision": "continues",
+    "clinical": "continues"
+   },
+   "relief_inferred": "unnamed duties continue (R4b)",
+   "relief_note": "Full relief from 'teaching duties and similar responsibilities'; research and advising stated to continue normally (not during medically required leave). Service and clinical duties are not named, coded continues under R4b. Each dean may set relief guidelines; HSC defines relief for HSC faculty.",
+   "time_window": "should normally begin within one calendar year after the birth or placement (exceptions case by case under 3.1)",
+   "return_obligation": "return to work at UNM for a minimum of time equal to leave time taken",
+   "notice": "discuss with the dean or chair well in advance of the leave",
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "university_of_new_mexico_c3",
+     "roles": [
+      "birth"
+     ],
+     "note": "C215 1.3: parental leave is granted in addition to any medically required leave of the birth mother; it follows that leave."
+    }
+   ],
+   "rule_applied": [
+    "V2",
+    "R4",
+    "R4b",
+    "R4c",
+    "R6",
+    "R15",
+    "U8"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "All regular contract faculty at .50 FTE or higher who have been employed at UNM at least one semester are eligible for parental leave."
+    ],
+    "eligible_parent": [
+     "Mothers giving birth, spouses or domestic partners of mothers giving birth, parents adopting, and parents accepting a long-term foster placement or fostering toward adoption, are all eligible for equal amounts of parental leave under this policy."
+    ],
+    "caregiver_condition": [
+     "This policy provides one semester of parental leave with full pay for a primary or coequal care-giving faculty parent as defined within this policy."
+    ],
+    "entitlement": [
+     "All regular contract faculty at .50 FTE or higher who have been employed at UNM at least one semester are eligible for parental leave.",
+     "This policy provides one semester of parental leave with full pay for a primary or coequal care-giving faculty parent as defined within this policy.",
+     "The faculty member and the dean or department chair will work together to develop a plan for parental leave that meets both the needs of the faculty member and the needs of the University.",
+     "The parent/s taking leave must also realize this is a revocable benefit under certain circumstances."
+    ],
+    "duration": [
+     "This policy provides one semester of parental leave with full pay for a primary or coequal care-giving faculty parent as defined within this policy."
+    ],
+    "pay_fraction": [
+     "If only one parent takes leave, that parent will be reimbursed at full pay during the leave.",
+     "This policy provides one semester of parental leave with full pay for a primary or coequal care-giving faculty parent as defined within this policy."
+    ],
+    "relief": [
+     "This policy provides full relief from teaching duties and similar responsibilities. When research and advising are part of the duties, it is normally expected that these activities will continue during parental leave, but not during any period of medically required leave.",
+     "Given the varied nature of academic responsibilities across the University it is the prerogative of each dean to establish guidelines for relief under this policy.",
+     "the Health Sciences Center will define the extent of relief provided to HSC faculty requesting parental leave."
+    ],
+    "sequence": [
+     "Parental leave is not intended to take the place of medical leave for a birth mother, but is granted in addition to any medically required leave."
+    ],
+    "service_requirement": [
+     "All regular contract faculty at .50 FTE or higher who have been employed at UNM at least one semester are eligible for parental leave."
+    ],
+    "dual_employee_rule": [
+     "If both parents wish to take leave, whether consecutively or concurrently, they will each be reimbursed at one-half of their usual salary."
+    ],
+    "time_window": [
+     "Parental leave should normally begin within one calendar year after a child is born or an adopted or foster child joins the household."
+    ],
+    "return_obligation": [
+     "The parent taking leave must also agree that he or she will return to work at The University of New Mexico after leave has been taken for a minimum of time equal to leave time taken."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "cross_reference_not_saved: Faculty Handbook [1990 ed.] pages the rule for a governing document cited but not saved to C-7 (maternity leave listed in RPM 5.4)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "employer_paid_leave",
+     "quote": "This policy provides one semester of parental leave with full pay for a primary or coequal care-giving faculty parent as defined within this policy."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "If only one parent takes leave, that parent will be reimbursed at full pay during the leave."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "This policy provides one semester of parental leave with full pay for a primary or coequal care-giving faculty parent as defined within this policy."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "All regular contract faculty at .50 FTE or higher who have been employed at UNM at least one semester are eligible for parental leave."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "birth_parent, non_birth_parent, adoptive, foster",
+     "quote": "Mothers giving birth, spouses or domestic partners of mothers giving birth, parents adopting, and parents accepting a long-term foster placement or fostering toward adoption, are all eligible for equal amounts of parental leave under this policy."
+    },
+    {
+     "field": "caregiver_condition",
+     "rule": "R6",
+     "answer": "equal_or_more_than_partner",
+     "quote": "This policy provides one semester of parental leave with full pay for a primary or coequal care-giving faculty parent as defined within this policy."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "All regular contract faculty at .50 FTE or higher who have been employed at UNM at least one semester are eligible for parental leave."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 semester exact",
+     "quote": "This policy provides one semester of parental leave with full pay for a primary or coequal care-giving faculty parent as defined within this policy."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "U8",
+     "answer": "full pay (one parent taking leave); half pay each when both take leave goes in dual_employee_rule",
+     "quote": "If only one parent takes leave, that parent will be reimbursed at full pay during the leave."
+    },
+    {
+     "field": "relief",
+     "rule": "R4b",
+     "answer": "teaching relieved; research and advising continue (stated); service and clinical not named, continue",
+     "quote": "This policy provides full relief from teaching duties and similar responsibilities. When research and advising are part of the duties, it is normally expected that these activities will continue during parental leave, but not during any period of medically required leave."
+    },
+    {
+     "field": "relief",
+     "rule": "R4c",
+     "answer": "paid leave keeping research takes its category from relief fields (Just teaching)",
+     "quote": "This policy provides full relief from teaching duties and similar responsibilities. When research and advising are part of the duties, it is normally expected that these activities will continue during parental leave, but not during any period of medically required leave."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "consecutive_after the extended sick leave (c3), birth parent only",
+     "quote": "Parental leave is not intended to take the place of medical leave for a birth mother, but is granted in addition to any medically required leave."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "one semester; .50 FTE",
+     "quote": "All regular contract faculty at .50 FTE or higher who have been employed at UNM at least one semester are eligible for parental leave."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_new_mexico_c2",
+   "institution_label": "3.1 Extraordinary Circumstances",
+   "description": "Additional parental leave and/or flexibility for multiple births or adoptions or special-needs children, determined case by case by the executive vice president; no length or pay stated.",
+   "mechanism": "employer_paid_leave",
+   "mechanism_note": "Additional parental leave under C215, whose leave is paid; the pay of the additional leave is not stated. No duration: adds no weeks.",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "faculty eligible under C215 (all regular contract faculty at .50 FTE or higher)",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "multiple births/adoptions or events involving special-needs children",
+   "caregiver_condition": "equal_or_more_than_partner",
+   "caregiver_condition_wording": "a primary or coequal care-giving faculty parent as defined within this policy",
+   "entitlement": "discretionary",
+   "entitlement_note": "V2: referred to the EVP 'for a determination', reviewed case by case; the approval decides whether there is additional leave.",
+   "time_window": "only in extraordinary circumstances: multiple births or adoptions, special-needs children",
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "university_of_new_mexico_c1",
+     "note": "'additional parental leave' beyond the C215 semester"
+    }
+   ],
+   "rule_applied": [
+    "V2",
+    "R15",
+    "U8"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "All regular contract faculty at .50 FTE or higher who have been employed at UNM at least one semester are eligible for parental leave."
+    ],
+    "eligible_parent": [
+     "Extraordinary circumstances such as multiple births/adoptions or events involving special-needs children may necessitate additional parental leave and/or flexibility, and shall be referred to the appropriate executive vice president for a determination.",
+     "Mothers giving birth, spouses or domestic partners of mothers giving birth, parents adopting, and parents accepting a long-term foster placement or fostering toward adoption, are all eligible for equal amounts of parental leave under this policy."
+    ],
+    "caregiver_condition": [
+     "This policy provides one semester of parental leave with full pay for a primary or coequal care-giving faculty parent as defined within this policy."
+    ],
+    "entitlement": [
+     "Extraordinary circumstances such as multiple births/adoptions or events involving special-needs children may necessitate additional parental leave and/or flexibility, and shall be referred to the appropriate executive vice president for a determination.",
+     "These situations will be reviewed on a case-by-case basis to determine how best to meet the additional needs of the faculty member and the University."
+    ],
+    "sequence": [
+     "Extraordinary circumstances such as multiple births/adoptions or events involving special-needs children may necessitate additional parental leave and/or flexibility, and shall be referred to the appropriate executive vice president for a determination."
+    ],
+    "service_requirement": [
+     "All regular contract faculty at .50 FTE or higher who have been employed at UNM at least one semester are eligible for parental leave."
+    ]
+   },
+   "service_requirement": "as C215: one semester; .50 FTE",
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "ambiguous: pay level and length not stated; determined case by case",
+    "ambiguous: restriction: only for multiple births/adoptions or special-needs children"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "employer_paid_leave",
+     "quote": "Extraordinary circumstances such as multiple births/adoptions or events involving special-needs children may necessitate additional parental leave and/or flexibility, and shall be referred to the appropriate executive vice president for a determination."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "This policy provides one semester of parental leave with full pay for a primary or coequal care-giving faculty parent as defined within this policy."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Extraordinary circumstances such as multiple births/adoptions or events involving special-needs children may necessitate additional parental leave and/or flexibility, and shall be referred to the appropriate executive vice president for a determination."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "All regular contract faculty at .50 FTE or higher who have been employed at UNM at least one semester are eligible for parental leave."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "birth_parent, non_birth_parent, adoptive, foster",
+     "quote": "Mothers giving birth, spouses or domestic partners of mothers giving birth, parents adopting, and parents accepting a long-term foster placement or fostering toward adoption, are all eligible for equal amounts of parental leave under this policy."
+    },
+    {
+     "field": "caregiver_condition",
+     "rule": "R6",
+     "answer": "equal_or_more_than_partner",
+     "quote": "This policy provides one semester of parental leave with full pay for a primary or coequal care-giving faculty parent as defined within this policy."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "Extraordinary circumstances such as multiple births/adoptions or events involving special-needs children may necessitate additional parental leave and/or flexibility, and shall be referred to the appropriate executive vice president for a determination."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "consecutive_after c1 (additional leave)",
+     "quote": "Extraordinary circumstances such as multiple births/adoptions or events involving special-needs children may necessitate additional parental leave and/or flexibility, and shall be referred to the appropriate executive vice president for a determination."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "as C215",
+     "quote": "All regular contract faculty at .50 FTE or higher who have been employed at UNM at least one semester are eligible for parental leave."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_new_mexico_c3",
+   "institution_label": "C210: Sick Leave",
+   "description": "Extended sick leave for illness or injury requiring an absence of more than ten working days, approved by the President, up to six months for faculty with six or more years of service; shorter ('reduced accordingly') with less service. The leave itself (U6); its pay is c4.",
+   "mechanism": "unpaid_leave",
+   "mechanism_note": "U6: the text grants an absence ('extended sick leave with pay up to a maximum of six (6) months'), so the leave is coded as unpaid_leave and its pay as a generic plan within it.",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "full-time faculty members; permanent part-time faculty at least one-half time proportionally",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "In cases of illness or injury (own illness)",
+   "caregiver_condition": "none",
+   "service_requirement": "six (6) or more years of continuous service for the full six months; less service: length reduced accordingly",
+   "entitlement": "discretionary",
+   "entitlement_note": "V2: 'the President may approve' on recommendation of chair, dean and VPAA.",
+   "duration": {
+    "value": 6,
+    "units": "month",
+    "qualifier": "up_to"
+   },
+   "duration_note": "Up to six months for six or more years of continuous service and no extended sick leave in the last six years; 'reduced accordingly' for less service or a recent extended sick leave. The reduction for a member with two years of service (U8) is not stated, so the six-month maximum is coded and flagged.",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_note": "A leave of absence; C215 2.3 also states research and advising do not continue 'during any period of medically required leave'.",
+   "time_window": "illness or injury requiring an absence exceeding ten (10) working days",
+   "rule_applied": [
+    "U6",
+    "U5",
+    "V2",
+    "R13",
+    "U8",
+    "R9"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "the President may approve an extended sick leave with pay up to a maximum of six (6) months for those full-time faculty members who have had six (6) or more years of continuous service at the University and who have not had an extended sick leave during their last six (6) years of service.",
+     "Permanent part-time faculty, who work at least one-half (1/2) time are eligible for sick leave proportionally."
+    ],
+    "eligible_parent": [
+     "In cases of illness or injury requiring an extended absence—defined here as a period exceeding ten (10) working days—upon recommendation by the department chairperson, the dean and the Vice President for Academic Affairs"
+    ],
+    "entitlement": [
+     "the President may approve an extended sick leave with pay up to a maximum of six (6) months for those full-time faculty members who have had six (6) or more years of continuous service at the University and who have not had an extended sick leave during their last six (6) years of service."
+    ],
+    "duration": [
+     "the President may approve an extended sick leave with pay up to a maximum of six (6) months for those full-time faculty members who have had six (6) or more years of continuous service at the University and who have not had an extended sick leave during their last six (6) years of service.",
+     "For those who have been at the University less than six (6) years or who have been granted extended sick leave during their last six (6) years of service, the length of the requested sick leave will be reduced accordingly."
+    ],
+    "relief": [
+     "This policy provides full relief from teaching duties and similar responsibilities. When research and advising are part of the duties, it is normally expected that these activities will continue during parental leave, but not during any period of medically required leave."
+    ],
+    "service_requirement": [
+     "the President may approve an extended sick leave with pay up to a maximum of six (6) months for those full-time faculty members who have had six (6) or more years of continuous service at the University and who have not had an extended sick leave during their last six (6) years of service.",
+     "For those who have been at the University less than six (6) years or who have been granted extended sick leave during their last six (6) years of service, the length of the requested sick leave will be reduced accordingly."
+    ],
+    "time_window": [
+     "In cases of illness or injury requiring an extended absence—defined here as a period exceeding ten (10) working days—upon recommendation by the department chairperson, the dean and the Vice President for Academic Affairs"
+    ]
+   },
+   "doc_ids": [
+    "2018_01_handbook_c210_sick_leave",
+    "2018_00_link"
+   ],
+   "flags": [
+    "ambiguous: rule gap: U8 two-year service band not stated; length 'reduced accordingly' for under six years, reduction not quantified; six-month maximum coded",
+    "own_illness_leave"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "U6",
+     "answer": "unpaid_leave",
+     "quote": "the President may approve an extended sick leave with pay up to a maximum of six (6) months for those full-time faculty members who have had six (6) or more years of continuous service at the University and who have not had an extended sick leave during their last six (6) years of service."
+    },
+    {
+     "field": "payer",
+     "rule": "U6",
+     "answer": "none",
+     "quote": "the President may approve an extended sick leave with pay up to a maximum of six (6) months for those full-time faculty members who have had six (6) or more years of continuous service at the University and who have not had an extended sick leave during their last six (6) years of service."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "In cases of illness or injury requiring an extended absence—defined here as a period exceeding ten (10) working days—upon recommendation by the department chairperson, the dean and the Vice President for Academic Affairs"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "the President may approve an extended sick leave with pay up to a maximum of six (6) months for those full-time faculty members who have had six (6) or more years of continuous service at the University and who have not had an extended sick leave during their last six (6) years of service."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own illness)",
+     "quote": "In cases of illness or injury requiring an extended absence—defined here as a period exceeding ten (10) working days—upon recommendation by the department chairperson, the dean and the Vice President for Academic Affairs"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "the President may approve an extended sick leave with pay up to a maximum of six (6) months for those full-time faculty members who have had six (6) or more years of continuous service at the University and who have not had an extended sick leave during their last six (6) years of service."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "6 months up_to",
+     "quote": "the President may approve an extended sick leave with pay up to a maximum of six (6) months for those full-time faculty members who have had six (6) or more years of continuous service at the University and who have not had an extended sick leave during their last six (6) years of service."
+    },
+    {
+     "field": "duration",
+     "rule": "U8",
+     "answer": "two-year band not stated; maximum coded, flagged",
+     "quote": "For those who have been at the University less than six (6) years or who have been granted extended sick leave during their last six (6) years of service, the length of the requested sick leave will be reduced accordingly."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "formal leave of absence: all relieved; C215 confirms research and advising stop during medically required leave",
+     "quote": "This policy provides full relief from teaching duties and similar responsibilities. When research and advising are part of the duties, it is normally expected that these activities will continue during parental leave, but not during any period of medically required leave."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "six years for the full length; reduced otherwise",
+     "quote": "For those who have been at the University less than six (6) years or who have been granted extended sick leave during their last six (6) years of service, the length of the requested sick leave will be reduced accordingly."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_new_mexico_c4",
+   "institution_label": "C210: Sick Leave",
+   "description": "Full pay during an approved extended sick leave (c3), up to six months; a generic sick plan with no childbirth-specific period.",
+   "mechanism": "generic_sick_or_disability_plan",
+   "mechanism_note": "V1/R2: no childbirth-specific period is stated; illness or injury in general. Not an accrual: the President approves paid sick leave by length of service (R1).",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "full-time faculty members; permanent part-time faculty at least one-half time proportionally",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "In cases of illness or injury (own illness)",
+   "caregiver_condition": "none",
+   "service_requirement": "six (6) or more years of continuous service for the full six months; less service: length reduced accordingly",
+   "entitlement": "discretionary",
+   "entitlement_note": "V2: 'the President may approve'.",
+   "duration": {
+    "value": 6,
+    "units": "month",
+    "qualifier": "up_to"
+   },
+   "duration_note": "As c3: six-month maximum; reduced for less than six years of service (not quantified).",
+   "pay_fraction": "with pay",
+   "pay_fraction_pct": 100,
+   "sequence": [
+    {
+     "relation": "within",
+     "component_id": "university_of_new_mexico_c3",
+     "note": "pay for the extended sick leave (U6)"
+    }
+   ],
+   "rule_applied": [
+    "U6",
+    "V1",
+    "R2",
+    "R1",
+    "V6",
+    "V2",
+    "U8"
+   ],
+   "evidence": {
+    "mechanism": [
+     "the President may approve an extended sick leave with pay up to a maximum of six (6) months for those full-time faculty members who have had six (6) or more years of continuous service at the University and who have not had an extended sick leave during their last six (6) years of service.",
+     "In cases of illness or injury requiring an extended absence—defined here as a period exceeding ten (10) working days—upon recommendation by the department chairperson, the dean and the Vice President for Academic Affairs"
+    ],
+    "faculty_group": [
+     "the President may approve an extended sick leave with pay up to a maximum of six (6) months for those full-time faculty members who have had six (6) or more years of continuous service at the University and who have not had an extended sick leave during their last six (6) years of service."
+    ],
+    "eligible_parent": [
+     "In cases of illness or injury requiring an extended absence—defined here as a period exceeding ten (10) working days—upon recommendation by the department chairperson, the dean and the Vice President for Academic Affairs"
+    ],
+    "entitlement": [
+     "the President may approve an extended sick leave with pay up to a maximum of six (6) months for those full-time faculty members who have had six (6) or more years of continuous service at the University and who have not had an extended sick leave during their last six (6) years of service."
+    ],
+    "duration": [
+     "the President may approve an extended sick leave with pay up to a maximum of six (6) months for those full-time faculty members who have had six (6) or more years of continuous service at the University and who have not had an extended sick leave during their last six (6) years of service.",
+     "For those who have been at the University less than six (6) years or who have been granted extended sick leave during their last six (6) years of service, the length of the requested sick leave will be reduced accordingly."
+    ],
+    "pay_fraction": [
+     "the President may approve an extended sick leave with pay up to a maximum of six (6) months for those full-time faculty members who have had six (6) or more years of continuous service at the University and who have not had an extended sick leave during their last six (6) years of service."
+    ],
+    "sequence": [
+     "the President may approve an extended sick leave with pay up to a maximum of six (6) months for those full-time faculty members who have had six (6) or more years of continuous service at the University and who have not had an extended sick leave during their last six (6) years of service."
+    ],
+    "service_requirement": [
+     "the President may approve an extended sick leave with pay up to a maximum of six (6) months for those full-time faculty members who have had six (6) or more years of continuous service at the University and who have not had an extended sick leave during their last six (6) years of service.",
+     "For those who have been at the University less than six (6) years or who have been granted extended sick leave during their last six (6) years of service, the length of the requested sick leave will be reduced accordingly."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_handbook_c210_sick_leave"
+   ],
+   "flags": [
+    "ambiguous: rule gap: U8 two-year service band not stated; length 'reduced accordingly' for under six years, reduction not quantified; six-month maximum coded"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "V1",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "the President may approve an extended sick leave with pay up to a maximum of six (6) months for those full-time faculty members who have had six (6) or more years of continuous service at the University and who have not had an extended sick leave during their last six (6) years of service."
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "employer",
+     "quote": "the President may approve an extended sick leave with pay up to a maximum of six (6) months for those full-time faculty members who have had six (6) or more years of continuous service at the University and who have not had an extended sick leave during their last six (6) years of service."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "In cases of illness or injury requiring an extended absence—defined here as a period exceeding ten (10) working days—upon recommendation by the department chairperson, the dean and the Vice President for Academic Affairs"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "the President may approve an extended sick leave with pay up to a maximum of six (6) months for those full-time faculty members who have had six (6) or more years of continuous service at the University and who have not had an extended sick leave during their last six (6) years of service."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own illness)",
+     "quote": "In cases of illness or injury requiring an extended absence—defined here as a period exceeding ten (10) working days—upon recommendation by the department chairperson, the dean and the Vice President for Academic Affairs"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "the President may approve an extended sick leave with pay up to a maximum of six (6) months for those full-time faculty members who have had six (6) or more years of continuous service at the University and who have not had an extended sick leave during their last six (6) years of service."
+    },
+    {
+     "field": "duration",
+     "rule": "V6",
+     "answer": "6 months up_to (plan maximum; no childbirth period stated)",
+     "quote": "the President may approve an extended sick leave with pay up to a maximum of six (6) months for those full-time faculty members who have had six (6) or more years of continuous service at the University and who have not had an extended sick leave during their last six (6) years of service."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "with pay",
+     "quote": "the President may approve an extended sick leave with pay up to a maximum of six (6) months for those full-time faculty members who have had six (6) or more years of continuous service at the University and who have not had an extended sick leave during their last six (6) years of service."
+    },
+    {
+     "field": "sequence",
+     "rule": "U6",
+     "answer": "within c3",
+     "quote": "the President may approve an extended sick leave with pay up to a maximum of six (6) months for those full-time faculty members who have had six (6) or more years of continuous service at the University and who have not had an extended sick leave during their last six (6) years of service."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U8",
+     "answer": "six years for the full length; reduced otherwise",
+     "quote": "For those who have been at the University less than six (6) years or who have been granted extended sick leave during their last six (6) years of service, the length of the requested sick leave will be reduced accordingly."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_new_mexico_c5",
+   "institution_label": "Policy 3440: Family and Medical Leave",
+   "description": "FMLA: up to 12 weeks of unpaid job-protected leave in a rolling 12-month period for birth, adoption or foster placement, the employee's own serious health condition (pregnancy included) or care of an ill family member; placed by C215 2.4 after the paid parental leave.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "eligible employees; 'Any employee ... who meets the above criteria'; C215 2.4 applies it to faculty",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "to care for a child upon birth or to care for a child placed with the employee for adoption or foster care; own serious health condition; immediate family members (spouses or domestic partners)",
+   "caregiver_condition": "none",
+   "service_requirement": "12 months in total in the last seven years and 1,250 hours in the preceding 12 months",
+   "dual_employee_rule": "combined total of twelve (12) weeks for birth or placement when both parents are University employees (not for a serious health condition)",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 12,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "duration_note": "Up to 12 weeks in a rolling 12-month period (statute: 12 workweeks, 29 U.S.C. 2612(a)(1)). Leave beyond 12 weeks may be granted under UAP 3420 (not saved), without guaranteed return to the same position. Intermittent or reduced-schedule leave for a birth needs the supervisor's agreement.",
+   "must_exhaust_first": [],
+   "medical_certification": true,
+   "medical_certification_note": "required for leave for medical reasons (own or family serious health condition), not for bonding",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "time_window": "bonding leave must conclude within twelve (12) months of the birth or placement",
+   "notice": "30 days before the start of the leave when foreseeable",
+   "statute_source": "29 U.S.C. 2612(a)(1); eligibility 29 U.S.C. 2611(2)",
+   "statute_verified": true,
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "university_of_new_mexico_c1",
+     "note": "S1 exception: C215 2.4, 'Faculty members may also take unpaid FMLA to arrange additional relief' places FMLA after the paid parental leave (the rule's New Mexico C215 2.4 example)."
+    }
+   ],
+   "rule_applied": [
+    "U2",
+    "U4",
+    "U5",
+    "S1",
+    "R9",
+    "R13",
+    "U8"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Any employee, including a temporary or on-call employee who meets the above criteria, would be eligible for FMLA leave",
+     "Faculty members may also take unpaid FMLA to arrange additional relief."
+    ],
+    "eligible_parent": [
+     "Eligible employees may take FMLA leave to care for a child upon birth or to care for a child placed with the employee for adoption or foster care. FMLA leave must conclude within twelve (12) months of the birth or placement.",
+     "Eligible employees may take FMLA leave when they are unable to perform the functions of their positions because of a serious health condition as defined in Section 6.",
+     "Eligible employees may take FMLA leave to care for their immediate family members who have a serious health condition as defined in Section 6.",
+     "Examples of serious health conditions include pregnancy or prenatal care"
+    ],
+    "entitlement": [
+     "the University of New Mexico provides eligible employees with job-protected leave under the provisions of this policy.",
+     "Eligible employees may take FMLA leave up to a total of twelve (12) weeks within a twelve (12) month period for the reasons listed in Sections 5.1 through 5.4."
+    ],
+    "duration": [
+     "Up to twelve (12) weeks of leave is provided within a twelve (12) month period for eligible family and medical reasons",
+     "a total of 12 workweeks of leave during any 12-month period for one or more of the following:"
+    ],
+    "sequence": [
+     "Faculty members may also take unpaid FMLA to arrange additional relief."
+    ],
+    "service_requirement": [
+     "been employed at the University for at least twelve (12) months in total in the last seven (7) years, and,",
+     "worked at least one thousand two hundred fifty (1,250) hours during the twelve (12) month period preceding the start of the leave"
+    ],
+    "dual_employee_rule": [
+     "If both parents or caretakers are employees of the University, FMLA leave taken to care for a child upon birth or to care for a child placed with the employees for adoption or foster care is limited to a combined total of twelve (12) weeks."
+    ],
+    "notice": [
+     "When the need is foreseeable, such as the birth or adoption of a child or planned medical treatment, employees should advise their supervisors thirty (30) days before the start of the leave period."
+    ],
+    "medical_certification": [
+     "The University will require a medical certification to support a request for FMLA leave for medical reasons"
+    ],
+    "time_window": [
+     "Eligible employees may take FMLA leave to care for a child upon birth or to care for a child placed with the employee for adoption or foster care. FMLA leave must conclude within twelve (12) months of the birth or placement."
+    ],
+    "duration_note": [
+     "Leave beyond twelve (12) weeks may be granted under UAP 3420 (\"Leave Without Pay\"); however, the employee's right to return to the same position is not guaranteed.",
+     "if a supervisor agrees to permit intermittent leave or leave based on a reduced work schedule for the birth of a child or for placement of a child for adoption or foster care"
+    ]
+   },
+   "doc_ids": [
+    "2018_07_uap_3440_fmla",
+    "2018_00_link",
+    "2026_00_us_fmla_29usc2612"
+   ],
+   "flags": [
+    "cross_reference_not_saved: UAP 3420 Leave Without Pay",
+    "cross_reference_not_saved: UAP 3430 Catastrophic Leave Program",
+    "cross_reference_not_saved: UAP 3630 Workers' Compensation",
+    "cross_reference_not_saved: UAP 3110 Reasonable Accommodation for Employees with Disabilities",
+    "cross_reference_not_saved: UAP 3225 Separation of Employment"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "the University of New Mexico provides eligible employees with job-protected leave under the provisions of this policy."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Employees may use sick or annual leave before going on unpaid FMLA leave, but they are not required to exhaust leave banks before requesting unpaid FMLA leave."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Up to twelve (12) weeks of leave is provided within a twelve (12) month period for eligible family and medical reasons"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Any employee, including a temporary or on-call employee who meets the above criteria, would be eligible for FMLA leave"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent, non_birth_parent (bonding; own condition incl. pregnancy; care of spouse), adoptive, foster",
+     "quote": "Eligible employees may take FMLA leave to care for a child upon birth or to care for a child placed with the employee for adoption or foster care. FMLA leave must conclude within twelve (12) months of the birth or placement."
+    },
+    {
+     "field": "entitlement",
+     "rule": "U2",
+     "answer": "guaranteed",
+     "quote": "the University of New Mexico provides eligible employees with job-protected leave under the provisions of this policy."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "12 weeks up_to as the policy writes it; statute 12 workweeks",
+     "quote": "Up to twelve (12) weeks of leave is provided within a twelve (12) month period for eligible family and medical reasons"
+    },
+    {
+     "field": "duration",
+     "rule": "U2",
+     "answer": "verified against 29 U.S.C. 2612(a)(1)",
+     "quote": "a total of 12 workweeks of leave during any 12-month period for one or more of the following:"
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "formal leave: all relieved",
+     "quote": "the University of New Mexico provides eligible employees with job-protected leave under the provisions of this policy."
+    },
+    {
+     "field": "sequence",
+     "rule": "S1",
+     "answer": "consecutive_after c1 (institution's text places FMLA after the paid parental leave)",
+     "quote": "Faculty members may also take unpaid FMLA to arrange additional relief."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U8",
+     "answer": "12 months in 7 years and 1,250 hours",
+     "quote": "worked at least one thousand two hundred fifty (1,250) hours during the twelve (12) month period preceding the start of the leave"
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_new_mexico_c6",
+   "institution_label": "",
+   "description": "UAP 3440: an employee may elect, not required, to use accrued annual or sick leave before, after or during FMLA leave. Faculty accrual of such balances is not stated in the saved documents.",
+   "mechanism": "own_accrual",
+   "payer": "own_balance",
+   "faculty_group": "employees with accrued annual or sick leave balances",
+   "faculty_group_note": "UAP 3440 'employee'; whether main-campus faculty accrue annual or sick leave is not stated in the saved sources (faculty sick leave C210 is not an accrual; C205 Annual Leave not saved)",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "Employees may use sick or annual leave before going on unpaid FMLA leave",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "V2: 'may elect'.",
+   "sequence": [
+    {
+     "relation": "concurrent_with",
+     "component_id": "university_of_new_mexico_c5",
+     "note": "'before, after, or simultaneously with FMLA leave'; no length, adds no weeks"
+    }
+   ],
+   "rule_applied": [
+    "R1",
+    "V2",
+    "U1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "An employee may elect, but is not required, to use accrued annual leave or sick leave before, after, or simultaneously with FMLA leave."
+    ],
+    "eligible_parent": [
+     "Employees may use sick or annual leave before going on unpaid FMLA leave, but they are not required to exhaust leave banks before requesting unpaid FMLA leave."
+    ],
+    "entitlement": [
+     "An employee may elect, but is not required, to use accrued annual leave or sick leave before, after, or simultaneously with FMLA leave."
+    ],
+    "sequence": [
+     "An employee may elect, but is not required, to use accrued annual leave or sick leave before, after, or simultaneously with FMLA leave."
+    ]
+   },
+   "doc_ids": [
+    "2018_07_uap_3440_fmla"
+   ],
+   "flags": [
+    "cross_reference_not_saved: C205 Annual Leave"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "own_accrual",
+     "quote": "An employee may elect, but is not required, to use accrued annual leave or sick leave before, after, or simultaneously with FMLA leave."
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "own_balance",
+     "quote": "An employee may elect, but is not required, to use accrued annual leave or sick leave before, after, or simultaneously with FMLA leave."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Employees may use sick or annual leave before going on unpaid FMLA leave, but they are not required to exhaust leave banks before requesting unpaid FMLA leave."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "employees with accrued annual or sick leave balances",
+     "quote": "An employee may elect, but is not required, to use accrued annual leave or sick leave before, after, or simultaneously with FMLA leave."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "birth_parent, non_birth_parent, adoptive, foster",
+     "quote": "Employees may use sick or annual leave before going on unpaid FMLA leave, but they are not required to exhaust leave banks before requesting unpaid FMLA leave."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "An employee may elect, but is not required, to use accrued annual leave or sick leave before, after, or simultaneously with FMLA leave."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "concurrent_with c5",
+     "quote": "An employee may elect, but is not required, to use accrued annual leave or sick leave before, after, or simultaneously with FMLA leave."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_new_mexico_c7",
+   "institution_label": "C280: Leave Without Pay",
+   "description": "Leave without pay for situations not covered by other faculty leave policies, after two years of service, granted only when of distinct benefit to UNM and the individual; generally not over one year.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Any faculty member (adjunct appointments are not eligible); All UNM academic faculty and administrators",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "Any faculty member",
+   "caregiver_condition": "none",
+   "service_requirement": "two years of service at UNM",
+   "entitlement": "discretionary",
+   "entitlement_note": "V2: granted when appropriate UNM officials judge it of distinct benefit to UNM and the individual; the President makes the final decision.",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "up_to"
+   },
+   "duration_note": "'will not generally exceed one year' (Q1: up_to, 'generally' kept here); the President may approve a two-year absence; no more than two of any five consecutive years absent.",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "notice": "no later than four months in advance of the start",
+   "rule_applied": [
+    "U1",
+    "V2",
+    "Q1",
+    "R9"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Any faculty member, except for adjunct appointments, is eligible for a leave of absence without pay after two years of service at UNM subject to the following stipulations:",
+     "All UNM academic faculty and administrators, including the Health Sciences Center and Branch Campuses."
+    ],
+    "eligible_parent": [
+     "Any faculty member, except for adjunct appointments, is eligible for a leave of absence without pay after two years of service at UNM subject to the following stipulations:"
+    ],
+    "entitlement": [
+     "Leaves without pay will be granted only when in the opinion of appropriate UNM officials such a leave will be of distinct benefit to this institution as well as to the individual concerned."
+    ],
+    "duration": [
+     "A leave without pay or any combination of a sabbatical leave and a leave without pay will not generally exceed one year in duration, although when the best interests of UNM would be so served and with the concurrence of the department chairperson, the dean, and the Provost or the Chancellor for Health Sciences, the President may approve a two-year absence."
+    ],
+    "service_requirement": [
+     "Any faculty member, except for adjunct appointments, is eligible for a leave of absence without pay after two years of service at UNM subject to the following stipulations:"
+    ],
+    "notice": [
+     "no later than four months in advance of the date the proposed leave will begin"
+    ]
+   },
+   "doc_ids": [
+    "2018_02_handbook_c280_leave_without_pay"
+   ],
+   "flags": [
+    "general_purpose",
+    "ambiguous: restriction: no more than two of any five consecutive years absent",
+    "cross_reference_not_saved: UAP Policy 3600 Eligibility for Benefit Plans"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "Any faculty member, except for adjunct appointments, is eligible for a leave of absence without pay after two years of service at UNM subject to the following stipulations:"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Any faculty member, except for adjunct appointments, is eligible for a leave of absence without pay after two years of service at UNM subject to the following stipulations:"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "A University of New Mexico (UNM) faculty member may encounter a situation that is not covered by other faculty leave policies and may need to request leave without pay."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Any faculty member, except for adjunct appointments, is eligible for a leave of absence without pay after two years of service at UNM subject to the following stipulations:"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "Any faculty member, except for adjunct appointments, is eligible for a leave of absence without pay after two years of service at UNM subject to the following stipulations:"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "Leaves without pay will be granted only when in the opinion of appropriate UNM officials such a leave will be of distinct benefit to this institution as well as to the individual concerned."
+    },
+    {
+     "field": "duration",
+     "rule": "Q1",
+     "answer": "1 year up_to",
+     "quote": "A leave without pay or any combination of a sabbatical leave and a leave without pay will not generally exceed one year in duration, although when the best interests of UNM would be so served and with the concurrence of the department chairperson, the dean, and the Provost or the Chancellor for Health Sciences, the President may approve a two-year absence."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "formal leave: all relieved",
+     "quote": "Before the leave without pay is approved, the department chairperson and/or the dean concerned must have agreed that the assignments usually carried out by the person requesting the leave may and will be carried out satisfactorily by others"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "two years",
+     "quote": "Any faculty member, except for adjunct appointments, is eligible for a leave of absence without pay after two years of service at UNM subject to the following stipulations:"
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_new_mexico_c8",
+   "institution_label": "2.5 Tenure Clock",
+   "description": "The probationary period is suspended automatically (unless the faculty member asks otherwise in writing) during parental leave; later reviews move one full year.",
+   "mechanism": "tenure_clock",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "probationary faculty on parental leave under C215",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "a faculty member is on parental leave",
+   "caregiver_condition": "equal_or_more_than_partner",
+   "caregiver_condition_wording": "a primary or coequal care-giving faculty parent as defined within this policy",
+   "entitlement": "guaranteed",
+   "entitlement_note": "Automatic: 'will be suspended, unless otherwise requested in writing'.",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "exact"
+   },
+   "duration_note": "Probationary period suspended while on parental leave; subsequent reviews 'one full year later'.",
+   "rule_applied": [
+    "U1",
+    "R6"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "The running of the probationary period will be suspended, unless otherwise requested in writing, when a faculty member is on parental leave. Subsequent mid-probationary and tenure reviews will be one full year later."
+    ],
+    "eligible_parent": [
+     "Mothers giving birth, spouses or domestic partners of mothers giving birth, parents adopting, and parents accepting a long-term foster placement or fostering toward adoption, are all eligible for equal amounts of parental leave under this policy."
+    ],
+    "caregiver_condition": [
+     "This policy provides one semester of parental leave with full pay for a primary or coequal care-giving faculty parent as defined within this policy."
+    ],
+    "entitlement": [
+     "The running of the probationary period will be suspended, unless otherwise requested in writing, when a faculty member is on parental leave. Subsequent mid-probationary and tenure reviews will be one full year later."
+    ],
+    "duration": [
+     "The running of the probationary period will be suspended, unless otherwise requested in writing, when a faculty member is on parental leave. Subsequent mid-probationary and tenure reviews will be one full year later."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "The running of the probationary period will be suspended, unless otherwise requested in writing, when a faculty member is on parental leave. Subsequent mid-probationary and tenure reviews will be one full year later."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "The running of the probationary period will be suspended, unless otherwise requested in writing, when a faculty member is on parental leave. Subsequent mid-probationary and tenure reviews will be one full year later."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "The running of the probationary period will be suspended, unless otherwise requested in writing, when a faculty member is on parental leave. Subsequent mid-probationary and tenure reviews will be one full year later."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "The running of the probationary period will be suspended, unless otherwise requested in writing, when a faculty member is on parental leave. Subsequent mid-probationary and tenure reviews will be one full year later."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "as C215 parental leave",
+     "quote": "Mothers giving birth, spouses or domestic partners of mothers giving birth, parents adopting, and parents accepting a long-term foster placement or fostering toward adoption, are all eligible for equal amounts of parental leave under this policy."
+    },
+    {
+     "field": "caregiver_condition",
+     "rule": "R6",
+     "answer": "equal_or_more_than_partner",
+     "quote": "This policy provides one semester of parental leave with full pay for a primary or coequal care-giving faculty parent as defined within this policy."
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "The running of the probationary period will be suspended, unless otherwise requested in writing, when a faculty member is on parental leave. Subsequent mid-probationary and tenure reviews will be one full year later."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 year exact (reviews one full year later)",
+     "quote": "The running of the probationary period will be suspended, unless otherwise requested in writing, when a faculty member is on parental leave. Subsequent mid-probationary and tenure reviews will be one full year later."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_new_mexico_c9",
+   "institution_label": "",
+   "description": "Probationary period normally suspended, on timely request, for leave without pay, family leave or paid medical leave of a semester or more; reviews one full year later. C280 restates it for leave without pay.",
+   "mechanism": "tenure_clock",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "full-time probationary faculty (B3 3.2.1)",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "a faculty member goes on leave of absence without pay, family leave or paid medical leave",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "V2d: 'will normally, upon timely request ... be suspended'.",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "normally"
+   },
+   "duration_note": "Suspended 'for the duration of the leave'; subsequent reviews 'one full year later'. Applies to leave of a semester or more (time_window).",
+   "time_window": "leave of a semester or more during a year of probationary service",
+   "rule_applied": [
+    "U1",
+    "V2d",
+    "R13"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "However, if a faculty member goes on leave of absence without pay, family leave or paid medical leave for a semester or more during a year of probationary service, the probationary period will normally, upon timely request of the probationary faculty member, be suspended for the duration of the leave, and subsequent mid-probationary and tenure reviews will be one full year later."
+    ],
+    "eligible_parent": [
+     "However, if a faculty member goes on leave of absence without pay, family leave or paid medical leave for a semester or more during a year of probationary service, the probationary period will normally, upon timely request of the probationary faculty member, be suspended for the duration of the leave, and subsequent mid-probationary and tenure reviews will be one full year later."
+    ],
+    "entitlement": [
+     "However, if a faculty member goes on leave of absence without pay, family leave or paid medical leave for a semester or more during a year of probationary service, the probationary period will normally, upon timely request of the probationary faculty member, be suspended for the duration of the leave, and subsequent mid-probationary and tenure reviews will be one full year later.",
+     "It is to be understood that if a faculty member has not attained tenure, a leave of absence without pay will normally extend the probationary period."
+    ],
+    "duration": [
+     "However, if a faculty member goes on leave of absence without pay, family leave or paid medical leave for a semester or more during a year of probationary service, the probationary period will normally, upon timely request of the probationary faculty member, be suspended for the duration of the leave, and subsequent mid-probationary and tenure reviews will be one full year later."
+    ],
+    "time_window": [
+     "However, if a faculty member goes on leave of absence without pay, family leave or paid medical leave for a semester or more during a year of probationary service, the probationary period will normally, upon timely request of the probationary faculty member, be suspended for the duration of the leave, and subsequent mid-probationary and tenure reviews will be one full year later."
+    ]
+   },
+   "doc_ids": [
+    "2018_04_handbook_b3_appointments_contracts",
+    "2018_02_handbook_c280_leave_without_pay"
+   ],
+   "flags": [
+    "general_purpose",
+    "conditional_refusal: 'will normally, upon timely request'"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "However, if a faculty member goes on leave of absence without pay, family leave or paid medical leave for a semester or more during a year of probationary service, the probationary period will normally, upon timely request of the probationary faculty member, be suspended for the duration of the leave, and subsequent mid-probationary and tenure reviews will be one full year later."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "However, if a faculty member goes on leave of absence without pay, family leave or paid medical leave for a semester or more during a year of probationary service, the probationary period will normally, upon timely request of the probationary faculty member, be suspended for the duration of the leave, and subsequent mid-probationary and tenure reviews will be one full year later."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "However, if a faculty member goes on leave of absence without pay, family leave or paid medical leave for a semester or more during a year of probationary service, the probationary period will normally, upon timely request of the probationary faculty member, be suspended for the duration of the leave, and subsequent mid-probationary and tenure reviews will be one full year later."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "However, if a faculty member goes on leave of absence without pay, family leave or paid medical leave for a semester or more during a year of probationary service, the probationary period will normally, upon timely request of the probationary faculty member, be suspended for the duration of the leave, and subsequent mid-probationary and tenure reviews will be one full year later."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "However, if a faculty member goes on leave of absence without pay, family leave or paid medical leave for a semester or more during a year of probationary service, the probationary period will normally, upon timely request of the probationary faculty member, be suspended for the duration of the leave, and subsequent mid-probationary and tenure reviews will be one full year later."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2d",
+     "answer": "guaranteed_on_request",
+     "quote": "However, if a faculty member goes on leave of absence without pay, family leave or paid medical leave for a semester or more during a year of probationary service, the probationary period will normally, upon timely request of the probationary faculty member, be suspended for the duration of the leave, and subsequent mid-probationary and tenure reviews will be one full year later."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 year normally",
+     "quote": "However, if a faculty member goes on leave of absence without pay, family leave or paid medical leave for a semester or more during a year of probationary service, the probationary period will normally, upon timely request of the probationary faculty member, be suspended for the duration of the leave, and subsequent mid-probationary and tenure reviews will be one full year later."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_new_mexico_c10",
+   "institution_label": "3.3.2 Changes in Appointments",
+   "description": "A tenured faculty member may, at request and with department, dean and Provost/VPHS approval, change to part-time service permanently or temporarily while keeping tenure.",
+   "mechanism": "part_time_option",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "A faculty member with tenure",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "A faculty member with tenure",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "entitlement_note": "V2: approval of the terms decides whether the change happens.",
+   "duration_note": "'either permanently or temporarily for a specified time'; no length stated. Pay not stated (part-time service).",
+   "rule_applied": [
+    "U1",
+    "V2",
+    "R3"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "A faculty member with tenure may at his or her request, either permanently or temporarily for a specified time, change to part-time service while retaining tenure status, provided that the department, the dean, and the Provost/VPHS approve the terms in advance."
+    ],
+    "eligible_parent": [
+     "A faculty member with tenure may at his or her request, either permanently or temporarily for a specified time, change to part-time service while retaining tenure status, provided that the department, the dean, and the Provost/VPHS approve the terms in advance."
+    ],
+    "entitlement": [
+     "A faculty member with tenure may at his or her request, either permanently or temporarily for a specified time, change to part-time service while retaining tenure status, provided that the department, the dean, and the Provost/VPHS approve the terms in advance."
+    ]
+   },
+   "doc_ids": [
+    "2018_04_handbook_b3_appointments_contracts"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R3",
+     "answer": "part_time_option",
+     "quote": "A faculty member with tenure may at his or her request, either permanently or temporarily for a specified time, change to part-time service while retaining tenure status, provided that the department, the dean, and the Provost/VPHS approve the terms in advance."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "A faculty member with tenure may at his or her request, either permanently or temporarily for a specified time, change to part-time service while retaining tenure status, provided that the department, the dean, and the Provost/VPHS approve the terms in advance."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "A faculty member with tenure may at his or her request, either permanently or temporarily for a specified time, change to part-time service while retaining tenure status, provided that the department, the dean, and the Provost/VPHS approve the terms in advance."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "A faculty member with tenure may at his or her request, either permanently or temporarily for a specified time, change to part-time service while retaining tenure status, provided that the department, the dean, and the Provost/VPHS approve the terms in advance."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "A faculty member with tenure may at his or her request, either permanently or temporarily for a specified time, change to part-time service while retaining tenure status, provided that the department, the dean, and the Provost/VPHS approve the terms in advance."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "A faculty member with tenure may at his or her request, either permanently or temporarily for a specified time, change to part-time service while retaining tenure status, provided that the department, the dean, and the Provost/VPHS approve the terms in advance."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_new_mexico_c11",
+   "institution_label": "3.2.2 Part-time Faculty",
+   "description": "A full-time probationary faculty member may move to a part-time position, with the probationary period adjusted, only with approval of the faculty member, department, dean and Provost/VPHS.",
+   "mechanism": "part_time_option",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "a full-time probationary faculty member",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "a full-time probationary faculty member",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "entitlement_note": "V2: requires the approval of the faculty member, department, dean and Provost/VPHS.",
+   "duration_note": "No length stated; part-time probationary appointments are 0.5 to under 1.0 FTE with a pro-rated probationary period (3.2.2(a)-(b)).",
+   "rule_applied": [
+    "U1",
+    "V2",
+    "R3"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "a full-time probationary faculty member may move to a part-time position, with appropriate adjustments of the probationary period and expectations, only with the approval of the faculty member, the department, the dean, and the Provost/VPHS."
+    ],
+    "eligible_parent": [
+     "a full-time probationary faculty member may move to a part-time position, with appropriate adjustments of the probationary period and expectations, only with the approval of the faculty member, the department, the dean, and the Provost/VPHS."
+    ],
+    "entitlement": [
+     "a full-time probationary faculty member may move to a part-time position, with appropriate adjustments of the probationary period and expectations, only with the approval of the faculty member, the department, the dean, and the Provost/VPHS."
+    ]
+   },
+   "doc_ids": [
+    "2018_04_handbook_b3_appointments_contracts"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R3",
+     "answer": "part_time_option",
+     "quote": "a full-time probationary faculty member may move to a part-time position, with appropriate adjustments of the probationary period and expectations, only with the approval of the faculty member, the department, the dean, and the Provost/VPHS."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "a full-time probationary faculty member may move to a part-time position, with appropriate adjustments of the probationary period and expectations, only with the approval of the faculty member, the department, the dean, and the Provost/VPHS."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "a full-time probationary faculty member may move to a part-time position, with appropriate adjustments of the probationary period and expectations, only with the approval of the faculty member, the department, the dean, and the Provost/VPHS."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "a full-time probationary faculty member may move to a part-time position, with appropriate adjustments of the probationary period and expectations, only with the approval of the faculty member, the department, the dean, and the Provost/VPHS."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "a full-time probationary faculty member may move to a part-time position, with appropriate adjustments of the probationary period and expectations, only with the approval of the faculty member, the department, the dean, and the Provost/VPHS."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "a full-time probationary faculty member may move to a part-time position, with appropriate adjustments of the probationary period and expectations, only with the approval of the faculty member, the department, the dean, and the Provost/VPHS."
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "Reference date 2018-03-12. All eight usable sources are Wayback captures between 2018-02-13 and 2018-04-03, within the 2017-18 academic year; C215 (approved 2010/2011) is the governing faculty parental-leave policy on the reference date.",
+  "Navigation-only content: the opening parts of 2018_06 and 2018_07 are site menus; 2018_05 (B4 Faculty Reviews) holds no leave or clock provision; 2018_03 (C245) recognises 'occasional brief absence because of illness, accident, or family crisis' with the faculty member arranging coverage: no leave is granted, no length or pay stated, so not a component.",
+  "RPM 5.4 lists 'maternity leave' among authorized faculty leaves and refers to 'Faculty Handbook [1990 ed.], pages the rule for a governing document cited but not saved to C-7' for the text; no maternity-leave text is saved and the 2018 Faculty Handbook leave section saved here contains C215 Parental Leave (cross_reference_not_saved: Faculty Handbook [1990 ed.] pages the rule for a governing document cited but not saved to C-7). No component is created from the list.",
+  "Cross-references not saved: UAP 3420 Leave Without Pay; UAP 3430 Catastrophic Leave Program; UAP 3630 Workers' Compensation; UAP 3110 Reasonable Accommodation; UAP 3225 Separation of Employment; UAP 3600 Eligibility for Benefit Plans; Faculty Handbook C200 Sabbatical, C205 Annual Leave, C220 Holidays, C225 Professional Leave, C230 Military Leave, C235 Service Abroad, C240 Political Activity; Faculty Handbook [1990 ed.] the rule for a governing document cited but not saved to C-7; FMLA forms (Section 13).",
+  "Birth-parent chain: extended sick leave c3 (discretionary, up to 6 months, its pay c4 within it) -> C215 parental leave c1 (1 semester, full pay, teaching relieved, research continues) -> FMLA c5 (12 weeks unpaid, placed after c1 by C215 2.4). In the guaranteed variant c3/c4 drop out and c1 is followed by c5.",
+  "Non-birth-parent chain: C215 parental leave c1 (1 semester, full pay) -> FMLA c5 (12 weeks unpaid). c2 (extraordinary-circumstances additional leave, no length) follows c1; c6 (own balances) runs with c5 and adds no weeks.",
+  "U8 path: a member with two years of service. C215 requires one semester of service; FMLA 12 months and 1,250 hours; C280 two years. C210's six-month extended sick leave needs six years of service; for less, 'reduced accordingly' with no stated reduction, so the six-month maximum is coded on c3/c4 and flagged as a rule gap.",
+  "C215 pays full pay when only one parent takes the leave; when both parents (both UNM faculty) take it each receives one-half of salary (dual_employee_rule on c1). Relief: full relief from teaching; research and advising normally continue (R4c, Just teaching); each dean may set relief guidelines; HSC defines relief for HSC faculty.",
+  "Calendar: semester system stated without length -> calendar.kind = semester, and the term length follows R8's order."
+ ],
+ "statutory_floor": {
+  "jurisdiction": "US",
+  "year": "2018",
+  "weeks_birth": 12.0,
+  "weeks_nonbirth": 12.0,
+  "statute": "Family and Medical Leave Act (FMLA) (29 U.S.C. 2611-2612)",
+  "source_doc": "2026_00_us_fmla_29usc2612",
+  "table": "statutory_baseline.csv"
+ }
+}

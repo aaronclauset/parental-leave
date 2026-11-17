@@ -1,0 +1,3301 @@
+{
+ "institution": "UCLA",
+ "slug": "ucla",
+ "country": "US",
+ "model": "claude-opus-5-5",
+ "codebook_version": "1.25",
+ "schema_version": "1.25",
+ "reference_date": "2018-02-28",
+ "documents": [
+  {
+   "doc_id": "2018_00_link",
+   "url": "http://ucop.edu/academic-personnel-programs/_files/apm/apm-760.pdf",
+   "title": "APM - 760, Family Accommodations for Childbearing and Childrearing",
+   "version_or_effective_date": "Rev. 1/1/06 (760-30 Rev. 9/1/15); in force 2018-02-28 per version note",
+   "retrieved": "2026-10-22T02:17:41+00:00"
+  },
+  {
+   "doc_id": "2018_01_apm700_leaves_general",
+   "url": "https://www.ucop.edu/academic-personnel-programs/_files/apm/apm-700.pdf",
+   "title": "APM - 700, Leaves of Absence/General",
+   "version_or_effective_date": "Rev. 7/1/13",
+   "retrieved": "2026-10-22T08:13:09+00:00"
+  },
+  {
+   "doc_id": "2018_02_apm710_sick_medical_leave",
+   "url": "https://www.ucop.edu/academic-personnel-programs/_files/apm/apm-710.pdf",
+   "title": "APM - 710, Leaves of Absence/Sick Leave/Medical Leave",
+   "version_or_effective_date": "Rev. 7/1/08 (710-11 Rev. 2/1/12)",
+   "retrieved": "2026-10-22T08:13:11+00:00"
+  },
+  {
+   "doc_id": "2018_03_apm715_family_medical_leave",
+   "url": "https://www.ucop.edu/academic-personnel-programs/_files/apm/apm-715.pdf",
+   "title": "APM - 715, Leaves of Absence/Family and Medical Leave",
+   "version_or_effective_date": "Rev. 1/1/06 and 2/20/03",
+   "retrieved": "2026-10-22T08:13:13+00:00"
+  },
+  {
+   "doc_id": "2018_04_apm133_limitation_total_service",
+   "url": "https://www.ucop.edu/academic-personnel-programs/_files/apm/apm-133.pdf",
+   "title": "APM - 133, Limitation on Total Period of Service with Certain Academic Titles",
+   "version_or_effective_date": "Rev. 7/1/97-9/1/15; superseded only from 2018-10-01 per version note",
+   "retrieved": "2026-10-22T08:13:16+00:00"
+  }
+ ],
+ "missing": false,
+ "scope_accounting": {
+  "C1": {
+   "components": [
+    "ucla_c1",
+    "ucla_c2",
+    "ucla_c3",
+    "ucla_c4"
+   ]
+  },
+  "C2": {
+   "components": [
+    "ucla_c5",
+    "ucla_c6"
+   ]
+  },
+  "C3": {
+   "components": [
+    "ucla_c11",
+    "ucla_c12",
+    "ucla_c13",
+    "ucla_c14",
+    "ucla_c15",
+    "ucla_c16",
+    "ucla_c17"
+   ]
+  },
+  "C4": {
+   "components": [
+    "ucla_c1",
+    "ucla_c8",
+    "ucla_c9"
+   ],
+   "not_components": [
+    {
+     "statute": "Workers' Compensation Act (APM 710-11-g, 710-20-c)",
+     "reason": "work-incurred injury or illness compensation; unrelated to becoming a parent (U4)"
+    },
+    {
+     "statute": "California Fair Employment and Housing Act (FEHA), other than its pregnancy disability leave",
+     "reason": "only the pregnancy disability leave provisions are relied on (coded as ucla_c1); other sections not invoked (U4)"
+    }
+   ]
+  },
+  "C5": {
+   "components": [
+    "ucla_c8",
+    "ucla_c9",
+    "ucla_c10",
+    "ucla_c17"
+   ]
+  },
+  "C6": {
+   "absent": {
+    "documents": [
+     "2018_01_apm700_leaves_general",
+     "2018_02_apm710_sick_medical_leave",
+     "2018_03_apm715_family_medical_leave",
+     "2018_00_link",
+     "2018_04_apm133_limitation_total_service"
+    ],
+    "terms": [
+     "leave without pay",
+     "leave with pay",
+     "personal leave",
+     "other leaves",
+     "APM - 758",
+     "APM - 759",
+     "any purpose"
+    ]
+   }
+  },
+  "C7": {
+   "components": [
+    "ucla_c20",
+    "ucla_c21",
+    "ucla_c22",
+    "ucla_c23",
+    "ucla_c24"
+   ]
+  },
+  "C8": {
+   "components": [
+    "ucla_c7",
+    "ucla_c19"
+   ]
+  },
+  "C9": {
+   "components": [
+    "ucla_c18",
+    "ucla_c25"
+   ]
+  },
+  "C10": {
+   "components": [
+    "ucla_c10"
+   ]
+  }
+ },
+ "passage_dispositions": {
+  "2018_00_link#001": {
+   "used_in": [
+    "ucla_c1",
+    "ucla_c2",
+    "ucla_c3",
+    "ucla_c4",
+    "ucla_c5",
+    "ucla_c6",
+    "ucla_c7",
+    "ucla_c8",
+    "ucla_c9",
+    "ucla_c18"
+   ]
+  },
+  "2018_00_link#002": {
+   "used_in": [
+    "ucla_c1",
+    "ucla_c4",
+    "ucla_c5",
+    "ucla_c7",
+    "ucla_c8",
+    "ucla_c9",
+    "ucla_c16",
+    "ucla_c17",
+    "ucla_c19",
+    "ucla_c20",
+    "ucla_c21",
+    "ucla_c25"
+   ]
+  },
+  "2018_01_apm700_leaves_general#001": {
+   "not_relevant": "APM 700 general leave authority, list of leave types and presumptive-resignation rule; no parental provision (the types are coded from their own sections)"
+  },
+  "2018_01_apm700_leaves_general#002": {
+   "not_relevant": "presumptive-resignation notice procedure"
+  },
+  "2018_01_apm700_leaves_general#003": {
+   "not_relevant": "presumptive-resignation hearing and reinstatement procedure"
+  },
+  "2018_02_apm710_sick_medical_leave#001": {
+   "used_in": [
+    "ucla_c8",
+    "ucla_c10",
+    "ucla_c11",
+    "ucla_c12",
+    "ucla_c13",
+    "ucla_c14",
+    "ucla_c15",
+    "ucla_c17"
+   ]
+  },
+  "2018_03_apm715_family_medical_leave#001": {
+   "used_in": [
+    "ucla_c8",
+    "ucla_c10",
+    "ucla_c16",
+    "ucla_c17"
+   ]
+  },
+  "2018_03_apm715_family_medical_leave#002": {
+   "used_in": [
+    "ucla_c8"
+   ]
+  },
+  "2018_04_apm133_limitation_total_service#001": {
+   "not_relevant": "exceptions to the eight-year limit (Regents Standing Orders 103.9, 103.10); no parental provision"
+  },
+  "2018_04_apm133_limitation_total_service#002": {
+   "used_in": [
+    "ucla_c24"
+   ]
+  },
+  "2018_04_apm133_limitation_total_service#003": {
+   "used_in": [
+    "ucla_c21",
+    "ucla_c23"
+   ]
+  },
+  "2018_04_apm133_limitation_total_service#004": {
+   "used_in": [
+    "ucla_c20",
+    "ucla_c21",
+    "ucla_c22",
+    "ucla_c25"
+   ]
+  }
+ },
+ "mechanism_slots": {
+  "employer_paid_leave": {
+   "components": [
+    "ucla_c10"
+   ]
+  },
+  "employer_childbirth_benefit": {
+   "components": [
+    "ucla_c2",
+    "ucla_c3"
+   ]
+  },
+  "generic_sick_or_disability_plan": {
+   "components": [
+    "ucla_c12",
+    "ucla_c14",
+    "ucla_c15"
+   ]
+  },
+  "own_accrual": {
+   "components": [
+    "ucla_c16",
+    "ucla_c17"
+   ]
+  },
+  "donated_leave": {
+   "absent": "No saved document mentions donated, shared or catastrophic leave; searched all five usable files (terms: donat, shared leave, catastrophic, leave bank)."
+  },
+  "government_benefit": {
+   "absent": "No saved document names a government or state benefit programme (SDI, Paid Family Leave, EDD); the disability plans named are UC's own. Searched all five usable files (terms: State Disability, SDI, Paid Family Leave, EDD, Unemployment Insurance)."
+  },
+  "employer_topup": {
+   "absent": "No top-up of a government benefit is stated; searched all five usable files (terms: top-up, supplement, integrate, difference between)."
+  },
+  "modified_duties": {
+   "components": [
+    "ucla_c5",
+    "ucla_c6"
+   ]
+  },
+  "unpaid_leave": {
+   "components": [
+    "ucla_c1",
+    "ucla_c4",
+    "ucla_c8",
+    "ucla_c9",
+    "ucla_c11",
+    "ucla_c13"
+   ]
+  },
+  "tenure_clock": {
+   "components": [
+    "ucla_c20",
+    "ucla_c21",
+    "ucla_c22",
+    "ucla_c23",
+    "ucla_c24"
+   ]
+  },
+  "part_time_option": {
+   "components": [
+    "ucla_c7",
+    "ucla_c19"
+   ]
+  },
+  "other": {
+   "components": [
+    "ucla_c18",
+    "ucla_c25"
+   ]
+  }
+ },
+ "baseline_accounting": {
+  "Family and Medical Leave Act (FMLA)": {
+   "components": [
+    "ucla_c8"
+   ]
+  },
+  "Federal Employee Paid Leave Act (paid parental leave for federal civilian employees)": {
+   "not_applicable": "applies to federal civilian employees, not to UC faculty"
+  },
+  "California Family Rights Act (CFRA)": {
+   "components": [
+    "ucla_c9"
+   ]
+  },
+  "Pregnancy Disability Leave (PDL)": {
+   "components": [
+    "ucla_c1"
+   ]
+  },
+  "State Disability Insurance (SDI) for pregnancy": {
+   "absent": "no saved document mentions it (the documents name only UC's own Short-Term Disability Insurance Plan, ucla_c14)"
+  },
+  "Paid Family Leave (PFL)": {
+   "absent": "no saved document mentions it"
+  }
+ },
+ "leave_limits": [
+  {
+   "weeks": 52,
+   "components": [
+    "ucla_c1",
+    "ucla_c2",
+    "ucla_c4",
+    "ucla_c5",
+    "ucla_c8",
+    "ucla_c9",
+    "ucla_c10",
+    "ucla_c11",
+    "ucla_c12",
+    "ucla_c13"
+   ],
+   "roles": [
+    "birth",
+    "nonbirth"
+   ],
+   "note": "APM 760-35-b(1): the aggregate duration of all leaves plus periods of active service-modified duties may not exceed one year for a single event of birth or placement (Charts I-IV restate it). Covers APM 710 medical leave (R20, UCLA example).",
+   "evidence": [
+    "The aggregate duration of all leaves plus periods of active service- modified duties may not exceed one year for a single event of birth of a child or of placement of a child under age five for adoption or foster care.",
+    "The aggregate duration of all leaves and periods of active service-modified duties may not exceed one year."
+   ],
+   "decision_log": [
+    {
+     "field": "leave_limits",
+     "rule": "R20",
+     "answer": "52 weeks (one year = 52, R11); all leaves and ASMD for the event, both roles, medical leave included",
+     "quote": "The aggregate duration of all leaves plus periods of active service- modified duties may not exceed one year for a single event of birth of a child or of placement of a child under age five for adoption or foster care."
+    }
+   ]
+  }
+ ],
+ "components": [
+  {
+   "component_id": "ucla_c1",
+   "institution_label": "Childbearing Leave",
+   "description": "Leave for the period a birth parent is disabled by pregnancy, childbirth or related conditions, up to 4 months (pregnancy disability leave under the FEHA); normally at least 6 weeks for childbirth and recovery. No duties required; reinstatement on return within 4 months. Restates Cal. Gov. Code 12945 without adding length.",
+   "mechanism": "unpaid_leave",
+   "mechanism_note": "APM 760-25 childbearing leave restates the FEHA pregnancy disability leave (up to 4 months, unpaid); coded as the statute (schema statute_source note). Its pay for Senate members is c2 (within).",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "An academic appointee who bears a child",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "An academic appointee who bears a child; her",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "entitlement_note": "Statutory leave (FEHA pregnancy disability leave); APM 760-35-e(1) guarantees reinstatement.",
+   "duration": {
+    "value": 4,
+    "units": "month",
+    "qualifier": "up_to"
+   },
+   "duration_note": "Up to 4 months during the period of actual disability; 'Leave for childbirth and recovery normally will be for at least 6 weeks; more time may be necessary for medical reasons.' Coded at the stated maximum (leave for own disability conditional on a medical finding counts at its maximum).",
+   "service_requirement": "none stated (eligible regardless of the length of University service)",
+   "medical_certification": true,
+   "medical_certification_note": "certified disabled by her health care provider (760-25-d; Chart I 'as certified by health care provider')",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_note": "'During a childbearing leave, no duties shall be required by the University.'",
+   "runs_concurrently_with": [
+    "FMLA"
+   ],
+   "statute_source": "Cal. Gov. Code 12945(a)(1) (FEHA pregnancy disability leave)",
+   "statute_verified": true,
+   "sequence": [
+    {
+     "relation": "within",
+     "component_id": "ucla_c5",
+     "roles": [
+      "birth"
+     ],
+     "note": "APM 760-28-a: 'a total period of childbearing leave plus active service-modified duties of two quarters' contains the childbearing leave (R3b)."
+    }
+   ],
+   "rule_applied": [
+    "U2",
+    "U4",
+    "U5",
+    "R3b",
+    "R13",
+    "S1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "An academic appointee who bears a child is eligible for childbearing leave for the period prior to, during, and after childbirth."
+    ],
+    "eligible_parent": [
+     "An academic appointee who bears a child is eligible for childbearing leave for the period prior to, during, and after childbirth."
+    ],
+    "entitlement": [
+     "For an employer to refuse to allow an employee disabled by pregnancy, childbirth, or a related medical condition to take a leave for a reasonable period of time not to exceed four months and thereafter return to work",
+     "If an appointee takes a childbearing leave consistent with State law, she shall be reinstated to the same position if she returns to work within 4 months and immediately following termination of the childbearing leave."
+    ],
+    "duration": [
+     "to take an unpaid childbearing leave (“pregnancy disability leave”) for up to 4 months during the period of actual disability.",
+     "Leave for childbirth and recovery normally will be for at least 6 weeks; more time may be necessary for medical reasons."
+    ],
+    "relief": [
+     "During a childbearing leave, no duties shall be required by the University."
+    ],
+    "service_requirement": [
+     "An academic appointee is eligible for childbearing leave regardless of the length of her University service."
+    ],
+    "medical_certification": [
+     "which may extend up to 4 months if the individual is certified disabled by her health care provider"
+    ],
+    "sequence": [
+     "An academic appointee who is a birth mother and who has a full-time appointment for at least one full academic year (three quarters or two semesters) is eligible for a total period of childbearing leave plus active service-modified duties of two quarters (or two semesters)"
+    ],
+    "statute_source": [
+     "For an employer to refuse to allow an employee disabled by pregnancy, childbirth, or a related medical condition to take a leave for a reasonable period of time not to exceed four months and thereafter return to work"
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link",
+    "2026_03_ca_pdl_gov12945"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "U2",
+     "answer": "unpaid_leave",
+     "quote": "to take an unpaid childbearing leave (“pregnancy disability leave”) for up to 4 months during the period of actual disability."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "to take an unpaid childbearing leave (“pregnancy disability leave”) for up to 4 months during the period of actual disability."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Childbearing leave shall consist of time an appointee is temporarily disabled because of pregnancy, childbirth, or related medical conditions."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "An academic appointee who bears a child is eligible for childbearing leave for the period prior to, during, and after childbirth."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent",
+     "quote": "An academic appointee who bears a child is eligible for childbearing leave for the period prior to, during, and after childbirth."
+    },
+    {
+     "field": "entitlement",
+     "rule": "U2",
+     "answer": "guaranteed",
+     "quote": "For an employer to refuse to allow an employee disabled by pregnancy, childbirth, or a related medical condition to take a leave for a reasonable period of time not to exceed four months and thereafter return to work"
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "4 months up_to; the 'normally at least 6 weeks' in duration_note",
+     "quote": "to take an unpaid childbearing leave (“pregnancy disability leave”) for up to 4 months during the period of actual disability."
+    },
+    {
+     "field": "relief",
+     "rule": "R4",
+     "answer": "all duties relieved (stated)",
+     "quote": "During a childbearing leave, no duties shall be required by the University."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "none stated",
+     "quote": "An academic appointee is eligible for childbearing leave regardless of the length of her University service."
+    },
+    {
+     "field": "sequence",
+     "rule": "R3b",
+     "answer": "within ucla_c5 for the birth role (total period of childbearing leave plus ASMD)",
+     "quote": "An academic appointee who is a birth mother and who has a full-time appointment for at least one full academic year (three quarters or two semesters) is eligible for a total period of childbearing leave plus active service-modified duties of two quarters (or two semesters)"
+    }
+   ]
+  },
+  {
+   "component_id": "ucla_c2",
+   "institution_label": "",
+   "description": "A member of the Academic Senate receives at least her approved base salary for up to 6 weeks while unable to perform her normal obligations during childbearing leave.",
+   "mechanism": "employer_childbirth_benefit",
+   "mechanism_note": "V1: childbirth-specific period (childbearing leave), length (up to 6 weeks) and pay level (at least approved base salary), paid by the University itself.",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "A member of the Academic Senate",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "her",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 6,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "pay_fraction": "at least her approved base salary",
+   "pay_fraction_pct": 100,
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "relief_note": "Pay during the childbearing leave (c1), which requires no duties.",
+   "service_requirement": "none stated (eligible regardless of the length of University service)",
+   "sequence": [
+    {
+     "relation": "within",
+     "component_id": "ucla_c1",
+     "note": "Pay status during childbearing leave (760-25-b)."
+    }
+   ],
+   "rule_applied": [
+    "V1",
+    "R9",
+    "R13",
+    "S1"
+   ],
+   "evidence": {
+    "mechanism": [
+     "A member of the Academic Senate will receive at least her approved base salary for up to 6 weeks while she is unable to perform her normal University obligations."
+    ],
+    "faculty_group": [
+     "A member of the Academic Senate will receive at least her approved base salary for up to 6 weeks while she is unable to perform her normal University obligations."
+    ],
+    "eligible_parent": [
+     "A member of the Academic Senate will receive at least her approved base salary for up to 6 weeks while she is unable to perform her normal University obligations."
+    ],
+    "entitlement": [
+     "A member of the Academic Senate will receive at least her approved base salary for up to 6 weeks while she is unable to perform her normal University obligations."
+    ],
+    "duration": [
+     "A member of the Academic Senate will receive at least her approved base salary for up to 6 weeks while she is unable to perform her normal University obligations."
+    ],
+    "pay_fraction": [
+     "A member of the Academic Senate will receive at least her approved base salary for up to 6 weeks while she is unable to perform her normal University obligations."
+    ],
+    "service_requirement": [
+     "An academic appointee is eligible for childbearing leave regardless of the length of her University service."
+    ],
+    "sequence": [
+     "Pay status during childbearing leave shall be based on the following provisions:"
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "V1",
+     "answer": "employer_childbirth_benefit",
+     "quote": "A member of the Academic Senate will receive at least her approved base salary for up to 6 weeks while she is unable to perform her normal University obligations."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "A member of the Academic Senate will receive at least her approved base salary for up to 6 weeks while she is unable to perform her normal University obligations."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "A member of the Academic Senate will receive at least her approved base salary for up to 6 weeks while she is unable to perform her normal University obligations."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "A member of the Academic Senate will receive at least her approved base salary for up to 6 weeks while she is unable to perform her normal University obligations."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "birth_parent",
+     "quote": "A member of the Academic Senate will receive at least her approved base salary for up to 6 weeks while she is unable to perform her normal University obligations."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "A member of the Academic Senate will receive at least her approved base salary for up to 6 weeks while she is unable to perform her normal University obligations."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "6 weeks up_to",
+     "quote": "A member of the Academic Senate will receive at least her approved base salary for up to 6 weeks while she is unable to perform her normal University obligations."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "at least her approved base salary (100)",
+     "quote": "A member of the Academic Senate will receive at least her approved base salary for up to 6 weeks while she is unable to perform her normal University obligations."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all relieved, inferred (pay within a formal leave)",
+     "quote": "Pay status during childbearing leave shall be based on the following provisions:"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "none stated",
+     "quote": "An academic appointee is eligible for childbearing leave regardless of the length of her University service."
+    },
+    {
+     "field": "sequence",
+     "rule": "S1",
+     "answer": "within ucla_c1",
+     "quote": "Pay status during childbearing leave shall be based on the following provisions:"
+    }
+   ]
+  },
+  {
+   "component_id": "ucla_c3",
+   "institution_label": "",
+   "description": "Non-Senate academic appointees who do not accrue sick leave and have 12 consecutive months in a UC academic title receive at least approved base salary for up to 6 weeks of childbearing leave; those with less service receive pay for about the period that would have accrued.",
+   "mechanism": "employer_childbirth_benefit",
+   "mechanism_note": "V1: childbirth-specific period, length and pay level, employer-paid.",
+   "payer": "employer",
+   "faculty_group": "non-Senate academic appointees who do not accrue sick leave",
+   "faculty_group_note": "A non-Senate academic appointee who does not accrue sick leave",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "her",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 6,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "duration_note": "With under 12 consecutive months of service: base salary for approximately the period which would be accrued under APM 710-18 rates; then leave without pay 'will be granted for the necessary period'.",
+   "pay_fraction": "at least her approved base salary",
+   "pay_fraction_pct": 100,
+   "service_requirement": "12 consecutive months in her title or any other UC academic title",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "sequence": [
+    {
+     "relation": "within",
+     "component_id": "ucla_c1"
+    }
+   ],
+   "rule_applied": [
+    "V1",
+    "R9",
+    "U8"
+   ],
+   "evidence": {
+    "mechanism": [
+     "A non-Senate academic appointee who does not accrue sick leave and who has served in her title or any other UC academic title for at least 12 consecutive months will receive at least her approved base salary for up to 6 weeks while she is unable to perform her normal University obligations."
+    ],
+    "faculty_group": [
+     "A non-Senate academic appointee who does not accrue sick leave and who has served in her title or any other UC academic title for at least 12 consecutive months will receive at least her approved base salary for up to 6 weeks while she is unable to perform her normal University obligations."
+    ],
+    "eligible_parent": [
+     "A non-Senate academic appointee who does not accrue sick leave and who has served in her title or any other UC academic title for at least 12 consecutive months will receive at least her approved base salary for up to 6 weeks while she is unable to perform her normal University obligations."
+    ],
+    "entitlement": [
+     "A non-Senate academic appointee who does not accrue sick leave and who has served in her title or any other UC academic title for at least 12 consecutive months will receive at least her approved base salary for up to 6 weeks while she is unable to perform her normal University obligations."
+    ],
+    "duration": [
+     "A non-Senate academic appointee who does not accrue sick leave and who has served in her title or any other UC academic title for at least 12 consecutive months will receive at least her approved base salary for up to 6 weeks while she is unable to perform her normal University obligations."
+    ],
+    "pay_fraction": [
+     "A non-Senate academic appointee who does not accrue sick leave and who has served in her title or any other UC academic title for at least 12 consecutive months will receive at least her approved base salary for up to 6 weeks while she is unable to perform her normal University obligations."
+    ],
+    "service_requirement": [
+     "A non-Senate academic appointee who does not accrue sick leave and who has served in her title or any other UC academic title for at least 12 consecutive months will receive at least her approved base salary for up to 6 weeks while she is unable to perform her normal University obligations."
+    ],
+    "sequence": [
+     "Pay status during childbearing leave shall be based on the following provisions:"
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "V1",
+     "answer": "employer_childbirth_benefit",
+     "quote": "A non-Senate academic appointee who does not accrue sick leave and who has served in her title or any other UC academic title for at least 12 consecutive months will receive at least her approved base salary for up to 6 weeks while she is unable to perform her normal University obligations."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "A non-Senate academic appointee who does not accrue sick leave and who has served in her title or any other UC academic title for at least 12 consecutive months will receive at least her approved base salary for up to 6 weeks while she is unable to perform her normal University obligations."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "A non-Senate academic appointee who does not accrue sick leave and who has served in her title or any other UC academic title for at least 12 consecutive months will receive at least her approved base salary for up to 6 weeks while she is unable to perform her normal University obligations."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "non-Senate academic appointees who do not accrue sick leave",
+     "quote": "A non-Senate academic appointee who does not accrue sick leave and who has served in her title or any other UC academic title for at least 12 consecutive months will receive at least her approved base salary for up to 6 weeks while she is unable to perform her normal University obligations."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "birth_parent",
+     "quote": "A non-Senate academic appointee who does not accrue sick leave and who has served in her title or any other UC academic title for at least 12 consecutive months will receive at least her approved base salary for up to 6 weeks while she is unable to perform her normal University obligations."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "A non-Senate academic appointee who does not accrue sick leave and who has served in her title or any other UC academic title for at least 12 consecutive months will receive at least her approved base salary for up to 6 weeks while she is unable to perform her normal University obligations."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "6 weeks up_to",
+     "quote": "A non-Senate academic appointee who does not accrue sick leave and who has served in her title or any other UC academic title for at least 12 consecutive months will receive at least her approved base salary for up to 6 weeks while she is unable to perform her normal University obligations."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "at least her approved base salary",
+     "quote": "A non-Senate academic appointee who does not accrue sick leave and who has served in her title or any other UC academic title for at least 12 consecutive months will receive at least her approved base salary for up to 6 weeks while she is unable to perform her normal University obligations."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U8",
+     "answer": "12 consecutive months; the shorter-service path in duration_note",
+     "quote": "A non-Senate academic appointee who does not accrue sick leave and who has not served in her title or any other UC academic title for at least 12 consecutive months will receive at least her approved base salary for approximately the period which would be accrued during the appointment in accordance with the accrual rates in APM - 710-18."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all relieved, inferred",
+     "quote": "Pay status during childbearing leave shall be based on the following provisions:"
+    },
+    {
+     "field": "sequence",
+     "rule": "S1",
+     "answer": "within ucla_c1",
+     "quote": "Pay status during childbearing leave shall be based on the following provisions:"
+    }
+   ]
+  },
+  {
+   "component_id": "ucla_c4",
+   "institution_label": "Parental Leave Without Pay",
+   "description": "Full-time or part-time unpaid parental leave of up to one year to care for a child (own, or a spouse's or domestic partner's); reinstatement to the same or an equivalent position.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "An academic appointee",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "an academic appointee ... to care for a child. The child may be the appointee's child or that of a spouse or domestic partner",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "'is eligible for' (V2); FMLA-eligible appointees 'shall be granted' an unpaid leave to care for a newborn child.",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "up_to"
+   },
+   "duration_note": "Full-time or part-time. Up to 12 workweeks run concurrently with FMLA/CFRA. Within the one-year aggregate limit of APM 760-35-b(1) (leave_limits).",
+   "service_requirement": "none stated",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "notice": "should provide sufficient advance notice; at a minimum, 30 days advance notice should be given (760-35-a)",
+   "return_obligation": "none stated; reinstatement to the same or an equivalent position on return immediately following the leave (760-35-e(2))",
+   "runs_concurrently_with": [
+    "FMLA",
+    "CFRA"
+   ],
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "ucla_c1",
+     "roles": [
+      "birth"
+     ],
+     "note": "Chart I: the parental leave 'Runs concurrently with CFRA leave', and CFRA begins 'At the end of a childbearing leave' (760-25-d). For the non-birth parent it is unplaced and the statutes run with it."
+    }
+   ],
+   "rule_applied": [
+    "V2",
+    "R9",
+    "R13",
+    "R15",
+    "S1a"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "An academic appointee is eligible for a full-time or part-time parental leave without pay for up to one year to care for a child."
+    ],
+    "eligible_parent": [
+     "An academic appointee is eligible for a full-time or part-time parental leave without pay for up to one year to care for a child.",
+     "The child may be the appointee’s child or that of a spouse or domestic partner."
+    ],
+    "entitlement": [
+     "An academic appointee is eligible for a full-time or part-time parental leave without pay for up to one year to care for a child.",
+     "shall be granted an unpaid leave to care for a newborn child or a child newly placed for adoption or foster care."
+    ],
+    "duration": [
+     "An academic appointee is eligible for a full-time or part-time parental leave without pay for up to one year to care for a child."
+    ],
+    "sequence": [
+     "Up to 1 year full-time or part-time unpaid parental leave. Runs concurrently with CFRA leave.",
+     "At the end of a childbearing leave (which may extend up to 4 months if the individual is certified disabled by her health care provider), an eligible appointee also is entitled to up to 12 workweeks of unpaid leave consistent with the CFRA to care for her newborn child"
+    ],
+    "service_requirement": [
+     "An academic appointee is eligible for a full-time or part-time parental leave without pay for up to one year to care for a child."
+    ],
+    "return_obligation": [
+     "If an appointee takes a parental leave, the appointee shall be reinstated to the same or an equivalent position if he or she returns to work immediately following termination of the parental leave."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "An academic appointee is eligible for a full-time or part-time parental leave without pay for up to one year to care for a child."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "An academic appointee is eligible for a full-time or part-time parental leave without pay for up to one year to care for a child."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "An academic appointee is eligible for a full-time or part-time parental leave without pay for up to one year to care for a child."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "An academic appointee is eligible for a full-time or part-time parental leave without pay for up to one year to care for a child."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "any_parent (gender-neutral; own or partner's child)",
+     "quote": "The child may be the appointee’s child or that of a spouse or domestic partner."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "An academic appointee is eligible for a full-time or part-time parental leave without pay for up to one year to care for a child."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 year up_to",
+     "quote": "An academic appointee is eligible for a full-time or part-time parental leave without pay for up to one year to care for a child."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "formal leave; all relieved",
+     "quote": "An academic appointee is eligible for a full-time or part-time parental leave without pay for up to one year to care for a child."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "none stated",
+     "quote": "An academic appointee is eligible for a full-time or part-time parental leave without pay for up to one year to care for a child."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "consecutive_after ucla_c1 for the birth role (with CFRA, at the end of the childbearing leave)",
+     "quote": "Up to 1 year full-time or part-time unpaid parental leave. Runs concurrently with CFRA leave."
+    }
+   ]
+  },
+  {
+   "component_id": "ucla_c5",
+   "institution_label": "Active Service-Modified Duties",
+   "description": "A period of reduced duties (normally partial or full relief from teaching, full in the quarter of a childbearing leave) at regular salary for a faculty member responsible for 50% or more of a newborn's or newly placed child's care: birth mothers with a full-time year of appointment have two quarters in total with the childbearing leave; others one quarter.",
+   "mechanism": "modified_duties",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "ladder-rank faculty; academic appointees (paragraphs footnoted do not apply to Health Sciences Compensation Plan faculty)",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "birth mother; All other academic appointees; the appointee's child or that of a spouse or domestic partner; child under age five newly placed for adoption or foster care",
+   "caregiver_condition": "majority_or_50pct",
+   "caregiver_condition_wording": "must be responsible for 50 percent or more of the care of a child",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "R12 example (UC active service-modified duties): the period is granted ('is eligible for a total period'); the Dean/Chancellor approves the proposed modifications (arrangements).",
+   "duration": {
+    "value": 1,
+    "units": "quarter",
+    "qualifier": "exact"
+   },
+   "duration_by_role": {
+    "birth": {
+     "value": 2,
+     "units": "quarter",
+     "qualifier": "exact"
+    },
+    "nonbirth": {
+     "value": 1,
+     "units": "quarter",
+     "qualifier": "exact"
+    }
+   },
+   "duration_note": "Quarter alternative coded (R8: UCLA 2018, APM 760, quarters); semester alternatives: two semesters (birth mother) / one semester. Birth mother's two quarters include the childbearing leave and require a full-time appointment for at least one full academic year; otherwise one quarter. Birth during summer or an off-duty term: ASMD of two quarters.",
+   "service_requirement": "birth mother's two quarters: a full-time appointment for at least one full academic year (three quarters or two semesters); otherwise none stated",
+   "pay_fraction": "regular monthly salary",
+   "pay_fraction_pct": 100,
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "continues",
+    "research": "continues",
+    "advising_supervision": "continues",
+    "clinical": "continues"
+   },
+   "relief_inferred": "unnamed duties continue (R4b)",
+   "relief_note": "Ladder-rank: 'normally will be either partial or full relief from teaching'; full relief from teaching in the quarter of a childbearing leave. Appointee 'is expected to perform some portion of his or her normal duties'; not a leave of absence.",
+   "time_window": "normally from 3 months prior to 12 months following the birth or placement; an adopted or foster child must be under age five",
+   "notice": "notice to the department chair or unit head, with a written certification of 50% or more of the care; at a minimum 30 days advance notice should be given",
+   "rule_applied": [
+    "R3",
+    "R3b",
+    "R4",
+    "R4b",
+    "R8",
+    "R12",
+    "V2",
+    "R6",
+    "U8",
+    "U9"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "For ladder-rank faculty, the modification of duties normally will be either partial or full relief from teaching without the assignment of additional teaching duties before or after to offset the teaching relief."
+    ],
+    "eligible_parent": [
+     "Active service-modified duties is a period during which normal duties are reduced so that an academic appointee may prepare for and/or care for a newborn child or a child under age five newly placed for adoption or foster care.",
+     "An academic appointee who is a birth mother and who has a full-time appointment for at least one full academic year (three quarters or two semesters) is eligible for a total period of childbearing leave plus active service-modified duties of two quarters (or two semesters)",
+     "All other academic appointees are eligible for a total period of childbearing leave plus active service-modified duties of one quarter (or one semester)."
+    ],
+    "caregiver_condition": [
+     "To be eligible for active service-modified duties, an academic appointee must be responsible for 50 percent or more of the care of a child."
+    ],
+    "entitlement": [
+     "An academic appointee who is a birth mother and who has a full-time appointment for at least one full academic year (three quarters or two semesters) is eligible for a total period of childbearing leave plus active service-modified duties of two quarters (or two semesters)",
+     "The proposed modifications should then be discussed with the appointee and are subject to approval by the Dean and/or Chancellor."
+    ],
+    "duration": [
+     "All other academic appointees are eligible for a total period of childbearing leave plus active service-modified duties of one quarter (or one semester)."
+    ],
+    "duration_by_role": [
+     "An academic appointee who is a birth mother and who has a full-time appointment for at least one full academic year (three quarters or two semesters) is eligible for a total period of childbearing leave plus active service-modified duties of two quarters (or two semesters)",
+     "All other academic appointees are eligible for a total period of childbearing leave plus active service-modified duties of one quarter (or one semester)."
+    ],
+    "pay_fraction": [
+     "A faculty member will continue to receive his or her regular monthly salary."
+    ],
+    "relief": [
+     "For ladder-rank faculty, the modification of duties normally will be either partial or full relief from teaching without the assignment of additional teaching duties before or after to offset the teaching relief.",
+     "In the quarter or semester of a childbearing leave, there must be full relief from teaching duties.",
+     "A period of active service-modified duties is not a leave of absence."
+    ],
+    "service_requirement": [
+     "An academic appointee who is a birth mother and who has a full-time appointment for at least one full academic year (three quarters or two semesters) is eligible for a total period of childbearing leave plus active service-modified duties of two quarters (or two semesters)"
+    ],
+    "time_window": [
+     "Eligibility for a period of active service-modified duties shall normally extend from 3 months prior to 12 months following the birth or placement."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "ambiguous: teaching relief 'normally will be either partial or full relief from teaching' (full in the quarter of a childbearing leave); coded relieved"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "modified_duties",
+     "quote": "Active service-modified duties is a period during which normal duties are reduced so that an academic appointee may prepare for and/or care for a newborn child or a child under age five newly placed for adoption or foster care."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "A faculty member will continue to receive his or her regular monthly salary."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Active service-modified duties is a period during which normal duties are reduced so that an academic appointee may prepare for and/or care for a newborn child or a child under age five newly placed for adoption or foster care."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "For ladder-rank faculty, the modification of duties normally will be either partial or full relief from teaching without the assignment of additional teaching duties before or after to offset the teaching relief."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "birth_parent, non_birth_parent, adoptive, foster",
+     "quote": "Active service-modified duties is a period during which normal duties are reduced so that an academic appointee may prepare for and/or care for a newborn child or a child under age five newly placed for adoption or foster care."
+    },
+    {
+     "field": "caregiver_condition",
+     "rule": "R6",
+     "answer": "majority_or_50pct",
+     "quote": "To be eligible for active service-modified duties, an academic appointee must be responsible for 50 percent or more of the care of a child."
+    },
+    {
+     "field": "entitlement",
+     "rule": "R12",
+     "answer": "guaranteed_on_request",
+     "quote": "The proposed modifications should then be discussed with the appointee and are subject to approval by the Dean and/or Chancellor."
+    },
+    {
+     "field": "duration",
+     "rule": "R8",
+     "answer": "1 quarter exact (quarter alternative)",
+     "quote": "All other academic appointees are eligible for a total period of childbearing leave plus active service-modified duties of one quarter (or one semester)."
+    },
+    {
+     "field": "duration_by_role",
+     "rule": "U8",
+     "answer": "birth 2 quarters (member with two years of full-time service), nonbirth 1 quarter",
+     "quote": "An academic appointee who is a birth mother and who has a full-time appointment for at least one full academic year (three quarters or two semesters) is eligible for a total period of childbearing leave plus active service-modified duties of two quarters (or two semesters)"
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "R3",
+     "answer": "regular monthly salary (full pay)",
+     "quote": "A faculty member will continue to receive his or her regular monthly salary."
+    },
+    {
+     "field": "relief",
+     "rule": "R4b",
+     "answer": "teaching relieved; other duties continue (unnamed)",
+     "quote": "For ladder-rank faculty, the modification of duties normally will be either partial or full relief from teaching without the assignment of additional teaching duties before or after to offset the teaching relief."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U8",
+     "answer": "full-time appointment for one full academic year for the birth mother's two quarters",
+     "quote": "An academic appointee who is a birth mother and who has a full-time appointment for at least one full academic year (three quarters or two semesters) is eligible for a total period of childbearing leave plus active service-modified duties of two quarters (or two semesters)"
+    },
+    {
+     "field": "use_limit",
+     "rule": "U9",
+     "answer": "none: renews with each event of birth or placement",
+     "quote": "An appointee is eligible for a period of active service-modified duties for each event of birth or placement."
+    }
+   ]
+  },
+  {
+   "component_id": "ucla_c6",
+   "institution_label": "Provisions for Health Sciences Compensation Plan Faculty Members",
+   "description": "Health Sciences Compensation Plan faculty: at a minimum up to one quarter in total of childbearing leave plus active service-modified duties per event, with clinical duties reducible in lieu of teaching relief, at no less than approved base monthly salary; a birth mother's additional quarter may be approved under campus policies.",
+   "mechanism": "modified_duties",
+   "payer": "employer",
+   "faculty_group": "Health Sciences Compensation Plan faculty members",
+   "faculty_group_note": "Health Sciences Compensation Plan faculty members",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "birth mother; each event of birth or placement for adoption or foster care",
+   "caregiver_condition": "majority_or_50pct",
+   "caregiver_condition_wording": "must be responsible for 50 percent or more of the care of a child",
+   "entitlement": "guaranteed_on_request",
+   "duration": {
+    "value": 1,
+    "units": "quarter",
+    "qualifier": "up_to"
+   },
+   "duration_note": "'At a minimum ... up to one quarter (or one semester)'; for a birth mother an additional quarter (or semester) 'may be approved in accordance with campus policies' (discretionary; campus policies not saved).",
+   "pay_fraction": "no less than his or her approved base monthly salary",
+   "pay_fraction_pct": 100,
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "continues",
+    "research": "continues",
+    "advising_supervision": "continues",
+    "clinical": "partially_relieved"
+   },
+   "relief_inferred": "unnamed duties continue (R4b)",
+   "relief_note": "Clinical duties may be reduced in lieu of teaching relief, as appropriate.",
+   "faculty_scope": "Health Sciences Compensation Plan only",
+   "rule_applied": [
+    "V3b",
+    "V2",
+    "R4b",
+    "R8"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "At a minimum, Health Sciences Compensation Plan faculty members are eligible for a total period of childbearing leave plus active service-modified duties of up to one quarter (or one semester) for each event of birth or placement for adoption or foster care."
+    ],
+    "eligible_parent": [
+     "At a minimum, Health Sciences Compensation Plan faculty members are eligible for a total period of childbearing leave plus active service-modified duties of up to one quarter (or one semester) for each event of birth or placement for adoption or foster care."
+    ],
+    "caregiver_condition": [
+     "To be eligible for active service-modified duties, an academic appointee must be responsible for 50 percent or more of the care of a child."
+    ],
+    "entitlement": [
+     "At a minimum, Health Sciences Compensation Plan faculty members are eligible for a total period of childbearing leave plus active service-modified duties of up to one quarter (or one semester) for each event of birth or placement for adoption or foster care."
+    ],
+    "duration": [
+     "At a minimum, Health Sciences Compensation Plan faculty members are eligible for a total period of childbearing leave plus active service-modified duties of up to one quarter (or one semester) for each event of birth or placement for adoption or foster care."
+    ],
+    "pay_fraction": [
+     "a Health Sciences Compensation Plan faculty member will receive pay no less than his or her approved base monthly salary."
+    ],
+    "relief": [
+     "faculty who are members of the Health Sciences Compensation Plan with clinical responsibilities may reduce clinical duties in lieu of teaching relief, as appropriate."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "cross_reference_not_saved: campus policies for the Health Sciences Compensation Plan (additional quarter for a birth mother)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "modified_duties",
+     "quote": "At a minimum, Health Sciences Compensation Plan faculty members are eligible for a total period of childbearing leave plus active service-modified duties of up to one quarter (or one semester) for each event of birth or placement for adoption or foster care."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "a Health Sciences Compensation Plan faculty member will receive pay no less than his or her approved base monthly salary."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "At a minimum, Health Sciences Compensation Plan faculty members are eligible for a total period of childbearing leave plus active service-modified duties of up to one quarter (or one semester) for each event of birth or placement for adoption or foster care."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "V3b",
+     "answer": "Health Sciences Compensation Plan faculty members",
+     "quote": "At a minimum, Health Sciences Compensation Plan faculty members are eligible for a total period of childbearing leave plus active service-modified duties of up to one quarter (or one semester) for each event of birth or placement for adoption or foster care."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "birth_parent, non_birth_parent, adoptive, foster",
+     "quote": "At a minimum, Health Sciences Compensation Plan faculty members are eligible for a total period of childbearing leave plus active service-modified duties of up to one quarter (or one semester) for each event of birth or placement for adoption or foster care."
+    },
+    {
+     "field": "caregiver_condition",
+     "rule": "R6",
+     "answer": "majority_or_50pct",
+     "quote": "To be eligible for active service-modified duties, an academic appointee must be responsible for 50 percent or more of the care of a child."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "At a minimum, Health Sciences Compensation Plan faculty members are eligible for a total period of childbearing leave plus active service-modified duties of up to one quarter (or one semester) for each event of birth or placement for adoption or foster care."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 quarter up_to",
+     "quote": "At a minimum, Health Sciences Compensation Plan faculty members are eligible for a total period of childbearing leave plus active service-modified duties of up to one quarter (or one semester) for each event of birth or placement for adoption or foster care."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "no less than approved base monthly salary",
+     "quote": "a Health Sciences Compensation Plan faculty member will receive pay no less than his or her approved base monthly salary."
+    },
+    {
+     "field": "relief",
+     "rule": "R4b",
+     "answer": "teaching relieved or clinical reduced in lieu; others continue",
+     "quote": "faculty who are members of the Health Sciences Compensation Plan with clinical responsibilities may reduce clinical duties in lieu of teaching relief, as appropriate."
+    }
+   ]
+  },
+  {
+   "component_id": "ucla_c7",
+   "institution_label": "Active Service-Modified Duties",
+   "description": "For non-faculty academic appointees, active service-modified duties normally take the form of a reduced workload, paid from accrued sick leave in proportion to the reduction; once sick leave is exhausted, or for those who do not accrue it, pay is reduced in proportion.",
+   "mechanism": "part_time_option",
+   "mechanism_note": "R3: relief with a cut in pay, or paid from the appointee's own sick leave, is a part-time option.",
+   "payer": "own_balance",
+   "faculty_group": "non-faculty academic appointees",
+   "faculty_group_note": "all other eligible academic appointees; non-faculty academic appointees",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "birth mother; all other academic appointees",
+   "caregiver_condition": "majority_or_50pct",
+   "caregiver_condition_wording": "must be responsible for 50 percent or more of the care of a child",
+   "entitlement": "guaranteed_on_request",
+   "duration": {
+    "value": 1,
+    "units": "quarter",
+    "qualifier": "exact"
+   },
+   "duration_by_role": {
+    "birth": {
+     "value": 2,
+     "units": "quarter",
+     "qualifier": "exact"
+    },
+    "nonbirth": {
+     "value": 1,
+     "units": "quarter",
+     "qualifier": "exact"
+    }
+   },
+   "pay_fraction": "accrued sick leave in proportion to the reduced workload; then pay reduced in proportion to the reduced workload",
+   "relief": {
+    "teaching": "partially_relieved",
+    "service_admin": "partially_relieved",
+    "research": "partially_relieved",
+    "advising_supervision": "partially_relieved",
+    "clinical": "partially_relieved"
+   },
+   "relief_note": "'a reduced workload'",
+   "rule_applied": [
+    "R3",
+    "R1",
+    "R8"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "For all other eligible academic appointees, the modification of duties normally will be a reduced workload",
+     "When sick leave credit has been exhausted or for those non-faculty academic appointees who do not accrue sick leave, pay will be reduced in proportion to the reduced workload."
+    ],
+    "eligible_parent": [
+     "An academic appointee who is a birth mother and who has a full-time appointment for at least one full academic year (three quarters or two semesters) is eligible for a total period of childbearing leave plus active service-modified duties of two quarters (or two semesters)",
+     "All other academic appointees are eligible for a total period of childbearing leave plus active service-modified duties of one quarter (or one semester)."
+    ],
+    "caregiver_condition": [
+     "To be eligible for active service-modified duties, an academic appointee must be responsible for 50 percent or more of the care of a child."
+    ],
+    "entitlement": [
+     "All other academic appointees are eligible for a total period of childbearing leave plus active service-modified duties of one quarter (or one semester).",
+     "The proposed modifications should then be discussed with the appointee and are subject to approval by the Dean and/or Chancellor."
+    ],
+    "duration": [
+     "All other academic appointees are eligible for a total period of childbearing leave plus active service-modified duties of one quarter (or one semester)."
+    ],
+    "duration_by_role": [
+     "An academic appointee who is a birth mother and who has a full-time appointment for at least one full academic year (three quarters or two semesters) is eligible for a total period of childbearing leave plus active service-modified duties of two quarters (or two semesters)",
+     "All other academic appointees are eligible for a total period of childbearing leave plus active service-modified duties of one quarter (or one semester)."
+    ],
+    "pay_fraction": [
+     "An academic appointee who accrues sick leave shall use such accrued sick leave credit in proportion to the reduced workload.",
+     "When sick leave credit has been exhausted or for those non-faculty academic appointees who do not accrue sick leave, pay will be reduced in proportion to the reduced workload."
+    ],
+    "relief": [
+     "For all other eligible academic appointees, the modification of duties normally will be a reduced workload"
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R3",
+     "answer": "part_time_option",
+     "quote": "When sick leave credit has been exhausted or for those non-faculty academic appointees who do not accrue sick leave, pay will be reduced in proportion to the reduced workload."
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "own_balance",
+     "quote": "An academic appointee who accrues sick leave shall use such accrued sick leave credit in proportion to the reduced workload."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Active service-modified duties is a period during which normal duties are reduced so that an academic appointee may prepare for and/or care for a newborn child or a child under age five newly placed for adoption or foster care."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "non-faculty academic appointees",
+     "quote": "When sick leave credit has been exhausted or for those non-faculty academic appointees who do not accrue sick leave, pay will be reduced in proportion to the reduced workload."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "birth_parent, non_birth_parent, adoptive, foster",
+     "quote": "Active service-modified duties is a period during which normal duties are reduced so that an academic appointee may prepare for and/or care for a newborn child or a child under age five newly placed for adoption or foster care."
+    },
+    {
+     "field": "caregiver_condition",
+     "rule": "R6",
+     "answer": "majority_or_50pct",
+     "quote": "To be eligible for active service-modified duties, an academic appointee must be responsible for 50 percent or more of the care of a child."
+    },
+    {
+     "field": "entitlement",
+     "rule": "R12",
+     "answer": "guaranteed_on_request",
+     "quote": "The proposed modifications should then be discussed with the appointee and are subject to approval by the Dean and/or Chancellor."
+    },
+    {
+     "field": "duration",
+     "rule": "R8",
+     "answer": "1 quarter exact",
+     "quote": "All other academic appointees are eligible for a total period of childbearing leave plus active service-modified duties of one quarter (or one semester)."
+    },
+    {
+     "field": "duration_by_role",
+     "rule": "schema",
+     "answer": "birth 2 quarters, nonbirth 1 quarter",
+     "quote": "An academic appointee who is a birth mother and who has a full-time appointment for at least one full academic year (three quarters or two semesters) is eligible for a total period of childbearing leave plus active service-modified duties of two quarters (or two semesters)"
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "R3",
+     "answer": "own sick leave then proportional pay cut",
+     "quote": "When sick leave credit has been exhausted or for those non-faculty academic appointees who do not accrue sick leave, pay will be reduced in proportion to the reduced workload."
+    },
+    {
+     "field": "relief",
+     "rule": "R4",
+     "answer": "reduced workload: duties partially relieved",
+     "quote": "For all other eligible academic appointees, the modification of duties normally will be a reduced workload"
+    }
+   ]
+  },
+  {
+   "component_id": "ucla_c8",
+   "institution_label": "Family and Medical Leave",
+   "description": "Federal FMLA (APM 715): up to 12 workweeks of unpaid, job-protected leave in a calendar year for the birth or placement of a child, the employee's own serious health condition, or care of a seriously ill family member; 12 months' service and 1,250 hours.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "An academic appointee",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "the appointee's newborn child or a child newly placed ... for adoption or foster care; own serious health condition; care for spouse or domestic partner",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 12,
+    "units": "workweek",
+    "qualifier": "up_to"
+   },
+   "duration_note": "APM 715: 'up to 12 workweeks ... during a calendar year'; statute: 'a total of 12 workweeks of leave during any 12-month period'. Runs concurrently with up to 12 workweeks of the childbearing leave and of the parental leave.",
+   "service_requirement": "12 cumulative months of University service and 1,250 hours in the preceding 12 months",
+   "medical_certification": true,
+   "medical_certification_note": "may be required for the appointee's own serious health condition or a family member's",
+   "time_window": "leave to care for a newborn or newly placed child concluded within 12 months following the birth or placement",
+   "notice": "at least 30 days advance notice whenever possible",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "statute_source": "29 U.S.C. 2612(a)(1); eligibility 29 U.S.C. 2611(2)",
+   "statute_verified": true,
+   "sequence": [
+    {
+     "relation": "concurrent_with",
+     "component_id": "ucla_c1",
+     "note": "760-25-d: up to 12 workweeks of the childbearing leave run concurrently with FMLA (S1)."
+    },
+    {
+     "relation": "concurrent_with",
+     "component_id": "ucla_c4",
+     "note": "760-27-b: up to 12 workweeks of the parental leave run concurrently with FMLA (S1)."
+    }
+   ],
+   "rule_applied": [
+    "U2",
+    "U4",
+    "U5",
+    "S1",
+    "R13"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "An academic appointee is entitled to up to 12 workweeks of family and medical leave during a calendar year, provided that:"
+    ],
+    "eligible_parent": [
+     "to care for the appointee’s newborn child or a child newly placed with the appointee for adoption or foster care.",
+     "the appointee’s own serious health condition;",
+     "to care for the appointee’s child, parent, spouse, or domestic partner (same- sex or opposite-sex) with a serious health condition;"
+    ],
+    "entitlement": [
+     "An academic appointee is entitled to up to 12 workweeks of family and medical leave during a calendar year, provided that:",
+     "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period for one or more of the following:"
+    ],
+    "duration": [
+     "An academic appointee is entitled to up to 12 workweeks of family and medical leave during a calendar year, provided that:",
+     "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period for one or more of the following:"
+    ],
+    "service_requirement": [
+     "the appointee has at least 12 cumulative months of University service",
+     "the appointee has worked at least 1,250 hours during the 12 months immediately preceding the commencement date of the leave."
+    ],
+    "time_window": [
+     "Leave granted to care for the appointee’s newborn child or a child newly placed with the appointee for adoption or foster care shall be concluded within 12 months following the child’s birth or placement."
+    ],
+    "sequence": [
+     "up to 12 workweeks of the childbearing leave shall run concurrently with family and medical leave under Federal law.",
+     "Up to 12 workweeks of the parental leave shall run concurrently with family and medical leave."
+    ],
+    "statute_source": [
+     "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period for one or more of the following:",
+     "Because of the birth of a son or daughter of the employee and in order to care for such son or daughter."
+    ],
+    "medical_certification": [
+     "Certification from the health care provider may be required when leave is requested for the appointee’s own serious health condition"
+    ]
+   },
+   "doc_ids": [
+    "2018_03_apm715_family_medical_leave",
+    "2018_00_link",
+    "2018_02_apm710_sick_medical_leave",
+    "2026_00_us_fmla_29usc2612"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "U2",
+     "answer": "unpaid_leave",
+     "quote": "An academic appointee is entitled to up to 12 workweeks of family and medical leave during a calendar year, provided that:"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Family and medical leave is normally unpaid leave except that:"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "to care for the appointee’s newborn child or a child newly placed with the appointee for adoption or foster care."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "An academic appointee is entitled to up to 12 workweeks of family and medical leave during a calendar year, provided that:"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth, non-birth (bonding and care of the birth parent), adoptive, foster",
+     "quote": "to care for the appointee’s newborn child or a child newly placed with the appointee for adoption or foster care."
+    },
+    {
+     "field": "entitlement",
+     "rule": "U2",
+     "answer": "guaranteed",
+     "quote": "An academic appointee is entitled to up to 12 workweeks of family and medical leave during a calendar year, provided that:"
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "12 workweeks up_to",
+     "quote": "An academic appointee is entitled to up to 12 workweeks of family and medical leave during a calendar year, provided that:"
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "formal leave; all relieved",
+     "quote": "An academic appointee is entitled to up to 12 workweeks of family and medical leave during a calendar year, provided that:"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U2",
+     "answer": "12 months and 1,250 hours",
+     "quote": "the appointee has worked at least 1,250 hours during the 12 months immediately preceding the commencement date of the leave."
+    },
+    {
+     "field": "sequence",
+     "rule": "S1",
+     "answer": "concurrent_with ucla_c1 and ucla_c4",
+     "quote": "up to 12 workweeks of the childbearing leave shall run concurrently with family and medical leave under Federal law."
+    }
+   ]
+  },
+  {
+   "component_id": "ucla_c9",
+   "institution_label": "California Family Rights Act",
+   "description": "CFRA (APM 715, 760-25-d): up to 12 workweeks of unpaid leave to care for a newborn or newly placed child; for a birth parent it begins at the end of the childbearing (pregnancy disability) leave; otherwise it runs concurrently with FMLA.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "an eligible appointee",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "to care for her newborn child; newborn child or child newly placed for adoption or foster care",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 12,
+    "units": "workweek",
+    "qualifier": "up_to"
+   },
+   "service_requirement": "12 months and 1,250 hours (as for FMLA)",
+   "time_window": "concluded within 12 months following the child's birth or placement",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "statute_source": "Cal. Gov. Code 12945.2(a)",
+   "statute_verified": true,
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "ucla_c1",
+     "roles": [
+      "birth"
+     ],
+     "note": "S1a: 760-25-d, CFRA leave 'At the end of a childbearing leave'; Gov. Code 12945.2: in addition to section 12945 leave."
+    },
+    {
+     "relation": "concurrent_with",
+     "component_id": "ucla_c8",
+     "roles": [
+      "nonbirth"
+     ],
+     "note": "Chart II: CFRA 'Runs concurrently with FMLA leave'."
+    },
+    {
+     "relation": "concurrent_with",
+     "component_id": "ucla_c4",
+     "note": "Charts I and II: the parental leave runs concurrently with CFRA leave (S1)."
+    }
+   ],
+   "rule_applied": [
+    "U2",
+    "U4",
+    "S1",
+    "S1a",
+    "R15"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "At the end of a childbearing leave (which may extend up to 4 months if the individual is certified disabled by her health care provider), an eligible appointee also is entitled to up to 12 workweeks of unpaid leave consistent with the CFRA to care for her newborn child"
+    ],
+    "eligible_parent": [
+     "At the end of a childbearing leave (which may extend up to 4 months if the individual is certified disabled by her health care provider), an eligible appointee also is entitled to up to 12 workweeks of unpaid leave consistent with the CFRA to care for her newborn child",
+     "Up to 12 workweeks unpaid leave during a calendar year to care for a newborn child or child"
+    ],
+    "entitlement": [
+     "At the end of a childbearing leave (which may extend up to 4 months if the individual is certified disabled by her health care provider), an eligible appointee also is entitled to up to 12 workweeks of unpaid leave consistent with the CFRA to care for her newborn child"
+    ],
+    "duration": [
+     "At the end of a childbearing leave (which may extend up to 4 months if the individual is certified disabled by her health care provider), an eligible appointee also is entitled to up to 12 workweeks of unpaid leave consistent with the CFRA to care for her newborn child",
+     "to take up to a total of 12 workweeks in any 12-month period for family care and medical leave"
+    ],
+    "service_requirement": [
+     "with more than 12 months of service with the employer, and who has at least 1,250 hours of service with the employer during the previous 12-month period"
+    ],
+    "time_window": [
+     "Parental leave granted pursuant to the FMLA and/or the CFRA must be concluded within 12 months following the child’s birth or placement."
+    ],
+    "sequence": [
+     "At the end of a childbearing leave (which may extend up to 4 months if the individual is certified disabled by her health care provider), an eligible appointee also is entitled to up to 12 workweeks of unpaid leave consistent with the CFRA to care for her newborn child",
+     "An employee is entitled to take, in addition to the leave provided for under this section and the FMLA, the leave provided for in Section 12945",
+     "Runs concurrently with FMLA leave.",
+     "Up to 1 year full-time or part-time unpaid parental leave. Runs concurrently with CFRA leave."
+    ],
+    "statute_source": [
+     "to take up to a total of 12 workweeks in any 12-month period for family care and medical leave"
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link",
+    "2018_03_apm715_family_medical_leave",
+    "2026_02_ca_cfra_gov12945_2"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "U2",
+     "answer": "unpaid_leave",
+     "quote": "At the end of a childbearing leave (which may extend up to 4 months if the individual is certified disabled by her health care provider), an eligible appointee also is entitled to up to 12 workweeks of unpaid leave consistent with the CFRA to care for her newborn child"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "At the end of a childbearing leave (which may extend up to 4 months if the individual is certified disabled by her health care provider), an eligible appointee also is entitled to up to 12 workweeks of unpaid leave consistent with the CFRA to care for her newborn child"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "At the end of a childbearing leave (which may extend up to 4 months if the individual is certified disabled by her health care provider), an eligible appointee also is entitled to up to 12 workweeks of unpaid leave consistent with the CFRA to care for her newborn child"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "At the end of a childbearing leave (which may extend up to 4 months if the individual is certified disabled by her health care provider), an eligible appointee also is entitled to up to 12 workweeks of unpaid leave consistent with the CFRA to care for her newborn child"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U2",
+     "answer": "birth, non-birth, adoptive, foster",
+     "quote": "Up to 12 workweeks unpaid leave during a calendar year to care for a newborn child or child"
+    },
+    {
+     "field": "entitlement",
+     "rule": "U2",
+     "answer": "guaranteed",
+     "quote": "At the end of a childbearing leave (which may extend up to 4 months if the individual is certified disabled by her health care provider), an eligible appointee also is entitled to up to 12 workweeks of unpaid leave consistent with the CFRA to care for her newborn child"
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "12 workweeks up_to",
+     "quote": "At the end of a childbearing leave (which may extend up to 4 months if the individual is certified disabled by her health care provider), an eligible appointee also is entitled to up to 12 workweeks of unpaid leave consistent with the CFRA to care for her newborn child"
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "formal leave; all relieved",
+     "quote": "At the end of a childbearing leave (which may extend up to 4 months if the individual is certified disabled by her health care provider), an eligible appointee also is entitled to up to 12 workweeks of unpaid leave consistent with the CFRA to care for her newborn child"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U2",
+     "answer": "12 months and 1,250 hours (statute)",
+     "quote": "with more than 12 months of service with the employer, and who has at least 1,250 hours of service with the employer during the previous 12-month period"
+    },
+    {
+     "field": "sequence",
+     "rule": "S1a",
+     "answer": "consecutive_after ucla_c1 for the birth role; concurrent_with FMLA for the non-birth role; concurrent_with the parental leave",
+     "quote": "At the end of a childbearing leave (which may extend up to 4 months if the individual is certified disabled by her health care provider), an eligible appointee also is entitled to up to 12 workweeks of unpaid leave consistent with the CFRA to care for her newborn child"
+    }
+   ]
+  },
+  {
+   "component_id": "ucla_c10",
+   "institution_label": "",
+   "description": "For academic appointees who do not accrue sick leave (faculty), the Chancellor may approve family and medical leave with pay for up to 12 workweeks.",
+   "mechanism": "employer_paid_leave",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "academic appointees who do not accrue sick leave (faculty members do not accrue sick leave)",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "FMLA-qualifying reasons: newborn child, child placed for adoption or foster care, own serious health condition, care of family member",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "duration": {
+    "value": 12,
+    "units": "workweek",
+    "qualifier": "up_to"
+   },
+   "pay_fraction": "with pay",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "sequence": [
+    {
+     "relation": "within",
+     "component_id": "ucla_c8",
+     "note": "S1: pay for the statutory leave (R18 UCLA example)."
+    }
+   ],
+   "rule_applied": [
+    "V2",
+    "R17",
+    "S1",
+    "R18",
+    "R9"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "For academic appointees who do not accrue sick leave, Chancellors may approve leave with pay for up to 12 workweeks.",
+     "Faculty members do not accrue sick leave."
+    ],
+    "eligible_parent": [
+     "to care for the appointee’s newborn child or a child newly placed with the appointee for adoption or foster care."
+    ],
+    "entitlement": [
+     "For academic appointees who do not accrue sick leave, Chancellors may approve leave with pay for up to 12 workweeks."
+    ],
+    "duration": [
+     "For academic appointees who do not accrue sick leave, Chancellors may approve leave with pay for up to 12 workweeks."
+    ],
+    "pay_fraction": [
+     "For academic appointees who do not accrue sick leave, Chancellors may approve leave with pay for up to 12 workweeks."
+    ],
+    "sequence": [
+     "Family and medical leave is normally unpaid leave except that:"
+    ]
+   },
+   "doc_ids": [
+    "2018_03_apm715_family_medical_leave",
+    "2018_02_apm710_sick_medical_leave"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R17",
+     "answer": "employer_paid_leave",
+     "quote": "For academic appointees who do not accrue sick leave, Chancellors may approve leave with pay for up to 12 workweeks."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "For academic appointees who do not accrue sick leave, Chancellors may approve leave with pay for up to 12 workweeks."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "For academic appointees who do not accrue sick leave, Chancellors may approve leave with pay for up to 12 workweeks."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Faculty members do not accrue sick leave."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "FMLA reasons: birth, non-birth, adoptive, foster",
+     "quote": "to care for the appointee’s newborn child or a child newly placed with the appointee for adoption or foster care."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "For academic appointees who do not accrue sick leave, Chancellors may approve leave with pay for up to 12 workweeks."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "12 workweeks up_to",
+     "quote": "For academic appointees who do not accrue sick leave, Chancellors may approve leave with pay for up to 12 workweeks."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "with pay",
+     "quote": "For academic appointees who do not accrue sick leave, Chancellors may approve leave with pay for up to 12 workweeks."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "formal leave; all relieved",
+     "quote": "For academic appointees who do not accrue sick leave, Chancellors may approve leave with pay for up to 12 workweeks."
+    },
+    {
+     "field": "sequence",
+     "rule": "S1",
+     "answer": "within ucla_c8",
+     "quote": "Family and medical leave is normally unpaid leave except that:"
+    }
+   ]
+  },
+  {
+   "component_id": "ucla_c11",
+   "institution_label": "Paid Medical Leave for Academic Appointees Who Do Not Accrue Sick Leave",
+   "description": "Faculty (not HSCP) with a full-time appointment for a full academic year who are unable to work for personal illness, injury or disability shall be granted paid medical leave: two quarters (academic-year) within a ten-year period, three quarters with 10+ years of service. The leave of absence (U6); its pay is c12.",
+   "mechanism": "unpaid_leave",
+   "mechanism_note": "U6: a paid medical leave of absence that the employer grants ('shall be granted paid medical leave') is the leave (this component) plus its pay (c12, within).",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Members of the faculty (as defined in APM - 110-15) who are not members of the Health Sciences Compensation Plan",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "unable to work for reasons of personal illness, injury, or disability",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 2,
+    "units": "quarter",
+    "qualifier": "up_to"
+   },
+   "duration_max": {
+    "value": 3,
+    "units": "quarter"
+   },
+   "duration_note": "A maximum of two quarters (or one semester) for academic-year appointees, six months for fiscal-year, within a ten-year period; 10 or more years of UC service: 3 quarters (or 2 semesters), 12 months fiscal-year, within each subsequent ten-year period (U8: two-year member coded; longer band in duration_max). Consecutive or intermittent. Within the one-year aggregate limit (R20 UCLA example).",
+   "service_requirement": "full-time appointment for at least a full academic year (three quarters or two semesters)",
+   "medical_certification": true,
+   "medical_certification_note": "Chancellor determines documentation; FMLA regulations for the first 12 workweeks",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "sequence": [
+    {
+     "relation": "also_available",
+     "component_id": "ucla_c1",
+     "note": "'This policy provides paid leave in addition to normal childbearing and childrearing leaves (see APM - 760).'"
+    }
+   ],
+   "rule_applied": [
+    "U6",
+    "U5",
+    "U8",
+    "R9",
+    "R13",
+    "R20"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Members of the faculty (as defined in APM - 110-15) who are not members of the Health Sciences Compensation Plan and who have a full-time appointment for at least a full academic year (three quarters or two semesters) who are unable to work for reasons of personal illness, injury, or disability shall be granted paid medical leave as follows."
+    ],
+    "eligible_parent": [
+     "Members of the faculty (as defined in APM - 110-15) who are not members of the Health Sciences Compensation Plan and who have a full-time appointment for at least a full academic year (three quarters or two semesters) who are unable to work for reasons of personal illness, injury, or disability shall be granted paid medical leave as follows."
+    ],
+    "entitlement": [
+     "Members of the faculty (as defined in APM - 110-15) who are not members of the Health Sciences Compensation Plan and who have a full-time appointment for at least a full academic year (three quarters or two semesters) who are unable to work for reasons of personal illness, injury, or disability shall be granted paid medical leave as follows."
+    ],
+    "duration": [
+     "shall be granted a maximum of two quarters (or one semester) for academic year appointees, or six months for fiscal year appointees, of consecutive or intermittent paid medical leave within a ten-year period for personal illness, injury, or disability."
+    ],
+    "service_requirement": [
+     "Members of the faculty (as defined in APM - 110-15) who are not members of the Health Sciences Compensation Plan and who have a full-time appointment for at least a full academic year (three quarters or two semesters) who are unable to work for reasons of personal illness, injury, or disability shall be granted paid medical leave as follows."
+    ],
+    "sequence": [
+     "This policy provides paid leave in addition to normal childbearing and childrearing leaves (see APM - 760)."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_apm710_sick_medical_leave"
+   ],
+   "flags": [
+    "cross_reference_not_saved: APM - 110-15 (definition of the faculty)",
+    "own_illness_leave"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "U6",
+     "answer": "unpaid_leave",
+     "quote": "Members of the faculty (as defined in APM - 110-15) who are not members of the Health Sciences Compensation Plan and who have a full-time appointment for at least a full academic year (three quarters or two semesters) who are unable to work for reasons of personal illness, injury, or disability shall be granted paid medical leave as follows."
+    },
+    {
+     "field": "payer",
+     "rule": "U6",
+     "answer": "none",
+     "quote": "Members of the faculty (as defined in APM - 110-15) who are not members of the Health Sciences Compensation Plan and who have a full-time appointment for at least a full academic year (three quarters or two semesters) who are unable to work for reasons of personal illness, injury, or disability shall be granted paid medical leave as follows."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Members of the faculty (as defined in APM - 110-15) who are not members of the Health Sciences Compensation Plan and who have a full-time appointment for at least a full academic year (three quarters or two semesters) who are unable to work for reasons of personal illness, injury, or disability shall be granted paid medical leave as follows."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Members of the faculty (as defined in APM - 110-15) who are not members of the Health Sciences Compensation Plan and who have a full-time appointment for at least a full academic year (three quarters or two semesters) who are unable to work for reasons of personal illness, injury, or disability shall be granted paid medical leave as follows."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own illness or disability)",
+     "quote": "Members of the faculty (as defined in APM - 110-15) who are not members of the Health Sciences Compensation Plan and who have a full-time appointment for at least a full academic year (three quarters or two semesters) who are unable to work for reasons of personal illness, injury, or disability shall be granted paid medical leave as follows."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "Members of the faculty (as defined in APM - 110-15) who are not members of the Health Sciences Compensation Plan and who have a full-time appointment for at least a full academic year (three quarters or two semesters) who are unable to work for reasons of personal illness, injury, or disability shall be granted paid medical leave as follows."
+    },
+    {
+     "field": "duration",
+     "rule": "U8",
+     "answer": "2 quarters up_to; 3 quarters after 10 years in duration_max",
+     "quote": "shall be granted a maximum of 3 quarters (or 2 semesters) for academic-year appointees, or 12 months, for fiscal-year appointees, of consecutive or intermittent paid medical leave within each subsequent ten-year period for personal illness, injury, or disability."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "formal leave; all relieved",
+     "quote": "Members of the faculty (as defined in APM - 110-15) who are not members of the Health Sciences Compensation Plan and who have a full-time appointment for at least a full academic year (three quarters or two semesters) who are unable to work for reasons of personal illness, injury, or disability shall be granted paid medical leave as follows."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U8",
+     "answer": "full-time appointment for a full academic year",
+     "quote": "Members of the faculty (as defined in APM - 110-15) who are not members of the Health Sciences Compensation Plan and who have a full-time appointment for at least a full academic year (three quarters or two semesters) who are unable to work for reasons of personal illness, injury, or disability shall be granted paid medical leave as follows."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "also_available with ucla_c1 ('in addition to')",
+     "quote": "This policy provides paid leave in addition to normal childbearing and childrearing leaves (see APM - 760)."
+    }
+   ]
+  },
+  {
+   "component_id": "ucla_c12",
+   "institution_label": "Paid Medical Leave",
+   "description": "The pay of the APM 710-11 medical leave (c11): a general sick/disability provision, not childbirth-specific.",
+   "mechanism": "generic_sick_or_disability_plan",
+   "mechanism_note": "V1 not met: no childbirth-specific period; a general paid medical leave (R2, U6). Pay level not stated beyond 'paid'.",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Members of the faculty (as defined in APM - 110-15) who are not members of the Health Sciences Compensation Plan",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "unable to work for reasons of personal illness, injury, or disability",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 2,
+    "units": "quarter",
+    "qualifier": "up_to"
+   },
+   "duration_max": {
+    "value": 3,
+    "units": "quarter"
+   },
+   "duration_note": "As c11: 2 quarters within ten years; 3 quarters with 10+ years of service (U8). Does not accrue or carry over.",
+   "service_requirement": "full-time appointment for at least a full academic year (three quarters or two semesters)",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "sequence": [
+    {
+     "relation": "within",
+     "component_id": "ucla_c11"
+    }
+   ],
+   "rule_applied": [
+    "U6",
+    "V1",
+    "R2",
+    "V6",
+    "U8"
+   ],
+   "evidence": {
+    "mechanism": [
+     "However, eligible faculty members shall be granted paid medical leave for periods of personal illness, injury, or disability."
+    ],
+    "faculty_group": [
+     "Members of the faculty (as defined in APM - 110-15) who are not members of the Health Sciences Compensation Plan and who have a full-time appointment for at least a full academic year (three quarters or two semesters) who are unable to work for reasons of personal illness, injury, or disability shall be granted paid medical leave as follows."
+    ],
+    "eligible_parent": [
+     "Members of the faculty (as defined in APM - 110-15) who are not members of the Health Sciences Compensation Plan and who have a full-time appointment for at least a full academic year (three quarters or two semesters) who are unable to work for reasons of personal illness, injury, or disability shall be granted paid medical leave as follows."
+    ],
+    "entitlement": [
+     "Members of the faculty (as defined in APM - 110-15) who are not members of the Health Sciences Compensation Plan and who have a full-time appointment for at least a full academic year (three quarters or two semesters) who are unable to work for reasons of personal illness, injury, or disability shall be granted paid medical leave as follows."
+    ],
+    "duration": [
+     "shall be granted a maximum of two quarters (or one semester) for academic year appointees, or six months for fiscal year appointees, of consecutive or intermittent paid medical leave within a ten-year period for personal illness, injury, or disability."
+    ],
+    "service_requirement": [
+     "Members of the faculty (as defined in APM - 110-15) who are not members of the Health Sciences Compensation Plan and who have a full-time appointment for at least a full academic year (three quarters or two semesters) who are unable to work for reasons of personal illness, injury, or disability shall be granted paid medical leave as follows."
+    ],
+    "sequence": [
+     "Members of the faculty (as defined in APM - 110-15) who are not members of the Health Sciences Compensation Plan and who have a full-time appointment for at least a full academic year (three quarters or two semesters) who are unable to work for reasons of personal illness, injury, or disability shall be granted paid medical leave as follows."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_apm710_sick_medical_leave"
+   ],
+   "flags": [
+    "cross_reference_not_saved: School Implementation Procedures and Department Guidelines (paid medical leave for Health Sciences Compensation Plan faculty)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "V1",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "However, eligible faculty members shall be granted paid medical leave for periods of personal illness, injury, or disability."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "However, eligible faculty members shall be granted paid medical leave for periods of personal illness, injury, or disability."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "However, eligible faculty members shall be granted paid medical leave for periods of personal illness, injury, or disability."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Members of the faculty (as defined in APM - 110-15) who are not members of the Health Sciences Compensation Plan and who have a full-time appointment for at least a full academic year (three quarters or two semesters) who are unable to work for reasons of personal illness, injury, or disability shall be granted paid medical leave as follows."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent",
+     "quote": "Members of the faculty (as defined in APM - 110-15) who are not members of the Health Sciences Compensation Plan and who have a full-time appointment for at least a full academic year (three quarters or two semesters) who are unable to work for reasons of personal illness, injury, or disability shall be granted paid medical leave as follows."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "Members of the faculty (as defined in APM - 110-15) who are not members of the Health Sciences Compensation Plan and who have a full-time appointment for at least a full academic year (three quarters or two semesters) who are unable to work for reasons of personal illness, injury, or disability shall be granted paid medical leave as follows."
+    },
+    {
+     "field": "duration",
+     "rule": "U8",
+     "answer": "2 quarters up_to; max 3",
+     "quote": "shall be granted a maximum of two quarters (or one semester) for academic year appointees, or six months for fiscal year appointees, of consecutive or intermittent paid medical leave within a ten-year period for personal illness, injury, or disability."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "formal leave; all relieved",
+     "quote": "Members of the faculty (as defined in APM - 110-15) who are not members of the Health Sciences Compensation Plan and who have a full-time appointment for at least a full academic year (three quarters or two semesters) who are unable to work for reasons of personal illness, injury, or disability shall be granted paid medical leave as follows."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U8",
+     "answer": "full-time appointment for a full academic year",
+     "quote": "Members of the faculty (as defined in APM - 110-15) who are not members of the Health Sciences Compensation Plan and who have a full-time appointment for at least a full academic year (three quarters or two semesters) who are unable to work for reasons of personal illness, injury, or disability shall be granted paid medical leave as follows."
+    },
+    {
+     "field": "sequence",
+     "rule": "U6",
+     "answer": "within ucla_c11",
+     "quote": "Members of the faculty (as defined in APM - 110-15) who are not members of the Health Sciences Compensation Plan and who have a full-time appointment for at least a full academic year (three quarters or two semesters) who are unable to work for reasons of personal illness, injury, or disability shall be granted paid medical leave as follows."
+    }
+   ]
+  },
+  {
+   "component_id": "ucla_c13",
+   "institution_label": "",
+   "description": "If an appointee exhausts paid medical leave and still cannot return, the Chancellor may approve leave without pay for up to one year (longer under APM 759), with updated medical documentation.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "an appointee",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "still unable to return to work",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "up_to"
+   },
+   "duration_note": "A longer leave without pay may be approved under APM 759 (not saved).",
+   "medical_certification": true,
+   "medical_certification_note": "Updated medical information or documentation of continuing inability to return to work",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "ucla_c11"
+    }
+   ],
+   "rule_applied": [
+    "U5",
+    "V2",
+    "R13",
+    "R9"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "If an appointee exhausts accrued sick leave or paid medical leave and is still unable to return to work, Chancellors may approve leave without pay for up to one year and may approve a longer leave without pay pursuant to APM - 759."
+    ],
+    "eligible_parent": [
+     "If an appointee exhausts accrued sick leave or paid medical leave and is still unable to return to work, Chancellors may approve leave without pay for up to one year and may approve a longer leave without pay pursuant to APM - 759."
+    ],
+    "entitlement": [
+     "If an appointee exhausts accrued sick leave or paid medical leave and is still unable to return to work, Chancellors may approve leave without pay for up to one year and may approve a longer leave without pay pursuant to APM - 759."
+    ],
+    "duration": [
+     "If an appointee exhausts accrued sick leave or paid medical leave and is still unable to return to work, Chancellors may approve leave without pay for up to one year and may approve a longer leave without pay pursuant to APM - 759."
+    ],
+    "sequence": [
+     "If an appointee exhausts accrued sick leave or paid medical leave and is still unable to return to work, Chancellors may approve leave without pay for up to one year and may approve a longer leave without pay pursuant to APM - 759."
+    ],
+    "medical_certification": [
+     "Updated medical information or documentation shall be required to demonstrate the appointee’s continuing inability to return to work."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_apm710_sick_medical_leave"
+   ],
+   "flags": [
+    "cross_reference_not_saved: APM - 759 (Other leaves without pay)",
+    "own_illness_leave"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "If an appointee exhausts accrued sick leave or paid medical leave and is still unable to return to work, Chancellors may approve leave without pay for up to one year and may approve a longer leave without pay pursuant to APM - 759."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "If an appointee exhausts accrued sick leave or paid medical leave and is still unable to return to work, Chancellors may approve leave without pay for up to one year and may approve a longer leave without pay pursuant to APM - 759."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "If an appointee exhausts accrued sick leave or paid medical leave and is still unable to return to work, Chancellors may approve leave without pay for up to one year and may approve a longer leave without pay pursuant to APM - 759."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "If an appointee exhausts accrued sick leave or paid medical leave and is still unable to return to work, Chancellors may approve leave without pay for up to one year and may approve a longer leave without pay pursuant to APM - 759."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own illness)",
+     "quote": "If an appointee exhausts accrued sick leave or paid medical leave and is still unable to return to work, Chancellors may approve leave without pay for up to one year and may approve a longer leave without pay pursuant to APM - 759."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "If an appointee exhausts accrued sick leave or paid medical leave and is still unable to return to work, Chancellors may approve leave without pay for up to one year and may approve a longer leave without pay pursuant to APM - 759."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 year up_to",
+     "quote": "If an appointee exhausts accrued sick leave or paid medical leave and is still unable to return to work, Chancellors may approve leave without pay for up to one year and may approve a longer leave without pay pursuant to APM - 759."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "formal leave; all relieved",
+     "quote": "If an appointee exhausts accrued sick leave or paid medical leave and is still unable to return to work, Chancellors may approve leave without pay for up to one year and may approve a longer leave without pay pursuant to APM - 759."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "consecutive_after ucla_c11 (after paid medical leave is exhausted)",
+     "quote": "If an appointee exhausts accrued sick leave or paid medical leave and is still unable to return to work, Chancellors may approve leave without pay for up to one year and may approve a longer leave without pay pursuant to APM - 759."
+    }
+   ]
+  },
+  {
+   "component_id": "ucla_c14",
+   "institution_label": "Short-Term Disability Insurance Plan",
+   "description": "Employer-paid short-term disability plan benefits for an appointee unable to work because of her physical condition; plan terms (length, pay level) not saved.",
+   "mechanism": "generic_sick_or_disability_plan",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Faculty members; An academic appointee",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "if unable to work because of her physical condition",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "'may be eligible': eligibility is set by the plan's terms (not saved), not by an approval.",
+   "must_exhaust_first": [
+    "sick"
+   ],
+   "rule_applied": [
+    "V1",
+    "R2",
+    "V6",
+    "V2"
+   ],
+   "evidence": {
+    "mechanism": [
+     "An academic appointee may be eligible for employer-paid Short-Term Disability Insurance Plan benefits"
+    ],
+    "faculty_group": [
+     "Faculty members may also be eligible for employer-paid Short-Term Disability Plan benefits"
+    ],
+    "eligible_parent": [
+     "if unable to work because of her physical condition."
+    ],
+    "entitlement": [
+     "Faculty members may also be eligible for employer-paid Short-Term Disability Plan benefits"
+    ],
+    "must_exhaust_first": [
+     "an appointee who accrues sick leave must use accrued sick leave in accordance with the terms of the plan."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_apm710_sick_medical_leave",
+    "2018_00_link"
+   ],
+   "flags": [
+    "cross_reference_not_saved: UC Short-Term Disability Insurance Plan",
+    "ambiguous: entitlement 'may be eligible' depends on plan terms not saved; no length or pay level stated"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R2",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "An academic appointee may be eligible for employer-paid Short-Term Disability Insurance Plan benefits"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "Faculty members may also be eligible for employer-paid Short-Term Disability Plan benefits"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "An academic appointee may be eligible for employer-paid Short-Term Disability Insurance Plan benefits and, if enrolled, for employee-paid Supplemental Disability Insurance Plan benefits if unable to work because of her physical condition."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Faculty members may also be eligible for employer-paid Short-Term Disability Plan benefits and, if enrolled, for University of California employee-paid Supplemental Disability Plan benefits."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent",
+     "quote": "An academic appointee may be eligible for employer-paid Short-Term Disability Insurance Plan benefits and, if enrolled, for employee-paid Supplemental Disability Insurance Plan benefits if unable to work because of her physical condition."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "Faculty members may also be eligible for employer-paid Short-Term Disability Plan benefits and, if enrolled, for University of California employee-paid Supplemental Disability Plan benefits."
+    }
+   ]
+  },
+  {
+   "component_id": "ucla_c15",
+   "institution_label": "Supplemental Disability Insurance Plan",
+   "description": "Employee-paid supplemental disability plan benefits, if enrolled; plan terms not saved.",
+   "mechanism": "generic_sick_or_disability_plan",
+   "payer": "employee_paid",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Faculty members; An academic appointee ... if enrolled",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "if unable to work because of her physical condition",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "'if enrolled': optional cover the employee pays for; plan terms not saved.",
+   "rule_applied": [
+    "R1d",
+    "V2",
+    "R2"
+   ],
+   "evidence": {
+    "mechanism": [
+     "An academic appointee may be eligible for employer-paid Short-Term Disability Insurance Plan benefits and, if enrolled, for employee-paid Supplemental Disability Insurance Plan benefits if unable to work because of her physical condition."
+    ],
+    "faculty_group": [
+     "Faculty members may also be eligible for employer-paid Short-Term Disability Plan benefits and, if enrolled, for University of California employee-paid Supplemental Disability Plan benefits."
+    ],
+    "eligible_parent": [
+     "An academic appointee may be eligible for employer-paid Short-Term Disability Insurance Plan benefits and, if enrolled, for employee-paid Supplemental Disability Insurance Plan benefits if unable to work because of her physical condition."
+    ],
+    "entitlement": [
+     "Faculty members may also be eligible for employer-paid Short-Term Disability Plan benefits and, if enrolled, for University of California employee-paid Supplemental Disability Plan benefits."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_apm710_sick_medical_leave",
+    "2018_00_link"
+   ],
+   "flags": [
+    "cross_reference_not_saved: UC Supplemental Disability Insurance Plan",
+    "ambiguous: entitlement depends on enrollment and plan terms not saved"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R2",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "An academic appointee may be eligible for employer-paid Short-Term Disability Insurance Plan benefits and, if enrolled, for employee-paid Supplemental Disability Insurance Plan benefits if unable to work because of her physical condition."
+    },
+    {
+     "field": "payer",
+     "rule": "R1d",
+     "answer": "employee_paid",
+     "quote": "Faculty members may also be eligible for employer-paid Short-Term Disability Plan benefits and, if enrolled, for University of California employee-paid Supplemental Disability Plan benefits."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "An academic appointee may be eligible for employer-paid Short-Term Disability Insurance Plan benefits and, if enrolled, for employee-paid Supplemental Disability Insurance Plan benefits if unable to work because of her physical condition."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Faculty members may also be eligible for employer-paid Short-Term Disability Plan benefits and, if enrolled, for University of California employee-paid Supplemental Disability Plan benefits."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent",
+     "quote": "An academic appointee may be eligible for employer-paid Short-Term Disability Insurance Plan benefits and, if enrolled, for employee-paid Supplemental Disability Insurance Plan benefits if unable to work because of her physical condition."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "Faculty members may also be eligible for employer-paid Short-Term Disability Plan benefits and, if enrolled, for University of California employee-paid Supplemental Disability Plan benefits."
+    }
+   ]
+  },
+  {
+   "component_id": "ucla_c16",
+   "institution_label": "",
+   "description": "Fiscal-year faculty may substitute accrued vacation for unpaid childbearing, parental, FMLA, PDL and CFRA leave.",
+   "mechanism": "own_accrual",
+   "payer": "own_balance",
+   "faculty_group": "Fiscal-year faculty",
+   "faculty_group_note": "Fiscal-year faculty (academic appointees who accrue vacation leave)",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "unpaid childbearing and childrearing leaves",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "rule_applied": [
+    "R1",
+    "V2"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Fiscal-year faculty may substitute accrued vacation leave for unpaid childbearing and childrearing leaves under the provisions of APM - 715, 730, and 760; FMLA; PDL; and CFRA."
+    ],
+    "eligible_parent": [
+     "Fiscal-year faculty may substitute accrued vacation leave for unpaid childbearing and childrearing leaves under the provisions of APM - 715, 730, and 760; FMLA; PDL; and CFRA."
+    ],
+    "entitlement": [
+     "Fiscal-year faculty may substitute accrued vacation leave for unpaid childbearing and childrearing leaves under the provisions of APM - 715, 730, and 760; FMLA; PDL; and CFRA.",
+     "Accrued vacation leave may be substituted, at the appointee’s option, for unpaid family and medical leave granted for any covered reason.",
+     "Accrued vacation may be substituted in lieu of unpaid parental leave."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link",
+    "2018_03_apm715_family_medical_leave"
+   ],
+   "flags": [
+    "cross_reference_not_saved: APM - 730 (Leaves of Absence/Vacation)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "own_accrual",
+     "quote": "Fiscal-year faculty may substitute accrued vacation leave for unpaid childbearing and childrearing leaves under the provisions of APM - 715, 730, and 760; FMLA; PDL; and CFRA."
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "own_balance",
+     "quote": "Fiscal-year faculty may substitute accrued vacation leave for unpaid childbearing and childrearing leaves under the provisions of APM - 715, 730, and 760; FMLA; PDL; and CFRA."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Fiscal-year faculty may substitute accrued vacation leave for unpaid childbearing and childrearing leaves under the provisions of APM - 715, 730, and 760; FMLA; PDL; and CFRA."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "Fiscal-year faculty",
+     "quote": "Fiscal-year faculty may substitute accrued vacation leave for unpaid childbearing and childrearing leaves under the provisions of APM - 715, 730, and 760; FMLA; PDL; and CFRA."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "birth, non-birth, adoptive, foster",
+     "quote": "Fiscal-year faculty may substitute accrued vacation leave for unpaid childbearing and childrearing leaves under the provisions of APM - 715, 730, and 760; FMLA; PDL; and CFRA."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "Accrued vacation leave may be substituted, at the appointee’s option, for unpaid family and medical leave granted for any covered reason."
+    }
+   ]
+  },
+  {
+   "component_id": "ucla_c17",
+   "institution_label": "Use of Accrued Sick Leave",
+   "description": "Non-faculty academic appointees accrue sick leave (one working day per month of full-time service) and may use it for childbearing, in lieu of unpaid childbearing leave, and substitute it for unpaid FMLA leave for own or family serious health conditions.",
+   "mechanism": "own_accrual",
+   "payer": "own_balance",
+   "faculty_group": "non-faculty academic appointees who accrue sick leave",
+   "faculty_group_note": "Eligible non-faculty academic appointees (APM 710-14 titles)",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent"
+   ],
+   "eligible_parent_wording": "childbearing; illness of an appointee's spouse, domestic partner",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "rule_applied": [
+    "R1",
+    "U5",
+    "V2"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Eligibile non-faculty academic appointees accrue sick leave."
+    ],
+    "eligible_parent": [
+     "Accrued sick leave shall be used in keeping with normally approved purposes including personal illness; medical appointments; childbearing (see APM - 715 and 760);"
+    ],
+    "entitlement": [
+     "An academic appointee who accrues sick leave or vacation leave credit may, at her option, use such accrued leave credit in lieu of taking childbearing leave without pay."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_apm710_sick_medical_leave",
+    "2018_00_link"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "own_accrual",
+     "quote": "Eligible fiscal-year appointees accrue sick leave at the rate of one working day per month for full-time service, including leaves with pay."
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "own_balance",
+     "quote": "Eligible fiscal-year appointees accrue sick leave at the rate of one working day per month for full-time service, including leaves with pay."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Accrued sick leave shall be used in keeping with normally approved purposes including personal illness; medical appointments; childbearing (see APM - 715 and 760);"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "non-faculty academic appointees who accrue sick leave",
+     "quote": "Eligibile non-faculty academic appointees accrue sick leave."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (childbearing, own illness), non_birth_parent (family illness)",
+     "quote": "Accrued sick leave shall be used in keeping with normally approved purposes including personal illness; medical appointments; childbearing (see APM - 715 and 760);"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "An academic appointee who accrues sick leave or vacation leave credit may, at her option, use such accrued leave credit in lieu of taking childbearing leave without pay."
+    }
+   ]
+  },
+  {
+   "component_id": "ucla_c18",
+   "institution_label": "Accommodation of Pregnancy",
+   "description": "On request, if medically necessary and reasonably accommodable, the University temporarily modifies a pregnant appointee's position or transfers her to a less strenuous or hazardous position; not counted against PDL or FMLA unless taken as intermittent leave or reduced schedule.",
+   "mechanism": "other",
+   "mechanism_note": "R16: a pregnancy accommodation that changes the position or work (UC Berkeley example).",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "a pregnant appointee",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "a pregnant appointee; her",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "medical_certification": true,
+   "medical_certification_note": "if medically necessary",
+   "rule_applied": [
+    "R16",
+    "V2b"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "As an alternative to or in addition to a childbearing leave, the University shall temporarily modify a pregnant appointee’s position or transfer her to a less strenuous or hazardous position upon request if medically necessary and if the temporary modification or transfer can be reasonably accommodated."
+    ],
+    "eligible_parent": [
+     "As an alternative to or in addition to a childbearing leave, the University shall temporarily modify a pregnant appointee’s position or transfer her to a less strenuous or hazardous position upon request if medically necessary and if the temporary modification or transfer can be reasonably accommodated."
+    ],
+    "entitlement": [
+     "As an alternative to or in addition to a childbearing leave, the University shall temporarily modify a pregnant appointee’s position or transfer her to a less strenuous or hazardous position upon request if medically necessary and if the temporary modification or transfer can be reasonably accommodated."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "conditional_refusal: if the temporary modification or transfer can be reasonably accommodated"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R16",
+     "answer": "other",
+     "quote": "As an alternative to or in addition to a childbearing leave, the University shall temporarily modify a pregnant appointee’s position or transfer her to a less strenuous or hazardous position upon request if medically necessary and if the temporary modification or transfer can be reasonably accommodated."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "As an alternative to or in addition to a childbearing leave, the University shall temporarily modify a pregnant appointee’s position or transfer her to a less strenuous or hazardous position upon request if medically necessary and if the temporary modification or transfer can be reasonably accommodated."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "As an alternative to or in addition to a childbearing leave, the University shall temporarily modify a pregnant appointee’s position or transfer her to a less strenuous or hazardous position upon request if medically necessary and if the temporary modification or transfer can be reasonably accommodated."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "As an alternative to or in addition to a childbearing leave, the University shall temporarily modify a pregnant appointee’s position or transfer her to a less strenuous or hazardous position upon request if medically necessary and if the temporary modification or transfer can be reasonably accommodated."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "birth_parent",
+     "quote": "As an alternative to or in addition to a childbearing leave, the University shall temporarily modify a pregnant appointee’s position or transfer her to a less strenuous or hazardous position upon request if medically necessary and if the temporary modification or transfer can be reasonably accommodated."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2b",
+     "answer": "guaranteed_on_request",
+     "quote": "As an alternative to or in addition to a childbearing leave, the University shall temporarily modify a pregnant appointee’s position or transfer her to a less strenuous or hazardous position upon request if medically necessary and if the temporary modification or transfer can be reasonably accommodated."
+    }
+   ]
+  },
+  {
+   "component_id": "ucla_c19",
+   "institution_label": "Part-Time Appointment and Reduction in Percentage of Time of an Appointment to Accommodate Family Needs",
+   "description": "Academic appointees may be eligible for a part-time appointment or to reduce their appointment percentage for a specified period or permanently to accommodate family needs, with the Chancellor's approval.",
+   "mechanism": "part_time_option",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Academic appointees (Professor series: APM 220)",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "to accommodate family needs",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "entitlement_note": "'may be eligible'; 'The Chancellor has authority to approve such appointments.' The approval decides whether.",
+   "rule_applied": [
+    "R3",
+    "V2",
+    "U1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Academic appointees may be eligible for appointment to a part-time position or may be eligible to reduce their percentage of time of an appointment from full time to part time for a specified period of time or permanently to accommodate family needs."
+    ],
+    "eligible_parent": [
+     "Academic appointees may be eligible for appointment to a part-time position or may be eligible to reduce their percentage of time of an appointment from full time to part time for a specified period of time or permanently to accommodate family needs."
+    ],
+    "entitlement": [
+     "Academic appointees may be eligible for appointment to a part-time position or may be eligible to reduce their percentage of time of an appointment from full time to part time for a specified period of time or permanently to accommodate family needs.",
+     "The Chancellor has authority to approve such appointments."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "cross_reference_not_saved: APM - 220 (Professor Series), -10, -16-c, -16-d, -18-b, and Appendix B (part-time appointments)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R3",
+     "answer": "part_time_option",
+     "quote": "Academic appointees may be eligible for appointment to a part-time position or may be eligible to reduce their percentage of time of an appointment from full time to part time for a specified period of time or permanently to accommodate family needs."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Academic appointees may be eligible for appointment to a part-time position or may be eligible to reduce their percentage of time of an appointment from full time to part time for a specified period of time or permanently to accommodate family needs."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Academic appointees may be eligible for appointment to a part-time position or may be eligible to reduce their percentage of time of an appointment from full time to part time for a specified period of time or permanently to accommodate family needs."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Academic appointees may be eligible for appointment to a part-time position or may be eligible to reduce their percentage of time of an appointment from full time to part time for a specified period of time or permanently to accommodate family needs."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "Academic appointees may be eligible for appointment to a part-time position or may be eligible to reduce their percentage of time of an appointment from full time to part time for a specified period of time or permanently to accommodate family needs."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "The Chancellor has authority to approve such appointments."
+    }
+   ]
+  },
+  {
+   "component_id": "ucla_c20",
+   "institution_label": "Stopping the Clock for Child Care",
+   "description": "An appointee may stop the eight-year probationary clock to care for a child who is or becomes part of the family (Assistant level: 50% or more of the care), by notice within two years of the birth or placement; extensions normally up to one year per event, no more than two years in all.",
+   "mechanism": "tenure_clock",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "An academic appointee ... during the probationary period; a faculty member at the Assistant level",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "any child who is, or becomes part of a faculty member's family; birth or placement",
+   "caregiver_condition": "majority_or_50pct",
+   "caregiver_condition_wording": "an appointee at the Assistant level must be responsible for 50 percent or more of the care of a child",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "'may stop the clock' with notice of intent and a certification; no approval named for this reason (760-30).",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "up_to"
+   },
+   "duration_note": "133-17-h: 'Extensions are normally granted for a period of up to one year for each event' (Q1: 'normally'); no more than two years of extension in the probationary period.",
+   "time_window": "notice within two years of a birth or placement and before July 1 of the academic year of the promotion review",
+   "notice": "notice of intent with a written certification of 50% or more of the care",
+   "rule_applied": [
+    "V2",
+    "Q1",
+    "R6",
+    "U9"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "An academic appointee may stop the clock during the probationary period to care for any child who is, or becomes part of a faculty member’s family."
+    ],
+    "eligible_parent": [
+     "An academic appointee may stop the clock during the probationary period to care for any child who is, or becomes part of a faculty member’s family."
+    ],
+    "caregiver_condition": [
+     "To be eligible to stop the clock, an appointee at the Assistant level must be responsible for 50 percent or more of the care of a child."
+    ],
+    "entitlement": [
+     "An academic appointee may stop the clock during the probationary period to care for any child who is, or becomes part of a faculty member’s family.",
+     "An academic appointee must provide notice of his or her intent to stop the clock within two years of a birth or placement and before July 1 of the academic year in which a promotion review is to occur."
+    ],
+    "duration": [
+     "Extensions are normally granted for a period of up to one year for each event, automatically for some reasons, and upon request and approval for other reasons.",
+     "A faculty member may be granted no more than two years of extension during the probationary period."
+    ],
+    "time_window": [
+     "An academic appointee must provide notice of his or her intent to stop the clock within two years of a birth or placement and before July 1 of the academic year in which a promotion review is to occur."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link",
+    "2018_04_apm133_limitation_total_service"
+   ],
+   "flags": [
+    "ambiguous: restriction: no more than two years of tenure-clock extension during the probationary period; combined leave and time off the clock may not exceed two years"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "An academic appointee may stop the clock during the probationary period to care for any child who is, or becomes part of a faculty member’s family."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "An academic appointee may stop the clock during the probationary period to care for any child who is, or becomes part of a faculty member’s family."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "An academic appointee may stop the clock during the probationary period to care for any child who is, or becomes part of a faculty member’s family."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "An academic appointee may stop the clock during the probationary period to care for any child who is, or becomes part of a faculty member’s family."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "birth, non-birth, adoptive, foster",
+     "quote": "An academic appointee may stop the clock during the probationary period to care for any child who is, or becomes part of a faculty member’s family."
+    },
+    {
+     "field": "caregiver_condition",
+     "rule": "R6",
+     "answer": "majority_or_50pct",
+     "quote": "To be eligible to stop the clock, an appointee at the Assistant level must be responsible for 50 percent or more of the care of a child."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "An academic appointee may stop the clock during the probationary period to care for any child who is, or becomes part of a faculty member’s family."
+    },
+    {
+     "field": "duration",
+     "rule": "Q1",
+     "answer": "1 year up_to ('normally granted for a period of up to one year')",
+     "quote": "Extensions are normally granted for a period of up to one year for each event, automatically for some reasons, and upon request and approval for other reasons."
+    },
+    {
+     "field": "use_limit",
+     "rule": "U9",
+     "answer": "none recorded: the two-year cap is time, not a count of uses",
+     "quote": "A faculty member may be granted no more than two years of extension during the probationary period."
+    }
+   ]
+  },
+  {
+   "component_id": "ucla_c21",
+   "institution_label": "Effect on the Eight-Year Limitation of Service of Assistant Level Appointees",
+   "description": "A childbearing or parental leave of at least one quarter and not more than one year, paid or unpaid, is automatically excluded from service toward the eight-year limit unless the appointee asks in writing that it not be.",
+   "mechanism": "tenure_clock",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Assistant Level Appointees; the faculty member",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "Any childbearing or parental leave",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration_note": "The length of the leave itself (at least one quarter or semester, not more than one year), not counted toward the eight-year limit; one or two quarters off will not necessarily delay the timing of a review. Combined leave and time off the clock may not exceed two years.",
+   "rule_applied": [
+    "V2",
+    "U1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Any childbearing or parental leave which is equal to or exceeds one semester or one quarter and which is not greater than one year, whether with or without salary, shall automatically be excluded from service toward the eight-year limit"
+    ],
+    "eligible_parent": [
+     "Any childbearing or parental leave which is equal to or exceeds one semester or one quarter and which is not greater than one year, whether with or without salary, shall automatically be excluded from service toward the eight-year limit"
+    ],
+    "entitlement": [
+     "Any childbearing or parental leave which is equal to or exceeds one semester or one quarter and which is not greater than one year, whether with or without salary, shall automatically be excluded from service toward the eight-year limit",
+     "For a faculty member who takes childbearing and/or parental leave and who has provided the appropriate documentation supporting the need for the leave, the period of approved leave will be automatically excluded from service in accordance with APM - 133-17-g(3)."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link",
+    "2018_04_apm133_limitation_total_service"
+   ],
+   "flags": [
+    "ambiguous: restriction: combined total of family-accommodation leave, other leaves and time off the clock may not exceed two years"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "Any childbearing or parental leave which is equal to or exceeds one semester or one quarter and which is not greater than one year, whether with or without salary, shall automatically be excluded from service toward the eight-year limit"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Any childbearing or parental leave which is equal to or exceeds one semester or one quarter and which is not greater than one year, whether with or without salary, shall automatically be excluded from service toward the eight-year limit"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Any childbearing or parental leave which is equal to or exceeds one semester or one quarter and which is not greater than one year, whether with or without salary, shall automatically be excluded from service toward the eight-year limit"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Any childbearing or parental leave which is equal to or exceeds one semester or one quarter and which is not greater than one year, whether with or without salary, shall automatically be excluded from service toward the eight-year limit"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "birth, non-birth, adoptive, foster (childbearing or parental leave)",
+     "quote": "Any childbearing or parental leave which is equal to or exceeds one semester or one quarter and which is not greater than one year, whether with or without salary, shall automatically be excluded from service toward the eight-year limit"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "Any childbearing or parental leave which is equal to or exceeds one semester or one quarter and which is not greater than one year, whether with or without salary, shall automatically be excluded from service toward the eight-year limit"
+    }
+   ]
+  },
+  {
+   "component_id": "ucla_c22",
+   "institution_label": "Serious Health Condition Including Disability or Bereavement",
+   "description": "A faculty member may request to stop the tenure clock when significantly disrupted by own serious health condition or disability, care of a seriously ill close family member, or a close family member's death; excluded on request where the University determines it a reasonable accommodation.",
+   "mechanism": "tenure_clock",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "A faculty member ... during the probationary period",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent"
+   ],
+   "eligible_parent_wording": "serious health condition or disability; care for a close family member who is seriously ill",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "entitlement_note": "'may request'; 'as determined by the University'; approvals 'at the discretion of the Chancellor'.",
+   "rule_applied": [
+    "U1",
+    "V2",
+    "U5"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "A faculty member may request to stop the clock during the probationary period, when his or her ability to pursue his or her duties is significantly disrupted by a serious health condition or disability, by the need to care for a close family member who is seriously ill, or by the death of a close family member."
+    ],
+    "eligible_parent": [
+     "A faculty member may request to stop the clock during the probationary period, when his or her ability to pursue his or her duties is significantly disrupted by a serious health condition or disability, by the need to care for a close family member who is seriously ill, or by the death of a close family member."
+    ],
+    "entitlement": [
+     "for whom stopping the clock would be a reasonable accommodation as determined by the University, an appropriate period (which may include periods of leave provided as a reasonable accommodation) will be excluded from service upon the request of the faculty member.",
+     "For those extensions needing approval, such approval will be at the discretion of the Chancellor."
+    ]
+   },
+   "doc_ids": [
+    "2018_04_apm133_limitation_total_service"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "A faculty member may request to stop the clock during the probationary period, when his or her ability to pursue his or her duties is significantly disrupted by a serious health condition or disability, by the need to care for a close family member who is seriously ill, or by the death of a close family member."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "A faculty member may request to stop the clock during the probationary period, when his or her ability to pursue his or her duties is significantly disrupted by a serious health condition or disability, by the need to care for a close family member who is seriously ill, or by the death of a close family member."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "A faculty member may request to stop the clock during the probationary period, when his or her ability to pursue his or her duties is significantly disrupted by a serious health condition or disability, by the need to care for a close family member who is seriously ill, or by the death of a close family member."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "A faculty member may request to stop the clock during the probationary period, when his or her ability to pursue his or her duties is significantly disrupted by a serious health condition or disability, by the need to care for a close family member who is seriously ill, or by the death of a close family member."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own health), non_birth_parent (care of ill family member)",
+     "quote": "A faculty member may request to stop the clock during the probationary period, when his or her ability to pursue his or her duties is significantly disrupted by a serious health condition or disability, by the need to care for a close family member who is seriously ill, or by the death of a close family member."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "for whom stopping the clock would be a reasonable accommodation as determined by the University, an appropriate period (which may include periods of leave provided as a reasonable accommodation) will be excluded from service upon the request of the faculty member."
+    }
+   ]
+  },
+  {
+   "component_id": "ucla_c23",
+   "institution_label": "",
+   "description": "A leave based on a serious health condition or disability counts toward the eight-year period unless, on petition normally filed within one quarter after the leave, the Chancellor determines it shall not.",
+   "mechanism": "tenure_clock",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Assistant Professor (titles listed in APM 133-0-a)",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "a serious health condition or disability",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "duration_note": "The length of the leave, when the Chancellor so determines.",
+   "time_window": "petition normally filed within one quarter or semester after the leave is taken",
+   "rule_applied": [
+    "V2",
+    "U5",
+    "U1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "A period of leave, with or without salary, which is based on a serious health condition or disability, shall be included as service toward the eight-year period, unless, upon the basis of a petition normally filed within one quarter or semester after the leave is taken, the Chancellor determines that the leave shall not be included as service toward the eight-year period."
+    ],
+    "eligible_parent": [
+     "A period of leave, with or without salary, which is based on a serious health condition or disability, shall be included as service toward the eight-year period, unless, upon the basis of a petition normally filed within one quarter or semester after the leave is taken, the Chancellor determines that the leave shall not be included as service toward the eight-year period."
+    ],
+    "entitlement": [
+     "A period of leave, with or without salary, which is based on a serious health condition or disability, shall be included as service toward the eight-year period, unless, upon the basis of a petition normally filed within one quarter or semester after the leave is taken, the Chancellor determines that the leave shall not be included as service toward the eight-year period."
+    ]
+   },
+   "doc_ids": [
+    "2018_04_apm133_limitation_total_service"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "A period of leave, with or without salary, which is based on a serious health condition or disability, shall be included as service toward the eight-year period, unless, upon the basis of a petition normally filed within one quarter or semester after the leave is taken, the Chancellor determines that the leave shall not be included as service toward the eight-year period."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "A period of leave, with or without salary, which is based on a serious health condition or disability, shall be included as service toward the eight-year period, unless, upon the basis of a petition normally filed within one quarter or semester after the leave is taken, the Chancellor determines that the leave shall not be included as service toward the eight-year period."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "A period of leave, with or without salary, which is based on a serious health condition or disability, shall be included as service toward the eight-year period, unless, upon the basis of a petition normally filed within one quarter or semester after the leave is taken, the Chancellor determines that the leave shall not be included as service toward the eight-year period."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "A period of leave, with or without salary, which is based on a serious health condition or disability, shall be included as service toward the eight-year period, unless, upon the basis of a petition normally filed within one quarter or semester after the leave is taken, the Chancellor determines that the leave shall not be included as service toward the eight-year period."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own health)",
+     "quote": "A period of leave, with or without salary, which is based on a serious health condition or disability, shall be included as service toward the eight-year period, unless, upon the basis of a petition normally filed within one quarter or semester after the leave is taken, the Chancellor determines that the leave shall not be included as service toward the eight-year period."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "A period of leave, with or without salary, which is based on a serious health condition or disability, shall be included as service toward the eight-year period, unless, upon the basis of a petition normally filed within one quarter or semester after the leave is taken, the Chancellor determines that the leave shall not be included as service toward the eight-year period."
+    }
+   ]
+  },
+  {
+   "component_id": "ucla_c24",
+   "institution_label": "Applicability of Periods of Leave",
+   "description": "Any leave counts toward the eight-year period unless, on petition when the leave is requested, the Chancellor determines the leave's activity is substantially unrelated to the academic career.",
+   "mechanism": "tenure_clock",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Assistant Professor (titles listed in APM 133-0-a)",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "Periods of leave, whether with or without salary",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "rule_applied": [
+    "U1",
+    "V2"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Periods of leave, whether with or without salary, shall be included as service toward the eight-year period unless, upon the basis of a petition filed at the time leave is requested, the Chancellor determines that the activity undertaken during the course of the leave is substantially unrelated to the individual’s academic career and that the period of the leave shall not count toward the eight-year service period."
+    ],
+    "eligible_parent": [
+     "Periods of leave, whether with or without salary, shall be included as service toward the eight-year period unless, upon the basis of a petition filed at the time leave is requested, the Chancellor determines that the activity undertaken during the course of the leave is substantially unrelated to the individual’s academic career and that the period of the leave shall not count toward the eight-year service period."
+    ],
+    "entitlement": [
+     "Periods of leave, whether with or without salary, shall be included as service toward the eight-year period unless, upon the basis of a petition filed at the time leave is requested, the Chancellor determines that the activity undertaken during the course of the leave is substantially unrelated to the individual’s academic career and that the period of the leave shall not count toward the eight-year service period."
+    ]
+   },
+   "doc_ids": [
+    "2018_04_apm133_limitation_total_service"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "Periods of leave, whether with or without salary, shall be included as service toward the eight-year period unless, upon the basis of a petition filed at the time leave is requested, the Chancellor determines that the activity undertaken during the course of the leave is substantially unrelated to the individual’s academic career and that the period of the leave shall not count toward the eight-year service period."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Periods of leave, whether with or without salary, shall be included as service toward the eight-year period unless, upon the basis of a petition filed at the time leave is requested, the Chancellor determines that the activity undertaken during the course of the leave is substantially unrelated to the individual’s academic career and that the period of the leave shall not count toward the eight-year service period."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "Periods of leave, whether with or without salary, shall be included as service toward the eight-year period unless, upon the basis of a petition filed at the time leave is requested, the Chancellor determines that the activity undertaken during the course of the leave is substantially unrelated to the individual’s academic career and that the period of the leave shall not count toward the eight-year service period."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Periods of leave, whether with or without salary, shall be included as service toward the eight-year period unless, upon the basis of a petition filed at the time leave is requested, the Chancellor determines that the activity undertaken during the course of the leave is substantially unrelated to the individual’s academic career and that the period of the leave shall not count toward the eight-year service period."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "Periods of leave, whether with or without salary, shall be included as service toward the eight-year period unless, upon the basis of a petition filed at the time leave is requested, the Chancellor determines that the activity undertaken during the course of the leave is substantially unrelated to the individual’s academic career and that the period of the leave shall not count toward the eight-year service period."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "Periods of leave, whether with or without salary, shall be included as service toward the eight-year period unless, upon the basis of a petition filed at the time leave is requested, the Chancellor determines that the activity undertaken during the course of the leave is substantially unrelated to the individual’s academic career and that the period of the leave shall not count toward the eight-year service period."
+    }
+   ]
+  },
+  {
+   "component_id": "ucla_c25",
+   "institution_label": "Personnel Reviews",
+   "description": "Appointees at the Associate level or above may request deferral of a personnel review to accommodate family needs; appointees shall not be arbitrarily disadvantaged for taking childbearing or parental leave, stopping the clock or deferring a review.",
+   "mechanism": "other",
+   "mechanism_note": "U4: equal-treatment protection with no length of its own.",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Academic appointees; at the Associate level or above (deferral)",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "childbearing or parental leave; family needs",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "entitlement_note": "'shall not be arbitrarily disadvantaged'; the review deferral is 'may request ... in accordance with campus policies' (campus policies not saved).",
+   "rule_applied": [
+    "U4",
+    "V2"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Academic appointees shall not be arbitrarily disadvantaged in their promotion, advancement, or compensation because they have elected to take a childbearing or parental leave, to stop the clock, or to defer a personnel review."
+    ],
+    "eligible_parent": [
+     "Academic appointees shall not be arbitrarily disadvantaged in their promotion, advancement, or compensation because they have elected to take a childbearing or parental leave, to stop the clock, or to defer a personnel review."
+    ],
+    "entitlement": [
+     "Academic appointees shall not be arbitrarily disadvantaged in their promotion, advancement, or compensation because they have elected to take a childbearing or parental leave, to stop the clock, or to defer a personnel review.",
+     "An academic appointee at the Associate level or above may request deferral of a personnel review to accommodate family needs in accordance with campus policies."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link",
+    "2018_04_apm133_limitation_total_service"
+   ],
+   "flags": [
+    "cross_reference_not_saved: campus policies on deferral of personnel reviews"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "U4",
+     "answer": "other",
+     "quote": "Academic appointees shall not be arbitrarily disadvantaged in their promotion, advancement, or compensation because they have elected to take a childbearing or parental leave, to stop the clock, or to defer a personnel review."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Academic appointees shall not be arbitrarily disadvantaged in their promotion, advancement, or compensation because they have elected to take a childbearing or parental leave, to stop the clock, or to defer a personnel review."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Academic appointees shall not be arbitrarily disadvantaged in their promotion, advancement, or compensation because they have elected to take a childbearing or parental leave, to stop the clock, or to defer a personnel review."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Academic appointees shall not be arbitrarily disadvantaged in their promotion, advancement, or compensation because they have elected to take a childbearing or parental leave, to stop the clock, or to defer a personnel review."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "Academic appointees shall not be arbitrarily disadvantaged in their promotion, advancement, or compensation because they have elected to take a childbearing or parental leave, to stop the clock, or to defer a personnel review."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "Academic appointees shall not be arbitrarily disadvantaged in their promotion, advancement, or compensation because they have elected to take a childbearing or parental leave, to stop the clock, or to defer a personnel review."
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "2018_00_link is APM 760, incl. Charts I-IV. 2018_05 and 2018_06 are empty revision letters (not used).",
+  "Version: APM 760 Rev. 1/1/06 (760-30 Rev. 9/1/15), captured 2018-05-18; its version note: in force on 2018-02-28 (next revision effective 2018-08-07). APM 133 Rev. to 9/1/15, superseded only from 2018-10-01. APM 700 Rev. 7/1/13, APM 710 Rev. 7/1/08 and 2/1/12, APM 715 Rev. 2/20/03 and 1/1/06, captured 2018-05-18; read as in force on 2018-02-28.",
+  "These are UC system-wide policies (Academic Personnel Manual); no UCLA campus policy is saved. V3c: a system-wide policy applies to the campus.",
+  "Calendar: no saved document states UCLA's term kind; calendar omitted. Quarter alternatives are coded per R8 ('UCLA 2018: APM 760, quarters'); the term length follows R8's order: the institution's 2017-18 academic calendar gives 12 weeks.",
+  "Senate faculty (ladder-rank) are the member path: 760-25-b(2) pay (c2). Non-Senate paths (c3, c7) and accruing non-faculty appointees (c17) are recorded for other groups.",
+  "U8: the APM 710-11 medical leave is 2 quarters for under 10 years of service, 3 quarters for 10+ years (duration_max). The birth mother's two quarters of ASMD need a full-time appointment for one full academic year (met at two years).",
+  "Birth parent chain: active service-modified duties 2 quarters, containing the childbearing leave (up to 4 months; Senate pay at least base salary up to 6 weeks within it; FMLA alongside from the start, with discretionary paid FMLA within FMLA) -> parental leave without pay (up to 1 year) and CFRA (12 workweeks) from the end of the childbearing leave; APM 710-11 paid medical leave (2 quarters, generic pay within) also available after the childbearing leave -> unpaid medical leave up to 1 year; all within the one-year aggregate limit.",
+  "Non-birth parent chain: active service-modified duties 1 quarter (unlinked); parental leave without pay (up to 1 year) with FMLA and CFRA (12 workweeks each) running concurrently from its start, discretionary paid FMLA within FMLA; within the one-year aggregate limit.",
+  "Personnel-review deferral (760-30-d, 760-31) and the 'significant circumstance or event' tenure-clock stop (133-17-h(3): natural disaster, research-space delays) are not coded as parental components except 760-31's non-disadvantage protection (c25); 133-17-h(3) is not a provision a parent could use for a birth.",
+  "Health coverage continuation during FMLA/CFRA (up to 12 workweeks per calendar year) noted; not a component.",
+  "Cited but not saved: APM 110-15, 080, 140, 145, 150, 015, 016, 200-96, 210-1, 220 (and Appendix B), 230-20-g, 390, 670, 711, 730, 740-11, 750, 751, 752, 758, 759; UC Short-Term Disability Insurance Plan; UC Supplemental Disability Insurance Plan; HSCP School Implementation Procedures and Department Guidelines; campus policies and guidelines; Regents Standing Orders 100.4(e), 101.1, 103.9, 103.10; Academic Senate Bylaw 337."
+ ],
+ "statutory_floor": {
+  "jurisdiction": "US",
+  "year": "2018",
+  "weeks_birth": 12.0,
+  "weeks_nonbirth": 12.0,
+  "statute": "Family and Medical Leave Act (FMLA) (29 U.S.C. 2611-2612)",
+  "source_doc": "2026_00_us_fmla_29usc2612",
+  "table": "statutory_baseline.csv"
+ }
+}

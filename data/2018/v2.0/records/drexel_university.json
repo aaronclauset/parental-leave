@@ -1,0 +1,1761 @@
+{
+ "institution": "Drexel University",
+ "slug": "drexel_university",
+ "country": "US",
+ "model": "claude-opus-5-5",
+ "codebook_version": "1.25",
+ "schema_version": "1.25",
+ "reference_date": "2018-02-22",
+ "calendar": {
+  "term_weeks": null,
+  "note": "Kind of term stated, length not: 'Full-time Faculty working 12 or more credit hours in three or more quarters (or equivalent workload)' (HR-33, HR-39.01); quarter default 11 (R8).",
+  "kind": "quarter"
+ },
+ "documents": [
+  {
+   "doc_id": "2018_00_link",
+   "url": "http://drexel.edu/hr/resources/policies/dupolicies/hr33/",
+   "title": "HR-33 Family and Medical Leave",
+   "version_or_effective_date": "Effective July 2002; last revision December 2015 (Wayback capture 2018-02-11)",
+   "retrieved": "2026-10-22"
+  },
+  {
+   "doc_id": "2018_01_tenure_promotion_policy_rev2010",
+   "url": "http://drexel.edu:80/~/media/Files/provost/policies/pdf/tenure_promotion_101010.ashx?la=en",
+   "title": "Tenure & Promotion Policy (Office of the Provost)",
+   "version_or_effective_date": "Revised May 19, 2010 (Wayback capture 2018-06-01)",
+   "retrieved": "2026-10-22"
+  },
+  {
+   "doc_id": "2018_02_hr3901_non_fmla_medical_leave_2017",
+   "url": "http://drexel.edu/hr/resources/policies/dupolicies/hr3901/",
+   "title": "HR-39.01 Non-FMLA Medical Leave of Absence",
+   "version_or_effective_date": "Effective October 2017 (Wayback capture 2017-11-24)",
+   "retrieved": "2026-10-22"
+  },
+  {
+   "doc_id": "2018_03_hr72_short_term_disability_2017",
+   "url": "http://drexel.edu/hr/resources/policies/dupolicies/hr72/",
+   "title": "HR-72 Short-Term Disability",
+   "version_or_effective_date": "Effective October 2017; enhanced plan effective January 1, 2018 (Wayback capture 2017-12-24)",
+   "retrieved": "2026-10-22"
+  },
+  {
+   "doc_id": "2018_04_hr37_long_term_disability_rev2013",
+   "url": "http://drexel.edu/hr/resources/policies/dupolicies/hr37/",
+   "title": "HR-37 Long-Term Disability",
+   "version_or_effective_date": "Effective January 2005; last revision March 2013 (Wayback capture 2017-08-29)",
+   "retrieved": "2026-10-22"
+  }
+ ],
+ "missing": false,
+ "scope_accounting": {
+  "C1": {
+   "components": [
+    "drexel_university_c1",
+    "drexel_university_c2",
+    "drexel_university_c6"
+   ]
+  },
+  "C2": {
+   "components": [
+    "drexel_university_c3",
+    "drexel_university_c7"
+   ]
+  },
+  "C3": {
+   "components": [
+    "drexel_university_c6",
+    "drexel_university_c8",
+    "drexel_university_c9",
+    "drexel_university_c10",
+    "drexel_university_c11"
+   ]
+  },
+  "C4": {
+   "components": [
+    "drexel_university_c1",
+    "drexel_university_c12"
+   ],
+   "not_components": [
+    {
+     "statute": "FMLA military caregiver leave (26 weeks) and qualifying-exigency leave (29 U.S.C. 2612(a)(1)(E), (a)(3))",
+     "reason": "Other sections of the Act, for military family situations; not leave for becoming a parent and not invoked for a birth (U4)."
+    },
+    {
+     "statute": "Fair Labor Standards Act (FLSA)",
+     "reason": "Named only in the definitions of Faculty and Professional Staff Member (exempt status); gives no leave, pay or protection to a new parent (U4)."
+    },
+    {
+     "statute": "Workers' Compensation",
+     "reason": "Named only as running concurrently with FMLA and as an offset to LTD; covers work-related injury, not becoming a parent (U4)."
+    },
+    {
+     "statute": "State Disability Benefits Law (unspecified)",
+     "reason": "Named only generically as an offset reducing STD and LTD payments; no state programme is named or relied on, and no Pennsylvania programme appears in the documents (U4)."
+    },
+    {
+     "statute": "Social Security Disability Benefits",
+     "reason": "Named only as an offset to LTD and for application assistance; not a parental provision (U4)."
+    }
+   ]
+  },
+  "C5": {
+   "components": [
+    "drexel_university_c1",
+    "drexel_university_c6"
+   ]
+  },
+  "C6": {
+   "absent": {
+    "documents": [
+     "2018_00_link",
+     "2018_01_tenure_promotion_policy_rev2010",
+     "2018_02_hr3901_non_fmla_medical_leave_2017",
+     "2018_03_hr72_short_term_disability_2017",
+     "2018_04_hr37_long_term_disability_rev2013"
+    ],
+    "terms": [
+     "personal leave",
+     "leave without pay",
+     "leave of absence",
+     "special leave",
+     "emergency leave",
+     "sabbatical",
+     "unpaid leave",
+     "any purpose"
+    ]
+   }
+  },
+  "C7": {
+   "components": [
+    "drexel_university_c4",
+    "drexel_university_c5"
+   ]
+  },
+  "C8": {
+   "components": [
+    "drexel_university_c12"
+   ]
+  },
+  "C9": {
+   "absent": {
+    "documents": [
+     "2018_00_link",
+     "2018_01_tenure_promotion_policy_rev2010",
+     "2018_02_hr3901_non_fmla_medical_leave_2017",
+     "2018_03_hr72_short_term_disability_2017",
+     "2018_04_hr37_long_term_disability_rev2013"
+    ],
+    "terms": [
+     "accommodation",
+     "pregnan",
+     "transfer",
+     "hazard",
+     "lactation",
+     "nursing",
+     "equal treatment",
+     "discrimination"
+    ]
+   }
+  },
+  "C10": {
+   "components": [
+    "drexel_university_c2"
+   ]
+  }
+ },
+ "passage_dispositions": {
+  "2018_00_link#001": {
+   "used_in": [
+    "drexel_university_c1",
+    "drexel_university_c2"
+   ]
+  },
+  "2018_00_link#002": {
+   "not_relevant": "Definitions (health-care provider, intermittent leave, FLSA status, qualifying exigency); FLSA listed under C4 not_components."
+  },
+  "2018_00_link#003": {
+   "used_in": [
+    "drexel_university_c1",
+    "drexel_university_c2",
+    "drexel_university_c3",
+    "drexel_university_c4",
+    "drexel_university_c5",
+    "drexel_university_c8",
+    "drexel_university_c10",
+    "drexel_university_c12"
+   ]
+  },
+  "2018_01_tenure_promotion_policy_rev2010#001": {
+   "not_relevant": "Mid-term review procedure; no leave or extension terms."
+  },
+  "2018_01_tenure_promotion_policy_rev2010#002": {
+   "used_in": [
+    "drexel_university_c4",
+    "drexel_university_c5"
+   ]
+  },
+  "2018_02_hr3901_non_fmla_medical_leave_2017#001": {
+   "used_in": [
+    "drexel_university_c6"
+   ]
+  },
+  "2018_02_hr3901_non_fmla_medical_leave_2017#002": {
+   "used_in": [
+    "drexel_university_c6"
+   ]
+  },
+  "2018_02_hr3901_non_fmla_medical_leave_2017#003": {
+   "used_in": [
+    "drexel_university_c6",
+    "drexel_university_c7",
+    "drexel_university_c8",
+    "drexel_university_c11",
+    "drexel_university_c4",
+    "drexel_university_c5"
+   ]
+  },
+  "2018_03_hr72_short_term_disability_2017#001": {
+   "used_in": [
+    "drexel_university_c8"
+   ]
+  },
+  "2018_03_hr72_short_term_disability_2017#002": {
+   "used_in": [
+    "drexel_university_c8"
+   ]
+  },
+  "2018_04_hr37_long_term_disability_rev2013#001": {
+   "used_in": [
+    "drexel_university_c9"
+   ]
+  },
+  "2018_04_hr37_long_term_disability_rev2013#002": {
+   "used_in": [
+    "drexel_university_c9"
+   ]
+  }
+ },
+ "mechanism_slots": {
+  "employer_paid_leave": {
+   "components": [
+    "drexel_university_c2"
+   ]
+  },
+  "employer_childbirth_benefit": {
+   "absent": "searched all five documents for 'maternity', 'childbirth', 'parental leave', 'paid leave': no childbirth-specific benefit in 2018_00_link, 2018_01_tenure_promotion_policy_rev2010, 2018_02_hr3901_non_fmla_medical_leave_2017, 2018_03_hr72_short_term_disability_2017, 2018_04_hr37_long_term_disability_rev2013"
+  },
+  "generic_sick_or_disability_plan": {
+   "components": [
+    "drexel_university_c8",
+    "drexel_university_c9"
+   ]
+  },
+  "own_accrual": {
+   "components": [
+    "drexel_university_c10",
+    "drexel_university_c11"
+   ]
+  },
+  "donated_leave": {
+   "absent": "searched all five documents for 'donat', 'bank', 'shared leave', 'pool': none in 2018_00_link, 2018_01_tenure_promotion_policy_rev2010, 2018_02_hr3901_non_fmla_medical_leave_2017, 2018_03_hr72_short_term_disability_2017, 2018_04_hr37_long_term_disability_rev2013"
+  },
+  "government_benefit": {
+   "absent": "searched all five documents for 'state', 'paid family leave', 'insurance benefit', 'programme': only a generic 'State Disability Benefits Law' offset, no programme, in 2018_00_link, 2018_01_tenure_promotion_policy_rev2010, 2018_02_hr3901_non_fmla_medical_leave_2017, 2018_03_hr72_short_term_disability_2017, 2018_04_hr37_long_term_disability_rev2013"
+  },
+  "employer_topup": {
+   "absent": "searched all five documents for 'top-up', 'supplement', 'difference': none in 2018_00_link, 2018_01_tenure_promotion_policy_rev2010, 2018_02_hr3901_non_fmla_medical_leave_2017, 2018_03_hr72_short_term_disability_2017, 2018_04_hr37_long_term_disability_rev2013"
+  },
+  "modified_duties": {
+   "components": [
+    "drexel_university_c3",
+    "drexel_university_c7"
+   ]
+  },
+  "unpaid_leave": {
+   "components": [
+    "drexel_university_c1",
+    "drexel_university_c6"
+   ]
+  },
+  "tenure_clock": {
+   "components": [
+    "drexel_university_c4",
+    "drexel_university_c5"
+   ]
+  },
+  "part_time_option": {
+   "components": [
+    "drexel_university_c12"
+   ]
+  },
+  "other": {
+   "absent": "searched all five documents for 'accommodation', 'transfer', 'hazard', 'pregnan': no pregnancy accommodation or equal-treatment provision in 2018_00_link, 2018_01_tenure_promotion_policy_rev2010, 2018_02_hr3901_non_fmla_medical_leave_2017, 2018_03_hr72_short_term_disability_2017, 2018_04_hr37_long_term_disability_rev2013"
+  }
+ },
+ "baseline_accounting": {
+  "Family and Medical Leave Act (FMLA)": {
+   "components": [
+    "drexel_university_c1"
+   ]
+  },
+  "Federal Employee Paid Leave Act (paid parental leave for federal civilian employees)": {
+   "not_applicable": "Covers federal civilian employees; Drexel is a private employer, and no saved document mentions it."
+  }
+ },
+ "leave_limits": [],
+ "components": [
+  {
+   "component_id": "drexel_university_c1",
+   "institution_label": "Family and Medical Leave",
+   "description": "FMLA leave as implemented by Drexel policy HR-33: up to 12 weeks of unpaid, job-protected leave in a rolling 12-month period for the employee's own serious health condition (including pregnancy and post-partum disability), the birth and care of a newborn, adoption or foster placement, or care of a seriously ill spouse, child or parent.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "\"all eligible Faculty and Professional Staff Members\"; Faculty Member defined as \"tenured, tenure-track, non-tenured track or adjunct position who teaches within any college, school, center or institute in the University\"",
+   "eligible_parent": [
+    "any_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "\"the birth and care of a Faculty or Professional Staff Member's newborn child\"; \"own chronic health condition, including disability due to pregnancy and/or post-partum\"; \"placement of an adopted son or daughter or a foster child\"; \"FMLA applies equally to all Faculty and Professional Staff Members regardless of gender\"",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "entitlement_note": "A statutory entitlement (FMLA) restated by the policy: \"may be entitled to up to twelve (12) weeks\"; \"Each spouse is entitled to 12 weeks\".",
+   "duration": {
+    "value": 12,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "duration_note": "\"up to 12 weeks ... in a rolling 12-month period\"; FMLA taken in the previous 12 months is subtracted. The statute states 12 workweeks (29 U.S.C. 2612(a)(1)).",
+   "service_requirement": "employed by Drexel for at least twelve months (consecutive or not) and at least 1,250 hours (60% FTE) in the prior twelve months",
+   "dual_employee_rule": "each spouse is entitled to 12 weeks of FMLA leave for the birth and care of their newborn child",
+   "time_window": "leave for the birth and care of a child must conclude within 12 months after the birth or placement",
+   "notice": "at least 30 days prior written notice of the proposed leave; as soon as practicable when advance notice is not possible",
+   "medical_certification": true,
+   "medical_certification_note": "Required where the leave is based on a serious health condition of the employee or an immediate family member; recertification may be required every 30 days. Not stated for birth-and-care leave.",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_note": "Stated: \"relieved of all work duties and are not required to perform any duties for the duration of their leave\".",
+   "sequence": [
+    {
+     "relation": "within",
+     "component_id": "drexel_university_c3",
+     "note": "R3b: discretionary teaching relief for both academic terms when the leave spans two terms contains the leave."
+    }
+   ],
+   "statute_source": "29 U.S.C. 2612(a)(1) (12 workweeks); eligibility 29 U.S.C. 2611(2) (12 months, 1,250 hours)",
+   "statute_verified": true,
+   "rule_applied": [
+    "U2",
+    "U4",
+    "S1",
+    "R13",
+    "R3b",
+    "U5",
+    "R5",
+    "U8"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "This policy applies to all eligible Faculty and Professional Staff Members",
+     "Faculty Member is defined as an individual employed by Drexel University in a tenured, tenure-track, non-tenured track or adjunct position who teaches within any college, school, center or institute in the University."
+    ],
+    "eligible_parent": [
+     "the birth and care of a Faculty or Professional Staff Member’s newborn child (leave must conclude within 12 months after birth)",
+     "a Faculty or Professional Staff Member’s own chronic health condition, including disability due to pregnancy and/or post-partum",
+     "FMLA applies equally to all Faculty and Professional Staff Members regardless of gender."
+    ],
+    "entitlement": [
+     "Eligible Faculty and Professional Staff Members may be entitled to up to twelve (12) weeks of unpaid leave during any rolling 12-month period.",
+     "Each spouse is entitled to 12 weeks of FMLA leave for the birth and care of their newborn child, or for the care and placement with them of a child for adoption or foster care."
+    ],
+    "duration": [
+     "FMLA allows up to 12 weeks of unpaid leave in a rolling 12-month period for one or more of the following reasons:",
+     "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period"
+    ],
+    "service_requirement": [
+     "employed by Drexel for at least twelve months, either consecutive or non-consecutively.",
+     "has worked at least 1,250 hours (60% FTE) during the twelve-month period prior to the start of Family Medical Leave."
+    ],
+    "relief": [
+     "While employees are on an approved FMLA leave, they are relieved of all work duties and are not required to perform any duties for the duration of their leave."
+    ],
+    "sequence": [
+     "In the event that the leave period spans two academic terms, the Faculty Member may be relieved from teaching duties for both terms at the discretion of his or her department head and dean."
+    ],
+    "statute_source": [
+     "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period",
+     "for at least 1,250 hours of service with such employer during the previous 12-month period."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "cross_reference_not_saved: Leave of Absence guidelines on the Human Resources site (named in HR-33, Request for FMLA)",
+    "cross_reference_not_saved: FMLA FAQs (HR-33 Supplemental Resources)",
+    "cross_reference_not_saved: Initiating a Claim with Guardian [PDF] (HR-33 Supplemental Resources)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "U4",
+     "answer": "unpaid_leave",
+     "quote": "Drexel complies fully with the Federal Family and Medical Leave Act (FMLA) to provide its Faculty and Professional Staff Members up to 12 weeks of job-protected leave in a rolling 12-month period"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "FMLA allows up to 12 weeks of unpaid leave in a rolling 12-month period for one or more of the following reasons:"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "the birth and care of a Faculty or Professional Staff Member’s newborn child (leave must conclude within 12 months after birth)"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Faculty Member is defined as an individual employed by Drexel University in a tenured, tenure-track, non-tenured track or adjunct position who teaches within any college, school, center or institute in the University."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "any_parent, adoptive, foster: role-neutral birth-and-care wording plus adoption and foster placement; own pregnancy disability (birth parent) and care of a spouse (non-birth parent, U5) also covered",
+     "quote": "the birth and care of a Faculty or Professional Staff Member’s newborn child (leave must conclude within 12 months after birth)"
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "Each spouse is entitled to 12 weeks of FMLA leave for the birth and care of their newborn child, or for the care and placement with them of a child for adoption or foster care."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "12 weeks, up_to (\"up to\")",
+     "quote": "FMLA allows up to 12 weeks of unpaid leave in a rolling 12-month period for one or more of the following reasons:"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U8",
+     "answer": "12 months and 1,250 hours; the two-year member meets it",
+     "quote": "has worked at least 1,250 hours (60% FTE) during the twelve-month period prior to the start of Family Medical Leave."
+    },
+    {
+     "field": "sequence",
+     "rule": "R3b",
+     "answer": "within c3 (relief for both terms contains the leave)",
+     "quote": "In the event that the leave period spans two academic terms, the Faculty Member may be relieved from teaching duties for both terms at the discretion of his or her department head and dean."
+    },
+    {
+     "field": "relief",
+     "rule": "schema",
+     "answer": "all duties relieved (stated)",
+     "quote": "While employees are on an approved FMLA leave, they are relieved of all work duties and are not required to perform any duties for the duration of their leave."
+    }
+   ]
+  },
+  {
+   "component_id": "drexel_university_c2",
+   "institution_label": "",
+   "description": "Salary continuation for faculty on approved FMLA leave (any FMLA reason, including birth and care of a newborn): 6 weeks after the first year of full-time employment, a further 6 weeks after the second year, up to 12 weeks; prorated for part-time faculty.",
+   "mechanism": "employer_paid_leave",
+   "mechanism_note": "Employer pay during any approved FMLA leave, so a faculty member who becomes a parent receives it (R17's reasoning). It covers bonding leave as well as the employee's own health condition, so it is not a sick or disability plan. R17 speaks of the first days of an FMLA absence; this pays up to 12 weeks (flagged as a rule gap).",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "\"A Faculty Member who is approved for Family and Medical Leave\" (Faculty Member: tenured, tenure-track, non-tenured track or adjunct)",
+   "eligible_parent": [
+    "any_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "any Faculty Member approved for Family and Medical Leave (FMLA reasons include birth and care of a newborn, adoption, foster placement)",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "\"is eligible to receive\" once FMLA leave is approved: the approval is of the FMLA leave; the pay follows (V2).",
+   "duration": {
+    "value": 12,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "duration_note": "Service bands: 6 weeks after completing the first year of full-time employment; an additional 6 weeks after completing the second year, \"up to a maximum of 12 weeks\". U8: the two-year member receives 12. Prorated for part-time faculty. Paid within the 12-week FMLA leave.",
+   "pay_fraction": "salary continuation",
+   "service_requirement": "first year of full-time employment completed for 6 weeks; second year completed for the further 6 weeks (12 in all)",
+   "sequence": [
+    {
+     "relation": "within",
+     "component_id": "drexel_university_c1",
+     "note": "S1: pay for the statutory leave, granted only to a faculty member approved for FMLA leave."
+    }
+   ],
+   "rule_applied": [
+    "R17",
+    "V2",
+    "U8",
+    "S1",
+    "R13",
+    "U1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "A Faculty Member who is approved for Family and Medical Leave is eligible to receive six (6) weeks of salary continuation after completing the first year of full-time employment and an additional six (6) weeks of salary continuation after completion of the second year of full time employment up to a maximum of 12 weeks.",
+     "Faculty Member is defined as an individual employed by Drexel University in a tenured, tenure-track, non-tenured track or adjunct position who teaches within any college, school, center or institute in the University."
+    ],
+    "eligible_parent": [
+     "A Faculty Member who is approved for Family and Medical Leave is eligible to receive six (6) weeks of salary continuation after completing the first year of full-time employment and an additional six (6) weeks of salary continuation after completion of the second year of full time employment up to a maximum of 12 weeks.",
+     "the birth and care of a Faculty or Professional Staff Member’s newborn child (leave must conclude within 12 months after birth)"
+    ],
+    "entitlement": [
+     "A Faculty Member who is approved for Family and Medical Leave is eligible to receive six (6) weeks of salary continuation after completing the first year of full-time employment and an additional six (6) weeks of salary continuation after completion of the second year of full time employment up to a maximum of 12 weeks."
+    ],
+    "duration": [
+     "A Faculty Member who is approved for Family and Medical Leave is eligible to receive six (6) weeks of salary continuation after completing the first year of full-time employment and an additional six (6) weeks of salary continuation after completion of the second year of full time employment up to a maximum of 12 weeks."
+    ],
+    "pay_fraction": [
+     "A Faculty Member who is approved for Family and Medical Leave is eligible to receive six (6) weeks of salary continuation after completing the first year of full-time employment and an additional six (6) weeks of salary continuation after completion of the second year of full time employment up to a maximum of 12 weeks."
+    ],
+    "service_requirement": [
+     "A Faculty Member who is approved for Family and Medical Leave is eligible to receive six (6) weeks of salary continuation after completing the first year of full-time employment and an additional six (6) weeks of salary continuation after completion of the second year of full time employment up to a maximum of 12 weeks."
+    ],
+    "sequence": [
+     "A Faculty Member who is approved for Family and Medical Leave is eligible to receive six (6) weeks of salary continuation after completing the first year of full-time employment and an additional six (6) weeks of salary continuation after completion of the second year of full time employment up to a maximum of 12 weeks."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "ambiguous: rule gap: salary continuation for the whole of any approved FMLA leave (up to 12 weeks, any FMLA reason), not only its first days as in R17; coded employer_paid_leave by R17's reasoning",
+    "ambiguous: pay level: 'salary continuation' with no percentage stated; read as continuation of regular salary"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R17",
+     "answer": "employer_paid_leave",
+     "quote": "A Faculty Member who is approved for Family and Medical Leave is eligible to receive six (6) weeks of salary continuation after completing the first year of full-time employment and an additional six (6) weeks of salary continuation after completion of the second year of full time employment up to a maximum of 12 weeks."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "A Faculty Member who is approved for Family and Medical Leave is eligible to receive six (6) weeks of salary continuation after completing the first year of full-time employment and an additional six (6) weeks of salary continuation after completion of the second year of full time employment up to a maximum of 12 weeks."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "A Faculty Member who is approved for Family and Medical Leave is eligible to receive six (6) weeks of salary continuation after completing the first year of full-time employment and an additional six (6) weeks of salary continuation after completion of the second year of full time employment up to a maximum of 12 weeks."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Faculty Member is defined as an individual employed by Drexel University in a tenured, tenure-track, non-tenured track or adjunct position who teaches within any college, school, center or institute in the University."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "any_parent, adoptive, foster (as for FMLA leave)",
+     "quote": "the birth and care of a Faculty or Professional Staff Member’s newborn child (leave must conclude within 12 months after birth)"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "A Faculty Member who is approved for Family and Medical Leave is eligible to receive six (6) weeks of salary continuation after completing the first year of full-time employment and an additional six (6) weeks of salary continuation after completion of the second year of full time employment up to a maximum of 12 weeks."
+    },
+    {
+     "field": "duration",
+     "rule": "U8",
+     "answer": "12 weeks for a member with two years of service (6 after year one)",
+     "quote": "A Faculty Member who is approved for Family and Medical Leave is eligible to receive six (6) weeks of salary continuation after completing the first year of full-time employment and an additional six (6) weeks of salary continuation after completion of the second year of full time employment up to a maximum of 12 weeks."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "up_to (\"up to a maximum of\")",
+     "quote": "A Faculty Member who is approved for Family and Medical Leave is eligible to receive six (6) weeks of salary continuation after completing the first year of full-time employment and an additional six (6) weeks of salary continuation after completion of the second year of full time employment up to a maximum of 12 weeks."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "salary continuation (no percentage stated)",
+     "quote": "A Faculty Member who is approved for Family and Medical Leave is eligible to receive six (6) weeks of salary continuation after completing the first year of full-time employment and an additional six (6) weeks of salary continuation after completion of the second year of full time employment up to a maximum of 12 weeks."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U8",
+     "answer": "two years of full-time employment for the full 12 weeks",
+     "quote": "A Faculty Member who is approved for Family and Medical Leave is eligible to receive six (6) weeks of salary continuation after completing the first year of full-time employment and an additional six (6) weeks of salary continuation after completion of the second year of full time employment up to a maximum of 12 weeks."
+    },
+    {
+     "field": "sequence",
+     "rule": "S1",
+     "answer": "within c1 (pay during the FMLA leave)",
+     "quote": "A Faculty Member who is approved for Family and Medical Leave is eligible to receive six (6) weeks of salary continuation after completing the first year of full-time employment and an additional six (6) weeks of salary continuation after completion of the second year of full time employment up to a maximum of 12 weeks."
+    }
+   ]
+  },
+  {
+   "component_id": "drexel_university_c3",
+   "institution_label": "",
+   "description": "Discretionary relief from teaching duties for both academic terms when the FMLA leave spans two terms; research, advising, administrative and committee duties continue outside the leave.",
+   "mechanism": "modified_duties",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "\"the Faculty Member\" (Faculty Member: tenured, tenure-track, non-tenured track or adjunct)",
+   "eligible_parent": [
+    "any_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "a Faculty Member on FMLA leave (which covers birth and care of a newborn, adoption, foster placement and own pregnancy disability)",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "entitlement_note": "\"may be relieved ... at the discretion of his or her department head and dean\" (V2).",
+   "duration": {
+    "value": 2,
+    "units": "term",
+    "qualifier": "exact"
+   },
+   "duration_note": "Both academic terms the leave spans (\"for both terms\"); stated only for a leave that spans two terms. The relief covers the whole of both terms and contains the leave (R3b). Terms are quarters (R8; calendar.term_weeks 11).",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "continues",
+    "research": "continues",
+    "advising_supervision": "continues",
+    "clinical": "continues"
+   },
+   "relief_inferred": "unnamed duties continue (R4b)",
+   "relief_note": "Teaching relieved; research, advising, administrative duties and committee assignments stated to continue outside the leave; clinical duties not named (continue, R4b).",
+   "rule_applied": [
+    "V2",
+    "R3",
+    "R3b",
+    "R4",
+    "R4b",
+    "R8"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Faculty Member is defined as an individual employed by Drexel University in a tenured, tenure-track, non-tenured track or adjunct position who teaches within any college, school, center or institute in the University."
+    ],
+    "eligible_parent": [
+     "the birth and care of a Faculty or Professional Staff Member’s newborn child (leave must conclude within 12 months after birth)"
+    ],
+    "entitlement": [
+     "In the event that the leave period spans two academic terms, the Faculty Member may be relieved from teaching duties for both terms at the discretion of his or her department head and dean."
+    ],
+    "duration": [
+     "In the event that the leave period spans two academic terms, the Faculty Member may be relieved from teaching duties for both terms at the discretion of his or her department head and dean."
+    ],
+    "relief": [
+     "In the event that the leave period spans two academic terms, the Faculty Member may be relieved from teaching duties for both terms at the discretion of his or her department head and dean.",
+     "Outside of the twelve weeks of leave over those two academic terms, the Faculty Member will be responsible for his or her standard non-teaching duties such as research, scholarship, and creative work, as well as professional development, advising, administrative duties, and committee assignments."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "ambiguous: pay level not stated; full pay inferred (R3)",
+    "ambiguous: restriction: only where the leave period spans two academic terms"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "modified_duties",
+     "quote": "In the event that the leave period spans two academic terms, the Faculty Member may be relieved from teaching duties for both terms at the discretion of his or her department head and dean."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "In the event that the leave period spans two academic terms, the Faculty Member may be relieved from teaching duties for both terms at the discretion of his or her department head and dean."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "In the event that the leave period spans two academic terms, the Faculty Member may be relieved from teaching duties for both terms at the discretion of his or her department head and dean."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "any_parent, adoptive, foster (as for the leave it accompanies)",
+     "quote": "the birth and care of a Faculty or Professional Staff Member’s newborn child (leave must conclude within 12 months after birth)"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "In the event that the leave period spans two academic terms, the Faculty Member may be relieved from teaching duties for both terms at the discretion of his or her department head and dean."
+    },
+    {
+     "field": "duration",
+     "rule": "R3b",
+     "answer": "2 terms (both terms the leave spans), exact; contains the leave",
+     "quote": "In the event that the leave period spans two academic terms, the Faculty Member may be relieved from teaching duties for both terms at the discretion of his or her department head and dean."
+    },
+    {
+     "field": "relief",
+     "rule": "R4b",
+     "answer": "teaching relieved; research, service_admin, advising continue (stated); clinical continues (unnamed)",
+     "quote": "Outside of the twelve weeks of leave over those two academic terms, the Faculty Member will be responsible for his or her standard non-teaching duties such as research, scholarship, and creative work, as well as professional development, advising, administrative duties, and committee assignments."
+    }
+   ]
+  },
+  {
+   "component_id": "drexel_university_c4",
+   "institution_label": "Extension of the Pre-Tenure Period",
+   "description": "Automatic one-year extension of the pre-tenure period, available within one year after each live birth or adoption, for a candidate who will be the primary caregiver.",
+   "mechanism": "tenure_clock",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Tenure & Promotion Policy: \"All University Faculty excluding the College of Medicine\"; tenure-track candidates",
+   "faculty_scope": "all colleges and schools except the College of Medicine (main campus covered, V3)",
+   "eligible_parent": [
+    "any_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "\"after each live birth or after each adoption, for any candidate who will be the primary caregiver\"",
+   "caregiver_condition": "primary",
+   "caregiver_condition_wording": "for any candidate who will be the primary caregiver",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "\"automatically available\"; requested in writing to the Provost before the dossier deadline; approval covers the revised schedule (V2). HR-33 and HR-39.01 restate it as \"automatic\".",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "exact"
+   },
+   "time_window": "within one (1) year after each live birth or after each adoption",
+   "notice": "written request to the Provost before the date the tenure dossier is due for departmental review",
+   "rule_applied": [
+    "V2",
+    "R6",
+    "R5",
+    "U9",
+    "source_precedence"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "All University Faculty excluding the College of Medicine",
+     "Tenure-track faculty members are eligible for an automatic one-year extension of the pre-tenure period for after each live birth or after each adoption. Please refer to the Tenure and Promotion Policy."
+    ],
+    "eligible_parent": [
+     "In addition, a one-year extension of the pre-tenure period is automatically available within one (1) year after each live birth or after each adoption, for any candidate who will be the primary caregiver."
+    ],
+    "caregiver_condition": [
+     "In addition, a one-year extension of the pre-tenure period is automatically available within one (1) year after each live birth or after each adoption, for any candidate who will be the primary caregiver."
+    ],
+    "entitlement": [
+     "In addition, a one-year extension of the pre-tenure period is automatically available within one (1) year after each live birth or after each adoption, for any candidate who will be the primary caregiver.",
+     "Candidates must submit their requests for extensions in writing to the Provost prior to the date on which the candidate’s tenure dossier is required to be submitted for review by the department (or equivalent)."
+    ],
+    "duration": [
+     "In addition, a one-year extension of the pre-tenure period is automatically available within one (1) year after each live birth or after each adoption, for any candidate who will be the primary caregiver."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_tenure_promotion_policy_rev2010",
+    "2018_00_link",
+    "2018_02_hr3901_non_fmla_medical_leave_2017"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "In addition, a one-year extension of the pre-tenure period is automatically available within one (1) year after each live birth or after each adoption, for any candidate who will be the primary caregiver."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "In addition, a one-year extension of the pre-tenure period is automatically available within one (1) year after each live birth or after each adoption, for any candidate who will be the primary caregiver."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "All University Faculty excluding the College of Medicine"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "any_parent, adoptive (\"each live birth or ... each adoption\")",
+     "quote": "In addition, a one-year extension of the pre-tenure period is automatically available within one (1) year after each live birth or after each adoption, for any candidate who will be the primary caregiver."
+    },
+    {
+     "field": "caregiver_condition",
+     "rule": "source_precedence",
+     "answer": "primary",
+     "quote": "In addition, a one-year extension of the pre-tenure period is automatically available within one (1) year after each live birth or after each adoption, for any candidate who will be the primary caregiver."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "In addition, a one-year extension of the pre-tenure period is automatically available within one (1) year after each live birth or after each adoption, for any candidate who will be the primary caregiver."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 year, exact",
+     "quote": "In addition, a one-year extension of the pre-tenure period is automatically available within one (1) year after each live birth or after each adoption, for any candidate who will be the primary caregiver."
+    }
+   ],
+   "use_limit_note": "\"after each live birth or after each adoption\": renews with each birth (U9), no limit recorded. The \"up to three (3) years total\" applies to the separate exceptional-circumstances extensions (c5); the birth extension is stated \"In addition\"."
+  },
+  {
+   "component_id": "drexel_university_c5",
+   "institution_label": "Extension of the Pre-Tenure Period",
+   "description": "Discretionary extensions of the pre-tenure period, up to three years in total, for exceptional circumstances (an open list: serious illness, family emergency, extraordinary teaching or administrative assignments).",
+   "mechanism": "tenure_clock",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "\"All University Faculty excluding the College of Medicine\"; tenure-track candidates",
+   "faculty_scope": "all colleges and schools except the College of Medicine (main campus covered, V3)",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "\"candidates\" (any tenure-track candidate)",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "entitlement_note": "\"may be granted\" (V2); approval by the Provost.",
+   "duration": {
+    "value": 3,
+    "units": "year",
+    "qualifier": "up_to"
+   },
+   "duration_note": "\"up to three (3) years total\" across individual extensions.",
+   "notice": "written request to the Provost before the date the tenure dossier is due for departmental review",
+   "rule_applied": [
+    "U1",
+    "V2",
+    "R13"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "All University Faculty excluding the College of Medicine"
+    ],
+    "eligible_parent": [
+     "Individual extensions of the pre-tenure period for up to three (3) years total may be granted to candidates in the event of exceptional circumstances that would materially interfere with the candidate’s performance during the pre-tenure period."
+    ],
+    "entitlement": [
+     "Individual extensions of the pre-tenure period for up to three (3) years total may be granted to candidates in the event of exceptional circumstances that would materially interfere with the candidate’s performance during the pre-tenure period."
+    ],
+    "duration": [
+     "Individual extensions of the pre-tenure period for up to three (3) years total may be granted to candidates in the event of exceptional circumstances that would materially interfere with the candidate’s performance during the pre-tenure period."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_tenure_promotion_policy_rev2010",
+    "2018_00_link",
+    "2018_02_hr3901_non_fmla_medical_leave_2017"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "Individual extensions of the pre-tenure period for up to three (3) years total may be granted to candidates in the event of exceptional circumstances that would materially interfere with the candidate’s performance during the pre-tenure period."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "Such circumstances may include, but are not limited to, serious illness, family emergency, or extraordinary teaching or administrative assignments."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "All University Faculty excluding the College of Medicine"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "any_parent (any candidate)",
+     "quote": "Individual extensions of the pre-tenure period for up to three (3) years total may be granted to candidates in the event of exceptional circumstances that would materially interfere with the candidate’s performance during the pre-tenure period."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "Individual extensions of the pre-tenure period for up to three (3) years total may be granted to candidates in the event of exceptional circumstances that would materially interfere with the candidate’s performance during the pre-tenure period."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "3 years, up_to",
+     "quote": "Individual extensions of the pre-tenure period for up to three (3) years total may be granted to candidates in the event of exceptional circumstances that would materially interfere with the candidate’s performance during the pre-tenure period."
+    }
+   ]
+  },
+  {
+   "component_id": "drexel_university_c6",
+   "institution_label": "Non-FMLA Medical Leave of Absence",
+   "description": "Unpaid medical leave of absence (HR-39.01, effective October 2017) of up to 90 calendar days in a rolling 12-month period, for the same reasons as FMLA (own health condition including pregnancy disability, birth and care of a newborn, adoption or foster placement, family care); any FML or non-FML medical leave in the prior 12 months is subtracted.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "\"all eligible Faculty and Professional Staff Members\" (bargaining-unit professional staff are outside the policy); Faculty Member: tenured, tenure-track, non-tenured track or adjunct",
+   "eligible_parent": [
+    "any_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "\"the birth and care of a Faculty or Professional Staff Member's newborn child\"; \"own chronic health condition, including disability due to pregnancy and/or post-partum\"; \"Medical Leave applies equally to all Faculty and Professional Staff Members regardless of gender\"",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "The policy statement says \"may request\"; the duration and compensation sections say \"entitled to up to 90 days\" and \"Each spouse is entitled to 90 days\". No discretionary ground is stated; approval turns on the medical certification. Read together as a grant on request (V2), flagged.",
+   "duration": {
+    "value": 90,
+    "units": "calendar_day",
+    "qualifier": "up_to"
+   },
+   "duration_note": "\"up to 90 calendar days in a 12-month period\"; any FML or non-FML medical leave taken in the previous 12 months is subtracted from the 90 days, so FMLA leave reduces it (it runs with FMLA, not after it). For the FMLA-eligible member, 90 calendar days in all, counting the FMLA leave.",
+   "service_requirement": "none stated (\"eligible Faculty\": benefits-eligible, full-time or part-time with at least a 50 percent appointment)",
+   "dual_employee_rule": "each spouse is entitled to 90 days of Medical Leave for the birth and care of their newborn child",
+   "time_window": "leave for the birth and care of a child must conclude within 12 months after the birth or placement",
+   "notice": "at least 30 days prior written notice; as soon as practicable when advance notice is not possible",
+   "medical_certification": true,
+   "medical_certification_note": "\"Medical certification from a health care provider will be required\"; recertification every 30 days may be required; a note of medical clearance to return.",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_note": "Stated: \"relieved of all work duties\".",
+   "sequence": [
+    {
+     "relation": "concurrent_with",
+     "component_id": "drexel_university_c1",
+     "note": "FML taken in the previous 12 months is subtracted from the 90-day entitlement, so the two run together; the medical leave extends past the 12 FMLA weeks to 90 calendar days."
+    },
+    {
+     "relation": "within",
+     "component_id": "drexel_university_c7",
+     "note": "R3b: discretionary teaching relief for both terms when the medical leave spans two terms."
+    }
+   ],
+   "rule_applied": [
+    "V2",
+    "R13",
+    "R11b",
+    "S1",
+    "R3b",
+    "U5",
+    "R5",
+    "U8",
+    "U1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "This policy applies to all eligible Faculty and Professional Staff Members, excluding any Professional Staff Members affiliated with a collective bargaining unit.",
+     "Faculty Member is defined as an individual employed by Drexel University in a tenured, tenure-track, non-tenured track or adjunct position who teaches within any college, school, center or institute in the University."
+    ],
+    "eligible_parent": [
+     "the birth and care of a Faculty or Professional Staff Member's newborn child (leave must conclude within 12 months after birth)",
+     "a Faculty or Professional Staff Member's own chronic health condition, including disability due to pregnancy and/or post-partum",
+     "Medical Leave applies equally to all Faculty and Professional Staff Members regardless of gender."
+    ],
+    "entitlement": [
+     "Faculty and Professional Staff Members may request a Medical Leave of Absence for up to 90 calendar days in a 12-month period for one of the following reasons:",
+     "A Faculty Member who is approved for Medical Leave is entitled to up to 90 days of unpaid leave.",
+     "Each spouse is entitled to 90 days of Medical Leave for the birth and care of their newborn child, or for the care and placement with them of a child for adoption or foster care."
+    ],
+    "duration": [
+     "Faculty and Professional Staff Members may request a Medical Leave of Absence for up to 90 calendar days in a 12-month period for one of the following reasons:",
+     "The period from the previous twelve months will be examined and any Medical Leave, FML or Non-FML, taken during the previous twelve-month period will be subtracted from the current 90 day Medical Leave entitlement."
+    ],
+    "service_requirement": [
+     "This policy applies to all eligible Faculty and Professional Staff Members, excluding any Professional Staff Members affiliated with a collective bargaining unit."
+    ],
+    "relief": [
+     "While employees are on an approved Medical Leave, they are relieved of all work duties and are not required to perform any duties for the duration of their leave."
+    ],
+    "sequence": [
+     "The period from the previous twelve months will be examined and any Medical Leave, FML or Non-FML, taken during the previous twelve-month period will be subtracted from the current 90 day Medical Leave entitlement.",
+     "In the event that the leave period spans two academic terms, the Faculty Member may be relieved from teaching duties for both terms at the discretion of his or her department head and dean."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_hr3901_non_fmla_medical_leave_2017"
+   ],
+   "flags": [
+    "ambiguous: entitlement: 'may request' in the policy statement, 'entitled to up to 90 days' in the duration and compensation sections; no discretionary ground stated; coded guaranteed_on_request"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "A Faculty Member who is approved for Medical Leave is entitled to up to 90 days of unpaid leave."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "A Faculty Member who is approved for Medical Leave is entitled to up to 90 days of unpaid leave."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "the birth and care of a Faculty or Professional Staff Member's newborn child (leave must conclude within 12 months after birth)"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "This policy applies to all eligible Faculty and Professional Staff Members, excluding any Professional Staff Members affiliated with a collective bargaining unit."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "any_parent, adoptive, foster; own pregnancy disability (birth parent) and family care (non-birth parent, U5) also covered",
+     "quote": "the birth and care of a Faculty or Professional Staff Member's newborn child (leave must conclude within 12 months after birth)"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "A Faculty Member who is approved for Medical Leave is entitled to up to 90 days of unpaid leave."
+    },
+    {
+     "field": "duration",
+     "rule": "R11b",
+     "answer": "90 calendar days, up_to",
+     "quote": "Faculty and Professional Staff Members may request a Medical Leave of Absence for up to 90 calendar days in a 12-month period for one of the following reasons:"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "none stated",
+     "quote": "This policy applies to all eligible Faculty and Professional Staff Members, excluding any Professional Staff Members affiliated with a collective bargaining unit."
+    },
+    {
+     "field": "sequence",
+     "rule": "S1",
+     "answer": "concurrent_with c1: FML time counts against the 90 days",
+     "quote": "The period from the previous twelve months will be examined and any Medical Leave, FML or Non-FML, taken during the previous twelve-month period will be subtracted from the current 90 day Medical Leave entitlement."
+    },
+    {
+     "field": "sequence",
+     "rule": "R3b",
+     "answer": "within c7 (relief for both terms contains the leave)",
+     "quote": "In the event that the leave period spans two academic terms, the Faculty Member may be relieved from teaching duties for both terms at the discretion of his or her department head and dean."
+    },
+    {
+     "field": "relief",
+     "rule": "schema",
+     "answer": "all duties relieved (stated)",
+     "quote": "While employees are on an approved Medical Leave, they are relieved of all work duties and are not required to perform any duties for the duration of their leave."
+    }
+   ]
+  },
+  {
+   "component_id": "drexel_university_c7",
+   "institution_label": "",
+   "description": "Discretionary relief from teaching duties for both academic terms when the Medical Leave spans two terms; research, advising, administrative and committee duties continue outside the leave.",
+   "mechanism": "modified_duties",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "\"the Faculty Member\" (Faculty Member: tenured, tenure-track, non-tenured track or adjunct)",
+   "eligible_parent": [
+    "any_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "a Faculty Member on Medical Leave (which covers birth and care of a newborn, adoption, foster placement and own pregnancy disability)",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "entitlement_note": "\"may be relieved ... at the discretion of his or her department head and dean\" (V2).",
+   "duration": {
+    "value": 2,
+    "units": "term",
+    "qualifier": "exact"
+   },
+   "duration_note": "Both academic terms the leave spans (\"for both terms\"); stated only for a leave that spans two terms. The relief covers the whole of both terms and contains the leave (R3b). Terms are quarters (R8; calendar.term_weeks 11).",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "continues",
+    "research": "continues",
+    "advising_supervision": "continues",
+    "clinical": "continues"
+   },
+   "relief_inferred": "unnamed duties continue (R4b)",
+   "relief_note": "Teaching relieved; research, advising, administrative duties and committee assignments stated to continue outside the leave; clinical duties not named (continue, R4b).",
+   "rule_applied": [
+    "V2",
+    "R3",
+    "R3b",
+    "R4",
+    "R4b",
+    "R8"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Faculty Member is defined as an individual employed by Drexel University in a tenured, tenure-track, non-tenured track or adjunct position who teaches within any college, school, center or institute in the University."
+    ],
+    "eligible_parent": [
+     "the birth and care of a Faculty or Professional Staff Member's newborn child (leave must conclude within 12 months after birth)"
+    ],
+    "entitlement": [
+     "In the event that the leave period spans two academic terms, the Faculty Member may be relieved from teaching duties for both terms at the discretion of his or her department head and dean."
+    ],
+    "duration": [
+     "In the event that the leave period spans two academic terms, the Faculty Member may be relieved from teaching duties for both terms at the discretion of his or her department head and dean."
+    ],
+    "relief": [
+     "In the event that the leave period spans two academic terms, the Faculty Member may be relieved from teaching duties for both terms at the discretion of his or her department head and dean.",
+     "Outside of the 90 days of leave over those two academic terms, the Faculty Member will be responsible for his or her standard non-teaching duties such as research, scholarship and creative work, as well as professional development, advising, administrative duties and committee assignments."
+    ],
+    "sequence": [
+     "In the event that the leave period spans two academic terms, the Faculty Member may be relieved from teaching duties for both terms at the discretion of his or her department head and dean."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_hr3901_non_fmla_medical_leave_2017"
+   ],
+   "flags": [
+    "ambiguous: pay level not stated; full pay inferred (R3)",
+    "ambiguous: restriction: only where the leave period spans two academic terms"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "modified_duties",
+     "quote": "In the event that the leave period spans two academic terms, the Faculty Member may be relieved from teaching duties for both terms at the discretion of his or her department head and dean."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "In the event that the leave period spans two academic terms, the Faculty Member may be relieved from teaching duties for both terms at the discretion of his or her department head and dean."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "In the event that the leave period spans two academic terms, the Faculty Member may be relieved from teaching duties for both terms at the discretion of his or her department head and dean."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "any_parent, adoptive, foster (as for the leave it accompanies)",
+     "quote": "the birth and care of a Faculty or Professional Staff Member's newborn child (leave must conclude within 12 months after birth)"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "In the event that the leave period spans two academic terms, the Faculty Member may be relieved from teaching duties for both terms at the discretion of his or her department head and dean."
+    },
+    {
+     "field": "duration",
+     "rule": "R3b",
+     "answer": "2 terms (both terms the leave spans), exact; contains the leave",
+     "quote": "In the event that the leave period spans two academic terms, the Faculty Member may be relieved from teaching duties for both terms at the discretion of his or her department head and dean."
+    },
+    {
+     "field": "relief",
+     "rule": "R4b",
+     "answer": "teaching relieved; research, service_admin, advising continue (stated); clinical continues (unnamed)",
+     "quote": "Outside of the 90 days of leave over those two academic terms, the Faculty Member will be responsible for his or her standard non-teaching duties such as research, scholarship and creative work, as well as professional development, advising, administrative duties and committee assignments."
+    },
+    {
+     "field": "sequence",
+     "rule": "R19",
+     "answer": "concurrent_with c3 (same relief for the same leave period)",
+     "quote": "In the event that the leave period spans two academic terms, the Faculty Member may be relieved from teaching duties for both terms at the discretion of his or her department head and dean."
+    }
+   ],
+   "sequence": [
+    {
+     "relation": "concurrent_with",
+     "component_id": "drexel_university_c3",
+     "note": "The same teaching relief stated in HR-39.01 and HR-33; the FMLA leave and the medical leave run together, so the two reliefs cover the same terms and count once."
+    }
+   ]
+  },
+  {
+   "component_id": "drexel_university_c8",
+   "institution_label": "Short-Term Disability",
+   "description": "Employee-paid, voluntary short-term disability insurance (HR-72): 60% of salary (maximum $2,700 a week) from day 15 (enhanced plan, from 1 January 2018) or day 31 (standard plan) of disability, or the end of sick time if later, to day 90 of disability.",
+   "mechanism": "generic_sick_or_disability_plan",
+   "mechanism_note": "An insurance plan for any non-work-related illness or injury; no childbirth-specific period stated (V1 not met).",
+   "payer": "employee_paid",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "\"offered to Full and Part-time Faculty and Professional Staff Members\" (Faculty Member: tenured, tenure-track, non-tenured track or adjunct)",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "\"unable to work ... due to a non-work related illness or injury\" (own disability)",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "entitlement_note": "A plan offered for employees to buy: access guaranteed (R1d); benefits on the carrier's approval.",
+   "duration": {
+    "value": 90,
+    "units": "calendar_day",
+    "qualifier": "up_to"
+   },
+   "duration_note": "The benefit is paid from the 15th day (enhanced plan, effective January 1, 2018) or the 31st day (standard plan) of disability, or the exhaustion of available sick time if later, through day 90 of disability; shortened where sick days extend past day 15 or 31. Coded within the medical leave with a 2-week offset (the enhanced plan's wait).",
+   "pay_fraction": "60 percent of their gross monthly salary",
+   "pay_cap": "$2,700 per week",
+   "must_exhaust_first": [
+    "sick"
+   ],
+   "service_requirement": "none stated; election into one of two short-term disability plans for the plan year in which the disability begins",
+   "time_window": "benefit begins on the 15th day (enhanced plan) or 31st day (standard plan) after disability begins, or at the exhaustion of available sick time, whichever is later",
+   "sequence": [
+    {
+     "relation": "within",
+     "component_id": "drexel_university_c6",
+     "start_offset_weeks": 2,
+     "note": "STD runs concurrently with FML or the Medical Leave; the enhanced plan pays from day 15 (14-day wait = 2 weeks), the standard plan from day 31; ends by day 90, with the 90-day medical leave."
+    }
+   ],
+   "rule_applied": [
+    "R1d",
+    "V1",
+    "V6",
+    "U5",
+    "R11b",
+    "R15"
+   ],
+   "evidence": {
+    "mechanism": [
+     "Short-term disability is an employee-paid, voluntary benefit offered to Full and Part-time Faculty and Professional Staff Members, insured through the Designated Insurance Carrier, which provides income continuation to Faculty and Professional Staff Members who are unable to work for a continuous period of more than 14 days due to a non-work related illness or injury, which prevents the performance of normal duties of their position."
+    ],
+    "faculty_group": [
+     "Short-term disability is an employee-paid, voluntary benefit offered to Full and Part-time Faculty and Professional Staff Members, insured through the Designated Insurance Carrier, which provides income continuation to Faculty and Professional Staff Members who are unable to work for a continuous period of more than 14 days due to a non-work related illness or injury, which prevents the performance of normal duties of their position.",
+     "Faculty Member is defined as an individual employed by Drexel University in a tenured, tenure-track, non-tenured track or adjunct position who teaches at any college, school, center or institute in the University."
+    ],
+    "eligible_parent": [
+     "Short-term disability is an employee-paid, voluntary benefit offered to Full and Part-time Faculty and Professional Staff Members, insured through the Designated Insurance Carrier, which provides income continuation to Faculty and Professional Staff Members who are unable to work for a continuous period of more than 14 days due to a non-work related illness or injury, which prevents the performance of normal duties of their position."
+    ],
+    "entitlement": [
+     "Short-term disability is an employee-paid, voluntary benefit offered to Full and Part-time Faculty and Professional Staff Members, insured through the Designated Insurance Carrier, which provides income continuation to Faculty and Professional Staff Members who are unable to work for a continuous period of more than 14 days due to a non-work related illness or injury, which prevents the performance of normal duties of their position."
+    ],
+    "duration": [
+     "The maximum benefit period is day 90 of disability."
+    ],
+    "pay_fraction": [
+     "The Faculty or Professional Staff Member will receive disability benefits (pay) from the insurance company equal to 60 percent of their gross monthly salary in effect at the time disability occurred."
+    ],
+    "service_requirement": [
+     "In order to access this benefit, election must be made into one of two short-term disability benefit plans for the plan year in which a disability commences."
+    ],
+    "sequence": [
+     "Short-term disability will run concurrently with FML or the Medical Leave",
+     "If the Faculty or Professional Staff Member has elected the enhanced short-term disability plan, and is approved for short-term disability, the benefit will commence on the 15th day after disability begins or the exhaustion of available sick time, whichever is later."
+    ]
+   },
+   "doc_ids": [
+    "2018_03_hr72_short_term_disability_2017",
+    "2018_00_link",
+    "2018_02_hr3901_non_fmla_medical_leave_2017"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "V1",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "Short-term disability is an employee-paid, voluntary benefit offered to Full and Part-time Faculty and Professional Staff Members, insured through the Designated Insurance Carrier, which provides income continuation to Faculty and Professional Staff Members who are unable to work for a continuous period of more than 14 days due to a non-work related illness or injury, which prevents the performance of normal duties of their position."
+    },
+    {
+     "field": "payer",
+     "rule": "R1d",
+     "answer": "employee_paid",
+     "quote": "The premium for STD is deducted as an after-tax deduction on the Faculty or Professional Staff Member's paycheck."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Short-term disability is an employee-paid, voluntary benefit offered to Full and Part-time Faculty and Professional Staff Members, insured through the Designated Insurance Carrier, which provides income continuation to Faculty and Professional Staff Members who are unable to work for a continuous period of more than 14 days due to a non-work related illness or injury, which prevents the performance of normal duties of their position."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Short-term disability is an employee-paid, voluntary benefit offered to Full and Part-time Faculty and Professional Staff Members, insured through the Designated Insurance Carrier, which provides income continuation to Faculty and Professional Staff Members who are unable to work for a continuous period of more than 14 days due to a non-work related illness or injury, which prevents the performance of normal duties of their position."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own disability)",
+     "quote": "Short-term disability is an employee-paid, voluntary benefit offered to Full and Part-time Faculty and Professional Staff Members, insured through the Designated Insurance Carrier, which provides income continuation to Faculty and Professional Staff Members who are unable to work for a continuous period of more than 14 days due to a non-work related illness or injury, which prevents the performance of normal duties of their position."
+    },
+    {
+     "field": "entitlement",
+     "rule": "R1d",
+     "answer": "guaranteed",
+     "quote": "Short-term disability is an employee-paid, voluntary benefit offered to Full and Part-time Faculty and Professional Staff Members, insured through the Designated Insurance Carrier, which provides income continuation to Faculty and Professional Staff Members who are unable to work for a continuous period of more than 14 days due to a non-work related illness or injury, which prevents the performance of normal duties of their position."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "90 calendar days (day 90 of disability), up_to",
+     "quote": "The maximum benefit period is day 90 of disability."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "60 percent",
+     "quote": "The Faculty or Professional Staff Member will receive disability benefits (pay) from the insurance company equal to 60 percent of their gross monthly salary in effect at the time disability occurred."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "election into a plan; no service stated",
+     "quote": "In order to access this benefit, election must be made into one of two short-term disability benefit plans for the plan year in which a disability commences."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "within c6, start_offset_weeks 2 (enhanced plan)",
+     "quote": "If the Faculty or Professional Staff Member has elected the enhanced short-term disability plan, and is approved for short-term disability, the benefit will commence on the 15th day after disability begins or the exhaustion of available sick time, whichever is later."
+    }
+   ]
+  },
+  {
+   "component_id": "drexel_university_c9",
+   "institution_label": "Long-Term Disability",
+   "description": "University-paid long-term disability insurance (MetLife) for full-time faculty: 60% of salary (maximum $20,000 a month) from the 91st day of disability.",
+   "mechanism": "generic_sick_or_disability_plan",
+   "mechanism_note": "Long-term disability (schema §2): recorded without a duration.",
+   "payer": "insurance_plan",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "\"offered to Full-time Faculty and Professional Staff Members\"",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "own disability (\"unable to work ... due to a non-work related illness or injury\")",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "pay_fraction": "sixty (60) percent of their gross monthly salary",
+   "pay_cap": "$20,000 per month",
+   "service_requirement": "one year of service (may be waived with proof of prior group LTD coverage)",
+   "time_window": "benefits commence on the 91st day after disability begins",
+   "rule_applied": [
+    "V6",
+    "U5"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Long Term Disability is a University paid benefit offered to Full-time Faculty and Professional Staff Members, insured through MetLife, which provides income continuation to Faculty and Professional Staff Members who are unable to work for a continuous period of more than 90 days due to a non-work related illness or injury, which prevents the performance of normal duties of their position."
+    ],
+    "eligible_parent": [
+     "Long Term Disability is a University paid benefit offered to Full-time Faculty and Professional Staff Members, insured through MetLife, which provides income continuation to Faculty and Professional Staff Members who are unable to work for a continuous period of more than 90 days due to a non-work related illness or injury, which prevents the performance of normal duties of their position."
+    ],
+    "entitlement": [
+     "Long-term disability is available to eligible Faculty and Professional Staff Members who have worked for the University for one year"
+    ],
+    "pay_fraction": [
+     "the Faculty or Professional Staff Members will receive disability benefits (pay) from the insurance company equal to sixty (60) percent of their gross monthly salary in effect at the time disability occurred."
+    ],
+    "service_requirement": [
+     "Long-term disability is available to eligible Faculty and Professional Staff Members who have worked for the University for one year"
+    ]
+   },
+   "doc_ids": [
+    "2018_04_hr37_long_term_disability_rev2013"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "Long Term Disability is a University paid benefit offered to Full-time Faculty and Professional Staff Members, insured through MetLife, which provides income continuation to Faculty and Professional Staff Members who are unable to work for a continuous period of more than 90 days due to a non-work related illness or injury, which prevents the performance of normal duties of their position."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "insurance_plan",
+     "quote": "Long Term Disability is a University paid benefit offered to Full-time Faculty and Professional Staff Members, insured through MetLife, which provides income continuation to Faculty and Professional Staff Members who are unable to work for a continuous period of more than 90 days due to a non-work related illness or injury, which prevents the performance of normal duties of their position."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Long Term Disability is a University paid benefit offered to Full-time Faculty and Professional Staff Members, insured through MetLife, which provides income continuation to Faculty and Professional Staff Members who are unable to work for a continuous period of more than 90 days due to a non-work related illness or injury, which prevents the performance of normal duties of their position."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Long Term Disability is a University paid benefit offered to Full-time Faculty and Professional Staff Members, insured through MetLife, which provides income continuation to Faculty and Professional Staff Members who are unable to work for a continuous period of more than 90 days due to a non-work related illness or injury, which prevents the performance of normal duties of their position."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own disability)",
+     "quote": "Long Term Disability is a University paid benefit offered to Full-time Faculty and Professional Staff Members, insured through MetLife, which provides income continuation to Faculty and Professional Staff Members who are unable to work for a continuous period of more than 90 days due to a non-work related illness or injury, which prevents the performance of normal duties of their position."
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "Long-term disability is available to eligible Faculty and Professional Staff Members who have worked for the University for one year"
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "60 percent",
+     "quote": "equal to sixty (60) percent of their gross monthly salary"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U8",
+     "answer": "one year; the two-year member meets it",
+     "quote": "Long-term disability is available to eligible Faculty and Professional Staff Members who have worked for the University for one year"
+    }
+   ]
+  },
+  {
+   "component_id": "drexel_university_c10",
+   "institution_label": "Compensation for Professional Staff Members when using Paid Leave",
+   "description": "Professional staff (non-faculty) on FMLA leave for their own serious medical condition must use their accrued sick and vacation time first; the rest is unpaid unless short-term disability applies.",
+   "mechanism": "own_accrual",
+   "payer": "own_balance",
+   "faculty_group": "Professional Staff Members (non-faculty)",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "\"their own serious medical condition\"",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "entitlement_note": "The staff member's own balances; required to be used.",
+   "must_exhaust_first": [
+    "sick",
+    "vacation"
+   ],
+   "service_requirement": "none stated (accrued balances)",
+   "sequence": [
+    {
+     "relation": "within",
+     "component_id": "drexel_university_c1",
+     "note": "Paid time used during the leave counts toward it."
+    }
+   ],
+   "rule_applied": [
+    "R1",
+    "U5",
+    "S1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "When a Professional Staff Member takes FMLA leave because of their own serious medical condition, the Professional Staff Member is required to use all of their available paid time during the FMLA leave.",
+     "Professional Staff Member is defined as an individual employed in any non-faculty category by Drexel University"
+    ],
+    "eligible_parent": [
+     "When a Professional Staff Member takes FMLA leave because of their own serious medical condition, the Professional Staff Member is required to use all of their available paid time during the FMLA leave."
+    ],
+    "entitlement": [
+     "When a Professional Staff Member takes FMLA leave because of their own serious medical condition, the Professional Staff Member is required to use all of their available paid time during the FMLA leave."
+    ],
+    "service_requirement": [
+     "The Professional Staff Member will be required to exhaust all available sick time (if applicable) and vacation time at the beginning of the leave."
+    ],
+    "sequence": [
+     "When a Professional Staff Member takes FMLA leave because of their own serious medical condition, the Professional Staff Member is required to use all of their available paid time during the FMLA leave."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "own_accrual",
+     "quote": "The Professional Staff Member will be required to exhaust all available sick time (if applicable) and vacation time at the beginning of the leave."
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "own_balance",
+     "quote": "The Professional Staff Member will be required to exhaust all available sick time (if applicable) and vacation time at the beginning of the leave."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "When a Professional Staff Member takes FMLA leave because of their own serious medical condition, the Professional Staff Member is required to use all of their available paid time during the FMLA leave."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "Professional Staff Members (non-faculty)",
+     "quote": "When a Professional Staff Member takes FMLA leave because of their own serious medical condition, the Professional Staff Member is required to use all of their available paid time during the FMLA leave."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own condition)",
+     "quote": "When a Professional Staff Member takes FMLA leave because of their own serious medical condition, the Professional Staff Member is required to use all of their available paid time during the FMLA leave."
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "When a Professional Staff Member takes FMLA leave because of their own serious medical condition, the Professional Staff Member is required to use all of their available paid time during the FMLA leave."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "none stated",
+     "quote": "The Professional Staff Member will be required to exhaust all available sick time (if applicable) and vacation time at the beginning of the leave."
+    },
+    {
+     "field": "sequence",
+     "rule": "S1",
+     "answer": "within drexel_university_c1",
+     "quote": "When a Professional Staff Member takes FMLA leave because of their own serious medical condition, the Professional Staff Member is required to use all of their available paid time during the FMLA leave."
+    }
+   ]
+  },
+  {
+   "component_id": "drexel_university_c11",
+   "institution_label": "Compensation for Professional Staff Members when using Paid Leave",
+   "description": "Professional staff (non-faculty) on Medical Leave for their own serious medical condition must use their accrued sick and vacation time first; the rest is unpaid unless short-term disability applies.",
+   "mechanism": "own_accrual",
+   "payer": "own_balance",
+   "faculty_group": "Professional Staff Members (non-faculty)",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "\"their own serious medical condition\"",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "entitlement_note": "The staff member's own balances; required to be used.",
+   "must_exhaust_first": [
+    "sick",
+    "vacation"
+   ],
+   "service_requirement": "none stated (accrued balances)",
+   "sequence": [
+    {
+     "relation": "within",
+     "component_id": "drexel_university_c6",
+     "note": "Paid time used during the leave counts toward it."
+    }
+   ],
+   "rule_applied": [
+    "R1",
+    "U5",
+    "S1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "When a Professional Staff Member takes Medical Leave for their own serious medical condition, the Professional Staff Member is required to use all of their available paid time during the Medical Leave.",
+     "Professional Staff Member is defined as an individual employed in any non-faculty category by Drexel University"
+    ],
+    "eligible_parent": [
+     "When a Professional Staff Member takes Medical Leave for their own serious medical condition, the Professional Staff Member is required to use all of their available paid time during the Medical Leave."
+    ],
+    "entitlement": [
+     "When a Professional Staff Member takes Medical Leave for their own serious medical condition, the Professional Staff Member is required to use all of their available paid time during the Medical Leave."
+    ],
+    "service_requirement": [
+     "The Professional Staff Member will be required to exhaust all available sick time (if applicable) and vacation time at the beginning of the leave."
+    ],
+    "sequence": [
+     "When a Professional Staff Member takes Medical Leave for their own serious medical condition, the Professional Staff Member is required to use all of their available paid time during the Medical Leave."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_hr3901_non_fmla_medical_leave_2017"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "own_accrual",
+     "quote": "The Professional Staff Member will be required to exhaust all available sick time (if applicable) and vacation time at the beginning of the leave."
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "own_balance",
+     "quote": "The Professional Staff Member will be required to exhaust all available sick time (if applicable) and vacation time at the beginning of the leave."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "When a Professional Staff Member takes Medical Leave for their own serious medical condition, the Professional Staff Member is required to use all of their available paid time during the Medical Leave."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "Professional Staff Members (non-faculty)",
+     "quote": "When a Professional Staff Member takes Medical Leave for their own serious medical condition, the Professional Staff Member is required to use all of their available paid time during the Medical Leave."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own condition)",
+     "quote": "When a Professional Staff Member takes Medical Leave for their own serious medical condition, the Professional Staff Member is required to use all of their available paid time during the Medical Leave."
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "When a Professional Staff Member takes Medical Leave for their own serious medical condition, the Professional Staff Member is required to use all of their available paid time during the Medical Leave."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "none stated",
+     "quote": "The Professional Staff Member will be required to exhaust all available sick time (if applicable) and vacation time at the beginning of the leave."
+    },
+    {
+     "field": "sequence",
+     "rule": "S1",
+     "answer": "within drexel_university_c6",
+     "quote": "When a Professional Staff Member takes Medical Leave for their own serious medical condition, the Professional Staff Member is required to use all of their available paid time during the Medical Leave."
+    }
+   ]
+  },
+  {
+   "component_id": "drexel_university_c12",
+   "institution_label": "Intermittent Leave",
+   "description": "FMLA leave for the birth and care of a child, or adoption or foster placement, taken intermittently or on a reduced schedule (e.g. 20 hours a week for 24 weeks), only with Drexel's prior written approval.",
+   "mechanism": "part_time_option",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "\"Faculty and Professional Staff Members\" (Faculty Member: tenured, tenure-track, non-tenured track or adjunct)",
+   "eligible_parent": [
+    "any_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "\"the birth and care or placement and care of a child for adoption or foster care\"",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "entitlement_note": "\"allowed only with Drexel's prior written approval\": the approval decides whether (V2); FMLA 2612(b)(1) requires the employer's agreement for birth and bonding leave.",
+   "duration_note": "No length of its own: the 12 FMLA weeks spread over a reduced schedule; the policy's example is 20 hours a week for 24 weeks. Pay level not stated (unpaid FMLA time).",
+   "service_requirement": "as FMLA: twelve months and 1,250 hours",
+   "statute_source": "29 U.S.C. 2612(b)(1)",
+   "statute_verified": true,
+   "rule_applied": [
+    "V2",
+    "R3",
+    "U2",
+    "U4"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Intermittent leave for the birth and care or placement and care of a child for adoption or foster care will be allowed only with Drexel’s prior written approval.",
+     "Faculty Member is defined as an individual employed by Drexel University in a tenured, tenure-track, non-tenured track or adjunct position who teaches within any college, school, center or institute in the University."
+    ],
+    "eligible_parent": [
+     "Intermittent leave for the birth and care or placement and care of a child for adoption or foster care will be allowed only with Drexel’s prior written approval."
+    ],
+    "entitlement": [
+     "Intermittent leave for the birth and care or placement and care of a child for adoption or foster care will be allowed only with Drexel’s prior written approval.",
+     "Leave under subparagraph (A) or (B) of subsection (a)(1) shall not be taken by an employee intermittently or on a reduced leave schedule unless the employee and the employer of the employee agree otherwise."
+    ],
+    "service_requirement": [
+     "employed by Drexel for at least twelve months, either consecutive or non-consecutively.",
+     "has worked at least 1,250 hours (60% FTE) during the twelve-month period prior to the start of Family Medical Leave."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R3",
+     "answer": "part_time_option",
+     "quote": "For example, a Faculty or Professional Staff Member who normally works 40 hours a week may work 20 hours a week for 24 weeks (12 x 40 = 24 x 20)."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Intermittent leave for the birth and care or placement and care of a child for adoption or foster care will be allowed only with Drexel’s prior written approval."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Intermittent leave for the birth and care or placement and care of a child for adoption or foster care will be allowed only with Drexel’s prior written approval."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Intermittent leave for the birth and care or placement and care of a child for adoption or foster care will be allowed only with Drexel’s prior written approval."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "any_parent, adoptive, foster",
+     "quote": "Intermittent leave for the birth and care or placement and care of a child for adoption or foster care will be allowed only with Drexel’s prior written approval."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "Intermittent leave for the birth and care or placement and care of a child for adoption or foster care will be allowed only with Drexel’s prior written approval."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U2",
+     "answer": "FMLA eligibility",
+     "quote": "has worked at least 1,250 hours (60% FTE) during the twelve-month period prior to the start of Family Medical Leave."
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "Reference date 2018-02-22. The five usable sources: 2018_00_link.txt (HR-33 Family and Medical Leave, governing faculty leave policy, Wayback 2018-02-11); 2018_01_tenure_promotion_policy_rev2010.txt (Tenure & Promotion Policy rev. May 19, 2010); 2018_02_hr3901_non_fmla_medical_leave_2017.txt (HR-39.01, effective October 2017); 2018_03_hr72_short_term_disability_2017.txt (HR-72); 2018_04_hr37_long_term_disability_rev2013.txt (HR-37).",
+  "Under the rule for records with no governing document (reader instructions §3): HR-33 (a leave policy covering 'tenured, tenure-track, non-tenured track or adjunct' faculty) and the Tenure & Promotion Policy (a tenure-clock policy) are governing documents for faculty leave, so missing is false.",
+  "Drexel has no dedicated paid parental or maternity leave in the saved documents. The faculty benefit for a birth is FMLA leave (12 weeks) with salary continuation (6 weeks after year one, 12 after year two; U8 two-year member: 12 weeks), discretionary teaching relief for both terms when the leave spans two terms, the non-FMLA medical leave (90 calendar days in 12 months, FML time counted against it), employee-paid STD, university-paid LTD, and an automatic one-year tenure extension for a primary caregiver.",
+  "Calendar: HR-33 and HR-39.01 define full-time faculty by 'three or more quarters'; the 'academic terms' are quarters, so calendar.kind = quarter (R8, Drexel example), and the term length follows R8's order.",
+  "Birth parent chain: FMLA leave 12 weeks (c1) with salary continuation 12 weeks within it (c2); non-FMLA medical leave 90 calendar days concurrent with FMLA (c6), with employee-paid STD within it from week 2 to day 90 (c8); both leaves within discretionary teaching relief for both terms when the leave spans two terms (c3, c7, concurrent); LTD from day 91 (c9, no duration).",
+  "Non-birth parent chain: FMLA leave 12 weeks (c1) with salary continuation 12 weeks within it (c2); non-FMLA medical leave 90 calendar days concurrent with FMLA (c6); both within discretionary teaching relief for both terms when the leave spans two terms (c3, c7, concurrent).",
+  "HR-33 says that faculty 'not eligible for salary continuation for the duration of their leave' may use short-term disability if they purchased coverage; for the two-year member salary continuation covers the 12 FMLA weeks. STD is employee-paid (R1d) and counts in no paid figure.",
+  "HR-33 restates the tenure extension as 'automatic' after each live birth or adoption without the primary-caregiver condition and refers to the Tenure and Promotion Policy, which governs; c4 is coded primary caregiver from the governing policy.",
+  "Not components: HR-33 and HR-39.01 'no extra duties above his/her normal workload shall be expected or required' before and after the leave (a workload protection with no relief); benefits continuation during leave (health insurance, life insurance, LTD, retirement contributions); LTD's statement that the department 'is not obligated to keep the ... position beyond the 90 calendar day period of disability' (consistent with the 90-day medical leave).",
+  "Cross-referenced but not saved: the Human Resources 'Leave of Absence' guidelines; 'FMLA FAQs'; 'Initiating a Claim with Guardian [PDF]'; Drexel's Attendance Policy (staff); the Academic Calendars webpage (tenure calendars); academic-unit tenure and promotion policies; AAUP Policy Documents and Reports (10th ed., 2006) and the 'Recommended Institutional Regulations on Academic Freedom and Tenure' (dismissal standards). The 'Policies 1-16' cross-references for the tenure policy are page footers ('Drexel University Academic Policies'), not separate documents.",
+  "Statute verification: FMLA 12 workweeks checked against statute text 2026_00_us_fmla_29usc2612 (2612(a)(1)); eligibility (1,250 hours) against 2026_01_us_fmla_29usc2611_definitions.txt; intermittent/reduced schedule by agreement, 2612(b)(1). Pennsylvania has no baseline rows; no Pennsylvania statute is named in the documents."
+ ],
+ "statutory_floor": {
+  "jurisdiction": "US",
+  "year": "2018",
+  "weeks_birth": 12.0,
+  "weeks_nonbirth": 12.0,
+  "statute": "Family and Medical Leave Act (FMLA) (29 U.S.C. 2611-2612)",
+  "source_doc": "2026_00_us_fmla_29usc2612",
+  "table": "statutory_baseline.csv"
+ }
+}

@@ -1,0 +1,2539 @@
+{
+ "institution": "University of Houston",
+ "slug": "university_of_houston",
+ "country": "US",
+ "model": "claude-opus-5-5",
+ "codebook_version": "1.25",
+ "schema_version": "1.25",
+ "reference_date": "2018-03-13",
+ "calendar": {
+  "term_weeks": null,
+  "note": "R8: the documents state semesters ('one regular length semester'; 'distributed across 2 long semesters') without a length; semester default 16",
+  "kind": "semester"
+ },
+ "documents": [
+  {
+   "doc_id": "2018_00_link",
+   "title": "MAPP 02.02.01 Family and Medical Leave",
+   "url": "http://www.uh.edu/af/universityservices/policies/mapp/02/020201.pdf",
+   "version_or_effective_date": "Revised December 2, 2016 (Wayback capture 2017-07-05)",
+   "retrieved": "2026-10-31"
+  },
+  {
+   "doc_id": "2018_02_mapp_020203_leaves_of_absence",
+   "title": "MAPP 02.02.03 Leaves of Absence",
+   "url": "http://www.uh.edu/af/universityservices/policies/mapp/02/020203.pdf",
+   "version_or_effective_date": "Revised August 8, 2016 (Wayback capture 2017-07-18)",
+   "retrieved": "2026-10-31"
+  },
+  {
+   "doc_id": "2018_04_faculty_handbook_25th_ed_feb2016",
+   "title": "University of Houston Faculty Handbook, Revised 25th Edition",
+   "url": "https://www.uh.edu/provost/policies-resources/faculty/_document-faculty/2015-faculty-handbook.pdf",
+   "version_or_effective_date": "UH Faculty Handbook: February 2016",
+   "retrieved": "2026-10-31"
+  },
+  {
+   "doc_id": "2018_05_workload_redistribution_childbirth_adoption_feb2018",
+   "title": "Workload Redistribution Program Associated with Childbirth and Adoption for Tenured and Tenure-Track Faculty",
+   "url": "https://www.uh.edu/provost/faculty/faculty-policies/_document-faculty/child-workload-distribution-policy.pdf",
+   "version_or_effective_date": "Approved by the Office of the Provost (Feb 28, 2018)",
+   "retrieved": "2026-10-31"
+  },
+  {
+   "doc_id": "2018_06_promotion_tenure_guidelines_2017",
+   "title": "Promotion and Tenure Guidelines 2017-2018",
+   "url": "http://www.uh.edu/provost/policies/faculty/_document-faculty/2017-pt-guidelines.pdf",
+   "version_or_effective_date": "May 2017, Office of the Provost (Wayback capture 2017-10-20)",
+   "retrieved": "2026-10-31"
+  },
+  {
+   "doc_id": "2018_07_uhs_sam_02d08_parental_leave",
+   "title": "UH System Administrative Memorandum 02.D.08 Parental Leave",
+   "url": "http://www.uhsystem.edu/compliance-ethics/_docs/sam/02/2d8.pdf",
+   "version_or_effective_date": "Revised July 6, 2016",
+   "retrieved": "2026-10-31"
+  },
+  {
+   "doc_id": "2018_08_mapp_020202_parental_leave_rev_oct2017",
+   "title": "MAPP 02.02.02 Parental Leave",
+   "url": "https://uh.edu/policies/_docs/mapp/02/020202.pdf",
+   "version_or_effective_date": "Revised October 10, 2017",
+   "retrieved": "2026-10-31"
+  }
+ ],
+ "missing": false,
+ "scope_accounting": {
+  "C1": {
+   "absent": {
+    "documents": [
+     "2018_00_link",
+     "2018_02_mapp_020203_leaves_of_absence",
+     "2018_04_faculty_handbook_25th_ed_feb2016",
+     "2018_05_workload_redistribution_childbirth_adoption_feb2018",
+     "2018_06_promotion_tenure_guidelines_2017",
+     "2018_07_uhs_sam_02d08_parental_leave",
+     "2018_08_mapp_020202_parental_leave_rev_oct2017"
+    ],
+    "terms": [
+     "maternity",
+     "paternity",
+     "parental leave",
+     "childbirth leave",
+     "adoption leave",
+     "paid parental",
+     "newborn"
+    ]
+   }
+  },
+  "C2": {
+   "components": [
+    "university_of_houston_c9",
+    "university_of_houston_c10"
+   ]
+  },
+  "C3": {
+   "components": [
+    "university_of_houston_c2",
+    "university_of_houston_c3",
+    "university_of_houston_c4",
+    "university_of_houston_c5",
+    "university_of_houston_c7",
+    "university_of_houston_c8"
+   ]
+  },
+  "C4": {
+   "components": [
+    "university_of_houston_c1"
+   ],
+   "not_components": [
+    {
+     "statute": "Tex. Gov't Code s. 661.913 and the State General Appropriations Act parental leave (MAPP 02.02.02; SAM 02.D.08)",
+     "reason": "U8: only for employees not eligible for FMLA (under 12 months of State service or 1,250 hours); recorded in the note of the FMLA component c1. Statute not saved."
+    },
+    {
+     "statute": "State General Appropriations Act (general leave provisions)",
+     "reason": "source of the State leave benefits implemented by the MAPPs coded here (sick leave, vacation, leave without pay, emergency leave); no separate provision for becoming a parent beyond those components and the U8 parental leave"
+    },
+    {
+     "statute": "Fair Labor Standards Act (FLSA)",
+     "reason": "compensatory time for non-exempt employees; not a leave for becoming a parent (U4)"
+    },
+    {
+     "statute": "Americans with Disabilities Act; Rehabilitation Act of 1973 ss. 503-504",
+     "reason": "disability accommodation and non-discrimination statutes; not components (U4)"
+    },
+    {
+     "statute": "Civil Rights Act of 1964 Titles VI and VII; Title IX of the Education Amendments of 1972; Age Discrimination in Employment Act; Vietnam Era Veterans Readjustment Act s. 402; Executive Orders 11246 and 11375",
+     "reason": "non-discrimination; no leave or length for a pregnancy-related absence (U4)"
+    },
+    {
+     "statute": "Texas Workers' Compensation Act",
+     "reason": "job-related injury; unrelated to becoming a parent (U4)"
+    },
+    {
+     "statute": "Texas Human Resources Code s. 91.002",
+     "reason": "definition of blind employee for seeing-eye dog training leave; unrelated (U4)"
+    },
+    {
+     "statute": "Texas Government Code ss. 554.002 (Whistleblower Act), 572.051 (standards of conduct), 658.002, 658.007 (working hours), 51.974 (course information), 417.008 (fire safety); Texas Administrative Code Title 28 ch. 34, Title 1 ch. 202, s. 4.10",
+     "reason": "unrelated to leave for a birth or adoption (U4); 658.002/658.007 are cited only as conditions for approving teaching relief"
+    },
+    {
+     "statute": "Texas Education Code ss. 51.101-108 (faculty development leave), 51.402, 51.942, 51.948, 51.917, 51.907, 51.203, 51.209, 51.912",
+     "reason": "faculty development leave, workload reporting, post-tenure review, administrator leave and other matters; not leave for becoming a parent (U4)"
+    },
+    {
+     "statute": "COBRA; Affordable Care Act; Social Security Act; Internal Revenue Code s. 125",
+     "reason": "insurance continuation and benefits eligibility; not leave (U4)"
+    },
+    {
+     "statute": "FERPA; HIPAA; Gramm-Leach-Bliley Act; Title 17 U.S. Code (copyright); Digital Millennium Copyright Act; 41 U.S.C. 423 (procurement integrity); Executive Order 12549; 42 CFR 93; 45 CFR 689",
+     "reason": "records, privacy, intellectual property and research administration; unrelated (U4)"
+    },
+    {
+     "statute": "Drug-Free Workplace Act; Drug-Free Schools and Communities Act; Controlled Substances Act; Texas Controlled Substances Act; Texas Health and Safety Code s. 85.001 (HIV Services Act)",
+     "reason": "workplace conduct and health policy; unrelated (U4)"
+    },
+    {
+     "statute": "Texas Penal Code s. 46.03; Texas Tort Claims Act and Civil Practice and Remedies Code chs. 101, 104; Texas Occupational Safety Act; Toxic Substances Control Act; Resource Conservation and Recovery Act; Texas Hazard Communication Act",
+     "reason": "campus safety, liability and environmental regulation; unrelated (U4)"
+    }
+   ]
+  },
+  "C5": {
+   "components": [
+    "university_of_houston_c1",
+    "university_of_houston_c2"
+   ]
+  },
+  "C6": {
+   "components": [
+    "university_of_houston_c14",
+    "university_of_houston_c15",
+    "university_of_houston_c16"
+   ]
+  },
+  "C7": {
+   "components": [
+    "university_of_houston_c11",
+    "university_of_houston_c12",
+    "university_of_houston_c13"
+   ]
+  },
+  "C8": {
+   "components": [
+    "university_of_houston_c6"
+   ]
+  },
+  "C9": {
+   "absent": {
+    "documents": [
+     "2018_00_link",
+     "2018_02_mapp_020203_leaves_of_absence",
+     "2018_04_faculty_handbook_25th_ed_feb2016",
+     "2018_05_workload_redistribution_childbirth_adoption_feb2018",
+     "2018_06_promotion_tenure_guidelines_2017",
+     "2018_07_uhs_sam_02d08_parental_leave",
+     "2018_08_mapp_020202_parental_leave_rev_oct2017"
+    ],
+    "terms": [
+     "pregnancy",
+     "accommodation",
+     "transfer",
+     "light duty",
+     "lactation",
+     "hazard",
+     "alternative position"
+    ]
+   }
+  },
+  "C10": {
+   "absent": {
+    "documents": [
+     "2018_00_link",
+     "2018_02_mapp_020203_leaves_of_absence",
+     "2018_04_faculty_handbook_25th_ed_feb2016",
+     "2018_05_workload_redistribution_childbirth_adoption_feb2018",
+     "2018_06_promotion_tenure_guidelines_2017",
+     "2018_07_uhs_sam_02d08_parental_leave",
+     "2018_08_mapp_020202_parental_leave_rev_oct2017"
+    ],
+    "terms": [
+     "first days",
+     "FMLA-qualifying",
+     "paid as regular work time",
+     "family and medical leave with pay"
+    ]
+   }
+  }
+ },
+ "passage_dispositions": {
+  "2018_00_link#001": {
+   "used_in": [
+    "university_of_houston_c1"
+   ]
+  },
+  "2018_00_link#002": {
+   "used_in": [
+    "university_of_houston_c1"
+   ]
+  },
+  "2018_00_link#003": {
+   "not_relevant": "FMLA definitions (self-care, next of kin, qualifying exigencies, regimen of treatment)"
+  },
+  "2018_00_link#004": {
+   "used_in": [
+    "university_of_houston_c1"
+   ]
+  },
+  "2018_00_link#005": {
+   "used_in": [
+    "university_of_houston_c1",
+    "university_of_houston_c2"
+   ]
+  },
+  "2018_00_link#006": {
+   "used_in": [
+    "university_of_houston_c1"
+   ]
+  },
+  "2018_00_link#007": {
+   "used_in": [
+    "university_of_houston_c1"
+   ]
+  },
+  "2018_00_link#008": {
+   "used_in": [
+    "university_of_houston_c1",
+    "university_of_houston_c14"
+   ]
+  },
+  "2018_02_mapp_020203_leaves_of_absence#001": {
+   "used_in": [
+    "university_of_houston_c4"
+   ]
+  },
+  "2018_02_mapp_020203_leaves_of_absence#002": {
+   "used_in": [
+    "university_of_houston_c16",
+    "university_of_houston_c4",
+    "university_of_houston_c3"
+   ]
+  },
+  "2018_02_mapp_020203_leaves_of_absence#003": {
+   "used_in": [
+    "university_of_houston_c15"
+   ]
+  },
+  "2018_02_mapp_020203_leaves_of_absence#004": {
+   "not_relevant": "witness, closure, volunteer firefighter, foster-parent DPRS meeting, Red Cross and blind-employee leaves: unrelated to a birth or adoption"
+  },
+  "2018_02_mapp_020203_leaves_of_absence#005": {
+   "used_in": [
+    "university_of_houston_c14",
+    "university_of_houston_c1"
+   ]
+  },
+  "2018_02_mapp_020203_leaves_of_absence#006": {
+   "not_relevant": "revision log"
+  },
+  "2018_04_faculty_handbook_25th_ed_feb2016#001": {
+   "not_relevant": "table of contents or index"
+  },
+  "2018_04_faculty_handbook_25th_ed_feb2016#002": {
+   "not_relevant": "table of contents or index"
+  },
+  "2018_04_faculty_handbook_25th_ed_feb2016#003": {
+   "not_relevant": "table of contents or index"
+  },
+  "2018_04_faculty_handbook_25th_ed_feb2016#004": {
+   "not_relevant": "non-discrimination statement; no leave provision"
+  },
+  "2018_04_faculty_handbook_25th_ed_feb2016#005": {
+   "not_relevant": "list of standing committees"
+  },
+  "2018_04_faculty_handbook_25th_ed_feb2016#006": {
+   "not_relevant": "appointment definitions and term of appointment"
+  },
+  "2018_04_faculty_handbook_25th_ed_feb2016#007": {
+   "not_relevant": "faculty rank designations"
+  },
+  "2018_04_faculty_handbook_25th_ed_feb2016#008": {
+   "not_relevant": "non-tenure-track appointment types"
+  },
+  "2018_04_faculty_handbook_25th_ed_feb2016#009": {
+   "not_relevant": "joint appointments and separation definitions"
+  },
+  "2018_04_faculty_handbook_25th_ed_feb2016#010": {
+   "not_relevant": "graduate student regulations"
+  },
+  "2018_04_faculty_handbook_25th_ed_feb2016#011": {
+   "used_in": [
+    "university_of_houston_c11",
+    "university_of_houston_c12"
+   ]
+  },
+  "2018_04_faculty_handbook_25th_ed_feb2016#012": {
+   "not_relevant": "tenure award procedure"
+  },
+  "2018_04_faculty_handbook_25th_ed_feb2016#013": {
+   "not_relevant": "tenure for non-citizens"
+  },
+  "2018_04_faculty_handbook_25th_ed_feb2016#014": {
+   "used_in": [
+    "university_of_houston_c11",
+    "university_of_houston_c13"
+   ]
+  },
+  "2018_04_faculty_handbook_25th_ed_feb2016#015": {
+   "not_relevant": "non-renewal notice and time in rank"
+  },
+  "2018_04_faculty_handbook_25th_ed_feb2016#016": {
+   "used_in": [
+    "university_of_houston_c11",
+    "university_of_houston_c12"
+   ]
+  },
+  "2018_04_faculty_handbook_25th_ed_feb2016#017": {
+   "not_relevant": "promotion and tenure review procedures"
+  },
+  "2018_04_faculty_handbook_25th_ed_feb2016#018": {
+   "not_relevant": "dismissal, financial exigency and program discontinuance"
+  },
+  "2018_04_faculty_handbook_25th_ed_feb2016#019": {
+   "not_relevant": "dismissal, financial exigency and program discontinuance"
+  },
+  "2018_04_faculty_handbook_25th_ed_feb2016#020": {
+   "not_relevant": "dismissal, financial exigency and program discontinuance"
+  },
+  "2018_04_faculty_handbook_25th_ed_feb2016#021": {
+   "not_relevant": "dismissal, financial exigency and program discontinuance"
+  },
+  "2018_04_faculty_handbook_25th_ed_feb2016#022": {
+   "used_in": [
+    "university_of_houston_c14",
+    "university_of_houston_c15",
+    "university_of_houston_c8"
+   ]
+  },
+  "2018_04_faculty_handbook_25th_ed_feb2016#023": {
+   "used_in": [
+    "university_of_houston_c13",
+    "university_of_houston_c14"
+   ]
+  },
+  "2018_04_faculty_handbook_25th_ed_feb2016#024": {
+   "used_in": [
+    "university_of_houston_c2",
+    "university_of_houston_c3",
+    "university_of_houston_c4",
+    "university_of_houston_c5",
+    "university_of_houston_c6",
+    "university_of_houston_c7"
+   ]
+  },
+  "2018_04_faculty_handbook_25th_ed_feb2016#025": {
+   "used_in": [
+    "university_of_houston_c1",
+    "university_of_houston_c10"
+   ]
+  },
+  "2018_04_faculty_handbook_25th_ed_feb2016#026": {
+   "not_relevant": "consulting policy"
+  },
+  "2018_04_faculty_handbook_25th_ed_feb2016#027": {
+   "not_relevant": "research purchasing and conflict of interest"
+  },
+  "2018_04_faculty_handbook_25th_ed_feb2016#028": {
+   "not_relevant": "intellectual property"
+  },
+  "2018_04_faculty_handbook_25th_ed_feb2016#029": {
+   "not_relevant": "intellectual property income distribution"
+  },
+  "2018_04_faculty_handbook_25th_ed_feb2016#030": {
+   "not_relevant": "academic honesty policy"
+  },
+  "2018_04_faculty_handbook_25th_ed_feb2016#031": {
+   "not_relevant": "bookstore and information technology"
+  },
+  "2018_04_faculty_handbook_25th_ed_feb2016#032": {
+   "not_relevant": "Faculty Senate committee bylaws"
+  },
+  "2018_04_faculty_handbook_25th_ed_feb2016#033": {
+   "not_relevant": "Faculty Senate committee bylaws"
+  },
+  "2018_04_faculty_handbook_25th_ed_feb2016#034": {
+   "not_relevant": "Faculty Senate committee bylaws"
+  },
+  "2018_04_faculty_handbook_25th_ed_feb2016#035": {
+   "not_relevant": "committee bylaws and drug and alcohol policy"
+  },
+  "2018_04_faculty_handbook_25th_ed_feb2016#036": {
+   "not_relevant": "table of contents or index"
+  },
+  "2018_04_faculty_handbook_25th_ed_feb2016#037": {
+   "not_relevant": "table of contents or index"
+  },
+  "2018_04_faculty_handbook_25th_ed_feb2016#038": {
+   "not_relevant": "table of contents or index"
+  },
+  "2018_04_faculty_handbook_25th_ed_feb2016#039": {
+   "not_relevant": "table of contents or index"
+  },
+  "2018_04_faculty_handbook_25th_ed_feb2016#040": {
+   "not_relevant": "table of contents or index"
+  },
+  "2018_04_faculty_handbook_25th_ed_feb2016#041": {
+   "not_relevant": "table of contents or index"
+  },
+  "2018_04_faculty_handbook_25th_ed_feb2016#042": {
+   "not_relevant": "table of contents or index"
+  },
+  "2018_04_faculty_handbook_25th_ed_feb2016#043": {
+   "not_relevant": "table of contents or index"
+  },
+  "2018_04_faculty_handbook_25th_ed_feb2016#044": {
+   "not_relevant": "table of contents or index"
+  },
+  "2018_05_workload_redistribution_childbirth_adoption_feb2018#001": {
+   "used_in": [
+    "university_of_houston_c9",
+    "university_of_houston_c11"
+   ]
+  },
+  "2018_06_promotion_tenure_guidelines_2017#001": {
+   "not_relevant": "table of contents or index"
+  },
+  "2018_06_promotion_tenure_guidelines_2017#002": {
+   "used_in": [
+    "university_of_houston_c11",
+    "university_of_houston_c12"
+   ]
+  },
+  "2018_06_promotion_tenure_guidelines_2017#003": {
+   "not_relevant": "tenure award procedure"
+  },
+  "2018_06_promotion_tenure_guidelines_2017#004": {
+   "not_relevant": "tenure for non-citizens"
+  },
+  "2018_06_promotion_tenure_guidelines_2017#005": {
+   "used_in": [
+    "university_of_houston_c11",
+    "university_of_houston_c13"
+   ]
+  },
+  "2018_06_promotion_tenure_guidelines_2017#006": {
+   "used_in": [
+    "university_of_houston_c11",
+    "university_of_houston_c12"
+   ]
+  },
+  "2018_06_promotion_tenure_guidelines_2017#007": {
+   "not_relevant": "promotion and tenure review procedures"
+  },
+  "2018_07_uhs_sam_02d08_parental_leave#001": {
+   "used_in": [
+    "university_of_houston_c1"
+   ]
+  },
+  "2018_08_mapp_020202_parental_leave_rev_oct2017#001": {
+   "used_in": [
+    "university_of_houston_c1"
+   ]
+  }
+ },
+ "mechanism_slots": {
+  "employer_paid_leave": {
+   "components": [
+    "university_of_houston_c15"
+   ]
+  },
+  "employer_childbirth_benefit": {
+   "absent": "no childbirth-specific paid period in any saved document (searched all seven usable files for maternity, childbirth, pregnancy and confinement, birth recovery, paid parental)"
+  },
+  "generic_sick_or_disability_plan": {
+   "components": [
+    "university_of_houston_c4",
+    "university_of_houston_c7",
+    "university_of_houston_c8"
+   ]
+  },
+  "own_accrual": {
+   "components": [
+    "university_of_houston_c2",
+    "university_of_houston_c16"
+   ]
+  },
+  "donated_leave": {
+   "components": [
+    "university_of_houston_c3"
+   ]
+  },
+  "government_benefit": {
+   "absent": "no state or federal paid programme named in any saved document (searched for paid family leave, disability insurance, TDI, state program)"
+  },
+  "employer_topup": {
+   "absent": "no top-up of a government benefit (searched for top-up, supplement, integrated with)"
+  },
+  "modified_duties": {
+   "components": [
+    "university_of_houston_c9",
+    "university_of_houston_c10"
+   ]
+  },
+  "unpaid_leave": {
+   "components": [
+    "university_of_houston_c1",
+    "university_of_houston_c5",
+    "university_of_houston_c14"
+   ]
+  },
+  "tenure_clock": {
+   "components": [
+    "university_of_houston_c11",
+    "university_of_houston_c12",
+    "university_of_houston_c13"
+   ]
+  },
+  "part_time_option": {
+   "components": [
+    "university_of_houston_c6"
+   ]
+  },
+  "other": {
+   "absent": "no rearrangement, pregnancy accommodation or hazard programme (searched for accommodation, transfer, pregnancy, light duty)"
+  }
+ },
+ "baseline_accounting": {
+  "Family and Medical Leave Act (FMLA)": {
+   "components": [
+    "university_of_houston_c1"
+   ]
+  },
+  "Federal Employee Paid Leave Act (paid parental leave for federal civilian employees)": {
+   "not_applicable": "federal civilian employees only; UH is a Texas state institution and no saved document mentions it"
+  },
+  "Parental leave for state employees not eligible for FMLA": {
+   "not_applicable": "named in MAPP 02.02.02, SAM 02.D.08 and the Handbook (Tex. Gov't Code 661.913) but only for employees not eligible for FMLA; U8: recorded in the note of c1, not as a component"
+  }
+ },
+ "leave_limits": [],
+ "components": [
+  {
+   "component_id": "university_of_houston_c1",
+   "institution_label": "Family and Medical Leave",
+   "description": "Federal FMLA as implemented by UH MAPP 02.02.01: up to 12 workweeks of unpaid job-protected leave in a year for the birth and care of a newborn, placement for adoption or foster care, care of a family member with a serious health condition, or the employee's own serious health condition; accrued sick leave and vacation must be used concurrently. Employees not yet FMLA-eligible (under 12 months of State service or 1,250 hours) receive Texas parental leave instead (U8: recorded here, not as a component).",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "rule_applied": [
+    "U2",
+    "U4",
+    "S1",
+    "R9",
+    "U5",
+    "U8",
+    "R13",
+    "V2"
+   ],
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "eligible employees; 'Full-time (100% FTE) exempt staff and faculty are presumed to have worked 1,250 hours'",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "birth of a child and to care for the newborn child; placement of a child with the employee for adoption or foster care; employee's own serious health condition; care of a family member; 'available equally to both sexes'",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "entitlement_note": "Statutory entitlement (U2); the MAPP restates it.",
+   "duration": {
+    "value": 12,
+    "units": "workweek",
+    "qualifier": "up_to"
+   },
+   "duration_note": "12 workweeks in a 'year' measured forward from the first date of leave (statute: 'a total of 12 workweeks'; the MAPP: 'up to a total of 12 workweeks'). U8: employees who have worked under 12 months for the State of Texas and fewer than 1,250 hours for UH are not FMLA-eligible and instead receive up to 12 weeks of parental leave for birth or placement under the State General Appropriations Act and Tex. Gov't Code 661.913 (MAPP 02.02.02 rev. Oct 10, 2017; SAM 02.D.08; Handbook p.104), with accrued paid leave used first; the figures describe an FMLA-eligible member, so that path is recorded here, not as a component.",
+   "must_exhaust_first": [
+    "sick",
+    "vacation"
+   ],
+   "medical_certification": true,
+   "medical_certification_note": "Certification of Health Care Provider for the employee's or family member's serious health condition; legal orders for adoption or placement",
+   "dual_employee_rule": "spouses both employed by UH: combined 12 weeks between them for the birth or placement of a child",
+   "service_requirement": "12 months worked for the State of Texas and 1,250 hours worked for UH in the preceding 12 months (full-time faculty presumed to have worked 1,250 hours)",
+   "time_window": "leave for birth or placement must be taken within 12 months after the event; may begin before the birth or adoption",
+   "notice": "apply at least 30 calendar days in advance where foreseeable",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "relief_note": "formal leave of absence; relief not stated (R9)",
+   "statute_source": "29 U.S.C. 2612(a)(1)(A)-(B) (12 workweeks); 29 U.S.C. 2611(2) (eligibility)",
+   "statute_verified": true,
+   "evidence": {
+    "faculty_group": [
+     "Full-time (100% FTE) exempt staff and faculty are presumed to have worked 1,250 hours."
+    ],
+    "eligible_parent": [
+     "because of the birth of a child and to care for the newborn child.",
+     "because of the placement of a child with the employee for adoption or foster care.",
+     "because the employee’s own serious health condition makes the employee unable",
+     "because the employee is needed to care for a family member (child, spouse, or parent) with a serious health condition.",
+     "Leave for birth or placement of a child is available equally to both sexes."
+    ],
+    "entitlement": [
+     "allows “eligible employees” to take job-protected, leave for up to a total of 12 workweeks",
+     "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period"
+    ],
+    "duration": [
+     "allows “eligible employees” to take job-protected, leave for up to a total of 12 workweeks",
+     "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period"
+    ],
+    "service_requirement": [
+     "Has worked for the State of Texas a total of at least 12 months prior to the date of leave",
+     "Full-time (100% FTE) exempt staff and faculty are presumed to have worked 1,250 hours."
+    ],
+    "must_exhaust_first": [
+     "An eligible employee must use all applicable accrued paid leave balances (including sick leave and vacation) while taking family and medical leave"
+    ],
+    "dual_employee_rule": [
+     "they are entitled together to a total of 12 weeks of leave between them (rather than 12 weeks each) for the birth or placement of a child."
+    ],
+    "time_window": [
+     "Leave for the birth or placement of a child must take place within 12 months after the event"
+    ],
+    "duration_note": [
+     "The State of Texas extends the leave benefits of the Federal Family and Medical Leave Act for the following qualifying events to employees who have worked for a period of less than 12 months for the State of Texas and fewer than 1,250 hours for the University of Houston.",
+     "UHS employees who have not met the employee eligibility requirements for FMLA are entitled to parental leave for the following qualifying conditions:"
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link",
+    "2018_02_mapp_020203_leaves_of_absence",
+    "2018_04_faculty_handbook_25th_ed_feb2016",
+    "2018_07_uhs_sam_02d08_parental_leave",
+    "2018_08_mapp_020202_parental_leave_rev_oct2017"
+   ],
+   "flags": [
+    "cross_reference_not_saved: SAM 02.D.06 Family and Medical Leave"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "allows “eligible employees” to take job-protected, leave for up to a total of 12 workweeks"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "An eligible employee must use all applicable accrued paid leave balances (including sick leave and vacation) while taking family and medical leave"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "because of the birth of a child and to care for the newborn child."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Full-time (100% FTE) exempt staff and faculty are presumed to have worked 1,250 hours."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent, non_birth_parent, adoptive, foster (own serious health condition and family care both named)",
+     "quote": "Leave for birth or placement of a child is available equally to both sexes."
+    },
+    {
+     "field": "entitlement",
+     "rule": "U2",
+     "answer": "guaranteed",
+     "quote": "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period"
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "12 workweeks, up_to ('up to a total of')",
+     "quote": "allows “eligible employees” to take job-protected, leave for up to a total of 12 workweeks"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U2",
+     "answer": "12 months State service and 1,250 hours; met by the two-year member (U8)",
+     "quote": "Has worked for the State of Texas a total of at least 12 months prior to the date of leave"
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave, relief not stated)",
+     "quote": "allows “eligible employees” to take job-protected, leave for up to a total of 12 workweeks"
+    },
+    {
+     "field": "duration_note",
+     "rule": "U8",
+     "answer": "Texas parental leave for FMLA-ineligible employees recorded in this note, not as a component",
+     "quote": "The State of Texas extends the leave benefits of the Federal Family and Medical Leave Act for the following qualifying events to employees who have worked for a period of less than 12 months for the State of Texas and fewer than 1,250 hours for the University of Houston."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_houston_c2",
+   "institution_label": "Sick Leave Policy",
+   "description": "Accrued paid sick leave (8 hours per month of full-time employment, carried forward) usable for the faculty member's own sickness, injury, or pregnancy and confinement, or to care for an ill immediate family member; must be used while on FMLA leave.",
+   "mechanism": "own_accrual",
+   "payer": "own_balance",
+   "rule_applied": [
+    "R1",
+    "U5",
+    "U6",
+    "S1",
+    "V2"
+   ],
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Full-time faculty of the University of Houston System",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent"
+   ],
+   "eligible_parent_wording": "sickness, injury, or pregnancy and confinement; care for and assist a member of his/her immediate family who is ill; 'A father who is otherwise healthy cannot use sick leave for the birth of a child unless he needs to care for the child and/or mother who has a serious health condition.'",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "pay_fraction": "without deduction in salary",
+   "duration_note": "No stated length: an accrued balance of 8 hours per month of full-time employment (1/2 time and above pro rata), carried forward; a balance of unknown length adds no weeks (R1).",
+   "medical_certification": true,
+   "medical_certification_note": "health professional's certificate for absences of more than three working days",
+   "service_requirement": "none stated (accrual begins on the first day of employment)",
+   "sequence": [
+    {
+     "relation": "concurrent_with",
+     "component_id": "university_of_houston_c1",
+     "note": "accrued sick leave must be used while on family and medical leave (MAPP 02.02.01 IV.C)"
+    }
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Full-time faculty of the University of Houston System shall, without deduction in salary, be entitled to sick leave"
+    ],
+    "eligible_parent": [
+     "Sick leave with pay may be taken when sickness, injury, or pregnancy and confinement prevents the faculty member's performance of duty, or when the faculty member is needed to care for and assist a member of his/her immediate family who is ill.",
+     "A father who is otherwise healthy cannot use sick leave for the birth of a child unless he needs to care for the child and/or mother who has a serious health condition."
+    ],
+    "entitlement": [
+     "Full-time faculty of the University of Houston System shall, without deduction in salary, be entitled to sick leave"
+    ],
+    "pay_fraction": [
+     "Full-time faculty of the University of Houston System shall, without deduction in salary, be entitled to sick leave"
+    ],
+    "service_requirement": [
+     "A faculty member will begin earning entitlement for paid sick leave on the first day of employment"
+    ],
+    "sequence": [
+     "An eligible employee must use all applicable accrued paid leave balances (including sick leave and vacation) while taking family and medical leave"
+    ],
+    "medical_certification": [
+     "a faculty member absent due to illness shall send to the administrative head of the responsible unit a health professional's certificate showing the cause or nature of the illness"
+    ],
+    "duration_note": [
+     "The faculty member will accrue sick leave at the rate of eight hours per month of full-time employment."
+    ]
+   },
+   "doc_ids": [
+    "2018_04_faculty_handbook_25th_ed_feb2016",
+    "2018_00_link",
+    "2018_02_mapp_020203_leaves_of_absence"
+   ],
+   "flags": [
+    "cross_reference_not_saved: System Administrative Memorandum 02.D.01 Vacation and Sick Leave"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "own_accrual",
+     "quote": "The faculty member will accrue sick leave at the rate of eight hours per month of full-time employment."
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "own_balance",
+     "quote": "The faculty member will accrue sick leave at the rate of eight hours per month of full-time employment."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Sick leave with pay may be taken when sickness, injury, or pregnancy and confinement prevents the faculty member's performance of duty, or when the faculty member is needed to care for and assist a member of his/her immediate family who is ill."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Full-time faculty of the University of Houston System shall, without deduction in salary, be entitled to sick leave"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own illness, pregnancy and confinement) and non_birth_parent (care of ill family member)",
+     "quote": "Sick leave with pay may be taken when sickness, injury, or pregnancy and confinement prevents the faculty member's performance of duty, or when the faculty member is needed to care for and assist a member of his/her immediate family who is ill."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "Full-time faculty of the University of Houston System shall, without deduction in salary, be entitled to sick leave"
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "without deduction in salary (from own balance)",
+     "quote": "Full-time faculty of the University of Houston System shall, without deduction in salary, be entitled to sick leave"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "none stated",
+     "quote": "A faculty member will begin earning entitlement for paid sick leave on the first day of employment"
+    },
+    {
+     "field": "sequence",
+     "rule": "S1",
+     "answer": "concurrent_with FMLA (balances used during the FMLA period)",
+     "quote": "An eligible employee must use all applicable accrued paid leave balances (including sick leave and vacation) while taking family and medical leave"
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_houston_c3",
+   "institution_label": "Sick Leave Pool",
+   "description": "Donated sick-leave pool (Board of Regents Policy 57.09) giving salary continuation to an employee who has exhausted all paid leave because of the employee's or an immediate family member's catastrophic illness or injury; 90-day lifetime maximum in increments of up to 30 days; grants depend on pool availability.",
+   "mechanism": "donated_leave",
+   "payer": "own_balance",
+   "rule_applied": [
+    "R1d",
+    "U5",
+    "V2",
+    "R15",
+    "R11"
+   ],
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "eligible employees; 'faculty may be eligible for additional days from the campus sick leave pool'",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent"
+   ],
+   "eligible_parent_wording": "the employee or a member or the employee's immediate family experienced a catastrophic illness or injury",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "entitlement_note": "Faculty 'may be eligible' and must petition; 'Pool availability will determine acceptance or denial of the petition.'",
+   "duration": {
+    "value": 90,
+    "units": "day",
+    "qualifier": "up_to"
+   },
+   "duration_note": "90-day lifetime maximum, used in increments of up to 30 days; 'days' not stated as calendar days (R11). Limited to catastrophic illness or injury; persons who elect short-term disability insurance are not eligible.",
+   "must_exhaust_first": [
+    "sick",
+    "vacation",
+    "compensatory"
+   ],
+   "medical_certification": true,
+   "medical_certification_note": "physician's statement with each request",
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "university_of_houston_c2",
+     "note": "available at the end of the sick leave, once all paid leave is exhausted"
+    }
+   ],
+   "evidence": {
+    "faculty_group": [
+     "At the end of the sick leave, faculty may be eligible for additional days from the campus sick leave pool"
+    ],
+    "eligible_parent": [
+     "The sick leave pool allows salary continuation to an employee who has exhausted all paid leave time because the employee or a member or the employee's immediate family experienced a catastrophic illness or injury."
+    ],
+    "entitlement": [
+     "Pool availability will determine acceptance or denial of the petition.",
+     "At the end of the sick leave, faculty may be eligible for additional days from the campus sick leave pool"
+    ],
+    "duration": [
+     "lifetime maximum that may be used in increments of up to 30 days at a time."
+    ],
+    "sequence": [
+     "At the end of the sick leave, faculty may be eligible for additional days from the campus sick leave pool"
+    ],
+    "payer": [
+     "Employees may voluntarily transfer any number of sick leave hours from their personal accumulation to the sick leave pool each fiscal year."
+    ],
+    "medical_certification": [
+     "A physician’s statement must accompany each request."
+    ]
+   },
+   "doc_ids": [
+    "2018_04_faculty_handbook_25th_ed_feb2016",
+    "2018_02_mapp_020203_leaves_of_absence"
+   ],
+   "flags": [
+    "cross_reference_not_saved: Board of Regents Policy 57.09 Sick Leave Pool; SAM 02.D.02 Sick Leave Pool"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "donated_leave",
+     "quote": "Employees may voluntarily transfer any number of sick leave hours from their personal accumulation to the sick leave pool each fiscal year."
+    },
+    {
+     "field": "payer",
+     "rule": "R1d",
+     "answer": "own_balance",
+     "quote": "Employees may voluntarily transfer any number of sick leave hours from their personal accumulation to the sick leave pool each fiscal year."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "The sick leave pool allows salary continuation to an employee who has exhausted all paid leave time because the employee or a member or the employee's immediate family experienced a catastrophic illness or injury."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "At the end of the sick leave, faculty may be eligible for additional days from the campus sick leave pool"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own catastrophic illness) and non_birth_parent (immediate family member's)",
+     "quote": "The sick leave pool allows salary continuation to an employee who has exhausted all paid leave time because the employee or a member or the employee's immediate family experienced a catastrophic illness or injury."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "Pool availability will determine acceptance or denial of the petition."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "90 days, up_to (lifetime maximum)",
+     "quote": "lifetime maximum that may be used in increments of up to 30 days at a time."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "consecutive_after sick leave",
+     "quote": "At the end of the sick leave, faculty may be eligible for additional days from the campus sick leave pool"
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_houston_c4",
+   "institution_label": "Extended sick leave",
+   "description": "Employer-paid extended sick leave that may be awarded to long-term employees who have become disabled and exhausted all leave balances, giving continued income until the long-term disability waiting period ends; for faculty, exceptions to the amount of sick leave may be authorized by the Chancellor/President case by case.",
+   "mechanism": "generic_sick_or_disability_plan",
+   "payer": "employer",
+   "rule_applied": [
+    "R2",
+    "V1",
+    "V6",
+    "U5",
+    "U6",
+    "V2",
+    "R15"
+   ],
+   "mechanism_note": "Income continuation for any disability; no childbirth-specific period, length or pay level stated (V1 not met).",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "MAPP 02.02.03 applies to 'all university regular, benefits-eligible employees'; Handbook: exceptions to the amount of sick leave a faculty member may take",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "employees in good standing who have become disabled",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "entitlement_note": "'may be available', 'may be awarded'; Handbook: 'may be authorized ... after a review of the merits of a particular case'",
+   "duration_note": "No length stated (see time_window).",
+   "time_window": "from exhaustion of all accumulated paid leave until the end of the waiting period for long-term disability benefits (length not stated)",
+   "must_exhaust_first": [
+    "sick",
+    "vacation",
+    "compensatory"
+   ],
+   "service_requirement": "long-term employees in good standing (length not stated)",
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "university_of_houston_c2",
+     "note": "from the time all accumulated paid leave has been exhausted"
+    }
+   ],
+   "evidence": {
+    "faculty_group": [
+     "It applies to all university regular, benefits-eligible employees regardless of source of funds from which paid, with exceptions noted in certain provisions.",
+     "Exceptions to the amount of sick leave a faculty member may take may be authorized by the Chancellor/President on an individual basis after a review of the merits of a particular case."
+    ],
+    "eligible_parent": [
+     "Extended sick leave may be available to long-term employees in good standing who have become disabled and have exhausted all accrued sick leave and other leave balances."
+    ],
+    "entitlement": [
+     "Extended sick leave may be available to long-term employees in good standing who have become disabled and have exhausted all accrued sick leave and other leave balances.",
+     "This benefit may be awarded to provide continued income from the time all accumulated paid leave has been exhausted through the end of the waiting period for long-term disability benefits to begin.",
+     "Exceptions to the amount of sick leave a faculty member may take may be authorized by the Chancellor/President on an individual basis after a review of the merits of a particular case."
+    ],
+    "service_requirement": [
+     "Extended sick leave may be available to long-term employees in good standing who have become disabled and have exhausted all accrued sick leave and other leave balances."
+    ],
+    "sequence": [
+     "This benefit may be awarded to provide continued income from the time all accumulated paid leave has been exhausted through the end of the waiting period for long-term disability benefits to begin."
+    ],
+    "time_window": [
+     "This benefit may be awarded to provide continued income from the time all accumulated paid leave has been exhausted through the end of the waiting period for long-term disability benefits to begin."
+    ],
+    "mechanism": [
+     "This benefit may be awarded to provide continued income from the time all accumulated paid leave has been exhausted through the end of the waiting period for long-term disability benefits to begin."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_mapp_020203_leaves_of_absence",
+    "2018_04_faculty_handbook_25th_ed_feb2016"
+   ],
+   "flags": [
+    "cross_reference_not_saved: Staff Handbook; System Administrative Memorandum 02.D.01 Vacation and Sick Leave",
+    "ambiguous: restriction: 'long-term employees' service length not stated"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "V1",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "This benefit may be awarded to provide continued income from the time all accumulated paid leave has been exhausted through the end of the waiting period for long-term disability benefits to begin."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "Exceptions to the amount of sick leave a faculty member may take may be authorized by the Chancellor/President on an individual basis after a review of the merits of a particular case."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Extended sick leave may be available to long-term employees in good standing who have become disabled and have exhausted all accrued sick leave and other leave balances."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "It applies to all university regular, benefits-eligible employees regardless of source of funds from which paid, with exceptions noted in certain provisions."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own disability)",
+     "quote": "Extended sick leave may be available to long-term employees in good standing who have become disabled and have exhausted all accrued sick leave and other leave balances."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "Exceptions to the amount of sick leave a faculty member may take may be authorized by the Chancellor/President on an individual basis after a review of the merits of a particular case."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "long-term employees in good standing",
+     "quote": "Extended sick leave may be available to long-term employees in good standing who have become disabled and have exhausted all accrued sick leave and other leave balances."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "consecutive_after sick leave",
+     "quote": "This benefit may be awarded to provide continued income from the time all accumulated paid leave has been exhausted through the end of the waiting period for long-term disability benefits to begin."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_houston_c5",
+   "institution_label": "Leave without Pay",
+   "description": "When all paid leave is exhausted, ill or disabled faculty may request an unpaid leave of up to 12 months (the State maximum); faculty who regain their health may return to their duties.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "rule_applied": [
+    "U5",
+    "U6",
+    "V2",
+    "R9",
+    "R13",
+    "R15"
+   ],
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "ill or disabled faculty",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "ill or disabled faculty",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "entitlement_note": "'may request'; 'Leave without pay is not an inherent right but is the prerogative of the university. The Provost must approve leaves without pay for faculty.'",
+   "duration": {
+    "value": 12,
+    "units": "month",
+    "qualifier": "up_to"
+   },
+   "duration_note": "'an additional 12 months, the maximum allowed by the State of Texas'",
+   "must_exhaust_first": [
+    "sick",
+    "vacation"
+   ],
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "relief_note": "formal leave without pay; relief not stated (R9)",
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "university_of_houston_c3",
+     "note": "requested when all paid leave (sick leave, then any pool days) is exhausted"
+    }
+   ],
+   "evidence": {
+    "faculty_group": [
+     "When all paid leave is exhausted, ill or disabled faculty may request a Leave without Pay for an additional 12 months, the maximum allowed by the State of Texas."
+    ],
+    "eligible_parent": [
+     "When all paid leave is exhausted, ill or disabled faculty may request a Leave without Pay for an additional 12 months, the maximum allowed by the State of Texas."
+    ],
+    "entitlement": [
+     "When all paid leave is exhausted, ill or disabled faculty may request a Leave without Pay for an additional 12 months, the maximum allowed by the State of Texas.",
+     "Leave without pay is not an inherent right but is the prerogative of the university.",
+     "The Provost must approve leaves without pay for faculty."
+    ],
+    "duration": [
+     "When all paid leave is exhausted, ill or disabled faculty may request a Leave without Pay for an additional 12 months, the maximum allowed by the State of Texas."
+    ],
+    "sequence": [
+     "When all paid leave is exhausted, ill or disabled faculty may request a Leave without Pay for an additional 12 months, the maximum allowed by the State of Texas.",
+     "At the end of the sick leave, faculty may be eligible for additional days from the campus sick leave pool"
+    ]
+   },
+   "doc_ids": [
+    "2018_04_faculty_handbook_25th_ed_feb2016"
+   ],
+   "flags": [
+    "own_illness_leave"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "U6",
+     "answer": "unpaid_leave",
+     "quote": "When all paid leave is exhausted, ill or disabled faculty may request a Leave without Pay for an additional 12 months, the maximum allowed by the State of Texas."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "When all paid leave is exhausted, ill or disabled faculty may request a Leave without Pay for an additional 12 months, the maximum allowed by the State of Texas."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "When all paid leave is exhausted, ill or disabled faculty may request a Leave without Pay for an additional 12 months, the maximum allowed by the State of Texas."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "When all paid leave is exhausted, ill or disabled faculty may request a Leave without Pay for an additional 12 months, the maximum allowed by the State of Texas."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own illness or disability)",
+     "quote": "When all paid leave is exhausted, ill or disabled faculty may request a Leave without Pay for an additional 12 months, the maximum allowed by the State of Texas."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "Leave without pay is not an inherent right but is the prerogative of the university."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "12 months, up_to ('the maximum allowed')",
+     "quote": "When all paid leave is exhausted, ill or disabled faculty may request a Leave without Pay for an additional 12 months, the maximum allowed by the State of Texas."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave)",
+     "quote": "When all paid leave is exhausted, ill or disabled faculty may request a Leave without Pay for an additional 12 months, the maximum allowed by the State of Texas."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "consecutive_after the sick leave pool (all paid leave exhausted)",
+     "quote": "When all paid leave is exhausted, ill or disabled faculty may request a Leave without Pay for an additional 12 months, the maximum allowed by the State of Texas."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_houston_c6",
+   "institution_label": "",
+   "description": "Faculty whose disability extends beyond their sick leave and Leave without Pay may, if the disability allows, work part-time as needed by the department or college, with part-time faculty benefits only.",
+   "mechanism": "part_time_option",
+   "payer": "employer",
+   "rule_applied": [
+    "R3",
+    "U5",
+    "V2",
+    "R15"
+   ],
+   "mechanism_note": "Reduced appointment with part-time pay and benefits (R3: relief with a pay cut is a part-time option).",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "faculty members whose disability extends beyond the time of their sick leave and Leave without Pay",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "faculty members whose disability extends beyond the time of their sick leave and Leave without Pay",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "entitlement_note": "'may work part-time as needed by the department or college'",
+   "pay_fraction": "part-time (level not stated)",
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "university_of_houston_c5",
+     "note": "after sick leave and Leave without Pay"
+    }
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Several options are open to faculty members whose disability extends beyond the time of their sick leave and Leave without Pay."
+    ],
+    "eligible_parent": [
+     "Several options are open to faculty members whose disability extends beyond the time of their sick leave and Leave without Pay."
+    ],
+    "entitlement": [
+     "faculty members may work part-time as needed by the department or college."
+    ],
+    "pay_fraction": [
+     "In this case they only will be eligible for those benefits given to any part-time faculty member."
+    ],
+    "sequence": [
+     "Several options are open to faculty members whose disability extends beyond the time of their sick leave and Leave without Pay."
+    ]
+   },
+   "doc_ids": [
+    "2018_04_faculty_handbook_25th_ed_feb2016"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R3",
+     "answer": "part_time_option",
+     "quote": "faculty members may work part-time as needed by the department or college."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "In this case they only will be eligible for those benefits given to any part-time faculty member."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Several options are open to faculty members whose disability extends beyond the time of their sick leave and Leave without Pay."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Several options are open to faculty members whose disability extends beyond the time of their sick leave and Leave without Pay."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own disability)",
+     "quote": "Several options are open to faculty members whose disability extends beyond the time of their sick leave and Leave without Pay."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "faculty members may work part-time as needed by the department or college."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "part-time pay, level not stated",
+     "quote": "In this case they only will be eligible for those benefits given to any part-time faculty member."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "consecutive_after the extended-illness Leave without Pay",
+     "quote": "Several options are open to faculty members whose disability extends beyond the time of their sick leave and Leave without Pay."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_houston_c7",
+   "institution_label": "Long Term Disability (LTD) Insurance",
+   "description": "Long-term disability insurance: faculty who hold LTD insurance may receive compensation under their insurance contract, after the LTD waiting period, until age 65.",
+   "mechanism": "generic_sick_or_disability_plan",
+   "payer": "insurance_plan",
+   "rule_applied": [
+    "V6",
+    "M1",
+    "U5",
+    "V2"
+   ],
+   "mechanism_note": "Long-term disability plan (schema §2): recorded without a duration. Funding (employer or employee premiums) not stated; payer coded insurance_plan.",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Faculty members with Long Term Disability (LTD) Insurance",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "faculty members whose disability extends beyond the time of their sick leave",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "entitlement_note": "benefits payable 'under the conditions of their insurance contract'",
+   "time_window": "after the waiting period for long-term disability benefits (length not stated); payments terminate at age 65",
+   "evidence": {
+    "faculty_group": [
+     "Faculty members with Long Term Disability (LTD) Insurance may receive compensation under the conditions of their insurance contract."
+    ],
+    "eligible_parent": [
+     "Faculty members with Long Term Disability (LTD) Insurance may receive compensation under the conditions of their insurance contract.",
+     "Several options are open to faculty members whose disability extends beyond the time of their sick leave and Leave without Pay."
+    ],
+    "entitlement": [
+     "Faculty members with Long Term Disability (LTD) Insurance may receive compensation under the conditions of their insurance contract."
+    ],
+    "time_window": [
+     "through the end of the waiting period for long-term disability benefits to begin."
+    ]
+   },
+   "doc_ids": [
+    "2018_04_faculty_handbook_25th_ed_feb2016",
+    "2018_02_mapp_020203_leaves_of_absence"
+   ],
+   "flags": [
+    "ambiguous: restriction: LTD funding, eligibility and waiting period not stated"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "Faculty members with Long Term Disability (LTD) Insurance may receive compensation under the conditions of their insurance contract."
+    },
+    {
+     "field": "payer",
+     "rule": "M1",
+     "answer": "insurance_plan",
+     "quote": "Faculty members with Long Term Disability (LTD) Insurance may receive compensation under the conditions of their insurance contract."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Faculty members with Long Term Disability (LTD) Insurance may receive compensation under the conditions of their insurance contract."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Faculty members with Long Term Disability (LTD) Insurance may receive compensation under the conditions of their insurance contract."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own disability)",
+     "quote": "Faculty members with Long Term Disability (LTD) Insurance may receive compensation under the conditions of their insurance contract."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "Faculty members with Long Term Disability (LTD) Insurance may receive compensation under the conditions of their insurance contract."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_houston_c8",
+   "institution_label": "short-term disability insurance",
+   "description": "Short-term disability insurance named in the Handbook (employees who elect to use it are not eligible for the sick leave pool; it terminates during leave without pay); its terms, funding and benefit period are not stated in the saved documents.",
+   "mechanism": "generic_sick_or_disability_plan",
+   "payer": "insurance_plan",
+   "rule_applied": [
+    "V1",
+    "V6",
+    "M1",
+    "U5",
+    "V2",
+    "R15"
+   ],
+   "mechanism_note": "Disability insurance for any disability; no childbirth period, length or pay level stated (V1 not met). Funding not stated; payer coded insurance_plan.",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "persons who elect to use their short-term disability insurance",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "persons who elect to use their short-term disability insurance",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "'elect to use': the employee's election; terms not stated",
+   "sequence": [
+    {
+     "relation": "in_lieu_of",
+     "component_id": "university_of_houston_c3",
+     "note": "persons who elect short-term disability insurance are not eligible for the sick leave pool"
+    }
+   ],
+   "evidence": {
+    "faculty_group": [
+     "elect to use their short-term disability insurance are not eligible for sick leave pool."
+    ],
+    "eligible_parent": [
+     "elect to use their short-term disability insurance are not eligible for sick leave pool."
+    ],
+    "entitlement": [
+     "elect to use their short-term disability insurance are not eligible for sick leave pool."
+    ],
+    "sequence": [
+     "elect to use their short-term disability insurance are not eligible for sick leave pool."
+    ],
+    "mechanism": [
+     "Long-term disability and short-term disability automatically terminate at the beginning of the leave of absence without pay."
+    ]
+   },
+   "doc_ids": [
+    "2018_04_faculty_handbook_25th_ed_feb2016"
+   ],
+   "flags": [
+    "ambiguous: restriction: short-term disability insurance named without terms, funding or benefit period"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "V1",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "elect to use their short-term disability insurance are not eligible for sick leave pool."
+    },
+    {
+     "field": "payer",
+     "rule": "M1",
+     "answer": "insurance_plan",
+     "quote": "elect to use their short-term disability insurance are not eligible for sick leave pool."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "elect to use their short-term disability insurance are not eligible for sick leave pool."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "elect to use their short-term disability insurance are not eligible for sick leave pool."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own disability)",
+     "quote": "elect to use their short-term disability insurance are not eligible for sick leave pool."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "elect to use their short-term disability insurance are not eligible for sick leave pool."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "in_lieu_of the sick leave pool",
+     "quote": "elect to use their short-term disability insurance are not eligible for sick leave pool."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_houston_c9",
+   "institution_label": "WORKLOAD REDISTRIBUTION PROGRAM ASSOCIATED WITH CHILDBIRTH AND ADOPTION FOR TENURED AND TENURE-TRACK FACULTY",
+   "description": "Provost program (approved Feb 28, 2018): a tenured or tenure-track faculty member who is the primary (or co-equal) caregiver of a newborn or newly adopted child receives one regular-length semester of relief from formal classroom teaching or other time-rigid duties, with alternate duties that advance research; no compensatory teaching before or after; approval by chair and dean; not a leave.",
+   "mechanism": "modified_duties",
+   "payer": "employer",
+   "rule_applied": [
+    "R3",
+    "R4",
+    "R4b",
+    "R4c",
+    "R6",
+    "V2",
+    "R3d",
+    "R15b",
+    "R8",
+    "source_precedence"
+   ],
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "tenured and tenure track faculty members at UH",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "primary or co-equal caregiver to a newborn infant, or to a newly adopted infant or child; his or her newborn or newly adopted child",
+   "caregiver_condition": "equal_or_more_than_partner",
+   "caregiver_condition_wording": "the primary or co-equal caregiver to a newborn infant, or to a newly adopted infant or child; 'will be the primary caregiver for the new child for the given term'; where both parents are UH employees and both take relief, 'both would be considered co-equal caregivers'",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "V2: the faculty member 'qualifies', and chairs 'shall work with faculty to arrange one regular length semester of relief ... for any eligible faculty member'; chair and dean approval covers the arrangement (the redistributed workload). No grounds for refusal stated. Flagged ambiguous because approval is required.",
+   "duration": {
+    "value": 1,
+    "units": "semester",
+    "qualifier": "exact"
+   },
+   "duration_note": "one regular length semester",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "continues",
+    "research": "continues",
+    "advising_supervision": "continues",
+    "clinical": "continues"
+   },
+   "relief_inferred": "unnamed duties continue (R4b)",
+   "relief_note": "Relief from 'formal classroom teaching or other time-rigid duties'; alternate duties assigned to meet workload reporting must advance career and research (examples include manuscripts, peer review, grant proposals, professional service), so research and service continue; no compensatory teaching load before or after. Pay not stated (R3: full pay inferred).",
+   "service_requirement": "none stated (applies to faculty within their first year of service)",
+   "dual_employee_rule": "both parents employed by UH: each may take the teaching relief, in consecutive semesters or simultaneously",
+   "notice": "discuss plans with the department chair at the earliest opportunity",
+   "sequence": [
+    {
+     "relation": "also_available",
+     "component_id": "university_of_houston_c1",
+     "note": "faculty may voluntarily take FMLA leave separate from the teaching relief, which is not a leave (R3d); no order stated"
+    },
+    {
+     "relation": "in_lieu_of",
+     "component_id": "university_of_houston_c10",
+     "note": "the Feb 2018 program and the Handbook (Feb 2016) Teaching Relief Program give the same one semester of teaching relief; one is taken"
+    }
+   ],
+   "evidence": {
+    "faculty_group": [
+     "tenured and tenure track faculty members at UH who are the primary or co-equal caregiver to a newborn infant, or to a newly adopted infant or child."
+    ],
+    "eligible_parent": [
+     "tenured and tenure track faculty members at UH who are the primary or co-equal caregiver to a newborn infant, or to a newly adopted infant or child.",
+     "A tenured or tenure-track faculty member who is serving as primary caregiver for his or her newborn or newly adopted child qualifies for a workload redistribution"
+    ],
+    "caregiver_condition": [
+     "tenured and tenure track faculty members at UH who are the primary or co-equal caregiver to a newborn infant, or to a newly adopted infant or child.",
+     "Eligible faculty members are those that are either tenured or tenure-track and will be the primary caregiver for the new child for the given term.",
+     "each may take the teaching relief, either in consecutive semesters or simultaneously (in which case both would be considered co-equal caregivers)."
+    ],
+    "entitlement": [
+     "A tenured or tenure-track faculty member who is serving as primary caregiver for his or her newborn or newly adopted child qualifies for a workload redistribution",
+     "department chairs shall work with faculty to arrange one regular length semester of relief from formal classroom teaching or other time-rigid duties for the birth or adoption of a new child for any eligible faculty member.",
+     "which requires the approval of the immediate supervisor and the next-level supervisor, corresponding in this case to the department chair and the dean."
+    ],
+    "duration": [
+     "department chairs shall work with faculty to arrange one regular length semester of relief from formal classroom teaching or other time-rigid duties for the birth or adoption of a new child for any eligible faculty member."
+    ],
+    "relief": [
+     "department chairs shall work with faculty to arrange one regular length semester of relief from formal classroom teaching or other time-rigid duties for the birth or adoption of a new child for any eligible faculty member.",
+     "The faculty member can be assigned alternate duties during their teaching relief term to meet workload reporting requirements.",
+     "Such alternative duties must advance the faculty member’s career and research trajectory.",
+     "The applicant shall not be assigned any compensatory teaching load either before or after the granted relief."
+    ],
+    "service_requirement": [
+     "This guideline applies to both faculty members within their first year of service at the university as well as other faculty members who are eligible for flexible workplace initiatives described in MAPP 02.04.10."
+    ],
+    "dual_employee_rule": [
+     "each may take the teaching relief, either in consecutive semesters or simultaneously (in which case both would be considered co-equal caregivers)."
+    ],
+    "sequence": [
+     "However, they may voluntarily choose to take any appropriate leave under the FMLA that may be available to them, separate from any teaching relief granted under this program.",
+     "Faculty shall not be required to take leave under the Family Medical Leave Act (FMLA) since the flexibility in teaching obligations granted under this program is not a leave."
+    ]
+   },
+   "doc_ids": [
+    "2018_05_workload_redistribution_childbirth_adoption_feb2018",
+    "2018_04_faculty_handbook_25th_ed_feb2016"
+   ],
+   "flags": [
+    "ambiguous: pay level not stated; full pay inferred (R3)",
+    "ambiguous: entitlement: 'shall work with faculty to arrange' relief for any eligible member, but chair and dean approval is required with no grounds stated; coded guaranteed_on_request (V2)",
+    "conflicting_sources: 2018_04_faculty_handbook_25th_ed_feb2016, 2018_05_workload_redistribution_childbirth_adoption_feb2018",
+    "cross_reference_not_saved: MAPP 02.04.10 (flexible workplace initiatives; approval procedure)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R3",
+     "answer": "modified_duties",
+     "quote": "Faculty shall not be required to take leave under the Family Medical Leave Act (FMLA) since the flexibility in teaching obligations granted under this program is not a leave."
+    },
+    {
+     "field": "payer",
+     "rule": "R3",
+     "answer": "employer",
+     "quote": "department chairs shall work with faculty to arrange one regular length semester of relief from formal classroom teaching or other time-rigid duties for the birth or adoption of a new child for any eligible faculty member."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "department chairs shall work with faculty to arrange one regular length semester of relief from formal classroom teaching or other time-rigid duties for the birth or adoption of a new child for any eligible faculty member."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "tenured and tenure track faculty members at UH who are the primary or co-equal caregiver to a newborn infant, or to a newly adopted infant or child."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R6",
+     "answer": "birth_parent, non_birth_parent, adoptive (caregiver condition gender-neutral)",
+     "quote": "A tenured or tenure-track faculty member who is serving as primary caregiver for his or her newborn or newly adopted child qualifies for a workload redistribution"
+    },
+    {
+     "field": "caregiver_condition",
+     "rule": "R6",
+     "answer": "equal_or_more_than_partner",
+     "quote": "tenured and tenure track faculty members at UH who are the primary or co-equal caregiver to a newborn infant, or to a newly adopted infant or child."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "department chairs shall work with faculty to arrange one regular length semester of relief from formal classroom teaching or other time-rigid duties for the birth or adoption of a new child for any eligible faculty member."
+    },
+    {
+     "field": "duration",
+     "rule": "R8",
+     "answer": "1 semester, exact",
+     "quote": "department chairs shall work with faculty to arrange one regular length semester of relief from formal classroom teaching or other time-rigid duties for the birth or adoption of a new child for any eligible faculty member."
+    },
+    {
+     "field": "relief",
+     "rule": "R4b",
+     "answer": "teaching relieved; research and service continue (alternate duties); unnamed duties continue",
+     "quote": "Such alternative duties must advance the faculty member’s career and research trajectory."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "none stated; first-year faculty included",
+     "quote": "This guideline applies to both faculty members within their first year of service at the university as well as other faculty members who are eligible for flexible workplace initiatives described in MAPP 02.04.10."
+    },
+    {
+     "field": "sequence",
+     "rule": "R3d",
+     "answer": "also_available with FMLA (separate, no order stated)",
+     "quote": "However, they may voluntarily choose to take any appropriate leave under the FMLA that may be available to them, separate from any teaching relief granted under this program."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15b",
+     "answer": "in_lieu_of the Handbook Teaching Relief Program (same benefit, two versions)",
+     "quote": "Granting of a workload distribution under this specific program does not require approval by the Office of the Provost."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "R3",
+     "answer": "not stated; full pay inferred, flagged",
+     "quote": "The applicant shall not be assigned any compensatory teaching load either before or after the granted relief."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_houston_c10",
+   "institution_label": "Teaching Relief Program",
+   "description": "Faculty Handbook (Feb 2016) program: full-time tenured or tenure-track faculty who are primary caregivers of a newborn or newly adopted child may be provided one semester of teaching relief with other duties assigned instead of teaching; approval by chair, dean and Provost contingent on findings (best interest of the instructional program, no additional resources).",
+   "mechanism": "modified_duties",
+   "payer": "employer",
+   "rule_applied": [
+    "R3",
+    "R4",
+    "R4b",
+    "R6",
+    "V2",
+    "R15b",
+    "R8",
+    "source_precedence"
+   ],
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Full-time tenured or tenure-track faculty",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "primary caregivers of a newborn infant or newly adopted child",
+   "caregiver_condition": "primary",
+   "caregiver_condition_wording": "primary caregivers of a newborn infant or newly adopted child",
+   "entitlement": "discretionary",
+   "entitlement_note": "'may be provided'; approval is contingent on findings that the proposal is in the best interest of the instructional program and that instructional responsibilities can be met without additional resources; the AVP/Provost decision is final.",
+   "duration": {
+    "value": 1,
+    "units": "semester",
+    "qualifier": "exact"
+   },
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "continues",
+    "research": "continues",
+    "advising_supervision": "continues",
+    "clinical": "continues"
+   },
+   "relief_inferred": "unnamed duties continue (R4b)",
+   "relief_note": "Other duties are assigned instead of teaching duties (a described work product to be advanced); teaching load in the semesters before and after is not affected. Pay not stated (R3: full pay inferred).",
+   "dual_employee_rule": "both parents employed by UH: each may take the teaching relief, consecutively or simultaneously",
+   "notice": "application at the earliest possible date, preferably 6 months before the semester of relief",
+   "sequence": [
+    {
+     "relation": "in_lieu_of",
+     "component_id": "university_of_houston_c9",
+     "note": "earlier version of the same one-semester teaching relief; the Feb 28, 2018 Provost program is the later text"
+    }
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Eligibility: Full-time tenured or tenure-track faculty who are primary caregivers of a newborn infant or newly adopted child."
+    ],
+    "eligible_parent": [
+     "Eligibility: Full-time tenured or tenure-track faculty who are primary caregivers of a newborn infant or newly adopted child."
+    ],
+    "caregiver_condition": [
+     "Eligibility: Full-time tenured or tenure-track faculty who are primary caregivers of a newborn infant or newly adopted child."
+    ],
+    "entitlement": [
+     "One semester of teaching relief may be provided, in which other duties are to be assigned instead of teaching duties.",
+     "Approval is contingent on the following findings:",
+     "The proposal must be found to be in the best interest of the department’s or program’s instructional program."
+    ],
+    "duration": [
+     "One semester of teaching relief may be provided, in which other duties are to be assigned instead of teaching duties."
+    ],
+    "relief": [
+     "One semester of teaching relief may be provided, in which other duties are to be assigned instead of teaching duties."
+    ],
+    "dual_employee_rule": [
+     "each may take the teaching relief, either in consecutive semesters or simultaneously, as best fits their needs and those of their department(s)."
+    ],
+    "notice": [
+     "preferably 6 months in advance of the semester in which teaching relief is requested."
+    ],
+    "sequence": [
+     "One semester of teaching relief may be provided, in which other duties are to be assigned instead of teaching duties."
+    ]
+   },
+   "doc_ids": [
+    "2018_04_faculty_handbook_25th_ed_feb2016"
+   ],
+   "flags": [
+    "ambiguous: pay level not stated; full pay inferred (R3)",
+    "conflicting_sources: 2018_04_faculty_handbook_25th_ed_feb2016, 2018_05_workload_redistribution_childbirth_adoption_feb2018",
+    "ambiguous: rule gap: the Feb 28, 2018 Provost Workload Redistribution Program covers the same relief with different approval terms (no Provost approval, no findings); neither text says one replaces the other; linked in_lieu_of"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R3",
+     "answer": "modified_duties",
+     "quote": "One semester of teaching relief may be provided, in which other duties are to be assigned instead of teaching duties."
+    },
+    {
+     "field": "payer",
+     "rule": "R3",
+     "answer": "employer",
+     "quote": "One semester of teaching relief may be provided, in which other duties are to be assigned instead of teaching duties."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Eligibility: Full-time tenured or tenure-track faculty who are primary caregivers of a newborn infant or newly adopted child."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Eligibility: Full-time tenured or tenure-track faculty who are primary caregivers of a newborn infant or newly adopted child."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R6",
+     "answer": "birth_parent, non_birth_parent, adoptive",
+     "quote": "Eligibility: Full-time tenured or tenure-track faculty who are primary caregivers of a newborn infant or newly adopted child."
+    },
+    {
+     "field": "caregiver_condition",
+     "rule": "R6",
+     "answer": "primary",
+     "quote": "Eligibility: Full-time tenured or tenure-track faculty who are primary caregivers of a newborn infant or newly adopted child."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "Approval is contingent on the following findings:"
+    },
+    {
+     "field": "duration",
+     "rule": "R8",
+     "answer": "1 semester, exact",
+     "quote": "One semester of teaching relief may be provided, in which other duties are to be assigned instead of teaching duties."
+    },
+    {
+     "field": "relief",
+     "rule": "R4b",
+     "answer": "teaching relieved; other assigned duties continue",
+     "quote": "One semester of teaching relief may be provided, in which other duties are to be assigned instead of teaching duties."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15b",
+     "answer": "in_lieu_of the Feb 2018 Workload Redistribution Program",
+     "quote": "One semester of teaching relief may be provided, in which other duties are to be assigned instead of teaching duties."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "R3",
+     "answer": "not stated; full pay inferred, flagged",
+     "quote": "One semester of teaching relief may be provided, in which other duties are to be assigned instead of teaching duties."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_houston_c11",
+   "institution_label": "Extension of Probationary Period for Childbirth or Adoption",
+   "description": "An untenured tenure-track faculty member who becomes a parent by birth or adoption and is responsible for the primary care of the child receives on request a one-year extension of the probationary period (with or without a leave), on Provost approval; at most twice.",
+   "mechanism": "tenure_clock",
+   "payer": "none",
+   "rule_applied": [
+    "V2",
+    "U9",
+    "R6",
+    "R13",
+    "source_precedence"
+   ],
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "untenured tenure-track faculty member",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "becomes a parent due to the birth or adoption of a child and ... is responsible for the primary care of that child",
+   "caregiver_condition": "primary",
+   "caregiver_condition_wording": "one who is responsible for significant and continuous care of his or her newborn or adopted child",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "'will be given upon request ... upon the approval of the Provost'; once approved the period 'will be extended by one year' unless declined in writing. Approval covers the arrangement (V2).",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "exact"
+   },
+   "use_limit": [
+    {
+     "times": 2,
+     "per": "career",
+     "counts": "uses"
+    }
+   ],
+   "use_limit_note": "'may occur at most twice (for a total of two years extension), with each extension occasioned by the birth or adoption of a child'",
+   "dual_employee_rule": "if both parents are tenure-track faculty, only one may qualify as the primary caregiver",
+   "time_window": "written request to the chair within six months of the birth or adoption; for adoption the child is under six",
+   "notice": "requests normally not considered after March 1 of the academic year prior to the tenure review period",
+   "evidence": {
+    "faculty_group": [
+     "An untenured tenure-track faculty member who becomes a parent due to the birth or adoption of a child and who is responsible for the primary care of that child will be given upon request a one year extension of the probationary period, with or without a leave of absence, upon the approval of the Provost."
+    ],
+    "eligible_parent": [
+     "An untenured tenure-track faculty member who becomes a parent due to the birth or adoption of a child and who is responsible for the primary care of that child will be given upon request a one year extension of the probationary period, with or without a leave of absence, upon the approval of the Provost."
+    ],
+    "caregiver_condition": [
+     "a tenure-track faculty member who is responsible for the primary care of the child is one who is responsible for significant and continuous care of his or her newborn or adopted child.",
+     "If both parents are tenure-track faculty members, only one may qualify as the primary caregiver."
+    ],
+    "entitlement": [
+     "An untenured tenure-track faculty member who becomes a parent due to the birth or adoption of a child and who is responsible for the primary care of that child will be given upon request a one year extension of the probationary period, with or without a leave of absence, upon the approval of the Provost.",
+     "Unless the faculty member expressly declines the extension in writing at the time the notice is given, the probationary period will be extended by one year.",
+     "faculty members who become parents during their probationary period are eligible for a one-year tenure clock extension upon approval by the Provost."
+    ],
+    "duration": [
+     "Unless the faculty member expressly declines the extension in writing at the time the notice is given, the probationary period will be extended by one year."
+    ],
+    "use_limit": [
+     "The extension of the probationary period may occur at most twice (for a total of two years extension), with each extension occasioned by the birth or adoption of a child"
+    ],
+    "dual_employee_rule": [
+     "If both parents are tenure-track faculty members, only one may qualify as the primary caregiver."
+    ],
+    "time_window": [
+     "within six months of the birth or adoption of the child."
+    ],
+    "notice": [
+     "Requests for extensions of the probationary period normally will not be considered after March 1 of the academic year prior to the tenure review period."
+    ]
+   },
+   "doc_ids": [
+    "2018_06_promotion_tenure_guidelines_2017",
+    "2018_04_faculty_handbook_25th_ed_feb2016",
+    "2018_05_workload_redistribution_childbirth_adoption_feb2018"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "An untenured tenure-track faculty member who becomes a parent due to the birth or adoption of a child and who is responsible for the primary care of that child will be given upon request a one year extension of the probationary period, with or without a leave of absence, upon the approval of the Provost."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "An untenured tenure-track faculty member who becomes a parent due to the birth or adoption of a child and who is responsible for the primary care of that child will be given upon request a one year extension of the probationary period, with or without a leave of absence, upon the approval of the Provost."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "An untenured tenure-track faculty member who becomes a parent due to the birth or adoption of a child and who is responsible for the primary care of that child will be given upon request a one year extension of the probationary period, with or without a leave of absence, upon the approval of the Provost."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "An untenured tenure-track faculty member who becomes a parent due to the birth or adoption of a child and who is responsible for the primary care of that child will be given upon request a one year extension of the probationary period, with or without a leave of absence, upon the approval of the Provost."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R6",
+     "answer": "birth_parent, non_birth_parent, adoptive",
+     "quote": "An untenured tenure-track faculty member who becomes a parent due to the birth or adoption of a child and who is responsible for the primary care of that child will be given upon request a one year extension of the probationary period, with or without a leave of absence, upon the approval of the Provost."
+    },
+    {
+     "field": "caregiver_condition",
+     "rule": "R6",
+     "answer": "primary",
+     "quote": "a tenure-track faculty member who is responsible for the primary care of the child is one who is responsible for significant and continuous care of his or her newborn or adopted child."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "An untenured tenure-track faculty member who becomes a parent due to the birth or adoption of a child and who is responsible for the primary care of that child will be given upon request a one year extension of the probationary period, with or without a leave of absence, upon the approval of the Provost."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 year, exact",
+     "quote": "Unless the faculty member expressly declines the extension in writing at the time the notice is given, the probationary period will be extended by one year."
+    },
+    {
+     "field": "use_limit",
+     "rule": "U9",
+     "answer": "times 2, per career",
+     "quote": "The extension of the probationary period may occur at most twice (for a total of two years extension), with each extension occasioned by the birth or adoption of a child"
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_houston_c12",
+   "institution_label": "Policy on Extension of the Probationary Period for Emergencies",
+   "description": "Untenured tenure-track faculty may request an extension of the probationary period for serious illness, family emergencies or other serious personal circumstances (open list); the Provost decides; length not stated.",
+   "mechanism": "tenure_clock",
+   "payer": "none",
+   "rule_applied": [
+    "U1",
+    "V2"
+   ],
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "untenured tenure-track faculty member",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "serious illness, family emergencies or other serious personal circumstances",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "entitlement_note": "'has the right to request'; the Provost decides whether and to what year",
+   "duration_note": "length of extension not stated",
+   "time_window": "request in writing within six months after the circumstances occur",
+   "notice": "requests normally not considered after March 1 of the academic year prior to the tenure review period",
+   "evidence": {
+    "faculty_group": [
+     "An untenured tenure-track faculty member has the right to request an extension of the probationary period because of serious illness, family emergencies or other serious personal circumstances."
+    ],
+    "eligible_parent": [
+     "An untenured tenure-track faculty member has the right to request an extension of the probationary period because of serious illness, family emergencies or other serious personal circumstances.",
+     "Circumstances that may justify an extension include, but are not limited to, serious illness and injury, or other serious disruptions or unexpected reasons beyond the faculty member’s control."
+    ],
+    "entitlement": [
+     "An untenured tenure-track faculty member has the right to request an extension of the probationary period because of serious illness, family emergencies or other serious personal circumstances.",
+     "The Provost will inform the dean of his or her decision and the year of tenure review."
+    ],
+    "time_window": [
+     "Requests must be made in writing and submitted within six months after the emergency circumstances or personal circumstances occur."
+    ]
+   },
+   "doc_ids": [
+    "2018_06_promotion_tenure_guidelines_2017",
+    "2018_04_faculty_handbook_25th_ed_feb2016"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "An untenured tenure-track faculty member has the right to request an extension of the probationary period because of serious illness, family emergencies or other serious personal circumstances."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "An untenured tenure-track faculty member has the right to request an extension of the probationary period because of serious illness, family emergencies or other serious personal circumstances."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "Circumstances that may justify an extension include, but are not limited to, serious illness and injury, or other serious disruptions or unexpected reasons beyond the faculty member’s control."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "An untenured tenure-track faculty member has the right to request an extension of the probationary period because of serious illness, family emergencies or other serious personal circumstances."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent (role-neutral)",
+     "quote": "An untenured tenure-track faculty member has the right to request an extension of the probationary period because of serious illness, family emergencies or other serious personal circumstances."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "The Provost will inform the dean of his or her decision and the year of tenure review."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_houston_c13",
+   "institution_label": "",
+   "description": "Leaves of absence other than for childbirth or adoption are not counted in the probationary period unless a written agreement with the dean, approved by the Provost, says so before the leave; the Handbook adds that leaves for personal reasons may extend the probationary period.",
+   "mechanism": "tenure_clock",
+   "payer": "none",
+   "rule_applied": [
+    "U1",
+    "V2",
+    "source_precedence"
+   ],
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "non-tenured tenure track faculty",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "Other leaves of absence; leaves of absence for personal reasons",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "entitlement_note": "by default leave time does not count toward the probationary period; a written agreement with the dean, approved by the Provost, may count it",
+   "duration_note": "length of the leave taken; not stated",
+   "evidence": {
+    "faculty_group": [
+     "Other leaves of absence shall only be considered as part of the probationary period for tenure if stipulated in a written agreement between the faculty member and the dean of the college prior to the leave period, with the approval of the Provost."
+    ],
+    "eligible_parent": [
+     "Other leaves of absence shall only be considered as part of the probationary period for tenure if stipulated in a written agreement between the faculty member and the dean of the college prior to the leave period, with the approval of the Provost.",
+     "Leaves of absence for personal reasons may result in an extension of the probationary period."
+    ],
+    "entitlement": [
+     "Other leaves of absence shall only be considered as part of the probationary period for tenure if stipulated in a written agreement between the faculty member and the dean of the college prior to the leave period, with the approval of the Provost."
+    ]
+   },
+   "doc_ids": [
+    "2018_06_promotion_tenure_guidelines_2017",
+    "2018_04_faculty_handbook_25th_ed_feb2016"
+   ],
+   "flags": [
+    "general_purpose",
+    "cross_reference_not_saved: Board of Regents Policy 57.06 Leaves of Absence; SAM 06.A.09 section 2.8 Faculty Leaves of Absence"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "Other leaves of absence shall only be considered as part of the probationary period for tenure if stipulated in a written agreement between the faculty member and the dean of the college prior to the leave period, with the approval of the Provost."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Other leaves of absence shall only be considered as part of the probationary period for tenure if stipulated in a written agreement between the faculty member and the dean of the college prior to the leave period, with the approval of the Provost."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "Other leaves of absence shall only be considered as part of the probationary period for tenure if stipulated in a written agreement between the faculty member and the dean of the college prior to the leave period, with the approval of the Provost."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Other leaves of absence shall only be considered as part of the probationary period for tenure if stipulated in a written agreement between the faculty member and the dean of the college prior to the leave period, with the approval of the Provost."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent (any leave of absence)",
+     "quote": "Leaves of absence for personal reasons may result in an extension of the probationary period."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "Other leaves of absence shall only be considered as part of the probationary period for tenure if stipulated in a written agreement between the faculty member and the dean of the college prior to the leave period, with the approval of the Provost."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_houston_c14",
+   "institution_label": "Leaves without Pay",
+   "description": "Extended unpaid leave of absence for up to 12 months, granted on individual consideration for development, extended illness, personal or other sufficient reasons; Provost approval for faculty; paid balances exhausted first; reinstatement subject to fiscal constraints. Also the route for unpaid leave beyond FMLA.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "rule_applied": [
+    "U1",
+    "V2",
+    "R9",
+    "R13"
+   ],
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "full-time employees; 'The Provost must approve leaves without pay for faculty.'",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "extended illness or personal reasons; sufficient reason",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "entitlement_note": "'may be granted'; 'not an inherent right but is the prerogative of the university'",
+   "duration": {
+    "value": 12,
+    "units": "month",
+    "qualifier": "up_to"
+   },
+   "duration_note": "maximum 12 months; extensions possible for interagency agreements or educational purposes",
+   "must_exhaust_first": [
+    "vacation",
+    "compensatory",
+    "sick"
+   ],
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "relief_note": "formal leave without pay; relief not stated (R9)",
+   "evidence": {
+    "faculty_group": [
+     "Extended leaves of absence without pay may be granted to full-time employees based upon individual consideration.",
+     "The Provost must approve leaves without pay for faculty."
+    ],
+    "eligible_parent": [
+     "Other circumstances, such as extended illness or personal reasons, may also justify the granting of extended leave.",
+     "A regular, benefits-eligible employee may be granted a leave of absence without pay for sufficient reason for a period not to exceed 12 months."
+    ],
+    "entitlement": [
+     "Extended leaves of absence without pay may be granted to full-time employees based upon individual consideration.",
+     "Leave without pay is not an inherent right but is the prerogative of the university."
+    ],
+    "duration": [
+     "Leaves without pay will be granted for a maximum of 12 months.",
+     "A regular, benefits-eligible employee may be granted a leave of absence without pay for sufficient reason for a period not to exceed 12 months."
+    ],
+    "must_exhaust_first": [
+     "all applicable accrued paid leave balances (vacation, compensatory leave, and sick leave) must have been exhausted before the leave without pay period commences."
+    ],
+    "return_obligation": [
+     "Subject to fiscal constraints, the employing department is required to reinstate an employee to the former position or to one of equivalent requirements and compensation upon expiration of the leave."
+    ]
+   },
+   "doc_ids": [
+    "2018_04_faculty_handbook_25th_ed_feb2016",
+    "2018_02_mapp_020203_leaves_of_absence",
+    "2018_00_link"
+   ],
+   "flags": [
+    "general_purpose",
+    "cross_reference_not_saved: Board of Regents Policy 57.06 Leaves of Absence; SAM 02.D.04 Leaves of Absence"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "Extended leaves of absence without pay may be granted to full-time employees based upon individual consideration."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Extended leaves of absence without pay may be granted to full-time employees based upon individual consideration."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "Other circumstances, such as extended illness or personal reasons, may also justify the granting of extended leave."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "The Provost must approve leaves without pay for faculty."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent (any sufficient reason)",
+     "quote": "A regular, benefits-eligible employee may be granted a leave of absence without pay for sufficient reason for a period not to exceed 12 months."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "Leave without pay is not an inherent right but is the prerogative of the university."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "12 months, up_to ('maximum', 'not to exceed')",
+     "quote": "Leaves without pay will be granted for a maximum of 12 months."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave)",
+     "quote": "Extended leaves of absence without pay may be granted to full-time employees based upon individual consideration."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_houston_c15",
+   "institution_label": "Emergency Leave",
+   "description": "Paid emergency leave: bereavement, and other reasons at the discretion of the Chancellor/President under state law; the MAPP allows up to eight hours for personal emergencies on supervisor and administrator approval.",
+   "mechanism": "employer_paid_leave",
+   "payer": "employer",
+   "rule_applied": [
+    "U1",
+    "V2",
+    "R9",
+    "R11",
+    "R13"
+   ],
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "faculty (Handbook 'Other Temporary Leaves'); MAPP applies to regular employees",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "personal emergencies; other reasons besides death of a family member",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "duration": {
+    "value": 8,
+    "units": "hour",
+    "qualifier": "up_to"
+   },
+   "duration_note": "MAPP: up to eight hours for personal emergencies; Handbook: length determined at the discretion of the Chancellor/President",
+   "pay_fraction": "full pay",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "relief_note": "paid leave; relief not stated (R9)",
+   "evidence": {
+    "faculty_group": [
+     "The university provides emergency leave with pay in the event of a death within the immediate family (bereavement)."
+    ],
+    "eligible_parent": [
+     "Up to eight hours of leave may be requested for personal emergencies",
+     "Other reasons besides death of a family member may also be available, at the discretion of the Chancellor/President, according to state law."
+    ],
+    "entitlement": [
+     "Other reasons besides death of a family member may also be available, at the discretion of the Chancellor/President, according to state law.",
+     "Length of emergency leave shall be determined at the discretion of the Chancellor/President or his/her designee."
+    ],
+    "duration": [
+     "Up to eight hours of leave may be requested for personal emergencies"
+    ],
+    "pay_fraction": [
+     "The following types of leave are provided to the employee at full pay",
+     "The university provides emergency leave with pay in the event of a death within the immediate family (bereavement)."
+    ]
+   },
+   "doc_ids": [
+    "2018_04_faculty_handbook_25th_ed_feb2016",
+    "2018_02_mapp_020203_leaves_of_absence"
+   ],
+   "flags": [
+    "general_purpose",
+    "cross_reference_not_saved: SAM 02.D.04 Leaves of Absence"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "employer_paid_leave",
+     "quote": "The university provides emergency leave with pay in the event of a death within the immediate family (bereavement)."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "The following types of leave are provided to the employee at full pay"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "Other reasons besides death of a family member may also be available, at the discretion of the Chancellor/President, according to state law."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "The university provides emergency leave with pay in the event of a death within the immediate family (bereavement)."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent (personal emergencies)",
+     "quote": "Up to eight hours of leave may be requested for personal emergencies"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "Other reasons besides death of a family member may also be available, at the discretion of the Chancellor/President, according to state law."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "8 hours, up_to",
+     "quote": "Up to eight hours of leave may be requested for personal emergencies"
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "full pay",
+     "quote": "The following types of leave are provided to the employee at full pay"
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal paid leave)",
+     "quote": "The university provides emergency leave with pay in the event of a death within the immediate family (bereavement)."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_houston_c16",
+   "institution_label": "Vacation",
+   "description": "Accrued paid vacation for administrative faculty on 12-month appointments (staff schedule); faculty on less than 12-month appointments do not accrue vacation. Must be used during FMLA.",
+   "mechanism": "own_accrual",
+   "payer": "own_balance",
+   "rule_applied": [
+    "R1",
+    "U1",
+    "V2"
+   ],
+   "faculty_group": "administrative faculty on 12-month appointments",
+   "faculty_group_note": "Faculty, other than those on 12-month appointments, are not eligible for vacation.",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "paid vacation time",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration_note": "accrual per the State General Appropriations Act schedule; amount not stated",
+   "evidence": {
+    "faculty_group": [
+     "Regular staff employees and administrative faculty on 12-month appointments are entitled to paid vacation time in each fiscal year.",
+     "Faculty, other than those on 12-month appointments, are not eligible for vacation.",
+     "A faculty member who is employed with the university on less than a twelve month contract does not accrue vacation time."
+    ],
+    "eligible_parent": [
+     "Regular staff employees and administrative faculty on 12-month appointments are entitled to paid vacation time in each fiscal year."
+    ],
+    "entitlement": [
+     "Regular staff employees and administrative faculty on 12-month appointments are entitled to paid vacation time in each fiscal year."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_mapp_020203_leaves_of_absence",
+    "2018_04_faculty_handbook_25th_ed_feb2016"
+   ],
+   "flags": [
+    "general_purpose",
+    "excludes_main_faculty"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "own_accrual",
+     "quote": "Regular staff employees and administrative faculty on 12-month appointments are entitled to paid vacation time in each fiscal year."
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "own_balance",
+     "quote": "Regular staff employees and administrative faculty on 12-month appointments are entitled to paid vacation time in each fiscal year."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "Regular staff employees and administrative faculty on 12-month appointments are entitled to paid vacation time in each fiscal year."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "administrative faculty on 12-month appointments",
+     "quote": "Faculty, other than those on 12-month appointments, are not eligible for vacation."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "Regular staff employees and administrative faculty on 12-month appointments are entitled to paid vacation time in each fiscal year."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "Regular staff employees and administrative faculty on 12-month appointments are entitled to paid vacation time in each fiscal year."
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "Reference date 2018-03-13. The row also lists a second_reference_date 2018-01-01; this record is read as of 2018-03-13 only, as instructed. The Workload Redistribution Program (approved Feb 28, 2018) is in force on 2018-03-13 but would not be on 2018-01-01.",
+  "Sources: 2018_00_link (MAPP 02.02.01); 2018_02 (MAPP 02.02.03); 2018_04 Faculty Handbook Feb 2016; 2018_05; 2018_06; 2018_07 (SAM 02.D.08); 2018_08 (MAPP 02.02.02 rev. Oct 2017). Not used: 2018_01 (superseded Aug 2016 MAPP 02.02.02), 2018_03 (HR teaching-relief page captured after the reference date).",
+  "Governing documents for faculty leave are saved (Faculty Handbook, MAPP leave policies, Provost program, P&T guidelines), so The no-policy coding (`missing`) does not apply; missing is false.",
+  "U8: Texas parental leave (up to 12 weeks for birth or placement of a child under 3, for employees with under 12 months of State service or fewer than 1,250 hours) is recorded in c1's note, not as a component; the figures describe an FMLA-eligible member. Tex. Gov't Code 661.913 is not saved.",
+  "Teaching relief: the Faculty Handbook (Feb 2016) Teaching Relief Program (discretionary, Provost approval on findings) and the Provost's Workload Redistribution Program (Feb 28, 2018; chairs 'shall work with faculty to arrange' one semester; chair and dean approval; no Provost approval) describe the same one-semester relief. Neither says it replaces the other; both coded and linked in_lieu_of, flagged conflicting_sources. Open rule question: whether a later Provost program supersedes the Handbook version.",
+  "MAPP 02.02.02 IV.C and SAM 02.D.08 4.3: 'A leave of absence extends the probationary period of employment' refers to the employment probation of FMLA-ineligible employees under the parental-leave policy; not coded as a tenure clock (the tenure-clock rules are c11 and c13).",
+  "Not components: faculty development leave (research leave for faculty with seven years' service), development leave for administrators, reassignment of duties for externally funded research, administrative leave with pay (merit), VMOE (age 55+ reduced appointment), disability retirement, jury/witness, military, volunteer firefighter, seeing-eye dog training, bereavement-only leave, foster parent DPRS meeting leave, Red Cross leave, workers' compensation: none can be used for a birth or adoption, or they are general professional leaves outside the scope classes.",
+  "Calendar: semesters stated without length ('one regular length semester'; 'distributed across 2 long semesters'); term_weeks 16 by R8.",
+  "Birth parent chain: FMLA 12 workweeks from the birth, with accrued sick leave (own balance) used concurrently -> sick leave pool (discretionary, catastrophic only, up to 90 days) or short-term disability insurance (in lieu of the pool) -> extended-illness Leave without Pay up to 12 months (discretionary) -> part-time work (discretionary); extended sick leave (discretionary, employer) after sick leave; teaching relief (one semester, c9 or c10 in lieu of each other) also available, separate from FMLA, no order stated.",
+  "Non-birth parent chain: FMLA 12 workweeks (spouses both at UH share 12 weeks for the birth) with sick leave usable only to care for an ill mother or child, concurrent; teaching relief (one semester, as primary or co-equal caregiver) also available, no order stated.",
+  "Documents cited but not saved: MAPP 02.04.10 (flexible workplace initiatives); SAM 02.D.01 Vacation and Sick Leave; SAM 02.D.02 Sick Leave Pool; SAM 02.D.04 Leaves of Absence; SAM 02.D.06 Family and Medical Leave; Board of Regents Policies 57.06 (Leaves of Absence) and 57.09 (Sick Leave Pool); SAM 06.A.09 s. 2.8 Faculty Leaves of Absence; Staff Handbook; Tex. Gov't Code 661.913; State General Appropriations Act; MAPP 02.01.03, 02.02.04, 02.02.06, 02.04.01, 02.07.02; college faculty development leave policies."
+ ],
+ "statutory_floor": {
+  "jurisdiction": "US",
+  "year": "2018",
+  "weeks_birth": 12.0,
+  "weeks_nonbirth": 12.0,
+  "statute": "Family and Medical Leave Act (FMLA) (29 U.S.C. 2611-2612)",
+  "source_doc": "2026_00_us_fmla_29usc2612",
+  "table": "statutory_baseline.csv"
+ }
+}

@@ -1,0 +1,2783 @@
+{
+ "institution": "Michigan Technological University",
+ "slug": "michigan_technological_university",
+ "country": "US",
+ "model": "claude-opus-5-5",
+ "codebook_version": "1.25",
+ "schema_version": "1.25",
+ "reference_date": "2018-02-24",
+ "calendar": {
+  "term_weeks": null,
+  "note": "Semester calendar stated ('one semester at full pay'; 'semesters normally paid (i.e. summer is excluded)'); no length stated, so the semester default (R8).",
+  "kind": "semester"
+ },
+ "documents": [
+  {
+   "doc_id": "2018_00_link",
+   "title": "Paid Parental Leave Benefit (HR Benefit Services), effective January 1, 2017",
+   "version_or_effective_date": "Effective January 1, 2017; file footer 01/01/17",
+   "retrieved": "wayback 20171029001532",
+   "url": "http://www.mtu.edu/hr/current/benefits/docs/parental-leave.pdf"
+  },
+  {
+   "doc_id": "2018_01_handbook_6234_paid_parental_leave",
+   "title": "Faculty Handbook 6.2.3.4 Paid Parental Leave",
+   "version_or_effective_date": "revised 03/06/2017",
+   "retrieved": "wayback 20170521062754",
+   "url": "http://www.mtu.edu:80/faculty-handbook/faculty/chapter6/s6-2/6235.html"
+  },
+  {
+   "doc_id": "2018_02_handbook_6233_sick_leave",
+   "title": "Faculty Handbook 6.2.3.3 Sick Leave",
+   "version_or_effective_date": "reviewed 12/08/2016",
+   "retrieved": "wayback 20170522190326",
+   "url": "http://www.mtu.edu:80/faculty-handbook/faculty/chapter6/s6-2/6233.html"
+  },
+  {
+   "doc_id": "2018_03_handbook_622_fmla",
+   "title": "Faculty Handbook 6.2.2 Family and Medical Leave Act of 1993 (FMLA)",
+   "version_or_effective_date": "reviewed 12/08/2016",
+   "retrieved": "wayback 20170522190320",
+   "url": "http://www.mtu.edu:80/faculty-handbook/faculty/chapter6/s6-2/622.html"
+  },
+  {
+   "doc_id": "2018_04_handbook_6241_leave_without_pay",
+   "title": "Faculty Handbook 6.2.4 Leaves Without Pay (6.2.4.1 Formal Leave of Absence, Personal Reasons)",
+   "version_or_effective_date": "reviewed 12/08/2016",
+   "retrieved": "wayback 20170525012749",
+   "url": "http://www.mtu.edu:80/faculty-handbook/faculty/chapter6/s6-2/6241.html"
+  },
+  {
+   "doc_id": "2018_05_handbook_22_tenure_promotion",
+   "title": "Faculty Handbook 2.2 Academic Tenure and Promotion",
+   "version_or_effective_date": "revised 1/26/2018 (capture 2019; version note: text matches the version in force)",
+   "retrieved": "wayback 20190823023609",
+   "url": "https://www.mtu.edu/faculty-handbook/faculty/chapter2/s2-2/"
+  },
+  {
+   "doc_id": "2026_00_us_fmla_29usc2612",
+   "title": "29 U.S.C. 2612 (FMLA leave requirement)",
+   "url": "https://www.law.cornell.edu/uscode/text/29/2612",
+   "retrieved": "2026-10-19"
+  },
+  {
+   "doc_id": "2026_01_us_fmla_29usc2611_definitions",
+   "title": "29 U.S.C. 2611 (FMLA definitions)",
+   "url": "https://www.law.cornell.edu/uscode/text/29/2611",
+   "retrieved": "2026-10-19"
+  }
+ ],
+ "missing": false,
+ "scope_accounting": {
+  "C1": {
+   "components": [
+    "michigan_technological_university_c1",
+    "michigan_technological_university_c3",
+    "michigan_technological_university_c4",
+    "michigan_technological_university_c12",
+    "michigan_technological_university_c14",
+    "michigan_technological_university_c15",
+    "michigan_technological_university_c16",
+    "michigan_technological_university_c18"
+   ]
+  },
+  "C2": {
+   "components": [
+    "michigan_technological_university_c1"
+   ]
+  },
+  "C3": {
+   "components": [
+    "michigan_technological_university_c7",
+    "michigan_technological_university_c8"
+   ]
+  },
+  "C4": {
+   "components": [
+    "michigan_technological_university_c6"
+   ],
+   "not_components": [
+    {
+     "statute": "Worker's Disability Act (Michigan workers' disability compensation)",
+     "reason": "named in 6.2.3.3 only for sick-leave top-up of work-injury payments; unrelated to becoming a parent (U4)"
+    },
+    {
+     "statute": "ADA (Americans with Disabilities Act)",
+     "reason": "footer link on the handbook pages; disability accommodation statute, not a component (U4)"
+    },
+    {
+     "statute": "Title IX",
+     "reason": "footer link on the handbook pages; no provision of the documents relies on it for leave, pay or protection (U4)"
+    }
+   ]
+  },
+  "C5": {
+   "components": [
+    "michigan_technological_university_c6",
+    "michigan_technological_university_c7"
+   ]
+  },
+  "C6": {
+   "components": [
+    "michigan_technological_university_c11"
+   ]
+  },
+  "C7": {
+   "components": [
+    "michigan_technological_university_c9",
+    "michigan_technological_university_c10"
+   ]
+  },
+  "C8": {
+   "components": [
+    "michigan_technological_university_c2",
+    "michigan_technological_university_c5",
+    "michigan_technological_university_c13",
+    "michigan_technological_university_c17"
+   ]
+  },
+  "C9": {
+   "absent": {
+    "documents": [
+     "2018_00_link",
+     "2018_01_handbook_6234_paid_parental_leave",
+     "2018_02_handbook_6233_sick_leave",
+     "2018_03_handbook_622_fmla",
+     "2018_04_handbook_6241_leave_without_pay",
+     "2018_05_handbook_22_tenure_promotion"
+    ],
+    "terms": [
+     "accommodation",
+     "pregnan",
+     "transfer",
+     "hazard",
+     "light duty",
+     "equal treatment"
+    ]
+   }
+  },
+  "C10": {
+   "absent": {
+    "documents": [
+     "2018_00_link",
+     "2018_01_handbook_6234_paid_parental_leave",
+     "2018_02_handbook_6233_sick_leave",
+     "2018_03_handbook_622_fmla",
+     "2018_04_handbook_6241_leave_without_pay",
+     "2018_05_handbook_22_tenure_promotion"
+    ],
+    "terms": [
+     "FMLA",
+     "first days",
+     "qualifying",
+     "regular work time",
+     "paid FMLA"
+    ]
+   }
+  }
+ },
+ "passage_dispositions": {
+  "2018_00_link#001": {
+   "used_in": [
+    "michigan_technological_university_c1",
+    "michigan_technological_university_c2",
+    "michigan_technological_university_c3",
+    "michigan_technological_university_c4",
+    "michigan_technological_university_c5",
+    "michigan_technological_university_c6",
+    "michigan_technological_university_c7",
+    "michigan_technological_university_c12",
+    "michigan_technological_university_c13",
+    "michigan_technological_university_c14",
+    "michigan_technological_university_c15",
+    "michigan_technological_university_c16",
+    "michigan_technological_university_c17",
+    "michigan_technological_university_c18"
+   ]
+  },
+  "2018_01_handbook_6234_paid_parental_leave#001": {
+   "used_in": [
+    "michigan_technological_university_c1"
+   ]
+  },
+  "2018_02_handbook_6233_sick_leave#001": {
+   "used_in": [
+    "michigan_technological_university_c7",
+    "michigan_technological_university_c8"
+   ]
+  },
+  "2018_03_handbook_622_fmla#001": {
+   "used_in": [
+    "michigan_technological_university_c6"
+   ]
+  },
+  "2018_04_handbook_6241_leave_without_pay#001": {
+   "used_in": [
+    "michigan_technological_university_c11"
+   ]
+  },
+  "2018_04_handbook_6241_leave_without_pay#002": {
+   "not_relevant": "end of 6.2.4.1 sentence, revision log and site navigation; no further provision"
+  },
+  "2018_05_handbook_22_tenure_promotion#001": {
+   "not_relevant": "page header and navigation only"
+  },
+  "2018_05_handbook_22_tenure_promotion#002": {
+   "used_in": [
+    "michigan_technological_university_c9",
+    "michigan_technological_university_c10"
+   ]
+  },
+  "2018_05_handbook_22_tenure_promotion#003": {
+   "not_relevant": "appointment terms by rank; no leave or extension provision"
+  },
+  "2018_05_handbook_22_tenure_promotion#004": {
+   "not_relevant": "promotion, appeals, dismissal, committee and amendment procedures; no leave or extension provision"
+  }
+ },
+ "mechanism_slots": {
+  "employer_paid_leave": {
+   "components": [
+    "michigan_technological_university_c1",
+    "michigan_technological_university_c3",
+    "michigan_technological_university_c4",
+    "michigan_technological_university_c12",
+    "michigan_technological_university_c14",
+    "michigan_technological_university_c15",
+    "michigan_technological_university_c16",
+    "michigan_technological_university_c18"
+   ]
+  },
+  "employer_childbirth_benefit": {
+   "absent": "no dedicated childbirth benefit through a sick or disability plan; searched all six documents for maternity, childbirth, disability, recovery"
+  },
+  "generic_sick_or_disability_plan": {
+   "components": [
+    "michigan_technological_university_c8"
+   ]
+  },
+  "own_accrual": {
+   "components": [
+    "michigan_technological_university_c7"
+   ]
+  },
+  "donated_leave": {
+   "absent": "6.2.3.3 revision log: the Voluntary Sick Leave Pool 'no longer exists' (deleted 06/13/2012); searched all six documents for pool, donat, bank, shared"
+  },
+  "government_benefit": {
+   "absent": "no government or state paid programme named; Michigan has none in the saved sources; searched all six documents for state, benefit, insurance, programme"
+  },
+  "employer_topup": {
+   "absent": "no top-up of a government benefit; the sick-leave top-up of STD/workers' compensation is part of c7 and c8; searched all six documents for top-up, difference, supplement"
+  },
+  "modified_duties": {
+   "components": [
+    "michigan_technological_university_c5"
+   ]
+  },
+  "unpaid_leave": {
+   "components": [
+    "michigan_technological_university_c6",
+    "michigan_technological_university_c11"
+   ]
+  },
+  "tenure_clock": {
+   "components": [
+    "michigan_technological_university_c9",
+    "michigan_technological_university_c10"
+   ]
+  },
+  "part_time_option": {
+   "components": [
+    "michigan_technological_university_c2",
+    "michigan_technological_university_c13",
+    "michigan_technological_university_c17"
+   ]
+  },
+  "other": {
+   "absent": "no accommodation, rearrangement or equal-treatment provision; searched all six documents for accommodation, pregnan, transfer, equal"
+  }
+ },
+ "baseline_accounting": {
+  "Family and Medical Leave Act (FMLA)": {
+   "components": [
+    "michigan_technological_university_c6"
+   ]
+  },
+  "Federal Employee Paid Leave Act (paid parental leave for federal civilian employees)": {
+   "not_applicable": "covers federal civilian employees only; the university is not a federal employer"
+  }
+ },
+ "leave_limits": [],
+ "components": [
+  {
+   "component_id": "michigan_technological_university_c1",
+   "institution_label": "Paid Parental Leave Benefit",
+   "description": "Tenured/tenure-track birth mother or (adoptive) primary caregiver: on request, one semester at full pay, relieved of teaching for the leave while continuing research and graduate student supervision; one of three alternatives.",
+   "mechanism": "employer_paid_leave",
+   "mechanism_note": "Called paid parental leave / leave of absence, centrally funded; relief is stated as teaching only, with research and graduate supervision continuing, so it takes its relief category from its relief fields (R4c: 'Michigan Tech paid semester, teaching relieved → Just teaching').",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Tenured/Tenure-Track Faculty (HR Paid Parental Leave Benefit, effective January 1, 2017); applies to employees eligible for full benefits",
+   "eligible_parent": [
+    "birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "Birth mother or primary caregiver",
+   "caregiver_condition": "primary",
+   "caregiver_condition_wording": "Includes adoption (primary caregiver) ... Employee must certify that they are the primary caregiver (the condition applies to the adoptive path; a birth mother qualifies as such)",
+   "service_requirement": "employees eligible for full benefits; no length of service stated",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "'may, upon request, take' gives the benefit; the request covers the arrangements (V2). The supervisor-approval sentence attaches to the other two options, not this one.",
+   "duration": {
+    "value": 1,
+    "units": "semester",
+    "qualifier": "exact"
+   },
+   "duration_note": "One semester; paid only for semesters normally paid (summer excluded).",
+   "pay_fraction": "full pay",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "continues",
+    "research": "continues",
+    "advising_supervision": "continues",
+    "clinical": "continues"
+   },
+   "relief_inferred": "unnamed duties continue (R4b)",
+   "relief_note": "Teaching relieved for the duration of the leave; research and graduate student supervision stated as continuing; service and clinical not named (R4b).",
+   "time_window": "within 12 months from the birth; may begin before the birth if medical conditions arise; only semesters normally paid (summer excluded)",
+   "notice": "written request at least 30 days before the leave is expected to begin",
+   "runs_concurrently_with": [
+    "FMLA"
+   ],
+   "sequence": [],
+   "rule_applied": [
+    "R4",
+    "R4b",
+    "R4c",
+    "V2",
+    "R5",
+    "R6",
+    "S1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Tenured/Tenure-Track Faculty",
+     "Birth mother or primary caregiver may, upon request, take one semester at full pay (centrally funded) while being relieved from teaching duties for the duration of the leave of absence, but continuing to perform their research and graduate student supervision duties.",
+     "Applies to employees eligible for full benefits"
+    ],
+    "eligible_parent": [
+     "Birth mother or primary caregiver may, upon request, take one semester at full pay (centrally funded) while being relieved from teaching duties for the duration of the leave of absence, but continuing to perform their research and graduate student supervision duties.",
+     "Includes adoption (primary caregiver) for children under 7 years old not attending school full-time. Employee must certify that they are the primary caregiver"
+    ],
+    "caregiver_condition": [
+     "Includes adoption (primary caregiver) for children under 7 years old not attending school full-time. Employee must certify that they are the primary caregiver"
+    ],
+    "entitlement": [
+     "Birth mother or primary caregiver may, upon request, take one semester at full pay (centrally funded) while being relieved from teaching duties for the duration of the leave of absence, but continuing to perform their research and graduate student supervision duties."
+    ],
+    "duration": [
+     "Birth mother or primary caregiver may, upon request, take one semester at full pay (centrally funded) while being relieved from teaching duties for the duration of the leave of absence, but continuing to perform their research and graduate student supervision duties."
+    ],
+    "pay_fraction": [
+     "Birth mother or primary caregiver may, upon request, take one semester at full pay (centrally funded) while being relieved from teaching duties for the duration of the leave of absence, but continuing to perform their research and graduate student supervision duties."
+    ],
+    "relief": [
+     "Birth mother or primary caregiver may, upon request, take one semester at full pay (centrally funded) while being relieved from teaching duties for the duration of the leave of absence, but continuing to perform their research and graduate student supervision duties."
+    ],
+    "service_requirement": [
+     "Applies to employees eligible for full benefits"
+    ],
+    "time_window": [
+     "Must be taken within 12 months from the birth of the baby",
+     "If medical conditions arise prior to the birth, parental leave may be taken before the birth",
+     "Faculty can only receive paid parental leave for semesters normally paid (i.e. summer is excluded)."
+    ],
+    "notice": [
+     "requests for parental leave must be submitted in writing at least 30 days before the leave is expected to begin"
+    ],
+    "payer": [
+     "The associated cost for eligible persons on parental leave will be covered by Michigan Tech as outlined below."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link",
+    "2018_01_handbook_6234_paid_parental_leave"
+   ],
+   "flags": [
+    "ambiguous: rule gap: 'Birth mother or primary caregiver' vs 'Non-birth mother or non-primary caregiver'; the Eligibility bullet ties 'primary caregiver' to adoption, so the primary-caregiver path was read as the adoptive one; whether a non-birth biological parent who is the primary caregiver may take this option is not stated"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R4c",
+     "answer": "employer_paid_leave",
+     "quote": "Birth mother or primary caregiver may, upon request, take one semester at full pay (centrally funded) while being relieved from teaching duties for the duration of the leave of absence, but continuing to perform their research and graduate student supervision duties."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "The associated cost for eligible persons on parental leave will be covered by Michigan Tech as outlined below."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Intended to provide paid time off after the birth of a baby."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Tenured/Tenure-Track Faculty"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "birth_parent, adoptive ('primary caregiver' read as the adoption path)",
+     "quote": "Includes adoption (primary caregiver) for children under 7 years old not attending school full-time. Employee must certify that they are the primary caregiver"
+    },
+    {
+     "field": "caregiver_condition",
+     "rule": "R6",
+     "answer": "primary",
+     "quote": "Includes adoption (primary caregiver) for children under 7 years old not attending school full-time. Employee must certify that they are the primary caregiver"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "Birth mother or primary caregiver may, upon request, take one semester at full pay (centrally funded)"
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 semester exact",
+     "quote": "take one semester at full pay"
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "full pay",
+     "quote": "take one semester at full pay"
+    },
+    {
+     "field": "relief",
+     "rule": "R4b",
+     "answer": "teaching relieved; research and advising continue (stated); service and clinical continue (unnamed)",
+     "quote": "Birth mother or primary caregiver may, upon request, take one semester at full pay (centrally funded) while being relieved from teaching duties for the duration of the leave of absence, but continuing to perform their research and graduate student supervision duties."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "employees eligible for full benefits",
+     "quote": "Applies to employees eligible for full benefits"
+    }
+   ]
+  },
+  {
+   "component_id": "michigan_technological_university_c2",
+   "institution_label": "",
+   "description": "Tenured/tenure-track birth mother or (adoptive) primary caregiver: alternatively, a part-time return-to-work schedule equal to 6 weeks of centrally paid leave, approved by the supervisor.",
+   "mechanism": "part_time_option",
+   "mechanism_note": "A part-time return schedule; the reduction equals 6 weeks of centrally paid leave spread over an unstated span.",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Tenured/Tenure-Track Faculty (HR Paid Parental Leave Benefit, effective January 1, 2017); applies to employees eligible for full benefits",
+   "eligible_parent": [
+    "birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "Birth mother or primary caregiver",
+   "caregiver_condition": "primary",
+   "caregiver_condition_wording": "Includes adoption (primary caregiver) ... Employee must certify that they are the primary caregiver (adoptive path)",
+   "service_requirement": "employees eligible for full benefits; no length of service stated",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "'may, upon request, work out' gives the option; the supervisor approves 'this arrangement' (the schedule), so approval covers the arrangements (V2). Could be read as discretionary.",
+   "duration": {
+    "value": 6,
+    "units": "week",
+    "qualifier": "exact"
+   },
+   "duration_note": "Six weeks of centrally paid leave, taken as a part-time schedule; the span of the schedule is not stated.",
+   "time_window": "within 12 months from the birth",
+   "notice": "written request at least 30 days before the leave is expected to begin",
+   "sequence": [
+    {
+     "relation": "in_lieu_of",
+     "component_id": "michigan_technological_university_c1",
+     "note": "'OR' between the three tenure-track birth-mother options"
+    }
+   ],
+   "rule_applied": [
+    "R3",
+    "R3c",
+    "V2",
+    "V4",
+    "R5",
+    "R6"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Tenured/Tenure-Track Faculty",
+     "Birth mother or primary caregiver may, upon request, work out a part-time return to work schedule that equates to 6 weeks of centrally paid leave. This arrangement must be approved by the employee’s supervisor."
+    ],
+    "eligible_parent": [
+     "Birth mother or primary caregiver may, upon request, work out a part-time return to work schedule that equates to 6 weeks of centrally paid leave. This arrangement must be approved by the employee’s supervisor."
+    ],
+    "caregiver_condition": [
+     "Includes adoption (primary caregiver) for children under 7 years old not attending school full-time. Employee must certify that they are the primary caregiver"
+    ],
+    "entitlement": [
+     "Birth mother or primary caregiver may, upon request, work out a part-time return to work schedule that equates to 6 weeks of centrally paid leave. This arrangement must be approved by the employee’s supervisor."
+    ],
+    "duration": [
+     "Birth mother or primary caregiver may, upon request, work out a part-time return to work schedule that equates to 6 weeks of centrally paid leave. This arrangement must be approved by the employee’s supervisor."
+    ],
+    "service_requirement": [
+     "Applies to employees eligible for full benefits"
+    ],
+    "sequence": [
+     "Birth mother or primary caregiver may, upon request, work out a part-time return to work schedule that equates to 6 weeks of centrally paid leave. This arrangement must be approved by the employee’s supervisor.",
+     "OR"
+    ],
+    "time_window": [
+     "Must be taken within 12 months from the birth of the baby"
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "ambiguous: rule gap: 'Birth mother or primary caregiver' vs 'Non-birth mother or non-primary caregiver'; the Eligibility bullet ties 'primary caregiver' to adoption, so the primary-caregiver path was read as the adoptive one; whether a non-birth biological parent who is the primary caregiver may take this option is not stated"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R3",
+     "answer": "part_time_option",
+     "quote": "Birth mother or primary caregiver may, upon request, work out a part-time return to work schedule that equates to 6 weeks of centrally paid leave. This arrangement must be approved by the employee’s supervisor."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "equates to 6 weeks of centrally paid leave"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Intended to provide paid time off after the birth of a baby."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Tenured/Tenure-Track Faculty"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "birth_parent, adoptive",
+     "quote": "Birth mother or primary caregiver may, upon request, work out a part-time return to work schedule that equates to 6 weeks of centrally paid leave. This arrangement must be approved by the employee’s supervisor."
+    },
+    {
+     "field": "caregiver_condition",
+     "rule": "R6",
+     "answer": "primary",
+     "quote": "Includes adoption (primary caregiver) for children under 7 years old not attending school full-time. Employee must certify that they are the primary caregiver"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "Birth mother or primary caregiver may, upon request, work out a part-time return to work schedule that equates to 6 weeks of centrally paid leave. This arrangement must be approved by the employee’s supervisor."
+    },
+    {
+     "field": "duration",
+     "rule": "R3c",
+     "answer": "6 weeks (the paid-leave equivalent); span unstated",
+     "quote": "work out a part-time return to work schedule that equates to 6 weeks of centrally paid leave"
+    },
+    {
+     "field": "sequence",
+     "rule": "R15b",
+     "answer": "in_lieu_of c1",
+     "quote": "Birth mother or primary caregiver may, upon request, work out a part-time return to work schedule that equates to 6 weeks of centrally paid leave. This arrangement must be approved by the employee’s supervisor."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "employees eligible for full benefits",
+     "quote": "Applies to employees eligible for full benefits"
+    }
+   ]
+  },
+  {
+   "component_id": "michigan_technological_university_c3",
+   "institution_label": "",
+   "description": "Tenured/tenure-track birth mother or (adoptive) primary caregiver: alternatively, up to 6 weeks of centrally funded paid leave, with further leave from earned sick leave or unpaid FMLA leave.",
+   "mechanism": "employer_paid_leave",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Tenured/Tenure-Track Faculty (HR Paid Parental Leave Benefit, effective January 1, 2017); applies to employees eligible for full benefits",
+   "eligible_parent": [
+    "birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "Birth mother or primary caregiver",
+   "caregiver_condition": "primary",
+   "caregiver_condition_wording": "Includes adoption (primary caregiver) ... Employee must certify that they are the primary caregiver (adoptive path)",
+   "service_requirement": "employees eligible for full benefits; no length of service stated",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "'may, upon request, take up to 6 weeks paid leave'; the supervisor approves 'this arrangement' (V2). Could be read as discretionary.",
+   "duration": {
+    "value": 6,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "pay_fraction": "paid leave (centrally funded)",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "time_window": "within 12 months from the birth; may begin before the birth if medical conditions arise",
+   "notice": "written request at least 30 days before the leave is expected to begin",
+   "runs_concurrently_with": [
+    "FMLA"
+   ],
+   "sequence": [
+    {
+     "relation": "in_lieu_of",
+     "component_id": "michigan_technological_university_c1",
+     "note": "'OR' between the three tenure-track birth-mother options"
+    },
+    {
+     "relation": "in_lieu_of",
+     "component_id": "michigan_technological_university_c2",
+     "note": "'OR' between the three tenure-track birth-mother options"
+    }
+   ],
+   "rule_applied": [
+    "R9",
+    "R13",
+    "V2",
+    "R15b",
+    "R5",
+    "R6",
+    "S1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Tenured/Tenure-Track Faculty",
+     "Birth mother or primary caregiver may, upon request, take up to 6 weeks paid leave (centrally funded); and may request additional leave by applying their earned sick leave (all of which is paid by the department) or may take unpaid leave in accordance with FMLA guidelines. This arrangement must be approved by the employee’s supervisor."
+    ],
+    "eligible_parent": [
+     "Birth mother or primary caregiver may, upon request, take up to 6 weeks paid leave (centrally funded); and may request additional leave by applying their earned sick leave (all of which is paid by the department) or may take unpaid leave in accordance with FMLA guidelines. This arrangement must be approved by the employee’s supervisor."
+    ],
+    "caregiver_condition": [
+     "Includes adoption (primary caregiver) for children under 7 years old not attending school full-time. Employee must certify that they are the primary caregiver"
+    ],
+    "entitlement": [
+     "Birth mother or primary caregiver may, upon request, take up to 6 weeks paid leave (centrally funded); and may request additional leave by applying their earned sick leave (all of which is paid by the department) or may take unpaid leave in accordance with FMLA guidelines. This arrangement must be approved by the employee’s supervisor."
+    ],
+    "duration": [
+     "take up to 6 weeks paid leave (centrally funded)"
+    ],
+    "pay_fraction": [
+     "take up to 6 weeks paid leave (centrally funded)"
+    ],
+    "service_requirement": [
+     "Applies to employees eligible for full benefits"
+    ],
+    "sequence": [
+     "Birth mother or primary caregiver may, upon request, take up to 6 weeks paid leave (centrally funded); and may request additional leave by applying their earned sick leave (all of which is paid by the department) or may take unpaid leave in accordance with FMLA guidelines. This arrangement must be approved by the employee’s supervisor.",
+     "OR"
+    ],
+    "time_window": [
+     "Must be taken within 12 months from the birth of the baby",
+     "If medical conditions arise prior to the birth, parental leave may be taken before the birth"
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "ambiguous: rule gap: 'Birth mother or primary caregiver' vs 'Non-birth mother or non-primary caregiver'; the Eligibility bullet ties 'primary caregiver' to adoption, so the primary-caregiver path was read as the adoptive one; whether a non-birth biological parent who is the primary caregiver may take this option is not stated"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "employer_paid_leave",
+     "quote": "take up to 6 weeks paid leave (centrally funded)"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "take up to 6 weeks paid leave (centrally funded)"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Intended to provide paid time off after the birth of a baby."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Tenured/Tenure-Track Faculty"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "birth_parent, adoptive",
+     "quote": "Birth mother or primary caregiver may, upon request, take up to 6 weeks paid leave (centrally funded); and may request additional leave by applying their earned sick leave (all of which is paid by the department) or may take unpaid leave in accordance with FMLA guidelines. This arrangement must be approved by the employee’s supervisor."
+    },
+    {
+     "field": "caregiver_condition",
+     "rule": "R6",
+     "answer": "primary",
+     "quote": "Includes adoption (primary caregiver) for children under 7 years old not attending school full-time. Employee must certify that they are the primary caregiver"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "Birth mother or primary caregiver may, upon request, take up to 6 weeks paid leave (centrally funded); and may request additional leave by applying their earned sick leave (all of which is paid by the department) or may take unpaid leave in accordance with FMLA guidelines. This arrangement must be approved by the employee’s supervisor."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "6 weeks up_to",
+     "quote": "take up to 6 weeks paid leave"
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "paid leave (centrally funded); level not stated",
+     "quote": "take up to 6 weeks paid leave (centrally funded)"
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave, relief not stated)",
+     "quote": "take up to 6 weeks paid leave (centrally funded)"
+    },
+    {
+     "field": "sequence",
+     "rule": "R15b",
+     "answer": "in_lieu_of c1 and c2",
+     "quote": "Birth mother or primary caregiver may, upon request, take up to 6 weeks paid leave (centrally funded); and may request additional leave by applying their earned sick leave (all of which is paid by the department) or may take unpaid leave in accordance with FMLA guidelines. This arrangement must be approved by the employee’s supervisor."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "employees eligible for full benefits",
+     "quote": "Applies to employees eligible for full benefits"
+    }
+   ]
+  },
+  {
+   "component_id": "michigan_technological_university_c4",
+   "institution_label": "",
+   "description": "Tenured/tenure-track non-birth parent or (adoptive) non-primary caregiver: on request, 2 weeks of centrally funded paid leave (or, instead, the 40% semester, c5).",
+   "mechanism": "employer_paid_leave",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Tenured/Tenure-Track Faculty (HR Paid Parental Leave Benefit, effective January 1, 2017); applies to employees eligible for full benefits",
+   "eligible_parent": [
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "Non-birth mother or non-primary caregiver",
+   "caregiver_condition": "other",
+   "caregiver_condition_wording": "non-primary caregiver",
+   "service_requirement": "employees eligible for full benefits; no length of service stated",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "'may, upon request, take' (V2).",
+   "duration": {
+    "value": 2,
+    "units": "week",
+    "qualifier": "exact"
+   },
+   "duration_note": "The tenure-track text states '2 weeks' with no qualifier (the staff text says 'up to 2 weeks').",
+   "pay_fraction": "paid leave (centrally funded)",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "time_window": "within 12 months from the birth",
+   "notice": "written request at least 30 days before the leave is expected to begin",
+   "runs_concurrently_with": [
+    "FMLA"
+   ],
+   "sequence": [],
+   "rule_applied": [
+    "R9",
+    "R13",
+    "V2",
+    "R5",
+    "R6",
+    "S1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Tenured/Tenure-Track Faculty",
+     "Non-birth mother or non-primary caregiver may, upon request, take either 2 weeks paid leave, or a reduction of pay to 40% for one semester, with no teaching or service duties (centrally funded)."
+    ],
+    "eligible_parent": [
+     "Non-birth mother or non-primary caregiver may, upon request, take either 2 weeks paid leave, or a reduction of pay to 40% for one semester, with no teaching or service duties (centrally funded)."
+    ],
+    "caregiver_condition": [
+     "Non-birth mother or non-primary caregiver may, upon request, take either 2 weeks paid leave, or a reduction of pay to 40% for one semester, with no teaching or service duties (centrally funded)."
+    ],
+    "entitlement": [
+     "Non-birth mother or non-primary caregiver may, upon request, take either 2 weeks paid leave, or a reduction of pay to 40% for one semester, with no teaching or service duties (centrally funded)."
+    ],
+    "duration": [
+     "Non-birth mother or non-primary caregiver may, upon request, take either 2 weeks paid leave, or a reduction of pay to 40% for one semester, with no teaching or service duties (centrally funded)."
+    ],
+    "pay_fraction": [
+     "Non-birth mother or non-primary caregiver may, upon request, take either 2 weeks paid leave, or a reduction of pay to 40% for one semester, with no teaching or service duties (centrally funded)."
+    ],
+    "service_requirement": [
+     "Applies to employees eligible for full benefits"
+    ],
+    "time_window": [
+     "Must be taken within 12 months from the birth of the baby"
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "employer_paid_leave",
+     "quote": "Non-birth mother or non-primary caregiver may, upon request, take either 2 weeks paid leave, or a reduction of pay to 40% for one semester, with no teaching or service duties (centrally funded)."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "Non-birth mother or non-primary caregiver may, upon request, take either 2 weeks paid leave, or a reduction of pay to 40% for one semester, with no teaching or service duties (centrally funded)."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Intended to provide paid time off after the birth of a baby."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Tenured/Tenure-Track Faculty"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "non_birth_parent, adoptive",
+     "quote": "Non-birth mother or non-primary caregiver may, upon request, take either 2 weeks paid leave, or a reduction of pay to 40% for one semester, with no teaching or service duties (centrally funded)."
+    },
+    {
+     "field": "caregiver_condition",
+     "rule": "R6",
+     "answer": "other",
+     "quote": "Non-birth mother or non-primary caregiver may, upon request, take either 2 weeks paid leave, or a reduction of pay to 40% for one semester, with no teaching or service duties (centrally funded)."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "Non-birth mother or non-primary caregiver may, upon request, take either 2 weeks paid leave, or a reduction of pay to 40% for one semester, with no teaching or service duties (centrally funded)."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "2 weeks exact (no qualifier in the tenure-track text)",
+     "quote": "Non-birth mother or non-primary caregiver may, upon request, take either 2 weeks paid leave, or a reduction of pay to 40% for one semester, with no teaching or service duties (centrally funded)."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "paid leave (centrally funded); level not stated",
+     "quote": "Non-birth mother or non-primary caregiver may, upon request, take either 2 weeks paid leave, or a reduction of pay to 40% for one semester, with no teaching or service duties (centrally funded)."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave, relief not stated)",
+     "quote": "Non-birth mother or non-primary caregiver may, upon request, take either 2 weeks paid leave, or a reduction of pay to 40% for one semester, with no teaching or service duties (centrally funded)."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "employees eligible for full benefits",
+     "quote": "Applies to employees eligible for full benefits"
+    }
+   ]
+  },
+  {
+   "component_id": "michigan_technological_university_c5",
+   "institution_label": "",
+   "description": "Tenured/tenure-track non-birth parent or (adoptive) non-primary caregiver: alternatively, one semester at pay reduced to 40% with no teaching or service duties; research not named.",
+   "mechanism": "modified_duties",
+   "mechanism_note": "Relief from teaching and service that comes with a cut in pay to 40% is coded modified_duties with its pay level (40%), not part_time_option under R3 (cf. R3f, Rensselaer half-pay semester): the semester with no teaching or service at 40% pay is the alternative to two weeks' paid leave. Alternative reading: a 40%-paid leave keeping research (R4c), which would be compared by full-pay-equivalent weeks under R15b.",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Tenured/Tenure-Track Faculty (HR Paid Parental Leave Benefit, effective January 1, 2017); applies to employees eligible for full benefits",
+   "eligible_parent": [
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "Non-birth mother or non-primary caregiver",
+   "caregiver_condition": "other",
+   "caregiver_condition_wording": "non-primary caregiver",
+   "service_requirement": "employees eligible for full benefits; no length of service stated",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "'may, upon request, take either ... or' (V2).",
+   "duration": {
+    "value": 1,
+    "units": "semester",
+    "qualifier": "exact"
+   },
+   "pay_fraction": "40%",
+   "relief_note": "No teaching or service duties for the semester; research and graduate supervision not named (would continue under R4b).",
+   "time_window": "within 12 months from the birth; only semesters normally paid (summer excluded)",
+   "notice": "written request at least 30 days before the leave is expected to begin",
+   "sequence": [
+    {
+     "relation": "in_lieu_of",
+     "component_id": "michigan_technological_university_c4",
+     "note": "'either 2 weeks paid leave, or a reduction of pay to 40% for one semester'"
+    }
+   ],
+   "rule_applied": [
+    "R3",
+    "R4b",
+    "V2",
+    "R15b",
+    "R5",
+    "R6"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Tenured/Tenure-Track Faculty",
+     "Non-birth mother or non-primary caregiver may, upon request, take either 2 weeks paid leave, or a reduction of pay to 40% for one semester, with no teaching or service duties (centrally funded)."
+    ],
+    "eligible_parent": [
+     "Non-birth mother or non-primary caregiver may, upon request, take either 2 weeks paid leave, or a reduction of pay to 40% for one semester, with no teaching or service duties (centrally funded)."
+    ],
+    "caregiver_condition": [
+     "Non-birth mother or non-primary caregiver may, upon request, take either 2 weeks paid leave, or a reduction of pay to 40% for one semester, with no teaching or service duties (centrally funded)."
+    ],
+    "entitlement": [
+     "Non-birth mother or non-primary caregiver may, upon request, take either 2 weeks paid leave, or a reduction of pay to 40% for one semester, with no teaching or service duties (centrally funded)."
+    ],
+    "duration": [
+     "Non-birth mother or non-primary caregiver may, upon request, take either 2 weeks paid leave, or a reduction of pay to 40% for one semester, with no teaching or service duties (centrally funded)."
+    ],
+    "pay_fraction": [
+     "Non-birth mother or non-primary caregiver may, upon request, take either 2 weeks paid leave, or a reduction of pay to 40% for one semester, with no teaching or service duties (centrally funded)."
+    ],
+    "service_requirement": [
+     "Applies to employees eligible for full benefits"
+    ],
+    "sequence": [
+     "Non-birth mother or non-primary caregiver may, upon request, take either 2 weeks paid leave, or a reduction of pay to 40% for one semester, with no teaching or service duties (centrally funded)."
+    ],
+    "time_window": [
+     "Must be taken within 12 months from the birth of the baby",
+     "Faculty can only receive paid parental leave for semesters normally paid (i.e. summer is excluded)."
+    ],
+    "relief": [
+     "Non-birth mother or non-primary caregiver may, upon request, take either 2 weeks paid leave, or a reduction of pay to 40% for one semester, with no teaching or service duties (centrally funded)."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "ambiguous: rule gap: a reduced-pay (40%) semester with no teaching or service is coded modified_duties at 40% pay (R3, cf. R3f); read instead as a 40%-paid leave keeping research (R4c) it would win R15b against the 2 weeks (6.4 vs 2 full-pay-equivalent weeks)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R3",
+     "answer": "modified_duties",
+     "quote": "a reduction of pay to 40% for one semester, with no teaching or service duties"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "Non-birth mother or non-primary caregiver may, upon request, take either 2 weeks paid leave, or a reduction of pay to 40% for one semester, with no teaching or service duties (centrally funded)."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Intended to provide paid time off after the birth of a baby."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Tenured/Tenure-Track Faculty"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "non_birth_parent, adoptive",
+     "quote": "Non-birth mother or non-primary caregiver may, upon request, take either 2 weeks paid leave, or a reduction of pay to 40% for one semester, with no teaching or service duties (centrally funded)."
+    },
+    {
+     "field": "caregiver_condition",
+     "rule": "R6",
+     "answer": "other",
+     "quote": "Non-birth mother or non-primary caregiver may, upon request, take either 2 weeks paid leave, or a reduction of pay to 40% for one semester, with no teaching or service duties (centrally funded)."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "Non-birth mother or non-primary caregiver may, upon request, take either 2 weeks paid leave, or a reduction of pay to 40% for one semester, with no teaching or service duties (centrally funded)."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 semester exact",
+     "quote": "a reduction of pay to 40% for one semester"
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "R3",
+     "answer": "40% (pay cut, so not relief at full pay)",
+     "quote": "a reduction of pay to 40% for one semester"
+    },
+    {
+     "field": "sequence",
+     "rule": "R15b",
+     "answer": "in_lieu_of c4",
+     "quote": "Non-birth mother or non-primary caregiver may, upon request, take either 2 weeks paid leave, or a reduction of pay to 40% for one semester, with no teaching or service duties (centrally funded)."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "employees eligible for full benefits",
+     "quote": "Applies to employees eligible for full benefits"
+    }
+   ],
+   "pay_fraction_pct": 40,
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "continues",
+    "advising_supervision": "continues",
+    "clinical": "continues"
+   }
+  },
+  {
+   "component_id": "michigan_technological_university_c6",
+   "institution_label": "Family and Medical Leave Act of 1993 (FMLA)",
+   "description": "Federal FMLA: unpaid, job-protected family or medical leave of up to 12 weeks in a 12-month period; the paid parental leave runs concurrently with it.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "eligible employees (Faculty Handbook 6.2.2, Tenured/Tenure-Track Faculty Handbook)",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "eligible employees; birth of a son or daughter, placement for adoption or foster care (statute)",
+   "caregiver_condition": "none",
+   "service_requirement": "12 months and 1,250 hours (29 U.S.C. 2611(2))",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 12,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "duration_note": "Handbook: 'may not exceed twelve weeks within a twelve month period'; statute: 'a total of 12 workweeks of leave during any 12-month period'.",
+   "pay_fraction": "without pay",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "statute_source": "29 U.S.C. 2612(a)(1)(A)-(C); eligibility 29 U.S.C. 2611(2)",
+   "statute_verified": true,
+   "sequence": [
+    {
+     "relation": "concurrent_with",
+     "component_id": "michigan_technological_university_c1",
+     "note": "Parental leave runs concurrent with FMLA (S1)"
+    },
+    {
+     "relation": "concurrent_with",
+     "component_id": "michigan_technological_university_c3",
+     "note": "S1; after the 6 paid weeks the birth mother 'may take unpaid leave in accordance with FMLA guidelines' (unpaid remainder)"
+    },
+    {
+     "relation": "concurrent_with",
+     "component_id": "michigan_technological_university_c4",
+     "note": "S1; unpaid remainder after the 2 paid weeks"
+    }
+   ],
+   "rule_applied": [
+    "U2",
+    "U4",
+    "S1",
+    "R9",
+    "R13"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Under the Family and Medical Leave Act of 1993, employers are required to grant eligible employees a Family or Medical Leave of Absence. These leaves maintain current health coverage during the leave, are without pay, and may not exceed twelve weeks within a twelve month period."
+    ],
+    "eligible_parent": [
+     "Because of the birth of a son or daughter of the employee and in order to care for such son or daughter.",
+     "Under the Family and Medical Leave Act of 1993, employers are required to grant eligible employees a Family or Medical Leave of Absence. These leaves maintain current health coverage during the leave, are without pay, and may not exceed twelve weeks within a twelve month period."
+    ],
+    "entitlement": [
+     "Under the Family and Medical Leave Act of 1993, employers are required to grant eligible employees a Family or Medical Leave of Absence. These leaves maintain current health coverage during the leave, are without pay, and may not exceed twelve weeks within a twelve month period.",
+     "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period for one or more of the following:"
+    ],
+    "duration": [
+     "Under the Family and Medical Leave Act of 1993, employers are required to grant eligible employees a Family or Medical Leave of Absence. These leaves maintain current health coverage during the leave, are without pay, and may not exceed twelve weeks within a twelve month period.",
+     "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period for one or more of the following:"
+    ],
+    "pay_fraction": [
+     "Under the Family and Medical Leave Act of 1993, employers are required to grant eligible employees a Family or Medical Leave of Absence. These leaves maintain current health coverage during the leave, are without pay, and may not exceed twelve weeks within a twelve month period."
+    ],
+    "service_requirement": [
+     "at least 1,250 hours of service with such employer during the previous 12-month period",
+     "for at least 12 months by the employer with respect to whom leave is requested under section 2612 of this title"
+    ],
+    "sequence": [
+     "Runs concurrent with the Family Medical Leave Act (FMLA)",
+     "Parental leave will run concurrent with the FMLA, if the Eligible Employee meets the eligibility requirements of the FMLA."
+    ]
+   },
+   "doc_ids": [
+    "2018_03_handbook_622_fmla",
+    "2018_00_link",
+    "2026_00_us_fmla_29usc2612",
+    "2026_01_us_fmla_29usc2611_definitions"
+   ],
+   "flags": [
+    "cross_reference_not_saved: Family and Medical Leave Act (FMLA) Policy"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "U4",
+     "answer": "unpaid_leave",
+     "quote": "Under the Family and Medical Leave Act of 1993, employers are required to grant eligible employees a Family or Medical Leave of Absence. These leaves maintain current health coverage during the leave, are without pay, and may not exceed twelve weeks within a twelve month period."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "are without pay"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Under the Family and Medical Leave Act of 1993, employers are required to grant eligible employees a Family or Medical Leave of Absence. These leaves maintain current health coverage during the leave, are without pay, and may not exceed twelve weeks within a twelve month period."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "employers are required to grant eligible employees a Family or Medical Leave of Absence"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U2",
+     "answer": "birth_parent, non_birth_parent, adoptive, foster (statute)",
+     "quote": "Because of the birth of a son or daughter of the employee and in order to care for such son or daughter."
+    },
+    {
+     "field": "entitlement",
+     "rule": "U2",
+     "answer": "guaranteed",
+     "quote": "employers are required to grant eligible employees a Family or Medical Leave of Absence"
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "12 weeks up_to ('may not exceed')",
+     "quote": "may not exceed twelve weeks within a twelve month period"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U2",
+     "answer": "12 months and 1,250 hours",
+     "quote": "at least 1,250 hours of service with such employer during the previous 12-month period"
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "without pay",
+     "quote": "are without pay"
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave)",
+     "quote": "Under the Family and Medical Leave Act of 1993, employers are required to grant eligible employees a Family or Medical Leave of Absence. These leaves maintain current health coverage during the leave, are without pay, and may not exceed twelve weeks within a twelve month period."
+    },
+    {
+     "field": "sequence",
+     "rule": "S1",
+     "answer": "concurrent_with c1, c3, c4",
+     "quote": "Parental leave will run concurrent with the FMLA, if the Eligible Employee meets the eligibility requirements of the FMLA."
+    }
+   ]
+  },
+  {
+   "component_id": "michigan_technological_university_c7",
+   "institution_label": "Sick Leave",
+   "description": "Sick days deposited each January (9 days for faculty on 9-month contracts; 13 for others), accumulating to 60 days; usable for the employee's own illness or disability and for immediate family; may be applied as additional leave after the 6-week parental option.",
+   "mechanism": "own_accrual",
+   "mechanism_note": "Days deposited annually and carried over to a 60-day cap, so the balance grows with service: an accrual (R1), not an employer plan.",
+   "payer": "own_balance",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Eligible employees, including faculty on a 9-month contract (Faculty Handbook 6.2.3.3)",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent"
+   ],
+   "eligible_parent_wording": "eligible employees and members of the employee's immediate family (spouse, children, ...)",
+   "caregiver_condition": "none",
+   "service_requirement": "none stated; new hires receive 13 (or 6.5) days pro-rated by start date",
+   "entitlement": "guaranteed",
+   "duration_note": "A balance: 9 days a year for 9-month faculty, deposited in January, maximum accumulated 60 days; no advance. A balance of unknown length adds no weeks.",
+   "medical_certification": true,
+   "medical_certification_note": "absences over three consecutive work days may require a physician statement",
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "michigan_technological_university_c3",
+     "roles": [
+      "birth"
+     ],
+     "note": "the 6-week option: 'may request additional leave by applying their earned sick leave'"
+    }
+   ],
+   "rule_applied": [
+    "R1",
+    "U5",
+    "R15"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "All 9/10 month employees, including faculty on a 9-month contract, shall receive 9 days deposited the first pay period in January up to a maximum of 60 days."
+    ],
+    "eligible_parent": [
+     "sick leave covers eligible employees and members of the employee's immediate family, who, in this instance, shall include the spouse, children, parents",
+     "Personal illness, injury, quarantine, or disability."
+    ],
+    "entitlement": [
+     "Eligible employees shall receive 13 annual sick days to be deposited the first pay period in January. Maximum accumulated sick leave is 60 days.",
+     "All 9/10 month employees, including faculty on a 9-month contract, shall receive 9 days deposited the first pay period in January up to a maximum of 60 days."
+    ],
+    "service_requirement": [
+     "New hires with a start date between January 1st and June 30th shall receive 13 days (pro-rated for part-time) effective on their first day of employment."
+    ],
+    "sequence": [
+     "Birth mother or primary caregiver may, upon request, take up to 6 weeks paid leave (centrally funded); and may request additional leave by applying their earned sick leave (all of which is paid by the department) or may take unpaid leave in accordance with FMLA guidelines. This arrangement must be approved by the employee’s supervisor."
+    ],
+    "medical_certification": [
+     "Sick leave or time off without pay for medical reasons in excess of three consecutive work days may require a physician statement"
+    ]
+   },
+   "doc_ids": [
+    "2018_02_handbook_6233_sick_leave",
+    "2018_00_link"
+   ],
+   "flags": [
+    "cross_reference_not_saved: Eligible Benefits Chart"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "own_accrual",
+     "quote": "All 9/10 month employees, including faculty on a 9-month contract, shall receive 9 days deposited the first pay period in January up to a maximum of 60 days."
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "own_balance",
+     "quote": "Sick leave shall not be allowed in advance of being earned."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Personal illness, injury, quarantine, or disability."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "All 9/10 month employees, including faculty on a 9-month contract, shall receive 9 days deposited the first pay period in January up to a maximum of 60 days."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own illness), non_birth_parent (family care)",
+     "quote": "sick leave covers eligible employees and members of the employee's immediate family, who, in this instance, shall include the spouse, children, parents"
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "All 9/10 month employees, including faculty on a 9-month contract, shall receive 9 days deposited the first pay period in January up to a maximum of 60 days."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "consecutive_after c3 (birth parent)",
+     "quote": "may request additional leave by applying their earned sick leave"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "none stated; pro-rated deposit for new hires",
+     "quote": "New hires with a start date between January 1st and June 30th shall receive 13 days"
+    }
+   ]
+  },
+  {
+   "component_id": "michigan_technological_university_c8",
+   "institution_label": "Short-Term Disability Policy",
+   "description": "Salary continuation under the university's Short-Term Disability Policy for a non-work illness or disability lasting beyond 14 calendar days; sick leave may top it up to regular wages (up to 12 hours per pay period). Terms not in the saved sources.",
+   "mechanism": "generic_sick_or_disability_plan",
+   "mechanism_note": "A general disability plan; no childbirth-specific period, length or pay level is stated (V1, R2).",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "the employee (Faculty Handbook 6.2.3.3, Tenured/Tenure-Track Faculty Handbook)",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "the employee (own non-work related injury/illness)",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "entitlement_note": "The employee must apply and the benefit may be 'not approved'; the plan's own terms are not saved, so the approval standard is unknown (V2).",
+   "time_window": "time off extending past 14 calendar days",
+   "duration_note": "Length and pay level not stated in the saved sources; sick leave may make up the difference to regular wages up to 12 hours per pay period ('represents 30% effort').",
+   "rule_applied": [
+    "V1",
+    "R2",
+    "V6",
+    "U5",
+    "V2"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "As soon as the employee knows their time off due to a non-work related injury/illness will extend past 14 calendar days, the employee must apply for salary continuation under the Short-Term Disability Policy."
+    ],
+    "eligible_parent": [
+     "As soon as the employee knows their time off due to a non-work related injury/illness will extend past 14 calendar days, the employee must apply for salary continuation under the Short-Term Disability Policy."
+    ],
+    "entitlement": [
+     "As soon as the employee knows their time off due to a non-work related injury/illness will extend past 14 calendar days, the employee must apply for salary continuation under the Short-Term Disability Policy.",
+     "If short-term disability is not approved, employees may use sick time and may require a physician statement substantiating the need for extended time off."
+    ],
+    "time_window": [
+     "As soon as the employee knows their time off due to a non-work related injury/illness will extend past 14 calendar days, the employee must apply for salary continuation under the Short-Term Disability Policy."
+    ],
+    "payer": [
+     "As soon as the employee knows their time off due to a non-work related injury/illness will extend past 14 calendar days, the employee must apply for salary continuation under the Short-Term Disability Policy."
+    ],
+    "mechanism": [
+     "As soon as the employee knows their time off due to a non-work related injury/illness will extend past 14 calendar days, the employee must apply for salary continuation under the Short-Term Disability Policy.",
+     "To compensate an employee for the difference between payments received under the Short-term Disability policy and the employee's regular wages up to a maximum of 12 hours per pay period (represents 30% effort)."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_handbook_6233_sick_leave"
+   ],
+   "flags": [
+    "cross_reference_not_saved: Short-Term Disability Policy",
+    "ambiguous: payer: 'salary continuation' under a university policy read as employer-funded; funding not stated in the saved sources"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "V1",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "As soon as the employee knows their time off due to a non-work related injury/illness will extend past 14 calendar days, the employee must apply for salary continuation under the Short-Term Disability Policy."
+    },
+    {
+     "field": "payer",
+     "rule": "M1",
+     "answer": "employer",
+     "quote": "the employee must apply for salary continuation under the Short-Term Disability Policy"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "As soon as the employee knows their time off due to a non-work related injury/illness will extend past 14 calendar days, the employee must apply for salary continuation under the Short-Term Disability Policy."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "As soon as the employee knows their time off due to a non-work related injury/illness will extend past 14 calendar days, the employee must apply for salary continuation under the Short-Term Disability Policy."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own disability)",
+     "quote": "As soon as the employee knows their time off due to a non-work related injury/illness will extend past 14 calendar days, the employee must apply for salary continuation under the Short-Term Disability Policy."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "If short-term disability is not approved, employees may use sick time and may require a physician statement substantiating the need for extended time off."
+    }
+   ]
+  },
+  {
+   "component_id": "michigan_technological_university_c9",
+   "institution_label": "",
+   "description": "One-year extension of the tenure probationary period for exceptional circumstances (extensive sick leave, unpaid leave or a substantial formal reduction of responsibilities), at the Provost's sole discretion.",
+   "mechanism": "tenure_clock",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "untenured academic faculty (assistant, associate or full professor, tenure track)",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "A faculty member encountering such circumstances",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "exact"
+   },
+   "notice": "written request during or immediately following the circumstances; in no case after November 15 of the final probationary year",
+   "flags": [
+    "general_purpose"
+   ],
+   "rule_applied": [
+    "U1",
+    "V2"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "the academic faculty is comprised of those individuals holding one of the ranks of assistant professor, associate professor or professor"
+    ],
+    "eligible_parent": [
+     "Exceptional circumstances may sometimes effect a prolonged disruption of professional responsibilities during the tenure probationary period, requiring extensive sick leave, unpaid leave, or a substantial formal reduction of professional responsibilities. A faculty member encountering such circumstances may make written request to the Provost for a one year extension of the tenure probationary period."
+    ],
+    "entitlement": [
+     "Under this policy, an individual's tenure probationary period at Michigan Technological University may be extended by one year, or in the case of requests based on the birth or legal adoption of a child, not more than two years, total, for each child. Approval for such extensions will be at the sole discretion of the Provost."
+    ],
+    "duration": [
+     "Exceptional circumstances may sometimes effect a prolonged disruption of professional responsibilities during the tenure probationary period, requiring extensive sick leave, unpaid leave, or a substantial formal reduction of professional responsibilities. A faculty member encountering such circumstances may make written request to the Provost for a one year extension of the tenure probationary period."
+    ],
+    "notice": [
+     "in no case after November 15 of the final year of the tenure probationary period"
+    ]
+   },
+   "doc_ids": [
+    "2018_05_handbook_22_tenure_promotion"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "Exceptional circumstances may sometimes effect a prolonged disruption of professional responsibilities during the tenure probationary period, requiring extensive sick leave, unpaid leave, or a substantial formal reduction of professional responsibilities. A faculty member encountering such circumstances may make written request to the Provost for a one year extension of the tenure probationary period."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Exceptional circumstances may sometimes effect a prolonged disruption of professional responsibilities during the tenure probationary period, requiring extensive sick leave, unpaid leave, or a substantial formal reduction of professional responsibilities. A faculty member encountering such circumstances may make written request to the Provost for a one year extension of the tenure probationary period."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "requiring extensive sick leave, unpaid leave, or a substantial formal reduction of professional responsibilities"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "the academic faculty is comprised of those individuals holding one of the ranks of assistant professor, associate professor or professor"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent (any faculty member in exceptional circumstances)",
+     "quote": "Exceptional circumstances may sometimes effect a prolonged disruption of professional responsibilities during the tenure probationary period, requiring extensive sick leave, unpaid leave, or a substantial formal reduction of professional responsibilities. A faculty member encountering such circumstances may make written request to the Provost for a one year extension of the tenure probationary period."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "Approval for such extensions will be at the sole discretion of the Provost."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 year exact",
+     "quote": "a one year extension of the tenure probationary period"
+    }
+   ]
+  },
+  {
+   "component_id": "michigan_technological_university_c10",
+   "institution_label": "",
+   "description": "Extension of the tenure probationary period for the birth or legal adoption of a child: not more than two years in total for each child, at the Provost's sole discretion.",
+   "mechanism": "tenure_clock",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "untenured academic faculty (assistant, associate or full professor, tenure track)",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "requests based on the birth or legal adoption of a child",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "duration": {
+    "value": 2,
+    "units": "year",
+    "qualifier": "up_to"
+   },
+   "duration_note": "'not more than two years, total, for each child'; renews with each child (not a use limit, U9). The request follows the exceptional-circumstances procedure (two stated conditions).",
+   "notice": "written request during or immediately following the circumstances; in no case after November 15 of the final probationary year",
+   "sequence": [
+    {
+     "relation": "in_lieu_of",
+     "component_id": "michigan_technological_university_c9",
+     "note": "the same extension, one year generally or up to two years for a birth or adoption"
+    }
+   ],
+   "rule_applied": [
+    "V2",
+    "R13",
+    "U9",
+    "U1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "the academic faculty is comprised of those individuals holding one of the ranks of assistant professor, associate professor or professor"
+    ],
+    "eligible_parent": [
+     "Under this policy, an individual's tenure probationary period at Michigan Technological University may be extended by one year, or in the case of requests based on the birth or legal adoption of a child, not more than two years, total, for each child. Approval for such extensions will be at the sole discretion of the Provost."
+    ],
+    "entitlement": [
+     "Under this policy, an individual's tenure probationary period at Michigan Technological University may be extended by one year, or in the case of requests based on the birth or legal adoption of a child, not more than two years, total, for each child. Approval for such extensions will be at the sole discretion of the Provost."
+    ],
+    "duration": [
+     "Under this policy, an individual's tenure probationary period at Michigan Technological University may be extended by one year, or in the case of requests based on the birth or legal adoption of a child, not more than two years, total, for each child. Approval for such extensions will be at the sole discretion of the Provost."
+    ],
+    "sequence": [
+     "Under this policy, an individual's tenure probationary period at Michigan Technological University may be extended by one year, or in the case of requests based on the birth or legal adoption of a child, not more than two years, total, for each child. Approval for such extensions will be at the sole discretion of the Provost."
+    ],
+    "notice": [
+     "in no case after November 15 of the final year of the tenure probationary period"
+    ]
+   },
+   "doc_ids": [
+    "2018_05_handbook_22_tenure_promotion"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "Under this policy, an individual's tenure probationary period at Michigan Technological University may be extended by one year, or in the case of requests based on the birth or legal adoption of a child, not more than two years, total, for each child. Approval for such extensions will be at the sole discretion of the Provost."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Under this policy, an individual's tenure probationary period at Michigan Technological University may be extended by one year, or in the case of requests based on the birth or legal adoption of a child, not more than two years, total, for each child. Approval for such extensions will be at the sole discretion of the Provost."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "in the case of requests based on the birth or legal adoption of a child, not more than two years, total, for each child"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "the academic faculty is comprised of those individuals holding one of the ranks of assistant professor, associate professor or professor"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "birth_parent, non_birth_parent, adoptive",
+     "quote": "requests based on the birth or legal adoption of a child"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "Approval for such extensions will be at the sole discretion of the Provost."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "2 years up_to ('not more than')",
+     "quote": "not more than two years, total, for each child"
+    },
+    {
+     "field": "sequence",
+     "rule": "schema",
+     "answer": "in_lieu_of c9",
+     "quote": "Under this policy, an individual's tenure probationary period at Michigan Technological University may be extended by one year, or in the case of requests based on the birth or legal adoption of a child, not more than two years, total, for each child. Approval for such extensions will be at the sole discretion of the Provost."
+    },
+    {
+     "field": "duration.qualifier",
+     "rule": "R13",
+     "answer": "not more than states a ceiling, read like not to exceed (R13)",
+     "quote": "not more than two years, total, for each child"
+    }
+   ]
+  },
+  {
+   "component_id": "michigan_technological_university_c11",
+   "institution_label": "Formal Leave of Absence, Personal Reasons",
+   "description": "Unpaid formal leave of absence for personal reasons, up to 180 calendar days, extendable by up to 180 more, on approval.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "an employee (Faculty Handbook 6.2.4.1, Tenured/Tenure-Track Faculty Handbook)",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "an employee",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "duration": {
+    "value": 180,
+    "units": "calendar_day",
+    "qualifier": "up_to"
+   },
+   "duration_note": "May be extended for an additional period not to exceed 180 calendar days, on approval.",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "notice": "written application through the immediate supervisor to Human Resources",
+   "flags": [
+    "general_purpose"
+   ],
+   "rule_applied": [
+    "U1",
+    "V2",
+    "R9",
+    "R11b",
+    "R13"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "A formal leave of absence may be granted for personal reasons for a period not to exceed one hundred eighty (180) calendar days upon written application through an employee's immediate supervisor to Human Resources subject to the approval of the appropriate vice president/Provost."
+    ],
+    "eligible_parent": [
+     "A formal leave of absence may be granted for personal reasons for a period not to exceed one hundred eighty (180) calendar days upon written application through an employee's immediate supervisor to Human Resources subject to the approval of the appropriate vice president/Provost."
+    ],
+    "entitlement": [
+     "A formal leave of absence may be granted for personal reasons for a period not to exceed one hundred eighty (180) calendar days upon written application through an employee's immediate supervisor to Human Resources subject to the approval of the appropriate vice president/Provost."
+    ],
+    "duration": [
+     "A formal leave of absence may be granted for personal reasons for a period not to exceed one hundred eighty (180) calendar days upon written application through an employee's immediate supervisor to Human Resources subject to the approval of the appropriate vice president/Provost.",
+     "Such leave may be extended for an additional period not to exceed one hundred eighty (180) calendar days subject to the approval of the appropriate vice president/Provost with notification to Human Resources."
+    ]
+   },
+   "doc_ids": [
+    "2018_04_handbook_6241_leave_without_pay"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "6.2.4 Leaves Without Pay"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "6.2.4 Leaves Without Pay"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "A formal leave of absence may be granted for personal reasons"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "A formal leave of absence may be granted for personal reasons for a period not to exceed one hundred eighty (180) calendar days upon written application through an employee's immediate supervisor to Human Resources subject to the approval of the appropriate vice president/Provost."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "A formal leave of absence may be granted for personal reasons for a period not to exceed one hundred eighty (180) calendar days upon written application through an employee's immediate supervisor to Human Resources subject to the approval of the appropriate vice president/Provost."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "A formal leave of absence may be granted for personal reasons"
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "180 calendar days up_to",
+     "quote": "for a period not to exceed one hundred eighty (180) calendar days"
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave)",
+     "quote": "A formal leave of absence may be granted for personal reasons for a period not to exceed one hundred eighty (180) calendar days upon written application through an employee's immediate supervisor to Human Resources subject to the approval of the appropriate vice president/Provost."
+    }
+   ]
+  },
+  {
+   "component_id": "michigan_technological_university_c12",
+   "institution_label": "",
+   "description": "Staff birth mother or (adoptive) primary caregiver: up to 6 weeks of centrally funded paid leave; further leave from vacation, compensatory or sick time, or unpaid FMLA leave.",
+   "mechanism": "employer_paid_leave",
+   "payer": "employer",
+   "faculty_group": "Staff",
+   "faculty_group_note": "Staff",
+   "eligible_parent": [
+    "birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "Birth mother or primary caregiver",
+   "caregiver_condition": "primary",
+   "service_requirement": "employees eligible for full benefits; no length of service stated",
+   "entitlement": "guaranteed_on_request",
+   "duration": {
+    "value": 6,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "time_window": "within 12 months from the birth",
+   "sequence": [],
+   "rule_applied": [
+    "V2",
+    "R5",
+    "R6",
+    "R13",
+    "R9"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Staff",
+     "Staff employed less than 12 months can only receive paid parental leave for weeks normally paid."
+    ],
+    "eligible_parent": [
+     "Birth mother or primary caregiver may, upon request, take up to 6 weeks paid leave (centrally funded); and may request additional leave by applying their earned vacation, compensatory time, sick leave (all of which is paid by the department) or take unpaid leave in accordance with FMLA guidelines."
+    ],
+    "entitlement": [
+     "Birth mother or primary caregiver may, upon request, take up to 6 weeks paid leave (centrally funded); and may request additional leave by applying their earned vacation, compensatory time, sick leave (all of which is paid by the department) or take unpaid leave in accordance with FMLA guidelines."
+    ],
+    "duration": [
+     "take up to 6 weeks paid leave (centrally funded)"
+    ],
+    "service_requirement": [
+     "Applies to employees eligible for full benefits"
+    ],
+    "time_window": [
+     "Must be taken within 12 months from the birth of the baby"
+    ],
+    "caregiver_condition": [
+     "Includes adoption (primary caregiver) for children under 7 years old not attending school full-time. Employee must certify that they are the primary caregiver"
+    ],
+    "pay_fraction": [
+     "take up to 6 weeks paid leave (centrally funded)"
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "employer_paid_leave",
+     "quote": "Birth mother or primary caregiver may, upon request, take up to 6 weeks paid leave (centrally funded); and may request additional leave by applying their earned vacation, compensatory time, sick leave (all of which is paid by the department) or take unpaid leave in accordance with FMLA guidelines."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "Birth mother or primary caregiver may, upon request, take up to 6 weeks paid leave (centrally funded); and may request additional leave by applying their earned vacation, compensatory time, sick leave (all of which is paid by the department) or take unpaid leave in accordance with FMLA guidelines."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Intended to provide paid time off after the birth of a baby."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "Staff",
+     "quote": "Staff"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "birth_parent, adoptive",
+     "quote": "Birth mother or primary caregiver may, upon request, take up to 6 weeks paid leave (centrally funded); and may request additional leave by applying their earned vacation, compensatory time, sick leave (all of which is paid by the department) or take unpaid leave in accordance with FMLA guidelines."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "Birth mother or primary caregiver may, upon request, take up to 6 weeks paid leave (centrally funded); and may request additional leave by applying their earned vacation, compensatory time, sick leave (all of which is paid by the department) or take unpaid leave in accordance with FMLA guidelines."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "6 week up_to",
+     "quote": "take up to 6 weeks paid leave (centrally funded)"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "employees eligible for full benefits",
+     "quote": "Applies to employees eligible for full benefits"
+    },
+    {
+     "field": "caregiver_condition",
+     "rule": "R6",
+     "answer": "primary",
+     "quote": "Includes adoption (primary caregiver) for children under 7 years old not attending school full-time. Employee must certify that they are the primary caregiver"
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "paid leave (centrally funded)",
+     "quote": "take up to 6 weeks paid leave (centrally funded)"
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave)",
+     "quote": "Birth mother or primary caregiver may, upon request, take up to 6 weeks paid leave (centrally funded); and may request additional leave by applying their earned vacation, compensatory time, sick leave (all of which is paid by the department) or take unpaid leave in accordance with FMLA guidelines."
+    }
+   ],
+   "caregiver_condition_wording": "Employee must certify that they are the primary caregiver (adoptive path)",
+   "pay_fraction": "paid leave (centrally funded)",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave"
+  },
+  {
+   "component_id": "michigan_technological_university_c13",
+   "institution_label": "",
+   "description": "Staff birth mother or (adoptive) primary caregiver: alternatively, a part-time return-to-work schedule equal to 6 weeks of centrally paid leave, approved by the supervisor.",
+   "mechanism": "part_time_option",
+   "payer": "employer",
+   "faculty_group": "Staff",
+   "faculty_group_note": "Staff",
+   "eligible_parent": [
+    "birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "Birth mother or primary caregiver",
+   "caregiver_condition": "primary",
+   "service_requirement": "employees eligible for full benefits; no length of service stated",
+   "entitlement": "guaranteed_on_request",
+   "duration": {
+    "value": 6,
+    "units": "week",
+    "qualifier": "exact"
+   },
+   "time_window": "within 12 months from the birth",
+   "sequence": [
+    {
+     "relation": "in_lieu_of",
+     "component_id": "michigan_technological_university_c12"
+    }
+   ],
+   "rule_applied": [
+    "V2",
+    "R5",
+    "R6",
+    "R13",
+    "R3"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Staff",
+     "Staff employed less than 12 months can only receive paid parental leave for weeks normally paid."
+    ],
+    "eligible_parent": [
+     "Birth mother or primary caregiver may, upon request, work out a part-time return to work schedule that equates to 6 weeks of centrally paid leave. This arrangement must be approved by the employee’s supervisor."
+    ],
+    "entitlement": [
+     "Birth mother or primary caregiver may, upon request, work out a part-time return to work schedule that equates to 6 weeks of centrally paid leave. This arrangement must be approved by the employee’s supervisor."
+    ],
+    "duration": [
+     "Birth mother or primary caregiver may, upon request, work out a part-time return to work schedule that equates to 6 weeks of centrally paid leave. This arrangement must be approved by the employee’s supervisor."
+    ],
+    "service_requirement": [
+     "Applies to employees eligible for full benefits"
+    ],
+    "time_window": [
+     "Must be taken within 12 months from the birth of the baby"
+    ],
+    "caregiver_condition": [
+     "Includes adoption (primary caregiver) for children under 7 years old not attending school full-time. Employee must certify that they are the primary caregiver"
+    ],
+    "sequence": [
+     "Birth mother or primary caregiver may, upon request, work out a part-time return to work schedule that equates to 6 weeks of centrally paid leave. This arrangement must be approved by the employee’s supervisor.",
+     "OR"
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R3",
+     "answer": "part_time_option",
+     "quote": "Birth mother or primary caregiver may, upon request, work out a part-time return to work schedule that equates to 6 weeks of centrally paid leave. This arrangement must be approved by the employee’s supervisor."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "Birth mother or primary caregiver may, upon request, work out a part-time return to work schedule that equates to 6 weeks of centrally paid leave. This arrangement must be approved by the employee’s supervisor."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Intended to provide paid time off after the birth of a baby."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "Staff",
+     "quote": "Staff"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "birth_parent, adoptive",
+     "quote": "Birth mother or primary caregiver may, upon request, work out a part-time return to work schedule that equates to 6 weeks of centrally paid leave. This arrangement must be approved by the employee’s supervisor."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "Birth mother or primary caregiver may, upon request, work out a part-time return to work schedule that equates to 6 weeks of centrally paid leave. This arrangement must be approved by the employee’s supervisor."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "6 week exact",
+     "quote": "Birth mother or primary caregiver may, upon request, work out a part-time return to work schedule that equates to 6 weeks of centrally paid leave. This arrangement must be approved by the employee’s supervisor."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "employees eligible for full benefits",
+     "quote": "Applies to employees eligible for full benefits"
+    },
+    {
+     "field": "caregiver_condition",
+     "rule": "R6",
+     "answer": "primary",
+     "quote": "Includes adoption (primary caregiver) for children under 7 years old not attending school full-time. Employee must certify that they are the primary caregiver"
+    },
+    {
+     "field": "sequence",
+     "rule": "R15b",
+     "answer": "in_lieu_of c12",
+     "quote": "Birth mother or primary caregiver may, upon request, work out a part-time return to work schedule that equates to 6 weeks of centrally paid leave. This arrangement must be approved by the employee’s supervisor."
+    }
+   ],
+   "caregiver_condition_wording": "Employee must certify that they are the primary caregiver (adoptive path)"
+  },
+  {
+   "component_id": "michigan_technological_university_c14",
+   "institution_label": "",
+   "description": "Staff non-birth parent or (adoptive) non-primary caregiver: up to 2 weeks of centrally funded paid parental leave; further leave from own balances or unpaid FMLA leave.",
+   "mechanism": "employer_paid_leave",
+   "payer": "employer",
+   "faculty_group": "Staff",
+   "faculty_group_note": "Staff",
+   "eligible_parent": [
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "Non-birth mother or non-primary caregiver",
+   "caregiver_condition": "other",
+   "service_requirement": "employees eligible for full benefits; no length of service stated",
+   "entitlement": "guaranteed_on_request",
+   "duration": {
+    "value": 2,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "time_window": "within 12 months from the birth",
+   "sequence": [],
+   "rule_applied": [
+    "V2",
+    "R5",
+    "R6",
+    "R13",
+    "R9"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Staff",
+     "Staff employed less than 12 months can only receive paid parental leave for weeks normally paid."
+    ],
+    "eligible_parent": [
+     "Non-birth mother or non-primary caregiver may, upon request, take up to 2 weeks paid parental leave (centrally funded) and may request additional leave by applying their earned vacation, compensatory time, or sick leave"
+    ],
+    "entitlement": [
+     "Non-birth mother or non-primary caregiver may, upon request, take up to 2 weeks paid parental leave (centrally funded) and may request additional leave by applying their earned vacation, compensatory time, or sick leave"
+    ],
+    "duration": [
+     "take up to 2 weeks paid parental leave (centrally funded)"
+    ],
+    "service_requirement": [
+     "Applies to employees eligible for full benefits"
+    ],
+    "time_window": [
+     "Must be taken within 12 months from the birth of the baby"
+    ],
+    "caregiver_condition": [
+     "Non-birth mother or non-primary caregiver may, upon request, take up to 2 weeks paid parental leave (centrally funded) and may request additional leave by applying their earned vacation, compensatory time, or sick leave"
+    ],
+    "pay_fraction": [
+     "take up to 2 weeks paid parental leave (centrally funded)"
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "employer_paid_leave",
+     "quote": "Non-birth mother or non-primary caregiver may, upon request, take up to 2 weeks paid parental leave (centrally funded) and may request additional leave by applying their earned vacation, compensatory time, or sick leave"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "Non-birth mother or non-primary caregiver may, upon request, take up to 2 weeks paid parental leave (centrally funded) and may request additional leave by applying their earned vacation, compensatory time, or sick leave"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Intended to provide paid time off after the birth of a baby."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "Staff",
+     "quote": "Staff"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "non_birth_parent, adoptive",
+     "quote": "Non-birth mother or non-primary caregiver may, upon request, take up to 2 weeks paid parental leave (centrally funded) and may request additional leave by applying their earned vacation, compensatory time, or sick leave"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "Non-birth mother or non-primary caregiver may, upon request, take up to 2 weeks paid parental leave (centrally funded) and may request additional leave by applying their earned vacation, compensatory time, or sick leave"
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "2 week up_to",
+     "quote": "take up to 2 weeks paid parental leave (centrally funded)"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "employees eligible for full benefits",
+     "quote": "Applies to employees eligible for full benefits"
+    },
+    {
+     "field": "caregiver_condition",
+     "rule": "R6",
+     "answer": "other",
+     "quote": "Non-birth mother or non-primary caregiver may, upon request, take up to 2 weeks paid parental leave (centrally funded) and may request additional leave by applying their earned vacation, compensatory time, or sick leave"
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "paid parental leave (centrally funded)",
+     "quote": "take up to 2 weeks paid parental leave (centrally funded)"
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave)",
+     "quote": "Non-birth mother or non-primary caregiver may, upon request, take up to 2 weeks paid parental leave (centrally funded) and may request additional leave by applying their earned vacation, compensatory time, or sick leave"
+    }
+   ],
+   "caregiver_condition_wording": "non-primary caregiver",
+   "pay_fraction": "paid parental leave (centrally funded)",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave"
+  },
+  {
+   "component_id": "michigan_technological_university_c15",
+   "institution_label": "",
+   "description": "Non-tenure-track faculty on continuing or rolling contracts, birth mother or (adoptive) primary caregiver: a leave of absence for one semester at 50% pay, relieved of all duties.",
+   "mechanism": "employer_paid_leave",
+   "payer": "employer",
+   "faculty_group": "Non-Tenure Track Faculty on Continuing or Rolling Contracts",
+   "faculty_group_note": "Non-Tenure Track Faculty on Continuing or Rolling Contracts",
+   "eligible_parent": [
+    "birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "Birth mother or primary caregiver",
+   "caregiver_condition": "primary",
+   "service_requirement": "employees eligible for full benefits; no length of service stated",
+   "entitlement": "guaranteed_on_request",
+   "duration": {
+    "value": 1,
+    "units": "semester",
+    "qualifier": "exact"
+   },
+   "time_window": "within 12 months from the birth",
+   "sequence": [],
+   "rule_applied": [
+    "V2",
+    "R5",
+    "R6",
+    "R13"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Non-Tenure Track Faculty on Continuing or Rolling Contracts"
+    ],
+    "eligible_parent": [
+     "Birth mother or primary caregiver may, upon request, choose a leave of absence for one semester at 50% pay while being relieved of all duties (centrally funded)."
+    ],
+    "entitlement": [
+     "Birth mother or primary caregiver may, upon request, choose a leave of absence for one semester at 50% pay while being relieved of all duties (centrally funded)."
+    ],
+    "duration": [
+     "choose a leave of absence for one semester at 50% pay while being relieved of all duties"
+    ],
+    "service_requirement": [
+     "Applies to employees eligible for full benefits"
+    ],
+    "time_window": [
+     "Must be taken within 12 months from the birth of the baby"
+    ],
+    "caregiver_condition": [
+     "Includes adoption (primary caregiver) for children under 7 years old not attending school full-time. Employee must certify that they are the primary caregiver"
+    ],
+    "pay_fraction": [
+     "choose a leave of absence for one semester at 50% pay while being relieved of all duties"
+    ],
+    "relief": [
+     "Birth mother or primary caregiver may, upon request, choose a leave of absence for one semester at 50% pay while being relieved of all duties (centrally funded)."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "employer_paid_leave",
+     "quote": "Birth mother or primary caregiver may, upon request, choose a leave of absence for one semester at 50% pay while being relieved of all duties (centrally funded)."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "Birth mother or primary caregiver may, upon request, choose a leave of absence for one semester at 50% pay while being relieved of all duties (centrally funded)."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Intended to provide paid time off after the birth of a baby."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "Non-Tenure Track Faculty on Continuing or Rolling Contracts",
+     "quote": "Non-Tenure Track Faculty on Continuing or Rolling Contracts"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "birth_parent, adoptive",
+     "quote": "Birth mother or primary caregiver may, upon request, choose a leave of absence for one semester at 50% pay while being relieved of all duties (centrally funded)."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "Birth mother or primary caregiver may, upon request, choose a leave of absence for one semester at 50% pay while being relieved of all duties (centrally funded)."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 semester exact",
+     "quote": "choose a leave of absence for one semester at 50% pay while being relieved of all duties"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "employees eligible for full benefits",
+     "quote": "Applies to employees eligible for full benefits"
+    },
+    {
+     "field": "caregiver_condition",
+     "rule": "R6",
+     "answer": "primary",
+     "quote": "Includes adoption (primary caregiver) for children under 7 years old not attending school full-time. Employee must certify that they are the primary caregiver"
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "50% pay",
+     "quote": "choose a leave of absence for one semester at 50% pay while being relieved of all duties"
+    },
+    {
+     "field": "relief",
+     "rule": "R4",
+     "answer": "all duties relieved (stated)",
+     "quote": "Birth mother or primary caregiver may, upon request, choose a leave of absence for one semester at 50% pay while being relieved of all duties (centrally funded)."
+    }
+   ],
+   "caregiver_condition_wording": "Employee must certify that they are the primary caregiver (adoptive path)",
+   "pay_fraction": "50% pay",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   }
+  },
+  {
+   "component_id": "michigan_technological_university_c16",
+   "institution_label": "",
+   "description": "Non-tenure-track faculty on continuing or rolling contracts, birth mother or (adoptive) primary caregiver: alternatively, up to 6 weeks of centrally paid leave; further leave from sick leave or unpaid FMLA leave.",
+   "mechanism": "employer_paid_leave",
+   "payer": "employer",
+   "faculty_group": "Non-Tenure Track Faculty on Continuing or Rolling Contracts",
+   "faculty_group_note": "Non-Tenure Track Faculty on Continuing or Rolling Contracts",
+   "eligible_parent": [
+    "birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "Birth mother or primary caregiver",
+   "caregiver_condition": "primary",
+   "service_requirement": "employees eligible for full benefits; no length of service stated",
+   "entitlement": "guaranteed_on_request",
+   "duration": {
+    "value": 6,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "time_window": "within 12 months from the birth",
+   "sequence": [
+    {
+     "relation": "in_lieu_of",
+     "component_id": "michigan_technological_university_c15"
+    }
+   ],
+   "rule_applied": [
+    "V2",
+    "R5",
+    "R6",
+    "R13",
+    "R9"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Non-Tenure Track Faculty on Continuing or Rolling Contracts"
+    ],
+    "eligible_parent": [
+     "Birth mother or primary caregiver may, upon request, choose to take up to 6 weeks of centrally paid leave, and may request additional leave by applying their sick leave (all of which is paid by the department) or take unpaid leave in accordance with FMLA guidelines."
+    ],
+    "entitlement": [
+     "Birth mother or primary caregiver may, upon request, choose to take up to 6 weeks of centrally paid leave, and may request additional leave by applying their sick leave (all of which is paid by the department) or take unpaid leave in accordance with FMLA guidelines."
+    ],
+    "duration": [
+     "choose to take up to 6 weeks of centrally paid leave"
+    ],
+    "service_requirement": [
+     "Applies to employees eligible for full benefits"
+    ],
+    "time_window": [
+     "Must be taken within 12 months from the birth of the baby"
+    ],
+    "caregiver_condition": [
+     "Includes adoption (primary caregiver) for children under 7 years old not attending school full-time. Employee must certify that they are the primary caregiver"
+    ],
+    "pay_fraction": [
+     "choose to take up to 6 weeks of centrally paid leave"
+    ],
+    "sequence": [
+     "Birth mother or primary caregiver may, upon request, choose to take up to 6 weeks of centrally paid leave, and may request additional leave by applying their sick leave (all of which is paid by the department) or take unpaid leave in accordance with FMLA guidelines.",
+     "OR"
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "employer_paid_leave",
+     "quote": "Birth mother or primary caregiver may, upon request, choose to take up to 6 weeks of centrally paid leave, and may request additional leave by applying their sick leave (all of which is paid by the department) or take unpaid leave in accordance with FMLA guidelines."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "Birth mother or primary caregiver may, upon request, choose to take up to 6 weeks of centrally paid leave, and may request additional leave by applying their sick leave (all of which is paid by the department) or take unpaid leave in accordance with FMLA guidelines."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Intended to provide paid time off after the birth of a baby."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "Non-Tenure Track Faculty on Continuing or Rolling Contracts",
+     "quote": "Non-Tenure Track Faculty on Continuing or Rolling Contracts"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "birth_parent, adoptive",
+     "quote": "Birth mother or primary caregiver may, upon request, choose to take up to 6 weeks of centrally paid leave, and may request additional leave by applying their sick leave (all of which is paid by the department) or take unpaid leave in accordance with FMLA guidelines."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "Birth mother or primary caregiver may, upon request, choose to take up to 6 weeks of centrally paid leave, and may request additional leave by applying their sick leave (all of which is paid by the department) or take unpaid leave in accordance with FMLA guidelines."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "6 week up_to",
+     "quote": "choose to take up to 6 weeks of centrally paid leave"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "employees eligible for full benefits",
+     "quote": "Applies to employees eligible for full benefits"
+    },
+    {
+     "field": "caregiver_condition",
+     "rule": "R6",
+     "answer": "primary",
+     "quote": "Includes adoption (primary caregiver) for children under 7 years old not attending school full-time. Employee must certify that they are the primary caregiver"
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "centrally paid leave",
+     "quote": "choose to take up to 6 weeks of centrally paid leave"
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave)",
+     "quote": "Birth mother or primary caregiver may, upon request, choose to take up to 6 weeks of centrally paid leave, and may request additional leave by applying their sick leave (all of which is paid by the department) or take unpaid leave in accordance with FMLA guidelines."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15b",
+     "answer": "in_lieu_of c15",
+     "quote": "Birth mother or primary caregiver may, upon request, choose to take up to 6 weeks of centrally paid leave, and may request additional leave by applying their sick leave (all of which is paid by the department) or take unpaid leave in accordance with FMLA guidelines."
+    }
+   ],
+   "caregiver_condition_wording": "Employee must certify that they are the primary caregiver (adoptive path)",
+   "pay_fraction": "centrally paid leave",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave"
+  },
+  {
+   "component_id": "michigan_technological_university_c17",
+   "institution_label": "",
+   "description": "Non-tenure-track faculty on continuing or rolling contracts, birth mother or (adoptive) primary caregiver: alternatively, a part-time return-to-work schedule equal to 6 weeks of centrally paid leave.",
+   "mechanism": "part_time_option",
+   "payer": "employer",
+   "faculty_group": "Non-Tenure Track Faculty on Continuing or Rolling Contracts",
+   "faculty_group_note": "Non-Tenure Track Faculty on Continuing or Rolling Contracts",
+   "eligible_parent": [
+    "birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "Birth mother or primary caregiver",
+   "caregiver_condition": "primary",
+   "service_requirement": "employees eligible for full benefits; no length of service stated",
+   "entitlement": "guaranteed_on_request",
+   "duration": {
+    "value": 6,
+    "units": "week",
+    "qualifier": "exact"
+   },
+   "time_window": "within 12 months from the birth",
+   "sequence": [
+    {
+     "relation": "in_lieu_of",
+     "component_id": "michigan_technological_university_c15"
+    },
+    {
+     "relation": "in_lieu_of",
+     "component_id": "michigan_technological_university_c16"
+    }
+   ],
+   "rule_applied": [
+    "V2",
+    "R5",
+    "R6",
+    "R13",
+    "R3"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Non-Tenure Track Faculty on Continuing or Rolling Contracts"
+    ],
+    "eligible_parent": [
+     "Birth mother or primary caregiver may, upon request, work out a part-time return to work schedule that equates to 6 weeks of centrally paid leave. This arrangement must be approved by the employee’s supervisor."
+    ],
+    "entitlement": [
+     "Birth mother or primary caregiver may, upon request, work out a part-time return to work schedule that equates to 6 weeks of centrally paid leave. This arrangement must be approved by the employee’s supervisor."
+    ],
+    "duration": [
+     "Birth mother or primary caregiver may, upon request, work out a part-time return to work schedule that equates to 6 weeks of centrally paid leave. This arrangement must be approved by the employee’s supervisor."
+    ],
+    "service_requirement": [
+     "Applies to employees eligible for full benefits"
+    ],
+    "time_window": [
+     "Must be taken within 12 months from the birth of the baby"
+    ],
+    "caregiver_condition": [
+     "Includes adoption (primary caregiver) for children under 7 years old not attending school full-time. Employee must certify that they are the primary caregiver"
+    ],
+    "sequence": [
+     "Birth mother or primary caregiver may, upon request, work out a part-time return to work schedule that equates to 6 weeks of centrally paid leave. This arrangement must be approved by the employee’s supervisor.",
+     "OR"
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R3",
+     "answer": "part_time_option",
+     "quote": "Birth mother or primary caregiver may, upon request, work out a part-time return to work schedule that equates to 6 weeks of centrally paid leave. This arrangement must be approved by the employee’s supervisor."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "Birth mother or primary caregiver may, upon request, work out a part-time return to work schedule that equates to 6 weeks of centrally paid leave. This arrangement must be approved by the employee’s supervisor."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Intended to provide paid time off after the birth of a baby."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "Non-Tenure Track Faculty on Continuing or Rolling Contracts",
+     "quote": "Non-Tenure Track Faculty on Continuing or Rolling Contracts"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "birth_parent, adoptive",
+     "quote": "Birth mother or primary caregiver may, upon request, work out a part-time return to work schedule that equates to 6 weeks of centrally paid leave. This arrangement must be approved by the employee’s supervisor."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "Birth mother or primary caregiver may, upon request, work out a part-time return to work schedule that equates to 6 weeks of centrally paid leave. This arrangement must be approved by the employee’s supervisor."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "6 week exact",
+     "quote": "Birth mother or primary caregiver may, upon request, work out a part-time return to work schedule that equates to 6 weeks of centrally paid leave. This arrangement must be approved by the employee’s supervisor."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "employees eligible for full benefits",
+     "quote": "Applies to employees eligible for full benefits"
+    },
+    {
+     "field": "caregiver_condition",
+     "rule": "R6",
+     "answer": "primary",
+     "quote": "Includes adoption (primary caregiver) for children under 7 years old not attending school full-time. Employee must certify that they are the primary caregiver"
+    },
+    {
+     "field": "sequence",
+     "rule": "R15b",
+     "answer": "in_lieu_of c15, c16",
+     "quote": "Birth mother or primary caregiver may, upon request, work out a part-time return to work schedule that equates to 6 weeks of centrally paid leave. This arrangement must be approved by the employee’s supervisor."
+    }
+   ],
+   "caregiver_condition_wording": "Employee must certify that they are the primary caregiver (adoptive path)"
+  },
+  {
+   "component_id": "michigan_technological_university_c18",
+   "institution_label": "",
+   "description": "Non-tenure-track faculty on continuing or rolling contracts, non-birth parent or (adoptive) non-primary caregiver: up to 2 weeks of centrally funded paid leave.",
+   "mechanism": "employer_paid_leave",
+   "payer": "employer",
+   "faculty_group": "Non-Tenure Track Faculty on Continuing or Rolling Contracts",
+   "faculty_group_note": "Non-Tenure Track Faculty on Continuing or Rolling Contracts",
+   "eligible_parent": [
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "Non-birth mother or non-primary caregiver",
+   "caregiver_condition": "other",
+   "service_requirement": "employees eligible for full benefits; no length of service stated",
+   "entitlement": "guaranteed_on_request",
+   "duration": {
+    "value": 2,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "time_window": "within 12 months from the birth",
+   "sequence": [],
+   "rule_applied": [
+    "V2",
+    "R5",
+    "R6",
+    "R13",
+    "R9"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Non-Tenure Track Faculty on Continuing or Rolling Contracts"
+    ],
+    "eligible_parent": [
+     "Non-birth mother or non-primary caregiver may, upon request, take up to 2 weeks paid leave (centrally funded) and may request additional leave by applying their sick leave"
+    ],
+    "entitlement": [
+     "Non-birth mother or non-primary caregiver may, upon request, take up to 2 weeks paid leave (centrally funded) and may request additional leave by applying their sick leave"
+    ],
+    "duration": [
+     "take up to 2 weeks paid leave (centrally funded)"
+    ],
+    "service_requirement": [
+     "Applies to employees eligible for full benefits"
+    ],
+    "time_window": [
+     "Must be taken within 12 months from the birth of the baby"
+    ],
+    "caregiver_condition": [
+     "Non-birth mother or non-primary caregiver may, upon request, take up to 2 weeks paid leave (centrally funded) and may request additional leave by applying their sick leave"
+    ],
+    "pay_fraction": [
+     "take up to 2 weeks paid leave (centrally funded)"
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "employer_paid_leave",
+     "quote": "Non-birth mother or non-primary caregiver may, upon request, take up to 2 weeks paid leave (centrally funded) and may request additional leave by applying their sick leave"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "Non-birth mother or non-primary caregiver may, upon request, take up to 2 weeks paid leave (centrally funded) and may request additional leave by applying their sick leave"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Intended to provide paid time off after the birth of a baby."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "Non-Tenure Track Faculty on Continuing or Rolling Contracts",
+     "quote": "Non-Tenure Track Faculty on Continuing or Rolling Contracts"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "non_birth_parent, adoptive",
+     "quote": "Non-birth mother or non-primary caregiver may, upon request, take up to 2 weeks paid leave (centrally funded) and may request additional leave by applying their sick leave"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "Non-birth mother or non-primary caregiver may, upon request, take up to 2 weeks paid leave (centrally funded) and may request additional leave by applying their sick leave"
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "2 week up_to",
+     "quote": "take up to 2 weeks paid leave (centrally funded)"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "employees eligible for full benefits",
+     "quote": "Applies to employees eligible for full benefits"
+    },
+    {
+     "field": "caregiver_condition",
+     "rule": "R6",
+     "answer": "other",
+     "quote": "Non-birth mother or non-primary caregiver may, upon request, take up to 2 weeks paid leave (centrally funded) and may request additional leave by applying their sick leave"
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "paid leave (centrally funded)",
+     "quote": "take up to 2 weeks paid leave (centrally funded)"
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave)",
+     "quote": "Non-birth mother or non-primary caregiver may, upon request, take up to 2 weeks paid leave (centrally funded) and may request additional leave by applying their sick leave"
+    }
+   ],
+   "caregiver_condition_wording": "non-primary caregiver",
+   "pay_fraction": "paid leave (centrally funded)",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave"
+  }
+ ],
+ "notes": [
+  "Governing document: the HR Paid Parental Leave Benefit (2018_00_link), effective January 1, 2017, with its own Tenured/Tenure-Track Faculty section; Faculty Handbook 6.2.3.4 (revised 03/06/2017) defers to it ('as outlined in the Parental Leave Benefit information located on the Human Resources website'). The handbook's revision log quotes the removed 2012 maternity text (one semester at full pay, teaching relieved, other duties at 50% in research; 6 weeks if relieved of all duties); it is history, not coded.",
+  "The faculty birth-mother options (c1 semester, c2 part-time return, c3 6 weeks) are 'OR' alternatives, linked in_lieu_of pairwise (R15b). The non-birth options (c4 2 weeks, c5 40% semester) are linked in_lieu_of.",
+  "'Primary caregiver' is read as the adoptive path (Eligibility: 'Includes adoption (primary caregiver) ... Employee must certify that they are the primary caregiver'); whether a non-birth biological parent who is the primary caregiver may take the birth-mother options is not stated (flagged on c1-c3).",
+  "Staff (c12-c14) and non-tenure-track continuing/rolling-contract faculty (c15-c18) provisions are recorded with their group names and are not counted.",
+  "Chain, birth parent: either c1 (one semester full pay, teaching relieved, research continues; FMLA c6 concurrent from its start) or c3 (6 weeks paid leave, FMLA c6 concurrent, then own sick leave c7 or the unpaid FMLA remainder) or c2 (part-time return equal to 6 paid weeks); STD c8 (generic, terms not saved) unlinked.",
+  "Chain, non-birth parent: c4 (2 weeks paid leave, FMLA c6 concurrent, unpaid FMLA remainder) or c5 (one semester at 40% pay, no teaching or service; modified_duties at 40% pay).",
+  "Cited but not saved: Family and Medical Leave Act (FMLA) Policy (6.2.2 link); Short-Term Disability Policy (6.2.3.3); Eligible Benefits Chart (6.2.3.3); Tenure, Promotion, and Reappointment Procedures, Faculty Staffing Policy, Board of Trustees Policy 11.17, Bylaws and Policies 6.4, Senate Procedures 707.1.1 (2.2; none bears on leave). Handbook navigation also lists 6.2.1 General Conditions, 6.2.3.1 Approved Absences with Pay, 6.2.4.2 Informal Leave of Absence, 6.2.4.3 Leave for Military Service and 6.2.5 Return from a Leave, not saved."
+ ],
+ "statutory_floor": {
+  "jurisdiction": "US",
+  "year": "2018",
+  "weeks_birth": 12.0,
+  "weeks_nonbirth": 12.0,
+  "statute": "Family and Medical Leave Act (FMLA) (29 U.S.C. 2611-2612)",
+  "source_doc": "2026_00_us_fmla_29usc2612",
+  "table": "statutory_baseline.csv"
+ }
+}

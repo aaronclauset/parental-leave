@@ -1,0 +1,1769 @@
+{
+ "institution": "University of Texas, San Antonio",
+ "slug": "university_of_texas_san_antonio",
+ "country": "US",
+ "model": "claude-opus-5-5",
+ "codebook_version": "1.25",
+ "schema_version": "1.25",
+ "reference_date": "2018-02-26",
+ "calendar": {
+  "term_weeks": null,
+  "note": "HOP 2.06: 'teaching continuity during the long semester'; semester calendar stated without a length, so the semester default of 16 weeks (R8).",
+  "kind": "semester"
+ },
+ "documents": [
+  {
+   "doc_id": "2018_00_link",
+   "url": "http://www.utsa.edu/hop/chapter4/4-20.html",
+   "title": "UTSA Handbook of Operating Procedures 4.20 Authorized Leave",
+   "version_or_effective_date": "Publication Date: February 23, 2017 (Wayback capture 2018-03-09)",
+   "retrieved": "2026-10-18"
+  },
+  {
+   "doc_id": "2018_01_hop_2_06_medical_absences_teaching",
+   "url": "http://www.utsa.edu/hop/chapter2/2-6.html",
+   "title": "UTSA Handbook of Operating Procedures 2.06 Medical Absences and Teaching Continuity",
+   "version_or_effective_date": "Publication Date: November 7, 2017 (Wayback capture 2018-02-17)",
+   "retrieved": "2026-10-21"
+  },
+  {
+   "doc_id": "2018_02_hop_2_10_faculty_reappointment_tenure",
+   "url": "http://www.utsa.edu/hop/chapter2/2-10.html",
+   "title": "UTSA Handbook of Operating Procedures 2.10 Faculty Reappointment, Promotion, and Tenure",
+   "version_or_effective_date": "Publication Date: February 24, 2016 (Wayback capture 2018-03-03)",
+   "retrieved": "2026-10-21"
+  },
+  {
+   "doc_id": "2018_03_regents_rule_31007_tenure",
+   "url": "https://www.utsystem.edu/board-of-regents/rules/31007-tenure",
+   "title": "UT System Regents' Rules and Regulations, Rule 31007: Tenure",
+   "version_or_effective_date": "Date Last Amended Feb 10th, 2016 (Wayback capture 2017-07-20)",
+   "retrieved": "2026-10-21"
+  },
+  {
+   "doc_id": "2018_04_regents_rule_30201_leave_policies",
+   "url": "https://www.utsystem.edu/board-of-regents/rules/30201-leave-policies",
+   "title": "UT System Regents' Rules and Regulations, Rule 30201: Leave Policies",
+   "version_or_effective_date": "Date Last Amended Mar 6th, 2017 (Wayback capture 2017-07-20)",
+   "retrieved": "2026-10-21"
+  }
+ ],
+ "missing": false,
+ "scope_accounting": {
+  "C1": {
+   "components": [
+    "university_of_texas_san_antonio_c1"
+   ]
+  },
+  "C2": {
+   "components": [
+    "university_of_texas_san_antonio_c8"
+   ]
+  },
+  "C3": {
+   "components": [
+    "university_of_texas_san_antonio_c2",
+    "university_of_texas_san_antonio_c3",
+    "university_of_texas_san_antonio_c4",
+    "university_of_texas_san_antonio_c5",
+    "university_of_texas_san_antonio_c7"
+   ]
+  },
+  "C4": {
+   "components": [
+    "university_of_texas_san_antonio_c1"
+   ],
+   "not_components": [
+    {
+     "statute": "Texas Government Code Section 661.913 (parental leave for employees not eligible for FMLA)",
+     "reason": "U8: only for employees who do not qualify for FMLA; the member described (two years of service) is FMLA-eligible; recorded in c1's duration_note"
+    },
+    {
+     "statute": "Americans with Disabilities Act as Amended (ADA)",
+     "reason": "U4: disability-accommodation statute (HOP 2.06 leave as reasonable accommodation), not a component"
+    },
+    {
+     "statute": "Texas Government Code Chapter 661 (sick leave, incl. 661.031, 661.207)",
+     "reason": "basis of the sick leave and donated sick leave coded from HOP 4.20's own terms (c2, c4); not saved"
+    },
+    {
+     "statute": "Texas Government Code Section 661.152",
+     "reason": "vacation accrual schedule; vacation coded as c3 (own accrual, excludes academic-year faculty); not saved"
+    },
+    {
+     "statute": "Texas Government Code Section 661.909 (Leave Without Pay)",
+     "reason": "basis of the general-purpose LWOP coded as c6; not saved"
+    },
+    {
+     "statute": "Texas Government Code Chapters 662 and 664",
+     "reason": "holidays and other state leave provisions named in HOP 4.20's rationale; no leave for a birth or adoption"
+    },
+    {
+     "statute": "Texas Government Code Sections 661.904, 661.9041, 431.005, 431.0825, 659.023; 10 U.S.C. Sec. 101; 32 U.S.C. Sec. 101; Uniformed Services Employment and Reemployment Rights Act",
+     "reason": "military leave and pay; unrelated to becoming a parent (U4)"
+    },
+    {
+     "statute": "Texas Government Code Sections 661.911, 661.916, 661.917, 661.910, 661.908",
+     "reason": "administrative leave as performance reward, organ, marrow and blood donation, assistance-dog training, leave records; unrelated to becoming a parent (U4)"
+    },
+    {
+     "statute": "Texas Education Code Section 51.101 (faculty development leave)",
+     "reason": "professional development leave; not leave for a birth or adoption (U4)"
+    },
+    {
+     "statute": "Texas Education Code Section 65.32",
+     "reason": "removal of officers; unrelated (U4)"
+    },
+    {
+     "statute": "Fair Labor Standards Act of 1938 (29 U.S.C. 201 et seq.)",
+     "reason": "compensatory time and overtime rules; unrelated to becoming a parent (U4)"
+    },
+    {
+     "statute": "FMLA servicemember family leave and qualifying exigency leave (29 U.S.C. 2612(a)(1)(E), (a)(3))",
+     "reason": "military family provisions of the Act; not relied on for a birth (U4)"
+    }
+   ]
+  },
+  "C5": {
+   "components": [
+    "university_of_texas_san_antonio_c1",
+    "university_of_texas_san_antonio_c2",
+    "university_of_texas_san_antonio_c7"
+   ]
+  },
+  "C6": {
+   "components": [
+    "university_of_texas_san_antonio_c6",
+    "university_of_texas_san_antonio_c9",
+    "university_of_texas_san_antonio_c10"
+   ]
+  },
+  "C7": {
+   "components": [
+    "university_of_texas_san_antonio_c11",
+    "university_of_texas_san_antonio_c12"
+   ]
+  },
+  "C8": {
+   "absent": {
+    "documents": [
+     "2018_00_link",
+     "2018_01_hop_2_06_medical_absences_teaching",
+     "2018_02_hop_2_10_faculty_reappointment_tenure",
+     "2018_03_regents_rule_31007_tenure",
+     "2018_04_regents_rule_30201_leave_policies"
+    ],
+    "terms": [
+     "part-time",
+     "part time",
+     "reduced appointment",
+     "phased",
+     "reduced work schedule (coded as relief, c8)"
+    ]
+   }
+  },
+  "C9": {
+   "absent": {
+    "documents": [
+     "2018_00_link",
+     "2018_01_hop_2_06_medical_absences_teaching",
+     "2018_02_hop_2_10_faculty_reappointment_tenure",
+     "2018_03_regents_rule_31007_tenure",
+     "2018_04_regents_rule_30201_leave_policies"
+    ],
+    "terms": [
+     "accommodation",
+     "pregnancy",
+     "light duty",
+     "transfer",
+     "hazard"
+    ]
+   }
+  },
+  "C10": {
+   "absent": {
+    "documents": [
+     "2018_00_link",
+     "2018_01_hop_2_06_medical_absences_teaching",
+     "2018_02_hop_2_10_faculty_reappointment_tenure",
+     "2018_03_regents_rule_31007_tenure",
+     "2018_04_regents_rule_30201_leave_policies"
+    ],
+    "terms": [
+     "FMLA",
+     "first days",
+     "paid as regular work time",
+     "with pay"
+    ]
+   }
+  }
+ },
+ "passage_dispositions": {
+  "2018_00_link#001": {
+   "not_relevant": "page title and HOP table of contents (navigation)"
+  },
+  "2018_00_link#002": {
+   "not_relevant": "page title and HOP table of contents (navigation)"
+  },
+  "2018_00_link#003": {
+   "not_relevant": "page title and HOP table of contents (navigation)"
+  },
+  "2018_00_link#004": {
+   "not_relevant": "page title and HOP table of contents (navigation)"
+  },
+  "2018_00_link#005": {
+   "used_in": [
+    "university_of_texas_san_antonio_c1",
+    "university_of_texas_san_antonio_c2",
+    "university_of_texas_san_antonio_c3",
+    "university_of_texas_san_antonio_c4",
+    "university_of_texas_san_antonio_c5",
+    "university_of_texas_san_antonio_c6",
+    "university_of_texas_san_antonio_c9",
+    "university_of_texas_san_antonio_c10"
+   ]
+  },
+  "2018_00_link#006": {
+   "used_in": [
+    "university_of_texas_san_antonio_c3"
+   ]
+  },
+  "2018_00_link#007": {
+   "used_in": [
+    "university_of_texas_san_antonio_c1",
+    "university_of_texas_san_antonio_c2",
+    "university_of_texas_san_antonio_c3",
+    "university_of_texas_san_antonio_c4",
+    "university_of_texas_san_antonio_c5",
+    "university_of_texas_san_antonio_c6",
+    "university_of_texas_san_antonio_c9"
+   ]
+  },
+  "2018_00_link#008": {
+   "used_in": [
+    "university_of_texas_san_antonio_c10"
+   ]
+  },
+  "2018_01_hop_2_06_medical_absences_teaching#001": {
+   "not_relevant": "HOP table of contents (navigation)"
+  },
+  "2018_01_hop_2_06_medical_absences_teaching#002": {
+   "not_relevant": "HOP table of contents (navigation)"
+  },
+  "2018_01_hop_2_06_medical_absences_teaching#003": {
+   "not_relevant": "HOP table of contents (navigation)"
+  },
+  "2018_01_hop_2_06_medical_absences_teaching#004": {
+   "used_in": [
+    "university_of_texas_san_antonio_c1",
+    "university_of_texas_san_antonio_c2",
+    "university_of_texas_san_antonio_c7",
+    "university_of_texas_san_antonio_c8",
+    "university_of_texas_san_antonio_c11"
+   ]
+  },
+  "2018_02_hop_2_10_faculty_reappointment_tenure#001": {
+   "not_relevant": "page title and HOP table of contents (navigation)"
+  },
+  "2018_02_hop_2_10_faculty_reappointment_tenure#002": {
+   "not_relevant": "page title and HOP table of contents (navigation)"
+  },
+  "2018_02_hop_2_10_faculty_reappointment_tenure#003": {
+   "not_relevant": "page title and HOP table of contents (navigation)"
+  },
+  "2018_02_hop_2_10_faculty_reappointment_tenure#004": {
+   "not_relevant": "page title and HOP table of contents (navigation)"
+  },
+  "2018_02_hop_2_10_faculty_reappointment_tenure#005": {
+   "used_in": [
+    "university_of_texas_san_antonio_c12",
+    "university_of_texas_san_antonio_c11"
+   ]
+  },
+  "2018_02_hop_2_10_faculty_reappointment_tenure#006": {
+   "not_relevant": "appointment and reappointment procedures; no leave or tenure-clock provision"
+  },
+  "2018_02_hop_2_10_faculty_reappointment_tenure#007": {
+   "used_in": [
+    "university_of_texas_san_antonio_c11"
+   ]
+  },
+  "2018_02_hop_2_10_faculty_reappointment_tenure#008": {
+   "not_relevant": "review committee membership and procedures"
+  },
+  "2018_03_regents_rule_31007_tenure#001": {
+   "used_in": [
+    "university_of_texas_san_antonio_c11",
+    "university_of_texas_san_antonio_c12"
+   ]
+  },
+  "2018_04_regents_rule_30201_leave_policies#001": {
+   "used_in": [
+    "university_of_texas_san_antonio_c1",
+    "university_of_texas_san_antonio_c6"
+   ]
+  },
+  "2018_04_regents_rule_30201_leave_policies#002": {
+   "used_in": [
+    "university_of_texas_san_antonio_c3",
+    "university_of_texas_san_antonio_c6"
+   ]
+  },
+  "2018_04_regents_rule_30201_leave_policies#003": {
+   "used_in": [
+    "university_of_texas_san_antonio_c1",
+    "university_of_texas_san_antonio_c2",
+    "university_of_texas_san_antonio_c6"
+   ]
+  }
+ },
+ "mechanism_slots": {
+  "employer_paid_leave": {
+   "components": [
+    "university_of_texas_san_antonio_c9",
+    "university_of_texas_san_antonio_c10"
+   ]
+  },
+  "employer_childbirth_benefit": {
+   "absent": "No childbirth-specific paid period; searched 2018_00_link, 2018_01, 2018_02, 2018_03, 2018_04; terms: maternity, childbirth, birth, pregnancy, confinement, parental leave"
+  },
+  "generic_sick_or_disability_plan": {
+   "absent": "No employer sick or disability plan (sick leave is an accrual; no short- or long-term disability plan described); searched 2018_00_link, 2018_01, 2018_02, 2018_03, 2018_04; terms: disability, salary continuation, short-term, long-term, temporary disability"
+  },
+  "own_accrual": {
+   "components": [
+    "university_of_texas_san_antonio_c2",
+    "university_of_texas_san_antonio_c3"
+   ]
+  },
+  "donated_leave": {
+   "components": [
+    "university_of_texas_san_antonio_c4",
+    "university_of_texas_san_antonio_c5"
+   ]
+  },
+  "government_benefit": {
+   "absent": "No government or state paid programme; searched 2018_00_link, 2018_01, 2018_02, 2018_03, 2018_04; terms: state program, paid family leave, disability insurance, benefit payments"
+  },
+  "employer_topup": {
+   "absent": "No top-up; searched 2018_00_link, 2018_01, 2018_02, 2018_03, 2018_04; terms: top-up, supplement, difference"
+  },
+  "modified_duties": {
+   "components": [
+    "university_of_texas_san_antonio_c8"
+   ]
+  },
+  "unpaid_leave": {
+   "components": [
+    "university_of_texas_san_antonio_c1",
+    "university_of_texas_san_antonio_c6",
+    "university_of_texas_san_antonio_c7"
+   ]
+  },
+  "tenure_clock": {
+   "components": [
+    "university_of_texas_san_antonio_c11",
+    "university_of_texas_san_antonio_c12"
+   ]
+  },
+  "part_time_option": {
+   "absent": "No part-time appointment text saved (HOP 2.07 Part-Time Appointment for Tenured Faculty appears only in the table of contents); searched 2018_00_link, 2018_01, 2018_02, 2018_03, 2018_04; terms: part-time, reduced appointment, phased"
+  },
+  "other": {
+   "absent": "No pregnancy accommodation, hazard or equal-treatment provision; searched 2018_00_link, 2018_01, 2018_02, 2018_03, 2018_04; terms: accommodation, pregnancy, transfer, hazard"
+  }
+ },
+ "baseline_accounting": {
+  "Family and Medical Leave Act (FMLA)": {
+   "components": [
+    "university_of_texas_san_antonio_c1"
+   ]
+  },
+  "Federal Employee Paid Leave Act (paid parental leave for federal civilian employees)": {
+   "not_applicable": "UTSA is a Texas state university, not a federal employer; no saved document mentions it"
+  },
+  "Parental leave for state employees not eligible for FMLA": {
+   "not_applicable": "Mentioned (HOP 4.20 'Parental Leave'; Rule 30201 Sec. 6, Tex. Gov't Code 661.913) but only for employees not eligible for FMLA; under U8 the FMLA-eligible member's path is coded and this one is recorded in c1's duration_note"
+  }
+ },
+ "leave_limits": [],
+ "components": [
+  {
+   "component_id": "university_of_texas_san_antonio_c1",
+   "institution_label": "Family and Medical Leave Act (FMLA)",
+   "description": "Federal FMLA leave without pay of up to 12 weeks a year for the birth of a child and care for it, adoption or foster placement, care of a seriously ill spouse, child or parent, or the employee's own serious health condition; runs concurrently with sick and vacation leave; job restored on return.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "HOP 4.20 applies to 'all Benefits-eligible Employees' (faculty included); Regents' Rule 30201 Sec. 12: 'Any employee'; HOP 2.06 applies to all benefits eligible faculty (tenured, tenure-track, and non-tenure track).",
+   "eligible_parent": [
+    "any_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "Birth of a child and care for that child; Placement of a child with the employee for adoption or foster care; To care for a spouse, child, or parent who has a serious health condition; serious health condition of the employee",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "entitlement_note": "A statute (FMLA) is coded guaranteed; HOP 4.20 'is entitled to FMLA leave'; Rule 30201 'may request and receive'.",
+   "duration": {
+    "value": 12,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "duration_note": "Rule 30201 Sec. 12: up to 12 weeks per year; statute: a total of 12 workweeks during any 12-month period (29 U.S.C. 2612(a)(1)). May be taken intermittently or on a reduced schedule when medically necessary. U8: employees who do not qualify for FMLA have instead a state parental leave of absence (Tex. Gov't Code 661.913; HOP 4.20 'Parental Leave'; Rule 30201 Sec. 6): not to exceed 12 weeks, beginning with the birth or placement of a child under three, all available vacation and sick leave used first, the remainder without pay. The member described (two years of service) is FMLA-eligible, so that path is recorded here, not as a component.",
+   "service_requirement": "at least 12 months of State of Texas service (need not be continuous) and at least 1,250 hours in the 12 months before the leave",
+   "dual_employee_rule": "both spouses employed by the State of Texas and FMLA-eligible: only 12 weeks combined total leave in any 12-month period for birth and care of the child, adoption or foster placement, or care of a parent",
+   "time_window": "birth of a child and care for that child during the 12 months after the birth; placement during the 12 months after the placement",
+   "statute_source": "29 U.S.C. 2612(a)(1)(A)-(D); eligibility 29 U.S.C. 2611(2)(A)",
+   "statute_verified": true,
+   "runs_concurrently_with": [
+    "sick leave",
+    "vacation leave"
+   ],
+   "rule_applied": [
+    "U2",
+    "U4",
+    "U5",
+    "U8",
+    "S1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "This policy applies to all Benefits-eligible Employees, excluding students employed in positions, which require student status as a condition for employment.",
+     "Any employee may request and receive a leave of absence without pay for up to 12 weeks per year for family and medical reasons specified by the Family and Medical Leave Act of 1993 (29 United States Code Sec. 2601) and accompanying regulations governing the Act, as set forth in approved institutional and System policies."
+    ],
+    "eligible_parent": [
+     "Birth of a child and care for that child during the 12 months after the birth.",
+     "Placement of a child with the employee for adoption or foster care during the 12 months after the placement.",
+     "To care for a spouse, child, or parent who has a serious health condition.",
+     "For treatment of a serious health condition that makes the employee unable to perform the functions of his or her job."
+    ],
+    "entitlement": [
+     "A Benefits-eligible Employee who has worked for the State of Texas (not just UTSA) for at least twelve (12) months (the months need not be continuous) and for at least 1,250 hours in the twelve (12) months prior to the first day of leave, is entitled to FMLA leave.",
+     "Once HR determines that the employee is eligible for FMLA and that the documentation received supports the request, the employee is entitled to the FMLA leave."
+    ],
+    "duration": [
+     "Any employee may request and receive a leave of absence without pay for up to 12 weeks per year for family and medical reasons specified by the Family and Medical Leave Act of 1993 (29 United States Code Sec. 2601) and accompanying regulations governing the Act, as set forth in approved institutional and System policies.",
+     "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period for one or more of the following:"
+    ],
+    "service_requirement": [
+     "A Benefits-eligible Employee who has worked for the State of Texas (not just UTSA) for at least twelve (12) months (the months need not be continuous) and for at least 1,250 hours in the twelve (12) months prior to the first day of leave, is entitled to FMLA leave."
+    ],
+    "dual_employee_rule": [
+     "If both spouses are employed by the State of Texas and are eligible to receive FMLA leave, both spouses are entitled to only twelve (12) weeks combined total leave during any twelve (12)-month period, if such leave is taken:"
+    ],
+    "runs_concurrently_with": [
+     "FMLA leave runs concurrently with the employee’s use of sick leave, vacation leave, or floating holiday."
+    ],
+    "payer": [
+     "If an employee exhausts all paid leave and FMLA leave remains available, the remaining FMLA leave is without pay."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link",
+    "2018_04_regents_rule_30201_leave_policies",
+    "2018_01_hop_2_06_medical_absences_teaching"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "U4",
+     "answer": "unpaid_leave",
+     "quote": "If an employee exhausts all paid leave and FMLA leave remains available, the remaining FMLA leave is without pay."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Any employee may request and receive a leave of absence without pay for up to 12 weeks per year"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Birth of a child and care for that child during the 12 months after the birth."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "This policy applies to all Benefits-eligible Employees, excluding students employed in positions, which require student status as a condition for employment."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "any_parent, adoptive, foster (own serious health condition and care of a spouse also covered)",
+     "quote": "To care for a spouse, child, or parent who has a serious health condition."
+    },
+    {
+     "field": "entitlement",
+     "rule": "U2",
+     "answer": "guaranteed",
+     "quote": "is entitled to FMLA leave"
+    },
+    {
+     "field": "duration",
+     "rule": "U2",
+     "answer": "12 weeks up_to",
+     "quote": "for up to 12 weeks per year for family and medical reasons"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U2",
+     "answer": "12 months and 1,250 hours of State of Texas service",
+     "quote": "for at least 1,250 hours in the twelve (12) months prior to the first day of leave"
+    },
+    {
+     "field": "duration",
+     "rule": "U8",
+     "answer": "state parental leave for employees not eligible for FMLA recorded in duration_note, not as a component",
+     "quote": "Benefits-eligible Employees who do not qualify for FMLA, and are giving birth, adopting or fostering a child, are eligible to take a parental leave of absence ."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_texas_san_antonio_c2",
+   "institution_label": "Sick Leave",
+   "description": "Sick leave accrued at 8 hours a month (faculty and staff), usable from the start of employment for the employee's own sickness, injury or pregnancy and confinement, or that of an immediate family member; faculty must use available sick leave during a medical absence. Once sick and other paid leave is exhausted, the employee is placed on leave without pay.",
+   "mechanism": "own_accrual",
+   "payer": "own_balance",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "'Full-time, Benefits-eligible Employees, (faculty & staff)'; HOP 2.06: 'University employees, including faculty, shall use available sick leave'.",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent"
+   ],
+   "eligible_parent_wording": "sickness, injury, or pregnancy and confinement of self or immediate family member",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration_note": "Accrues 8 hours per month of employment (part-time proportionately); balance of unknown length, so no duration (R1). Sick leave balances run concurrently with FMLA leave. Rule 30201 Sec. 7: sick leave 'as provided by State law'.",
+   "medical_certification": true,
+   "medical_certification_note": "acceptable medical documentation of the condition for use over more than three work days; may be required for three or fewer",
+   "service_requirement": "none (may be used immediately upon employment)",
+   "statute_source": "Texas Government Code Chapter 661 (sick leave; not saved)",
+   "statute_verified": false,
+   "sequence": [
+    {
+     "relation": "within",
+     "component_id": "university_of_texas_san_antonio_c1",
+     "note": "S1: balances used during FMLA leave run concurrently with it; pay from own balance only"
+    }
+   ],
+   "rule_applied": [
+    "R1",
+    "U5",
+    "S1",
+    "U6"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Full-time, Benefits-eligible Employees, (faculty & staff), shall accrue eight (8) hours of sick leave for each month of employment.",
+     "University employees, including faculty, shall use available sick leave, pursuant to HOP policy 4.20."
+    ],
+    "eligible_parent": [
+     "is out due to sickness, injury, or pregnancy and confinement of self or immediate family member"
+    ],
+    "entitlement": [
+     "Full-time, Benefits-eligible Employees, (faculty & staff), shall accrue eight (8) hours of sick leave for each month of employment.",
+     "Sick leave may be used immediately upon employment when a Benefits-eligible 2. Employee is out due to sickness, injury, or pregnancy and confinement of self or immediate family member."
+    ],
+    "service_requirement": [
+     "Sick leave may be used immediately upon employment"
+    ],
+    "medical_certification": [
+     "To be eligible to use sick leave during a continuous period of more than three (3) work days, an employee must contact the Human Resources Department-Leave Management, and must provide acceptable medical documentation of the condition."
+    ],
+    "sequence": [
+     "FMLA leave runs concurrently with the employee’s use of sick leave, vacation leave, or floating holiday."
+    ],
+    "description": [
+     "A Benefits-eligible Employee whose sick leave balance is insufficient to cover an absence from work due to illness must use other accrued, paid leave. If other paid leave is insufficient to cover the absence, the employee will be placed on leave without pay."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link",
+    "2018_01_hop_2_06_medical_absences_teaching",
+    "2018_04_regents_rule_30201_leave_policies"
+   ],
+   "flags": [
+    "cross_reference_not_saved: Texas Government Code Chapter 661"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "own_accrual",
+     "quote": "Full-time, Benefits-eligible Employees, (faculty & staff), shall accrue eight (8) hours of sick leave for each month of employment."
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "own_balance",
+     "quote": "shall accrue eight (8) hours of sick leave for each month of employment"
+    },
+    {
+     "field": "mechanism",
+     "rule": "U6",
+     "answer": "own_accrual",
+     "quote": "A Benefits-eligible Employee whose sick leave balance is insufficient to cover an absence from work due to illness must use other accrued, paid leave."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "is out due to sickness, injury, or pregnancy and confinement of self or immediate family member"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Full-time, Benefits-eligible Employees, (faculty & staff), shall accrue eight (8) hours of sick leave for each month of employment."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent, non_birth_parent (own condition and immediate family member)",
+     "quote": "is out due to sickness, injury, or pregnancy and confinement of self or immediate family member"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "shall accrue eight (8) hours of sick leave for each month of employment"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "none (may be used immediately upon employment)",
+     "quote": "Sick leave may be used immediately upon employment"
+    },
+    {
+     "field": "sequence",
+     "rule": "S1",
+     "answer": "within c1 (FMLA)",
+     "quote": "FMLA leave runs concurrently with the employee’s use of sick leave, vacation leave, or floating holiday."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_texas_san_antonio_c3",
+   "institution_label": "Vacation",
+   "description": "Vacation leave accrued by benefits-eligible employees by length of state service; faculty with appointments of fewer than twelve months do not accrue it. Must be exhausted before leave without pay and runs concurrently with FMLA.",
+   "mechanism": "own_accrual",
+   "payer": "own_balance",
+   "faculty_group": "Benefits-eligible Employees, including faculty appointed on a 12-month basis (faculty with appointments of fewer than twelve months do not accrue vacation leave)",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration_note": "Accrual rate by length of state service (Tex. Gov't Code 661.152); balance of unknown length.",
+   "service_requirement": "six continuous months of employment with a state agency before use",
+   "statute_source": "Texas Government Code Section 661.152 (not saved)",
+   "statute_verified": false,
+   "rule_applied": [
+    "R1",
+    "U1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Faculty members who have appointments of fewer than twelve (12) months do not accrue vacation leave.",
+     "Vacations for eligible employees, including faculty appointed on a 12-month basis, shall be as provided by State law."
+    ],
+    "eligible_parent": [
+     "Benefits-eligible Employees shall earn vacation leave beginning on the first day of employment in a benefits-eligible position and terminating on the last day of employment in a benefits-eligible position."
+    ],
+    "entitlement": [
+     "Benefits-eligible Employees shall earn vacation leave beginning on the first day of employment in a benefits-eligible position and terminating on the last day of employment in a benefits-eligible position."
+    ],
+    "service_requirement": [
+     "Benefits-eligible Employees must have served a total of six (6) continuous months of employment with a state agency, before being eligible to use vacation leave."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link",
+    "2018_04_regents_rule_30201_leave_policies"
+   ],
+   "flags": [
+    "general_purpose",
+    "excludes_main_faculty",
+    "cross_reference_not_saved: Texas Government Code Chapter 661.152"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "own_accrual",
+     "quote": "Benefits-eligible Employees shall earn vacation leave beginning on the first day of employment"
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "own_balance",
+     "quote": "Benefits-eligible Employees shall earn vacation leave beginning on the first day of employment"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "Benefits-eligible Employees shall earn vacation leave beginning on the first day of employment in a benefits-eligible position"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "Benefits-eligible Employees, including faculty appointed on a 12-month basis (faculty with appointments of fewer than twelve months do not accrue vacation leave)",
+     "quote": "Faculty members who have appointments of fewer than twelve (12) months do not accrue vacation leave."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "Benefits-eligible Employees shall earn vacation leave"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "Benefits-eligible Employees shall earn vacation leave"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "six continuous months of state employment",
+     "quote": "must have served a total of six (6) continuous months of employment with a state agency"
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_texas_san_antonio_c4",
+   "institution_label": "Donation of Sick Leave",
+   "description": "Sick leave donated by colleagues to an employee who meets the sick-leave eligibility requirements and has exhausted his or her own sick leave and any sick leave pool hours; used for the same circumstances as accrued sick leave.",
+   "mechanism": "donated_leave",
+   "payer": "own_balance",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "'A Benefits-eligible Employee may donate sick leave to another Benefits-eligible Employee at UTSA'",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent"
+   ],
+   "eligible_parent_wording": "same circumstances as accrued sick leave (sickness, injury, or pregnancy and confinement of self or immediate family member)",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "entitlement_note": "No grant language: receipt depends on a colleague choosing to donate; V2 does not settle it.",
+   "must_exhaust_first": [
+    "sick",
+    "sick leave pool"
+   ],
+   "statute_source": "Texas Government Code Section 661.207 (not saved)",
+   "statute_verified": false,
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "university_of_texas_san_antonio_c2",
+     "note": "available only once the recipient's own sick leave (and pool hours) are exhausted"
+    }
+   ],
+   "rule_applied": [
+    "R1d",
+    "U5",
+    "V2"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "A Benefits-eligible Employee may donate sick leave to another Benefits-eligible Employee at UTSA if the recipient"
+    ],
+    "eligible_parent": [
+     "An employee who receives donated sick leave may use the donated sick leave based on the same circumstances as accrued sick leave."
+    ],
+    "entitlement": [
+     "A Benefits-eligible Employee may donate sick leave to another Benefits-eligible Employee at UTSA if the recipient"
+    ],
+    "sequence": [
+     "Has exhausted their own sick leave; and",
+     "Has exhausted any hours they are eligible to withdraw from the sick leave pool."
+    ],
+    "must_exhaust_first": [
+     "Has exhausted their own sick leave; and"
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "ambiguous: entitlement: donated leave depends on colleagues' donations; no grant language (V2 does not settle it)",
+    "cross_reference_not_saved: Texas Government Code Chapter 661.207"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1d",
+     "answer": "donated_leave",
+     "quote": "A Benefits-eligible Employee may donate sick leave to another Benefits-eligible Employee at UTSA"
+    },
+    {
+     "field": "payer",
+     "rule": "R1d",
+     "answer": "own_balance",
+     "quote": "A Benefits-eligible Employee may donate sick leave to another Benefits-eligible Employee at UTSA"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "An employee who receives donated sick leave may use the donated sick leave based on the same circumstances as accrued sick leave."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "A Benefits-eligible Employee may donate sick leave to another Benefits-eligible Employee at UTSA"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent, non_birth_parent",
+     "quote": "may use the donated sick leave based on the same circumstances as accrued sick leave"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "A Benefits-eligible Employee may donate sick leave to another Benefits-eligible Employee at UTSA if the recipient"
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "consecutive_after c2 (own sick leave exhausted)",
+     "quote": "Has exhausted their own sick leave; and"
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_texas_san_antonio_c5",
+   "institution_label": "Sick Leave Pool",
+   "description": "Withdrawal from the sick leave pool during a catastrophic illness or injury (or where the employee has donated to the pool), up to the maximum allowed by law; terms in HOP 4.26, not saved.",
+   "mechanism": "donated_leave",
+   "payer": "own_balance",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "'if a Benefits-eligible Employee has previously donated time to the pool'; HOP 4.20 applies to all Benefits-eligible Employees",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "during a catastrophic illness or injury",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "'is an option' read as 'has the option' (V2); the pool's own terms (HOP 4.26) are not saved.",
+   "must_exhaust_first": [
+    "sick"
+   ],
+   "duration_note": "Withdrawal 'up to the maximum allowed by law'; the maximum is not stated in the saved sources.",
+   "rule_applied": [
+    "R1d",
+    "U5",
+    "V2"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Sick leave pool is an option during a catastrophic illness or injury, or if a Benefits-eligible Employee has previously donated time to the pool."
+    ],
+    "eligible_parent": [
+     "Sick leave pool is an option during a catastrophic illness or injury, or if a Benefits-eligible Employee has previously donated time to the pool."
+    ],
+    "entitlement": [
+     "Sick leave pool is an option during a catastrophic illness or injury",
+     "If an employee is eligible for sick leave pool, he/she is only eligible to withdraw from the pool up to the maximum allowed by law, regardless of the number of hours donated to the pool."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "cross_reference_not_saved: UTSA HOP 4.26 Sick Leave Pool",
+    "ambiguous: entitlement: pool eligibility and limits are in HOP 4.26, not saved"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1d",
+     "answer": "donated_leave",
+     "quote": "(Donations to sick leave pool are not subject to taxes.)"
+    },
+    {
+     "field": "payer",
+     "rule": "R1d",
+     "answer": "own_balance",
+     "quote": "(Donations to sick leave pool are not subject to taxes.)"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Sick leave pool is an option during a catastrophic illness or injury"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "This policy applies to all Benefits-eligible Employees, excluding students employed in positions, which require student status as a condition for employment."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent",
+     "quote": "Sick leave pool is an option during a catastrophic illness or injury"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "Sick leave pool is an option during a catastrophic illness or injury"
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_texas_san_antonio_c6",
+   "institution_label": "Leave of Absence Without Pay (LWOP)",
+   "description": "Leave of absence without pay for good cause, at the institution's discretion, up to twelve months, after all paid leave is exhausted; approval guarantees employment at the end of the leave; may follow FMLA leave.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "'any faculty or staff' (Rule 30201 Sec. 3); HOP 4.20 applies to all Benefits-eligible Employees",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "duration": {
+    "value": 12,
+    "units": "month",
+    "qualifier": "up_to"
+   },
+   "duration_note": "First year up to twelve months; a second consecutive year may be granted in unusual circumstances such as reasons of health, a third in very unusual circumstances. The privilege is again available after a return to duty of one year.",
+   "must_exhaust_first": [
+    "sick",
+    "vacation",
+    "compensatory"
+   ],
+   "return_obligation": "privilege available again after a return to duty of one year",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "university_of_texas_san_antonio_c1",
+     "note": "Rule 30201 Sec. 3.6 and Sec. 12: upon expiration of FMLA leave an employee may be eligible for a leave of absence without pay"
+    }
+   ],
+   "statute_source": "Texas Government Code Section 661.909 (not saved); Regents' Rule 30201 Sec. 3",
+   "statute_verified": false,
+   "rule_applied": [
+    "U1",
+    "V2",
+    "R9",
+    "R13",
+    "R15"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "With the interest of the institution being given first consideration and for good cause, leaves of absence without pay may be granted for a period within the term of appointment of any faculty or staff, subject to the general conditions included herein."
+    ],
+    "eligible_parent": [
+     "With the interest of the institution being given first consideration and for good cause, leaves of absence without pay may be granted for a period within the term of appointment of any faculty or staff, subject to the general conditions included herein."
+    ],
+    "entitlement": [
+     "With the interest of the institution being given first consideration and for good cause, leaves of absence without pay may be granted for a period within the term of appointment of any faculty or staff, subject to the general conditions included herein.",
+     "Subject to fiscal constraints, approval of LWOP constitutes a guarantee of employment at the conclusion of the specified leave period."
+    ],
+    "duration": [
+     "The maximum period for which a leave of absence will be granted is twelve months from when the leave begins."
+    ],
+    "must_exhaust_first": [
+     "Except for disciplinary suspensions, active military duty, and leave covered by Workers' Compensation benefits, all accumulated paid leave entitlements must be exhausted before LWOP is granted."
+    ],
+    "sequence": [
+     "Upon expiration of Family and Medical Leave pursuant to these Rules and Regulations, an employee may be eligible for a leave of absence under this section."
+    ],
+    "return_obligation": [
+     "After a return to duty of one year, the leave-of-absence privilege will again be available, subject to the conditions above."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link",
+    "2018_04_regents_rule_30201_leave_policies"
+   ],
+   "flags": [
+    "general_purpose",
+    "cross_reference_not_saved: Texas Government Code Section 661.909"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "With the interest of the institution being given first consideration and for good cause, leaves of absence without pay may be granted for a period within the term of appointment of any faculty or staff, subject to the general conditions included herein."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "With the interest of the institution being given first consideration and for good cause, leaves of absence without pay may be granted for a period within the term of appointment of any faculty or staff, subject to the general conditions included herein."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "for good cause, leaves of absence without pay may be granted"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "With the interest of the institution being given first consideration and for good cause, leaves of absence without pay may be granted for a period within the term of appointment of any faculty or staff, subject to the general conditions included herein."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U1",
+     "answer": "any_parent (any good cause)",
+     "quote": "With the interest of the institution being given first consideration and for good cause, leaves of absence without pay may be granted for a period within the term of appointment of any faculty or staff, subject to the general conditions included herein."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "leaves of absence without pay may be granted"
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "12 months up_to",
+     "quote": "The maximum period for which a leave of absence will be granted is twelve months from when the leave begins."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave, relief not stated)",
+     "quote": "With the interest of the institution being given first consideration and for good cause, leaves of absence without pay may be granted for a period within the term of appointment of any faculty or staff, subject to the general conditions included herein."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "consecutive_after c1 (FMLA)",
+     "quote": "Upon expiration of Family and Medical Leave pursuant to these Rules and Regulations, an employee may be eligible for a leave of absence under this section."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_texas_san_antonio_c7",
+   "institution_label": "",
+   "description": "Faculty medical leave beyond the federal FMLA or state parental provisions, for a medical condition (including pregnancy or adoption) of the faculty member or a covered family member, decided by the dean on the chair's recommendation; the faculty member continues on the regular appointment and completes an agreed-upon plan; available sick leave must be used.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "HOP 2.06 applies to 'all benefits eligible faculty (tenured, tenure-track, and non-tenure track) on the instructional budget in a long-session semester'",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "leave due to a medical condition [to include pregnancy or adoption] for self or covered family member",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "entitlement_note": "The dean makes the final decision on requests for leave beyond FMLA or the state parental provisions (V2).",
+   "duration_note": "No length stated. Pay not stated: the faculty member 'will continue on their regular appointment during the period of this assignment' and must use available sick leave (HOP 2.06, 4.20); coded as a leave with payer none, the regular-appointment wording noted.",
+   "must_exhaust_first": [
+    "sick"
+   ],
+   "notice": "at least thirty (30) days advance notice when foreseeable and where practicable; otherwise as soon as practicable",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "relief_note": "Approved leave; the faculty member 'will continue on their regular appointment during the period of this assignment and will complete the agreed-upon plan'.",
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "university_of_texas_san_antonio_c1",
+     "note": "leave 'beyond the federal FMLA or state parental provisions'"
+    }
+   ],
+   "rule_applied": [
+    "V2",
+    "U5",
+    "R9",
+    "R15",
+    "R5"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "This policy applies to all benefits eligible faculty (tenured, tenure-track, and non-tenure track) on the instructional budget in a long-session semester."
+    ],
+    "eligible_parent": [
+     "Notifies the department chair and Human Resources (of his/her request for leave due to a medical condition [to include pregnancy or adoption] for self or covered family member) with at least thirty (30) days advance notice when foreseeable and where practicable."
+    ],
+    "entitlement": [
+     "Makes final decision on requests made by faculty member that request leave beyond the federal FMLA or state parental provisions and notify the faculty member in writing within a reasonable period of time.",
+     "When the department chair receives any other request for medical leave and/or reduced work schedule for medical reasons that is not covered by FMLA or ADA, the chair, in coordination with HR, will provide the dean a recommendation on the leave request and/or on the proposed reduced work schedule for the faculty member.",
+     "The dean will provide the faculty member a final decision in writing on the leave request and/or reduced work schedule."
+    ],
+    "sequence": [
+     "Makes final decision on requests made by faculty member that request leave beyond the federal FMLA or state parental provisions and notify the faculty member in writing within a reasonable period of time."
+    ],
+    "notice": [
+     "The faculty member shall notify the department chair and Human Resources (with his/her request for leave due to a medical condition [to include pregnancy or adoption] for self or covered family member) with at least thirty (30) days advance notice when foreseeable and where practicable)."
+    ],
+    "relief": [
+     "A faculty member approved for leave and/or a reduced work schedule will continue on their regular appointment during the period of this assignment and will complete the agreed-upon plan."
+    ],
+    "must_exhaust_first": [
+     "University employees, including faculty, shall use available sick leave, pursuant to HOP policy 4.20."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_hop_2_06_medical_absences_teaching"
+   ],
+   "flags": [
+    "ambiguous: pay during the leave not stated ('will continue on their regular appointment'); coded payer none",
+    "open_ended_medical_leave"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "When the department chair receives any other request for medical leave and/or reduced work schedule for medical reasons that is not covered by FMLA or ADA, the chair, in coordination with HR, will provide the dean a recommendation on the leave request and/or on the proposed reduced work schedule for the faculty member."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "A faculty member approved for leave and/or a reduced work schedule will continue on their regular appointment during the period of this assignment and will complete the agreed-upon plan."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Notifies the department chair and Human Resources (of his/her request for leave due to a medical condition [to include pregnancy or adoption] for self or covered family member) with at least thirty (30) days advance notice when foreseeable and where practicable."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "This policy applies to all benefits eligible faculty (tenured, tenure-track, and non-tenure track) on the instructional budget in a long-session semester."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent, non_birth_parent, adoptive (self or covered family member; pregnancy or adoption)",
+     "quote": "Notifies the department chair and Human Resources (of his/her request for leave due to a medical condition [to include pregnancy or adoption] for self or covered family member) with at least thirty (30) days advance notice when foreseeable and where practicable."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "Makes final decision on requests made by faculty member that request leave beyond the federal FMLA or state parental provisions and notify the faculty member in writing within a reasonable period of time."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave, relief not stated)",
+     "quote": "The dean will provide the faculty member a final decision in writing on the leave request and/or reduced work schedule."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "consecutive_after c1 (FMLA)",
+     "quote": "Makes final decision on requests made by faculty member that request leave beyond the federal FMLA or state parental provisions and notify the faculty member in writing within a reasonable period of time."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_texas_san_antonio_c8",
+   "institution_label": "",
+   "description": "Reduced work schedule for medical reasons (including pregnancy or adoption, self or covered family member) beyond FMLA or the state parental provisions, coordinated by the chair and decided by the dean; the faculty member continues on the regular appointment and completes an agreed-upon plan; the department secures instructors for classes the faculty member cannot teach.",
+   "mechanism": "modified_duties",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "HOP 2.06 applies to 'all benefits eligible faculty (tenured, tenure-track, and non-tenure track) on the instructional budget in a long-session semester'",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "leave due to a medical condition [to include pregnancy or adoption] for self or covered family member",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "entitlement_note": "The dean makes the final decision on the reduced work schedule (V2).",
+   "relief": {
+    "teaching": "partially_relieved",
+    "service_admin": "continues",
+    "research": "continues",
+    "advising_supervision": "continues",
+    "clinical": "continues"
+   },
+   "relief_inferred": "unnamed duties continue (R4b)",
+   "relief_note": "The policy concerns time off from classroom instruction; a reduced work schedule of unstated amount and span, under an agreed-upon plan, with the faculty member on the regular appointment. No duration stated, so no weeks.",
+   "notice": "at least thirty (30) days advance notice when foreseeable and where practicable",
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "university_of_texas_san_antonio_c1",
+     "note": "reduced work schedule 'on requested leave beyond the federal FMLA or state parental provisions'; FMLA itself may also be taken on a reduced schedule"
+    }
+   ],
+   "rule_applied": [
+    "V2",
+    "U5",
+    "R3",
+    "R4b",
+    "R15",
+    "R5"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "This policy applies to all benefits eligible faculty (tenured, tenure-track, and non-tenure track) on the instructional budget in a long-session semester."
+    ],
+    "eligible_parent": [
+     "Notifies the department chair and Human Resources (of his/her request for leave due to a medical condition [to include pregnancy or adoption] for self or covered family member) with at least thirty (30) days advance notice when foreseeable and where practicable."
+    ],
+    "entitlement": [
+     "When the department chair receives any other request for medical leave and/or reduced work schedule for medical reasons that is not covered by FMLA or ADA, the chair, in coordination with HR, will provide the dean a recommendation on the leave request and/or on the proposed reduced work schedule for the faculty member.",
+     "The dean will provide the faculty member a final decision in writing on the leave request and/or reduced work schedule."
+    ],
+    "relief": [
+     "The policy provides an opportunity for a faculty member to request time off from classroom instruction in accordance with the requirements established by law and policy with a guarantee of employment.",
+     "Secures the services of a qualified instructor to teach the appropriate classes, when a faculty member is not available to teach during a long semester."
+    ],
+    "sequence": [
+     "Reviews reduced work schedule leave request with the dean and coordinates reduced work schedule with faculty member on requested leave beyond the federal FMLA or state parental provisions."
+    ],
+    "payer": [
+     "A faculty member approved for leave and/or a reduced work schedule will continue on their regular appointment during the period of this assignment and will complete the agreed-upon plan."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_hop_2_06_medical_absences_teaching"
+   ],
+   "flags": [
+    "ambiguous: pay level not stated; full pay inferred (R3)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R3",
+     "answer": "modified_duties",
+     "quote": "Reviews reduced work schedule leave request with the dean and coordinates reduced work schedule with faculty member on requested leave beyond the federal FMLA or state parental provisions."
+    },
+    {
+     "field": "payer",
+     "rule": "R3",
+     "answer": "employer",
+     "quote": "A faculty member approved for leave and/or a reduced work schedule will continue on their regular appointment during the period of this assignment and will complete the agreed-upon plan."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Notifies the department chair and Human Resources (of his/her request for leave due to a medical condition [to include pregnancy or adoption] for self or covered family member) with at least thirty (30) days advance notice when foreseeable and where practicable."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "This policy applies to all benefits eligible faculty (tenured, tenure-track, and non-tenure track) on the instructional budget in a long-session semester."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent, non_birth_parent, adoptive",
+     "quote": "Notifies the department chair and Human Resources (of his/her request for leave due to a medical condition [to include pregnancy or adoption] for self or covered family member) with at least thirty (30) days advance notice when foreseeable and where practicable."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "The dean will provide the faculty member a final decision in writing on the leave request and/or reduced work schedule."
+    },
+    {
+     "field": "relief",
+     "rule": "R4b",
+     "answer": "teaching partially relieved; unnamed duties continue",
+     "quote": "The policy provides an opportunity for a faculty member to request time off from classroom instruction"
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "consecutive_after c1 (FMLA)",
+     "quote": "Reviews reduced work schedule leave request with the dean and coordinates reduced work schedule with faculty member on requested leave beyond the federal FMLA or state parental provisions."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_texas_san_antonio_c9",
+   "institution_label": "Emergency Leave",
+   "description": "Paid emergency leave for reasons other than a death in the family, at the President's determination on a showing of good cause, after available paid leave is exhausted. (Bereavement leave of up to three work days is not a component.)",
+   "mechanism": "employer_paid_leave",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "HOP 4.20 applies to all Benefits-eligible Employees",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "duration_note": "No length stated for reasons other than a death (bereavement: not to exceed three work days).",
+   "pay_fraction": "with pay",
+   "must_exhaust_first": [
+    "sick",
+    "vacation",
+    "compensatory"
+   ],
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "rule_applied": [
+    "U1",
+    "V2",
+    "R9"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "This policy applies to all Benefits-eligible Employees, excluding students employed in positions, which require student status as a condition for employment."
+    ],
+    "eligible_parent": [
+     "The President, or his or her designee, may make a determination of other reasons for emergency leave when the Benefits-eligible Employees shows good cause for such leave."
+    ],
+    "entitlement": [
+     "The President, or his or her designee, may make a determination of other reasons for emergency leave when the Benefits-eligible Employees shows good cause for such leave."
+    ],
+    "pay_fraction": [
+     "With supervisor approval, a Benefits-eligible Employee may take emergency leave with pay, not to exceed three (3) work days, due to a death in the employee's immediate family."
+    ],
+    "must_exhaust_first": [
+     "Employees must first exhaust their available paid leave before requesting emergency leave other than Bereavement Leave."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "employer_paid_leave",
+     "quote": "may take emergency leave with pay"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "may take emergency leave with pay"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "The President, or his or her designee, may make a determination of other reasons for emergency leave when the Benefits-eligible Employees shows good cause for such leave."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "This policy applies to all Benefits-eligible Employees, excluding students employed in positions, which require student status as a condition for employment."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U1",
+     "answer": "any_parent (any good cause)",
+     "quote": "The President, or his or her designee, may make a determination of other reasons for emergency leave when the Benefits-eligible Employees shows good cause for such leave."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "The President, or his or her designee, may make a determination of other reasons for emergency leave when the Benefits-eligible Employees shows good cause for such leave."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "with pay",
+     "quote": "may take emergency leave with pay"
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave, relief not stated)",
+     "quote": "The President, or his or her designee, may make a determination of other reasons for emergency leave when the Benefits-eligible Employees shows good cause for such leave."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_texas_san_antonio_c10",
+   "institution_label": "Leave for Wellness Incentive",
+   "description": "Up to eight hours of additional paid leave every twelve months for an employee who has had a physical examination and completed a health risk assessment; usable for any purpose the supervisor approves; expires twelve months after receipt.",
+   "mechanism": "employer_paid_leave",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "HOP 4.20 applies to all Benefits-eligible Employees",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "duration": {
+    "value": 8,
+    "units": "hour",
+    "qualifier": "up_to"
+   },
+   "time_window": "unused hours expire twelve months after they are received",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "rule_applied": [
+    "U1",
+    "V2",
+    "R9",
+    "R11"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "This policy applies to all Benefits-eligible Employees, excluding students employed in positions, which require student status as a condition for employment."
+    ],
+    "eligible_parent": [
+     "This leave time may be used for any purpose approved by the supervisor."
+    ],
+    "entitlement": [
+     "UTSA may provide up to eight (8) hours of additional leave time every twelve (12) months (based on FTE) to a Benefits-eligible Employee who submits an application",
+     "All requested leave for wellness incentives are subject to supervisor approval."
+    ],
+    "duration": [
+     "UTSA may provide up to eight (8) hours of additional leave time every twelve (12) months (based on FTE) to a Benefits-eligible Employee who submits an application"
+    ],
+    "time_window": [
+     "Any unused time of the additional leave hours will expire twelve (12) months after it is received."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "general_purpose",
+    "ambiguous: restriction: requires a physical examination and a completed health risk assessment"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "employer_paid_leave",
+     "quote": "UTSA may provide up to eight (8) hours of additional leave time every twelve (12) months (based on FTE) to a Benefits-eligible Employee who submits an application"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "UTSA may provide up to eight (8) hours of additional leave time every twelve (12) months (based on FTE) to a Benefits-eligible Employee who submits an application"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "This leave time may be used for any purpose approved by the supervisor."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "This policy applies to all Benefits-eligible Employees, excluding students employed in positions, which require student status as a condition for employment."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U1",
+     "answer": "any_parent (any purpose)",
+     "quote": "This leave time may be used for any purpose approved by the supervisor."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "UTSA may provide up to eight (8) hours of additional leave time"
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "8 hours up_to",
+     "quote": "UTSA may provide up to eight (8) hours of additional leave time every twelve (12) months (based on FTE) to a Benefits-eligible Employee who submits an application"
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave, relief not stated)",
+     "quote": "This leave time may be used for any purpose approved by the supervisor."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_texas_san_antonio_c11",
+   "institution_label": "",
+   "description": "On written request, a tenure-track faculty member may receive an extension of the maximum probationary period of up to one academic year for personal circumstances, including but not restricted to disability or illness, or principal caregiving of a preschool child; a second year may be requested; cumulative maximum two academic years; Provost decides; not automatic.",
+   "mechanism": "tenure_clock",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "HOP 2.10 applies to 'all UTSA tenured and tenure-track faculty'; extensions for tenure-track faculty",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "status of the faculty member as a principal caregiver of a preschool child; disability or illness of the faculty member",
+   "caregiver_condition": "primary",
+   "caregiver_condition_wording": "status of the faculty member as a principal caregiver of a preschool child",
+   "entitlement": "discretionary",
+   "entitlement_note": "Not automatic or obligatory; the Provost decides on the recommendations of the chair and dean (V2).",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "up_to"
+   },
+   "duration_note": "Each extension limited to one academic year; a second year may be requested anew; maximum cumulative duration of extensions two academic years, consecutive or not. Regents' Rule 31007 Sec. 5.1(b) sets the same guidelines (requests no later than three months before the mandatory review; HOP 2.10 sets six months).",
+   "time_window": "ordinarily requested within six months of the circumstance cited",
+   "notice": "written request with documentation, no later than six months before the deadline for initiation of the mandatory tenure review",
+   "service_requirement": "tenure-track (probationary) faculty",
+   "rule_applied": [
+    "U1",
+    "V2",
+    "R6",
+    "R13",
+    "V3c"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "This policy applies to all UTSA tenured and tenure-track faculty."
+    ],
+    "eligible_parent": [
+     "Personal circumstances that may justify an extension include but are not restricted to:",
+     "status of the faculty member as a principal caregiver of a preschool child; or",
+     "disability or illness of the faculty member;"
+    ],
+    "caregiver_condition": [
+     "status of the faculty member as a principal caregiver of a preschool child; or"
+    ],
+    "entitlement": [
+     "Regents' Rule 31007 permits extensions of the maximum probationary period under some circumstances, but does not mandate that the granting of these extensions be automatic or obligatory.",
+     "The decision regarding the request shall be made by the Provost within ten (10) work days from the date of receipt of the Dean's recommendation."
+    ],
+    "duration": [
+     "An extension shall be limited to one (1) academic year.",
+     "The maximum cumulative duration of extensions is two (2) academic years, whether consecutive or nonconsecutive."
+    ],
+    "service_requirement": [
+     "It is the responsibility of the tenure-track faculty member to request an extension in writing and provide appropriate documentation to adequately demonstrate why the request should be granted."
+    ],
+    "time_window": [
+     "Ordinarily, requests for extension should occur within six months of any circumstance cited as the primary reason for the request."
+    ],
+    "notice": [
+     "Requests for extension may be made at any time during the probationary period but no later than six (6) months prior to the deadline for initiation of the mandatory tenure review."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_hop_2_10_faculty_reappointment_tenure",
+    "2018_03_regents_rule_31007_tenure",
+    "2018_01_hop_2_06_medical_absences_teaching"
+   ],
+   "flags": [
+    "general_purpose",
+    "ambiguous: restriction: maximum cumulative duration of extensions two academic years (a time cap on tenure-clock extensions, not a count of uses)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "The Maximum Probationary Period may be extended according to the following procedures."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "The Maximum Probationary Period may be extended according to the following procedures."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "Personal circumstances that may justify an extension include but are not restricted to:"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "This policy applies to all UTSA tenured and tenure-track faculty."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R6",
+     "answer": "any_parent (principal caregiver of a preschool child; gender-neutral)",
+     "quote": "status of the faculty member as a principal caregiver of a preschool child; or"
+    },
+    {
+     "field": "caregiver_condition",
+     "rule": "R6",
+     "answer": "primary",
+     "quote": "status of the faculty member as a principal caregiver of a preschool child; or"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "Regents' Rule 31007 permits extensions of the maximum probationary period under some circumstances, but does not mandate that the granting of these extensions be automatic or obligatory."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 year up_to",
+     "quote": "An extension shall be limited to one (1) academic year."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "tenure-track (probationary) faculty",
+     "quote": "It is the responsibility of the tenure-track faculty member to request an extension in writing"
+    },
+    {
+     "field": "use_limit",
+     "rule": "U9",
+     "answer": "no use_limit coded: the stated cap is cumulative time (two academic years), not a count; flagged as a restriction",
+     "quote": "The maximum cumulative duration of extensions is two (2) academic years, whether consecutive or nonconsecutive."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_texas_san_antonio_c12",
+   "institution_label": "Full-Time Probationary Service - Leaves of Absence",
+   "description": "Periods of approved leave of absence are not counted in the tenure-track faculty member's probationary period (a Faculty Development Leave does count).",
+   "mechanism": "tenure_clock",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "HOP 2.10 applies to 'all UTSA tenured and tenure-track faculty'; Regents' Rule 31007 Sec. 3",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration_note": "The length of the approved leave; no separate length.",
+   "service_requirement": "tenure-track faculty on approved leave of absence",
+   "rule_applied": [
+    "U1",
+    "V2"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "This policy applies to all UTSA tenured and tenure-track faculty."
+    ],
+    "eligible_parent": [
+     "Periods during which a tenure-track faculty member is on approved leave of absence shall not be counted against them in the calculation of the probationary period."
+    ],
+    "entitlement": [
+     "Periods during which a tenure-track faculty member is on approved leave of absence shall not be counted against them in the calculation of the probationary period.",
+     "Periods during which a faculty member is on leave of absence shall not be counted toward fulfillment of a required probationary period."
+    ],
+    "service_requirement": [
+     "Periods during which a tenure-track faculty member is on approved leave of absence shall not be counted against them in the calculation of the probationary period."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_hop_2_10_faculty_reappointment_tenure",
+    "2018_03_regents_rule_31007_tenure"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "Periods during which a tenure-track faculty member is on approved leave of absence shall not be counted against them in the calculation of the probationary period."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Periods during which a tenure-track faculty member is on approved leave of absence shall not be counted against them in the calculation of the probationary period."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "Periods during which a tenure-track faculty member is on approved leave of absence shall not be counted against them in the calculation of the probationary period."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "This policy applies to all UTSA tenured and tenure-track faculty."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U1",
+     "answer": "any_parent (any approved leave)",
+     "quote": "Periods during which a tenure-track faculty member is on approved leave of absence shall not be counted against them in the calculation of the probationary period."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "shall not be counted against them in the calculation of the probationary period"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "tenure-track faculty on approved leave",
+     "quote": "Periods during which a tenure-track faculty member is on approved leave of absence shall not be counted against them in the calculation of the probationary period."
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "Governing documents in force on 2018-02-26: HOP 4.20 Authorized Leave (published 2017-02-23), HOP 2.06 (2017-11-07), HOP 2.10 (2016-02-24), Regents' Rule 31007 (amended 2016-02-10), Regents' Rule 30201 (amended 2017-03-06). Missing is false: HOP 4.20 and Rule 30201 are leave policies and HOP 2.10 sets the tenure clock.",
+  "No paid parental, maternity or childbirth leave and no modified-duties policy for new parents appears in the saved sources. Birth-related time is FMLA (c1) with the employee's own sick (and, for 12-month appointees, vacation) balances running concurrently; beyond FMLA, faculty may request medical leave or a reduced work schedule at the dean's discretion (HOP 2.06; c7, c8).",
+  "U8: the state parental leave (Tex. Gov't Code 661.913; HOP 4.20 'Parental Leave'; Rule 30201 Sec. 6) applies only to employees who do not qualify for FMLA (up to 12 weeks from the birth or placement of a child under three, sick and vacation used first, the rest unpaid). The member described (two years of service) qualifies for FMLA, so it is recorded in c1's duration_note, not as a component.",
+  "Not components (cannot be used for the birth or adoption): bereavement emergency leave (death in the family, up to 3 work days), military leave, court appearance and jury service, voting, administrative leave with pay (a performance reward of up to 32 hours a year), volunteer firefighter and EMS leave, foster parent leave (attending protective-services and school meetings about a foster child), educational activities (8 hours of sick leave for school events), Red Cross disaster service, assistance-dog training, organ, marrow and blood donation, faculty development leave (Rule 30201 Sec. 4, HOP 2.25), servicemember family leave.",
+  "Calendar: HOP 2.06 refers to the 'long semester' and 'long-session semester'; kind of term stated (semester) without a length, so calendar.kind = semester, and the term length follows R8's order.",
+  "HOP 2.06 says a faculty member approved for leave or a reduced work schedule 'will continue on their regular appointment' (c7, c8); whether this means pay continues is not stated. c7 is coded as a leave with payer none; c8 as relief with full pay inferred and the R3 flag. Neither has a stated length, so neither adds weeks.",
+  "Tenure clock: HOP 2.10 implements Regents' Rule 31007 Sec. 5.1(b) (system guidelines); coded once (c11) with both documents. The Regents' rule allows requests up to three months before the mandatory review; HOP 2.10 requires six months; HOP 2.10 (the campus policy) governs. Periods of approved leave of absence are excluded from the probationary period (c12; any leave, general purpose).",
+  "Cited but not saved: UTSA HOP 4.26 Sick Leave Pool; HOP 4.27 State Compensatory Time; HOP 4.44 Separation of Employment; HOP 9.15 Campus Closure; HOP 2.25 Faculty Development Leave Program; HOP 3.06 Probationary Period for Classified Employees; HOP 9.02 Persons with Disabilities; HOP 2.13, 2.14, 2.24, 2.09, 2.36, 1.33, 4.05; Regents' Rules 31001 and 31002; UTSA HR Leave Administration webpage and HR FMLA page; Texas Government Code Chapters 661, 662, 664 (sections 661.031, 661.152, 661.207, 661.908-661.917); Texas Education Code 51.101.",
+  "Chain, birth parent: FMLA 12 weeks (own sick-leave balance used within it) -> medical leave beyond FMLA (c7) or reduced work schedule (c8), dean's discretion, no stated length; [LWOP up to 12 months after FMLA, general purpose, not counted]. Sequence links: c2 within c1; c7, c8, c6 consecutive_after c1; c4 consecutive_after c2.",
+  "Chain, non-birth parent: FMLA 12 weeks for birth and care of the child (own sick leave usable for an immediate family member within it) -> medical leave beyond FMLA for a covered family member (c7), dean's discretion, no stated length; [LWOP general purpose, not counted]. Same links as the birth parent."
+ ],
+ "statutory_floor": {
+  "jurisdiction": "US",
+  "year": "2018",
+  "weeks_birth": 12.0,
+  "weeks_nonbirth": 12.0,
+  "statute": "Family and Medical Leave Act (FMLA) (29 U.S.C. 2611-2612)",
+  "source_doc": "2026_00_us_fmla_29usc2612",
+  "table": "statutory_baseline.csv"
+ }
+}

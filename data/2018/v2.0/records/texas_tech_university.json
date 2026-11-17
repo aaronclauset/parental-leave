@@ -1,0 +1,1561 @@
+{
+ "institution": "Texas Tech University",
+ "slug": "texas_tech_university",
+ "country": "US",
+ "model": "claude-opus-5-5",
+ "codebook_version": "1.25",
+ "schema_version": "1.25",
+ "reference_date": "2018-02-28",
+ "calendar": {
+  "term_weeks": null,
+  "note": "R8: the documents state a semester calendar (fall and spring 'long semester', OP 70.32 §17 'Fall semester:'/'Spring semester:') but no length; semester default 16. No component uses term units.",
+  "kind": "semester"
+ },
+ "documents": [
+  {
+   "doc_id": "2018_00_link",
+   "url": "https://www.depts.ttu.edu/hr/EmpBenefits/Leave/Index.php",
+   "title": "TTU Human Resources: Leave (employee benefits page)",
+   "version_or_effective_date": "undated summary; page footer 'Sep 25, 2017'; Wayback capture 2018-03-30",
+   "retrieved": "2026-10-22"
+  },
+  {
+   "doc_id": "2018_01_faculty_handbook_2017_18",
+   "url": "https://www.depts.ttu.edu/officialpublications/pdfs/archive/2017-18_faculty_handbook.pdf",
+   "title": "Texas Tech University 2017-2018 Faculty Handbook (with Appendix I OPs and Appendix II Regents' Rules)",
+   "version_or_effective_date": "2017-18 academic year; OP 32.01 7/11/12, OP 32.11 9/12/06, OP 70.01 1/25/12; its OP 70.32 is the superseded 2/5/14 edition",
+   "retrieved": "2026-10-22"
+  },
+  {
+   "doc_id": "2018_03_op70_44_sick_leave_sep2014",
+   "url": "http://www.depts.ttu.edu/opmanual/OP70.44.pdf",
+   "title": "OP 70.44 Sick Leave and Sick Leave Pool",
+   "version_or_effective_date": "September 24, 2014",
+   "retrieved": "2026-10-22"
+  },
+  {
+   "doc_id": "2018_04_op70_32_fmla_parental_oct2017_excerpt",
+   "url": "https://www.depts.ttu.edu/officialpublications/pdfs/archive/2018-19_faculty_handbook.pdf",
+   "title": "OP 70.32 Family and Medical Leave Act (FMLA) and Parental Leave (excerpt from the 2018-19 Faculty Handbook)",
+   "version_or_effective_date": "October 12, 2017 (major revision, replaces 2/5/14 edition)",
+   "retrieved": "2026-11-11"
+  }
+ ],
+ "missing": false,
+ "scope_accounting": {
+  "C1": {
+   "components": [
+    "texas_tech_university_c1"
+   ]
+  },
+  "C2": {
+   "components": [
+    "texas_tech_university_c7"
+   ]
+  },
+  "C3": {
+   "components": [
+    "texas_tech_university_c2",
+    "texas_tech_university_c3",
+    "texas_tech_university_c4",
+    "texas_tech_university_c5",
+    "texas_tech_university_c6"
+   ]
+  },
+  "C4": {
+   "components": [
+    "texas_tech_university_c1"
+   ],
+   "not_components": [
+    {
+     "statute": "Tex. Gov't Code 661.913 (parental leave for state employees not eligible for FMLA)",
+     "reason": "U8: only for employees not FMLA-eligible; recorded in c1's mechanism_note; statute text not saved"
+    },
+    {
+     "statute": "Tex. Gov't Code 661.912",
+     "reason": "state counterpart applying FMLA to state employees (OP 70.32 authority); no separate length; coded through c1 (runs_concurrently_with); text not saved"
+    },
+    {
+     "statute": "29 CFR Chapter 825; FMLA 26-workweek military caregiver and qualifying-exigency leave (29 U.S.C. 2612(a)(1)(E), (a)(3))",
+     "reason": "regulations implementing c1; military provisions unrelated to becoming a parent (U4)"
+    },
+    {
+     "statute": "Tex. Gov't Code ch. 661 subch. on sick leave (661.202, 661.203, 661.205, 661.206) and sick leave pool (661.001-661.008)",
+     "reason": "state sick-leave law whose terms OP 32.11 and OP 70.44 restate; coded as c2 and c4 (institutional accrual and pool), not separate statutory leave"
+    },
+    {
+     "statute": "COBRA (1986)",
+     "reason": "health-insurance continuation, no leave"
+    },
+    {
+     "statute": "Americans with Disabilities Act (42 U.S.C. 12101 et seq.; 29 CFR 1630.2); Rehabilitation Act s. 504; Texas Commission on Human Rights Act",
+     "reason": "disability accommodation / definitions (U4: not a component)"
+    },
+    {
+     "statute": "USERRA (38 U.S.C. 4301-4319); 50 App. U.S.C. 501-594; Tex. Gov't Code 431.xx, 613.002-613.006, 661.903-661.9041",
+     "reason": "military leave and reemployment, unrelated to becoming a parent (U4)"
+    },
+    {
+     "statute": "Tex. Gov't Code 661.902, 661.905-661.907, 661.909, 661.910, 661.914, 661.916, 661.917, 661.919, 661.921, 659.005, 614.001-614.010; Tex. Labor Code 52.051; Tex. Hum. Res. Code 121.002",
+     "reason": "OP 70.01 miscellaneous leaves (emergency, funeral, foster-parent meetings, jury, voting, donor, volunteer, legislative, assistance dog); not usable for a birth (checklist §1); 661.909 leave without pay governs OP 70.43, not saved (c8 from the HR summary)"
+    },
+    {
+     "statute": "Tex. Educ. Code 51.102-51.108, 51.105(b)",
+     "reason": "faculty development leave for study and research, not usable for a birth (checklist §1)"
+    },
+    {
+     "statute": "Texas Workers' Compensation Act; Tex. Labor Code 501.044; 28 TAC 122.4; Tex. Health & Safety Code 85.116",
+     "reason": "work-injury benefits, unrelated to becoming a parent"
+    },
+    {
+     "statute": "Title VII, Title IX, Equal Pay Act, ADEA, Civil Rights Act of 1991, VEVRAA, GINA, Tex. Labor Code ch. 21, Executive Order 11246, 42 U.S.C. 2000e-2",
+     "reason": "non-discrimination; no pregnancy leave or protection stated in the documents"
+    },
+    {
+     "statute": "Tex. Family Code (spouse definition); Tex. Tax Code 11.20 (religious holy days)",
+     "reason": "definitions only / holy-day absence, not parental"
+    },
+    {
+     "statute": "Tex. Educ. Code 51.402, 51.403, 51.942, 51.912, 51.005, 51.949; Tex. Gov't Code chs. 305, 441, 552, 556, 559, 572, 573, 574, 660, 667, 804, 830, 2113.104, 2155.004, 2171.104, 2201.002, 2203.004, 403.271; Tex. Const. art. 8 s. 6, art. 16 ss. 6, 33, 40; Tex. Penal Code chs. 36, 39; Civ. Prac. & Rem. Code ch. 154; Tex. Rules of Civil Procedure and Evidence; GAA Article IX; 1 TAC 125.9; 25 TAC 703.20; 34 TAC 5.22",
+     "reason": "workload, ethics, conflict of interest, records, offices, retirement, purchasing, travel, property, dispute resolution; unrelated to becoming a parent"
+    },
+    {
+     "statute": "Internal Revenue Code (125, 401(a)(17), 403(b), 415(c), 457, 72(m)(7), 3121(b)(10)); ERISA; TEFRA; DEFRA; REACT; Tax Reform Acts 1986/1997; SBJPA 1996; EGTRRA 2001; Unemployment Compensation Amendments 1992; FLSA",
+     "reason": "tax, retirement and wage law; no leave"
+    },
+    {
+     "statute": "Clery Act; Drug-Free Schools and Communities Act; 20 U.S.C. 1001(a); 37 CFR 401; HHSAR 352.242-70; OMB Circular A-110; 2 CFR 220; Fly America Act (49 U.S.C. 40118); 49 U.S.C. Subtitle VI; 14 CFR (FAR); Tex. Transportation Code Title 7; export control regulations; Texas Open Meetings Act",
+     "reason": "campus safety, research, procurement and travel law; unrelated to becoming a parent"
+    }
+   ]
+  },
+  "C5": {
+   "components": [
+    "texas_tech_university_c1",
+    "texas_tech_university_c2"
+   ]
+  },
+  "C6": {
+   "components": [
+    "texas_tech_university_c8"
+   ]
+  },
+  "C7": {
+   "components": [
+    "texas_tech_university_c9"
+   ]
+  },
+  "C8": {
+   "absent": {
+    "documents": [
+     "2018_01_faculty_handbook_2017_18",
+     "2018_04_op70_32_fmla_parental_oct2017_excerpt",
+     "2018_00_link",
+     "2018_03_op70_44_sick_leave_sep2014"
+    ],
+    "terms": [
+     "part-time",
+     "reduced appointment",
+     "reduced teaching load",
+     "phased",
+     "prorated",
+     "reduced work schedule"
+    ]
+   }
+  },
+  "C9": {
+   "absent": {
+    "documents": [
+     "2018_01_faculty_handbook_2017_18",
+     "2018_04_op70_32_fmla_parental_oct2017_excerpt",
+     "2018_00_link",
+     "2018_03_op70_44_sick_leave_sep2014"
+    ],
+    "terms": [
+     "pregnancy",
+     "accommodation",
+     "light duty",
+     "reassign",
+     "transfer",
+     "hazard"
+    ]
+   }
+  },
+  "C10": {
+   "absent": {
+    "documents": [
+     "2018_01_faculty_handbook_2017_18",
+     "2018_04_op70_32_fmla_parental_oct2017_excerpt",
+     "2018_00_link",
+     "2018_03_op70_44_sick_leave_sep2014"
+    ],
+    "terms": [
+     "paid as regular work time",
+     "first days",
+     "FMLA pay",
+     "administrative leave with pay"
+    ]
+   }
+  }
+ },
+ "mechanism_slots": {
+  "employer_paid_leave": {
+   "absent": "no employer-paid parental or FMLA leave; searched all four documents for paid parental, maternity, paid leave, with pay"
+  },
+  "employer_childbirth_benefit": {
+   "absent": "no childbirth-specific paid period; searched maternity, childbirth, pregnancy, confinement, recovery (sick leave is an own accrual)"
+  },
+  "generic_sick_or_disability_plan": {
+   "components": [
+    "texas_tech_university_c5",
+    "texas_tech_university_c6"
+   ]
+  },
+  "own_accrual": {
+   "components": [
+    "texas_tech_university_c2",
+    "texas_tech_university_c3"
+   ]
+  },
+  "donated_leave": {
+   "components": [
+    "texas_tech_university_c4"
+   ]
+  },
+  "government_benefit": {
+   "absent": "no state or federal paid programme for Texas; searched paid family leave, disability insurance programme, state program"
+  },
+  "employer_topup": {
+   "absent": "no top-up; searched top-up, supplement, differential (only military differential pay)"
+  },
+  "modified_duties": {
+   "components": [
+    "texas_tech_university_c7"
+   ]
+  },
+  "unpaid_leave": {
+   "components": [
+    "texas_tech_university_c1",
+    "texas_tech_university_c8"
+   ]
+  },
+  "tenure_clock": {
+   "components": [
+    "texas_tech_university_c9"
+   ]
+  },
+  "part_time_option": {
+   "absent": "no part-time or reduced-appointment option for parents; searched part-time, reduced, prorated, phased in the handbook, OP 70.32, OP 70.44 and the HR page"
+  },
+  "other": {
+   "absent": "no pregnancy accommodation or hazard programme; searched accommodation, light duty, reassign, pregnancy"
+  }
+ },
+ "baseline_accounting": {
+  "Family and Medical Leave Act (FMLA)": {
+   "components": [
+    "texas_tech_university_c1"
+   ]
+  },
+  "Federal Employee Paid Leave Act (paid parental leave for federal civilian employees)": {
+   "not_applicable": "federal civilian employees only; not mentioned in the documents"
+  },
+  "Parental leave for state employees not eligible for FMLA": {
+   "not_applicable": "OP 70.32 §10 states it (Tex. Gov't Code 661.913) but only for employees not FMLA-eligible; U8: recorded in c1's note, not a component"
+  }
+ },
+ "leave_limits": [],
+ "components": [
+  {
+   "component_id": "texas_tech_university_c1",
+   "institution_label": "Family and Medical Leave Act (FMLA)",
+   "description": "Federal FMLA leave as administered by OP 70.32 (10/12/17): 12 unpaid, job-protected workweeks in a rolling 12-month period for the birth of a child and care of the newborn, or adoption/foster placement, own serious health condition or care of an ill family member; sick and vacation accruals must be used concurrently, then leave without pay.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "rule_applied": [
+    "U2",
+    "U4",
+    "U7",
+    "U8",
+    "S1",
+    "R9",
+    "R13",
+    "U5"
+   ],
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "eligible employees of Texas Tech University; OP 70.32 §17 sets FMLA tracking for 9-month faculty",
+   "eligible_parent": [
+    "any_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "birth of a child and to care for the newborn child; placement with the employee of a child for adoption or foster care",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 12,
+    "units": "workweek",
+    "qualifier": "exact"
+   },
+   "duration_note": "'Twelve workweeks of leave in a 12-month period' (rolling 12-month period). For 9-month faculty, FML is reported for duty periods (fall: Sept 1 to commencement; spring: report date to May 31); summer is not charged (OP 70.32 §17).",
+   "service_requirement": "12 months of state employment and 1,250 hours in the preceding 12 months",
+   "dual_employee_rule": "spouses both employed by TTU or another state agency: combined total of 12 workweeks for birth/placement",
+   "must_exhaust_first": [
+    "sick",
+    "vacation"
+   ],
+   "time_window": "within one year of birth or placement",
+   "notice": "30 days' advance notice when foreseeable; otherwise as soon as practicable (within 2 business days if feasible)",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "statute_source": "29 U.S.C. 2612(a)(1)(A)-(B); eligibility 29 U.S.C. 2611(2); also Tex. Gov't Code 661.912 (cited, not saved)",
+   "statute_verified": true,
+   "evidence": {
+    "faculty_group": [
+     "The Family and Medical Leave Act (FMLA) entitles eligible employees of Texas Tech University",
+     "Faculty members who are on a 9-month appointment will only report FML absences covering"
+    ],
+    "eligible_parent": [
+     "The birth of a child and to care for the newborn child within one year of birth;",
+     "The placement with the employee of a child for adoption or foster care and to care"
+    ],
+    "entitlement": [
+     "Eligible employees are entitled to:"
+    ],
+    "duration": [
+     "Twelve workweeks of leave in a 12-month period for:",
+     "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period"
+    ],
+    "service_requirement": [
+     "Must have been employed by the state for at least 12 months and",
+     "Must have worked at least 1,250 hours during the 12 months preceding the first date",
+     "for at least 1,250 hours of service with such employer during the previous 12-month period."
+    ],
+    "dual_employee_rule": [
+     "the two spouses together are limited to a combined total of 12 workweeks leave"
+    ],
+    "must_exhaust_first": [
+     "TTU requires the use of sick leave, vacation leave, and any other applicable leave accruals while on Family and Medical Leave (FML)."
+    ],
+    "notice": [
+     "Employees must provide his or her supervisor 30"
+    ]
+   },
+   "doc_ids": [
+    "2018_04_op70_32_fmla_parental_oct2017_excerpt"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "U4",
+     "answer": "unpaid_leave",
+     "quote": "The Family and Medical Leave Act (FMLA) entitles eligible employees of Texas Tech University"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "TTU requires the use of sick leave, vacation leave, and any other applicable leave accruals while on Family and Medical Leave (FML)."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "The birth of a child and to care for the newborn child within one year of birth;"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "The Family and Medical Leave Act (FMLA) entitles eligible employees of Texas Tech University"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "any_parent, adoptive, foster (role-neutral birth wording; adoption and foster placement named)",
+     "quote": "The birth of a child and to care for the newborn child within one year of birth;"
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "Eligible employees are entitled to:"
+    },
+    {
+     "field": "duration",
+     "rule": "U2",
+     "answer": "12 workweeks exact, checked against 29 U.S.C. 2612(a)(1)",
+     "quote": "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U8",
+     "answer": "12 months and 1,250 hours; the two-year member meets it",
+     "quote": "Must have worked at least 1,250 hours during the 12 months preceding the first date"
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave, relief not stated)",
+     "quote": "Twelve workweeks of leave in a 12-month period for:"
+    },
+    {
+     "field": "duration_note",
+     "rule": "U8",
+     "answer": "state parental leave (Tex. Gov't Code 661.913) only for employees not FMLA-eligible: recorded in this note, not a component",
+     "quote": "is eligible to take a parental leave of absence not to exceed 12 workweeks."
+    }
+   ],
+   "runs_concurrently_with": [
+    "Tex. Gov't Code 661.912"
+   ],
+   "mechanism_note": "Statutory leave relied on by OP 70.32. U8: OP 70.32 §10 gives employees who are NOT FMLA-eligible (fewer than 12 months of state employment or fewer than 1,250 hours) a state parental leave 'not to exceed 12 workweeks' (Tex. Gov't Code 661.913), limited to and beginning on the birth or the adoption/foster placement of a child under three, sick and vacation leave exhausted first, then unpaid; if the employee becomes FMLA-eligible during it, a combined total of 12 workweeks. The two-year member is FMLA-eligible, so that path is recorded here and not as a component."
+  },
+  {
+   "component_id": "texas_tech_university_c2",
+   "institution_label": "Faculty Sick Leave",
+   "description": "Accrued faculty sick leave (OP 32.11; OP 70.44): 8 hours per month, carried forward; usable with pay when sickness, injury or pregnancy and confinement prevent work, to care for an ill immediate family member, and, under FMLA, for the birth or adoption of a child; used concurrently with FMLA leave.",
+   "mechanism": "own_accrual",
+   "payer": "own_balance",
+   "rule_applied": [
+    "R1",
+    "S1",
+    "U5",
+    "U1"
+   ],
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "regular faculty member: academic rank, paid to teach at least 50 percent time for at least four and one-half months per year (OP 32.11 §1)",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "pregnancy and confinement; care for and assist a member of her/his immediate family; the birth of a child or adoption of a child under three years of age (with FMLA)",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration_note": "No fixed length: the member's accrued balance (8 hours per month of employment for full-time employees, carried forward). Exceptions to the amount may be authorized by the president case by case (OP 32.11 §4).",
+   "medical_certification": true,
+   "medical_certification_note": "doctor's certificate for a continuous absence of more than three working days",
+   "sequence": [
+    {
+     "relation": "within",
+     "component_id": "texas_tech_university_c1",
+     "note": "OP 70.32 §11: accruals used first and run concurrent with FML (S1: pay for a statutory leave lies within it)"
+    }
+   ],
+   "evidence": {
+    "faculty_group": [
+     "A regular faculty member shall be entitled to sick leave, without deduction in salary, subject to"
+    ],
+    "entitlement": [
+     "A regular faculty member shall be entitled to sick leave, without deduction in salary, subject to"
+    ],
+    "eligible_parent": [
+     "Sick leave with pay may be taken when sickness, injury, or pregnancy and confinement",
+     "may use sick leave for the birth of a child or adoption of a child under three years of age,"
+    ],
+    "medical_certification": [
+     "certificate showing the cause or nature of the condition"
+    ],
+    "sequence": [
+     "The use of leave accruals runs concurrent with FML."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_faculty_handbook_2017_18",
+    "2018_03_op70_44_sick_leave_sep2014",
+    "2018_04_op70_32_fmla_parental_oct2017_excerpt"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "own_accrual",
+     "quote": "An employee will earn sick leave entitlement beginning on the first day of employment with"
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "own_balance",
+     "quote": "An employee will earn sick leave entitlement beginning on the first day of employment with"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Sick leave with pay may be taken when sickness, injury, or pregnancy and confinement"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "A regular faculty member shall be entitled to sick leave, without deduction in salary, subject to"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own pregnancy and confinement), non_birth_parent (care of ill family), adoptive (OP 70.44 2.a with FMLA)",
+     "quote": "may use sick leave for the birth of a child or adoption of a child under three years of age,"
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "A regular faculty member shall be entitled to sick leave, without deduction in salary, subject to"
+    },
+    {
+     "field": "sequence",
+     "rule": "S1",
+     "answer": "within c1 (accruals run concurrent with FML)",
+     "quote": "The use of leave accruals runs concurrent with FML."
+    }
+   ]
+  },
+  {
+   "component_id": "texas_tech_university_c3",
+   "institution_label": "Vacation Leave",
+   "description": "Accrued vacation leave, described only on the HR leave page (OP 70.45 not saved); earned by regular employees, and by faculty only if on a full-time 12-month appointment observing the administrative work schedule; must be used concurrently with FMLA leave.",
+   "mechanism": "own_accrual",
+   "payer": "own_balance",
+   "rule_applied": [
+    "R1",
+    "U1",
+    "S1"
+   ],
+   "faculty_group": "regular faculty member with a full-time appointment for 12 months who observes the administrative work schedule",
+   "faculty_group_note": "HR page: 'A regular faculty member with a full-time appointment for 12 months (faculty, staff, or combination) who observes the administrative work schedule may also earn vacation entitlement'; most faculty hold 9-month appointments",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "sequence": [
+    {
+     "relation": "within",
+     "component_id": "texas_tech_university_c1",
+     "note": "OP 70.32: vacation accruals used concurrently with FML"
+    }
+   ],
+   "evidence": {
+    "faculty_group": [
+     "A regular faculty member with a full-time appointment",
+     "for 12 months (faculty, staff, or combination) who observes the administrative work"
+    ],
+    "eligible_parent": [
+     "TTU requires the use of sick leave, vacation leave, and any other applicable leave accruals while on Family and Medical Leave (FML)."
+    ],
+    "entitlement": [
+     "A regular full-time employee will be entitled to vacation leave without deduction"
+    ],
+    "sequence": [
+     "The use of leave accruals runs concurrent with FML."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link",
+    "2018_04_op70_32_fmla_parental_oct2017_excerpt"
+   ],
+   "flags": [
+    "general_purpose",
+    "summary_only: 2018_00_link",
+    "cross_reference_not_saved: OP 70.45 Vacation Leave"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "own_accrual",
+     "quote": "A regular full-time employee will be entitled to vacation leave without deduction"
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "own_balance",
+     "quote": "A regular full-time employee will be entitled to vacation leave without deduction"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "A regular full-time employee will be entitled to vacation leave without deduction"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "regular faculty member with a full-time appointment for 12 months who observes the administrative work schedule",
+     "quote": "for 12 months (faculty, staff, or combination) who observes the administrative work"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "TTU requires the use of sick leave, vacation leave, and any other applicable leave accruals while on Family and Medical Leave (FML)."
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "A regular full-time employee will be entitled to vacation leave without deduction"
+    },
+    {
+     "field": "sequence",
+     "rule": "S1",
+     "answer": "within c1",
+     "quote": "The use of leave accruals runs concurrent with FML."
+    },
+    {
+     "field": "flags",
+     "rule": "source_precedence",
+     "answer": "summary_only: the vacation terms appear only on the HR summary page; OP 70.45 is not saved",
+     "quote": "A regular faculty member with a full-time appointment"
+    }
+   ]
+  },
+  {
+   "component_id": "texas_tech_university_c4",
+   "institution_label": "Sick Leave Pool",
+   "description": "Colleague-donated sick leave pool (OP 70.44 §5) for catastrophic illness or injury of the employee or immediate family after all sick and vacation leave is used; normal post-birth time off does not qualify, only catastrophic or severe complications to mother or child.",
+   "mechanism": "donated_leave",
+   "payer": "own_balance",
+   "rule_applied": [
+    "R1d",
+    "U8",
+    "U5",
+    "source_precedence",
+    "R15"
+   ],
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "'all regular faculty and staff employees of TTU/TTUS'",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent"
+   ],
+   "eligible_parent_wording": "the mother or the child; the employee and his or her immediate family",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "duration": {
+    "value": 240,
+    "units": "hour",
+    "qualifier": "up_to"
+   },
+   "duration_max": {
+    "value": 720,
+    "units": "hour"
+   },
+   "duration_note": "Annual maximum by state service at the initial award (OP 70.44 5.i(5)): 6 months-1 year 40 h; 1-2 years 120 h; 2-5 years 240 h (coded, U8 two-year member); 5-10 years 560 h; 10+ years 720 h (duration_max). Also capped at one-third of the pool balance, 1,440 hours over employment. OP 32.11 §5.c (2006) states a different cap ('lesser of one-third of the total amount of time in the pool or 90 days'); the later, specific pool policy OP 70.44 (2014) is coded.",
+   "service_requirement": "six months of state service",
+   "must_exhaust_first": [
+    "sick",
+    "vacation"
+   ],
+   "medical_certification": true,
+   "medical_certification_note": "physician's certification of a catastrophic illness or injury, at least monthly",
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "texas_tech_university_c2",
+     "note": "pool hours apply from the first workday after the employee's earned paid leaves expire"
+    }
+   ],
+   "evidence": {
+    "faculty_group": [
+     "A single Sick Leave Pool will be administered for all regular faculty and staff"
+    ],
+    "eligible_parent": [
+     "Pregnancy is not considered catastrophic unless severe illness and prolonged",
+     "complications arise to either the mother or the child.",
+     "The Sick Leave Pool is intended to assist an employee and his or her immediate family in"
+    ],
+    "entitlement": [
+     "Human Resources will determine the number of hours granted for each catastrophic",
+     "approve all or part of the request or to deny the request."
+    ],
+    "duration": [
+     "MAXIMUM ELIGIBLE HOURS",
+     "At least 2 Years but less than 5 Years 240",
+     "10 Years or more 720"
+    ],
+    "service_requirement": [
+     "An employee must have completed six months of state service to be eligible to utilize the"
+    ],
+    "must_exhaust_first": [
+     "An employee must use all of his or her accrued sick leave and vacation leave before"
+    ],
+    "sequence": [
+     "Sick Leave Pool hours will be applied to the employee's sick leave accrual beginning the first workday following"
+    ]
+   },
+   "doc_ids": [
+    "2018_03_op70_44_sick_leave_sep2014",
+    "2018_01_faculty_handbook_2017_18"
+   ],
+   "flags": [
+    "conflicting_sources: 2018_01_faculty_handbook_2017_18, 2018_03_op70_44_sick_leave_sep2014",
+    "ambiguous: restriction: only catastrophic or severe complications of pregnancy or childbirth qualify; normal post-birth time off does not"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "donated_leave",
+     "quote": "A single Sick Leave Pool will be administered for all regular faculty and staff"
+    },
+    {
+     "field": "payer",
+     "rule": "R1d",
+     "answer": "own_balance",
+     "quote": "The Sick Leave Pool is intended to assist an employee and his or her immediate family in"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Pregnancy is not considered catastrophic unless severe illness and prolonged"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "A single Sick Leave Pool will be administered for all regular faculty and staff"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own catastrophic complications), non_birth_parent (immediate family)",
+     "quote": "complications arise to either the mother or the child."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "approve all or part of the request or to deny the request."
+    },
+    {
+     "field": "duration",
+     "rule": "U8",
+     "answer": "240 hours up_to (2-5 years band); 720 in duration_max",
+     "quote": "At least 2 Years but less than 5 Years 240"
+    },
+    {
+     "field": "duration",
+     "rule": "source_precedence",
+     "answer": "OP 70.44 (2014 pool policy) over OP 32.11 §5.c (2006)",
+     "quote": "lesser of one-third of the total amount of time in the pool or 90 days."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "six months of state service",
+     "quote": "An employee must have completed six months of state service to be eligible to utilize the"
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "consecutive_after c2",
+     "quote": "Sick Leave Pool hours will be applied to the employee's sick leave accrual beginning the first workday following"
+    }
+   ]
+  },
+  {
+   "component_id": "texas_tech_university_c5",
+   "institution_label": "Short-Term (STD) and Long-Term (LTD) Disability Coverage",
+   "description": "Optional short-term disability insurance through the state (ERS) group program that benefits-eligible employees may elect, with premiums paid by the employee, providing income replacement when totally disabled; no childbirth period or benefit length stated.",
+   "mechanism": "generic_sick_or_disability_plan",
+   "payer": "employee_paid",
+   "rule_applied": [
+    "R1d",
+    "V1",
+    "V2"
+   ],
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Benefits eligible employees",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "service_requirement": "enrollment within the first 31 days of employment (later enrollment subject to evidence of insurability)",
+   "pay_cap": "maximum monthly salary available for insuring is $10,000",
+   "evidence": {
+    "mechanism": [
+     "provide income replacement upon becoming totally disabled"
+    ],
+    "faculty_group": [
+     "Benefits eligible employees may elect STD and/or LTD to"
+    ],
+    "eligible_parent": [
+     "provide income replacement upon becoming totally disabled"
+    ],
+    "entitlement": [
+     "Benefits eligible employees may elect STD and/or LTD to"
+    ],
+    "service_requirement": [
+     "during the first 31 days of employment."
+    ],
+    "payer": [
+     "enroll in the optional coverages listed below. Premiums for",
+     "optional coverages are fully paid by the employee through"
+    ]
+   },
+   "doc_ids": [
+    "2018_01_faculty_handbook_2017_18"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "V1",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "provide income replacement upon becoming totally disabled"
+    },
+    {
+     "field": "payer",
+     "rule": "R1d",
+     "answer": "employee_paid",
+     "quote": "optional coverages are fully paid by the employee through"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "provide income replacement upon becoming totally disabled"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Benefits eligible employees may elect STD and/or LTD to"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own disability)",
+     "quote": "provide income replacement upon becoming totally disabled"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "Benefits eligible employees may elect STD and/or LTD to"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "enrollment within the first 31 days of employment",
+     "quote": "during the first 31 days of employment."
+    }
+   ],
+   "duration_note": "No benefit length or childbirth period stated in the saved sources (details referred to www.ers.state.tx.us)."
+  },
+  {
+   "component_id": "texas_tech_university_c6",
+   "institution_label": "Short-Term (STD) and Long-Term (LTD) Disability Coverage",
+   "description": "Optional long-term disability insurance through the state (ERS) group program that benefits-eligible employees may elect, with premiums paid by the employee, providing income replacement when totally disabled; no childbirth period or benefit length stated.",
+   "mechanism": "generic_sick_or_disability_plan",
+   "payer": "employee_paid",
+   "rule_applied": [
+    "R1d",
+    "V1",
+    "V2"
+   ],
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Benefits eligible employees",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "service_requirement": "enrollment within the first 31 days of employment (later enrollment subject to evidence of insurability)",
+   "pay_cap": "maximum monthly salary available for insuring is $10,000",
+   "evidence": {
+    "mechanism": [
+     "provide income replacement upon becoming totally disabled"
+    ],
+    "faculty_group": [
+     "Benefits eligible employees may elect STD and/or LTD to"
+    ],
+    "eligible_parent": [
+     "provide income replacement upon becoming totally disabled"
+    ],
+    "entitlement": [
+     "Benefits eligible employees may elect STD and/or LTD to"
+    ],
+    "service_requirement": [
+     "during the first 31 days of employment."
+    ],
+    "payer": [
+     "enroll in the optional coverages listed below. Premiums for",
+     "optional coverages are fully paid by the employee through"
+    ]
+   },
+   "doc_ids": [
+    "2018_01_faculty_handbook_2017_18"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "V1",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "provide income replacement upon becoming totally disabled"
+    },
+    {
+     "field": "payer",
+     "rule": "R1d",
+     "answer": "employee_paid",
+     "quote": "optional coverages are fully paid by the employee through"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "provide income replacement upon becoming totally disabled"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Benefits eligible employees may elect STD and/or LTD to"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own disability)",
+     "quote": "provide income replacement upon becoming totally disabled"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "Benefits eligible employees may elect STD and/or LTD to"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "enrollment within the first 31 days of employment",
+     "quote": "during the first 31 days of employment."
+    }
+   ],
+   "mechanism_note": "Long-term disability: recorded without a duration (schema §2)."
+  },
+  {
+   "component_id": "texas_tech_university_c7",
+   "institution_label": "Modified Instructional Duties Policy",
+   "description": "A modified workload giving flexibility in teaching obligations for faculty who experience a significant life event, including caring for a newborn or newly adopted child; the handbook gives no length, pay or eligibility terms and refers to OP 32.35, which is not saved.",
+   "mechanism": "modified_duties",
+   "payer": "employer",
+   "rule_applied": [
+    "U1",
+    "R4b",
+    "R3",
+    "V2"
+   ],
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "'eligible faculty' (eligibility defined in OP 32.35, not saved)",
+   "eligible_parent": [
+    "any_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "caring for a newborn infant or a newly adopted infant or child",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "entitlement_note": "The handbook says that the MIDP 'is designed to offer eligible faculty a modified workload'; who decides and on what grounds is in OP 32.35, not saved.",
+   "relief": {
+    "teaching": "partially_relieved",
+    "service_admin": "continues",
+    "research": "continues",
+    "advising_supervision": "continues",
+    "clinical": "continues"
+   },
+   "relief_inferred": "unnamed duties continue (R4b)",
+   "relief_note": "'flexibility in the teaching obligations' and 'a modified workload'; 'Although not a provision for leave, per se'. Amount and span not stated.",
+   "evidence": {
+    "faculty_group": [
+     "(MIDP) is designed to offer eligible faculty a modified"
+    ],
+    "eligible_parent": [
+     "newborn infant or a newly adopted infant or child, and/or"
+    ],
+    "entitlement": [
+     "(MIDP) is designed to offer eligible faculty a modified"
+    ],
+    "relief": [
+     "ibility in the teaching obligations of faculty who experience"
+    ]
+   },
+   "doc_ids": [
+    "2018_01_faculty_handbook_2017_18"
+   ],
+   "flags": [
+    "general_purpose",
+    "cross_reference_not_saved: OP 32.35 Modified Instructional Duties Policy",
+    "ambiguous: entitlement, length and eligibility are set in OP 32.35, which is not saved",
+    "ambiguous: pay level not stated; full pay inferred (R3)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "modified_duties",
+     "quote": "for leave, per se, the Modified Instructional Duties Policy"
+    },
+    {
+     "field": "payer",
+     "rule": "R3",
+     "answer": "employer",
+     "quote": "(MIDP) is designed to offer eligible faculty a modified"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "but are not limited to, serious personal illness, caring for a"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "(MIDP) is designed to offer eligible faculty a modified"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "any_parent, adoptive",
+     "quote": "newborn infant or a newly adopted infant or child, and/or"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "(MIDP) is designed to offer eligible faculty a modified"
+    },
+    {
+     "field": "relief",
+     "rule": "R4b",
+     "answer": "teaching partially_relieved; other duties continue (inferred)",
+     "quote": "ibility in the teaching obligations of faculty who experience"
+    }
+   ]
+  },
+  {
+   "component_id": "texas_tech_university_c8",
+   "institution_label": "Leave Without Pay",
+   "description": "Leave without pay status for any employee absent for personal reasons or illness when accrued leave is not used or is exhausted; described only on the HR summary page (OP 70.43 not saved).",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "rule_applied": [
+    "U1",
+    "V2",
+    "R9",
+    "source_precedence"
+   ],
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "All employees, including exempt employees",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "evidence": {
+    "faculty_group": [
+     "All employees, including exempt employees, may be placed on leave without pay (LWOP)"
+    ],
+    "eligible_parent": [
+     "if the employee is not at work for less than one day for personal reasons or because"
+    ],
+    "entitlement": [
+     "All employees, including exempt employees, may be placed on leave without pay (LWOP)"
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "general_purpose",
+    "summary_only: 2018_00_link",
+    "cross_reference_not_saved: OP 70.43 Leave Without Pay"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "All employees, including exempt employees, may be placed on leave without pay (LWOP)"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "All employees, including exempt employees, may be placed on leave without pay (LWOP)"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "if the employee is not at work for less than one day for personal reasons or because"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "All employees, including exempt employees, may be placed on leave without pay (LWOP)"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "if the employee is not at work for less than one day for personal reasons or because"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "All employees, including exempt employees, may be placed on leave without pay (LWOP)"
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave)",
+     "quote": "All employees, including exempt employees, may be placed on leave without pay (LWOP)"
+    }
+   ]
+  },
+  {
+   "component_id": "texas_tech_university_c9",
+   "institution_label": "",
+   "description": "Extension (suspension) of the tenure probationary period on the faculty member's request where extenuating circumstances, as judged by the Provost (PSVP), justify it; not limited to birth or adoption.",
+   "mechanism": "tenure_clock",
+   "payer": "none",
+   "rule_applied": [
+    "U1",
+    "V2"
+   ],
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Members of the faculty who are employed in a full-time tenure-track position (OP 32.01, 7/11/12)",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "duration_note": "Length of the extension not stated.",
+   "evidence": {
+    "faculty_group": [
+     "Members of the faculty who are employed in a full-time tenure-track position with Texas Tech"
+    ],
+    "eligible_parent": [
+     "extenuating circumstances, as judged by the PSVP, justify a suspension of the tenure"
+    ],
+    "entitlement": [
+     "extension of the probationary period may be made to the PSVP.",
+     "department/division chairperson and college dean, and forwarded to the PSVP for a"
+    ]
+   },
+   "doc_ids": [
+    "2018_01_faculty_handbook_2017_18"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "extension of the probationary period may be made to the PSVP."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "extension of the probationary period may be made to the PSVP."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "extenuating circumstances, as judged by the PSVP, justify a suspension of the tenure"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Members of the faculty who are employed in a full-time tenure-track position with Texas Tech"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent (any extenuating circumstance)",
+     "quote": "extenuating circumstances, as judged by the PSVP, justify a suspension of the tenure"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "department/division chairperson and college dean, and forwarded to the PSVP for a"
+    }
+   ]
+  }
+ ],
+ "passage_dispositions": {
+  "2018_00_link#001": {
+   "used_in": [
+    "texas_tech_university_c1",
+    "texas_tech_university_c2",
+    "texas_tech_university_c3",
+    "texas_tech_university_c4",
+    "texas_tech_university_c8"
+   ]
+  },
+  "2018_01_faculty_handbook_2017_18#001": {
+   "not_relevant": "table of contents"
+  },
+  "2018_01_faculty_handbook_2017_18#002": {
+   "not_relevant": "table of contents (index of leave headings; provisions coded from their text)"
+  },
+  "2018_01_faculty_handbook_2017_18#003": {
+   "not_relevant": "communicable-disease policy: refers to sick, vacation, temporary disability leave without pay and FMLA governed elsewhere (see notes)"
+  },
+  "2018_01_faculty_handbook_2017_18#004": {
+   "not_relevant": "consulting and outside employment"
+  },
+  "2018_01_faculty_handbook_2017_18#005": {
+   "not_relevant": "employee assistance programme and faculty conduct"
+  },
+  "2018_01_faculty_handbook_2017_18#006": {
+   "not_relevant": "holding public office; final examinations"
+  },
+  "2018_01_faculty_handbook_2017_18#007": {
+   "used_in": [
+    "texas_tech_university_c2",
+    "texas_tech_university_c4"
+   ]
+  },
+  "2018_01_faculty_handbook_2017_18#008": {
+   "used_in": [
+    "texas_tech_university_c7"
+   ]
+  },
+  "2018_01_faculty_handbook_2017_18#009": {
+   "not_relevant": "office hours, academic freedom"
+  },
+  "2018_01_faculty_handbook_2017_18#010": {
+   "used_in": [
+    "texas_tech_university_c2"
+   ]
+  },
+  "2018_01_faculty_handbook_2017_18#011": {
+   "used_in": [
+    "texas_tech_university_c5",
+    "texas_tech_university_c6"
+   ]
+  },
+  "2018_01_faculty_handbook_2017_18#012": {
+   "not_relevant": "subject index"
+  },
+  "2018_01_faculty_handbook_2017_18#013": {
+   "not_relevant": "subject index"
+  },
+  "2018_01_faculty_handbook_2017_18#014": {
+   "not_relevant": "subject index"
+  },
+  "2018_01_faculty_handbook_2017_18#015": {
+   "not_relevant": "subject index"
+  },
+  "2018_01_faculty_handbook_2017_18#016": {
+   "not_relevant": "ethics policy: nepotism"
+  },
+  "2018_01_faculty_handbook_2017_18#017": {
+   "not_relevant": "conflict-of-interest definitions"
+  },
+  "2018_01_faculty_handbook_2017_18#018": {
+   "not_relevant": "conflict-of-interest disclosures"
+  },
+  "2018_01_faculty_handbook_2017_18#019": {
+   "not_relevant": "nepotism"
+  },
+  "2018_01_faculty_handbook_2017_18#020": {
+   "used_in": [
+    "texas_tech_university_c9"
+   ]
+  },
+  "2018_01_faculty_handbook_2017_18#021": {
+   "not_relevant": "tenure criteria (research, teaching)"
+  },
+  "2018_01_faculty_handbook_2017_18#022": {
+   "not_relevant": "promotion and tenure procedure"
+  },
+  "2018_01_faculty_handbook_2017_18#023": {
+   "not_relevant": "tenure appeal grounds"
+  },
+  "2018_01_faculty_handbook_2017_18#024": {
+   "not_relevant": "promotion procedure"
+  },
+  "2018_01_faculty_handbook_2017_18#025": {
+   "not_relevant": "dossier format"
+  },
+  "2018_01_faculty_handbook_2017_18#026": {
+   "not_relevant": "dossier format"
+  },
+  "2018_01_faculty_handbook_2017_18#027": {
+   "not_relevant": "tenure advisory committee"
+  },
+  "2018_01_faculty_handbook_2017_18#028": {
+   "not_relevant": "tenure revocation hearing"
+  },
+  "2018_01_faculty_handbook_2017_18#029": {
+   "not_relevant": "dismissal procedure"
+  },
+  "2018_01_faculty_handbook_2017_18#030": {
+   "not_relevant": "department chair duties"
+  },
+  "2018_01_faculty_handbook_2017_18#031": {
+   "used_in": [
+    "texas_tech_university_c2",
+    "texas_tech_university_c4"
+   ]
+  },
+  "2018_01_faculty_handbook_2017_18#032": {
+   "not_relevant": "faculty appointments procedure"
+  },
+  "2018_01_faculty_handbook_2017_18#033": {
+   "not_relevant": "tutoring for payment; faculty development leave (study and research, not usable for a birth)"
+  },
+  "2018_01_faculty_handbook_2017_18#034": {
+   "not_relevant": "faculty development leave application terms (not usable for a birth)"
+  },
+  "2018_01_faculty_handbook_2017_18#035": {
+   "not_relevant": "student disability accommodation"
+  },
+  "2018_01_faculty_handbook_2017_18#036": {
+   "not_relevant": "non-discrimination policy review"
+  },
+  "2018_01_faculty_handbook_2017_18#037": {
+   "not_relevant": "discrimination complaint procedure"
+  },
+  "2018_01_faculty_handbook_2017_18#038": {
+   "not_relevant": "OP 70.01 miscellaneous leaves: cross-references to OP 70.32 (c1) and OP 70.43/70.44; emergency leave and others not usable for a birth"
+  },
+  "2018_01_faculty_handbook_2017_18#039": {
+   "not_relevant": "OP 70.01 subpoena leave"
+  },
+  "2018_01_faculty_handbook_2017_18#040": {
+   "not_relevant": "OP 70.01 emergency leave (natural disaster type emergencies), foster-parent meetings, funeral leave: not usable for a birth"
+  },
+  "2018_01_faculty_handbook_2017_18#041": {
+   "not_relevant": "OP 70.01 jury leave"
+  },
+  "2018_01_faculty_handbook_2017_18#042": {
+   "not_relevant": "OP 70.01 legislative leave for peace officers"
+  },
+  "2018_01_faculty_handbook_2017_18#043": {
+   "not_relevant": "OP 70.01 military leave"
+  },
+  "2018_01_faculty_handbook_2017_18#044": {
+   "not_relevant": "OP 70.01 military reemployment"
+  },
+  "2018_01_faculty_handbook_2017_18#045": {
+   "not_relevant": "OP 70.01 military leave; organ donor; parent-teacher conference sick-leave use (not parental leave)"
+  },
+  "2018_01_faculty_handbook_2017_18#046": {
+   "not_relevant": "OP 70.01 authoritative references (miscellaneous leave statutes, listed under C4)"
+  },
+  "2018_01_faculty_handbook_2017_18#047": {
+   "not_relevant": "optional retirement programme"
+  },
+  "2018_01_faculty_handbook_2017_18#048": {
+   "not_relevant": "optional retirement programme"
+  },
+  "2018_01_faculty_handbook_2017_18#049": {
+   "not_relevant": "nepotism"
+  },
+  "2018_01_faculty_handbook_2017_18#050": {
+   "not_relevant": "nepotism waiver"
+  },
+  "2018_01_faculty_handbook_2017_18#051": {
+   "not_relevant": "non-faculty complaint procedure"
+  },
+  "2018_01_faculty_handbook_2017_18#052": {
+   "not_relevant": "workers' compensation procedure"
+  },
+  "2018_01_faculty_handbook_2017_18#053": {
+   "not_relevant": "workers' compensation procedure"
+  },
+  "2018_01_faculty_handbook_2017_18#054": {
+   "not_relevant": "workers' compensation procedure"
+  },
+  "2018_01_faculty_handbook_2017_18#055": {
+   "not_relevant": "workers' compensation forms"
+  },
+  "2018_01_faculty_handbook_2017_18#056": {
+   "not_relevant": "workers' compensation leave election form"
+  },
+  "2018_01_faculty_handbook_2017_18#057": {
+   "not_relevant": "workers' compensation income benefits"
+  },
+  "2018_01_faculty_handbook_2017_18#058": {
+   "not_relevant": "multiple state employment"
+  },
+  "2018_01_faculty_handbook_2017_18#059": {
+   "not_relevant": "multiple employment"
+  },
+  "2018_01_faculty_handbook_2017_18#060": {
+   "not_relevant": "multiple employment: other-agency employees' leave administered by normal procedures"
+  },
+  "2018_01_faculty_handbook_2017_18#061": {
+   "not_relevant": "communicable-disease policy (refers to leaves governed elsewhere)"
+  },
+  "2018_01_faculty_handbook_2017_18#062": {
+   "not_relevant": "disciplinary administrative leave"
+  },
+  "2018_01_faculty_handbook_2017_18#063": {
+   "not_relevant": "reduction in force"
+  },
+  "2018_01_faculty_handbook_2017_18#064": {
+   "not_relevant": "reduction in force; exhaustion of leaves"
+  },
+  "2018_01_faculty_handbook_2017_18#065": {
+   "not_relevant": "superseded OP 70.32 (2/5/14 edition); the 10/12/17 edition (2018_04) governs and is coded as c1"
+  },
+  "2018_01_faculty_handbook_2017_18#066": {
+   "not_relevant": "superseded OP 70.32 (2/5/14 edition); see 2018_04"
+  },
+  "2018_01_faculty_handbook_2017_18#067": {
+   "not_relevant": "superseded OP 70.32 (2/5/14 edition); see 2018_04"
+  },
+  "2018_01_faculty_handbook_2017_18#068": {
+   "not_relevant": "superseded OP 70.32 (2/5/14 edition); see 2018_04"
+  },
+  "2018_01_faculty_handbook_2017_18#069": {
+   "not_relevant": "superseded OP 70.32 (2/5/14 edition); see 2018_04"
+  },
+  "2018_01_faculty_handbook_2017_18#070": {
+   "not_relevant": "superseded OP 70.32 (2/5/14 edition); see 2018_04"
+  },
+  "2018_01_faculty_handbook_2017_18#071": {
+   "not_relevant": "superseded OP 70.32 (2/5/14 edition); see 2018_04"
+  },
+  "2018_01_faculty_handbook_2017_18#072": {
+   "not_relevant": "PHS conflict-of-interest definitions"
+  },
+  "2018_01_faculty_handbook_2017_18#073": {
+   "not_relevant": "PHS conflict-of-interest travel disclosure"
+  },
+  "2018_01_faculty_handbook_2017_18#074": {
+   "not_relevant": "Regents' Rules nepotism"
+  },
+  "2018_01_faculty_handbook_2017_18#075": {
+   "not_relevant": "Regents' Rules conflict of interest"
+  },
+  "2018_01_faculty_handbook_2017_18#076": {
+   "not_relevant": "Regents' Rules conflict of interest"
+  },
+  "2018_01_faculty_handbook_2017_18#077": {
+   "not_relevant": "Regents' Rules faculty responsibility; development leave (not usable for a birth)"
+  },
+  "2018_03_op70_44_sick_leave_sep2014#001": {
+   "used_in": [
+    "texas_tech_university_c2",
+    "texas_tech_university_c4"
+   ]
+  },
+  "2018_03_op70_44_sick_leave_sep2014#002": {
+   "used_in": [
+    "texas_tech_university_c2",
+    "texas_tech_university_c4"
+   ]
+  },
+  "2018_03_op70_44_sick_leave_sep2014#003": {
+   "used_in": [
+    "texas_tech_university_c2",
+    "texas_tech_university_c4"
+   ]
+  },
+  "2018_04_op70_32_fmla_parental_oct2017_excerpt#001": {
+   "used_in": [
+    "texas_tech_university_c1",
+    "texas_tech_university_c2",
+    "texas_tech_university_c3"
+   ]
+  },
+  "2018_04_op70_32_fmla_parental_oct2017_excerpt#002": {
+   "used_in": [
+    "texas_tech_university_c1"
+   ]
+  },
+  "2018_04_op70_32_fmla_parental_oct2017_excerpt#003": {
+   "used_in": [
+    "texas_tech_university_c1"
+   ]
+  },
+  "2018_04_op70_32_fmla_parental_oct2017_excerpt#004": {
+   "used_in": [
+    "texas_tech_university_c1"
+   ]
+  },
+  "2018_04_op70_32_fmla_parental_oct2017_excerpt#005": {
+   "used_in": [
+    "texas_tech_university_c1",
+    "texas_tech_university_c2",
+    "texas_tech_university_c3"
+   ]
+  },
+  "2018_04_op70_32_fmla_parental_oct2017_excerpt#006": {
+   "used_in": [
+    "texas_tech_university_c1"
+   ]
+  },
+  "2018_04_op70_32_fmla_parental_oct2017_excerpt#007": {
+   "used_in": [
+    "texas_tech_university_c1"
+   ]
+  },
+  "2018_04_op70_32_fmla_parental_oct2017_excerpt#008": {
+   "used_in": [
+    "texas_tech_university_c1"
+   ]
+  },
+  "2018_04_op70_32_fmla_parental_oct2017_excerpt#009": {
+   "used_in": [
+    "texas_tech_university_c1"
+   ]
+  }
+ },
+ "notes": [
+  "2018_00_link is an HR leave summary (undated; footer Sep 25 2017); 2018_03 is OP 70.44 (9/24/14); 2018_04 is an excerpt of OP 70.32 (10/12/17); 2018_01 is the 2017-18 Faculty Handbook, whose governing passages are MIDP, benefits, OP 32.01 and OP 32.11.",
+  "Governing documents: OP 70.32 (10/12/17 edition, 2018_04) for FMLA and state parental leave; OP 32.11 (9/12/06) and OP 70.44 (9/24/14) for sick leave and the pool; OP 32.01 (7/11/12) for the probationary period; the Faculty Handbook text for MIDP and STD/LTD. The handbook's own copy of OP 70.32 is the superseded 2/5/14 edition (it said 'Texas Tech allows the use of sick leave' and barred intermittent leave after a birth); the 10/12/17 edition governs on 2018-02-28 and is coded.",
+  "No paid parental, maternity or childbirth leave, and no employer-paid FMLA, appears in any source. Pay during a birth comes only from the member's own sick leave (and vacation for 12-month faculty), then the sick leave pool only for catastrophic complications; the rest of FMLA is leave without pay. OP 70.44 5.c: 'Time off following the birth of a child is considered normal regardless of the method of delivery'.",
+  "U8: OP 70.32 §10 state parental leave (Tex. Gov't Code 661.913; up to 12 workweeks for employees with under 12 months or 1,250 hours) is recorded in c1's note, not as a component; the two-year member is FMLA-eligible.",
+  "Documents cited but not saved: OP 32.35 Modified Instructional Duties Policy (governs c7: eligibility, length, approval and pay unknown); OP 70.43 Leave Without Pay; OP 70.45 Vacation Leave (and holiday leave); OP 70.39 early return-to-work, alternate and light duty assignments; OP 70.04 Military Emergency Leave; OP 70.05; OP 32.34; the Tex. Gov't Code ch. 661 sections (661.912, 661.913 etc.) are not saved; ERS plan documents for STD/LTD (www.ers.state.tx.us). The handbook's communicable-disease paragraph mentions 'temporary disability leave without pay benefits in accordance with normal university policies (OP 70.01)', but OP 70.01 (saved) contains no such leave; no terms, so not coded.",
+  "Conflict: the faculty sick leave pool cap in OP 32.11 §5.c (2006: 'lesser of one-third of the total amount of time in the pool or 90 days') differs from OP 70.44 §5 (2014: service bands, 1,440 hours per employment); OP 70.44, the later and specific pool policy to which OP 70.01 refers, is coded (c4 flagged conflicting_sources).",
+  "Faculty development leave (OP 32.29; Tex. Educ. Code 51.102-51.108: one semester at full pay or a year at half pay for tenured faculty with five years of service, for study and research) and OP 70.01 miscellaneous leaves (emergency, funeral, jury, military, donor, foster-parent meetings, parent-teacher conferences) are not usable for a birth and are not components (checklist §1).",
+  "Most faculty hold 9-month appointments ('Faculty on nine-month appointments (most all faculty)'); vacation (c3) accrues only to 12-month appointees and is recorded by that group. For 9-month faculty FML is charged only during duty periods (OP 70.32 §17).",
+  "Chain, birth parent: FMLA 12 workweeks (c1) from the birth, with own sick leave (c2, and vacation c3 for 12-month faculty only) paid within it, then the sick leave pool (c4) only for catastrophic complications after sick leave, then leave without pay to the end of the 12 weeks.",
+  "Chain, non-birth parent: FMLA 12 workweeks (c1) from the birth, with own sick leave usable for the birth under FMLA (c2) within it, then leave without pay; no other parental provision.",
+  "General-purpose provisions recorded but counted nowhere: MIDP (c7; open list of significant life events), leave without pay (c8, HR summary only), tenure-clock extension for extenuating circumstances (c9), vacation (c3)."
+ ],
+ "statutory_floor": {
+  "jurisdiction": "US",
+  "year": "2018",
+  "weeks_birth": 12.0,
+  "weeks_nonbirth": 12.0,
+  "statute": "Family and Medical Leave Act (FMLA) (29 U.S.C. 2611-2612)",
+  "source_doc": "2026_00_us_fmla_29usc2612",
+  "table": "statutory_baseline.csv"
+ }
+}

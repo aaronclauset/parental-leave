@@ -1,0 +1,2347 @@
+{
+ "institution": "Vanderbilt University",
+ "slug": "vanderbilt_university",
+ "country": "US",
+ "model": "claude-opus-5-5",
+ "codebook_version": "1.25",
+ "schema_version": "1.25",
+ "reference_date": "2018-02-26",
+ "calendar": {
+  "term_weeks": null,
+  "note": "The Faculty Manual's parental leave is by semester (\"each semester shall run from the first day of classes to the last day of examinations\"); kind of term stated without a length -> semester default 16 (R8).",
+  "kind": "semester"
+ },
+ "documents": [
+  {
+   "doc_id": "2018_02_faculty_manual_snapshot_20180329",
+   "url": "https://www.vanderbilt.edu/facultysenate/archives/FacManSnapshot32918.pdf",
+   "title": "Vanderbilt University Faculty Manual (March 29, 2018) - 2017-2018 snapshot",
+   "version_or_effective_date": "March 29, 2018 snapshot (2017-18 academic year)",
+   "retrieved": "2026-10-21 (Wayback capture 2021-04-20)"
+  },
+  {
+   "doc_id": "2018_01_faculty_manual_vi_ch4_leaves",
+   "url": "https://www.vanderbilt.edu/faculty-manual/part-vi-faculty-benefits/ch4-leaves-of-absence/",
+   "title": "Faculty Manual 2016-2017, Part VI Chapter 4: Leaves of Absence",
+   "version_or_effective_date": "2016-2017 edition, snapshot as of 8/17/2016",
+   "retrieved": "2026-10-20 (Wayback capture 2017-02-18)"
+  },
+  {
+   "doc_id": "2018_00_link",
+   "url": "https://hr.vanderbilt.edu/policies/ParentalLeave.php",
+   "title": "Vanderbilt University Human Resources Policies and Procedures: Parental Leave",
+   "version_or_effective_date": "effective July 1, 2015",
+   "retrieved": "2026-10-18 (Wayback capture 2019-08-25)"
+  },
+  {
+   "doc_id": "2026_00_us_fmla_29usc2612",
+   "url": "https://www.law.cornell.edu/uscode/text/29/2612",
+   "title": "29 U.S.C. 2612 (FMLA leave requirement)",
+   "version_or_effective_date": "current text; leave length unchanged since 1993",
+   "retrieved": "2026-10-19"
+  },
+  {
+   "doc_id": "2026_04_tn_tmla_4-21-408",
+   "url": "https://law.justia.com/codes/tennessee/title-4/chapter-21/part-4/section-4-21-408/",
+   "title": "Tenn. Code Ann. 4-21-408 (Tennessee Maternity Leave Act)",
+   "version_or_effective_date": "2025 Code (history: amended 2005 and 2025)",
+   "retrieved": "2026-10-18"
+  }
+ ],
+ "missing": false,
+ "scope_accounting": {
+  "C1": {
+   "components": [
+    "vanderbilt_university_c1",
+    "vanderbilt_university_c3",
+    "vanderbilt_university_c10",
+    "vanderbilt_university_c14"
+   ]
+  },
+  "C2": {
+   "absent": {
+    "documents": [
+     "2018_02_faculty_manual_snapshot_20180329",
+     "2018_01_faculty_manual_vi_ch4_leaves",
+     "2018_00_link"
+    ],
+    "terms": [
+     "modified duties",
+     "teaching relief",
+     "course release",
+     "reduced teaching",
+     "relieved of"
+    ]
+   }
+  },
+  "C3": {
+   "components": [
+    "vanderbilt_university_c2",
+    "vanderbilt_university_c3",
+    "vanderbilt_university_c11"
+   ]
+  },
+  "C4": {
+   "components": [
+    "vanderbilt_university_c4",
+    "vanderbilt_university_c5"
+   ],
+   "not_components": [
+    {
+     "statute": "Title VII of the Civil Rights Act of 1964",
+     "reason": "Nondiscrimination statute; no leave, pay or job protection for becoming a parent (U4)."
+    },
+    {
+     "statute": "Title IX of the Education Amendments of 1972",
+     "reason": "Nondiscrimination statute named in the nondiscrimination statement; not relied on for a parental provision (U4)."
+    },
+    {
+     "statute": "Rehabilitation Act of 1973 (Sections 503 and 504)",
+     "reason": "Disability nondiscrimination/accommodation statute (U4)."
+    },
+    {
+     "statute": "Americans with Disabilities Act of 1990 and ADA Amendments Act of 2008",
+     "reason": "Disability accommodation statute (U4)."
+    },
+    {
+     "statute": "Executive Order 11246",
+     "reason": "Affirmative action order; unrelated to becoming a parent (U4)."
+    },
+    {
+     "statute": "Uniformed Services Employment and Reemployment Rights Act (USERRA)",
+     "reason": "Military leave (U4)."
+    },
+    {
+     "statute": "Genetic Information Nondiscrimination Act of 2008",
+     "reason": "Nondiscrimination statute (U4)."
+    },
+    {
+     "statute": "Titles VII and VIII of the Public Health Service Act; Equal Pay Act of 1963; Titles VI and VII of the Civil Rights Act of 1964; Age Discrimination in Employment Act of 1967; Vietnam Era Veterans Readjustment Act of 1974; Age Discrimination Act of 1975; Revenue Procedure 75-50; Tennessee Fair Employment Practices Law of 1978; Governor's Code of Fair Practices of 1979",
+     "reason": "Listed as laws imposing nondiscrimination obligations (Part III ch. 2 sec. B); none gives parental leave, pay or protection (U4)."
+    },
+    {
+     "statute": "FMLA military-related provisions (qualifying exigency; 26 weeks of care for a covered service member)",
+     "reason": "Sections of the Act not relied on for a birth or adoption (U4); the Act's birth, adoption, own-health and family-care leave is c4."
+    },
+    {
+     "statute": "Workers' Compensation Act of Tennessee",
+     "reason": "Covers work injuries and occupational disease, not pregnancy or a birth (U4)."
+    },
+    {
+     "statute": "Social Security (federal)",
+     "reason": "Named only for payroll deductions and death, total disability and retirement benefits; no parental provision (U4)."
+    },
+    {
+     "statute": "Family Educational Rights and Privacy Act (Buckley Amendment)",
+     "reason": "Student records statute (U4)."
+    },
+    {
+     "statute": "Internal Revenue Code (incl. sections 132 and 401(a)(17))",
+     "reason": "Tax provisions for tuition benefit and retirement contributions (U4)."
+    },
+    {
+     "statute": "Drug-Free Workplace Act; Drug-Free Schools and Campuses Act",
+     "reason": "Conduct statutes (U4)."
+    },
+    {
+     "statute": "Byrd Amendment (1990 Interior Appropriations Act)",
+     "reason": "Lobbying restriction (U4)."
+    },
+    {
+     "statute": "Federal False Claims Act; Tennessee False Claims Act",
+     "reason": "Compliance statutes (U4)."
+    },
+    {
+     "statute": "PHS conflict-of-interest regulations (42 CFR Part 50, 45 CFR Part 94); FDA conflict-of-interest regulations; National Science Foundation Act of 1950",
+     "reason": "Research regulations (U4)."
+    }
+   ]
+  },
+  "C5": {
+   "components": [
+    "vanderbilt_university_c4"
+   ]
+  },
+  "C6": {
+   "components": [
+    "vanderbilt_university_c9"
+   ]
+  },
+  "C7": {
+   "components": [
+    "vanderbilt_university_c6",
+    "vanderbilt_university_c7",
+    "vanderbilt_university_c8"
+   ]
+  },
+  "C8": {
+   "components": [
+    "vanderbilt_university_c12",
+    "vanderbilt_university_c13"
+   ]
+  },
+  "C9": {
+   "absent": {
+    "documents": [
+     "2018_02_faculty_manual_snapshot_20180329",
+     "2018_01_faculty_manual_vi_ch4_leaves",
+     "2018_00_link"
+    ],
+    "terms": [
+     "accommodation",
+     "pregnancy",
+     "less strenuous",
+     "hazard",
+     "transfer",
+     "equal treatment"
+    ]
+   }
+  },
+  "C10": {
+   "absent": {
+    "documents": [
+     "2018_02_faculty_manual_snapshot_20180329",
+     "2018_01_faculty_manual_vi_ch4_leaves",
+     "2018_00_link"
+    ],
+    "terms": [
+     "first days",
+     "FMLA-qualifying",
+     "with pay",
+     "regular work time",
+     "paid FMLA"
+    ]
+   }
+  }
+ },
+ "passage_dispositions": {
+  "2018_00_link#001": {
+   "used_in": [
+    "vanderbilt_university_c14"
+   ]
+  },
+  "2018_01_faculty_manual_vi_ch4_leaves#001": {
+   "not_relevant": "Site navigation and the start of scholarly (research) leave, which a parent cannot use for a birth."
+  },
+  "2018_01_faculty_manual_vi_ch4_leaves#002": {
+   "not_relevant": "Scholarly leave terms (research purpose)."
+  },
+  "2018_01_faculty_manual_vi_ch4_leaves#003": {
+   "used_in": [
+    "vanderbilt_university_c1",
+    "vanderbilt_university_c4",
+    "vanderbilt_university_c5"
+   ]
+  },
+  "2018_01_faculty_manual_vi_ch4_leaves#004": {
+   "used_in": [
+    "vanderbilt_university_c1",
+    "vanderbilt_university_c2",
+    "vanderbilt_university_c3",
+    "vanderbilt_university_c4",
+    "vanderbilt_university_c5",
+    "vanderbilt_university_c6",
+    "vanderbilt_university_c9",
+    "vanderbilt_university_c10",
+    "vanderbilt_university_c13"
+   ]
+  },
+  "2018_01_faculty_manual_vi_ch4_leaves#005": {
+   "not_relevant": "Archive navigation and site footer."
+  },
+  "2018_02_faculty_manual_snapshot_20180329#001": {
+   "not_relevant": "Academic titles (tenured and non-tenured ranks); no leave provision."
+  },
+  "2018_02_faculty_manual_snapshot_20180329#002": {
+   "not_relevant": "Academic titles (Law School instructors, professors of the practice)."
+  },
+  "2018_02_faculty_manual_snapshot_20180329#003": {
+   "not_relevant": "Clinical fellows and equal-opportunity hiring."
+  },
+  "2018_02_faculty_manual_snapshot_20180329#004": {
+   "not_relevant": "Appointment and renewal procedures."
+  },
+  "2018_02_faculty_manual_snapshot_20180329#005": {
+   "used_in": [
+    "vanderbilt_university_c7",
+    "vanderbilt_university_c8"
+   ]
+  },
+  "2018_02_faculty_manual_snapshot_20180329#006": {
+   "not_relevant": "Blair School tenure procedures and promotion to Professor."
+  },
+  "2018_02_faculty_manual_snapshot_20180329#007": {
+   "not_relevant": "Outside tenure appointments and academic freedom statement."
+  },
+  "2018_02_faculty_manual_snapshot_20180329#008": {
+   "not_relevant": "Conflict-of-interest definitions."
+  },
+  "2018_02_faculty_manual_snapshot_20180329#009": {
+   "not_relevant": "Conflict-of-interest definitions and technology policy."
+  },
+  "2018_02_faculty_manual_snapshot_20180329#010": {
+   "not_relevant": "Disciplinary actions."
+  },
+  "2018_02_faculty_manual_snapshot_20180329#011": {
+   "not_relevant": "Disciplinary and grievance procedures."
+  },
+  "2018_02_faculty_manual_snapshot_20180329#012": {
+   "not_relevant": "Grievance procedures."
+  },
+  "2018_02_faculty_manual_snapshot_20180329#013": {
+   "not_relevant": "Grievance procedures."
+  },
+  "2018_02_faculty_manual_snapshot_20180329#014": {
+   "not_relevant": "Grievance procedures."
+  },
+  "2018_02_faculty_manual_snapshot_20180329#015": {
+   "not_relevant": "Grievance procedures."
+  },
+  "2018_02_faculty_manual_snapshot_20180329#016": {
+   "not_relevant": "Grievance procedures."
+  },
+  "2018_02_faculty_manual_snapshot_20180329#017": {
+   "not_relevant": "Grievance procedures."
+  },
+  "2018_02_faculty_manual_snapshot_20180329#018": {
+   "not_relevant": "Group life insurance (dependent life benefits)."
+  },
+  "2018_02_faculty_manual_snapshot_20180329#019": {
+   "not_relevant": "Tuition benefits for children and spouses."
+  },
+  "2018_02_faculty_manual_snapshot_20180329#020": {
+   "used_in": [
+    "vanderbilt_university_c4",
+    "vanderbilt_university_c5"
+   ]
+  },
+  "2018_02_faculty_manual_snapshot_20180329#021": {
+   "used_in": [
+    "vanderbilt_university_c1",
+    "vanderbilt_university_c4",
+    "vanderbilt_university_c5"
+   ]
+  },
+  "2018_02_faculty_manual_snapshot_20180329#022": {
+   "used_in": [
+    "vanderbilt_university_c1",
+    "vanderbilt_university_c2",
+    "vanderbilt_university_c3",
+    "vanderbilt_university_c4",
+    "vanderbilt_university_c5",
+    "vanderbilt_university_c6",
+    "vanderbilt_university_c9",
+    "vanderbilt_university_c10",
+    "vanderbilt_university_c13"
+   ]
+  }
+ },
+ "mechanism_slots": {
+  "employer_paid_leave": {
+   "components": [
+    "vanderbilt_university_c1",
+    "vanderbilt_university_c10",
+    "vanderbilt_university_c14"
+   ]
+  },
+  "employer_childbirth_benefit": {
+   "components": [
+    "vanderbilt_university_c3"
+   ]
+  },
+  "generic_sick_or_disability_plan": {
+   "components": [
+    "vanderbilt_university_c11"
+   ]
+  },
+  "own_accrual": {
+   "absent": "No faculty sick or vacation balance in the Faculty Manual (searched 'sick', 'vacation', 'accru', 'balance'); the staff HR page mentions only that paid parental leave is 'in addition to their PTO and grandfathered sick time', for staff."
+  },
+  "donated_leave": {
+   "absent": "Searched all three documents for 'donat', 'shared leave', 'bank': none."
+  },
+  "government_benefit": {
+   "absent": "No federal or Tennessee paid benefit for a birth is named (searched 'benefit', 'insurance', 'state'); Social Security is named only for retirement, death and total disability."
+  },
+  "employer_topup": {
+   "absent": "No top-up of a government benefit (searched 'top-up', 'supplement', 'difference'); the 'salary supplement' is a retirement benefit."
+  },
+  "modified_duties": {
+   "absent": "No active-service modified duties or teaching relief outside a leave (searched 'modified', 'relief', 'reduced', 'release')."
+  },
+  "unpaid_leave": {
+   "components": [
+    "vanderbilt_university_c2",
+    "vanderbilt_university_c4",
+    "vanderbilt_university_c5",
+    "vanderbilt_university_c9"
+   ]
+  },
+  "tenure_clock": {
+   "components": [
+    "vanderbilt_university_c6",
+    "vanderbilt_university_c7",
+    "vanderbilt_university_c8"
+   ]
+  },
+  "part_time_option": {
+   "components": [
+    "vanderbilt_university_c12",
+    "vanderbilt_university_c13"
+   ]
+  },
+  "other": {
+   "absent": "No pregnancy accommodation, hazard programme or equal-treatment provision (searched 'accommodation', 'pregnan', 'hazard', 'transfer')."
+  }
+ },
+ "baseline_accounting": {
+  "Family and Medical Leave Act (FMLA)": {
+   "components": [
+    "vanderbilt_university_c4"
+   ]
+  },
+  "Tennessee Maternity Leave Act (TMLA)": {
+   "components": [
+    "vanderbilt_university_c5"
+   ]
+  },
+  "Federal Employee Paid Leave Act (paid parental leave for federal civilian employees)": {
+   "not_applicable": "Covers federal civilian employees only; Vanderbilt is a private university. No saved document mentions it."
+  }
+ },
+ "leave_limits": [],
+ "components": [
+  {
+   "component_id": "vanderbilt_university_c1",
+   "institution_label": "Parental Leave",
+   "description": "One semester of paid parental leave at full pay, relieving teaching, research and service, for a full-time tenured or tenure-track faculty member who becomes a parent (own or spouse's childbirth, or adoption of a pre-school-aged child) and will serve as the child's primary caregiver.",
+   "mechanism": "employer_paid_leave",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "\"a full-time faculty member who is tenured or tenure-track\" (Faculty Manual Part VI ch. 4 sec. B)",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "\"a full-time faculty member ... or that faculty member's spouse becomes the parent of a child, either by childbirth or by adoption of a pre- school-aged child\"",
+   "caregiver_condition": "primary",
+   "caregiver_condition_wording": "\"for purposes of serving as the child's primary caregiver\"; the written agreement includes \"certification by the faculty member that the purpose of the leave will be to serve as the primary caregiver for that child during the period of leave\"",
+   "service_requirement": "none stated",
+   "dual_employee_rule": "either one, but not both, may take this parental leave",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "\"shall, upon written request ... be entitled\": the faculty member is entitled once the request is made; the written agreement records the arrangements (V2; schema 2c, a benefit the institution must grant once requested).",
+   "duration": {
+    "value": 1,
+    "units": "semester",
+    "qualifier": "exact"
+   },
+   "duration_note": "One semester; a semester runs \"from the first day of classes to the last day of examinations\". Multiple births or simultaneous adoptions count as one leave event.",
+   "pay_fraction": "full pay",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_note": "Teaching, research and scholarship, and service (\"including committee work and student advising\") are each relieved for the semester. Where the leave semester would have carried more than half of the annual teaching load, the member \"may be required to teach one additional course in another semester\". Clinical duties are not named separately; the member \"shall be relieved of his or her normal duties and responsibilities during the period of leave\", so every duty is coded relieved.",
+   "use_limit": [
+    {
+     "times": 3,
+     "per": "career",
+     "counts": "uses"
+    }
+   ],
+   "use_limit_note": "\"may be used once per child and no more than three times during a faculty member's employment at Vanderbilt\"; 'once per child' is a renewal with each birth, not a limit (U9). After three uses the member is entitled to FMLA or TMLA leave (unpaid) and, for short-term illness, paid medical leave (\"Benefit Beyond Three Children\").",
+   "time_window": "during the semester in which the child is born or placed for adoption, or during any subsequent semester that begins no later than six months after the birth or adoption placement",
+   "notice": "at least three (3) months' written notice (medical emergencies or adoption uncertainties excepted)",
+   "return_obligation": "return to active status for at least an equivalent period immediately following the leave, to retain the benefits of the leave including salary paid, unless waived in writing by the provost",
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "vanderbilt_university_c2",
+     "note": "\"Any parental leave taken under this policy shall be in addition to any leave granted because of medical incapacitation\": for the birth parent the parental semester follows the medical leave for childbirth (it may also be taken in a later semester starting within six months of the birth; consecutive_after records the earliest placement the text allows). The link is ignored for the non-birth parent, for whom c2 does not count."
+    }
+   ],
+   "runs_concurrently_with": [
+    "FMLA",
+    "TMLA"
+   ],
+   "rule_applied": [
+    "V2",
+    "R9",
+    "R4",
+    "U9",
+    "R15",
+    "S1",
+    "R5",
+    "R6",
+    "R8"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "When a full-time faculty member who is tenured or tenure-track, or that faculty member's spouse becomes the parent of a child, either by childbirth or by adoption of a pre- school-aged child, the faculty member shall, upon written request to his or her department chair or"
+    ],
+    "eligible_parent": [
+     "When a full-time faculty member who is tenured or tenure-track, or that faculty member's spouse becomes the parent of a child, either by childbirth or by adoption of a pre- school-aged child, the faculty member shall, upon written request to his or her department chair or"
+    ],
+    "entitlement": [
+     "When a full-time faculty member who is tenured or tenure-track, or that faculty member's spouse becomes the parent of a child, either by childbirth or by adoption of a pre- school-aged child, the faculty member shall, upon written request to his or her department chair or",
+     "be entitled to a parental leave of one semester at full pay for purposes of serving as the child's primary caregiver"
+    ],
+    "duration": [
+     "be entitled to a parental leave of one semester at full pay for purposes of serving as the child's primary caregiver",
+     "each semester shall run from the first day of classes to the last day of examinations"
+    ],
+    "pay_fraction": [
+     "be entitled to a parental leave of one semester at full pay for purposes of serving as the child's primary caregiver",
+     "A faculty member who takes parental leave under this policy shall receive the same salary and benefits that he or she would have received that semester if not on leave"
+    ],
+    "relief": [
+     "shall be relieved of his or her normal duties and responsibilities during the period of leave as follows",
+     "The faculty member shall be relieved of the obligation to teach during the semester in which the leave is taken.",
+     "The faculty member shall be relieved of research and scholarship expectations for one semester.",
+     "The faculty member shall be relieved of all faculty service responsibilities, including committee work and student advising, for one semester.",
+     "If the semester during which leave is taken is one in which the faculty member would otherwise have taught more than half of his or her normal annual teaching load, the faculty member may be required to teach one additional course in another semester"
+    ],
+    "caregiver_condition": [
+     "be entitled to a parental leave of one semester at full pay for purposes of serving as the child's primary caregiver",
+     "certification by the faculty member that the purpose of the leave will be to serve as the primary caregiver for that child during the period of leave"
+    ],
+    "service_requirement": [
+     "When a full-time faculty member who is tenured or tenure-track, or that faculty member's spouse becomes the parent of a child, either by childbirth or by adoption of a pre- school-aged child, the faculty member shall, upon written request to his or her department chair or"
+    ],
+    "use_limit": [
+     "The parental leave benefit may be used once per child and no more than three times during a faculty member's employment at Vanderbilt."
+    ],
+    "sequence": [
+     "Any parental leave taken under this policy shall be in addition to any leave granted because of medical incapacitation",
+     "Any leave taken under this policy, to the extent that it also qualifies for FMLA or TMLA leave, will count as FMLA or TMLA leave"
+    ],
+    "dual_employee_rule": [
+     "If a faculty member and his or her spouse would otherwise both be eligible for parental leave under this policy, either one, but not both, may take this parental leave."
+    ],
+    "time_window": [
+     "may be taken during the semester in which the child is born or placed for adoption, or during any subsequent semester that begins no later than six months after the birth or adoption placement."
+    ],
+    "return_obligation": [
+     "a faculty member who takes a parental leave is obligated to return to active status for at least an equivalent period immediately following such leave in order to retain the benefits of the leave including salary paid"
+    ],
+    "notice": [
+     "an eligible faculty member must give her or his department chair or dean at least three (3) months' written notice of her or his intention to take parental leave"
+    ]
+   },
+   "doc_ids": [
+    "2018_02_faculty_manual_snapshot_20180329",
+    "2018_01_faculty_manual_vi_ch4_leaves"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "employer_paid_leave",
+     "quote": "be entitled to a parental leave of one semester at full pay for purposes of serving as the child's primary caregiver"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "A faculty member who takes parental leave under this policy shall receive the same salary and benefits that he or she would have received that semester if not on leave"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "be entitled to a parental leave of one semester at full pay for purposes of serving as the child's primary caregiver"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "When a full-time faculty member who is tenured or tenure-track, or that faculty member's spouse becomes the parent of a child, either by childbirth or by adoption of a pre- school-aged child, the faculty member shall, upon written request to his or her department chair or"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "birth_parent, non_birth_parent (spouse gives birth), adoptive",
+     "quote": "When a full-time faculty member who is tenured or tenure-track, or that faculty member's spouse becomes the parent of a child, either by childbirth or by adoption of a pre- school-aged child, the faculty member shall, upon written request to his or her department chair or"
+    },
+    {
+     "field": "caregiver_condition",
+     "rule": "R6",
+     "answer": "primary",
+     "quote": "be entitled to a parental leave of one semester at full pay for purposes of serving as the child's primary caregiver"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "be entitled to a parental leave of one semester at full pay for purposes of serving as the child's primary caregiver"
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 semester exact",
+     "quote": "be entitled to a parental leave of one semester at full pay for purposes of serving as the child's primary caregiver"
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "full pay",
+     "quote": "be entitled to a parental leave of one semester at full pay for purposes of serving as the child's primary caregiver"
+    },
+    {
+     "field": "relief",
+     "rule": "R4",
+     "answer": "all relieved: teaching, research, service (with advising) named; normal duties and responsibilities relieved",
+     "quote": "shall be relieved of his or her normal duties and responsibilities during the period of leave as follows"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "none stated",
+     "quote": "When a full-time faculty member who is tenured or tenure-track, or that faculty member's spouse becomes the parent of a child, either by childbirth or by adoption of a pre- school-aged child, the faculty member shall, upon written request to his or her department chair or"
+    },
+    {
+     "field": "use_limit",
+     "rule": "U9",
+     "answer": "3 uses per career",
+     "quote": "The parental leave benefit may be used once per child and no more than three times during a faculty member's employment at Vanderbilt."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "consecutive_after c2 (medical leave for childbirth), birth parent",
+     "quote": "Any parental leave taken under this policy shall be in addition to any leave granted because of medical incapacitation"
+    }
+   ]
+  },
+  {
+   "component_id": "vanderbilt_university_c2",
+   "institution_label": "Illness or Other Incapacities of Short Duration (Medical Leave)",
+   "description": "Paid medical leave for a faculty member's own illness or incapacity of short duration (six months or less); for pregnancy and childbirth the length is set by the certified medical condition, normally not more than six weeks. Coded here as the leave (U6); its pay is c3.",
+   "mechanism": "unpaid_leave",
+   "mechanism_note": "U6: a paid leave of absence for the birth parent's own disability that the text grants (\"must be absent from his or her duties ... (Medical Leave)\", under \"Other Nonacademic Leave with Pay\") is coded as the leave (unpaid_leave, here) and its pay (c3, within it). 'unpaid_leave' names the leave itself, not a claim that it is unpaid.",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "\"a faculty member\" (Faculty Manual Part VI ch. 4 sec. D)",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "\"his or her own illness or incapacity\"; \"In the case of pregnancy and childbirth, the medical condition of the faculty member\"",
+   "caregiver_condition": "none",
+   "service_requirement": "none stated",
+   "entitlement": "guaranteed",
+   "entitlement_note": "No approval of the absence is stated: the certified medical condition \"will establish the length of leave\", colleagues \"customarily assume\" the duties, and the Manual elsewhere says a faculty member \"is entitled to pay ... under the short-term medical leave policy\".",
+   "duration": {
+    "value": 6,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "duration_max": {
+    "value": 6,
+    "units": "month"
+   },
+   "duration_variants": {
+    "childbirth, normally (no unusual medical complications)": "does not exceed six weeks",
+    "unusual medical complications": "up to the short-duration limit, six months or less"
+   },
+   "duration_note": "\"Normally, unless unusual medical complications exist, the leave for short-term illness does not exceed six weeks\" (Q1: 'normally ... does not exceed' -> up_to). Illness or incapacity \"of short duration\" is \"six months or less\" (duration_max, R13b: a length that depends on a stated condition). Long-term disability benefits begin after six months of continuous total disability, and University compensation does not continue beyond that time (c11).",
+   "medical_certification": true,
+   "medical_certification_note": "Certification of Health Care Provider form submitted to Occupational Health (childbirth: the medical condition so evidenced establishes the length)",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "relief_note": "The faculty member is absent from his or her duties; other members of the faculty \"customarily assume his or her duties on a temporary basis\". No duty is stated to continue (R9).",
+   "runs_concurrently_with": [
+    "FMLA",
+    "TMLA"
+   ],
+   "rule_applied": [
+    "U6",
+    "U5",
+    "Q1",
+    "R13b",
+    "R9",
+    "V6",
+    "S1"
+   ],
+   "evidence": {
+    "mechanism": [
+     "Illness or Other Incapacities of Short Duration (Medical Leave)",
+     "When a faculty member must be absent from his or her duties because of his or her own illness or incapacity of short duration (six months or less), other members of the faculty, with knowledge of the department chair or division director and the dean, customarily assume his or her duties on a temporary basis."
+    ],
+    "faculty_group": [
+     "When a faculty member must be absent from his or her duties because of his or her own illness or incapacity of short duration (six months or less), other members of the faculty, with knowledge of the department chair or division director and the dean, customarily assume his or her duties on a temporary basis."
+    ],
+    "eligible_parent": [
+     "When a faculty member must be absent from his or her duties because of his or her own illness or incapacity of short duration (six months or less), other members of the faculty, with knowledge of the department chair or division director and the dean, customarily assume his or her duties on a temporary basis.",
+     "In the case of pregnancy and childbirth, the medical condition of the faculty member, as evidenced by a completed Certification of Health Care Provider form submitted to Occupational Health, will establish the length of leave for short-term illness. Normally, unless unusual medical complications exist, the leave for short-term illness does not exceed six weeks."
+    ],
+    "entitlement": [
+     "In the case of pregnancy and childbirth, the medical condition of the faculty member, as evidenced by a completed Certification of Health Care Provider form submitted to Occupational Health, will establish the length of leave for short-term illness. Normally, unless unusual medical complications exist, the leave for short-term illness does not exceed six weeks.",
+     "Except to the extent that a faculty member is entitled to pay on account of the University's parental leave policy or under the short-term medical leave policy, FMLA leave is unpaid."
+    ],
+    "duration": [
+     "Normally, unless unusual medical complications exist, the leave for short-term illness does not exceed six weeks.",
+     "When a faculty member must be absent from his or her duties because of his or her own illness or incapacity of short duration (six months or less), other members of the faculty, with knowledge of the department chair or division director and the dean, customarily assume his or her duties on a temporary basis."
+    ],
+    "relief": [
+     "When a faculty member must be absent from his or her duties because of his or her own illness or incapacity of short duration (six months or less), other members of the faculty, with knowledge of the department chair or division director and the dean, customarily assume his or her duties on a temporary basis."
+    ],
+    "medical_certification": [
+     "Like family leave, the period of illness or incapacity runs concurrently with leave under FMLA and Occupational Health must receive a Certification of Health Care Provider form."
+    ],
+    "service_requirement": [
+     "When a faculty member must be absent from his or her duties because of his or her own illness or incapacity of short duration (six months or less), other members of the faculty, with knowledge of the department chair or division director and the dean, customarily assume his or her duties on a temporary basis."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_faculty_manual_snapshot_20180329",
+    "2018_01_faculty_manual_vi_ch4_leaves"
+   ],
+   "flags": [
+    "own_illness_leave"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "U6",
+     "answer": "unpaid_leave",
+     "quote": "When a faculty member must be absent from his or her duties because of his or her own illness or incapacity of short duration (six months or less), other members of the faculty, with knowledge of the department chair or division director and the dean, customarily assume his or her duties on a temporary basis."
+    },
+    {
+     "field": "payer",
+     "rule": "U6",
+     "answer": "none",
+     "quote": "When a faculty member must be absent from his or her duties because of his or her own illness or incapacity of short duration (six months or less), other members of the faculty, with knowledge of the department chair or division director and the dean, customarily assume his or her duties on a temporary basis."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "When a faculty member must be absent from his or her duties because of his or her own illness or incapacity of short duration (six months or less), other members of the faculty, with knowledge of the department chair or division director and the dean, customarily assume his or her duties on a temporary basis."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "When a faculty member must be absent from his or her duties because of his or her own illness or incapacity of short duration (six months or less), other members of the faculty, with knowledge of the department chair or division director and the dean, customarily assume his or her duties on a temporary basis."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own illness or incapacity)",
+     "quote": "When a faculty member must be absent from his or her duties because of his or her own illness or incapacity of short duration (six months or less), other members of the faculty, with knowledge of the department chair or division director and the dean, customarily assume his or her duties on a temporary basis."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "Except to the extent that a faculty member is entitled to pay on account of the University's parental leave policy or under the short-term medical leave policy, FMLA leave is unpaid."
+    },
+    {
+     "field": "duration",
+     "rule": "Q1",
+     "answer": "6 weeks up_to (normally does not exceed six weeks)",
+     "quote": "Normally, unless unusual medical complications exist, the leave for short-term illness does not exceed six weeks."
+    },
+    {
+     "field": "duration",
+     "rule": "R13b",
+     "answer": "duration_max 6 months: unusual medical complications, up to the short-duration limit",
+     "quote": "When a faculty member must be absent from his or her duties because of his or her own illness or incapacity of short duration (six months or less), other members of the faculty, with knowledge of the department chair or division director and the dean, customarily assume his or her duties on a temporary basis."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all relieved (formal leave; colleagues assume duties)",
+     "quote": "When a faculty member must be absent from his or her duties because of his or her own illness or incapacity of short duration (six months or less), other members of the faculty, with knowledge of the department chair or division director and the dean, customarily assume his or her duties on a temporary basis."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "none stated",
+     "quote": "When a faculty member must be absent from his or her duties because of his or her own illness or incapacity of short duration (six months or less), other members of the faculty, with knowledge of the department chair or division director and the dean, customarily assume his or her duties on a temporary basis."
+    }
+   ]
+  },
+  {
+   "component_id": "vanderbilt_university_c3",
+   "institution_label": "leave for short-term illness (paid)",
+   "description": "Pay during the medical leave for childbirth (c2): the short-term illness leave is paid, and for pregnancy and childbirth its length is normally not more than six weeks.",
+   "mechanism": "employer_childbirth_benefit",
+   "mechanism_note": "V1: (i) a childbirth-specific period (\"In the case of pregnancy and childbirth ...\"; \"leave for short-term illness related to child birth\"), (ii) a default length (normally not more than six weeks), (iii) a pay level (\"leave for short-term illness (paid)\", under \"Other Nonacademic Leave with Pay\"). Rules V1 and V6 cite this provision: childbirth benefit, 6 weeks (not 6 months).",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "\"a faculty member\"; \"The period of TMLA leave for faculty members\" (Faculty Manual Part VI ch. 4 secs. C-D)",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "\"In the case of pregnancy and childbirth, the medical condition of the faculty member\"",
+   "caregiver_condition": "none",
+   "service_requirement": "none stated",
+   "entitlement": "guaranteed",
+   "entitlement_note": "\"a faculty member is entitled to pay ... under the short-term medical leave policy\"; the length is set by the medical certification, not by approval.",
+   "duration": {
+    "value": 6,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "duration_note": "\"Normally, unless unusual medical complications exist, the leave for short-term illness does not exceed six weeks\" (Q1). The general medical leave covers illness of short duration, six months or less, and pay may continue through such a longer leave (University compensation stops when long-term disability begins, after six months); per V6 the childbirth period, not the six months, is coded.",
+   "pay_fraction": "with pay",
+   "medical_certification": true,
+   "medical_certification_note": "Certification of Health Care Provider form submitted to Occupational Health",
+   "sequence": [
+    {
+     "relation": "within",
+     "component_id": "vanderbilt_university_c2",
+     "note": "Pay for the medical leave of absence (U6)."
+    }
+   ],
+   "rule_applied": [
+    "V1",
+    "V6",
+    "Q1",
+    "U6",
+    "U5"
+   ],
+   "evidence": {
+    "mechanism": [
+     "In the case of pregnancy and childbirth, the medical condition of the faculty member, as evidenced by a completed Certification of Health Care Provider form submitted to Occupational Health, will establish the length of leave for short-term illness. Normally, unless unusual medical complications exist, the leave for short-term illness does not exceed six weeks.",
+     "The period of TMLA leave for faculty members will generally be composed of leave for short-term illness (paid) and personal leave (unpaid)",
+     "Other Nonacademic Leave with Pay"
+    ],
+    "faculty_group": [
+     "The period of TMLA leave for faculty members will generally be composed of leave for short-term illness (paid) and personal leave (unpaid)"
+    ],
+    "eligible_parent": [
+     "In the case of pregnancy and childbirth, the medical condition of the faculty member, as evidenced by a completed Certification of Health Care Provider form submitted to Occupational Health, will establish the length of leave for short-term illness. Normally, unless unusual medical complications exist, the leave for short-term illness does not exceed six weeks."
+    ],
+    "entitlement": [
+     "Except to the extent that a faculty member is entitled to pay on account of the University's parental leave policy or under the short-term medical leave policy, FMLA leave is unpaid.",
+     "In the case of pregnancy and childbirth, the medical condition of the faculty member, as evidenced by a completed Certification of Health Care Provider form submitted to Occupational Health, will establish the length of leave for short-term illness. Normally, unless unusual medical complications exist, the leave for short-term illness does not exceed six weeks."
+    ],
+    "duration": [
+     "Normally, unless unusual medical complications exist, the leave for short-term illness does not exceed six weeks.",
+     "The medical condition of the faculty member, as evidenced by the written statement of her physician, will establish the length of leave for short-term illness. Normally, unless unusual medical complications exist, the leave for short-term illness related to child birth does not exceed six weeks."
+    ],
+    "pay_fraction": [
+     "Other Nonacademic Leave with Pay",
+     "The period of TMLA leave for faculty members will generally be composed of leave for short-term illness (paid) and personal leave (unpaid)"
+    ],
+    "sequence": [
+     "The period of TMLA leave for faculty members will generally be composed of leave for short-term illness (paid) and personal leave (unpaid)",
+     "Illness or Other Incapacities of Short Duration (Medical Leave)"
+    ],
+    "service_requirement": [
+     "When a faculty member must be absent from his or her duties because of his or her own illness or incapacity of short duration (six months or less), other members of the faculty, with knowledge of the department chair or division director and the dean, customarily assume his or her duties on a temporary basis."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_faculty_manual_snapshot_20180329",
+    "2018_01_faculty_manual_vi_ch4_leaves"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "V1",
+     "answer": "employer_childbirth_benefit",
+     "quote": "In the case of pregnancy and childbirth, the medical condition of the faculty member, as evidenced by a completed Certification of Health Care Provider form submitted to Occupational Health, will establish the length of leave for short-term illness. Normally, unless unusual medical complications exist, the leave for short-term illness does not exceed six weeks."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "Other Nonacademic Leave with Pay"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "When a faculty member must be absent from his or her duties because of his or her own illness or incapacity of short duration (six months or less), other members of the faculty, with knowledge of the department chair or division director and the dean, customarily assume his or her duties on a temporary basis."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "The period of TMLA leave for faculty members will generally be composed of leave for short-term illness (paid) and personal leave (unpaid)"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent",
+     "quote": "In the case of pregnancy and childbirth, the medical condition of the faculty member, as evidenced by a completed Certification of Health Care Provider form submitted to Occupational Health, will establish the length of leave for short-term illness. Normally, unless unusual medical complications exist, the leave for short-term illness does not exceed six weeks."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "Except to the extent that a faculty member is entitled to pay on account of the University's parental leave policy or under the short-term medical leave policy, FMLA leave is unpaid."
+    },
+    {
+     "field": "duration",
+     "rule": "Q1",
+     "answer": "6 weeks up_to",
+     "quote": "Normally, unless unusual medical complications exist, the leave for short-term illness does not exceed six weeks."
+    },
+    {
+     "field": "duration",
+     "rule": "V6",
+     "answer": "the childbirth period (6 weeks), not the six-month short-duration limit",
+     "quote": "The medical condition of the faculty member, as evidenced by the written statement of her physician, will establish the length of leave for short-term illness. Normally, unless unusual medical complications exist, the leave for short-term illness related to child birth does not exceed six weeks."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "V1",
+     "answer": "with pay (leave for short-term illness is paid)",
+     "quote": "The period of TMLA leave for faculty members will generally be composed of leave for short-term illness (paid) and personal leave (unpaid)"
+    },
+    {
+     "field": "sequence",
+     "rule": "U6",
+     "answer": "within c2 (the medical leave it pays)",
+     "quote": "The period of TMLA leave for faculty members will generally be composed of leave for short-term illness (paid) and personal leave (unpaid)"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "none stated",
+     "quote": "When a faculty member must be absent from his or her duties because of his or her own illness or incapacity of short duration (six months or less), other members of the faculty, with knowledge of the department chair or division director and the dean, customarily assume his or her duties on a temporary basis."
+    }
+   ]
+  },
+  {
+   "component_id": "vanderbilt_university_c4",
+   "institution_label": "Family and Medical Leave Act (FMLA)",
+   "description": "Federal FMLA: up to 12 weeks of unpaid, job-protected leave in a 12-month period for the birth, adoption or foster placement of a child (within 12 months of it), the employee's own serious health condition, or care of a seriously ill spouse; all FMLA purposes share the same 12 weeks.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "\"qualified employees, including faculty\"; \"a faculty member who has been employed at Vanderbilt for at least twelve (12) months\"",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "\"adoption, pregnancy, childbirth, or nursing an infant\"; \"to care for the faculty member's newborn child after birth or placement for adoption or foster care\"; \"Neither FMLA nor TMLA requires that the person taking leave for infant care be the primary caregiver.\"",
+   "caregiver_condition": "none",
+   "service_requirement": "12 months and 1,250 hours in the preceding 12 months",
+   "dual_employee_rule": "spouses both eligible: combined period of parental leave may not exceed twelve (12) weeks",
+   "entitlement": "guaranteed",
+   "entitlement_note": "Statutory entitlement (29 U.S.C. 2612(a)(1): \"shall be entitled\"); the Manual's \"may be entitled\" refers to eligibility.",
+   "duration": {
+    "value": 12,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "duration_note": "The Manual states \"up to 12 weeks in a 12-month period\" and, in sec. C, \"a period of up to three (3) months\"; the statute: \"a total of 12 workweeks of leave during any 12-month period\". Leave for own serious health condition and for care of a seriously ill spouse runs within the same 12 weeks (\"run concurrently with, and are not in addition to\"). Pay comes from the University's parental leave or short-term medical leave where they apply (c1, c3).",
+   "time_window": "at any time during the first twelve (12) months following the date of birth or, in the case of adoption, custody of the child",
+   "medical_certification": false,
+   "medical_certification_note": "Not required for leave for birth or placement; required for own serious health condition or care of an ill family member (Certification of Health Care Provider form)",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "statute_source": "29 U.S.C. 2612(a)(1); eligibility 29 U.S.C. 2611(2)",
+   "statute_verified": true,
+   "sequence": [
+    {
+     "relation": "concurrent_with",
+     "component_id": "vanderbilt_university_c2",
+     "note": "\"Any medical leave (under Section D below) ... will automatically count as part of the twelve (12) weeks of leave allowed under the FMLA\" (S1). For the birth parent FMLA starts with the medical leave for childbirth."
+    },
+    {
+     "relation": "concurrent_with",
+     "component_id": "vanderbilt_university_c1",
+     "note": "Parental leave \"will count as FMLA or TMLA leave\" (S1). For the non-birth parent FMLA starts with the parental leave; unpaid remainder none (the semester is longer than 12 weeks)."
+    }
+   ],
+   "rule_applied": [
+    "U2",
+    "U4",
+    "S1",
+    "U5",
+    "R9",
+    "U8"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "It provides for job protected, unpaid leave for qualified employees, including faculty, for up to 12 weeks in a 12-month period, for the following reasons: (1) the employee has a serious health condition; (2) to care for a spouse, dependent child, or parent with a serious health care condition; (3) in the case of adoption, pregnancy, childbirth, or nursing an infant;"
+    ],
+    "eligible_parent": [
+     "It provides for job protected, unpaid leave for qualified employees, including faculty, for up to 12 weeks in a 12-month period, for the following reasons: (1) the employee has a serious health condition; (2) to care for a spouse, dependent child, or parent with a serious health care condition; (3) in the case of adoption, pregnancy, childbirth, or nursing an infant;",
+     "to care for the faculty member's newborn child after birth or placement for adoption or foster care"
+    ],
+    "entitlement": [
+     "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period"
+    ],
+    "duration": [
+     "for up to 12 weeks in a 12-month period",
+     "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period"
+    ],
+    "service_requirement": [
+     "a faculty member who has been employed at Vanderbilt for at least twelve (12) months and who has worked at least 1,250 hours within the immediately preceding twelve (12) month period"
+    ],
+    "dual_employee_rule": [
+     "Unlike the TMLA, if a faculty member and his or her spouse would otherwise both be eligible for parental leave under this policy, the combined period of parental leave may not exceed twelve (12) weeks."
+    ],
+    "time_window": [
+     "This three (3)-month period of leave may be taken at any time during the first twelve (12) months following the date of birth or, in the case of adoption, custody of the child."
+    ],
+    "relief": [
+     "It provides for job protected, unpaid leave for qualified employees, including faculty, for up to 12 weeks in a 12-month period, for the following reasons: (1) the employee has a serious health condition; (2) to care for a spouse, dependent child, or parent with a serious health care condition; (3) in the case of adoption, pregnancy, childbirth, or nursing an infant;"
+    ],
+    "sequence": [
+     "Any medical leave (under Section D below) that a faculty member takes that would qualify as permissible leave under the FMLA will automatically count as part of the twelve (12) weeks of leave allowed under the FMLA.",
+     "Any leave taken under this policy, to the extent that it also qualifies for FMLA or TMLA leave, will count as FMLA or TMLA leave"
+    ],
+    "statute_source": [
+     "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period"
+    ]
+   },
+   "doc_ids": [
+    "2018_02_faculty_manual_snapshot_20180329",
+    "2018_01_faculty_manual_vi_ch4_leaves",
+    "2026_00_us_fmla_29usc2612"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "U4",
+     "answer": "unpaid_leave",
+     "quote": "It provides for job protected, unpaid leave for qualified employees, including faculty, for up to 12 weeks in a 12-month period, for the following reasons: (1) the employee has a serious health condition; (2) to care for a spouse, dependent child, or parent with a serious health care condition; (3) in the case of adoption, pregnancy, childbirth, or nursing an infant;"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "It provides for job protected, unpaid leave for qualified employees, including faculty, for up to 12 weeks in a 12-month period, for the following reasons: (1) the employee has a serious health condition; (2) to care for a spouse, dependent child, or parent with a serious health care condition; (3) in the case of adoption, pregnancy, childbirth, or nursing an infant;"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "It provides for job protected, unpaid leave for qualified employees, including faculty, for up to 12 weeks in a 12-month period, for the following reasons: (1) the employee has a serious health condition; (2) to care for a spouse, dependent child, or parent with a serious health care condition; (3) in the case of adoption, pregnancy, childbirth, or nursing an infant;"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "It provides for job protected, unpaid leave for qualified employees, including faculty, for up to 12 weeks in a 12-month period, for the following reasons: (1) the employee has a serious health condition; (2) to care for a spouse, dependent child, or parent with a serious health care condition; (3) in the case of adoption, pregnancy, childbirth, or nursing an infant;"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U2",
+     "answer": "birth_parent, non_birth_parent, adoptive, foster",
+     "quote": "to care for the faculty member's newborn child after birth or placement for adoption or foster care"
+    },
+    {
+     "field": "entitlement",
+     "rule": "U2",
+     "answer": "guaranteed",
+     "quote": "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period"
+    },
+    {
+     "field": "duration",
+     "rule": "U2",
+     "answer": "12 weeks up_to (Manual 'up to 12 weeks'; statute 12 workweeks)",
+     "quote": "for up to 12 weeks in a 12-month period"
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all relieved (formal leave of absence)",
+     "quote": "It provides for job protected, unpaid leave for qualified employees, including faculty, for up to 12 weeks in a 12-month period, for the following reasons: (1) the employee has a serious health condition; (2) to care for a spouse, dependent child, or parent with a serious health care condition; (3) in the case of adoption, pregnancy, childbirth, or nursing an infant;"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U2",
+     "answer": "12 months and 1,250 hours",
+     "quote": "a faculty member who has been employed at Vanderbilt for at least twelve (12) months and who has worked at least 1,250 hours within the immediately preceding twelve (12) month period"
+    },
+    {
+     "field": "sequence",
+     "rule": "S1",
+     "answer": "concurrent_with c2 and c1",
+     "quote": "Any leave taken under this policy, to the extent that it also qualifies for FMLA or TMLA leave, will count as FMLA or TMLA leave"
+    }
+   ]
+  },
+  {
+   "component_id": "vanderbilt_university_c5",
+   "institution_label": "Tennessee Maternity Leave Act, as amended (TMLA)",
+   "description": "Tennessee Maternity Leave Act: up to four months of leave for adoption, pregnancy, childbirth and nursing an infant for full-time faculty with 12 months of continuous employment; unpaid except for paid short-term illness or the University's parental leave; gives 30 days beyond FMLA's 12 weeks.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "\"full- time faculty members with at least twelve (12) months of continuous employment at Vanderbilt\"",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "\"parental leave related to adoption, pregnancy, childbirth, and nursing an infant\"; \"if a faculty member and his or her spouse would otherwise both be eligible ... they may both take this parental leave\"",
+   "caregiver_condition": "none",
+   "service_requirement": "12 months of continuous full-time employment",
+   "dual_employee_rule": "both spouses may take TMLA leave; the University's parental leave benefits go to only one",
+   "entitlement": "guaranteed",
+   "entitlement_note": "Statutory leave (T.C.A. 4-21-408(a)); the Manual's \"may be entitled\" refers to eligibility. The employer need not reinstate where the position is unique and cannot be filled temporarily (flagged).",
+   "duration": {
+    "value": 4,
+    "units": "month",
+    "qualifier": "up_to"
+   },
+   "duration_note": "\"for a period of up to four months\" (statute: \"not to exceed four (4) months\"); in adoption it begins at custody. The Manual describes it as \"an additional thirty (30) days leave over and above the twelve (12) weeks of leave under the FMLA\". Generally composed of paid short-term illness and unpaid personal leave, the division set by the dean. For academic-year faculty whose TMLA leave ends between spring and fall semesters, return is not required until the fall semester starts. Vanderbilt normally does not continue health-insurance contributions for the 30 days beyond FMLA.",
+   "notice": "at least three (3) months' written notice (medical emergency excepted)",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "statute_source": "Tenn. Code Ann. 4-21-408(a)",
+   "statute_verified": true,
+   "sequence": [
+    {
+     "relation": "concurrent_with",
+     "component_id": "vanderbilt_university_c2",
+     "note": "TMLA leave is \"generally ... composed of leave for short-term illness (paid) and personal leave (unpaid)\" and parental leave \"will count as FMLA or TMLA leave\" (S1); TMLA runs from the start of the earliest institutional leave."
+    },
+    {
+     "relation": "concurrent_with",
+     "component_id": "vanderbilt_university_c1",
+     "note": "S1; for the non-birth parent TMLA starts with the parental leave."
+    }
+   ],
+   "rule_applied": [
+    "U2",
+    "U4",
+    "S1",
+    "R9",
+    "R11"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "full- time faculty members with at least twelve (12) months of continuous employment at Vanderbilt may be entitled to obtain parental leave related to adoption, pregnancy, childbirth, and nursing an infant for a period of up to four months."
+    ],
+    "eligible_parent": [
+     "full- time faculty members with at least twelve (12) months of continuous employment at Vanderbilt may be entitled to obtain parental leave related to adoption, pregnancy, childbirth, and nursing an infant for a period of up to four months.",
+     "they may both take this parental leave but the benefits of the University's parental leave policy (e.g., compensation and extension of the tenure clock) are available to only one of the faculty members."
+    ],
+    "entitlement": [
+     "may be absent from such employment for a period not to exceed four (4) months for adoption, pregnancy, childbirth, and nursing an infant"
+    ],
+    "duration": [
+     "full- time faculty members with at least twelve (12) months of continuous employment at Vanderbilt may be entitled to obtain parental leave related to adoption, pregnancy, childbirth, and nursing an infant for a period of up to four months.",
+     "may be absent from such employment for a period not to exceed four (4) months for adoption, pregnancy, childbirth, and nursing an infant",
+     "This will allow the faculty member an additional thirty (30) days leave over and above the twelve (12) weeks of leave under the FMLA."
+    ],
+    "service_requirement": [
+     "full- time faculty members with at least twelve (12) months of continuous employment at Vanderbilt may be entitled to obtain parental leave related to adoption, pregnancy, childbirth, and nursing an infant for a period of up to four months.",
+     "Employees who have been employed by the same employer for at least twelve (12) consecutive months as full-time employees"
+    ],
+    "dual_employee_rule": [
+     "they may both take this parental leave but the benefits of the University's parental leave policy (e.g., compensation and extension of the tenure clock) are available to only one of the faculty members."
+    ],
+    "notice": [
+     "at least three (3) months' written notice of his or her intention to take TMLA leave"
+    ],
+    "relief": [
+     "full- time faculty members with at least twelve (12) months of continuous employment at Vanderbilt may be entitled to obtain parental leave related to adoption, pregnancy, childbirth, and nursing an infant for a period of up to four months."
+    ],
+    "sequence": [
+     "The period of TMLA leave for faculty members will generally be composed of leave for short-term illness (paid) and personal leave (unpaid)",
+     "Any leave taken under this policy, to the extent that it also qualifies for FMLA or TMLA leave, will count as FMLA or TMLA leave"
+    ],
+    "statute_source": [
+     "may be absent from such employment for a period not to exceed four (4) months for adoption, pregnancy, childbirth, and nursing an infant"
+    ]
+   },
+   "doc_ids": [
+    "2018_02_faculty_manual_snapshot_20180329",
+    "2018_01_faculty_manual_vi_ch4_leaves",
+    "2026_04_tn_tmla_4-21-408"
+   ],
+   "flags": [
+    "ambiguous: restriction: TMLA leave may be limited to less than four months where the position is determined to be unique and no temporary replacement can be found (Manual sec. C; T.C.A. 4-21-408(c)(2) relieves the employer of reinstatement)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "U4",
+     "answer": "unpaid_leave",
+     "quote": "full- time faculty members with at least twelve (12) months of continuous employment at Vanderbilt may be entitled to obtain parental leave related to adoption, pregnancy, childbirth, and nursing an infant for a period of up to four months."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "full- time faculty members with at least twelve (12) months of continuous employment at Vanderbilt may be entitled to obtain parental leave related to adoption, pregnancy, childbirth, and nursing an infant for a period of up to four months."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "full- time faculty members with at least twelve (12) months of continuous employment at Vanderbilt may be entitled to obtain parental leave related to adoption, pregnancy, childbirth, and nursing an infant for a period of up to four months."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "full- time faculty members with at least twelve (12) months of continuous employment at Vanderbilt may be entitled to obtain parental leave related to adoption, pregnancy, childbirth, and nursing an infant for a period of up to four months."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U2",
+     "answer": "birth_parent, non_birth_parent, adoptive (both spouses may take it)",
+     "quote": "they may both take this parental leave but the benefits of the University's parental leave policy (e.g., compensation and extension of the tenure clock) are available to only one of the faculty members."
+    },
+    {
+     "field": "entitlement",
+     "rule": "U2",
+     "answer": "guaranteed",
+     "quote": "may be absent from such employment for a period not to exceed four (4) months for adoption, pregnancy, childbirth, and nursing an infant"
+    },
+    {
+     "field": "duration",
+     "rule": "U2",
+     "answer": "4 months up_to",
+     "quote": "full- time faculty members with at least twelve (12) months of continuous employment at Vanderbilt may be entitled to obtain parental leave related to adoption, pregnancy, childbirth, and nursing an infant for a period of up to four months."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all relieved (formal leave of absence)",
+     "quote": "full- time faculty members with at least twelve (12) months of continuous employment at Vanderbilt may be entitled to obtain parental leave related to adoption, pregnancy, childbirth, and nursing an infant for a period of up to four months."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U2",
+     "answer": "12 months continuous full-time employment",
+     "quote": "full- time faculty members with at least twelve (12) months of continuous employment at Vanderbilt may be entitled to obtain parental leave related to adoption, pregnancy, childbirth, and nursing an infant for a period of up to four months."
+    },
+    {
+     "field": "sequence",
+     "rule": "S1",
+     "answer": "concurrent_with c2 and c1",
+     "quote": "The period of TMLA leave for faculty members will generally be composed of leave for short-term illness (paid) and personal leave (unpaid)"
+    }
+   ]
+  },
+  {
+   "component_id": "vanderbilt_university_c6",
+   "institution_label": "Effect on Probationary Period",
+   "description": "Automatic one-year tenure-clock extension for a tenure-track faculty member who takes the University parental leave.",
+   "mechanism": "tenure_clock",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "\"A tenure-track faculty member who takes parental leave under this policy\"",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "follows the parental leave (c1): the faculty member or the faculty member's spouse becomes the parent by childbirth or adoption",
+   "caregiver_condition": "primary",
+   "caregiver_condition_wording": "available to one who takes the parental leave, granted \"for purposes of serving as the child's primary caregiver\"",
+   "service_requirement": "none stated",
+   "entitlement": "guaranteed",
+   "entitlement_note": "\"shall receive an automatic one- year extension\"; the member notifies the chair or dean of the decision.",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "up_to"
+   },
+   "duration_note": "All or part of the extension may be taken. \"The total of all extensions to the tenure clock cannot exceed two years\" (flagged as a restriction).",
+   "time_window": "notify the department chair or dean within six months after the birth or placement for adoption",
+   "rule_applied": [
+    "U1",
+    "U9",
+    "R6"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "A tenure-track faculty member who takes parental leave under this policy shall receive an automatic one- year extension of the tenure clock."
+    ],
+    "eligible_parent": [
+     "A tenure-track faculty member who takes parental leave under this policy shall receive an automatic one- year extension of the tenure clock.",
+     "When a full-time faculty member who is tenured or tenure-track, or that faculty member's spouse becomes the parent of a child, either by childbirth or by adoption of a pre- school-aged child, the faculty member shall, upon written request to his or her department chair or"
+    ],
+    "entitlement": [
+     "A tenure-track faculty member who takes parental leave under this policy shall receive an automatic one- year extension of the tenure clock.",
+     "a faculty member need only notify his or her department chair or dean of the decision, within six months after the birth or placement for adoption, to take the extension."
+    ],
+    "duration": [
+     "A tenure-track faculty member who takes parental leave under this policy shall receive an automatic one- year extension of the tenure clock.",
+     "In order to take advantage of all or part of such an extension"
+    ],
+    "caregiver_condition": [
+     "be entitled to a parental leave of one semester at full pay for purposes of serving as the child's primary caregiver"
+    ],
+    "time_window": [
+     "a faculty member need only notify his or her department chair or dean of the decision, within six months after the birth or placement for adoption, to take the extension."
+    ],
+    "service_requirement": [
+     "A tenure-track faculty member who takes parental leave under this policy shall receive an automatic one- year extension of the tenure clock."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_faculty_manual_snapshot_20180329",
+    "2018_01_faculty_manual_vi_ch4_leaves"
+   ],
+   "flags": [
+    "ambiguous: restriction: total of all tenure-clock extensions cannot exceed two years"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "A tenure-track faculty member who takes parental leave under this policy shall receive an automatic one- year extension of the tenure clock."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "A tenure-track faculty member who takes parental leave under this policy shall receive an automatic one- year extension of the tenure clock."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "A tenure-track faculty member who takes parental leave under this policy shall receive an automatic one- year extension of the tenure clock."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "A tenure-track faculty member who takes parental leave under this policy shall receive an automatic one- year extension of the tenure clock."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "birth_parent, non_birth_parent, adoptive (as the parental leave)",
+     "quote": "When a full-time faculty member who is tenured or tenure-track, or that faculty member's spouse becomes the parent of a child, either by childbirth or by adoption of a pre- school-aged child, the faculty member shall, upon written request to his or her department chair or"
+    },
+    {
+     "field": "caregiver_condition",
+     "rule": "R6",
+     "answer": "primary",
+     "quote": "be entitled to a parental leave of one semester at full pay for purposes of serving as the child's primary caregiver"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "A tenure-track faculty member who takes parental leave under this policy shall receive an automatic one- year extension of the tenure clock."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 year up_to (all or part of the extension may be taken)",
+     "quote": "In order to take advantage of all or part of such an extension"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "none stated",
+     "quote": "A tenure-track faculty member who takes parental leave under this policy shall receive an automatic one- year extension of the tenure clock."
+    }
+   ]
+  },
+  {
+   "component_id": "vanderbilt_university_c7",
+   "institution_label": "",
+   "description": "Automatic one-semester extension of the probationary period for a faculty member who gives birth during it, up to two such extensions.",
+   "mechanism": "tenure_clock",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "\"Faculty members who give birth during the probationary period\" (Faculty Manual Part II ch. 3 sec. B.4, tenure-track faculty)",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "\"Faculty members who give birth\"; \"her department chair\"",
+   "caregiver_condition": "none",
+   "service_requirement": "none stated",
+   "entitlement": "guaranteed",
+   "entitlement_note": "\"are entitled to an automatic one-semester extension\"; the member notifies the chair or dean of the decision. The general approval sentence that follows governs the requested exemptions (c8); the specific automatic entitlement governs this one (source precedence).",
+   "duration": {
+    "value": 1,
+    "units": "semester",
+    "qualifier": "exact"
+   },
+   "use_limit": [
+    {
+     "times": 2,
+     "per": "career",
+     "counts": "uses"
+    }
+   ],
+   "use_limit_note": "\"up to a maximum of two extensions\"",
+   "time_window": "notify the department chair or Dean within four months after the birth",
+   "rule_applied": [
+    "U1",
+    "U9",
+    "source_precedence"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Faculty members who give birth during the probationary period are entitled to an automatic one-semester extension of the probationary period, up to a maximum of two extensions."
+    ],
+    "eligible_parent": [
+     "Faculty members who give birth during the probationary period are entitled to an automatic one-semester extension of the probationary period, up to a maximum of two extensions.",
+     "In order to avail herself of such an extension, a faculty member need only notify her department chair or Dean of her decision, within four months after the birth, on whether she wishes to take the extension."
+    ],
+    "entitlement": [
+     "Faculty members who give birth during the probationary period are entitled to an automatic one-semester extension of the probationary period, up to a maximum of two extensions.",
+     "In order to avail herself of such an extension, a faculty member need only notify her department chair or Dean of her decision, within four months after the birth, on whether she wishes to take the extension."
+    ],
+    "duration": [
+     "entitled to an automatic one-semester extension of the probationary period"
+    ],
+    "use_limit": [
+     "Faculty members who give birth during the probationary period are entitled to an automatic one-semester extension of the probationary period, up to a maximum of two extensions."
+    ],
+    "time_window": [
+     "In order to avail herself of such an extension, a faculty member need only notify her department chair or Dean of her decision, within four months after the birth, on whether she wishes to take the extension."
+    ],
+    "service_requirement": [
+     "Faculty members who give birth during the probationary period are entitled to an automatic one-semester extension of the probationary period, up to a maximum of two extensions."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_faculty_manual_snapshot_20180329"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "Faculty members who give birth during the probationary period are entitled to an automatic one-semester extension of the probationary period, up to a maximum of two extensions."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Faculty members who give birth during the probationary period are entitled to an automatic one-semester extension of the probationary period, up to a maximum of two extensions."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Faculty members who give birth during the probationary period are entitled to an automatic one-semester extension of the probationary period, up to a maximum of two extensions."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Faculty members who give birth during the probationary period are entitled to an automatic one-semester extension of the probationary period, up to a maximum of two extensions."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "birth_parent",
+     "quote": "Faculty members who give birth during the probationary period are entitled to an automatic one-semester extension of the probationary period, up to a maximum of two extensions."
+    },
+    {
+     "field": "entitlement",
+     "rule": "source_precedence",
+     "answer": "guaranteed",
+     "quote": "Faculty members who give birth during the probationary period are entitled to an automatic one-semester extension of the probationary period, up to a maximum of two extensions."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 semester exact",
+     "quote": "entitled to an automatic one-semester extension of the probationary period"
+    },
+    {
+     "field": "use_limit",
+     "rule": "U9",
+     "answer": "2 uses per career",
+     "quote": "Faculty members who give birth during the probationary period are entitled to an automatic one-semester extension of the probationary period, up to a maximum of two extensions."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "none stated",
+     "quote": "Faculty members who give birth during the probationary period are entitled to an automatic one-semester extension of the probationary period, up to a maximum of two extensions."
+    }
+   ]
+  },
+  {
+   "component_id": "vanderbilt_university_c8",
+   "institution_label": "",
+   "description": "Requested exemption of periods from the probationary period for exigencies including ill health, childbearing or unusual requirements for infant care, family illness or death, and other special circumstances; at least one semester per period, at most two calendar years in total; approval by chair, dean and provost.",
+   "mechanism": "tenure_clock",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "tenure-track faculty in the probationary period (Faculty Manual Part II ch. 3 sec. B.4)",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "\"leave required by ill health, by childbearing or unusual requirements for infant care\"",
+   "caregiver_condition": "none",
+   "service_requirement": "none stated",
+   "entitlement": "discretionary",
+   "entitlement_note": "The member requests the exemption and \"Extensions of the probationary period must be approved\" by chair, Dean and Provost, to be \"applied rigorously\": approval decides whether there is an extension (V2).",
+   "duration": {
+    "value": 1,
+    "units": "semester",
+    "qualifier": "at_least"
+   },
+   "duration_max": {
+    "value": 2,
+    "units": "year"
+   },
+   "duration_note": "\"no period exempted shall be less than one semester\"; total exemptions under this provision may not exceed two calendar years (R13b).",
+   "rule_applied": [
+    "U1",
+    "V2",
+    "R13b"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "These exigencies include leave required by ill health, by childbearing or unusual requirements for infant care, or by a serious illness or death of immediate family members."
+    ],
+    "eligible_parent": [
+     "These exigencies include leave required by ill health, by childbearing or unusual requirements for infant care, or by a serious illness or death of immediate family members."
+    ],
+    "entitlement": [
+     "Extensions of the probationary period must be approved by the department chair (for faculty members in departments), the Dean and the Provost",
+     "The standards for an extension of the probationary period are to be applied rigorously such that extensions beyond seven years, or nine years in the School of Medicine or School of Nursing, are granted only in exceptional circumstances."
+    ],
+    "duration": [
+     "In no case may the total exemptions under this provision exceed two calendar years, and no period exempted shall be less than one semester."
+    ],
+    "service_requirement": [
+     "These exigencies include leave required by ill health, by childbearing or unusual requirements for infant care, or by a serious illness or death of immediate family members."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_faculty_manual_snapshot_20180329"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "These exigencies include leave required by ill health, by childbearing or unusual requirements for infant care, or by a serious illness or death of immediate family members."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "These exigencies include leave required by ill health, by childbearing or unusual requirements for infant care, or by a serious illness or death of immediate family members."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "Other special circumstances (e.g., accidental destruction of research material, important clinical or patient care responsibilities, and extra teaching assignments) may also retard the development of professional attainments directly related to a favorable tenure decision and thus justify exemptions for one or more periods."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "These exigencies include leave required by ill health, by childbearing or unusual requirements for infant care, or by a serious illness or death of immediate family members."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "birth_parent, non_birth_parent, adoptive (childbearing, infant care)",
+     "quote": "These exigencies include leave required by ill health, by childbearing or unusual requirements for infant care, or by a serious illness or death of immediate family members."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "Extensions of the probationary period must be approved by the department chair (for faculty members in departments), the Dean and the Provost"
+    },
+    {
+     "field": "duration",
+     "rule": "R13b",
+     "answer": "1 semester at_least, max 2 years",
+     "quote": "In no case may the total exemptions under this provision exceed two calendar years, and no period exempted shall be less than one semester."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "none stated",
+     "quote": "These exigencies include leave required by ill health, by childbearing or unusual requirements for infant care, or by a serious illness or death of immediate family members."
+    }
+   ]
+  },
+  {
+   "component_id": "vanderbilt_university_c9",
+   "institution_label": "Personal Reasons",
+   "description": "Unpaid leave for personal reasons (including family-related matters), considered individually and approved by the dean and provost, usually not beyond one year; the Manual also points new parents beyond three uses of parental leave to unpaid personal leave whose duration is negotiated with the dean.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "faculty members (Faculty Manual Part VI ch. 4 sec. E)",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "\"leave for personal reasons (including family-related matters)\"",
+   "caregiver_condition": "none",
+   "service_requirement": "none stated",
+   "entitlement": "negotiated",
+   "entitlement_note": "Requests are \"considered on an individual basis\" and need approval; in the childbirth context \"The duration of personal leave must be negotiated between the faculty member and her dean\" with no guaranteed minimum (R12: negotiated even where the grant is also discretionary).",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "up_to"
+   },
+   "duration_note": "\"Such leaves usually do not extend beyond one year\" (Q1, 'usually not more than' -> up_to). Benefits continue if the member arranges and pays for them.",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "rule_applied": [
+    "U1",
+    "R12",
+    "Q1",
+    "R9"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Requests for leave for personal reasons (including family-related matters) are considered on an individual basis"
+    ],
+    "eligible_parent": [
+     "Requests for leave for personal reasons (including family-related matters) are considered on an individual basis"
+    ],
+    "entitlement": [
+     "If approved by the Dean, the request for leave for personal reasons is handled in the same way as academic leave, going to the Provost for review and approval.",
+     "Additional personal leave (unpaid) may be requested. The duration of personal leave must be negotiated between the faculty member and her dean and must be consistent with the FMLA and the TMLA."
+    ],
+    "duration": [
+     "Such leaves usually do not extend beyond one year."
+    ],
+    "relief": [
+     "Nonacademic Leave without Pay"
+    ],
+    "service_requirement": [
+     "Requests for leave for personal reasons (including family-related matters) are considered on an individual basis"
+    ]
+   },
+   "doc_ids": [
+    "2018_02_faculty_manual_snapshot_20180329",
+    "2018_01_faculty_manual_vi_ch4_leaves"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "Nonacademic Leave without Pay"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Nonacademic Leave without Pay"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "Requests for leave for personal reasons (including family-related matters) are considered on an individual basis"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Requests for leave for personal reasons (including family-related matters) are considered on an individual basis"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent (role-neutral)",
+     "quote": "Requests for leave for personal reasons (including family-related matters) are considered on an individual basis"
+    },
+    {
+     "field": "entitlement",
+     "rule": "R12",
+     "answer": "negotiated",
+     "quote": "Additional personal leave (unpaid) may be requested. The duration of personal leave must be negotiated between the faculty member and her dean and must be consistent with the FMLA and the TMLA."
+    },
+    {
+     "field": "duration",
+     "rule": "Q1",
+     "answer": "1 year up_to (usually not beyond)",
+     "quote": "Such leaves usually do not extend beyond one year."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all relieved (formal leave)",
+     "quote": "Nonacademic Leave without Pay"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "none stated",
+     "quote": "Requests for leave for personal reasons (including family-related matters) are considered on an individual basis"
+    }
+   ]
+  },
+  {
+   "component_id": "vanderbilt_university_c10",
+   "institution_label": "Schools of Medicine and Nursing",
+   "description": "Parental leave of up to twelve weeks for full-time faculty of the Schools of Medicine and Nursing who become parents (own or spouse's childbirth, or adoption of a minor child) as primary caregiver, with salary and benefits for up to six weeks.",
+   "mechanism": "employer_paid_leave",
+   "payer": "employer",
+   "faculty_group": "full-time faculty of the Schools of Medicine and Nursing",
+   "faculty_group_note": "\"Schools of Medicine and Nursing\": \"A full-time faculty member who becomes the parent of a child\" (the VUMC Faculty Parental Leave Policy, per the Manual's footnote [2])",
+   "faculty_scope": "Schools of Medicine and Nursing only",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "\"A full-time faculty member who becomes the parent of a child, or whose spouse becomes the parent of a child, either by childbirth or through adoption of a minor child\"",
+   "caregiver_condition": "primary",
+   "caregiver_condition_wording": "\"a letter from the faculty member indicating that the purpose of the leave will be to serve as a primary caregiver for that child during the period of leave\"",
+   "service_requirement": "none stated",
+   "dual_employee_rule": "both may take it, not simultaneously, combined total twelve (12) weeks",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "\"shall be entitled to a leave of up to twelve weeks\" on a written request; approval covers arrangements and special timing (V2).",
+   "duration": {
+    "value": 12,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "paid_duration": {
+    "value": 6,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "duration_note": "Salary and benefits for up to six weeks; benefits but not salary for up to ten further weeks. Under TMLA, faculty who give birth may request up to four weeks beyond the twelve.",
+   "pay_fraction": "salary and benefits",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_note": "\"relieved of his or her normal duties and responsibilities during the period of leave\"",
+   "time_window": "ordinarily in the perinatal period or near the time the child is placed for adoption",
+   "sequence": [
+    {
+     "relation": "concurrent_with",
+     "component_id": "vanderbilt_university_c4",
+     "note": "\"intended to count as and run concurrent with FMLA leave\" (S1)."
+    }
+   ],
+   "rule_applied": [
+    "V3b",
+    "V3c",
+    "V2",
+    "S1",
+    "R6"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Schools of Medicine and Nursing",
+     "A full-time faculty member who becomes the parent of a child, or whose spouse becomes the parent of a child, either by childbirth or through adoption of a minor child, shall be entitled to a leave of up to twelve weeks."
+    ],
+    "eligible_parent": [
+     "A full-time faculty member who becomes the parent of a child, or whose spouse becomes the parent of a child, either by childbirth or through adoption of a minor child, shall be entitled to a leave of up to twelve weeks."
+    ],
+    "entitlement": [
+     "A full-time faculty member who becomes the parent of a child, or whose spouse becomes the parent of a child, either by childbirth or through adoption of a minor child, shall be entitled to a leave of up to twelve weeks.",
+     "The request for this leave should be in writing to his or her department chair"
+    ],
+    "duration": [
+     "A full-time faculty member who becomes the parent of a child, or whose spouse becomes the parent of a child, either by childbirth or through adoption of a minor child, shall be entitled to a leave of up to twelve weeks."
+    ],
+    "paid_duration": [
+     "A faculty member who takes parental leave under this policy shall receive salary and benefits for up to six (6) weeks."
+    ],
+    "pay_fraction": [
+     "A faculty member who takes parental leave under this policy shall receive salary and benefits for up to six (6) weeks."
+    ],
+    "relief": [
+     "The faculty member will be relieved of his or her normal duties and responsibilities during the period of leave."
+    ],
+    "caregiver_condition": [
+     "The agreement shall include a letter from the faculty member indicating that the purpose of the leave will be to serve as a primary caregiver for that child during the period of leave."
+    ],
+    "dual_employee_rule": [
+     "If a faculty member and his or her spouse would otherwise both be eligible for parental leave under this policy, both may take this parental leave, but not simultaneously and not for more than a combined total of twelve (12) weeks."
+    ],
+    "time_window": [
+     "The parental leave will ordinarily be taken in the perinatal period or near the time the child is placed for adoption."
+    ],
+    "sequence": [
+     "Any leave taken under this policy is intended to count as and run concurrent with FMLA leave"
+    ],
+    "service_requirement": [
+     "A full-time faculty member who becomes the parent of a child, or whose spouse becomes the parent of a child, either by childbirth or through adoption of a minor child, shall be entitled to a leave of up to twelve weeks."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_faculty_manual_snapshot_20180329",
+    "2018_01_faculty_manual_vi_ch4_leaves"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "employer_paid_leave",
+     "quote": "A faculty member who takes parental leave under this policy shall receive salary and benefits for up to six (6) weeks."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "A faculty member who takes parental leave under this policy shall receive salary and benefits for up to six (6) weeks."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "A full-time faculty member who becomes the parent of a child, or whose spouse becomes the parent of a child, either by childbirth or through adoption of a minor child, shall be entitled to a leave of up to twelve weeks."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "V3b",
+     "answer": "full-time faculty of the Schools of Medicine and Nursing",
+     "quote": "Schools of Medicine and Nursing"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "birth_parent, non_birth_parent, adoptive",
+     "quote": "A full-time faculty member who becomes the parent of a child, or whose spouse becomes the parent of a child, either by childbirth or through adoption of a minor child, shall be entitled to a leave of up to twelve weeks."
+    },
+    {
+     "field": "caregiver_condition",
+     "rule": "R6",
+     "answer": "primary",
+     "quote": "The agreement shall include a letter from the faculty member indicating that the purpose of the leave will be to serve as a primary caregiver for that child during the period of leave."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "A full-time faculty member who becomes the parent of a child, or whose spouse becomes the parent of a child, either by childbirth or through adoption of a minor child, shall be entitled to a leave of up to twelve weeks."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "12 weeks up_to",
+     "quote": "A full-time faculty member who becomes the parent of a child, or whose spouse becomes the parent of a child, either by childbirth or through adoption of a minor child, shall be entitled to a leave of up to twelve weeks."
+    },
+    {
+     "field": "paid_duration",
+     "rule": "schema",
+     "answer": "6 weeks up_to",
+     "quote": "A faculty member who takes parental leave under this policy shall receive salary and benefits for up to six (6) weeks."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "salary and benefits (level not stated beyond salary)",
+     "quote": "A faculty member who takes parental leave under this policy shall receive salary and benefits for up to six (6) weeks."
+    },
+    {
+     "field": "relief",
+     "rule": "R4",
+     "answer": "all relieved (normal duties and responsibilities)",
+     "quote": "The faculty member will be relieved of his or her normal duties and responsibilities during the period of leave."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "none stated",
+     "quote": "A full-time faculty member who becomes the parent of a child, or whose spouse becomes the parent of a child, either by childbirth or through adoption of a minor child, shall be entitled to a leave of up to twelve weeks."
+    },
+    {
+     "field": "sequence",
+     "rule": "S1",
+     "answer": "concurrent_with c4 (FMLA)",
+     "quote": "Any leave taken under this policy is intended to count as and run concurrent with FMLA leave"
+    }
+   ]
+  },
+  {
+   "component_id": "vanderbilt_university_c11",
+   "institution_label": "Long-term Disability Insurance",
+   "description": "Long-term disability insurance for full-status faculty after one year of employment; benefits begin after six months of continuous total disability, as determined by the insurer.",
+   "mechanism": "generic_sick_or_disability_plan",
+   "mechanism_note": "Long-term disability plan (schema 2): recorded without a duration.",
+   "payer": "insurance_plan",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "\"Each full-status member of the faculty of Vanderbilt University\"",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "own disability (\"continuous, total disability, caused by sickness or injury\")",
+   "caregiver_condition": "none",
+   "service_requirement": "one year of employment",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "\"is eligible for disability insurance\" (V2: 'is eligible for'); disability is determined by the insurer. Part VI also states \"All benefits are subject to change at the discretion of the University\".",
+   "time_window": "benefits begin on the first day of the month following six months of continuous, total disability",
+   "rule_applied": [
+    "V2",
+    "U5",
+    "M1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Each full-status member of the faculty of Vanderbilt University is eligible for disability insurance after one year of employment."
+    ],
+    "eligible_parent": [
+     "Each full-status member of the faculty of Vanderbilt University is eligible for disability insurance after one year of employment."
+    ],
+    "entitlement": [
+     "Each full-status member of the faculty of Vanderbilt University is eligible for disability insurance after one year of employment."
+    ],
+    "service_requirement": [
+     "Each full-status member of the faculty of Vanderbilt University is eligible for disability insurance after one year of employment."
+    ],
+    "time_window": [
+     "Benefits begin on the first day of the month following six months of continuous, total disability."
+    ],
+    "payer": [
+     "The existence of \"continuous, total disability\" is determined by the insurer."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_faculty_manual_snapshot_20180329"
+   ],
+   "flags": [
+    "cross_reference_not_saved: long-term disability summary plan description (HR web site / Benefits Office)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "Long-term Disability Insurance"
+    },
+    {
+     "field": "payer",
+     "rule": "M1",
+     "answer": "insurance_plan",
+     "quote": "The existence of \"continuous, total disability\" is determined by the insurer."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Each full-status member of the faculty of Vanderbilt University is eligible for disability insurance after one year of employment."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Each full-status member of the faculty of Vanderbilt University is eligible for disability insurance after one year of employment."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own disability)",
+     "quote": "Each full-status member of the faculty of Vanderbilt University is eligible for disability insurance after one year of employment."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "Each full-status member of the faculty of Vanderbilt University is eligible for disability insurance after one year of employment."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "one year of employment",
+     "quote": "Each full-status member of the faculty of Vanderbilt University is eligible for disability insurance after one year of employment."
+    }
+   ]
+  },
+  {
+   "component_id": "vanderbilt_university_c12",
+   "institution_label": "Full-status Partial-load Appointments",
+   "description": "Tenure-track appointment at a partial load (at least 50 percent), ordinarily for faculty whose family commitments or health prevent a full load; the tenure period may be extended by up to three years; changes of load need dean and provost approval.",
+   "mechanism": "part_time_option",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "\"Tenure-track appointments may be made for partial-load faculty members\"",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "\"faculty members ... whose family commitments or health prevents a full faculty load\"",
+   "caregiver_condition": "none",
+   "service_requirement": "none stated",
+   "entitlement": "discretionary",
+   "entitlement_note": "Appointments \"may be made\", must fit the schools' financial and programmatic needs, and changes of load \"must be approved by the appropriate Dean and the Provost\" (V2).",
+   "duration_note": "No length stated; load not less than 50 percent; benefits reduced in proportion to the load. The allowable period for promotion to tenure may be extended by up to three years.",
+   "rule_applied": [
+    "R3",
+    "U1",
+    "V2"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Tenure-track appointments may be made for partial-load faculty members, with those members being eligible for promotion through all ranks."
+    ],
+    "eligible_parent": [
+     "whose family commitments or health prevents a full faculty load"
+    ],
+    "entitlement": [
+     "changes from partial to full load (or the reverse) must be approved by the appropriate Dean and the Provost",
+     "partial-load appointments must be consistent with the financial and programmatic needs of the individual schools."
+    ],
+    "service_requirement": [
+     "Tenure-track appointments may be made for partial-load faculty members, with those members being eligible for promotion through all ranks."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_faculty_manual_snapshot_20180329"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R3",
+     "answer": "part_time_option",
+     "quote": "Partial-load faculty members shall commit an agreed percentage of their time to the University, but not less than 50 percent."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "Partial-load faculty members shall commit an agreed percentage of their time to the University, but not less than 50 percent."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "These appointments are ordinarily directed toward faculty members who look only to the University for their compensated"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Tenure-track appointments may be made for partial-load faculty members, with those members being eligible for promotion through all ranks."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent (role-neutral)",
+     "quote": "whose family commitments or health prevents a full faculty load"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "changes from partial to full load (or the reverse) must be approved by the appropriate Dean and the Provost"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "none stated",
+     "quote": "Tenure-track appointments may be made for partial-load faculty members, with those members being eligible for promotion through all ranks."
+    }
+   ]
+  },
+  {
+   "component_id": "vanderbilt_university_c13",
+   "institution_label": "Intermittent Leave",
+   "description": "FMLA leave taken intermittently or as a part-time schedule where a certified qualifying medical condition necessitates it; part of the FMLA 12 weeks.",
+   "mechanism": "part_time_option",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "\"the faculty member\" (Faculty Manual Part VI ch. 4 sec. D)",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent"
+   ],
+   "eligible_parent_wording": "\"a qualifying medical condition necessitates the requested schedule\" (own serious health condition, or care of a seriously ill spouse)",
+   "caregiver_condition": "none",
+   "service_requirement": "12 months and 1,250 hours in the preceding 12 months (FMLA eligibility)",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "\"may be entitled to work a part-time schedule\" when medically necessary; approval checks certification and notice (\"Leave may be denied if these requirements are not met\").",
+   "medical_certification": true,
+   "medical_certification_note": "Certification of Health Care Provider form; Occupational Health determines that a qualifying medical condition necessitates the schedule",
+   "notice": "ordinarily thirty days' advance notice when foreseeable",
+   "duration_note": "No separate length: counts within the FMLA 12 weeks (c4).",
+   "sequence": [
+    {
+     "relation": "within",
+     "component_id": "vanderbilt_university_c4",
+     "note": "A way of taking FMLA leave."
+    }
+   ],
+   "rule_applied": [
+    "U5",
+    "V2",
+    "U2"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "In certain cases, FMLA may be taken on an intermittent basis rather than all at once, or the faculty member may be entitled to work a part-time schedule."
+    ],
+    "eligible_parent": [
+     "Intermittent leave requires Occupational Health to determine from a Certification of Health Care Provider form that a qualifying medical condition necessitates the requested schedule."
+    ],
+    "entitlement": [
+     "In certain cases, FMLA may be taken on an intermittent basis rather than all at once, or the faculty member may be entitled to work a part-time schedule.",
+     "Leave may be denied if these requirements are not met."
+    ],
+    "service_requirement": [
+     "a faculty member who has been employed at Vanderbilt for at least twelve (12) months and who has worked at least 1,250 hours within the immediately preceding twelve (12) month period"
+    ],
+    "sequence": [
+     "In certain cases, FMLA may be taken on an intermittent basis rather than all at once, or the faculty member may be entitled to work a part-time schedule."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_faculty_manual_snapshot_20180329",
+    "2018_01_faculty_manual_vi_ch4_leaves"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "part_time_option",
+     "quote": "In certain cases, FMLA may be taken on an intermittent basis rather than all at once, or the faculty member may be entitled to work a part-time schedule."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "It provides for job protected, unpaid leave for qualified employees, including faculty, for up to 12 weeks in a 12-month period, for the following reasons: (1) the employee has a serious health condition; (2) to care for a spouse, dependent child, or parent with a serious health care condition; (3) in the case of adoption, pregnancy, childbirth, or nursing an infant;"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Intermittent leave requires Occupational Health to determine from a Certification of Health Care Provider form that a qualifying medical condition necessitates the requested schedule."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "In certain cases, FMLA may be taken on an intermittent basis rather than all at once, or the faculty member may be entitled to work a part-time schedule."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent, non_birth_parent (medical necessity)",
+     "quote": "Intermittent leave requires Occupational Health to determine from a Certification of Health Care Provider form that a qualifying medical condition necessitates the requested schedule."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "In certain cases, FMLA may be taken on an intermittent basis rather than all at once, or the faculty member may be entitled to work a part-time schedule."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U2",
+     "answer": "FMLA eligibility",
+     "quote": "a faculty member who has been employed at Vanderbilt for at least twelve (12) months and who has worked at least 1,250 hours within the immediately preceding twelve (12) month period"
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "within c4 (FMLA)",
+     "quote": "In certain cases, FMLA may be taken on an intermittent basis rather than all at once, or the faculty member may be entitled to work a part-time schedule."
+    }
+   ]
+  },
+  {
+   "component_id": "vanderbilt_university_c14",
+   "institution_label": "Parental Leave",
+   "description": "Human Resources policy (effective July 1, 2015): up to two weeks (80 hours) of paid parental leave at 100% for full-time staff employees who are the primary caregiver after a birth or adoption; faculty are referred to the Faculty Manual.",
+   "mechanism": "employer_paid_leave",
+   "payer": "employer",
+   "faculty_group": "full-time employees (staff); faculty and house staff excluded",
+   "faculty_group_note": "\"Full time employees working 30 or more hours per week\"; \"Faculty and house staff should refer to their respective manuals for leave policies.\"",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "\"a birth mother, spouse, or a new adoptive parent who is the primary caregiver\"",
+   "caregiver_condition": "primary",
+   "caregiver_condition_wording": "\"A primary caregiver is defined as someone who has primary responsibility for the care of a child through birth or adoption.\"",
+   "service_requirement": "previous twelve (12) consecutive months, 30 or more hours per week, and FMLA requirements",
+   "dual_employee_rule": "if both parents work for Vanderbilt, only one can be the primary caregiver at a time",
+   "entitlement": "discretionary",
+   "entitlement_note": "Employees \"are eligible to apply\" and leave is effective \"if granted\"; the policy \"does not create a contract\" (V2).",
+   "duration": {
+    "value": 2,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "duration_note": "\"up to two weeks (up to 80 hours)\", in one continuous period; in addition to PTO and grandfathered sick time.",
+   "pay_fraction": "100%",
+   "time_window": "during the first 12 weeks following the birth or adoption of a child",
+   "rule_applied": [
+    "V2",
+    "R6",
+    "R13"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Full time employees working 30 or more hours per week that have been employed for the previous twelve (12) consecutive months and meet the requirements under FMLA are eligible to apply for the paid parental leave and if granted leave is effective as of the last day worked.",
+     "Faculty and house staff should refer to their respective manuals for leave policies."
+    ],
+    "eligible_parent": [
+     "Parent - An eligible parent is defined as a birth mother, spouse, or a new adoptive parent who is the primary caregiver."
+    ],
+    "entitlement": [
+     "Full time employees working 30 or more hours per week that have been employed for the previous twelve (12) consecutive months and meet the requirements under FMLA are eligible to apply for the paid parental leave and if granted leave is effective as of the last day worked.",
+     "The policy does not create a contract implied or expressed, with any Vanderbilt employees, who are employees at will."
+    ],
+    "duration": [
+     "Vanderbilt will provide up to two weeks (up to 80 hours) of 100% paid parental leave to the eligible parent serving as the primary caregiver following the birth or adoption of a child."
+    ],
+    "pay_fraction": [
+     "Vanderbilt will provide up to two weeks (up to 80 hours) of 100% paid parental leave to the eligible parent serving as the primary caregiver following the birth or adoption of a child."
+    ],
+    "caregiver_condition": [
+     "Primary Caregiver - A primary caregiver is defined as someone who has primary responsibility for the care of a child through birth or adoption.",
+     "Vanderbilt will provide up to two weeks (up to 80 hours) of 100% paid parental leave to the eligible parent serving as the primary caregiver following the birth or adoption of a child."
+    ],
+    "service_requirement": [
+     "Full time employees working 30 or more hours per week that have been employed for the previous twelve (12) consecutive months and meet the requirements under FMLA are eligible to apply for the paid parental leave and if granted leave is effective as of the last day worked."
+    ],
+    "dual_employee_rule": [
+     "If both parents work for Vanderbilt, then only one parent can be designated as a primary caregiver at a time."
+    ],
+    "time_window": [
+     "Employees are eligible to use paid parental leave during the first 12 weeks following the birth or adoption of a child."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "excludes_main_faculty"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "employer_paid_leave",
+     "quote": "Vanderbilt will provide up to two weeks (up to 80 hours) of 100% paid parental leave to the eligible parent serving as the primary caregiver following the birth or adoption of a child."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "Vanderbilt will provide up to two weeks (up to 80 hours) of 100% paid parental leave to the eligible parent serving as the primary caregiver following the birth or adoption of a child."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Vanderbilt will provide up to two weeks (up to 80 hours) of 100% paid parental leave to the eligible parent serving as the primary caregiver following the birth or adoption of a child."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "full-time employees (staff); faculty and house staff excluded",
+     "quote": "Faculty and house staff should refer to their respective manuals for leave policies."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "birth_parent, non_birth_parent (spouse), adoptive",
+     "quote": "Parent - An eligible parent is defined as a birth mother, spouse, or a new adoptive parent who is the primary caregiver."
+    },
+    {
+     "field": "caregiver_condition",
+     "rule": "R6",
+     "answer": "primary",
+     "quote": "Primary Caregiver - A primary caregiver is defined as someone who has primary responsibility for the care of a child through birth or adoption."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "Full time employees working 30 or more hours per week that have been employed for the previous twelve (12) consecutive months and meet the requirements under FMLA are eligible to apply for the paid parental leave and if granted leave is effective as of the last day worked."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "2 weeks up_to",
+     "quote": "Vanderbilt will provide up to two weeks (up to 80 hours) of 100% paid parental leave to the eligible parent serving as the primary caregiver following the birth or adoption of a child."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "100%",
+     "quote": "Vanderbilt will provide up to two weeks (up to 80 hours) of 100% paid parental leave to the eligible parent serving as the primary caregiver following the birth or adoption of a child."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "12 consecutive months, 30+ hours, FMLA requirements",
+     "quote": "Full time employees working 30 or more hours per week that have been employed for the previous twelve (12) consecutive months and meet the requirements under FMLA are eligible to apply for the paid parental leave and if granted leave is effective as of the last day worked."
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "Governing document: the Faculty Manual snapshot of March 29, 2018 (2018_02), the 2017-18 edition, the nearest saved version to the reference date 2018-02-26; the version note accepts it as in force on that date (whether Part VI ch. 4 changed between the 11-14-2017 and 3-29-2018 snapshots is not verified). 2018_01 is the 2016-17 web edition of Part VI ch. 4 (snapshot 8/17/2016); its leave provisions match 2018_02 except that 2018_02 drops 'or declared domestic partner' / 'or domestic partner' from the parental, FMLA and TMLA eligibility wording, renumbers the chapter footnote [1], and adds to footnote [6] the FMLA eligibility sentence ('worked for the University for at least one year and for 1,250 hours ... newborn child after birth or placement for adoption or foster care'). Quotes are taken from 2018_02.",
+  "2018_00_link is the Human Resources (staff) Parental Leave policy, effective July 1, 2015 (Wayback capture 2019-08-25; no later revision date shown). It covers full-time staff and says 'Faculty and house staff should refer to their respective manuals for leave policies' (c14, excludes_main_faculty).",
+  "Birth parent chain: short-term medical leave for childbirth c2 (paid by c3, normally up to 6 weeks; up to six months with unusual complications) -> University parental leave c1, one semester at full pay ('in addition to any leave granted because of medical incapacitation'); FMLA c4 (12 weeks) and TMLA c5 (4 months) alongside from the start of c2. After three uses of parental leave: only FMLA/TMLA (unpaid) plus paid short-term illness.",
+  "Non-birth parent chain: University parental leave c1 (one semester at full pay, if the primary caregiver; only one spouse may take it), with FMLA c4 (12 weeks) and TMLA c5 (4 months) alongside from its start.",
+  "Parental leave c1 timing: it may be taken in the birth semester or any semester beginning within six months of the birth; c1 is linked consecutive_after the medical leave c2 (the 'in addition to' clause), which places it immediately after for the birth parent.",
+  "Medical leave for childbirth is coded as a leave (c2, U6) and its pay (c3, V1 childbirth benefit, 6 weeks), following rules V1 and V6, which cite this Vanderbilt provision. The six-month short-duration limit is c2's duration_max (complications); c3 keeps the childbirth period only (V6).",
+  "Schools of Medicine and Nursing parental leave (c10; the VUMC Faculty Parental Leave Policy per footnote [2]) is unit-limited (V3b): not counted. The Manual's footnote 17 says VUMC-employed faculty receive their benefits from VUMC.",
+  "Not components: scholarly leaves of absence (research purpose; a parent cannot take them for a birth); jury duty; military duty (USERRA); group life insurance, tuition benefits, accidental death insurance. 'Benefit Beyond Three Children' is recorded in c1's use_limit_note, c3 and c9.",
+  "Cited but not saved: the long-term disability summary plan description and plan documents (Part VI governs 'Any inconsistencies ... by the plan documents'); each college's and school's statement of leave principles (scholarly leave only); the Human Resources Policy definition of 'spouse' (tuition section). The TMLA text saved is the 2025 Code (history: amended 2005 and 2025); its terms (four months, 12 months full-time, three months' notice, unique-position exception) agree with the Manual's 2018 description, so statute_verified is set true on that basis.",
+  "TMLA: Tenn. Code Ann. 4-21-408(d)(2) limits it to employers with 100 or more full-time employees; the Manual applies it to Vanderbilt faculty. The statute says leave 'may be with or without pay at the discretion of the employer'; the Manual pays the short-term illness part.",
+  "Calendar: semesters (parental leave by semester; 'each semester shall run from the first day of classes to the last day of examinations'), no length stated: calendar.kind = semester, and the term length follows R8's order."
+ ],
+ "statutory_floor": {
+  "jurisdiction": "US",
+  "year": "2018",
+  "weeks_birth": 12.0,
+  "weeks_nonbirth": 12.0,
+  "statute": "Family and Medical Leave Act (FMLA) (29 U.S.C. 2611-2612)",
+  "source_doc": "2026_00_us_fmla_29usc2612",
+  "table": "statutory_baseline.csv"
+ }
+}

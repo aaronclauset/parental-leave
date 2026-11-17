@@ -1,0 +1,2103 @@
+{
+ "institution": "Pace University",
+ "slug": "pace_university",
+ "country": "US",
+ "model": "claude-opus-5-5",
+ "codebook_version": "1.25",
+ "schema_version": "1.25",
+ "reference_date": "2018-02-27",
+ "calendar": {
+  "term_weeks": null,
+  "note": "Academic Term is defined as the Spring or Fall semester (Faculty Handbook D.30); semester length not stated -> 16 (R8)",
+  "kind": "semester"
+ },
+ "documents": [
+  {
+   "doc_id": "2018_00_hr_leaves_page",
+   "url": "http://www.pace.edu/human-resources/compensation-benefits/full-time-faculty-staff/work-life/leaves",
+   "title": "Human Resources | Full Time Faculty & Staff | Work Life | Leaves (Pace University)",
+   "version_or_effective_date": "Wayback capture 2018-03-09 (ten days after the reference date); undated page; military section approved 2003-05-27",
+   "retrieved": "2026-10-23"
+  },
+  {
+   "doc_id": "2018_01_faculty_handbook_2013_edition",
+   "url": "https://www.pace.edu/sites/default/files/2021-03/faculty-handbook.pdf",
+   "title": "Pace University Faculty Handbook, 2013 Edition",
+   "version_or_effective_date": "2013 Edition (in force on 2018-02-27 per the version note; the HR page captured 2018-03-09 quotes its parental-leave text as 'Source: 2013 Faculty Handbook')",
+   "retrieved": "2026-10-23"
+  },
+  {
+   "doc_id": "2026_00_us_fmla_29usc2612",
+   "title": "29 U.S.C. 2612 (FMLA leave requirement)",
+   "url": "https://www.law.cornell.edu/uscode/text/29/2612",
+   "retrieved": "2026-10-19"
+  },
+  {
+   "doc_id": "2026_01_us_fmla_29usc2611_definitions",
+   "title": "29 U.S.C. 2611 (FMLA definitions)",
+   "url": "https://www.law.cornell.edu/uscode/text/29/2611",
+   "retrieved": "2026-10-19"
+  },
+  {
+   "doc_id": "2018_42_ny_wcl_204_dbl_pfl_waiting",
+   "title": "N.Y. Workers' Compensation Law s. 204",
+   "url": "https://www.nysenate.gov/legislation/laws/WKC/204",
+   "retrieved": "2026-11-07"
+  }
+ ],
+ "missing": false,
+ "scope_accounting": {
+  "C1": {
+   "components": [
+    "pace_university_c2"
+   ]
+  },
+  "C2": {
+   "components": [
+    "pace_university_c1",
+    "pace_university_c10"
+   ]
+  },
+  "C3": {
+   "components": [
+    "pace_university_c3",
+    "pace_university_c4",
+    "pace_university_c6",
+    "pace_university_c14"
+   ]
+  },
+  "C4": {
+   "components": [
+    "pace_university_c5",
+    "pace_university_c12",
+    "pace_university_c13"
+   ],
+   "not_components": [
+    {
+     "statute": "New York State Disability Benefits Law (\"NYS Disability benefit\")",
+     "reason": "Named only as the sole benefit for employees with less than 3 months of full-time service (no University salary continuation); the member described (two years of service) is on the University salary-continuation path (U8), recorded in notes and on c4"
+    },
+    {
+     "statute": "Uniformed Services Employment and Reemployment Rights Act (USERRA)",
+     "reason": "Military leave; not related to becoming a parent (U4)"
+    },
+    {
+     "statute": "Americans with Disabilities Act",
+     "reason": "Disability rights statute named in section H footnote 33; not a parental provision (U4)"
+    },
+    {
+     "statute": "ERISA",
+     "reason": "Benefit-plan disclosure law named in the Benefits Advisory and section H; not a parental provision (U4)"
+    },
+    {
+     "statute": "New York State Education Law Section 3002",
+     "reason": "Oath of allegiance; unrelated (U4)"
+    },
+    {
+     "statute": "Copyright Act of 1976; federal patent laws",
+     "reason": "Intellectual property; unrelated (U4)"
+    }
+   ]
+  },
+  "C5": {
+   "components": [
+    "pace_university_c5"
+   ]
+  },
+  "C6": {
+   "components": [
+    "pace_university_c9",
+    "pace_university_c11"
+   ]
+  },
+  "C7": {
+   "components": [
+    "pace_university_c7",
+    "pace_university_c8"
+   ]
+  },
+  "C8": {
+   "absent": {
+    "documents": [
+     "2018_00_hr_leaves_page",
+     "2018_01_faculty_handbook_2013_edition"
+    ],
+    "terms": [
+     "part-time",
+     "part time",
+     "reduced appointment",
+     "reduced load",
+     "phased",
+     "modified teaching load",
+     "fractional"
+    ]
+   }
+  },
+  "C9": {
+   "absent": {
+    "documents": [
+     "2018_00_hr_leaves_page",
+     "2018_01_faculty_handbook_2013_edition"
+    ],
+    "terms": [
+     "accommodation",
+     "pregnan",
+     "hazard",
+     "less strenuous",
+     "transfer",
+     "equal",
+     "discrimination"
+    ]
+   }
+  },
+  "C10": {
+   "absent": {
+    "documents": [
+     "2018_00_hr_leaves_page",
+     "2018_01_faculty_handbook_2013_edition"
+    ],
+    "terms": [
+     "FMLA",
+     "first days",
+     "paid as regular",
+     "qualifying absence",
+     "Family and Medical Leave"
+    ]
+   }
+  }
+ },
+ "passage_dispositions": {
+  "2018_00_hr_leaves_page#001": {
+   "used_in": [
+    "pace_university_c2",
+    "pace_university_c3",
+    "pace_university_c4"
+   ]
+  },
+  "2018_00_hr_leaves_page#002": {
+   "not_relevant": "military leave retirement and tuition provisions; not usable for a birth"
+  },
+  "2018_00_hr_leaves_page#003": {
+   "not_relevant": "USERRA contact text and sabbatical leave (scholarly purpose only; not usable for a birth)"
+  },
+  "2018_00_hr_leaves_page#004": {
+   "not_relevant": "sabbatical and scholarly leave (professional purposes only)"
+  },
+  "2018_00_hr_leaves_page#005": {
+   "used_in": [
+    "pace_university_c1",
+    "pace_university_c2",
+    "pace_university_c3",
+    "pace_university_c4",
+    "pace_university_c5",
+    "pace_university_c14"
+   ]
+  },
+  "2018_00_hr_leaves_page#006": {
+   "not_relevant": "staff military leave retirement and tuition provisions"
+  },
+  "2018_00_hr_leaves_page#007": {
+   "used_in": [
+    "pace_university_c5",
+    "pace_university_c11",
+    "pace_university_c12",
+    "pace_university_c13"
+   ]
+  },
+  "2018_01_faculty_handbook_2013_edition#001": {
+   "not_relevant": "table of contents"
+  },
+  "2018_01_faculty_handbook_2013_edition#002": {
+   "used_in": [
+    "pace_university_c1"
+   ]
+  },
+  "2018_01_faculty_handbook_2013_edition#003": {
+   "used_in": [
+    "pace_university_c1"
+   ]
+  },
+  "2018_01_faculty_handbook_2013_edition#004": {
+   "not_relevant": "Handbook waiver and revision procedure; editions list"
+  },
+  "2018_01_faculty_handbook_2013_edition#005": {
+   "not_relevant": "search and evaluation committees"
+  },
+  "2018_01_faculty_handbook_2013_edition#006": {
+   "not_relevant": "minimum qualifications for rank"
+  },
+  "2018_01_faculty_handbook_2013_edition#007": {
+   "used_in": [
+    "pace_university_c7",
+    "pace_university_c8"
+   ]
+  },
+  "2018_01_faculty_handbook_2013_edition#008": {
+   "not_relevant": "non-renewal notice and promotion process"
+  },
+  "2018_01_faculty_handbook_2013_edition#009": {
+   "not_relevant": "promotion and tenure appeals"
+  },
+  "2018_01_faculty_handbook_2013_edition#010": {
+   "not_relevant": "department chair terms and removal"
+  },
+  "2018_01_faculty_handbook_2013_edition#011": {
+   "not_relevant": "outside activities and conflict of interest"
+  },
+  "2018_01_faculty_handbook_2013_edition#012": {
+   "not_relevant": "absence from classes ('see Sick Leave' cross-reference, flagged on c3 and c14) and teaching loads"
+  },
+  "2018_01_faculty_handbook_2013_edition#013": {
+   "not_relevant": "teaching-load rules (18/24 credit hours), consulted for c1's relief note; no parental provision"
+  },
+  "2018_01_faculty_handbook_2013_edition#014": {
+   "not_relevant": "summer teaching and tutorial compensation"
+  },
+  "2018_01_faculty_handbook_2013_edition#015": {
+   "not_relevant": "Kenan awards and sabbatical leave (professional purposes only)"
+  },
+  "2018_01_faculty_handbook_2013_edition#016": {
+   "not_relevant": "sabbatical and scholarly leave (professional purposes only)"
+  },
+  "2018_01_faculty_handbook_2013_edition#017": {
+   "used_in": [
+    "pace_university_c1",
+    "pace_university_c9",
+    "pace_university_c10"
+   ]
+  },
+  "2018_01_faculty_handbook_2013_edition#018": {
+   "not_relevant": "nepotism policy and start of intellectual property policy"
+  },
+  "2018_01_faculty_handbook_2013_edition#019": {
+   "not_relevant": "academic dismissal footnotes"
+  },
+  "2018_01_faculty_handbook_2013_edition#020": {
+   "not_relevant": "sanctions records and nonreappointment complaints"
+  },
+  "2018_01_faculty_handbook_2013_edition#021": {
+   "not_relevant": "grievance hearings and non-faculty complaints"
+  },
+  "2018_01_faculty_handbook_2013_edition#022": {
+   "used_in": [
+    "pace_university_c3",
+    "pace_university_c6"
+   ]
+  }
+ },
+ "mechanism_slots": {
+  "employer_paid_leave": {
+   "absent": "No employer-paid parental or family leave in HR page or Handbook (searched: paid leave, parental, family leave, paternity, bonding); the paid leave options are bereavement, jury duty, maternity (c2), military, sabbatical, scholarly and the course-reduction Parental Leave (c1)"
+  },
+  "employer_childbirth_benefit": {
+   "components": [
+    "pace_university_c2"
+   ]
+  },
+  "generic_sick_or_disability_plan": {
+   "components": [
+    "pace_university_c4",
+    "pace_university_c6"
+   ]
+  },
+  "own_accrual": {
+   "components": [
+    "pace_university_c14"
+   ]
+  },
+  "donated_leave": {
+   "absent": "No donated or shared leave bank in HR page or Handbook (searched: donat, shared leave, bank, pool)"
+  },
+  "government_benefit": {
+   "components": [
+    "pace_university_c12"
+   ]
+  },
+  "employer_topup": {
+   "absent": "No top-up of a government benefit in HR page or Handbook (searched: top-up, supplement, difference, NYS Disability, Paid Family Leave)"
+  },
+  "modified_duties": {
+   "components": [
+    "pace_university_c1"
+   ]
+  },
+  "unpaid_leave": {
+   "components": [
+    "pace_university_c3",
+    "pace_university_c5",
+    "pace_university_c9",
+    "pace_university_c11",
+    "pace_university_c13"
+   ]
+  },
+  "tenure_clock": {
+   "components": [
+    "pace_university_c7",
+    "pace_university_c8"
+   ]
+  },
+  "part_time_option": {
+   "absent": "No part-time or reduced appointment option in HR page or Handbook (searched: part-time, reduced, phased, fractional)"
+  },
+  "other": {
+   "components": [
+    "pace_university_c10"
+   ]
+  }
+ },
+ "baseline_accounting": {
+  "Family and Medical Leave Act (FMLA)": {
+   "components": [
+    "pace_university_c5"
+   ]
+  },
+  "Federal Employee Paid Leave Act (paid parental leave for federal civilian employees)": {
+   "not_applicable": "Federal civilian employees only; Pace is a private university"
+  },
+  "Paid Family Leave (PFL)": {
+   "components": [
+    "pace_university_c12",
+    "pace_university_c13"
+   ]
+  },
+  "Disability Benefits Law (DBL)": {
+   "not_applicable": "Named ('NYS Disability benefit') only for employees with less than 3 months of service; the member described is on the University salary-continuation path (U8); see C4 not_components and notes"
+  },
+  "Paid prenatal leave": {
+   "absent": "no saved document mentions it (enacted from 2025, after the reference date)"
+  }
+ },
+ "leave_limits": [],
+ "components": [
+  {
+   "component_id": "pace_university_c1",
+   "institution_label": "Faculty Parental Leave",
+   "description": "For a primary-caregiver tenured or tenure-track parent with 12 months of employment: a two-course reduction of in-classroom teaching in one semester (the birth/placement term or the next), at full salary; advising and administrative duties continue (off campus).",
+   "mechanism": "modified_duties",
+   "mechanism_note": "Called a leave, but it consists of a two-course reduction of in-classroom instruction at full salary with advising and administrative duties continuing: relief on active service (modified duties), not a leave of absence.",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "University full-time tenured or tenure-track faculty members (Faculty Handbook 2013, D.30; the Handbook covers Dyson College of Arts and Sciences, Seidenberg (computer science), Lubin, Education, Health Professions and Law)",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "\"become parents (through birth, or by adoption or newly established legal custodial care involving a child younger than 6 years of age)\"; \"Parent is defined as a natural parent, same-sex partner, or a new adoptive parent or a new legal custodian who is the primary caregiver.\"; \"An individual who adopts a spouse or partner’s child(ren) is not eligible for this benefit.\"",
+   "caregiver_condition": "primary",
+   "caregiver_condition_wording": "Primary Caregiver is defined as someone who has primary responsibility for the care of a child immediately following birth. The faculty member determines who in his or her family the primary caregiver is by signing an affidavit as part of the leave request process.",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "'are eligible for the Faculty Parental Leave' and 'shall consist of': the policy gives the reduction; the request (with the caregiver affidavit) covers the arrangements (V2).",
+   "service_requirement": "employed for at least 12 months",
+   "duration": {
+    "value": 2,
+    "units": "course",
+    "qualifier": "exact"
+   },
+   "duration_note": "Two courses of in-classroom instruction, in one semester; course reductions are not converted to weeks (R11b). The Handbook sets a teaching load of 18 credit hours a year for tenure-track faculty and 18 or 24 for tenured faculty (D.16), so two courses are part of a semester's load.",
+   "pay_fraction": "without reduction of salary",
+   "relief": {
+    "teaching": "partially_relieved",
+    "service_admin": "continues",
+    "research": "continues",
+    "advising_supervision": "continues",
+    "clinical": "continues"
+   },
+   "relief_inferred": "unnamed duties continue (R4b)",
+   "relief_note": "In-classroom instruction reduced by two courses in one semester; advising and other administrative duties continue as the chair determines, but need not be on campus; research and clinical duties are not named (continue, R4b).",
+   "time_window": "during the academic term (Spring or Fall semester) in which the birth, adoption or new legal custodial care occurs, or the term immediately following; adoption or custodial care of a child younger than 6 years of age",
+   "notice": "caregiver affidavit signed as part of the leave request process",
+   "rule_applied": [
+    "R11b",
+    "R4",
+    "R4b",
+    "R5",
+    "R6",
+    "U1",
+    "V2"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "University full-time tenured or tenure-track faculty members who have been employed for at least 12 months and who become parents (through birth, or by adoption or newly established legal custodial care involving a child younger than 6 years of age) and who, during the period of the requested leave will be the primary caregivers, are eligible for the Faculty Parental Leave",
+     "pertain to tenured, tenure-track and non-tenure-track faculty except adjunct faculty and part-time instructors"
+    ],
+    "eligible_parent": [
+     "University full-time tenured or tenure-track faculty members who have been employed for at least 12 months and who become parents (through birth, or by adoption or newly established legal custodial care involving a child younger than 6 years of age) and who, during the period of the requested leave will be the primary caregivers, are eligible for the Faculty Parental Leave",
+     "Parent is defined as a natural parent, same-sex partner, or a new adoptive parent or a new legal custodian who is the primary caregiver.",
+     "An individual who adopts a spouse or partner’s child(ren) is not eligible for this benefit."
+    ],
+    "entitlement": [
+     "University full-time tenured or tenure-track faculty members who have been employed for at least 12 months and who become parents (through birth, or by adoption or newly established legal custodial care involving a child younger than 6 years of age) and who, during the period of the requested leave will be the primary caregivers, are eligible for the Faculty Parental Leave",
+     "Parental leave shall consist of a reduction of in-classroom instruction in a semester by two (2) courses without reduction of salary."
+    ],
+    "duration": [
+     "Parental leave shall consist of a reduction of in-classroom instruction in a semester by two (2) courses without reduction of salary."
+    ],
+    "pay_fraction": [
+     "Parental leave shall consist of a reduction of in-classroom instruction in a semester by two (2) courses without reduction of salary."
+    ],
+    "relief": [
+     "Parental leave shall consist of a reduction of in-classroom instruction in a semester by two (2) courses without reduction of salary.",
+     "The faculty member must continue advising and other administrative duties as determined by his or her department chair; however, such responsibilities shall not require the faculty member to be on-campus."
+    ],
+    "service_requirement": [
+     "University full-time tenured or tenure-track faculty members who have been employed for at least 12 months and who become parents (through birth, or by adoption or newly established legal custodial care involving a child younger than 6 years of age) and who, during the period of the requested leave will be the primary caregivers, are eligible for the Faculty Parental Leave"
+    ],
+    "caregiver_condition": [
+     "Primary Caregiver is defined as someone who has primary responsibility for the care of a child immediately following birth.",
+     "University full-time tenured or tenure-track faculty members who have been employed for at least 12 months and who become parents (through birth, or by adoption or newly established legal custodial care involving a child younger than 6 years of age) and who, during the period of the requested leave will be the primary caregivers, are eligible for the Faculty Parental Leave"
+    ],
+    "time_window": [
+     "Faculty members with term-based teaching responsibilities must take this leave during the academic term during which the birth, adoption or newly established legal custodial care occurs, or during the academic term immediately following the birth, adoption or newly established legal custodial care.",
+     "Academic Term is defined as the Spring or Fall semester."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_faculty_handbook_2013_edition",
+    "2018_00_hr_leaves_page"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "modified_duties",
+     "quote": "Parental leave shall consist of a reduction of in-classroom instruction in a semester by two (2) courses without reduction of salary."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "Parental leave shall consist of a reduction of in-classroom instruction in a semester by two (2) courses without reduction of salary."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "University full-time tenured or tenure-track faculty members who have been employed for at least 12 months and who become parents (through birth, or by adoption or newly established legal custodial care involving a child younger than 6 years of age) and who, during the period of the requested leave will be the primary caregivers, are eligible for the Faculty Parental Leave"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "birth_parent, non_birth_parent, adoptive (natural parent or same-sex partner, adoptive parent; new legal custodian noted in wording)",
+     "quote": "Parent is defined as a natural parent, same-sex partner, or a new adoptive parent or a new legal custodian who is the primary caregiver."
+    },
+    {
+     "field": "caregiver_condition",
+     "rule": "R6",
+     "answer": "primary",
+     "quote": "Primary Caregiver is defined as someone who has primary responsibility for the care of a child immediately following birth."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "University full-time tenured or tenure-track faculty members who have been employed for at least 12 months and who become parents (through birth, or by adoption or newly established legal custodial care involving a child younger than 6 years of age) and who, during the period of the requested leave will be the primary caregivers, are eligible for the Faculty Parental Leave"
+    },
+    {
+     "field": "duration",
+     "rule": "R11b",
+     "answer": "2 courses, exact; not converted to weeks",
+     "quote": "Parental leave shall consist of a reduction of in-classroom instruction in a semester by two (2) courses without reduction of salary."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "without reduction of salary (full pay)",
+     "quote": "Parental leave shall consist of a reduction of in-classroom instruction in a semester by two (2) courses without reduction of salary."
+    },
+    {
+     "field": "relief",
+     "rule": "R4",
+     "answer": "teaching partially relieved (two courses); advising and administrative duties continue",
+     "quote": "The faculty member must continue advising and other administrative duties as determined by his or her department chair; however, such responsibilities shall not require the faculty member to be on-campus."
+    },
+    {
+     "field": "relief",
+     "rule": "R4b",
+     "answer": "research and clinical not named: continue",
+     "quote": "Parental leave shall consist of a reduction of in-classroom instruction in a semester by two (2) courses without reduction of salary."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "employed for at least 12 months",
+     "quote": "University full-time tenured or tenure-track faculty members who have been employed for at least 12 months and who become parents (through birth, or by adoption or newly established legal custodial care involving a child younger than 6 years of age) and who, during the period of the requested leave will be the primary caregivers, are eligible for the Faculty Parental Leave"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "University full-time tenured or tenure-track faculty members who have been employed for at least 12 months and who become parents (through birth, or by adoption or newly established legal custodial care involving a child younger than 6 years of age) and who, during the period of the requested leave will be the primary caregivers, are eligible for the Faculty Parental Leave"
+    }
+   ]
+  },
+  {
+   "component_id": "pace_university_c2",
+   "institution_label": "Maternity",
+   "description": "Paid maternity disability for the birth mother, physician-verified, usually 6 weeks (normal delivery) or 8 weeks (Caesarean), within and deducted from the 26-week short-term disability allowance; full base salary for employees with 12 months of service or more.",
+   "mechanism": "employer_childbirth_benefit",
+   "mechanism_note": "V1: a childbirth-specific period (maternity disability before and/or after childbirth), its usual length (6 weeks; 8 after a Caesarean) and a pay level (the University's salary continuation table: full base salary at 12 months of service and over) are all stated, so the childbirth period paid through the short-term disability plan is a childbirth benefit.",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "HR Leaves page, Faculty section ('Pace University has paid and unpaid leave options available to our full time faculty'; Maternity listed among the paid leave options); salary continuation 'to our full time employees'. The Staff section repeats the same text.",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "A woman",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "service_requirement": "pay depends on full-time service at the time of disability: under 3 months none (NYS disability benefit only); 3-12 months two months full base salary then up to four months half salary; 12 months and over full base salary up to 26 weeks",
+   "duration": {
+    "value": 6,
+    "units": "week",
+    "qualifier": "at_least"
+   },
+   "duration_max": {
+    "value": 8,
+    "units": "week"
+   },
+   "duration_variants": {
+    "normal_delivery": "usually 6 weeks",
+    "cesarean": "usually 8 weeks"
+   },
+   "duration_note": "'usually six weeks for a normal delivery and eight weeks for a cesarean section'; distributed 'in accordance with need before and/or after childbirth or miscarriage'; deducted from the 26-week short-term disability allowance (c4). R13b: 6 at_least, max 8.",
+   "pay_fraction": "Full base salary and benefits",
+   "medical_certification": true,
+   "medical_certification_note": "subject to verification by a physician",
+   "sequence": [
+    {
+     "relation": "within",
+     "component_id": "pace_university_c3",
+     "note": "Maternity disability falls within the short-term disability leave category and is deducted from its 26-week allowance."
+    }
+   ],
+   "rule_applied": [
+    "R13b",
+    "R15",
+    "R9",
+    "U1",
+    "U8",
+    "V1"
+   ],
+   "evidence": {
+    "mechanism": [
+     "Maternity Disability shall be considered as falling within the category of leave for short-term disability, and is deducted from the total allowance of 26 weeks.",
+     "A woman shall receive paid leave subject to verification by a physician for a period distributed in accordance with need before and/or after childbirth or miscarriage.",
+     "This period is usually six weeks for a normal delivery and eight weeks for a cesarean section.",
+     "Full base salary and benefits up to 26 weeks within a 52-week period"
+    ],
+    "faculty_group": [
+     "Pace University has paid and unpaid leave options available to our full time faculty.",
+     "The University provides salary and benefits continuation to our full time employees as indicated below:"
+    ],
+    "eligible_parent": [
+     "A woman shall receive paid leave subject to verification by a physician for a period distributed in accordance with need before and/or after childbirth or miscarriage."
+    ],
+    "entitlement": [
+     "A woman shall receive paid leave subject to verification by a physician for a period distributed in accordance with need before and/or after childbirth or miscarriage."
+    ],
+    "duration": [
+     "This period is usually six weeks for a normal delivery and eight weeks for a cesarean section."
+    ],
+    "pay_fraction": [
+     "12 Months and Over",
+     "Full base salary and benefits up to 26 weeks within a 52-week period",
+     "First two (2) months – full base salary, Up to four (4) additional months – one-half salary"
+    ],
+    "service_requirement": [
+     "No salary or benefits continuation. Eligible for the NYS Disability benefit only.",
+     "First two (2) months – full base salary, Up to four (4) additional months – one-half salary",
+     "Full base salary and benefits up to 26 weeks within a 52-week period"
+    ],
+    "sequence": [
+     "Maternity Disability shall be considered as falling within the category of leave for short-term disability, and is deducted from the total allowance of 26 weeks."
+    ],
+    "medical_certification": [
+     "A woman shall receive paid leave subject to verification by a physician for a period distributed in accordance with need before and/or after childbirth or miscarriage."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_hr_leaves_page"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "V1",
+     "answer": "employer_childbirth_benefit",
+     "quote": "This period is usually six weeks for a normal delivery and eight weeks for a cesarean section."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "The University provides salary and benefits continuation to our full time employees as indicated below:"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Pace University has paid and unpaid leave options available to our full time faculty."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "birth_parent",
+     "quote": "A woman shall receive paid leave subject to verification by a physician for a period distributed in accordance with need before and/or after childbirth or miscarriage."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "A woman shall receive paid leave subject to verification by a physician for a period distributed in accordance with need before and/or after childbirth or miscarriage."
+    },
+    {
+     "field": "duration",
+     "rule": "R13b",
+     "answer": "6 weeks at_least, max 8 (normal vs Caesarean delivery)",
+     "quote": "This period is usually six weeks for a normal delivery and eight weeks for a cesarean section."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "U8",
+     "answer": "full base salary (band for 12 months of service and over; the member with two years)",
+     "quote": "Full base salary and benefits up to 26 weeks within a 52-week period"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U8",
+     "answer": "member with two years of service is in the 12-months-and-over band",
+     "quote": "No salary or benefits continuation. Eligible for the NYS Disability benefit only."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "within the short-term disability leave (deducted from its 26 weeks)",
+     "quote": "Maternity Disability shall be considered as falling within the category of leave for short-term disability, and is deducted from the total allowance of 26 weeks."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave, relief not stated)",
+     "quote": "A woman shall receive paid leave subject to verification by a physician for a period distributed in accordance with need before and/or after childbirth or miscarriage."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "A woman shall receive paid leave subject to verification by a physician for a period distributed in accordance with need before and/or after childbirth or miscarriage."
+    }
+   ],
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave"
+  },
+  {
+   "component_id": "pace_university_c3",
+   "institution_label": "Short-Term Disability leave",
+   "description": "Leave for the employee's own short-term disability (maternity disability included), up to 26 weeks within a 52-week period, medically certified, counted as FMLA time; the pay is coded separately (c4).",
+   "mechanism": "unpaid_leave",
+   "mechanism_note": "U6: the documents grant an absence for the employee's own disability ('Short-Term Disability leave'; 'leave for short-term disability'; a tenured faculty member 'out on sick leave or disability is entitled to return'), with salary continuation; coded as the leave (here) and its pay (c4, within). The leave takes the 26-week allowance stated for the plan.",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "HR Leaves page Faculty section; 'our full time employees'; Faculty Handbook section H (tenured faculty out on sick leave or disability)",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "own disability (maternity disability: 'A woman')",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "service_requirement": "none stated for the leave; pay depends on service (c4)",
+   "duration": {
+    "value": 26,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "duration_note": "'total allowance of 26 weeks'; 'up to 26 weeks within a 52-week period'.",
+   "time_window": "within a 52-week period",
+   "medical_certification": true,
+   "medical_certification_note": "Short-Term Disability claim medically certified (administered by CIGNA)",
+   "rule_applied": [
+    "R9",
+    "U1",
+    "U5",
+    "U6",
+    "V2"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Pace University has paid and unpaid leave options available to our full time faculty.",
+     "A tenured faculty member who is out on sick leave or disability is entitled to return to his/her tenured appointment if he/she is medically cleared to return to work."
+    ],
+    "eligible_parent": [
+     "Maternity Disability shall be considered as falling within the category of leave for short-term disability, and is deducted from the total allowance of 26 weeks.",
+     "If a Short-Term Disability claim is medically certified, it will also count as time taken under the Family and Medical Leave Act."
+    ],
+    "entitlement": [
+     "A tenured faculty member who is out on sick leave or disability is entitled to return to his/her tenured appointment if he/she is medically cleared to return to work.",
+     "Full base salary and benefits up to 26 weeks within a 52-week period"
+    ],
+    "duration": [
+     "Maternity Disability shall be considered as falling within the category of leave for short-term disability, and is deducted from the total allowance of 26 weeks.",
+     "Full base salary and benefits up to 26 weeks within a 52-week period"
+    ],
+    "service_requirement": [
+     "Full base salary and benefits up to 26 weeks within a 52-week period"
+    ],
+    "mechanism": [
+     "CIGNA is the administrator for both Short-Term Disability leave and for Family and Medical Leave as of September 1, 2010.",
+     "Maternity Disability shall be considered as falling within the category of leave for short-term disability, and is deducted from the total allowance of 26 weeks.",
+     "A tenured faculty member who is out on sick leave or disability is entitled to return to his/her tenured appointment if he/she is medically cleared to return to work."
+    ],
+    "medical_certification": [
+     "If a Short-Term Disability claim is medically certified, it will also count as time taken under the Family and Medical Leave Act."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_hr_leaves_page",
+    "2018_01_faculty_handbook_2013_edition"
+   ],
+   "flags": [
+    "cross_reference_not_saved: How to Report a Short-Term Disability Claim and/or Family Medical Leave (FML) (HR page link)",
+    "cross_reference_not_saved: Sick Leave (Faculty Handbook D.15 'see Sick Leave'; no sick-leave policy saved)",
+    "own_illness_leave"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "U6",
+     "answer": "unpaid_leave",
+     "quote": "CIGNA is the administrator for both Short-Term Disability leave and for Family and Medical Leave as of September 1, 2010."
+    },
+    {
+     "field": "payer",
+     "rule": "U6",
+     "answer": "none",
+     "quote": "CIGNA is the administrator for both Short-Term Disability leave and for Family and Medical Leave as of September 1, 2010."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Pace University has paid and unpaid leave options available to our full time faculty."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own disability)",
+     "quote": "Maternity Disability shall be considered as falling within the category of leave for short-term disability, and is deducted from the total allowance of 26 weeks."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "A tenured faculty member who is out on sick leave or disability is entitled to return to his/her tenured appointment if he/she is medically cleared to return to work."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "26 weeks up_to",
+     "quote": "Full base salary and benefits up to 26 weeks within a 52-week period"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "none stated for the leave",
+     "quote": "Full base salary and benefits up to 26 weeks within a 52-week period"
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave, relief not stated)",
+     "quote": "CIGNA is the administrator for both Short-Term Disability leave and for Family and Medical Leave as of September 1, 2010."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "CIGNA is the administrator for both Short-Term Disability leave and for Family and Medical Leave as of September 1, 2010."
+    }
+   ],
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave"
+  },
+  {
+   "component_id": "pace_university_c4",
+   "institution_label": "Salary and Benefits Continuation",
+   "description": "The University's salary continuation for short-term disability: full base salary and benefits for up to 26 weeks in a 52-week period at 12 months of service and over (staged half pay at 3-12 months, none under 3 months).",
+   "mechanism": "generic_sick_or_disability_plan",
+   "mechanism_note": "Pay for any short-term disability; its childbirth period is coded as c2 (V1). Employees with under 3 months of service receive no University continuation and are referred to the NYS disability benefit (another path, U8; notes).",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "'our full time employees' (HR Leaves page, Faculty section)",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "own disability",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "service_requirement": "3 months of full-time service for any continuation; 12 months and over for full base salary up to 26 weeks",
+   "duration": {
+    "value": 26,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "duration_note": "Band for the member with two years of service (12 months and over). 3-12 months: first two months full base salary, up to four additional months half salary. Under 3 months: no University continuation (NYS disability benefit).",
+   "pay_fraction": "Full base salary and benefits",
+   "time_window": "within a 52-week period",
+   "medical_certification": true,
+   "medical_certification_note": "Short-Term Disability claim medically certified",
+   "sequence": [
+    {
+     "relation": "within",
+     "component_id": "pace_university_c3",
+     "note": "Pay for the short-term disability leave (U6)."
+    }
+   ],
+   "rule_applied": [
+    "R15",
+    "U1",
+    "U6",
+    "U8",
+    "V6"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "The University provides salary and benefits continuation to our full time employees as indicated below:"
+    ],
+    "eligible_parent": [
+     "Maternity Disability shall be considered as falling within the category of leave for short-term disability, and is deducted from the total allowance of 26 weeks."
+    ],
+    "entitlement": [
+     "The University provides salary and benefits continuation to our full time employees as indicated below:"
+    ],
+    "duration": [
+     "Full base salary and benefits up to 26 weeks within a 52-week period"
+    ],
+    "pay_fraction": [
+     "12 Months and Over",
+     "Full base salary and benefits up to 26 weeks within a 52-week period"
+    ],
+    "service_requirement": [
+     "No salary or benefits continuation. Eligible for the NYS Disability benefit only.",
+     "First two (2) months – full base salary, Up to four (4) additional months – one-half salary",
+     "Full base salary and benefits up to 26 weeks within a 52-week period"
+    ],
+    "sequence": [
+     "CIGNA is the administrator for both Short-Term Disability leave and for Family and Medical Leave as of September 1, 2010.",
+     "The University provides salary and benefits continuation to our full time employees as indicated below:"
+    ]
+   },
+   "doc_ids": [
+    "2018_00_hr_leaves_page"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "V6",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "The University provides salary and benefits continuation to our full time employees as indicated below:"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "The University provides salary and benefits continuation to our full time employees as indicated below:"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "The University provides salary and benefits continuation to our full time employees as indicated below:"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own disability)",
+     "quote": "Maternity Disability shall be considered as falling within the category of leave for short-term disability, and is deducted from the total allowance of 26 weeks."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "The University provides salary and benefits continuation to our full time employees as indicated below:"
+    },
+    {
+     "field": "duration",
+     "rule": "U8",
+     "answer": "26 weeks up_to (12-months-and-over band)",
+     "quote": "Full base salary and benefits up to 26 weeks within a 52-week period"
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "U8",
+     "answer": "full base salary (12-months-and-over band)",
+     "quote": "Full base salary and benefits up to 26 weeks within a 52-week period"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U8",
+     "answer": "member with two years: 12 months and over band",
+     "quote": "First two (2) months – full base salary, Up to four (4) additional months – one-half salary"
+    },
+    {
+     "field": "sequence",
+     "rule": "U6",
+     "answer": "within the short-term disability leave c3",
+     "quote": "CIGNA is the administrator for both Short-Term Disability leave and for Family and Medical Leave as of September 1, 2010."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "The University provides salary and benefits continuation to our full time employees as indicated below:"
+    }
+   ]
+  },
+  {
+   "component_id": "pace_university_c5",
+   "institution_label": "Family and Medical Leave",
+   "description": "Federal FMLA leave (listed among the faculty's unpaid leave options): 12 workweeks of job-protected leave in a 12-month period for a birth, adoption or foster placement, own serious health condition or care of a family member; short-term disability runs as FMLA time.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "HR Leaves page, Faculty section: 'For more information on unpaid leave options ... Family and Medical Leave'",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "birth of a son or daughter of the employee; placement for adoption or foster care (statute)",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "service_requirement": "12 months and 1,250 hours",
+   "duration": {
+    "value": 12,
+    "units": "workweek",
+    "qualifier": "exact"
+   },
+   "duration_note": "12 workweeks during any 12-month period (29 U.S.C. 2612(a)(1)); the documents name the Act without its length (U2). Unpaid where not covered by paid leave.",
+   "time_window": "birth or placement entitlement expires at the end of the 12-month period beginning on the date of the birth or placement",
+   "statute_source": "29 U.S.C. 2612(a)(1)(A)-(D), 2612(a)(2); 29 U.S.C. 2611(2)",
+   "statute_verified": true,
+   "runs_concurrently_with": [
+    "pace_university_c3"
+   ],
+   "sequence": [
+    {
+     "relation": "concurrent_with",
+     "component_id": "pace_university_c3",
+     "note": "S1: a medically certified short-term disability claim also counts as FMLA time; FMLA runs alongside the disability leave from its start (birth parent). For the non-birth parent c3 does not count and FMLA is placed on its own."
+    }
+   ],
+   "rule_applied": [
+    "R13",
+    "R9",
+    "S1",
+    "U1",
+    "U2",
+    "U4"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Pace University has paid and unpaid leave options available to our full time faculty."
+    ],
+    "eligible_parent": [
+     "Because of the birth of a son or daughter of the employee and in order to care for such son or daughter.",
+     "Because of the placement of a son or daughter with the employee for adoption or foster care.",
+     "They no longer fear losing their jobs if they take time off for the birth or adoption of a child, for their own serious illness, or for the serious health condition of a family member."
+    ],
+    "entitlement": [
+     "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period for one or more of the following:"
+    ],
+    "duration": [
+     "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period for one or more of the following:"
+    ],
+    "service_requirement": [
+     "for at least 12 months by the employer with respect to whom leave is requested under section 2612 of this title; and",
+     "for at least 1,250 hours of service with such employer during the previous 12-month period."
+    ],
+    "sequence": [
+     "If a Short-Term Disability claim is medically certified, it will also count as time taken under the Family and Medical Leave Act."
+    ],
+    "time_window": [
+     "The entitlement to leave under subparagraphs (A) and (B) of paragraph (1) for a birth or placement of a son or daughter shall expire at the end of the 12-month period beginning on the date of such birth or placement."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_hr_leaves_page",
+    "2026_00_us_fmla_29usc2612",
+    "2026_01_us_fmla_29usc2611_definitions"
+   ],
+   "flags": [
+    "cross_reference_not_saved: Family and Medical Leave Policy (Pace University; HR page link)",
+    "cross_reference_not_saved: Employee Rights and Responsibilities Under the Family and Medical Leave Act (HR page link)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "U4",
+     "answer": "unpaid_leave",
+     "quote": "They no longer fear losing their jobs if they take time off for the birth or adoption of a child, for their own serious illness, or for the serious health condition of a family member."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period for one or more of the following:"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Pace University has paid and unpaid leave options available to our full time faculty."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U2",
+     "answer": "birth_parent, non_birth_parent, adoptive, foster",
+     "quote": "Because of the birth of a son or daughter of the employee and in order to care for such son or daughter."
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period for one or more of the following:"
+    },
+    {
+     "field": "duration",
+     "rule": "U2",
+     "answer": "12 workweeks exact ('a total of')",
+     "quote": "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period for one or more of the following:"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U2",
+     "answer": "12 months and 1,250 hours",
+     "quote": "for at least 1,250 hours of service with such employer during the previous 12-month period."
+    },
+    {
+     "field": "sequence",
+     "rule": "S1",
+     "answer": "concurrent_with the short-term disability leave c3",
+     "quote": "If a Short-Term Disability claim is medically certified, it will also count as time taken under the Family and Medical Leave Act."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave, relief not stated)",
+     "quote": "They no longer fear losing their jobs if they take time off for the birth or adoption of a child, for their own serious illness, or for the serious health condition of a family member."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "They no longer fear losing their jobs if they take time off for the birth or adoption of a child, for their own serious illness, or for the serious health condition of a family member."
+    }
+   ],
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave"
+  },
+  {
+   "component_id": "pace_university_c6",
+   "institution_label": "long-term disability insurance",
+   "description": "Long-term disability insurance offered to faculty as a benefit; a tenured faculty member on long-term disability keeps return rights subject to section H. No childbirth length can come from it.",
+   "mechanism": "generic_sick_or_disability_plan",
+   "mechanism_note": "Long-term disability plan (schema §2): recorded without a duration.",
+   "payer": "insurance_plan",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "'Pace University offers a full range of benefits to its faculty, administrative, and staff employees' (Handbook D.4.B)",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "own disability",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "rule_applied": [
+    "M1",
+    "U1",
+    "U5"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Benefits include, but are not limited to, medical insurance, dental insurance, a 403(b) retirement plan, short-term and long-term disability insurance, life insurance, medical and dependent care reimbursement accounts and tuition reimbursement."
+    ],
+    "eligible_parent": [
+     "However, when a tenured faculty member is out on long-term disability, and based on clear and convincing medical evidence,"
+    ],
+    "entitlement": [
+     "Benefits include, but are not limited to, medical insurance, dental insurance, a 403(b) retirement plan, short-term and long-term disability insurance, life insurance, medical and dependent care reimbursement accounts and tuition reimbursement."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_faculty_handbook_2013_edition"
+   ],
+   "flags": [
+    "cross_reference_not_saved: long-term disability plan documents (Summary Plan Documents on the Benefits Office website)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "Benefits include, but are not limited to, medical insurance, dental insurance, a 403(b) retirement plan, short-term and long-term disability insurance, life insurance, medical and dependent care reimbursement accounts and tuition reimbursement."
+    },
+    {
+     "field": "payer",
+     "rule": "M1",
+     "answer": "insurance_plan",
+     "quote": "Benefits include, but are not limited to, medical insurance, dental insurance, a 403(b) retirement plan, short-term and long-term disability insurance, life insurance, medical and dependent care reimbursement accounts and tuition reimbursement."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Benefits include, but are not limited to, medical insurance, dental insurance, a 403(b) retirement plan, short-term and long-term disability insurance, life insurance, medical and dependent care reimbursement accounts and tuition reimbursement."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own disability)",
+     "quote": "However, when a tenured faculty member is out on long-term disability, and based on clear and convincing medical evidence,"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "Benefits include, but are not limited to, medical insurance, dental insurance, a 403(b) retirement plan, short-term and long-term disability insurance, life insurance, medical and dependent care reimbursement accounts and tuition reimbursement."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Benefits include, but are not limited to, medical insurance, dental insurance, a 403(b) retirement plan, short-term and long-term disability insurance, life insurance, medical and dependent care reimbursement accounts and tuition reimbursement."
+    }
+   ]
+  },
+  {
+   "component_id": "pace_university_c7",
+   "institution_label": "Tenure Clock Stoppage",
+   "description": "One academic year of tenure clock stoppage, granted automatically on notification to a parent primarily responsible for the care of a newborn, newly adopted child, new foster or guardianship placement or new legal custodial care.",
+   "mechanism": "tenure_clock",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "tenure-track faculty in the tenure probationary period (Faculty Handbook D.7)",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "a parent primarily responsible for the care of a newborn child, newly adopted child, new foster care or guardianship placement, or newly-established legal custodial care",
+   "caregiver_condition": "primary",
+   "caregiver_condition_wording": "a parent primarily responsible for the care of a newborn child ...; \"Primary care\" means day-to-day responsibility for the care of a child, parent, spouse or registered domestic partner for a substantial portion of the period of clock stoppage.",
+   "entitlement": "guaranteed",
+   "entitlement_note": "'will be granted automatically ... upon notification': guaranteed.",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "exact"
+   },
+   "duration_note": "One academic year. Total stoppage during the probationary period is capped at two academic years (D.7).",
+   "notice": "notification to the Department Chairperson and the Dean",
+   "rule_applied": [
+    "R6",
+    "U1",
+    "U9",
+    "V2"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Tenure clock stoppage may be granted for one or more years up to a maximum of two academic years during the tenure probationary period."
+    ],
+    "eligible_parent": [
+     "Tenure clock stoppage for one academic year will be granted automatically in the case of a parent primarily responsible for the care of a newborn child, newly adopted child, new foster care or guardianship placement, or newly-established legal custodial care, upon notification to the Department Chairperson and the Dean."
+    ],
+    "entitlement": [
+     "Tenure clock stoppage for one academic year will be granted automatically in the case of a parent primarily responsible for the care of a newborn child, newly adopted child, new foster care or guardianship placement, or newly-established legal custodial care, upon notification to the Department Chairperson and the Dean."
+    ],
+    "duration": [
+     "Tenure clock stoppage for one academic year will be granted automatically in the case of a parent primarily responsible for the care of a newborn child, newly adopted child, new foster care or guardianship placement, or newly-established legal custodial care, upon notification to the Department Chairperson and the Dean."
+    ],
+    "caregiver_condition": [
+     "Tenure clock stoppage for one academic year will be granted automatically in the case of a parent primarily responsible for the care of a newborn child, newly adopted child, new foster care or guardianship placement, or newly-established legal custodial care, upon notification to the Department Chairperson and the Dean."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_faculty_handbook_2013_edition"
+   ],
+   "flags": [
+    "ambiguous: restriction: total tenure clock stoppage capped at two academic years during the probationary period (a cap on time, not a count of uses; U9 not applied)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "Tenure clock stoppage for one academic year will be granted automatically in the case of a parent primarily responsible for the care of a newborn child, newly adopted child, new foster care or guardianship placement, or newly-established legal custodial care, upon notification to the Department Chairperson and the Dean."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Tenure clock stoppage for one academic year will be granted automatically in the case of a parent primarily responsible for the care of a newborn child, newly adopted child, new foster care or guardianship placement, or newly-established legal custodial care, upon notification to the Department Chairperson and the Dean."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Tenure clock stoppage may be granted for one or more years up to a maximum of two academic years during the tenure probationary period."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "birth_parent, non_birth_parent, adoptive, foster",
+     "quote": "Tenure clock stoppage for one academic year will be granted automatically in the case of a parent primarily responsible for the care of a newborn child, newly adopted child, new foster care or guardianship placement, or newly-established legal custodial care, upon notification to the Department Chairperson and the Dean."
+    },
+    {
+     "field": "caregiver_condition",
+     "rule": "R6",
+     "answer": "primary",
+     "quote": "Tenure clock stoppage for one academic year will be granted automatically in the case of a parent primarily responsible for the care of a newborn child, newly adopted child, new foster care or guardianship placement, or newly-established legal custodial care, upon notification to the Department Chairperson and the Dean."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "Tenure clock stoppage for one academic year will be granted automatically in the case of a parent primarily responsible for the care of a newborn child, newly adopted child, new foster care or guardianship placement, or newly-established legal custodial care, upon notification to the Department Chairperson and the Dean."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 academic year exact",
+     "quote": "Tenure clock stoppage for one academic year will be granted automatically in the case of a parent primarily responsible for the care of a newborn child, newly adopted child, new foster care or guardianship placement, or newly-established legal custodial care, upon notification to the Department Chairperson and the Dean."
+    },
+    {
+     "field": "use_limit",
+     "rule": "U9",
+     "answer": "no use_limit: the two-academic-year maximum is a cap on total stoppage time, not a number of uses; flagged as a restriction",
+     "quote": "Tenure clock stoppage may be granted for one or more years up to a maximum of two academic years during the tenure probationary period."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Tenure clock stoppage for one academic year will be granted automatically in the case of a parent primarily responsible for the care of a newborn child, newly adopted child, new foster care or guardianship placement, or newly-established legal custodial care, upon notification to the Department Chairperson and the Dean."
+    }
+   ]
+  },
+  {
+   "component_id": "pace_university_c8",
+   "institution_label": "Tenure Clock Stoppage",
+   "description": "Tenure clock stoppage that may be authorized (chair, dean and provost approval) for a faculty member granted one or more full semesters of illness/disability (including maternity) leave or a personal leave of absence.",
+   "mechanism": "tenure_clock",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "tenure-track faculty in the tenure probationary period (Faculty Handbook D.7)",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent"
+   ],
+   "eligible_parent_wording": "a faculty member who is granted one or more full semesters of leave for ... illness/disability (including maternity) leave, or a personal leave of absence",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "entitlement_note": "'may be authorized'; requires approval of the Chairperson, Dean and Provost (V2).",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "up_to"
+   },
+   "duration_note": "One or more years up to two academic years in total; a single stoppage is limited to one academic year, with extraordinary circumstances allowing more.",
+   "notice": "requests no later than three months following the onset of the associated event(s)",
+   "rule_applied": [
+    "R13",
+    "U1",
+    "V2"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Tenure clock stoppage may be granted for one or more years up to a maximum of two academic years during the tenure probationary period."
+    ],
+    "eligible_parent": [
+     "Tenure clock stoppage may be authorized for a faculty member who is granted one or more full semesters of leave for any one of, or combination of, illness/disability (including maternity) leave, or a personal leave of absence (for a purpose other than an approved professional pursuit) in accordance with Section D.30 of the Faculty Handbook."
+    ],
+    "entitlement": [
+     "Tenure clock stoppage may be authorized for a faculty member who is granted one or more full semesters of leave for any one of, or combination of, illness/disability (including maternity) leave, or a personal leave of absence (for a purpose other than an approved professional pursuit) in accordance with Section D.30 of the Faculty Handbook.",
+     "In all other cases, a request for tenure clock stoppage and the duration thereof, shall require approval by the Department Chairperson, the Dean and the Provost;"
+    ],
+    "duration": [
+     "Except in extraordinary circumstances, no single tenure clock stoppage will be granted for longer than one academic year.",
+     "Tenure clock stoppage may be granted for one or more years up to a maximum of two academic years during the tenure probationary period."
+    ],
+    "notice": [
+     "Requests shall be made no later than three months following the onset of the associated event(s), except in cases where a medical condition or other extenuating circumstance reasonably prevents the faculty member from making the request within the three-month period."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_faculty_handbook_2013_edition"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "Tenure clock stoppage may be authorized for a faculty member who is granted one or more full semesters of leave for any one of, or combination of, illness/disability (including maternity) leave, or a personal leave of absence (for a purpose other than an approved professional pursuit) in accordance with Section D.30 of the Faculty Handbook."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Tenure clock stoppage may be authorized for a faculty member who is granted one or more full semesters of leave for any one of, or combination of, illness/disability (including maternity) leave, or a personal leave of absence (for a purpose other than an approved professional pursuit) in accordance with Section D.30 of the Faculty Handbook."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Tenure clock stoppage may be granted for one or more years up to a maximum of two academic years during the tenure probationary period."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "birth_parent, non_birth_parent (any faculty member granted the leave)",
+     "quote": "Tenure clock stoppage may be authorized for a faculty member who is granted one or more full semesters of leave for any one of, or combination of, illness/disability (including maternity) leave, or a personal leave of absence (for a purpose other than an approved professional pursuit) in accordance with Section D.30 of the Faculty Handbook."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "Tenure clock stoppage may be authorized for a faculty member who is granted one or more full semesters of leave for any one of, or combination of, illness/disability (including maternity) leave, or a personal leave of absence (for a purpose other than an approved professional pursuit) in accordance with Section D.30 of the Faculty Handbook."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 academic year up_to (no single stoppage longer than one year)",
+     "quote": "Except in extraordinary circumstances, no single tenure clock stoppage will be granted for longer than one academic year."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "Tenure clock stoppage may be authorized for a faculty member who is granted one or more full semesters of leave for any one of, or combination of, illness/disability (including maternity) leave, or a personal leave of absence (for a purpose other than an approved professional pursuit) in accordance with Section D.30 of the Faculty Handbook."
+    }
+   ]
+  },
+  {
+   "component_id": "pace_university_c9",
+   "institution_label": "Leave of Absence",
+   "description": "Unpaid leave of absence for personal or University-related reasons, normally not exceeding one year, which may be granted to full-time faculty on request with Council of Academic Deans approval.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "full-time faculty members (Faculty Handbook D.30)",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "full-time faculty members (any purpose)",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "entitlement_note": "'may be granted ... upon request'; requires the approval of the Council of Academic Deans (V2).",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "up_to"
+   },
+   "duration_note": "'would not normally exceed one year' (Q1: up_to, normally).",
+   "rule_applied": [
+    "Q1",
+    "R9",
+    "U1",
+    "V2"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "A leave of absence without salary for a period that would not normally exceed one year may be granted to full-time faculty members upon request."
+    ],
+    "eligible_parent": [
+     "A leave of absence without salary for a period that would not normally exceed one year may be granted to full-time faculty members upon request.",
+     "Leaves may be granted for either personal or University related (e.g. educational) reasons."
+    ],
+    "entitlement": [
+     "A leave of absence without salary for a period that would not normally exceed one year may be granted to full-time faculty members upon request.",
+     "Requests for leave shall be in writing and require the approval of the Council of Academic Deans."
+    ],
+    "duration": [
+     "A leave of absence without salary for a period that would not normally exceed one year may be granted to full-time faculty members upon request."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_faculty_handbook_2013_edition"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "A leave of absence without salary for a period that would not normally exceed one year may be granted to full-time faculty members upon request."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "A leave of absence without salary for a period that would not normally exceed one year may be granted to full-time faculty members upon request."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "A leave of absence without salary for a period that would not normally exceed one year may be granted to full-time faculty members upon request."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent (no role named)",
+     "quote": "Leaves may be granted for either personal or University related (e.g. educational) reasons."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "A leave of absence without salary for a period that would not normally exceed one year may be granted to full-time faculty members upon request."
+    },
+    {
+     "field": "duration",
+     "rule": "Q1",
+     "answer": "1 year up_to ('would not normally exceed')",
+     "quote": "A leave of absence without salary for a period that would not normally exceed one year may be granted to full-time faculty members upon request."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave, relief not stated)",
+     "quote": "A leave of absence without salary for a period that would not normally exceed one year may be granted to full-time faculty members upon request."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "Leaves may be granted for either personal or University related (e.g. educational) reasons."
+    }
+   ],
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave"
+  },
+  {
+   "component_id": "pace_university_c10",
+   "institution_label": "Faculty returning from Disability or Family Medical Leave Act (FMLA) Leave",
+   "description": "Full-time faculty who return from short-term disability, long-term disability or FMLA leave during a Fall or Spring semester continue advising and are assigned other administrative duties by the chair for the rest of that semester; teaching relief is not stated.",
+   "mechanism": "other",
+   "mechanism_note": "An assignment of duties on return mid-semester; the text names advising and administrative duties but does not state that teaching is relieved or for how long, so it is not coded as relief (R16; R4). Counted in no figure.",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Full-time faculty members (Faculty Handbook D.30)",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent"
+   ],
+   "eligible_parent_wording": "faculty returning from short-term disability, long-term disability or FMLA leave",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "entitlement_note": "'will be required to continue advising and will be assigned other administrative duties': stated as what will happen.",
+   "time_window": "return following the start of, and before the end of, the Spring or Fall semester",
+   "relief": {
+    "teaching": "not_stated",
+    "service_admin": "continues",
+    "research": "not_stated",
+    "advising_supervision": "continues",
+    "clinical": "not_stated"
+   },
+   "relief_note": "Advising continues and other administrative duties are assigned; the text says nothing about teaching for the rest of the semester.",
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "pace_university_c3",
+     "roles": [
+      "birth"
+     ],
+     "note": "Applies on return from the disability leave (R15: start tied to the end of another leave; for the birth parent the last leave taken is the short-term disability leave)."
+    },
+    {
+     "relation": "consecutive_after",
+     "component_id": "pace_university_c5",
+     "roles": [
+      "nonbirth"
+     ],
+     "note": "For the non-birth parent the leave returned from is FMLA."
+    }
+   ],
+   "rule_applied": [
+    "R15",
+    "R16",
+    "R4",
+    "U1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Full-time faculty members who return from a medically approved related leave (short-term disability, long-term disability, or Family Medical Leave Act (FMLA)) following the start of, and before the end of, either the Spring or Fall semester, will be required to continue advising and will be assigned other administrative duties as determined by their department chair."
+    ],
+    "eligible_parent": [
+     "Full-time faculty members who return from a medically approved related leave (short-term disability, long-term disability, or Family Medical Leave Act (FMLA)) following the start of, and before the end of, either the Spring or Fall semester, will be required to continue advising and will be assigned other administrative duties as determined by their department chair."
+    ],
+    "entitlement": [
+     "Full-time faculty members who return from a medically approved related leave (short-term disability, long-term disability, or Family Medical Leave Act (FMLA)) following the start of, and before the end of, either the Spring or Fall semester, will be required to continue advising and will be assigned other administrative duties as determined by their department chair."
+    ],
+    "relief": [
+     "Full-time faculty members who return from a medically approved related leave (short-term disability, long-term disability, or Family Medical Leave Act (FMLA)) following the start of, and before the end of, either the Spring or Fall semester, will be required to continue advising and will be assigned other administrative duties as determined by their department chair."
+    ],
+    "sequence": [
+     "Full-time faculty members who return from a medically approved related leave (short-term disability, long-term disability, or Family Medical Leave Act (FMLA)) following the start of, and before the end of, either the Spring or Fall semester, will be required to continue advising and will be assigned other administrative duties as determined by their department chair."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_faculty_handbook_2013_edition"
+   ],
+   "flags": [
+    "ambiguous: rule gap: duties assigned to faculty returning mid-semester from disability or FMLA leave (advising and administrative duties) imply but do not state teaching relief for the rest of the semester; coded other, not counted"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R16",
+     "answer": "other",
+     "quote": "Full-time faculty members who return from a medically approved related leave (short-term disability, long-term disability, or Family Medical Leave Act (FMLA)) following the start of, and before the end of, either the Spring or Fall semester, will be required to continue advising and will be assigned other administrative duties as determined by their department chair."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Full-time faculty members who return from a medically approved related leave (short-term disability, long-term disability, or Family Medical Leave Act (FMLA)) following the start of, and before the end of, either the Spring or Fall semester, will be required to continue advising and will be assigned other administrative duties as determined by their department chair."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (disability), non_birth_parent (FMLA)",
+     "quote": "Full-time faculty members who return from a medically approved related leave (short-term disability, long-term disability, or Family Medical Leave Act (FMLA)) following the start of, and before the end of, either the Spring or Fall semester, will be required to continue advising and will be assigned other administrative duties as determined by their department chair."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "Full-time faculty members who return from a medically approved related leave (short-term disability, long-term disability, or Family Medical Leave Act (FMLA)) following the start of, and before the end of, either the Spring or Fall semester, will be required to continue advising and will be assigned other administrative duties as determined by their department chair."
+    },
+    {
+     "field": "relief",
+     "rule": "R4",
+     "answer": "advising and administrative duties continue; other duties not stated",
+     "quote": "Full-time faculty members who return from a medically approved related leave (short-term disability, long-term disability, or Family Medical Leave Act (FMLA)) following the start of, and before the end of, either the Spring or Fall semester, will be required to continue advising and will be assigned other administrative duties as determined by their department chair."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "consecutive_after the leave returned from (c3 birth, c5 non-birth)",
+     "quote": "Full-time faculty members who return from a medically approved related leave (short-term disability, long-term disability, or Family Medical Leave Act (FMLA)) following the start of, and before the end of, either the Spring or Fall semester, will be required to continue advising and will be assigned other administrative duties as determined by their department chair."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Full-time faculty members who return from a medically approved related leave (short-term disability, long-term disability, or Family Medical Leave Act (FMLA)) following the start of, and before the end of, either the Spring or Fall semester, will be required to continue advising and will be assigned other administrative duties as determined by their department chair."
+    }
+   ]
+  },
+  {
+   "component_id": "pace_university_c11",
+   "institution_label": "Personal",
+   "description": "Staff personal leave without pay, up to 6 months, which may be granted after one year of service for reasons such as parental obligations; staff must first exhaust FMLA and/or New York Paid Family Leave for a birth or adoption.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "staff (non-faculty)",
+   "faculty_group_note": "HR Leaves page, Staff Leaves section ('available to our staff'); the Faculty section does not list it",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "Employees (staff); 'Parental obligations' among the example reasons",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "entitlement_note": "'may request'; 'may be granted'; supervisors weigh operating needs, performance and service (V2).",
+   "service_requirement": "at least one year of service",
+   "duration": {
+    "value": 6,
+    "units": "month",
+    "qualifier": "up_to"
+   },
+   "must_exhaust_first": [
+    "FMLA leave",
+    "New York Paid Family Leave"
+   ],
+   "notice": "in writing to the supervisor at least 30 days in advance",
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "pace_university_c5",
+     "note": "Staff must exhaust FMLA and/or NY Paid Family Leave before requesting personal leave."
+    }
+   ],
+   "rule_applied": [
+    "R15",
+    "R9",
+    "U1",
+    "V2"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Pace University has paid and unpaid leave options available to our staff."
+    ],
+    "eligible_parent": [
+     "Personal leave may be granted for reasons such as:",
+     "Parental obligations"
+    ],
+    "entitlement": [
+     "Employees who have at least one year of service may request a personal leave without pay for a maximum of 6 months.",
+     "Personal leave may be granted for reasons such as:",
+     "When reviewing the request, supervisors will consider the department's operating needs as well as the employee's job performance and length of service."
+    ],
+    "duration": [
+     "Employees who have at least one year of service may request a personal leave without pay for a maximum of 6 months."
+    ],
+    "service_requirement": [
+     "Employees who have at least one year of service may request a personal leave without pay for a maximum of 6 months."
+    ],
+    "sequence": [
+     "For leaves due to serious health conditions or the birth or adoption of a child, or for other reasons that are covered by the Family Medical Leave Act and/or New York Paid Family Leave, employees are required to exhaust their leave time under the Family and Medical Leave Act and/or New York Paid Family Leave before requesting a personal leave of absence."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_hr_leaves_page"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "Employees who have at least one year of service may request a personal leave without pay for a maximum of 6 months."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Employees who have at least one year of service may request a personal leave without pay for a maximum of 6 months."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "staff (non-faculty)",
+     "quote": "Pace University has paid and unpaid leave options available to our staff."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "Parental obligations"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "Employees who have at least one year of service may request a personal leave without pay for a maximum of 6 months."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "6 months up_to ('for a maximum of')",
+     "quote": "Employees who have at least one year of service may request a personal leave without pay for a maximum of 6 months."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "at least one year of service",
+     "quote": "Employees who have at least one year of service may request a personal leave without pay for a maximum of 6 months."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "consecutive_after FMLA (must be exhausted first)",
+     "quote": "For leaves due to serious health conditions or the birth or adoption of a child, or for other reasons that are covered by the Family Medical Leave Act and/or New York Paid Family Leave, employees are required to exhaust their leave time under the Family and Medical Leave Act and/or New York Paid Family Leave before requesting a personal leave of absence."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave, relief not stated)",
+     "quote": "Employees who have at least one year of service may request a personal leave without pay for a maximum of 6 months."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "Personal leave may be granted for reasons such as:"
+    }
+   ],
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave"
+  },
+  {
+   "component_id": "pace_university_c12",
+   "institution_label": "New York Paid Family Leave",
+   "description": "New York Paid Family Leave benefit, named in the staff personal-leave provision: in 2018 up to 8 weeks in a 52-week period at 50% of the average weekly wage (capped at 50% of the state average weekly wage).",
+   "mechanism": "government_benefit",
+   "mechanism_note": "State paid family leave programme (programs.csv: government_benefit).",
+   "payer": "insurance_plan",
+   "faculty_group": "staff (non-faculty)",
+   "faculty_group_note": "Named in the Staff Leaves section (personal leave); no saved document relies on it for faculty",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "employees; leave for the birth or adoption of a child",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 8,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "duration_note": "Family leave on or after 2018-01-01: not more than eight weeks in any 52-week period (N.Y. WCL s. 204(2)(a)(i)); payable from the first full day (s. 204(1)).",
+   "pay_fraction": "fifty percent of the employee's average weekly wage",
+   "pay_fraction_pct": 50,
+   "pay_cap": "shall not exceed fifty percent of the state average weekly wage",
+   "statute_source": "N.Y. Workers' Compensation Law s. 204(1), 204(2)(a)(i)",
+   "statute_verified": true,
+   "sequence": [
+    {
+     "relation": "concurrent_with",
+     "component_id": "pace_university_c13",
+     "note": "Pays during the job-protected family leave (checklist §5 example 8); no waiting period (programs.csv: 0)."
+    }
+   ],
+   "rule_applied": [
+    "M1",
+    "R14",
+    "R21",
+    "U2",
+    "U4"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "For leaves due to serious health conditions or the birth or adoption of a child, or for other reasons that are covered by the Family Medical Leave Act and/or New York Paid Family Leave, employees are required to exhaust their leave time under the Family and Medical Leave Act and/or New York Paid Family Leave before requesting a personal leave of absence.",
+     "Pace University has paid and unpaid leave options available to our staff."
+    ],
+    "eligible_parent": [
+     "For leaves due to serious health conditions or the birth or adoption of a child, or for other reasons that are covered by the Family Medical Leave Act and/or New York Paid Family Leave, employees are required to exhaust their leave time under the Family and Medical Leave Act and/or New York Paid Family Leave before requesting a personal leave of absence."
+    ],
+    "entitlement": [
+     "Family leave benefits shall be payable to an eligible employee for the first full day when family leave is required"
+    ],
+    "duration": [
+     "The weekly benefit for family leave that occurs (i) on or after January first, two thousand eighteen shall not exceed eight weeks during any fifty-two week calendar period and shall be fifty percent of the employee's average weekly wage but shall not exceed fifty percent of the state average weekly wage"
+    ],
+    "pay_fraction": [
+     "The weekly benefit for family leave that occurs (i) on or after January first, two thousand eighteen shall not exceed eight weeks during any fifty-two week calendar period and shall be fifty percent of the employee's average weekly wage but shall not exceed fifty percent of the state average weekly wage"
+    ],
+    "sequence": [
+     "Family leave benefits shall be payable to an eligible employee for the first full day when family leave is required"
+    ]
+   },
+   "doc_ids": [
+    "2018_00_hr_leaves_page",
+    "2018_42_ny_wcl_204_dbl_pfl_waiting"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "M1",
+     "answer": "government_benefit",
+     "quote": "For leaves due to serious health conditions or the birth or adoption of a child, or for other reasons that are covered by the Family Medical Leave Act and/or New York Paid Family Leave, employees are required to exhaust their leave time under the Family and Medical Leave Act and/or New York Paid Family Leave before requesting a personal leave of absence."
+    },
+    {
+     "field": "payer",
+     "rule": "M1",
+     "answer": "insurance_plan",
+     "quote": "For leaves due to serious health conditions or the birth or adoption of a child, or for other reasons that are covered by the Family Medical Leave Act and/or New York Paid Family Leave, employees are required to exhaust their leave time under the Family and Medical Leave Act and/or New York Paid Family Leave before requesting a personal leave of absence."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "staff (non-faculty)",
+     "quote": "Pace University has paid and unpaid leave options available to our staff."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U2",
+     "answer": "any_parent (birth or adoption)",
+     "quote": "For leaves due to serious health conditions or the birth or adoption of a child, or for other reasons that are covered by the Family Medical Leave Act and/or New York Paid Family Leave, employees are required to exhaust their leave time under the Family and Medical Leave Act and/or New York Paid Family Leave before requesting a personal leave of absence."
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "Family leave benefits shall be payable to an eligible employee for the first full day when family leave is required"
+    },
+    {
+     "field": "duration",
+     "rule": "U2",
+     "answer": "8 weeks up_to (2018)",
+     "quote": "The weekly benefit for family leave that occurs (i) on or after January first, two thousand eighteen shall not exceed eight weeks during any fifty-two week calendar period and shall be fifty percent of the employee's average weekly wage but shall not exceed fifty percent of the state average weekly wage"
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "U2",
+     "answer": "50% of average weekly wage, capped",
+     "quote": "The weekly benefit for family leave that occurs (i) on or after January first, two thousand eighteen shall not exceed eight weeks during any fifty-two week calendar period and shall be fifty percent of the employee's average weekly wage but shall not exceed fifty percent of the state average weekly wage"
+    },
+    {
+     "field": "sequence",
+     "rule": "R21",
+     "answer": "concurrent_with the protected family leave, no start offset (benefit payable from the first full day)",
+     "quote": "Family leave benefits shall be payable to an eligible employee for the first full day when family leave is required"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "For leaves due to serious health conditions or the birth or adoption of a child, or for other reasons that are covered by the Family Medical Leave Act and/or New York Paid Family Leave, employees are required to exhaust their leave time under the Family and Medical Leave Act and/or New York Paid Family Leave before requesting a personal leave of absence."
+    }
+   ]
+  },
+  {
+   "component_id": "pace_university_c13",
+   "institution_label": "New York Paid Family Leave",
+   "description": "The family leave itself under New York Paid Family Leave (staff), up to 8 weeks in 2018; the job protection is in a section of the Act that is not saved.",
+   "mechanism": "unpaid_leave",
+   "mechanism_note": "Checklist §5 example 8: a state programme that pays and protects the job is a government_benefit (c12) plus an unpaid_leave for the protected period.",
+   "payer": "none",
+   "faculty_group": "staff (non-faculty)",
+   "faculty_group_note": "Named in the Staff Leaves section (personal leave)",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "employees; leave for the birth or adoption of a child",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 8,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "duration_note": "Length from N.Y. WCL s. 204(2)(a)(i) (benefit weeks in 2018); the job-protection section (WCL s. 203-b) is not saved.",
+   "statute_source": "N.Y. Workers' Compensation Law art. 9 (s. 204(2)(a)(i) for the 2018 length)",
+   "statute_verified": false,
+   "rule_applied": [
+    "R9",
+    "U2",
+    "U4"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "For leaves due to serious health conditions or the birth or adoption of a child, or for other reasons that are covered by the Family Medical Leave Act and/or New York Paid Family Leave, employees are required to exhaust their leave time under the Family and Medical Leave Act and/or New York Paid Family Leave before requesting a personal leave of absence.",
+     "Pace University has paid and unpaid leave options available to our staff."
+    ],
+    "eligible_parent": [
+     "For leaves due to serious health conditions or the birth or adoption of a child, or for other reasons that are covered by the Family Medical Leave Act and/or New York Paid Family Leave, employees are required to exhaust their leave time under the Family and Medical Leave Act and/or New York Paid Family Leave before requesting a personal leave of absence."
+    ],
+    "entitlement": [
+     "For leaves due to serious health conditions or the birth or adoption of a child, or for other reasons that are covered by the Family Medical Leave Act and/or New York Paid Family Leave, employees are required to exhaust their leave time under the Family and Medical Leave Act and/or New York Paid Family Leave before requesting a personal leave of absence."
+    ],
+    "duration": [
+     "The weekly benefit for family leave that occurs (i) on or after January first, two thousand eighteen shall not exceed eight weeks during any fifty-two week calendar period and shall be fifty percent of the employee's average weekly wage but shall not exceed fifty percent of the state average weekly wage"
+    ]
+   },
+   "doc_ids": [
+    "2018_00_hr_leaves_page",
+    "2018_42_ny_wcl_204_dbl_pfl_waiting"
+   ],
+   "flags": [
+    "statutory_detail_not_in_sources: N.Y. Workers' Compensation Law s. 203-b (job protection during paid family leave)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "U4",
+     "answer": "unpaid_leave",
+     "quote": "For leaves due to serious health conditions or the birth or adoption of a child, or for other reasons that are covered by the Family Medical Leave Act and/or New York Paid Family Leave, employees are required to exhaust their leave time under the Family and Medical Leave Act and/or New York Paid Family Leave before requesting a personal leave of absence."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "For leaves due to serious health conditions or the birth or adoption of a child, or for other reasons that are covered by the Family Medical Leave Act and/or New York Paid Family Leave, employees are required to exhaust their leave time under the Family and Medical Leave Act and/or New York Paid Family Leave before requesting a personal leave of absence."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "staff (non-faculty)",
+     "quote": "Pace University has paid and unpaid leave options available to our staff."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U2",
+     "answer": "any_parent (birth or adoption)",
+     "quote": "For leaves due to serious health conditions or the birth or adoption of a child, or for other reasons that are covered by the Family Medical Leave Act and/or New York Paid Family Leave, employees are required to exhaust their leave time under the Family and Medical Leave Act and/or New York Paid Family Leave before requesting a personal leave of absence."
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "For leaves due to serious health conditions or the birth or adoption of a child, or for other reasons that are covered by the Family Medical Leave Act and/or New York Paid Family Leave, employees are required to exhaust their leave time under the Family and Medical Leave Act and/or New York Paid Family Leave before requesting a personal leave of absence."
+    },
+    {
+     "field": "duration",
+     "rule": "U2",
+     "answer": "8 weeks up_to (2018 benefit length)",
+     "quote": "The weekly benefit for family leave that occurs (i) on or after January first, two thousand eighteen shall not exceed eight weeks during any fifty-two week calendar period and shall be fifty percent of the employee's average weekly wage but shall not exceed fifty percent of the state average weekly wage"
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave, relief not stated)",
+     "quote": "For leaves due to serious health conditions or the birth or adoption of a child, or for other reasons that are covered by the Family Medical Leave Act and/or New York Paid Family Leave, employees are required to exhaust their leave time under the Family and Medical Leave Act and/or New York Paid Family Leave before requesting a personal leave of absence."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "For leaves due to serious health conditions or the birth or adoption of a child, or for other reasons that are covered by the Family Medical Leave Act and/or New York Paid Family Leave, employees are required to exhaust their leave time under the Family and Medical Leave Act and/or New York Paid Family Leave before requesting a personal leave of absence."
+    }
+   ],
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave"
+  },
+  {
+   "component_id": "pace_university_c14",
+   "institution_label": "",
+   "description": "Employees' own accrued paid leave, which the FMLA statement says employees may use for childbirth, adoption and family illness; no balances, amounts or accrual rules are saved (the sick-leave policy the Handbook cites is not saved).",
+   "mechanism": "own_accrual",
+   "payer": "own_balance",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "'Pace University employees' (HR Leaves page, Family and Medical Leave paragraph in the Faculty section)",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "for childbirth, adoption, and family illness",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "'have already had the opportunity to use accrued paid leave': use of the employee's own balance (V2).",
+   "rule_applied": [
+    "R1",
+    "U1",
+    "V2"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Since Pace University employees have already had the opportunity to use accrued paid leave, or to request unpaid leave, for childbirth, adoption, and family illness, the new federal law does not significantly change our leave policies."
+    ],
+    "eligible_parent": [
+     "Since Pace University employees have already had the opportunity to use accrued paid leave, or to request unpaid leave, for childbirth, adoption, and family illness, the new federal law does not significantly change our leave policies."
+    ],
+    "entitlement": [
+     "Since Pace University employees have already had the opportunity to use accrued paid leave, or to request unpaid leave, for childbirth, adoption, and family illness, the new federal law does not significantly change our leave policies."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_hr_leaves_page"
+   ],
+   "flags": [
+    "cross_reference_not_saved: Sick Leave (Faculty Handbook D.15 'see Sick Leave')"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "own_accrual",
+     "quote": "Since Pace University employees have already had the opportunity to use accrued paid leave, or to request unpaid leave, for childbirth, adoption, and family illness, the new federal law does not significantly change our leave policies."
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "own_balance",
+     "quote": "Since Pace University employees have already had the opportunity to use accrued paid leave, or to request unpaid leave, for childbirth, adoption, and family illness, the new federal law does not significantly change our leave policies."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Since Pace University employees have already had the opportunity to use accrued paid leave, or to request unpaid leave, for childbirth, adoption, and family illness, the new federal law does not significantly change our leave policies."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "birth_parent, non_birth_parent, adoptive",
+     "quote": "Since Pace University employees have already had the opportunity to use accrued paid leave, or to request unpaid leave, for childbirth, adoption, and family illness, the new federal law does not significantly change our leave policies."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "Since Pace University employees have already had the opportunity to use accrued paid leave, or to request unpaid leave, for childbirth, adoption, and family illness, the new federal law does not significantly change our leave policies."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Since Pace University employees have already had the opportunity to use accrued paid leave, or to request unpaid leave, for childbirth, adoption, and family illness, the new federal law does not significantly change our leave policies."
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "Reference date 2018-02-27. The Faculty Handbook 2013 Edition is the governing document for faculty (version note: in force on the reference date; the next edition is from 2024). The HR Leaves page is a Wayback capture of 2018-03-09, within the reference academic year; its Faculty section repeats the Handbook's sabbatical, scholarly and parental-leave texts ('Source: 2013 Faculty Handbook'), and it supplies the Maternity and short-term disability terms the Handbook leaves to HR (the Handbook lists 'short-term and long-term disability insurance' among benefits and refers to the Benefits Office for details). Maternity is therefore not flagged summary_only.",
+  "missing is false: the Faculty Handbook is a governing faculty handbook covering tenure-stream faculty and contains the Faculty Parental Leave Policy, tenure clock stoppage and leaves.",
+  "The HR page's Staff section repeats the Faculty section's Maternity, Bereavement, Jury Duty, Military and Family and Medical Leave texts; these are the same provisions (c2-c5 cover 'full time employees'), not separate components. Staff-only: Personal leave (c11) and the NY Paid Family Leave it names (c12, c13).",
+  "Path (U8): the member with two years of service is in the '12 Months and Over' salary-continuation band (full base salary up to 26 weeks). Other paths: 3-12 months, first two months full base salary then up to four months half salary; under 3 months, no University continuation and 'Eligible for the NYS Disability benefit only' (NY Disability Benefits Law, not coded as a component for this member).",
+  "Not components: bereavement (death), jury duty, military leave (USERRA), sabbatical and scholarly leaves (professional projects), leave for doctoral study completion (degree completion), tenure clock stoppage for extraordinary circumstances (D.7(c): strikes, epidemics, disasters), and D.7(a)'s general caregiver clause, whose newborn case is the automatic stoppage c7 (specific provision governs) and whose other cases (a parent, spouse or partner in a health crisis) are folded into c7's note rather than coded separately.",
+  "Faculty Parental Leave (c1) is a two-course reduction in one semester at full salary; course reductions are recorded without a week count (R11b), so it adds no weeks to the 2018-definition figure.",
+  "Calendar: 'Academic Term is defined as the Spring or Fall semester' (kind of term stated, length not stated) -> calendar.kind = semester, and the term length follows R8's order. The Handbook also says 'The two-semester academic year shall consist of not more than thirty-six weeks' (a maximum, not a term length).",
+  "Chain, birth parent: short-term disability leave c3 (up to 26 weeks) from the start, containing the maternity childbirth benefit c2 (6, up to 8 weeks, full base salary) and the STD salary continuation c4 (up to 26 weeks, full pay; generic plan), with FMLA c5 (12 workweeks) concurrent from the start -> return-to-duty assignment c10 (other, not counted) consecutive_after c3. Course reduction c1 (two courses in the birth term or the next) and tenure clock stoppage c7 (one year) are unlinked.",
+  "Chain, non-birth parent: FMLA c5 (12 workweeks) -> return-to-duty assignment c10 (other) consecutive_after c5; course reduction c1 (if primary caregiver) and tenure clock stoppage c7 (if primarily responsible for care) unlinked.",
+  "Cross-references not saved: Pace Family and Medical Leave Policy; How to Report a Short-Term Disability Claim and/or Family Medical Leave (FML); Employee Rights and Responsibilities Under the FMLA; Sick Leave policy (Handbook D.15); short- and long-term disability Summary Plan Documents; Law School Faculty Handbook (Law School only); Union of Adjunct Faculty at Pace collective agreement (adjuncts only); Pace Policy Against Discrimination, Harassment and Retaliation; Provost's annual promotion and tenure statement."
+ ],
+ "statutory_floor": {
+  "jurisdiction": "US",
+  "year": "2018",
+  "weeks_birth": 12.0,
+  "weeks_nonbirth": 12.0,
+  "statute": "Family and Medical Leave Act (FMLA) (29 U.S.C. 2611-2612)",
+  "source_doc": "2026_00_us_fmla_29usc2612",
+  "table": "statutory_baseline.csv"
+ }
+}

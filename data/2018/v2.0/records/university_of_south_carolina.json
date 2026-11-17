@@ -1,0 +1,2468 @@
+{
+ "institution": "University of South Carolina",
+ "slug": "university_of_south_carolina",
+ "country": "US",
+ "model": "claude-opus-5-5",
+ "codebook_version": "1.25",
+ "schema_version": "1.25",
+ "reference_date": "2018-03-13",
+ "calendar": {
+  "term_weeks": null,
+  "note": "Semester calendar stated ('The modified duties semester may occur during the fall or spring semester of a given academic year.'); length not stated → semester default 16 (R8).",
+  "kind": "semester"
+ },
+ "documents": [
+  {
+   "doc_id": "2018_00_link",
+   "url": "http://www.sc.edu/policies/ppm/acaf160.pdf",
+   "title": "ACAF 1.60 Modified Duties Semester for Faculty",
+   "version_or_effective_date": "revised December 1, 2014 (capture 2016-08-19)",
+   "retrieved": "2026-10-18T17:40:16+00:00"
+  },
+  {
+   "doc_id": "2018_01_faculty_manual_columbia",
+   "url": "http://www.sc.edu/policies/facman/Faculty_Manual_Columbia.pdf",
+   "title": "The Faculty Manual, University of South Carolina Columbia",
+   "version_or_effective_date": "Latest Revision Date: June 9, 2017 (capture 2017-10-25)",
+   "retrieved": "2026-10-21T14:53:13+00:00"
+  },
+  {
+   "doc_id": "2018_02_acaf131_tenure_clock_extension",
+   "url": "http://www.sc.edu/policies/ppm/acaf131.pdf",
+   "title": "ACAF 1.31 Extension of Faculty Tenure-Track Probationary Period and Scheduled Post-Tenure Review",
+   "version_or_effective_date": "revised November 11, 2014 (capture 2018-08-15)",
+   "retrieved": "2026-10-21T14:53:26+00:00"
+  },
+  {
+   "doc_id": "2018_03_hr106_sick_leave",
+   "url": "http://www.sc.edu/policies/ppm/hr106.pdf",
+   "title": "HR 1.06 Sick Leave (superseded)",
+   "version_or_effective_date": "revised April 15, 2014; superseded by the February 7, 2018 revision",
+   "retrieved": "2026-10-21T14:53:32+00:00"
+  },
+  {
+   "doc_id": "2018_04_hr107_family_medical_leave",
+   "url": "http://www.sc.edu/policies/ppm/hr107.pdf",
+   "title": "HR 1.07 Family and Medical Leave",
+   "version_or_effective_date": "revised April 19, 2016 (capture 2018-12-21)",
+   "retrieved": "2026-10-21T14:53:39+00:00"
+  },
+  {
+   "doc_id": "2018_05_hr109_other_leave_with_pay",
+   "url": "http://www.sc.edu/policies/ppm/hr109.pdf",
+   "title": "HR 1.09 Other Leave with Pay (superseded)",
+   "version_or_effective_date": "revised October 16, 2013; superseded by the April 12, 2017 revision",
+   "retrieved": "2026-10-21T14:53:46+00:00"
+  },
+  {
+   "doc_id": "2018_06_hr112_leave_without_pay",
+   "url": "http://www.sc.edu/policies/ppm/hr112.pdf",
+   "title": "HR 1.12 Leave Without Pay",
+   "version_or_effective_date": "revised April 19, 2016 (capture 2016-08-04)",
+   "retrieved": "2026-10-21T14:53:52+00:00"
+  },
+  {
+   "doc_id": "2018_07_hr106_sick_leave_rev2018",
+   "url": "http://www.sc.edu/policies/ppm/hr106.pdf",
+   "title": "HR 1.06 Sick Leave",
+   "version_or_effective_date": "date of revision February 7, 2018 (capture 2018-12-21)",
+   "retrieved": "2026-10-21T14:54:59+00:00"
+  },
+  {
+   "doc_id": "2018_08_hr109_other_leave_with_pay_rev2017",
+   "url": "http://www.sc.edu/policies/ppm/hr109.pdf",
+   "title": "HR 1.09 Other Leave with Pay",
+   "version_or_effective_date": "revised April 12, 2017 (capture 2018-12-21)",
+   "retrieved": "2026-10-21T14:55:05+00:00"
+  }
+ ],
+ "missing": false,
+ "scope_accounting": {
+  "C1": {
+   "components": [
+    "university_of_south_carolina_c11"
+   ]
+  },
+  "C2": {
+   "components": [
+    "university_of_south_carolina_c1",
+    "university_of_south_carolina_c2",
+    "university_of_south_carolina_c3"
+   ]
+  },
+  "C3": {
+   "components": [
+    "university_of_south_carolina_c8",
+    "university_of_south_carolina_c9",
+    "university_of_south_carolina_c10",
+    "university_of_south_carolina_c13",
+    "university_of_south_carolina_c14",
+    "university_of_south_carolina_c15"
+   ]
+  },
+  "C4": {
+   "components": [
+    "university_of_south_carolina_c16"
+   ],
+   "not_components": [
+    {
+     "statute": "Americans with Disabilities Act (ADA) and ADA Amendments Act (HR 1.06)",
+     "reason": "disability-accommodation statute (U4); not a component"
+    },
+    {
+     "statute": "FMLA military family leave entitlements (National Defense Authorization Act FY 2008 and 2010), HR 1.07",
+     "reason": "sections not relied on for a birth or adoption (U4): qualifying exigency and military caregiver leave"
+    },
+    {
+     "statute": "Consolidated Omnibus Budget Reconciliation Act (COBRA), HR 1.07",
+     "reason": "health-insurance continuation; gives no leave, pay or protection for a birth"
+    },
+    {
+     "statute": "Regulations of the South Carolina (State) Division of Human Resources (HR 1.06, 1.09, 1.12)",
+     "reason": "state leave regulations the university policies implement; their terms are coded through the university policies (sick leave, leave without pay); not saved"
+    },
+    {
+     "statute": "South Carolina military leave law (HR 1.09 short-term military training; long-term military leave)",
+     "reason": "military leave; unrelated to becoming a parent (U4)"
+    },
+    {
+     "statute": "S.C. Code Section 19-712.01 (state employee grievances), HR 1.09",
+     "reason": "grievance attendance; unrelated to parenthood"
+    },
+    {
+     "statute": "S.C. Code Sections 59-117-10, -20, -30, -40 (Board of Trustees), Faculty Manual Appendix I",
+     "reason": "university governance; unrelated to parenthood"
+    },
+    {
+     "statute": "South Carolina Ethics, Government Accountability, and Campaign Reform Act (nepotism); state law regulating dual employment",
+     "reason": "conduct and employment rules; unrelated to parenthood"
+    },
+    {
+     "statute": "Workers' compensation law (Faculty Manual; HR 1.66 cross-references)",
+     "reason": "work-related injury; unrelated to becoming a parent"
+    },
+    {
+     "statute": "Export Administration Regulations, International Traffic in Arms Regulations, Toxic Substances Control Act, Emergency Preparedness and Community Right-to-Know Act, Animal Welfare Act, NIH Guidelines, Title 9 (athletics reports) (Faculty Manual)",
+     "reason": "research compliance and athletics; unrelated to parenthood"
+    },
+    {
+     "statute": "South Carolina Retirement System law (disability retirement), Faculty Manual",
+     "reason": "permanent-disability retirement after five years; not leave or pay for a birth"
+    }
+   ]
+  },
+  "C5": {
+   "components": [
+    "university_of_south_carolina_c12",
+    "university_of_south_carolina_c16"
+   ]
+  },
+  "C6": {
+   "components": [
+    "university_of_south_carolina_c17",
+    "university_of_south_carolina_c3"
+   ]
+  },
+  "C7": {
+   "components": [
+    "university_of_south_carolina_c4",
+    "university_of_south_carolina_c5",
+    "university_of_south_carolina_c6",
+    "university_of_south_carolina_c7"
+   ]
+  },
+  "C8": {
+   "absent": {
+    "documents": [
+     "2018_00_link",
+     "2018_01_faculty_manual_columbia",
+     "2018_02_acaf131_tenure_clock_extension",
+     "2018_04_hr107_family_medical_leave",
+     "2018_06_hr112_leave_without_pay",
+     "2018_07_hr106_sick_leave_rev2018",
+     "2018_08_hr109_other_leave_with_pay_rev2017",
+     "2018_03_hr106_sick_leave",
+     "2018_05_hr109_other_leave_with_pay"
+    ],
+    "terms": [
+     "part-time",
+     "part time",
+     "reduced",
+     "reduced schedule",
+     "phased",
+     "half-time",
+     "pro-rata"
+    ]
+   }
+  },
+  "C9": {
+   "absent": {
+    "documents": [
+     "2018_00_link",
+     "2018_01_faculty_manual_columbia",
+     "2018_02_acaf131_tenure_clock_extension",
+     "2018_04_hr107_family_medical_leave",
+     "2018_06_hr112_leave_without_pay",
+     "2018_07_hr106_sick_leave_rev2018",
+     "2018_08_hr109_other_leave_with_pay_rev2017",
+     "2018_03_hr106_sick_leave",
+     "2018_05_hr109_other_leave_with_pay"
+    ],
+    "terms": [
+     "accommodation",
+     "pregnan",
+     "transfer",
+     "hazard",
+     "less strenuous",
+     "light duty",
+     "discriminat"
+    ]
+   }
+  },
+  "C10": {
+   "absent": {
+    "documents": [
+     "2018_00_link",
+     "2018_01_faculty_manual_columbia",
+     "2018_02_acaf131_tenure_clock_extension",
+     "2018_04_hr107_family_medical_leave",
+     "2018_06_hr112_leave_without_pay",
+     "2018_07_hr106_sick_leave_rev2018",
+     "2018_08_hr109_other_leave_with_pay_rev2017",
+     "2018_03_hr106_sick_leave",
+     "2018_05_hr109_other_leave_with_pay"
+    ],
+    "terms": [
+     "FMLA",
+     "first days",
+     "regular work time",
+     "paid",
+     "with pay"
+    ]
+   }
+  }
+ },
+ "passage_dispositions": {
+  "2018_00_link#001": {
+   "used_in": [
+    "university_of_south_carolina_c1",
+    "university_of_south_carolina_c2",
+    "university_of_south_carolina_c3",
+    "university_of_south_carolina_c4",
+    "university_of_south_carolina_c14"
+   ]
+  },
+  "2018_00_link#002": {
+   "not_relevant": "approval chain, records, denials and appeals procedure, related-policy list (appeal wording quoted only for c3 entitlement)"
+  },
+  "2018_01_faculty_manual_columbia#001": {
+   "not_relevant": "table of contents"
+  },
+  "2018_01_faculty_manual_columbia#002": {
+   "not_relevant": "table of contents"
+  },
+  "2018_01_faculty_manual_columbia#003": {
+   "not_relevant": "table of contents (leave section headings)"
+  },
+  "2018_01_faculty_manual_columbia#004": {
+   "not_relevant": "faculty voting membership"
+  },
+  "2018_01_faculty_manual_columbia#005": {
+   "not_relevant": "graduate faculty membership"
+  },
+  "2018_01_faculty_manual_columbia#006": {
+   "not_relevant": "graduate faculty term appointments and council"
+  },
+  "2018_01_faculty_manual_columbia#007": {
+   "not_relevant": "joint appointments; movement between tracks"
+  },
+  "2018_01_faculty_manual_columbia#008": {
+   "used_in": [
+    "university_of_south_carolina_c4",
+    "university_of_south_carolina_c5",
+    "university_of_south_carolina_c6"
+   ]
+  },
+  "2018_01_faculty_manual_columbia#009": {
+   "not_relevant": "reappointment and tenure procedures"
+  },
+  "2018_01_faculty_manual_columbia#010": {
+   "not_relevant": "tenure and promotion criteria"
+  },
+  "2018_01_faculty_manual_columbia#011": {
+   "not_relevant": "applicable tenure criteria"
+  },
+  "2018_01_faculty_manual_columbia#012": {
+   "not_relevant": "tenure in reorganization"
+  },
+  "2018_01_faculty_manual_columbia#013": {
+   "not_relevant": "minimum years of service before tenure"
+  },
+  "2018_01_faculty_manual_columbia#014": {
+   "not_relevant": "tenure recommendations procedure"
+  },
+  "2018_01_faculty_manual_columbia#015": {
+   "not_relevant": "post-tenure development plan; grievances"
+  },
+  "2018_01_faculty_manual_columbia#016": {
+   "not_relevant": "grievance procedure"
+  },
+  "2018_01_faculty_manual_columbia#017": {
+   "not_relevant": "termination for cause; refers to the maximum disability leave in HR 1.06 but states no leave"
+  },
+  "2018_01_faculty_manual_columbia#018": {
+   "not_relevant": "dual employment, salary appeals, research faculty terms"
+  },
+  "2018_01_faculty_manual_columbia#019": {
+   "used_in": [
+    "university_of_south_carolina_c15"
+   ]
+  },
+  "2018_01_faculty_manual_columbia#020": {
+   "used_in": [
+    "university_of_south_carolina_c8",
+    "university_of_south_carolina_c9",
+    "university_of_south_carolina_c11",
+    "university_of_south_carolina_c12",
+    "university_of_south_carolina_c13",
+    "university_of_south_carolina_c15",
+    "university_of_south_carolina_c16"
+   ]
+  },
+  "2018_01_faculty_manual_columbia#021": {
+   "used_in": [
+    "university_of_south_carolina_c9",
+    "university_of_south_carolina_c17"
+   ]
+  },
+  "2018_01_faculty_manual_columbia#022": {
+   "not_relevant": "sabbatical leave: for professional projects, not usable for a birth"
+  },
+  "2018_01_faculty_manual_columbia#023": {
+   "not_relevant": "political activity, workplace civility"
+  },
+  "2018_01_faculty_manual_columbia#024": {
+   "not_relevant": "retirement system, workers' compensation"
+  },
+  "2018_01_faculty_manual_columbia#025": {
+   "not_relevant": "department chairs"
+  },
+  "2018_01_faculty_manual_columbia#026": {
+   "not_relevant": "Faculty Senate bylaws"
+  },
+  "2018_02_acaf131_tenure_clock_extension#001": {
+   "used_in": [
+    "university_of_south_carolina_c4",
+    "university_of_south_carolina_c5",
+    "university_of_south_carolina_c7"
+   ]
+  },
+  "2018_02_acaf131_tenure_clock_extension#002": {
+   "used_in": [
+    "university_of_south_carolina_c4",
+    "university_of_south_carolina_c5",
+    "university_of_south_carolina_c7"
+   ]
+  },
+  "2018_02_acaf131_tenure_clock_extension#003": {
+   "not_relevant": "letter of request procedure; related policies"
+  },
+  "2018_03_hr106_sick_leave#001": {
+   "not_relevant": "HR 1.06 April 2014 version, superseded on 2018-02-07 before the reference date; its 180-day extended disability leave matches the Faculty Manual (c9)"
+  },
+  "2018_03_hr106_sick_leave#002": {
+   "not_relevant": "HR 1.06 April 2014 version, superseded before the reference date"
+  },
+  "2018_04_hr107_family_medical_leave#001": {
+   "used_in": [
+    "university_of_south_carolina_c16"
+   ]
+  },
+  "2018_04_hr107_family_medical_leave#002": {
+   "not_relevant": "FMLA definitions (health care provider, military terms)"
+  },
+  "2018_04_hr107_family_medical_leave#003": {
+   "used_in": [
+    "university_of_south_carolina_c16",
+    "university_of_south_carolina_c9"
+   ]
+  },
+  "2018_05_hr109_other_leave_with_pay#001": {
+   "not_relevant": "HR 1.09 October 2013 version, superseded by the April 2017 revision"
+  },
+  "2018_05_hr109_other_leave_with_pay#002": {
+   "not_relevant": "superseded version; court and bone-marrow leave"
+  },
+  "2018_05_hr109_other_leave_with_pay#003": {
+   "not_relevant": "superseded version; court, death, military, voting, organ donor leave"
+  },
+  "2018_05_hr109_other_leave_with_pay#004": {
+   "not_relevant": "superseded version; request procedures"
+  },
+  "2018_06_hr112_leave_without_pay#001": {
+   "not_relevant": "header and disclaimer"
+  },
+  "2018_06_hr112_leave_without_pay#002": {
+   "used_in": [
+    "university_of_south_carolina_c17"
+   ]
+  },
+  "2018_07_hr106_sick_leave_rev2018#001": {
+   "used_in": [
+    "university_of_south_carolina_c8"
+   ]
+  },
+  "2018_07_hr106_sick_leave_rev2018#002": {
+   "used_in": [
+    "university_of_south_carolina_c8",
+    "university_of_south_carolina_c10",
+    "university_of_south_carolina_c11",
+    "university_of_south_carolina_c12",
+    "university_of_south_carolina_c9"
+   ]
+  },
+  "2018_07_hr106_sick_leave_rev2018#003": {
+   "used_in": [
+    "university_of_south_carolina_c9",
+    "university_of_south_carolina_c16"
+   ]
+  },
+  "2018_08_hr109_other_leave_with_pay_rev2017#001": {
+   "used_in": [
+    "university_of_south_carolina_c11"
+   ]
+  },
+  "2018_08_hr109_other_leave_with_pay_rev2017#002": {
+   "not_relevant": "bone-marrow donor and court leave"
+  },
+  "2018_08_hr109_other_leave_with_pay_rev2017#003": {
+   "not_relevant": "court, death in family, military, voting, organ donor leave: not usable for a birth"
+  },
+  "2018_08_hr109_other_leave_with_pay_rev2017#004": {
+   "not_relevant": "request procedures"
+  }
+ },
+ "mechanism_slots": {
+  "employer_paid_leave": {
+   "absent": "all nine usable sources; terms: paid leave, parental leave, maternity leave, leave with pay, childbirth"
+  },
+  "employer_childbirth_benefit": {
+   "absent": "all nine usable sources; terms: maternity, childbirth, pregnancy, short-term disability (maternity only through sick leave and the disability leave)"
+  },
+  "generic_sick_or_disability_plan": {
+   "components": [
+    "university_of_south_carolina_c14"
+   ]
+  },
+  "own_accrual": {
+   "components": [
+    "university_of_south_carolina_c8",
+    "university_of_south_carolina_c10",
+    "university_of_south_carolina_c11",
+    "university_of_south_carolina_c12",
+    "university_of_south_carolina_c15"
+   ]
+  },
+  "donated_leave": {
+   "components": [
+    "university_of_south_carolina_c13"
+   ]
+  },
+  "government_benefit": {
+   "absent": "all nine usable sources; terms: state program, paid family leave, disability insurance, benefit"
+  },
+  "employer_topup": {
+   "absent": "all nine usable sources; terms: top-up, supplement, difference"
+  },
+  "modified_duties": {
+   "components": [
+    "university_of_south_carolina_c1",
+    "university_of_south_carolina_c2",
+    "university_of_south_carolina_c3"
+   ]
+  },
+  "unpaid_leave": {
+   "components": [
+    "university_of_south_carolina_c9",
+    "university_of_south_carolina_c16",
+    "university_of_south_carolina_c17"
+   ]
+  },
+  "tenure_clock": {
+   "components": [
+    "university_of_south_carolina_c4",
+    "university_of_south_carolina_c5",
+    "university_of_south_carolina_c6"
+   ]
+  },
+  "part_time_option": {
+   "absent": "all nine usable sources; terms: part-time, reduced schedule, reduced appointment, phased"
+  },
+  "other": {
+   "components": [
+    "university_of_south_carolina_c7"
+   ]
+  }
+ },
+ "baseline_accounting": {
+  "Family and Medical Leave Act (FMLA)": {
+   "components": [
+    "university_of_south_carolina_c16"
+   ]
+  },
+  "Federal Employee Paid Leave Act (paid parental leave for federal civilian employees)": {
+   "not_applicable": "covers federal civilian employees; university faculty are state employees; no saved document mentions it"
+  },
+  "South Carolina paid parental leave for state employees": {
+   "not_applicable": "S.C. Code 8-11-150 (2022) post-dates the 2018-03-13 reference date; no saved document mentions it"
+  }
+ },
+ "leave_limits": [],
+ "components": [
+  {
+   "component_id": "university_of_south_carolina_c1",
+   "institution_label": "Modified Duties for Birth/Adoptive Mother or Primary Caregiver",
+   "description": "ACAF 1.60: on the birth or adoption of a child, an automatically approved modified-duties semester at full pay; the birth or adoptive mother or primary caregiver is released from onsite duties (classroom teaching, clinical placement, laboratory duties) for one semester (or its equivalent over two semesters); research and other offsite duties continue.",
+   "mechanism": "modified_duties",
+   "rule_applied": [
+    "R3",
+    "R3c",
+    "R4",
+    "R4b",
+    "R6",
+    "V2",
+    "R15b"
+   ],
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "All full-time tenured, tenure-track, clinical or research faculty members (ACAF 1.60, all campuses)",
+   "eligible_parent": [
+    "birth_parent",
+    "adoptive",
+    "non_birth_parent"
+   ],
+   "eligible_parent_wording": "birth or adoptive mother, or the primary caregiver of the child",
+   "caregiver_condition": "other",
+   "caregiver_condition_wording": "If the faculty member is the birth or adoptive mother, or the primary caregiver of the child; eligibility requires attesting that they are primary or secondary caregivers of the child(ren)",
+   "service_requirement": "none stated (eligibility begins on the date of hire)",
+   "dual_employee_rule": "each may take (both parents full-time faculty: one primary, one secondary caregiver; simultaneously or consecutively; normally not simultaneously in the same unit)",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "Automatically approved on notification through the Modified Duties Semester form; the faculty member is 'entitled'; the approval settles the specific modified duties, agreed in writing with the unit head (V2).",
+   "duration": {
+    "value": 1,
+    "units": "semester",
+    "qualifier": "exact"
+   },
+   "duration_note": "One semester, or the equivalent of one semester distributed over two semesters (R3c: coded at the relief amount, span in note).",
+   "time_window": "must be concluded within the twelve-month period following the birth or adoption",
+   "notice": "Modified Duties Semester form, normally at least four months before the start of the semester or as soon as possible",
+   "pay_fraction": "full pay",
+   "payer": "employer",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "partially_relieved",
+    "research": "continues",
+    "advising_supervision": "partially_relieved",
+    "clinical": "relieved"
+   },
+   "relief_note": "Released from onsite duties (classroom teaching, clinical field placement, teaching/research/clinical laboratory duties); committee work and undergraduate advising 'should be modified'; research, scholarship and professional service not requiring onsite activities remain unchanged (onsite research-laboratory duties are released). May be spread as the equivalent of one semester over two semesters.",
+   "sequence": [],
+   "evidence": {
+    "faculty_group": [
+     "All full-time tenured, tenure-track, clinical or research faculty members are eligible for modified duties.",
+     "All full-time tenured, tenure-track, clinical or research faculty members, librarians, instructors and lecturers of either gender are eligible for a “modified duties semester.” Eligibility begins on the date of hire."
+    ],
+    "eligible_parent": [
+     "If the faculty member is the birth or adoptive mother, or the primary caregiver of the child, the faculty member is released from onsite duties such as classroom teaching, clinical field placement, and teaching, research or clinical laboratory duties for one semester or the equivalent of one semester distributed over two semesters."
+    ],
+    "caregiver_condition": [
+     "If the faculty member is the birth or adoptive mother, or the primary caregiver of the child, the faculty member is released from onsite duties such as classroom teaching, clinical field placement, and teaching, research or clinical laboratory duties for one semester or the equivalent of one semester distributed over two semesters.",
+     "In cases of childbirth or adoption, eligible faculty members are entitled to the equivalent of one “modified duties semester” per event, if they attest that they are primary or secondary caregivers of the child(ren)."
+    ],
+    "entitlement": [
+     "In the case of the birth or adoption of a child, a full-time faculty member will be automatically approved for the equivalent of one semester of modified duties.",
+     "In cases of childbirth or adoption, eligible faculty members are entitled to the equivalent of one “modified duties semester” per event, if they attest that they are primary or secondary caregivers of the child(ren).",
+     "The specific modified duties must be mutually agreed upon in writing by the faculty member and the academic unit head."
+    ],
+    "duration": [
+     "If the faculty member is the birth or adoptive mother, or the primary caregiver of the child, the faculty member is released from onsite duties such as classroom teaching, clinical field placement, and teaching, research or clinical laboratory duties for one semester or the equivalent of one semester distributed over two semesters."
+    ],
+    "pay_fraction": [
+     "The faculty member receives full pay and benefits during this semester."
+    ],
+    "relief": [
+     "If the faculty member is the birth or adoptive mother, or the primary caregiver of the child, the faculty member is released from onsite duties such as classroom teaching, clinical field placement, and teaching, research or clinical laboratory duties for one semester or the equivalent of one semester distributed over two semesters.",
+     "Additionally, the faculty member’s departmental or administrative committee work and undergraduate advising duties should be modified to suit the needs of the individual and the academic unit.",
+     "Faculty responsibilities for research, scholarship and professional service that do not require onsite activities remain unchanged."
+    ],
+    "time_window": [
+     "In the cases of birth or adoption, the “modified duties semester” must be concluded within the twelve-month period following the birth or adoption."
+    ],
+    "dual_employee_rule": [
+     "If both parents are full-time faculty members employed by the University, they are both eligible for an automatic modified duties semester following the birth or adoption of a child.",
+     "The two modified duties semesters, with one person being the primary caregiver and the other the secondary caregiver, may be taken either simultaneously or consecutively, depending on the needs of the individuals and the academic unit(s)."
+    ],
+    "service_requirement": [
+     "All full-time tenured, tenure-track, clinical or research faculty members, librarians, instructors and lecturers of either gender are eligible for a “modified duties semester.” Eligibility begins on the date of hire."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "version_uncertain"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "modified_duties",
+     "quote": "In the case of the birth or adoption of a child, a full-time faculty member will be automatically approved for the equivalent of one semester of modified duties."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "The faculty member receives full pay and benefits during this semester."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "In the case of the birth or adoption of a child, a full-time faculty member will be automatically approved for the equivalent of one semester of modified duties."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "All full-time tenured, tenure-track, clinical or research faculty members are eligible for modified duties."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R6",
+     "answer": "birth_parent, adoptive, non_birth_parent (as primary caregiver; caregiver condition gender-neutral)",
+     "quote": "If the faculty member is the birth or adoptive mother, or the primary caregiver of the child, the faculty member is released from onsite duties such as classroom teaching, clinical field placement, and teaching, research or clinical laboratory duties for one semester or the equivalent of one semester distributed over two semesters."
+    },
+    {
+     "field": "caregiver_condition",
+     "rule": "R6",
+     "answer": "other",
+     "quote": "If the faculty member is the birth or adoptive mother, or the primary caregiver of the child, the faculty member is released from onsite duties such as classroom teaching, clinical field placement, and teaching, research or clinical laboratory duties for one semester or the equivalent of one semester distributed over two semesters."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "In the case of the birth or adoption of a child, a full-time faculty member will be automatically approved for the equivalent of one semester of modified duties."
+    },
+    {
+     "field": "duration",
+     "rule": "R3c",
+     "answer": "1 semester exact; spread over two semesters is the span in the note",
+     "quote": "If the faculty member is the birth or adoptive mother, or the primary caregiver of the child, the faculty member is released from onsite duties such as classroom teaching, clinical field placement, and teaching, research or clinical laboratory duties for one semester or the equivalent of one semester distributed over two semesters."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "full pay",
+     "quote": "The faculty member receives full pay and benefits during this semester."
+    },
+    {
+     "field": "relief",
+     "rule": "R4",
+     "answer": "teaching relieved, clinical relieved, service/advising partially relieved, research continues",
+     "quote": "Faculty responsibilities for research, scholarship and professional service that do not require onsite activities remain unchanged."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "none stated; eligibility begins on date of hire",
+     "quote": "All full-time tenured, tenure-track, clinical or research faculty members, librarians, instructors and lecturers of either gender are eligible for a “modified duties semester.” Eligibility begins on the date of hire."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_south_carolina_c2",
+   "institution_label": "Modified Duties for Secondary Caregiver",
+   "description": "ACAF 1.60: the birth or adoptive father or secondary caregiver receives an automatic modified-duties semester at full pay whose content (partial or complete release from teaching or other duties) is defined in consultation with the unit head.",
+   "mechanism": "modified_duties",
+   "rule_applied": [
+    "R12",
+    "R3",
+    "R3c",
+    "R4",
+    "R6",
+    "R15b"
+   ],
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "All full-time tenured, tenure-track, clinical or research faculty members (ACAF 1.60, all campuses)",
+   "eligible_parent": [
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "birth or adoptive father, or the secondary caregiver",
+   "caregiver_condition": "other",
+   "caregiver_condition_wording": "If the faculty member is the birth or adoptive father, or the secondary caregiver",
+   "service_requirement": "none stated (eligibility begins on the date of hire)",
+   "dual_employee_rule": "each may take (both parents full-time faculty: one primary, one secondary caregiver; simultaneously or consecutively)",
+   "entitlement": "negotiated",
+   "entitlement_note": "The semester is automatic, but the amount and form of relief ('partial or complete release') are defined in consultation with the unit head, with no guaranteed minimum (R12).",
+   "duration": {
+    "value": 1,
+    "units": "semester",
+    "qualifier": "exact"
+   },
+   "duration_note": "One semester or the equivalent of one semester distributed over two semesters; amount of release not fixed.",
+   "time_window": "must be concluded within the twelve-month period following the birth or adoption",
+   "pay_fraction": "full pay",
+   "payer": "employer",
+   "relief": {
+    "teaching": "partially_relieved",
+    "service_admin": "partially_relieved",
+    "research": "partially_relieved",
+    "advising_supervision": "partially_relieved",
+    "clinical": "partially_relieved"
+   },
+   "relief_note": "'partial or complete release from teaching or other onsite duties, or partial or complete release from other responsibilities', defined in consultation with the academic unit head.",
+   "sequence": [
+    {
+     "relation": "in_lieu_of",
+     "component_id": "university_of_south_carolina_c1",
+     "note": "one modified duties semester per event: primary-caregiver terms (c1) or secondary-caregiver terms (c2)"
+    }
+   ],
+   "evidence": {
+    "faculty_group": [
+     "All full-time tenured, tenure-track, clinical or research faculty members are eligible for modified duties."
+    ],
+    "eligible_parent": [
+     "If the faculty member is the birth or adoptive father, or the secondary caregiver, then the modified duties will be defined in consultation with the academic unit head. Modified duties may include partial or complete release from teaching or other onsite duties, or partial or complete release from other responsibilities for one semester or the equivalent of one semester distributed over two semesters."
+    ],
+    "caregiver_condition": [
+     "If the faculty member is the birth or adoptive father, or the secondary caregiver, then the modified duties will be defined in consultation with the academic unit head. Modified duties may include partial or complete release from teaching or other onsite duties, or partial or complete release from other responsibilities for one semester or the equivalent of one semester distributed over two semesters."
+    ],
+    "entitlement": [
+     "If the faculty member is the birth or adoptive father, or the secondary caregiver, then the modified duties will be defined in consultation with the academic unit head. Modified duties may include partial or complete release from teaching or other onsite duties, or partial or complete release from other responsibilities for one semester or the equivalent of one semester distributed over two semesters.",
+     "The specific modified duties must be mutually agreed upon in writing by the faculty member and the academic unit head."
+    ],
+    "duration": [
+     "If the faculty member is the birth or adoptive father, or the secondary caregiver, then the modified duties will be defined in consultation with the academic unit head. Modified duties may include partial or complete release from teaching or other onsite duties, or partial or complete release from other responsibilities for one semester or the equivalent of one semester distributed over two semesters."
+    ],
+    "pay_fraction": [
+     "The faculty member receives full pay and benefits during this semester."
+    ],
+    "relief": [
+     "If the faculty member is the birth or adoptive father, or the secondary caregiver, then the modified duties will be defined in consultation with the academic unit head. Modified duties may include partial or complete release from teaching or other onsite duties, or partial or complete release from other responsibilities for one semester or the equivalent of one semester distributed over two semesters."
+    ],
+    "sequence": [
+     "In cases of childbirth or adoption, eligible faculty members are entitled to the equivalent of one “modified duties semester” per event, if they attest that they are primary or secondary caregivers of the child(ren)."
+    ],
+    "time_window": [
+     "In the cases of birth or adoption, the “modified duties semester” must be concluded within the twelve-month period following the birth or adoption."
+    ],
+    "service_requirement": [
+     "All full-time tenured, tenure-track, clinical or research faculty members, librarians, instructors and lecturers of either gender are eligible for a “modified duties semester.” Eligibility begins on the date of hire."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "version_uncertain"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "modified_duties",
+     "quote": "If the faculty member is the birth or adoptive father, or the secondary caregiver, then the modified duties will be defined in consultation with the academic unit head. Modified duties may include partial or complete release from teaching or other onsite duties, or partial or complete release from other responsibilities for one semester or the equivalent of one semester distributed over two semesters."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "The faculty member receives full pay and benefits during this semester."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "In the case of the birth or adoption of a child, a full-time faculty member will be automatically approved for the equivalent of one semester of modified duties."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "All full-time tenured, tenure-track, clinical or research faculty members are eligible for modified duties."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R6",
+     "answer": "non_birth_parent, adoptive",
+     "quote": "If the faculty member is the birth or adoptive father, or the secondary caregiver, then the modified duties will be defined in consultation with the academic unit head. Modified duties may include partial or complete release from teaching or other onsite duties, or partial or complete release from other responsibilities for one semester or the equivalent of one semester distributed over two semesters."
+    },
+    {
+     "field": "caregiver_condition",
+     "rule": "R6",
+     "answer": "other",
+     "quote": "If the faculty member is the birth or adoptive father, or the secondary caregiver, then the modified duties will be defined in consultation with the academic unit head. Modified duties may include partial or complete release from teaching or other onsite duties, or partial or complete release from other responsibilities for one semester or the equivalent of one semester distributed over two semesters."
+    },
+    {
+     "field": "entitlement",
+     "rule": "R12",
+     "answer": "negotiated",
+     "quote": "If the faculty member is the birth or adoptive father, or the secondary caregiver, then the modified duties will be defined in consultation with the academic unit head. Modified duties may include partial or complete release from teaching or other onsite duties, or partial or complete release from other responsibilities for one semester or the equivalent of one semester distributed over two semesters."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 semester exact",
+     "quote": "If the faculty member is the birth or adoptive father, or the secondary caregiver, then the modified duties will be defined in consultation with the academic unit head. Modified duties may include partial or complete release from teaching or other onsite duties, or partial or complete release from other responsibilities for one semester or the equivalent of one semester distributed over two semesters."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "full pay",
+     "quote": "The faculty member receives full pay and benefits during this semester."
+    },
+    {
+     "field": "relief",
+     "rule": "R4",
+     "answer": "all duties partially relieved: partial or complete release from teaching, other onsite duties or other responsibilities, as agreed",
+     "quote": "If the faculty member is the birth or adoptive father, or the secondary caregiver, then the modified duties will be defined in consultation with the academic unit head. Modified duties may include partial or complete release from teaching or other onsite duties, or partial or complete release from other responsibilities for one semester or the equivalent of one semester distributed over two semesters."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15b",
+     "answer": "in_lieu_of c1: one modified duties semester per event",
+     "quote": "In cases of childbirth or adoption, eligible faculty members are entitled to the equivalent of one “modified duties semester” per event, if they attest that they are primary or secondary caregivers of the child(ren)."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "none stated",
+     "quote": "All full-time tenured, tenure-track, clinical or research faculty members, librarians, instructors and lecturers of either gender are eligible for a “modified duties semester.” Eligibility begins on the date of hire."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_south_carolina_c3",
+   "institution_label": "Modified Duties Semester in All Other Circumstances",
+   "description": "ACAF 1.60 B: a full-time faculty member may request one semester of modified duties at full pay for special personal or family circumstances or other unexpected life challenges (open list); details defined with the unit head.",
+   "mechanism": "modified_duties",
+   "rule_applied": [
+    "U1",
+    "U5",
+    "R12",
+    "R4b"
+   ],
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "A full-time faculty member (ACAF 1.60, all campuses)",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent"
+   ],
+   "eligible_parent_wording": "the faculty member; spouse/partner, child or parent",
+   "caregiver_condition": "none",
+   "entitlement": "negotiated",
+   "entitlement_note": "'may request'; the details are defined in consultation with the unit head and a request may be denied (R12, V2).",
+   "duration": {
+    "value": 1,
+    "units": "semester",
+    "qualifier": "exact"
+   },
+   "pay_fraction": "full pay",
+   "payer": "employer",
+   "relief_note": "Details defined in consultation with the academic unit head; designed to let the member be off campus during usual teaching or laboratory hours.",
+   "sequence": [],
+   "evidence": {
+    "faculty_group": [
+     "A full-time faculty member may request one semester of modified duties in order to respond to special personal or family circumstances or other unexpected life challenges which require the faculty member to be off campus during his/her usual teaching or laboratory hours."
+    ],
+    "eligible_parent": [
+     "Examples of such situations include the serious illness of the faculty member, or the serious illness or death of the faculty member’s spouse/partner, child or parent."
+    ],
+    "entitlement": [
+     "A full-time faculty member may request one semester of modified duties in order to respond to special personal or family circumstances or other unexpected life challenges which require the faculty member to be off campus during his/her usual teaching or laboratory hours.",
+     "During the “modified duties semester,” the details of the modified duties should be defined in consultation with the academic unit head.",
+     "If the request is ultimately denied or an agreement cannot be reached regarding the definition of the modified duties, the faculty member may submit a written letter of appeal"
+    ],
+    "duration": [
+     "A full-time faculty member may request one semester of modified duties in order to respond to special personal or family circumstances or other unexpected life challenges which require the faculty member to be off campus during his/her usual teaching or laboratory hours."
+    ],
+    "pay_fraction": [
+     "The faculty member receives full pay and benefits during this semester."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "general_purpose",
+    "version_uncertain"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "modified_duties",
+     "quote": "A full-time faculty member may request one semester of modified duties in order to respond to special personal or family circumstances or other unexpected life challenges which require the faculty member to be off campus during his/her usual teaching or laboratory hours."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "The faculty member receives full pay and benefits during this semester."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "A full-time faculty member may request one semester of modified duties in order to respond to special personal or family circumstances or other unexpected life challenges which require the faculty member to be off campus during his/her usual teaching or laboratory hours."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "A full-time faculty member may request one semester of modified duties in order to respond to special personal or family circumstances or other unexpected life challenges which require the faculty member to be off campus during his/her usual teaching or laboratory hours."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own serious illness), non_birth_parent (spouse/partner's serious illness)",
+     "quote": "Examples of such situations include the serious illness of the faculty member, or the serious illness or death of the faculty member’s spouse/partner, child or parent."
+    },
+    {
+     "field": "entitlement",
+     "rule": "R12",
+     "answer": "negotiated",
+     "quote": "During the “modified duties semester,” the details of the modified duties should be defined in consultation with the academic unit head."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 semester exact",
+     "quote": "A full-time faculty member may request one semester of modified duties in order to respond to special personal or family circumstances or other unexpected life challenges which require the faculty member to be off campus during his/her usual teaching or laboratory hours."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "full pay",
+     "quote": "The faculty member receives full pay and benefits during this semester."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_south_carolina_c4",
+   "institution_label": "Automatic Extension",
+   "description": "ACAF 1.31 (and Faculty Manual): a one-year extension of the maximum probationary period is automatically approved for the birth or adoption of a child (or the death of a spouse/partner or child), on notification with the Tenure Clock Extension form.",
+   "mechanism": "tenure_clock",
+   "rule_applied": [
+    "U1",
+    "U9",
+    "V2"
+   ],
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "faculty members holding a probationary term of appointment; non-tenured faculty members (ACAF 1.31, all campuses)",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "the birth or adoption of a child",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "'will be automatically approved'; notification and documentation required (form within twelve months of the event).",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "exact"
+   },
+   "time_window": "form must be submitted within twelve months of the related event",
+   "use_limit": [
+    {
+     "times": 3,
+     "per": "career",
+     "counts": "uses"
+    }
+   ],
+   "use_limit_note": "The maximum probationary period may not be extended more than three times; the probationary term may not exceed ten years.",
+   "sequence": [],
+   "evidence": {
+    "faculty_group": [
+     "faculty members holding a probationary term of appointment may be granted an extension of the maximum probationary period with no resulting change in employment obligations.",
+     "Non-tenured faculty members will be automatically granted an extension of the probationary period in the event of the birth or adoption of a child, or the death of the faculty member's spouse/partner or child if notice is provided in accordance with applicable university policy."
+    ],
+    "eligible_parent": [
+     "the birth or adoption of a child; or"
+    ],
+    "entitlement": [
+     "A one-year extension of the maximum probationary period will be automatically approved for the following reasons:",
+     "The extension is automatic in the above cases, but notification is required through the submission of the Tenure Clock Extension form and accompanying documentation.",
+     "Non-tenured faculty members will be automatically granted an extension of the probationary period in the event of the birth or adoption of a child, or the death of the faculty member's spouse/partner or child if notice is provided in accordance with applicable university policy."
+    ],
+    "duration": [
+     "A one-year extension of the maximum probationary period will be automatically approved for the following reasons:"
+    ],
+    "use_limit": [
+     "The maximum probationary period may not be extended more than three times."
+    ],
+    "time_window": [
+     "The Tenure Clock/Post-Tenure Review Extension form must be submitted within twelve months of the related event."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_acaf131_tenure_clock_extension",
+    "2018_01_faculty_manual_columbia",
+    "2018_00_link"
+   ],
+   "flags": [
+    "ambiguous: rule gap: closed list of automatic reasons adds bereavement (death of spouse/partner or child) to birth or adoption; U1 read literally (a stated purpose outside health, family care, birth or adoption) sets general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "A one-year extension of the maximum probationary period will be automatically approved for the following reasons:"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "the death of the faculty member’s spouse/partner or child."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "faculty members holding a probationary term of appointment may be granted an extension of the maximum probationary period with no resulting change in employment obligations."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent (role-neutral: birth or adoption of a child)",
+     "quote": "the birth or adoption of a child; or"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "The extension is automatic in the above cases, but notification is required through the submission of the Tenure Clock Extension form and accompanying documentation."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 year exact",
+     "quote": "A one-year extension of the maximum probationary period will be automatically approved for the following reasons:"
+    },
+    {
+     "field": "use_limit",
+     "rule": "U9",
+     "answer": "3 per career (extensions of the probationary period)",
+     "quote": "The maximum probationary period may not be extended more than three times."
+    },
+    {
+     "field": "duration.qualifier",
+     "rule": "R13",
+     "answer": "the word maximum names the probationary period being extended, not a limit on the one-year extension",
+     "quote": "A one-year extension of the maximum probationary period will be automatically approved for the following reasons:"
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_south_carolina_c5",
+   "institution_label": "Requested Extension",
+   "description": "ACAF 1.31: a one-year extension of the probationary period may be requested for serious illness of the member or family, death of a parent, placement of a foster child, or other relevant circumstances; the provost may grant one to three years in very unusual circumstances.",
+   "mechanism": "tenure_clock",
+   "rule_applied": [
+    "U1",
+    "U9",
+    "V2",
+    "U5"
+   ],
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "faculty members holding a probationary term of appointment (ACAF 1.31)",
+   "eligible_parent": [
+    "foster",
+    "birth_parent",
+    "non_birth_parent"
+   ],
+   "eligible_parent_wording": "the placement of a foster child; a serious illness of the faculty member and/or the faculty member’s spouse/partner, child, or parent",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "entitlement_note": "'may be requested'; approval decides whether there is an extension; denials and appeal procedure stated.",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "exact"
+   },
+   "duration_note": "Provost/chancellor may grant one to three years 'in very unusual circumstances'.",
+   "time_window": "form must be submitted within twelve months of the related event",
+   "use_limit": [
+    {
+     "times": 3,
+     "per": "career",
+     "counts": "uses"
+    }
+   ],
+   "use_limit_note": "The maximum probationary period may not be extended more than three times.",
+   "sequence": [],
+   "evidence": {
+    "faculty_group": [
+     "faculty members holding a probationary term of appointment may be granted an extension of the maximum probationary period with no resulting change in employment obligations."
+    ],
+    "eligible_parent": [
+     "a serious illness of the faculty member and/or the faculty member’s spouse/partner, child, or parent; or",
+     "the placement of a foster child; or"
+    ],
+    "entitlement": [
+     "A one-year extension of the maximum probationary period may be requested by a faculty member for the following reasons:",
+     "An extension of the probationary period may also be granted upon request in the case of serious illness or death of a spouse/partner, child or close family member, the placement of a foster child or other circumstances or commitments creating a need for additional time for the faculty member to demonstrate fully his or her professional qualifications for reappointment or tenure."
+    ],
+    "duration": [
+     "A one-year extension of the maximum probationary period may be requested by a faculty member for the following reasons:",
+     "A one-year to three-year extension of the maximum probationary period or of a scheduled post-tenure review may be granted by the executive vice president for academic affairs and provost for Columbia"
+    ],
+    "use_limit": [
+     "The maximum probationary period may not be extended more than three times."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_acaf131_tenure_clock_extension",
+    "2018_01_faculty_manual_columbia"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "A one-year extension of the maximum probationary period may be requested by a faculty member for the following reasons:"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "other relevant circumstances, as approved by the academic unit head and those involved in the review and approval process."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "faculty members holding a probationary term of appointment may be granted an extension of the maximum probationary period with no resulting change in employment obligations."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "foster; birth_parent and non_birth_parent through serious illness",
+     "quote": "a serious illness of the faculty member and/or the faculty member’s spouse/partner, child, or parent; or"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "A one-year extension of the maximum probationary period may be requested by a faculty member for the following reasons:"
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 year exact",
+     "quote": "A one-year extension of the maximum probationary period may be requested by a faculty member for the following reasons:"
+    },
+    {
+     "field": "use_limit",
+     "rule": "U9",
+     "answer": "3 per career",
+     "quote": "The maximum probationary period may not be extended more than three times."
+    },
+    {
+     "field": "duration.qualifier",
+     "rule": "R13",
+     "answer": "the word maximum names the probationary period being extended, not a limit on the one-year extension",
+     "quote": "A one-year extension of the maximum probationary period may be requested by a faculty member for the following reasons:"
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_south_carolina_c6",
+   "institution_label": "",
+   "description": "Faculty Manual: time on leave, with or without pay, is not counted as part of the probationary period (any leave).",
+   "mechanism": "tenure_clock",
+   "rule_applied": [
+    "U1"
+   ],
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "faculty members in the probationary period (Faculty Manual, Columbia)",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "the faculty member",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration_note": "Length equals the time on leave; no length of its own.",
+   "sequence": [],
+   "evidence": {
+    "faculty_group": [
+     "Leave. Time during which the faculty member is on leave, either with or without pay, will not be counted as part of the probationary period."
+    ],
+    "eligible_parent": [
+     "Leave. Time during which the faculty member is on leave, either with or without pay, will not be counted as part of the probationary period."
+    ],
+    "entitlement": [
+     "Leave. Time during which the faculty member is on leave, either with or without pay, will not be counted as part of the probationary period."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_faculty_manual_columbia"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "Leave. Time during which the faculty member is on leave, either with or without pay, will not be counted as part of the probationary period."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "Leave. Time during which the faculty member is on leave, either with or without pay, will not be counted as part of the probationary period."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Leave. Time during which the faculty member is on leave, either with or without pay, will not be counted as part of the probationary period."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "Leave. Time during which the faculty member is on leave, either with or without pay, will not be counted as part of the probationary period."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "Leave. Time during which the faculty member is on leave, either with or without pay, will not be counted as part of the probationary period."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_south_carolina_c7",
+   "institution_label": "Requested Extension",
+   "description": "ACAF 1.31: a tenured faculty member may request a one-year extension of a scheduled post-tenure review for the birth or adoption of a child, foster placement, death or serious illness in the family, or other relevant circumstances.",
+   "mechanism": "other",
+   "mechanism_note": "Extension of the post-tenure review schedule for tenured faculty; not the probationary (tenure) clock.",
+   "rule_applied": [
+    "U1",
+    "U9",
+    "V2"
+   ],
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "tenured faculty members subject to post-tenure review (ACAF 1.31)",
+   "eligible_parent": [
+    "any_parent",
+    "foster"
+   ],
+   "eligible_parent_wording": "the birth or adoption of a child; the placement of a foster child",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "exact"
+   },
+   "time_window": "form must be submitted within twelve months of the related event",
+   "use_limit": [
+    {
+     "times": 3,
+     "per": "career",
+     "counts": "uses"
+    }
+   ],
+   "use_limit_note": "A scheduled post-tenure review may not be extended more than three times.",
+   "sequence": [],
+   "evidence": {
+    "faculty_group": [
+     "Each tenured faculty member, regardless of rank and including those in departmental administrative positions, shall be reviewed every six years"
+    ],
+    "eligible_parent": [
+     "A one-year extension of a scheduled post-tenure review may be requested by a faculty member for the following reasons:",
+     "the birth or adoption of a child; or"
+    ],
+    "entitlement": [
+     "A one-year extension of a scheduled post-tenure review may be requested by a faculty member for the following reasons:"
+    ],
+    "duration": [
+     "A one-year extension of a scheduled post-tenure review may be requested by a faculty member for the following reasons:"
+    ],
+    "use_limit": [
+     "A scheduled post-tenure review may not be extended more than three times."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_acaf131_tenure_clock_extension",
+    "2018_01_faculty_manual_columbia"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "other",
+     "quote": "A one-year extension of a scheduled post-tenure review may be requested by a faculty member for the following reasons:"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "other relevant circumstances, as approved by the academic unit head and those involved in the review and approval process."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Each tenured faculty member, regardless of rank and including those in departmental administrative positions, shall be reviewed every six years"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent, foster",
+     "quote": "the birth or adoption of a child; or"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "A one-year extension of a scheduled post-tenure review may be requested by a faculty member for the following reasons:"
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 year exact",
+     "quote": "A one-year extension of a scheduled post-tenure review may be requested by a faculty member for the following reasons:"
+    },
+    {
+     "field": "use_limit",
+     "rule": "U9",
+     "answer": "3 per career",
+     "quote": "A scheduled post-tenure review may not be extended more than three times."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_south_carolina_c8",
+   "institution_label": "Sick Leave",
+   "description": "Accrued sick leave (1.25 workdays per month, up to 195 days accrued / 180 carried over), usable for illness, injury and maternity (sickness and recovery related to pregnancy); the pay drawn during the disability leave.",
+   "mechanism": "own_accrual",
+   "rule_applied": [
+    "R1",
+    "U5",
+    "U6",
+    "V2",
+    "R15"
+   ],
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Faculty members who are scheduled to work at least half time (Faculty Manual); employees in FTE positions working half the workweek during an academic year of nine months or more (HR 1.06)",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "maternity; sickness and recovery related to pregnancy",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "'may be used' / 'will be allowed to use' for the stated reasons; verification by a health care provider.",
+   "duration_note": "No fixed length: the member's accrued balance (1.25 workdays per month; max 195 accrued, 180 carried over). A balance of unknown length adds no weeks.",
+   "pay_fraction": "full pay",
+   "payer": "own_balance",
+   "medical_certification": true,
+   "medical_certification_note": "health care provider's statement of the projected and/or actual time missed",
+   "runs_concurrently_with": [
+    "FMLA"
+   ],
+   "sequence": [
+    {
+     "relation": "within",
+     "component_id": "university_of_south_carolina_c9",
+     "note": "sick leave is the paid part of the disability leave (180 work days with pay / 180 calendar days combined)"
+    }
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Faculty members who are scheduled to work at least half time will be eligible to earn sick leave that accrues at the rate of one and one-quarter work days per month of active employment.",
+     "scheduled to work the equivalent of one-half the workweek during the full academic year of nine months or more."
+    ],
+    "eligible_parent": [
+     "Sick leave may be used for periods of illness, injury, maternity, or medical appointment.",
+     "Sickness and recovery related to pregnancy or other temporary medical impairments."
+    ],
+    "entitlement": [
+     "Sick leave may be used for periods of illness, injury, maternity, or medical appointment.",
+     "Reasons an employee will be allowed to use sick leave are as follows:"
+    ],
+    "sequence": [
+     "The total period of leave normally shall not exceed 180 work days of leave with pay or 180 calendar days of combined leave with and without pay.",
+     "If a period of absence certified by a health care professional exceeds the amount of accrued sick leave, the faculty member may use annual leave, if available, or apply for leave without pay."
+    ],
+    "pay_fraction": [
+     "The total period of leave normally shall not exceed 180 work days of leave with pay or 180 calendar days of combined leave with and without pay."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_faculty_manual_columbia",
+    "2018_07_hr106_sick_leave_rev2018"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "own_accrual",
+     "quote": "Faculty members who are scheduled to work at least half time will be eligible to earn sick leave that accrues at the rate of one and one-quarter work days per month of active employment."
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "own_balance",
+     "quote": "Faculty members who are scheduled to work at least half time will be eligible to earn sick leave that accrues at the rate of one and one-quarter work days per month of active employment."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Sick leave may be used for periods of illness, injury, maternity, or medical appointment."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Faculty members who are scheduled to work at least half time will be eligible to earn sick leave that accrues at the rate of one and one-quarter work days per month of active employment."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own illness, maternity)",
+     "quote": "Sickness and recovery related to pregnancy or other temporary medical impairments."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "Reasons an employee will be allowed to use sick leave are as follows:"
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "full pay (leave with pay drawn from the balance)",
+     "quote": "The total period of leave normally shall not exceed 180 work days of leave with pay or 180 calendar days of combined leave with and without pay."
+    },
+    {
+     "field": "sequence",
+     "rule": "U6",
+     "answer": "within c9: the paid part of the disability leave",
+     "quote": "The total period of leave normally shall not exceed 180 work days of leave with pay or 180 calendar days of combined leave with and without pay."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_south_carolina_c9",
+   "institution_label": "disability leave",
+   "description": "Faculty Manual: for illness, injury or maternity beyond ten workdays, a disability leave that may not be denied when certified, combining sick leave (with pay), annual leave and leave without pay, normally up to 180 calendar days (180 workdays with pay); extendable at the president's discretion to 365 calendar days.",
+   "mechanism": "unpaid_leave",
+   "mechanism_note": "The leave of absence itself (U6); its pay is the member's own sick leave (c8, within).",
+   "rule_applied": [
+    "U6",
+    "U5",
+    "R11b",
+    "Q1",
+    "R13",
+    "V2",
+    "R9",
+    "source_precedence"
+   ],
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "faculty members (Faculty Manual, Columbia; sick leave section)",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "illness, injury, maternity",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "Application required; 'The request for leave may not be denied' for a certified illness or disability (granted once requested).",
+   "duration": {
+    "value": 180,
+    "units": "calendar_day",
+    "qualifier": "up_to"
+   },
+   "duration_note": "'normally shall not exceed 180 work days of leave with pay or 180 calendar days of combined leave with and without pay' (Q1: 'normally ... not exceed' → up_to). Not to exceed the time certified. In extenuating circumstances, at the president's discretion, extendable up to a total of 365 calendar days (discretionary; not coded as duration_max).",
+   "payer": "none",
+   "medical_certification": true,
+   "medical_certification_note": "period of absence certified by a health care professional",
+   "runs_concurrently_with": [
+    "FMLA"
+   ],
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "sequence": [],
+   "evidence": {
+    "faculty_group": [
+     "If faculty members miss more than ten work days for one of these reasons, they shall submit an application for disability leave to their chair or dean and to the Division of Human Resources."
+    ],
+    "eligible_parent": [
+     "Sick leave may be used for periods of illness, injury, maternity, or medical appointment.",
+     "Leave without pay may be granted for active military service or for an extended period of disability because of illness, injury, or maternity."
+    ],
+    "entitlement": [
+     "The request for leave may not be denied for an illness or disability of a faculty member that is certified by a health care professional.",
+     "If faculty members miss more than ten work days for one of these reasons, they shall submit an application for disability leave to their chair or dean and to the Division of Human Resources."
+    ],
+    "duration": [
+     "The total period of leave normally shall not exceed 180 work days of leave with pay or 180 calendar days of combined leave with and without pay.",
+     "In extenuating circumstances and at the discretion of the president or the president's designee, the period of authorized leave may be extended up to a total of 365 calendar days of combined leave."
+    ],
+    "medical_certification": [
+     "The amount of sick leave shall not exceed the time certified by the health care professional."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_faculty_manual_columbia",
+    "2018_04_hr107_family_medical_leave",
+    "2018_07_hr106_sick_leave_rev2018"
+   ],
+   "flags": [
+    "conflicting_sources: 2018_07_hr106_sick_leave_rev2018, 2018_01_faculty_manual_columbia",
+    "own_illness_leave"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "U6",
+     "answer": "unpaid_leave",
+     "quote": "If a period of absence certified by a health care professional exceeds the amount of accrued sick leave, the faculty member may use annual leave, if available, or apply for leave without pay."
+    },
+    {
+     "field": "payer",
+     "rule": "U6",
+     "answer": "none",
+     "quote": "If a period of absence certified by a health care professional exceeds the amount of accrued sick leave, the faculty member may use annual leave, if available, or apply for leave without pay."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Sick leave may be used for periods of illness, injury, maternity, or medical appointment."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "If faculty members miss more than ten work days for one of these reasons, they shall submit an application for disability leave to their chair or dean and to the Division of Human Resources."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own disability, maternity)",
+     "quote": "Leave without pay may be granted for active military service or for an extended period of disability because of illness, injury, or maternity."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "The request for leave may not be denied for an illness or disability of a faculty member that is certified by a health care professional."
+    },
+    {
+     "field": "duration",
+     "rule": "Q1",
+     "answer": "180 calendar_day up_to ('normally shall not exceed')",
+     "quote": "The total period of leave normally shall not exceed 180 work days of leave with pay or 180 calendar days of combined leave with and without pay."
+    },
+    {
+     "field": "duration",
+     "rule": "R11b",
+     "answer": "calendar days, 7 per week",
+     "quote": "The total period of leave normally shall not exceed 180 work days of leave with pay or 180 calendar days of combined leave with and without pay."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all relieved (formal leave)",
+     "quote": "If faculty members miss more than ten work days for one of these reasons, they shall submit an application for disability leave to their chair or dean and to the Division of Human Resources."
+    },
+    {
+     "field": "duration",
+     "rule": "source_precedence",
+     "answer": "Faculty Manual (faculty's governing document, June 2017) coded; HR 1.06 rev. 2018-02-07 no longer states a 180-day disability leave and treats leave as a case-by-case ADA accommodation, while referring faculty to the Faculty Manual",
+     "quote": "University Faculty should refer to the appropriate Faculty Manual to determine any additional details that are relevant."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_south_carolina_c10",
+   "institution_label": "Granting of Additional Sick Leave",
+   "description": "HR 1.06: where an illness extends beyond available sick and annual leave, HR may advance up to 15 days of sick leave, repaid from later sick-leave earnings.",
+   "mechanism": "own_accrual",
+   "rule_applied": [
+    "R1d",
+    "V2",
+    "U5",
+    "R15"
+   ],
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "employees eligible for sick leave, incl. those working half the workweek in an academic year of nine months or more (HR 1.06, all campuses)",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "an illness",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "duration": {
+    "value": 15,
+    "units": "day",
+    "qualifier": "up_to"
+   },
+   "pay_fraction": "full pay",
+   "payer": "own_balance",
+   "return_obligation": "advance repaid from sick leave earned after return; deficit to be satisfied on re-employment",
+   "medical_certification": true,
+   "medical_certification_note": "expected return to work within the 15-day period",
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "university_of_south_carolina_c8",
+     "note": "only once available sick and annual leave are used"
+    }
+   ],
+   "evidence": {
+    "faculty_group": [
+     "scheduled to work the equivalent of one-half the workweek during the full academic year of nine months or more."
+    ],
+    "eligible_parent": [
+     "In extenuating circumstances, in the event an illness extends beyond available sick and annual leave, the Vice President of Human Resources or the Vice President's designee may, upon the written recommendation of the department head, advance up to 15 days of additional sick leave to the employee."
+    ],
+    "entitlement": [
+     "In extenuating circumstances, in the event an illness extends beyond available sick and annual leave, the Vice President of Human Resources or the Vice President's designee may, upon the written recommendation of the department head, advance up to 15 days of additional sick leave to the employee."
+    ],
+    "duration": [
+     "In extenuating circumstances, in the event an illness extends beyond available sick and annual leave, the Vice President of Human Resources or the Vice President's designee may, upon the written recommendation of the department head, advance up to 15 days of additional sick leave to the employee."
+    ],
+    "pay_fraction": [
+     "In extenuating circumstances, in the event an illness extends beyond available sick and annual leave, the Vice President of Human Resources or the Vice President's designee may, upon the written recommendation of the department head, advance up to 15 days of additional sick leave to the employee."
+    ],
+    "sequence": [
+     "In extenuating circumstances, in the event an illness extends beyond available sick and annual leave, the Vice President of Human Resources or the Vice President's designee may, upon the written recommendation of the department head, advance up to 15 days of additional sick leave to the employee."
+    ],
+    "return_obligation": [
+     "Upon return to work, all sick leave earned by the employee will be applied to the sick leave deficit until the deficit is eliminated."
+    ]
+   },
+   "doc_ids": [
+    "2018_07_hr106_sick_leave_rev2018"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1d",
+     "answer": "own_accrual",
+     "quote": "Upon return to work, all sick leave earned by the employee will be applied to the sick leave deficit until the deficit is eliminated."
+    },
+    {
+     "field": "payer",
+     "rule": "R1d",
+     "answer": "own_balance",
+     "quote": "Upon return to work, all sick leave earned by the employee will be applied to the sick leave deficit until the deficit is eliminated."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "In extenuating circumstances, in the event an illness extends beyond available sick and annual leave, the Vice President of Human Resources or the Vice President's designee may, upon the written recommendation of the department head, advance up to 15 days of additional sick leave to the employee."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "scheduled to work the equivalent of one-half the workweek during the full academic year of nine months or more."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent",
+     "quote": "In extenuating circumstances, in the event an illness extends beyond available sick and annual leave, the Vice President of Human Resources or the Vice President's designee may, upon the written recommendation of the department head, advance up to 15 days of additional sick leave to the employee."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "In extenuating circumstances, in the event an illness extends beyond available sick and annual leave, the Vice President of Human Resources or the Vice President's designee may, upon the written recommendation of the department head, advance up to 15 days of additional sick leave to the employee."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "15 day up_to",
+     "quote": "In extenuating circumstances, in the event an illness extends beyond available sick and annual leave, the Vice President of Human Resources or the Vice President's designee may, upon the written recommendation of the department head, advance up to 15 days of additional sick leave to the employee."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "full pay (sick leave)",
+     "quote": "In extenuating circumstances, in the event an illness extends beyond available sick and annual leave, the Vice President of Human Resources or the Vice President's designee may, upon the written recommendation of the department head, advance up to 15 days of additional sick leave to the employee."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "consecutive_after c8 (beyond available sick leave)",
+     "quote": "In extenuating circumstances, in the event an illness extends beyond available sick and annual leave, the Vice President of Human Resources or the Vice President's designee may, upon the written recommendation of the department head, advance up to 15 days of additional sick leave to the employee."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_south_carolina_c11",
+   "institution_label": "Adoption Leave",
+   "description": "Up to six weeks of the member's accrued sick leave may be used for the adoption of a child by the primary caregiver.",
+   "mechanism": "own_accrual",
+   "rule_applied": [
+    "R1",
+    "R5",
+    "V2"
+   ],
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "faculty members (Faculty Manual); employees earning sick leave (HR 1.06)",
+   "eligible_parent": [
+    "adoptive"
+   ],
+   "eligible_parent_wording": "the person applying for the leave is the primary care-giver; caring for an adoptive child after placement",
+   "caregiver_condition": "primary",
+   "caregiver_condition_wording": "the person who is primarily responsible for the care and nurture of the child",
+   "entitlement": "guaranteed_on_request",
+   "duration": {
+    "value": 6,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "pay_fraction": "full pay",
+   "payer": "own_balance",
+   "runs_concurrently_with": [
+    "FMLA"
+   ],
+   "sequence": [],
+   "evidence": {
+    "faculty_group": [
+     "Up to six weeks of available sick leave may be used for the adoption of a child, provided the person applying for the leave is the primary care-giver."
+    ],
+    "eligible_parent": [
+     "Up to six weeks of available sick leave may be used for the adoption of a child, provided the person applying for the leave is the primary care-giver.",
+     "Employees may use up to six weeks of earned sick leave for the purpose of caring for an adoptive child after placement. The leave authorized by this section may be requested by the employee only if the employee is the person who is primarily responsible for the care and nurture of the child."
+    ],
+    "caregiver_condition": [
+     "Employees may use up to six weeks of earned sick leave for the purpose of caring for an adoptive child after placement. The leave authorized by this section may be requested by the employee only if the employee is the person who is primarily responsible for the care and nurture of the child."
+    ],
+    "entitlement": [
+     "Up to six weeks of available sick leave may be used for the adoption of a child, provided the person applying for the leave is the primary care-giver.",
+     "Employees may use up to six weeks of earned sick leave for the purpose of caring for an adoptive child after placement. The leave authorized by this section may be requested by the employee only if the employee is the person who is primarily responsible for the care and nurture of the child."
+    ],
+    "duration": [
+     "Up to six weeks of available sick leave may be used for the adoption of a child, provided the person applying for the leave is the primary care-giver."
+    ],
+    "pay_fraction": [
+     "Up to six weeks of available sick leave may be used for the adoption of a child, provided the person applying for the leave is the primary care-giver."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_faculty_manual_columbia",
+    "2018_07_hr106_sick_leave_rev2018",
+    "2018_08_hr109_other_leave_with_pay_rev2017"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "own_accrual",
+     "quote": "Up to six weeks of available sick leave may be used for the adoption of a child, provided the person applying for the leave is the primary care-giver."
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "own_balance",
+     "quote": "Employees may use up to six weeks of earned sick leave for the purpose of caring for an adoptive child after placement. The leave authorized by this section may be requested by the employee only if the employee is the person who is primarily responsible for the care and nurture of the child."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Up to six weeks of available sick leave may be used for the adoption of a child, provided the person applying for the leave is the primary care-giver."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Up to six weeks of available sick leave may be used for the adoption of a child, provided the person applying for the leave is the primary care-giver."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "adoptive",
+     "quote": "Employees may use up to six weeks of earned sick leave for the purpose of caring for an adoptive child after placement. The leave authorized by this section may be requested by the employee only if the employee is the person who is primarily responsible for the care and nurture of the child."
+    },
+    {
+     "field": "caregiver_condition",
+     "rule": "R6",
+     "answer": "primary",
+     "quote": "Employees may use up to six weeks of earned sick leave for the purpose of caring for an adoptive child after placement. The leave authorized by this section may be requested by the employee only if the employee is the person who is primarily responsible for the care and nurture of the child."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "Employees may use up to six weeks of earned sick leave for the purpose of caring for an adoptive child after placement. The leave authorized by this section may be requested by the employee only if the employee is the person who is primarily responsible for the care and nurture of the child."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "6 week up_to",
+     "quote": "Up to six weeks of available sick leave may be used for the adoption of a child, provided the person applying for the leave is the primary care-giver."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "full pay (sick leave)",
+     "quote": "Up to six weeks of available sick leave may be used for the adoption of a child, provided the person applying for the leave is the primary care-giver."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_south_carolina_c12",
+   "institution_label": "",
+   "description": "Up to ten days of the member's sick leave per calendar year to care for an ill immediate family member (spouse, children, parents ...).",
+   "mechanism": "own_accrual",
+   "rule_applied": [
+    "R1",
+    "U5",
+    "V2"
+   ],
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "faculty members (Faculty Manual); employees earning sick leave (HR 1.06)",
+   "eligible_parent": [
+    "non_birth_parent"
+   ],
+   "eligible_parent_wording": "immediate family ... includes the employee’s spouse and children",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "duration": {
+    "value": 10,
+    "units": "day",
+    "qualifier": "up_to"
+   },
+   "duration_note": "per calendar year",
+   "pay_fraction": "full pay",
+   "payer": "own_balance",
+   "sequence": [],
+   "evidence": {
+    "faculty_group": [
+     "Faculty members may take up to ten days of available sick leave in each calendar year to care for a member of their immediate family."
+    ],
+    "eligible_parent": [
+     "Employees earning sick leave may use up to 10 days of sick leave within a calendar year to care for their immediate family during their illnesses."
+    ],
+    "entitlement": [
+     "Faculty members may take up to ten days of available sick leave in each calendar year to care for a member of their immediate family.",
+     "Employees earning sick leave may use up to 10 days of sick leave within a calendar year to care for their immediate family during their illnesses."
+    ],
+    "duration": [
+     "Faculty members may take up to ten days of available sick leave in each calendar year to care for a member of their immediate family."
+    ],
+    "pay_fraction": [
+     "Faculty members may take up to ten days of available sick leave in each calendar year to care for a member of their immediate family."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_faculty_manual_columbia",
+    "2018_07_hr106_sick_leave_rev2018"
+   ],
+   "flags": [
+    "family_illness_leave"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "own_accrual",
+     "quote": "Faculty members may take up to ten days of available sick leave in each calendar year to care for a member of their immediate family."
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "own_balance",
+     "quote": "Faculty members may take up to ten days of available sick leave in each calendar year to care for a member of their immediate family."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Employees earning sick leave may use up to 10 days of sick leave within a calendar year to care for their immediate family during their illnesses."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Faculty members may take up to ten days of available sick leave in each calendar year to care for a member of their immediate family."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "non_birth_parent (care of an ill family member)",
+     "quote": "Employees earning sick leave may use up to 10 days of sick leave within a calendar year to care for their immediate family during their illnesses."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "Faculty members may take up to ten days of available sick leave in each calendar year to care for a member of their immediate family."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "10 day up_to per calendar year",
+     "quote": "Faculty members may take up to ten days of available sick leave in each calendar year to care for a member of their immediate family."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "full pay (sick leave)",
+     "quote": "Faculty members may take up to ten days of available sick leave in each calendar year to care for a member of their immediate family."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_south_carolina_c13",
+   "institution_label": "LEAVE TRANSFER PROGRAM",
+   "description": "Faculty may apply for donated leave from the university's leave transfer pool for a catastrophic personal emergency requiring prolonged absence once paid leave is unavailable; subject to the chair/dean certifying funds and HR approval.",
+   "mechanism": "donated_leave",
+   "rule_applied": [
+    "R1d",
+    "V2"
+   ],
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Faculty members who earn annual or sick leave",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "a catastrophic personal emergency requiring a prolonged absence",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "duration_note": "No length stated.",
+   "payer": "own_balance",
+   "sequence": [],
+   "evidence": {
+    "faculty_group": [
+     "Faculty members who earn annual or sick leave may donate to or apply for leave from the university's system leave transfer program."
+    ],
+    "eligible_parent": [
+     "Requests to use leave from the pool shall be based on a catastrophic personal emergency requiring a prolonged absence that would result in a substantial loss of income because of the unavailability of paid leave."
+    ],
+    "entitlement": [
+     "Leave transfer requests shall be granted only if the chair or dean certifies that funds are available to pay for the leave; they also must be approved by the vice president for human resources or the vice president's designee."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_faculty_manual_columbia"
+   ],
+   "flags": [
+    "cross_reference_not_saved: University Policy HR 1.10 Leave Transfer Policy"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "donated_leave",
+     "quote": "Faculty members who earn annual or sick leave may donate to or apply for leave from the university's system leave transfer program."
+    },
+    {
+     "field": "payer",
+     "rule": "R1d",
+     "answer": "own_balance",
+     "quote": "Faculty members who earn annual or sick leave may donate to or apply for leave from the university's system leave transfer program."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Requests to use leave from the pool shall be based on a catastrophic personal emergency requiring a prolonged absence that would result in a substantial loss of income because of the unavailability of paid leave."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Faculty members who earn annual or sick leave may donate to or apply for leave from the university's system leave transfer program."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (personal emergency requiring absence)",
+     "quote": "Requests to use leave from the pool shall be based on a catastrophic personal emergency requiring a prolonged absence that would result in a substantial loss of income because of the unavailability of paid leave."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "Leave transfer requests shall be granted only if the chair or dean certifies that funds are available to pay for the leave; they also must be approved by the vice president for human resources or the vice president's designee."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_south_carolina_c14",
+   "institution_label": "long-term disability insurance",
+   "description": "Long-term disability insurance offered with the state of South Carolina to eligible faculty (schema §2: recorded without a length).",
+   "mechanism": "generic_sick_or_disability_plan",
+   "mechanism_note": "Long-term disability plan (schema §2); terms not in the saved documents.",
+   "rule_applied": [
+    "M1",
+    "V6"
+   ],
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "eligible members of the faculty and staff",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "If the faculty member is disabled",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "entitlement_note": "The insurance programme is provided for eligible faculty; the plan document is not saved.",
+   "payer": "insurance_plan",
+   "sequence": [],
+   "evidence": {
+    "faculty_group": [
+     "In conjunction with the state of South Carolina, the university has a comprehensive program of insurance and annuity plans for eligible members of the faculty and staff and their eligible dependents."
+    ],
+    "eligible_parent": [
+     "If the faculty member is disabled, long term disability or some other type of leave should be taken."
+    ],
+    "entitlement": [
+     "In conjunction with the state of South Carolina, the university has a comprehensive program of insurance and annuity plans for eligible members of the faculty and staff and their eligible dependents.",
+     "These plans include state health insurance, health maintenance organizations, dental insurance, life insurance, long-term disability insurance, auto and homeowners' insurance, and long-term care insurance."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_faculty_manual_columbia",
+    "2018_00_link"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "These plans include state health insurance, health maintenance organizations, dental insurance, life insurance, long-term disability insurance, auto and homeowners' insurance, and long-term care insurance."
+    },
+    {
+     "field": "payer",
+     "rule": "M1",
+     "answer": "insurance_plan",
+     "quote": "In conjunction with the state of South Carolina, the university has a comprehensive program of insurance and annuity plans for eligible members of the faculty and staff and their eligible dependents."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "These plans include state health insurance, health maintenance organizations, dental insurance, life insurance, long-term disability insurance, auto and homeowners' insurance, and long-term care insurance."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "In conjunction with the state of South Carolina, the university has a comprehensive program of insurance and annuity plans for eligible members of the faculty and staff and their eligible dependents."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent",
+     "quote": "If the faculty member is disabled, long term disability or some other type of leave should be taken."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "In conjunction with the state of South Carolina, the university has a comprehensive program of insurance and annuity plans for eligible members of the faculty and staff and their eligible dependents."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_south_carolina_c15",
+   "institution_label": "Annual Leave",
+   "description": "Annual leave accrues only for faculty on twelve-month appointments (1.25 days per month); academic-year faculty earn none.",
+   "mechanism": "own_accrual",
+   "rule_applied": [
+    "R1",
+    "U1",
+    "V2"
+   ],
+   "faculty_group": "Faculty members on twelve-month appointment",
+   "faculty_group_note": "Faculty members employed on less than a twelve-month basis shall not earn annual leave.",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "faculty members",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "duration_note": "Accrued balance; no more than thirty days of annual leave may be used in any calendar year.",
+   "payer": "own_balance",
+   "sequence": [],
+   "evidence": {
+    "faculty_group": [
+     "Faculty members employed on less than a twelve-month basis shall not earn annual leave.",
+     "Faculty members on twelve-month appointment with no stipulation of term and who work at least half-time shall accumulate annual leave at the rate of one and one-quarter days per month of continuous employment."
+    ],
+    "eligible_parent": [
+     "Faculty members on twelve-month appointment with no stipulation of term and who work at least half-time shall accumulate annual leave at the rate of one and one-quarter days per month of continuous employment."
+    ],
+    "entitlement": [
+     "Faculty members on twelve-month appointment with no stipulation of term and who work at least half-time shall accumulate annual leave at the rate of one and one-quarter days per month of continuous employment.",
+     "No more than thirty days of annual leave may be used in any calendar year."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_faculty_manual_columbia"
+   ],
+   "flags": [
+    "general_purpose",
+    "cross_reference_not_saved: University Policy HR 1.03 Annual Leave"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "own_accrual",
+     "quote": "Faculty members on twelve-month appointment with no stipulation of term and who work at least half-time shall accumulate annual leave at the rate of one and one-quarter days per month of continuous employment."
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "own_balance",
+     "quote": "Faculty members on twelve-month appointment with no stipulation of term and who work at least half-time shall accumulate annual leave at the rate of one and one-quarter days per month of continuous employment."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "Faculty members on twelve-month appointment with no stipulation of term and who work at least half-time shall accumulate annual leave at the rate of one and one-quarter days per month of continuous employment."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "Faculty members on twelve-month appointment",
+     "quote": "Faculty members employed on less than a twelve-month basis shall not earn annual leave."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "Faculty members on twelve-month appointment with no stipulation of term and who work at least half-time shall accumulate annual leave at the rate of one and one-quarter days per month of continuous employment."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "Faculty members on twelve-month appointment with no stipulation of term and who work at least half-time shall accumulate annual leave at the rate of one and one-quarter days per month of continuous employment."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_south_carolina_c16",
+   "institution_label": "Family Medical Leave",
+   "description": "FMLA: up to 12 workweeks of unpaid, job-protected leave per calendar year for the birth (and care) of a child, adoption or foster placement, a family member's or the employee's own serious health condition; paid leave used first and counted toward it.",
+   "mechanism": "unpaid_leave",
+   "rule_applied": [
+    "U2",
+    "U4",
+    "S1",
+    "R9",
+    "V2",
+    "U5"
+   ],
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "eligible faculty members (Faculty Manual); all employees (HR 1.07)",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "The birth or adoption of a child or the foster care placement of a child",
+   "caregiver_condition": "none",
+   "service_requirement": "12 months and 1,250 hours",
+   "dual_employee_rule": "combined 12 weeks when both spouses are employed by the University (birth, adoption, foster placement)",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 12,
+    "units": "workweek",
+    "qualifier": "up_to"
+   },
+   "duration_note": "Per calendar year (University policy); statute: 12 workweeks during any 12-month period.",
+   "time_window": "Eligibility expires 12 months after the date of the birth or placement",
+   "notice": "30 days' notice if foreseeable",
+   "payer": "none",
+   "statute_source": "29 U.S.C. 2612(a)(1)",
+   "statute_verified": true,
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "sequence": [
+    {
+     "relation": "concurrent_with",
+     "component_id": "university_of_south_carolina_c9",
+     "note": "S1: disability leave under the sick leave policy counts toward the 12 weeks of FMLA; unpaid remainder none beyond the disability leave for the birth parent"
+    }
+   ],
+   "evidence": {
+    "faculty_group": [
+     "The university will grant eligible faculty members up to 12 work weeks of unpaid leave during a calendar year for any of the following reasons:"
+    ],
+    "eligible_parent": [
+     "The birth or adoption of a child or the foster care placement of a child; (NOTE: Eligibility expires 12 months after the date of the birth or placement.)",
+     "For the birth of a child and to care for that child. (Note: Eligibility expires 12 months after the date of birth)."
+    ],
+    "entitlement": [
+     "The university will grant eligible faculty members up to 12 work weeks of unpaid leave during a calendar year for any of the following reasons:",
+     "An eligible employee who takes FMLA leave is entitled to return from leave and be restored to the position held prior to beginning FMLA leave or to a comparable position with equivalent benefits, pay, and other terms and conditions of employment."
+    ],
+    "duration": [
+     "The university will grant eligible faculty members up to 12 work weeks of unpaid leave during a calendar year for any of the following reasons:",
+     "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period"
+    ],
+    "service_requirement": [
+     "To be eligible, a faculty member must have been employed by the State of South Carolina for at least 12 months and have completed at least 1250 hours of service during the 12-month period preceding"
+    ],
+    "sequence": [
+     "Disability leave for 3 or more days taken pursuant to the sick leave policy will automatically be counted toward the allowed 12 weeks of FMLA leave upon approval."
+    ],
+    "dual_employee_rule": [
+     "When both spouses are employed by the University of South Carolina, the aggregate number of work weeks for FMLA leave to which both may be entitled is limited to 12 weeks during the calendar year for the birth or adoption of a child or the foster care placement of a child."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_faculty_manual_columbia",
+    "2018_04_hr107_family_medical_leave",
+    "2018_07_hr106_sick_leave_rev2018",
+    "2026_00_us_fmla_29usc2612"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "U4",
+     "answer": "unpaid_leave",
+     "quote": "The university will grant eligible faculty members up to 12 work weeks of unpaid leave during a calendar year for any of the following reasons:"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "The university will grant eligible faculty members up to 12 work weeks of unpaid leave during a calendar year for any of the following reasons:"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "The birth or adoption of a child or the foster care placement of a child; (NOTE: Eligibility expires 12 months after the date of the birth or placement.)"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "The university will grant eligible faculty members up to 12 work weeks of unpaid leave during a calendar year for any of the following reasons:"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent, non_birth_parent, adoptive, foster",
+     "quote": "The birth or adoption of a child or the foster care placement of a child; (NOTE: Eligibility expires 12 months after the date of the birth or placement.)"
+    },
+    {
+     "field": "entitlement",
+     "rule": "U2",
+     "answer": "guaranteed",
+     "quote": "The university will grant eligible faculty members up to 12 work weeks of unpaid leave during a calendar year for any of the following reasons:"
+    },
+    {
+     "field": "duration",
+     "rule": "U2",
+     "answer": "12 workweek up_to",
+     "quote": "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U2",
+     "answer": "12 months and 1,250 hours",
+     "quote": "To be eligible, a faculty member must have been employed by the State of South Carolina for at least 12 months and have completed at least 1250 hours of service during the 12-month period preceding"
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all relieved (formal leave)",
+     "quote": "The university will grant eligible faculty members up to 12 work weeks of unpaid leave during a calendar year for any of the following reasons:"
+    },
+    {
+     "field": "sequence",
+     "rule": "S1",
+     "answer": "concurrent_with c9",
+     "quote": "Disability leave for 3 or more days taken pursuant to the sick leave policy will automatically be counted toward the allowed 12 weeks of FMLA leave upon approval."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_south_carolina_c17",
+   "institution_label": "Leave Without Pay",
+   "description": "Discretionary leave without pay granted by the president in the university's interest, up to one continuous year (personal leave without pay up to ten consecutive calendar days by the chair or dean); sick and annual leave used first.",
+   "mechanism": "unpaid_leave",
+   "rule_applied": [
+    "U1",
+    "V2",
+    "R9"
+   ],
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "faculty members (Faculty Manual); all employees other than temporary and student employees (HR 1.12)",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "personal reasons",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "up_to"
+   },
+   "duration_note": "maximum continuous period of one year unless extended by the president; personal leave without pay up to ten consecutive calendar days by chair or dean",
+   "must_exhaust_first": [
+    "sick",
+    "vacation"
+   ],
+   "payer": "none",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "sequence": [],
+   "evidence": {
+    "faculty_group": [
+     "The president may grant leave without pay on the recommendation of the appropriate administrators if the best interest of the university will be served.",
+     "This document sets forth the University of South Carolina policy on leave without pay for all employees except temporary and student employees"
+    ],
+    "eligible_parent": [
+     "Leave without pay for personal reasons may be granted by the chair or dean for up to ten consecutive calendar days."
+    ],
+    "entitlement": [
+     "The president may grant leave without pay on the recommendation of the appropriate administrators if the best interest of the university will be served.",
+     "The authorization of leave without pay shall be a matter of administrative discretion"
+    ],
+    "duration": [
+     "Such leave may be granted for a maximum continuous period of one year, unless extended by the president."
+    ],
+    "must_exhaust_first": [
+     "Except for good cause shown, leave without pay will not be granted until all available annual and sick leave has been used."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_faculty_manual_columbia",
+    "2018_06_hr112_leave_without_pay"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "The president may grant leave without pay on the recommendation of the appropriate administrators if the best interest of the university will be served."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "The president may grant leave without pay on the recommendation of the appropriate administrators if the best interest of the university will be served."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "The authorization of leave without pay shall be a matter of administrative discretion"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "The president may grant leave without pay on the recommendation of the appropriate administrators if the best interest of the university will be served."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "Leave without pay for personal reasons may be granted by the chair or dean for up to ten consecutive calendar days."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "The authorization of leave without pay shall be a matter of administrative discretion"
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 year up_to",
+     "quote": "Such leave may be granted for a maximum continuous period of one year, unless extended by the president."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all relieved (formal leave)",
+     "quote": "The president may grant leave without pay on the recommendation of the appropriate administrators if the best interest of the university will be served."
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "Reference date 2018-03-13.",
+  "Governing documents in force: Faculty Manual Columbia (June 9, 2017), ACAF 1.60 Modified Duties Semester (rev. Dec 1, 2014), ACAF 1.31 tenure-clock extension (rev. Nov 11, 2014), HR 1.06 Sick Leave (rev. Feb 7, 2018), HR 1.07 FMLA (rev. Apr 19, 2016), HR 1.09 Other Leave with Pay (rev. Apr 12, 2017), HR 1.12 Leave Without Pay (rev. Apr 19, 2016). Superseded before the reference date and not coded from: 2018_03 (HR 1.06, Apr 2014) and 2018_05 (HR 1.09, Oct 2013).",
+  "Version: the ACAF 1.60 copy (2018_00_link) is a 2016-08-19 capture of the 2014-12-01 revision; nothing in the sources shows a later revision before 2018-03-13, but no version note confirms the copy for the reference date, so its components carry version_uncertain.",
+  "No dedicated paid parental or maternity leave exists in the sources. A birth parent's paid time off comes only from her own accrued sick leave (c8, 0 paid weeks, R1) inside the Faculty Manual disability leave (c9). The paid benefit is the full-pay modified-duties semester (c1), relief from onsite duties with research continuing.",
+  "c9 conflict: the Faculty Manual (June 2017) states the disability leave ('may not be denied'; normally not over 180 work days with pay or 180 calendar days combined; extendable to 365 at the president's discretion), as did HR 1.06 before 2018. HR 1.06 as revised 2018-02-07 no longer states a 180-day period and treats leave as a case-by-case ADA accommodation, but refers faculty to the Faculty Manual. Coded from the Faculty Manual, the faculty's governing document, and flagged conflicting_sources.",
+  "c4 automatic tenure-clock extension: its closed list of reasons is the birth or adoption of a child or the death of a spouse/partner or child. U1 read literally (a purpose outside health, family care, birth or adoption) would make it general_purpose; it is read as not general_purpose, since the closed list holds no ground outside the U1 categories. Flagged ambiguous (rule gap).",
+  "Calendar: semesters ('fall or spring semester', ACAF 1.60), kind of term stated, length not: calendar.kind = semester, and the term length follows R8's order. The Faculty Manual's 'salary for one semester' is pay only.",
+  "Annual leave (c15) is earned only by twelve-month faculty; academic-year (nine-month) faculty earn none, so the standard tenure-stream member has no vacation balance.",
+  "Sabbatical leave (Faculty Manual) is not a component: it is for professional projects and cannot be used for a birth. HR 1.09 court, death-in-family, military, voting, blood, bone-marrow and organ-donor leave, and administrative leave after an assault, are likewise not components.",
+  "Chain, birth parent: disability leave c9 (up to 180 calendar days, pay from own sick leave c8 within it, then advanced sick leave c10 after the balance) with FMLA c16 alongside from its start (concurrent_with); the modified-duties semester c1 (full pay, one semester, to be concluded within 12 months of the birth) is not linked: ACAF 1.60 says leave must be taken if complete release is needed 'during this period', and states no order against the leave.",
+  "Chain, non-birth parent: FMLA c16 (12 workweeks; its link to c9 is ignored for this role); modified-duties semester c1 (as primary caregiver) in lieu of c2 (secondary caregiver, negotiated relief); family sick leave c12 (10 days, own balance) unlinked.",
+  "Cross-references found but not saved: HR 1.03 Annual Leave; HR 1.10 Leave Transfer Policy; HR 1.18 Hazardous Weather and Emergency Leave; HR 1.21 Educational Leave; HR 1.27 Nepotism; HR 1.39 Disciplinary Action; HR 1.45 Reduction-In-Force; HR 1.57 Separation from University Service; HR 1.66 Workers' Compensation; HR 1.02 Ethics Policy; ACAF 1.00, 1.05 (Third Year Review), 1.06, 1.18, 1.33, 1.50; EOP 1.00; RSCH, FINA and BUSF policies; the Policies and Procedures Manual (general reference); USC Palmetto College Campuses Faculty Manual; the Modified Duties Semester form and the Tenure Clock/Post-Tenure Review Extension form; the long-term disability plan document."
+ ],
+ "statutory_floor": {
+  "jurisdiction": "US",
+  "year": "2018",
+  "weeks_birth": 12.0,
+  "weeks_nonbirth": 12.0,
+  "statute": "Family and Medical Leave Act (FMLA) (29 U.S.C. 2611-2612)",
+  "source_doc": "2026_00_us_fmla_29usc2612",
+  "table": "statutory_baseline.csv"
+ }
+}

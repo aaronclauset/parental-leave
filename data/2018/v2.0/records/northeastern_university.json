@@ -1,0 +1,2690 @@
+{
+ "institution": "Northeastern University",
+ "slug": "northeastern_university",
+ "country": "US",
+ "model": "claude-opus-5-5",
+ "codebook_version": "1.25",
+ "schema_version": "1.25",
+ "reference_date": "2018-02-27",
+ "calendar": {
+  "term_weeks": null,
+  "note": "R8: the Faculty Handbook states a semester calendar without a length ('employed either on a two-semester academic year basis'; 'free of college duties for one semester or two summer sessions'); semester default 16. The School of Law's quarter calendar (sabbatical section) is outside the arts, sciences and engineering.",
+  "kind": "semester"
+ },
+ "documents": [
+  {
+   "doc_id": "2018_00_link",
+   "title": "Policy on Parental Teaching Relief for Tenured and Tenure-Track Faculty",
+   "version_or_effective_date": "effective 2011-10-05; page footer 10/29/2014; Wayback capture 2016-09-09",
+   "url": "https://www.northeastern.edu/policies/pdfs/Policy_on_Parental_Teaching_Relief_for_Tenured_and_Tenure_Track_Faculty.pdf",
+   "retrieved": "2026-10-18"
+  },
+  {
+   "doc_id": "2018_01_handbook_vacation_other_leaves",
+   "title": "Faculty Handbook: Vacation and Other Leaves of Absence",
+   "version_or_effective_date": "undated; Wayback capture 2018-02-27",
+   "url": "http://www.northeastern.edu/facultyhandbook/pdfs/vacation-other-leaves.pdf",
+   "retrieved": "2026-10-21"
+  },
+  {
+   "doc_id": "2018_02_handbook_tenure_2017",
+   "title": "Faculty Handbook: Tenure (Tenure-2017.pdf)",
+   "version_or_effective_date": "revised 2014-04-30, approved by Trustees 2014-06-06; Wayback capture 2018-02-27",
+   "url": "http://www.northeastern.edu/facultyhandbook/pdfs/Tenure-2017.pdf",
+   "retrieved": "2026-10-21"
+  },
+  {
+   "doc_id": "2018_03_policy_tenure_clock_extension",
+   "title": "Policy on Tenure Clock Extension",
+   "version_or_effective_date": "effective 2013-12-20; revised 2017-07-26; Wayback capture 2018-02-26",
+   "url": "http://www.northeastern.edu/policies/pdfs/Policy_on_Tenure_Clock_Extension.pdf",
+   "retrieved": "2026-10-21"
+  },
+  {
+   "doc_id": "2018_04_policy_leaves_of_absence",
+   "title": "Policy on Leaves of Absence",
+   "version_or_effective_date": "effective 2014-04-02; revised 2017-07-01; Wayback capture 2018-02-27",
+   "url": "http://www.northeastern.edu/policies/pdfs/Policy_on_Leaves_of_Absence.pdf",
+   "retrieved": "2026-10-21"
+  },
+  {
+   "doc_id": "2018_05_policy_paid_time_off",
+   "title": "Policy on Paid Time Off",
+   "version_or_effective_date": "effective 2014-04-02; revised 2016-10-01; Wayback capture 2018-02-27",
+   "url": "http://www.northeastern.edu/policies/pdfs/Policy_on_Paid_Time_Off.pdf",
+   "retrieved": "2026-10-21"
+  },
+  {
+   "doc_id": "2018_06_faculty_handbook_compiled",
+   "title": "Faculty Handbook (compiled PDF)",
+   "version_or_effective_date": "sections dated individually (latest 2015); Wayback capture 2018-02-27",
+   "url": "http://www.northeastern.edu/facultyhandbook/pdfs/FACULTY%20HANDBOOK.pdf",
+   "retrieved": "2026-10-21"
+  },
+  {
+   "doc_id": "2018_07_hr_leaves_of_absence_page",
+   "title": "HRM Benefits: Leaves of Absence (web page)",
+   "version_or_effective_date": "undated; Wayback capture 2018-02-26",
+   "url": "http://www.northeastern.edu/hrm/benefits/leaves-of-absence/index.html",
+   "retrieved": "2026-10-21"
+  },
+  {
+   "doc_id": "2018_08_hr_disability_programs_page",
+   "title": "HRM Benefits: Disability Programs (web page)",
+   "version_or_effective_date": "undated; Wayback capture 2018-02-26",
+   "url": "http://www.northeastern.edu/hrm/benefits/disability-programs/index.html",
+   "retrieved": "2026-10-21"
+  }
+ ],
+ "missing": false,
+ "leave_limits": [],
+ "components": [
+  {
+   "component_id": "northeastern_university_c1",
+   "institution_label": "Policy on Parental Teaching Relief for Tenured and Tenure-Track Faculty",
+   "description": "One semester of relief from classroom teaching, without a reduction in salary, for tenured and tenure-track faculty who give birth or become parents of a newborn or newly adopted child under six; research, graduate supervision and other duties continue. Up to two periods, for separate births or adoptions.",
+   "mechanism": "modified_duties",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "tenured and tenure-track faculty members (the policy applies to all tenured and tenure-track faculty at Northeastern; not to non-tenure-track faculty or non-faculty employees)",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "Gives birth to a child, or becomes a parent of a newly born or newly adopted child under the age of six",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "V2: the policy provides the semester 'upon request'; the dean decides how teaching is modified (arrangements), not whether relief is given.",
+   "duration": {
+    "value": 1,
+    "units": "semester",
+    "qualifier": "exact"
+   },
+   "pay_fraction": "without a reduction in salary",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "continues",
+    "research": "continues",
+    "advising_supervision": "continues",
+    "clinical": "continues"
+   },
+   "relief_note": "Relief from assigned classroom teaching; the policy states that the faculty member's other professional responsibilities, including research and graduate student supervision, continue (stated, not inferred).",
+   "sequence": [
+    {
+     "relation": "also_available",
+     "component_id": "northeastern_university_c2",
+     "note": "'not considered a leave, but is in addition to any ... unpaid family leave'; no order stated (R3d); must begin within 12 months of the birth"
+    },
+    {
+     "relation": "also_available",
+     "component_id": "northeastern_university_c4",
+     "note": "'in addition to any paid medical leave'; no order stated (R3d)"
+    }
+   ],
+   "time_window": "Relief must begin within twelve months of the birth or adoption; child newly born or newly adopted and under the age of six",
+   "use_limit": [
+    {
+     "times": 2,
+     "per": "career",
+     "counts": "uses"
+    }
+   ],
+   "use_limit_note": "A faculty member may receive up to two periods of classroom teaching relief under this policy, for separate new births or adoptions; a multiple birth or simultaneous adoption occasions a single request.",
+   "dual_employee_rule": "each may take one semester (both parents in eligible positions)",
+   "notice": "Written request to the dean with as much advance notice as is possible",
+   "rule_applied": [
+    "V2",
+    "R3",
+    "R3d",
+    "R4",
+    "R4c",
+    "U9",
+    "R13"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Northeastern University provides to tenured and tenure-track faculty members who meet the following criteria, upon request, one semester of classroom teaching relief without a reduction in salary."
+    ],
+    "eligible_parent": [
+     "Gives birth to a child, or becomes a parent of a newly born or newly adopted child under the age of six"
+    ],
+    "entitlement": [
+     "Northeastern University provides to tenured and tenure-track faculty members who meet the following criteria, upon request, one semester of classroom teaching relief without a reduction in salary.",
+     "will determine how the faculty member’s classroom teaching will be modified."
+    ],
+    "duration": [
+     "Northeastern University provides to tenured and tenure-track faculty members who meet the following criteria, upon request, one semester of classroom teaching relief without a reduction in salary."
+    ],
+    "pay_fraction": [
+     "Northeastern University provides to tenured and tenure-track faculty members who meet the following criteria, upon request, one semester of classroom teaching relief without a reduction in salary."
+    ],
+    "relief": [
+     "Faculty members will ordinarily be expected to fulfill their other professional responsibilities, including research and graduate student supervision, during the period of classroom teaching relief."
+    ],
+    "sequence": [
+     "This period is not considered a leave, but is in addition to any paid medical leave or unpaid family leave that may be taken by the faculty member in connection with the new birth or new adoption."
+    ],
+    "use_limit": [
+     "A faculty member may receive up to two periods of classroom",
+     "teaching relief under this policy, for separate new births or adoptions."
+    ],
+    "time_window": [
+     "Begins the period of classroom teaching relief within twelve months of the date of the relevant birth or adoption."
+    ],
+    "dual_employee_rule": [
+     "If both parents are employed in an eligible position at the university, each of them may take one semester of classroom teaching relief provided both parents meet the other eligibility criteria."
+    ],
+    "notice": [
+     "A faculty member seeking a semester of classroom teaching relief must submit a written request to his or her dean with as much advance notice as is possible."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "modified_duties",
+     "quote": "This period is not considered a leave, but is in addition to any paid medical leave or unpaid family leave that may be taken by the faculty member in connection with the new birth or new adoption."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "Northeastern University provides to tenured and tenure-track faculty members who meet the following criteria, upon request, one semester of classroom teaching relief without a reduction in salary."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Gives birth to a child, or becomes a parent of a newly born or newly adopted child under the age of six"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Northeastern University provides to tenured and tenure-track faculty members who meet the following criteria, upon request, one semester of classroom teaching relief without a reduction in salary."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "birth_parent, non_birth_parent, adoptive",
+     "quote": "Gives birth to a child, or becomes a parent of a newly born or newly adopted child under the age of six"
+    },
+    {
+     "field": "caregiver_condition",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Gives birth to a child, or becomes a parent of a newly born or newly adopted child under the age of six"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "Northeastern University provides to tenured and tenure-track faculty members who meet the following criteria, upon request, one semester of classroom teaching relief without a reduction in salary."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 semester, exact",
+     "quote": "Northeastern University provides to tenured and tenure-track faculty members who meet the following criteria, upon request, one semester of classroom teaching relief without a reduction in salary."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "R3",
+     "answer": "without a reduction in salary (full pay)",
+     "quote": "Northeastern University provides to tenured and tenure-track faculty members who meet the following criteria, upon request, one semester of classroom teaching relief without a reduction in salary."
+    },
+    {
+     "field": "relief",
+     "rule": "R4",
+     "answer": "teaching relieved; research, advising and other duties continue (stated)",
+     "quote": "Faculty members will ordinarily be expected to fulfill their other professional responsibilities, including research and graduate student supervision, during the period of classroom teaching relief."
+    },
+    {
+     "field": "relief",
+     "rule": "R4c",
+     "answer": "teaching relieved with research continuing: Just teaching",
+     "quote": "Faculty members will ordinarily be expected to fulfill their other professional responsibilities, including research and graduate student supervision, during the period of classroom teaching relief."
+    },
+    {
+     "field": "sequence",
+     "rule": "R3d",
+     "answer": "also_available with the parental leave (c2) and the paid sick time (c4)",
+     "quote": "This period is not considered a leave, but is in addition to any paid medical leave or unpaid family leave that may be taken by the faculty member in connection with the new birth or new adoption."
+    },
+    {
+     "field": "use_limit",
+     "rule": "U9",
+     "answer": "2 per career",
+     "quote": "A faculty member may receive up to two periods of classroom"
+    }
+   ]
+  },
+  {
+   "component_id": "northeastern_university_c2",
+   "institution_label": "Parental Leave of Absence",
+   "description": "Unpaid parental leave of 8 weeks for giving birth or for the placement or adoption of a child, for benefits-eligible employees (faculty included) who have completed their probationary period; 8 weeks in the aggregate where both parents work for the University; runs concurrently with FMLA.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "All benefits eligible employees, regardless of marital status; 'Faculty members must also review and comply with all general policies on leaves of absence as outlined in the Faculty Handbook.'",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "for the purpose of giving birth or for the placement or adoption with the employee of a child; 'both parents ... in the aggregate for the birth or adoption of the same child'",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "V2 and schema: 'Employees are allowed to take parental leave'; an application with documentation is required 'for the leave to be approved' (arrangements); both parents together 'shall be entitled to 8 weeks'.",
+   "duration": {
+    "value": 8,
+    "units": "week",
+    "qualifier": "exact"
+   },
+   "duration_note": "8 weeks; where both parents work for the University, 8 weeks in the aggregate for the same child. Employees may use accrued sick and vacation time to remain in a paid status (optional, not required).",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "service_requirement": "completion of the Probationary Period as defined in the Policy on Probationary Period (not saved; length not stated in the saved sources)",
+   "dual_employee_rule": "combined 8 weeks in the aggregate for the same child",
+   "notice": "At least 2 weeks' notice of the anticipated start date and intention to return, or as soon as practicable",
+   "time_window": "child under age 18 (under 23 if mentally or physically disabled) for placement or adoption",
+   "runs_concurrently_with": [
+    "FMLA"
+   ],
+   "rule_applied": [
+    "V2",
+    "R9",
+    "R13",
+    "S1",
+    "U3",
+    "R5"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "All benefits eligible employees, regardless of marital status, are eligible for parental leave after they have completed their Probationary Period, as defined in the Policy on Probationary Period.",
+     "Faculty members must also review and comply with all general policies on leaves of absence as outlined in the Faculty Handbook."
+    ],
+    "eligible_parent": [
+     "Employees are allowed to take parental leave for a period of 8 weeks for the purpose of giving birth or for the placement or adoption with the employee of a child under age 18, or under age 23 if the child is mentally or physically disabled.",
+     "In the event that both parents work for the University, they shall be entitled to 8 weeks of parental leave in the aggregate for the birth or adoption of the same child."
+    ],
+    "entitlement": [
+     "Employees are allowed to take parental leave for a period of 8 weeks for the purpose of giving birth or for the placement or adoption with the employee of a child under age 18, or under age 23 if the child is mentally or physically disabled.",
+     "Applicable supporting documentation is also required to be sent to HRM in order for the leave to be approved."
+    ],
+    "duration": [
+     "Employees are allowed to take parental leave for a period of 8 weeks for the purpose of giving birth or for the placement or adoption with the employee of a child under age 18, or under age 23 if the child is mentally or physically disabled."
+    ],
+    "service_requirement": [
+     "All benefits eligible employees, regardless of marital status, are eligible for parental leave after they have completed their Probationary Period, as defined in the Policy on Probationary Period."
+    ],
+    "dual_employee_rule": [
+     "In the event that both parents work for the University, they shall be entitled to 8 weeks of parental leave in the aggregate for the birth or adoption of the same child."
+    ],
+    "notice": [
+     "Employees must provide HRM with at least 2 weeks' notice of the anticipated start date of leave and their intention to return"
+    ],
+    "payer": [
+     "Leaves of Absence are unpaid absences from employment at the University.",
+     "Depending on the type of leave, employees use accrued sick and vacation time to remain in a paid status during a leave."
+    ]
+   },
+   "doc_ids": [
+    "2018_04_policy_leaves_of_absence"
+   ],
+   "flags": [
+    "cross_reference_not_saved: Policy on Probationary Period",
+    "ambiguous: eligible_parent: the leave's purpose names giving birth, placement or adoption; the non-birth parent's eligibility after a birth is read from the aggregate clause for both parents ('for the birth or adoption of the same child')"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "Leaves of Absence are unpaid absences from employment at the University."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Leaves of Absence are unpaid absences from employment at the University."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Employees are allowed to take parental leave for a period of 8 weeks for the purpose of giving birth or for the placement or adoption with the employee of a child under age 18, or under age 23 if the child is mentally or physically disabled."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "All benefits eligible employees, regardless of marital status, are eligible for parental leave after they have completed their Probationary Period, as defined in the Policy on Probationary Period."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "birth_parent, non_birth_parent (aggregate clause), adoptive",
+     "quote": "In the event that both parents work for the University, they shall be entitled to 8 weeks of parental leave in the aggregate for the birth or adoption of the same child."
+    },
+    {
+     "field": "caregiver_condition",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Employees are allowed to take parental leave for a period of 8 weeks for the purpose of giving birth or for the placement or adoption with the employee of a child under age 18, or under age 23 if the child is mentally or physically disabled."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "Employees are allowed to take parental leave for a period of 8 weeks for the purpose of giving birth or for the placement or adoption with the employee of a child under age 18, or under age 23 if the child is mentally or physically disabled."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "8 weeks, exact",
+     "quote": "Employees are allowed to take parental leave for a period of 8 weeks for the purpose of giving birth or for the placement or adoption with the employee of a child under age 18, or under age 23 if the child is mentally or physically disabled."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "formal leave with no relief stated: all duties relieved",
+     "quote": "Leaves of Absence are unpaid absences from employment at the University."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U8",
+     "answer": "after the probationary period (length not in saved sources)",
+     "quote": "All benefits eligible employees, regardless of marital status, are eligible for parental leave after they have completed their Probationary Period, as defined in the Policy on Probationary Period."
+    }
+   ]
+  },
+  {
+   "component_id": "northeastern_university_c3",
+   "institution_label": "Family and Medical Leave of Absence",
+   "description": "Unpaid FMLA leave of up to 12 weeks in a rolling 12-month period for the birth, adoption or foster placement of a child (spouses and domestic partners within 12 months of the birth), the employee's own serious health condition, or care of a seriously ill child, spouse or parent; job restored after leave of up to 12 weeks; runs concurrently with the parental leave.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "All employees employed at least twelve months with 1,250 hours (faculty/staff members)",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "Birth, adoption or foster care placement of a child; Spouses or domestic partners ... who wish to take time off upon the birth or adoption",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "entitlement_note": "Statutory entitlement (schema): 29 U.S.C. 2612(a)(1) 'shall be entitled to a total of 12 workweeks'.",
+   "duration": {
+    "value": 12,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "duration_note": "Up to 12 weeks in any 12-month period (rolling back); the statute says 12 workweeks. Parental leave taken counts against it (8 weeks of parental leave leaves 4 weeks of FMLA).",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "service_requirement": "12 months and 1,250 hours in the last twelve months",
+   "dual_employee_rule": "combined 12 weeks in the aggregate for spouses for the birth, adoption or placement of the same child",
+   "time_window": "spouses or domestic partners: within the first 12 months following the birth, adoption or placement",
+   "notice": "Notify HRM when foreseeable; thirty days' notice or as much as practical for foreseeable leave",
+   "statute_source": "29 U.S.C. 2612(a)(1)(A)-(B) (length, purposes); 29 U.S.C. 2611(2) (eligibility)",
+   "statute_verified": true,
+   "sequence": [
+    {
+     "relation": "concurrent_with",
+     "component_id": "northeastern_university_c2",
+     "note": "'Parental leave shall run concurrently with leave taken under the Family Medical Leave Act'; 'FMLA leave shall run concurrently with parental leave'; 4 weeks of FMLA remain after 8 weeks of parental leave (S1)"
+    }
+   ],
+   "rule_applied": [
+    "U2",
+    "U4",
+    "S1",
+    "R9",
+    "U5",
+    "R13"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "All employees, who have been employed for a minimum of twelve months and worked a minimum of 1,250 hours in the last twelve months, are eligible to take leave as long as it does not exceed 12 weeks in any 12-month period."
+    ],
+    "eligible_parent": [
+     "Birth, adoption or foster care placement of a child;",
+     "Spouses or domestic partners (provided a Domestic Partner Certification is on file with HRM Benefits) who wish to take time off upon the birth or adoption (or placement of a foster child) are eligible to take up to 12 weeks of unpaid time within the first 12 months following the birth, adoption, or foster care placement of a child."
+    ],
+    "entitlement": [
+     "Under the Family and Medical Leave Act (the “FMLA”), eligible employees may take up to a maximum of 12 weeks of unpaid leave of absence for the following reasons, consistent with the requirements stated in this policy:",
+     "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period for one or more of the following:"
+    ],
+    "duration": [
+     "Under the Family and Medical Leave Act (the “FMLA”), eligible employees may take up to a maximum of 12 weeks of unpaid leave of absence for the following reasons, consistent with the requirements stated in this policy:",
+     "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period for one or more of the following:"
+    ],
+    "service_requirement": [
+     "All employees, who have been employed for a minimum of twelve months and worked a minimum of 1,250 hours in the last twelve months, are eligible to take leave as long as it does not exceed 12 weeks in any 12-month period.",
+     "for at least 1,250 hours of service with such employer during the previous 12-month period."
+    ],
+    "sequence": [
+     "Where applicable, FMLA leave shall run concurrently with parental leave as described in paragraph b above.",
+     "Parental leave shall run concurrently with leave taken under the Family Medical Leave Act as described in paragraph c below.",
+     "For example, if an employee takes parental leave for 8 weeks, the employee would have used 8 weeks of FMLA leave and would have 4 weeks remaining within the 12-month period."
+    ],
+    "dual_employee_rule": [
+     "In the event that both spouses work for the Univeristy, they shall be entitled to 12 weeks of FMLA leave in the aggregate for the birth, adoption, or foster care placement of the same child or to care for a sick parent."
+    ],
+    "time_window": [
+     "Spouses or domestic partners (provided a Domestic Partner Certification is on file with HRM Benefits) who wish to take time off upon the birth or adoption (or placement of a foster child) are eligible to take up to 12 weeks of unpaid time within the first 12 months following the birth, adoption, or foster care placement of a child."
+    ],
+    "notice": [
+     "Employees should notify HRM of their intent to take FMLA leave when the need for such Leave of Absence is foreseeable."
+    ],
+    "statute_source": [
+     "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period for one or more of the following:",
+     "Because of the birth of a son or daughter of the employee and in order to care for such son or daughter."
+    ]
+   },
+   "doc_ids": [
+    "2018_04_policy_leaves_of_absence",
+    "2026_00_us_fmla_29usc2612",
+    "2026_01_us_fmla_29usc2611_definitions"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "U4",
+     "answer": "unpaid_leave",
+     "quote": "Under the Family and Medical Leave Act (the “FMLA”), eligible employees may take up to a maximum of 12 weeks of unpaid leave of absence for the following reasons, consistent with the requirements stated in this policy:"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Under the Family and Medical Leave Act (the “FMLA”), eligible employees may take up to a maximum of 12 weeks of unpaid leave of absence for the following reasons, consistent with the requirements stated in this policy:"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Birth, adoption or foster care placement of a child;"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "All employees, who have been employed for a minimum of twelve months and worked a minimum of 1,250 hours in the last twelve months, are eligible to take leave as long as it does not exceed 12 weeks in any 12-month period."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent, non_birth_parent, adoptive, foster (birth and placement; own serious health condition and family care also covered)",
+     "quote": "Spouses or domestic partners (provided a Domestic Partner Certification is on file with HRM Benefits) who wish to take time off upon the birth or adoption (or placement of a foster child) are eligible to take up to 12 weeks of unpaid time within the first 12 months following the birth, adoption, or foster care placement of a child."
+    },
+    {
+     "field": "caregiver_condition",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Birth, adoption or foster care placement of a child;"
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period for one or more of the following:"
+    },
+    {
+     "field": "duration",
+     "rule": "U2",
+     "answer": "12 weeks, up_to ('up to a maximum of 12 weeks'; statute 12 workweeks)",
+     "quote": "Under the Family and Medical Leave Act (the “FMLA”), eligible employees may take up to a maximum of 12 weeks of unpaid leave of absence for the following reasons, consistent with the requirements stated in this policy:"
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "formal leave with no relief stated: all duties relieved",
+     "quote": "Under the Family and Medical Leave Act (the “FMLA”), eligible employees may take up to a maximum of 12 weeks of unpaid leave of absence for the following reasons, consistent with the requirements stated in this policy:"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U2",
+     "answer": "12 months and 1,250 hours",
+     "quote": "All employees, who have been employed for a minimum of twelve months and worked a minimum of 1,250 hours in the last twelve months, are eligible to take leave as long as it does not exceed 12 weeks in any 12-month period."
+    },
+    {
+     "field": "sequence",
+     "rule": "S1",
+     "answer": "concurrent_with the parental leave (c2)",
+     "quote": "Where applicable, FMLA leave shall run concurrently with parental leave as described in paragraph b above."
+    }
+   ]
+  },
+  {
+   "component_id": "northeastern_university_c4",
+   "institution_label": "Paid Sick Time",
+   "description": "Paid sick time at full pay for absences due to the employee's own medical condition, allotted to faculty on the first day of employment and renewed each fiscal year: 22 days with up to 2 years of completed service, 44 days with over 2 and under 7 years, 66 days over 7 years.",
+   "mechanism": "generic_sick_or_disability_plan",
+   "payer": "employer",
+   "mechanism_note": "R1: a fixed allotment the employer grants at hire and renews annually (no carry-forward stated for faculty; the carry-forward clause applies to weekly-paid staff), so an employer plan, not an accrual. Childbirth is handled as any own medical condition; no childbirth period is stated (V1 not met).",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Faculty and Administrative Professional Employees Grades 9-17 (benefits eligible employees paid on a semimonthly basis)",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "absences relating to the employee's medical condition(s)",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 22,
+    "units": "day",
+    "qualifier": "exact"
+   },
+   "duration_max": {
+    "value": 44,
+    "units": "day"
+   },
+   "duration_note": "U8: a member with two years of completed service is in the 'Up to 2 years of completed service' band (22 days); 44 days with over 2 and under 7 years (in duration_max); 66 days over 7 years. Renewed each July 1 (on return if on leave on July 1). Unpaid once exhausted; the HR pages refer to interim disability after 30 days' absence.",
+   "duration_variants": {
+    "up_to_2_years": "22 days",
+    "over_2_under_7_years": "44 days",
+    "over_7_years": "66 days"
+   },
+   "pay_fraction": "Full Pay",
+   "service_requirement": "none stated; allotted on the first day of employment",
+   "medical_certification": true,
+   "medical_certification_note": "Documentation from a health care provider may be required for absences over three consecutive work days; additional medical documentation and leave forms may be required for absences over five consecutive workdays.",
+   "rule_applied": [
+    "R1",
+    "V1",
+    "V6",
+    "U8",
+    "U5",
+    "U6",
+    "R11"
+   ],
+   "evidence": {
+    "mechanism": [
+     "The amount of paid sick time is allotted on the first day of employment and renewed annually at the start of the fiscal year (July 1)."
+    ],
+    "faculty_group": [
+     "Accrual for Faculty and Administrative Professional Employees Grades 9-17"
+    ],
+    "eligible_parent": [
+     "Paid sick time may only be used for absences relating to the employee's medical condition(s)"
+    ],
+    "entitlement": [
+     "The university provides, within certain limits, compensation to employees at their regular rate of pay for absences due to their own medical condition(s) and other circumstances."
+    ],
+    "duration": [
+     "Years of Service Paid Sick Time at Full Pay",
+     "Up to 2 years of completed service 22 days"
+    ],
+    "duration_max": [
+     "Over 2 years of completed service 44 days"
+    ],
+    "pay_fraction": [
+     "Years of Service Paid Sick Time at Full Pay"
+    ],
+    "service_requirement": [
+     "The amount of paid sick time is allotted on the first day of employment and renewed annually at the start of the fiscal year (July 1)."
+    ],
+    "medical_certification": [
+     "If a benefits eligible employee is absent in excess of five (5) consecutive workdays due to a medical condition, the employee may be required to provide additional medical documentation and complete leave of absence forms."
+    ]
+   },
+   "doc_ids": [
+    "2018_05_policy_paid_time_off",
+    "2018_04_policy_leaves_of_absence"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "The amount of paid sick time is allotted on the first day of employment and renewed annually at the start of the fiscal year (July 1)."
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "employer",
+     "quote": "The university provides, within certain limits, compensation to employees at their regular rate of pay for absences due to their own medical condition(s) and other circumstances."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Paid sick time may only be used for absences relating to the employee's medical condition(s)"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Accrual for Faculty and Administrative Professional Employees Grades 9-17"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own medical condition)",
+     "quote": "Paid sick time may only be used for absences relating to the employee's medical condition(s)"
+    },
+    {
+     "field": "caregiver_condition",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Paid sick time may only be used for absences relating to the employee's medical condition(s)"
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "The university provides, within certain limits, compensation to employees at their regular rate of pay for absences due to their own medical condition(s) and other circumstances."
+    },
+    {
+     "field": "duration",
+     "rule": "U8",
+     "answer": "22 days (two-year member; 'Up to 2 years of completed service'); 44 in duration_max",
+     "quote": "Up to 2 years of completed service 22 days"
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "Full Pay",
+     "quote": "Years of Service Paid Sick Time at Full Pay"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "none stated; allotted on the first day of employment",
+     "quote": "The amount of paid sick time is allotted on the first day of employment and renewed annually at the start of the fiscal year (July 1)."
+    },
+    {
+     "field": "duration.qualifier",
+     "rule": "R13",
+     "answer": "\"Up to\" names the service band (up to 2 years of completed service), not a ceiling on the 22-day allotment",
+     "quote": "Up to 2 years of completed service 22 days"
+    }
+   ]
+  },
+  {
+   "component_id": "northeastern_university_c5",
+   "institution_label": "",
+   "description": "Up to 40 hours a year of the employee's paid sick time may be used, under the Massachusetts Earned Sick Time Law, to care for an ill or injured child, spouse or parent (a partner's care of the birth parent after the birth) and for related appointments.",
+   "mechanism": "generic_sick_or_disability_plan",
+   "payer": "employer",
+   "mechanism_note": "Drawn from the employer's paid sick time allotment (c4, R1); the 40-hour family-care use is stated in accordance with a state statute (U4).",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "all eligible university employees",
+   "eligible_parent": [
+    "non_birth_parent"
+   ],
+   "eligible_parent_wording": "the employee’s child, spouse, parent, or parent of a spouse",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "entitlement_note": "Use 'in accordance with the Massachusetts Earned Sick Time Law' (statutory).",
+   "duration": {
+    "value": 40,
+    "units": "hour",
+    "qualifier": "up_to"
+   },
+   "duration_note": "Up to a maximum of 40 hours of sick time per year for the listed purposes.",
+   "pay_fraction": "regular rate of pay",
+   "statute_source": "Massachusetts Earned Sick Time Law (as named in the Policy on Paid Time Off)",
+   "statute_verified": false,
+   "rule_applied": [
+    "U4",
+    "U5",
+    "U2",
+    "R1",
+    "R11"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "This policy applies to all eligible university employees including employees who work outside of the state of Massachusetts unless another state law applies."
+    ],
+    "eligible_parent": [
+     "To care for a physical or mental illness, injury or medical condition that requires home care, professional medical diagnosis or care, or preventative medical care affecting the employee or the employee’s child, spouse, parent, or parent of a spouse;"
+    ],
+    "entitlement": [
+     "Up to a maximum of forty (40) hours of sick time per year may be used for the following purposes in accordance with the Massachusetts Earned Sick Time Law:"
+    ],
+    "duration": [
+     "Up to a maximum of forty (40) hours of sick time per year may be used for the following purposes in accordance with the Massachusetts Earned Sick Time Law:"
+    ],
+    "pay_fraction": [
+     "The university provides, within certain limits, compensation to employees at their regular rate of pay for absences due to their own medical condition(s) and other circumstances."
+    ],
+    "statute_source": [
+     "Up to a maximum of forty (40) hours of sick time per year may be used for the following purposes in accordance with the Massachusetts Earned Sick Time Law:"
+    ]
+   },
+   "doc_ids": [
+    "2018_05_policy_paid_time_off"
+   ],
+   "flags": [
+    "cross_reference_not_saved: Massachusetts Earned Sick Time Law (statute text not saved)",
+    "family_illness_leave"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "U4",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "Up to a maximum of forty (40) hours of sick time per year may be used for the following purposes in accordance with the Massachusetts Earned Sick Time Law:"
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "employer",
+     "quote": "The university provides, within certain limits, compensation to employees at their regular rate of pay for absences due to their own medical condition(s) and other circumstances."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "To care for a physical or mental illness, injury or medical condition that requires home care, professional medical diagnosis or care, or preventative medical care affecting the employee or the employee’s child, spouse, parent, or parent of a spouse;"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "This policy applies to all eligible university employees including employees who work outside of the state of Massachusetts unless another state law applies."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "non_birth_parent (care of an ill family member)",
+     "quote": "To care for a physical or mental illness, injury or medical condition that requires home care, professional medical diagnosis or care, or preventative medical care affecting the employee or the employee’s child, spouse, parent, or parent of a spouse;"
+    },
+    {
+     "field": "caregiver_condition",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "To care for a physical or mental illness, injury or medical condition that requires home care, professional medical diagnosis or care, or preventative medical care affecting the employee or the employee’s child, spouse, parent, or parent of a spouse;"
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "Up to a maximum of forty (40) hours of sick time per year may be used for the following purposes in accordance with the Massachusetts Earned Sick Time Law:"
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "40 hours per year, up_to",
+     "quote": "Up to a maximum of forty (40) hours of sick time per year may be used for the following purposes in accordance with the Massachusetts Earned Sick Time Law:"
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "regular rate of pay",
+     "quote": "The university provides, within certain limits, compensation to employees at their regular rate of pay for absences due to their own medical condition(s) and other circumstances."
+    }
+   ]
+  },
+  {
+   "component_id": "northeastern_university_c6",
+   "institution_label": "Interim Disability/Salary Continuation",
+   "description": "After 30 days' absence and once accrued sick time is exhausted, interim disability coverage pays 60 percent of salary for up to six months, for benefits-eligible faculty and staff with one year of service.",
+   "mechanism": "generic_sick_or_disability_plan",
+   "payer": "employer",
+   "mechanism_note": "A disability benefit for any medical absence; no childbirth period stated (V1 not met). Pay alone; it grants no leave of its own (U6). The governing policies (Leaves of Absence; Paid Time Off) name interim disability benefits; the terms are from the HR page (source precedence: a summary may supply a detail of a provision the governing document contains).",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Benefits-eligible faculty and staff",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "If you experience a short- or long-term disability",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 6,
+    "units": "month",
+    "qualifier": "up_to"
+   },
+   "pay_fraction": "60 percent of salary",
+   "must_exhaust_first": [
+    "sick"
+   ],
+   "service_requirement": "one year of service (eligible the first day of the month following completion of one year; waived with prior employer LTD coverage)",
+   "time_window": "begins after 30 days of absence and exhaustion of accrued sick time",
+   "medical_certification": true,
+   "medical_certification_note": "documentation for medical certification when out more than five days",
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "northeastern_university_c4",
+     "note": "begins after 30 days' absence once accrued sick time is exhausted (R15: start tied to the end of another of the record's components)"
+    }
+   ],
+   "rule_applied": [
+    "V1",
+    "V6",
+    "U6",
+    "R15",
+    "U8",
+    "R11"
+   ],
+   "evidence": {
+    "mechanism": [
+     "If you have been absent for work for 30 days and have exhausted your accrued sick time, interim disability coverage will begin paying 60 percent of salary for up to six months."
+    ],
+    "faculty_group": [
+     "Benefits-eligible faculty and staff are eligible for the disability program on the first day of the month following completion of one year of service."
+    ],
+    "eligible_parent": [
+     "If you experience a short- or long-term disability, the Northeastern Disability Program provides you financial protection."
+    ],
+    "entitlement": [
+     "If you have been absent for work for 30 days and have exhausted your accrued sick time, interim disability coverage will begin paying 60 percent of salary for up to six months."
+    ],
+    "duration": [
+     "If you have been absent for work for 30 days and have exhausted your accrued sick time, interim disability coverage will begin paying 60 percent of salary for up to six months."
+    ],
+    "pay_fraction": [
+     "If you have been absent for work for 30 days and have exhausted your accrued sick time, interim disability coverage will begin paying 60 percent of salary for up to six months."
+    ],
+    "service_requirement": [
+     "Benefits-eligible faculty and staff are eligible for the disability program on the first day of the month following completion of one year of service."
+    ],
+    "sequence": [
+     "If you have been absent for work for 30 days and have exhausted your accrued sick time, interim disability coverage will begin paying 60 percent of salary for up to six months."
+    ],
+    "must_exhaust_first": [
+     "If you have been absent for work for 30 days and have exhausted your accrued sick time, interim disability coverage will begin paying 60 percent of salary for up to six months."
+    ],
+    "medical_certification": [
+     "If you need to be out of work for medical reasons for more than five days, you or your supervisor must contact HRM Benefits to complete the necessary documentation for medical certification."
+    ],
+    "payer": [
+     "If you experience a short- or long-term disability, the Northeastern Disability Program provides you financial protection.",
+     "If eligibility requirements have been met, interim disability benefits are available.",
+     "as they may be eligible for interim disability leave and/or long-term disability leave."
+    ]
+   },
+   "doc_ids": [
+    "2018_08_hr_disability_programs_page",
+    "2018_04_policy_leaves_of_absence",
+    "2018_05_policy_paid_time_off"
+   ],
+   "flags": [
+    "cross_reference_not_saved: Disability Benefits Program Description"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "V1",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "If you have been absent for work for 30 days and have exhausted your accrued sick time, interim disability coverage will begin paying 60 percent of salary for up to six months."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "If you experience a short- or long-term disability, the Northeastern Disability Program provides you financial protection."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "If you have been absent for work for 30 days and have exhausted your accrued sick time, interim disability coverage will begin paying 60 percent of salary for up to six months."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Benefits-eligible faculty and staff are eligible for the disability program on the first day of the month following completion of one year of service."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own disability)",
+     "quote": "If you experience a short- or long-term disability, the Northeastern Disability Program provides you financial protection."
+    },
+    {
+     "field": "caregiver_condition",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "If you experience a short- or long-term disability, the Northeastern Disability Program provides you financial protection."
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "If you have been absent for work for 30 days and have exhausted your accrued sick time, interim disability coverage will begin paying 60 percent of salary for up to six months."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "6 months, up_to",
+     "quote": "If you have been absent for work for 30 days and have exhausted your accrued sick time, interim disability coverage will begin paying 60 percent of salary for up to six months."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "60 percent of salary",
+     "quote": "If you have been absent for work for 30 days and have exhausted your accrued sick time, interim disability coverage will begin paying 60 percent of salary for up to six months."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U8",
+     "answer": "one year of service (met by the two-year member)",
+     "quote": "Benefits-eligible faculty and staff are eligible for the disability program on the first day of the month following completion of one year of service."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "consecutive_after the paid sick time (c4)",
+     "quote": "If you have been absent for work for 30 days and have exhausted your accrued sick time, interim disability coverage will begin paying 60 percent of salary for up to six months."
+    },
+    {
+     "field": "duration",
+     "rule": "source_precedence",
+     "answer": "6 months, up_to: terms from the HR page; the governing policy names interim disability benefits",
+     "quote": "If eligibility requirements have been met, interim disability benefits are available."
+    }
+   ]
+  },
+  {
+   "component_id": "northeastern_university_c7",
+   "institution_label": "Long-Term Disability",
+   "description": "Long-term disability insurance paying 60 percent of salary (up to $25,000 a month) from the 181st day of disability, after interim disability ends, until recovery or retirement age.",
+   "mechanism": "generic_sick_or_disability_plan",
+   "payer": "insurance_plan",
+   "mechanism_note": "Long-term disability (schema §2): recorded without a duration.",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Benefits-eligible faculty and staff",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "If you experience a short- or long-term disability",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "'Upon approval, LTD provides': the approval is of the disability claim (arrangements).",
+   "pay_fraction": "60 percent of your salary",
+   "pay_cap": "up to a maximum of $25,000 per month, but not less than $100 per month; integrated with other disability, Workers' Compensation and Social Security benefits",
+   "service_requirement": "one year of service",
+   "time_window": "effective on the 181st day of disability",
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "northeastern_university_c6",
+     "note": "After interim disability benefits have ended"
+    }
+   ],
+   "rule_applied": [
+    "V6",
+    "M1",
+    "V2",
+    "U5"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Benefits-eligible faculty and staff are eligible for the disability program on the first day of the month following completion of one year of service."
+    ],
+    "eligible_parent": [
+     "If you experience a short- or long-term disability, the Northeastern Disability Program provides you financial protection."
+    ],
+    "entitlement": [
+     "Upon approval, LTD provides:",
+     "After interim disability benefits have ended, long-term disability (LTD) may provide financial protection."
+    ],
+    "pay_fraction": [
+     "Monthly income protection equal to 60 percent of your salary up to a maximum of $25,000 per month,"
+    ],
+    "service_requirement": [
+     "Benefits-eligible faculty and staff are eligible for the disability program on the first day of the month following completion of one year of service."
+    ],
+    "sequence": [
+     "After interim disability benefits have ended, long-term disability (LTD) may provide financial protection."
+    ],
+    "time_window": [
+     "LTD benefits are effective on the 181st day of disability and will continue until you are no longer disabled or reach retirement age."
+    ],
+    "payer": [
+     "The one-year waiting period will be waived if you were enrolled in long-term disability insurance with a prior employer within four months of joining Northeastern."
+    ]
+   },
+   "doc_ids": [
+    "2018_08_hr_disability_programs_page",
+    "2018_04_policy_leaves_of_absence",
+    "2018_05_policy_paid_time_off"
+   ],
+   "flags": [
+    "cross_reference_not_saved: LTD Certificate of Coverage"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "After interim disability benefits have ended, long-term disability (LTD) may provide financial protection."
+    },
+    {
+     "field": "payer",
+     "rule": "M1",
+     "answer": "insurance_plan",
+     "quote": "The one-year waiting period will be waived if you were enrolled in long-term disability insurance with a prior employer within four months of joining Northeastern."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "After interim disability benefits have ended, long-term disability (LTD) may provide financial protection."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Benefits-eligible faculty and staff are eligible for the disability program on the first day of the month following completion of one year of service."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own disability)",
+     "quote": "If you experience a short- or long-term disability, the Northeastern Disability Program provides you financial protection."
+    },
+    {
+     "field": "caregiver_condition",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "If you experience a short- or long-term disability, the Northeastern Disability Program provides you financial protection."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "Upon approval, LTD provides:"
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "60 percent of your salary",
+     "quote": "Monthly income protection equal to 60 percent of your salary up to a maximum of $25,000 per month,"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "one year of service",
+     "quote": "Benefits-eligible faculty and staff are eligible for the disability program on the first day of the month following completion of one year of service."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "consecutive_after interim disability (c6)",
+     "quote": "After interim disability benefits have ended, long-term disability (LTD) may provide financial protection."
+    }
+   ]
+  },
+  {
+   "component_id": "northeastern_university_c8",
+   "institution_label": "Vacation Policy",
+   "description": "Faculty on twelve-month appointments accrue annual vacation at two workdays per month; academic-year faculty do not accrue vacation during their periods of service. Approved leaves may use accrued vacation.",
+   "mechanism": "own_accrual",
+   "payer": "own_balance",
+   "faculty_group": "faculty on twelve-month appointments",
+   "faculty_group_note": "Members of the faculty in teaching and/or research ... who hold appointments on a twelve-month basis; faculty employed on a less than twelve-month basis do not accrue vacation during their periods of service (the standard two-semester academic-year appointment is left out)",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration_note": "Accrual of two workdays per month; no fixed amount.",
+   "rule_applied": [
+    "R1",
+    "schema"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Faculty, including Coordinators, Specialists, or Lecturers, who are employed on a less than twelve-month basis and are paid an annual salary do not accrue vacation during the periods when they are in service at the University."
+    ],
+    "eligible_parent": [
+     "Approved leaves may also use accrued vacation time if available."
+    ],
+    "entitlement": [
+     "are entitled to an annual vacation to be accumulative at the rate of two workdays per month."
+    ]
+   },
+   "doc_ids": [
+    "2018_06_faculty_handbook_compiled",
+    "2018_01_handbook_vacation_other_leaves",
+    "2018_05_policy_paid_time_off",
+    "2018_04_policy_leaves_of_absence"
+   ],
+   "flags": [
+    "conflicting_sources: 2018_05_policy_paid_time_off, 2018_06_faculty_handbook_compiled (the HR addendum says full-time faculty accrue two days per month; the Faculty Handbook limits accrual to twelve-month appointments; the handbook's faculty-specific statement is coded)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "own_accrual",
+     "quote": "are entitled to an annual vacation to be accumulative at the rate of two workdays per month."
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "own_balance",
+     "quote": "Approved leaves may also use accrued vacation time if available."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "are entitled to an annual vacation to be accumulative at the rate of two workdays per month."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "faculty on twelve-month appointments",
+     "quote": "Faculty, including Coordinators, Specialists, or Lecturers, who are employed on a less than twelve-month basis and are paid an annual salary do not accrue vacation during the periods when they are in service at the University."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "source_precedence",
+     "answer": "faculty on twelve-month appointments",
+     "quote": "Administrative and professional Grades 12 through 17 and full-time faculty"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "Approved leaves may also use accrued vacation time if available."
+    },
+    {
+     "field": "caregiver_condition",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "are entitled to an annual vacation to be accumulative at the rate of two workdays per month."
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "are entitled to an annual vacation to be accumulative at the rate of two workdays per month."
+    }
+   ]
+  },
+  {
+   "component_id": "northeastern_university_c9",
+   "institution_label": "Personal Time",
+   "description": "Benefits-eligible employees may use up to 3 days of paid sick time a year as personal days for personal matters (appointments, parent-teacher conferences, religious observances, and others).",
+   "mechanism": "employer_paid_leave",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "benefits eligible employees",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "duration": {
+    "value": 3,
+    "units": "day",
+    "qualifier": "up_to"
+   },
+   "rule_applied": [
+    "U1",
+    "V2",
+    "R11"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Use of Personal Time for benefits eligible employees"
+    ],
+    "eligible_parent": [
+     "Employees may use up to 3 days of earned paid sick time as personal days for personal matters including, but not limited to, appointments, parent teacher conferences, and religious observances."
+    ],
+    "entitlement": [
+     "Employees may use up to 3 days of earned paid sick time as personal days for personal matters including, but not limited to, appointments, parent teacher conferences, and religious observances."
+    ],
+    "duration": [
+     "Employees may use up to 3 days of earned paid sick time as personal days for personal matters including, but not limited to, appointments, parent teacher conferences, and religious observances."
+    ]
+   },
+   "doc_ids": [
+    "2018_05_policy_paid_time_off"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "U1",
+     "answer": "employer_paid_leave",
+     "quote": "Employees may use up to 3 days of earned paid sick time as personal days for personal matters including, but not limited to, appointments, parent teacher conferences, and religious observances."
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "employer",
+     "quote": "Employees may use up to 3 days of earned paid sick time as personal days for personal matters including, but not limited to, appointments, parent teacher conferences, and religious observances."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "Employees may use up to 3 days of earned paid sick time as personal days for personal matters including, but not limited to, appointments, parent teacher conferences, and religious observances."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Use of Personal Time for benefits eligible employees"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "Employees may use up to 3 days of earned paid sick time as personal days for personal matters including, but not limited to, appointments, parent teacher conferences, and religious observances."
+    },
+    {
+     "field": "caregiver_condition",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Employees may use up to 3 days of earned paid sick time as personal days for personal matters including, but not limited to, appointments, parent teacher conferences, and religious observances."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "Employees may use up to 3 days of earned paid sick time as personal days for personal matters including, but not limited to, appointments, parent teacher conferences, and religious observances."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "3 days, up_to",
+     "quote": "Employees may use up to 3 days of earned paid sick time as personal days for personal matters including, but not limited to, appointments, parent teacher conferences, and religious observances."
+    }
+   ]
+  },
+  {
+   "component_id": "northeastern_university_c10",
+   "institution_label": "Personal Leave of Absence",
+   "description": "Staff members may seek an unpaid personal leave of absence at the department head's discretion with HRM approval; leaves of more than one month only under extenuating circumstances. Faculty are not named.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "staff members",
+   "faculty_group_note": "staff members may seek a Personal Leave of Absence (faculty leaves are covered in the Faculty Handbook)",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "duration_note": "No maximum stated; leaves of more than one month require extenuating circumstances and approval by the department head, dean or vice president and HRM.",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "rule_applied": [
+    "U1",
+    "V2",
+    "R9"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Subject to the discretion of the employee’s department head and approval by HRM, staff members may seek a Personal Leave of Absence."
+    ],
+    "eligible_parent": [
+     "Subject to the discretion of the employee’s department head and approval by HRM, staff members may seek a Personal Leave of Absence."
+    ],
+    "entitlement": [
+     "Subject to the discretion of the employee’s department head and approval by HRM, staff members may seek a Personal Leave of Absence.",
+     "Personal Leaves of Absence of more than one month are permitted only under extenuating circumstances."
+    ]
+   },
+   "doc_ids": [
+    "2018_04_policy_leaves_of_absence"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "Leaves of Absence are unpaid absences from employment at the University."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Leaves of Absence are unpaid absences from employment at the University."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "Subject to the discretion of the employee’s department head and approval by HRM, staff members may seek a Personal Leave of Absence."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "staff members",
+     "quote": "Subject to the discretion of the employee’s department head and approval by HRM, staff members may seek a Personal Leave of Absence."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "Subject to the discretion of the employee’s department head and approval by HRM, staff members may seek a Personal Leave of Absence."
+    },
+    {
+     "field": "caregiver_condition",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Subject to the discretion of the employee’s department head and approval by HRM, staff members may seek a Personal Leave of Absence."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "Subject to the discretion of the employee’s department head and approval by HRM, staff members may seek a Personal Leave of Absence."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "formal leave: all duties relieved",
+     "quote": "Subject to the discretion of the employee’s department head and approval by HRM, staff members may seek a Personal Leave of Absence."
+    }
+   ]
+  },
+  {
+   "component_id": "northeastern_university_c11",
+   "institution_label": "Eligibility for Leaves of Absence",
+   "description": "Full-time non-tenure-track lecturers may, with the dean's approval, take an unpaid (or externally funded) personal or professional leave of up to one year.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "Full-time non-tenure-track Lecturers",
+   "faculty_group_note": "Non-Tenure-Track Full Time Lecturers (2.8)",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "up_to"
+   },
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "rule_applied": [
+    "U1",
+    "V2",
+    "R9"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Full-time Lecturers are eligible for leave under the terms of the Family and Medical Leave Act."
+    ],
+    "eligible_parent": [
+     "In addition, faculty members in these ranks may, with the approval of the dean, take a personal or professional leave of absence of up to one year, if the leave is unpaid or if any continuing compensation during the leave period is provided by external funds."
+    ],
+    "entitlement": [
+     "In addition, faculty members in these ranks may, with the approval of the dean, take a personal or professional leave of absence of up to one year, if the leave is unpaid or if any continuing compensation during the leave period is provided by external funds."
+    ],
+    "duration": [
+     "In addition, faculty members in these ranks may, with the approval of the dean, take a personal or professional leave of absence of up to one year, if the leave is unpaid or if any continuing compensation during the leave period is provided by external funds."
+    ]
+   },
+   "doc_ids": [
+    "2018_06_faculty_handbook_compiled"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "In addition, faculty members in these ranks may, with the approval of the dean, take a personal or professional leave of absence of up to one year, if the leave is unpaid or if any continuing compensation during the leave period is provided by external funds."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "In addition, faculty members in these ranks may, with the approval of the dean, take a personal or professional leave of absence of up to one year, if the leave is unpaid or if any continuing compensation during the leave period is provided by external funds."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "In addition, faculty members in these ranks may, with the approval of the dean, take a personal or professional leave of absence of up to one year, if the leave is unpaid or if any continuing compensation during the leave period is provided by external funds."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "Full-time non-tenure-track Lecturers",
+     "quote": "Full-time Lecturers are eligible for leave under the terms of the Family and Medical Leave Act."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "In addition, faculty members in these ranks may, with the approval of the dean, take a personal or professional leave of absence of up to one year, if the leave is unpaid or if any continuing compensation during the leave period is provided by external funds."
+    },
+    {
+     "field": "caregiver_condition",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "In addition, faculty members in these ranks may, with the approval of the dean, take a personal or professional leave of absence of up to one year, if the leave is unpaid or if any continuing compensation during the leave period is provided by external funds."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "In addition, faculty members in these ranks may, with the approval of the dean, take a personal or professional leave of absence of up to one year, if the leave is unpaid or if any continuing compensation during the leave period is provided by external funds."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 year, up_to",
+     "quote": "In addition, faculty members in these ranks may, with the approval of the dean, take a personal or professional leave of absence of up to one year, if the leave is unpaid or if any continuing compensation during the leave period is provided by external funds."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "formal leave: all duties relieved",
+     "quote": "In addition, faculty members in these ranks may, with the approval of the dean, take a personal or professional leave of absence of up to one year, if the leave is unpaid or if any continuing compensation during the leave period is provided by external funds."
+    }
+   ]
+  },
+  {
+   "component_id": "northeastern_university_c12",
+   "institution_label": "Eligibility for Leaves of Absence",
+   "description": "Professors of the Practice may, with the dean's approval, take an unpaid (or externally funded) personal or professional leave of up to one year.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "Professors of the Practice (non-tenure-track)",
+   "faculty_group_note": "Professor of the Practice and Distinguished Professor of the Practice",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "up_to"
+   },
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "rule_applied": [
+    "U1",
+    "V2",
+    "R9"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Professors of the Practice in benefits-eligible appointments are eligible for leave under the terms of the Family and Medical Leave Act."
+    ],
+    "eligible_parent": [
+     "Faculty members in these ranks may, with the approval of the dean, take a personal or professional leave of absence of up to one year, if the leave is unpaid or if any continuing compensation during the leave period is provided by external funds."
+    ],
+    "entitlement": [
+     "Faculty members in these ranks may, with the approval of the dean, take a personal or professional leave of absence of up to one year, if the leave is unpaid or if any continuing compensation during the leave period is provided by external funds."
+    ],
+    "duration": [
+     "Faculty members in these ranks may, with the approval of the dean, take a personal or professional leave of absence of up to one year, if the leave is unpaid or if any continuing compensation during the leave period is provided by external funds."
+    ]
+   },
+   "doc_ids": [
+    "2018_06_faculty_handbook_compiled"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "Faculty members in these ranks may, with the approval of the dean, take a personal or professional leave of absence of up to one year, if the leave is unpaid or if any continuing compensation during the leave period is provided by external funds."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Faculty members in these ranks may, with the approval of the dean, take a personal or professional leave of absence of up to one year, if the leave is unpaid or if any continuing compensation during the leave period is provided by external funds."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "Faculty members in these ranks may, with the approval of the dean, take a personal or professional leave of absence of up to one year, if the leave is unpaid or if any continuing compensation during the leave period is provided by external funds."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "Professors of the Practice (non-tenure-track)",
+     "quote": "Professors of the Practice in benefits-eligible appointments are eligible for leave under the terms of the Family and Medical Leave Act."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "Faculty members in these ranks may, with the approval of the dean, take a personal or professional leave of absence of up to one year, if the leave is unpaid or if any continuing compensation during the leave period is provided by external funds."
+    },
+    {
+     "field": "caregiver_condition",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Faculty members in these ranks may, with the approval of the dean, take a personal or professional leave of absence of up to one year, if the leave is unpaid or if any continuing compensation during the leave period is provided by external funds."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "Faculty members in these ranks may, with the approval of the dean, take a personal or professional leave of absence of up to one year, if the leave is unpaid or if any continuing compensation during the leave period is provided by external funds."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 year, up_to",
+     "quote": "Faculty members in these ranks may, with the approval of the dean, take a personal or professional leave of absence of up to one year, if the leave is unpaid or if any continuing compensation during the leave period is provided by external funds."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "formal leave: all duties relieved",
+     "quote": "Faculty members in these ranks may, with the approval of the dean, take a personal or professional leave of absence of up to one year, if the leave is unpaid or if any continuing compensation during the leave period is provided by external funds."
+    }
+   ]
+  },
+  {
+   "component_id": "northeastern_university_c13",
+   "institution_label": "",
+   "description": "Non-tenure-track research faculty may, with the Senior Vice Provost's approval, take an unpaid leave of absence of up to one year.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "Non-tenure-track research faculty",
+   "faculty_group_note": "Research faculty (non-tenure track; may not be converted to tenure-track)",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "up_to"
+   },
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "rule_applied": [
+    "U1",
+    "V2",
+    "R9"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Research faculty are not eligible for sabbatical, but may, with the approval of the Senior Vice Provost for Research and Graduate Education, take a leave of absence of up to one year, if the leave is unpaid."
+    ],
+    "eligible_parent": [
+     "Research faculty are not eligible for sabbatical, but may, with the approval of the Senior Vice Provost for Research and Graduate Education, take a leave of absence of up to one year, if the leave is unpaid."
+    ],
+    "entitlement": [
+     "Research faculty are not eligible for sabbatical, but may, with the approval of the Senior Vice Provost for Research and Graduate Education, take a leave of absence of up to one year, if the leave is unpaid."
+    ],
+    "duration": [
+     "Research faculty are not eligible for sabbatical, but may, with the approval of the Senior Vice Provost for Research and Graduate Education, take a leave of absence of up to one year, if the leave is unpaid."
+    ]
+   },
+   "doc_ids": [
+    "2018_06_faculty_handbook_compiled"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "Research faculty are not eligible for sabbatical, but may, with the approval of the Senior Vice Provost for Research and Graduate Education, take a leave of absence of up to one year, if the leave is unpaid."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Research faculty are not eligible for sabbatical, but may, with the approval of the Senior Vice Provost for Research and Graduate Education, take a leave of absence of up to one year, if the leave is unpaid."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "Research faculty are not eligible for sabbatical, but may, with the approval of the Senior Vice Provost for Research and Graduate Education, take a leave of absence of up to one year, if the leave is unpaid."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "Non-tenure-track research faculty",
+     "quote": "Research faculty are not eligible for sabbatical, but may, with the approval of the Senior Vice Provost for Research and Graduate Education, take a leave of absence of up to one year, if the leave is unpaid."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "Research faculty are not eligible for sabbatical, but may, with the approval of the Senior Vice Provost for Research and Graduate Education, take a leave of absence of up to one year, if the leave is unpaid."
+    },
+    {
+     "field": "caregiver_condition",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Research faculty are not eligible for sabbatical, but may, with the approval of the Senior Vice Provost for Research and Graduate Education, take a leave of absence of up to one year, if the leave is unpaid."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "Research faculty are not eligible for sabbatical, but may, with the approval of the Senior Vice Provost for Research and Graduate Education, take a leave of absence of up to one year, if the leave is unpaid."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 year, up_to",
+     "quote": "Research faculty are not eligible for sabbatical, but may, with the approval of the Senior Vice Provost for Research and Graduate Education, take a leave of absence of up to one year, if the leave is unpaid."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "formal leave: all duties relieved",
+     "quote": "Research faculty are not eligible for sabbatical, but may, with the approval of the Senior Vice Provost for Research and Graduate Education, take a leave of absence of up to one year, if the leave is unpaid."
+    }
+   ]
+  },
+  {
+   "component_id": "northeastern_university_c14",
+   "institution_label": "Requests for Extension to be Granted with Satisfactory Documentation",
+   "description": "A one-year extension of the tenure clock is granted on written request with documentation because of a birth or adoption; also automatic for tenure-track faculty who receive parental teaching relief (unless the relief begins after the fall semester of the year preceding tenure consideration). No more than two extensions in the probationary period.",
+   "mechanism": "tenure_clock",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "tenure-track faculty members in good standing, prior to one year before the scheduled beginning of their tenure consideration",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "because of a birth or adoption",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "V2: 'will be granted' upon written request and satisfactory documentation; the teaching-relief policy makes the extension automatic for recipients of relief.",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "exact"
+   },
+   "duration_note": "One year; a multiple birth or simultaneous adoption gives a single year. No added productivity expectations for the extension period.",
+   "use_limit": [
+    {
+     "times": 2,
+     "per": "career",
+     "counts": "uses"
+    }
+   ],
+   "use_limit_note": "A faculty member may receive no more than two extensions of the tenure clock during his or her probationary period.",
+   "time_window": "request in writing within one year of the birth or adoption and no later than one year before tenure evaluation begins; via teaching relief, unless the relief begins after the fall semester of the year preceding tenure consideration",
+   "notice": "written request through the unit head and dean to the Provost",
+   "rule_applied": [
+    "V2",
+    "U9",
+    "R5"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "applies to tenure-track faculty members in good standing, prior"
+    ],
+    "eligible_parent": [
+     "because of a birth or adoption; or"
+    ],
+    "entitlement": [
+     "A. Upon written request and submission of satisfactory documentation, a one-year extension of the tenure clock will be granted by the Office of the Provost to a faculty member either",
+     "Tenure-track faculty members who request and receive a semester of classroom teaching relief under this Policy will automatically have their tenure clocks extended by one year under the terms of the university’s Tenure Clock Extension Policy unless the period of teaching relief begins after the fall semester of the year preceding their tenure consideration."
+    ],
+    "duration": [
+     "A. Upon written request and submission of satisfactory documentation, a one-year extension of the tenure clock will be granted by the Office of the Provost to a faculty member either",
+     "Tenure-track faculty members who request and receive a semester of classroom teaching relief under this Policy will automatically have their tenure clocks extended by one year under the terms of the university’s Tenure Clock Extension Policy unless the period of teaching relief begins after the fall semester of the year preceding their tenure consideration."
+    ],
+    "use_limit": [
+     "A faculty member may receive no more than two extensions of the tenure clock during his or her probationary period."
+    ],
+    "time_window": [
+     "(1) the request for extension must be made in writing within one (1) year of the commencement of the situation that gives rise to the request; and (2) the request for extension must be submitted no later than one year before tenure evaluation begins.",
+     "Tenure-track faculty members who request and receive a semester of classroom teaching relief under this Policy will automatically have their tenure clocks extended by one year under the terms of the university’s Tenure Clock Extension Policy unless the period of teaching relief begins after the fall semester of the year preceding their tenure consideration."
+    ]
+   },
+   "doc_ids": [
+    "2018_03_policy_tenure_clock_extension",
+    "2018_00_link"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "A. Upon written request and submission of satisfactory documentation, a one-year extension of the tenure clock will be granted by the Office of the Provost to a faculty member either"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "A. Upon written request and submission of satisfactory documentation, a one-year extension of the tenure clock will be granted by the Office of the Provost to a faculty member either"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "because of a birth or adoption; or"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "applies to tenure-track faculty members in good standing, prior"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "any_parent (role-neutral 'birth or adoption')",
+     "quote": "because of a birth or adoption; or"
+    },
+    {
+     "field": "caregiver_condition",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "because of a birth or adoption; or"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "A. Upon written request and submission of satisfactory documentation, a one-year extension of the tenure clock will be granted by the Office of the Provost to a faculty member either"
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 year, exact",
+     "quote": "A. Upon written request and submission of satisfactory documentation, a one-year extension of the tenure clock will be granted by the Office of the Provost to a faculty member either"
+    },
+    {
+     "field": "use_limit",
+     "rule": "U9",
+     "answer": "2 per career (probationary period)",
+     "quote": "A faculty member may receive no more than two extensions of the tenure clock during his or her probationary period."
+    }
+   ]
+  },
+  {
+   "component_id": "northeastern_university_c15",
+   "institution_label": "Requests for Extension to be Granted with Satisfactory Documentation",
+   "description": "A one-year tenure-clock extension is granted on written request with medical documentation to a faculty member who has taken an approved medical leave of 12 consecutive weeks or more.",
+   "mechanism": "tenure_clock",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "tenure-track faculty members in good standing",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "an approved medical leave of 12 consecutive weeks or more",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "exact"
+   },
+   "use_limit": [
+    {
+     "times": 2,
+     "per": "career",
+     "counts": "uses"
+    }
+   ],
+   "use_limit_note": "No more than two extensions of the tenure clock during the probationary period.",
+   "medical_certification": true,
+   "medical_certification_note": "medical documentation submitted to HRM/Benefits with the request",
+   "time_window": "request in writing within one year of the start of the medical leave and no later than one year before tenure evaluation begins; requires an approved medical leave of 12 consecutive weeks or more",
+   "rule_applied": [
+    "V2",
+    "U9",
+    "U5"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "applies to tenure-track faculty members in good standing, prior"
+    ],
+    "eligible_parent": [
+     "because the faculty member has taken an approved medical leave of 12 consecutive weeks or more."
+    ],
+    "entitlement": [
+     "A. Upon written request and submission of satisfactory documentation, a one-year extension of the tenure clock will be granted by the Office of the Provost to a faculty member either"
+    ],
+    "duration": [
+     "A. Upon written request and submission of satisfactory documentation, a one-year extension of the tenure clock will be granted by the Office of the Provost to a faculty member either"
+    ],
+    "use_limit": [
+     "A faculty member may receive no more than two extensions of the tenure clock during his or her probationary period."
+    ],
+    "medical_certification": [
+     "Any request for a tenure clock extension due to a leave based on a medical condition must be supported by medical documentation"
+    ],
+    "time_window": [
+     "(1) the request for extension must be made in writing within one (1) year of the commencement of the situation that gives rise to the request; and (2) the request for extension must be submitted no later than one year before tenure evaluation begins."
+    ]
+   },
+   "doc_ids": [
+    "2018_03_policy_tenure_clock_extension"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "because the faculty member has taken an approved medical leave of 12 consecutive weeks or more."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "A. Upon written request and submission of satisfactory documentation, a one-year extension of the tenure clock will be granted by the Office of the Provost to a faculty member either"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "because the faculty member has taken an approved medical leave of 12 consecutive weeks or more."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "applies to tenure-track faculty members in good standing, prior"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own medical leave)",
+     "quote": "because the faculty member has taken an approved medical leave of 12 consecutive weeks or more."
+    },
+    {
+     "field": "caregiver_condition",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "because the faculty member has taken an approved medical leave of 12 consecutive weeks or more."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "A. Upon written request and submission of satisfactory documentation, a one-year extension of the tenure clock will be granted by the Office of the Provost to a faculty member either"
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 year, exact",
+     "quote": "A. Upon written request and submission of satisfactory documentation, a one-year extension of the tenure clock will be granted by the Office of the Provost to a faculty member either"
+    },
+    {
+     "field": "use_limit",
+     "rule": "U9",
+     "answer": "2 per career (probationary period)",
+     "quote": "A faculty member may receive no more than two extensions of the tenure clock during his or her probationary period."
+    }
+   ]
+  },
+  {
+   "component_id": "northeastern_university_c16",
+   "institution_label": "Requests to be Considered for Extension",
+   "description": "Other tenure-clock extension requests (FMLA leave to care for a family member, other family-related responsibilities, or other reasons such as lab set-up delays) may be granted on review by the unit head, dean and Provost.",
+   "mechanism": "tenure_clock",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "tenure-track faculty members in good standing",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "duration_note": "Length of the extension not stated in Section 2.",
+   "use_limit": [
+    {
+     "times": 2,
+     "per": "career",
+     "counts": "uses"
+    }
+   ],
+   "use_limit_note": "No more than two extensions of the tenure clock during the probationary period.",
+   "time_window": "request in writing within one year of the situation and no later than one year before tenure evaluation begins",
+   "rule_applied": [
+    "U1",
+    "V2",
+    "U9"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "applies to tenure-track faculty members in good standing, prior"
+    ],
+    "eligible_parent": [
+     "a faculty member who takes a leave under the Family and Medical Leave Act (FMLA) for reasons other than birth, adoption, or his/her own medical reasons (for example, to care for a family member), or who has other family-related responsibilities, may request an extension of the tenure clock."
+    ],
+    "entitlement": [
+     "Requests for tenure clock extension, except for the reasons provided in Section I of this policy, require submission of satisfactory documentation and may be granted on review and consideration by the academic unit head, dean, and Provost."
+    ],
+    "use_limit": [
+     "A faculty member may receive no more than two extensions of the tenure clock during his or her probationary period."
+    ],
+    "time_window": [
+     "(1) the request for extension must be made in writing within one (1) year of the commencement of the situation that gives rise to the request; and (2) the request for extension must be submitted no later than one year before tenure evaluation begins."
+    ]
+   },
+   "doc_ids": [
+    "2018_03_policy_tenure_clock_extension"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "Requests for tenure clock extension, except for the reasons provided in Section I of this policy, require submission of satisfactory documentation and may be granted on review and consideration by the academic unit head, dean, and Provost."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Requests for tenure clock extension, except for the reasons provided in Section I of this policy, require submission of satisfactory documentation and may be granted on review and consideration by the academic unit head, dean, and Provost."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "Additionally, a request for a tenure clock extension may be made for other reasons (e.g., substantial delay in lab set up, extenuating circumstances not covered by FMLA)."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "applies to tenure-track faculty members in good standing, prior"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "a faculty member who takes a leave under the Family and Medical Leave Act (FMLA) for reasons other than birth, adoption, or his/her own medical reasons (for example, to care for a family member), or who has other family-related responsibilities, may request an extension of the tenure clock."
+    },
+    {
+     "field": "caregiver_condition",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "a faculty member who takes a leave under the Family and Medical Leave Act (FMLA) for reasons other than birth, adoption, or his/her own medical reasons (for example, to care for a family member), or who has other family-related responsibilities, may request an extension of the tenure clock."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "Requests for tenure clock extension, except for the reasons provided in Section I of this policy, require submission of satisfactory documentation and may be granted on review and consideration by the academic unit head, dean, and Provost."
+    },
+    {
+     "field": "use_limit",
+     "rule": "U9",
+     "answer": "2 per career (probationary period)",
+     "quote": "A faculty member may receive no more than two extensions of the tenure clock during his or her probationary period."
+    }
+   ]
+  },
+  {
+   "component_id": "northeastern_university_c17",
+   "institution_label": "Tenure Delay",
+   "description": "A faculty member who takes a leave of a full academic term or more may request a one-year delay in tenure consideration; for maternity leave the request is automatically approved, with no expectation of scholarship in the year of the leave.",
+   "mechanism": "tenure_clock",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "faculty members on the tenure track (Faculty Handbook, Tenure section)",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "maternity leave",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "V2: the faculty member 'may request'; for maternity leave the request 'will be automatically approved'.",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "exact"
+   },
+   "duration_note": "Applies to a leave of a full academic term or more during the academic year. Overlaps the Policy on Tenure Clock Extension (c14), which also grants one year for a birth.",
+   "notice": "request through the unit head and dean to the Provost",
+   "rule_applied": [
+    "V2",
+    "R5"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Only faculty members holding the ranks of Professor, Associate Professor, and Assistant Professor are eligible for tenure."
+    ],
+    "eligible_parent": [
+     "In the case of maternity leave the request for tenure delay will be automatically approved and there will be no expectation of scholarship in the year in which the leave is taken."
+    ],
+    "entitlement": [
+     "A faculty member who takes a leave of a full academic term or more from his or her academic position during the academic year may request a one year delay in tenure consideration.",
+     "In the case of maternity leave the request for tenure delay will be automatically approved and there will be no expectation of scholarship in the year in which the leave is taken."
+    ],
+    "duration": [
+     "A faculty member who takes a leave of a full academic term or more from his or her academic position during the academic year may request a one year delay in tenure consideration."
+    ]
+   },
+   "doc_ids": [
+    "2018_06_faculty_handbook_compiled",
+    "2018_02_handbook_tenure_2017"
+   ],
+   "flags": [
+    "ambiguous: restriction: applies only to a maternity leave of a full academic term or more during the academic year",
+    "cross_reference_not_saved: Benefits and Services Handbook (Maternity/Adoption Leave, Family Leave, Sick Leave)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "A faculty member who takes a leave of a full academic term or more from his or her academic position during the academic year may request a one year delay in tenure consideration."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "A faculty member who takes a leave of a full academic term or more from his or her academic position during the academic year may request a one year delay in tenure consideration."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "In the case of maternity leave the request for tenure delay will be automatically approved and there will be no expectation of scholarship in the year in which the leave is taken."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Only faculty members holding the ranks of Professor, Associate Professor, and Assistant Professor are eligible for tenure."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "birth_parent ('maternity leave')",
+     "quote": "In the case of maternity leave the request for tenure delay will be automatically approved and there will be no expectation of scholarship in the year in which the leave is taken."
+    },
+    {
+     "field": "caregiver_condition",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "In the case of maternity leave the request for tenure delay will be automatically approved and there will be no expectation of scholarship in the year in which the leave is taken."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "In the case of maternity leave the request for tenure delay will be automatically approved and there will be no expectation of scholarship in the year in which the leave is taken."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 year, exact",
+     "quote": "A faculty member who takes a leave of a full academic term or more from his or her academic position during the academic year may request a one year delay in tenure consideration."
+    }
+   ]
+  },
+  {
+   "component_id": "northeastern_university_c18",
+   "institution_label": "Tenure Delay",
+   "description": "For leaves other than maternity leave of a full academic term or more, a one-year delay in tenure consideration requires approval by the unit head, dean and Provost.",
+   "mechanism": "tenure_clock",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "faculty members on the tenure track (Faculty Handbook, Tenure section)",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "exact"
+   },
+   "duration_note": "Applies to a leave of a full academic term or more during the academic year.",
+   "rule_applied": [
+    "U1",
+    "V2"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Only faculty members holding the ranks of Professor, Associate Professor, and Assistant Professor are eligible for tenure."
+    ],
+    "eligible_parent": [
+     "In the case of other leaves, the unit head, dean and the Provost must all approve the delay for it to be granted."
+    ],
+    "entitlement": [
+     "In the case of other leaves, the unit head, dean and the Provost must all approve the delay for it to be granted."
+    ],
+    "duration": [
+     "A faculty member who takes a leave of a full academic term or more from his or her academic position during the academic year may request a one year delay in tenure consideration."
+    ]
+   },
+   "doc_ids": [
+    "2018_06_faculty_handbook_compiled",
+    "2018_02_handbook_tenure_2017"
+   ],
+   "flags": [
+    "general_purpose",
+    "ambiguous: restriction: applies only to a leave of a full academic term or more during the academic year"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "In the case of other leaves, the unit head, dean and the Provost must all approve the delay for it to be granted."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "In the case of other leaves, the unit head, dean and the Provost must all approve the delay for it to be granted."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "A faculty member who takes a leave of a full academic term or more from his or her academic position during the academic year may request a one year delay in tenure consideration."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Only faculty members holding the ranks of Professor, Associate Professor, and Assistant Professor are eligible for tenure."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "In the case of other leaves, the unit head, dean and the Provost must all approve the delay for it to be granted."
+    },
+    {
+     "field": "caregiver_condition",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "In the case of other leaves, the unit head, dean and the Provost must all approve the delay for it to be granted."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "In the case of other leaves, the unit head, dean and the Provost must all approve the delay for it to be granted."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 year, exact",
+     "quote": "A faculty member who takes a leave of a full academic term or more from his or her academic position during the academic year may request a one year delay in tenure consideration."
+    }
+   ]
+  }
+ ],
+ "scope_accounting": {
+  "C1": {
+   "components": [
+    "northeastern_university_c2"
+   ]
+  },
+  "C2": {
+   "components": [
+    "northeastern_university_c1"
+   ]
+  },
+  "C3": {
+   "components": [
+    "northeastern_university_c4",
+    "northeastern_university_c6",
+    "northeastern_university_c7",
+    "northeastern_university_c8"
+   ]
+  },
+  "C4": {
+   "components": [
+    "northeastern_university_c3",
+    "northeastern_university_c5"
+   ],
+   "not_components": [
+    {
+     "statute": "Family and Medical Leave Act: military exigency leave and the 26-week covered-servicemember caregiver leave (2018_04 III.c)",
+     "reason": "not relied on for becoming a parent (U4); the birth, placement, own-health and family-care sections are coded in c3"
+    },
+    {
+     "statute": "Small Necessities Leave (24 hours unpaid for a child's school activities and routine appointments; 2018_04 III.e; no Act named)",
+     "reason": "school-event and routine-appointment leave; cannot be used for a birth or adoption (U4, checklist §1)"
+    },
+    {
+     "statute": "Social Security disability and retirement benefits; Workers' Compensation (2018_08 LTD coordination; 2018_04)",
+     "reason": "named only as offsets to LTD or as excluded from the leave policy; not leave, pay or protection for becoming a parent (U4)"
+    },
+    {
+     "statute": "Copyright Act of 1976, 17 U.S.C. 101 et seq. (2018_06 Copyright Policy)",
+     "reason": "unrelated to parenthood (U4)"
+    },
+    {
+     "statute": "Gov. Code, Section 82030 (2018_06 Conflict of Commitment and Interest)",
+     "reason": "defines income for conflict-of-interest disclosure; unrelated to parenthood (U4)"
+    },
+    {
+     "statute": "state and federal law generally (2018_05 III, 'consistent with state and federal law'; 'except to the extent required by law')",
+     "reason": "no specific statute named"
+    }
+   ]
+  },
+  "C5": {
+   "components": [
+    "northeastern_university_c3",
+    "northeastern_university_c5"
+   ]
+  },
+  "C6": {
+   "components": [
+    "northeastern_university_c9",
+    "northeastern_university_c10",
+    "northeastern_university_c11",
+    "northeastern_university_c12",
+    "northeastern_university_c13"
+   ]
+  },
+  "C7": {
+   "components": [
+    "northeastern_university_c14",
+    "northeastern_university_c15",
+    "northeastern_university_c16",
+    "northeastern_university_c17",
+    "northeastern_university_c18"
+   ]
+  },
+  "C8": {
+   "absent": {
+    "documents": [
+     "2018_00_link",
+     "2018_01_handbook_vacation_other_leaves",
+     "2018_02_handbook_tenure_2017",
+     "2018_03_policy_tenure_clock_extension",
+     "2018_04_policy_leaves_of_absence",
+     "2018_05_policy_paid_time_off",
+     "2018_06_faculty_handbook_compiled",
+     "2018_07_hr_leaves_of_absence_page",
+     "2018_08_hr_disability_programs_page"
+    ],
+    "terms": [
+     "part-time",
+     "part time",
+     "reduced",
+     "phased",
+     "less than full-time",
+     "fraction",
+     "half-time"
+    ]
+   }
+  },
+  "C9": {
+   "absent": {
+    "documents": [
+     "2018_00_link",
+     "2018_01_handbook_vacation_other_leaves",
+     "2018_02_handbook_tenure_2017",
+     "2018_03_policy_tenure_clock_extension",
+     "2018_04_policy_leaves_of_absence",
+     "2018_05_policy_paid_time_off",
+     "2018_06_faculty_handbook_compiled",
+     "2018_07_hr_leaves_of_absence_page",
+     "2018_08_hr_disability_programs_page"
+    ],
+    "terms": [
+     "pregnan",
+     "accommodat",
+     "light duty",
+     "hazard",
+     "transfer",
+     "less strenuous",
+     "equal treatment"
+    ]
+   }
+  },
+  "C10": {
+   "absent": {
+    "documents": [
+     "2018_00_link",
+     "2018_01_handbook_vacation_other_leaves",
+     "2018_02_handbook_tenure_2017",
+     "2018_03_policy_tenure_clock_extension",
+     "2018_04_policy_leaves_of_absence",
+     "2018_05_policy_paid_time_off",
+     "2018_06_faculty_handbook_compiled",
+     "2018_07_hr_leaves_of_absence_page",
+     "2018_08_hr_disability_programs_page"
+    ],
+    "terms": [
+     "FMLA-qualifying",
+     "first days",
+     "regular work time",
+     "paid FMLA",
+     "FMLA event"
+    ]
+   }
+  }
+ },
+ "passage_dispositions": {
+  "2018_00_link#001": {
+   "used_in": [
+    "northeastern_university_c1",
+    "northeastern_university_c14"
+   ]
+  },
+  "2018_01_handbook_vacation_other_leaves#001": {
+   "used_in": [
+    "northeastern_university_c8"
+   ]
+  },
+  "2018_02_handbook_tenure_2017#001": {
+   "used_in": [
+    "northeastern_university_c17",
+    "northeastern_university_c18"
+   ]
+  },
+  "2018_02_handbook_tenure_2017#002": {
+   "not_relevant": "tenure-on-entry and dossier procedure; no leave provision"
+  },
+  "2018_02_handbook_tenure_2017#003": {
+   "not_relevant": "tenure application and dossier deadlines; no leave provision"
+  },
+  "2018_03_policy_tenure_clock_extension#001": {
+   "used_in": [
+    "northeastern_university_c14",
+    "northeastern_university_c15",
+    "northeastern_university_c16"
+   ]
+  },
+  "2018_04_policy_leaves_of_absence#001": {
+   "used_in": [
+    "northeastern_university_c2",
+    "northeastern_university_c3",
+    "northeastern_university_c4",
+    "northeastern_university_c6",
+    "northeastern_university_c8",
+    "northeastern_university_c10"
+   ]
+  },
+  "2018_05_policy_paid_time_off#001": {
+   "used_in": [
+    "northeastern_university_c4",
+    "northeastern_university_c5"
+   ]
+  },
+  "2018_05_policy_paid_time_off#002": {
+   "used_in": [
+    "northeastern_university_c4",
+    "northeastern_university_c6"
+   ]
+  },
+  "2018_05_policy_paid_time_off#003": {
+   "used_in": [
+    "northeastern_university_c9"
+   ]
+  },
+  "2018_05_policy_paid_time_off#004": {
+   "used_in": [
+    "northeastern_university_c8"
+   ]
+  },
+  "2018_06_faculty_handbook_compiled#001": {
+   "not_relevant": "grievance procedure eligibility"
+  },
+  "2018_06_faculty_handbook_compiled#002": {
+   "not_relevant": "performance expectations"
+  },
+  "2018_06_faculty_handbook_compiled#003": {
+   "not_relevant": "service expectations and notice of non-reappointment"
+  },
+  "2018_06_faculty_handbook_compiled#004": {
+   "not_relevant": "definition of full-time and a footnote on letters granting leaves that delay tenure (no provision); semester calendar evidence used for the record's calendar"
+  },
+  "2018_06_faculty_handbook_compiled#005": {
+   "not_relevant": "merit evaluation"
+  },
+  "2018_06_faculty_handbook_compiled#006": {
+   "not_relevant": "merit appeals and equity raises"
+  },
+  "2018_06_faculty_handbook_compiled#007": {
+   "not_relevant": "equity raises"
+  },
+  "2018_06_faculty_handbook_compiled#008": {
+   "used_in": [
+    "northeastern_university_c17",
+    "northeastern_university_c18"
+   ]
+  },
+  "2018_06_faculty_handbook_compiled#009": {
+   "not_relevant": "tenure dossier procedure"
+  },
+  "2018_06_faculty_handbook_compiled#010": {
+   "not_relevant": "tenure application deadlines"
+  },
+  "2018_06_faculty_handbook_compiled#011": {
+   "not_relevant": "joint appointments: annual review"
+  },
+  "2018_06_faculty_handbook_compiled#012": {
+   "not_relevant": "joint appointments: committee composition"
+  },
+  "2018_06_faculty_handbook_compiled#013": {
+   "not_relevant": "sabbatical plan and fringe benefits; sabbatical is not a parental provision"
+  },
+  "2018_06_faculty_handbook_compiled#014": {
+   "used_in": [
+    "northeastern_university_c8"
+   ]
+  },
+  "2018_06_faculty_handbook_compiled#015": {
+   "not_relevant": "patent royalty distribution"
+  },
+  "2018_06_faculty_handbook_compiled#016": {
+   "not_relevant": "conflict-of-interest financial disclosure"
+  },
+  "2018_06_faculty_handbook_compiled#017": {
+   "not_relevant": "clinical specialists and lecturers: appointments and notice"
+  },
+  "2018_06_faculty_handbook_compiled#018": {
+   "used_in": [
+    "northeastern_university_c11"
+   ]
+  },
+  "2018_06_faculty_handbook_compiled#019": {
+   "not_relevant": "Professor of the Practice: rank and responsibilities"
+  },
+  "2018_06_faculty_handbook_compiled#020": {
+   "not_relevant": "Professor of the Practice: appointments"
+  },
+  "2018_06_faculty_handbook_compiled#021": {
+   "used_in": [
+    "northeastern_university_c12"
+   ]
+  },
+  "2018_06_faculty_handbook_compiled#022": {
+   "used_in": [
+    "northeastern_university_c13"
+   ]
+  },
+  "2018_06_faculty_handbook_compiled#023": {
+   "not_relevant": "research faculty evaluation; college faculties"
+  },
+  "2018_07_hr_leaves_of_absence_page#001": {
+   "used_in": [
+    "northeastern_university_c2",
+    "northeastern_university_c3",
+    "northeastern_university_c4",
+    "northeastern_university_c8"
+   ]
+  },
+  "2018_08_hr_disability_programs_page#001": {
+   "used_in": [
+    "northeastern_university_c6",
+    "northeastern_university_c7"
+   ]
+  },
+  "2018_08_hr_disability_programs_page#002": {
+   "used_in": [
+    "northeastern_university_c6",
+    "northeastern_university_c7"
+   ]
+  }
+ },
+ "mechanism_slots": {
+  "employer_paid_leave": {
+   "components": [
+    "northeastern_university_c9"
+   ]
+  },
+  "employer_childbirth_benefit": {
+   "absent": "no childbirth-specific paid period in any saved source; searched all nine sources for maternity, childbirth, birth, disability, paid leave"
+  },
+  "generic_sick_or_disability_plan": {
+   "components": [
+    "northeastern_university_c4",
+    "northeastern_university_c5",
+    "northeastern_university_c6",
+    "northeastern_university_c7"
+   ]
+  },
+  "own_accrual": {
+   "components": [
+    "northeastern_university_c8"
+   ]
+  },
+  "donated_leave": {
+   "absent": "searched all sources for donat, bank, shared leave, pool: none"
+  },
+  "government_benefit": {
+   "absent": "no government or state benefit programme named; searched for paid family, PFML, disability insurance, state program"
+  },
+  "employer_topup": {
+   "absent": "no top-up of a government benefit; searched for top-up, supplement, difference"
+  },
+  "modified_duties": {
+   "components": [
+    "northeastern_university_c1"
+   ]
+  },
+  "unpaid_leave": {
+   "components": [
+    "northeastern_university_c2",
+    "northeastern_university_c3",
+    "northeastern_university_c10",
+    "northeastern_university_c11",
+    "northeastern_university_c12",
+    "northeastern_university_c13"
+   ]
+  },
+  "tenure_clock": {
+   "components": [
+    "northeastern_university_c14",
+    "northeastern_university_c15",
+    "northeastern_university_c16",
+    "northeastern_university_c17",
+    "northeastern_university_c18"
+   ]
+  },
+  "part_time_option": {
+   "absent": "searched all sources for part-time, reduced, phased, less than full-time: only part-time employees' sick-time accrual"
+  },
+  "other": {
+   "absent": "no pregnancy accommodation, rearrangement, hazard or equal-treatment provision; searched for pregnan, accommodat, light duty, hazard, transfer"
+  }
+ },
+ "baseline_accounting": {
+  "Family and Medical Leave Act (FMLA)": {
+   "components": [
+    "northeastern_university_c3"
+   ]
+  },
+  "Federal Employee Paid Leave Act (paid parental leave for federal civilian employees)": {
+   "not_applicable": "applies to federal civilian employees; Northeastern is a private university"
+  },
+  "Paid Family and Medical Leave (PFML)": {
+   "absent": "no saved document mentions it"
+  },
+  "Massachusetts Parental Leave Act": {
+   "absent": "no saved document names the Act; the Policy on Leaves of Absence's own 8-week parental leave (c2), which does not cite a statute, is coded as the institution's leave"
+  }
+ },
+ "notes": [
+  "Model claude-opus-5-5; reference date 2018-02-27.",
+  "2018_06_faculty_handbook_compiled matches 2018_02_handbook_tenure_2017 in their shared text except for wording ('Inclusion' for 'Equity', a tenure-on-entry paragraph absent, layout).",
+  "Governing documents for faculty leave are saved (the no-policy coding (`missing`) does not apply): the Provost's Policy on Parental Teaching Relief for Tenured and Tenure-Track Faculty, the Policy on Tenure Clock Extension (rev. 2017-07-26), the HR Policy on Leaves of Absence (rev. 2017-07-01; covers faculty and staff), the Policy on Paid Time Off (rev. 2016-10-01) and the Faculty Handbook. missing = false.",
+  "Version: 2018_00 (teaching relief) is dated (effective 2011-10-05, footer 10/29/2014) but the saved copy is a Wayback capture of 2016-09-09, before the reference academic year; no later version is saved and no saved source contradicts it; treated as in force. The 2018_06 compiled handbook's Tenure section matches 2018_02 apart from wording.",
+  "Cross-references not saved: Benefits and Services Handbook (Maternity/Adoption Leave, Family Leave, Sick Leave policies, cited by the handbook Tenure section); HRM policies on Maternity/Adoption Leave, Family Leave and Sick Leave (handbook 'consult Human Resources Management'); Policy on Probationary Period; Disability Benefits Program Description; LTD Certificate of Coverage; Family and Medical Leave policy (listed as related to the teaching-relief policy); the HR FMLA rights notice; Policy on Leaves of Absence (CA); Policy on Timekeeping and Reporting; the Massachusetts Earned Sick Time Law text.",
+  "No paid parental or childbirth leave exists in the saved sources: Leaves of Absence are unpaid; employees may use accrued sick time (c4, an employer allotment under R1) for an approved medical leave and vacation (12-month faculty only, c8); interim disability (c6) pays 60% after 30 days' absence once sick time is exhausted. The HR leaves page lists 'Maternity/Adoption Leave'; the governing policy's matching provision is the Parental Leave of Absence (c2).",
+  "Paid sick time band (U8): 'Up to 2 years of completed service 22 days'; 'Over 2 years ... 44 days'. A member with two years of completed service falls in the first band (22 days, 4.4 weeks); 44 days recorded in duration_max.",
+  "Birth parent chain: parental leave 8 weeks (unpaid) with FMLA 12 weeks alongside from the start (S1); paid sick time 22 days → interim disability 60% up to 6 months (after 30 days' absence, sick time exhausted) → LTD from day 181; one semester of classroom teaching relief at full salary also available, after the leave and the sick time (R3d, within 12 months of the birth). Links: c3 concurrent_with c2; c6 consecutive_after c4; c7 consecutive_after c6; c1 also_available c2 and c4.",
+  "Non-birth parent chain: parental leave 8 weeks (8 weeks in the aggregate if both parents work for the University) with FMLA 12 weeks alongside; up to 40 hours of sick time for family care (c5, unlinked); one semester of classroom teaching relief also available after the leave (R3d). No component is linked two ways.",
+  "Tenure clock: the Policy on Tenure Clock Extension grants one year for a birth or adoption on request (c14; automatic for recipients of teaching relief per 2018_00, while the 2017 policy says HRM-approved leaves do not independently extend the clock and a written request is still required); the handbook Tenure section separately makes a delay automatic after a maternity leave of a full term or more (c17). Both kept; they overlap.",
+  "Not components: sabbatical and professional leaves (career-related, not usable for a birth); military, jury and bereavement leave; Small Necessities leave (school and routine appointments); research faculty provisional-funding leave (funding lapses).",
+  "Calendar: semester stated without a length : calendar.kind = semester, and the term length follows R8's order."
+ ],
+ "statutory_floor": {
+  "jurisdiction": "US",
+  "year": "2018",
+  "weeks_birth": 12.0,
+  "weeks_nonbirth": 12.0,
+  "statute": "Family and Medical Leave Act (FMLA) (29 U.S.C. 2611-2612)",
+  "source_doc": "2026_00_us_fmla_29usc2612",
+  "table": "statutory_baseline.csv"
+ }
+}

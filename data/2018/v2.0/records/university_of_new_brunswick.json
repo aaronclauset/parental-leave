@@ -1,0 +1,2426 @@
+{
+ "institution": "University of New Brunswick",
+ "slug": "university_of_new_brunswick",
+ "country": "Canada",
+ "model": "claude-opus-5-5",
+ "codebook_version": "1.25",
+ "schema_version": "1.25",
+ "reference_date": "2018-03-12",
+ "documents": [
+  {
+   "doc_id": "2018_00_link",
+   "url": "http://www.unb.ca/hr/_resources/policies/parental.pdf",
+   "title": "UNB Human Resources: Policy and Procedure concerning Parental Leave (employees not covered by a collective agreement)",
+   "version_or_effective_date": "REVISED POLICY APPROVED AUGUST 2003 IN EFFECT SEPTEMBER 1, 2004 (Wayback capture 2016-10-19)",
+   "retrieved": "2026-10-20"
+  },
+  {
+   "doc_id": "2018_01_aunbt_ft_ca_2016_2020",
+   "url": "https://www.aunbt.ca/wp-content/uploads/2017/07/aunbtftca20162020.pdf",
+   "title": "Thirteenth Collective Agreement between UNB and AUNBT, Full-Time (Group 1), July 1, 2016 - June 30, 2020",
+   "version_or_effective_date": "July 1, 2016 - June 30, 2020 (Art. 47.01)",
+   "retrieved": "2026-10-21"
+  },
+  {
+   "doc_id": "2018_02_aunbt_ft_ca_2016_2020_unbhr_wayback",
+   "url": "http://www.unb.ca/hr/_resources/pdf/agreements/aunbtftca20162020.pdf",
+   "title": "Same agreement, UNB HR copy (Wayback capture 2018-04-28)",
+   "version_or_effective_date": "July 1, 2016 - June 30, 2020",
+   "retrieved": "2026-10-21"
+  }
+ ],
+ "missing": false,
+ "scope_accounting": {
+  "C1": {
+   "components": [
+    "university_of_new_brunswick_c1",
+    "university_of_new_brunswick_c2",
+    "university_of_new_brunswick_c3",
+    "university_of_new_brunswick_c4",
+    "university_of_new_brunswick_c14",
+    "university_of_new_brunswick_c15"
+   ]
+  },
+  "C2": {
+   "absent": {
+    "documents": [
+     "2018_00_link",
+     "2018_01_aunbt_ft_ca_2016_2020",
+     "2018_02_aunbt_ft_ca_2016_2020_unbhr_wayback"
+    ],
+    "terms": [
+     "modified duties",
+     "teaching relief",
+     "course release",
+     "reduction",
+     "relief",
+     "release from",
+     "workload",
+     "return to normal duties"
+    ]
+   }
+  },
+  "C3": {
+   "components": [
+    "university_of_new_brunswick_c7",
+    "university_of_new_brunswick_c8",
+    "university_of_new_brunswick_c9"
+   ]
+  },
+  "C4": {
+   "components": [
+    "university_of_new_brunswick_c1",
+    "university_of_new_brunswick_c2",
+    "university_of_new_brunswick_c5",
+    "university_of_new_brunswick_c6"
+   ],
+   "not_components": [
+    {
+     "statute": "Industrial Relations Act (NB)",
+     "reason": "labour relations (bargaining agent, arbitration powers); gives no leave, pay or protection to a new parent (U4)"
+    },
+    {
+     "statute": "University of New Brunswick Act (1968)",
+     "reason": "governance of the University; unrelated to becoming a parent (U4)"
+    },
+    {
+     "statute": "Occupational Health and Safety Act (NB)",
+     "reason": "general workplace health and safety (Art. 49.02); no pregnancy-specific provision relied on (U4)"
+    },
+    {
+     "statute": "Employment Insurance Regulations (S.U.B. plan registration, 2018_00)",
+     "reason": "governs registration of the supplementary unemployment benefit plan; the EI benefits themselves are c5 and c6"
+    },
+    {
+     "statute": "Employment Standards Act (NB): other sections, including critical illness leaves",
+     "reason": "the documents rely only on the maternity and child care leave sections (U4)"
+    },
+    {
+     "statute": "income tax laws and regulations",
+     "reason": "reporting of grants; unrelated to becoming a parent (U4)"
+    }
+   ]
+  },
+  "C5": {
+   "absent": {
+    "documents": [
+     "2018_00_link",
+     "2018_01_aunbt_ft_ca_2016_2020",
+     "2018_02_aunbt_ft_ca_2016_2020_unbhr_wayback"
+    ],
+    "terms": [
+     "family",
+     "ill",
+     "care",
+     "compassionate",
+     "critical illness",
+     "spouse",
+     "dependant"
+    ]
+   }
+  },
+  "C6": {
+   "components": [
+    "university_of_new_brunswick_c9",
+    "university_of_new_brunswick_c10"
+   ]
+  },
+  "C7": {
+   "components": [
+    "university_of_new_brunswick_c11"
+   ]
+  },
+  "C8": {
+   "components": [
+    "university_of_new_brunswick_c12",
+    "university_of_new_brunswick_c13"
+   ]
+  },
+  "C9": {
+   "absent": {
+    "documents": [
+     "2018_00_link",
+     "2018_01_aunbt_ft_ca_2016_2020",
+     "2018_02_aunbt_ft_ca_2016_2020_unbhr_wayback"
+    ],
+    "terms": [
+     "accommodation",
+     "pregnan",
+     "transfer",
+     "hazard",
+     "non-discrimination",
+     "disabilit"
+    ]
+   }
+  },
+  "C10": {
+   "absent": {
+    "documents": [
+     "2018_00_link",
+     "2018_01_aunbt_ft_ca_2016_2020",
+     "2018_02_aunbt_ft_ca_2016_2020_unbhr_wayback"
+    ],
+    "terms": [
+     "FMLA",
+     "Family and Medical Leave",
+     "first days",
+     "qualifying absence"
+    ]
+   }
+  }
+ },
+ "leave_limits": [
+  {
+   "weeks": 52,
+   "components": [
+    "university_of_new_brunswick_c1",
+    "university_of_new_brunswick_c2",
+    "university_of_new_brunswick_c3",
+    "university_of_new_brunswick_c4"
+   ],
+   "roles": [
+    "birth"
+   ],
+   "note": "Art. 32F.05: for an Employee who takes both maternity and parental leave, the combined maximum is consistent in duration with the ESA, whose s. 44.02(8) set a combined maximum of 52 weeks before Bill 44 (Royal Assent 2018-03-16).",
+   "evidence": [
+    "For an Employee who takes both maternity and parental leave, the combined maximum shall be consistent in duration with the Employment Standards Act of New Brunswick.",
+    "(b) in subsection (8) by striking out “fifty-two weeks” and substituting “seventy-eight weeks”;"
+   ],
+   "decision_log": [
+    {
+     "field": "leave_limits",
+     "rule": "R20",
+     "answer": "52 weeks on c1-c4 for the birth parent: the combined ESA maximum (pre-Bill 44 s. 44.02(8)); the SEB top-ups are paid only for the period of the leaves, so they are bounded with them; applies only where both leaves are taken (birth parent)",
+     "quote": "For an Employee who takes both maternity and parental leave, the combined maximum shall be consistent in duration with the Employment Standards Act of New Brunswick."
+    }
+   ]
+  }
+ ],
+ "components": [
+  {
+   "component_id": "university_of_new_brunswick_c1",
+   "institution_label": "Maternity Leave",
+   "description": "Unpaid maternity leave granted on request to a pregnant Employee, consistent in timing and duration with the NB Employment Standards Act (up to 17 weeks); the agreement adds no length, so it is coded as the statutory leave.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Employees of the AUNBT full-time bargaining unit (Group 1), which includes Faculty Members: 'an Employee with the rank of Professor, Associate Professor, Assistant Professor or Lecturer' (Art. 1.01)",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "pregnant female Employee",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "entitlement_note": "Art. 32E.01 'the University shall grant' a statutory leave; a statutory entitlement stays guaranteed (schema 2c).",
+   "duration": {
+    "value": 17,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "duration_note": "Length taken from the ESA (U2): up to 17 weeks of unpaid maternity leave; Bill 44 (Royal Assent 2018-03-16) did not change the 17 weeks; it moved the earliest start from 11 to 13 weeks before delivery.",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "notice": "advise the Dean in writing of the expected date of delivery and intended start and duration as early as possible (32E.02)",
+   "sequence": [],
+   "statute_source": "Employment Standards Act (NB), SNB 1982 c. E-7.2, s. 43 (maternity leave, 17 weeks; Bill 44 changed only its earliest start); pre-Bill 44 wording in force on 2018-03-12",
+   "statute_verified": true,
+   "rule_applied": [
+    "U2",
+    "U4",
+    "R9",
+    "S1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Faculty Member: is an Employee with the rank of Professor, Associate Professor, Assistant Professor or Lecturer."
+    ],
+    "eligible_parent": [
+     "Upon request by a pregnant female Employee, the University shall grant maternity leave consistent in timing and duration with the Employment Standards Act of New Brunswick."
+    ],
+    "entitlement": [
+     "Upon request by a pregnant female Employee, the University shall grant maternity leave consistent in timing and duration with the Employment Standards Act of New Brunswick."
+    ],
+    "duration": [
+     "Any pregnant employee is entitled to up to 17 weeks of unpaid maternity leave.",
+     "Upon request by a pregnant female Employee, the University shall grant maternity leave consistent in timing and duration with the Employment Standards Act of New Brunswick."
+    ],
+    "mechanism": [
+     "An employer is required to allow an employee to take a leave of absence without pay for maternity or child care but can offer greater benefits than those provided for in the Act."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_aunbt_ft_ca_2016_2020",
+    "2018_08_nb_esa_maternity_childcare_guidance_current"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "An employer is required to allow an employee to take a leave of absence without pay for maternity or child care but can offer greater benefits than those provided for in the Act."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Any pregnant employee is entitled to up to 17 weeks of unpaid maternity leave."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Upon request by a pregnant female Employee, the University shall grant maternity leave consistent in timing and duration with the Employment Standards Act of New Brunswick."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Faculty Member: is an Employee with the rank of Professor, Associate Professor, Assistant Professor or Lecturer."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "birth_parent",
+     "quote": "Upon request by a pregnant female Employee, the University shall grant maternity leave consistent in timing and duration with the Employment Standards Act of New Brunswick."
+    },
+    {
+     "field": "entitlement",
+     "rule": "U2",
+     "answer": "guaranteed",
+     "quote": "Upon request by a pregnant female Employee, the University shall grant maternity leave consistent in timing and duration with the Employment Standards Act of New Brunswick."
+    },
+    {
+     "field": "duration",
+     "rule": "U2",
+     "answer": "17 weeks up_to (ESA length; agreement restates the statute)",
+     "quote": "Any pregnant employee is entitled to up to 17 weeks of unpaid maternity leave."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "formal leave, all duties relieved",
+     "quote": "Upon request by a pregnant female Employee, the University shall grant maternity leave consistent in timing and duration with the Employment Standards Act of New Brunswick."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_new_brunswick_c2",
+   "institution_label": "Parental Leave",
+   "description": "Unpaid parental leave granted on request to a biological or adoptive parent, consistent in timing and duration with the NB Employment Standards Act child-care leave (37 consecutive weeks on the reference date); may be taken by one or shared by two employed parents; begins immediately after maternity leave where both are taken.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Employees of the AUNBT full-time bargaining unit (Group 1), which includes Faculty Members: 'an Employee with the rank of Professor, Associate Professor, Assistant Professor or Lecturer' (Art. 1.01)",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "an Employee who is the biological parent of a newborn or unborn child, or who is adopting or has adopted a child",
+   "caregiver_condition": "none",
+   "dual_employee_rule": "may be taken wholly by one, or shared by two, employed parent(s), subject to the Act",
+   "entitlement": "guaranteed",
+   "entitlement_note": "Art. 32F.01 'the University shall grant' a statutory leave; statutory entitlement stays guaranteed (schema 2c).",
+   "duration": {
+    "value": 37,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "duration_note": "ESA s. 44.02(2) child care leave before Bill 44: 37 consecutive weeks (Bill 44 struck out 'thirty-seven consecutive weeks' for 'sixty-two', Royal Assent 2018-03-16, after the 2018-03-12 reference date). Qualifier from the ESA summary ('up to'). Shared leave counted in full for each role (U2).",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "notice": "advise the Dean in writing of the expected date of delivery/adoption and intended start and duration as early as possible (32F.02)",
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "university_of_new_brunswick_c1",
+     "note": "32F.01: parental leave must commence immediately on expiry of maternity leave where both are taken (applies to the birth parent; ignored for other roles)"
+    }
+   ],
+   "statute_source": "Employment Standards Act (NB), SNB 1982 c. E-7.2, s. 44.02(2) (child care leave, 37 consecutive weeks before Bill 44, Royal Assent 2018-03-16) and s. 44.02(8) (combined maximum 52 weeks)",
+   "statute_verified": true,
+   "rule_applied": [
+    "U2",
+    "U4",
+    "R9",
+    "S1",
+    "R15"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Faculty Member: is an Employee with the rank of Professor, Associate Professor, Assistant Professor or Lecturer."
+    ],
+    "eligible_parent": [
+     "who is the biological parent of a newborn or unborn child, or",
+     "who is adopting or has adopted a child,"
+    ],
+    "entitlement": [
+     "the University shall grant parental leave consistent in timing and duration with the Employment Standards Act of New Brunswick."
+    ],
+    "duration": [
+     "by striking out “thirty-seven consecutive weeks” and substituting “sixty-two consecutive weeks”;",
+     "All parents, natural or adoptive, are entitled to unpaid child-care leave of up to 62 consecutive weeks."
+    ],
+    "sequence": [
+     "Where an Employee takes parental leave in addition to maternity leave pursuant to Article 32E, the Employee must commence the parental leave immediately on the expiry of maternity leave, unless the University and the Employee agree otherwise."
+    ],
+    "dual_employee_rule": [
+     "Subject to the Act, such leave may be taken wholly by one (1), or shared by two (2), employed parent(s)."
+    ],
+    "mechanism": [
+     "An employer is required to allow an employee to take a leave of absence without pay for maternity or child care but can offer greater benefits than those provided for in the Act."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_aunbt_ft_ca_2016_2020",
+    "2018_05_nb_esa_bill44_amendment",
+    "2018_08_nb_esa_maternity_childcare_guidance_current"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "An employer is required to allow an employee to take a leave of absence without pay for maternity or child care but can offer greater benefits than those provided for in the Act."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "An employer is required to allow an employee to take a leave of absence without pay for maternity or child care but can offer greater benefits than those provided for in the Act."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "the University shall grant parental leave consistent in timing and duration with the Employment Standards Act of New Brunswick."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Faculty Member: is an Employee with the rank of Professor, Associate Professor, Assistant Professor or Lecturer."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "birth_parent, non_birth_parent (biological parent), adoptive",
+     "quote": "who is the biological parent of a newborn or unborn child, or"
+    },
+    {
+     "field": "entitlement",
+     "rule": "U2",
+     "answer": "guaranteed",
+     "quote": "the University shall grant parental leave consistent in timing and duration with the Employment Standards Act of New Brunswick."
+    },
+    {
+     "field": "duration",
+     "rule": "U2",
+     "answer": "37 weeks up_to: pre-Bill 44 ESA child care leave in force on 2018-03-12",
+     "quote": "by striking out “thirty-seven consecutive weeks” and substituting “sixty-two consecutive weeks”;"
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "formal leave, all duties relieved",
+     "quote": "the University shall grant parental leave consistent in timing and duration with the Employment Standards Act of New Brunswick."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "consecutive_after c1 (birth parent)",
+     "quote": "Where an Employee takes parental leave in addition to maternity leave pursuant to Article 32E, the Employee must commence the parental leave immediately on the expiry of maternity leave, unless the University and the Employee agree otherwise."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_new_brunswick_c3",
+   "institution_label": "supplementary employment benefit (SEB)",
+   "description": "During maternity leave the University maintains salary at 95% of regular weekly earnings, through an SEB that makes up the difference between EI maternity benefits and 95% of nominal salary; for probationary, tenure-track and tenured Employees; conditional on applying for and being eligible for EI.",
+   "mechanism": "employer_topup",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Employees on probationary, tenure track, tenured appointments (and term appointees from the second consecutive year), Art. 32E.03",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "pregnant female Employee; 'her regular weekly earnings'",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 17,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "duration_note": "Paid 'for the period of her leave', i.e. the ESA maternity leave of up to 17 weeks (c1).",
+   "pay_fraction": "95% of regular weekly earnings (SEB makes up EI to 95% of nominal salary)",
+   "pay_cap": "In any week, the total amount of benefits and earnings received by the Employee will not exceed 95 percent of the Employee's normal weekly earnings",
+   "service_requirement": "none stated for probationary, tenure-track and tenured appointments; term appointees not in the first academic year of a term appointment (32E.04)",
+   "return_obligation": "expected to return to normal duties on completion of the leave; may be deferred or waived for hardship or professional advancement (32G); no repayment stated",
+   "sequence": [
+    {
+     "relation": "within",
+     "component_id": "university_of_new_brunswick_c1",
+     "note": "salary maintained at 95% 'for the period of her leave'; coded from the leave's start with no waiting-week offset (stated envelope, V4)"
+    }
+   ],
+   "rule_applied": [
+    "V4",
+    "R15",
+    "R21",
+    "R7"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "For Employees on probationary, tenure track, tenured appointments, or for Employees in the second or subsequent years of a consecutive term appointment,"
+    ],
+    "eligible_parent": [
+     "the Employee’s salary will be maintained at 95 percent of her regular weekly earnings for the period of her leave."
+    ],
+    "entitlement": [
+     "the Employee’s salary will be maintained at 95 percent of her regular weekly earnings for the period of her leave.",
+     "The Employer will provide a supplementary employment benefit (SEB) which will make up the difference between the Employment Insurance (EI) benefits received and 95 percent of the Employee’s nominal salary."
+    ],
+    "duration": [
+     "the Employee’s salary will be maintained at 95 percent of her regular weekly earnings for the period of her leave.",
+     "Any pregnant employee is entitled to up to 17 weeks of unpaid maternity leave."
+    ],
+    "pay_fraction": [
+     "the Employee’s salary will be maintained at 95 percent of her regular weekly earnings for the period of her leave.",
+     "The Employer will provide a supplementary employment benefit (SEB) which will make up the difference between the Employment Insurance (EI) benefits received and 95 percent of the Employee’s nominal salary."
+    ],
+    "sequence": [
+     "the Employee’s salary will be maintained at 95 percent of her regular weekly earnings for the period of her leave."
+    ],
+    "service_requirement": [
+     "For Employees on probationary, tenure track, tenured appointments, or for Employees in the second or subsequent years of a consecutive term appointment,",
+     "No employee shall be eligible for supplementary employment benefits during the first academic year in which a term appointment is held."
+    ],
+    "return_obligation": [
+     "Employees are expected to return to normal duties on completion of a maternity/parental leave for which they receive a SEB benefit."
+    ],
+    "mechanism": [
+     "The Employer will provide a supplementary employment benefit (SEB) which will make up the difference between the Employment Insurance (EI) benefits received and 95 percent of the Employee’s nominal salary."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_aunbt_ft_ca_2016_2020",
+    "2018_08_nb_esa_maternity_childcare_guidance_current"
+   ],
+   "flags": [
+    "ambiguous: rule gap: the SEB is 'the difference between the Employment Insurance (EI) benefits received and 95 percent', but salary is 'maintained at 95 percent ... for the period of her leave'; coded as an envelope from the leave's start (no start_offset_weeks), not as a top-up paid only while EI is received (checklist §5 example 1)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "employer_topup",
+     "quote": "The Employer will provide a supplementary employment benefit (SEB) which will make up the difference between the Employment Insurance (EI) benefits received and 95 percent of the Employee’s nominal salary."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "The Employer will provide a supplementary employment benefit (SEB) which will make up the difference between the Employment Insurance (EI) benefits received and 95 percent of the Employee’s nominal salary."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "the Employee’s salary will be maintained at 95 percent of her regular weekly earnings for the period of her leave."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "For Employees on probationary, tenure track, tenured appointments, or for Employees in the second or subsequent years of a consecutive term appointment,"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "birth_parent",
+     "quote": "the Employee’s salary will be maintained at 95 percent of her regular weekly earnings for the period of her leave."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "the Employee’s salary will be maintained at 95 percent of her regular weekly earnings for the period of her leave."
+    },
+    {
+     "field": "duration",
+     "rule": "R15",
+     "answer": "17 weeks up_to: the period of the maternity leave",
+     "quote": "the Employee’s salary will be maintained at 95 percent of her regular weekly earnings for the period of her leave."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "R7",
+     "answer": "95% of regular weekly earnings, integrated with EI",
+     "quote": "The Employer will provide a supplementary employment benefit (SEB) which will make up the difference between the Employment Insurance (EI) benefits received and 95 percent of the Employee’s nominal salary."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U8",
+     "answer": "none for probationary, tenure-track, tenured",
+     "quote": "For Employees on probationary, tenure track, tenured appointments, or for Employees in the second or subsequent years of a consecutive term appointment,"
+    },
+    {
+     "field": "sequence",
+     "rule": "V4",
+     "answer": "within c1, no offset: salary maintained for the period of the leave",
+     "quote": "the Employee’s salary will be maintained at 95 percent of her regular weekly earnings for the period of her leave."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_new_brunswick_c4",
+   "institution_label": "supplementary employment benefit (SEB)",
+   "description": "During parental leave the University maintains salary at 95% of regular weekly earnings, through an SEB that makes up the difference between EI parental benefits and 95% of nominal salary; for probationary, tenure-track and tenured Employees; conditional on applying for and being eligible for EI parental benefits.",
+   "mechanism": "employer_topup",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Employees on probationary, tenure track, tenured appointments (and term appointees from the second consecutive year), Art. 32F.03",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "Employee on parental leave (biological parent or adopting parent, Art. 32F.01); 'her/his benefit stub'",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 37,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "duration_note": "Paid 'for the period of the leave', i.e. the parental leave of up to 37 weeks (c2). EI parental standard benefits last 35 weeks; the text maintains 95% salary for the whole leave.",
+   "pay_fraction": "95% of regular weekly earnings (SEB makes up EI to 95% of nominal salary)",
+   "pay_cap": "In any week, the total amount of benefits and earnings received by the Employee will not exceed 95 percent of the Employee's normal weekly earnings",
+   "service_requirement": "none stated for probationary, tenure-track and tenured appointments; term appointees not in the first academic year of a term appointment (32F.04)",
+   "return_obligation": "expected to return to normal duties on completion of the leave; may be deferred or waived for hardship or professional advancement (32G); no repayment stated",
+   "sequence": [
+    {
+     "relation": "within",
+     "component_id": "university_of_new_brunswick_c2",
+     "note": "salary maintained at 95% 'for the period of the leave'; coded from the leave's start with no waiting-week offset (stated envelope, V4)"
+    }
+   ],
+   "rule_applied": [
+    "V4",
+    "R15",
+    "R21",
+    "R7",
+    "U2"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "For Employees on probationary, tenure track, tenured appointments or for Employees in the second or subsequent years of a consecutive term appointment,"
+    ],
+    "eligible_parent": [
+     "who is the biological parent of a newborn or unborn child, or",
+     "who is adopting or has adopted a child,"
+    ],
+    "entitlement": [
+     "the Employee’s salary will be maintained at 95 percent of regular weekly earnings for the period of the leave."
+    ],
+    "duration": [
+     "the Employee’s salary will be maintained at 95 percent of regular weekly earnings for the period of the leave.",
+     "All parents, natural or adoptive, are entitled to unpaid child-care leave of up to 62 consecutive weeks."
+    ],
+    "pay_fraction": [
+     "the Employee’s salary will be maintained at 95 percent of regular weekly earnings for the period of the leave."
+    ],
+    "sequence": [
+     "the Employee’s salary will be maintained at 95 percent of regular weekly earnings for the period of the leave."
+    ],
+    "service_requirement": [
+     "For Employees on probationary, tenure track, tenured appointments or for Employees in the second or subsequent years of a consecutive term appointment,",
+     "No employee shall be eligible for supplementary employment benefits during the first academic year in which a term appointment is held."
+    ],
+    "return_obligation": [
+     "Employees are expected to return to normal duties on completion of a maternity/parental leave for which they receive a SEB benefit."
+    ],
+    "mechanism": [
+     "The Employee is required to apply for the EI parental leave benefit and must be eligible for the benefit for this plan to apply."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_aunbt_ft_ca_2016_2020",
+    "2018_08_nb_esa_maternity_childcare_guidance_current"
+   ],
+   "flags": [
+    "ambiguous: rule gap: the SEB makes up 'the difference between the Employment Insurance (EI) benefits received and 95 percent', but salary is 'maintained at 95 percent of regular weekly earnings for the period of the leave'; coded as an envelope from the leave's start (no start_offset_weeks), not as a top-up paid only while EI is received (checklist §5 example 1)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "employer_topup",
+     "quote": "The Employee is required to apply for the EI parental leave benefit and must be eligible for the benefit for this plan to apply."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "the Employee’s salary will be maintained at 95 percent of regular weekly earnings for the period of the leave."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "the Employee’s salary will be maintained at 95 percent of regular weekly earnings for the period of the leave."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "For Employees on probationary, tenure track, tenured appointments or for Employees in the second or subsequent years of a consecutive term appointment,"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "birth_parent, non_birth_parent, adoptive (those eligible for 32F parental leave)",
+     "quote": "who is the biological parent of a newborn or unborn child, or"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "the Employee’s salary will be maintained at 95 percent of regular weekly earnings for the period of the leave."
+    },
+    {
+     "field": "duration",
+     "rule": "R15",
+     "answer": "37 weeks up_to: the period of the parental leave",
+     "quote": "the Employee’s salary will be maintained at 95 percent of regular weekly earnings for the period of the leave."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "R7",
+     "answer": "95% of regular weekly earnings, integrated with EI",
+     "quote": "the Employee’s salary will be maintained at 95 percent of regular weekly earnings for the period of the leave."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U8",
+     "answer": "none for probationary, tenure-track, tenured",
+     "quote": "For Employees on probationary, tenure track, tenured appointments or for Employees in the second or subsequent years of a consecutive term appointment,"
+    },
+    {
+     "field": "sequence",
+     "rule": "V4",
+     "answer": "within c2, no offset: salary maintained for the period of the leave",
+     "quote": "the Employee’s salary will be maintained at 95 percent of regular weekly earnings for the period of the leave."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_new_brunswick_c5",
+   "institution_label": "EI maternity leave benefit",
+   "description": "Federal Employment Insurance maternity (pregnancy) benefits, up to 15 weeks at 55% of insurable earnings, after a one-week waiting period; the agreement requires the Employee to apply for them for the SEB to apply.",
+   "mechanism": "government_benefit",
+   "payer": "government",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "insured employees; Art. 32E.03 requires the Employee to apply for EI maternity benefits",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "a major attachment claimant who proves her pregnancy",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 15,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "pay_fraction": "55% of weekly insurable earnings",
+   "sequence": [
+    {
+     "relation": "concurrent_with",
+     "component_id": "university_of_new_brunswick_c1",
+     "start_offset_weeks": 1,
+     "note": "EI one-week unpaid waiting period from the start of the leave (EI Act s. 13; programmes table)"
+    }
+   ],
+   "statute_source": "Employment Insurance Act s. 12(3)(a), s. 22 (pregnancy benefits), s. 13 (waiting period), s. 14(1) (rate); point in time 2018-01-01",
+   "statute_verified": true,
+   "rule_applied": [
+    "M1",
+    "U2",
+    "R7",
+    "R21",
+    "U4"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "The Employee is required to apply for the EI maternity leave benefit and must be eligible for the benefit for this plan to apply."
+    ],
+    "eligible_parent": [
+     "benefits are payable to a major attachment claimant who proves her pregnancy."
+    ],
+    "entitlement": [
+     "benefits are payable to a major attachment claimant who proves her pregnancy.",
+     "A claimant is not entitled to be paid benefits in a benefit period until, after the beginning of the benefit period, the claimant has served a waiting period of one week of unemployment for which benefits would otherwise be payable."
+    ],
+    "duration": [
+     "The maximum number of weeks for which benefits may be paid in a benefit period",
+     "(a) because of pregnancy is 15;"
+    ],
+    "pay_fraction": [
+     "The rate of weekly benefits payable to a claimant is 55% of their weekly insurable earnings, or 33% of their weekly insurable earnings for the weeks for which the claimant is paid benefits under section 23 in the case where the applicable maximum number of weeks is established under subparagraph 12(3)(b)(ii)."
+    ],
+    "sequence": [
+     "A claimant is not entitled to be paid benefits in a benefit period until, after the beginning of the benefit period, the claimant has served a waiting period of one week of unemployment for which benefits would otherwise be payable."
+    ],
+    "mechanism": [
+     "The Employee is required to apply for the EI maternity leave benefit and must be eligible for the benefit for this plan to apply."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_aunbt_ft_ca_2016_2020",
+    "2018_16_ca_ei_act_pit_2018-01-01"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "M1",
+     "answer": "government_benefit",
+     "quote": "The Employee is required to apply for the EI maternity leave benefit and must be eligible for the benefit for this plan to apply."
+    },
+    {
+     "field": "payer",
+     "rule": "M1",
+     "answer": "government",
+     "quote": "The Employee is required to apply for the EI maternity leave benefit and must be eligible for the benefit for this plan to apply."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "benefits are payable to a major attachment claimant who proves her pregnancy."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "U8",
+     "answer": "main_campus_tenure_stream",
+     "quote": "The Employee is required to apply for the EI maternity leave benefit and must be eligible for the benefit for this plan to apply."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U2",
+     "answer": "birth_parent",
+     "quote": "benefits are payable to a major attachment claimant who proves her pregnancy."
+    },
+    {
+     "field": "entitlement",
+     "rule": "U2",
+     "answer": "guaranteed",
+     "quote": "benefits are payable to a major attachment claimant who proves her pregnancy."
+    },
+    {
+     "field": "duration",
+     "rule": "U2",
+     "answer": "15 weeks up_to (maximum weeks payable because of pregnancy)",
+     "quote": "(a) because of pregnancy is 15;"
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "U2",
+     "answer": "55%",
+     "quote": "The rate of weekly benefits payable to a claimant is 55% of their weekly insurable earnings, or 33% of their weekly insurable earnings for the weeks for which the claimant is paid benefits under section 23 in the case where the applicable maximum number of weeks is established under subparagraph 12(3)(b)(ii)."
+    },
+    {
+     "field": "sequence",
+     "rule": "R21",
+     "answer": "concurrent_with c1, start_offset_weeks 1",
+     "quote": "A claimant is not entitled to be paid benefits in a benefit period until, after the beginning of the benefit period, the claimant has served a waiting period of one week of unemployment for which benefits would otherwise be payable."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_new_brunswick_c6",
+   "institution_label": "EI parental leave benefit",
+   "description": "Federal Employment Insurance parental benefits for caring for a newborn or newly adopted child: standard option up to 35 weeks at 55% (shared between parents); the extended option (61 weeks at 33%) is recorded as a variant.",
+   "mechanism": "government_benefit",
+   "payer": "government",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "insured employees; Art. 32F.03 requires the Employee to apply for EI parental benefits",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "claimant caring for one or more new-born children of the claimant or one or more children placed with the claimant for the purpose of adoption",
+   "caregiver_condition": "none",
+   "dual_employee_rule": "the 35 weeks may be divided between claimants for the same child (counted in full for each role, U2)",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 35,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "duration_variants": "standard option 35 weeks at 55%; extended option 61 weeks at 33% (s. 12(3)(b)(ii), s. 14(1)), not counted (U2)",
+   "pay_fraction": "55% of weekly insurable earnings",
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "university_of_new_brunswick_c5",
+     "note": "birth parent: EI parental follows EI maternity; waiting period served once per birth (R21)"
+    },
+    {
+     "relation": "concurrent_with",
+     "component_id": "university_of_new_brunswick_c2",
+     "start_offset_weeks": 1,
+     "roles": [
+      "nonbirth"
+     ],
+     "note": "non-birth parent serves its own one-week waiting period from the start of parental leave (R21); deferral under EI Act s. 23(5) where the other parent served it goes here"
+    }
+   ],
+   "statute_source": "Employment Insurance Act s. 12(3)(b), s. 23 (parental benefits), s. 13 (waiting period), s. 14(1) (rate); point in time 2018-01-01",
+   "statute_verified": true,
+   "rule_applied": [
+    "M1",
+    "U2",
+    "R7",
+    "R21",
+    "U4"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "The Employee is required to apply for the EI parental leave benefit and must be eligible for the benefit for this plan to apply."
+    ],
+    "eligible_parent": [
+     "(b) because the claimant is caring for one or more new-born children of the claimant or one or more children placed with the claimant for the purpose of adoption is, in accordance with the election under section 23,"
+    ],
+    "entitlement": [
+     "(b) because the claimant is caring for one or more new-born children of the claimant or one or more children placed with the claimant for the purpose of adoption is, in accordance with the election under section 23,"
+    ],
+    "duration": [
+     "The maximum number of weeks for which benefits may be paid in a benefit period",
+     "(b) because the claimant is caring for one or more new-born children of the claimant or one or more children placed with the claimant for the purpose of adoption is, in accordance with the election under section 23,"
+    ],
+    "pay_fraction": [
+     "The rate of weekly benefits payable to a claimant is 55% of their weekly insurable earnings, or 33% of their weekly insurable earnings for the weeks for which the claimant is paid benefits under section 23 in the case where the applicable maximum number of weeks is established under subparagraph 12(3)(b)(ii)."
+    ],
+    "sequence": [
+     "A claimant is not entitled to be paid benefits in a benefit period until, after the beginning of the benefit period, the claimant has served a waiting period of one week of unemployment for which benefits would otherwise be payable."
+    ],
+    "dual_employee_rule": [
+     "up to a maximum of 35 weeks, may be divided in the manner agreed to by those claimants."
+    ],
+    "mechanism": [
+     "The Employee is required to apply for the EI parental leave benefit and must be eligible for the benefit for this plan to apply."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_aunbt_ft_ca_2016_2020",
+    "2018_16_ca_ei_act_pit_2018-01-01"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "M1",
+     "answer": "government_benefit",
+     "quote": "The Employee is required to apply for the EI parental leave benefit and must be eligible for the benefit for this plan to apply."
+    },
+    {
+     "field": "payer",
+     "rule": "M1",
+     "answer": "government",
+     "quote": "The Employee is required to apply for the EI parental leave benefit and must be eligible for the benefit for this plan to apply."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "(b) because the claimant is caring for one or more new-born children of the claimant or one or more children placed with the claimant for the purpose of adoption is, in accordance with the election under section 23,"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "U8",
+     "answer": "main_campus_tenure_stream",
+     "quote": "The Employee is required to apply for the EI parental leave benefit and must be eligible for the benefit for this plan to apply."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U2",
+     "answer": "birth_parent, non_birth_parent, adoptive",
+     "quote": "(b) because the claimant is caring for one or more new-born children of the claimant or one or more children placed with the claimant for the purpose of adoption is, in accordance with the election under section 23,"
+    },
+    {
+     "field": "entitlement",
+     "rule": "U2",
+     "answer": "guaranteed",
+     "quote": "(b) because the claimant is caring for one or more new-born children of the claimant or one or more children placed with the claimant for the purpose of adoption is, in accordance with the election under section 23,"
+    },
+    {
+     "field": "duration",
+     "rule": "U2",
+     "answer": "35 weeks up_to, standard option; extended option in duration_variants",
+     "quote": "(b) because the claimant is caring for one or more new-born children of the claimant or one or more children placed with the claimant for the purpose of adoption is, in accordance with the election under section 23,"
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "U2",
+     "answer": "55%",
+     "quote": "The rate of weekly benefits payable to a claimant is 55% of their weekly insurable earnings, or 33% of their weekly insurable earnings for the weeks for which the claimant is paid benefits under section 23 in the case where the applicable maximum number of weeks is established under subparagraph 12(3)(b)(ii)."
+    },
+    {
+     "field": "sequence",
+     "rule": "R21",
+     "answer": "consecutive_after c5 (birth); concurrent_with c2 offset 1 for the non-birth parent",
+     "quote": "A claimant is not entitled to be paid benefits in a benefit period until, after the beginning of the benefit period, the claimant has served a waiting period of one week of unemployment for which benefits would otherwise be payable."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_new_brunswick_c7",
+   "institution_label": "INCOME PROTECTION – SHORT TERM SICK LEAVE",
+   "description": "Sick leave at full pay and benefits for the duration of an absence due to medically verifiable illness or injury, up to six months (130 days), after which long-term disability benefits may begin. No childbirth period is stated.",
+   "mechanism": "generic_sick_or_disability_plan",
+   "payer": "employer",
+   "mechanism_note": "No childbirth-specific period, length or pay level for childbirth is stated (V1 not met); income protection for any medically verified illness. Not coded as a U6 leave of absence: the article is framed as income protection ('sufficient sick leave to provide full pay and benefits'), not as a grant of leave status for a stated period.",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Employees of the AUNBT full-time bargaining unit (Group 1), which includes Faculty Members: 'an Employee with the rank of Professor, Associate Professor, Assistant Professor or Lecturer' (Art. 1.01)",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "an Employee ... absence due to medically verifiable illness or injury",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 6,
+    "units": "month",
+    "qualifier": "up_to"
+   },
+   "duration_note": "maximum six (6) months (130 days) of full pay and benefits per absence",
+   "pay_fraction": "full pay and benefits",
+   "medical_certification": true,
+   "medical_certification_note": "medical evidence verifying the illness upon request by the Dean; a second medical opinion may be required for extended or frequent use",
+   "sequence": [],
+   "rule_applied": [
+    "V1",
+    "R2",
+    "R1",
+    "U5",
+    "U6",
+    "V6"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Faculty Member: is an Employee with the rank of Professor, Associate Professor, Assistant Professor or Lecturer."
+    ],
+    "eligible_parent": [
+     "an Employee shall be entitled to sufficient sick leave to provide full pay and benefits for the duration of an absence due to medically verifiable illness or injury, subject to the provisions of this Article."
+    ],
+    "entitlement": [
+     "an Employee shall be entitled to sufficient sick leave to provide full pay and benefits for the duration of an absence due to medically verifiable illness or injury, subject to the provisions of this Article."
+    ],
+    "duration": [
+     "The maximum period for full pay and benefits shall be six (6) months (130 days) after which the Long Term Disability Plan benefits may begin."
+    ],
+    "pay_fraction": [
+     "an Employee shall be entitled to sufficient sick leave to provide full pay and benefits for the duration of an absence due to medically verifiable illness or injury, subject to the provisions of this Article."
+    ],
+    "medical_certification": [
+     "The Employee shall provide medical evidence verifying the illness upon request by the Dean."
+    ],
+    "mechanism": [
+     "an Employee shall be entitled to sufficient sick leave to provide full pay and benefits for the duration of an absence due to medically verifiable illness or injury, subject to the provisions of this Article."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_aunbt_ft_ca_2016_2020"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "V1",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "an Employee shall be entitled to sufficient sick leave to provide full pay and benefits for the duration of an absence due to medically verifiable illness or injury, subject to the provisions of this Article."
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "employer",
+     "quote": "an Employee shall be entitled to sufficient sick leave to provide full pay and benefits for the duration of an absence due to medically verifiable illness or injury, subject to the provisions of this Article."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "an Employee shall be entitled to sufficient sick leave to provide full pay and benefits for the duration of an absence due to medically verifiable illness or injury, subject to the provisions of this Article."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Faculty Member: is an Employee with the rank of Professor, Associate Professor, Assistant Professor or Lecturer."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own illness)",
+     "quote": "an Employee shall be entitled to sufficient sick leave to provide full pay and benefits for the duration of an absence due to medically verifiable illness or injury, subject to the provisions of this Article."
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "an Employee shall be entitled to sufficient sick leave to provide full pay and benefits for the duration of an absence due to medically verifiable illness or injury, subject to the provisions of this Article."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "6 months up_to (maximum period for full pay)",
+     "quote": "The maximum period for full pay and benefits shall be six (6) months (130 days) after which the Long Term Disability Plan benefits may begin."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "full pay and benefits",
+     "quote": "an Employee shall be entitled to sufficient sick leave to provide full pay and benefits for the duration of an absence due to medically verifiable illness or injury, subject to the provisions of this Article."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_new_brunswick_c8",
+   "institution_label": "Group Long term Disability Plan",
+   "description": "Group long-term disability plan, paying a disability benefit after a six-month qualification period (the six months of sick leave under Art. 32D). Recorded without a length (schema §2).",
+   "mechanism": "generic_sick_or_disability_plan",
+   "payer": "insurance_plan",
+   "mechanism_note": "Long-term disability plan: income replacement after short-term sick leave ends (schema §2).",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Employees of the AUNBT full-time bargaining unit (Group 1), which includes Faculty Members: 'an Employee with the rank of Professor, Associate Professor, Assistant Professor or Lecturer' (Art. 1.01)",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "time_window": "after the six (6) month qualification period",
+   "sequence": [],
+   "rule_applied": [
+    "V6",
+    "U5",
+    "M1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Faculty Member: is an Employee with the rank of Professor, Associate Professor, Assistant Professor or Lecturer."
+    ],
+    "eligible_parent": [
+     "provides a disability benefit for Employees who are prevented from performing the essential duties of their own occupation during the six (6) month qualification period"
+    ],
+    "entitlement": [
+     "The University agrees to continue the fringe benefits under the plans set out in Article 35.03"
+    ],
+    "time_window": [
+     "provides a disability benefit for Employees who are prevented from performing the essential duties of their own occupation during the six (6) month qualification period"
+    ],
+    "mechanism": [
+     "Group Long term Disability Plan"
+    ],
+    "payer": [
+     "Long-Term Disability Insurance policies shall continue at normal premium sharing"
+    ]
+   },
+   "doc_ids": [
+    "2018_01_aunbt_ft_ca_2016_2020"
+   ],
+   "flags": [
+    "cross_reference_not_saved: Group Long term Disability Plan (plan document; 'Details ... are available from the Department of Human Resources and Organizational Development', Art. 35.03)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "Group Long term Disability Plan"
+    },
+    {
+     "field": "payer",
+     "rule": "M1",
+     "answer": "insurance_plan",
+     "quote": "Long-Term Disability Insurance policies shall continue at normal premium sharing"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "provides a disability benefit for Employees who are prevented from performing the essential duties of their own occupation during the six (6) month qualification period"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Faculty Member: is an Employee with the rank of Professor, Associate Professor, Assistant Professor or Lecturer."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own disability)",
+     "quote": "provides a disability benefit for Employees who are prevented from performing the essential duties of their own occupation during the six (6) month qualification period"
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "The University agrees to continue the fringe benefits under the plans set out in Article 35.03"
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_new_brunswick_c9",
+   "institution_label": "VACATION AND HOLIDAYS",
+   "description": "Paid vacation of 22 days per year (27 after ten years), normally taken between regular academic years; available for any purpose.",
+   "mechanism": "own_accrual",
+   "payer": "own_balance",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Employees of the AUNBT full-time bargaining unit (Group 1), which includes Faculty Members: 'an Employee with the rank of Professor, Associate Professor, Assistant Professor or Lecturer' (Art. 1.01)",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 22,
+    "units": "day",
+    "qualifier": "exact"
+   },
+   "duration_note": "22 days per year ('Day: means working day', Art. 1.01); 27 days after ten years of continuous service; carry-over up to 1.5 (never more than 2) times the annual entitlement on request (34.04); use during the regular academic year subject to the Dean's judgment (34.02).",
+   "sequence": [],
+   "rule_applied": [
+    "R1",
+    "U1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Faculty Member: is an Employee with the rank of Professor, Associate Professor, Assistant Professor or Lecturer."
+    ],
+    "eligible_parent": [
+     "Each Employee is entitled to paid vacation at the rate of twenty-two days per year."
+    ],
+    "entitlement": [
+     "Each Employee is entitled to paid vacation at the rate of twenty-two days per year."
+    ],
+    "duration": [
+     "Each Employee is entitled to paid vacation at the rate of twenty-two days per year.",
+     "Following ten (10) years continuous service the vacation entitlement shall increase to twenty-seven days per year."
+    ],
+    "mechanism": [
+     "Each Employee is entitled to paid vacation at the rate of twenty-two days per year."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_aunbt_ft_ca_2016_2020"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "own_accrual",
+     "quote": "Each Employee is entitled to paid vacation at the rate of twenty-two days per year."
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "own_balance",
+     "quote": "Each Employee is entitled to paid vacation at the rate of twenty-two days per year."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "The time period between the end of one (1) regular academic year and the commencement of the next regular academic year is the period of time in which vacation entitlement will normally be taken."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Faculty Member: is an Employee with the rank of Professor, Associate Professor, Assistant Professor or Lecturer."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "Each Employee is entitled to paid vacation at the rate of twenty-two days per year."
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "Each Employee is entitled to paid vacation at the rate of twenty-two days per year."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "22 days per year, exact",
+     "quote": "Each Employee is entitled to paid vacation at the rate of twenty-two days per year."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_new_brunswick_c10",
+   "institution_label": "SPECIAL LEAVE",
+   "description": "Special leave, with or without pay, that the University may grant at any time for any period, covering all leaves not specified elsewhere in the agreement; leave without pay may not exceed two consecutive years.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "mechanism_note": "Coded as a leave without pay; the text allows pay at the University's discretion, with no stated level.",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Employees of the AUNBT full-time bargaining unit (Group 1), which includes Faculty Members: 'an Employee with the rank of Professor, Associate Professor, Assistant Professor or Lecturer' (Art. 1.01)",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "duration": {
+    "value": 2,
+    "units": "year",
+    "qualifier": "up_to"
+   },
+   "duration_note": "leave without pay shall not exceed two consecutive years (32C.07); leaves of six months or more need VP, President and Board approval and nine months' notice (32C.03-04)",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "notice": "application to the Chair (under 5 days) or Dean (5 days or more); nine months before the start for unpaid leave of six months or more",
+   "sequence": [],
+   "rule_applied": [
+    "U1",
+    "V2",
+    "R9"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Faculty Member: is an Employee with the rank of Professor, Associate Professor, Assistant Professor or Lecturer."
+    ],
+    "eligible_parent": [
+     "Special Leave, with or without pay may be granted by the University of New Brunswick to an Employee at any time for any period of time."
+    ],
+    "entitlement": [
+     "Special Leave, with or without pay may be granted by the University of New Brunswick to an Employee at any time for any period of time."
+    ],
+    "duration": [
+     "Leave without pay shall not exceed two (2) consecutive years.",
+     "Special Leave, with or without pay may be granted by the University of New Brunswick to an Employee at any time for any period of time."
+    ],
+    "mechanism": [
+     "Special Leave may be with or without pay and includes all leaves of a type not specified in other Articles of this Collective Agreement."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_aunbt_ft_ca_2016_2020"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "Special Leave may be with or without pay and includes all leaves of a type not specified in other Articles of this Collective Agreement."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Special Leave may be with or without pay and includes all leaves of a type not specified in other Articles of this Collective Agreement."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "Special Leave may be with or without pay and includes all leaves of a type not specified in other Articles of this Collective Agreement."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Faculty Member: is an Employee with the rank of Professor, Associate Professor, Assistant Professor or Lecturer."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "Special Leave, with or without pay may be granted by the University of New Brunswick to an Employee at any time for any period of time."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "Special Leave, with or without pay may be granted by the University of New Brunswick to an Employee at any time for any period of time."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "2 years up_to (leave without pay)",
+     "quote": "Leave without pay shall not exceed two (2) consecutive years."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "formal leave, all duties relieved",
+     "quote": "Special Leave, with or without pay may be granted by the University of New Brunswick to an Employee at any time for any period of time."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_new_brunswick_c11",
+   "institution_label": "",
+   "description": "A probationary Faculty Member may, for good cause, request deferral of the fourth-year probationary assessment (and of the tenure assessment in the continued appointment, 23A.07) for up to two additional years; requests are considered on their merits and not unreasonably denied. Arts. 32E.03 and 32F.03 point Employees on maternity or parental leave to this deferral.",
+   "mechanism": "tenure_clock",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Faculty Members holding probationary appointments (Art. 23A); parallel deferrals for Instructors, Librarians/Archivists and Nurse Clinicians (23B-23D)",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "'shall not be unreasonably denied' (V2d), with requests 'considered on their merits'.",
+   "duration": {
+    "value": 2,
+    "units": "year",
+    "qualifier": "up_to"
+   },
+   "duration_note": "deferral 'for up to a maximum of two (2) additional years' (23A.01; same in 23A.07 for the tenure assessment). Maternity and parental leave normally count as service toward tenure (32E.03, 32F.03); leave without pay normally does not (23A.01).",
+   "sequence": [],
+   "rule_applied": [
+    "U1",
+    "V2d"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "The performance of Faculty Members holding probationary appointments shall be assessed during the fourth year of the appointment."
+    ],
+    "eligible_parent": [
+     "A Faculty Member may, for good cause, voluntarily request a deferral for up to a maximum of two (2) additional years.",
+     "An Employee may request deferral of assessment for tenure and/or promotion in accordance with Articles 23A, 23B, 23C and 24A, 24B, 24C."
+    ],
+    "entitlement": [
+     "A Faculty Member may, for good cause, voluntarily request a deferral for up to a maximum of two (2) additional years.",
+     "Such requests shall be considered on their merits by the appropriate Vice-President, and shall not be unreasonably denied."
+    ],
+    "duration": [
+     "A Faculty Member may, for good cause, voluntarily request a deferral for up to a maximum of two (2) additional years."
+    ],
+    "mechanism": [
+     "An Employee may request deferral of assessment for tenure and/or promotion in accordance with Articles 23A, 23B, 23C and 24A, 24B, 24C."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_aunbt_ft_ca_2016_2020"
+   ],
+   "flags": [
+    "general_purpose",
+    "conditional_refusal: requests considered on their merits and 'shall not be unreasonably denied'",
+    "ambiguous: rule gap: Arts. 32E.03 and 32F.03 refer Employees on maternity or parental leave to the general good-cause deferral of Art. 23A; coded once, as a deferral available for any good cause (U1), not as a separate parental tenure-clock provision"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "An Employee may request deferral of assessment for tenure and/or promotion in accordance with Articles 23A, 23B, 23C and 24A, 24B, 24C."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "A Faculty Member may, for good cause, voluntarily request a deferral for up to a maximum of two (2) additional years."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "A Faculty Member may, for good cause, voluntarily request a deferral for up to a maximum of two (2) additional years."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "The performance of Faculty Members holding probationary appointments shall be assessed during the fourth year of the appointment."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "A Faculty Member may, for good cause, voluntarily request a deferral for up to a maximum of two (2) additional years."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2d",
+     "answer": "guaranteed_on_request",
+     "quote": "Such requests shall be considered on their merits by the appropriate Vice-President, and shall not be unreasonably denied."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "2 years up_to",
+     "quote": "A Faculty Member may, for good cause, voluntarily request a deferral for up to a maximum of two (2) additional years."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_new_brunswick_c12",
+   "institution_label": "Temporary Workload Reduction for Full-time Employees",
+   "description": "A tenured or probationary Employee with at least three years of service may apply at any time for a temporary workload reduction of up to one-half for up to two academic years, with salary reduced by the same factor; granted if conditions are met (including the Dean being able to cover the workload) and not unreasonably denied.",
+   "mechanism": "part_time_option",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "tenured or probationary Employees of the bargaining unit (Art. 20A.06(d))",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "'shall be granted provided that' the stated conditions hold, including that 'the Dean can make suitable arrangements'; 'shall not be unreasonably denied' (V2b, V2d).",
+   "duration": {
+    "value": 2,
+    "units": "year",
+    "qualifier": "up_to"
+   },
+   "duration_note": "reduction of up to one-half of normal workload for not longer than two academic years; salary reduced by the same factor; full fringe benefits on nominal salary",
+   "service_requirement": "tenured or probationary Employee with at least three (3) years of service",
+   "notice": "at least six (6) months before the requested start (shorter in exceptional circumstances)",
+   "return_obligation": "resume normal workload for at least one (1) year after the reduced period",
+   "relief": {
+    "teaching": "not_stated",
+    "service_admin": "not_stated",
+    "research": "not_stated",
+    "advising_supervision": "not_stated",
+    "clinical": "not_stated"
+   },
+   "relief_note": "distribution of the reduced workload among teaching, research and service is agreed between the Dean and the Employee (20A.08(c)); pay cut in proportion (R3: not partial relief)",
+   "sequence": [],
+   "rule_applied": [
+    "R3",
+    "U1",
+    "V2b",
+    "V2d",
+    "U8"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "the individual making the application is a tenured or probationary Employee with at least three (3) years of service;"
+    ],
+    "eligible_parent": [
+     "An Employee may apply for a temporary workload reduction at any time."
+    ],
+    "entitlement": [
+     "Such application shall be granted provided that:",
+     "Requests for a temporary workload reduction shall not be unreasonably denied."
+    ],
+    "duration": [
+     "the proposed temporary reduction does not exceed one-half (½) of the Employee's normal workload, and does not extend for longer than two (2) academic years;"
+    ],
+    "service_requirement": [
+     "the individual making the application is a tenured or probationary Employee with at least three (3) years of service;"
+    ],
+    "relief": [
+     "The distribution of the temporarily reduced workload among the normal components of full workload, as set out in Article 16, shall be a matter of agreement between the Dean and the Employee."
+    ],
+    "mechanism": [
+     "The salary of an Employee shall be reduced by the same reduction factor as is the Employee's workload."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_aunbt_ft_ca_2016_2020"
+   ],
+   "flags": [
+    "general_purpose",
+    "conditional_refusal: granted provided the Dean can make suitable arrangements to cover the workload; not unreasonably denied"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R3",
+     "answer": "part_time_option",
+     "quote": "The salary of an Employee shall be reduced by the same reduction factor as is the Employee's workload."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "The salary of an Employee shall be reduced by the same reduction factor as is the Employee's workload."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "An Employee may apply for a temporary workload reduction at any time."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "the individual making the application is a tenured or probationary Employee with at least three (3) years of service;"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "An Employee may apply for a temporary workload reduction at any time."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2b",
+     "answer": "guaranteed_on_request",
+     "quote": "the Dean can make suitable arrangements to cover the Employee's workload;"
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "2 academic years up_to",
+     "quote": "the proposed temporary reduction does not exceed one-half (½) of the Employee's normal workload, and does not extend for longer than two (2) academic years;"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U8",
+     "answer": "3 years of service (above the two-year member of U8)",
+     "quote": "the individual making the application is a tenured or probationary Employee with at least three (3) years of service;"
+    },
+    {
+     "field": "relief",
+     "rule": "R3",
+     "answer": "not_stated for every duty: distribution of the reduced load is agreed; a pay cut, so not partial relief",
+     "quote": "The distribution of the temporarily reduced workload among the normal components of full workload, as set out in Article 16, shall be a matter of agreement between the Dean and the Employee."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_new_brunswick_c13",
+   "institution_label": "Continuing Workload Reduction for Full-time Employees",
+   "description": "A tenured or probationary Employee may apply, voluntarily, for an indefinite reduced-load appointment at a mutually agreed reduction, with salary prorated; requires the University's approval and the Association's written approval; full load may be resumed within 60 months on 12 months' notice.",
+   "mechanism": "part_time_option",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "tenured or probationary Employees of the bargaining unit (Art. 20A.10)",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "service_requirement": "tenured or probationary Employee (no length stated)",
+   "relief": {
+    "teaching": "not_stated",
+    "service_admin": "not_stated",
+    "research": "not_stated",
+    "advising_supervision": "not_stated",
+    "clinical": "not_stated"
+   },
+   "relief_note": "workload reduced by a mutually agreed factor; salary prorated (R3: not partial relief)",
+   "sequence": [],
+   "rule_applied": [
+    "R3",
+    "U1",
+    "V2"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "A tenured or probationary Employee may, on a wholly voluntary basis, apply to his/her Dean for a reduced-load appointment."
+    ],
+    "eligible_parent": [
+     "A tenured or probationary Employee may, on a wholly voluntary basis, apply to his/her Dean for a reduced-load appointment."
+    ],
+    "entitlement": [
+     "A continuing reduced-load appointment is defined as one in which an Employee, at his/her request and with the approval of the University of New Brunswick, carries, for an indefinite period of time, a workload reduced by a mutually agreed factor.",
+     "An agreement for a reduced-load appointment between the University of New Brunswick and an Employee will require the written approval of the Association."
+    ],
+    "service_requirement": [
+     "A tenured or probationary Employee may, on a wholly voluntary basis, apply to his/her Dean for a reduced-load appointment."
+    ],
+    "mechanism": [
+     "Each such Employee shall receive an actual salary prorated from the nominal salary according to the reduction in the workload."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_aunbt_ft_ca_2016_2020"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R3",
+     "answer": "part_time_option",
+     "quote": "Each such Employee shall receive an actual salary prorated from the nominal salary according to the reduction in the workload."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "Each such Employee shall receive an actual salary prorated from the nominal salary according to the reduction in the workload."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "A tenured or probationary Employee may, on a wholly voluntary basis, apply to his/her Dean for a reduced-load appointment."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "A tenured or probationary Employee may, on a wholly voluntary basis, apply to his/her Dean for a reduced-load appointment."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "A tenured or probationary Employee may, on a wholly voluntary basis, apply to his/her Dean for a reduced-load appointment."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "A continuing reduced-load appointment is defined as one in which an Employee, at his/her request and with the approval of the University of New Brunswick, carries, for an indefinite period of time, a workload reduced by a mutually agreed factor."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "tenured or probationary",
+     "quote": "A tenured or probationary Employee may, on a wholly voluntary basis, apply to his/her Dean for a reduced-load appointment."
+    },
+    {
+     "field": "relief",
+     "rule": "R3",
+     "answer": "not_stated for every duty: reduction by a mutually agreed factor with prorated salary",
+     "quote": "A continuing reduced-load appointment is defined as one in which an Employee, at his/her request and with the approval of the University of New Brunswick, carries, for an indefinite period of time, a workload reduced by a mutually agreed factor."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_new_brunswick_c14",
+   "institution_label": "POLICY AND PROCEDURE CONCERNING PARENTAL LEAVE",
+   "description": "HR policy for employees not covered by a collective agreement: unpaid parental leave consistent in timing and duration with the NB Employment Standards Act (37 consecutive weeks on the reference date). Does not cover AUNBT faculty.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "eligible employees who are not covered by a Collective Agreement",
+   "faculty_group_note": "This policy applies to eligible employees who are not covered by a Collective Agreement (faculty are covered by the AUNBT agreement)",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "an Employee who is the biological parent of a newborn or unborn child, or who is adopting or has adopted a child",
+   "caregiver_condition": "none",
+   "dual_employee_rule": "may be taken wholly by one, or shared by two, employed parent(s), subject to the Act",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 37,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "duration_note": "ESA child care leave before Bill 44 (37 consecutive weeks); policy dated 'REVISED POLICY APPROVED AUGUST 2003 IN EFFECT SEPTEMBER 1, 2004', Wayback copy of 2016-10-19",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "sequence": [],
+   "statute_source": "Employment Standards Act (NB), SNB 1982 c. E-7.2, s. 44.02(2) (child care leave, 37 consecutive weeks before Bill 44, Royal Assent 2018-03-16) and s. 44.02(8) (combined maximum 52 weeks)",
+   "statute_verified": true,
+   "rule_applied": [
+    "U2",
+    "R9"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "This policy applies to eligible employees who are not covered by a Collective Agreement."
+    ],
+    "eligible_parent": [
+     "who is the biological parent of a newborn or unborn child, or",
+     "who is adopting or has adopted a child"
+    ],
+    "entitlement": [
+     "the University shall grant parental leave consistent in timing and duration with the Employment Standards Act of New Brunswick."
+    ],
+    "duration": [
+     "by striking out “thirty-seven consecutive weeks” and substituting “sixty-two consecutive weeks”;",
+     "All parents, natural or adoptive, are entitled to unpaid child-care leave of up to 62 consecutive weeks."
+    ],
+    "dual_employee_rule": [
+     "Subject to the Act, such leave may be taken wholly by one, or shared by two, employed parent(s)."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link",
+    "2018_05_nb_esa_bill44_amendment",
+    "2018_08_nb_esa_maternity_childcare_guidance_current"
+   ],
+   "flags": [
+    "version_uncertain",
+    "cross_reference_not_saved: Policy and Procedure concerning Maternity Leave (UNB HR policy for employees not covered by a collective agreement)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "An employer is required to allow an employee to take a leave of absence without pay for maternity or child care but can offer greater benefits than those provided for in the Act."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "An employer is required to allow an employee to take a leave of absence without pay for maternity or child care but can offer greater benefits than those provided for in the Act."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "the University shall grant parental leave consistent in timing and duration with the Employment Standards Act of New Brunswick."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "eligible employees who are not covered by a Collective Agreement",
+     "quote": "This policy applies to eligible employees who are not covered by a Collective Agreement."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "birth_parent, non_birth_parent, adoptive",
+     "quote": "who is the biological parent of a newborn or unborn child, or"
+    },
+    {
+     "field": "entitlement",
+     "rule": "U2",
+     "answer": "guaranteed",
+     "quote": "the University shall grant parental leave consistent in timing and duration with the Employment Standards Act of New Brunswick."
+    },
+    {
+     "field": "duration",
+     "rule": "U2",
+     "answer": "37 weeks up_to (pre-Bill 44 ESA)",
+     "quote": "by striking out “thirty-seven consecutive weeks” and substituting “sixty-two consecutive weeks”;"
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "formal leave, all duties relieved",
+     "quote": "the University shall grant parental leave consistent in timing and duration with the Employment Standards Act of New Brunswick."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_new_brunswick_c15",
+   "institution_label": "Parental Leave Allowance",
+   "description": "For continuing operating-budget employees not covered by a collective agreement, after six months and probation: a S.U.B. top-up maintaining salary at 95% of regular weekly earnings for up to 37 weeks of parental leave, while EI parental benefits are received; one-year return obligation with pro-rated repayment. Does not cover AUNBT faculty.",
+   "mechanism": "employer_topup",
+   "payer": "employer",
+   "faculty_group": "eligible employees who are not covered by a Collective Agreement",
+   "faculty_group_note": "continuing employees funded from the University operating budget, not covered by a Collective Agreement",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 37,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "pay_fraction": "95% of regular weekly earnings (S.U.B. top-up of EI)",
+   "service_requirement": "six (6) months of employment and successful completion of the initial probationary period; continuing employees funded from the operating budget",
+   "return_obligation": "return to work for at least one (1) year after the leave, or reimburse the allowance on a pro-rated basis",
+   "duration_note": "Combined maximum S.U.B. top-up period of 52 weeks where both maternity and parental leave are taken (maternity policy not saved).",
+   "sequence": [
+    {
+     "relation": "within",
+     "component_id": "university_of_new_brunswick_c14",
+     "start_offset_weeks": 1,
+     "note": "paid only while in receipt of EI parental benefits (checklist §5 example 1; EI one-week waiting period)"
+    }
+   ],
+   "rule_applied": [
+    "R7",
+    "R15",
+    "R21",
+    "R20"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "This policy applies to eligible employees who are not covered by a Collective Agreement.",
+     "After six (6) months of employment and following successful completion of the initial probationary period, continuing employees funded from the University operating budget are eligible for a Parental Leave Allowance."
+    ],
+    "eligible_parent": [
+     "who is the biological parent of a newborn or unborn child, or",
+     "who is adopting or has adopted a child"
+    ],
+    "entitlement": [
+     "The Employee's salary will be maintained at 95% of regular weekly earnings for up to a maximum period of 37 weeks of parental leave"
+    ],
+    "duration": [
+     "The Employee's salary will be maintained at 95% of regular weekly earnings for up to a maximum period of 37 weeks of parental leave"
+    ],
+    "pay_fraction": [
+     "The Employee's salary will be maintained at 95% of regular weekly earnings for up to a maximum period of 37 weeks of parental leave"
+    ],
+    "service_requirement": [
+     "After six (6) months of employment and following successful completion of the initial probationary period, continuing employees funded from the University operating budget are eligible for a Parental Leave Allowance."
+    ],
+    "sequence": [
+     "Employees must apply for and must be in receipt of employment insurance benefits to receive payments under the plan."
+    ],
+    "return_obligation": [
+     "An employee who receives a Parental Leave Allowance is required to return to work at the University for at least one (1) year following expiry of the Parental Leave (or any approved extension)."
+    ],
+    "mechanism": [
+     "The Parental Leave Allowance is supplemental to and contingent upon the continuing employee applying and being eligible for the E.I. Parental Leave benefit."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "version_uncertain",
+    "ambiguous: restriction: combined cap 52 weeks on the S.U.B. top-up across maternity and parental leave (staff maternity policy not saved)",
+    "cross_reference_not_saved: Policy and Procedure concerning Maternity Leave (UNB HR policy for employees not covered by a collective agreement)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "employer_topup",
+     "quote": "The Parental Leave Allowance is supplemental to and contingent upon the continuing employee applying and being eligible for the E.I. Parental Leave benefit."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "The Employee's salary will be maintained at 95% of regular weekly earnings for up to a maximum period of 37 weeks of parental leave"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "The Employee's salary will be maintained at 95% of regular weekly earnings for up to a maximum period of 37 weeks of parental leave"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "eligible employees who are not covered by a Collective Agreement",
+     "quote": "This policy applies to eligible employees who are not covered by a Collective Agreement."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "birth_parent, non_birth_parent, adoptive",
+     "quote": "who is the biological parent of a newborn or unborn child, or"
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "The Employee's salary will be maintained at 95% of regular weekly earnings for up to a maximum period of 37 weeks of parental leave"
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "37 weeks up_to",
+     "quote": "The Employee's salary will be maintained at 95% of regular weekly earnings for up to a maximum period of 37 weeks of parental leave"
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "R7",
+     "answer": "95% integrated with EI",
+     "quote": "The Employee's salary will be maintained at 95% of regular weekly earnings for up to a maximum period of 37 weeks of parental leave"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U8",
+     "answer": "six months and probation",
+     "quote": "After six (6) months of employment and following successful completion of the initial probationary period, continuing employees funded from the University operating budget are eligible for a Parental Leave Allowance."
+    },
+    {
+     "field": "sequence",
+     "rule": "R21",
+     "answer": "within c14, start_offset_weeks 1 (paid only while EI is received)",
+     "quote": "Employees must apply for and must be in receipt of employment insurance benefits to receive payments under the plan."
+    }
+   ]
+  }
+ ],
+ "passage_dispositions": {
+  "2018_00_link#001": {
+   "used_in": [
+    "university_of_new_brunswick_c14",
+    "university_of_new_brunswick_c15"
+   ]
+  },
+  "2018_01_aunbt_ft_ca_2016_2020#001": {
+   "not_relevant": "table of contents (lists the leave articles read elsewhere)"
+  },
+  "2018_01_aunbt_ft_ca_2016_2020#002": {
+   "not_relevant": "table of contents and MOU list"
+  },
+  "2018_01_aunbt_ft_ca_2016_2020#003": {
+   "not_relevant": "professional responsibilities of Faculty Members and Instructors; no leave provision"
+  },
+  "2018_01_aunbt_ft_ca_2016_2020#004": {
+   "not_relevant": "term appointments (replacement of a member on leave); no leave provision"
+  },
+  "2018_01_aunbt_ft_ca_2016_2020#005": {
+   "not_relevant": "probationary appointment length and joint appointments; no leave provision"
+  },
+  "2018_01_aunbt_ft_ca_2016_2020#006": {
+   "not_relevant": "appointment procedures"
+  },
+  "2018_01_aunbt_ft_ca_2016_2020#007": {
+   "not_relevant": "Instructor term appointments; no leave provision"
+  },
+  "2018_01_aunbt_ft_ca_2016_2020#008": {
+   "not_relevant": "Instructor probationary appointments"
+  },
+  "2018_01_aunbt_ft_ca_2016_2020#009": {
+   "not_relevant": "Librarian and Archivist appointments"
+  },
+  "2018_01_aunbt_ft_ca_2016_2020#010": {
+   "not_relevant": "Librarian and Archivist appointment procedures"
+  },
+  "2018_01_aunbt_ft_ca_2016_2020#011": {
+   "not_relevant": "Nurse Clinician appointments"
+  },
+  "2018_01_aunbt_ft_ca_2016_2020#012": {
+   "used_in": [
+    "university_of_new_brunswick_c11"
+   ]
+  },
+  "2018_01_aunbt_ft_ca_2016_2020#013": {
+   "not_relevant": "Instructors' probation and good-cause deferral (not tenure-stream faculty; parallel to c11)"
+  },
+  "2018_01_aunbt_ft_ca_2016_2020#014": {
+   "not_relevant": "Librarians' and Archivists' probation and good-cause deferral (not tenure-stream faculty; parallel to c11)"
+  },
+  "2018_01_aunbt_ft_ca_2016_2020#015": {
+   "not_relevant": "Librarian and Archivist tenure decisions"
+  },
+  "2018_01_aunbt_ft_ca_2016_2020#016": {
+   "not_relevant": "Nurse Clinicians' probation and good-cause deferral (not tenure-stream faculty; parallel to c11)"
+  },
+  "2018_01_aunbt_ft_ca_2016_2020#017": {
+   "not_relevant": "minimum service before tenure and promotion eligibility; leave without pay not counted toward promotion (noted in c11)"
+  },
+  "2018_01_aunbt_ft_ca_2016_2020#018": {
+   "not_relevant": "promotion of Instructors"
+  },
+  "2018_01_aunbt_ft_ca_2016_2020#019": {
+   "not_relevant": "promotion of Librarians and Archivists"
+  },
+  "2018_01_aunbt_ft_ca_2016_2020#020": {
+   "not_relevant": "assessment committees; members on leave not eligible to serve"
+  },
+  "2018_01_aunbt_ft_ca_2016_2020#021": {
+   "not_relevant": "assessment procedures"
+  },
+  "2018_01_aunbt_ft_ca_2016_2020#022": {
+   "not_relevant": "assessment deadlines; good-cause extension of submission deadlines (procedural, not a tenure-clock extension)"
+  },
+  "2018_01_aunbt_ft_ca_2016_2020#023": {
+   "not_relevant": "assessment procedures"
+  },
+  "2018_01_aunbt_ft_ca_2016_2020#024": {
+   "not_relevant": "assessment procedures"
+  },
+  "2018_01_aunbt_ft_ca_2016_2020#025": {
+   "not_relevant": "Librarian assessment procedures"
+  },
+  "2018_01_aunbt_ft_ca_2016_2020#026": {
+   "not_relevant": "Librarian assessment deadlines"
+  },
+  "2018_01_aunbt_ft_ca_2016_2020#027": {
+   "not_relevant": "Library assessment procedures"
+  },
+  "2018_01_aunbt_ft_ca_2016_2020#028": {
+   "not_relevant": "assessment criteria"
+  },
+  "2018_01_aunbt_ft_ca_2016_2020#029": {
+   "not_relevant": "assessment criteria"
+  },
+  "2018_01_aunbt_ft_ca_2016_2020#030": {
+   "not_relevant": "assessment criteria"
+  },
+  "2018_01_aunbt_ft_ca_2016_2020#031": {
+   "not_relevant": "assessment criteria and official files"
+  },
+  "2018_01_aunbt_ft_ca_2016_2020#032": {
+   "used_in": [
+    "university_of_new_brunswick_c10"
+   ]
+  },
+  "2018_01_aunbt_ft_ca_2016_2020#033": {
+   "used_in": [
+    "university_of_new_brunswick_c1",
+    "university_of_new_brunswick_c2",
+    "university_of_new_brunswick_c3",
+    "university_of_new_brunswick_c4",
+    "university_of_new_brunswick_c5",
+    "university_of_new_brunswick_c6",
+    "university_of_new_brunswick_c7",
+    "university_of_new_brunswick_c10"
+   ]
+  },
+  "2018_01_aunbt_ft_ca_2016_2020#034": {
+   "not_relevant": "bereavement and retraining leave; not usable for a birth or adoption"
+  },
+  "2018_01_aunbt_ft_ca_2016_2020#035": {
+   "used_in": [
+    "university_of_new_brunswick_c9"
+   ]
+  },
+  "2018_01_aunbt_ft_ca_2016_2020#036": {
+   "not_relevant": "retirement allowance"
+  },
+  "2018_01_aunbt_ft_ca_2016_2020#037": {
+   "used_in": [
+    "university_of_new_brunswick_c8"
+   ]
+  },
+  "2018_01_aunbt_ft_ca_2016_2020#038": {
+   "not_relevant": "termination of employment (incl. on receipt of LTD); no leave provision"
+  },
+  "2018_01_aunbt_ft_ca_2016_2020#039": {
+   "not_relevant": "grievance procedure"
+  },
+  "2018_01_aunbt_ft_ca_2016_2020#040": {
+   "not_relevant": "professional expense account pro-rated for leave without pay; employment equity"
+  },
+  "2018_01_aunbt_ft_ca_2016_2020#041": {
+   "not_relevant": "employment equity and status of women; no leave provision"
+  },
+  "2018_01_aunbt_ft_ca_2016_2020#042": {
+   "used_in": [
+    "university_of_new_brunswick_c8"
+   ]
+  },
+  "2018_01_aunbt_ft_ca_2016_2020#043": {
+   "used_in": [
+    "university_of_new_brunswick_c8"
+   ]
+  },
+  "2018_01_aunbt_ft_ca_2016_2020#044": {
+   "not_relevant": "discipline guidelines MOU"
+  },
+  "2018_01_aunbt_ft_ca_2016_2020#045": {
+   "not_relevant": "accountability MOU summarising probation and tenure; no clock extension"
+  },
+  "2018_01_aunbt_ft_ca_2016_2020#046": {
+   "not_relevant": "accountability MOU (Instructors)"
+  },
+  "2018_01_aunbt_ft_ca_2016_2020#047": {
+   "not_relevant": "accountability MOU (Librarians and Archivists)"
+  },
+  "2018_01_aunbt_ft_ca_2016_2020#048": {
+   "not_relevant": "accountability MOU (Nurse Clinicians)"
+  },
+  "2018_01_aunbt_ft_ca_2016_2020#049": {
+   "not_relevant": "offshore programs MOU"
+  },
+  "2018_01_aunbt_ft_ca_2016_2020#050": {
+   "not_relevant": "fringe benefits beyond normal retirement date (LTD ineligibility after age 65)"
+  },
+  "2018_02_aunbt_ft_ca_2016_2020_unbhr_wayback#001": {
+   "not_relevant": "table of contents (lists the leave articles read elsewhere) (duplicate copy of the agreement, 2018_02)"
+  },
+  "2018_02_aunbt_ft_ca_2016_2020_unbhr_wayback#002": {
+   "not_relevant": "table of contents and MOU list (duplicate copy of the agreement, 2018_02)"
+  },
+  "2018_02_aunbt_ft_ca_2016_2020_unbhr_wayback#003": {
+   "not_relevant": "professional responsibilities of Faculty Members and Instructors; no leave provision (duplicate copy of the agreement, 2018_02)"
+  },
+  "2018_02_aunbt_ft_ca_2016_2020_unbhr_wayback#004": {
+   "not_relevant": "term appointments (replacement of a member on leave); no leave provision (duplicate copy of the agreement, 2018_02)"
+  },
+  "2018_02_aunbt_ft_ca_2016_2020_unbhr_wayback#005": {
+   "not_relevant": "probationary appointment length and joint appointments; no leave provision (duplicate copy of the agreement, 2018_02)"
+  },
+  "2018_02_aunbt_ft_ca_2016_2020_unbhr_wayback#006": {
+   "not_relevant": "appointment procedures (duplicate copy of the agreement, 2018_02)"
+  },
+  "2018_02_aunbt_ft_ca_2016_2020_unbhr_wayback#007": {
+   "not_relevant": "Instructor term appointments; no leave provision (duplicate copy of the agreement, 2018_02)"
+  },
+  "2018_02_aunbt_ft_ca_2016_2020_unbhr_wayback#008": {
+   "not_relevant": "Instructor probationary appointments (duplicate copy of the agreement, 2018_02)"
+  },
+  "2018_02_aunbt_ft_ca_2016_2020_unbhr_wayback#009": {
+   "not_relevant": "Librarian and Archivist appointments (duplicate copy of the agreement, 2018_02)"
+  },
+  "2018_02_aunbt_ft_ca_2016_2020_unbhr_wayback#010": {
+   "not_relevant": "Librarian and Archivist appointment procedures (duplicate copy of the agreement, 2018_02)"
+  },
+  "2018_02_aunbt_ft_ca_2016_2020_unbhr_wayback#011": {
+   "not_relevant": "Nurse Clinician appointments (duplicate copy of the agreement, 2018_02)"
+  },
+  "2018_02_aunbt_ft_ca_2016_2020_unbhr_wayback#012": {
+   "used_in": [
+    "university_of_new_brunswick_c11"
+   ]
+  },
+  "2018_02_aunbt_ft_ca_2016_2020_unbhr_wayback#013": {
+   "not_relevant": "Instructors' probation and good-cause deferral (not tenure-stream faculty; parallel to c11) (duplicate copy of the agreement, 2018_02)"
+  },
+  "2018_02_aunbt_ft_ca_2016_2020_unbhr_wayback#014": {
+   "not_relevant": "Librarians' and Archivists' probation and good-cause deferral (not tenure-stream faculty; parallel to c11) (duplicate copy of the agreement, 2018_02)"
+  },
+  "2018_02_aunbt_ft_ca_2016_2020_unbhr_wayback#015": {
+   "not_relevant": "Librarian and Archivist tenure decisions (duplicate copy of the agreement, 2018_02)"
+  },
+  "2018_02_aunbt_ft_ca_2016_2020_unbhr_wayback#016": {
+   "not_relevant": "Nurse Clinicians' probation and good-cause deferral (not tenure-stream faculty; parallel to c11) (duplicate copy of the agreement, 2018_02)"
+  },
+  "2018_02_aunbt_ft_ca_2016_2020_unbhr_wayback#017": {
+   "not_relevant": "minimum service before tenure and promotion eligibility; leave without pay not counted toward promotion (noted in c11) (duplicate copy of the agreement, 2018_02)"
+  },
+  "2018_02_aunbt_ft_ca_2016_2020_unbhr_wayback#018": {
+   "not_relevant": "promotion of Instructors (duplicate copy of the agreement, 2018_02)"
+  },
+  "2018_02_aunbt_ft_ca_2016_2020_unbhr_wayback#019": {
+   "not_relevant": "promotion of Librarians and Archivists (duplicate copy of the agreement, 2018_02)"
+  },
+  "2018_02_aunbt_ft_ca_2016_2020_unbhr_wayback#020": {
+   "not_relevant": "assessment committees; members on leave not eligible to serve (duplicate copy of the agreement, 2018_02)"
+  },
+  "2018_02_aunbt_ft_ca_2016_2020_unbhr_wayback#021": {
+   "not_relevant": "assessment procedures (duplicate copy of the agreement, 2018_02)"
+  },
+  "2018_02_aunbt_ft_ca_2016_2020_unbhr_wayback#022": {
+   "not_relevant": "assessment deadlines; good-cause extension of submission deadlines (procedural, not a tenure-clock extension) (duplicate copy of the agreement, 2018_02)"
+  },
+  "2018_02_aunbt_ft_ca_2016_2020_unbhr_wayback#023": {
+   "not_relevant": "assessment procedures (duplicate copy of the agreement, 2018_02)"
+  },
+  "2018_02_aunbt_ft_ca_2016_2020_unbhr_wayback#024": {
+   "not_relevant": "assessment procedures (duplicate copy of the agreement, 2018_02)"
+  },
+  "2018_02_aunbt_ft_ca_2016_2020_unbhr_wayback#025": {
+   "not_relevant": "Librarian assessment procedures (duplicate copy of the agreement, 2018_02)"
+  },
+  "2018_02_aunbt_ft_ca_2016_2020_unbhr_wayback#026": {
+   "not_relevant": "Librarian assessment deadlines (duplicate copy of the agreement, 2018_02)"
+  },
+  "2018_02_aunbt_ft_ca_2016_2020_unbhr_wayback#027": {
+   "not_relevant": "Library assessment procedures (duplicate copy of the agreement, 2018_02)"
+  },
+  "2018_02_aunbt_ft_ca_2016_2020_unbhr_wayback#028": {
+   "not_relevant": "assessment criteria (duplicate copy of the agreement, 2018_02)"
+  },
+  "2018_02_aunbt_ft_ca_2016_2020_unbhr_wayback#029": {
+   "not_relevant": "assessment criteria (duplicate copy of the agreement, 2018_02)"
+  },
+  "2018_02_aunbt_ft_ca_2016_2020_unbhr_wayback#030": {
+   "not_relevant": "assessment criteria (duplicate copy of the agreement, 2018_02)"
+  },
+  "2018_02_aunbt_ft_ca_2016_2020_unbhr_wayback#031": {
+   "not_relevant": "assessment criteria and official files (duplicate copy of the agreement, 2018_02)"
+  },
+  "2018_02_aunbt_ft_ca_2016_2020_unbhr_wayback#032": {
+   "used_in": [
+    "university_of_new_brunswick_c10"
+   ]
+  },
+  "2018_02_aunbt_ft_ca_2016_2020_unbhr_wayback#033": {
+   "used_in": [
+    "university_of_new_brunswick_c1",
+    "university_of_new_brunswick_c2",
+    "university_of_new_brunswick_c3",
+    "university_of_new_brunswick_c4",
+    "university_of_new_brunswick_c5",
+    "university_of_new_brunswick_c6",
+    "university_of_new_brunswick_c7",
+    "university_of_new_brunswick_c10"
+   ]
+  },
+  "2018_02_aunbt_ft_ca_2016_2020_unbhr_wayback#034": {
+   "not_relevant": "bereavement and retraining leave; not usable for a birth or adoption (duplicate copy of the agreement, 2018_02)"
+  },
+  "2018_02_aunbt_ft_ca_2016_2020_unbhr_wayback#035": {
+   "used_in": [
+    "university_of_new_brunswick_c9"
+   ]
+  },
+  "2018_02_aunbt_ft_ca_2016_2020_unbhr_wayback#036": {
+   "not_relevant": "retirement allowance (duplicate copy of the agreement, 2018_02)"
+  },
+  "2018_02_aunbt_ft_ca_2016_2020_unbhr_wayback#037": {
+   "used_in": [
+    "university_of_new_brunswick_c8"
+   ]
+  },
+  "2018_02_aunbt_ft_ca_2016_2020_unbhr_wayback#038": {
+   "not_relevant": "termination of employment (incl. on receipt of LTD); no leave provision (duplicate copy of the agreement, 2018_02)"
+  },
+  "2018_02_aunbt_ft_ca_2016_2020_unbhr_wayback#039": {
+   "not_relevant": "grievance procedure (duplicate copy of the agreement, 2018_02)"
+  },
+  "2018_02_aunbt_ft_ca_2016_2020_unbhr_wayback#040": {
+   "not_relevant": "professional expense account pro-rated for leave without pay; employment equity (duplicate copy of the agreement, 2018_02)"
+  },
+  "2018_02_aunbt_ft_ca_2016_2020_unbhr_wayback#041": {
+   "not_relevant": "employment equity and status of women; no leave provision (duplicate copy of the agreement, 2018_02)"
+  },
+  "2018_02_aunbt_ft_ca_2016_2020_unbhr_wayback#042": {
+   "used_in": [
+    "university_of_new_brunswick_c8"
+   ]
+  },
+  "2018_02_aunbt_ft_ca_2016_2020_unbhr_wayback#043": {
+   "used_in": [
+    "university_of_new_brunswick_c8"
+   ]
+  },
+  "2018_02_aunbt_ft_ca_2016_2020_unbhr_wayback#044": {
+   "not_relevant": "discipline guidelines MOU (duplicate copy of the agreement, 2018_02)"
+  },
+  "2018_02_aunbt_ft_ca_2016_2020_unbhr_wayback#045": {
+   "not_relevant": "accountability MOU summarising probation and tenure; no clock extension (duplicate copy of the agreement, 2018_02)"
+  },
+  "2018_02_aunbt_ft_ca_2016_2020_unbhr_wayback#046": {
+   "not_relevant": "accountability MOU (Instructors) (duplicate copy of the agreement, 2018_02)"
+  },
+  "2018_02_aunbt_ft_ca_2016_2020_unbhr_wayback#047": {
+   "not_relevant": "accountability MOU (Librarians and Archivists) (duplicate copy of the agreement, 2018_02)"
+  },
+  "2018_02_aunbt_ft_ca_2016_2020_unbhr_wayback#048": {
+   "not_relevant": "accountability MOU (Nurse Clinicians) (duplicate copy of the agreement, 2018_02)"
+  },
+  "2018_02_aunbt_ft_ca_2016_2020_unbhr_wayback#049": {
+   "not_relevant": "offshore programs MOU (duplicate copy of the agreement, 2018_02)"
+  },
+  "2018_02_aunbt_ft_ca_2016_2020_unbhr_wayback#050": {
+   "not_relevant": "fringe benefits beyond normal retirement date (LTD ineligibility after age 65) (duplicate copy of the agreement, 2018_02)"
+  }
+ },
+ "mechanism_slots": {
+  "employer_paid_leave": {
+   "absent": "no employer-paid parental or childbirth leave; searched 2018_00, 2018_01, 2018_02 for 'leave with pay', 'paid leave', 'full pay', 'maternity', 'parental'"
+  },
+  "employer_childbirth_benefit": {
+   "absent": "no childbirth-specific paid period; sick leave (c7) states no childbirth period; searched 2018_00, 2018_01, 2018_02 for 'childbirth', 'pregnan', 'maternity', 'delivery'"
+  },
+  "generic_sick_or_disability_plan": {
+   "components": [
+    "university_of_new_brunswick_c7",
+    "university_of_new_brunswick_c8"
+   ]
+  },
+  "own_accrual": {
+   "components": [
+    "university_of_new_brunswick_c9"
+   ]
+  },
+  "donated_leave": {
+   "absent": "no donated or shared leave bank; searched 2018_00, 2018_01, 2018_02 for 'donat', 'bank', 'shared leave'"
+  },
+  "government_benefit": {
+   "components": [
+    "university_of_new_brunswick_c5",
+    "university_of_new_brunswick_c6"
+   ]
+  },
+  "employer_topup": {
+   "components": [
+    "university_of_new_brunswick_c3",
+    "university_of_new_brunswick_c4",
+    "university_of_new_brunswick_c15"
+   ]
+  },
+  "modified_duties": {
+   "absent": "no modified duties or teaching relief for parents; searched 2018_00, 2018_01, 2018_02 for 'modified', 'relief', 'release', 'reduction', 'workload'"
+  },
+  "unpaid_leave": {
+   "components": [
+    "university_of_new_brunswick_c1",
+    "university_of_new_brunswick_c2",
+    "university_of_new_brunswick_c10",
+    "university_of_new_brunswick_c14"
+   ]
+  },
+  "tenure_clock": {
+   "components": [
+    "university_of_new_brunswick_c11"
+   ]
+  },
+  "part_time_option": {
+   "components": [
+    "university_of_new_brunswick_c12",
+    "university_of_new_brunswick_c13"
+   ]
+  },
+  "other": {
+   "absent": "no pregnancy accommodation, hazard programme or equal-treatment provision; Art. 57 (disability accommodation) and Art. 15 (non-discrimination) are not components; searched 2018_00, 2018_01, 2018_02 for 'accommodat', 'pregnan', 'hazard', 'transfer'"
+  }
+ },
+ "baseline_accounting": {
+  "Employment Insurance maternity and parental benefits": {
+   "components": [
+    "university_of_new_brunswick_c5",
+    "university_of_new_brunswick_c6"
+   ]
+  },
+  "Employment Standards Act: maternity and child care leave": {
+   "components": [
+    "university_of_new_brunswick_c1",
+    "university_of_new_brunswick_c2"
+   ]
+  }
+ },
+ "notes": [
+  "2018_00_link is the staff parental leave policy, not covering faculty. 2018_02 is a copy of 2018_01 (AUNBT full-time collective agreement 2016-2020) apart from sub-clause lettering in Art. 38.03, 'or Dean' in Art. 53C, and line wrapping in Arts. 55-56, MOU 3, MOU 23 and MOU 27; none touches a leave or parental provision.",
+  "Governing document for faculty: the AUNBT Full-Time (Group 1) collective agreement 2016-2020, in force on the reference date 2018-03-12 (Art. 47.01). Its Art. 32E (maternity leave), 32F (parental leave), 32G (return to normal duties), 32D (short-term sick leave), 32C (special leave), 20A (workload reduction), 23A (probation and tenure) and 35 (fringe benefits) supply the components.",
+  "The ESA lengths are those in force on 2018-03-12, before Bill 44 (Royal Assent 2018-03-16): maternity leave up to 17 weeks, child care leave 37 consecutive weeks, combined maximum 52 weeks (leave_limits). The agreement's maternity and parental leave restate the statutory leaves without adding length, so c1 and c2 carry statute_source (schema, statute_source).",
+  "Birth parent chain: maternity leave (ESA) 17 -> parental leave (ESA child care) 37, combined maximum 52; SEB top-up to 95% within each leave (c3 within c1, c4 within c2); EI maternity 15 from week 2 (c5 concurrent_with c1, offset 1) -> EI parental 35 (c6 consecutive_after c5).",
+  "Non-birth parent chain: parental leave (ESA child care) 37 with the SEB top-up to 95% within it (c4 within c2); EI parental 35 from week 2 of the leave (c6 concurrent_with c2, offset 1, roles nonbirth).",
+  "SEB timing: Arts. 32E.03 and 32F.03 maintain salary at 95% 'for the period of her/the leave' and describe the SEB as making up the difference between EI received and 95%. Coded as envelopes from the leave's start with no waiting-week offset; flagged ambiguous on c3 and c4 (the alternative reading would give the top-ups start_offset_weeks 1 as in checklist §5 example 1).",
+  "SEB eligibility: probationary, tenure-track and tenured Employees, and term appointees in the second or later consecutive year; no SEB in the first academic year of a term appointment (32E.04, 32F.04).",
+  "Tenure: maternity and parental leave normally count as service toward tenure, promotion and sabbatical (32E.03, 32F.03); leave without pay normally does not count toward tenure or promotion (23A.01, 24A.02, 32C.09). The good-cause deferral of assessment (c11) is the tenure-clock provision the parental articles point to. Faculty may also defer the automatic promotion review by one or two years (24A.04(a)); not a tenure clock, not coded.",
+  "Not components: court leave (32A), public office leave (32B), bereavement leave (32H), retraining leave (33), sabbatical leave and its deferral for personal hardship (31A.12): none can be taken for a birth or adoption. Art. 57 (accommodation of employees with disabilities) is a disability accommodation, not a pregnancy accommodation (checklist §1).",
+  "Documents found cited but not saved: the UNB HR 'Policy and Procedure concerning Maternity Leave' (named in 2018_00; for employees not covered by a collective agreement); the Group Long term Disability Plan and other fringe benefit plan documents (Art. 35.03); the Supplementary Unemployment Benefit Plan registration (2018_00). The 'Compulsory Retirement for Employees with Long Term Disabilities' policy named in Art. 40.01(d) is reproduced as Appendix B of the agreement. The full text of the NB Employment Standards Act (ss. 43-44.02) is not saved; its 2018 lengths are taken from Bill 44 and the GNB summary (2018_05, 2018_08).",
+  "Staff components c14 and c15 come from a 2004 HR policy captured in 2016 (version_uncertain); they cover employees not covered by a collective agreement and are not counted.",
+  "No calendar is stated in weeks; the agreement names Fall, Winter and Summer terms without lengths, so calendar is omitted."
+ ],
+ "statutory_floor": {
+  "jurisdiction": "NB",
+  "year": "2018",
+  "weeks_birth": 52.0,
+  "weeks_nonbirth": 37.0,
+  "statute": "Employment Standards Act: maternity and child care leave (SNB 1982 c. E-7.2, s. 43-44)",
+  "source_doc": "2018_05_nb_esa_bill44_amendment",
+  "table": "statutory_baseline.csv"
+ }
+}

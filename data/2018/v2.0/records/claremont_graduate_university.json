@@ -1,0 +1,1487 @@
+{
+ "institution": "Claremont Graduate University",
+ "slug": "claremont_graduate_university",
+ "country": "US",
+ "model": "claude-opus-5-5",
+ "codebook_version": "1.25",
+ "schema_version": "1.25",
+ "reference_date": "2018-02-22",
+ "calendar": {
+  "term_weeks": null,
+  "note": "The policy states semesters ('one course reduction in teaching load for one semester'; 'a full, 2-course, semester's leave') but no length: semester default 16 (R8).",
+  "kind": "semester"
+ },
+ "documents": [
+  {
+   "doc_id": "2018_01_faculty_parental_leave_policy",
+   "url": "https://cgu.policystat.com/policy/7304530/latest/",
+   "title": "Faculty Parental Leave Policy (CGU Institutional Handbook, PolicyStat)",
+   "version_or_effective_date": "Effective 03/2015; Last Revised 03/2015; text ends 'Effective July 1, 2003'; Wayback capture 2022-03-07",
+   "retrieved": "2026-10-22"
+  },
+  {
+   "doc_id": "2018_02_institutional_handbook_index",
+   "url": "https://cgu.policystat.com/policy/1788464/latest/",
+   "title": "Claremont Graduate University Institutional Handbook (index)",
+   "version_or_effective_date": "Effective 09/2015; Wayback capture 2017-11-13",
+   "retrieved": "2026-10-22"
+  }
+ ],
+ "missing": false,
+ "scope_accounting": {
+  "C1": {
+   "components": [
+    "claremont_graduate_university_c2",
+    "claremont_graduate_university_c3",
+    "claremont_graduate_university_c4",
+    "claremont_graduate_university_c6"
+   ]
+  },
+  "C2": {
+   "components": [
+    "claremont_graduate_university_c1"
+   ]
+  },
+  "C3": {
+   "components": [
+    "claremont_graduate_university_c7"
+   ]
+  },
+  "C4": {
+   "components": [
+    "claremont_graduate_university_c6",
+    "claremont_graduate_university_c7",
+    "claremont_graduate_university_c8",
+    "claremont_graduate_university_c9"
+   ],
+   "not_components": [
+    {
+     "statute": "Cal. Gov. Code 12945(a)(2)-(3) (PDL health coverage, reasonable accommodation, transfer)",
+     "reason": "U4: the policy relies on PDL only for the leave; other sections of the Act are not invoked"
+    },
+    {
+     "statute": "California Paid Family Leave",
+     "reason": "not named in any saved document; no component (baseline row absent)"
+    }
+   ]
+  },
+  "C5": {
+   "components": [
+    "claremont_graduate_university_c8",
+    "claremont_graduate_university_c9"
+   ]
+  },
+  "C6": {
+   "absent": {
+    "documents": [
+     "2018_01_faculty_parental_leave_policy",
+     "2018_02_institutional_handbook_index"
+    ],
+    "terms": [
+     "leave without pay",
+     "personal leave",
+     "leave of absence",
+     "special leave",
+     "emergency"
+    ]
+   }
+  },
+  "C7": {
+   "components": [
+    "claremont_graduate_university_c5"
+   ]
+  },
+  "C8": {
+   "absent": {
+    "documents": [
+     "2018_01_faculty_parental_leave_policy",
+     "2018_02_institutional_handbook_index"
+    ],
+    "terms": [
+     "part-time",
+     "reduced appointment",
+     "phased",
+     "reduced load"
+    ]
+   }
+  },
+  "C9": {
+   "absent": {
+    "documents": [
+     "2018_01_faculty_parental_leave_policy",
+     "2018_02_institutional_handbook_index"
+    ],
+    "terms": [
+     "accommodation",
+     "transfer",
+     "hazard",
+     "pregnancy"
+    ]
+   }
+  },
+  "C10": {
+   "absent": {
+    "documents": [
+     "2018_01_faculty_parental_leave_policy",
+     "2018_02_institutional_handbook_index"
+    ],
+    "terms": [
+     "FMLA",
+     "first days",
+     "regular work time",
+     "Family and Medical Leave"
+    ]
+   }
+  }
+ },
+ "passage_dispositions": {
+  "2018_01_faculty_parental_leave_policy#001": {
+   "used_in": [
+    "claremont_graduate_university_c1",
+    "claremont_graduate_university_c2",
+    "claremont_graduate_university_c3",
+    "claremont_graduate_university_c4",
+    "claremont_graduate_university_c5",
+    "claremont_graduate_university_c6",
+    "claremont_graduate_university_c7",
+    "claremont_graduate_university_c8",
+    "claremont_graduate_university_c9"
+   ]
+  },
+  "2018_02_institutional_handbook_index#001": {
+   "not_relevant": "index of handbook links; lists 'Faculty Parental Leave Policy' (saved as 2018_01) with no policy text"
+  }
+ },
+ "mechanism_slots": {
+  "employer_paid_leave": {
+   "components": [
+    "claremont_graduate_university_c2"
+   ]
+  },
+  "employer_childbirth_benefit": {
+   "absent": "no dedicated childbirth benefit with its own length; searched 2018_01, 2018_02 for 'maternity', 'childbirth', 'pregnancy', 'disability'"
+  },
+  "generic_sick_or_disability_plan": {
+   "components": [
+    "claremont_graduate_university_c7"
+   ]
+  },
+  "own_accrual": {
+   "absent": "no sick or vacation balances described; searched 2018_01, 2018_02 for 'sick', 'vacation', 'accrued'"
+  },
+  "donated_leave": {
+   "absent": "searched 2018_01, 2018_02 for 'donat', 'bank', 'shared'"
+  },
+  "government_benefit": {
+   "absent": "no government benefit named (VDI coded as a generic plan, M1); searched 2018_01, 2018_02 for 'Paid Family Leave', 'PFL', 'SDI', 'EDD'"
+  },
+  "employer_topup": {
+   "absent": "the 75% pay is the leave's own pay; VDI is coordinated with it rather than topped up; searched 'top-up', 'supplement', 'coordinated'"
+  },
+  "modified_duties": {
+   "components": [
+    "claremont_graduate_university_c1"
+   ]
+  },
+  "unpaid_leave": {
+   "components": [
+    "claremont_graduate_university_c3",
+    "claremont_graduate_university_c6",
+    "claremont_graduate_university_c8",
+    "claremont_graduate_university_c9"
+   ]
+  },
+  "tenure_clock": {
+   "components": [
+    "claremont_graduate_university_c5"
+   ]
+  },
+  "part_time_option": {
+   "absent": "searched 2018_01, 2018_02 for 'part-time', 'reduced appointment', 'phased'"
+  },
+  "other": {
+   "components": [
+    "claremont_graduate_university_c4"
+   ]
+  }
+ },
+ "baseline_accounting": {
+  "Family and Medical Leave Act (FMLA)": {
+   "components": [
+    "claremont_graduate_university_c8"
+   ]
+  },
+  "Federal Employee Paid Leave Act (paid parental leave for federal civilian employees)": {
+   "not_applicable": "federal civilian employees only"
+  },
+  "California Family Rights Act (CFRA)": {
+   "components": [
+    "claremont_graduate_university_c9"
+   ]
+  },
+  "Pregnancy Disability Leave (PDL)": {
+   "components": [
+    "claremont_graduate_university_c6"
+   ]
+  },
+  "State Disability Insurance (SDI) for pregnancy": {
+   "components": [
+    "claremont_graduate_university_c7"
+   ]
+  },
+  "Paid Family Leave (PFL)": {
+   "absent": "no saved document mentions it"
+  }
+ },
+ "leave_limits": [],
+ "components": [
+  {
+   "component_id": "claremont_graduate_university_c1",
+   "institution_label": "",
+   "description": "Option 1 of the parental leave: a one-course reduction in teaching load for one semester at full pay, for either parent after a birth or adoption; chosen instead of option 2 (the semester's leave at 75%).",
+   "mechanism": "modified_duties",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "all full-time faculty members on tenure-track or tenured appointments",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "either parent; birth or adoption of a child",
+   "caregiver_condition": "none",
+   "service_requirement": "after completing one year of service",
+   "dual_employee_rule": "only one may request a parental leave when both parents are eligible faculty members",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "V2: the faculty member 'may select option 1, or 2'; the Provost, Dean and faculty member arrange the type and semester (arrangements).",
+   "duration": {
+    "value": 1,
+    "units": "course",
+    "qualifier": "exact"
+   },
+   "duration_note": "One course reduction in teaching load, in one semester; a course reduction is not converted to weeks (R11b). The normal semester load implied by option 2 is two courses, so this is half the semester's teaching.",
+   "pay_fraction": "full pay",
+   "relief": {
+    "teaching": "partially_relieved",
+    "service_admin": "continues",
+    "research": "continues",
+    "advising_supervision": "continues",
+    "clinical": "continues"
+   },
+   "relief_inferred": "unnamed duties continue (R4b)",
+   "relief_note": "One course of a two-course semester load, for one semester; the policy assumes the faculty member will try to remain available for mentoring and supervision of student research.",
+   "sequence": [
+    {
+     "relation": "in_lieu_of",
+     "component_id": "claremont_graduate_university_c2",
+     "note": "the faculty member selects option 1 or option 2"
+    }
+   ],
+   "time_window": "within the first six months after the birth or adoption; leave must be concluded within the 12-month period following the birth or adoption",
+   "notice": "apply in writing to the Provost and Dean of their School",
+   "return_obligation": "expected to return to teach in the semester following the leave; otherwise reimburse the leave semester salary (waived for circumstances beyond the faculty member's control); agreement signed before the leave",
+   "flags": [
+    "ambiguous: restriction: not available to faculty on a leave of absence that is not provided under federal or state law"
+   ],
+   "rule_applied": [
+    "V2",
+    "R4",
+    "R4b",
+    "R3",
+    "R11b",
+    "R3c",
+    "R15b"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Available to all full-time faculty members on tenure-track or tenured appointments after completing one year of service."
+    ],
+    "eligible_parent": [
+     "Parental leave may be taken by either parent.",
+     "The parental leave policy is designed to provide partial paid time off for CGU faculty members in the first six months after the birth or adoption of a child in order to care for the said child."
+    ],
+    "entitlement": [
+     "The faculty member may select option 1, or 2 below, with option 3 available if a continuation of the leave is desired.",
+     "The leave is arranged between the Provost, Dean, and the faculty member to determine the best type of leave, or most appropriate semester to be designated for the leave, based on the timing of the birth or adoption."
+    ],
+    "duration": [
+     "A one course reduction in teaching load for one semester with full pay."
+    ],
+    "pay_fraction": [
+     "A one course reduction in teaching load for one semester with full pay."
+    ],
+    "relief": [
+     "A one course reduction in teaching load for one semester with full pay.",
+     "it is assumed that the faculty member will try to make himself or herself available for mentoring and supervision of student research during the period of leave."
+    ],
+    "sequence": [
+     "The faculty member may select option 1, or 2 below, with option 3 available if a continuation of the leave is desired."
+    ],
+    "service_requirement": [
+     "Available to all full-time faculty members on tenure-track or tenured appointments after completing one year of service."
+    ],
+    "time_window": [
+     "The parental leave policy is designed to provide partial paid time off for CGU faculty members in the first six months after the birth or adoption of a child in order to care for the said child.",
+     "Any such leave must be concluded within the 12-month period following the birth or adoption of the child."
+    ],
+    "dual_employee_rule": [
+     "In the event that both parents are eligible faculty members, only one may request a parental leave."
+    ],
+    "return_obligation": [
+     "If the faculty member does not return to teach after the leave, that faculty member will be responsible for reimbursement to the university of the leave semester salary."
+    ],
+    "notice": [
+     "the faculty member must apply for the leave in writing to the Provost and Dean of their School."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_faculty_parental_leave_policy"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R3",
+     "answer": "modified_duties",
+     "quote": "A one course reduction in teaching load for one semester with full pay."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "A one course reduction in teaching load for one semester with full pay."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Available to all full-time faculty members on tenure-track or tenured appointments after completing one year of service."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "The parental leave policy is designed to provide partial paid time off for CGU faculty members in the first six months after the birth or adoption of a child in order to care for the said child."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "birth_parent, non_birth_parent, adoptive",
+     "quote": "Parental leave may be taken by either parent."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "The faculty member may select option 1, or 2 below, with option 3 available if a continuation of the leave is desired."
+    },
+    {
+     "field": "duration",
+     "rule": "R11b",
+     "answer": "1 course, exact; not converted to weeks",
+     "quote": "A one course reduction in teaching load for one semester with full pay."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "R3",
+     "answer": "full pay (partial relief at full pay)",
+     "quote": "A one course reduction in teaching load for one semester with full pay."
+    },
+    {
+     "field": "relief",
+     "rule": "R4b",
+     "answer": "teaching partially relieved; unnamed duties continue; advising stated to continue",
+     "quote": "it is assumed that the faculty member will try to make himself or herself available for mentoring and supervision of student research during the period of leave."
+    },
+    {
+     "field": "sequence",
+     "rule": "R3c",
+     "answer": "in_lieu_of c2 (option 1 or option 2)",
+     "quote": "The faculty member may select option 1, or 2 below, with option 3 available if a continuation of the leave is desired."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "after completing one year of service",
+     "quote": "Available to all full-time faculty members on tenure-track or tenured appointments after completing one year of service."
+    }
+   ]
+  },
+  {
+   "component_id": "claremont_graduate_university_c2",
+   "institution_label": "",
+   "description": "Option 2 of the parental leave: a full (two-course) semester's leave at 75% of semester salary with full benefits, for either parent after a birth or adoption; for a birth parent disabled by pregnancy, VDI benefits during pregnancy disability leave bring pay to 100%.",
+   "mechanism": "employer_paid_leave",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "all full-time faculty members on tenure-track or tenured appointments",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "either parent; birth or adoption of a child",
+   "caregiver_condition": "none",
+   "service_requirement": "after completing one year of service",
+   "dual_employee_rule": "only one may request a parental leave when both parents are eligible faculty members",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "V2: the faculty member 'may select option 1, or 2'; the Provost, Dean and faculty member arrange the type and semester (arrangements).",
+   "duration": {
+    "value": 1,
+    "units": "semester",
+    "qualifier": "exact"
+   },
+   "duration_note": "A full semester's leave. The policy's general statement 'The maximum duration of the compensated leave is one semester' covers both options; the specific option states a full semester (source precedence).",
+   "pay_fraction": "75% of the faculty member's semester salary",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "partially_relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "relief_note": "A full, 2-course semester's leave; relief of service, research and clinical duties not stated (formal leave, R9). The policy assumes the faculty member will try to remain available for mentoring and supervision of student research, so advising is coded partially relieved.",
+   "sequence": [
+    {
+     "relation": "in_lieu_of",
+     "component_id": "claremont_graduate_university_c1",
+     "note": "the faculty member selects option 1 or option 2"
+    }
+   ],
+   "time_window": "within the first six months after the birth or adoption; leave must be concluded within the 12-month period following the birth or adoption",
+   "notice": "apply in writing to the Provost and Dean of their School",
+   "return_obligation": "expected to return to teach in the semester following the leave; otherwise reimburse the leave semester salary (waived for circumstances beyond the faculty member's control); agreement signed before the leave",
+   "flags": [
+    "ambiguous: restriction: not available to faculty on a leave of absence that is not provided under federal or state law"
+   ],
+   "rule_applied": [
+    "V2",
+    "R9",
+    "R4",
+    "R13",
+    "R15b",
+    "S1",
+    "source_precedence"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Available to all full-time faculty members on tenure-track or tenured appointments after completing one year of service."
+    ],
+    "eligible_parent": [
+     "Parental leave may be taken by either parent.",
+     "The parental leave policy is designed to provide partial paid time off for CGU faculty members in the first six months after the birth or adoption of a child in order to care for the said child."
+    ],
+    "entitlement": [
+     "The faculty member may select option 1, or 2 below, with option 3 available if a continuation of the leave is desired.",
+     "The leave is arranged between the Provost, Dean, and the faculty member to determine the best type of leave, or most appropriate semester to be designated for the leave, based on the timing of the birth or adoption."
+    ],
+    "duration": [
+     "A full, 2-course, semester’s leave would be compensated at 75% of the faculty member’s semester salary with full benefits."
+    ],
+    "pay_fraction": [
+     "A full, 2-course, semester’s leave would be compensated at 75% of the faculty member’s semester salary with full benefits.",
+     "At the end of pregnancy disability leave, salary will continue at 75% of regular salary for the duration of the semester the employee disabled by pregnancy is on leave."
+    ],
+    "relief": [
+     "A full, 2-course, semester’s leave would be compensated at 75% of the faculty member’s semester salary with full benefits.",
+     "it is assumed that the faculty member will try to make himself or herself available for mentoring and supervision of student research during the period of leave."
+    ],
+    "sequence": [
+     "The faculty member may select option 1, or 2 below, with option 3 available if a continuation of the leave is desired."
+    ],
+    "service_requirement": [
+     "Available to all full-time faculty members on tenure-track or tenured appointments after completing one year of service."
+    ],
+    "time_window": [
+     "The parental leave policy is designed to provide partial paid time off for CGU faculty members in the first six months after the birth or adoption of a child in order to care for the said child.",
+     "Any such leave must be concluded within the 12-month period following the birth or adoption of the child."
+    ],
+    "dual_employee_rule": [
+     "In the event that both parents are eligible faculty members, only one may request a parental leave."
+    ],
+    "return_obligation": [
+     "If the faculty member does not return to teach after the leave, that faculty member will be responsible for reimbursement to the university of the leave semester salary."
+    ],
+    "notice": [
+     "the faculty member must apply for the leave in writing to the Provost and Dean of their School."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_faculty_parental_leave_policy"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "employer_paid_leave",
+     "quote": "A full, 2-course, semester’s leave would be compensated at 75% of the faculty member’s semester salary with full benefits."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "A full, 2-course, semester’s leave would be compensated at 75% of the faculty member’s semester salary with full benefits."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Available to all full-time faculty members on tenure-track or tenured appointments after completing one year of service."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "The parental leave policy is designed to provide partial paid time off for CGU faculty members in the first six months after the birth or adoption of a child in order to care for the said child."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "birth_parent, non_birth_parent, adoptive",
+     "quote": "Parental leave may be taken by either parent."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "The faculty member may select option 1, or 2 below, with option 3 available if a continuation of the leave is desired."
+    },
+    {
+     "field": "duration",
+     "rule": "source_precedence",
+     "answer": "1 semester, exact (the option states a full semester; the general maximum covers both options)",
+     "quote": "A full, 2-course, semester’s leave would be compensated at 75% of the faculty member’s semester salary with full benefits."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "75% of semester salary",
+     "quote": "A full, 2-course, semester’s leave would be compensated at 75% of the faculty member’s semester salary with full benefits."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "formal leave: teaching relieved as stated, unstated duties relieved; advising partially relieved",
+     "quote": "it is assumed that the faculty member will try to make himself or herself available for mentoring and supervision of student research during the period of leave."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15b",
+     "answer": "in_lieu_of c1 (option 1 or option 2)",
+     "quote": "The faculty member may select option 1, or 2 below, with option 3 available if a continuation of the leave is desired."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "after completing one year of service",
+     "quote": "Available to all full-time faculty members on tenure-track or tenured appointments after completing one year of service."
+    }
+   ]
+  },
+  {
+   "component_id": "claremont_graduate_university_c3",
+   "institution_label": "Unpaid Leave",
+   "description": "Option 3: the University will consider requests for an unpaid leave extending beyond the semester of the compensated leave; no length stated.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "all full-time faculty members on tenure-track or tenured appointments",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "either parent; birth or adoption of a child",
+   "caregiver_condition": "none",
+   "service_requirement": "after completing one year of service",
+   "entitlement": "discretionary",
+   "entitlement_note": "V2: 'will also consider requests' - the approval decides whether there is a leave.",
+   "duration_note": "No length stated; 'an unpaid leave that would extend beyond the semester of the compensated leave'. The policy's 12-month window ('Any such leave must be concluded within the 12-month period') bounds it.",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "claremont_graduate_university_c2",
+     "note": "extends beyond the semester of the compensated leave ('option 3 available if a continuation of the leave is desired')"
+    }
+   ],
+   "time_window": "leave must be concluded within the 12-month period following the birth or adoption",
+   "flags": [],
+   "rule_applied": [
+    "V2",
+    "R9",
+    "R15"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Available to all full-time faculty members on tenure-track or tenured appointments after completing one year of service."
+    ],
+    "eligible_parent": [
+     "Parental leave may be taken by either parent."
+    ],
+    "entitlement": [
+     "The University will also consider requests for an unpaid leave that would extend beyond the semester of the compensated leave."
+    ],
+    "sequence": [
+     "The University will also consider requests for an unpaid leave that would extend beyond the semester of the compensated leave.",
+     "The faculty member may select option 1, or 2 below, with option 3 available if a continuation of the leave is desired."
+    ],
+    "service_requirement": [
+     "Available to all full-time faculty members on tenure-track or tenured appointments after completing one year of service."
+    ],
+    "time_window": [
+     "Any such leave must be concluded within the 12-month period following the birth or adoption of the child."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_faculty_parental_leave_policy"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "The University will also consider requests for an unpaid leave that would extend beyond the semester of the compensated leave."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "The University will also consider requests for an unpaid leave that would extend beyond the semester of the compensated leave."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Available to all full-time faculty members on tenure-track or tenured appointments after completing one year of service."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "The faculty member may select option 1, or 2 below, with option 3 available if a continuation of the leave is desired."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "birth_parent, non_birth_parent, adoptive",
+     "quote": "Parental leave may be taken by either parent."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "The University will also consider requests for an unpaid leave that would extend beyond the semester of the compensated leave."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "formal leave: all duties relieved",
+     "quote": "The University will also consider requests for an unpaid leave that would extend beyond the semester of the compensated leave."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "consecutive_after c2",
+     "quote": "The University will also consider requests for an unpaid leave that would extend beyond the semester of the compensated leave."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "after completing one year of service",
+     "quote": "Available to all full-time faculty members on tenure-track or tenured appointments after completing one year of service."
+    }
+   ]
+  },
+  {
+   "component_id": "claremont_graduate_university_c4",
+   "institution_label": "",
+   "description": "An alternative leave arrangement that may be negotiated with the concurrence of the Provost and Dean, instead of options 1 and 2; no amount or form stated.",
+   "mechanism": "other",
+   "mechanism_note": "The form of the arrangement is not stated (leave, relief or other), so no specific mechanism can be named.",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "all full-time faculty members on tenure-track or tenured appointments",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "either parent; birth or adoption of a child",
+   "caregiver_condition": "none",
+   "service_requirement": "after completing one year of service",
+   "entitlement": "negotiated",
+   "entitlement_note": "R12: the arrangement's amount and form are negotiated, with no guaranteed minimum, and need the Provost's and Dean's concurrence.",
+   "sequence": [
+    {
+     "relation": "in_lieu_of",
+     "component_id": "claremont_graduate_university_c1"
+    },
+    {
+     "relation": "in_lieu_of",
+     "component_id": "claremont_graduate_university_c2"
+    }
+   ],
+   "flags": [
+    "ambiguous: payer and pay level not stated for the negotiated alternative; payer coded employer as the University is the other party"
+   ],
+   "rule_applied": [
+    "R12",
+    "V2",
+    "R15b"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Available to all full-time faculty members on tenure-track or tenured appointments after completing one year of service."
+    ],
+    "eligible_parent": [
+     "Parental leave may be taken by either parent."
+    ],
+    "entitlement": [
+     "At the discretion of the faculty member and with the concurrence of the Provost and faculty member’s Dean, an alternative leave arrangement may be negotiated for the mutual convenience of the faculty member and the University."
+    ],
+    "sequence": [
+     "At the discretion of the faculty member and with the concurrence of the Provost and faculty member’s Dean, an alternative leave arrangement may be negotiated for the mutual convenience of the faculty member and the University."
+    ],
+    "service_requirement": [
+     "Available to all full-time faculty members on tenure-track or tenured appointments after completing one year of service."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_faculty_parental_leave_policy"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "other",
+     "quote": "At the discretion of the faculty member and with the concurrence of the Provost and faculty member’s Dean, an alternative leave arrangement may be negotiated for the mutual convenience of the faculty member and the University."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "At the discretion of the faculty member and with the concurrence of the Provost and faculty member’s Dean, an alternative leave arrangement may be negotiated for the mutual convenience of the faculty member and the University."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Available to all full-time faculty members on tenure-track or tenured appointments after completing one year of service."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "The parental leave policy is designed to provide partial paid time off for CGU faculty members in the first six months after the birth or adoption of a child in order to care for the said child."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "birth_parent, non_birth_parent, adoptive",
+     "quote": "Parental leave may be taken by either parent."
+    },
+    {
+     "field": "entitlement",
+     "rule": "R12",
+     "answer": "negotiated",
+     "quote": "At the discretion of the faculty member and with the concurrence of the Provost and faculty member’s Dean, an alternative leave arrangement may be negotiated for the mutual convenience of the faculty member and the University."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15b",
+     "answer": "in_lieu_of c1 and c2 (an alternative arrangement)",
+     "quote": "At the discretion of the faculty member and with the concurrence of the Provost and faculty member’s Dean, an alternative leave arrangement may be negotiated for the mutual convenience of the faculty member and the University."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "after completing one year of service",
+     "quote": "Available to all full-time faculty members on tenure-track or tenured appointments after completing one year of service."
+    }
+   ]
+  },
+  {
+   "component_id": "claremont_graduate_university_c5",
+   "institution_label": "Contract Renewal, Promotion and Tenure",
+   "description": "On request, the leave semester is not counted in the semesters of employment before a contract renewal, tenure or promotion review.",
+   "mechanism": "tenure_clock",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "all full-time faculty members on tenure-track or tenured appointments",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "faculty members taking parental leave (either parent; birth or adoption)",
+   "caregiver_condition": "none",
+   "service_requirement": "after completing one year of service",
+   "entitlement": "discretionary",
+   "entitlement_note": "V2: 'may request' with no grant language.",
+   "duration": {
+    "value": 1,
+    "units": "semester",
+    "qualifier": "exact"
+   },
+   "duration_note": "the leave semester",
+   "flags": [],
+   "rule_applied": [
+    "V2",
+    "U1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Available to all full-time faculty members on tenure-track or tenured appointments after completing one year of service."
+    ],
+    "eligible_parent": [
+     "Parental leave may be taken by either parent."
+    ],
+    "entitlement": [
+     "Faculty members may request that the leave semester not be counted in the number of semesters of University employment prior to a contract renewal, tenure or promotion review."
+    ],
+    "duration": [
+     "Faculty members may request that the leave semester not be counted in the number of semesters of University employment prior to a contract renewal, tenure or promotion review."
+    ],
+    "service_requirement": [
+     "Available to all full-time faculty members on tenure-track or tenured appointments after completing one year of service."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_faculty_parental_leave_policy"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "Faculty members may request that the leave semester not be counted in the number of semesters of University employment prior to a contract renewal, tenure or promotion review."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Faculty members may request that the leave semester not be counted in the number of semesters of University employment prior to a contract renewal, tenure or promotion review."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Available to all full-time faculty members on tenure-track or tenured appointments after completing one year of service."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Faculty members may request that the leave semester not be counted in the number of semesters of University employment prior to a contract renewal, tenure or promotion review."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "birth_parent, non_birth_parent, adoptive",
+     "quote": "Parental leave may be taken by either parent."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "Faculty members may request that the leave semester not be counted in the number of semesters of University employment prior to a contract renewal, tenure or promotion review."
+    },
+    {
+     "field": "duration",
+     "rule": "schema",
+     "answer": "1 semester (the leave semester), exact",
+     "quote": "Faculty members may request that the leave semester not be counted in the number of semesters of University employment prior to a contract renewal, tenure or promotion review."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "after completing one year of service",
+     "quote": "Available to all full-time faculty members on tenure-track or tenured appointments after completing one year of service."
+    }
+   ]
+  },
+  {
+   "component_id": "claremont_graduate_university_c6",
+   "institution_label": "Pregnancy Disability Leave (PDL)",
+   "description": "California Pregnancy Disability Leave, named by the policy (no waiting period): unpaid job-protected leave for an employee disabled by pregnancy or childbirth, up to four months; runs alongside the semester's leave.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "employees disabled by pregnancy (statute); the policy names PDL for its faculty",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "employee disabled by pregnancy, childbirth, or a related medical condition",
+   "caregiver_condition": "none",
+   "service_requirement": "none (PDL requires no waiting period)",
+   "entitlement": "guaranteed",
+   "entitlement_note": "A statute.",
+   "duration": {
+    "value": 4,
+    "units": "month",
+    "qualifier": "up_to"
+   },
+   "duration_note": "the period of disability, not to exceed four months (Cal. Gov. Code 12945(a)(1))",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "medical_certification": true,
+   "medical_certification_note": "disability on account of pregnancy, childbirth or a related medical condition (statute)",
+   "sequence": [
+    {
+     "relation": "concurrent_with",
+     "component_id": "claremont_graduate_university_c2",
+     "note": "S1: statutory leave runs with the semester's leave; the policy pays 75% (plus VDI) during the pregnancy disability leave period within the semester"
+    }
+   ],
+   "statute_source": "Cal. Gov. Code 12945(a)(1)",
+   "statute_verified": true,
+   "flags": [],
+   "rule_applied": [
+    "U2",
+    "U4",
+    "S1",
+    "R9",
+    "U5"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Pregnancy Disability Leave (PDL) requires no waiting period."
+    ],
+    "eligible_parent": [
+     "For an employer to refuse to allow an employee disabled by pregnancy, childbirth, or a related medical condition"
+    ],
+    "entitlement": [
+     "each of the following shall be an unlawful employment practice",
+     "For an employer to refuse to allow an employee disabled by pregnancy, childbirth, or a related medical condition"
+    ],
+    "duration": [
+     "to take a leave for a reasonable period of time not to exceed four months and thereafter return to work"
+    ],
+    "sequence": [
+     "For employees disabled by pregnancy, short-term disability (VDI) benefits will be paid during the pregnancy disability leave period and coordinated with the 75% pay.",
+     "At the end of pregnancy disability leave, salary will continue at 75% of regular salary for the duration of the semester the employee disabled by pregnancy is on leave."
+    ],
+    "service_requirement": [
+     "Pregnancy Disability Leave (PDL) requires no waiting period."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_faculty_parental_leave_policy",
+    "2026_03_ca_pdl_gov12945"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "U4",
+     "answer": "unpaid_leave",
+     "quote": "Pregnancy Disability Leave (PDL) requires no waiting period."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "to take a leave for a reasonable period of time not to exceed four months and thereafter return to work"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Pregnancy Disability Leave (PDL) requires no waiting period."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "For an employer to refuse to allow an employee disabled by pregnancy, childbirth, or a related medical condition"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent",
+     "quote": "For an employer to refuse to allow an employee disabled by pregnancy, childbirth, or a related medical condition"
+    },
+    {
+     "field": "entitlement",
+     "rule": "U2",
+     "answer": "guaranteed",
+     "quote": "For an employer to refuse to allow an employee disabled by pregnancy, childbirth, or a related medical condition"
+    },
+    {
+     "field": "duration",
+     "rule": "U2",
+     "answer": "4 months, up_to (statute)",
+     "quote": "to take a leave for a reasonable period of time not to exceed four months and thereafter return to work"
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "formal leave: all duties relieved",
+     "quote": "to take a leave for a reasonable period of time not to exceed four months and thereafter return to work"
+    },
+    {
+     "field": "sequence",
+     "rule": "S1",
+     "answer": "concurrent_with c2",
+     "quote": "At the end of pregnancy disability leave, salary will continue at 75% of regular salary for the duration of the semester the employee disabled by pregnancy is on leave."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "none stated (no waiting period)",
+     "quote": "Pregnancy Disability Leave (PDL) requires no waiting period."
+    }
+   ]
+  },
+  {
+   "component_id": "claremont_graduate_university_c7",
+   "institution_label": "short-term disability (VDI)",
+   "description": "Short-term disability benefits under the voluntary disability insurance plan (VDI), paid during the pregnancy disability leave period and coordinated with the 75% salary, giving 100% of regular salary; the employee must apply.",
+   "mechanism": "generic_sick_or_disability_plan",
+   "mechanism_note": "M1: a state disability insurance programme for the employee's own disability (California SDI, delivered through a voluntary plan) is a generic plan unless the documents state a childbirth period with its length; the policy names the pregnancy disability leave period but states no length of its own (PDL's statutory maximum is four months).",
+   "payer": "insurance_plan",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "employees disabled by pregnancy (in the faculty parental leave policy)",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "employees disabled by pregnancy",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "entitlement_note": "'benefits will be paid'",
+   "duration_note": "Paid 'during the pregnancy disability leave period'; no length stated in the policy; bounded by PDL (c6), not to exceed four months.",
+   "pay_fraction": "100% of their regular salary, coordinated with the 75% pay",
+   "sequence": [
+    {
+     "relation": "within",
+     "component_id": "claremont_graduate_university_c6",
+     "start_offset_weeks": 1,
+     "note": "paid during the pregnancy disability leave period; California SDI's seven-day unpaid waiting period (UIC 2627(b)) applied to the voluntary plan (R21); the plan's own terms are not saved"
+    }
+   ],
+   "flags": [
+    "cross_reference_not_saved: short-term disability (VDI) plan",
+    "ambiguous: rule gap: whether California SDI's seven-day waiting period applies to the voluntary plan (VDI); coded start_offset_weeks 1"
+   ],
+   "rule_applied": [
+    "M1",
+    "V1",
+    "V6",
+    "R21",
+    "U6"
+   ],
+   "evidence": {
+    "mechanism": [
+     "For employees disabled by pregnancy, short-term disability (VDI) benefits will be paid during the pregnancy disability leave period and coordinated with the 75% pay."
+    ],
+    "faculty_group": [
+     "For employees disabled by pregnancy, short-term disability (VDI) benefits will be paid during the pregnancy disability leave period and coordinated with the 75% pay."
+    ],
+    "eligible_parent": [
+     "For employees disabled by pregnancy, short-term disability (VDI) benefits will be paid during the pregnancy disability leave period and coordinated with the 75% pay."
+    ],
+    "entitlement": [
+     "For employees disabled by pregnancy, short-term disability (VDI) benefits will be paid during the pregnancy disability leave period and coordinated with the 75% pay."
+    ],
+    "pay_fraction": [
+     "For employees disabled by pregnancy, short-term disability (VDI) benefits will be paid during the pregnancy disability leave period and coordinated with the 75% pay.",
+     "This will provide employees disabled by pregnancy with 100% of their regular salary during the pregnancy disability period."
+    ],
+    "sequence": [
+     "For employees disabled by pregnancy, short-term disability (VDI) benefits will be paid during the pregnancy disability leave period and coordinated with the 75% pay.",
+     "period of seven consecutive days during each disability benefit"
+    ]
+   },
+   "doc_ids": [
+    "2018_01_faculty_parental_leave_policy",
+    "2018_40_ca_uic_2627_sdi_waiting"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "M1",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "For employees disabled by pregnancy, short-term disability (VDI) benefits will be paid during the pregnancy disability leave period and coordinated with the 75% pay."
+    },
+    {
+     "field": "mechanism",
+     "rule": "V1",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "For employees disabled by pregnancy, short-term disability (VDI) benefits will be paid during the pregnancy disability leave period and coordinated with the 75% pay."
+    },
+    {
+     "field": "payer",
+     "rule": "M1",
+     "answer": "insurance_plan",
+     "quote": "Employees disabled by pregnancy are required to apply for benefits under short-term disability (VDI) during the pregnancy disability leave period."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "For employees disabled by pregnancy, short-term disability (VDI) benefits will be paid during the pregnancy disability leave period and coordinated with the 75% pay."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "For employees disabled by pregnancy, short-term disability (VDI) benefits will be paid during the pregnancy disability leave period and coordinated with the 75% pay."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent",
+     "quote": "For employees disabled by pregnancy, short-term disability (VDI) benefits will be paid during the pregnancy disability leave period and coordinated with the 75% pay."
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "For employees disabled by pregnancy, short-term disability (VDI) benefits will be paid during the pregnancy disability leave period and coordinated with the 75% pay."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "100% of regular salary with the 75% pay (VDI coordinated)",
+     "quote": "This will provide employees disabled by pregnancy with 100% of their regular salary during the pregnancy disability period."
+    },
+    {
+     "field": "sequence",
+     "rule": "R21",
+     "answer": "within c6, start_offset_weeks 1",
+     "quote": "period of seven consecutive days during each disability benefit"
+    }
+   ]
+  },
+  {
+   "component_id": "claremont_graduate_university_c8",
+   "institution_label": "",
+   "description": "The federal 12-week leave the policy says it goes beyond (FMLA): 12 workweeks of unpaid job-protected leave for a birth or placement, running alongside the University's leave.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "eligible employees (statute); the policy refers to 'the 12-week leave period mandated by Federal and State law'",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "birth of a son or daughter of the employee; placement for adoption or foster care",
+   "caregiver_condition": "none",
+   "service_requirement": "12 months and 1,250 hours",
+   "entitlement": "guaranteed",
+   "entitlement_note": "A statute.",
+   "duration": {
+    "value": 12,
+    "units": "workweek",
+    "qualifier": "exact"
+   },
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "sequence": [
+    {
+     "relation": "concurrent_with",
+     "component_id": "claremont_graduate_university_c2",
+     "note": "S1: statutory leave runs with the University's paid leave"
+    },
+    {
+     "relation": "concurrent_with",
+     "component_id": "claremont_graduate_university_c6",
+     "note": "FMLA covers pregnancy disability and runs with PDL"
+    }
+   ],
+   "statute_source": "29 U.S.C. 2612(a)(1)(A)-(B); 2611(2)",
+   "statute_verified": true,
+   "flags": [],
+   "rule_applied": [
+    "U2",
+    "U4",
+    "S1",
+    "R9"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Claremont Graduate University’s Policy is intended to go beyond the 12-week leave period mandated by Federal and State law."
+    ],
+    "eligible_parent": [
+     "Because of the birth of a son or daughter of the employee and in order to care for such son or daughter.",
+     "Because of the placement of a son or daughter with the employee for adoption or foster care."
+    ],
+    "entitlement": [
+     "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period for one or more of the following:"
+    ],
+    "duration": [
+     "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period for one or more of the following:",
+     "Claremont Graduate University’s Policy is intended to go beyond the 12-week leave period mandated by Federal and State law."
+    ],
+    "sequence": [
+     "Claremont Graduate University’s Policy is intended to go beyond the 12-week leave period mandated by Federal and State law."
+    ],
+    "service_requirement": [
+     "for at least 1,250 hours of service with such employer during the previous 12-month period."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_faculty_parental_leave_policy",
+    "2026_00_us_fmla_29usc2612",
+    "2026_01_us_fmla_29usc2611_definitions"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "U4",
+     "answer": "unpaid_leave",
+     "quote": "Claremont Graduate University’s Policy is intended to go beyond the 12-week leave period mandated by Federal and State law."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period for one or more of the following:"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Claremont Graduate University’s Policy is intended to go beyond the 12-week leave period mandated by Federal and State law."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Because of the birth of a son or daughter of the employee and in order to care for such son or daughter."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U2",
+     "answer": "birth_parent, non_birth_parent, adoptive, foster",
+     "quote": "Because of the birth of a son or daughter of the employee and in order to care for such son or daughter."
+    },
+    {
+     "field": "entitlement",
+     "rule": "U2",
+     "answer": "guaranteed",
+     "quote": "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period for one or more of the following:"
+    },
+    {
+     "field": "duration",
+     "rule": "U2",
+     "answer": "12 workweeks, exact",
+     "quote": "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period for one or more of the following:"
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "formal leave: all duties relieved",
+     "quote": "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period for one or more of the following:"
+    },
+    {
+     "field": "sequence",
+     "rule": "S1",
+     "answer": "concurrent_with c2 and c6",
+     "quote": "Claremont Graduate University’s Policy is intended to go beyond the 12-week leave period mandated by Federal and State law."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U2",
+     "answer": "12 months and 1,250 hours",
+     "quote": "for at least 1,250 hours of service with such employer during the previous 12-month period."
+    }
+   ]
+  },
+  {
+   "component_id": "claremont_graduate_university_c9",
+   "institution_label": "",
+   "description": "The state 12-week leave the policy says it goes beyond (California Family Rights Act): 12 workweeks of unpaid job-protected leave for a birth or placement; for the birth parent it is in addition to PDL.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "employees with more than 12 months and 1,250 hours of service (statute); the policy refers to 'the 12-week leave period mandated by Federal and State law'",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "birth of a child of the employee; placement of a child in connection with adoption or foster care",
+   "caregiver_condition": "none",
+   "service_requirement": "more than 12 months and 1,250 hours",
+   "entitlement": "guaranteed",
+   "entitlement_note": "A statute.",
+   "duration": {
+    "value": 12,
+    "units": "workweek",
+    "qualifier": "up_to"
+   },
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "claremont_graduate_university_c6",
+     "roles": [
+      "birth"
+     ],
+     "note": "S1a: CFRA leave is in addition to pregnancy disability leave (Gov. Code 12945.2(s))"
+    },
+    {
+     "relation": "concurrent_with",
+     "component_id": "claremont_graduate_university_c2",
+     "note": "S1: runs with the University's paid leave"
+    }
+   ],
+   "statute_source": "Cal. Gov. Code 12945.2(a), (b)(5)(A)",
+   "statute_verified": true,
+   "flags": [],
+   "rule_applied": [
+    "U2",
+    "U4",
+    "S1",
+    "S1a",
+    "R9",
+    "R13"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Claremont Graduate University’s Policy is intended to go beyond the 12-week leave period mandated by Federal and State law."
+    ],
+    "eligible_parent": [
+     "Leave for reason of the birth of a child of the employee or the placement of a child with an employee in connection with the adoption or foster care of the child by the employee."
+    ],
+    "entitlement": [
+     "to take up to a total of 12 workweeks in any 12-month period for family care and medical leave.",
+     "An employee is entitled to take, in addition to the leave provided for under this section and the FMLA, the leave provided for in Section 12945, if the employee is otherwise qualified for that leave."
+    ],
+    "duration": [
+     "to take up to a total of 12 workweeks in any 12-month period for family care and medical leave.",
+     "Claremont Graduate University’s Policy is intended to go beyond the 12-week leave period mandated by Federal and State law."
+    ],
+    "sequence": [
+     "An employee is entitled to take, in addition to the leave provided for under this section and the FMLA, the leave provided for in Section 12945, if the employee is otherwise qualified for that leave.",
+     "Claremont Graduate University’s Policy is intended to go beyond the 12-week leave period mandated by Federal and State law."
+    ],
+    "service_requirement": [
+     "any employee with more than 12 months of service with the employer, and who has at least 1,250 hours of service with the employer during the previous 12-month period"
+    ]
+   },
+   "doc_ids": [
+    "2018_01_faculty_parental_leave_policy",
+    "2026_02_ca_cfra_gov12945_2"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "U4",
+     "answer": "unpaid_leave",
+     "quote": "Claremont Graduate University’s Policy is intended to go beyond the 12-week leave period mandated by Federal and State law."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "to take up to a total of 12 workweeks in any 12-month period for family care and medical leave."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Claremont Graduate University’s Policy is intended to go beyond the 12-week leave period mandated by Federal and State law."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Leave for reason of the birth of a child of the employee or the placement of a child with an employee in connection with the adoption or foster care of the child by the employee."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U2",
+     "answer": "birth_parent, non_birth_parent, adoptive, foster",
+     "quote": "Leave for reason of the birth of a child of the employee or the placement of a child with an employee in connection with the adoption or foster care of the child by the employee."
+    },
+    {
+     "field": "entitlement",
+     "rule": "U2",
+     "answer": "guaranteed",
+     "quote": "to take up to a total of 12 workweeks in any 12-month period for family care and medical leave."
+    },
+    {
+     "field": "duration",
+     "rule": "U2",
+     "answer": "12 workweeks, up_to",
+     "quote": "to take up to a total of 12 workweeks in any 12-month period for family care and medical leave."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "formal leave: all duties relieved",
+     "quote": "to take up to a total of 12 workweeks in any 12-month period for family care and medical leave."
+    },
+    {
+     "field": "sequence",
+     "rule": "S1a",
+     "answer": "consecutive_after c6 for the birth parent",
+     "quote": "An employee is entitled to take, in addition to the leave provided for under this section and the FMLA, the leave provided for in Section 12945, if the employee is otherwise qualified for that leave."
+    },
+    {
+     "field": "sequence",
+     "rule": "S1",
+     "answer": "concurrent_with c2",
+     "quote": "Claremont Graduate University’s Policy is intended to go beyond the 12-week leave period mandated by Federal and State law."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U2",
+     "answer": "more than 12 months and 1,250 hours",
+     "quote": "any employee with more than 12 months of service with the employer, and who has at least 1,250 hours of service with the employer during the previous 12-month period"
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "2018_02_institutional_handbook_index.txt is an index of links holding no policy text.",
+  "Version: the saved policy is a 2022 Wayback capture of PolicyStat ID 7304530, Effective 03/2015, Last Revised 03/2015 (older-version approvals 08/2017, 10/2017, 07/2018 with Last Revised unchanged); read as in force on 2018-02-22. The handbook index (capture 2017-11-13) lists the same 'Faculty Parental Leave Policy'.",
+  "The CFRA and PDL statute texts saved are 2026 versions; the lengths used (12 workweeks; not to exceed four months) are the baseline's verified values. CFRA's employer threshold in the saved text (five or more) is later than 2018; not used.",
+  "FMLA and CFRA are not named but are referred to as 'the 12-week leave period mandated by Federal and State law'; coded as components (U4) with lengths from the statutes (U2).",
+  "Option 1 (one-course reduction, full pay) and option 2 (full semester's leave at 75%) are alternatives (in_lieu_of); option 3 (unpaid continuation, considered on request) follows the compensated leave; a negotiated alternative arrangement is in_lieu_of both options.",
+  "'Such leaves are limited to one per event' renews with each birth or adoption: not a use limit (U9).",
+  "Birth parent chain: semester's leave at 75% (c2) with PDL (c6, up to 4 months) alongside from its start, VDI (c7) within PDL from week 2 bringing pay to 100%, then 75% to the end of the semester; CFRA (c9) after PDL; FMLA (c8) alongside c2 and c6; optional unpaid continuation (c3) after c2. Option 1 (c1) or the negotiated arrangement (c4) in lieu of c2.",
+  "Non-birth parent chain: semester's leave at 75% (c2) with FMLA (c8) and CFRA (c9) alongside; optional unpaid continuation (c3) after c2. Option 1 (c1) or the negotiated arrangement (c4) in lieu of c2.",
+  "Cited but not saved: the short-term disability (VDI) plan; the handbook index's 'Sabbatical Leave Policy', 'Faculty Employment Status Definitions' and 'Academic Calendar' (none needed for the parental provisions). No HR leave policy (sick leave, staff leave) appears in the saved index."
+ ],
+ "statutory_floor": {
+  "jurisdiction": "US",
+  "year": "2018",
+  "weeks_birth": 12.0,
+  "weeks_nonbirth": 12.0,
+  "statute": "Family and Medical Leave Act (FMLA) (29 U.S.C. 2611-2612)",
+  "source_doc": "2026_00_us_fmla_29usc2612",
+  "table": "statutory_baseline.csv"
+ }
+}

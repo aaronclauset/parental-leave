@@ -1,0 +1,2081 @@
+{
+ "institution": "MIT",
+ "slug": "mit",
+ "country": "US",
+ "model": "claude-opus-5-5",
+ "codebook_version": "1.25",
+ "schema_version": "1.25",
+ "reference_date": "2018-02-27",
+ "calendar": {
+  "term_weeks": null,
+  "note": "The documents state semesters as the term ('the semester is the quantum by which years of service are determined'; teaching relief 'for one semester'); no length stated, so the semester default (R8).",
+  "kind": "semester"
+ },
+ "documents": [
+  {
+   "doc_id": "2018_00_link",
+   "title": "MIT Policies & Procedures 7.5 - Leaves of Absence and Faculty Teaching Relief",
+   "url": "https://policies-procedures.mit.edu/node/56/#sub3",
+   "version_or_effective_date": "Wayback capture 20180226042608; read as in force on 2018-02-27",
+   "retrieved": "2026-10-18T17:39:39+00:00"
+  },
+  {
+   "doc_id": "2018_01_tenure_process_3_2",
+   "title": "MIT Policies & Procedures 3.2 - Tenure Process (3.2.1, 3.2.2)",
+   "url": "https://policies-procedures.mit.edu/faculty-appointment-promotion-and-tenure-guidelines/tenure-process",
+   "version_or_effective_date": "Wayback capture 20180727181924; read as in force on 2018-02-27",
+   "retrieved": "2026-10-21T13:50:11+00:00"
+  },
+  {
+   "doc_id": "2018_02_hr_ppm_4_5_fmla",
+   "title": "MIT Personnel Policy Manual 4.5 Leaves Provided Under the Family and Medical Leave Act",
+   "url": "http://hrweb.mit.edu/policy/4-5",
+   "version_or_effective_date": "Wayback capture 20180304040029; read as in force on 2018-02-27",
+   "retrieved": "2026-10-21T13:50:19+00:00"
+  },
+  {
+   "doc_id": "2018_03_hr_ppm_4_6_parental_leave",
+   "title": "MIT Personnel Policy Manual 4.6 Parental Leave",
+   "url": "http://hrweb.mit.edu/policy/4-6",
+   "version_or_effective_date": "Wayback capture 20180218104313; read as in force on 2018-02-27",
+   "retrieved": "2026-10-21T13:50:27+00:00"
+  },
+  {
+   "doc_id": "2018_04_update_history_apr2018",
+   "title": "MIT Policies & Procedures Update History (capture 2018-04-07)",
+   "url": "https://policies-procedures.mit.edu/update-history",
+   "version_or_effective_date": "Wayback capture 20180407234233; read as in force on 2018-02-27",
+   "retrieved": "2026-10-21T13:50:03+00:00"
+  },
+  {
+   "doc_id": "2018_05_update_history_jun2018",
+   "title": "MIT Policies & Procedures Update History (capture 2018-06-08)",
+   "url": "https://policies-procedures.mit.edu/update-history",
+   "version_or_effective_date": "Wayback capture 20180608005139; read as in force on 2018-02-27",
+   "retrieved": "2026-10-21T13:52:24+00:00"
+  },
+  {
+   "doc_id": "2026_00_us_fmla_29usc2612",
+   "title": "29 U.S.C. 2612 (FMLA leave requirement)",
+   "url": "https://www.law.cornell.edu/uscode/text/29/2612",
+   "retrieved": "2026-10-19"
+  },
+  {
+   "doc_id": "2026_01_us_fmla_29usc2611_definitions",
+   "title": "29 U.S.C. 2611 (FMLA definitions)",
+   "url": "https://www.law.cornell.edu/uscode/text/29/2611",
+   "retrieved": "2026-10-19"
+  }
+ ],
+ "missing": false,
+ "leave_limits": [],
+ "components": [
+  {
+   "component_id": "mit_c1",
+   "institution_label": "Faculty Teaching Relief",
+   "description": "One semester of release from teaching and administrative duties at full pay for a faculty member who will spend the majority of academic time caring for a newborn or newly placed child; thesis advising and research continue. Taken in any term within one year of the child's arrival.",
+   "mechanism": "modified_duties",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Faculty members, regardless of gender (P&P 7.5.3, Institute-wide)",
+   "eligible_parent": [
+    "any_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "Faculty members, regardless of gender ... a newborn child or a child newly placed with them for adoption or foster care",
+   "caregiver_condition": "majority_or_50pct",
+   "caregiver_condition_wording": "who wish to spend the majority of their academic time on the care of and responsibility for a newborn child",
+   "entitlement": "guaranteed",
+   "entitlement_note": "'will be released'; the department head is notified in writing, not asked for approval.",
+   "duration": {
+    "value": 1,
+    "units": "semester",
+    "qualifier": "exact"
+   },
+   "pay_fraction": "full pay",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "continues",
+    "advising_supervision": "continues",
+    "clinical": "continues"
+   },
+   "relief_inferred": "unnamed duties continue (R4b)",
+   "relief_note": "Teaching and administrative duties relieved; thesis advising and research stated to continue; clinical duties not named (R4b).",
+   "time_window": "in any term they choose within one year after the arrival of a child",
+   "notice": "written notification to the department head, normally one semester in advance",
+   "rule_applied": [
+    "R3",
+    "R4",
+    "R4b",
+    "R6",
+    "R15",
+    "V2"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Faculty members, regardless of gender, who wish to spend the majority of their academic time on the care of and responsibility for a newborn child or a child newly placed with them for adoption or foster care will be released from teaching and administrative duties for one semester at full pay, but they will continue to be expected to fulfill their thesis-advising responsibilities and sustain their research program."
+    ],
+    "eligible_parent": [
+     "Faculty members, regardless of gender, who wish to spend the majority of their academic time on the care of and responsibility for a newborn child or a child newly placed with them for adoption or foster care will be released from teaching and administrative duties for one semester at full pay, but they will continue to be expected to fulfill their thesis-advising responsibilities and sustain their research program."
+    ],
+    "caregiver_condition": [
+     "Faculty members, regardless of gender, who wish to spend the majority of their academic time on the care of and responsibility for a newborn child or a child newly placed with them for adoption or foster care will be released from teaching and administrative duties for one semester at full pay, but they will continue to be expected to fulfill their thesis-advising responsibilities and sustain their research program."
+    ],
+    "entitlement": [
+     "Faculty members, regardless of gender, who wish to spend the majority of their academic time on the care of and responsibility for a newborn child or a child newly placed with them for adoption or foster care will be released from teaching and administrative duties for one semester at full pay, but they will continue to be expected to fulfill their thesis-advising responsibilities and sustain their research program."
+    ],
+    "duration": [
+     "Faculty members, regardless of gender, who wish to spend the majority of their academic time on the care of and responsibility for a newborn child or a child newly placed with them for adoption or foster care will be released from teaching and administrative duties for one semester at full pay, but they will continue to be expected to fulfill their thesis-advising responsibilities and sustain their research program."
+    ],
+    "pay_fraction": [
+     "Faculty members, regardless of gender, who wish to spend the majority of their academic time on the care of and responsibility for a newborn child or a child newly placed with them for adoption or foster care will be released from teaching and administrative duties for one semester at full pay, but they will continue to be expected to fulfill their thesis-advising responsibilities and sustain their research program."
+    ],
+    "relief": [
+     "Faculty members, regardless of gender, who wish to spend the majority of their academic time on the care of and responsibility for a newborn child or a child newly placed with them for adoption or foster care will be released from teaching and administrative duties for one semester at full pay, but they will continue to be expected to fulfill their thesis-advising responsibilities and sustain their research program."
+    ],
+    "time_window": [
+     "Faculty members can take advantage of this policy in any term they choose within one year after the arrival of a child."
+    ],
+    "notice": [
+     "Such notification must be made as far in advance of the leave as possible (normally one semester's notification is required) so that steps can be taken to cover the faculty member's teaching obligations."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "modified_duties",
+     "quote": "Faculty members, regardless of gender, who wish to spend the majority of their academic time on the care of and responsibility for a newborn child or a child newly placed with them for adoption or foster care will be released from teaching and administrative duties for one semester at full pay, but they will continue to be expected to fulfill their thesis-advising responsibilities and sustain their research program."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "Faculty members, regardless of gender, who wish to spend the majority of their academic time on the care of and responsibility for a newborn child or a child newly placed with them for adoption or foster care will be released from teaching and administrative duties for one semester at full pay, but they will continue to be expected to fulfill their thesis-advising responsibilities and sustain their research program."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Faculty members, regardless of gender, who wish to spend the majority of their academic time on the care of and responsibility for a newborn child or a child newly placed with them for adoption or foster care will be released from teaching and administrative duties for one semester at full pay, but they will continue to be expected to fulfill their thesis-advising responsibilities and sustain their research program."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Faculty members, regardless of gender, who wish to spend the majority of their academic time on the care of and responsibility for a newborn child or a child newly placed with them for adoption or foster care will be released from teaching and administrative duties for one semester at full pay, but they will continue to be expected to fulfill their thesis-advising responsibilities and sustain their research program."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R6",
+     "answer": "any_parent, adoptive, foster (gender-neutral; caregiver condition gender-neutral)",
+     "quote": "Faculty members, regardless of gender, who wish to spend the majority of their academic time on the care of and responsibility for a newborn child or a child newly placed with them for adoption or foster care will be released from teaching and administrative duties for one semester at full pay, but they will continue to be expected to fulfill their thesis-advising responsibilities and sustain their research program."
+    },
+    {
+     "field": "caregiver_condition",
+     "rule": "R6",
+     "answer": "majority_or_50pct",
+     "quote": "Faculty members, regardless of gender, who wish to spend the majority of their academic time on the care of and responsibility for a newborn child or a child newly placed with them for adoption or foster care will be released from teaching and administrative duties for one semester at full pay, but they will continue to be expected to fulfill their thesis-advising responsibilities and sustain their research program."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "Faculty members, regardless of gender, who wish to spend the majority of their academic time on the care of and responsibility for a newborn child or a child newly placed with them for adoption or foster care will be released from teaching and administrative duties for one semester at full pay, but they will continue to be expected to fulfill their thesis-advising responsibilities and sustain their research program."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 semester, exact",
+     "quote": "Faculty members, regardless of gender, who wish to spend the majority of their academic time on the care of and responsibility for a newborn child or a child newly placed with them for adoption or foster care will be released from teaching and administrative duties for one semester at full pay, but they will continue to be expected to fulfill their thesis-advising responsibilities and sustain their research program."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "R3",
+     "answer": "full pay",
+     "quote": "Faculty members, regardless of gender, who wish to spend the majority of their academic time on the care of and responsibility for a newborn child or a child newly placed with them for adoption or foster care will be released from teaching and administrative duties for one semester at full pay, but they will continue to be expected to fulfill their thesis-advising responsibilities and sustain their research program."
+    },
+    {
+     "field": "relief",
+     "rule": "R4b",
+     "answer": "clinical continues (unnamed); research and advising stated to continue",
+     "quote": "Faculty members, regardless of gender, who wish to spend the majority of their academic time on the care of and responsibility for a newborn child or a child newly placed with them for adoption or foster care will be released from teaching and administrative duties for one semester at full pay, but they will continue to be expected to fulfill their thesis-advising responsibilities and sustain their research program."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "no link: the one-year window says only when the release may be taken",
+     "quote": "Faculty members can take advantage of this policy in any term they choose within one year after the arrival of a child."
+    }
+   ]
+  },
+  {
+   "component_id": "mit_c2",
+   "institution_label": "Leaves Provided Under the Family and Medical Leave Act",
+   "description": "Federal FMLA: up to 12 workweeks of unpaid, job-protected leave in a 12-month period for the employee's own serious health condition (including pregnancy and childbirth), the birth and care of a newborn, adoption or foster placement, or care of a seriously ill child, parent or spouse. Restated for faculty in P&P 7.5.2 (the 12-week personal-leave entitlement) and detailed in PPM 4.5.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "eligible faculty members (P&P 7.5.2); regular full-time or part-time employees working 50% or more (PPM 4.5)",
+   "eligible_parent": [
+    "any_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "an employee's own serious health condition (including conditions related to pregnancy and childbirth); the birth and care of the employee's newborn child; the placement of a child with the employee for adoption or foster care",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 12,
+    "units": "workweek",
+    "qualifier": "exact"
+   },
+   "duration_note": "Statute: 'a total of 12 workweeks'; MIT texts say 'up to 12 weeks in a 12-month period' (rolling 12-month period measured backward). Unpaid leave beyond 12 weeks is personal leave (mit_c8).",
+   "service_requirement": "12 months and 1,250 hours (29 U.S.C. 2611(2)); MIT: employed at least one year and working 50% or more of a normal work week",
+   "dual_employee_rule": "spouses both employed by MIT: combined total of 12 weeks within a 12-month period for care of a newborn or newly placed child",
+   "medical_certification": true,
+   "medical_certification_note": "health care provider certification for the employee's own serious health condition or care of a seriously ill family member",
+   "time_window": "leave must be completed within 12 months of the date of birth (or placement)",
+   "notice": "as much advance notice as possible; at least two weeks preferred (PPM 4.5.5); at least two weeks for parental leave (P&P 7.5.6.2)",
+   "statute_source": "29 U.S.C. 2612(a)(1); eligibility 29 U.S.C. 2611(2)",
+   "statute_verified": true,
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "rule_applied": [
+    "U2",
+    "U4",
+    "S1",
+    "R9",
+    "U5",
+    "U7"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "In consideration of such conditions, eligible faculty members are entitled to a leave without pay of up to 12 weeks in a 12-month period.",
+     "regular full-time or part-time employees who are working 50% or more of a normal work week, and who have been employed by the Institute for a least one year, may request leave for the following reasons:"
+    ],
+    "eligible_parent": [
+     "the birth and care of the employee's newborn child (leave must be completed within 12 months of the date of birth);",
+     "placement of a child with the employee for adoption or foster care (leave must be completed within 12 months of the date of placement); or"
+    ],
+    "entitlement": [
+     "In consideration of such conditions, eligible faculty members are entitled to a leave without pay of up to 12 weeks in a 12-month period.",
+     "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period"
+    ],
+    "duration": [
+     "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period"
+    ],
+    "service_requirement": [
+     "regular full-time or part-time employees who are working 50% or more of a normal work week, and who have been employed by the Institute for a least one year, may request leave for the following reasons:",
+     "for at least 1,250 hours of service with such employer during the previous 12-month period."
+    ],
+    "dual_employee_rule": [
+     "Spouses who are both employed by the Institute are allowed a combined total of 12 weeks of leave within a 12-month period for the care of a newborn."
+    ],
+    "medical_certification": [
+     "certification from a qualified health care provider will be required for approval of a leave to care for a seriously ill family member covered by the FMLA or in the case of an employee's own serious health condition."
+    ],
+    "time_window": [
+     "the birth and care of the employee's newborn child (leave must be completed within 12 months of the date of birth);"
+    ],
+    "statute_source": [
+     "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period"
+    ],
+    "other": [
+     "A parental leave of absence without pay for up to 12 weeks will be granted to employees who have completed at least one year of service and are otherwise eligible under the Family and Medical Leave Act",
+     "Eligible employees are entitled to leave of up to 12 weeks in a 12-month period."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link",
+    "2018_02_hr_ppm_4_5_fmla",
+    "2026_00_us_fmla_29usc2612",
+    "2026_01_us_fmla_29usc2611_definitions"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "U4",
+     "answer": "unpaid_leave",
+     "quote": "In consideration of such conditions, eligible faculty members are entitled to a leave without pay of up to 12 weeks in a 12-month period."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "In consideration of such conditions, eligible faculty members are entitled to a leave without pay of up to 12 weeks in a 12-month period."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "In consideration of such conditions, eligible faculty members are entitled to a leave without pay of up to 12 weeks in a 12-month period."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "any_parent (own health incl. childbirth; newborn care), adoptive, foster",
+     "quote": "the birth and care of the employee's newborn child (leave must be completed within 12 months of the date of birth);"
+    },
+    {
+     "field": "entitlement",
+     "rule": "U2",
+     "answer": "guaranteed",
+     "quote": "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period"
+    },
+    {
+     "field": "duration",
+     "rule": "U2",
+     "answer": "12 workweeks, exact (statute: 'a total of')",
+     "quote": "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U2",
+     "answer": "12 months and 1,250 hours; MIT one year and 50%",
+     "quote": "for at least 1,250 hours of service with such employer during the previous 12-month period."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all relieved (formal leave, relief not stated)",
+     "quote": "In consideration of such conditions, eligible faculty members are entitled to a leave without pay of up to 12 weeks in a 12-month period."
+    }
+   ]
+  },
+  {
+   "component_id": "mit_c3",
+   "institution_label": "Massachusetts Parental Leave Act",
+   "description": "Massachusetts Parental Leave Act as administered by MIT: up to eight weeks of unpaid parental leave for the birth or adoption of a child (or court-ordered placement), after three months of service; runs concurrently with FMLA.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Regular full-time and part-time persons ... who work at least 50 percent of a normal work week (P&P 7.5.6.2, which refers faculty also to 7.5.2 and 7.5.3)",
+   "eligible_parent": [
+    "any_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "regardless of gender; eligible new parents; birth or adoption of a child or placement with the employee of a child pursuant to a court order",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 8,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "duration_note": "PPM 4.6.2 'up to eight weeks'; P&P 7.5.6.2 'eligible for eight weeks'. Eight weeks per child (16 for twins).",
+   "service_requirement": "at least three months of service (three consecutive months in a benefits eligible capacity); at least 50 percent of a normal work week",
+   "dual_employee_rule": "if both parents work for MIT, only eight weeks' unpaid leave total for both parents",
+   "notice": "at least two weeks' notice",
+   "statute_source": "Massachusetts Parental Leave Act (section not cited in the documents)",
+   "statute_verified": false,
+   "runs_concurrently_with": [
+    "FMLA"
+   ],
+   "sequence": [
+    {
+     "relation": "concurrent_with",
+     "component_id": "mit_c2",
+     "note": "PPM 4.6: FMLA, the Massachusetts Parental Leave Act and birth mothers' paid sick leave all run concurrently (S1)"
+    }
+   ],
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "rule_applied": [
+    "U2",
+    "U4",
+    "S1",
+    "R9"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Regular full-time and part-time persons, regardless of gender, who work at least 50 percent of a normal work week and who have completed at least three months of service are eligible for eight weeks of parental leave of absence without pay at the time of the birth or adoption of a child or placement with the employee of a child pursuant to a court order"
+    ],
+    "eligible_parent": [
+     "Regular full-time and part-time persons, regardless of gender, who work at least 50 percent of a normal work week and who have completed at least three months of service are eligible for eight weeks of parental leave of absence without pay at the time of the birth or adoption of a child or placement with the employee of a child pursuant to a court order"
+    ],
+    "entitlement": [
+     "Under Massachusetts law, eligible new parents may take up to eight weeks of unpaid leave for the birth of a child, adoption of a child under the age of eighteen"
+    ],
+    "duration": [
+     "Under Massachusetts law, eligible new parents may take up to eight weeks of unpaid leave for the birth of a child, adoption of a child under the age of eighteen"
+    ],
+    "service_requirement": [
+     "Regular full-time and part-time persons, regardless of gender, who work at least 50 percent of a normal work week and who have completed at least three months of service are eligible for eight weeks of parental leave of absence without pay at the time of the birth or adoption of a child or placement with the employee of a child pursuant to a court order",
+     "Employees are eligible for unpaid leave under this law if they have been employed for at least three consecutive months in a benefits eligible capacity and if they provide MIT with at least two weeks’ notice of the need for leave."
+    ],
+    "dual_employee_rule": [
+     "However, if both parents work for MIT, only eight weeks’ unpaid leave total is granted to both parents."
+    ],
+    "notice": [
+     "Employees are eligible for unpaid leave under this law if they have been employed for at least three consecutive months in a benefits eligible capacity and if they provide MIT with at least two weeks’ notice of the need for leave."
+    ],
+    "sequence": [
+     "Leaves under the Family and Medical Leave Act, under the Massachusetts Parental Leave Act, and, for birth mothers, under MIT’s paid sick leave related to pregnancy and childbirth all run concurrently."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link",
+    "2018_03_hr_ppm_4_6_parental_leave"
+   ],
+   "flags": [
+    "cross_reference_not_saved: Massachusetts Parental Leave Act (statute text)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "U4",
+     "answer": "unpaid_leave",
+     "quote": "Under Massachusetts law, eligible new parents may take up to eight weeks of unpaid leave for the birth of a child, adoption of a child under the age of eighteen"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Under Massachusetts law, eligible new parents may take up to eight weeks of unpaid leave for the birth of a child, adoption of a child under the age of eighteen"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Regular full-time and part-time persons, regardless of gender, who work at least 50 percent of a normal work week and who have completed at least three months of service are eligible for eight weeks of parental leave of absence without pay at the time of the birth or adoption of a child or placement with the employee of a child pursuant to a court order"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Regular full-time and part-time persons, regardless of gender, who work at least 50 percent of a normal work week and who have completed at least three months of service are eligible for eight weeks of parental leave of absence without pay at the time of the birth or adoption of a child or placement with the employee of a child pursuant to a court order"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "any_parent, adoptive",
+     "quote": "Regular full-time and part-time persons, regardless of gender, who work at least 50 percent of a normal work week and who have completed at least three months of service are eligible for eight weeks of parental leave of absence without pay at the time of the birth or adoption of a child or placement with the employee of a child pursuant to a court order"
+    },
+    {
+     "field": "entitlement",
+     "rule": "U2",
+     "answer": "guaranteed",
+     "quote": "Under Massachusetts law, eligible new parents may take up to eight weeks of unpaid leave for the birth of a child, adoption of a child under the age of eighteen"
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "8 weeks, up_to (PPM wording)",
+     "quote": "Under Massachusetts law, eligible new parents may take up to eight weeks of unpaid leave for the birth of a child, adoption of a child under the age of eighteen"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U2",
+     "answer": "three months; 50 percent",
+     "quote": "Regular full-time and part-time persons, regardless of gender, who work at least 50 percent of a normal work week and who have completed at least three months of service are eligible for eight weeks of parental leave of absence without pay at the time of the birth or adoption of a child or placement with the employee of a child pursuant to a court order"
+    },
+    {
+     "field": "sequence",
+     "rule": "S1",
+     "answer": "concurrent_with mit_c2",
+     "quote": "Leaves under the Family and Medical Leave Act, under the Massachusetts Parental Leave Act, and, for birth mothers, under MIT’s paid sick leave related to pregnancy and childbirth all run concurrently."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all relieved (formal leave)",
+     "quote": "Regular full-time and part-time persons, regardless of gender, who work at least 50 percent of a normal work week and who have completed at least three months of service are eligible for eight weeks of parental leave of absence without pay at the time of the birth or adoption of a child or placement with the employee of a child pursuant to a court order"
+    }
+   ]
+  },
+  {
+   "component_id": "mit_c4",
+   "institution_label": "Sick Leave Policy for Faculty, Academic Staff, Research Staff, and Administrative Staff",
+   "description": "Faculty have no sick-leave accrual; a reasonable number of justifiable absences for the employee's own illness are paid in full. Disabilities associated with pregnancy and birth are treated like any other health or temporary disability. No childbirth period stated in the saved documents.",
+   "mechanism": "generic_sick_or_disability_plan",
+   "mechanism_note": "Childbirth handled like any illness (V1 not met in the saved documents: no childbirth-specific period or length). PPM 4.3.5 'Sick Leave for Disability Associated with Pregnancy or Childbirth' is cited but not saved.",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Sick Leave Policy for Faculty, Academic Staff, Research Staff, and Administrative Staff (P&P 7.5.4)",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "the employee's illness; disabilities associated with pregnancy, birth, miscarriage, or abortion",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "entitlement_note": "'are paid in full'; the number of absences is 'reasonable', with no stated length.",
+   "duration_note": "No length stated ('a reasonable number of justifiable absences'). Extended illness pay is mit_c5.",
+   "pay_fraction": "paid in full",
+   "runs_concurrently_with": [
+    "FMLA"
+   ],
+   "sequence": [
+    {
+     "relation": "concurrent_with",
+     "component_id": "mit_c2",
+     "note": "PPM 4.6: birth mothers' paid sick leave runs concurrently with FMLA and the Massachusetts Parental Leave Act"
+    }
+   ],
+   "rule_applied": [
+    "V1",
+    "R2",
+    "R1",
+    "U5",
+    "U6",
+    "S1"
+   ],
+   "evidence": {
+    "mechanism": [
+     "Under regular MIT sick leave and disability leave policies, disabilities associated with pregnancy, birth, miscarriage, or abortion will be treated like any health or temporary disability.",
+     "Conditions related to pregnancy and childbirth are considered to be serious health conditions under the FMLA, and disability leaves related to pregnancy and childbirth are administered in the same manner as other disability leaves under the Institute's sick leave policies."
+    ],
+    "faculty_group": [
+     "7.5.4 Sick Leave Policy for Faculty, Academic Staff, Research Staff, and Administrative Staff",
+     "There is no formal method of sick leave accrual or accounting for members of the Faculty."
+    ],
+    "eligible_parent": [
+     "These absences may be used for the employee’s illness and medical and dental appointments, as well as for the illness and medical and dental appointments of a family member (up to 40 hours per year)",
+     "Under regular MIT sick leave and disability leave policies, disabilities associated with pregnancy, birth, miscarriage, or abortion will be treated like any health or temporary disability."
+    ],
+    "entitlement": [
+     "A reasonable number of justifiable absences are paid in full."
+    ],
+    "pay_fraction": [
+     "A reasonable number of justifiable absences are paid in full."
+    ],
+    "sequence": [
+     "Leaves under the Family and Medical Leave Act, under the Massachusetts Parental Leave Act, and, for birth mothers, under MIT’s paid sick leave related to pregnancy and childbirth all run concurrently."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link",
+    "2018_02_hr_ppm_4_5_fmla",
+    "2018_03_hr_ppm_4_6_parental_leave"
+   ],
+   "flags": [
+    "cross_reference_not_saved: MIT Personnel Policy Manual Section 4.3.5, Sick Leave for Disability Associated with Pregnancy or Childbirth",
+    "cross_reference_not_saved: MIT Personnel Policy Manual Section 4.3, Sick Leave/Personal Leave"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "V1",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "Under regular MIT sick leave and disability leave policies, disabilities associated with pregnancy, birth, miscarriage, or abortion will be treated like any health or temporary disability."
+    },
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "There is no formal method of sick leave accrual or accounting for members of the Faculty."
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "employer",
+     "quote": "A reasonable number of justifiable absences are paid in full."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "These absences may be used for the employee’s illness and medical and dental appointments, as well as for the illness and medical and dental appointments of a family member (up to 40 hours per year)"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "7.5.4 Sick Leave Policy for Faculty, Academic Staff, Research Staff, and Administrative Staff"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own illness or disability)",
+     "quote": "Under regular MIT sick leave and disability leave policies, disabilities associated with pregnancy, birth, miscarriage, or abortion will be treated like any health or temporary disability."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "A reasonable number of justifiable absences are paid in full."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "paid in full",
+     "quote": "A reasonable number of justifiable absences are paid in full."
+    },
+    {
+     "field": "sequence",
+     "rule": "S1",
+     "answer": "concurrent_with mit_c2",
+     "quote": "Leaves under the Family and Medical Leave Act, under the Massachusetts Parental Leave Act, and, for birth mothers, under MIT’s paid sick leave related to pregnancy and childbirth all run concurrently."
+    }
+   ]
+  },
+  {
+   "component_id": "mit_c5",
+   "institution_label": "",
+   "description": "Extended illness or accident: treated individually and may be paid for the duration of the absence, up to but not normally exceeding six months (P&P 7.5.4). Pay only; the text grants no leave of its own (U6).",
+   "mechanism": "generic_sick_or_disability_plan",
+   "mechanism_note": "Generic sick pay for any extended illness; no childbirth-specific period (V1).",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Sick Leave Policy for Faculty, Academic Staff, Research Staff, and Administrative Staff (P&P 7.5.4)",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "Extreme cases of extended illness or accident",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "entitlement_note": "'treated on an individual basis ... and may be paid' (V2).",
+   "duration": {
+    "value": 6,
+    "units": "month",
+    "qualifier": "up_to"
+   },
+   "duration_note": "'up to, but not normally exceeding, a period of six months' (Q1: up_to; 'normally' kept here).",
+   "pay_fraction": "paid",
+   "medical_certification": true,
+   "medical_certification_note": "Medical evidence may be required when the pattern of sick leave usage or the period of absence indicates the need",
+   "runs_concurrently_with": [
+    "FMLA"
+   ],
+   "sequence": [
+    {
+     "relation": "concurrent_with",
+     "component_id": "mit_c2",
+     "note": "PPM 4.5.1/4.6: sick leave benefits provide paid leave during the FMLA period and run concurrently with it"
+    }
+   ],
+   "rule_applied": [
+    "V1",
+    "R2",
+    "Q1",
+    "V2",
+    "U5",
+    "U6",
+    "V6",
+    "S1"
+   ],
+   "evidence": {
+    "mechanism": [
+     "Under regular MIT sick leave and disability leave policies, disabilities associated with pregnancy, birth, miscarriage, or abortion will be treated like any health or temporary disability.",
+     "Extreme cases of extended illness or accident will be treated on an individual basis, with due regard to length of service at the Institute and other relevant factors, and may be paid for the duration of the absence up to, but not normally exceeding, a period of six months."
+    ],
+    "faculty_group": [
+     "7.5.4 Sick Leave Policy for Faculty, Academic Staff, Research Staff, and Administrative Staff"
+    ],
+    "eligible_parent": [
+     "Extreme cases of extended illness or accident will be treated on an individual basis, with due regard to length of service at the Institute and other relevant factors, and may be paid for the duration of the absence up to, but not normally exceeding, a period of six months.",
+     "Under regular MIT sick leave and disability leave policies, disabilities associated with pregnancy, birth, miscarriage, or abortion will be treated like any health or temporary disability."
+    ],
+    "entitlement": [
+     "Extreme cases of extended illness or accident will be treated on an individual basis, with due regard to length of service at the Institute and other relevant factors, and may be paid for the duration of the absence up to, but not normally exceeding, a period of six months."
+    ],
+    "duration": [
+     "Extreme cases of extended illness or accident will be treated on an individual basis, with due regard to length of service at the Institute and other relevant factors, and may be paid for the duration of the absence up to, but not normally exceeding, a period of six months."
+    ],
+    "pay_fraction": [
+     "Extreme cases of extended illness or accident will be treated on an individual basis, with due regard to length of service at the Institute and other relevant factors, and may be paid for the duration of the absence up to, but not normally exceeding, a period of six months."
+    ],
+    "medical_certification": [
+     "Medical evidence may be required when, in the opinion of the department head or supervisor, the need is indicated by the pattern of sick leave usage or the period of absence."
+    ],
+    "sequence": [
+     "Leaves under the Family and Medical Leave Act, under the Massachusetts Parental Leave Act, and, for birth mothers, under MIT’s paid sick leave related to pregnancy and childbirth all run concurrently."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link",
+    "2018_02_hr_ppm_4_5_fmla",
+    "2018_03_hr_ppm_4_6_parental_leave"
+   ],
+   "flags": [
+    "ambiguous: pay level not stated for extended illness ('may be paid'); pay_fraction left unparsed"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "V1",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "Under regular MIT sick leave and disability leave policies, disabilities associated with pregnancy, birth, miscarriage, or abortion will be treated like any health or temporary disability."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "Extreme cases of extended illness or accident will be treated on an individual basis, with due regard to length of service at the Institute and other relevant factors, and may be paid for the duration of the absence up to, but not normally exceeding, a period of six months."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Extreme cases of extended illness or accident will be treated on an individual basis, with due regard to length of service at the Institute and other relevant factors, and may be paid for the duration of the absence up to, but not normally exceeding, a period of six months."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "7.5.4 Sick Leave Policy for Faculty, Academic Staff, Research Staff, and Administrative Staff"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own illness)",
+     "quote": "Extreme cases of extended illness or accident will be treated on an individual basis, with due regard to length of service at the Institute and other relevant factors, and may be paid for the duration of the absence up to, but not normally exceeding, a period of six months."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "Extreme cases of extended illness or accident will be treated on an individual basis, with due regard to length of service at the Institute and other relevant factors, and may be paid for the duration of the absence up to, but not normally exceeding, a period of six months."
+    },
+    {
+     "field": "duration",
+     "rule": "Q1",
+     "answer": "6 months, up_to",
+     "quote": "Extreme cases of extended illness or accident will be treated on an individual basis, with due regard to length of service at the Institute and other relevant factors, and may be paid for the duration of the absence up to, but not normally exceeding, a period of six months."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "paid (level not stated)",
+     "quote": "Extreme cases of extended illness or accident will be treated on an individual basis, with due regard to length of service at the Institute and other relevant factors, and may be paid for the duration of the absence up to, but not normally exceeding, a period of six months."
+    },
+    {
+     "field": "mechanism",
+     "rule": "U6",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "Extreme cases of extended illness or accident will be treated on an individual basis, with due regard to length of service at the Institute and other relevant factors, and may be paid for the duration of the absence up to, but not normally exceeding, a period of six months."
+    },
+    {
+     "field": "sequence",
+     "rule": "S1",
+     "answer": "concurrent_with mit_c2",
+     "quote": "Leaves under the Family and Medical Leave Act, under the Massachusetts Parental Leave Act, and, for birth mothers, under MIT’s paid sick leave related to pregnancy and childbirth all run concurrently."
+    }
+   ]
+  },
+  {
+   "component_id": "mit_c6",
+   "institution_label": "",
+   "description": "Paid sick time of up to 40 hours per year for the illness of a family member (P&P 7.5.4); under PPM 4.5.2 the annual allotment may also be used to care for a newborn in place of unpaid leave within the approved FMLA period.",
+   "mechanism": "generic_sick_or_disability_plan",
+   "mechanism_note": "An annual allotment the employer grants (not accrued): employer plan (R1).",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Sick Leave Policy for Faculty, Academic Staff, Research Staff, and Administrative Staff (P&P 7.5.4); employees (PPM 4.5.2)",
+   "eligible_parent": [
+    "any_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "a family member ... a child, spouse, parent, parent of spouse, or any other member of the household; to care for a family member in place of unpaid leave (newborn care, PPM 4.5.2)",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "'employees may elect to use' (V2).",
+   "duration": {
+    "value": 40,
+    "units": "hour",
+    "qualifier": "up_to"
+   },
+   "duration_note": "Up to 40 hours per year.",
+   "pay_fraction": "paid in full",
+   "sequence": [
+    {
+     "relation": "within",
+     "component_id": "mit_c2",
+     "note": "used 'in place of unpaid leave within the approved leave period'"
+    }
+   ],
+   "rule_applied": [
+    "R1",
+    "U5",
+    "V2",
+    "R11",
+    "S1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "7.5.4 Sick Leave Policy for Faculty, Academic Staff, Research Staff, and Administrative Staff"
+    ],
+    "eligible_parent": [
+     "These absences may be used for the employee’s illness and medical and dental appointments, as well as for the illness and medical and dental appointments of a family member (up to 40 hours per year)",
+     "However, employees may elect to use earned vacation balances, personal leave balances (for support and service staff), or all or part of their annual allotment of up to 40 hours of paid sick time to care for a family member in place of unpaid leave within the approved leave period."
+    ],
+    "entitlement": [
+     "However, employees may elect to use earned vacation balances, personal leave balances (for support and service staff), or all or part of their annual allotment of up to 40 hours of paid sick time to care for a family member in place of unpaid leave within the approved leave period."
+    ],
+    "duration": [
+     "These absences may be used for the employee’s illness and medical and dental appointments, as well as for the illness and medical and dental appointments of a family member (up to 40 hours per year)",
+     "However, employees may elect to use earned vacation balances, personal leave balances (for support and service staff), or all or part of their annual allotment of up to 40 hours of paid sick time to care for a family member in place of unpaid leave within the approved leave period."
+    ],
+    "pay_fraction": [
+     "A reasonable number of justifiable absences are paid in full."
+    ],
+    "sequence": [
+     "However, employees may elect to use earned vacation balances, personal leave balances (for support and service staff), or all or part of their annual allotment of up to 40 hours of paid sick time to care for a family member in place of unpaid leave within the approved leave period."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link",
+    "2018_02_hr_ppm_4_5_fmla"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "However, employees may elect to use earned vacation balances, personal leave balances (for support and service staff), or all or part of their annual allotment of up to 40 hours of paid sick time to care for a family member in place of unpaid leave within the approved leave period."
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "employer",
+     "quote": "A reasonable number of justifiable absences are paid in full."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "These absences may be used for the employee’s illness and medical and dental appointments, as well as for the illness and medical and dental appointments of a family member (up to 40 hours per year)"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "7.5.4 Sick Leave Policy for Faculty, Academic Staff, Research Staff, and Administrative Staff"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "any_parent (family illness: non-birth parent; newborn care per PPM 4.5.2: either parent), adoptive",
+     "quote": "However, employees may elect to use earned vacation balances, personal leave balances (for support and service staff), or all or part of their annual allotment of up to 40 hours of paid sick time to care for a family member in place of unpaid leave within the approved leave period."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "However, employees may elect to use earned vacation balances, personal leave balances (for support and service staff), or all or part of their annual allotment of up to 40 hours of paid sick time to care for a family member in place of unpaid leave within the approved leave period."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "40 hours, up_to",
+     "quote": "However, employees may elect to use earned vacation balances, personal leave balances (for support and service staff), or all or part of their annual allotment of up to 40 hours of paid sick time to care for a family member in place of unpaid leave within the approved leave period."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "paid in full",
+     "quote": "A reasonable number of justifiable absences are paid in full."
+    },
+    {
+     "field": "sequence",
+     "rule": "S1",
+     "answer": "within mit_c2",
+     "quote": "However, employees may elect to use earned vacation balances, personal leave balances (for support and service staff), or all or part of their annual allotment of up to 40 hours of paid sick time to care for a family member in place of unpaid leave within the approved leave period."
+    }
+   ]
+  },
+  {
+   "component_id": "mit_c7",
+   "institution_label": "",
+   "description": "An individual may use earned vacation or personal leave balances in place of leave without pay within the approved leave period (P&P 7.5.6.2; PPM 4.5.2).",
+   "mechanism": "own_accrual",
+   "payer": "own_balance",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "An individual (P&P 7.5.6.2, Regular full-time and part-time persons); whether faculty hold vacation balances is not stated",
+   "eligible_parent": [
+    "any_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "An individual",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "pay_fraction": "earned vacation or personal leave balances",
+   "sequence": [
+    {
+     "relation": "within",
+     "component_id": "mit_c2",
+     "note": "within the total approved leave period"
+    }
+   ],
+   "rule_applied": [
+    "R1",
+    "V2",
+    "S1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "An individual may elect to use earned vacation or personal leave balances in lieu of leave without pay within the total approved leave period."
+    ],
+    "eligible_parent": [
+     "An individual may elect to use earned vacation or personal leave balances in lieu of leave without pay within the total approved leave period."
+    ],
+    "entitlement": [
+     "An individual may elect to use earned vacation or personal leave balances in lieu of leave without pay within the total approved leave period."
+    ],
+    "pay_fraction": [
+     "An individual may elect to use earned vacation or personal leave balances in lieu of leave without pay within the total approved leave period."
+    ],
+    "sequence": [
+     "An individual may elect to use earned vacation or personal leave balances in lieu of leave without pay within the total approved leave period."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link",
+    "2018_02_hr_ppm_4_5_fmla"
+   ],
+   "flags": [
+    "ambiguous: restriction: the documents do not say whether faculty accrue vacation or personal leave balances"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "own_accrual",
+     "quote": "An individual may elect to use earned vacation or personal leave balances in lieu of leave without pay within the total approved leave period."
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "own_balance",
+     "quote": "An individual may elect to use earned vacation or personal leave balances in lieu of leave without pay within the total approved leave period."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "An individual may elect to use earned vacation or personal leave balances in lieu of leave without pay within the total approved leave period."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "An individual may elect to use earned vacation or personal leave balances in lieu of leave without pay within the total approved leave period."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent, adoptive",
+     "quote": "An individual may elect to use earned vacation or personal leave balances in lieu of leave without pay within the total approved leave period."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "An individual may elect to use earned vacation or personal leave balances in lieu of leave without pay within the total approved leave period."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "R1",
+     "answer": "own balances",
+     "quote": "An individual may elect to use earned vacation or personal leave balances in lieu of leave without pay within the total approved leave period."
+    },
+    {
+     "field": "sequence",
+     "rule": "S1",
+     "answer": "within mit_c2",
+     "quote": "An individual may elect to use earned vacation or personal leave balances in lieu of leave without pay within the total approved leave period."
+    }
+   ]
+  },
+  {
+   "component_id": "mit_c8",
+   "institution_label": "Personal Leave",
+   "description": "Faculty personal leave without pay for medical, personal or family crises or urgent obligations (conditions include but are not limited to FMLA conditions); unpaid leave beyond the 12-week FMLA entitlement may be granted subject to approval. Not counted (U1).",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "eligible faculty (P&P 7.5.2 Other Leaves for the Faculty)",
+   "eligible_parent": [
+    "any_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "eligible faculty who face medical, personal, or family crises",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "entitlement_note": "'may be granted'; leave beyond 12 weeks 'may be granted subject to approval'.",
+   "duration_note": "No maximum stated for leave beyond the 12-week FMLA entitlement. Personal leaves are not counted as years of service for tenure decisions. PPM 4.5.1 and P&P 7.5.6.2 say extensions beyond 12 weeks are reviewed under the general policy on leave without pay (PPM 4.16, not saved).",
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "mit_c2",
+     "note": "'Unpaid leave beyond 12 weeks'"
+    }
+   ],
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "rule_applied": [
+    "U1",
+    "V2",
+    "R9",
+    "R15"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Personal leaves may be granted to eligible faculty who face medical, personal, or family crises or who have urgent obligations that interfere with their work."
+    ],
+    "eligible_parent": [
+     "Personal leaves may be granted to eligible faculty who face medical, personal, or family crises or who have urgent obligations that interfere with their work."
+    ],
+    "entitlement": [
+     "Personal leaves may be granted to eligible faculty who face medical, personal, or family crises or who have urgent obligations that interfere with their work.",
+     "Unpaid leave beyond 12 weeks may be granted subject to approval and required documentation."
+    ],
+    "sequence": [
+     "Unpaid leave beyond 12 weeks may be granted subject to approval and required documentation."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link",
+    "2018_01_tenure_process_3_2"
+   ],
+   "flags": [
+    "general_purpose",
+    "cross_reference_not_saved: MIT Personnel Policy Manual Section 4.16, Leave of Absence Without Pay"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "Unpaid leave beyond 12 weeks may be granted subject to approval and required documentation."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Unpaid leave beyond 12 weeks may be granted subject to approval and required documentation."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "The conditions include, but are not limited to, those defined in the Family and Medical Leave Act"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Personal leaves may be granted to eligible faculty who face medical, personal, or family crises or who have urgent obligations that interfere with their work."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent, adoptive, foster",
+     "quote": "Personal leaves may be granted to eligible faculty who face medical, personal, or family crises or who have urgent obligations that interfere with their work."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "Personal leaves may be granted to eligible faculty who face medical, personal, or family crises or who have urgent obligations that interfere with their work."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "consecutive_after mit_c2",
+     "quote": "Unpaid leave beyond 12 weeks may be granted subject to approval and required documentation."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all relieved (formal leave)",
+     "quote": "Personal leaves may be granted to eligible faculty who face medical, personal, or family crises or who have urgent obligations that interfere with their work."
+    }
+   ]
+  },
+  {
+   "component_id": "mit_c9",
+   "institution_label": "Paid Parental Leave",
+   "description": "Up to five days of Paid Parental Leave within four months of a birth, adoption or placement, for benefits-eligible employees with one year of service in all payroll categories except faculty.",
+   "mechanism": "employer_paid_leave",
+   "payer": "employer",
+   "faculty_group": "employees in all payroll categories (including academic payrolls) except for faculty",
+   "faculty_group_note": "available to paid employees in all payroll categories (including academic payrolls) except for faculty",
+   "eligible_parent": [
+    "any_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "eligible new parents; birth of a child, adoption of a child ..., or the placement of a child pursuant to a court order; birth mothers; domestic partners",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "'are eligible for up to five days'; supervisors accommodate timing (V2).",
+   "duration": {
+    "value": 5,
+    "units": "day",
+    "qualifier": "up_to"
+   },
+   "duration_note": "P&P 7.5.6 was updated 2018-05-09 with an 'expanded benefit effective July 1, 2018' (update history, 2018_05); its terms are not saved and it postdates the reference date.",
+   "pay_fraction": "with pay",
+   "service_requirement": "employed at MIT for at least one year; benefits eligible",
+   "dual_employee_rule": "if two MIT employees are parents of the same child, both are eligible for five days, simultaneously or separately",
+   "time_window": "within four months of the child's birth, adoption, or placement",
+   "notice": "request in advance, to the extent possible, on a Leave of Absence Request Form",
+   "runs_concurrently_with": [
+    "FMLA",
+    "Massachusetts Parental Leave Act"
+   ],
+   "sequence": [
+    {
+     "relation": "concurrent_with",
+     "component_id": "mit_c2",
+     "note": "runs concurrently if taken within the 12 weeks of FMLA or the 8 weeks of Massachusetts parental leave"
+    }
+   ],
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "rule_applied": [
+    "V2",
+    "R9",
+    "R11",
+    "S1",
+    "U9"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "This Paid Parental Leave is available to eligible employees in all payroll categories except faculty.",
+     "This Paid Parental Leave is available to paid employees in all payroll categories (including academic payrolls) except for faculty"
+    ],
+    "eligible_parent": [
+     "This Paid Parental Leave is available to paid employees in all payroll categories (including academic payrolls) except for faculty",
+     "As with the Massachusetts parental leave in Section 4.6.2, eligible new parents may take this Paid Parental Leave for the birth of a child"
+    ],
+    "entitlement": [
+     "Benefits eligible employees who have been employed at MIT for at least one year are eligible for up to five days of Paid Parental Leave, effective April 7, 2015."
+    ],
+    "duration": [
+     "Benefits eligible employees who have been employed at MIT for at least one year are eligible for up to five days of Paid Parental Leave, effective April 7, 2015."
+    ],
+    "pay_fraction": [
+     "7.5.6.1 Parental Leave of Absence with Pay"
+    ],
+    "service_requirement": [
+     "Benefits eligible employees who have been employed at MIT for at least one year are eligible for up to five days of Paid Parental Leave, effective April 7, 2015."
+    ],
+    "time_window": [
+     "The five days of Paid Parental Leave must be taken within four months of the child’s birth, adoption, or placement with the employee."
+    ],
+    "sequence": [
+     "If all or part of the Paid Parental Leave is taken during the eight weeks of Massachusetts parental leave (Sec. 4.6.2) or the 12 weeks of Family and Medical Leave (Sec. 4.5), it runs concurrently with those legally required leaves."
+    ],
+    "use_limit": [
+     "Employees are eligible for another Paid Parental Leave if they have another child as long as that subsequent Leave begins at least six months after the prior Paid Parental Leave ended."
+    ],
+    "other": [
+     "Updated paid parental leave policy with expanded benefit effective July 1, 2018"
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link",
+    "2018_03_hr_ppm_4_6_parental_leave",
+    "2018_02_hr_ppm_4_5_fmla",
+    "2018_05_update_history_jun2018"
+   ],
+   "flags": [
+    "excludes_main_faculty",
+    "ambiguous: restriction: a subsequent Paid Parental Leave must begin at least six months after the prior one ended"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "employer_paid_leave",
+     "quote": "Benefits eligible employees who have been employed at MIT for at least one year are eligible for up to five days of Paid Parental Leave, effective April 7, 2015."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "7.5.6.1 Parental Leave of Absence with Pay"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Benefits eligible employees who have been employed at MIT for at least one year are eligible for up to five days of Paid Parental Leave, effective April 7, 2015."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "employees in all payroll categories (including academic payrolls) except for faculty",
+     "quote": "This Paid Parental Leave is available to paid employees in all payroll categories (including academic payrolls) except for faculty"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent, adoptive",
+     "quote": "This Paid Parental Leave is available to paid employees in all payroll categories (including academic payrolls) except for faculty"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "Benefits eligible employees who have been employed at MIT for at least one year are eligible for up to five days of Paid Parental Leave, effective April 7, 2015."
+    },
+    {
+     "field": "duration",
+     "rule": "R11",
+     "answer": "5 days, up_to",
+     "quote": "Benefits eligible employees who have been employed at MIT for at least one year are eligible for up to five days of Paid Parental Leave, effective April 7, 2015."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "with pay",
+     "quote": "7.5.6.1 Parental Leave of Absence with Pay"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "one year",
+     "quote": "Benefits eligible employees who have been employed at MIT for at least one year are eligible for up to five days of Paid Parental Leave, effective April 7, 2015."
+    },
+    {
+     "field": "sequence",
+     "rule": "S1",
+     "answer": "concurrent_with mit_c2",
+     "quote": "If all or part of the Paid Parental Leave is taken during the eight weeks of Massachusetts parental leave (Sec. 4.6.2) or the 12 weeks of Family and Medical Leave (Sec. 4.5), it runs concurrently with those legally required leaves."
+    },
+    {
+     "field": "use_limit",
+     "rule": "U9",
+     "answer": "none: the six-month spacing is not a count; recorded as an ambiguous restriction",
+     "quote": "Employees are eligible for another Paid Parental Leave if they have another child as long as that subsequent Leave begins at least six months after the prior Paid Parental Leave ended."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all relieved (formal leave)",
+     "quote": "Benefits eligible employees who have been employed at MIT for at least one year are eligible for up to five days of Paid Parental Leave, effective April 7, 2015."
+    }
+   ]
+  },
+  {
+   "component_id": "mit_c10",
+   "institution_label": "Extension of Tenure Clock for Childbearing and Child Rearing",
+   "description": "A woman who bears a child during the tenure probationary period has the period automatically extended by one year; a second one-year extension for an additional child is granted by the Provost on request; two years maximum.",
+   "mechanism": "tenure_clock",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "a woman who bears a child during her tenure probationary period (P&P 3.2.1)",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "a woman who bears a child",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "exact"
+   },
+   "duration_note": "Second one-year extension for any additional child granted by the Provost upon request; maximum two years.",
+   "use_limit": [
+    {
+     "times": 2,
+     "per": "career",
+     "counts": "uses"
+    }
+   ],
+   "use_limit_note": "A second one-year extension for the birth of any additional child (or children) will be granted by the Provost upon request; In all cases, two years is the maximum extension allowed by this policy.",
+   "time_window": "No request for extension can be made during the year in which tenure would normally be decided",
+   "rule_applied": [
+    "V2",
+    "U9",
+    "R5"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "a woman who bears a child during her tenure probationary period will have that period automatically extended by one year."
+    ],
+    "eligible_parent": [
+     "a woman who bears a child during her tenure probationary period will have that period automatically extended by one year."
+    ],
+    "entitlement": [
+     "a woman who bears a child during her tenure probationary period will have that period automatically extended by one year."
+    ],
+    "duration": [
+     "a woman who bears a child during her tenure probationary period will have that period automatically extended by one year."
+    ],
+    "use_limit": [
+     "A second one-year extension for the birth of any additional child (or children) will be granted by the Provost upon request.",
+     "In all cases, two years is the maximum extension allowed by this policy."
+    ],
+    "time_window": [
+     "No request for extension of the tenure clock can be made during the year in which the tenure would normally be decided."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_tenure_process_3_2"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "a woman who bears a child during her tenure probationary period will have that period automatically extended by one year."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "a woman who bears a child during her tenure probationary period will have that period automatically extended by one year."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "a woman who bears a child during her tenure probationary period will have that period automatically extended by one year."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "a woman who bears a child during her tenure probationary period will have that period automatically extended by one year."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "birth_parent",
+     "quote": "a woman who bears a child during her tenure probationary period will have that period automatically extended by one year."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "a woman who bears a child during her tenure probationary period will have that period automatically extended by one year."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 year, exact",
+     "quote": "a woman who bears a child during her tenure probationary period will have that period automatically extended by one year."
+    },
+    {
+     "field": "use_limit",
+     "rule": "U9",
+     "answer": "2 per career (two one-year extensions, two years maximum)",
+     "quote": "In all cases, two years is the maximum extension allowed by this policy."
+    }
+   ]
+  },
+  {
+   "component_id": "mit_c11",
+   "institution_label": "Extension of Tenure Clock for Childbearing and Child Rearing",
+   "description": "Partners or adoptive parents may request a tenure-clock extension from the Provost, explaining how care of the child in its first year significantly affects their research; only the Provost can grant it. Normally one extension; two years maximum.",
+   "mechanism": "tenure_clock",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "faculty members in the tenure probationary period (P&P 3.2.1)",
+   "eligible_parent": [
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "Partners or adoptive parents",
+   "caregiver_condition": "other",
+   "caregiver_condition_wording": "describe how their involvement and responsibility for the care of a child during its first year with the family is sufficient to have a significant impact on their research",
+   "entitlement": "discretionary",
+   "entitlement_note": "The Provost alone decides whether to grant the request (V2).",
+   "duration_note": "Length of each extension not stated for partners; 'two years is the maximum extension allowed by this policy'. The birth mother's extension is one year.",
+   "use_limit": [
+    {
+     "times": 2,
+     "per": "career",
+     "counts": "uses"
+    }
+   ],
+   "use_limit_note": "Normally only one extension will be granted. However, in special circumstances a second extension may be requested. In all cases, two years is the maximum extension allowed by this policy.",
+   "time_window": "No request for extension can be made during the year in which tenure would normally be decided",
+   "rule_applied": [
+    "V2",
+    "U9",
+    "R5",
+    "R6"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Partners or adoptive parents who wish to request an extension of the tenure clock should submit their request in writing to the Provost, with copies to their Department Head and Dean."
+    ],
+    "eligible_parent": [
+     "Partners or adoptive parents who wish to request an extension of the tenure clock should submit their request in writing to the Provost, with copies to their Department Head and Dean."
+    ],
+    "caregiver_condition": [
+     "describe how their involvement and responsibility for the care of a child during its first year with the family is sufficient to have a significant impact on their research."
+    ],
+    "entitlement": [
+     "These copies are for informational purpose only; only the Provost can grant the request."
+    ],
+    "use_limit": [
+     "Normally only one extension will be granted. However, in special circumstances a second extension may be requested.",
+     "In all cases, two years is the maximum extension allowed by this policy."
+    ],
+    "time_window": [
+     "No request for extension of the tenure clock can be made during the year in which the tenure would normally be decided."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_tenure_process_3_2"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "Partners or adoptive parents who wish to request an extension of the tenure clock should submit their request in writing to the Provost, with copies to their Department Head and Dean."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Partners or adoptive parents who wish to request an extension of the tenure clock should submit their request in writing to the Provost, with copies to their Department Head and Dean."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Partners or adoptive parents who wish to request an extension of the tenure clock should submit their request in writing to the Provost, with copies to their Department Head and Dean."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Partners or adoptive parents who wish to request an extension of the tenure clock should submit their request in writing to the Provost, with copies to their Department Head and Dean."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "non_birth_parent, adoptive",
+     "quote": "Partners or adoptive parents who wish to request an extension of the tenure clock should submit their request in writing to the Provost, with copies to their Department Head and Dean."
+    },
+    {
+     "field": "caregiver_condition",
+     "rule": "R6",
+     "answer": "other",
+     "quote": "describe how their involvement and responsibility for the care of a child during its first year with the family is sufficient to have a significant impact on their research."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "These copies are for informational purpose only; only the Provost can grant the request."
+    },
+    {
+     "field": "use_limit",
+     "rule": "U9",
+     "answer": "2 per career (normally one; a second in special circumstances; two years maximum)",
+     "quote": "In all cases, two years is the maximum extension allowed by this policy."
+    }
+   ]
+  },
+  {
+   "component_id": "mit_c12",
+   "institution_label": "Part-Time Appointment with Tenure for Family Care",
+   "description": "Tenured faculty who need time for family care (children, partners, elders) may request a reduced-time (not below 50 percent), reduced-pay appointment for one or more semesters up to five years, with possible renewal; arranged with the department head and approved by the dean.",
+   "mechanism": "part_time_option",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "tenured faculty members, regardless of gender (P&P 3.2.2); tenure-track faculty not named",
+   "eligible_parent": [
+    "any_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "tenured faculty members, regardless of gender, who need time for family care (children, partners, elders)",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "entitlement_note": "'may request'; the arrangement 'require[s] the approval of the dean of the School' (V2).",
+   "duration": {
+    "value": 1,
+    "units": "semester",
+    "qualifier": "at_least"
+   },
+   "duration_max": {
+    "value": 5,
+    "units": "year"
+   },
+   "duration_note": "'for one or more semesters up to five years, with possible renewal' (R13b).",
+   "pay_fraction": "reduced pay (reduced-time appointment, not below 50-percent time)",
+   "rule_applied": [
+    "R3",
+    "R13b",
+    "V2"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Normally, tenured faculty members, regardless of gender, who need time for family care (children, partners, elders) may request a reduced-time (but not below 50-percent time), reduced-pay appointment for one or more semesters up to five years, with possible renewal."
+    ],
+    "eligible_parent": [
+     "Normally, tenured faculty members, regardless of gender, who need time for family care (children, partners, elders) may request a reduced-time (but not below 50-percent time), reduced-pay appointment for one or more semesters up to five years, with possible renewal."
+    ],
+    "entitlement": [
+     "Normally, tenured faculty members, regardless of gender, who need time for family care (children, partners, elders) may request a reduced-time (but not below 50-percent time), reduced-pay appointment for one or more semesters up to five years, with possible renewal.",
+     "Details of the arrangement must be made with the department head and require the approval of the dean of the School."
+    ],
+    "duration": [
+     "Normally, tenured faculty members, regardless of gender, who need time for family care (children, partners, elders) may request a reduced-time (but not below 50-percent time), reduced-pay appointment for one or more semesters up to five years, with possible renewal."
+    ],
+    "pay_fraction": [
+     "Normally, tenured faculty members, regardless of gender, who need time for family care (children, partners, elders) may request a reduced-time (but not below 50-percent time), reduced-pay appointment for one or more semesters up to five years, with possible renewal."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_tenure_process_3_2"
+   ],
+   "flags": [
+    "ambiguous: restriction: tenured faculty only (tenure-track faculty not covered)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R3",
+     "answer": "part_time_option",
+     "quote": "Normally, tenured faculty members, regardless of gender, who need time for family care (children, partners, elders) may request a reduced-time (but not below 50-percent time), reduced-pay appointment for one or more semesters up to five years, with possible renewal."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "Normally, tenured faculty members, regardless of gender, who need time for family care (children, partners, elders) may request a reduced-time (but not below 50-percent time), reduced-pay appointment for one or more semesters up to five years, with possible renewal."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Normally, tenured faculty members, regardless of gender, who need time for family care (children, partners, elders) may request a reduced-time (but not below 50-percent time), reduced-pay appointment for one or more semesters up to five years, with possible renewal."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Normally, tenured faculty members, regardless of gender, who need time for family care (children, partners, elders) may request a reduced-time (but not below 50-percent time), reduced-pay appointment for one or more semesters up to five years, with possible renewal."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent, adoptive",
+     "quote": "Normally, tenured faculty members, regardless of gender, who need time for family care (children, partners, elders) may request a reduced-time (but not below 50-percent time), reduced-pay appointment for one or more semesters up to five years, with possible renewal."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "Details of the arrangement must be made with the department head and require the approval of the dean of the School."
+    },
+    {
+     "field": "duration",
+     "rule": "R13b",
+     "answer": "1 semester at_least, max 5 years",
+     "quote": "Normally, tenured faculty members, regardless of gender, who need time for family care (children, partners, elders) may request a reduced-time (but not below 50-percent time), reduced-pay appointment for one or more semesters up to five years, with possible renewal."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "R3",
+     "answer": "reduced pay; level not stated",
+     "quote": "Normally, tenured faculty members, regardless of gender, who need time for family care (children, partners, elders) may request a reduced-time (but not below 50-percent time), reduced-pay appointment for one or more semesters up to five years, with possible renewal."
+    }
+   ]
+  },
+  {
+   "component_id": "mit_c13",
+   "institution_label": "Leaves of Absence for Staff Members",
+   "description": "Unpaid leaves of absence for academic, research and administrative staff for a specified period, normally for educational or public service reasons; up to one year. Not faculty; not counted (U1).",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "academic, research, and administrative staff",
+   "faculty_group_note": "academic, research, and administrative staff (P&P 7.5.5)",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "academic, research, and administrative staff",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "up_to"
+   },
+   "duration_note": "'may not exceed one year, but may be renewed in special circumstances'",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "rule_applied": [
+    "U1",
+    "V2",
+    "R9"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Leaves of absence without pay may be granted to academic, research, and administrative staff for a specified period of time, normally for educational or public service reasons and because the Institute wishes to maintain an association with the individual."
+    ],
+    "eligible_parent": [
+     "Leaves of absence without pay may be granted to academic, research, and administrative staff for a specified period of time, normally for educational or public service reasons and because the Institute wishes to maintain an association with the individual."
+    ],
+    "entitlement": [
+     "Leaves of absence without pay may be granted to academic, research, and administrative staff for a specified period of time, normally for educational or public service reasons and because the Institute wishes to maintain an association with the individual."
+    ],
+    "duration": [
+     "Unpaid leaves of absence may not exceed one year, but may be renewed in special circumstances with the approval of the Vice President for Human Resources."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "Leaves of absence without pay may be granted to academic, research, and administrative staff for a specified period of time, normally for educational or public service reasons and because the Institute wishes to maintain an association with the individual."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Leaves of absence without pay may be granted to academic, research, and administrative staff for a specified period of time, normally for educational or public service reasons and because the Institute wishes to maintain an association with the individual."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "Leaves of absence without pay may be granted to academic, research, and administrative staff for a specified period of time, normally for educational or public service reasons and because the Institute wishes to maintain an association with the individual."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "academic, research, and administrative staff",
+     "quote": "Leaves of absence without pay may be granted to academic, research, and administrative staff for a specified period of time, normally for educational or public service reasons and because the Institute wishes to maintain an association with the individual."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "Leaves of absence without pay may be granted to academic, research, and administrative staff for a specified period of time, normally for educational or public service reasons and because the Institute wishes to maintain an association with the individual."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "Leaves of absence without pay may be granted to academic, research, and administrative staff for a specified period of time, normally for educational or public service reasons and because the Institute wishes to maintain an association with the individual."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 year, up_to ('may not exceed')",
+     "quote": "Unpaid leaves of absence may not exceed one year, but may be renewed in special circumstances with the approval of the Vice President for Human Resources."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all relieved (formal leave)",
+     "quote": "Leaves of absence without pay may be granted to academic, research, and administrative staff for a specified period of time, normally for educational or public service reasons and because the Institute wishes to maintain an association with the individual."
+    }
+   ]
+  },
+  {
+   "component_id": "mit_c14",
+   "institution_label": "",
+   "description": "Disabilities associated with pregnancy, birth, miscarriage or abortion are treated like any health or temporary disability under the regular sick leave and disability leave policies: equal treatment, with no length of its own (U4). Not counted.",
+   "mechanism": "other",
+   "mechanism_note": "Equal-treatment protection with no length of its own (U4); the sick-pay components mit_c4 and mit_c5 carry the pay.",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Regular full-time and part-time persons (P&P 7.5.6.2, which refers faculty also to 7.5.2 and 7.5.3)",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "disabilities associated with pregnancy, birth, miscarriage, or abortion",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "rule_applied": [
+    "U4",
+    "R16"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Under regular MIT sick leave and disability leave policies, disabilities associated with pregnancy, birth, miscarriage, or abortion will be treated like any health or temporary disability."
+    ],
+    "eligible_parent": [
+     "Under regular MIT sick leave and disability leave policies, disabilities associated with pregnancy, birth, miscarriage, or abortion will be treated like any health or temporary disability."
+    ],
+    "entitlement": [
+     "Under regular MIT sick leave and disability leave policies, disabilities associated with pregnancy, birth, miscarriage, or abortion will be treated like any health or temporary disability."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link",
+    "2018_02_hr_ppm_4_5_fmla"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "U4",
+     "answer": "other",
+     "quote": "Under regular MIT sick leave and disability leave policies, disabilities associated with pregnancy, birth, miscarriage, or abortion will be treated like any health or temporary disability."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Under regular MIT sick leave and disability leave policies, disabilities associated with pregnancy, birth, miscarriage, or abortion will be treated like any health or temporary disability."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Under regular MIT sick leave and disability leave policies, disabilities associated with pregnancy, birth, miscarriage, or abortion will be treated like any health or temporary disability."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Under regular MIT sick leave and disability leave policies, disabilities associated with pregnancy, birth, miscarriage, or abortion will be treated like any health or temporary disability."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent",
+     "quote": "Under regular MIT sick leave and disability leave policies, disabilities associated with pregnancy, birth, miscarriage, or abortion will be treated like any health or temporary disability."
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "Under regular MIT sick leave and disability leave policies, disabilities associated with pregnancy, birth, miscarriage, or abortion will be treated like any health or temporary disability."
+    }
+   ]
+  }
+ ],
+ "scope_accounting": {
+  "C1": {
+   "components": [
+    "mit_c3",
+    "mit_c9",
+    "mit_c7"
+   ]
+  },
+  "C2": {
+   "components": [
+    "mit_c1"
+   ]
+  },
+  "C3": {
+   "components": [
+    "mit_c4",
+    "mit_c5",
+    "mit_c7"
+   ]
+  },
+  "C4": {
+   "components": [
+    "mit_c2",
+    "mit_c3"
+   ],
+   "not_components": [
+    {
+     "statute": "Americans with Disabilities Act",
+     "reason": "disability accommodation statute, named only in PPM 4.5.9 coordination clause (U4)"
+    },
+    {
+     "statute": "Massachusetts State Fair Employment Practice law",
+     "reason": "anti-discrimination law named only in PPM 4.5.9 coordination clause; gives no leave (U4)"
+    },
+    {
+     "statute": "Fair Labor Standards Act",
+     "reason": "wage-and-hour law named in PPM 4.5.9; unrelated to becoming a parent (U4)"
+    },
+    {
+     "statute": "Workers Compensation Act",
+     "reason": "workplace-injury programme named in PPM 4.5.9; unrelated to becoming a parent (U4)"
+    },
+    {
+     "statute": "MA Earned Sick Time Law",
+     "reason": "named only in the update history (7.2.15 entry on section 7.4); no saved document relies on it for a provision; faculty sick pay is MIT's own policy (mit_c4-c6)"
+    },
+    {
+     "statute": "Massachusetts domestic violence leave law ('a new state law requiring leaves of absence for victims of domestic violence')",
+     "reason": "leave for victims of abusive behaviour; a parent cannot take it for the birth (checklist §1)"
+    },
+    {
+     "statute": "Title IX",
+     "reason": "named in the update history (nondiscrimination policy); gives no leave"
+    }
+   ]
+  },
+  "C5": {
+   "components": [
+    "mit_c2",
+    "mit_c6"
+   ]
+  },
+  "C6": {
+   "components": [
+    "mit_c8",
+    "mit_c13"
+   ]
+  },
+  "C7": {
+   "components": [
+    "mit_c10",
+    "mit_c11"
+   ]
+  },
+  "C8": {
+   "components": [
+    "mit_c12"
+   ]
+  },
+  "C9": {
+   "components": [
+    "mit_c14"
+   ]
+  },
+  "C10": {
+   "absent": {
+    "documents": [
+     "2018_00_link",
+     "2018_01_tenure_process_3_2",
+     "2018_02_hr_ppm_4_5_fmla",
+     "2018_03_hr_ppm_4_6_parental_leave",
+     "2018_04_update_history_apr2018",
+     "2018_05_update_history_jun2018"
+    ],
+    "terms": [
+     "first days",
+     "FMLA-qualifying",
+     "paid as regular",
+     "work time",
+     "paid leave for FMLA"
+    ]
+   }
+  }
+ },
+ "passage_dispositions": {
+  "2018_00_link#001": {
+   "not_relevant": "page header and the opening of 7.5.1 sabbatical leave (research leave, not a parental provision)"
+  },
+  "2018_00_link#002": {
+   "used_in": [
+    "mit_c2"
+   ]
+  },
+  "2018_00_link#003": {
+   "not_relevant": "Junior Faculty Research Leave: research leave, not usable for a birth; says only that it should not be confused with personal or parental leave"
+  },
+  "2018_00_link#004": {
+   "not_relevant": "Junior Faculty Research Leave transition schedule"
+  },
+  "2018_00_link#005": {
+   "used_in": [
+    "mit_c1",
+    "mit_c2",
+    "mit_c3",
+    "mit_c4",
+    "mit_c5",
+    "mit_c6",
+    "mit_c7",
+    "mit_c8",
+    "mit_c9",
+    "mit_c13",
+    "mit_c14"
+   ]
+  },
+  "2018_00_link#006": {
+   "not_relevant": "site navigation menu"
+  },
+  "2018_01_tenure_process_3_2#001": {
+   "not_relevant": "general tenure rules and evaluation process"
+  },
+  "2018_01_tenure_process_3_2#002": {
+   "used_in": [
+    "mit_c8",
+    "mit_c10",
+    "mit_c11",
+    "mit_c12"
+   ]
+  },
+  "2018_02_hr_ppm_4_5_fmla#001": {
+   "used_in": [
+    "mit_c2",
+    "mit_c4",
+    "mit_c5",
+    "mit_c6",
+    "mit_c7",
+    "mit_c9",
+    "mit_c14"
+   ]
+  },
+  "2018_03_hr_ppm_4_6_parental_leave#001": {
+   "used_in": [
+    "mit_c3",
+    "mit_c4",
+    "mit_c5",
+    "mit_c9"
+   ]
+  },
+  "2018_04_update_history_apr2018#001": {
+   "not_relevant": "version evidence only: latest entry 4.06.18 (nondiscrimination, after the reference date); no change to 3.2 or 7.5 in 2018 before the reference date"
+  },
+  "2018_04_update_history_apr2018#002": {
+   "not_relevant": "version evidence only: 2015 entries (7.5.4 sick leave, 7.5.6 parental leave, 7.5.7) predate the reference date and are reflected in the saved 7.5 page"
+  },
+  "2018_04_update_history_apr2018#003": {
+   "not_relevant": "update-history entries on nondiscrimination and other sections; no leave provision"
+  },
+  "2018_05_update_history_jun2018#001": {
+   "used_in": [
+    "mit_c9"
+   ]
+  },
+  "2018_05_update_history_jun2018#002": {
+   "not_relevant": "same 2015 entries as the April capture; version evidence only"
+  },
+  "2018_05_update_history_jun2018#003": {
+   "not_relevant": "update-history entries on nondiscrimination and other sections; no leave provision"
+  }
+ },
+ "mechanism_slots": {
+  "employer_paid_leave": {
+   "components": [
+    "mit_c9"
+   ]
+  },
+  "employer_childbirth_benefit": {
+   "absent": "No childbirth-specific paid period with a length in the saved documents (searched 2018_00, 2018_02, 2018_03 for 'pregnancy', 'childbirth', 'maternity', 'disability', 'weeks'); PPM 4.3.5 'Sick Leave for Disability Associated with Pregnancy or Childbirth' is cited but not saved"
+  },
+  "generic_sick_or_disability_plan": {
+   "components": [
+    "mit_c4",
+    "mit_c5",
+    "mit_c6"
+   ]
+  },
+  "own_accrual": {
+   "components": [
+    "mit_c7"
+   ]
+  },
+  "donated_leave": {
+   "absent": "searched all six MIT sources for 'donat', 'bank', 'shared leave', 'pool': none"
+  },
+  "government_benefit": {
+   "absent": "searched all six MIT sources for 'paid family', 'PFML', 'disability insurance', 'state program', 'benefit': no government benefit named (Massachusetts PFML not mentioned)"
+  },
+  "employer_topup": {
+   "absent": "no government benefit to top up; searched for 'top-up', 'supplement', 'integrated': PPM 4.6.1 says Paid Parental Leave cannot supplement extended sick leave payments (staff)"
+  },
+  "modified_duties": {
+   "components": [
+    "mit_c1"
+   ]
+  },
+  "unpaid_leave": {
+   "components": [
+    "mit_c2",
+    "mit_c3",
+    "mit_c8",
+    "mit_c13"
+   ]
+  },
+  "tenure_clock": {
+   "components": [
+    "mit_c10",
+    "mit_c11"
+   ]
+  },
+  "part_time_option": {
+   "components": [
+    "mit_c12"
+   ]
+  },
+  "other": {
+   "components": [
+    "mit_c14"
+   ]
+  }
+ },
+ "baseline_accounting": {
+  "Family and Medical Leave Act (FMLA)": {
+   "components": [
+    "mit_c2"
+   ]
+  },
+  "Federal Employee Paid Leave Act (paid parental leave for federal civilian employees)": {
+   "not_applicable": "MIT is not a federal employer"
+  },
+  "Paid Family and Medical Leave (PFML)": {
+   "absent": "no saved document mentions it"
+  },
+  "Massachusetts Parental Leave Act": {
+   "components": [
+    "mit_c3"
+   ]
+  }
+ },
+ "notes": [
+  "Governing documents: MIT Policies & Procedures (P&P) 7.5 (faculty leaves, teaching relief, sick leave; Wayback 2018-02-26) and 3.2 (tenure clock, part-time; Wayback 2018-07-27, after the reference date; the update histories list no change to 3.2 since 3.31.14 and the version note accepts it as in force on 2018-02-27). PPM 4.5 and 4.6 (HR Personnel Policy Manual, Wayback 2018-03-04 and 2018-02-18) are cited by P&P 7.5 for FMLA detail. The update histories (2018-04-07, 2018-06-08) are version evidence only: no change to 7.5 between 1.5.17 and the reference date; the 5.09.18 entry (expanded paid parental leave effective 2018-07-01) postdates it.",
+  "Cited but not saved: PPM 4.3 Sick Leave/Personal Leave; PPM 4.3.5 Sick Leave for Disability Associated with Pregnancy or Childbirth; PPM 4.4 Extended Sick Leave Plan for Support Staff; PPM 4.16 Leave of Absence Without Pay; P&P 7.4 Benefits for Faculty and Staff Members; P&P 4.4/4.5 (Conflict of Interest, Outside Professional Activities); the Massachusetts Parental Leave Act text; the 'release arrangements offered by Schools' (P&P 7.5.2) and School teaching-relief arrangements (7.5.1), whose terms are not saved; the July 2018 expanded paid parental leave policy.",
+  "Rules file V1's example cites an 'MIT childbirth leave 8 weeks at 100%'. No saved source states a childbirth-specific period, length or pay level (PPM 4.3.5, which may hold it, is not saved), so the childbirth disability is coded as the generic sick plan (mit_c4, mit_c5). If PPM 4.3.5 (in force 2018-02-27) were saved and covers faculty, it would likely be coded employer_childbirth_benefit under V1/V1b.",
+  "Not components: sabbatical and Junior Faculty Research Leave (research purposes, cannot be used for a birth), professional leave (professional development or public service), domestic violence leave (7.5.7), 'release arrangements offered by Schools' (no terms saved).",
+  "U8: the member is a tenure-track faculty member with two years of service, eligible for FMLA. The teaching relief (mit_c1) carries a majority-caregiver condition (R6, gender-neutral). PPM 4.5.1/4.5.2's 'combination of the medical leave period and the additional period for child care leave should not exceed 12 weeks' is FMLA's own 12 weeks (mit_c2 covers both purposes), so no leave_limits entry is recorded.",
+  "Birth parent chain: FMLA 12 workweeks (mit_c2) from the birth, with the Massachusetts Parental Leave Act 8 weeks (mit_c3), sick pay (mit_c4, no length; mit_c5 extended illness up to 6 months, discretionary) concurrent with it, and family sick time (mit_c6) and own balances (mit_c7) within it → personal leave beyond 12 weeks (mit_c8, general, discretionary, not counted); teaching relief one semester at full pay (mit_c1), in any term within a year of the birth, not linked (the window places nothing).",
+  "Non-birth parent chain: FMLA 12 workweeks (mit_c2) with the Massachusetts Parental Leave Act 8 weeks (mit_c3) concurrent, family sick time 40 hours (mit_c6) and own balances (mit_c7) within it → personal leave beyond 12 weeks (mit_c8, not counted); teaching relief one semester at full pay (mit_c1, majority-caregiver condition), not linked.",
+  "Calendar: semesters stated without length : calendar.kind = semester, and the term length follows R8's order."
+ ],
+ "statutory_floor": {
+  "jurisdiction": "US",
+  "year": "2018",
+  "weeks_birth": 12.0,
+  "weeks_nonbirth": 12.0,
+  "statute": "Family and Medical Leave Act (FMLA) (29 U.S.C. 2611-2612)",
+  "source_doc": "2026_00_us_fmla_29usc2612",
+  "table": "statutory_baseline.csv"
+ }
+}

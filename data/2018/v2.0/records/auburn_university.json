@@ -1,0 +1,788 @@
+{
+ "institution": "Auburn University",
+ "slug": "auburn_university",
+ "country": "US",
+ "model": "claude-opus-5-5",
+ "codebook_version": "1.25",
+ "schema_version": "1.25",
+ "reference_date": "2018-02-22",
+ "calendar": {
+  "term_weeks": null,
+  "note": "Semester calendar stated, length not stated (R8 default 16): \"a three-credit-hour semester course should be considered equivalent to ten hours of other academic responsibilities\"",
+  "kind": "semester"
+ },
+ "documents": [
+  {
+   "doc_id": "2018_01_faculty_handbook_ch3_personnel_policies",
+   "url": "http://www.auburn.edu/academic/provost/facultyHandbook/chapter%203-personnel_policies.php",
+   "title": "Auburn University Faculty Handbook, Chapter 3: Faculty Personnel Policies and Procedures",
+   "version_or_effective_date": "Last Updated: March 08, 2018 (Wayback capture 2018-03-17; prior capture 2017-11-10)",
+   "retrieved": "2026-10-23"
+  },
+  {
+   "doc_id": "2018_03_policy_family_medical_leave_act",
+   "url": "https://sites.auburn.edu/admin/universitypolicies/Policies/FamilyMedicalLeaveActPolicy.pdf",
+   "title": "Auburn University Family and Medical Leave Policy",
+   "version_or_effective_date": "Effective February 2018; Updated: February 2018 (day not stated); Wayback capture 2018-04-28",
+   "retrieved": "2026-10-23"
+  },
+  {
+   "doc_id": "2026_00_us_fmla_29usc2612",
+   "title": "29 U.S.C. 2612 (FMLA leave requirement)",
+   "url": "https://www.law.cornell.edu/uscode/text/29/2612",
+   "retrieved": "2026-10-19"
+  },
+  {
+   "doc_id": "2026_01_us_fmla_29usc2611_definitions",
+   "title": "29 U.S.C. 2611 (FMLA definitions)",
+   "url": "https://www.law.cornell.edu/uscode/text/29/2611",
+   "retrieved": "2026-10-19"
+  }
+ ],
+ "missing": false,
+ "scope_accounting": {
+  "C1": {
+   "absent": {
+    "documents": [
+     "2018_01_faculty_handbook_ch3_personnel_policies",
+     "2018_03_policy_family_medical_leave_act"
+    ],
+    "terms": [
+     "maternity",
+     "paternity",
+     "parental",
+     "childbirth",
+     "birth",
+     "adoption",
+     "foster",
+     "newborn",
+     "child",
+     "paid leave",
+     "leave with pay"
+    ]
+   }
+  },
+  "C2": {
+   "absent": {
+    "documents": [
+     "2018_01_faculty_handbook_ch3_personnel_policies",
+     "2018_03_policy_family_medical_leave_act"
+    ],
+    "terms": [
+     "modified duties",
+     "teaching relief",
+     "course release",
+     "reduced load",
+     "workload",
+     "relief"
+    ]
+   }
+  },
+  "C3": {
+   "components": [
+    "auburn_university_c2"
+   ]
+  },
+  "C4": {
+   "components": [
+    "auburn_university_c1"
+   ],
+   "not_components": [
+    {
+     "statute": "Family and Medical Leave Act, 29 U.S.C. 2612(a)(1)(E) qualifying exigency and (a)(3) military caregiver leave",
+     "reason": "sections unrelated to becoming a parent; not invoked for a birth or adoption (U4)"
+    },
+    {
+     "statute": "Americans with Disabilities Act (ADA Accommodations Policy cited in Handbook 3.2.1)",
+     "reason": "disability-accommodation statute; not a component (U4, checklist C9)"
+    },
+    {
+     "statute": "Amendment 161 (formerly Section 266) of the 1901 Constitution of Alabama; Code of Alabama Sections 16-48-1 et seq.",
+     "reason": "governance of the Board of Trustees; no leave, pay or protection for parents (U4)"
+    }
+   ]
+  },
+  "C5": {
+   "components": [
+    "auburn_university_c1"
+   ]
+  },
+  "C6": {
+   "absent": {
+    "documents": [
+     "2018_01_faculty_handbook_ch3_personnel_policies",
+     "2018_03_policy_family_medical_leave_act"
+    ],
+    "terms": [
+     "leave without pay",
+     "leave of absence",
+     "personal leave",
+     "special leave",
+     "emergency leave",
+     "any purpose"
+    ]
+   }
+  },
+  "C7": {
+   "components": [
+    "auburn_university_c3",
+    "auburn_university_c4"
+   ]
+  },
+  "C8": {
+   "absent": {
+    "documents": [
+     "2018_01_faculty_handbook_ch3_personnel_policies",
+     "2018_03_policy_family_medical_leave_act"
+    ],
+    "terms": [
+     "part-time",
+     "part time",
+     "reduced schedule",
+     "reduced appointment",
+     "phased return",
+     "half salary"
+    ]
+   }
+  },
+  "C9": {
+   "absent": {
+    "documents": [
+     "2018_01_faculty_handbook_ch3_personnel_policies",
+     "2018_03_policy_family_medical_leave_act"
+    ],
+    "terms": [
+     "pregnancy",
+     "accommodation",
+     "transfer",
+     "hazard",
+     "pregnancy discrimination"
+    ]
+   }
+  },
+  "C10": {
+   "absent": {
+    "documents": [
+     "2018_01_faculty_handbook_ch3_personnel_policies",
+     "2018_03_policy_family_medical_leave_act"
+    ],
+    "terms": [
+     "first days",
+     "FMLA-qualifying absence",
+     "paid as regular work time",
+     "administrative leave"
+    ]
+   }
+  }
+ },
+ "passage_dispositions": {
+  "2018_01_faculty_handbook_ch3_personnel_policies#001": {
+   "not_relevant": "table of contents (Section 3.5-3.6 headings); no provision"
+  },
+  "2018_01_faculty_handbook_ch3_personnel_policies#002": {
+   "not_relevant": "AAUP 1940 statement on academic freedom and the probationary period; no leave or tenure-clock provision"
+  },
+  "2018_01_faculty_handbook_ch3_personnel_policies#003": {
+   "used_in": [
+    "auburn_university_c2"
+   ]
+  },
+  "2018_01_faculty_handbook_ch3_personnel_policies#004": {
+   "not_relevant": "temporary and instructor appointments; no leave provision"
+  },
+  "2018_01_faculty_handbook_ch3_personnel_policies#005": {
+   "not_relevant": "probationary appointment eligibility; no leave or tenure-clock stop"
+  },
+  "2018_01_faculty_handbook_ch3_personnel_policies#006": {
+   "not_relevant": "initial appointment and prior-service credit toward probation; not a parental or leave-based extension"
+  },
+  "2018_01_faculty_handbook_ch3_personnel_policies#007": {
+   "not_relevant": "academic ranks and continuation of appointment; no leave provision"
+  },
+  "2018_01_faculty_handbook_ch3_personnel_policies#008": {
+   "not_relevant": "endowed and distinguished professorships; no leave provision"
+  },
+  "2018_01_faculty_handbook_ch3_personnel_policies#009": {
+   "not_relevant": "lecturer title series: leave without pay need not count toward promotion; non-tenure-track group, promotion only (no tenure clock); not a component"
+  },
+  "2018_01_faculty_handbook_ch3_personnel_policies#010": {
+   "not_relevant": "lecturer title series conditions of employment (benefits funding); no leave provision of its own"
+  },
+  "2018_01_faculty_handbook_ch3_personnel_policies#011": {
+   "not_relevant": "lecturer change to tenure track: lecturer time does not count toward the tenure clock; not leave-related"
+  },
+  "2018_01_faculty_handbook_ch3_personnel_policies#012": {
+   "not_relevant": "clinician title series initial appointment; no leave provision"
+  },
+  "2018_01_faculty_handbook_ch3_personnel_policies#013": {
+   "not_relevant": "clinician title series promotion: leave without pay need not count toward promotion; non-tenure-track, promotion only; not a component"
+  },
+  "2018_01_faculty_handbook_ch3_personnel_policies#014": {
+   "not_relevant": "clinician title series conditions of employment (benefits funding); no leave provision of its own"
+  },
+  "2018_01_faculty_handbook_ch3_personnel_policies#015": {
+   "not_relevant": "research title series promotion eligibility; leave without pay and promotion only; not a component"
+  },
+  "2018_01_faculty_handbook_ch3_personnel_policies#016": {
+   "not_relevant": "research title series conditions of employment (benefits funding); no leave provision of its own"
+  },
+  "2018_01_faculty_handbook_ch3_personnel_policies#017": {
+   "used_in": [
+    "auburn_university_c3",
+    "auburn_university_c4"
+   ]
+  },
+  "2018_01_faculty_handbook_ch3_personnel_policies#018": {
+   "not_relevant": "de facto tenure after seven years; no leave-based extension"
+  },
+  "2018_01_faculty_handbook_ch3_personnel_policies#019": {
+   "not_relevant": "professional improvement leave with and without pay: for professional development only, which a parent cannot take for a birth or adoption; not a component"
+  },
+  "2018_01_faculty_handbook_ch3_personnel_policies#020": {
+   "not_relevant": "professional improvement leave without pay and ACES professional improvement leave accrual: professional development only; not a component"
+  },
+  "2018_03_policy_family_medical_leave_act#001": {
+   "used_in": [
+    "auburn_university_c1",
+    "auburn_university_c2",
+    "auburn_university_c3"
+   ]
+  }
+ },
+ "mechanism_slots": {
+  "employer_paid_leave": {
+   "absent": "No employer-paid parental, childbirth or FMLA-event leave in either source (terms: paid leave, leave with pay, salary, birth, maternity)"
+  },
+  "employer_childbirth_benefit": {
+   "absent": "No childbirth-specific paid period in either source (terms: childbirth, maternity, pregnancy, disability)"
+  },
+  "generic_sick_or_disability_plan": {
+   "absent": "Salary Continuation Plan named in the FMLA policy but its terms not saved (flag on c2); no sick-leave or disability plan text in either source"
+  },
+  "own_accrual": {
+   "components": [
+    "auburn_university_c2"
+   ]
+  },
+  "donated_leave": {
+   "absent": "No donated or shared leave bank in either source (terms: donated, donation, shared leave, bank)"
+  },
+  "government_benefit": {
+   "absent": "No government or state paid programme named (terms: state program, disability insurance, paid family leave)"
+  },
+  "employer_topup": {
+   "absent": "No top-up in either source (terms: top-up, supplement, difference)"
+  },
+  "modified_duties": {
+   "absent": "No modified duties or teaching relief in either source (terms: modified duties, relief, release, workload)"
+  },
+  "unpaid_leave": {
+   "components": [
+    "auburn_university_c1"
+   ]
+  },
+  "tenure_clock": {
+   "components": [
+    "auburn_university_c3",
+    "auburn_university_c4"
+   ]
+  },
+  "part_time_option": {
+   "absent": "No part-time or reduced appointment option for parents (terms: part-time, reduced, half salary); FMLA reduced-schedule leave is part of c1"
+  },
+  "other": {
+   "absent": "No pregnancy accommodation, hazard or equal-treatment provision (terms: pregnancy, accommodation, transfer)"
+  }
+ },
+ "baseline_accounting": {
+  "Family and Medical Leave Act (FMLA)": {
+   "components": [
+    "auburn_university_c1"
+   ]
+  },
+  "Federal Employee Paid Leave Act (paid parental leave for federal civilian employees)": {
+   "not_applicable": "applies only to federal civilian employees; Auburn is a state university"
+  }
+ },
+ "leave_limits": [],
+ "components": [
+  {
+   "component_id": "auburn_university_c1",
+   "institution_label": "Family and Medical Leave Policy",
+   "description": "Auburn's university-wide FMLA policy: up to 12 weeks of job-protected unpaid leave in a rolling 12-month period for the employee's own serious health condition (including pregnancy incapacity), the birth of a child and bonding, adoption or foster placement, or care of a seriously ill family member; restates the federal FMLA. Accrued sick leave must be used before the leave becomes leave without pay; paid balances run concurrently (c2). Spouses both employed by Auburn each receive up to 12 weeks.",
+   "mechanism": "unpaid_leave",
+   "mechanism_note": "Statutory leave (FMLA) restated by the university policy without added length (schema statute_source).",
+   "rule_applied": [
+    "U2",
+    "U4",
+    "U5",
+    "S1",
+    "R9",
+    "U8",
+    "R13"
+   ],
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "\"This policy applies to all eligible employees.\"",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "\"Birth of an employee's child(ren), bonding with newborn or newly placed child, adoption ... foster care\"; own serious health condition (birth parent, U5); care of spouse with a serious health condition (non-birth parent, U5)",
+   "caregiver_condition": "none",
+   "service_requirement": "12 months and 1,250 hours",
+   "dual_employee_rule": "each may take (both spouses employed by Auburn: each entitled to up to 12 weeks for birth, newborn care, adoption or foster placement)",
+   "entitlement": "guaranteed",
+   "entitlement_note": "\"is entitled to take\"; a statutory entitlement stays guaranteed (schema).",
+   "duration": {
+    "value": 12,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "duration_note": "Policy: 'up to 12 weeks' in a rolling 12-month period; statute: 'a total of 12 workweeks'. Intermittent leave for birth or adoption requires the supervisor's approval.",
+   "payer": "none",
+   "medical_certification": true,
+   "medical_certification_note": "Required for leave for the employee's own serious health condition or to care for a family member's serious health condition; no certification stated for birth or bonding leave.",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "relief_note": "Formal leave of absence; no relief stated (R9).",
+   "time_window": "leaves for birth or adoption must be taken within 12 months of the event",
+   "notice": "30-day notice if the leave is foreseeable; otherwise as much notice as practicable",
+   "statute_source": "29 U.S.C. 2612(a)(1)(A)-(D); eligibility 29 U.S.C. 2611(2)",
+   "statute_verified": true,
+   "flags": [
+    "version_uncertain: FMLA policy states 'EFFECTIVE DATE February 2018' without a day; reference date 2018-02-22; terms match the federal statute in force on that date",
+    "cross_reference_not_saved: Family and Medical Leave Act Procedures (policy section VII)"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "This policy applies to all eligible employees."
+    ],
+    "eligible_parent": [
+     "Birth of an employee’s child(ren), bonding with newborn or newly placed child, adoption of a child by the employee or official placement of a child with the employee for foster care",
+     "The employee’s own serious health condition, which renders him/her unable to perform one or more essential functions of the employee’s position, as certified by a health care provider.",
+     "The care of a family member: the employee’s spouse, sponsored adult dependent, child (including sponsored child dependent) or parent with a serious health condition, as certified by a health care provider."
+    ],
+    "entitlement": [
+     "An eligible employee is entitled to take up to 12 weeks of job-protected FMLA for the following reasons",
+     "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period for one or more of the following:"
+    ],
+    "duration": [
+     "up to 12 weeks of job protected unpaid leave",
+     "An eligible employee is entitled to take up to 12 weeks of job-protected FMLA for the following reasons"
+    ],
+    "service_requirement": [
+     "An employee who has been employed by the University for at least 12 months and worked at least, 1,250 hours during the 12-month period preceding the request for leave is eligible for family medical leave.",
+     "for at least 1,250 hours of service with such employer during the previous 12-month period."
+    ],
+    "time_window": [
+     "leaves for birth or adoption must be taken within 12 months of the event"
+    ],
+    "dual_employee_rule": [
+     "If both spouses are eligible employees of Auburn University, they are each entitled to up to 12 weeks in a rolling calendar year for the birth of a child or to care for their newly born child, or for the placement of a child for adoption or foster care."
+    ],
+    "notice": [
+     "The University expects a 30-day notice of all types of FMLA leave if the leave is foreseeable."
+    ],
+    "medical_certification": [
+     "If the requested leave is because of a serious health condition of the employee, he/she will be required to provide a health care provider’s certification"
+    ],
+    "statute_source": [
+     "Controlling Authority: The Family Medical Leave Act of 1993 (as amended)",
+     "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period for one or more of the following:"
+    ]
+   },
+   "doc_ids": [
+    "2018_03_policy_family_medical_leave_act",
+    "2026_00_us_fmla_29usc2612",
+    "2026_01_us_fmla_29usc2611_definitions"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "up to 12 weeks of job protected unpaid leave"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "up to 12 weeks of job protected unpaid leave"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "An eligible employee is entitled to take up to 12 weeks of job-protected FMLA for the following reasons"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "This policy applies to all eligible employees."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own serious health condition incl. pregnancy), non_birth_parent (birth, bonding, care of spouse), adoptive, foster",
+     "quote": "Birth of an employee’s child(ren), bonding with newborn or newly placed child, adoption of a child by the employee or official placement of a child with the employee for foster care"
+    },
+    {
+     "field": "entitlement",
+     "rule": "U2",
+     "answer": "guaranteed",
+     "quote": "An eligible employee is entitled to take up to 12 weeks of job-protected FMLA for the following reasons"
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "12 week up_to",
+     "quote": "up to 12 weeks of job protected unpaid leave"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U8",
+     "answer": "12 months and 1,250 hours; the figures describe an eligible member",
+     "quote": "An employee who has been employed by the University for at least 12 months and worked at least, 1,250 hours during the 12-month period preceding the request for leave is eligible for family medical leave."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave, no relief stated)",
+     "quote": "up to 12 weeks of job protected unpaid leave"
+    }
+   ]
+  },
+  {
+   "component_id": "auburn_university_c2",
+   "institution_label": "",
+   "description": "Use of the employee's own accrued sick, annual or compensatory leave during FMLA leave, running concurrently with it from its onset; all accrued sick leave must be used before the leave becomes leave without pay. The sick and annual leave policies themselves (accrual rates, maxima) are not saved.",
+   "mechanism": "own_accrual",
+   "mechanism_note": "Pay drawn from the employee's own balances (R1).",
+   "rule_applied": [
+    "R1",
+    "S1",
+    "U1",
+    "V2"
+   ],
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "FMLA policy: \"This policy applies to all eligible employees.\" Handbook 3.3.2: annual and sick leave are fringe benefits of faculty other than temporary appointments.",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "employees on FMLA leave (any FMLA reason)",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "\"Employees may utilize\" earned balances: the employee elects (V2).",
+   "payer": "own_balance",
+   "must_exhaust_first": [
+    "sick"
+   ],
+   "sequence": [
+    {
+     "relation": "within",
+     "component_id": "auburn_university_c1",
+     "note": "used at the onset of FMLA leave and runs concurrently with it; does not extend FMLA beyond 12 weeks (S1: pay for a statutory leave is within it)"
+    }
+   ],
+   "flags": [
+    "cross_reference_not_saved: established leave policy (Auburn sick, annual and compensatory leave policies)",
+    "cross_reference_not_saved: Salary Continuation Plan",
+    "cross_reference_not_saved: On-Job Injury Program",
+    "version_uncertain: FMLA policy states 'EFFECTIVE DATE February 2018' without a day"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "This policy applies to all eligible employees.",
+     "temporary faculty member is not eligible for the insurance, medical benefits, annual leave, sick leave, and other fringe benefits available to other faculty members"
+    ],
+    "eligible_parent": [
+     "Employees may utilize any earned sick, annual or compensatory leave at the onset of FMLA leave in accordance with established leave policy."
+    ],
+    "entitlement": [
+     "Employees may utilize any earned sick, annual or compensatory leave at the onset of FMLA leave in accordance with established leave policy."
+    ],
+    "must_exhaust_first": [
+     "However, employees must use all accrued sick leave time before going into leave without pay status."
+    ],
+    "sequence": [
+     "Employees may utilize any earned sick, annual or compensatory leave at the onset of FMLA leave in accordance with established leave policy.",
+     "The use of all accrued leave (to include, Auburn University’s On-Job Injury Program or Salary Continuation Plan) will run concurrently with FMLA and will not extend the duration of FMLA beyond 12 weeks."
+    ]
+   },
+   "doc_ids": [
+    "2018_03_policy_family_medical_leave_act",
+    "2018_01_faculty_handbook_ch3_personnel_policies"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "own_accrual",
+     "quote": "Employees may utilize any earned sick, annual or compensatory leave at the onset of FMLA leave in accordance with established leave policy."
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "own_balance",
+     "quote": "Employees may utilize any earned sick, annual or compensatory leave at the onset of FMLA leave in accordance with established leave policy."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Employees may utilize any earned sick, annual or compensatory leave at the onset of FMLA leave in accordance with established leave policy."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "This policy applies to all eligible employees."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any parent on FMLA leave: birth_parent, non_birth_parent, adoptive, foster",
+     "quote": "Employees may utilize any earned sick, annual or compensatory leave at the onset of FMLA leave in accordance with established leave policy."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "Employees may utilize any earned sick, annual or compensatory leave at the onset of FMLA leave in accordance with established leave policy."
+    },
+    {
+     "field": "sequence",
+     "rule": "S1",
+     "answer": "within c1 (starts at the onset of FMLA leave, runs concurrently, does not extend it)",
+     "quote": "The use of all accrued leave (to include, Auburn University’s On-Job Injury Program or Salary Continuation Plan) will run concurrently with FMLA and will not extend the duration of FMLA beyond 12 weeks."
+    }
+   ]
+  },
+  {
+   "component_id": "auburn_university_c3",
+   "institution_label": "",
+   "description": "Tenure-clock extension: a faculty member who has qualified for FMLA leave while on a tenure-accruing appointment may request a one-year extension of the probationary period, by written agreement received by the provost in the year of the request; at most two extensions, requested only in the first five probationary years.",
+   "mechanism": "tenure_clock",
+   "rule_applied": [
+    "V2",
+    "U9",
+    "U1"
+   ],
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "\"A faculty member who has qualified for FMLA leave while holding a tenure-accruing appointment\"",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "a faculty member who has qualified for FMLA leave (FMLA reasons include birth, bonding, adoption, foster placement)",
+   "caregiver_condition": "none",
+   "service_requirement": "qualified for FMLA leave (FMLA: 12 months and 1,250 hours)",
+   "entitlement": "discretionary",
+   "entitlement_note": "\"may request a one-year extension\" with no grant language and no approver named (V2: 'may request' with no grant language). Alternative reading: the faculty member's written agreement, received by the provost, suffices (guaranteed_on_request); flagged ambiguous.",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "exact"
+   },
+   "use_limit": [
+    {
+     "times": 2,
+     "per": "career",
+     "counts": "uses"
+    }
+   ],
+   "use_limit_note": "\"Only two such extensions are allowed.\"",
+   "time_window": "Any request may be made only during the first five probationary years of the tenure process; the written agreement must be received by the provost within the probationary year in which the extension is requested",
+   "flags": [
+    "ambiguous: entitlement: 'may request' with no approver or grounds named; the written agreement of the faculty member, received by the provost, may suffice"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "A faculty member who has qualified for FMLA leave while holding a tenure-accruing appointment may request a one-year extension of the date on which the probationary period would end."
+    ],
+    "eligible_parent": [
+     "A faculty member who has qualified for FMLA leave while holding a tenure-accruing appointment may request a one-year extension of the date on which the probationary period would end.",
+     "Birth of an employee’s child(ren), bonding with newborn or newly placed child, adoption of a child by the employee or official placement of a child with the employee for foster care"
+    ],
+    "entitlement": [
+     "A faculty member who has qualified for FMLA leave while holding a tenure-accruing appointment may request a one-year extension of the date on which the probationary period would end.",
+     "except where the faculty member has agreed in writing that a year in which the faculty member qualified for leave under the Family and Medical Leave Act (FMLA) or took leave without pay will not count toward the probationary period.",
+     "The written agreement must be received by the provost within the probationary year in which the extension is requested."
+    ],
+    "duration": [
+     "A faculty member who has qualified for FMLA leave while holding a tenure-accruing appointment may request a one-year extension of the date on which the probationary period would end."
+    ],
+    "service_requirement": [
+     "A faculty member who has qualified for FMLA leave while holding a tenure-accruing appointment may request a one-year extension of the date on which the probationary period would end.",
+     "An employee who has been employed by the University for at least 12 months and worked at least, 1,250 hours during the 12-month period preceding the request for leave is eligible for family medical leave."
+    ],
+    "use_limit": [
+     "Only two such extensions are allowed."
+    ],
+    "time_window": [
+     "Any request may be made only during the first five probationary years of the tenure process.",
+     "The written agreement must be received by the provost within the probationary year in which the extension is requested."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_faculty_handbook_ch3_personnel_policies",
+    "2018_03_policy_family_medical_leave_act"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "A faculty member who has qualified for FMLA leave while holding a tenure-accruing appointment may request a one-year extension of the date on which the probationary period would end."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "A faculty member who has qualified for FMLA leave while holding a tenure-accruing appointment may request a one-year extension of the date on which the probationary period would end."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "A faculty member who has qualified for FMLA leave while holding a tenure-accruing appointment may request a one-year extension of the date on which the probationary period would end."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "parents who qualify for FMLA leave for a birth, adoption or foster placement",
+     "quote": "Birth of an employee’s child(ren), bonding with newborn or newly placed child, adoption of a child by the employee or official placement of a child with the employee for foster care"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "A faculty member who has qualified for FMLA leave while holding a tenure-accruing appointment may request a one-year extension of the date on which the probationary period would end."
+    },
+    {
+     "field": "duration",
+     "rule": "schema",
+     "answer": "1 year exact",
+     "quote": "A faculty member who has qualified for FMLA leave while holding a tenure-accruing appointment may request a one-year extension of the date on which the probationary period would end."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U8",
+     "answer": "FMLA eligibility (12 months and 1,250 hours)",
+     "quote": "An employee who has been employed by the University for at least 12 months and worked at least, 1,250 hours during the 12-month period preceding the request for leave is eligible for family medical leave."
+    },
+    {
+     "field": "use_limit",
+     "rule": "U9",
+     "answer": "2 per career",
+     "quote": "Only two such extensions are allowed."
+    }
+   ]
+  },
+  {
+   "component_id": "auburn_university_c4",
+   "institution_label": "",
+   "description": "Tenure-clock exclusion for any leave of absence without pay: the faculty member need not count the leave time toward tenure or promotion (and may count it if the leave is professionally related); a year of leave without pay may be excluded from the probationary period by written agreement received by the provost.",
+   "mechanism": "tenure_clock",
+   "rule_applied": [
+    "U1",
+    "V2"
+   ],
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "\"A faculty member on leave of absence without pay\" (Handbook 3.6.4, tenure-track faculty)",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "a faculty member on leave of absence without pay",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "\"need not count\" and \"may wish to count\": the faculty member chooses; no approval of the exclusion stated (V2).",
+   "duration_note": "Length is the leave time taken without pay; no length stated.",
+   "flags": [
+    "general_purpose",
+    "cross_reference_not_saved: leave of absence without pay policy (referred to in Faculty Handbook 3.6.4; not named)"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "A faculty member on leave of absence without pay need not count his or her leave time toward tenure and/or promotion."
+    ],
+    "eligible_parent": [
+     "A faculty member on leave of absence without pay need not count his or her leave time toward tenure and/or promotion."
+    ],
+    "entitlement": [
+     "A faculty member on leave of absence without pay need not count his or her leave time toward tenure and/or promotion.",
+     "However, if such a leave is professionally related, the faculty member may wish to count that time.",
+     "except where the faculty member has agreed in writing that a year in which the faculty member qualified for leave under the Family and Medical Leave Act (FMLA) or took leave without pay will not count toward the probationary period."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_faculty_handbook_ch3_personnel_policies"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "A faculty member on leave of absence without pay need not count his or her leave time toward tenure and/or promotion."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "A faculty member on leave of absence without pay need not count his or her leave time toward tenure and/or promotion."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "A faculty member on leave of absence without pay need not count his or her leave time toward tenure and/or promotion."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent (role-neutral)",
+     "quote": "A faculty member on leave of absence without pay need not count his or her leave time toward tenure and/or promotion."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "However, if such a leave is professionally related, the faculty member may wish to count that time."
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "Governing documents: the Faculty Handbook chapter 3 (a faculty handbook holding the tenure-clock provisions, 3.6.4) and the university Family and Medical Leave Policy (a leave policy for all eligible employees) both cover tenure-stream faculty, so the rule for records with no governing document (reader instructions §3) does not apply and missing is false. Neither saved source contains a parental, maternity, childbirth, modified-duties or paid-leave provision; the only birth leave found is FMLA (c1).",
+  "The handbook chapter contains no leave provisions other than professional improvement leave (3.8.1, with and without pay), external residential fellowships (3.8.2) and the tenure-clock provisions (3.6.4). Professional improvement leave serves professional development only and is not a component (a parent could not take it for a birth).",
+  "Cited but not saved: FMLA policy section VII 'Family and Medical Leave Act Procedures'; the 'established leave policy' governing sick, annual and compensatory leave (accrual rates and maxima unknown); the 'Salary Continuation Plan' and 'On-Job Injury Program' (named as running concurrently with FMLA; their terms, payer and any childbirth period are unknown, so no component was created for the Salary Continuation Plan: flagged on c2); the dependent eligibility matrix; the leave of absence without pay policy referred to in Handbook 3.6.4; the ADA Accommodations Policy and other workplace policies listed in Handbook 3.2.1 (not leave).",
+  "Version: the FMLA policy is marked 'EFFECTIVE DATE February 2018' with no day, so it may postdate the reference date 2018-02-22; its terms restate the federal FMLA (12 weeks, 12 months and 1,250 hours), which was in force on that date. Components citing it carry version_uncertain. The handbook page shows 'Last Updated: March 08, 2018' (capture 2018-03-17); read as in force on 2018-02-22 per its version note.",
+  "must_exhaust_first ['sick'] is recorded on c2 (the balances) rather than on c1: FMLA leave starts at onset whatever the balances; the policy requires accrued sick leave to be used before the leave becomes leave without pay.",
+  "Dual-employee rule: the policy lets spouses both employed by Auburn each take up to 12 weeks for a birth or placement, more than the statute's combined limit (29 U.S.C. 2612(f)); recorded in c1 dual_employee_rule.",
+  "Chain, birth parent: FMLA leave 12 weeks (c1; own sick, annual or compensatory balances within it from the onset, c2) ; tenure-clock extension of one year available on request (c3); leave without pay time may be excluded from the tenure clock (c4, general purpose).",
+  "Chain, non-birth parent: FMLA leave 12 weeks (c1; own balances within it, c2); tenure-clock extension of one year (c3)."
+ ],
+ "statutory_floor": {
+  "jurisdiction": "US",
+  "year": "2018",
+  "weeks_birth": 12.0,
+  "weeks_nonbirth": 12.0,
+  "statute": "Family and Medical Leave Act (FMLA) (29 U.S.C. 2611-2612)",
+  "source_doc": "2026_00_us_fmla_29usc2612",
+  "table": "statutory_baseline.csv"
+ }
+}

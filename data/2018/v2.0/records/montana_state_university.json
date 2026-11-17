@@ -1,0 +1,2033 @@
+{
+ "institution": "Montana State University",
+ "slug": "montana_state_university",
+ "country": "US",
+ "model": "claude-opus-5-5",
+ "codebook_version": "1.25",
+ "schema_version": "1.25",
+ "reference_date": "2018-02-25",
+ "calendar": {
+  "term_weeks": null,
+  "note": "Semester calendar ('arranged to coincide with the semester calendar', FMD policy); length not stated, semester default (R8).",
+  "kind": "semester"
+ },
+ "documents": [
+  {
+   "doc_id": "2018_00_link",
+   "title": "MSU Types of Leave & Policies (HR, Family Resources - New Parents)",
+   "url": "http://www.montana.edu/hr/family_resources/leaves_policies.html",
+   "version_or_effective_date": "undated HR summary page; Wayback copy 2018-11-21",
+   "retrieved": "2026-10-18"
+  },
+  {
+   "doc_id": "2018_01_note",
+   "title": "Options for MSU Faculty (HR, Family Resources - New Parents)",
+   "url": "http://www.montana.edu/hr/family_resources/options_faculty.html",
+   "version_or_effective_date": "undated HR summary page; Wayback copy 2020-03-03",
+   "retrieved": "2026-10-18"
+  },
+  {
+   "doc_id": "2018_02_fh_leaves_benefits",
+   "title": "Faculty Handbook: Leaves and Benefits",
+   "url": "http://www.montana.edu/policy/faculty_handbook/leaves_benefits.html",
+   "version_or_effective_date": "Effective July 1, 2017; Wayback copy 2017-08-16",
+   "retrieved": "2026-10-21"
+  },
+  {
+   "doc_id": "2018_03_fh_faculty_modified_duties",
+   "title": "Faculty Handbook: Faculty Modified Duties (FMD)",
+   "url": "http://www.montana.edu/policy/faculty_handbook/faculty_modified_duties.html",
+   "version_or_effective_date": "Effective July 1, 2017; Wayback copy 2017-10-29",
+   "retrieved": "2026-10-21"
+  },
+  {
+   "doc_id": "2018_04_fh_extending_tenure",
+   "title": "Faculty Handbook: Extending the Tenure Review Period",
+   "url": "http://www.montana.edu/policy/faculty_handbook/extending_tenure.html",
+   "version_or_effective_date": "Effective July 1, 2017; Wayback copy 2018-02-23",
+   "retrieved": "2026-10-21"
+  },
+  {
+   "doc_id": "2018_05_personnel_manual_1000_leave",
+   "title": "Personnel Policy and Procedures Manual 1000.00 Benefits and Leaves",
+   "url": "http://www.montana.edu/policy/personnel/per1000.html",
+   "version_or_effective_date": "sections dated 1993-2013 (1025.00 and 1045.00 effective February 1, 2013); Wayback copy 2016-01-17",
+   "retrieved": "2026-10-21"
+  },
+  {
+   "doc_id": "2018_06_fh_foreword",
+   "title": "Faculty Handbook: Foreword",
+   "url": "http://www.montana.edu/policy/faculty_handbook/forword.html",
+   "version_or_effective_date": "undated; Wayback copy 2017-08-16",
+   "retrieved": "2026-10-21"
+  }
+ ],
+ "missing": false,
+ "scope_accounting": {
+  "C1": {
+   "components": [
+    "montana_state_university_c1",
+    "montana_state_university_c2",
+    "montana_state_university_c3",
+    "montana_state_university_c4",
+    "montana_state_university_c5"
+   ]
+  },
+  "C2": {
+   "components": [
+    "montana_state_university_c11"
+   ]
+  },
+  "C3": {
+   "components": [
+    "montana_state_university_c6",
+    "montana_state_university_c7",
+    "montana_state_university_c8",
+    "montana_state_university_c1"
+   ]
+  },
+  "C4": {
+   "components": [
+    "montana_state_university_c3",
+    "montana_state_university_c4",
+    "montana_state_university_c5"
+   ],
+   "not_components": [
+    {
+     "statute": "Montana Workers' Compensation Act (Title 39, Chapter 71, MCA)",
+     "reason": "work-related injury and disease; not leave for becoming a parent (U4)"
+    },
+    {
+     "statute": "MCA 2-18-611 through 617 (annual leave)",
+     "reason": "basis of annual vacation leave (c9), which academic-year faculty do not accrue; no leave for becoming a parent of its own"
+    },
+    {
+     "statute": "MCA 2-18-618 and 2-18-601 (sick leave; sick leave donation)",
+     "reason": "basis of the sick leave accrual (c6) and donated sick leave (c7), coded as those components"
+    },
+    {
+     "statute": "MCA 10-1-604 (military leave)",
+     "reason": "military training leave; unrelated to becoming a parent (U4)"
+    },
+    {
+     "statute": "MCA 2-18-619 (jury duty and witness leave)",
+     "reason": "unrelated to becoming a parent (U4)"
+    },
+    {
+     "statute": "MCA 2-18-620 (leave to serve in a public office)",
+     "reason": "unrelated to becoming a parent (U4)"
+    },
+    {
+     "statute": "MCA 1-1-216 (holidays)",
+     "reason": "paid holidays; unrelated to becoming a parent"
+    },
+    {
+     "statute": "MCA 2-9-305 (immunization, defense and indemnification)",
+     "reason": "liability coverage; unrelated to becoming a parent"
+    },
+    {
+     "statute": "Montana Constitution Article 6, Section 13 (National Guard)",
+     "reason": "military duty; unrelated to becoming a parent"
+    },
+    {
+     "statute": "29 CFR Part 825 (FMLA regulations)",
+     "reason": "implementing regulations of the FMLA, coded with the FMLA component (c5)"
+    }
+   ]
+  },
+  "C5": {
+   "components": [
+    "montana_state_university_c5",
+    "montana_state_university_c6",
+    "montana_state_university_c7",
+    "montana_state_university_c11"
+   ]
+  },
+  "C6": {
+   "components": [
+    "montana_state_university_c10",
+    "montana_state_university_c9"
+   ]
+  },
+  "C7": {
+   "components": [
+    "montana_state_university_c12"
+   ]
+  },
+  "C8": {
+   "absent": {
+    "documents": [
+     "2018_00_link",
+     "2018_01_note",
+     "2018_02_fh_leaves_benefits",
+     "2018_03_fh_faculty_modified_duties",
+     "2018_04_fh_extending_tenure",
+     "2018_05_personnel_manual_1000_leave",
+     "2018_06_fh_foreword"
+    ],
+    "terms": [
+     "part-time",
+     "reduced",
+     "FTE",
+     "phased",
+     "reduced leave schedule",
+     "half-time"
+    ]
+   }
+  },
+  "C9": {
+   "components": [
+    "montana_state_university_c13"
+   ]
+  },
+  "C10": {
+   "absent": {
+    "documents": [
+     "2018_00_link",
+     "2018_01_note",
+     "2018_02_fh_leaves_benefits",
+     "2018_03_fh_faculty_modified_duties",
+     "2018_04_fh_extending_tenure",
+     "2018_05_personnel_manual_1000_leave",
+     "2018_06_fh_foreword"
+    ],
+    "terms": [
+     "first days",
+     "regular work time",
+     "paid FMLA",
+     "FMLA leave will be paid",
+     "pay status",
+     "substitution of accrued paid leave"
+    ]
+   }
+  }
+ },
+ "passage_dispositions": {
+  "2018_00_link#001": {
+   "used_in": [
+    "montana_state_university_c1",
+    "montana_state_university_c4",
+    "montana_state_university_c5",
+    "montana_state_university_c6",
+    "montana_state_university_c7",
+    "montana_state_university_c9"
+   ]
+  },
+  "2018_01_note#001": {
+   "used_in": [
+    "montana_state_university_c2",
+    "montana_state_university_c10",
+    "montana_state_university_c11",
+    "montana_state_university_c12"
+   ]
+  },
+  "2018_02_fh_leaves_benefits#001": {
+   "used_in": [
+    "montana_state_university_c1",
+    "montana_state_university_c4",
+    "montana_state_university_c5",
+    "montana_state_university_c6",
+    "montana_state_university_c9"
+   ]
+  },
+  "2018_02_fh_leaves_benefits#002": {
+   "not_relevant": "annual leave timing, other benefits list and liability coverage (MCA 2-9-305); annual leave coded from #001 and the manual"
+  },
+  "2018_03_fh_faculty_modified_duties#001": {
+   "used_in": [
+    "montana_state_university_c11",
+    "montana_state_university_c1"
+   ]
+  },
+  "2018_04_fh_extending_tenure#001": {
+   "used_in": [
+    "montana_state_university_c12"
+   ]
+  },
+  "2018_04_fh_extending_tenure#002": {
+   "not_relevant": "process and review standards for the requested extension (not available for a birth: 'other than an event listed in Section 3')"
+  },
+  "2018_05_personnel_manual_1000_leave#001": {
+   "not_relevant": "table of contents and workers' compensation coverage (work-related injury)"
+  },
+  "2018_05_personnel_manual_1000_leave#002": {
+   "not_relevant": "workers' compensation procedures"
+  },
+  "2018_05_personnel_manual_1000_leave#003": {
+   "used_in": [
+    "montana_state_university_c9"
+   ]
+  },
+  "2018_05_personnel_manual_1000_leave#004": {
+   "used_in": [
+    "montana_state_university_c1",
+    "montana_state_university_c2",
+    "montana_state_university_c3",
+    "montana_state_university_c4",
+    "montana_state_university_c6",
+    "montana_state_university_c8",
+    "montana_state_university_c9",
+    "montana_state_university_c10",
+    "montana_state_university_c13"
+   ]
+  },
+  "2018_05_personnel_manual_1000_leave#005": {
+   "used_in": [
+    "montana_state_university_c7"
+   ]
+  },
+  "2018_05_personnel_manual_1000_leave#006": {
+   "used_in": [
+    "montana_state_university_c5"
+   ]
+  },
+  "2018_05_personnel_manual_1000_leave#007": {
+   "used_in": [
+    "montana_state_university_c5"
+   ]
+  },
+  "2018_05_personnel_manual_1000_leave#008": {
+   "used_in": [
+    "montana_state_university_c5"
+   ]
+  }
+ },
+ "mechanism_slots": {
+  "employer_paid_leave": {
+   "absent": "no employer-paid parental or childbirth leave; searched all seven documents for 'paid', 'with pay', 'salary', 'parental leave', 'maternity'"
+  },
+  "employer_childbirth_benefit": {
+   "components": [
+    "montana_state_university_c1"
+   ]
+  },
+  "generic_sick_or_disability_plan": {
+   "absent": "no employer sick-pay allotment, short- or long-term disability plan; searched all documents for 'disability', 'short term', 'long term', 'income protection', 'salary continuation'"
+  },
+  "own_accrual": {
+   "components": [
+    "montana_state_university_c6",
+    "montana_state_university_c9"
+   ]
+  },
+  "donated_leave": {
+   "components": [
+    "montana_state_university_c7"
+   ]
+  },
+  "government_benefit": {
+   "absent": "no government or state paid programme named; searched for 'benefit', 'state program', 'insurance', 'unemployment'"
+  },
+  "employer_topup": {
+   "absent": "no top-up; searched for 'top-up', 'supplement', 'difference'"
+  },
+  "modified_duties": {
+   "components": [
+    "montana_state_university_c11"
+   ]
+  },
+  "unpaid_leave": {
+   "components": [
+    "montana_state_university_c2",
+    "montana_state_university_c3",
+    "montana_state_university_c4",
+    "montana_state_university_c5",
+    "montana_state_university_c8",
+    "montana_state_university_c10"
+   ]
+  },
+  "tenure_clock": {
+   "components": [
+    "montana_state_university_c12"
+   ]
+  },
+  "part_time_option": {
+   "absent": "no reduced-appointment option; searched for 'part-time', 'reduced', 'FTE', 'phased'"
+  },
+  "other": {
+   "components": [
+    "montana_state_university_c13"
+   ]
+  }
+ },
+ "baseline_accounting": {
+  "Family and Medical Leave Act (FMLA)": {
+   "components": [
+    "montana_state_university_c5"
+   ]
+  },
+  "Federal Employee Paid Leave Act (paid parental leave for federal civilian employees)": {
+   "not_applicable": "covers federal civilian employees only; MSU is a state university"
+  },
+  "Maternity leave (reasonable leave of absence)": {
+   "components": [
+    "montana_state_university_c3"
+   ]
+  },
+  "Parental leave for state employees": {
+   "components": [
+    "montana_state_university_c4"
+   ]
+  }
+ },
+ "leave_limits": [],
+ "components": [
+  {
+   "component_id": "montana_state_university_c1",
+   "institution_label": "Maternity Leave",
+   "description": "Maternity leave of absence for the pregnancy or childbirth condition and care of the newborn; the six-week disability period after normal childbirth is paid only from the employee's own sick leave or donated sick leave.",
+   "mechanism": "employer_childbirth_benefit",
+   "mechanism_note": "Dedicated maternity provision stating a childbirth-specific period (six weeks) paid from the employee's own sick leave or donated sick leave, with no employer pay: R1b keeps the mechanism with payer own_balance (0 paid weeks).",
+   "rule_applied": [
+    "R1b",
+    "R1",
+    "R1d",
+    "V2",
+    "R5",
+    "R9",
+    "R13"
+   ],
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Personnel Policy 1000.00 applies to all employees ('pertain uniformly to all employees'); 'An employee may request a maternity leave of absence'; the FMD policy lists maternity leave among leave 'available to faculty'.",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "employee; 'a woman's employment'; 'New moms' (HR page)",
+   "caregiver_condition": "none",
+   "service_requirement": "90 calendar days of continuous work before earned sick leave may be used",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "The employee 'may request' the leave and 'may use' sick leave for up to six weeks with no approval clause; the additional leave beyond the disability period needs the department head's approval, the disability period does not. State statute makes refusing a reasonable pregnancy leave unlawful (c3).",
+   "duration": {
+    "value": 6,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "duration_note": "'up to six calendar weeks' of sick leave or donated sick leave; sick leave beyond six weeks may require a physician's certificate. Leave beyond the disability period is the discretionary extension (c2).",
+   "payer": "own_balance",
+   "medical_certification": true,
+   "medical_certification_note": "The supervisor may require a medical certificate verifying the employee is unable to perform her duties; a physician's certificate may be required for sick leave beyond six weeks.",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "notice": "Submit a Faculty and Staff Leave Request form indicating the anticipated dates of absence and the proposed leave types.",
+   "evidence": {
+    "mechanism": [
+     "The disability period for recovery from normal childbirth is six weeks. Therefore, an employee may use sick leave, or donated sick leave, for up to six calendar weeks on maternity leave."
+    ],
+    "faculty_group": [
+     "The leave policies which pertain uniformly to all employees by law or by Board of Regents policy are included in Section 1000.00 of the Personnel Policy and Procedures Manual",
+     "An employee may request a maternity leave of absence for purposes of the pregnancy or childbirth health related condition, and care of the newborn.",
+     "parental and maternity leave, sick leave, family medical leave, disability benefits, or other leave processes available to faculty"
+    ],
+    "eligible_parent": [
+     "Terminate a woman's employment because of a pregnancy or childbirth health related condition;",
+     "New moms may request a maternity leave of absence for pregnancy-related illness, childbirth, and care of a newborn"
+    ],
+    "entitlement": [
+     "An employee may request a maternity leave of absence for purposes of the pregnancy or childbirth health related condition, and care of the newborn.",
+     "The disability period for recovery from normal childbirth is six weeks. Therefore, an employee may use sick leave, or donated sick leave, for up to six calendar weeks on maternity leave.",
+     "The department head/director must approve the use of this additional leave."
+    ],
+    "duration": [
+     "an employee may use sick leave, or donated sick leave, for up to six calendar weeks on maternity leave"
+    ],
+    "payer": [
+     "A combination of sick leave, annual leave, donated sick leave, and leave without pay may be used according to the following guidelines."
+    ],
+    "service_requirement": [
+     "employees must work continuously for 90 calendar days before they qualify to use earned sick leave"
+    ],
+    "medical_certification": [
+     "A physician's certificate may be required for use of sick leave beyond six weeks."
+    ]
+   },
+   "doc_ids": [
+    "2018_05_personnel_manual_1000_leave",
+    "2018_00_link",
+    "2018_02_fh_leaves_benefits",
+    "2018_03_fh_faculty_modified_duties"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1b",
+     "answer": "employer_childbirth_benefit",
+     "quote": "The disability period for recovery from normal childbirth is six weeks. Therefore, an employee may use sick leave, or donated sick leave, for up to six calendar weeks on maternity leave."
+    },
+    {
+     "field": "payer",
+     "rule": "R1b",
+     "answer": "own_balance",
+     "quote": "The disability period for recovery from normal childbirth is six weeks. Therefore, an employee may use sick leave, or donated sick leave, for up to six calendar weeks on maternity leave."
+    },
+    {
+     "field": "payer",
+     "rule": "R1d",
+     "answer": "own_balance",
+     "quote": "an employee may use sick leave, or donated sick leave, for up to six calendar weeks on maternity leave"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "An employee may request a maternity leave of absence for purposes of the pregnancy or childbirth health related condition, and care of the newborn."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "The leave policies which pertain uniformly to all employees by law or by Board of Regents policy are included in Section 1000.00 of the Personnel Policy and Procedures Manual"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "birth_parent",
+     "quote": "Terminate a woman's employment because of a pregnancy or childbirth health related condition;"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "an employee may use sick leave, or donated sick leave, for up to six calendar weeks on maternity leave"
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "6 weeks, up_to",
+     "quote": "an employee may use sick leave, or donated sick leave, for up to six calendar weeks on maternity leave"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "90 calendar days before sick leave may be used",
+     "quote": "employees must work continuously for 90 calendar days before they qualify to use earned sick leave"
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave; relief not stated)",
+     "quote": "An employee may request a maternity leave of absence for purposes of the pregnancy or childbirth health related condition, and care of the newborn."
+    }
+   ]
+  },
+  {
+   "component_id": "montana_state_university_c2",
+   "institution_label": "Discretionary Leave - Maternity",
+   "description": "After the disability period, the birth mother may request annual leave, compensatory time or leave without pay to extend the maternity leave; the department head must approve. No length stated.",
+   "mechanism": "unpaid_leave",
+   "mechanism_note": "An extension of the leave of absence; any pay comes from the employee's own annual leave or compensatory time (academic-year faculty accrue no annual leave), otherwise leave without pay.",
+   "rule_applied": [
+    "V2",
+    "R15",
+    "R9",
+    "R5",
+    "R1"
+   ],
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "'an employee' (Personnel Policy 1025.30, which applies to all employees)",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "employee (maternity leave)",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "entitlement_note": "'may also request' with the department head's approval required: the approval decides whether there is an extension (V2).",
+   "duration_note": "No length stated ('to extend the leave of absence'). The HR faculty-options page says LWOP may be requested by parents who wish to extend maternity or parental leave.",
+   "payer": "none",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "montana_state_university_c1",
+     "note": "'In addition to the disability period ... to extend the leave of absence'"
+    }
+   ],
+   "evidence": {
+    "faculty_group": [
+     "The leave policies which pertain uniformly to all employees by law or by Board of Regents policy are included in Section 1000.00 of the Personnel Policy and Procedures Manual"
+    ],
+    "eligible_parent": [
+     "In addition to the disability period, during which sick leave may be used an employee may also request the use of annual leave, earned compensatory time, or leave without pay to extend the leave of absence."
+    ],
+    "entitlement": [
+     "In addition to the disability period, during which sick leave may be used an employee may also request the use of annual leave, earned compensatory time, or leave without pay to extend the leave of absence.",
+     "The department head/director must approve the use of this additional leave."
+    ],
+    "sequence": [
+     "In addition to the disability period, during which sick leave may be used an employee may also request the use of annual leave, earned compensatory time, or leave without pay to extend the leave of absence."
+    ],
+    "other": [
+     "LWOP may be requested by parents who 1) are not eligible for sick leave or FMLA, or 2) wish to extend maternity or parental leave."
+    ]
+   },
+   "doc_ids": [
+    "2018_05_personnel_manual_1000_leave",
+    "2018_01_note"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "In addition to the disability period, during which sick leave may be used an employee may also request the use of annual leave, earned compensatory time, or leave without pay to extend the leave of absence."
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "none",
+     "quote": "In addition to the disability period, during which sick leave may be used an employee may also request the use of annual leave, earned compensatory time, or leave without pay to extend the leave of absence."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "In addition to the disability period, during which sick leave may be used an employee may also request the use of annual leave, earned compensatory time, or leave without pay to extend the leave of absence."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "The leave policies which pertain uniformly to all employees by law or by Board of Regents policy are included in Section 1000.00 of the Personnel Policy and Procedures Manual"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "birth_parent",
+     "quote": "In addition to the disability period, during which sick leave may be used an employee may also request the use of annual leave, earned compensatory time, or leave without pay to extend the leave of absence."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "The department head/director must approve the use of this additional leave."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "consecutive_after c1 (extends the leave after the disability period)",
+     "quote": "In addition to the disability period, during which sick leave may be used an employee may also request the use of annual leave, earned compensatory time, or leave without pay to extend the leave of absence."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave; relief not stated)",
+     "quote": "In addition to the disability period, during which sick leave may be used an employee may also request the use of annual leave, earned compensatory time, or leave without pay to extend the leave of absence."
+    }
+   ]
+  },
+  {
+   "component_id": "montana_state_university_c3",
+   "institution_label": "",
+   "description": "Montana statute (MCA 49-2-310, cited by Personnel Policy 1025.00): an employer may not refuse a reasonable leave of absence for a pregnancy or childbirth related health condition; the department must make the original or an equivalent position available on return.",
+   "mechanism": "unpaid_leave",
+   "mechanism_note": "Statutory job-protected leave the policy relies on (U4); length 'reasonable', not stated in the documents; statute not saved.",
+   "rule_applied": [
+    "U4",
+    "U2",
+    "S1",
+    "R9",
+    "R5"
+   ],
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "'an employee' (state statute as applied in Personnel Policy 1025.20, all employees)",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "employee; 'a woman's employment'",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "entitlement_note": "A statutory prohibition on refusing the leave (schema: a statute is guaranteed).",
+   "duration_note": "'a reasonable leave of absence'; no length stated in the documents and the statute is not saved (U2).",
+   "payer": "none",
+   "medical_certification": true,
+   "medical_certification_note": "The supervisor may require a medical certificate verifying the employee is unable to perform her employment duties for the period of the requested disability.",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "statute_source": "MCA 49-2-310 (cited in Personnel Policy 1025.10)",
+   "statute_verified": false,
+   "return_obligation": "none stated; 'The department is responsible to make available the employee's original position or an equivalent position at equivalent pay upon completion of the approved leave.'",
+   "sequence": [
+    {
+     "relation": "concurrent_with",
+     "component_id": "montana_state_university_c1",
+     "note": "the statutory reasonable leave runs alongside the maternity leave it underlies (S1)"
+    }
+   ],
+   "evidence": {
+    "faculty_group": [
+     "In accordance with state statute, it is unlawful for an employer to:"
+    ],
+    "eligible_parent": [
+     "Terminate a woman's employment because of a pregnancy or childbirth health related condition;"
+    ],
+    "entitlement": [
+     "Refuse to grant an employee a reasonable leave of absence for a pregnancy or childbirth related health condition;"
+    ],
+    "sequence": [
+     "Refuse to grant an employee a reasonable leave of absence for a pregnancy or childbirth related health condition;",
+     "An employee may request a maternity leave of absence for purposes of the pregnancy or childbirth health related condition, and care of the newborn."
+    ],
+    "statute_source": [
+     "Sections 2-18-606 and 49-2-310, Montana Code Annotated."
+    ],
+    "return_obligation": [
+     "The department is responsible to make available the employee's original position or an equivalent position at equivalent pay upon completion of the approved leave."
+    ]
+   },
+   "doc_ids": [
+    "2018_05_personnel_manual_1000_leave"
+   ],
+   "flags": [
+    "cross_reference_not_saved: MCA 49-2-310",
+    "statutory_detail_not_in_sources: MCA 49-2-310 (length of a 'reasonable leave of absence')"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "U4",
+     "answer": "unpaid_leave",
+     "quote": "Refuse to grant an employee a reasonable leave of absence for a pregnancy or childbirth related health condition;"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Refuse to grant an employee a reasonable leave of absence for a pregnancy or childbirth related health condition;"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Refuse to grant an employee a reasonable leave of absence for a pregnancy or childbirth related health condition;"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "In accordance with state statute, it is unlawful for an employer to:"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "birth_parent",
+     "quote": "Terminate a woman's employment because of a pregnancy or childbirth health related condition;"
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "Refuse to grant an employee a reasonable leave of absence for a pregnancy or childbirth related health condition;"
+    },
+    {
+     "field": "sequence",
+     "rule": "S1",
+     "answer": "concurrent_with c1",
+     "quote": "Refuse to grant an employee a reasonable leave of absence for a pregnancy or childbirth related health condition;"
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave; relief not stated)",
+     "quote": "Refuse to grant an employee a reasonable leave of absence for a pregnancy or childbirth related health condition;"
+    }
+   ]
+  },
+  {
+   "component_id": "montana_state_university_c4",
+   "institution_label": "Parental Leave",
+   "description": "State-law parental leave: a birth father or adoptive parent may take up to 15 working days immediately after the birth or placement, using own sick leave, annual leave, compensatory time or leave without pay.",
+   "mechanism": "unpaid_leave",
+   "mechanism_note": "Policy 1030.00 restates the state parental leave (MCA 2-18-606; Montana Operations Manual 3-0312) without adding length: coded as the statute (schema, statute_source). Pay from own balances (R1).",
+   "rule_applied": [
+    "U2",
+    "U4",
+    "R5",
+    "R13",
+    "R11",
+    "R1",
+    "R9"
+   ],
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "'Employees who are either a birth father or adoptive parent'; the Faculty Handbook: 'All employees are entitled to ... parental leave'",
+   "eligible_parent": [
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "birth father or adoptive parent",
+   "caregiver_condition": "none",
+   "service_requirement": "eligible for sick leave (90 calendar days of continuous work)",
+   "entitlement": "guaranteed",
+   "entitlement_note": "A state statutory leave ('In accordance with state law'); 'may take a leave of absence' with requests following the procedures for the type of leave used.",
+   "duration": {
+    "value": 15,
+    "units": "workday",
+    "qualifier": "up_to"
+   },
+   "payer": "none",
+   "pay_fraction": "unpaid unless the employee uses accumulated sick leave, annual leave or compensatory time",
+   "time_window": "immediately following the birth or adoptive placement of a child",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "statute_source": "MCA 2-18-606 (cited in Personnel Policy 1030.10); Montana Operations Manual 3-0312",
+   "statute_verified": false,
+   "evidence": {
+    "faculty_group": [
+     "All employees are entitled to sick leave, military leave, jury and witness duty, civic duty, disaster leave, family and medical leave, and parental leave as noted in the applicable law and policies.",
+     "Employees who are either a birth father or adoptive parent of a child may take a leave of absence not to exceed 15 working days immediately following the birth or adoptive placement of a child."
+    ],
+    "eligible_parent": [
+     "Employees who are either a birth father or adoptive parent of a child may take a leave of absence not to exceed 15 working days immediately following the birth or adoptive placement of a child."
+    ],
+    "entitlement": [
+     "Employees who are either a birth father or adoptive parent of a child may take a leave of absence not to exceed 15 working days immediately following the birth or adoptive placement of a child.",
+     "In accordance with state law, birth fathers or adoptive parents may take a leave of absence of 15 workdays immediately following the birth or adoptive placement."
+    ],
+    "duration": [
+     "may take a leave of absence not to exceed 15 working days immediately following the birth or adoptive placement of a child"
+    ],
+    "service_requirement": [
+     "Employees are eligible for parental leave if they are eligible for sick leave."
+    ],
+    "pay_fraction": [
+     "Employees eligible for parental leave may use accumulated sick leave, annual leave, earned compensatory time, or leave without pay."
+    ],
+    "statute_source": [
+     "Section 2-18-606, Montana Code Annotated."
+    ]
+   },
+   "doc_ids": [
+    "2018_05_personnel_manual_1000_leave",
+    "2018_00_link",
+    "2018_02_fh_leaves_benefits"
+   ],
+   "flags": [
+    "cross_reference_not_saved: MCA 2-18-606",
+    "cross_reference_not_saved: Montana Operations Manual Section 3-0312 Parental Leave"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "U4",
+     "answer": "unpaid_leave",
+     "quote": "Employees who are either a birth father or adoptive parent of a child may take a leave of absence not to exceed 15 working days immediately following the birth or adoptive placement of a child."
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "none",
+     "quote": "Employees eligible for parental leave may use accumulated sick leave, annual leave, earned compensatory time, or leave without pay."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Employees who are either a birth father or adoptive parent of a child may take a leave of absence not to exceed 15 working days immediately following the birth or adoptive placement of a child."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "All employees are entitled to sick leave, military leave, jury and witness duty, civic duty, disaster leave, family and medical leave, and parental leave as noted in the applicable law and policies."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "non_birth_parent, adoptive ('birth father' is the non-birth parent)",
+     "quote": "Employees who are either a birth father or adoptive parent of a child may take a leave of absence not to exceed 15 working days immediately following the birth or adoptive placement of a child."
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "In accordance with state law, birth fathers or adoptive parents may take a leave of absence of 15 workdays immediately following the birth or adoptive placement."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "15 workdays, up_to ('not to exceed'); 3 weeks by R11",
+     "quote": "Employees who are either a birth father or adoptive parent of a child may take a leave of absence not to exceed 15 working days immediately following the birth or adoptive placement of a child."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "R1",
+     "answer": "own balances or leave without pay; 0 paid weeks",
+     "quote": "Employees eligible for parental leave may use accumulated sick leave, annual leave, earned compensatory time, or leave without pay."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "eligible for sick leave",
+     "quote": "Employees are eligible for parental leave if they are eligible for sick leave."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave; relief not stated)",
+     "quote": "Employees who are either a birth father or adoptive parent of a child may take a leave of absence not to exceed 15 working days immediately following the birth or adoptive placement of a child."
+    }
+   ]
+  },
+  {
+   "component_id": "montana_state_university_c5",
+   "institution_label": "Family and Medical Leave",
+   "description": "FMLA leave as implemented by Personnel Policy 1070.00: up to 12 workweeks of unpaid, job-protected leave in a rolling 12-month period for a birth, adoption or foster placement, a family member's or the employee's own serious health condition; runs concurrently with parental and maternity leave; accrued paid leave must be substituted.",
+   "mechanism": "unpaid_leave",
+   "rule_applied": [
+    "U2",
+    "U4",
+    "S1",
+    "R5",
+    "U5",
+    "R13",
+    "R9"
+   ],
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "'Permanent employees' meeting the service test; the Faculty Handbook: 'All employees are entitled to ... family and medical leave'",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "the employee's son or daughter; placement of a child for adoption or foster care; the employee's spouse",
+   "caregiver_condition": "none",
+   "service_requirement": "Permanent employees who have been employed for the preceding twelve months and have worked at least 1040 hours during the preceding twelve months",
+   "dual_employee_rule": "If both spouses are employed by MSU-Bozeman, each employee may use up to twelve (12) workweeks",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 12,
+    "units": "workweek",
+    "qualifier": "up_to"
+   },
+   "duration_note": "Rolling 12-month period measured backward from the first request. Accrued annual and sick leave must be substituted for unpaid FMLA leave; 'The combination of paid and unpaid leave used for an FMLA purpose may not exceed twelve (12) workweeks in any twelve (12) month period.' Statute verified: 29 U.S.C. 2612(a)(1) 12 workweeks; MSU states a 1040-hour service test (the statute's is 1,250 hours, 29 U.S.C. 2611(2)).",
+   "payer": "none",
+   "pay_fraction": "unpaid; accrued paid leave substituted",
+   "time_window": "Entitlement to FMLA leave for the birth/care of a newborn child or for the placement of a child for adoption or foster care expires twelve (12) months from the date of the child's birth or placement",
+   "notice": "not less than thirty (30) calendar days in advance of the start date of the leave; if not foreseeable, as much written notice as is practicable",
+   "medical_certification": false,
+   "medical_certification_note": "No certification for birth or placement; a medical certificate may be required for the employee's own or a family member's serious health condition.",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "statute_source": "29 U.S.C. 2612(a)(1)(A)-(D)",
+   "statute_verified": true,
+   "sequence": [
+    {
+     "relation": "concurrent_with",
+     "component_id": "montana_state_university_c1",
+     "note": "FMLA runs concurrently with paid and unpaid maternity leave (and so with the discretionary extension c2 as far as it reaches); unpaid remainder after own balances"
+    },
+    {
+     "relation": "concurrent_with",
+     "component_id": "montana_state_university_c4",
+     "note": "FMLA runs concurrently with parental leave"
+    }
+   ],
+   "evidence": {
+    "faculty_group": [
+     "All employees are entitled to sick leave, military leave, jury and witness duty, civic duty, disaster leave, family and medical leave, and parental leave as noted in the applicable law and policies.",
+     "Permanent employees who have been employed for the preceding twelve months and have worked at least 1040 hours during the preceding twelve months."
+    ],
+    "eligible_parent": [
+     "the birth of the employee's son or daughter and to care for the newborn child;",
+     "the placement of a child for adoption or foster care in the employee's home and to care for the newly placed child;",
+     "the care of the employee's spouse, child or parent with a serious health condition;"
+    ],
+    "entitlement": [
+     "an eligible employee may request and will be granted up to twelve (12) workweeks of FMLA leave during any twelve (12) month period for one or more of the following events:"
+    ],
+    "duration": [
+     "an eligible employee may request and will be granted up to twelve (12) workweeks of FMLA leave during any twelve (12) month period for one or more of the following events:"
+    ],
+    "service_requirement": [
+     "Permanent employees who have been employed for the preceding twelve months and have worked at least 1040 hours during the preceding twelve months."
+    ],
+    "pay_fraction": [
+     "Upon exhaustion of any accrued paid leave, the remainder of any FMLA leave will be unpaid."
+    ],
+    "sequence": [
+     "FMLA leave will run concurrently with parental leave, paid and unpaid maternity leave, or worker's compensation related leave",
+     "All maternity/parental leaves will be designated as FMLA leave."
+    ],
+    "dual_employee_rule": [
+     "If both spouses are employed by MSU-Bozeman, each employee may use up to twelve (12) workweeks of FMLA leave during any twelve (12) month period"
+    ],
+    "statute_source": [
+     "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period for one or more of the following:"
+    ]
+   },
+   "doc_ids": [
+    "2018_05_personnel_manual_1000_leave",
+    "2018_00_link",
+    "2018_02_fh_leaves_benefits",
+    "2026_00_us_fmla_29usc2612"
+   ],
+   "flags": [
+    "cross_reference_not_saved: 29 CFR Part 825 (FMLA regulations)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "an eligible employee may request and will be granted up to twelve (12) workweeks of FMLA leave during any twelve (12) month period for one or more of the following events:"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Upon exhaustion of any accrued paid leave, the remainder of any FMLA leave will be unpaid."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "an eligible employee may request and will be granted up to twelve (12) workweeks of FMLA leave during any twelve (12) month period for one or more of the following events:"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Permanent employees who have been employed for the preceding twelve months and have worked at least 1040 hours during the preceding twelve months."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent, non_birth_parent, adoptive, foster (birth, placement, own and family serious health condition)",
+     "quote": "the birth of the employee's son or daughter and to care for the newborn child;"
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "an eligible employee may request and will be granted up to twelve (12) workweeks of FMLA leave during any twelve (12) month period for one or more of the following events:"
+    },
+    {
+     "field": "duration",
+     "rule": "U2",
+     "answer": "12 workweeks, up_to; verified against 29 U.S.C. 2612(a)(1)",
+     "quote": "an eligible employee may request and will be granted up to twelve (12) workweeks of FMLA leave during any twelve (12) month period for one or more of the following events:"
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "unpaid",
+     "quote": "Upon exhaustion of any accrued paid leave, the remainder of any FMLA leave will be unpaid."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U8",
+     "answer": "12 months and 1040 hours (MSU's stated test); the member described has met it",
+     "quote": "Permanent employees who have been employed for the preceding twelve months and have worked at least 1040 hours during the preceding twelve months."
+    },
+    {
+     "field": "sequence",
+     "rule": "S1",
+     "answer": "concurrent_with c1 and c4",
+     "quote": "FMLA leave will run concurrently with parental leave, paid and unpaid maternity leave, or worker's compensation related leave"
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave; relief not stated)",
+     "quote": "an eligible employee may request and will be granted up to twelve (12) workweeks of FMLA leave during any twelve (12) month period for one or more of the following events:"
+    }
+   ]
+  },
+  {
+   "component_id": "montana_state_university_c6",
+   "institution_label": "Sick Leave",
+   "description": "Accrued sick leave (1 day per month at 1.00 FTE, unlimited accumulation, no advances) for the employee's own illness, including pregnancy-related illness, or an immediate family member's illness; used for the birth mother's recovery period and may be used for parental leave.",
+   "mechanism": "own_accrual",
+   "rule_applied": [
+    "R1",
+    "U5",
+    "V2"
+   ],
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "'All Board of Regents Contract, Letter of Appointment, and Classified employees who meet the 90 day qualifying period'; Faculty Handbook: 'All employees are entitled to sick leave'",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent"
+   ],
+   "eligible_parent_wording": "employee; member of the employee's immediate family (spouse, member of the household, child)",
+   "caregiver_condition": "none",
+   "service_requirement": "90 calendar days of continuous work before earned sick leave may be used",
+   "entitlement": "guaranteed",
+   "duration_note": "No fixed length: an accrued balance of 1 day (8 hours) per full month of service at 1.00 FTE, accumulated without limit; 'Advancing sick leave credits after an employee's earned sick leave credits have been exhausted is prohibited.' Family illness use is limited to attendance 'until professional or other attendance can be obtained'. The HR page: sick leave accruals 'are to be used for the birth mother's medical recovery portion of leave following birth, typically six weeks'.",
+   "payer": "own_balance",
+   "pay_fraction": "leave with pay from the employee's accrued balance",
+   "medical_certification": true,
+   "medical_certification_note": "The supervisor may require a physician's statement verifying the nature and extent of the illness.",
+   "evidence": {
+    "faculty_group": [
+     "All employees are entitled to sick leave, military leave, jury and witness duty, civic duty, disaster leave, family and medical leave, and parental leave as noted in the applicable law and policies.",
+     "All Board of Regents Contract, Letter of Appointment, and Classified employees who meet the 90 day qualifying period are eligible for sick leave benefits."
+    ],
+    "eligible_parent": [
+     "Sick leave is leave with pay for sickness suffered by an employee or a member of the employee's immediate family.",
+     "Sick leave shall be used for those absences resulting from an employee's illness, injury, medical disability, pregnancy related illness"
+    ],
+    "entitlement": [
+     "All employees are entitled to sick leave, military leave, jury and witness duty, civic duty, disaster leave, family and medical leave, and parental leave as noted in the applicable law and policies.",
+     "Eligible employees earn 1 day (8 hours) of sick leave for each full month of service at a 1.00 FTE."
+    ],
+    "service_requirement": [
+     "employees must work continuously for 90 calendar days before they qualify to use earned sick leave"
+    ],
+    "pay_fraction": [
+     "Sick leave is leave with pay for sickness suffered by an employee or a member of the employee's immediate family."
+    ],
+    "other": [
+     "Sick leave accruals are to be used for the birth mother's medical recovery portion of leave following birth, typically six weeks."
+    ]
+   },
+   "doc_ids": [
+    "2018_05_personnel_manual_1000_leave",
+    "2018_02_fh_leaves_benefits",
+    "2018_00_link"
+   ],
+   "flags": [
+    "cross_reference_not_saved: Montana Operations Manual Policy 3-0310 Sick Leave",
+    "cross_reference_not_saved: MCA 2-18-618"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "own_accrual",
+     "quote": "Eligible employees earn 1 day (8 hours) of sick leave for each full month of service at a 1.00 FTE."
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "own_balance",
+     "quote": "Sick leave is leave with pay for sickness suffered by an employee or a member of the employee's immediate family."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Sick leave is leave with pay for sickness suffered by an employee or a member of the employee's immediate family."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "All employees are entitled to sick leave, military leave, jury and witness duty, civic duty, disaster leave, family and medical leave, and parental leave as noted in the applicable law and policies."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own illness), non_birth_parent (family member's illness)",
+     "quote": "Sick leave is leave with pay for sickness suffered by an employee or a member of the employee's immediate family."
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "All employees are entitled to sick leave, military leave, jury and witness duty, civic duty, disaster leave, family and medical leave, and parental leave as noted in the applicable law and policies."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "R1",
+     "answer": "own balance; 0 paid weeks",
+     "quote": "Sick leave is leave with pay for sickness suffered by an employee or a member of the employee's immediate family."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "90 calendar days",
+     "quote": "employees must work continuously for 90 calendar days before they qualify to use earned sick leave"
+    }
+   ]
+  },
+  {
+   "component_id": "montana_state_university_c7",
+   "institution_label": "Donated Sick Leave",
+   "description": "Sick leave donated by colleagues (directly or through the Donated Sick Leave Pool), up to 240 hours in 12 months, for an extensive illness, a pregnancy or childbirth related health condition, or an immediate family member's extensive illness, once all own sick, annual and compensatory leave is used; needs department and dean approval.",
+   "mechanism": "donated_leave",
+   "rule_applied": [
+    "R1d",
+    "V2",
+    "U5",
+    "R11"
+   ],
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "'eligible University employees'; HR page: 'eligible MSU faculty and staff'",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent"
+   ],
+   "eligible_parent_wording": "employee with a pregnancy or childbirth related health condition; employee whose immediate family member is suffering from an extensive illness",
+   "caregiver_condition": "none",
+   "service_requirement": "completed the 90 day qualifying period to use sick leave",
+   "entitlement": "discretionary",
+   "entitlement_note": "The policy 'allows, but does not guarantee' a pool; the recipient must 'obtain approval from the department head/director and dean/vice president', who 'may refuse to accept some or all sick leave donations'.",
+   "duration": {
+    "value": 240,
+    "units": "hour",
+    "qualifier": "up_to"
+   },
+   "duration_note": "Maximum 240 hours in any 12-month period (6 weeks by R11); HR page: 'up to six weeks of donated sick leave for pregnancy or childbirth-related health conditions'. Requires an absence of at least 10 consecutive working days.",
+   "must_exhaust_first": [
+    "sick",
+    "vacation",
+    "compensatory"
+   ],
+   "payer": "own_balance",
+   "pay_fraction": "donated sick leave hours (colleague-funded)",
+   "medical_certification": true,
+   "medical_certification_note": "a physician's certification of extensive illness or accident, pregnancy or childbirth related health condition",
+   "evidence": {
+    "faculty_group": [
+     "It is the policy of Montana State University-Bozeman to allow eligible University employees to share accumulated sick leave with other eligible employees"
+    ],
+    "eligible_parent": [
+     "suffer from an extensive illness or accident, or pregnancy or childbirth related health condition which results in absence from work of at least 10 consecutive working days;",
+     "An employee may also receive donated sick leave when a member of the"
+    ],
+    "entitlement": [
+     "This policy allows, but does not guarantee, the establishment of a pool of donated sick leave hours for eligible employees to draw from in accordance with this policy.",
+     "obtain approval from the department head/director and dean/vice president to receive a donations of a specific amount of sick leave from other employees."
+    ],
+    "duration": [
+     "Employees may receive a maximum of 240 hours of donated sick leave during any 12 month period, calculated from the first day the employee uses donated sick leave.",
+     "Eligible employees may use up to six weeks of donated sick leave for pregnancy or childbirth-related health conditions."
+    ],
+    "service_requirement": [
+     "have completed the 90 day qualifying period to use sick leave"
+    ],
+    "must_exhaust_first": [
+     "exhaust all personally accrued sick leave, annual leave, and compensatory time;"
+    ],
+    "pay_fraction": [
+     "sustained entirely by voluntary employee donation"
+    ]
+   },
+   "doc_ids": [
+    "2018_05_personnel_manual_1000_leave",
+    "2018_00_link"
+   ],
+   "flags": [
+    "ambiguous: restriction: only for an absence from work of at least 10 consecutive working days",
+    "cross_reference_not_saved: Montana University System Policy 801.7.1 Sick Leave Fund Policy",
+    "cross_reference_not_saved: Donated Sick Leave Pool Program pages (How does it work?; Departmental Finance Obligation)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "donated_leave",
+     "quote": "This policy allows, but does not guarantee, the establishment of a pool of donated sick leave hours for eligible employees to draw from in accordance with this policy."
+    },
+    {
+     "field": "payer",
+     "rule": "R1d",
+     "answer": "own_balance",
+     "quote": "sustained entirely by voluntary employee donation"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "suffer from an extensive illness or accident, or pregnancy or childbirth related health condition which results in absence from work of at least 10 consecutive working days;"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "It is the policy of Montana State University-Bozeman to allow eligible University employees to share accumulated sick leave with other eligible employees"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own condition), non_birth_parent (family member's illness)",
+     "quote": "An employee may also receive donated sick leave when a member of the"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "This policy allows, but does not guarantee, the establishment of a pool of donated sick leave hours for eligible employees to draw from in accordance with this policy."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "240 hours, up_to ('maximum'); 6 weeks by R11",
+     "quote": "Employees may receive a maximum of 240 hours of donated sick leave during any 12 month period, calculated from the first day the employee uses donated sick leave."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "R1d",
+     "answer": "colleague-funded bank; 0 paid weeks",
+     "quote": "sustained entirely by voluntary employee donation"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "90 day qualifying period",
+     "quote": "have completed the 90 day qualifying period to use sick leave"
+    }
+   ]
+  },
+  {
+   "component_id": "montana_state_university_c8",
+   "institution_label": "Disability Leave",
+   "description": "An employee who has exhausted sick leave may be transferred to leave without pay for a short-term disability (pregnancy and childbirth conditions are treated as temporary disabilities). No length stated.",
+   "mechanism": "unpaid_leave",
+   "rule_applied": [
+    "U5",
+    "V2",
+    "R15",
+    "R9"
+   ],
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "'Employees' (Personnel Policy 1035.50, all employees)",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "employees (own short term disability)",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "entitlement_note": "'may be transferred' with no grant language; leave without pay is 'approved by the employee's management' (V2).",
+   "duration_note": "No length stated ('a short term disability').",
+   "payer": "none",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "montana_state_university_c6",
+     "note": "after sick leave balances are exhausted (checklist §5 example 4)"
+    }
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Employees who have exhausted their sick leave balances may be transferred to leave without pay for a short term disability."
+    ],
+    "eligible_parent": [
+     "Employees who have exhausted their sick leave balances may be transferred to leave without pay for a short term disability.",
+     "A pregnancy or childbirth related health condition shall be treated the same as any temporary disability for all personnel actions"
+    ],
+    "entitlement": [
+     "Employees who have exhausted their sick leave balances may be transferred to leave without pay for a short term disability."
+    ],
+    "sequence": [
+     "Employees who have exhausted their sick leave balances may be transferred to leave without pay for a short term disability."
+    ]
+   },
+   "doc_ids": [
+    "2018_05_personnel_manual_1000_leave"
+   ],
+   "flags": [
+    "own_illness_leave"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "Employees who have exhausted their sick leave balances may be transferred to leave without pay for a short term disability."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Employees who have exhausted their sick leave balances may be transferred to leave without pay for a short term disability."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Employees who have exhausted their sick leave balances may be transferred to leave without pay for a short term disability."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Employees who have exhausted their sick leave balances may be transferred to leave without pay for a short term disability."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own disability)",
+     "quote": "Employees who have exhausted their sick leave balances may be transferred to leave without pay for a short term disability."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "Employees who have exhausted their sick leave balances may be transferred to leave without pay for a short term disability."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "consecutive_after c6 (sick leave exhausted)",
+     "quote": "Employees who have exhausted their sick leave balances may be transferred to leave without pay for a short term disability."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave; relief not stated)",
+     "quote": "Employees who have exhausted their sick leave balances may be transferred to leave without pay for a short term disability."
+    }
+   ]
+  },
+  {
+   "component_id": "montana_state_university_c9",
+   "institution_label": "Annual Vacation Leave",
+   "description": "Accrued annual vacation leave, which either parent may use during the bonding period; faculty on academic-year contracts accrue none (fiscal-year academic-rank staff accrue 21 days a year).",
+   "mechanism": "own_accrual",
+   "rule_applied": [
+    "R1",
+    "U1",
+    "V2"
+   ],
+   "faculty_group": "employees eligible for annual vacation leave (academic-rank employees on FY contracts and non-faculty employees); faculty on AY contracts excluded",
+   "faculty_group_note": "Faculty on academic-year (AY) contracts, the institution's standard faculty appointment, are not eligible (schema §2b).",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "either parent (HR page)",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "Accrued as earned; the dates are set by agreement with the supervisor (V2).",
+   "duration_note": "An accrued balance: 1.75 days per month for academic-rank FY employees; maximum carry-over two times the annual accrual; no advances.",
+   "payer": "own_balance",
+   "pay_fraction": "the employee's accrued annual leave",
+   "evidence": {
+    "faculty_group": [
+     "Faculty members on AY contracts, faculty appointed for the summer session, GRAs (Graduate Research Assistants) and GTAs (Graduate Teaching Assistants) are not eligible for annual vacation leave.",
+     "Faculty members with academic rank who are appointed on academic year contracts shall accrue no vacation leave."
+    ],
+    "eligible_parent": [
+     "Available annual leave hours may be used by either parent following a birth during the bonding period"
+    ],
+    "entitlement": [
+     "The dates when an employee takes annual leave is to be determined by agreement between employees and their supervisor"
+    ],
+    "pay_fraction": [
+     "Employees holding academic rank appointed on an FY (Fiscal Year) contract accrue annual leave at the rate of 1.75 days per month (21 days per year)"
+    ]
+   },
+   "doc_ids": [
+    "2018_05_personnel_manual_1000_leave",
+    "2018_02_fh_leaves_benefits",
+    "2018_00_link"
+   ],
+   "flags": [
+    "excludes_main_faculty",
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "own_accrual",
+     "quote": "Employees holding academic rank appointed on an FY (Fiscal Year) contract accrue annual leave at the rate of 1.75 days per month (21 days per year)"
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "own_balance",
+     "quote": "Employees holding academic rank appointed on an FY (Fiscal Year) contract accrue annual leave at the rate of 1.75 days per month (21 days per year)"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "The dates when an employee takes annual leave is to be determined by agreement between employees and their supervisor"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "employees eligible for annual vacation leave (academic-rank employees on FY contracts and non-faculty employees); faculty on AY contracts excluded",
+     "quote": "Faculty members on AY contracts, faculty appointed for the summer session, GRAs (Graduate Research Assistants) and GTAs (Graduate Teaching Assistants) are not eligible for annual vacation leave."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "Available annual leave hours may be used by either parent following a birth during the bonding period"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "The dates when an employee takes annual leave is to be determined by agreement between employees and their supervisor"
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "R1",
+     "answer": "own balance; 0 paid weeks",
+     "quote": "Employees holding academic rank appointed on an FY (Fiscal Year) contract accrue annual leave at the rate of 1.75 days per month (21 days per year)"
+    }
+   ]
+  },
+  {
+   "component_id": "montana_state_university_c10",
+   "institution_label": "Leave of Absence Without Pay",
+   "description": "General leave without pay, requested by the employee and approved by management on a cost-benefit assessment; faculty are eligible after two years of continuous service; normally not more than two years.",
+   "mechanism": "unpaid_leave",
+   "rule_applied": [
+    "U1",
+    "V2",
+    "Q1",
+    "R9"
+   ],
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "'Faculty, administrators, and professional supervisory personnel'",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "employee",
+   "caregiver_condition": "none",
+   "service_requirement": "two years of continuous service",
+   "entitlement": "discretionary",
+   "entitlement_note": "'requested by an employee and approved by the employee's management'; management 'should assess' the request on costs and benefits (V2).",
+   "duration": {
+    "value": 2,
+    "units": "year",
+    "qualifier": "up_to"
+   },
+   "duration_note": "'should normally not exceed two years' (Q1: up_to, 'normally' kept here). Leaves from 30 days to one semester need department head, dean and vice president approval; longer leaves for BOR-contract employees also need the President's.",
+   "payer": "none",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "evidence": {
+    "faculty_group": [
+     "Faculty, administrators, and professional supervisory personnel are eligible for a leave of absence without pay after two years of continuous service. The leave should normally not exceed two years."
+    ],
+    "eligible_parent": [
+     "Leave of absence without pay (LWOP) is a period of unpaid absence from employment requested by an employee and approved by the employee's management."
+    ],
+    "entitlement": [
+     "Leave of absence without pay (LWOP) is a period of unpaid absence from employment requested by an employee and approved by the employee's management.",
+     "The department management should assess an employee request for leave without pay based on an analysis which considers both direct and indirect costs against benefits to the department and the University."
+    ],
+    "duration": [
+     "The leave should normally not exceed two years."
+    ],
+    "service_requirement": [
+     "Faculty, administrators, and professional supervisory personnel are eligible for a leave of absence without pay after two years of continuous service. The leave should normally not exceed two years."
+    ]
+   },
+   "doc_ids": [
+    "2018_05_personnel_manual_1000_leave",
+    "2018_01_note"
+   ],
+   "flags": [
+    "general_purpose",
+    "cross_reference_not_saved: Montana Operations Manual Section 3-0330 Leave of Absence Without Pay",
+    "cross_reference_not_saved: Montana University System Policy 801.3 Leave Without Pay",
+    "cross_reference_not_saved: MSU Faculty Handbook Section 1200.00 Faculty Benefits"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "Leave of absence without pay (LWOP) is a period of unpaid absence from employment requested by an employee and approved by the employee's management."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Leave of absence without pay (LWOP) is a period of unpaid absence from employment requested by an employee and approved by the employee's management."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "Leave of absence without pay (LWOP) is a period of unpaid absence from employment requested by an employee and approved by the employee's management."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Faculty, administrators, and professional supervisory personnel are eligible for a leave of absence without pay after two years of continuous service. The leave should normally not exceed two years."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "Leave of absence without pay (LWOP) is a period of unpaid absence from employment requested by an employee and approved by the employee's management."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "Leave of absence without pay (LWOP) is a period of unpaid absence from employment requested by an employee and approved by the employee's management."
+    },
+    {
+     "field": "duration",
+     "rule": "Q1",
+     "answer": "2 years, up_to ('should normally not exceed')",
+     "quote": "The leave should normally not exceed two years."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "two years of continuous service",
+     "quote": "Faculty, administrators, and professional supervisory personnel are eligible for a leave of absence without pay after two years of continuous service. The leave should normally not exceed two years."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave; relief not stated)",
+     "quote": "Leave of absence without pay (LWOP) is a period of unpaid absence from employment requested by an employee and approved by the employee's management."
+    }
+   ]
+  },
+  {
+   "component_id": "montana_state_university_c11",
+   "institution_label": "Faculty Modified Duties (FMD)",
+   "description": "Full-time tenure-track and tenured faculty who are the primary caregiver after a birth, adoption or foster placement (or for a seriously ill family member) may have a release from teaching or other duties for up to one semester per event without a reduction in pay; terms set with the department head and dean, approved by the dean and provost; at most 50% of the annual workload.",
+   "mechanism": "modified_duties",
+   "mechanism_note": "'The period of modified duties is not a leave of absence.' Relief on active service.",
+   "rule_applied": [
+    "R12",
+    "V2",
+    "R6",
+    "R4",
+    "R4b",
+    "R3d",
+    "U5",
+    "R8"
+   ],
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "'All full-time tenure-track/tenured faculty'",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "primary care giver: 'a parent, a legal guardian, a live-in partner, or a spouse by marriage'; HR page: 'Tenure Track faculty, both men and women'",
+   "caregiver_condition": "primary",
+   "caregiver_condition_wording": "The primary care giver is the person who has primary responsibility for the care of a child, sick or disabled family member.",
+   "service_requirement": "full-time tenure-track/tenured appointment; no service period stated",
+   "entitlement": "negotiated",
+   "entitlement_note": "Eligibility and a 'right to faculty modified duties' are stated, but the extent ('up to one semester'; 'a release from a portion of or all teaching duties for all or part of a semester') is set by the faculty member, department head and dean together and approved by the dean and provost, with no guaranteed minimum (R12). The alternative reading is guaranteed_on_request (V2: the right is given and approval sets the arrangements); flagged.",
+   "duration": {
+    "value": 1,
+    "units": "semester",
+    "qualifier": "up_to"
+   },
+   "duration_note": "Up to one semester per triggering event; must begin within 12 months of the event; for a foreseeable event in the last six weeks of a semester, either that semester or the following one. The release may not exceed 50% of the normal annual workload.",
+   "payer": "employer",
+   "pay_fraction": "without a reduction in pay",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "continues",
+    "research": "continues",
+    "advising_supervision": "continues",
+    "clinical": "continues"
+   },
+   "relief_inferred": "unnamed duties continue (R4b)",
+   "relief_note": "Release from teaching (a portion or all, for all or part of a semester) 'or other appropriate duties', and/or an adjustment to service and/or research expectations, as agreed; not more than 50% of the normal workload for the academic year; no enhancement of other duties. Service and research are coded continues because their adjustment is optional; advising and clinical duties are unnamed (R4b).",
+   "time_window": "The period of modified duties must begin within twelve (12) months of the date of the triggering event.",
+   "notice": "inform the department head at least three (3) months or as practical prior to the semester in which the modified duties will be applied",
+   "sequence": [
+    {
+     "relation": "also_available",
+     "component_id": "montana_state_university_c1",
+     "note": "FMD does not take the place of maternity leave; no order stated (R3d)"
+    },
+    {
+     "relation": "also_available",
+     "component_id": "montana_state_university_c4",
+     "note": "FMD does not take the place of parental leave; no order stated (R3d)"
+    }
+   ],
+   "evidence": {
+    "faculty_group": [
+     "All full-time tenure-track/tenured faculty are eligible for FMD when they are the primary care giver related to the following life events:"
+    ],
+    "eligible_parent": [
+     "The birth, adoption, or foster care placement of a child.",
+     "For purposes of this policy, a primary care giver can be a parent, a legal guardian, a live-in partner, or a spouse by marriage."
+    ],
+    "caregiver_condition": [
+     "The primary care giver is the person who has primary responsibility for the care of a child, sick or disabled family member.",
+     "All full-time tenure-track/tenured faculty are eligible for FMD when they are the primary care giver related to the following life events:"
+    ],
+    "entitlement": [
+     "The faculty member, department head, and dean shall work together to set the terms of the modified duties.",
+     "Modifications may include a release from a portion of or all teaching duties for all or part of a semester, and/or an adjustment to the faculty",
+     "No faculty member shall experience reprisal for exercising the right to faculty modified duties.",
+     "The department head shall complete the request for FMD and submit it to the dean and provost for approval."
+    ],
+    "duration": [
+     "providing a release from teaching or other appropriate duties for up to one semester once per triggering event without a reduction in pay and without an expectation of enhancement of other duties."
+    ],
+    "pay_fraction": [
+     "providing a release from teaching or other appropriate duties for up to one semester once per triggering event without a reduction in pay and without an expectation of enhancement of other duties."
+    ],
+    "relief": [
+     "providing a release from teaching or other appropriate duties for up to one semester once per triggering event without a reduction in pay and without an expectation of enhancement of other duties.",
+     "Modifications may include a release from a portion of or all teaching duties for all or part of a semester, and/or an adjustment to the faculty",
+     "The FMD shall not release the faculty member from more than 50% of the faculty member"
+    ],
+    "sequence": [
+     "parental and maternity leave, sick leave, family medical leave, disability benefits, or other leave processes available to faculty"
+    ],
+    "service_requirement": [
+     "All full-time tenure-track/tenured faculty are eligible for FMD when they are the primary care giver related to the following life events:"
+    ],
+    "payer": [
+     "The university will provide a pool for funding faculty modified duties."
+    ]
+   },
+   "doc_ids": [
+    "2018_03_fh_faculty_modified_duties",
+    "2018_01_note"
+   ],
+   "flags": [
+    "ambiguous: entitlement: a 'right to faculty modified duties' is stated, but its extent is set by agreement with no stated minimum; coded negotiated (R12), guaranteed_on_request is the alternative (V2)",
+    "ambiguous: restriction: the release may not exceed 50% of the normal workload for the academic year",
+    "cross_reference_not_saved: ADVANCE website (Family Advocate)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "modified_duties",
+     "quote": "The period of modified duties is not a leave of absence."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "The university will provide a pool for funding faculty modified duties."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "The birth, adoption, or foster care placement of a child."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "All full-time tenure-track/tenured faculty are eligible for FMD when they are the primary care giver related to the following life events:"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R6",
+     "answer": "birth_parent, non_birth_parent, adoptive, foster (primary caregiver, gender-neutral)",
+     "quote": "For purposes of this policy, a primary care giver can be a parent, a legal guardian, a live-in partner, or a spouse by marriage."
+    },
+    {
+     "field": "caregiver_condition",
+     "rule": "R6",
+     "answer": "primary",
+     "quote": "The primary care giver is the person who has primary responsibility for the care of a child, sick or disabled family member."
+    },
+    {
+     "field": "entitlement",
+     "rule": "R12",
+     "answer": "negotiated",
+     "quote": "The faculty member, department head, and dean shall work together to set the terms of the modified duties."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "negotiated",
+     "quote": "Modifications may include a release from a portion of or all teaching duties for all or part of a semester, and/or an adjustment to the faculty"
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 semester, up_to",
+     "quote": "providing a release from teaching or other appropriate duties for up to one semester once per triggering event without a reduction in pay and without an expectation of enhancement of other duties."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "without a reduction in pay",
+     "quote": "providing a release from teaching or other appropriate duties for up to one semester once per triggering event without a reduction in pay and without an expectation of enhancement of other duties."
+    },
+    {
+     "field": "relief",
+     "rule": "R4",
+     "answer": "teaching relieved; service and research continue (an adjustment to them is optional, not granted)",
+     "quote": "Modifications may include a release from a portion of or all teaching duties for all or part of a semester, and/or an adjustment to the faculty"
+    },
+    {
+     "field": "relief",
+     "rule": "R4b",
+     "answer": "duties other than teaching continue: advising and clinical unnamed; service and research adjustment optional",
+     "quote": "providing a release from teaching or other appropriate duties for up to one semester once per triggering event without a reduction in pay and without an expectation of enhancement of other duties."
+    },
+    {
+     "field": "sequence",
+     "rule": "R3d",
+     "answer": "also_available with c1 and c4 (no order stated)",
+     "quote": "parental and maternity leave, sick leave, family medical leave, disability benefits, or other leave processes available to faculty"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "full-time tenure-track/tenured faculty",
+     "quote": "All full-time tenure-track/tenured faculty are eligible for FMD when they are the primary care giver related to the following life events:"
+    }
+   ]
+  },
+  {
+   "component_id": "montana_state_university_c12",
+   "institution_label": "Automatic Extension of the Retention and/or Tenure Review Period",
+   "description": "The retention or tenure review period is extended automatically by one year for childbirth, adoption or foster placement (both parents), serious illness, a death in the family, or full-time military service; one automatic extension per faculty member; the faculty member may opt out.",
+   "mechanism": "tenure_clock",
+   "rule_applied": [
+    "U1",
+    "U9",
+    "R5"
+   ],
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Faculty Handbook policy for tenurable faculty; 'Each faculty member'",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "applicable to both parents",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "exact"
+   },
+   "duration_note": "One academic year; opt-out allowed before March 30 prior to the review year. No combination of automatic and requested extensions may exceed three years in total per faculty member (tenure-clock total, not a leave limit).",
+   "use_limit": [
+    {
+     "times": 1,
+     "per": "career"
+    }
+   ],
+   "use_limit_note": "'Each faculty member is entitled to one automatic extension of either the retention or tenure review.' Total extensions capped at three years. The HR faculty-options page says 'may be extended for one year, up to three times'.",
+   "payer": "none",
+   "notice": "Notification must be made no later than twelve (12) months after the event.",
+   "evidence": {
+    "faculty_group": [
+     "The MSU Faculty Handbook (Handbook) contains certain policies and procedures specifically related to tenurable faculty",
+     "Each faculty member is entitled to one automatic extension of either the retention or tenure review."
+    ],
+    "eligible_parent": [
+     "Childbirth, adoption or placement of a foster child in the home (applicable to both parents)."
+    ],
+    "entitlement": [
+     "The tenure review period is extended automatically for one (1) year for the following reasons:",
+     "Each faculty member is entitled to one automatic extension of either the retention or tenure review."
+    ],
+    "duration": [
+     "The tenure review period is extended automatically for one (1) year for the following reasons:"
+    ],
+    "use_limit": [
+     "Each faculty member is entitled to one automatic extension of either the retention or tenure review."
+    ],
+    "general_purpose": [
+     "Full-time military service."
+    ]
+   },
+   "doc_ids": [
+    "2018_04_fh_extending_tenure",
+    "2018_06_fh_foreword",
+    "2018_01_note"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "The tenure review period is extended automatically for one (1) year for the following reasons:"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "The tenure review period is extended automatically for one (1) year for the following reasons:"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "Full-time military service."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "The MSU Faculty Handbook (Handbook) contains certain policies and procedures specifically related to tenurable faculty"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "birth_parent, non_birth_parent, adoptive, foster",
+     "quote": "Childbirth, adoption or placement of a foster child in the home (applicable to both parents)."
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "Each faculty member is entitled to one automatic extension of either the retention or tenure review."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 year, exact",
+     "quote": "The tenure review period is extended automatically for one (1) year for the following reasons:"
+    },
+    {
+     "field": "use_limit",
+     "rule": "U9",
+     "answer": "times 1 per career",
+     "quote": "Each faculty member is entitled to one automatic extension of either the retention or tenure review."
+    }
+   ]
+  },
+  {
+   "component_id": "montana_state_university_c13",
+   "institution_label": "",
+   "description": "Equal-treatment protection: a pregnancy or childbirth related health condition is treated the same as any temporary disability for all personnel actions, including length and extension of leave and reinstatement. No length of its own.",
+   "mechanism": "other",
+   "mechanism_note": "Protection by equal treatment with other leaves, with no length of its own (U4); the leaves it refers to carry the protection.",
+   "rule_applied": [
+    "U4"
+   ],
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "'any applicant or employee' (Personnel Policy 1025.20)",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "employee with a pregnancy or childbirth related health condition",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "payer": "none",
+   "evidence": {
+    "faculty_group": [
+     "MSU-Bozeman shall not discriminate against and/or exclude from employment any applicant or employee on the basis of a pregnancy or childbirth related health condition."
+    ],
+    "eligible_parent": [
+     "A pregnancy or childbirth related health condition shall be treated the same as any temporary disability for all personnel actions (e.g., length and extension of leave, retention of seniority, reinstatement, or fringe benefits)."
+    ],
+    "entitlement": [
+     "A pregnancy or childbirth related health condition shall be treated the same as any temporary disability for all personnel actions (e.g., length and extension of leave, retention of seniority, reinstatement, or fringe benefits)."
+    ]
+   },
+   "doc_ids": [
+    "2018_05_personnel_manual_1000_leave"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "U4",
+     "answer": "other",
+     "quote": "A pregnancy or childbirth related health condition shall be treated the same as any temporary disability for all personnel actions (e.g., length and extension of leave, retention of seniority, reinstatement, or fringe benefits)."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "A pregnancy or childbirth related health condition shall be treated the same as any temporary disability for all personnel actions (e.g., length and extension of leave, retention of seniority, reinstatement, or fringe benefits)."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "A pregnancy or childbirth related health condition shall be treated the same as any temporary disability for all personnel actions (e.g., length and extension of leave, retention of seniority, reinstatement, or fringe benefits)."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "MSU-Bozeman shall not discriminate against and/or exclude from employment any applicant or employee on the basis of a pregnancy or childbirth related health condition."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "birth_parent",
+     "quote": "A pregnancy or childbirth related health condition shall be treated the same as any temporary disability for all personnel actions (e.g., length and extension of leave, retention of seniority, reinstatement, or fringe benefits)."
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "A pregnancy or childbirth related health condition shall be treated the same as any temporary disability for all personnel actions (e.g., length and extension of leave, retention of seniority, reinstatement, or fringe benefits)."
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "reference date 2018-02-25.",
+  "Governing documents: Personnel Policy and Procedures Manual 1000.00 (applies to all employees; the Faculty Handbook's Leaves and Benefits policy, effective July 1, 2017, points to it for sick, family and medical, and parental leave) and the Faculty Handbook policies on Faculty Modified Duties and Extending the Tenure Review Period (both effective July 1, 2017). missing is false.",
+  "Version: the saved copy of Manual 1000.00 is a Wayback capture of 2016-01-17, before the reference period (2017-18); its sections carry their own dates (latest: 1025.00 and 1045.00 effective February 1, 2013). The HR summary page (Wayback 2018-11-21) cites the same sections 1025.00, 1030.00, 1045.00 and 1070.00 and restates their terms (six weeks of sick leave for recovery, 15 workdays of parental leave, 12 workweeks of FMLA, 240 hours of donated sick leave), so no change by the reference date is indicated; no version_uncertain flag set.",
+  "Summaries: 2018_00_link (HR leave page, undated, copy Nov 2018) and 2018_01_note (HR faculty options page, undated, copy March 2020, after the reference period). Neither adds a provision absent from the governing documents. 2018_01_note's 'Opt out of Stop-the-Clock Policy Change' describes an opt-out programme as a proposal, whereas the governing Faculty Handbook policy (effective July 1, 2017) already makes the extension automatic with an opt-out; the governing document is coded.",
+  "Not components: the Requested Extension of the Tenure Period (Handbook section 5) applies only to circumstances 'other than an event listed in Section 3', so a parent cannot use it for a birth or adoption. Military leave, jury and witness leave, public office leave, severe weather leave, training time, holidays, the EAP, moving expenses and the tuition waiver cannot be used for a birth. Compensatory time (Manual 915.00, not saved) is named only as a source of pay for maternity and parental leave. Workers' compensation is for work-related injury.",
+  "No employer-paid parental leave: every maternity and parental leave is paid only from the employee's own sick leave, annual leave (academic-year faculty accrue none), compensatory time or donated sick leave, or is unpaid (R1, R1b, R1d). The only employer-paid provision is Faculty Modified Duties (c11), relief without a reduction in pay, coded negotiated (see its flag).",
+  "Calendar: the FMD policy refers to 'the semester calendar'; the documents state the kind of term but not its length, so calendar.kind = semester, and the term length follows R8's order.",
+  "Cross-references not saved: MCA 49-2-310; MCA 2-18-606; MCA 2-18-618; Montana Operations Manual 3-0305, 3-0310, 3-0312, 3-0321, 3-0322, 3-0325, 3-0330; Montana University System (Board of Regents) Policies 708.1.1, 801.3, 801.5, 801.7.1, 801.14.1, 801.14.2, 803.2, 804.4, 940.13; MSU Faculty Handbook Sections 1200.00, 1211.00, 1232.00 and Appendix A; MSU Personnel Manual Section 915.00 (Overtime/Compensatory Time); 29 CFR Part 825; the Family Medical Leave Fact Sheet and Form; the Faculty and Staff Leave Request form (LeaveWithoutPay.pdf); the Donated Sick Leave Form and the Donated Sick Leave Pool pages; the ADVANCE website.",
+  "Chain, birth parent: maternity leave, six-week disability period on own sick or donated sick leave (c1), with the MCA 49-2-310 reasonable leave (c3) and FMLA 12 workweeks (c5) alongside from its start -> discretionary extension on annual leave, compensatory time or leave without pay (c2, no length); Faculty Modified Duties, up to one semester of relief (c11), also available with no order stated. Sick leave (c6) -> disability leave without pay (c8) once sick leave is exhausted.",
+  "Chain, non-birth parent: parental leave of up to 15 working days immediately after the birth (c4), with FMLA 12 workweeks (c5) alongside from its start; Faculty Modified Duties (c11), if the primary caregiver, also available with no order stated."
+ ],
+ "statutory_floor": {
+  "jurisdiction": "US",
+  "year": "2018",
+  "weeks_birth": 12.0,
+  "weeks_nonbirth": 12.0,
+  "statute": "Family and Medical Leave Act (FMLA) (29 U.S.C. 2611-2612)",
+  "source_doc": "2026_00_us_fmla_29usc2612",
+  "table": "statutory_baseline.csv"
+ }
+}

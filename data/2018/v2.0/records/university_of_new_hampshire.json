@@ -1,0 +1,2962 @@
+{
+ "institution": "University of New Hampshire",
+ "slug": "university_of_new_hampshire",
+ "country": "US",
+ "model": "claude-opus-5-5",
+ "codebook_version": "1.25",
+ "schema_version": "1.25",
+ "reference_date": "2018-03-12",
+ "calendar": {
+  "term_weeks": null,
+  "note": "Semester calendar stated for academic-year faculty (CBA 17.4.5.4: 'For faculty on academic year appointments: one semester at full salary or two semesters at half salary'); no length stated, so the semester default (R8).",
+  "kind": "semester"
+ },
+ "documents": [
+  {
+   "doc_id": "2018_01_faculty_handbook_sec3_employment_policies",
+   "url": "http://www.unh.edu/provost/section-3-faculty-employment-policies",
+   "title": "UNH Office of the Provost, Faculty Resource Guide, Section 3: Faculty Employment Policies",
+   "version_or_effective_date": "undated page (copyright 2017); Wayback capture 2017-09-24",
+   "retrieved": "2026-10-22"
+  },
+  {
+   "doc_id": "2018_02_aaup_unh_cba_2015_2020",
+   "url": "https://www.nh.gov/pelrb/collective/documents/unh_faculty.pdf",
+   "title": "Collective Bargaining Agreement, USNH Board of Trustees/UNH and UNH Chapter of AAUP, July 1, 2015 - June 30, 2020",
+   "version_or_effective_date": "term July 1, 2015 - June 30, 2020",
+   "retrieved": "2026-10-22"
+  },
+  {
+   "doc_id": "2018_03_usnh_policy_usy_v_c_employment_lwop_fmla",
+   "url": "http://www.usnh.edu/policy/usy/v-personnel-policies/c-employment",
+   "title": "USNH Online Policy Manual, USY V.C Employment (incl. 16 Leaves Without Pay, 19 FMLA)",
+   "version_or_effective_date": "page last updated April 4, 2017; Wayback capture 2017-09-24",
+   "retrieved": "2026-10-22"
+  },
+  {
+   "doc_id": "2018_04_usnh_policy_usy_v_a_employee_benefits_disability",
+   "url": "http://www.usnh.edu/policy/usy/v-personnel-policies/employee-benefits",
+   "title": "USNH Online Policy Manual, USY V.A Employee Benefits (incl. 4.11 Sick Leave, 4.12 Interim Disability, 4.12.6 Pregnancy-related)",
+   "version_or_effective_date": "page last updated June 22, 2017; Wayback capture 2017-08-29",
+   "retrieved": "2026-10-22"
+  },
+  {
+   "doc_id": "2026_00_us_fmla_29usc2612",
+   "title": "29 U.S.C. 2612 (FMLA leave entitlement)",
+   "version_or_effective_date": "2026 text; leave length unchanged since 1993",
+   "url": "https://www.law.cornell.edu/uscode/text/29/2612",
+   "retrieved": "2026-10-19"
+  },
+  {
+   "doc_id": "2026_01_us_fmla_29usc2611_definitions",
+   "title": "29 U.S.C. 2611 (FMLA definitions, eligible employee)",
+   "version_or_effective_date": "2026 text",
+   "url": "https://www.law.cornell.edu/uscode/text/29/2611",
+   "retrieved": "2026-10-19"
+  }
+ ],
+ "missing": false,
+ "scope_accounting": {
+  "C1": {
+   "components": [
+    "university_of_new_hampshire_c1",
+    "university_of_new_hampshire_c14",
+    "university_of_new_hampshire_c15"
+   ]
+  },
+  "C2": {
+   "components": [
+    "university_of_new_hampshire_c8"
+   ]
+  },
+  "C3": {
+   "components": [
+    "university_of_new_hampshire_c3",
+    "university_of_new_hampshire_c4",
+    "university_of_new_hampshire_c5",
+    "university_of_new_hampshire_c6",
+    "university_of_new_hampshire_c12",
+    "university_of_new_hampshire_c13",
+    "university_of_new_hampshire_c17",
+    "university_of_new_hampshire_c21"
+   ]
+  },
+  "C4": {
+   "components": [
+    "university_of_new_hampshire_c2"
+   ],
+   "not_components": [
+    {
+     "statute": "Americans with Disabilities Act (ADA)",
+     "reason": "disability accommodation and fitness-for-duty; not leave for becoming a parent (U4)"
+    },
+    {
+     "statute": "Uniformed Services Employment and Reemployment Rights Act (USERRA)",
+     "reason": "military leave (U4)"
+    },
+    {
+     "statute": "Genetic Information Nondiscrimination Act (GINA)",
+     "reason": "non-discrimination; no leave (U4)"
+    },
+    {
+     "statute": "Immigration Reform and Control Act",
+     "reason": "right-to-work verification (U4)"
+    },
+    {
+     "statute": "Fair Labor Standards Act (FLSA)",
+     "reason": "pay classification (U4)"
+    },
+    {
+     "statute": "Fair Credit Reporting Act",
+     "reason": "background reviews (U4)"
+    },
+    {
+     "statute": "Equal Employment Opportunity legislation; Title VII; Title IX; Equal Pay Act",
+     "reason": "non-discrimination and pay equity, named for recruitment and compensation; no leave length (U4)"
+    },
+    {
+     "statute": "Rehabilitation Act of 1973 (s. 503, s. 504)",
+     "reason": "medical examinations for heavy physical work (U4)"
+    },
+    {
+     "statute": "Health Insurance Portability & Accountability Act (HIPAA)",
+     "reason": "health-information privacy (U4)"
+    },
+    {
+     "statute": "Consolidated Omnibus Budget Reconciliation Act (COBRA)",
+     "reason": "continuation of medical coverage after loss of coverage (U4)"
+    },
+    {
+     "statute": "Affordable Care Act (ACA)",
+     "reason": "adjunct medical-plan eligibility (U4)"
+    },
+    {
+     "statute": "Social Security Act (Titles II and XVI); federal Social Security program",
+     "reason": "retirement and disability-determination references (U4)"
+    },
+    {
+     "statute": "Internal Revenue Code (403(b), 457(b), 401(a)(17), section 125 plan)",
+     "reason": "retirement and flexible-benefit tax rules (U4)"
+    },
+    {
+     "statute": "USA PATRIOT Act",
+     "reason": "background checks for foreign nationals (U4)"
+    },
+    {
+     "statute": "NH RSA 281-A (Workers' Compensation)",
+     "reason": "work-related injury; not becoming a parent (U4)"
+    },
+    {
+     "statute": "NH unemployment compensation law",
+     "reason": "job loss (U4)"
+    },
+    {
+     "statute": "NH RSA 275:61 (crime victim leave)",
+     "reason": "court attendance for crime victims (U4; checklist §1)"
+    },
+    {
+     "statute": "NH RSA 274:66 (first responders)",
+     "reason": "emergency service leave (U4)"
+    },
+    {
+     "statute": "NH RSA 275:56 (employee access to personnel records)",
+     "reason": "personnel records (U4)"
+    },
+    {
+     "statute": "NH RSA 485-A and Env-Wq 909.05 (youth skills camps)",
+     "reason": "background checks (U4)"
+    },
+    {
+     "statute": "NH RSA 542:1 (arbitration)",
+     "reason": "grievance appeals (U4)"
+    },
+    {
+     "statute": "NH food-handling rules (He-P 2300), NH Child Care Licensing Rules, federal Food Code",
+     "reason": "food-handling standards (U4)"
+    }
+   ]
+  },
+  "C5": {
+   "components": [
+    "university_of_new_hampshire_c7",
+    "university_of_new_hampshire_c14",
+    "university_of_new_hampshire_c15",
+    "university_of_new_hampshire_c16"
+   ]
+  },
+  "C6": {
+   "components": [
+    "university_of_new_hampshire_c11",
+    "university_of_new_hampshire_c17",
+    "university_of_new_hampshire_c18"
+   ]
+  },
+  "C7": {
+   "components": [
+    "university_of_new_hampshire_c9",
+    "university_of_new_hampshire_c10"
+   ]
+  },
+  "C8": {
+   "components": [
+    "university_of_new_hampshire_c19",
+    "university_of_new_hampshire_c20",
+    "university_of_new_hampshire_c22"
+   ]
+  },
+  "C9": {
+   "absent": {
+    "documents": [
+     "2018_01_faculty_handbook_sec3_employment_policies",
+     "2018_02_aaup_unh_cba_2015_2020",
+     "2018_03_usnh_policy_usy_v_c_employment_lwop_fmla",
+     "2018_04_usnh_policy_usy_v_a_employee_benefits_disability"
+    ],
+    "terms": [
+     "accommodation",
+     "pregnan",
+     "transfer",
+     "hazard",
+     "light duty",
+     "less strenuous",
+     "equal treatment"
+    ]
+   }
+  },
+  "C10": {
+   "absent": {
+    "documents": [
+     "2018_01_faculty_handbook_sec3_employment_policies",
+     "2018_02_aaup_unh_cba_2015_2020",
+     "2018_03_usnh_policy_usy_v_c_employment_lwop_fmla",
+     "2018_04_usnh_policy_usy_v_a_employee_benefits_disability"
+    ],
+    "terms": [
+     "first",
+     "days",
+     "FMLA",
+     "regular work time",
+     "paid",
+     "qualifying event"
+    ]
+   }
+  }
+ },
+ "passage_dispositions": {
+  "2018_01_faculty_handbook_sec3_employment_policies#001": {
+   "not_relevant": "site navigation and section 3.1-3.2 introduction (workload); no leave provision"
+  },
+  "2018_01_faculty_handbook_sec3_employment_policies#002": {
+   "used_in": [
+    "university_of_new_hampshire_c1",
+    "university_of_new_hampshire_c3",
+    "university_of_new_hampshire_c10",
+    "university_of_new_hampshire_c11",
+    "university_of_new_hampshire_c16",
+    "university_of_new_hampshire_c19"
+   ]
+  },
+  "2018_02_aaup_unh_cba_2015_2020#001": {
+   "used_in": [
+    "university_of_new_hampshire_c9"
+   ]
+  },
+  "2018_02_aaup_unh_cba_2015_2020#002": {
+   "not_relevant": "promotion and tenure review procedure and dismissal (13.20-14.2)"
+  },
+  "2018_02_aaup_unh_cba_2015_2020#003": {
+   "not_relevant": "financial exigency notice and resignation (14.6-14.7)"
+  },
+  "2018_02_aaup_unh_cba_2015_2020#004": {
+   "not_relevant": "medical plan premiums (17.2)"
+  },
+  "2018_02_aaup_unh_cba_2015_2020#005": {
+   "not_relevant": "Voluntary Separation Program (17.3.5)"
+  },
+  "2018_02_aaup_unh_cba_2015_2020#006": {
+   "used_in": [
+    "university_of_new_hampshire_c1",
+    "university_of_new_hampshire_c2",
+    "university_of_new_hampshire_c3",
+    "university_of_new_hampshire_c4",
+    "university_of_new_hampshire_c5",
+    "university_of_new_hampshire_c7",
+    "university_of_new_hampshire_c8",
+    "university_of_new_hampshire_c9"
+   ]
+  },
+  "2018_02_aaup_unh_cba_2015_2020#007": {
+   "used_in": [
+    "university_of_new_hampshire_c9"
+   ]
+  },
+  "2018_02_aaup_unh_cba_2015_2020#008": {
+   "used_in": [
+    "university_of_new_hampshire_c9"
+   ]
+  },
+  "2018_02_aaup_unh_cba_2015_2020#009": {
+   "used_in": [
+    "university_of_new_hampshire_c9"
+   ]
+  },
+  "2018_03_usnh_policy_usy_v_c_employment_lwop_fmla#001": {
+   "not_relevant": "right-to-work verification and background review (4.1-4.2)"
+  },
+  "2018_03_usnh_policy_usy_v_c_employment_lwop_fmla#002": {
+   "not_relevant": "Operating Staff appointment definition (6.3.1)"
+  },
+  "2018_03_usnh_policy_usy_v_c_employment_lwop_fmla#003": {
+   "not_relevant": "PAT appointment definition (6.3.5)"
+  },
+  "2018_03_usnh_policy_usy_v_c_employment_lwop_fmla#004": {
+   "not_relevant": "Principal and Academic Administrator appointments (6.3.7-6.3.8)"
+  },
+  "2018_03_usnh_policy_usy_v_c_employment_lwop_fmla#005": {
+   "not_relevant": "Academic Administrator and Extension Educator appointments (6.3.8-6.3.9)"
+  },
+  "2018_03_usnh_policy_usy_v_c_employment_lwop_fmla#006": {
+   "not_relevant": "Extension Educator appointments (6.3.9)"
+  },
+  "2018_03_usnh_policy_usy_v_c_employment_lwop_fmla#007": {
+   "not_relevant": "academic faculty appointment authority (6.3.11)"
+  },
+  "2018_03_usnh_policy_usy_v_c_employment_lwop_fmla#008": {
+   "not_relevant": "academic faculty appointment duration and rank (6.3.11)"
+  },
+  "2018_03_usnh_policy_usy_v_c_employment_lwop_fmla#009": {
+   "not_relevant": "disciplinary actions, probation and demotion (8.2-8.4)"
+  },
+  "2018_03_usnh_policy_usy_v_c_employment_lwop_fmla#010": {
+   "not_relevant": "resignation (9.1)"
+  },
+  "2018_03_usnh_policy_usy_v_c_employment_lwop_fmla#011": {
+   "not_relevant": "retirement benefits and job abandonment (9.2-9.3)"
+  },
+  "2018_03_usnh_policy_usy_v_c_employment_lwop_fmla#012": {
+   "not_relevant": "termination appeals and termination for cause (9.8-9.10)"
+  },
+  "2018_03_usnh_policy_usy_v_c_employment_lwop_fmla#013": {
+   "not_relevant": "termination for cause and authority (9.10)"
+  },
+  "2018_03_usnh_policy_usy_v_c_employment_lwop_fmla#014": {
+   "not_relevant": "lay-off benefits and recall (10.2-10.3)"
+  },
+  "2018_03_usnh_policy_usy_v_c_employment_lwop_fmla#015": {
+   "not_relevant": "recall and employment breaks (10.4-11)"
+  },
+  "2018_03_usnh_policy_usy_v_c_employment_lwop_fmla#016": {
+   "not_relevant": "employment breaks (11.1)"
+  },
+  "2018_03_usnh_policy_usy_v_c_employment_lwop_fmla#017": {
+   "not_relevant": "employment breaks and fitness for duty (11.2-12)"
+  },
+  "2018_03_usnh_policy_usy_v_c_employment_lwop_fmla#018": {
+   "not_relevant": "fitness for duty; five days' paid leave when hazardous to others (12.1), not usable for a birth"
+  },
+  "2018_03_usnh_policy_usy_v_c_employment_lwop_fmla#019": {
+   "not_relevant": "food handlers and incentive separation plans (12.3-13.1)"
+  },
+  "2018_03_usnh_policy_usy_v_c_employment_lwop_fmla#020": {
+   "not_relevant": "incentive separation eligibility (13.3)"
+  },
+  "2018_03_usnh_policy_usy_v_c_employment_lwop_fmla#021": {
+   "used_in": [
+    "university_of_new_hampshire_c11",
+    "university_of_new_hampshire_c12",
+    "university_of_new_hampshire_c19"
+   ]
+  },
+  "2018_03_usnh_policy_usy_v_c_employment_lwop_fmla#022": {
+   "used_in": [
+    "university_of_new_hampshire_c11",
+    "university_of_new_hampshire_c12",
+    "university_of_new_hampshire_c19"
+   ]
+  },
+  "2018_03_usnh_policy_usy_v_c_employment_lwop_fmla#023": {
+   "not_relevant": "military leave (17.1-17.2)"
+  },
+  "2018_03_usnh_policy_usy_v_c_employment_lwop_fmla#024": {
+   "not_relevant": "military leave benefits and pay differential (17.2)"
+  },
+  "2018_03_usnh_policy_usy_v_c_employment_lwop_fmla#025": {
+   "not_relevant": "military leave reinstatement and temporary duty (17.2-17.3)"
+  },
+  "2018_03_usnh_policy_usy_v_c_employment_lwop_fmla#026": {
+   "used_in": [
+    "university_of_new_hampshire_c2",
+    "university_of_new_hampshire_c13"
+   ]
+  },
+  "2018_03_usnh_policy_usy_v_c_employment_lwop_fmla#027": {
+   "used_in": [
+    "university_of_new_hampshire_c13"
+   ]
+  },
+  "2018_03_usnh_policy_usy_v_c_employment_lwop_fmla#028": {
+   "used_in": [
+    "university_of_new_hampshire_c2",
+    "university_of_new_hampshire_c13"
+   ]
+  },
+  "2018_03_usnh_policy_usy_v_c_employment_lwop_fmla#029": {
+   "used_in": [
+    "university_of_new_hampshire_c20"
+   ]
+  },
+  "2018_04_usnh_policy_usy_v_a_employee_benefits_disability#001": {
+   "not_relevant": "workers' compensation claims and payment (3.2)"
+  },
+  "2018_04_usnh_policy_usy_v_a_employee_benefits_disability#002": {
+   "not_relevant": "workers' compensation supplement and position status (3.2)"
+  },
+  "2018_04_usnh_policy_usy_v_a_employee_benefits_disability#003": {
+   "not_relevant": "workers' compensation benefits continuation and return to work (3.2)"
+  },
+  "2018_04_usnh_policy_usy_v_a_employee_benefits_disability#004": {
+   "not_relevant": "EAP and general benefits eligibility (3.4-4.1)"
+  },
+  "2018_04_usnh_policy_usy_v_a_employee_benefits_disability#005": {
+   "used_in": [
+    "university_of_new_hampshire_c6"
+   ]
+  },
+  "2018_04_usnh_policy_usy_v_a_employee_benefits_disability#006": {
+   "used_in": [
+    "university_of_new_hampshire_c6"
+   ]
+  },
+  "2018_04_usnh_policy_usy_v_a_employee_benefits_disability#007": {
+   "not_relevant": "benefit enrolment, family-status changes and police death benefit (4.3.4-4.4)"
+  },
+  "2018_04_usnh_policy_usy_v_a_employee_benefits_disability#008": {
+   "not_relevant": "retirement vesting and tuition benefit (4.6-4.7)"
+  },
+  "2018_04_usnh_policy_usy_v_a_employee_benefits_disability#009": {
+   "not_relevant": "tuition benefit and paid holidays (4.7-4.8)"
+  },
+  "2018_04_usnh_policy_usy_v_a_employee_benefits_disability#010": {
+   "not_relevant": "paid holidays (4.8)"
+  },
+  "2018_04_usnh_policy_usy_v_a_employee_benefits_disability#011": {
+   "used_in": [
+    "university_of_new_hampshire_c17"
+   ]
+  },
+  "2018_04_usnh_policy_usy_v_a_employee_benefits_disability#012": {
+   "used_in": [
+    "university_of_new_hampshire_c17"
+   ]
+  },
+  "2018_04_usnh_policy_usy_v_a_employee_benefits_disability#013": {
+   "used_in": [
+    "university_of_new_hampshire_c17"
+   ]
+  },
+  "2018_04_usnh_policy_usy_v_a_employee_benefits_disability#014": {
+   "used_in": [
+    "university_of_new_hampshire_c15",
+    "university_of_new_hampshire_c17"
+   ]
+  },
+  "2018_04_usnh_policy_usy_v_a_employee_benefits_disability#015": {
+   "used_in": [
+    "university_of_new_hampshire_c18"
+   ]
+  },
+  "2018_04_usnh_policy_usy_v_a_employee_benefits_disability#016": {
+   "used_in": [
+    "university_of_new_hampshire_c18"
+   ]
+  },
+  "2018_04_usnh_policy_usy_v_a_employee_benefits_disability#017": {
+   "used_in": [
+    "university_of_new_hampshire_c2",
+    "university_of_new_hampshire_c3",
+    "university_of_new_hampshire_c4",
+    "university_of_new_hampshire_c5",
+    "university_of_new_hampshire_c14",
+    "university_of_new_hampshire_c18"
+   ]
+  },
+  "2018_04_usnh_policy_usy_v_a_employee_benefits_disability#018": {
+   "not_relevant": "adjunct medical plan and benefits after termination (5.2-6.1)"
+  },
+  "2018_04_usnh_policy_usy_v_a_employee_benefits_disability#019": {
+   "used_in": [
+    "university_of_new_hampshire_c6"
+   ]
+  },
+  "2018_04_usnh_policy_usy_v_a_employee_benefits_disability#020": {
+   "used_in": [
+    "university_of_new_hampshire_c6"
+   ]
+  }
+ },
+ "mechanism_slots": {
+  "employer_paid_leave": {
+   "components": [
+    "university_of_new_hampshire_c1"
+   ]
+  },
+  "employer_childbirth_benefit": {
+   "absent": "Searched 2018_01_faculty_handbook_sec3_employment_policies, 2018_02_aaup_unh_cba_2015_2020, 2018_03_usnh_policy_usy_v_c_employment_lwop_fmla, 2018_04_usnh_policy_usy_v_a_employee_benefits_disability for maternity, childbirth, pregnancy, birth: the only childbirth-specific paid period (USY V.A.4.12.6.2, childbirth through six weeks) is replaced by parental leave for unit faculty (CBA 17.4.3.4); interim disability coded generic (c4)."
+  },
+  "generic_sick_or_disability_plan": {
+   "components": [
+    "university_of_new_hampshire_c4",
+    "university_of_new_hampshire_c6",
+    "university_of_new_hampshire_c21"
+   ]
+  },
+  "own_accrual": {
+   "components": [
+    "university_of_new_hampshire_c3",
+    "university_of_new_hampshire_c7",
+    "university_of_new_hampshire_c14",
+    "university_of_new_hampshire_c15",
+    "university_of_new_hampshire_c16",
+    "university_of_new_hampshire_c17",
+    "university_of_new_hampshire_c18"
+   ]
+  },
+  "donated_leave": {
+   "components": [
+    "university_of_new_hampshire_c13"
+   ]
+  },
+  "government_benefit": {
+   "absent": "Searched 2018_01_faculty_handbook_sec3_employment_policies, 2018_02_aaup_unh_cba_2015_2020, 2018_03_usnh_policy_usy_v_c_employment_lwop_fmla, 2018_04_usnh_policy_usy_v_a_employee_benefits_disability for state, paid family, disability insurance, benefit program: no government or state paid-leave programme named (New Hampshire had none named in the documents)."
+  },
+  "employer_topup": {
+   "absent": "Searched 2018_01_faculty_handbook_sec3_employment_policies, 2018_02_aaup_unh_cba_2015_2020, 2018_03_usnh_policy_usy_v_c_employment_lwop_fmla, 2018_04_usnh_policy_usy_v_a_employee_benefits_disability for top-up, supplement, difference, integrated: no top-up of a government benefit (only military and jury pay differentials, not parental)."
+  },
+  "modified_duties": {
+   "components": [
+    "university_of_new_hampshire_c8"
+   ]
+  },
+  "unpaid_leave": {
+   "components": [
+    "university_of_new_hampshire_c2",
+    "university_of_new_hampshire_c5",
+    "university_of_new_hampshire_c11",
+    "university_of_new_hampshire_c12"
+   ]
+  },
+  "tenure_clock": {
+   "components": [
+    "university_of_new_hampshire_c9",
+    "university_of_new_hampshire_c10"
+   ]
+  },
+  "part_time_option": {
+   "components": [
+    "university_of_new_hampshire_c19",
+    "university_of_new_hampshire_c20",
+    "university_of_new_hampshire_c22"
+   ]
+  },
+  "other": {
+   "absent": "Searched 2018_01_faculty_handbook_sec3_employment_policies, 2018_02_aaup_unh_cba_2015_2020, 2018_03_usnh_policy_usy_v_c_employment_lwop_fmla, 2018_04_usnh_policy_usy_v_a_employee_benefits_disability for accommodation, transfer, pregnancy, hazard, rearrangement: ADA accommodations only (not a component, U4); no pregnancy accommodation or rearrangement."
+  }
+ },
+ "baseline_accounting": {
+  "Family and Medical Leave Act (FMLA)": {
+   "components": [
+    "university_of_new_hampshire_c2"
+   ]
+  },
+  "Federal Employee Paid Leave Act (paid parental leave for federal civilian employees)": {
+   "not_applicable": "covers federal civilian employees, not university faculty; no saved document mentions it"
+  }
+ },
+ "leave_limits": [],
+ "components": [
+  {
+   "component_id": "university_of_new_hampshire_c1",
+   "institution_label": "Parental Leave",
+   "description": "Twelve weeks of paid parental leave for a bargaining-unit (tenured or tenure-track) faculty member at the birth of a child or placement of an adopted child aged 16 or under; accrued sick leave is used first within the period.",
+   "mechanism": "employer_paid_leave",
+   "mechanism_note": "A dedicated parental leave the CBA grants as paid; funded first from accrued sick leave, with the employer guaranteeing pay for the rest of the 12 weeks (R1c; V1: a dedicated parent leave funded from a sick bank stays employer-paid leave).",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "CBA 17.4.3 'Faculty members' of the AAUP unit: 'all tenured and tenure-track faculty' (Art. 1.1).",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "'the birth of a child of a faculty member or the placement of a child age sixteen (16) years or younger ... in connection with the adoption'; handbook 3.10.1: 'becomes a mother or father through birth or adoption'",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 12,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "duration_note": "Granted as twelve weeks; the member may return before the end of the 12 weeks on 14 days' notice (17.4.3.3), a qualifying 'or earlier' end (R13, Ottawa example); the handbook restates it as 'a maximum of twelve (12) weeks'.",
+   "must_exhaust_first": [
+    "sick"
+   ],
+   "pay_fraction": "paid (level not stated)",
+   "time_window": "starting at the birth of the child or the placement of an adopted child age sixteen (16) years or younger",
+   "notice": "inform the Department Chair in writing, as early as possible; 14 days' written notice of an early return",
+   "dual_employee_rule": "combined 12 weeks when both parents work for UNH (handbook 3.10.1 only; not in CBA 17.4.3)",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "relief_note": "A formal leave of absence; no relief terms stated (R9). On return the member meets the chair to discuss post-leave workload (17.4.3.3).",
+   "runs_concurrently_with": [
+    "FMLA"
+   ],
+   "rule_applied": [
+    "R1c",
+    "V1",
+    "R9",
+    "R13",
+    "V2",
+    "U1",
+    "source_precedence"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "exclusive bargaining representative for all tenured and tenure-track faculty presently or hereafter employed by the University",
+     "Faculty members shall be granted twelve (12) weeks of paid parental leave starting at the birth of the child or the placement of an adopted child age sixteen (16) years or younger."
+    ],
+    "eligible_parent": [
+     "Parental leave is defined as leave by reason of the birth of a child of a faculty member or the placement of a child age sixteen (16) years or younger with a faculty member in connection with the adoption of such child by the faculty member.",
+     "A tenure track faculty member who becomes a mother or father through birth or adoption"
+    ],
+    "entitlement": [
+     "Faculty members shall be granted twelve (12) weeks of paid parental leave starting at the birth of the child or the placement of an adopted child age sixteen (16) years or younger."
+    ],
+    "duration": [
+     "Faculty members shall be granted twelve (12) weeks of paid parental leave starting at the birth of the child or the placement of an adopted child age sixteen (16) years or younger.",
+     "If the faculty member decides to return to work prior to the end of the 12 weeks, or if s/he decides not to return to work following the leave, s/he shall provide written notice of at least 14 days prior to the return date.",
+     "will be eligible for a maximum of twelve (12) weeks of paid leave of absence starting with the arrival of the child"
+    ],
+    "pay_fraction": [
+     "Faculty members shall be granted twelve (12) weeks of paid parental leave starting at the birth of the child or the placement of an adopted child age sixteen (16) years or younger."
+    ],
+    "must_exhaust_first": [
+     "If the faculty member has unused accrued sick leave, the period of parental leave shall first include the use of accumulated sick leave."
+    ],
+    "relief": [
+     "Faculty members shall be granted twelve (12) weeks of paid parental leave starting at the birth of the child or the placement of an adopted child age sixteen (16) years or younger."
+    ],
+    "mechanism": [
+     "Faculty members shall be granted twelve (12) weeks of paid parental leave starting at the birth of the child or the placement of an adopted child age sixteen (16) years or younger.",
+     "If the faculty member has unused accrued sick leave, the period of parental leave shall first include the use of accumulated sick leave."
+    ],
+    "time_window": [
+     "Faculty members shall be granted twelve (12) weeks of paid parental leave starting at the birth of the child or the placement of an adopted child age sixteen (16) years or younger."
+    ],
+    "notice": [
+     "A faculty member shall inform his/her Department Chair in writing, as early as possible, of the intent to use parental leave.",
+     "If the faculty member decides to return to work prior to the end of the 12 weeks, or if s/he decides not to return to work following the leave, s/he shall provide written notice of at least 14 days prior to the return date."
+    ],
+    "dual_employee_rule": [
+     "When both parents work for the University of New Hampshire, the maximum combined leave they may take is 12 weeks."
+    ],
+    "runs_concurrently_with": [
+     "Paid leave taken under this provision shall run concurrently with any leave granted under the Family and Medical Leave Act of 1993."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_aaup_unh_cba_2015_2020",
+    "2018_01_faculty_handbook_sec3_employment_policies"
+   ],
+   "flags": [
+    "ambiguous: restriction: combined 12-week limit when both parents work for UNH stated only in 2018_01_faculty_handbook_sec3_employment_policies (handbook 3.10.1), not in the governing CBA 17.4.3"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "V1",
+     "answer": "employer_paid_leave",
+     "quote": "Faculty members shall be granted twelve (12) weeks of paid parental leave starting at the birth of the child or the placement of an adopted child age sixteen (16) years or younger."
+    },
+    {
+     "field": "payer",
+     "rule": "R1c",
+     "answer": "employer",
+     "quote": "If the faculty member has unused accrued sick leave, the period of parental leave shall first include the use of accumulated sick leave."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "exclusive bargaining representative for all tenured and tenure-track faculty presently or hereafter employed by the University"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "birth_parent, non_birth_parent, adoptive",
+     "quote": "Parental leave is defined as leave by reason of the birth of a child of a faculty member or the placement of a child age sixteen (16) years or younger with a faculty member in connection with the adoption of such child by the faculty member."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "Faculty members shall be granted twelve (12) weeks of paid parental leave starting at the birth of the child or the placement of an adopted child age sixteen (16) years or younger."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "12 weeks up_to (early return on notice is an 'or earlier' end)",
+     "quote": "If the faculty member decides to return to work prior to the end of the 12 weeks, or if s/he decides not to return to work following the leave, s/he shall provide written notice of at least 14 days prior to the return date."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "paid; level not stated",
+     "quote": "Faculty members shall be granted twelve (12) weeks of paid parental leave starting at the birth of the child or the placement of an adopted child age sixteen (16) years or younger."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave, relief not stated)",
+     "quote": "Faculty members shall be granted twelve (12) weeks of paid parental leave starting at the birth of the child or the placement of an adopted child age sixteen (16) years or younger."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Parental leave is defined as leave by reason of the birth of a child of a faculty member or the placement of a child age sixteen (16) years or younger with a faculty member in connection with the adoption of such child by the faculty member."
+    },
+    {
+     "field": "dual_employee_rule",
+     "rule": "source_precedence",
+     "answer": "combined 12 weeks recorded from the handbook only; flagged",
+     "quote": "When both parents work for the University of New Hampshire, the maximum combined leave they may take is 12 weeks."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_new_hampshire_c2",
+   "institution_label": "Family and Medical Leave Act (FMLA)",
+   "description": "Twelve workweeks of unpaid, job-protected FMLA leave in a rolling 12-month period, for birth, adoption or foster placement, own serious health condition or care of a family member; runs concurrently with paid parental leave and with sick leave/interim disability.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "CBA 17.4.2.1 (bargaining unit faculty); USY V.C.19: 'a faculty/staff member (status or non-status)'.",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "'Upon the birth of a faculty/staff member's child; upon the placement of a child ... for adoption or foster care'",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 12,
+    "units": "workweek",
+    "qualifier": "exact"
+   },
+   "duration_note": "Statute: 'a total of 12 workweeks' in any 12-month period (no qualifying word, R13); USY: rolling 12-month period; CBA: 'Twelve weeks of unpaid leave'.",
+   "service_requirement": "12 months of USNH employment and 1,250 hours in the preceding 12 months",
+   "notice": "30 days when foreseeable (birth or adoption)",
+   "medical_certification": true,
+   "medical_certification_note": "medical documentation for own or family serious health condition; adoption papers for adoption",
+   "statute_source": "29 U.S.C. 2612(a)(1)(A)-(B); eligibility 29 U.S.C. 2611(2)",
+   "statute_verified": true,
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "sequence": [
+    {
+     "relation": "concurrent_with",
+     "component_id": "university_of_new_hampshire_c1",
+     "note": "CBA 17.4.3.6: paid parental leave runs concurrently with FMLA leave (S1); for a birth the FMLA weeks coincide with the 12 paid weeks."
+    },
+    {
+     "relation": "concurrent_with",
+     "component_id": "university_of_new_hampshire_c5",
+     "note": "CBA 17.4.1.3 and USY V.A.4.12.2.1: sick leave/interim disability runs concurrent with FMLA (S1)."
+    }
+   ],
+   "rule_applied": [
+    "U2",
+    "U4",
+    "S1",
+    "R13",
+    "R9",
+    "U1",
+    "U8"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Twelve weeks of unpaid leave may be taken for any qualifying event under the Family and Medical Leave Act of 1993 (FMLA)."
+    ],
+    "eligible_parent": [
+     "Leave may be taken: Upon the birth of a faculty/staff member's child; upon the placement of a child with the faculty/staff member for adoption or foster care"
+    ],
+    "entitlement": [
+     "All requests which meet eligibility criteria will be granted for up to 12 weeks.",
+     "shall be entitled to a total of 12 workweeks of leave during any 12-month period"
+    ],
+    "duration": [
+     "shall be entitled to a total of 12 workweeks of leave during any 12-month period",
+     "Twelve weeks of unpaid leave may be taken for any qualifying event under the Family and Medical Leave Act of 1993 (FMLA)."
+    ],
+    "service_requirement": [
+     "must have been employed within USNH for at least 12 months in total and must have worked at least 1,250 hours during the 12 month period preceding the commencement of the leave."
+    ],
+    "notice": [
+     "When the need for leave is foreseeable, such as the birth or adoption of a child, or planned medical treatment, the faculty/staff member must provide 30 days notice."
+    ],
+    "sequence": [
+     "Paid leave taken under this provision shall run concurrently with any leave granted under the Family and Medical Leave Act of 1993.",
+     "For faculty members who meet the eligibility criteria of FMLA (see USY.V.C.19.1), use of sick leave and/or interim disability runs concurrent with FMLA leave."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_aaup_unh_cba_2015_2020",
+    "2018_03_usnh_policy_usy_v_c_employment_lwop_fmla",
+    "2026_00_us_fmla_29usc2612"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "U4",
+     "answer": "unpaid_leave",
+     "quote": "Twelve weeks of unpaid leave may be taken for any qualifying event under the Family and Medical Leave Act of 1993 (FMLA)."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Twelve weeks of unpaid leave may be taken for any qualifying event under the Family and Medical Leave Act of 1993 (FMLA)."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Twelve weeks of unpaid leave may be taken for any qualifying event under the Family and Medical Leave Act of 1993 (FMLA)."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U2",
+     "answer": "birth_parent, non_birth_parent, adoptive, foster",
+     "quote": "Leave may be taken: Upon the birth of a faculty/staff member's child; upon the placement of a child with the faculty/staff member for adoption or foster care"
+    },
+    {
+     "field": "entitlement",
+     "rule": "U2",
+     "answer": "guaranteed",
+     "quote": "shall be entitled to a total of 12 workweeks of leave during any 12-month period"
+    },
+    {
+     "field": "duration",
+     "rule": "U2",
+     "answer": "12 workweeks exact (statute)",
+     "quote": "shall be entitled to a total of 12 workweeks of leave during any 12-month period"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U8",
+     "answer": "12 months and 1,250 hours; a two-year member qualifies",
+     "quote": "must have been employed within USNH for at least 12 months in total and must have worked at least 1,250 hours during the 12 month period preceding the commencement of the leave."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all relieved (formal leave)",
+     "quote": "Twelve weeks of unpaid leave may be taken for any qualifying event under the Family and Medical Leave Act of 1993 (FMLA)."
+    },
+    {
+     "field": "sequence",
+     "rule": "S1",
+     "answer": "concurrent_with c1 (parental leave) and c5 (sick leave/interim disability)",
+     "quote": "Paid leave taken under this provision shall run concurrently with any leave granted under the Family and Medical Leave Act of 1993."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Leave may be taken: Upon the birth of a faculty/staff member's child; upon the placement of a child with the faculty/staff member for adoption or foster care"
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_new_hampshire_c3",
+   "institution_label": "Sick Leave",
+   "description": "Accrued sick leave (1 1/4 days per month, up to 130 working days) used to replace salary for absences over one month; it is drawn first within the parental leave period and before interim disability.",
+   "mechanism": "own_accrual",
+   "payer": "own_balance",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "CBA 17.4.1.1 'Faculty' of the bargaining unit; USY V.A.4.11 status faculty and staff not in the Earned Time program.",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent"
+   ],
+   "eligible_parent_wording": "own illness (birth parent, U5); also drawn first within parental leave by any parent taking it (17.4.3.5)",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "duration_note": "A balance, not a period: accrual 1 1/4 days per month on a full-time appointment, maximum 130 working days; a balance of unknown length adds no weeks (checklist §5 example 4). A two-year member would have accrued about 30 days if none were used.",
+   "sequence": [
+    {
+     "relation": "within",
+     "component_id": "university_of_new_hampshire_c1",
+     "note": "CBA 17.4.3.5: the period of parental leave shall first include the use of accumulated sick leave."
+    }
+   ],
+   "rule_applied": [
+    "R1",
+    "U5",
+    "V2",
+    "R15",
+    "U1",
+    "source_precedence"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Faculty accumulate sick leave at the rate of 1 1/4 days each month based on a full-time appointment"
+    ],
+    "eligible_parent": [
+     "For absences of more than one (1) month, accrued sick leave may be used to replace salary.",
+     "If the faculty member has unused accrued sick leave, the period of parental leave shall first include the use of accumulated sick leave."
+    ],
+    "entitlement": [
+     "For absences of more than one (1) month, accrued sick leave may be used to replace salary."
+    ],
+    "sequence": [
+     "If the faculty member has unused accrued sick leave, the period of parental leave shall first include the use of accumulated sick leave."
+    ],
+    "duration_note": [
+     "The maximum accumulation of sick leave is 130 (working) days."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_aaup_unh_cba_2015_2020",
+    "2018_04_usnh_policy_usy_v_a_employee_benefits_disability",
+    "2018_01_faculty_handbook_sec3_employment_policies"
+   ],
+   "flags": [
+    "conflicting_sources: 2018_01_faculty_handbook_sec3_employment_policies, 2018_02_aaup_unh_cba_2015_2020"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "own_accrual",
+     "quote": "Faculty accumulate sick leave at the rate of 1 1/4 days each month based on a full-time appointment"
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "own_balance",
+     "quote": "Faculty accumulate sick leave at the rate of 1 1/4 days each month based on a full-time appointment"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "source_precedence",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Faculty accumulate sick leave at the rate of 1 1/4 days each month based on a full-time appointment"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own illness); non_birth_parent through its required use within parental leave",
+     "quote": "If the faculty member has unused accrued sick leave, the period of parental leave shall first include the use of accumulated sick leave."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "For absences of more than one (1) month, accrued sick leave may be used to replace salary."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "within c1",
+     "quote": "If the faculty member has unused accrued sick leave, the period of parental leave shall first include the use of accumulated sick leave."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "For absences of more than one (1) month, accrued sick leave may be used to replace salary."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_new_hampshire_c4",
+   "institution_label": "Interim Disability Leave",
+   "description": "Salary continuation at full salary for certified disability, including pregnancy- or childbirth-related disability, once accrued sick leave is exhausted, up to six months' absence in total inclusive of sick leave. For bargaining-unit faculty the post-natal pregnancy disability period is replaced by parental leave (17.4.3.4), so for a birth it applies before the birth.",
+   "mechanism": "generic_sick_or_disability_plan",
+   "mechanism_note": "V1 not met for the period that remains: the one childbirth-specific length in the documents ('from childbirth through six weeks', USY V.A.4.12.6.2) is the post-natal period that CBA 17.4.3.4 replaces with parental leave; the pre-natal period has no stated length. Hence a generic disability plan; length the plan's short-term entitlement (V6).",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "CBA 17.4.1.2 (bargaining unit faculty); USY V.A.4.12.1 status faculty and staff not in the Earned Time program.",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "'certified absence due to pregnancy or childbirth'; USY V.A.4.12.6 'the woman'",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 6,
+    "units": "month",
+    "qualifier": "up_to"
+   },
+   "duration_note": "Up to a total of six months' absence inclusive of sick leave (USY V.A.4.12.3); for a birth, the pre-natal part (CBA 17.4.3.4). The USY period for childbirth ('usually ... from childbirth through six weeks', case by case) is the post-natal period that parental leave replaces for unit faculty.",
+   "duration_variants": "USY V.A.4.12.6.2 childbirth through six weeks (post-natal; replaced by parental leave for unit faculty)",
+   "must_exhaust_first": [
+    "sick"
+   ],
+   "medical_certification": true,
+   "medical_certification_note": "certified absence; medical documentation that the member is unable to perform her duties because of pregnancy and/or childbirth",
+   "pay_fraction": "full salary",
+   "sequence": [
+    {
+     "relation": "within",
+     "component_id": "university_of_new_hampshire_c5",
+     "note": "U6: the pay of the paid disability leave of absence."
+    }
+   ],
+   "rule_applied": [
+    "V1",
+    "V6",
+    "U6",
+    "U5",
+    "R1d",
+    "V2",
+    "U1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "For certified absence due to pregnancy or childbirth, if accrued sick leave is exhausted interim disability will replace full salary and provide benefits continuation (USY.V.A.4.13.6)."
+    ],
+    "eligible_parent": [
+     "For certified absence due to pregnancy or childbirth, if accrued sick leave is exhausted interim disability will replace full salary and provide benefits continuation (USY.V.A.4.13.6)."
+    ],
+    "entitlement": [
+     "For certified absence due to pregnancy or childbirth, if accrued sick leave is exhausted interim disability will replace full salary and provide benefits continuation (USY.V.A.4.13.6)."
+    ],
+    "duration": [
+     "salary is continued for the period of disability through paid interim disability leave up to a total of six months' absence from work inclusive of sick leave."
+    ],
+    "pay_fraction": [
+     "For certified absence due to pregnancy or childbirth, if accrued sick leave is exhausted interim disability will replace full salary and provide benefits continuation (USY.V.A.4.13.6)."
+    ],
+    "must_exhaust_first": [
+     "For certified absence due to pregnancy or childbirth, if accrued sick leave is exhausted interim disability will replace full salary and provide benefits continuation (USY.V.A.4.13.6)."
+    ],
+    "mechanism": [
+     "Parental leave will replace post-natal pregnancy-related disability leave (USY V.A.4.13.6, see also 17.4.1.2).",
+     "Such leaves usually extend for the period from childbirth through six weeks."
+    ],
+    "sequence": [
+     "A faculty/staff member's position will be held during the period of sick leave/paid interim disability leave for a maximum of six months from the first date of absence from work."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_aaup_unh_cba_2015_2020",
+    "2018_04_usnh_policy_usy_v_a_employee_benefits_disability"
+   ],
+   "flags": [
+    "ambiguous: restriction: combined cap of six months on sick leave and interim disability (university_of_new_hampshire_c3, university_of_new_hampshire_c4)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "V1",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "Parental leave will replace post-natal pregnancy-related disability leave (USY V.A.4.13.6, see also 17.4.1.2)."
+    },
+    {
+     "field": "mechanism",
+     "rule": "V6",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "salary is continued for the period of disability through paid interim disability leave up to a total of six months' absence from work inclusive of sick leave."
+    },
+    {
+     "field": "payer",
+     "rule": "R1d",
+     "answer": "employer",
+     "quote": "For certified absence due to pregnancy or childbirth, if accrued sick leave is exhausted interim disability will replace full salary and provide benefits continuation (USY.V.A.4.13.6)."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "For certified absence due to pregnancy or childbirth, if accrued sick leave is exhausted interim disability will replace full salary and provide benefits continuation (USY.V.A.4.13.6)."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own disability)",
+     "quote": "For certified absence due to pregnancy or childbirth, if accrued sick leave is exhausted interim disability will replace full salary and provide benefits continuation (USY.V.A.4.13.6)."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "For certified absence due to pregnancy or childbirth, if accrued sick leave is exhausted interim disability will replace full salary and provide benefits continuation (USY.V.A.4.13.6)."
+    },
+    {
+     "field": "duration",
+     "rule": "V6",
+     "answer": "6 months up_to, inclusive of sick leave",
+     "quote": "salary is continued for the period of disability through paid interim disability leave up to a total of six months' absence from work inclusive of sick leave."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "full salary",
+     "quote": "For certified absence due to pregnancy or childbirth, if accrued sick leave is exhausted interim disability will replace full salary and provide benefits continuation (USY.V.A.4.13.6)."
+    },
+    {
+     "field": "sequence",
+     "rule": "U6",
+     "answer": "within c5",
+     "quote": "A faculty/staff member's position will be held during the period of sick leave/paid interim disability leave for a maximum of six months from the first date of absence from work."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "For certified absence due to pregnancy or childbirth, if accrued sick leave is exhausted interim disability will replace full salary and provide benefits continuation (USY.V.A.4.13.6)."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_new_hampshire_c5",
+   "institution_label": "",
+   "description": "Leave status with the position held during sick leave and paid interim disability for a certified disability, including pre-natal pregnancy-related disability, for up to six months from the first absence.",
+   "mechanism": "unpaid_leave",
+   "mechanism_note": "U6: the text grants leave status and holds the position ('her position will be held for her return'; position held up to six months), so the leave is coded apart from its pay (c4 within it).",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "USNH policy for status faculty and staff; CBA 17.1: 'unit members shall receive the benefits approved and outlined in Board of Trustee or USNH policy' unless otherwise qualified by the agreement. CBA 17.4.3.4 points unit faculty to this policy for pre-natal pregnancy-related disability leave.",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "'the woman who plans to return to her position'",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 6,
+    "units": "month",
+    "qualifier": "up_to"
+   },
+   "duration_note": "Position held 'for a maximum of six months from the first date of absence'. For unit faculty only the pre-natal part applies to a birth (17.4.3.4). Whether the parental leave follows a pre-natal leave or the six months also bound it is not stated, so no link is coded to c1.",
+   "service_requirement": "none stated; in the initial introductory period the position is held only where the disability is due to pregnancy or covered by Workers' Compensation",
+   "medical_certification": true,
+   "medical_certification_note": "medical documentation that she is unable to perform her duties because of pregnancy and/or childbirth",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "rule_applied": [
+    "U6",
+    "U5",
+    "V2",
+    "R9",
+    "U1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Pre-natal pregnancy-related disability leave is available only under the policies outlined in USY V.A.13.6, see also 17.4.1.2.",
+     "Faculty and staff members with status appointments who are not covered by the Earned Time program (see USY V.A.4.9) are eligible for interim disability benefits."
+    ],
+    "eligible_parent": [
+     "the woman who plans to return to her position may use accrued sick leave/interim disability leave/Family Medical Leave, and her position will be held for her return"
+    ],
+    "entitlement": [
+     "the woman who plans to return to her position may use accrued sick leave/interim disability leave/Family Medical Leave, and her position will be held for her return"
+    ],
+    "duration": [
+     "A faculty/staff member's position will be held during the period of sick leave/paid interim disability leave for a maximum of six months from the first date of absence from work."
+    ],
+    "service_requirement": [
+     "For those individuals in their initial introductory period, the position will not be held unless the disability is due to pregnancy or is covered by Workers' Compensation (see USY V.A.8.2)."
+    ],
+    "medical_certification": [
+     "When medical documentation indicates that a faculty or staff member (for eligibility see USY V.A.4.12.1) is unable to perform her duties and responsibilities because of medical conditions related to pregnancy and/or childbirth"
+    ]
+   },
+   "doc_ids": [
+    "2018_02_aaup_unh_cba_2015_2020",
+    "2018_04_usnh_policy_usy_v_a_employee_benefits_disability"
+   ],
+   "flags": [
+    "ambiguous: rule gap: whether paid parental leave (from the birth) follows a pre-natal disability leave or falls within its six-month maximum; left unlinked to c1",
+    "own_illness_leave"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "U6",
+     "answer": "unpaid_leave",
+     "quote": "the woman who plans to return to her position may use accrued sick leave/interim disability leave/Family Medical Leave, and her position will be held for her return"
+    },
+    {
+     "field": "payer",
+     "rule": "U6",
+     "answer": "none",
+     "quote": "A faculty/staff member's position will be held during the period of sick leave/paid interim disability leave for a maximum of six months from the first date of absence from work."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Pre-natal pregnancy-related disability leave is available only under the policies outlined in USY V.A.13.6, see also 17.4.1.2."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent",
+     "quote": "the woman who plans to return to her position may use accrued sick leave/interim disability leave/Family Medical Leave, and her position will be held for her return"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "the woman who plans to return to her position may use accrued sick leave/interim disability leave/Family Medical Leave, and her position will be held for her return"
+    },
+    {
+     "field": "duration",
+     "rule": "U6",
+     "answer": "6 months up_to (position held maximum)",
+     "quote": "A faculty/staff member's position will be held during the period of sick leave/paid interim disability leave for a maximum of six months from the first date of absence from work."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "none stated; introductory-period exception for pregnancy",
+     "quote": "For those individuals in their initial introductory period, the position will not be held unless the disability is due to pregnancy or is covered by Workers' Compensation (see USY V.A.8.2)."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all relieved (formal leave)",
+     "quote": "the woman who plans to return to her position may use accrued sick leave/interim disability leave/Family Medical Leave, and her position will be held for her return"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "the woman who plans to return to her position may use accrued sick leave/interim disability leave/Family Medical Leave, and her position will be held for her return"
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_new_hampshire_c6",
+   "institution_label": "Long-term Disability Insurance",
+   "description": "Long-term disability insurance (USNH core benefit) paying monthly income after a six-month waiting period to an approved member unable to work for more than six months.",
+   "mechanism": "generic_sick_or_disability_plan",
+   "mechanism_note": "Long-term disability (schema §2): recorded without a duration.",
+   "payer": "insurance_plan",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "USY V.A.8.1 'All status faculty and staff who enroll'; handbook 3.3 lists LTD among the USNH Core Benefits for tenure-track faculty.",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "time_window": "six-month waiting period from the onset of the disabling illness or injury",
+   "service_requirement": "none stated (enrolment in the plan)",
+   "rule_applied": [
+    "V2",
+    "M1",
+    "U5",
+    "U1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "All status faculty and staff who enroll in the long-term disability plan are eligible to apply for the benefit (see USY V.A.4.3)."
+    ],
+    "eligible_parent": [
+     "This insurance provides monthly disability income benefits to an approved employee (see USY.V.8.1.2) who is unable to work for more than six months due to an illness or injury."
+    ],
+    "entitlement": [
+     "All status faculty and staff who enroll in the long-term disability plan are eligible to apply for the benefit (see USY V.A.4.3).",
+     "The carrier makes the determination whether medical documentation supports an individual's inability to work, based on the plan's provisions."
+    ],
+    "time_window": [
+     "There is a six-month waiting period from the onset of a disabling illness or injury that requires the individual's absence from work until the beginning of long-term disability income."
+    ],
+    "service_requirement": [
+     "All status faculty and staff who enroll in the long-term disability plan are eligible to apply for the benefit (see USY V.A.4.3)."
+    ],
+    "payer": [
+     "There are no employee contributions required for the flexible benefit individual standard option for dental, life, and long term disability plan."
+    ]
+   },
+   "doc_ids": [
+    "2018_04_usnh_policy_usy_v_a_employee_benefits_disability",
+    "2018_01_faculty_handbook_sec3_employment_policies"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "This insurance provides monthly disability income benefits to an approved employee (see USY.V.8.1.2) who is unable to work for more than six months due to an illness or injury."
+    },
+    {
+     "field": "payer",
+     "rule": "M1",
+     "answer": "insurance_plan",
+     "quote": "The carrier makes the determination whether medical documentation supports an individual's inability to work, based on the plan's provisions."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "All status faculty and staff who enroll in the long-term disability plan are eligible to apply for the benefit (see USY V.A.4.3)."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent",
+     "quote": "This insurance provides monthly disability income benefits to an approved employee (see USY.V.8.1.2) who is unable to work for more than six months due to an illness or injury."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "All status faculty and staff who enroll in the long-term disability plan are eligible to apply for the benefit (see USY V.A.4.3)."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "none stated",
+     "quote": "All status faculty and staff who enroll in the long-term disability plan are eligible to apply for the benefit (see USY V.A.4.3)."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "This insurance provides monthly disability income benefits to an approved employee (see USY.V.8.1.2) who is unable to work for more than six months due to an illness or injury."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_new_hampshire_c7",
+   "institution_label": "Family Leave",
+   "description": "Up to 10 days a fiscal year of accrued sick leave for paid family leave apart from parental leave: medical needs of an immediate family member, extended bereavement and crime victim leave.",
+   "mechanism": "own_accrual",
+   "payer": "own_balance",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "CBA 17.4.2.2 'Bargaining unit faculty'.",
+   "eligible_parent": [
+    "non_birth_parent"
+   ],
+   "eligible_parent_wording": "'illness or medical needs of an immediate family member' (spouse, parent, legally dependent person, household member)",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "duration": {
+    "value": 10,
+    "units": "day",
+    "qualifier": "up_to"
+   },
+   "duration_note": "per fiscal year; drawn from the member's accrued sick leave",
+   "service_requirement": "at least one year of service",
+   "rule_applied": [
+    "R1",
+    "U5",
+    "U1",
+    "V2",
+    "R11"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Bargaining unit faculty with at least one year of service may use up to a maximum of 10 days of accrued sick leave per fiscal year for paid family leave apart from parental leave (see 17.4.3)."
+    ],
+    "eligible_parent": [
+     "This leave may be used for medical appointments, illness or medical needs of an immediate family member, extended bereavement leave and/or crime victim leave."
+    ],
+    "entitlement": [
+     "Bargaining unit faculty with at least one year of service may use up to a maximum of 10 days of accrued sick leave per fiscal year for paid family leave apart from parental leave (see 17.4.3)."
+    ],
+    "duration": [
+     "Bargaining unit faculty with at least one year of service may use up to a maximum of 10 days of accrued sick leave per fiscal year for paid family leave apart from parental leave (see 17.4.3)."
+    ],
+    "service_requirement": [
+     "Bargaining unit faculty with at least one year of service may use up to a maximum of 10 days of accrued sick leave per fiscal year for paid family leave apart from parental leave (see 17.4.3)."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_aaup_unh_cba_2015_2020"
+   ],
+   "flags": [
+    "general_purpose",
+    "family_illness_leave"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "own_accrual",
+     "quote": "Bargaining unit faculty with at least one year of service may use up to a maximum of 10 days of accrued sick leave per fiscal year for paid family leave apart from parental leave (see 17.4.3)."
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "own_balance",
+     "quote": "Bargaining unit faculty with at least one year of service may use up to a maximum of 10 days of accrued sick leave per fiscal year for paid family leave apart from parental leave (see 17.4.3)."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Bargaining unit faculty with at least one year of service may use up to a maximum of 10 days of accrued sick leave per fiscal year for paid family leave apart from parental leave (see 17.4.3)."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "non_birth_parent (care of an ill family member)",
+     "quote": "This leave may be used for medical appointments, illness or medical needs of an immediate family member, extended bereavement leave and/or crime victim leave."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "Bargaining unit faculty with at least one year of service may use up to a maximum of 10 days of accrued sick leave per fiscal year for paid family leave apart from parental leave (see 17.4.3)."
+    },
+    {
+     "field": "duration",
+     "rule": "R11",
+     "answer": "10 days up_to per fiscal year",
+     "quote": "Bargaining unit faculty with at least one year of service may use up to a maximum of 10 days of accrued sick leave per fiscal year for paid family leave apart from parental leave (see 17.4.3)."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "one year of service",
+     "quote": "Bargaining unit faculty with at least one year of service may use up to a maximum of 10 days of accrued sick leave per fiscal year for paid family leave apart from parental leave (see 17.4.3)."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "This leave may be used for medical appointments, illness or medical needs of an immediate family member, extended bereavement leave and/or crime victim leave."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_new_hampshire_c8",
+   "institution_label": "Modified-Duties Assignments",
+   "description": "At the chair's discretion with the dean's approval, a fully paid modified-duty workload for up to two semesters for a faculty member dealing with an FMLA-qualifying event (including a birth or placement); full-time work continues with the percentages of teaching, research and service altered.",
+   "mechanism": "modified_duties",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "CBA 17.4.4 'faculty members' / 'Bargaining unit members'.",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "'faculty members dealing with qualifying events under the Family and Medical Leave Act'",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "entitlement_note": "'At the discretion of the Department Chair ... may be available' (V2).",
+   "duration": {
+    "value": 2,
+    "units": "semester",
+    "qualifier": "up_to"
+   },
+   "medical_certification": true,
+   "medical_certification_note": "written certification meeting FMLA certification requirements of the qualifying reason",
+   "pay_fraction": "fully paid",
+   "relief": {
+    "teaching": "partially_relieved",
+    "service_admin": "continues",
+    "research": "continues",
+    "advising_supervision": "continues",
+    "clinical": "continues"
+   },
+   "relief_inferred": "unnamed duties continue (R4b)",
+   "relief_note": "Full-time work assignments that alter the percentage time for teaching or primary professional duties, research and service; which shares fall is not stated. Teaching coded partially relieved; research and service continue within full-time work; advising and clinical unnamed (R4b).",
+   "sequence": [
+    {
+     "relation": "also_available",
+     "component_id": "university_of_new_hampshire_c1",
+     "note": "Both are available for a birth; the text sets no order or overlap (R3d). On return from parental leave the member discusses post-leave workload with the chair."
+    }
+   ],
+   "rule_applied": [
+    "V2",
+    "R3",
+    "R3d",
+    "R4",
+    "R4b",
+    "R16",
+    "R8",
+    "U1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "At the discretion of the Department Chair, with the approval of the Dean and attention to curricular needs, paid modified-duty workload assignments may be available for up to two semesters to faculty members dealing with qualifying events under the Family and Medical Leave Act."
+    ],
+    "eligible_parent": [
+     "At the discretion of the Department Chair, with the approval of the Dean and attention to curricular needs, paid modified-duty workload assignments may be available for up to two semesters to faculty members dealing with qualifying events under the Family and Medical Leave Act."
+    ],
+    "entitlement": [
+     "At the discretion of the Department Chair, with the approval of the Dean and attention to curricular needs, paid modified-duty workload assignments may be available for up to two semesters to faculty members dealing with qualifying events under the Family and Medical Leave Act."
+    ],
+    "duration": [
+     "At the discretion of the Department Chair, with the approval of the Dean and attention to curricular needs, paid modified-duty workload assignments may be available for up to two semesters to faculty members dealing with qualifying events under the Family and Medical Leave Act."
+    ],
+    "pay_fraction": [
+     "Faculty members granted this status remain fully employed and fully paid with normal health and retirement benefits."
+    ],
+    "relief": [
+     "Modification of duties requires full-time work assignments that simply alter the percentage time assigned for teaching or primary professional duties, research, and service for a designated period of time."
+    ],
+    "medical_certification": [
+     "written certification that meets FMLA certification requirements of the qualifying reason"
+    ],
+    "sequence": [
+     "At the discretion of the Department Chair, with the approval of the Dean and attention to curricular needs, paid modified-duty workload assignments may be available for up to two semesters to faculty members dealing with qualifying events under the Family and Medical Leave Act."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_aaup_unh_cba_2015_2020"
+   ],
+   "flags": [
+    "ambiguous: which duties' percentages are reduced is not stated; full-time work assignments continue"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R16",
+     "answer": "modified_duties",
+     "quote": "Modification of duties requires full-time work assignments that simply alter the percentage time assigned for teaching or primary professional duties, research, and service for a designated period of time."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "Faculty members granted this status remain fully employed and fully paid with normal health and retirement benefits."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "At the discretion of the Department Chair, with the approval of the Dean and attention to curricular needs, paid modified-duty workload assignments may be available for up to two semesters to faculty members dealing with qualifying events under the Family and Medical Leave Act."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "FMLA events: birth_parent, non_birth_parent, adoptive, foster",
+     "quote": "At the discretion of the Department Chair, with the approval of the Dean and attention to curricular needs, paid modified-duty workload assignments may be available for up to two semesters to faculty members dealing with qualifying events under the Family and Medical Leave Act."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "At the discretion of the Department Chair, with the approval of the Dean and attention to curricular needs, paid modified-duty workload assignments may be available for up to two semesters to faculty members dealing with qualifying events under the Family and Medical Leave Act."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "2 semesters up_to",
+     "quote": "At the discretion of the Department Chair, with the approval of the Dean and attention to curricular needs, paid modified-duty workload assignments may be available for up to two semesters to faculty members dealing with qualifying events under the Family and Medical Leave Act."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "fully paid",
+     "quote": "Faculty members granted this status remain fully employed and fully paid with normal health and retirement benefits."
+    },
+    {
+     "field": "relief",
+     "rule": "R4b",
+     "answer": "teaching partially relieved; research, service, advising and clinical continue",
+     "quote": "Modification of duties requires full-time work assignments that simply alter the percentage time assigned for teaching or primary professional duties, research, and service for a designated period of time."
+    },
+    {
+     "field": "sequence",
+     "rule": "R3d",
+     "answer": "also_available c1",
+     "quote": "At the discretion of the Department Chair, with the approval of the Dean and attention to curricular needs, paid modified-duty workload assignments may be available for up to two semesters to faculty members dealing with qualifying events under the Family and Medical Leave Act."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "At the discretion of the Department Chair, with the approval of the Dean and attention to curricular needs, paid modified-duty workload assignments may be available for up to two semesters to faculty members dealing with qualifying events under the Family and Medical Leave Act."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_new_hampshire_c9",
+   "institution_label": "",
+   "description": "Time on parental leave (and on interim disability or family leave) does not count as full-time service toward the mandatory tenure decision, so the tenure clock stops for the period of the leave.",
+   "mechanism": "tenure_clock",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "CBA 13.8.3 (and the same text in Appendices B-D for the Library, TSAS and UNH-Manchester) and 17.4.3.7: tenure-track bargaining unit members.",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "time on 'parental leave status' (birth or adoption, 17.4.3.1)",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration_note": "The clock stops for the time actually on leave; no fixed length. 13.8.3 also stops it for leave without pay for non-professional reasons; under 13.8.4 any year of less than full-time service does not count unless agreed otherwise.",
+   "rule_applied": [
+    "U1",
+    "V2",
+    "source_precedence"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "full-time service shall not include any time when a faculty member is on interim disability or family/parental leave as defined in Article 17 of this Agreement"
+    ],
+    "eligible_parent": [
+     "Time spent on parental leave status does not count as full-time for tenure or sabbatical purposes.",
+     "Parental leave is defined as leave by reason of the birth of a child of a faculty member or the placement of a child age sixteen (16) years or younger with a faculty member in connection with the adoption of such child by the faculty member."
+    ],
+    "entitlement": [
+     "full-time service shall not include any time when a faculty member is on interim disability or family/parental leave as defined in Article 17 of this Agreement",
+     "Time spent on parental leave status does not count as full-time for tenure or sabbatical purposes."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_aaup_unh_cba_2015_2020"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "Time spent on parental leave status does not count as full-time for tenure or sabbatical purposes."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Time spent on parental leave status does not count as full-time for tenure or sabbatical purposes."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "full-time service shall not include any time when a faculty member is on interim disability or family/parental leave as defined in Article 17 of this Agreement"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "birth_parent, non_birth_parent, adoptive",
+     "quote": "Parental leave is defined as leave by reason of the birth of a child of a faculty member or the placement of a child age sixteen (16) years or younger with a faculty member in connection with the adoption of such child by the faculty member."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "full-time service shall not include any time when a faculty member is on interim disability or family/parental leave as defined in Article 17 of this Agreement"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Time spent on parental leave status does not count as full-time for tenure or sabbatical purposes."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_new_hampshire_c10",
+   "institution_label": "",
+   "description": "Handbook statement that the birth of a child gives tenure-track faculty the option to extend the tenure clock, normally for one year, by the procedure in the CBA.",
+   "mechanism": "tenure_clock",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Handbook 3.10.1 'tenure-track faculty'.",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent"
+   ],
+   "eligible_parent_wording": "'the birth of a child'",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "normally"
+   },
+   "rule_applied": [
+    "source_precedence",
+    "V2",
+    "R13",
+    "U1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "For tenure-track faculty, the birth of a child allows for the option to extend the tenure clock, normally for one year."
+    ],
+    "eligible_parent": [
+     "For tenure-track faculty, the birth of a child allows for the option to extend the tenure clock, normally for one year."
+    ],
+    "entitlement": [
+     "For tenure-track faculty, the birth of a child allows for the option to extend the tenure clock, normally for one year."
+    ],
+    "duration": [
+     "For tenure-track faculty, the birth of a child allows for the option to extend the tenure clock, normally for one year."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_faculty_handbook_sec3_employment_policies"
+   ],
+   "flags": [
+    "summary_only: 2018_01_faculty_handbook_sec3_employment_policies"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "For tenure-track faculty, the birth of a child allows for the option to extend the tenure clock, normally for one year."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "For tenure-track faculty, the birth of a child allows for the option to extend the tenure clock, normally for one year."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "For tenure-track faculty, the birth of a child allows for the option to extend the tenure clock, normally for one year."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "birth_parent, non_birth_parent",
+     "quote": "For tenure-track faculty, the birth of a child allows for the option to extend the tenure clock, normally for one year."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "For tenure-track faculty, the birth of a child allows for the option to extend the tenure clock, normally for one year."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 year normally",
+     "quote": "For tenure-track faculty, the birth of a child allows for the option to extend the tenure clock, normally for one year."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "For tenure-track faculty, the birth of a child allows for the option to extend the tenure clock, normally for one year."
+    },
+    {
+     "field": "flags",
+     "rule": "source_precedence",
+     "answer": "summary_only: the CBA contains no one-year birth extension, only the exclusion of leave time (c9)",
+     "quote": "The tenure track faculty policy regarding parental leave for birth or adoption of a child can be found in the UNH AAUP Collective Bargaining Agreement, Section 17.4.2"
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_new_hampshire_c11",
+   "institution_label": "Voluntary Leave Without Pay",
+   "description": "Full leave of absence without pay from the department (position retained) for medical or other personal reasons, normally not beyond a year; personal leaves generally only after one year of service.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "USY V.C.16 'A status faculty/staff member'; handbook 3.9 points faculty to it.",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "up_to"
+   },
+   "duration_note": "'normally does not extend beyond a year'; 'Generally personal leaves are not granted for more than one year' (Q1); extension beyond a year rare, by CEO approval (16.6).",
+   "service_requirement": "at least one year of service in a status position (personal leave)",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "rule_applied": [
+    "U1",
+    "V2",
+    "Q1",
+    "R9"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "A faculty/staff member may apply for a full or partial leave of absence without pay from her/his department for medical or other personal reasons.",
+     "A faculty member may apply for a voluntary partial leave of absence without pay due to medical or other personal reasons for absences covering a period of time in excess of one pay period and normally not extending beyond a year."
+    ],
+    "eligible_parent": [
+     "A faculty/staff member may apply for a full or partial leave of absence without pay from her/his department for medical or other personal reasons."
+    ],
+    "entitlement": [
+     "A faculty/staff member may apply for a full or partial leave of absence without pay from her/his department for medical or other personal reasons.",
+     "If a department cannot accommodate a personal leave without pay, the faculty/staff member may request a leave from the institution."
+    ],
+    "duration": [
+     "A leave without pay is used for absences covering a period of time in excess of one pay period and normally does not extend beyond a year.",
+     "Generally personal leaves are not granted for more than one year and only to those faculty/staff members who have completed at least one year of service in a status position."
+    ],
+    "service_requirement": [
+     "Generally personal leaves are not granted for more than one year and only to those faculty/staff members who have completed at least one year of service in a status position."
+    ]
+   },
+   "doc_ids": [
+    "2018_03_usnh_policy_usy_v_c_employment_lwop_fmla",
+    "2018_01_faculty_handbook_sec3_employment_policies"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "A faculty/staff member may apply for a full or partial leave of absence without pay from her/his department for medical or other personal reasons."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "A faculty/staff member may apply for a full or partial leave of absence without pay from her/his department for medical or other personal reasons."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "A faculty/staff member may apply for a full or partial leave of absence without pay from her/his department for medical or other personal reasons."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U1",
+     "answer": "any_parent",
+     "quote": "A faculty/staff member may apply for a full or partial leave of absence without pay from her/his department for medical or other personal reasons."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "A faculty/staff member may apply for a full or partial leave of absence without pay from her/his department for medical or other personal reasons."
+    },
+    {
+     "field": "duration",
+     "rule": "Q1",
+     "answer": "1 year up_to ('normally does not extend beyond a year')",
+     "quote": "A leave without pay is used for absences covering a period of time in excess of one pay period and normally does not extend beyond a year."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "one year of status service",
+     "quote": "Generally personal leaves are not granted for more than one year and only to those faculty/staff members who have completed at least one year of service in a status position."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all relieved (formal leave)",
+     "quote": "A faculty/staff member may apply for a full or partial leave of absence without pay from her/his department for medical or other personal reasons."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "A faculty/staff member may apply for a full or partial leave of absence without pay from her/his department for medical or other personal reasons."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_new_hampshire_c12",
+   "institution_label": "Voluntary Leave for Medical Reasons",
+   "description": "Unpaid medical leave from the department that must be granted when a medical professional's documentation supports an FMLA- or workers'-compensation-qualifying leave; normally no more than six months.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "USY V.C.16.1.1 'faculty/staff member'.",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "own medical leave (U5)",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "'such leave must be granted' once documentation supports an FMLA-qualifying medical leave.",
+   "duration": {
+    "value": 6,
+    "units": "month",
+    "qualifier": "up_to"
+   },
+   "duration_note": "'normally granted for no more than six-months' (Q1: up_to, normally); longer where Workers' Compensation applies.",
+   "service_requirement": "none stated (a member with less than one year may apply)",
+   "medical_certification": true,
+   "medical_certification_note": "documentation from a medical professional supporting the medical leave",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "rule_applied": [
+    "U5",
+    "V2",
+    "Q1",
+    "R9",
+    "U1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "When documentation from a medical professional supports a medical leave that qualifies under the Family Medical Leave Act and/or Worker's Compensation, such leave must be granted by the department (see USY.V.A.17 and USY.V.A.16)."
+    ],
+    "eligible_parent": [
+     "When documentation from a medical professional supports a medical leave that qualifies under the Family Medical Leave Act and/or Worker's Compensation, such leave must be granted by the department (see USY.V.A.17 and USY.V.A.16)."
+    ],
+    "entitlement": [
+     "When documentation from a medical professional supports a medical leave that qualifies under the Family Medical Leave Act and/or Worker's Compensation, such leave must be granted by the department (see USY.V.A.17 and USY.V.A.16)."
+    ],
+    "duration": [
+     "Medical leaves are normally granted for no more than six-months, unless the leave qualifies for Worker's Compensation."
+    ],
+    "service_requirement": [
+     "A faculty/staff member with less than one year of service in a status position may apply for a medical leave without pay."
+    ]
+   },
+   "doc_ids": [
+    "2018_03_usnh_policy_usy_v_c_employment_lwop_fmla"
+   ],
+   "flags": [
+    "own_illness_leave"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "When documentation from a medical professional supports a medical leave that qualifies under the Family Medical Leave Act and/or Worker's Compensation, such leave must be granted by the department (see USY.V.A.17 and USY.V.A.16)."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "When documentation from a medical professional supports a medical leave that qualifies under the Family Medical Leave Act and/or Worker's Compensation, such leave must be granted by the department (see USY.V.A.17 and USY.V.A.16)."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "When documentation from a medical professional supports a medical leave that qualifies under the Family Medical Leave Act and/or Worker's Compensation, such leave must be granted by the department (see USY.V.A.17 and USY.V.A.16)."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own medical leave)",
+     "quote": "When documentation from a medical professional supports a medical leave that qualifies under the Family Medical Leave Act and/or Worker's Compensation, such leave must be granted by the department (see USY.V.A.17 and USY.V.A.16)."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "When documentation from a medical professional supports a medical leave that qualifies under the Family Medical Leave Act and/or Worker's Compensation, such leave must be granted by the department (see USY.V.A.17 and USY.V.A.16)."
+    },
+    {
+     "field": "duration",
+     "rule": "Q1",
+     "answer": "6 months up_to ('normally ... no more than six-months')",
+     "quote": "Medical leaves are normally granted for no more than six-months, unless the leave qualifies for Worker's Compensation."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "none stated",
+     "quote": "A faculty/staff member with less than one year of service in a status position may apply for a medical leave without pay."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all relieved (formal leave)",
+     "quote": "When documentation from a medical professional supports a medical leave that qualifies under the Family Medical Leave Act and/or Worker's Compensation, such leave must be granted by the department (see USY.V.A.17 and USY.V.A.16)."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "When documentation from a medical professional supports a medical leave that qualifies under the Family Medical Leave Act and/or Worker's Compensation, such leave must be granted by the department (see USY.V.A.17 and USY.V.A.16)."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_new_hampshire_c13",
+   "institution_label": "Compassionate Donation Program",
+   "description": "Optional campus program by which status employees who earn vacation or Earned Time donate up to 20 days to a colleague absent at least 30 days for an FMLA-qualifying reason, including care of a newborn or new adopted or foster child.",
+   "mechanism": "donated_leave",
+   "payer": "own_balance",
+   "faculty_group": "status employees who earn vacation leave or Earned Time (fiscal-year faculty and staff)",
+   "faculty_group_note": "Recipients must earn vacation or Earned Time; academic-year faculty do not earn vacation (USY V.A.4.10.1.1).",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "'to care for a newborn or a new adopted/foster child'",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "duration": {
+    "value": 20,
+    "units": "day",
+    "qualifier": "up_to"
+   },
+   "duration_note": "maximum donated time 20 days per 12-month period; maximum total leave period six months",
+   "service_requirement": "completion of the initial introductory period; anticipated absence of at least 30 calendar days",
+   "rule_applied": [
+    "R1d",
+    "V2",
+    "U1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "A USNH institution may establish a compassionate donation program which provides a means for status employees who earn vacation leave or Earned Time to voluntarily and anonymously donate annual leave or Earned Time to another employee",
+     "Vacations and holidays for faculty members with academic year appointments are determined by the academic year calendar."
+    ],
+    "eligible_parent": [
+     "or to care for a newborn or a new adopted/foster child"
+    ],
+    "entitlement": [
+     "A USNH institution may establish a compassionate donation program which provides a means for status employees who earn vacation leave or Earned Time to voluntarily and anonymously donate annual leave or Earned Time to another employee"
+    ],
+    "duration": [
+     "the maximum donated time is 20 days"
+    ],
+    "service_requirement": [
+     "To be eligible to receive donated time, a status employee must earn vacation leave or Earned Time, must have completed the initial introductory period"
+    ]
+   },
+   "doc_ids": [
+    "2018_03_usnh_policy_usy_v_c_employment_lwop_fmla",
+    "2018_04_usnh_policy_usy_v_a_employee_benefits_disability"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "donated_leave",
+     "quote": "A USNH institution may establish a compassionate donation program which provides a means for status employees who earn vacation leave or Earned Time to voluntarily and anonymously donate annual leave or Earned Time to another employee"
+    },
+    {
+     "field": "payer",
+     "rule": "R1d",
+     "answer": "own_balance",
+     "quote": "A USNH institution may establish a compassionate donation program which provides a means for status employees who earn vacation leave or Earned Time to voluntarily and anonymously donate annual leave or Earned Time to another employee"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "status employees who earn vacation leave or Earned Time (fiscal-year faculty and staff)",
+     "quote": "To be eligible to receive donated time, a status employee must earn vacation leave or Earned Time, must have completed the initial introductory period"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "birth_parent, non_birth_parent, adoptive, foster",
+     "quote": "or to care for a newborn or a new adopted/foster child"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "A USNH institution may establish a compassionate donation program which provides a means for status employees who earn vacation leave or Earned Time to voluntarily and anonymously donate annual leave or Earned Time to another employee"
+    },
+    {
+     "field": "duration",
+     "rule": "R11",
+     "answer": "20 days up_to",
+     "quote": "the maximum donated time is 20 days"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "introductory period completed",
+     "quote": "To be eligible to receive donated time, a status employee must earn vacation leave or Earned Time, must have completed the initial introductory period"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "or to care for a newborn or a new adopted/foster child"
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_new_hampshire_c14",
+   "institution_label": "Use of sick leave for family leave",
+   "description": "Full-time staff with a year of service may use up to 10 days of accrued sick leave a fiscal year for family leave, including prenatal or postnatal care and caring for a new baby or adopted or foster child.",
+   "mechanism": "own_accrual",
+   "payer": "own_balance",
+   "faculty_group": "full-time staff",
+   "faculty_group_note": "USY V.A.4.11.2.2 'Full-time staff'; unit faculty have the parallel CBA 17.4.2.2, which is apart from parental leave (c7).",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "'prenatal or postnatal care; or for purposes of caring for a new baby or adoptive/foster child after placement'",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "duration": {
+    "value": 10,
+    "units": "day",
+    "qualifier": "up_to"
+   },
+   "duration_note": "per fiscal year",
+   "service_requirement": "at least one year of benefits-eligible service",
+   "rule_applied": [
+    "R1",
+    "V2",
+    "U1",
+    "R11"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Full-time staff with at least one year of benefits-eligible service may use up to a maximum of 10 days of accrued sick leave per fiscal year (prorated for percent time staff) for family leave."
+    ],
+    "eligible_parent": [
+     "prenatal or postnatal care; or for purposes of caring for a new baby or adoptive/foster child after placement"
+    ],
+    "entitlement": [
+     "Full-time staff with at least one year of benefits-eligible service may use up to a maximum of 10 days of accrued sick leave per fiscal year (prorated for percent time staff) for family leave."
+    ],
+    "duration": [
+     "Full-time staff with at least one year of benefits-eligible service may use up to a maximum of 10 days of accrued sick leave per fiscal year (prorated for percent time staff) for family leave."
+    ],
+    "service_requirement": [
+     "Full-time staff with at least one year of benefits-eligible service may use up to a maximum of 10 days of accrued sick leave per fiscal year (prorated for percent time staff) for family leave."
+    ]
+   },
+   "doc_ids": [
+    "2018_04_usnh_policy_usy_v_a_employee_benefits_disability"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "own_accrual",
+     "quote": "Full-time staff with at least one year of benefits-eligible service may use up to a maximum of 10 days of accrued sick leave per fiscal year (prorated for percent time staff) for family leave."
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "own_balance",
+     "quote": "Full-time staff with at least one year of benefits-eligible service may use up to a maximum of 10 days of accrued sick leave per fiscal year (prorated for percent time staff) for family leave."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "full-time staff",
+     "quote": "Full-time staff with at least one year of benefits-eligible service may use up to a maximum of 10 days of accrued sick leave per fiscal year (prorated for percent time staff) for family leave."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "birth_parent, non_birth_parent, adoptive, foster",
+     "quote": "prenatal or postnatal care; or for purposes of caring for a new baby or adoptive/foster child after placement"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "Full-time staff with at least one year of benefits-eligible service may use up to a maximum of 10 days of accrued sick leave per fiscal year (prorated for percent time staff) for family leave."
+    },
+    {
+     "field": "duration",
+     "rule": "R11",
+     "answer": "10 days up_to",
+     "quote": "Full-time staff with at least one year of benefits-eligible service may use up to a maximum of 10 days of accrued sick leave per fiscal year (prorated for percent time staff) for family leave."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "one year",
+     "quote": "Full-time staff with at least one year of benefits-eligible service may use up to a maximum of 10 days of accrued sick leave per fiscal year (prorated for percent time staff) for family leave."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "prenatal or postnatal care; or for purposes of caring for a new baby or adoptive/foster child after placement"
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_new_hampshire_c15",
+   "institution_label": "Use of Sick Pool for family leave",
+   "description": "Operating Staff with a year of service may use up to 10 days of accrued Sick Pool a fiscal year for family leave, including prenatal or postnatal care and caring for a new baby or adopted or foster child.",
+   "mechanism": "own_accrual",
+   "payer": "own_balance",
+   "faculty_group": "Operating Staff",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "'prenatal or postnatal care; or for purposes of caring for a new baby or adoptive/foster child after placement'",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "duration": {
+    "value": 10,
+    "units": "day",
+    "qualifier": "up_to"
+   },
+   "duration_note": "per fiscal year (75 or 80 hours)",
+   "service_requirement": "at least one year of status service",
+   "rule_applied": [
+    "R1",
+    "V2",
+    "U1",
+    "R11"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Operating Staff with at least one year of status service may use up to a maximum of 10 days of accrued Sick Pool time per fiscal year"
+    ],
+    "eligible_parent": [
+     "prenatal or postnatal care; or for purposes of caring for a new baby or adoptive/foster child after placement"
+    ],
+    "entitlement": [
+     "Operating Staff with at least one year of status service may use up to a maximum of 10 days of accrued Sick Pool time per fiscal year"
+    ],
+    "duration": [
+     "Operating Staff with at least one year of status service may use up to a maximum of 10 days of accrued Sick Pool time per fiscal year"
+    ],
+    "service_requirement": [
+     "Operating Staff with at least one year of status service may use up to a maximum of 10 days of accrued Sick Pool time per fiscal year"
+    ]
+   },
+   "doc_ids": [
+    "2018_04_usnh_policy_usy_v_a_employee_benefits_disability"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "own_accrual",
+     "quote": "Operating Staff with at least one year of status service may use up to a maximum of 10 days of accrued Sick Pool time per fiscal year"
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "own_balance",
+     "quote": "Operating Staff with at least one year of status service may use up to a maximum of 10 days of accrued Sick Pool time per fiscal year"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "Operating Staff",
+     "quote": "Operating Staff with at least one year of status service may use up to a maximum of 10 days of accrued Sick Pool time per fiscal year"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "birth_parent, non_birth_parent, adoptive, foster",
+     "quote": "prenatal or postnatal care; or for purposes of caring for a new baby or adoptive/foster child after placement"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "Operating Staff with at least one year of status service may use up to a maximum of 10 days of accrued Sick Pool time per fiscal year"
+    },
+    {
+     "field": "duration",
+     "rule": "R11",
+     "answer": "10 days up_to",
+     "quote": "Operating Staff with at least one year of status service may use up to a maximum of 10 days of accrued Sick Pool time per fiscal year"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "one year",
+     "quote": "Operating Staff with at least one year of status service may use up to a maximum of 10 days of accrued Sick Pool time per fiscal year"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "prenatal or postnatal care; or for purposes of caring for a new baby or adoptive/foster child after placement"
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_new_hampshire_c16",
+   "institution_label": "",
+   "description": "Faculty other than tenure-track faculty with a year of benefits-eligible service may use up to 10 days of accrued sick leave a fiscal year for family leave (handbook 3.10.2, under Maternity/Paternity Leave).",
+   "mechanism": "own_accrual",
+   "payer": "own_balance",
+   "faculty_group": "faculty other than tenure track faculty",
+   "eligible_parent": [
+    "non_birth_parent"
+   ],
+   "eligible_parent_wording": "'for family leave' (purposes not defined in the handbook)",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "duration": {
+    "value": 10,
+    "units": "day",
+    "qualifier": "up_to"
+   },
+   "duration_note": "per fiscal year, pro-rated for percent-time faculty",
+   "service_requirement": "at least one year of benefits-eligible service",
+   "rule_applied": [
+    "R1",
+    "V2",
+    "U5",
+    "U1",
+    "R11"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Faculty other than tenure track faculty with at least one year of benefits-eligible service may use up to a maximum of 10 days of accrued sick leave per fiscal year (pro-rated for percent time faculty) for family leave."
+    ],
+    "eligible_parent": [
+     "Faculty other than tenure track faculty with at least one year of benefits-eligible service may use up to a maximum of 10 days of accrued sick leave per fiscal year (pro-rated for percent time faculty) for family leave."
+    ],
+    "entitlement": [
+     "Faculty other than tenure track faculty with at least one year of benefits-eligible service may use up to a maximum of 10 days of accrued sick leave per fiscal year (pro-rated for percent time faculty) for family leave."
+    ],
+    "duration": [
+     "Faculty other than tenure track faculty with at least one year of benefits-eligible service may use up to a maximum of 10 days of accrued sick leave per fiscal year (pro-rated for percent time faculty) for family leave."
+    ],
+    "service_requirement": [
+     "Faculty other than tenure track faculty with at least one year of benefits-eligible service may use up to a maximum of 10 days of accrued sick leave per fiscal year (pro-rated for percent time faculty) for family leave."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_faculty_handbook_sec3_employment_policies"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "own_accrual",
+     "quote": "Faculty other than tenure track faculty with at least one year of benefits-eligible service may use up to a maximum of 10 days of accrued sick leave per fiscal year (pro-rated for percent time faculty) for family leave."
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "own_balance",
+     "quote": "Faculty other than tenure track faculty with at least one year of benefits-eligible service may use up to a maximum of 10 days of accrued sick leave per fiscal year (pro-rated for percent time faculty) for family leave."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "faculty other than tenure track faculty",
+     "quote": "Faculty other than tenure track faculty with at least one year of benefits-eligible service may use up to a maximum of 10 days of accrued sick leave per fiscal year (pro-rated for percent time faculty) for family leave."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "non_birth_parent (family leave)",
+     "quote": "Faculty other than tenure track faculty with at least one year of benefits-eligible service may use up to a maximum of 10 days of accrued sick leave per fiscal year (pro-rated for percent time faculty) for family leave."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "Faculty other than tenure track faculty with at least one year of benefits-eligible service may use up to a maximum of 10 days of accrued sick leave per fiscal year (pro-rated for percent time faculty) for family leave."
+    },
+    {
+     "field": "duration",
+     "rule": "R11",
+     "answer": "10 days up_to",
+     "quote": "Faculty other than tenure track faculty with at least one year of benefits-eligible service may use up to a maximum of 10 days of accrued sick leave per fiscal year (pro-rated for percent time faculty) for family leave."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "one year",
+     "quote": "Faculty other than tenure track faculty with at least one year of benefits-eligible service may use up to a maximum of 10 days of accrued sick leave per fiscal year (pro-rated for percent time faculty) for family leave."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Faculty other than tenure track faculty with at least one year of benefits-eligible service may use up to a maximum of 10 days of accrued sick leave per fiscal year (pro-rated for percent time faculty) for family leave."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_new_hampshire_c17",
+   "institution_label": "Earned Time",
+   "description": "For non-exempt status staff, a single accrued Earned Time bank (with a convertible Sick Pool for extended illness) covering vacation, sick leave, interim disability and maternity leave.",
+   "mechanism": "own_accrual",
+   "payer": "own_balance",
+   "faculty_group": "non-exempt status staff (Operating Staff)",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "duration_note": "Accrued balance; no maximum accumulation; Sick Pool up to 150 days.",
+   "rule_applied": [
+    "R1",
+    "U1",
+    "V2"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "All non-exempt employees who are employed in a status position."
+    ],
+    "eligible_parent": [
+     "Earned Time is an alternative approach to the traditional manner of covering absences for vacation, sick leave, interim disability, maternity leave, and short term military leave by combining all these plans into one program."
+    ],
+    "entitlement": [
+     "It is expected that all planned absences will be mutually agreed upon by the staff member and his/her supervisor prior to the date of absence."
+    ]
+   },
+   "doc_ids": [
+    "2018_04_usnh_policy_usy_v_a_employee_benefits_disability"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "own_accrual",
+     "quote": "Earned Time is an alternative approach to the traditional manner of covering absences for vacation, sick leave, interim disability, maternity leave, and short term military leave by combining all these plans into one program."
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "own_balance",
+     "quote": "Earned Time is an alternative approach to the traditional manner of covering absences for vacation, sick leave, interim disability, maternity leave, and short term military leave by combining all these plans into one program."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "non-exempt status staff (Operating Staff)",
+     "quote": "All non-exempt employees who are employed in a status position."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U1",
+     "answer": "any_parent",
+     "quote": "Earned Time is an alternative approach to the traditional manner of covering absences for vacation, sick leave, interim disability, maternity leave, and short term military leave by combining all these plans into one program."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "It is expected that all planned absences will be mutually agreed upon by the staff member and his/her supervisor prior to the date of absence."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "Earned Time is an alternative approach to the traditional manner of covering absences for vacation, sick leave, interim disability, maternity leave, and short term military leave by combining all these plans into one program."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_new_hampshire_c18",
+   "institution_label": "Vacation/Personal Leave",
+   "description": "Accrued vacation/personal leave for fiscal-year faculty and exempt staff; USY V.A.4.12.6.3 makes salary during FMLA child-rearing leave contingent on its use.",
+   "mechanism": "own_accrual",
+   "payer": "own_balance",
+   "faculty_group": "fiscal year faculty and exempt staff",
+   "faculty_group_note": "Academic-year faculty, the standard tenure-track appointment, do not accrue vacation (USY V.A.4.10.1.1).",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "duration_note": "Accrual 1.5 or 2 days per month; maximum balance 45 days.",
+   "rule_applied": [
+    "R1",
+    "U1",
+    "V2"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "All members of the fiscal year faculty and exempt staff who are employed in a status position are eligible for vacation/personal leave.",
+     "Vacations and holidays for faculty members with academic year appointments are determined by the academic year calendar."
+    ],
+    "eligible_parent": [
+     "Continuance of salary under FMLA is contingent on use of her accrued vacation/personal leave time (see USY V.C.19)."
+    ],
+    "entitlement": [
+     "Vacation/personal leave is taken at a time mutually agreeable to the faculty or staff member and the supervisor."
+    ]
+   },
+   "doc_ids": [
+    "2018_04_usnh_policy_usy_v_a_employee_benefits_disability"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "own_accrual",
+     "quote": "All members of the fiscal year faculty and exempt staff who are employed in a status position are eligible for vacation/personal leave."
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "own_balance",
+     "quote": "All members of the fiscal year faculty and exempt staff who are employed in a status position are eligible for vacation/personal leave."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "fiscal year faculty and exempt staff",
+     "quote": "All members of the fiscal year faculty and exempt staff who are employed in a status position are eligible for vacation/personal leave."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U1",
+     "answer": "any_parent",
+     "quote": "Continuance of salary under FMLA is contingent on use of her accrued vacation/personal leave time (see USY V.C.19)."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "Vacation/personal leave is taken at a time mutually agreeable to the faculty or staff member and the supervisor."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "All members of the fiscal year faculty and exempt staff who are employed in a status position are eligible for vacation/personal leave."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_new_hampshire_c19",
+   "institution_label": "",
+   "description": "Voluntary partial leave without pay that reduces percent-time and pay, for medical or other personal reasons, normally not beyond a year.",
+   "mechanism": "part_time_option",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "USY V.C.16 'status faculty/staff member'; handbook 3.9 'A faculty member may apply for a voluntary partial leave of absence without pay'.",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "up_to"
+   },
+   "duration_note": "'normally not extending beyond a year' (Q1)",
+   "pay_fraction": "reduced with percent-time of service",
+   "rule_applied": [
+    "R3",
+    "U1",
+    "V2",
+    "Q1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "A faculty member may apply for a voluntary partial leave of absence without pay due to medical or other personal reasons for absences covering a period of time in excess of one pay period and normally not extending beyond a year."
+    ],
+    "eligible_parent": [
+     "A faculty member may apply for a voluntary partial leave of absence without pay due to medical or other personal reasons for absences covering a period of time in excess of one pay period and normally not extending beyond a year."
+    ],
+    "entitlement": [
+     "A faculty member may apply for a voluntary partial leave of absence without pay due to medical or other personal reasons for absences covering a period of time in excess of one pay period and normally not extending beyond a year."
+    ],
+    "duration": [
+     "A faculty member may apply for a voluntary partial leave of absence without pay due to medical or other personal reasons for absences covering a period of time in excess of one pay period and normally not extending beyond a year."
+    ],
+    "pay_fraction": [
+     "A partial leave reduces the faculty/staff member's percent-time of service and pay for the leave period."
+    ]
+   },
+   "doc_ids": [
+    "2018_03_usnh_policy_usy_v_c_employment_lwop_fmla",
+    "2018_01_faculty_handbook_sec3_employment_policies"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R3",
+     "answer": "part_time_option",
+     "quote": "A partial leave reduces the faculty/staff member's percent-time of service and pay for the leave period."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "A partial leave reduces the faculty/staff member's percent-time of service and pay for the leave period."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "A faculty member may apply for a voluntary partial leave of absence without pay due to medical or other personal reasons for absences covering a period of time in excess of one pay period and normally not extending beyond a year."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U1",
+     "answer": "any_parent",
+     "quote": "A faculty member may apply for a voluntary partial leave of absence without pay due to medical or other personal reasons for absences covering a period of time in excess of one pay period and normally not extending beyond a year."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "A faculty member may apply for a voluntary partial leave of absence without pay due to medical or other personal reasons for absences covering a period of time in excess of one pay period and normally not extending beyond a year."
+    },
+    {
+     "field": "duration",
+     "rule": "Q1",
+     "answer": "1 year up_to",
+     "quote": "A faculty member may apply for a voluntary partial leave of absence without pay due to medical or other personal reasons for absences covering a period of time in excess of one pay period and normally not extending beyond a year."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "R3",
+     "answer": "reduced pro rata; no level stated",
+     "quote": "A partial leave reduces the faculty/staff member's percent-time of service and pay for the leave period."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "A faculty member may apply for a voluntary partial leave of absence without pay due to medical or other personal reasons for absences covering a period of time in excess of one pay period and normally not extending beyond a year."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_new_hampshire_c20",
+   "institution_label": "Flex-Year",
+   "description": "Staff may request a change from full-time to a flex-year appointment of at least 75% time, at the supervisor's discretion.",
+   "mechanism": "part_time_option",
+   "payer": "employer",
+   "faculty_group": "staff (non-exempt or exempt positions)",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "pay_fraction": "pro rata to the flex-year appointment (at least 75%)",
+   "rule_applied": [
+    "R3",
+    "U1",
+    "V2"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "A staff member may request a change from full-time to a flex-year schedule. The supervisor has the authority to grant or deny the staff member's request, based on institutional policy."
+    ],
+    "eligible_parent": [
+     "A staff member may request a change from full-time to a flex-year schedule. The supervisor has the authority to grant or deny the staff member's request, based on institutional policy."
+    ],
+    "entitlement": [
+     "A staff member may request a change from full-time to a flex-year schedule. The supervisor has the authority to grant or deny the staff member's request, based on institutional policy."
+    ],
+    "pay_fraction": [
+     "they result in appointments that are less than a full-time appointment, but at least 75%"
+    ]
+   },
+   "doc_ids": [
+    "2018_03_usnh_policy_usy_v_c_employment_lwop_fmla"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R3",
+     "answer": "part_time_option",
+     "quote": "they result in appointments that are less than a full-time appointment, but at least 75%"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "they result in appointments that are less than a full-time appointment, but at least 75%"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "staff (non-exempt or exempt positions)",
+     "quote": "A staff member may request a change from full-time to a flex-year schedule. The supervisor has the authority to grant or deny the staff member's request, based on institutional policy."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U1",
+     "answer": "any_parent",
+     "quote": "A staff member may request a change from full-time to a flex-year schedule. The supervisor has the authority to grant or deny the staff member's request, based on institutional policy."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "A staff member may request a change from full-time to a flex-year schedule. The supervisor has the authority to grant or deny the staff member's request, based on institutional policy."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "R3",
+     "answer": "pro rata; at least 75% appointment",
+     "quote": "they result in appointments that are less than a full-time appointment, but at least 75%"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "A staff member may request a change from full-time to a flex-year schedule. The supervisor has the authority to grant or deny the staff member's request, based on institutional policy."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_new_hampshire_c21",
+   "institution_label": "",
+   "description": "Optional employee-paid insurance plans the USNH Human Resources Office may establish, including short-term disability coverage, with no employer contribution.",
+   "mechanism": "generic_sick_or_disability_plan",
+   "payer": "employee_paid",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "USNH policy for status faculty and staff; CBA 17.1: 'unit members shall receive the benefits approved and outlined in Board of Trustee or USNH policy' unless otherwise qualified by the agreement.",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "rule_applied": [
+    "R1d",
+    "V2",
+    "U5",
+    "U1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "The USNH Human Resources Office may establish insurance benefits in addition to the flexible benefit plan. These will have no employer contribution."
+    ],
+    "eligible_parent": [
+     "short-term disability coverage. These programs are normally paid through employee payroll deductions."
+    ],
+    "entitlement": [
+     "The USNH Human Resources Office may establish insurance benefits in addition to the flexible benefit plan. These will have no employer contribution."
+    ],
+    "payer": [
+     "short-term disability coverage. These programs are normally paid through employee payroll deductions."
+    ]
+   },
+   "doc_ids": [
+    "2018_04_usnh_policy_usy_v_a_employee_benefits_disability"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "short-term disability coverage. These programs are normally paid through employee payroll deductions."
+    },
+    {
+     "field": "payer",
+     "rule": "R1d",
+     "answer": "employee_paid",
+     "quote": "short-term disability coverage. These programs are normally paid through employee payroll deductions."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "The USNH Human Resources Office may establish insurance benefits in addition to the flexible benefit plan. These will have no employer contribution."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent",
+     "quote": "short-term disability coverage. These programs are normally paid through employee payroll deductions."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "The USNH Human Resources Office may establish insurance benefits in addition to the flexible benefit plan. These will have no employer contribution."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "short-term disability coverage. These programs are normally paid through employee payroll deductions."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_new_hampshire_c22",
+   "institution_label": "",
+   "description": "Tenured and tenure-track faculty may elect a temporary reduction of their full-time appointment to no less than 50% for up to one year and remain in the bargaining unit (Art. 1 footnote).",
+   "mechanism": "part_time_option",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "CBA Art. 1 footnote: 'Tenured faculty and tenure-track faculty'.",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "'who elect' (V2); the footnote defines unit membership and states no approval terms.",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "up_to"
+   },
+   "duration_note": "'for no more than one year (unless exempted for additional time by the University)'. A year of less than full-time service does not count toward the tenure decision (13.8.4) unless agreed in writing.",
+   "rule_applied": [
+    "R3",
+    "V2",
+    "U1",
+    "R13"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Tenured faculty and tenure-track faculty who elect a temporary reduction in full-time appointment to no less than 50% time for no more than one year (unless exempted for additional time by the University)"
+    ],
+    "eligible_parent": [
+     "Tenured faculty and tenure-track faculty who elect a temporary reduction in full-time appointment to no less than 50% time for no more than one year (unless exempted for additional time by the University)"
+    ],
+    "entitlement": [
+     "Tenured faculty and tenure-track faculty who elect a temporary reduction in full-time appointment to no less than 50% time for no more than one year (unless exempted for additional time by the University)"
+    ],
+    "duration": [
+     "Tenured faculty and tenure-track faculty who elect a temporary reduction in full-time appointment to no less than 50% time for no more than one year (unless exempted for additional time by the University)"
+    ]
+   },
+   "doc_ids": [
+    "2018_02_aaup_unh_cba_2015_2020"
+   ],
+   "flags": [
+    "general_purpose",
+    "ambiguous: the reduction is stated only in the recognition footnote, which defines unit membership; approval terms and pay not stated"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R3",
+     "answer": "part_time_option",
+     "quote": "Tenured faculty and tenure-track faculty who elect a temporary reduction in full-time appointment to no less than 50% time for no more than one year (unless exempted for additional time by the University)"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "Tenured faculty and tenure-track faculty who elect a temporary reduction in full-time appointment to no less than 50% time for no more than one year (unless exempted for additional time by the University)"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Tenured faculty and tenure-track faculty who elect a temporary reduction in full-time appointment to no less than 50% time for no more than one year (unless exempted for additional time by the University)"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U1",
+     "answer": "any_parent",
+     "quote": "Tenured faculty and tenure-track faculty who elect a temporary reduction in full-time appointment to no less than 50% time for no more than one year (unless exempted for additional time by the University)"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "Tenured faculty and tenure-track faculty who elect a temporary reduction in full-time appointment to no less than 50% time for no more than one year (unless exempted for additional time by the University)"
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 year up_to ('for no more than one year')",
+     "quote": "Tenured faculty and tenure-track faculty who elect a temporary reduction in full-time appointment to no less than 50% time for no more than one year (unless exempted for additional time by the University)"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "Tenured faculty and tenure-track faculty who elect a temporary reduction in full-time appointment to no less than 50% time for no more than one year (unless exempted for additional time by the University)"
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "Sources: 2018_01 handbook; 2018_02 CBA; 2018_03 USY V.C; 2018_04 USY V.A.",
+  "Governing document: the AAUP-UNH CBA 2015-2020 (in force on 2018-03-12) covers all tenured and tenure-track faculty at Durham and Manchester; the Provost's Faculty Resource Guide Section 3 points tenure-track parental leave to it (a summary). USY V.A and V.C apply to unit members through CBA 17.1 unless the CBA qualifies them.",
+  "Reference date 2018-03-12. Handbook capture 2017-09-24 (copyright 2017, academic year 2017-18); USY V.C last updated 2017-04-04; USY V.A last updated 2017-06-22.",
+  "Numbering: the CBA cites USY V.A.4.13(.6) for interim disability and pregnancy; in the saved V.A capture these are 4.12 and 4.12.6 (4.13 is bereavement). Read as the same provisions.",
+  "Conflict: handbook 3.8 says 'accumulated vacation and sick time apply to staff and not to faculty'; CBA 17.4.1.1 gives unit faculty accrued sick leave. The CBA governs (source precedence); c3 flagged conflicting_sources.",
+  "Handbook 3.10.1 says the combined leave of two UNH parents is 12 weeks; the CBA does not state this (flag on c1). Handbook's one-year tenure-clock extension option for a birth is not in the CBA (c10, summary_only); the CBA excludes leave time from tenure service (c9). CBA 13.8.3's one-year exclusion 'for extraordinary professional circumstances' is professional, not parental, and is not a component.",
+  "Not components (cannot be used for a birth or not a leave): bereavement (USY V.A.4.13), jury duty and witness leave, crime victim leave, military leave, first-responder leave, sabbatical leave (professional improvement), workers' compensation, fitness-for-duty paid leave, teleworking and flextime, voluntary separation and retirement transition, tuition and holidays.",
+  "Pregnancy: CBA 17.4.3.4 replaces post-natal pregnancy-related disability leave with parental leave and leaves pre-natal pregnancy disability under USY V.A.4.12.6 (sick leave, then interim disability at full salary, position held). Coded as c5 (leave, up to six months) with c4 (interim disability pay) within it and c3 sick leave; c5 is not linked to c1 because the text does not say whether the six-month maximum bounds the parental leave too (flagged).",
+  "Interim disability is the only childbirth-related employer pay besides parental leave. Its stated childbirth period ('usually ... from childbirth through six weeks') is the post-natal period replaced by parental leave, so V1 is not applied (c4 generic).",
+  "Chain, birth parent: [pre-natal disability leave c5 with sick leave then interim disability c4, if certified; not linked] ; parental leave c1 12 weeks from the birth (sick leave c3 drawn first within it) with FMLA c2 concurrent ; modified duties c8 (discretionary) also available, placed after the leave.",
+  "Chain, non-birth parent: parental leave c1 12 weeks from the birth (sick leave c3 within it) with FMLA c2 concurrent ; modified duties c8 (discretionary) also available after.",
+  "Calendar: the CBA states semesters for academic-year faculty (sabbatical 'one semester at full salary'; modified duties 'up to two semesters'); calendar.kind = semester, and the term length follows R8's order.",
+  "Documents cited but not saved: USY V.A.17 and V.A.16 (cited by V.C.16.1.1; probably FMLA and workers' compensation sections of an older numbering), USY V.F (compensation, payroll), USY V.D (employee relations), the UNH Lecturers United-AAUP CBA, the UNH HR benefits pages (unh.edu/hr/benefits.htm, childcare, work/life), the faculty appointments page, flexible benefit plan materials and the LTD plan document, the 95-98 AAUP contract, the Medicare Complementary Plan SPD, PSU Faculty Handbook, KSCEA contract, Wheelock School Handbook. None is needed for a provision coded here except the LTD plan terms and the non-tenure-track benefits pages (c16 group).",
+  "No New Hampshire rows in statutory_baseline.csv; the documents name no New Hampshire family-leave statute."
+ ],
+ "paid_caps": [
+  {
+   "weeks": 26,
+   "components": [
+    "university_of_new_hampshire_c3",
+    "university_of_new_hampshire_c4"
+   ],
+   "note": "combined cap of six months on sick leave and interim disability (university_of_new_hampshire_c3, university_of_new_hampshire_c4)",
+   "evidence": "reader flag on c3, c4"
+  }
+ ],
+ "statutory_floor": {
+  "jurisdiction": "US",
+  "year": "2018",
+  "weeks_birth": 12.0,
+  "weeks_nonbirth": 12.0,
+  "statute": "Family and Medical Leave Act (FMLA) (29 U.S.C. 2611-2612)",
+  "source_doc": "2026_00_us_fmla_29usc2612",
+  "table": "statutory_baseline.csv"
+ }
+}

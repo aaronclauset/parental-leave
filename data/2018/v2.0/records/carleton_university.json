@@ -1,0 +1,2725 @@
+{
+ "institution": "Carleton University",
+ "slug": "carleton_university",
+ "country": "Canada",
+ "model": "claude-opus-5-5",
+ "codebook_version": "1.25",
+ "schema_version": "1.25",
+ "reference_date": "2018-02-22",
+ "calendar": {
+  "term_weeks": null,
+  "note": "Art. 13.2(b): 'Teaching as a part of normal workload assignment shall not be scheduled over more than two semesters within one academic year.' Kind of term (semester) stated without a length -> default 16 (R8). No component is measured in terms.",
+  "kind": "semester"
+ },
+ "documents": [
+  {
+   "doc_id": "2018_00_link",
+   "url": "https://carleton.ca/hr/wp-content/uploads/CUASA-2014-2017.pdf",
+   "title": "Collective Agreement between Carleton University and the Carleton University Academic Staff Association (CUASA), 01 May 2014 to 30 April 2017",
+   "version_or_effective_date": "term 2014-05-01 to 2017-04-30 (Art. 33.1), signed 2015-03-03; continues in force until a new agreement is ratified (Art. 33.2); Wayback capture 2016-09-10",
+   "retrieved": "2026-10-22"
+  },
+  {
+   "doc_id": "2018_16_ca_ei_act_pit_2018-01-01",
+   "title": "Employment Insurance Act (Canada), point in time 2018-01-01",
+   "version_or_effective_date": "2018-01-01",
+   "url": "https://laws-lois.justice.gc.ca/eng/acts/E-5.6/20180101/P1TT3xt3.html",
+   "retrieved": "2026-10-31"
+  }
+ ],
+ "missing": false,
+ "scope_accounting": {
+  "C1": {
+   "components": [
+    "carleton_university_c1",
+    "carleton_university_c2",
+    "carleton_university_c3",
+    "carleton_university_c4",
+    "carleton_university_c5",
+    "carleton_university_c6",
+    "carleton_university_c7",
+    "carleton_university_c8"
+   ]
+  },
+  "C2": {
+   "absent": {
+    "documents": [
+     "2018_00_link"
+    ],
+    "terms": [
+     "modified duties",
+     "teaching relief",
+     "course release",
+     "release",
+     "reduced teaching",
+     "workload",
+     "parental",
+     "maternity",
+     "new parent"
+    ]
+   }
+  },
+  "C3": {
+   "components": [
+    "carleton_university_c10",
+    "carleton_university_c11",
+    "carleton_university_c12",
+    "carleton_university_c14"
+   ]
+  },
+  "C4": {
+   "components": [
+    "carleton_university_c5",
+    "carleton_university_c7"
+   ],
+   "not_components": [
+    {
+     "statute": "Employment Insurance Act, other sections; Employment Insurance Regulations (named in 20.7(f)(ii) and (g); not saved)",
+     "reason": "Only ss. 12, 13, 14, 17, 22, 23 (maternity and parental benefits, waiting period, rate) are relied on; the Regulations govern SUB-plan registration, whose terms the agreement states itself (U4)."
+    },
+    {
+     "statute": "Ontario Human Rights Code (Art. 5.3(b))",
+     "reason": "General commitment to act in accordance with legislation and to accommodate; not relied on for a parental leave, pay or protection (U4)."
+    },
+    {
+     "statute": "Ontarians with Disabilities Act (Art. 5.3(b))",
+     "reason": "Disability accommodation statute (U4)."
+    },
+    {
+     "statute": "Occupational Health and Safety Act, R.S.O. 1990, c.O.1 (Art. 5.3(b), 36.1(f))",
+     "reason": "Workplace health and safety; not a parental provision (U4)."
+    },
+    {
+     "statute": "Freedom of Information and Protection of Privacy Act (Art. 16.14, 23.1)",
+     "reason": "Information and privacy (U4)."
+    },
+    {
+     "statute": "Ontario Labour Relations Act (Art. 2.7, 23.1, 30.11, 31.1; Appendix C)",
+     "reason": "Labour relations and bargaining unit (U4)."
+    },
+    {
+     "statute": "Carleton University Act; Carleton College Act (Definitions 7-8, Art. 8)",
+     "reason": "Incorporation of the University (U4)."
+    },
+    {
+     "statute": "Income Tax Act (Art. 40.11)",
+     "reason": "Definition of dependants for tuition waiver (U4)."
+    },
+    {
+     "statute": "'the appropriate election expenses act' (Art. 20.3)",
+     "reason": "Political leave, not usable for a birth (U4)."
+    },
+    {
+     "statute": "'relevant legislation (see Article 5)' (Art. 10.1(a)(vi)-(vii), 10.1(b)(ii))",
+     "reason": "Unnamed legislation behind tenure-clock extensions; no Act named, so nothing to code beyond c15 (U4)."
+    },
+    {
+     "statute": "Unemployment Insurance; Canada Pension Plan; Ontario Health Insurance Plan (Appendix D, Part II(k))",
+     "reason": "Listed as fringe benefits in the 1974 financial-stringency document; not relied on for a parental provision (EI is coded from the EI Act, c5, c7) (U4)."
+    }
+   ]
+  },
+  "C5": {
+   "absent": {
+    "documents": [
+     "2018_00_link"
+    ],
+    "terms": [
+     "family care",
+     "care of",
+     "ill",
+     "illness",
+     "family member",
+     "immediate family",
+     "compassionate",
+     "caregiver"
+    ]
+   }
+  },
+  "C6": {
+   "components": [
+    "carleton_university_c9",
+    "carleton_university_c13",
+    "carleton_university_c19"
+   ]
+  },
+  "C7": {
+   "components": [
+    "carleton_university_c15",
+    "carleton_university_c16"
+   ]
+  },
+  "C8": {
+   "components": [
+    "carleton_university_c17",
+    "carleton_university_c18"
+   ]
+  },
+  "C9": {
+   "absent": {
+    "documents": [
+     "2018_00_link"
+    ],
+    "terms": [
+     "accommodation",
+     "pregnan",
+     "hazard",
+     "transfer",
+     "modified",
+     "regular duties during pregnancy"
+    ]
+   }
+  },
+  "C10": {
+   "absent": {
+    "documents": [
+     "2018_00_link"
+    ],
+    "terms": [
+     "FMLA",
+     "Family and Medical Leave",
+     "first days",
+     "qualifying absence"
+    ]
+   }
+  }
+ },
+ "passage_dispositions": {
+  "2018_00_link#001": {
+   "not_relevant": "table of contents"
+  },
+  "2018_00_link#002": {
+   "not_relevant": "definitions (employer, month = 22 working days, nominal salary); used only for the faculty group (Definition 16)"
+  },
+  "2018_00_link#003": {
+   "not_relevant": "academic freedom, non-discrimination and general accommodation duty (Art. 4-5.3); no parental provision"
+  },
+  "2018_00_link#004": {
+   "not_relevant": "acting library department heads for planned absences such as parental leave; staffing, not a benefit"
+  },
+  "2018_00_link#005": {
+   "used_in": [
+    "carleton_university_c17"
+   ]
+  },
+  "2018_00_link#006": {
+   "used_in": [
+    "carleton_university_c15",
+    "carleton_university_c16"
+   ]
+  },
+  "2018_00_link#007": {
+   "used_in": [
+    "carleton_university_c15"
+   ]
+  },
+  "2018_00_link#008": {
+   "not_relevant": "tenure committee recommendations and deferral options"
+  },
+  "2018_00_link#009": {
+   "not_relevant": "Sprott cluster tenure committee recommendations"
+  },
+  "2018_00_link#010": {
+   "not_relevant": "instructor renewal and confirmation procedures"
+  },
+  "2018_00_link#011": {
+   "used_in": [
+    "carleton_university_c19"
+   ]
+  },
+  "2018_00_link#012": {
+   "used_in": [
+    "carleton_university_c19"
+   ]
+  },
+  "2018_00_link#013": {
+   "not_relevant": "13.6 long-service pre-retirement reduced time (sabbatical example) and 13.7 librarian temporary assignments"
+  },
+  "2018_00_link#014": {
+   "not_relevant": "instructor rights and responsibilities"
+  },
+  "2018_00_link#015": {
+   "used_in": [
+    "carleton_university_c9"
+   ]
+  },
+  "2018_00_link#016": {
+   "not_relevant": "retraining and study leave (20.2) and political leave (20.3): purposes a parent could not use for a birth"
+  },
+  "2018_00_link#017": {
+   "used_in": [
+    "carleton_university_c1",
+    "carleton_university_c2",
+    "carleton_university_c3",
+    "carleton_university_c4",
+    "carleton_university_c5",
+    "carleton_university_c6",
+    "carleton_university_c7",
+    "carleton_university_c8",
+    "carleton_university_c10",
+    "carleton_university_c11",
+    "carleton_university_c13",
+    "carleton_university_c14"
+   ]
+  },
+  "2018_00_link#018": {
+   "not_relevant": "sabbatical allowance terms"
+  },
+  "2018_00_link#019": {
+   "not_relevant": "extended sabbatical, research absences, off-campus teaching"
+  },
+  "2018_00_link#020": {
+   "not_relevant": "information on employees supplied to the Association"
+  },
+  "2018_00_link#021": {
+   "not_relevant": "health and safety; disability accommodation under the Carleton Human Rights Policies (not saved); health-hazard certificate procedure, not pregnancy-specific"
+  },
+  "2018_00_link#022": {
+   "not_relevant": "term appointment renewal"
+  },
+  "2018_00_link#023": {
+   "used_in": [
+    "carleton_university_c12"
+   ]
+  },
+  "2018_00_link#024": {
+   "not_relevant": "benefits committee, athletic facilities, retirement plan"
+  },
+  "2018_00_link#025": {
+   "not_relevant": "tuition waiver for dependants"
+  },
+  "2018_00_link#026": {
+   "not_relevant": "professional expense reimbursement pro-rated for leave without pay"
+  },
+  "2018_00_link#027": {
+   "not_relevant": "career development increments for employees on leave or LTD"
+  },
+  "2018_00_link#028": {
+   "not_relevant": "dismissal procedures"
+  },
+  "2018_00_link#029": {
+   "not_relevant": "financial stringency document, fringe-benefit list"
+  },
+  "2018_00_link#030": {
+   "not_relevant": "health plan reporting to the Association (LTD claims reports)"
+  }
+ },
+ "mechanism_slots": {
+  "employer_paid_leave": {
+   "components": [
+    "carleton_university_c2",
+    "carleton_university_c3",
+    "carleton_university_c13"
+   ]
+  },
+  "employer_childbirth_benefit": {
+   "absent": "2018_00_link searched for maternity, childbirth, birth, disability, sick: the maternity pay is coded as employer-paid leave within the maternity leave; the sick leave states no childbirth period (V1)"
+  },
+  "generic_sick_or_disability_plan": {
+   "components": [
+    "carleton_university_c11",
+    "carleton_university_c12"
+   ]
+  },
+  "own_accrual": {
+   "components": [
+    "carleton_university_c14"
+   ]
+  },
+  "donated_leave": {
+   "absent": "2018_00_link searched for donated, shared, bank, pool: none"
+  },
+  "government_benefit": {
+   "components": [
+    "carleton_university_c5",
+    "carleton_university_c7"
+   ]
+  },
+  "employer_topup": {
+   "components": [
+    "carleton_university_c4",
+    "carleton_university_c8"
+   ]
+  },
+  "modified_duties": {
+   "absent": "2018_00_link searched for modified duties, relief, release, reduced teaching, workload: no parental relief (10.1(a)(viii) first-year course release is not parental)"
+  },
+  "unpaid_leave": {
+   "components": [
+    "carleton_university_c1",
+    "carleton_university_c6",
+    "carleton_university_c9",
+    "carleton_university_c10",
+    "carleton_university_c19"
+   ]
+  },
+  "tenure_clock": {
+   "components": [
+    "carleton_university_c15",
+    "carleton_university_c16"
+   ]
+  },
+  "part_time_option": {
+   "components": [
+    "carleton_university_c17",
+    "carleton_university_c18"
+   ]
+  },
+  "other": {
+   "absent": "2018_00_link searched for accommodation, pregnancy, hazard, transfer: no pregnancy accommodation or equal-treatment provision with its own coding; 20.7(b) (right to continue regular duties during pregnancy) gives no leave, pay, relief or protection of an absence"
+  }
+ },
+ "baseline_accounting": {
+  "Employment Insurance maternity and parental benefits": {
+   "components": [
+    "carleton_university_c5",
+    "carleton_university_c7"
+   ]
+  },
+  "Employment Standards Act: pregnancy and parental leave": {
+   "absent": "no saved document mentions it: the agreement does not name the Employment Standards Act; the Ontario floor (pregnancy 17 + parental 61; other parent 63) applies under U7"
+  }
+ },
+ "leave_limits": [],
+ "components": [
+  {
+   "component_id": "carleton_university_c1",
+   "institution_label": "maternity leave",
+   "description": "Maternity leave of up to 17 weeks under Art. 20.7, granted on application to a pregnant employee; the leave itself (its pay is coded separately as the alternatives in 20.7(e) and 20.7(f)).",
+   "mechanism": "unpaid_leave",
+   "mechanism_note": "The leave as such; its pay (regular salary under 20.7(e), or 95% then a top-up of EI under 20.7(f)) is coded as separate components within it (worked example 1; R15b: the leave is shared by both pay options).",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "'An employee' of the bargaining unit (Definition 16); the unit is 'All full-time academic staff and professional librarians employed by the Respondent in the City of Ottawa' (Appendix C), which holds the professoriate (Art. 9.4(a)(i), 10.1)",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "an employee ... her pregnancy; maternity leave",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "'shall, upon application, be granted': the agreement grants the leave and the application covers only the arrangements (schema: 'shall be granted upon request' -> guaranteed_on_request).",
+   "duration": {
+    "value": 17,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "duration_note": "'The maximum period of maternity leave shall be seventeen (17) weeks.' Additional time: leave without pay under Art. 20.1 (c9).",
+   "medical_certification": true,
+   "medical_certification_note": "application 'supported by a certificate from a qualified member of the medical profession' (of the pregnancy and its expected termination)",
+   "service_requirement": "none stated for preliminary or tenured appointments; term appointees of one year or less only after one year as a continuing member of the bargaining unit (20.7(c))",
+   "time_window": "may begin no earlier than the eleventh week before the expected date of delivery",
+   "notice": "application fifteen weeks before the expected termination of the pregnancy; notice of return at least two weeks before the intended date of return",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "relief_note": "A leave of absence; no relief stated (R9). 20.7(b): the employee may continue her regular duties during pregnancy.",
+   "rule_applied": [
+    "V2",
+    "R13",
+    "R9",
+    "R15b",
+    "U1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Employee designates a person included in the bargaining unit as defined by the certificate issued by the Ontario Labour Relations Board",
+     "All full-time academic staff and professional librarians employed by the Respondent in the City of Ottawa"
+    ],
+    "eligible_parent": [
+     "Application for maternity leave shall be made fifteen (15) weeks prior to the expected termination of the employee's pregnancy and shall be supported by a certificate from a qualified member of the medical profession."
+    ],
+    "entitlement": [
+     "An employee shall, upon application, be granted maternity leave subject to the following conditions:"
+    ],
+    "duration": [
+     "The maximum period of maternity leave shall be seventeen (17) weeks. Such leave may begin no earlier than the eleventh week before the expected date of delivery."
+    ],
+    "service_requirement": [
+     "Employees appointed in accordance with Article 37 for a term of one (1) year or less shall not be eligible for the provisions in Article 20.7 below unless and until they have been a continuing member of the bargaining unit for one (1) year."
+    ],
+    "medical_certification": [
+     "Application for maternity leave shall be made fifteen (15) weeks prior to the expected termination of the employee's pregnancy and shall be supported by a certificate from a qualified member of the medical profession."
+    ],
+    "notice": [
+     "Application for maternity leave shall be made fifteen (15) weeks prior to the expected termination of the employee's pregnancy and shall be supported by a certificate from a qualified member of the medical profession.",
+     "The employee shall advise their immediate supervisor of their intention to return at least two (2) weeks prior to the intended date of return."
+    ],
+    "time_window": [
+     "The maximum period of maternity leave shall be seventeen (17) weeks. Such leave may begin no earlier than the eleventh week before the expected date of delivery."
+    ],
+    "return_protection": [
+     "On returning from parental leave the employee shall be placed in their former position or in a position equivalent to their former position with no loss of seniority."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "All full-time academic staff and professional librarians employed by the Respondent in the City of Ottawa"
+    },
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "An employee shall, upon application, be granted maternity leave subject to the following conditions:"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "An employee shall, upon application, be granted maternity leave subject to the following conditions:"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "birth_parent",
+     "quote": "Application for maternity leave shall be made fifteen (15) weeks prior to the expected termination of the employee's pregnancy and shall be supported by a certificate from a qualified member of the medical profession."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "An employee shall, upon application, be granted maternity leave subject to the following conditions:"
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "17 weeks, up_to ('maximum period')",
+     "quote": "The maximum period of maternity leave shall be seventeen (17) weeks. Such leave may begin no earlier than the eleventh week before the expected date of delivery."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "none for tenure-stream; term appointees of one year or less need one year",
+     "quote": "Employees appointed in accordance with Article 37 for a term of one (1) year or less shall not be eligible for the provisions in Article 20.7 below unless and until they have been a continuing member of the bargaining unit for one (1) year."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave, relief not stated)",
+     "quote": "An employee shall, upon application, be granted maternity leave subject to the following conditions:"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Application for maternity leave shall be made fifteen (15) weeks prior to the expected termination of the employee's pregnancy and shall be supported by a certificate from a qualified member of the medical profession."
+    }
+   ]
+  },
+  {
+   "component_id": "carleton_university_c2",
+   "institution_label": "",
+   "description": "Pay option 20.7(e): regular salary for the first 12 weeks of maternity leave (or less if the leave is shorter), employer benefit contributions maintained; the alternative to option 20.7(f).",
+   "mechanism": "employer_paid_leave",
+   "mechanism_note": "Employer salary continuation during the first 12 weeks of the maternity leave; coded as pay within the leave (c1), since the leave is shared with the alternative pay option (R15b).",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "'An employee' of the bargaining unit (Definition 16); the unit is 'All full-time academic staff and professional librarians employed by the Respondent in the City of Ottawa' (Appendix C), which holds the professoriate (Art. 9.4(a)(i), 10.1)",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "the employee ... her regular salary",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "entitlement_note": "'the employee shall continue to receive her regular salary' once on maternity leave; default when 20.7(f) is not elected or the employee is not EI-eligible (20.7(g)).",
+   "duration": {
+    "value": 12,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "duration_note": "'For the first twelve (12) weeks (or less if the leave is of shorter duration)': 'or less' is a qualifying word (R13). For the last five weeks of the leave, employee and employer share benefit-plan costs (20.7(e)(ii)); no salary is stated for them.",
+   "pay_fraction": "regular salary",
+   "service_requirement": "none stated for preliminary or tenured appointments; term appointees of one year or less only after one year as a continuing member of the bargaining unit (20.7(c))",
+   "sequence": [
+    {
+     "relation": "within",
+     "component_id": "carleton_university_c1",
+     "note": "the first twelve weeks of the maternity leave"
+    }
+   ],
+   "rule_applied": [
+    "R13",
+    "R15",
+    "R15b",
+    "V4",
+    "U1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Employee designates a person included in the bargaining unit as defined by the certificate issued by the Ontario Labour Relations Board",
+     "All full-time academic staff and professional librarians employed by the Respondent in the City of Ottawa"
+    ],
+    "eligible_parent": [
+     "For the first twelve (12) weeks (or less if the leave is of shorter duration) of maternity leave the employee shall continue to receive her regular salary."
+    ],
+    "entitlement": [
+     "For the first twelve (12) weeks (or less if the leave is of shorter duration) of maternity leave the employee shall continue to receive her regular salary."
+    ],
+    "duration": [
+     "For the first twelve (12) weeks (or less if the leave is of shorter duration) of maternity leave the employee shall continue to receive her regular salary."
+    ],
+    "pay_fraction": [
+     "For the first twelve (12) weeks (or less if the leave is of shorter duration) of maternity leave the employee shall continue to receive her regular salary."
+    ],
+    "sequence": [
+     "For the first twelve (12) weeks (or less if the leave is of shorter duration) of maternity leave the employee shall continue to receive her regular salary."
+    ],
+    "service_requirement": [
+     "Employees appointed in accordance with Article 37 for a term of one (1) year or less shall not be eligible for the provisions in Article 20.7 below unless and until they have been a continuing member of the bargaining unit for one (1) year."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "All full-time academic staff and professional librarians employed by the Respondent in the City of Ottawa"
+    },
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "employer_paid_leave",
+     "quote": "For the first twelve (12) weeks (or less if the leave is of shorter duration) of maternity leave the employee shall continue to receive her regular salary."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "For the first twelve (12) weeks (or less if the leave is of shorter duration) of maternity leave the employee shall continue to receive her regular salary."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "birth_parent",
+     "quote": "For the first twelve (12) weeks (or less if the leave is of shorter duration) of maternity leave the employee shall continue to receive her regular salary."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "For the first twelve (12) weeks (or less if the leave is of shorter duration) of maternity leave the employee shall continue to receive her regular salary."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "12 weeks, up_to ('or less if the leave is of shorter duration')",
+     "quote": "For the first twelve (12) weeks (or less if the leave is of shorter duration) of maternity leave the employee shall continue to receive her regular salary."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "regular salary (100%)",
+     "quote": "For the first twelve (12) weeks (or less if the leave is of shorter duration) of maternity leave the employee shall continue to receive her regular salary."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "within c1 (first twelve weeks of the maternity leave)",
+     "quote": "For the first twelve (12) weeks (or less if the leave is of shorter duration) of maternity leave the employee shall continue to receive her regular salary."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "as for c1",
+     "quote": "Employees appointed in accordance with Article 37 for a term of one (1) year or less shall not be eligible for the provisions in Article 20.7 below unless and until they have been a continuing member of the bargaining unit for one (1) year."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "For the first twelve (12) weeks (or less if the leave is of shorter duration) of maternity leave the employee shall continue to receive her regular salary."
+    }
+   ]
+  },
+  {
+   "component_id": "carleton_university_c3",
+   "institution_label": "",
+   "description": "Pay option 20.7(f)(i), elected instead of 20.7(e): the employer pays 95% of regular salary for the first two weeks of maternity leave.",
+   "mechanism": "employer_paid_leave",
+   "mechanism_note": "Employer pay for the first two weeks (written when EI benefits began only after two weeks); a stage stated separately from the top-up, so not merged into an envelope (V4, worked example 9).",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "'An employee' of the bargaining unit (Definition 16); the unit is 'All full-time academic staff and professional librarians employed by the Respondent in the City of Ottawa' (Appendix C), which holds the professoriate (Art. 9.4(a)(i), 10.1)",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "the employee may elect",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "'the employee may elect benefits as follows' ... 'the Employer will pay': the employee's election, no approval of whether (V2). Contingent on EI eligibility and application (20.7(g)); the member is EI-eligible (U8).",
+   "duration": {
+    "value": 2,
+    "units": "week",
+    "qualifier": "exact"
+   },
+   "pay_fraction": "95% of the employee's regular salary",
+   "service_requirement": "none stated for preliminary or tenured appointments; term appointees of one year or less only after one year as a continuing member of the bargaining unit (20.7(c)); eligibility for and application for EI maternity benefits (20.7(g))",
+   "sequence": [
+    {
+     "relation": "within",
+     "component_id": "carleton_university_c1",
+     "note": "first two weeks of the maternity leave"
+    },
+    {
+     "relation": "in_lieu_of",
+     "component_id": "carleton_university_c2",
+     "note": "option 20.7(f) is 'an alternative to paragraph (e)' (R15b: link on each paid component of the option)"
+    }
+   ],
+   "rule_applied": [
+    "V2",
+    "V4",
+    "R15",
+    "R15b",
+    "R21",
+    "U8",
+    "U1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Employee designates a person included in the bargaining unit as defined by the certificate issued by the Ontario Labour Relations Board",
+     "All full-time academic staff and professional librarians employed by the Respondent in the City of Ottawa"
+    ],
+    "eligible_parent": [
+     "As an alternative to paragraph (e) above, the employee may elect benefits as follows:"
+    ],
+    "entitlement": [
+     "As an alternative to paragraph (e) above, the employee may elect benefits as follows:",
+     "for the first two (2) weeks, the Employer will pay 95% of the employee's regular salary;"
+    ],
+    "duration": [
+     "for the first two (2) weeks, the Employer will pay 95% of the employee's regular salary;"
+    ],
+    "pay_fraction": [
+     "for the first two (2) weeks, the Employer will pay 95% of the employee's regular salary;"
+    ],
+    "sequence": [
+     "As an alternative to paragraph (e) above, the employee may elect benefits as follows:",
+     "for the first two (2) weeks, the Employer will pay 95% of the employee's regular salary;"
+    ],
+    "service_requirement": [
+     "Employees appointed in accordance with Article 37 for a term of one (1) year or less shall not be eligible for the provisions in Article 20.7 below unless and until they have been a continuing member of the bargaining unit for one (1) year.",
+     "Benefit pursuant to paragraph (f) above is contingent upon the employee's eligibility for and application for maternity benefits under the Employment Insurance Act and Regulations."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "All full-time academic staff and professional librarians employed by the Respondent in the City of Ottawa"
+    },
+    {
+     "field": "mechanism",
+     "rule": "V4",
+     "answer": "employer_paid_leave",
+     "quote": "for the first two (2) weeks, the Employer will pay 95% of the employee's regular salary;"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "for the first two (2) weeks, the Employer will pay 95% of the employee's regular salary;"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "birth_parent",
+     "quote": "As an alternative to paragraph (e) above, the employee may elect benefits as follows:"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "As an alternative to paragraph (e) above, the employee may elect benefits as follows:"
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "2 weeks, exact",
+     "quote": "for the first two (2) weeks, the Employer will pay 95% of the employee's regular salary;"
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "95%",
+     "quote": "for the first two (2) weeks, the Employer will pay 95% of the employee's regular salary;"
+    },
+    {
+     "field": "sequence",
+     "rule": "R15b",
+     "answer": "within c1; in_lieu_of c2 (option (f) as an alternative to (e))",
+     "quote": "As an alternative to paragraph (e) above, the employee may elect benefits as follows:"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U8",
+     "answer": "EI eligibility and application required; member assumed eligible",
+     "quote": "Benefit pursuant to paragraph (f) above is contingent upon the employee's eligibility for and application for maternity benefits under the Employment Insurance Act and Regulations."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "As an alternative to paragraph (e) above, the employee may elect benefits as follows:"
+    }
+   ]
+  },
+  {
+   "component_id": "carleton_university_c4",
+   "institution_label": "Supplemental Unemployment Benefits",
+   "description": "Pay option 20.7(f)(ii)-(iii): for the next 15 weeks of maternity leave the employee claims EI maternity benefits and the employer pays the difference between those benefits and 95% of regular salary.",
+   "mechanism": "employer_topup",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "'An employee' of the bargaining unit (Definition 16); the unit is 'All full-time academic staff and professional librarians employed by the Respondent in the City of Ottawa' (Appendix C), which holds the professoriate (Art. 9.4(a)(i), 10.1)",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "the employee may elect; maternity benefits",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "Employee's election ('may elect') with grant wording 'the Employer will pay' (V2); contingent on EI eligibility and application (20.7(g)).",
+   "duration": {
+    "value": 15,
+    "units": "week",
+    "qualifier": "exact"
+   },
+   "duration_note": "'for the next fifteen (15) weeks', i.e. weeks 3-17 of the maternity leave, as the employer's schedule states (R21: the schedule sets what the employer pays, not when EI starts).",
+   "pay_fraction": "95% of regular salary, integrated with EI maternity benefits",
+   "pay_cap": "the combined weekly level of Unemployment Insurance Benefits, Supplemental Unemployment Benefits, and any other earnings will not exceed 95% of the employee's regular weekly salary",
+   "service_requirement": "none stated for preliminary or tenured appointments; term appointees of one year or less only after one year as a continuing member (20.7(c)); eligibility for and application for EI maternity benefits (20.7(g))",
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "carleton_university_c3",
+     "note": "'for the next fifteen (15) weeks' after the first two weeks"
+    },
+    {
+     "relation": "within",
+     "component_id": "carleton_university_c1",
+     "note": "weeks 3-17 of the 17-week maternity leave"
+    },
+    {
+     "relation": "in_lieu_of",
+     "component_id": "carleton_university_c2",
+     "note": "option 20.7(f) is 'an alternative to paragraph (e)' (R15b)"
+    }
+   ],
+   "rule_applied": [
+    "V2",
+    "V4",
+    "R15",
+    "R15b",
+    "R21",
+    "U8",
+    "U1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Employee designates a person included in the bargaining unit as defined by the certificate issued by the Ontario Labour Relations Board",
+     "All full-time academic staff and professional librarians employed by the Respondent in the City of Ottawa"
+    ],
+    "eligible_parent": [
+     "As an alternative to paragraph (e) above, the employee may elect benefits as follows:"
+    ],
+    "entitlement": [
+     "As an alternative to paragraph (e) above, the employee may elect benefits as follows:",
+     "in addition, the Employer will pay the difference between the benefits set out in (ii) above and 95% of the employee's regular salary;"
+    ],
+    "duration": [
+     "for the next fifteen (15) weeks, the employee will claim maternity benefits pursuant to the Employment Insurance Act and Regulations;"
+    ],
+    "pay_fraction": [
+     "in addition, the Employer will pay the difference between the benefits set out in (ii) above and 95% of the employee's regular salary;"
+    ],
+    "pay_cap": [
+     "the combined weekly level of Unemployment Insurance Benefits, Supplemental Unemployment Benefits, and any other earnings will not exceed 95% of the employee's regular weekly salary."
+    ],
+    "sequence": [
+     "for the first two (2) weeks, the Employer will pay 95% of the employee's regular salary;",
+     "for the next fifteen (15) weeks, the employee will claim maternity benefits pursuant to the Employment Insurance Act and Regulations;",
+     "As an alternative to paragraph (e) above, the employee may elect benefits as follows:"
+    ],
+    "service_requirement": [
+     "Employees appointed in accordance with Article 37 for a term of one (1) year or less shall not be eligible for the provisions in Article 20.7 below unless and until they have been a continuing member of the bargaining unit for one (1) year.",
+     "Benefit pursuant to paragraph (f) above is contingent upon the employee's eligibility for and application for maternity benefits under the Employment Insurance Act and Regulations."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "All full-time academic staff and professional librarians employed by the Respondent in the City of Ottawa"
+    },
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "employer_topup",
+     "quote": "in addition, the Employer will pay the difference between the benefits set out in (ii) above and 95% of the employee's regular salary;"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "in addition, the Employer will pay the difference between the benefits set out in (ii) above and 95% of the employee's regular salary;"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "birth_parent",
+     "quote": "for the next fifteen (15) weeks, the employee will claim maternity benefits pursuant to the Employment Insurance Act and Regulations;"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "As an alternative to paragraph (e) above, the employee may elect benefits as follows:"
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "15 weeks, exact",
+     "quote": "for the next fifteen (15) weeks, the employee will claim maternity benefits pursuant to the Employment Insurance Act and Regulations;"
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "95% integrated with EI",
+     "quote": "in addition, the Employer will pay the difference between the benefits set out in (ii) above and 95% of the employee's regular salary;"
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "consecutive_after c3 ('the next fifteen weeks'); within c1",
+     "quote": "for the next fifteen (15) weeks, the employee will claim maternity benefits pursuant to the Employment Insurance Act and Regulations;"
+    },
+    {
+     "field": "sequence",
+     "rule": "R15b",
+     "answer": "in_lieu_of c2",
+     "quote": "As an alternative to paragraph (e) above, the employee may elect benefits as follows:"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U8",
+     "answer": "EI eligibility and application required; member assumed eligible",
+     "quote": "Benefit pursuant to paragraph (f) above is contingent upon the employee's eligibility for and application for maternity benefits under the Employment Insurance Act and Regulations."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "for the next fifteen (15) weeks, the employee will claim maternity benefits pursuant to the Employment Insurance Act and Regulations;"
+    }
+   ]
+  },
+  {
+   "component_id": "carleton_university_c5",
+   "institution_label": "maternity benefits pursuant to the Employment Insurance Act",
+   "description": "Federal Employment Insurance maternity benefits, which the agreement requires the employee to claim during option 20.7(f): up to 15 weeks at 55% of weekly insurable earnings, after a one-week unpaid waiting period.",
+   "mechanism": "government_benefit",
+   "mechanism_note": "EI maternity benefit (programs.csv: government_benefit, payer government, waiting 1 week in 2018).",
+   "payer": "government",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "insured employees, including the bargaining-unit employees the agreement refers to EI ('the employee will claim maternity benefits pursuant to the Employment Insurance Act')",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "a major attachment claimant who proves her pregnancy",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "entitlement_note": "Statutory benefit (schema: a statute stays guaranteed).",
+   "duration": {
+    "value": 15,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "duration_note": "EI Act s. 12(3)(a): maximum 15 weeks because of pregnancy; the agreement's 'next fifteen (15) weeks'. Starts one week after the leave begins (EI Act s. 13 waiting period, R21), although 20.7(f) was written for a two-week wait.",
+   "pay_fraction": "55% of weekly insurable earnings (EI Act s. 14(1)), up to the maximum rate (s. 17)",
+   "pay_cap": "maximum rate of weekly benefits: 55% of the maximum yearly insurable earnings divided by 52 (EI Act s. 17)",
+   "service_requirement": "major attachment claimant (insured hours under the EI Act); amount not stated in the saved texts",
+   "statute_source": "Employment Insurance Act, ss. 12(3)(a), 13, 14(1), 22",
+   "statute_verified": true,
+   "sequence": [
+    {
+     "relation": "concurrent_with",
+     "component_id": "carleton_university_c1",
+     "start_offset_weeks": 1,
+     "note": "EI's one-week unpaid waiting period from the start of the leave (EI Act s. 13; programs.csv 1 week); the employer's 95% weeks (c3) do not move EI (R21)"
+    }
+   ],
+   "rule_applied": [
+    "M1",
+    "R7",
+    "R21",
+    "U2",
+    "U4",
+    "U8"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "for the next fifteen (15) weeks, the employee will claim maternity benefits pursuant to the Employment Insurance Act and Regulations;"
+    ],
+    "eligible_parent": [
+     "benefits are payable to a major attachment claimant who proves her pregnancy"
+    ],
+    "entitlement": [
+     "benefits are payable to a major attachment claimant who proves her pregnancy"
+    ],
+    "duration": [
+     "The maximum number of weeks for which benefits may be paid in a benefit period (a) because of pregnancy is 15;",
+     "for the next fifteen (15) weeks, the employee will claim maternity benefits pursuant to the Employment Insurance Act and Regulations;"
+    ],
+    "pay_fraction": [
+     "The rate of weekly benefits payable to a claimant is 55% of their weekly insurable earnings"
+    ],
+    "sequence": [
+     "A claimant is not entitled to be paid benefits in a benefit period until, after the beginning of the benefit period, the claimant has served a waiting period of one week of unemployment for which benefits would otherwise be payable."
+    ],
+    "service_requirement": [
+     "benefits are payable to a major attachment claimant who proves her pregnancy"
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link",
+    "2018_16_ca_ei_act_pit_2018-01-01"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "faculty_group",
+     "rule": "U4",
+     "answer": "main_campus_tenure_stream",
+     "quote": "for the next fifteen (15) weeks, the employee will claim maternity benefits pursuant to the Employment Insurance Act and Regulations;"
+    },
+    {
+     "field": "mechanism",
+     "rule": "M1",
+     "answer": "government_benefit",
+     "quote": "for the next fifteen (15) weeks, the employee will claim maternity benefits pursuant to the Employment Insurance Act and Regulations;"
+    },
+    {
+     "field": "payer",
+     "rule": "M1",
+     "answer": "government",
+     "quote": "The rate of weekly benefits payable to a claimant is 55% of their weekly insurable earnings"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U2",
+     "answer": "birth_parent",
+     "quote": "benefits are payable to a major attachment claimant who proves her pregnancy"
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "benefits are payable to a major attachment claimant who proves her pregnancy"
+    },
+    {
+     "field": "duration",
+     "rule": "U2",
+     "answer": "15 weeks, up_to (statutory maximum)",
+     "quote": "The maximum number of weeks for which benefits may be paid in a benefit period (a) because of pregnancy is 15;"
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "U2",
+     "answer": "55% of weekly insurable earnings",
+     "quote": "The rate of weekly benefits payable to a claimant is 55% of their weekly insurable earnings"
+    },
+    {
+     "field": "sequence",
+     "rule": "R21",
+     "answer": "concurrent_with c1, start_offset_weeks 1",
+     "quote": "A claimant is not entitled to be paid benefits in a benefit period until, after the beginning of the benefit period, the claimant has served a waiting period of one week of unemployment for which benefits would otherwise be payable."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U2",
+     "answer": "major attachment claimant",
+     "quote": "benefits are payable to a major attachment claimant who proves her pregnancy"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "benefits are payable to a major attachment claimant who proves her pregnancy"
+    }
+   ]
+  },
+  {
+   "component_id": "carleton_university_c6",
+   "institution_label": "parental leave with Supplemental Unemployment Benefits",
+   "description": "Parental leave under Art. 20.7(k) for an employee eligible for EI parental benefits, for the period of EI parental benefit eligibility; the leave itself (the SUB top-up is c8, the EI benefit c7).",
+   "mechanism": "unpaid_leave",
+   "mechanism_note": "The agreement's own parental leave; its pay is the SUB top-up (c8) and EI parental benefits (c7), coded separately (V4, worked example 1). Not a statutory leave: the Employment Standards Act is not named.",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "'An employee' of the bargaining unit (Definition 16); the unit is 'All full-time academic staff and professional librarians employed by the Respondent in the City of Ottawa' (Appendix C), which holds the professoriate (Art. 9.4(a)(i), 10.1)",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "an employee who is eligible for parental leave benefits pursuant to the Employment Insurance Act",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "'shall, upon application, be entitled' (V2: grant on application). 'Subject to the approval of the Human Resources Development Canada' refers to federal approval of the SUB plan, not to an approval by the University of whether the leave is granted.",
+   "duration": {
+    "value": 35,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "duration_variants": {
+    "standard": "35 weeks (EI Act s. 12(3)(b)(i))",
+    "extended": "61 weeks if the claimant elects the extended option (s. 12(3)(b)(ii), from 2017-12-03)"
+   },
+   "duration_note": "'for the period of benefit eligibility set out in the Act': the agreement names the EI Act without a length; length from EI Act s. 12(3)(b) and 12(4)(b) at the standard option, 35 weeks (U2); the extended 61-week option is in duration_variants.",
+   "service_requirement": "eligibility for EI parental benefits (major attachment claimant); term appointees of one year or less only after one year as a continuing member (20.7(c))",
+   "notice": "on application; notice of return at least two weeks before the intended date of return",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "relief_note": "A leave of absence; no relief stated (R9). On return, former or equivalent position with no loss of seniority (20.7(i)); counts as time worked for sabbatical and pension credited service (20.7(h)).",
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "carleton_university_c1",
+     "roles": [
+      "birth"
+     ],
+     "note": "For the birth parent the leave runs for the EI parental benefit period, which follows EI maternity benefits (c7 after c5); placed after the maternity leave. For the non-birth parent it is placed by default (no maternity leave)."
+    }
+   ],
+   "rule_applied": [
+    "V2",
+    "U2",
+    "R9",
+    "R15",
+    "V4",
+    "U8",
+    "U1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Employee designates a person included in the bargaining unit as defined by the certificate issued by the Ontario Labour Relations Board",
+     "All full-time academic staff and professional librarians employed by the Respondent in the City of Ottawa"
+    ],
+    "eligible_parent": [
+     "Subject to the approval of the Human Resources Development Canada, an employee who is eligible for parental leave benefits pursuant to the Employment Insurance Act shall, upon application, be entitled to parental leave with Supplemental Unemployment Benefits as provided in Article 20.7(f) of the Collective Agreement, for the period of benefit eligibility set out in the Act."
+    ],
+    "entitlement": [
+     "shall, upon application, be entitled to parental leave with Supplemental Unemployment Benefits as provided in Article 20.7(f) of the Collective Agreement, for the period of benefit eligibility set out in the Act."
+    ],
+    "duration": [
+     "shall, upon application, be entitled to parental leave with Supplemental Unemployment Benefits as provided in Article 20.7(f) of the Collective Agreement, for the period of benefit eligibility set out in the Act.",
+     "The maximum number of weeks for which benefits may be paid (a) for a single pregnancy is 15; and (b) for the care of one or more new-born or adopted children as a result of a single pregnancy or placement is, in accordance with the election under section 23, 35 or 61."
+    ],
+    "sequence": [
+     "shall, upon application, be entitled to parental leave with Supplemental Unemployment Benefits as provided in Article 20.7(f) of the Collective Agreement, for the period of benefit eligibility set out in the Act.",
+     "benefits are payable to a major attachment claimant to care for one or more new-born children of the claimant or one or more children placed with the claimant for the purpose of adoption"
+    ],
+    "service_requirement": [
+     "Subject to the approval of the Human Resources Development Canada, an employee who is eligible for parental leave benefits pursuant to the Employment Insurance Act shall, upon application, be entitled to parental leave with Supplemental Unemployment Benefits as provided in Article 20.7(f) of the Collective Agreement, for the period of benefit eligibility set out in the Act.",
+     "Employees appointed in accordance with Article 37 for a term of one (1) year or less shall not be eligible for the provisions in Article 20.7 below unless and until they have been a continuing member of the bargaining unit for one (1) year."
+    ],
+    "notice": [
+     "The employee shall advise their immediate supervisor of their intention to return at least two (2) weeks prior to the intended date of return."
+    ],
+    "return_protection": [
+     "On returning from parental leave the employee shall be placed in their former position or in a position equivalent to their former position with no loss of seniority."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link",
+    "2018_16_ca_ei_act_pit_2018-01-01"
+   ],
+   "flags": [
+    "ambiguous: whether 20.7(k)'s reference to Supplemental Unemployment Benefits 'as provided in Article 20.7(f)' also brings the two employer-paid weeks at 95% of 20.7(f)(i) to parental leave; coded as the top-up only (c8)"
+   ],
+   "decision_log": [
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "All full-time academic staff and professional librarians employed by the Respondent in the City of Ottawa"
+    },
+    {
+     "field": "mechanism",
+     "rule": "V4",
+     "answer": "unpaid_leave",
+     "quote": "shall, upon application, be entitled to parental leave with Supplemental Unemployment Benefits as provided in Article 20.7(f) of the Collective Agreement, for the period of benefit eligibility set out in the Act."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "shall, upon application, be entitled to parental leave with Supplemental Unemployment Benefits as provided in Article 20.7(f) of the Collective Agreement, for the period of benefit eligibility set out in the Act."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent (gender- and role-neutral wording)",
+     "quote": "Subject to the approval of the Human Resources Development Canada, an employee who is eligible for parental leave benefits pursuant to the Employment Insurance Act shall, upon application, be entitled to parental leave with Supplemental Unemployment Benefits as provided in Article 20.7(f) of the Collective Agreement, for the period of benefit eligibility set out in the Act."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "shall, upon application, be entitled to parental leave with Supplemental Unemployment Benefits as provided in Article 20.7(f) of the Collective Agreement, for the period of benefit eligibility set out in the Act."
+    },
+    {
+     "field": "duration",
+     "rule": "U2",
+     "answer": "35 weeks, up_to (EI standard option; extended 61 in variants)",
+     "quote": "The maximum number of weeks for which benefits may be paid (a) for a single pregnancy is 15; and (b) for the care of one or more new-born or adopted children as a result of a single pregnancy or placement is, in accordance with the election under section 23, 35 or 61."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "consecutive_after c1 for the birth parent only (roles: birth)",
+     "quote": "shall, upon application, be entitled to parental leave with Supplemental Unemployment Benefits as provided in Article 20.7(f) of the Collective Agreement, for the period of benefit eligibility set out in the Act."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U8",
+     "answer": "EI parental eligibility; member assumed eligible",
+     "quote": "Subject to the approval of the Human Resources Development Canada, an employee who is eligible for parental leave benefits pursuant to the Employment Insurance Act shall, upon application, be entitled to parental leave with Supplemental Unemployment Benefits as provided in Article 20.7(f) of the Collective Agreement, for the period of benefit eligibility set out in the Act."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave, relief not stated)",
+     "quote": "shall, upon application, be entitled to parental leave with Supplemental Unemployment Benefits as provided in Article 20.7(f) of the Collective Agreement, for the period of benefit eligibility set out in the Act."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Subject to the approval of the Human Resources Development Canada, an employee who is eligible for parental leave benefits pursuant to the Employment Insurance Act shall, upon application, be entitled to parental leave with Supplemental Unemployment Benefits as provided in Article 20.7(f) of the Collective Agreement, for the period of benefit eligibility set out in the Act."
+    }
+   ]
+  },
+  {
+   "component_id": "carleton_university_c7",
+   "institution_label": "parental leave benefits pursuant to the Employment Insurance Act",
+   "description": "Federal Employment Insurance parental benefits (standard option 35 weeks at 55% of weekly insurable earnings) on which the agreement's parental leave and SUB are based.",
+   "mechanism": "government_benefit",
+   "mechanism_note": "EI parental benefit (programs.csv: government_benefit, payer government).",
+   "payer": "government",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "insured employees; the agreement ties parental leave to 'parental leave benefits pursuant to the Employment Insurance Act'",
+   "eligible_parent": [
+    "any_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "a major attachment claimant to care for one or more new-born children of the claimant or one or more children placed with the claimant for the purpose of adoption",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "entitlement_note": "Statutory benefit.",
+   "duration": {
+    "value": 35,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "duration_variants": {
+    "standard": "35 weeks at 55% (s. 12(3)(b)(i))",
+    "extended": "61 weeks at 33% (s. 12(3)(b)(ii), s. 14(1))"
+   },
+   "duration_note": "Counted in full for each role as if the other parent took none (U2); shared between two claimants up to 35 (s. 23(4)).",
+   "pay_fraction": "55% of weekly insurable earnings (EI Act s. 14(1)), up to the maximum rate (s. 17)",
+   "service_requirement": "major attachment claimant (insured hours under the EI Act); amount not stated in the saved texts",
+   "statute_source": "Employment Insurance Act, ss. 12(3)(b), 12(4)(b), 13, 14(1), 23",
+   "statute_verified": true,
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "carleton_university_c5",
+     "roles": [
+      "birth"
+     ],
+     "note": "EI parental follows EI maternity; the waiting period is served once per birth, so no second offset (R21)"
+    },
+    {
+     "relation": "concurrent_with",
+     "component_id": "carleton_university_c6",
+     "start_offset_weeks": 1,
+     "roles": [
+      "nonbirth"
+     ],
+     "note": "The non-birth parent serves his or her own one-week waiting period (EI Act s. 13); deferral where the other parent has served it is possible under s. 23(5) (R21)"
+    }
+   ],
+   "rule_applied": [
+    "M1",
+    "R7",
+    "R21",
+    "U2",
+    "U4",
+    "U8",
+    "R5"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Subject to the approval of the Human Resources Development Canada, an employee who is eligible for parental leave benefits pursuant to the Employment Insurance Act shall, upon application, be entitled to parental leave with Supplemental Unemployment Benefits as provided in Article 20.7(f) of the Collective Agreement, for the period of benefit eligibility set out in the Act."
+    ],
+    "eligible_parent": [
+     "benefits are payable to a major attachment claimant to care for one or more new-born children of the claimant or one or more children placed with the claimant for the purpose of adoption"
+    ],
+    "entitlement": [
+     "benefits are payable to a major attachment claimant to care for one or more new-born children of the claimant or one or more children placed with the claimant for the purpose of adoption"
+    ],
+    "duration": [
+     "The maximum number of weeks for which benefits may be paid (a) for a single pregnancy is 15; and (b) for the care of one or more new-born or adopted children as a result of a single pregnancy or placement is, in accordance with the election under section 23, 35 or 61."
+    ],
+    "pay_fraction": [
+     "The rate of weekly benefits payable to a claimant is 55% of their weekly insurable earnings"
+    ],
+    "sequence": [
+     "A claimant is not entitled to be paid benefits in a benefit period until, after the beginning of the benefit period, the claimant has served a waiting period of one week of unemployment for which benefits would otherwise be payable.",
+     "A major attachment claimant who makes a claim for benefits under this section may have his or her waiting period deferred until he or she makes another claim for benefits in the same benefit period"
+    ],
+    "service_requirement": [
+     "benefits are payable to a major attachment claimant to care for one or more new-born children of the claimant or one or more children placed with the claimant for the purpose of adoption"
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link",
+    "2018_16_ca_ei_act_pit_2018-01-01"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "faculty_group",
+     "rule": "U4",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Subject to the approval of the Human Resources Development Canada, an employee who is eligible for parental leave benefits pursuant to the Employment Insurance Act shall, upon application, be entitled to parental leave with Supplemental Unemployment Benefits as provided in Article 20.7(f) of the Collective Agreement, for the period of benefit eligibility set out in the Act."
+    },
+    {
+     "field": "mechanism",
+     "rule": "M1",
+     "answer": "government_benefit",
+     "quote": "Subject to the approval of the Human Resources Development Canada, an employee who is eligible for parental leave benefits pursuant to the Employment Insurance Act shall, upon application, be entitled to parental leave with Supplemental Unemployment Benefits as provided in Article 20.7(f) of the Collective Agreement, for the period of benefit eligibility set out in the Act."
+    },
+    {
+     "field": "payer",
+     "rule": "M1",
+     "answer": "government",
+     "quote": "The rate of weekly benefits payable to a claimant is 55% of their weekly insurable earnings"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U2",
+     "answer": "any_parent, adoptive",
+     "quote": "benefits are payable to a major attachment claimant to care for one or more new-born children of the claimant or one or more children placed with the claimant for the purpose of adoption"
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "benefits are payable to a major attachment claimant to care for one or more new-born children of the claimant or one or more children placed with the claimant for the purpose of adoption"
+    },
+    {
+     "field": "duration",
+     "rule": "U2",
+     "answer": "35 weeks, up_to (standard option)",
+     "quote": "The maximum number of weeks for which benefits may be paid (a) for a single pregnancy is 15; and (b) for the care of one or more new-born or adopted children as a result of a single pregnancy or placement is, in accordance with the election under section 23, 35 or 61."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "U2",
+     "answer": "55% of weekly insurable earnings",
+     "quote": "The rate of weekly benefits payable to a claimant is 55% of their weekly insurable earnings"
+    },
+    {
+     "field": "sequence",
+     "rule": "R21",
+     "answer": "consecutive_after c5 (birth, no second wait); concurrent_with c6 offset 1 (non-birth parent's own wait)",
+     "quote": "A claimant is not entitled to be paid benefits in a benefit period until, after the beginning of the benefit period, the claimant has served a waiting period of one week of unemployment for which benefits would otherwise be payable."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U2",
+     "answer": "major attachment claimant",
+     "quote": "benefits are payable to a major attachment claimant to care for one or more new-born children of the claimant or one or more children placed with the claimant for the purpose of adoption"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "benefits are payable to a major attachment claimant to care for one or more new-born children of the claimant or one or more children placed with the claimant for the purpose of adoption"
+    }
+   ]
+  },
+  {
+   "component_id": "carleton_university_c8",
+   "institution_label": "Supplemental Unemployment Benefits",
+   "description": "Supplemental Unemployment Benefits during parental leave (20.7(k)): the employer pays the difference between EI parental benefits and 95% of regular salary for the period of EI parental benefit eligibility.",
+   "mechanism": "employer_topup",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "'An employee' of the bargaining unit (Definition 16); the unit is 'All full-time academic staff and professional librarians employed by the Respondent in the City of Ottawa' (Appendix C), which holds the professoriate (Art. 9.4(a)(i), 10.1)",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "an employee who is eligible for parental leave benefits pursuant to the Employment Insurance Act",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "'shall, upon application, be entitled to parental leave with Supplemental Unemployment Benefits as provided in Article 20.7(f)' (V2).",
+   "duration": {
+    "value": 35,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "duration_variants": {
+    "standard": "35 weeks",
+    "extended": "61 weeks if the extended EI option is elected (the top-up then tops a 33% benefit)"
+   },
+   "duration_note": "'for the period of benefit eligibility set out in the Act' (U2: EI standard option 35 weeks). Paid while EI parental benefits are received, so it lies within c7.",
+   "pay_fraction": "95% of regular salary, integrated with EI parental benefits (as provided in 20.7(f))",
+   "pay_cap": "the combined weekly level of Unemployment Insurance Benefits, Supplemental Unemployment Benefits, and any other earnings will not exceed 95% of the employee's regular weekly salary (20.7(f)(v))",
+   "service_requirement": "eligibility for EI parental benefits; term appointees of one year or less only after one year as a continuing member (20.7(c))",
+   "sequence": [
+    {
+     "relation": "within",
+     "component_id": "carleton_university_c7",
+     "note": "the top-up is paid on the EI parental benefits, for the period of benefit eligibility"
+    }
+   ],
+   "rule_applied": [
+    "V2",
+    "U2",
+    "R15",
+    "R21",
+    "V4",
+    "U8",
+    "U1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Employee designates a person included in the bargaining unit as defined by the certificate issued by the Ontario Labour Relations Board",
+     "All full-time academic staff and professional librarians employed by the Respondent in the City of Ottawa"
+    ],
+    "eligible_parent": [
+     "Subject to the approval of the Human Resources Development Canada, an employee who is eligible for parental leave benefits pursuant to the Employment Insurance Act shall, upon application, be entitled to parental leave with Supplemental Unemployment Benefits as provided in Article 20.7(f) of the Collective Agreement, for the period of benefit eligibility set out in the Act."
+    ],
+    "entitlement": [
+     "shall, upon application, be entitled to parental leave with Supplemental Unemployment Benefits as provided in Article 20.7(f) of the Collective Agreement, for the period of benefit eligibility set out in the Act."
+    ],
+    "duration": [
+     "shall, upon application, be entitled to parental leave with Supplemental Unemployment Benefits as provided in Article 20.7(f) of the Collective Agreement, for the period of benefit eligibility set out in the Act.",
+     "The maximum number of weeks for which benefits may be paid (a) for a single pregnancy is 15; and (b) for the care of one or more new-born or adopted children as a result of a single pregnancy or placement is, in accordance with the election under section 23, 35 or 61."
+    ],
+    "pay_fraction": [
+     "shall, upon application, be entitled to parental leave with Supplemental Unemployment Benefits as provided in Article 20.7(f) of the Collective Agreement, for the period of benefit eligibility set out in the Act.",
+     "in addition, the Employer will pay the difference between the benefits set out in (ii) above and 95% of the employee's regular salary;"
+    ],
+    "pay_cap": [
+     "the combined weekly level of Unemployment Insurance Benefits, Supplemental Unemployment Benefits, and any other earnings will not exceed 95% of the employee's regular weekly salary."
+    ],
+    "sequence": [
+     "shall, upon application, be entitled to parental leave with Supplemental Unemployment Benefits as provided in Article 20.7(f) of the Collective Agreement, for the period of benefit eligibility set out in the Act."
+    ],
+    "service_requirement": [
+     "Subject to the approval of the Human Resources Development Canada, an employee who is eligible for parental leave benefits pursuant to the Employment Insurance Act shall, upon application, be entitled to parental leave with Supplemental Unemployment Benefits as provided in Article 20.7(f) of the Collective Agreement, for the period of benefit eligibility set out in the Act.",
+     "Employees appointed in accordance with Article 37 for a term of one (1) year or less shall not be eligible for the provisions in Article 20.7 below unless and until they have been a continuing member of the bargaining unit for one (1) year."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link",
+    "2018_16_ca_ei_act_pit_2018-01-01"
+   ],
+   "flags": [
+    "ambiguous: whether 20.7(k)'s reference to Supplemental Unemployment Benefits 'as provided in Article 20.7(f)' includes the two employer-paid weeks at 95% of 20.7(f)(i); coded as the top-up of 20.7(f)(iii) only"
+   ],
+   "decision_log": [
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "All full-time academic staff and professional librarians employed by the Respondent in the City of Ottawa"
+    },
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "employer_topup",
+     "quote": "in addition, the Employer will pay the difference between the benefits set out in (ii) above and 95% of the employee's regular salary;"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "in addition, the Employer will pay the difference between the benefits set out in (ii) above and 95% of the employee's regular salary;"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "Subject to the approval of the Human Resources Development Canada, an employee who is eligible for parental leave benefits pursuant to the Employment Insurance Act shall, upon application, be entitled to parental leave with Supplemental Unemployment Benefits as provided in Article 20.7(f) of the Collective Agreement, for the period of benefit eligibility set out in the Act."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "shall, upon application, be entitled to parental leave with Supplemental Unemployment Benefits as provided in Article 20.7(f) of the Collective Agreement, for the period of benefit eligibility set out in the Act."
+    },
+    {
+     "field": "duration",
+     "rule": "U2",
+     "answer": "35 weeks, up_to (period of EI parental eligibility, standard option)",
+     "quote": "The maximum number of weeks for which benefits may be paid (a) for a single pregnancy is 15; and (b) for the care of one or more new-born or adopted children as a result of a single pregnancy or placement is, in accordance with the election under section 23, 35 or 61."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "95% integrated with EI (as in 20.7(f))",
+     "quote": "in addition, the Employer will pay the difference between the benefits set out in (ii) above and 95% of the employee's regular salary;"
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "within c7 (paid on the EI parental benefits)",
+     "quote": "shall, upon application, be entitled to parental leave with Supplemental Unemployment Benefits as provided in Article 20.7(f) of the Collective Agreement, for the period of benefit eligibility set out in the Act."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U8",
+     "answer": "EI parental eligibility; member assumed eligible",
+     "quote": "Subject to the approval of the Human Resources Development Canada, an employee who is eligible for parental leave benefits pursuant to the Employment Insurance Act shall, upon application, be entitled to parental leave with Supplemental Unemployment Benefits as provided in Article 20.7(f) of the Collective Agreement, for the period of benefit eligibility set out in the Act."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Subject to the approval of the Human Resources Development Canada, an employee who is eligible for parental leave benefits pursuant to the Employment Insurance Act shall, upon application, be entitled to parental leave with Supplemental Unemployment Benefits as provided in Article 20.7(f) of the Collective Agreement, for the period of benefit eligibility set out in the Act."
+    }
+   ]
+  },
+  {
+   "component_id": "carleton_university_c9",
+   "institution_label": "Leave of Absence Without Pay",
+   "description": "Leave of absence without pay (Art. 20.1), normally up to two consecutive years, at the employer's discretion; 20.7(d) points a birth parent needing time beyond the 17-week maternity leave to it.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "'a faculty employee', 'an employee' of the bargaining unit",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "an employee; 'the employee may apply for leave without pay pursuant to Article 20.1' (maternity, 20.7(d))",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "entitlement_note": "'permission ... shall be considered with due regard to ...'; 'Permission may be denied where it would cause an adverse impact on the academic program': the approval decides whether there is a leave (V2).",
+   "duration": {
+    "value": 2,
+    "units": "year",
+    "qualifier": "up_to"
+   },
+   "duration_note": "'shall not, except by agreement ..., normally exceed two (2) consecutive years' (Q1: 'normally' kept here); not renewable.",
+   "notice": "written statement to the Dean at least six months before the leave (except leave for compassionate reasons); terms confirmed three months before",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "carleton_university_c1",
+     "roles": [
+      "birth"
+     ],
+     "note": "20.7(d): 'If additional time is required' after the 17-week maternity leave"
+    }
+   ],
+   "rule_applied": [
+    "U1",
+    "V2",
+    "Q1",
+    "R9",
+    "R15"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "at least six (6) months prior to the beginning of the leave of absence without pay, a faculty employee must submit a written statement to the appropriate Dean describing in detail the nature and location of the activities to be undertaken during the leave period."
+    ],
+    "eligible_parent": [
+     "If additional time is required the employee may apply for leave without pay pursuant to Article 20.1."
+    ],
+    "entitlement": [
+     "permission for leave of absence without pay shall be considered with due regard to the continued effective functioning of the academic program and the needs of students. Permission may be denied where it would cause an adverse impact on the academic program or the needs of students."
+    ],
+    "duration": [
+     "Leave of absence without pay under this Article shall not, except by agreement between the Employer and employee, normally exceed two (2) consecutive years except for Political Leave as provided for in Article 20.3."
+    ],
+    "notice": [
+     "at least six (6) months prior to the beginning of the leave of absence without pay, a faculty employee must submit a written statement to the appropriate Dean describing in detail the nature and location of the activities to be undertaken during the leave period."
+    ],
+    "sequence": [
+     "If additional time is required the employee may apply for leave without pay pursuant to Article 20.1."
+    ],
+    "general_purpose": [
+     "at least six (6) months prior to the beginning of the leave of absence without pay, a faculty employee must submit a written statement to the appropriate Dean describing in detail the nature and location of the activities to be undertaken during the leave period."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "at least six (6) months prior to the beginning of the leave of absence without pay, a faculty employee must submit a written statement to the appropriate Dean describing in detail the nature and location of the activities to be undertaken during the leave period."
+    },
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "Leave of absence without pay under this Article shall not, except by agreement between the Employer and employee, normally exceed two (2) consecutive years except for Political Leave as provided for in Article 20.3."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Leave of absence without pay under this Article shall not, except by agreement between the Employer and employee, normally exceed two (2) consecutive years except for Political Leave as provided for in Article 20.3."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "If additional time is required the employee may apply for leave without pay pursuant to Article 20.1."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "permission for leave of absence without pay shall be considered with due regard to the continued effective functioning of the academic program and the needs of students. Permission may be denied where it would cause an adverse impact on the academic program or the needs of students."
+    },
+    {
+     "field": "duration",
+     "rule": "Q1",
+     "answer": "2 years, up_to ('normally exceed')",
+     "quote": "Leave of absence without pay under this Article shall not, except by agreement between the Employer and employee, normally exceed two (2) consecutive years except for Political Leave as provided for in Article 20.3."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "consecutive_after c1 for the birth parent",
+     "quote": "If additional time is required the employee may apply for leave without pay pursuant to Article 20.1."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave)",
+     "quote": "Leave of absence without pay under this Article shall not, except by agreement between the Employer and employee, normally exceed two (2) consecutive years except for Political Leave as provided for in Article 20.3."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "at least six (6) months prior to the beginning of the leave of absence without pay, a faculty employee must submit a written statement to the appropriate Dean describing in detail the nature and location of the activities to be undertaken during the leave period."
+    }
+   ]
+  },
+  {
+   "component_id": "carleton_university_c10",
+   "institution_label": "Sick Leave",
+   "description": "Sick leave (Art. 20.5): absence from duties because of illness for up to 180 calendar days or until long-term disability benefits begin; the leave, with its full-salary pay coded as c11 (U6).",
+   "mechanism": "unpaid_leave",
+   "mechanism_note": "U6: a sick-leave provision in the Leaves article that grants absence from duties for a stated period ('Sick Leave'; 'legitimately absent from their duties'; 'persons on sick leave' whose workload others assume) is the leave plus its pay (generic plan within it).",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "'employees of the bargaining unit'",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "employees ... legitimately absent from their duties because of illness",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "entitlement_note": "'they shall be entitled to full salary and all other benefits for a period of ...'",
+   "duration": {
+    "value": 180,
+    "units": "calendar_day",
+    "qualifier": "up_to"
+   },
+   "duration_note": "180 calendar days or until LTD benefits begin, whichever is shorter. No childbirth period is stated (generic, V1/R2).",
+   "medical_certification": true,
+   "medical_certification_note": "employer may request a medical certificate that the employee is unable to fulfil their duties for absences over five working days",
+   "notice": "notify the Dean or University Librarian of the absence and its estimated duration",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "relief_note": "Other employees assume the workload of persons on sick leave.",
+   "rule_applied": [
+    "U6",
+    "U5",
+    "R9",
+    "R11b",
+    "V1",
+    "R2",
+    "U1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "In cases where employees of the bargaining unit are legitimately absent from their duties because of illness, they shall be entitled to full salary and all other benefits for a period of one hundred and eighty (180) calendar days or until benefits under the Group Long-Term Disability Plan come into effect, whichever may be the shorter of the two (2)."
+    ],
+    "eligible_parent": [
+     "In cases where employees of the bargaining unit are legitimately absent from their duties because of illness, they shall be entitled to full salary and all other benefits for a period of one hundred and eighty (180) calendar days or until benefits under the Group Long-Term Disability Plan come into effect, whichever may be the shorter of the two (2)."
+    ],
+    "entitlement": [
+     "In cases where employees of the bargaining unit are legitimately absent from their duties because of illness, they shall be entitled to full salary and all other benefits for a period of one hundred and eighty (180) calendar days or until benefits under the Group Long-Term Disability Plan come into effect, whichever may be the shorter of the two (2)."
+    ],
+    "duration": [
+     "In cases where employees of the bargaining unit are legitimately absent from their duties because of illness, they shall be entitled to full salary and all other benefits for a period of one hundred and eighty (180) calendar days or until benefits under the Group Long-Term Disability Plan come into effect, whichever may be the shorter of the two (2)."
+    ],
+    "medical_certification": [
+     "The Employer shall be entitled to request a medical certificate indicating that the employee is unable to fulfil their duties, in all cases of absence in excess of five (5) working days."
+    ],
+    "notice": [
+     "Employees shall notify the appropriate Dean or the University Librarian of their absence and its estimated duration."
+    ],
+    "relief": [
+     "Insofar as reasonable, other employees shall assume the workload of persons on sick leave in order to ensure that scheduled academic activities need not be cancelled."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "own_illness_leave"
+   ],
+   "decision_log": [
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "In cases where employees of the bargaining unit are legitimately absent from their duties because of illness, they shall be entitled to full salary and all other benefits for a period of one hundred and eighty (180) calendar days or until benefits under the Group Long-Term Disability Plan come into effect, whichever may be the shorter of the two (2)."
+    },
+    {
+     "field": "mechanism",
+     "rule": "U6",
+     "answer": "unpaid_leave",
+     "quote": "Insofar as reasonable, other employees shall assume the workload of persons on sick leave in order to ensure that scheduled academic activities need not be cancelled."
+    },
+    {
+     "field": "payer",
+     "rule": "U6",
+     "answer": "none",
+     "quote": "In cases where employees of the bargaining unit are legitimately absent from their duties because of illness, they shall be entitled to full salary and all other benefits for a period of one hundred and eighty (180) calendar days or until benefits under the Group Long-Term Disability Plan come into effect, whichever may be the shorter of the two (2)."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own illness)",
+     "quote": "In cases where employees of the bargaining unit are legitimately absent from their duties because of illness, they shall be entitled to full salary and all other benefits for a period of one hundred and eighty (180) calendar days or until benefits under the Group Long-Term Disability Plan come into effect, whichever may be the shorter of the two (2)."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "In cases where employees of the bargaining unit are legitimately absent from their duties because of illness, they shall be entitled to full salary and all other benefits for a period of one hundred and eighty (180) calendar days or until benefits under the Group Long-Term Disability Plan come into effect, whichever may be the shorter of the two (2)."
+    },
+    {
+     "field": "duration",
+     "rule": "R11b",
+     "answer": "180 calendar days, up_to ('whichever may be the shorter')",
+     "quote": "In cases where employees of the bargaining unit are legitimately absent from their duties because of illness, they shall be entitled to full salary and all other benefits for a period of one hundred and eighty (180) calendar days or until benefits under the Group Long-Term Disability Plan come into effect, whichever may be the shorter of the two (2)."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (leave from duties)",
+     "quote": "Insofar as reasonable, other employees shall assume the workload of persons on sick leave in order to ensure that scheduled academic activities need not be cancelled."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "In cases where employees of the bargaining unit are legitimately absent from their duties because of illness, they shall be entitled to full salary and all other benefits for a period of one hundred and eighty (180) calendar days or until benefits under the Group Long-Term Disability Plan come into effect, whichever may be the shorter of the two (2)."
+    }
+   ]
+  },
+  {
+   "component_id": "carleton_university_c11",
+   "institution_label": "",
+   "description": "Full salary and benefits during sick leave for up to 180 calendar days or until LTD benefits begin (Art. 20.5); a generic plan for any illness, no childbirth period stated.",
+   "mechanism": "generic_sick_or_disability_plan",
+   "mechanism_note": "Paid sick time for any illness, granted by the employer for a fixed period (not an accrued balance, R1); no childbirth-specific period, so not a childbirth benefit (V1, R2).",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "'employees of the bargaining unit'",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "employees ... legitimately absent from their duties because of illness",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 180,
+    "units": "calendar_day",
+    "qualifier": "up_to"
+   },
+   "duration_note": "Plan's short-term entitlement for generic_plan_weeks (V6): 180 calendar days (25.7 weeks), or until LTD begins if sooner.",
+   "pay_fraction": "full salary",
+   "medical_certification": true,
+   "medical_certification_note": "employer may request a medical certificate for absences over five working days",
+   "sequence": [
+    {
+     "relation": "within",
+     "component_id": "carleton_university_c10",
+     "note": "pay for the sick leave (U6)"
+    }
+   ],
+   "rule_applied": [
+    "U6",
+    "V1",
+    "R2",
+    "V6",
+    "R1",
+    "U5",
+    "R11b",
+    "U1"
+   ],
+   "evidence": {
+    "mechanism": [
+     "In cases where employees of the bargaining unit are legitimately absent from their duties because of illness, they shall be entitled to full salary and all other benefits for a period of one hundred and eighty (180) calendar days or until benefits under the Group Long-Term Disability Plan come into effect, whichever may be the shorter of the two (2)."
+    ],
+    "faculty_group": [
+     "In cases where employees of the bargaining unit are legitimately absent from their duties because of illness, they shall be entitled to full salary and all other benefits for a period of one hundred and eighty (180) calendar days or until benefits under the Group Long-Term Disability Plan come into effect, whichever may be the shorter of the two (2)."
+    ],
+    "eligible_parent": [
+     "In cases where employees of the bargaining unit are legitimately absent from their duties because of illness, they shall be entitled to full salary and all other benefits for a period of one hundred and eighty (180) calendar days or until benefits under the Group Long-Term Disability Plan come into effect, whichever may be the shorter of the two (2)."
+    ],
+    "entitlement": [
+     "In cases where employees of the bargaining unit are legitimately absent from their duties because of illness, they shall be entitled to full salary and all other benefits for a period of one hundred and eighty (180) calendar days or until benefits under the Group Long-Term Disability Plan come into effect, whichever may be the shorter of the two (2)."
+    ],
+    "duration": [
+     "In cases where employees of the bargaining unit are legitimately absent from their duties because of illness, they shall be entitled to full salary and all other benefits for a period of one hundred and eighty (180) calendar days or until benefits under the Group Long-Term Disability Plan come into effect, whichever may be the shorter of the two (2)."
+    ],
+    "pay_fraction": [
+     "In cases where employees of the bargaining unit are legitimately absent from their duties because of illness, they shall be entitled to full salary and all other benefits for a period of one hundred and eighty (180) calendar days or until benefits under the Group Long-Term Disability Plan come into effect, whichever may be the shorter of the two (2)."
+    ],
+    "sequence": [
+     "In cases where employees of the bargaining unit are legitimately absent from their duties because of illness, they shall be entitled to full salary and all other benefits for a period of one hundred and eighty (180) calendar days or until benefits under the Group Long-Term Disability Plan come into effect, whichever may be the shorter of the two (2)."
+    ],
+    "medical_certification": [
+     "The Employer shall be entitled to request a medical certificate indicating that the employee is unable to fulfil their duties, in all cases of absence in excess of five (5) working days."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "In cases where employees of the bargaining unit are legitimately absent from their duties because of illness, they shall be entitled to full salary and all other benefits for a period of one hundred and eighty (180) calendar days or until benefits under the Group Long-Term Disability Plan come into effect, whichever may be the shorter of the two (2)."
+    },
+    {
+     "field": "mechanism",
+     "rule": "V1",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "In cases where employees of the bargaining unit are legitimately absent from their duties because of illness, they shall be entitled to full salary and all other benefits for a period of one hundred and eighty (180) calendar days or until benefits under the Group Long-Term Disability Plan come into effect, whichever may be the shorter of the two (2)."
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "employer",
+     "quote": "In cases where employees of the bargaining unit are legitimately absent from their duties because of illness, they shall be entitled to full salary and all other benefits for a period of one hundred and eighty (180) calendar days or until benefits under the Group Long-Term Disability Plan come into effect, whichever may be the shorter of the two (2)."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own illness)",
+     "quote": "In cases where employees of the bargaining unit are legitimately absent from their duties because of illness, they shall be entitled to full salary and all other benefits for a period of one hundred and eighty (180) calendar days or until benefits under the Group Long-Term Disability Plan come into effect, whichever may be the shorter of the two (2)."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "In cases where employees of the bargaining unit are legitimately absent from their duties because of illness, they shall be entitled to full salary and all other benefits for a period of one hundred and eighty (180) calendar days or until benefits under the Group Long-Term Disability Plan come into effect, whichever may be the shorter of the two (2)."
+    },
+    {
+     "field": "duration",
+     "rule": "R11b",
+     "answer": "180 calendar days, up_to",
+     "quote": "In cases where employees of the bargaining unit are legitimately absent from their duties because of illness, they shall be entitled to full salary and all other benefits for a period of one hundred and eighty (180) calendar days or until benefits under the Group Long-Term Disability Plan come into effect, whichever may be the shorter of the two (2)."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "full salary",
+     "quote": "In cases where employees of the bargaining unit are legitimately absent from their duties because of illness, they shall be entitled to full salary and all other benefits for a period of one hundred and eighty (180) calendar days or until benefits under the Group Long-Term Disability Plan come into effect, whichever may be the shorter of the two (2)."
+    },
+    {
+     "field": "sequence",
+     "rule": "U6",
+     "answer": "within c10",
+     "quote": "In cases where employees of the bargaining unit are legitimately absent from their duties because of illness, they shall be entitled to full salary and all other benefits for a period of one hundred and eighty (180) calendar days or until benefits under the Group Long-Term Disability Plan come into effect, whichever may be the shorter of the two (2)."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "In cases where employees of the bargaining unit are legitimately absent from their duties because of illness, they shall be entitled to full salary and all other benefits for a period of one hundred and eighty (180) calendar days or until benefits under the Group Long-Term Disability Plan come into effect, whichever may be the shorter of the two (2)."
+    }
+   ]
+  },
+  {
+   "component_id": "carleton_university_c12",
+   "institution_label": "Long-Term Disability Plan",
+   "description": "Group Long-Term Disability Plan (Art. 40.1(a)(ii)); membership a condition of employment for those eligible, premiums borne wholly by employees; benefits begin after sick leave ends (Art. 20.5). Recorded without a length (schema §2).",
+   "mechanism": "generic_sick_or_disability_plan",
+   "mechanism_note": "Long-term disability: one component, no duration (schema §2).",
+   "payer": "employee_paid",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Health Benefit Plans for employees; 'For those who are eligible, membership ... is a condition of employment'",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "employees (own disability)",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "entitlement_note": "Membership is a condition of employment for eligible employees; plan terms are in the master policy, not saved.",
+   "time_window": "begins when sick leave pay (180 calendar days) ends or earlier when the plan's benefits come into effect (Art. 20.5); elimination period not stated",
+   "rule_applied": [
+    "R1d",
+    "U5",
+    "U1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "For those who are eligible, membership in the Plans listed in (a) above is a condition of employment."
+    ],
+    "eligible_parent": [
+     "In cases where employees of the bargaining unit are legitimately absent from their duties because of illness, they shall be entitled to full salary and all other benefits for a period of one hundred and eighty (180) calendar days or until benefits under the Group Long-Term Disability Plan come into effect, whichever may be the shorter of the two (2)."
+    ],
+    "entitlement": [
+     "For those who are eligible, membership in the Plans listed in (a) above is a condition of employment."
+    ],
+    "payer": [
+     "The cost of premiums for the Long Term Disability Plan shall be borne wholly by employees."
+    ],
+    "mechanism": [
+     "The Long-Term Disability Plan;"
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "cross_reference_not_saved: Long-Term Disability Plan master policy and employment benefits booklet (Art. 40.5)"
+   ],
+   "decision_log": [
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "For those who are eligible, membership in the Plans listed in (a) above is a condition of employment."
+    },
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "The Long-Term Disability Plan;"
+    },
+    {
+     "field": "payer",
+     "rule": "R1d",
+     "answer": "employee_paid",
+     "quote": "The cost of premiums for the Long Term Disability Plan shall be borne wholly by employees."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own disability)",
+     "quote": "In cases where employees of the bargaining unit are legitimately absent from their duties because of illness, they shall be entitled to full salary and all other benefits for a period of one hundred and eighty (180) calendar days or until benefits under the Group Long-Term Disability Plan come into effect, whichever may be the shorter of the two (2)."
+    },
+    {
+     "field": "entitlement",
+     "rule": "R1d",
+     "answer": "guaranteed",
+     "quote": "For those who are eligible, membership in the Plans listed in (a) above is a condition of employment."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "The Long-Term Disability Plan;"
+    }
+   ]
+  },
+  {
+   "component_id": "carleton_university_c13",
+   "institution_label": "Compassionate Leave",
+   "description": "Compassionate leave with pay (Art. 20.6) for circumstances in the employee's personal or family life, normally up to five working days, at the Dean's or University Librarian's discretion.",
+   "mechanism": "employer_paid_leave",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "'the employee' of the bargaining unit",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "the employee",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "entitlement_note": "'who may authorize leave with pay': the approval decides whether there is a benefit (V2).",
+   "duration": {
+    "value": 5,
+    "units": "workday",
+    "qualifier": "up_to"
+   },
+   "duration_note": "'Normally such leave shall not exceed five (5) working days' (Q1); may be extended in exceptional circumstances.",
+   "pay_fraction": "with pay",
+   "notice": "notification before departure whenever possible",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "rule_applied": [
+    "U1",
+    "V2",
+    "Q1",
+    "R9",
+    "R11"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "It is recognized that certain circumstances may arise in the employee's personal or family life which may require their absence from the University for a limited period of time."
+    ],
+    "eligible_parent": [
+     "It is recognized that certain circumstances may arise in the employee's personal or family life which may require their absence from the University for a limited period of time."
+    ],
+    "entitlement": [
+     "who may authorize leave with pay. Normally such leave shall not exceed five (5) working days. The Dean or University Librarian may, in exceptional circumstances, extend this period."
+    ],
+    "duration": [
+     "who may authorize leave with pay. Normally such leave shall not exceed five (5) working days. The Dean or University Librarian may, in exceptional circumstances, extend this period."
+    ],
+    "pay_fraction": [
+     "who may authorize leave with pay. Normally such leave shall not exceed five (5) working days. The Dean or University Librarian may, in exceptional circumstances, extend this period."
+    ],
+    "general_purpose": [
+     "It is recognized that certain circumstances may arise in the employee's personal or family life which may require their absence from the University for a limited period of time."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "It is recognized that certain circumstances may arise in the employee's personal or family life which may require their absence from the University for a limited period of time."
+    },
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "employer_paid_leave",
+     "quote": "who may authorize leave with pay. Normally such leave shall not exceed five (5) working days. The Dean or University Librarian may, in exceptional circumstances, extend this period."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "who may authorize leave with pay. Normally such leave shall not exceed five (5) working days. The Dean or University Librarian may, in exceptional circumstances, extend this period."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "It is recognized that certain circumstances may arise in the employee's personal or family life which may require their absence from the University for a limited period of time."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "who may authorize leave with pay. Normally such leave shall not exceed five (5) working days. The Dean or University Librarian may, in exceptional circumstances, extend this period."
+    },
+    {
+     "field": "duration",
+     "rule": "Q1",
+     "answer": "5 working days, up_to ('Normally ... shall not exceed')",
+     "quote": "who may authorize leave with pay. Normally such leave shall not exceed five (5) working days. The Dean or University Librarian may, in exceptional circumstances, extend this period."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "with pay",
+     "quote": "who may authorize leave with pay. Normally such leave shall not exceed five (5) working days. The Dean or University Librarian may, in exceptional circumstances, extend this period."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave)",
+     "quote": "who may authorize leave with pay. Normally such leave shall not exceed five (5) working days. The Dean or University Librarian may, in exceptional circumstances, extend this period."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "It is recognized that certain circumstances may arise in the employee's personal or family life which may require their absence from the University for a limited period of time."
+    }
+   ]
+  },
+  {
+   "component_id": "carleton_university_c14",
+   "institution_label": "Annual Leave",
+   "description": "Annual leave (vacation) of one calendar month for faculty (Art. 20.8), scheduled in consultation with the Chair; the employee's own vacation entitlement.",
+   "mechanism": "own_accrual",
+   "mechanism_note": "The employee's own annual vacation entitlement (R1: vacation counts 0 paid weeks).",
+   "payer": "own_balance",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "'all employees' (librarians: 22 or 25 working days)",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "all employees",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 1,
+    "units": "month",
+    "qualifier": "exact"
+   },
+   "duration_note": "One calendar month per year; scheduling 'with due regard to the continued effective functioning of the academic program'. Carry-over not stated.",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "rule_applied": [
+    "R1",
+    "U1",
+    "R9",
+    "R11"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Subject to (b) below, all employees shall be entitled to annual leave of one (1) calendar month."
+    ],
+    "eligible_parent": [
+     "Subject to (b) below, all employees shall be entitled to annual leave of one (1) calendar month."
+    ],
+    "entitlement": [
+     "Subject to (b) below, all employees shall be entitled to annual leave of one (1) calendar month."
+    ],
+    "duration": [
+     "Subject to (b) below, all employees shall be entitled to annual leave of one (1) calendar month."
+    ],
+    "general_purpose": [
+     "Subject to (b) below, all employees shall be entitled to annual leave of one (1) calendar month."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Subject to (b) below, all employees shall be entitled to annual leave of one (1) calendar month."
+    },
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "own_accrual",
+     "quote": "Subject to (b) below, all employees shall be entitled to annual leave of one (1) calendar month."
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "own_balance",
+     "quote": "Subject to (b) below, all employees shall be entitled to annual leave of one (1) calendar month."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "Subject to (b) below, all employees shall be entitled to annual leave of one (1) calendar month."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "Subject to (b) below, all employees shall be entitled to annual leave of one (1) calendar month."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 month, exact",
+     "quote": "Subject to (b) below, all employees shall be entitled to annual leave of one (1) calendar month."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (leave)",
+     "quote": "Subject to (b) below, all employees shall be entitled to annual leave of one (1) calendar month."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "Subject to (b) below, all employees shall be entitled to annual leave of one (1) calendar month."
+    }
+   ]
+  },
+  {
+   "component_id": "carleton_university_c15",
+   "institution_label": "",
+   "description": "Tenure clock: extensions granted for parental leave are excluded from the seven-year maximum of a preliminary (tenure-track) appointment (Art. 10.1(a)(vi); likewise 10.1(a)(vii) and 10.1(b)(ii)). The grant, length and approver of such extensions are not stated.",
+   "mechanism": "tenure_clock",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "faculty on preliminary (tenure-track) appointments",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "parental leave",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "entitlement_note": "The agreement refers to 'extensions granted for other reasons, such as parental leave' but does not state that an extension must be granted, for how long, or by whom; coded discretionary and flagged.",
+   "rule_applied": [
+    "V2",
+    "U1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "The maximum time in a preliminary (tenure-track) appointment shall not be for more than a total of seven (7) years, including any years served on a preliminary appointment at the rank of Lecturer, but exclusive of extensions granted for other reasons, such as parental leave and pursuant to relevant legislation (see Article 5), and not counting periods of unpaid leave, from the date of the preliminary (tenure-track) appointment."
+    ],
+    "eligible_parent": [
+     "The maximum time in a preliminary (tenure-track) appointment shall not be for more than a total of seven (7) years, including any years served on a preliminary appointment at the rank of Lecturer, but exclusive of extensions granted for other reasons, such as parental leave and pursuant to relevant legislation (see Article 5), and not counting periods of unpaid leave, from the date of the preliminary (tenure-track) appointment."
+    ],
+    "entitlement": [
+     "The maximum time in a preliminary (tenure-track) appointment shall not be for more than a total of seven (7) years, including any years served on a preliminary appointment at the rank of Lecturer, but exclusive of extensions granted for other reasons, such as parental leave and pursuant to relevant legislation (see Article 5), and not counting periods of unpaid leave, from the date of the preliminary (tenure-track) appointment.",
+     "it will result in consideration for tenure within three (3) years exclusive of extensions granted for other reasons, such as parental leave, periods of unpaid leave, and pursuant to relevant legislation (see Article 5).",
+     "A short extension of not more than six (6) months exclusive of extensions granted for other reasons, such as parental leave, periods of unpaid leave, and pursuant to relevant legislation (see Article 5), may be granted by the Provost"
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "ambiguous: rule gap: tenure-clock extension for parental leave is referred to only as excluded from the seven-year maximum ('extensions granted for other reasons, such as parental leave'); its grant, length and approval are not stated in the saved agreement"
+   ],
+   "decision_log": [
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "The maximum time in a preliminary (tenure-track) appointment shall not be for more than a total of seven (7) years, including any years served on a preliminary appointment at the rank of Lecturer, but exclusive of extensions granted for other reasons, such as parental leave and pursuant to relevant legislation (see Article 5), and not counting periods of unpaid leave, from the date of the preliminary (tenure-track) appointment."
+    },
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "The maximum time in a preliminary (tenure-track) appointment shall not be for more than a total of seven (7) years, including any years served on a preliminary appointment at the rank of Lecturer, but exclusive of extensions granted for other reasons, such as parental leave and pursuant to relevant legislation (see Article 5), and not counting periods of unpaid leave, from the date of the preliminary (tenure-track) appointment."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "The maximum time in a preliminary (tenure-track) appointment shall not be for more than a total of seven (7) years, including any years served on a preliminary appointment at the rank of Lecturer, but exclusive of extensions granted for other reasons, such as parental leave and pursuant to relevant legislation (see Article 5), and not counting periods of unpaid leave, from the date of the preliminary (tenure-track) appointment."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent (parental leave)",
+     "quote": "The maximum time in a preliminary (tenure-track) appointment shall not be for more than a total of seven (7) years, including any years served on a preliminary appointment at the rank of Lecturer, but exclusive of extensions granted for other reasons, such as parental leave and pursuant to relevant legislation (see Article 5), and not counting periods of unpaid leave, from the date of the preliminary (tenure-track) appointment."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "The maximum time in a preliminary (tenure-track) appointment shall not be for more than a total of seven (7) years, including any years served on a preliminary appointment at the rank of Lecturer, but exclusive of extensions granted for other reasons, such as parental leave and pursuant to relevant legislation (see Article 5), and not counting periods of unpaid leave, from the date of the preliminary (tenure-track) appointment."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "The maximum time in a preliminary (tenure-track) appointment shall not be for more than a total of seven (7) years, including any years served on a preliminary appointment at the rank of Lecturer, but exclusive of extensions granted for other reasons, such as parental leave and pursuant to relevant legislation (see Article 5), and not counting periods of unpaid leave, from the date of the preliminary (tenure-track) appointment."
+    }
+   ]
+  },
+  {
+   "component_id": "carleton_university_c16",
+   "institution_label": "",
+   "description": "Tenure clock: periods of unpaid leave are not counted toward the seven-year maximum of a preliminary (tenure-track) appointment (Art. 10.1(a)(vi)); service credit for tenure is frozen during leave without pay (20.1(e)).",
+   "mechanism": "tenure_clock",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "faculty on preliminary (tenure-track) appointments",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "periods of unpaid leave",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "entitlement_note": "Stated as the rule for computing the maximum ('not counting periods of unpaid leave').",
+   "rule_applied": [
+    "U1",
+    "V2"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "The maximum time in a preliminary (tenure-track) appointment shall not be for more than a total of seven (7) years, including any years served on a preliminary appointment at the rank of Lecturer, but exclusive of extensions granted for other reasons, such as parental leave and pursuant to relevant legislation (see Article 5), and not counting periods of unpaid leave, from the date of the preliminary (tenure-track) appointment."
+    ],
+    "eligible_parent": [
+     "The maximum time in a preliminary (tenure-track) appointment shall not be for more than a total of seven (7) years, including any years served on a preliminary appointment at the rank of Lecturer, but exclusive of extensions granted for other reasons, such as parental leave and pursuant to relevant legislation (see Article 5), and not counting periods of unpaid leave, from the date of the preliminary (tenure-track) appointment."
+    ],
+    "entitlement": [
+     "The maximum time in a preliminary (tenure-track) appointment shall not be for more than a total of seven (7) years, including any years served on a preliminary appointment at the rank of Lecturer, but exclusive of extensions granted for other reasons, such as parental leave and pursuant to relevant legislation (see Article 5), and not counting periods of unpaid leave, from the date of the preliminary (tenure-track) appointment.",
+     "The Employer shall, on the day following completion of leave of absence without pay, credit to the employee for the purpose of a sabbatical, tenure, confirmation and promotion any period of service which stood to the employee's credit on the day prior to the commencement of such leave."
+    ],
+    "general_purpose": [
+     "The maximum time in a preliminary (tenure-track) appointment shall not be for more than a total of seven (7) years, including any years served on a preliminary appointment at the rank of Lecturer, but exclusive of extensions granted for other reasons, such as parental leave and pursuant to relevant legislation (see Article 5), and not counting periods of unpaid leave, from the date of the preliminary (tenure-track) appointment."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "The maximum time in a preliminary (tenure-track) appointment shall not be for more than a total of seven (7) years, including any years served on a preliminary appointment at the rank of Lecturer, but exclusive of extensions granted for other reasons, such as parental leave and pursuant to relevant legislation (see Article 5), and not counting periods of unpaid leave, from the date of the preliminary (tenure-track) appointment."
+    },
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "The maximum time in a preliminary (tenure-track) appointment shall not be for more than a total of seven (7) years, including any years served on a preliminary appointment at the rank of Lecturer, but exclusive of extensions granted for other reasons, such as parental leave and pursuant to relevant legislation (see Article 5), and not counting periods of unpaid leave, from the date of the preliminary (tenure-track) appointment."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "The maximum time in a preliminary (tenure-track) appointment shall not be for more than a total of seven (7) years, including any years served on a preliminary appointment at the rank of Lecturer, but exclusive of extensions granted for other reasons, such as parental leave and pursuant to relevant legislation (see Article 5), and not counting periods of unpaid leave, from the date of the preliminary (tenure-track) appointment."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "The maximum time in a preliminary (tenure-track) appointment shall not be for more than a total of seven (7) years, including any years served on a preliminary appointment at the rank of Lecturer, but exclusive of extensions granted for other reasons, such as parental leave and pursuant to relevant legislation (see Article 5), and not counting periods of unpaid leave, from the date of the preliminary (tenure-track) appointment."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "The maximum time in a preliminary (tenure-track) appointment shall not be for more than a total of seven (7) years, including any years served on a preliminary appointment at the rank of Lecturer, but exclusive of extensions granted for other reasons, such as parental leave and pursuant to relevant legislation (see Article 5), and not counting periods of unpaid leave, from the date of the preliminary (tenure-track) appointment."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "The maximum time in a preliminary (tenure-track) appointment shall not be for more than a total of seven (7) years, including any years served on a preliminary appointment at the rank of Lecturer, but exclusive of extensions granted for other reasons, such as parental leave and pursuant to relevant legislation (see Article 5), and not counting periods of unpaid leave, from the date of the preliminary (tenure-track) appointment."
+    }
+   ]
+  },
+  {
+   "component_id": "carleton_university_c17",
+   "institution_label": "Reduced-Time Appointments",
+   "description": "Ongoing reduced-time appointment at pro-rated salary (Art. 9.10), on the application of a tenured or confirmed full-time employee (untenured only by agreement); right to resume full time within 60 months.",
+   "mechanism": "part_time_option",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "'Any tenured or confirmed employee, holding a full-time position'; untenured employees by agreement",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "any tenured or confirmed employee",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "For tenured employees: 'The Employer shall not unreasonably withhold approval' (V2d). For untenured employees only 'when it is agreed' (discretionary).",
+   "pay_fraction": "actual salary pro-rated from the nominal salary according to the reduction in workload",
+   "time_window": "full-time status to be resumed within sixty months of commencement (notice within 48 months)",
+   "rule_applied": [
+    "U1",
+    "V2d",
+    "R3"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Any tenured or confirmed employee, holding a full-time position, may, on a wholly voluntary basis, apply to their Dean or equivalent for a reduced-time appointment.",
+     "reduced-time appointments may also be granted to untenured or unconfirmed employees where such an employee voluntarily seeks it, and when it is agreed between the Employer and the employee that circumstances warrant it."
+    ],
+    "eligible_parent": [
+     "Any tenured or confirmed employee, holding a full-time position, may, on a wholly voluntary basis, apply to their Dean or equivalent for a reduced-time appointment."
+    ],
+    "entitlement": [
+     "Any tenured or confirmed employee, holding a full-time position, may, on a wholly voluntary basis, apply to their Dean or equivalent for a reduced-time appointment.",
+     "The Employer shall not unreasonably withhold approval of requests for transfer from full-time to reduced-time status."
+    ],
+    "pay_fraction": [
+     "Each such appointee shall receive an actual salary pro-rated from the nominal salary according to the reduction in workload."
+    ],
+    "time_window": [
+     "full-time status is resumed within sixty (60) months following the commencement of the reduced-time appointment; and,"
+    ],
+    "general_purpose": [
+     "Any tenured or confirmed employee, holding a full-time position, may, on a wholly voluntary basis, apply to their Dean or equivalent for a reduced-time appointment."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "general_purpose",
+    "conditional_refusal: approval may not be unreasonably withheld (tenured or confirmed employees); untenured only by agreement"
+   ],
+   "decision_log": [
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Any tenured or confirmed employee, holding a full-time position, may, on a wholly voluntary basis, apply to their Dean or equivalent for a reduced-time appointment."
+    },
+    {
+     "field": "mechanism",
+     "rule": "R3",
+     "answer": "part_time_option",
+     "quote": "Each such appointee shall receive an actual salary pro-rated from the nominal salary according to the reduction in workload."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "Each such appointee shall receive an actual salary pro-rated from the nominal salary according to the reduction in workload."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "Any tenured or confirmed employee, holding a full-time position, may, on a wholly voluntary basis, apply to their Dean or equivalent for a reduced-time appointment."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2d",
+     "answer": "guaranteed_on_request",
+     "quote": "The Employer shall not unreasonably withhold approval of requests for transfer from full-time to reduced-time status."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "pro-rated salary",
+     "quote": "Each such appointee shall receive an actual salary pro-rated from the nominal salary according to the reduction in workload."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "Any tenured or confirmed employee, holding a full-time position, may, on a wholly voluntary basis, apply to their Dean or equivalent for a reduced-time appointment."
+    }
+   ]
+  },
+  {
+   "component_id": "carleton_university_c18",
+   "institution_label": "Reduced Workload with Pro-Rated Pay",
+   "description": "Reduced workload with pro-rated pay (Art. 13.5) that the employer may grant to a tenured or confirmed employee who applies; reduction normally not more than two-thirds of the full workload.",
+   "mechanism": "part_time_option",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "'any tenured or confirmed employee'",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "any tenured or confirmed employee",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "entitlement_note": "'may be granted by the Employer' (V2).",
+   "pay_fraction": "pro-rated pay",
+   "relief_note": "reduction normally not more than two-thirds of the full workload; distribution among duties by agreement; tenure credit pro-rated",
+   "rule_applied": [
+    "U1",
+    "V2",
+    "R3"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Reduced workload with pro-rated pay may be granted by the Employer at any time to any tenured or confirmed employee who applies voluntarily for such status."
+    ],
+    "eligible_parent": [
+     "Reduced workload with pro-rated pay may be granted by the Employer at any time to any tenured or confirmed employee who applies voluntarily for such status."
+    ],
+    "entitlement": [
+     "Reduced workload with pro-rated pay may be granted by the Employer at any time to any tenured or confirmed employee who applies voluntarily for such status."
+    ],
+    "pay_fraction": [
+     "Reduced workload with pro-rated pay may be granted by the Employer at any time to any tenured or confirmed employee who applies voluntarily for such status."
+    ],
+    "relief_note": [
+     "Normally, the reduction in workload shall not exceed two-thirds (2/3) of the full workload as defined by Article 13, as appropriate for the category of employee.",
+     "An employee working a reduced workload at pro-rated pay shall earn credit toward sabbatical, tenure, confirmation and promotion on a pro-rated basis."
+    ],
+    "general_purpose": [
+     "Reduced workload with pro-rated pay may be granted by the Employer at any time to any tenured or confirmed employee who applies voluntarily for such status."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Reduced workload with pro-rated pay may be granted by the Employer at any time to any tenured or confirmed employee who applies voluntarily for such status."
+    },
+    {
+     "field": "mechanism",
+     "rule": "R3",
+     "answer": "part_time_option",
+     "quote": "Reduced workload with pro-rated pay may be granted by the Employer at any time to any tenured or confirmed employee who applies voluntarily for such status."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "Reduced workload with pro-rated pay may be granted by the Employer at any time to any tenured or confirmed employee who applies voluntarily for such status."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "Reduced workload with pro-rated pay may be granted by the Employer at any time to any tenured or confirmed employee who applies voluntarily for such status."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "Reduced workload with pro-rated pay may be granted by the Employer at any time to any tenured or confirmed employee who applies voluntarily for such status."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "pro-rated pay",
+     "quote": "Reduced workload with pro-rated pay may be granted by the Employer at any time to any tenured or confirmed employee who applies voluntarily for such status."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "Reduced workload with pro-rated pay may be granted by the Employer at any time to any tenured or confirmed employee who applies voluntarily for such status."
+    }
+   ]
+  },
+  {
+   "component_id": "carleton_university_c19",
+   "institution_label": "",
+   "description": "Instructor employees scheduled to teach a summer course may take two months' leave of absence without pay instead (Art. 13.4(d)); withheld only for essential department need; not more often than once every two years.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "Instructor employees",
+   "faculty_group_note": "Instructor ranks I-III, engaged primarily in teaching; not the tenure stream",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "an Instructor employee",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "'shall have the option'; Dean's consent 'may be withheld only in the case of essential department need' (V2b/V2d).",
+   "duration": {
+    "value": 2,
+    "units": "month",
+    "qualifier": "exact"
+   },
+   "use_limit": [
+    {
+     "times": 1,
+     "per": "window",
+     "window_years": 2,
+     "counts": "uses"
+    }
+   ],
+   "use_limit_note": "'Leave may not be awarded under the terms of this Article more often than once every two (2) years.'",
+   "notice": "apply no later than three months before the scheduled summer course",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "rule_applied": [
+    "U1",
+    "V2b",
+    "U9",
+    "R9",
+    "R11"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "When an Instructor employee is scheduled to teach a course in the summer as part of their workload, they shall have the option of taking two (2) months' leave of absence without pay instead of teaching.",
+     "The ranks Instructor I, II and III are reserved for those persons in the bargaining unit not covered by 9.5 or 9.6 above who are either engaged primarily in teaching"
+    ],
+    "eligible_parent": [
+     "When an Instructor employee is scheduled to teach a course in the summer as part of their workload, they shall have the option of taking two (2) months' leave of absence without pay instead of teaching."
+    ],
+    "entitlement": [
+     "When an Instructor employee is scheduled to teach a course in the summer as part of their workload, they shall have the option of taking two (2) months' leave of absence without pay instead of teaching.",
+     "However the leave may be withheld only in the case of essential department need."
+    ],
+    "duration": [
+     "When an Instructor employee is scheduled to teach a course in the summer as part of their workload, they shall have the option of taking two (2) months' leave of absence without pay instead of teaching."
+    ],
+    "use_limit": [
+     "Leave may not be awarded under the terms of this Article more often than once every two (2) years."
+    ],
+    "notice": [
+     "The Instructor employee shall apply for such leave no later than three (3) months before the start of the scheduled summer course."
+    ],
+    "general_purpose": [
+     "When an Instructor employee is scheduled to teach a course in the summer as part of their workload, they shall have the option of taking two (2) months' leave of absence without pay instead of teaching."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "general_purpose",
+    "conditional_refusal: may be withheld only in the case of essential department need"
+   ],
+   "decision_log": [
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "Instructor employees",
+     "quote": "The ranks Instructor I, II and III are reserved for those persons in the bargaining unit not covered by 9.5 or 9.6 above who are either engaged primarily in teaching"
+    },
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "When an Instructor employee is scheduled to teach a course in the summer as part of their workload, they shall have the option of taking two (2) months' leave of absence without pay instead of teaching."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "When an Instructor employee is scheduled to teach a course in the summer as part of their workload, they shall have the option of taking two (2) months' leave of absence without pay instead of teaching."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "When an Instructor employee is scheduled to teach a course in the summer as part of their workload, they shall have the option of taking two (2) months' leave of absence without pay instead of teaching."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2b",
+     "answer": "guaranteed_on_request",
+     "quote": "However the leave may be withheld only in the case of essential department need."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "2 months, exact",
+     "quote": "When an Instructor employee is scheduled to teach a course in the summer as part of their workload, they shall have the option of taking two (2) months' leave of absence without pay instead of teaching."
+    },
+    {
+     "field": "use_limit",
+     "rule": "U9",
+     "answer": "once every two years",
+     "quote": "Leave may not be awarded under the terms of this Article more often than once every two (2) years."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave)",
+     "quote": "When an Instructor employee is scheduled to teach a course in the summer as part of their workload, they shall have the option of taking two (2) months' leave of absence without pay instead of teaching."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "When an Instructor employee is scheduled to teach a course in the summer as part of their workload, they shall have the option of taking two (2) months' leave of absence without pay instead of teaching."
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "The one usable source is 2018_00_link.txt (CUASA collective agreement 2014-2017).",
+  "Version: the 2014-2017 agreement expired 2017-04-30 but continues in force until a new agreement is ratified (Art. 33.2: 'This Collective Agreement, however, shall continue in force, including during any period of negotiation, until a new Collective Agreement is ratified by both parties'); the document's version note says the successor was ratified in June 2018, after the reference date 2018-02-22. Read as in force on 2018-02-22.",
+  "Paths (U8): the member is EI-eligible. Option 20.7(e) (regular salary 12 weeks, c2) and option 20.7(f) (95% for 2 weeks, c3, then a top-up of EI to 95% for 15 weeks, c4) are alternatives within the 17-week maternity leave (c1); c3 and c4 carry in_lieu_of c2 (R15b). An employee ineligible for EI falls back to 20.7(e) (20.7(g)). EI maternity (c5) is linked to the leave with the statutory one-week wait (R21), not to the top-up that starts in week 3.",
+  "Birth parent chain: maternity leave c1 17 [pay: option (e) salary c2 12 within c1, or option (f) 95% c3 2 -> top-up c4 15, within c1; EI maternity c5 from week 2] -> parental leave c6 35 (after c1) with EI parental c7 35 (after EI maternity c5, no second wait) and SUB top-up c8 within c7. Additional unpaid time: leave without pay c9 after c1 (general purpose, discretionary).",
+  "Non-birth parent chain: parental leave c6 35 (from the birth) -> EI parental c7 35 from week 2 (own one-week wait, offset 1 on c6) with SUB top-up c8 within c7.",
+  "Not coded as components: 13.6 long-service reduced time (age 55+ with ten years' service, conditional on agreeing to early retirement; outside the two-year-service member and a pre-retirement arrangement); 20.2 study/retraining leave, 20.3 political leave, 20.4 court leave, Art. 21 sabbaticals (purposes a parent cannot use for a birth); 5.3 general accommodation duty (not pregnancy-specific); 20.7(b) right to continue regular duties during pregnancy (no leave, pay, relief or protection of an absence); 20.7(h) parental leave counts as time worked for sabbatical and pension (recorded in c6 relief_note); 9.4(d)/13.5(d) pro-rated tenure credit for part-time service (part of c17, c18).",
+  "Cited but not saved: Long-Term Disability Plan master policy and employment benefits booklet (Art. 40.1, 40.5); Employment Insurance Regulations (20.7(f)(ii), (g)); Carleton Human Rights Policies and Procedures (Art. 36.1(g), disability accommodation); Board of Governors Voluntary Separation policy (22.6); successor 2017-2021 agreement (not in force on the reference date).",
+  "The Ontario Employment Standards Act is not named anywhere in the agreement, so no ESA component is coded; the statutory floor is filled from statutory_baseline.csv (U7)."
+ ],
+ "statutory_floor": {
+  "jurisdiction": "ON",
+  "year": "2018",
+  "weeks_birth": 78.0,
+  "weeks_nonbirth": 63.0,
+  "statute": "Employment Standards Act: pregnancy and parental leave (ESA 2000, ss. 46-49)",
+  "source_doc": "2018_21_on_esa2000",
+  "table": "statutory_baseline.csv"
+ }
+}

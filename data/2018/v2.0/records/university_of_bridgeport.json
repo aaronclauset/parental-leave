@@ -1,0 +1,703 @@
+{
+ "institution": "University of Bridgeport",
+ "slug": "university_of_bridgeport",
+ "country": "US",
+ "model": "claude-opus-5-5",
+ "codebook_version": "1.25",
+ "schema_version": "1.25",
+ "reference_date": "2018-03-13",
+ "documents": [
+  {
+   "doc_id": "2018_01_benefits_overview_page",
+   "url": "http://www.bridgeport.edu:80/about/employment-and-job-opportunities/benefits-overview/",
+   "title": "Benefits Overview | University of Bridgeport",
+   "version_or_effective_date": "no version date on the page; footer '© 2018 University of Bridgeport'; Wayback capture 2018-03-07 (within the 2017-18 reference year, six days before the reference date)",
+   "retrieved": "2026-10-30 (Wayback 20180307094503)"
+  }
+ ],
+ "missing": "no_policy_on_page",
+ "scope_accounting": {
+  "C1": {
+   "absent": {
+    "documents": [
+     "2018_01_benefits_overview_page"
+    ],
+    "terms": [
+     "maternity",
+     "paternity",
+     "parental",
+     "childbirth",
+     "birth",
+     "adoption",
+     "foster",
+     "family leave",
+     "child"
+    ]
+   }
+  },
+  "C2": {
+   "absent": {
+    "documents": [
+     "2018_01_benefits_overview_page"
+    ],
+    "terms": [
+     "modified duties",
+     "teaching relief",
+     "course release",
+     "workload",
+     "reduced load"
+    ]
+   }
+  },
+  "C3": {
+   "components": [
+    "university_of_bridgeport_c1",
+    "university_of_bridgeport_c2",
+    "university_of_bridgeport_c3",
+    "university_of_bridgeport_c4"
+   ]
+  },
+  "C4": {
+   "absent": {
+    "documents": [
+     "2018_01_benefits_overview_page"
+    ],
+    "terms": [
+     "FMLA",
+     "Family and Medical Leave",
+     "statute",
+     "Act",
+     "state law",
+     "Connecticut",
+     "paid leave",
+     "pregnancy disability"
+    ]
+   },
+   "not_components": []
+  },
+  "C5": {
+   "absent": {
+    "documents": [
+     "2018_01_benefits_overview_page"
+    ],
+    "terms": [
+     "family care",
+     "family member",
+     "ill family",
+     "caregiver",
+     "spouse"
+    ]
+   }
+  },
+  "C6": {
+   "components": [
+    "university_of_bridgeport_c4",
+    "university_of_bridgeport_c5"
+   ]
+  },
+  "C7": {
+   "absent": {
+    "documents": [
+     "2018_01_benefits_overview_page"
+    ],
+    "terms": [
+     "tenure",
+     "tenure clock",
+     "probationary",
+     "extension"
+    ]
+   }
+  },
+  "C8": {
+   "absent": {
+    "documents": [
+     "2018_01_benefits_overview_page"
+    ],
+    "terms": [
+     "part-time",
+     "reduced appointment",
+     "phased return",
+     "reduced load"
+    ]
+   }
+  },
+  "C9": {
+   "absent": {
+    "documents": [
+     "2018_01_benefits_overview_page"
+    ],
+    "terms": [
+     "accommodation",
+     "pregnancy",
+     "lactation",
+     "hazard",
+     "discrimination"
+    ]
+   }
+  },
+  "C10": {
+   "absent": {
+    "documents": [
+     "2018_01_benefits_overview_page"
+    ],
+    "terms": [
+     "FMLA",
+     "first days",
+     "qualifying absence",
+     "regular work time"
+    ]
+   }
+  }
+ },
+ "passage_dispositions": {},
+ "mechanism_slots": {
+  "employer_paid_leave": {
+   "components": [
+    "university_of_bridgeport_c5"
+   ]
+  },
+  "employer_childbirth_benefit": {
+   "absent": "2018_01_benefits_overview_page searched for maternity, childbirth, birth, pregnancy: none"
+  },
+  "generic_sick_or_disability_plan": {
+   "components": [
+    "university_of_bridgeport_c1",
+    "university_of_bridgeport_c2"
+   ]
+  },
+  "own_accrual": {
+   "components": [
+    "university_of_bridgeport_c3",
+    "university_of_bridgeport_c4"
+   ]
+  },
+  "donated_leave": {
+   "absent": "2018_01_benefits_overview_page searched for donated, shared, bank, pool: none"
+  },
+  "government_benefit": {
+   "absent": "2018_01_benefits_overview_page searched for state, government, paid family leave, disability benefits law: none"
+  },
+  "employer_topup": {
+   "absent": "2018_01_benefits_overview_page searched for top-up, supplement, difference: none"
+  },
+  "modified_duties": {
+   "absent": "2018_01_benefits_overview_page searched for modified duties, relief, teaching, workload: none"
+  },
+  "unpaid_leave": {
+   "absent": "2018_01_benefits_overview_page searched for unpaid, without pay, leave of absence, FMLA: none"
+  },
+  "tenure_clock": {
+   "absent": "2018_01_benefits_overview_page searched for tenure, clock, probationary: none"
+  },
+  "part_time_option": {
+   "absent": "2018_01_benefits_overview_page searched for part-time, reduced, phased: none"
+  },
+  "other": {
+   "absent": "2018_01_benefits_overview_page searched for accommodation, pregnancy, hazard: none"
+  }
+ },
+ "baseline_accounting": {
+  "Family and Medical Leave Act (FMLA)": {
+   "absent": "no saved document mentions it (statutory floor applies under U7)"
+  },
+  "Federal Employee Paid Leave Act (paid parental leave for federal civilian employees)": {
+   "not_applicable": "covers federal civilian employees only; the University of Bridgeport is a private employer"
+  },
+  "Connecticut Paid Leave (CT PL)": {
+   "absent": "no saved document mentions it"
+  },
+  "Connecticut Family and Medical Leave Act (CT FMLA)": {
+   "absent": "no saved document mentions it"
+  }
+ },
+ "leave_limits": [],
+ "components": [
+  {
+   "component_id": "university_of_bridgeport_c1",
+   "institution_label": "Short-term disability insurance",
+   "description": "Short-term disability insurance listed among the benefits of full-time faculty; the page gives no length, pay level, childbirth period or premium arrangement.",
+   "mechanism": "generic_sick_or_disability_plan",
+   "mechanism_note": "A general disability insurance with no childbirth-specific period, length or pay level stated, so V1's three-part test is not met.",
+   "payer": "insurance_plan",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "All active, full-time faculty members and administrative and professional staff who work at least 30 hours per week are benefits eligible.",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "none (own disability; U5)",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "Full-time faculty 'are benefits eligible'; coverage follows completion of enrollment forms, so the approval covers only enrollment (V2).",
+   "service_requirement": "full-time; coverage generally effective on the first day of the month following the date of hire and completion of enrollment forms",
+   "rule_applied": [
+    "V1",
+    "R2",
+    "M1",
+    "U5",
+    "V2",
+    "U1"
+   ],
+   "evidence": {
+    "mechanism": [
+     "Short-term disability insurance"
+    ],
+    "faculty_group": [
+     "All active, full-time faculty members and administrative and professional staff who work at least 30 hours per week are benefits eligible."
+    ],
+    "eligible_parent": [
+     "Short-term disability insurance"
+    ],
+    "entitlement": [
+     "All active, full-time faculty members and administrative and professional staff who work at least 30 hours per week are benefits eligible.",
+     "Coverage is generally effective on the first day of the month following the date of hire and the completion of enrollment forms."
+    ],
+    "service_requirement": [
+     "Coverage is generally effective on the first day of the month following the date of hire and the completion of enrollment forms."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_benefits_overview_page"
+   ],
+   "flags": [
+    "cross_reference_not_saved: plan documents (available in the Human Resources Department)",
+    "ambiguous: rule gap: provision known only from an HR benefits summary page; the governing plan document is not saved, so whether summary_only applies (source precedence) cannot be tested"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "V1",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "Short-term disability insurance"
+    },
+    {
+     "field": "payer",
+     "rule": "M1",
+     "answer": "insurance_plan",
+     "quote": "Short-term disability insurance"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Short-term disability insurance"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "All active, full-time faculty members and administrative and professional staff who work at least 30 hours per week are benefits eligible."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own disability)",
+     "quote": "Short-term disability insurance"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "Coverage is generally effective on the first day of the month following the date of hire and the completion of enrollment forms."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "full-time; coverage from the first of the month after hire and enrollment",
+     "quote": "Coverage is generally effective on the first day of the month following the date of hire and the completion of enrollment forms."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_bridgeport_c2",
+   "institution_label": "Long-term disability insurance",
+   "description": "Long-term disability insurance listed among the benefits of full-time faculty; recorded minimally, without a length (schema §2).",
+   "mechanism": "generic_sick_or_disability_plan",
+   "mechanism_note": "Long-term disability plan: recorded as one generic plan component with no duration (schema §2).",
+   "payer": "insurance_plan",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "All active, full-time faculty members and administrative and professional staff who work at least 30 hours per week are benefits eligible.",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "none (own disability; U5)",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "Full-time faculty 'are benefits eligible'; coverage follows completion of enrollment forms (V2).",
+   "service_requirement": "full-time; coverage generally effective on the first day of the month following the date of hire and completion of enrollment forms",
+   "rule_applied": [
+    "M1",
+    "U5",
+    "V2",
+    "U1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "All active, full-time faculty members and administrative and professional staff who work at least 30 hours per week are benefits eligible."
+    ],
+    "eligible_parent": [
+     "Long-term disability insurance"
+    ],
+    "entitlement": [
+     "All active, full-time faculty members and administrative and professional staff who work at least 30 hours per week are benefits eligible.",
+     "Coverage is generally effective on the first day of the month following the date of hire and the completion of enrollment forms."
+    ],
+    "service_requirement": [
+     "Coverage is generally effective on the first day of the month following the date of hire and the completion of enrollment forms."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_benefits_overview_page"
+   ],
+   "flags": [
+    "cross_reference_not_saved: plan documents (available in the Human Resources Department)",
+    "ambiguous: rule gap: provision known only from an HR benefits summary page; the governing plan document is not saved, so whether summary_only applies (source precedence) cannot be tested"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "Long-term disability insurance"
+    },
+    {
+     "field": "payer",
+     "rule": "M1",
+     "answer": "insurance_plan",
+     "quote": "Long-term disability insurance"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Long-term disability insurance"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "All active, full-time faculty members and administrative and professional staff who work at least 30 hours per week are benefits eligible."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own disability)",
+     "quote": "Long-term disability insurance"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "Coverage is generally effective on the first day of the month following the date of hire and the completion of enrollment forms."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "full-time; coverage from the first of the month after hire and enrollment",
+     "quote": "Coverage is generally effective on the first day of the month following the date of hire and the completion of enrollment forms."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_bridgeport_c3",
+   "institution_label": "",
+   "description": "Sick days, listed under 'Leave time' among full-time faculty benefits; the number of days, accrual and pay are not stated.",
+   "mechanism": "own_accrual",
+   "mechanism_note": "Sick days with no stated amount or restoration: read as the employee's own sick balance (R1); whether it is an accrual or an employer-restored allotment cannot be determined from the page.",
+   "payer": "own_balance",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "All active, full-time faculty members and administrative and professional staff who work at least 30 hours per week are benefits eligible.",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "none (own illness; U5)",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "Leave time is listed among the benefits for which full-time faculty 'are benefits eligible' (V2: 'is eligible for').",
+   "service_requirement": "full-time (benefits eligible)",
+   "rule_applied": [
+    "R1",
+    "U5",
+    "V2",
+    "U1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "All active, full-time faculty members and administrative and professional staff who work at least 30 hours per week are benefits eligible."
+    ],
+    "eligible_parent": [
+     "Leave time: Includes holidays, sick days, vacation days and personal days"
+    ],
+    "entitlement": [
+     "All active, full-time faculty members and administrative and professional staff who work at least 30 hours per week are benefits eligible.",
+     "Leave time: Includes holidays, sick days, vacation days and personal days"
+    ],
+    "service_requirement": [
+     "All active, full-time faculty members and administrative and professional staff who work at least 30 hours per week are benefits eligible."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_benefits_overview_page"
+   ],
+   "flags": [
+    "ambiguous: rule gap: provision known only from an HR benefits summary page; the governing leave policy is not saved, so whether summary_only applies (source precedence) cannot be tested"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "own_accrual",
+     "quote": "Leave time: Includes holidays, sick days, vacation days and personal days"
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "own_balance",
+     "quote": "Leave time: Includes holidays, sick days, vacation days and personal days"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Leave time: Includes holidays, sick days, vacation days and personal days"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "All active, full-time faculty members and administrative and professional staff who work at least 30 hours per week are benefits eligible."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own illness)",
+     "quote": "Leave time: Includes holidays, sick days, vacation days and personal days"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "All active, full-time faculty members and administrative and professional staff who work at least 30 hours per week are benefits eligible."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "full-time (benefits eligible)",
+     "quote": "All active, full-time faculty members and administrative and professional staff who work at least 30 hours per week are benefits eligible."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_bridgeport_c4",
+   "institution_label": "",
+   "description": "Vacation days, listed under 'Leave time' among full-time faculty benefits; usable for any purpose; the number of days is not stated.",
+   "mechanism": "own_accrual",
+   "mechanism_note": "The employee's own vacation balance (R1); a general-purpose leave a parent may also use (U1).",
+   "payer": "own_balance",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "All active, full-time faculty members and administrative and professional staff who work at least 30 hours per week are benefits eligible.",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "none (no role words)",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "Leave time is listed among the benefits for which full-time faculty 'are benefits eligible' (V2: 'is eligible for').",
+   "service_requirement": "full-time (benefits eligible)",
+   "rule_applied": [
+    "R1",
+    "U1",
+    "V2"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "All active, full-time faculty members and administrative and professional staff who work at least 30 hours per week are benefits eligible."
+    ],
+    "eligible_parent": [
+     "Leave time: Includes holidays, sick days, vacation days and personal days"
+    ],
+    "entitlement": [
+     "All active, full-time faculty members and administrative and professional staff who work at least 30 hours per week are benefits eligible.",
+     "Leave time: Includes holidays, sick days, vacation days and personal days"
+    ],
+    "service_requirement": [
+     "All active, full-time faculty members and administrative and professional staff who work at least 30 hours per week are benefits eligible."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_benefits_overview_page"
+   ],
+   "flags": [
+    "general_purpose",
+    "ambiguous: rule gap: provision known only from an HR benefits summary page; the governing leave policy is not saved, so whether summary_only applies (source precedence) cannot be tested"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "own_accrual",
+     "quote": "Leave time: Includes holidays, sick days, vacation days and personal days"
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "own_balance",
+     "quote": "Leave time: Includes holidays, sick days, vacation days and personal days"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "Leave time: Includes holidays, sick days, vacation days and personal days"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "All active, full-time faculty members and administrative and professional staff who work at least 30 hours per week are benefits eligible."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent (no role words)",
+     "quote": "Leave time: Includes holidays, sick days, vacation days and personal days"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "All active, full-time faculty members and administrative and professional staff who work at least 30 hours per week are benefits eligible."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "full-time (benefits eligible)",
+     "quote": "All active, full-time faculty members and administrative and professional staff who work at least 30 hours per week are benefits eligible."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_bridgeport_c5",
+   "institution_label": "",
+   "description": "Personal days, listed under 'Leave time' among full-time faculty benefits; a leave for personal reasons that parents may also use; the number of days and pay are not stated.",
+   "mechanism": "employer_paid_leave",
+   "mechanism_note": "Personal days granted as leave time, coded by what they are (U1); pay is not stated on the page.",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "All active, full-time faculty members and administrative and professional staff who work at least 30 hours per week are benefits eligible.",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "none (no role words)",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "Leave time is listed among the benefits for which full-time faculty 'are benefits eligible' (V2: 'is eligible for').",
+   "service_requirement": "full-time (benefits eligible)",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "relief_note": "Days off; no relief stated, so every duty relieved (R9).",
+   "rule_applied": [
+    "U1",
+    "V2",
+    "R9"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "All active, full-time faculty members and administrative and professional staff who work at least 30 hours per week are benefits eligible."
+    ],
+    "eligible_parent": [
+     "Leave time: Includes holidays, sick days, vacation days and personal days"
+    ],
+    "entitlement": [
+     "All active, full-time faculty members and administrative and professional staff who work at least 30 hours per week are benefits eligible.",
+     "Leave time: Includes holidays, sick days, vacation days and personal days"
+    ],
+    "service_requirement": [
+     "All active, full-time faculty members and administrative and professional staff who work at least 30 hours per week are benefits eligible."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_benefits_overview_page"
+   ],
+   "flags": [
+    "general_purpose",
+    "ambiguous: rule gap: provision known only from an HR benefits summary page; the governing leave policy is not saved, so whether summary_only applies (source precedence) cannot be tested",
+    "ambiguous: pay level not stated; personal days listed as a benefit, paid by the employer inferred"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "U1",
+     "answer": "employer_paid_leave",
+     "quote": "Leave time: Includes holidays, sick days, vacation days and personal days"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "Leave time: Includes holidays, sick days, vacation days and personal days"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "Leave time: Includes holidays, sick days, vacation days and personal days"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "All active, full-time faculty members and administrative and professional staff who work at least 30 hours per week are benefits eligible."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent (no role words)",
+     "quote": "Leave time: Includes holidays, sick days, vacation days and personal days"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "All active, full-time faculty members and administrative and professional staff who work at least 30 hours per week are benefits eligible."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "full-time (benefits eligible)",
+     "quote": "All active, full-time faculty members and administrative and professional staff who work at least 30 hours per week are benefits eligible."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave, relief not stated)",
+     "quote": "Leave time: Includes holidays, sick days, vacation days and personal days"
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "Sources: one usable file, 2018_01 (HR benefits overview page). Apart from a short HR benefits overview, it is site navigation, contact details and footer.",
+  "Document date: no version date; footer '© 2018'; Wayback capture 2018-03-07, within the 2017-18 reference year, so accepted as in force on 2018-03-13.",
+  "The page is an HR summary listing benefits; it names no parental, maternity, adoption or FMLA provision and gives no lengths or pay levels. The governing documents (benefit plan documents, which the page says are 'available in the Human Resources Department'; any faculty handbook leave policy, not named on the page) are not saved. All five components therefore rest on a summary page only; I did not flag summary_only because no governing document is saved against which to test the absence, and flagged each with an ambiguous rule-gap note instead.",
+  "Not components: holidays (fixed dates, cannot be taken for a birth); medical, dental and life insurance, 403(b), FSA, tuition benefits and the employee assistance program (no time off, pay or protection for a new parent).",
+  "Statutes: none named in the document. FMLA and the Connecticut FMLA are not mentioned; the statutory floor (FMLA, U7) is filled from statutory_baseline.csv.",
+  "Chain, birth parent: no parental or childbirth leave stated; own sick days (c3) and short-term disability insurance (c1, no stated length) are unlinked pay sources; long-term disability (c2) recorded without length; vacation (c4) and personal days (c5) are general-purpose. No sequence links.",
+  "Chain, non-birth parent: no leave or benefit specific to a birth stated; only general-purpose vacation (c4) and personal days (c5). No sequence links.",
+  "Calendar: not stated."
+ ],
+ "statutory_floor": {
+  "jurisdiction": "US",
+  "year": "2018",
+  "weeks_birth": 12.0,
+  "weeks_nonbirth": 12.0,
+  "statute": "Family and Medical Leave Act (FMLA) (29 U.S.C. 2611-2612)",
+  "source_doc": "2026_00_us_fmla_29usc2612",
+  "table": "statutory_baseline.csv"
+ }
+}

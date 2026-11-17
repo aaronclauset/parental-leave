@@ -1,0 +1,3028 @@
+{
+ "institution": "Wright State University",
+ "slug": "wright_state_university",
+ "country": "US",
+ "model": "claude-opus-5-5",
+ "codebook_version": "1.25",
+ "schema_version": "1.25",
+ "reference_date": "2018-02-26",
+ "calendar": {
+  "term_weeks": 15,
+  "note": "CBA 9.1: 'The academic year is divided into two semesters of fifteen weeks (fourteen weeks of instruction and one week of final examinations) plus a summer semester.'"
+ },
+ "documents": [
+  {
+   "doc_id": "2018_00_link",
+   "title": "Parental Leave | Human Resources | Wright State University (HR page, Wayback 2017-11-01)",
+   "url": "https://www.wright.edu/human-resources/benefits/leave-programs/parental-leave",
+   "version_or_effective_date": "undated; copy 2017-11-01",
+   "retrieved": "2026-10-20"
+  },
+  {
+   "doc_id": "2018_01_tet_cba_2014_2017",
+   "title": "Agreement between Wright State University and AAUP-WSU, TET Faculty, August 20, 2014 - June 30, 2017",
+   "url": "https://medicine.wright.edu/sites/medicine.wright.edu/files/page/attachments/2014-2017-TET-CBA_1.pdf",
+   "version_or_effective_date": "2014-08-20 to 2017-06-30 (successor effective 2019-02-01 per the version note)",
+   "retrieved": "2026-10-21"
+  },
+  {
+   "doc_id": "2018_02_policy_2080_parental_accommodations",
+   "title": "Policy 2080 Parental Accommodations",
+   "url": "https://policy.wright.edu/policy/2080-parental-accommodations",
+   "version_or_effective_date": "06/11/2007; copy 2018-01-27",
+   "retrieved": "2026-10-21"
+  },
+  {
+   "doc_id": "2018_03_policy_8430_leaves_of_absence",
+   "title": "Policy 8430 Leaves of Absence",
+   "url": "https://policy.wright.edu/policy/8430-leaves-absence",
+   "version_or_effective_date": "12/01/2002; copy 2017-06-22",
+   "retrieved": "2026-10-21"
+  },
+  {
+   "doc_id": "2018_04_policy_13320_pregnancy_workplace",
+   "title": "Policy 13320 Pregnancy in the Workplace and in Academic and Research Settings",
+   "url": "http://policy.wright.edu/policy/13320-pregnancy-workplace-and-academic-and-research-settings",
+   "version_or_effective_date": "08/01/1998; copy 2017-06-13",
+   "retrieved": "2026-10-21"
+  },
+  {
+   "doc_id": "2018_05_policy_8420_sick_leave",
+   "title": "Policy 8420 Sick Leave",
+   "url": "http://policy.wright.edu/policy/8420-sick-leave",
+   "version_or_effective_date": "07/01/2009; copy 2017-06-13",
+   "retrieved": "2026-10-21"
+  },
+  {
+   "doc_id": "2018_06_mou_sick_days_teaching_2015",
+   "title": "Agreement Concerning Use of Sick Days for Teaching Activities (AAUP-WSU MOU)",
+   "url": "https://aaup-wsu.org/wp-content/uploads/2018/08/2015-02-26.pdf",
+   "version_or_effective_date": "2015-02-26, until successor agreements",
+   "retrieved": "2026-10-21"
+  },
+  {
+   "doc_id": "2018_07_mou_special_fellowship_leave_extensions_2015",
+   "title": "Agreement to Permit Extensions of Special Fellowship Leaves (AAUP-WSU MOU)",
+   "url": "https://aaup-wsu.org/wp-content/uploads/2018/08/2015-08-05-3.pdf",
+   "version_or_effective_date": "2015-08-05",
+   "retrieved": "2026-10-21"
+  }
+ ],
+ "missing": false,
+ "leave_limits": [],
+ "components": [
+  {
+   "component_id": "wright_state_university_c1",
+   "institution_label": "Family and Medical Leave",
+   "description": "Statutory FMLA leave restated in the TET agreement (and Policy 8430): up to 12 workweeks of unpaid, job-protected leave for a birth, adoption or foster placement, own serious health condition, or care of an ill family member; accrued sick and vacation leave is used first, at the start of the leave.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Bargaining Unit Faculty Members: 'all full-time tenured and tenure-track faculty employed by Wright State University' (CBA 2.3); Policy 8430: 'all faculty'",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "birth of a son or daughter of the Member; placement of a son or daughter with the Member for adoption or foster care",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 12,
+    "units": "workweek",
+    "qualifier": "up_to"
+   },
+   "service_requirement": "12 months and 1,250 hours (29 U.S.C. 2611(2)); Policy 8430 states all faculty are eligible",
+   "dual_employee_rule": "each may take (Policy 8430: each employee is eligible for a twelve-week leave period)",
+   "time_window": "within twelve months of the birth, adoption or placement (Policy 8430)",
+   "notice": "30 days advance notice where foreseeable",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "statute_source": "29 U.S.C. 2612(a)(1)(A)-(C); eligibility 29 U.S.C. 2611(2)",
+   "statute_verified": true,
+   "doc_ids": [
+    "2018_01_tet_cba_2014_2017",
+    "2018_03_policy_8430_leaves_of_absence"
+   ],
+   "rule_applied": [
+    "U2",
+    "U4",
+    "S1",
+    "R9",
+    "U5",
+    "R13"
+   ],
+   "evidence": {
+    "mechanism": [
+     "Family and Medical Leave is unpaid unless the Bargaining Unit Faculty Member has accrued sick leave and/or vacation hours which he or she is eligible to use for the purpose of the leave."
+    ],
+    "faculty_group": [
+     "The Bargaining Unit consists of all full-time tenured and tenure-track faculty employed by Wright State University."
+    ],
+    "eligible_parent": [
+     "(1) because of the birth of a son or daughter of the Member and in order to care for such son or daughter; (2) because of the placement of a son or daughter with the Member for adoption or foster care;"
+    ],
+    "entitlement": [
+     "Eligible Bargaining Unit Faculty Members shall be granted a leave of absence of up to twelve (12) work weeks, pursuant to the terms and conditions of the Family and Medical Leave Act of 1993 (FMLA), for one or more of the following reasons:"
+    ],
+    "duration": [
+     "Eligible Bargaining Unit Faculty Members shall be granted a leave of absence of up to twelve (12) work weeks, pursuant to the terms and conditions of the Family and Medical Leave Act of 1993 (FMLA), for one or more of the following reasons:",
+     "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period for one or more of the following:"
+    ],
+    "service_requirement": [
+     "for at least 12 months by the employer with respect to whom leave is requested under section 2612 of this title; and",
+     "for at least 1,250 hours of service with such employer during the previous 12-month period.",
+     "Effective August 5, 1993, all faculty, unclassified staff, classified staff, and junior resident instructors are eligible for family and medical leave."
+    ],
+    "relief": [
+     "Eligible Bargaining Unit Faculty Members shall be granted a leave of absence of up to twelve (12) work weeks, pursuant to the terms and conditions of the Family and Medical Leave Act of 1993 (FMLA), for one or more of the following reasons:"
+    ],
+    "dual_employee_rule": [
+     "When the employee and the employee's spouse are both employed by the university, each employee is eligible for a twelve-week leave period."
+    ],
+    "time_window": [
+     "but must be completed within twelve months of the date of the birth, adoption, or placement."
+    ],
+    "notice": [
+     "Where the need for leave is foreseeable, the Member must provide 30 days advance notice."
+    ]
+   },
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "Family and Medical Leave is unpaid unless the Bargaining Unit Faculty Member has accrued sick leave and/or vacation hours which he or she is eligible to use for the purpose of the leave."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Family and Medical Leave is unpaid unless the Bargaining Unit Faculty Member has accrued sick leave and/or vacation hours which he or she is eligible to use for the purpose of the leave."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "(1) because of the birth of a son or daughter of the Member and in order to care for such son or daughter; (2) because of the placement of a son or daughter with the Member for adoption or foster care;"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "The Bargaining Unit consists of all full-time tenured and tenure-track faculty employed by Wright State University."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent, non_birth_parent, adoptive, foster (birth and placement; own health condition for the birth parent; family care for the other parent)",
+     "quote": "(1) because of the birth of a son or daughter of the Member and in order to care for such son or daughter; (2) because of the placement of a son or daughter with the Member for adoption or foster care;"
+    },
+    {
+     "field": "entitlement",
+     "rule": "U2",
+     "answer": "guaranteed",
+     "quote": "Eligible Bargaining Unit Faculty Members shall be granted a leave of absence of up to twelve (12) work weeks, pursuant to the terms and conditions of the Family and Medical Leave Act of 1993 (FMLA), for one or more of the following reasons:"
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "12 workweeks, up_to ('up to twelve (12) work weeks'); statute: 12 workweeks (U2)",
+     "quote": "Eligible Bargaining Unit Faculty Members shall be granted a leave of absence of up to twelve (12) work weeks, pursuant to the terms and conditions of the Family and Medical Leave Act of 1993 (FMLA), for one or more of the following reasons:"
+    },
+    {
+     "field": "duration",
+     "rule": "U2",
+     "answer": "12 workweeks confirmed against the saved statute",
+     "quote": "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period for one or more of the following:"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U2",
+     "answer": "12 months and 1,250 hours from 29 U.S.C. 2611(2)",
+     "quote": "for at least 12 months by the employer with respect to whom leave is requested under section 2612 of this title; and"
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "formal leave with no relief stated: all duties relieved",
+     "quote": "Eligible Bargaining Unit Faculty Members shall be granted a leave of absence of up to twelve (12) work weeks, pursuant to the terms and conditions of the Family and Medical Leave Act of 1993 (FMLA), for one or more of the following reasons:"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "component_id": "wright_state_university_c2",
+   "institution_label": "Sick Leave",
+   "description": "Accrued paid sick leave (CBA Art. 28; Policy 8420 for fiscal-year faculty): academic-year members earn 45 hours per Fall and Spring semester (plus summer accrual), with no cap; usable for the member's own illness or pregnancy and for an ill family member. It is drawn at the start of FMLA leave.",
+   "mechanism": "own_accrual",
+   "payer": "own_balance",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Bargaining Unit Faculty Members: 'all full-time tenured and tenure-track faculty employed by Wright State University' (CBA 2.3)",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent"
+   ],
+   "eligible_parent_wording": "personal illness, pregnancy; illness or injury of a member of the employee's immediate family",
+   "entitlement": "guaranteed",
+   "sequence": [
+    {
+     "relation": "within",
+     "component_id": "wright_state_university_c1",
+     "note": "CBA 30.2.3: accrued sick and vacation leave is used continuously at the beginning of FMLA leave"
+    }
+   ],
+   "duration_note": "No fixed length: the balance accrues (45 hours per Fall and Spring semester for academic-year members; 10 hours per month for fiscal-year members) without limit. MOU of 2015-02-26: an absence for a whole semester is charged fifteen weeks of sick leave.",
+   "medical_certification": true,
+   "medical_certification_note": "verification from a physician may be required (CBA 28.6)",
+   "doc_ids": [
+    "2018_01_tet_cba_2014_2017",
+    "2018_06_mou_sick_days_teaching_2015",
+    "2018_05_policy_8420_sick_leave"
+   ],
+   "rule_applied": [
+    "R1",
+    "U5",
+    "U6",
+    "S1"
+   ],
+   "evidence": {
+    "mechanism": [
+     "Sick leave accumulates with no limit to the number of hours of sick leave which may be accrued by a Bargaining Unit Faculty Member."
+    ],
+    "faculty_group": [
+     "The Bargaining Unit consists of all full-time tenured and tenure-track faculty employed by Wright State University."
+    ],
+    "eligible_parent": [
+     "Sick leave is the authorized absence of a Bargaining Unit Faculty Member with pay because of personal illness, pregnancy, injury, exposure to contagious disease which could be communicated to other employees or students; because of illness or injury of a member of the employee’s immediate family that requires the attendance of the employee;"
+    ],
+    "entitlement": [
+     "Sick leave is the authorized absence of a Bargaining Unit Faculty Member with pay because of personal illness, pregnancy, injury, exposure to contagious disease which could be communicated to other employees or students; because of illness or injury of a member of the employee’s immediate family that requires the attendance of the employee;",
+     "Sick leave may be used during any period of time in which the Bargaining Unit Faculty Member is under contract to perform services for the University."
+    ],
+    "sequence": [
+     "Such sick leave and/or vacation hours must be used on a continuous basis at the beginning of a Family and Medical Leave."
+    ],
+    "duration_note": [
+     "For example, a BUFM who misses an entire academic semester will be charged fifteen weeks of sick leave less any University paid holidays or closures."
+    ]
+   },
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "own_accrual",
+     "quote": "Sick leave accumulates with no limit to the number of hours of sick leave which may be accrued by a Bargaining Unit Faculty Member."
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "own_balance",
+     "quote": "Sick leave accumulates with no limit to the number of hours of sick leave which may be accrued by a Bargaining Unit Faculty Member."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Sick leave is the authorized absence of a Bargaining Unit Faculty Member with pay because of personal illness, pregnancy, injury, exposure to contagious disease which could be communicated to other employees or students; because of illness or injury of a member of the employee’s immediate family that requires the attendance of the employee;"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "The Bargaining Unit consists of all full-time tenured and tenure-track faculty employed by Wright State University."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own illness, pregnancy) and non_birth_parent (family member's illness)",
+     "quote": "Sick leave is the authorized absence of a Bargaining Unit Faculty Member with pay because of personal illness, pregnancy, injury, exposure to contagious disease which could be communicated to other employees or students; because of illness or injury of a member of the employee’s immediate family that requires the attendance of the employee;"
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "Sick leave is the authorized absence of a Bargaining Unit Faculty Member with pay because of personal illness, pregnancy, injury, exposure to contagious disease which could be communicated to other employees or students; because of illness or injury of a member of the employee’s immediate family that requires the attendance of the employee;"
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "Sick leave may be used during any period of time in which the Bargaining Unit Faculty Member is under contract to perform services for the University."
+    },
+    {
+     "field": "sequence",
+     "rule": "S1",
+     "answer": "within c1 (pay drawn at the start of the statutory leave)",
+     "quote": "Such sick leave and/or vacation hours must be used on a continuous basis at the beginning of a Family and Medical Leave."
+    }
+   ],
+   "flags": []
+  },
+  {
+   "component_id": "wright_state_university_c3",
+   "institution_label": "Disability Leave",
+   "description": "Unpaid disability leave (maternity leave is a disability leave) once accrued sick leave is exhausted: may be granted for up to six months, extendable in six-month increments to one year.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Bargaining Unit Faculty Members: 'all full-time tenured and tenure-track faculty employed by Wright State University' (CBA 2.3); Policy 8430.2 'the employee'",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "A maternity leave is a disability leave",
+   "entitlement": "discretionary",
+   "duration": {
+    "value": 6,
+    "units": "month",
+    "qualifier": "up_to"
+   },
+   "duration_max": {
+    "value": 1,
+    "units": "year"
+   },
+   "duration_note": "up to six months, extendable by increments of up to six months to a total of one year",
+   "must_exhaust_first": [
+    "sick"
+   ],
+   "medical_certification": true,
+   "medical_certification_note": "written statement from the attending physician or the university's physician that the employee is disabled (Policy 8430.2)",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "wright_state_university_c2",
+     "note": "begins once accrued sick leave is exhausted"
+    }
+   ],
+   "doc_ids": [
+    "2018_01_tet_cba_2014_2017",
+    "2018_03_policy_8430_leaves_of_absence"
+   ],
+   "rule_applied": [
+    "V2",
+    "R13b",
+    "U5",
+    "R9",
+    "R15",
+    "R1"
+   ],
+   "evidence": {
+    "mechanism": [
+     "A disability leave is defined as an unpaid leave granted or required by the University for medical reasons after the Bargaining Unit Faculty Member has exhausted all accrued sick leave."
+    ],
+    "faculty_group": [
+     "The Bargaining Unit consists of all full-time tenured and tenure-track faculty employed by Wright State University."
+    ],
+    "eligible_parent": [
+     "A maternity leave is a disability leave and is subject to the same rules that govern all other disability leaves."
+    ],
+    "entitlement": [
+     "A Bargaining Unit Faculty Member whose absence due to illness or injury exceeds his or her accrued sick leave may be granted disability leave for up to six (6) months and may be extended by increments of up to six months to a total of one (1) year."
+    ],
+    "duration": [
+     "A Bargaining Unit Faculty Member whose absence due to illness or injury exceeds his or her accrued sick leave may be granted disability leave for up to six (6) months and may be extended by increments of up to six months to a total of one (1) year."
+    ],
+    "relief": [
+     "A disability leave is defined as an unpaid leave granted or required by the University for medical reasons after the Bargaining Unit Faculty Member has exhausted all accrued sick leave."
+    ],
+    "sequence": [
+     "A disability leave is defined as an unpaid leave granted or required by the University for medical reasons after the Bargaining Unit Faculty Member has exhausted all accrued sick leave."
+    ],
+    "medical_certification": [
+     "Disability leave is granted by the appointing authority contingent upon a written statement from the employee's attending physician or the university's physician that the employee is disabled and prevented from performing his/her usual duties."
+    ]
+   },
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "A disability leave is defined as an unpaid leave granted or required by the University for medical reasons after the Bargaining Unit Faculty Member has exhausted all accrued sick leave."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "A disability leave is defined as an unpaid leave granted or required by the University for medical reasons after the Bargaining Unit Faculty Member has exhausted all accrued sick leave."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "A disability leave is defined as an unpaid leave granted or required by the University for medical reasons after the Bargaining Unit Faculty Member has exhausted all accrued sick leave."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "The Bargaining Unit consists of all full-time tenured and tenure-track faculty employed by Wright State University."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own disability; maternity leave is a disability leave)",
+     "quote": "A maternity leave is a disability leave and is subject to the same rules that govern all other disability leaves."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "A Bargaining Unit Faculty Member whose absence due to illness or injury exceeds his or her accrued sick leave may be granted disability leave for up to six (6) months and may be extended by increments of up to six months to a total of one (1) year."
+    },
+    {
+     "field": "duration",
+     "rule": "R13b",
+     "answer": "6 months up_to, duration_max 1 year with extensions",
+     "quote": "A Bargaining Unit Faculty Member whose absence due to illness or injury exceeds his or her accrued sick leave may be granted disability leave for up to six (6) months and may be extended by increments of up to six months to a total of one (1) year."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "formal leave: all duties relieved",
+     "quote": "A disability leave is defined as an unpaid leave granted or required by the University for medical reasons after the Bargaining Unit Faculty Member has exhausted all accrued sick leave."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "consecutive_after c2 (starts when sick leave is exhausted)",
+     "quote": "A disability leave is defined as an unpaid leave granted or required by the University for medical reasons after the Bargaining Unit Faculty Member has exhausted all accrued sick leave."
+    }
+   ],
+   "flags": [
+    "own_illness_leave"
+   ]
+  },
+  {
+   "component_id": "wright_state_university_c4",
+   "institution_label": "Child Care Leave",
+   "description": "Unpaid child care leave for the remainder of the current academic semester and the following semester, beginning once FMLA leave is exhausted; for the biological mother, once she is certified able to resume her duties after the birth; also for biological fathers and adoptive and foster parents.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Bargaining Unit Faculty Members: 'all full-time tenured and tenure-track faculty employed by Wright State University' (CBA 2.3)",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "Biological Mother; Biological Father: A male Bargaining Unit Faculty Member; Adoptive and Foster Parents",
+   "entitlement": "guaranteed",
+   "entitlement_note": "30.3 opens 'Child care leave may be granted', but each implementing paragraph (30.3.1-30.3.3) states the member 'is entitled' / 'will be entitled'; the specific paragraphs govern (source precedence).",
+   "duration": {
+    "value": 1,
+    "units": "semester",
+    "qualifier": "at_least"
+   },
+   "duration_max": {
+    "value": 2,
+    "units": "semester"
+   },
+   "duration_note": "Remainder of the current academic semester (0 to 1 semester, depending on when the leave starts) plus the following academic semester (summer semester included); coded as a range: 1 semester (the following semester alone) to 2 semesters (R13b).",
+   "duration_variants": {
+    "short": "the following semester alone, when FMLA ends near the end of the current semester",
+    "long": "whole current semester remaining plus the following semester"
+   },
+   "time_window": "remainder of the current academic semester and the following academic semester; begins once available FMLA leave is exhausted; for the biological mother, once certified medically capable of resuming her duties",
+   "medical_certification": true,
+   "medical_certification_note": "biological mother: certification by her physician that she is medically capable of resuming her normal duties after giving birth",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "wright_state_university_c1",
+     "note": "30.3: 'to begin once available FMLA leave is exhausted' (R15: a start tied to the end of another leave)"
+    }
+   ],
+   "doc_ids": [
+    "2018_01_tet_cba_2014_2017"
+   ],
+   "rule_applied": [
+    "source_precedence",
+    "R13b",
+    "R15",
+    "R9",
+    "R5"
+   ],
+   "flags": [
+    "ambiguous: 30.3 says child care leave 'may be granted' while 30.3.1-30.3.3 say the member 'is entitled'; coded guaranteed by the specific paragraphs (source precedence)",
+    "ambiguous: rule gap: length stated as the remainder of the current semester plus the following semester, starting after FMLA; coded 1 semester at_least, max 2 (R13b) rather than by R3b's whole-semester reading"
+   ],
+   "evidence": {
+    "mechanism": [
+     "Biological Father: A male Bargaining Unit Faculty Member, upon birth of his child, is entitled to leave without pay for the remainder of the current academic semester (including summer semester) and the following academic semester (including summer semester) for the purpose of child care."
+    ],
+    "faculty_group": [
+     "The Bargaining Unit consists of all full-time tenured and tenure-track faculty employed by Wright State University."
+    ],
+    "eligible_parent": [
+     "Biological Mother: Once a Bargaining Unit Faculty Member is certified by her physician or attending medical personnel to be medically capable of resuming her normal duties after giving birth, she will be entitled to leave without pay for the remainder of the current academic semester (including summer semester) and the following academic semester (including summer semester) for the purpose of child care.",
+     "Biological Father: A male Bargaining Unit Faculty Member, upon birth of his child, is entitled to leave without pay for the remainder of the current academic semester (including summer semester) and the following academic semester (including summer semester) for the purpose of child care.",
+     "Adoptive and Foster Parents: A Bargaining Unit Faculty Member is entitled, upon the adoption of a child or arrival of a foster child, to leave without pay for the remainder of the current academic semester (including summer semester) and the following academic semester (including summer semester) for the purpose of child care."
+    ],
+    "entitlement": [
+     "Biological Father: A male Bargaining Unit Faculty Member, upon birth of his child, is entitled to leave without pay for the remainder of the current academic semester (including summer semester) and the following academic semester (including summer semester) for the purpose of child care.",
+     "Child care leave may be granted to the following individuals for the periods of time specified, to begin once available FMLA leave is exhausted."
+    ],
+    "duration": [
+     "Biological Mother: Once a Bargaining Unit Faculty Member is certified by her physician or attending medical personnel to be medically capable of resuming her normal duties after giving birth, she will be entitled to leave without pay for the remainder of the current academic semester (including summer semester) and the following academic semester (including summer semester) for the purpose of child care."
+    ],
+    "relief": [
+     "Biological Father: A male Bargaining Unit Faculty Member, upon birth of his child, is entitled to leave without pay for the remainder of the current academic semester (including summer semester) and the following academic semester (including summer semester) for the purpose of child care."
+    ],
+    "sequence": [
+     "Child care leave may be granted to the following individuals for the periods of time specified, to begin once available FMLA leave is exhausted."
+    ],
+    "medical_certification": [
+     "Biological Mother: Once a Bargaining Unit Faculty Member is certified by her physician or attending medical personnel to be medically capable of resuming her normal duties after giving birth, she will be entitled to leave without pay for the remainder of the current academic semester (including summer semester) and the following academic semester (including summer semester) for the purpose of child care."
+    ]
+   },
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "Biological Father: A male Bargaining Unit Faculty Member, upon birth of his child, is entitled to leave without pay for the remainder of the current academic semester (including summer semester) and the following academic semester (including summer semester) for the purpose of child care."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Biological Father: A male Bargaining Unit Faculty Member, upon birth of his child, is entitled to leave without pay for the remainder of the current academic semester (including summer semester) and the following academic semester (including summer semester) for the purpose of child care."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Adoptive and Foster Parents: A Bargaining Unit Faculty Member is entitled, upon the adoption of a child or arrival of a foster child, to leave without pay for the remainder of the current academic semester (including summer semester) and the following academic semester (including summer semester) for the purpose of child care."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "The Bargaining Unit consists of all full-time tenured and tenure-track faculty employed by Wright State University."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "birth_parent, non_birth_parent (male only, 'Biological Father'), adoptive, foster",
+     "quote": "Biological Mother: Once a Bargaining Unit Faculty Member is certified by her physician or attending medical personnel to be medically capable of resuming her normal duties after giving birth, she will be entitled to leave without pay for the remainder of the current academic semester (including summer semester) and the following academic semester (including summer semester) for the purpose of child care."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "non_birth_parent wording",
+     "quote": "Biological Father: A male Bargaining Unit Faculty Member, upon birth of his child, is entitled to leave without pay for the remainder of the current academic semester (including summer semester) and the following academic semester (including summer semester) for the purpose of child care."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "adoptive and foster",
+     "quote": "Adoptive and Foster Parents: A Bargaining Unit Faculty Member is entitled, upon the adoption of a child or arrival of a foster child, to leave without pay for the remainder of the current academic semester (including summer semester) and the following academic semester (including summer semester) for the purpose of child care."
+    },
+    {
+     "field": "entitlement",
+     "rule": "source_precedence",
+     "answer": "guaranteed",
+     "quote": "Biological Father: A male Bargaining Unit Faculty Member, upon birth of his child, is entitled to leave without pay for the remainder of the current academic semester (including summer semester) and the following academic semester (including summer semester) for the purpose of child care."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "Child care leave may be granted to the following individuals for the periods of time specified, to begin once available FMLA leave is exhausted."
+    },
+    {
+     "field": "duration",
+     "rule": "R13b",
+     "answer": "1 semester at_least, duration_max 2 semesters",
+     "quote": "Biological Mother: Once a Bargaining Unit Faculty Member is certified by her physician or attending medical personnel to be medically capable of resuming her normal duties after giving birth, she will be entitled to leave without pay for the remainder of the current academic semester (including summer semester) and the following academic semester (including summer semester) for the purpose of child care."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "formal leave: all duties relieved",
+     "quote": "Biological Father: A male Bargaining Unit Faculty Member, upon birth of his child, is entitled to leave without pay for the remainder of the current academic semester (including summer semester) and the following academic semester (including summer semester) for the purpose of child care."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "consecutive_after c1 (FMLA)",
+     "quote": "Child care leave may be granted to the following individuals for the periods of time specified, to begin once available FMLA leave is exhausted."
+    }
+   ]
+  },
+  {
+   "component_id": "wright_state_university_c5",
+   "institution_label": "Parental Teaching Relief",
+   "mechanism": "modified_duties",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Bargaining Unit Faculty Members: 'all full-time tenured and tenure-track faculty employed by Wright State University' (CBA 2.3); 'eligible Members'",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "his or her newborn or newly adopted child",
+   "caregiver_condition": "primary",
+   "caregiver_condition_wording": "the primary caretaker of his or her newborn or newly adopted child under six for at least 25 hours per week, from Monday through Friday, between the hours of 8 a.m. and 10 p.m.",
+   "entitlement": "guaranteed_on_request",
+   "pay_fraction": "without loss of pay",
+   "time_window": "must be started within one year of the birth or adoption; child under six",
+   "notice": "requests to the Provost as much in advance as is reasonably possible, with a signed statement of eligibility and a caretaking schedule",
+   "doc_ids": [
+    "2018_01_tet_cba_2014_2017"
+   ],
+   "description": "Option (a) of Parental Teaching Relief: one full semester with no teaching responsibilities, without loss of pay, for a member who is the child's primary caretaker; started within a year of the birth or adoption.",
+   "duration": {
+    "value": 1,
+    "units": "semester",
+    "qualifier": "exact"
+   },
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "continues",
+    "research": "continues",
+    "advising_supervision": "continues",
+    "clinical": "continues"
+   },
+   "relief_inferred": "unnamed duties continue (R4b)",
+   "relief_note": "one full semester with no teaching responsibilities; other duties not named",
+   "sequence": [
+    {
+     "relation": "in_lieu_of",
+     "component_id": "wright_state_university_c6",
+     "note": "the member chooses one semester of full teaching relief or two semesters at 50%"
+    }
+   ],
+   "rule_applied": [
+    "V2",
+    "R3c",
+    "R4b",
+    "R4",
+    "R6",
+    "R15b"
+   ],
+   "evidence": {
+    "mechanism": [
+     "So that they will have time to care for a newborn or newly-adopted child under the age of six, eligible Members may choose to take either one full semester with no teaching responsibilities or two semesters with 50% of that Member’s customary teaching load without loss of pay."
+    ],
+    "faculty_group": [
+     "The Bargaining Unit consists of all full-time tenured and tenure-track faculty employed by Wright State University."
+    ],
+    "eligible_parent": [
+     "To be eligible for teaching relief, the Member must, during the teaching relief semester(s), be the primary caretaker of his or her newborn or newly adopted child under six for at least 25 hours per week, from Monday through Friday, between the hours of 8 a.m. and 10 p.m."
+    ],
+    "caregiver_condition": [
+     "To be eligible for teaching relief, the Member must, during the teaching relief semester(s), be the primary caretaker of his or her newborn or newly adopted child under six for at least 25 hours per week, from Monday through Friday, between the hours of 8 a.m. and 10 p.m."
+    ],
+    "entitlement": [
+     "Parental Teaching Relief will be granted if requested by a Member who meets the requirements for eligibility."
+    ],
+    "duration": [
+     "So that they will have time to care for a newborn or newly-adopted child under the age of six, eligible Members may choose to take either one full semester with no teaching responsibilities or two semesters with 50% of that Member’s customary teaching load without loss of pay."
+    ],
+    "pay_fraction": [
+     "So that they will have time to care for a newborn or newly-adopted child under the age of six, eligible Members may choose to take either one full semester with no teaching responsibilities or two semesters with 50% of that Member’s customary teaching load without loss of pay."
+    ],
+    "relief": [
+     "So that they will have time to care for a newborn or newly-adopted child under the age of six, eligible Members may choose to take either one full semester with no teaching responsibilities or two semesters with 50% of that Member’s customary teaching load without loss of pay."
+    ],
+    "sequence": [
+     "So that they will have time to care for a newborn or newly-adopted child under the age of six, eligible Members may choose to take either one full semester with no teaching responsibilities or two semesters with 50% of that Member’s customary teaching load without loss of pay."
+    ],
+    "time_window": [
+     "Teaching relief semesters must be started within one year of the birth or adoption."
+    ]
+   },
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "modified_duties",
+     "quote": "So that they will have time to care for a newborn or newly-adopted child under the age of six, eligible Members may choose to take either one full semester with no teaching responsibilities or two semesters with 50% of that Member’s customary teaching load without loss of pay."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "So that they will have time to care for a newborn or newly-adopted child under the age of six, eligible Members may choose to take either one full semester with no teaching responsibilities or two semesters with 50% of that Member’s customary teaching load without loss of pay."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "So that they will have time to care for a newborn or newly-adopted child under the age of six, eligible Members may choose to take either one full semester with no teaching responsibilities or two semesters with 50% of that Member’s customary teaching load without loss of pay."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "The Bargaining Unit consists of all full-time tenured and tenure-track faculty employed by Wright State University."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R6",
+     "answer": "any_parent (role-neutral 'his or her'; caregiver condition gender-neutral)",
+     "quote": "To be eligible for teaching relief, the Member must, during the teaching relief semester(s), be the primary caretaker of his or her newborn or newly adopted child under six for at least 25 hours per week, from Monday through Friday, between the hours of 8 a.m. and 10 p.m."
+    },
+    {
+     "field": "caregiver_condition",
+     "rule": "R6",
+     "answer": "primary",
+     "quote": "To be eligible for teaching relief, the Member must, during the teaching relief semester(s), be the primary caretaker of his or her newborn or newly adopted child under six for at least 25 hours per week, from Monday through Friday, between the hours of 8 a.m. and 10 p.m."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "Parental Teaching Relief will be granted if requested by a Member who meets the requirements for eligibility."
+    },
+    {
+     "field": "duration",
+     "rule": "R3c",
+     "answer": "1 semester exact (the full-relief option)",
+     "quote": "So that they will have time to care for a newborn or newly-adopted child under the age of six, eligible Members may choose to take either one full semester with no teaching responsibilities or two semesters with 50% of that Member’s customary teaching load without loss of pay."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "without loss of pay",
+     "quote": "So that they will have time to care for a newborn or newly-adopted child under the age of six, eligible Members may choose to take either one full semester with no teaching responsibilities or two semesters with 50% of that Member’s customary teaching load without loss of pay."
+    },
+    {
+     "field": "relief",
+     "rule": "R4b",
+     "answer": "teaching relieved; unnamed duties continue",
+     "quote": "So that they will have time to care for a newborn or newly-adopted child under the age of six, eligible Members may choose to take either one full semester with no teaching responsibilities or two semesters with 50% of that Member’s customary teaching load without loss of pay."
+    },
+    {
+     "field": "sequence",
+     "rule": "R3c",
+     "answer": "in_lieu_of c6",
+     "quote": "So that they will have time to care for a newborn or newly-adopted child under the age of six, eligible Members may choose to take either one full semester with no teaching responsibilities or two semesters with 50% of that Member’s customary teaching load without loss of pay."
+    }
+   ],
+   "flags": []
+  },
+  {
+   "component_id": "wright_state_university_c6",
+   "institution_label": "Parental Teaching Relief",
+   "mechanism": "modified_duties",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Bargaining Unit Faculty Members: 'all full-time tenured and tenure-track faculty employed by Wright State University' (CBA 2.3); 'eligible Members'",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "his or her newborn or newly adopted child",
+   "caregiver_condition": "primary",
+   "caregiver_condition_wording": "the primary caretaker of his or her newborn or newly adopted child under six for at least 25 hours per week, from Monday through Friday, between the hours of 8 a.m. and 10 p.m.",
+   "entitlement": "guaranteed_on_request",
+   "pay_fraction": "without loss of pay",
+   "time_window": "must be started within one year of the birth or adoption; child under six",
+   "notice": "requests to the Provost as much in advance as is reasonably possible, with a signed statement of eligibility and a caretaking schedule",
+   "doc_ids": [
+    "2018_01_tet_cba_2014_2017"
+   ],
+   "description": "Option (b) of Parental Teaching Relief: two semesters with 50% of the customary teaching load, without loss of pay (relief equal to one semester), for the child's primary caretaker.",
+   "duration": {
+    "value": 1,
+    "units": "semester",
+    "qualifier": "exact"
+   },
+   "duration_note": "Relief-equivalent length (R3c): 50% of the teaching load over two semesters; with an uneven load the reduction is the smaller number of classes.",
+   "relief": {
+    "teaching": "partially_relieved",
+    "service_admin": "continues",
+    "research": "continues",
+    "advising_supervision": "continues",
+    "clinical": "continues"
+   },
+   "relief_inferred": "unnamed duties continue (R4b)",
+   "relief_note": "50% of the customary teaching load in each of two semesters (span two semesters; relief equivalent one semester, R3c)",
+   "sequence": [
+    {
+     "relation": "in_lieu_of",
+     "component_id": "wright_state_university_c5",
+     "note": "alternative to one full semester of teaching relief"
+    }
+   ],
+   "rule_applied": [
+    "V2",
+    "R3c",
+    "R4b",
+    "R4",
+    "R6",
+    "R15b"
+   ],
+   "evidence": {
+    "mechanism": [
+     "So that they will have time to care for a newborn or newly-adopted child under the age of six, eligible Members may choose to take either one full semester with no teaching responsibilities or two semesters with 50% of that Member’s customary teaching load without loss of pay."
+    ],
+    "faculty_group": [
+     "The Bargaining Unit consists of all full-time tenured and tenure-track faculty employed by Wright State University."
+    ],
+    "eligible_parent": [
+     "To be eligible for teaching relief, the Member must, during the teaching relief semester(s), be the primary caretaker of his or her newborn or newly adopted child under six for at least 25 hours per week, from Monday through Friday, between the hours of 8 a.m. and 10 p.m."
+    ],
+    "caregiver_condition": [
+     "To be eligible for teaching relief, the Member must, during the teaching relief semester(s), be the primary caretaker of his or her newborn or newly adopted child under six for at least 25 hours per week, from Monday through Friday, between the hours of 8 a.m. and 10 p.m."
+    ],
+    "entitlement": [
+     "Parental Teaching Relief will be granted if requested by a Member who meets the requirements for eligibility."
+    ],
+    "duration": [
+     "So that they will have time to care for a newborn or newly-adopted child under the age of six, eligible Members may choose to take either one full semester with no teaching responsibilities or two semesters with 50% of that Member’s customary teaching load without loss of pay."
+    ],
+    "pay_fraction": [
+     "So that they will have time to care for a newborn or newly-adopted child under the age of six, eligible Members may choose to take either one full semester with no teaching responsibilities or two semesters with 50% of that Member’s customary teaching load without loss of pay."
+    ],
+    "relief": [
+     "So that they will have time to care for a newborn or newly-adopted child under the age of six, eligible Members may choose to take either one full semester with no teaching responsibilities or two semesters with 50% of that Member’s customary teaching load without loss of pay."
+    ],
+    "sequence": [
+     "So that they will have time to care for a newborn or newly-adopted child under the age of six, eligible Members may choose to take either one full semester with no teaching responsibilities or two semesters with 50% of that Member’s customary teaching load without loss of pay."
+    ],
+    "time_window": [
+     "Teaching relief semesters must be started within one year of the birth or adoption."
+    ],
+    "duration_note": [
+     "If the Member’s teaching load is an uneven number of courses per academic year, the total reduction in teaching responsibilities will equal the smaller number of classes."
+    ]
+   },
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "modified_duties",
+     "quote": "So that they will have time to care for a newborn or newly-adopted child under the age of six, eligible Members may choose to take either one full semester with no teaching responsibilities or two semesters with 50% of that Member’s customary teaching load without loss of pay."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "So that they will have time to care for a newborn or newly-adopted child under the age of six, eligible Members may choose to take either one full semester with no teaching responsibilities or two semesters with 50% of that Member’s customary teaching load without loss of pay."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "So that they will have time to care for a newborn or newly-adopted child under the age of six, eligible Members may choose to take either one full semester with no teaching responsibilities or two semesters with 50% of that Member’s customary teaching load without loss of pay."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "The Bargaining Unit consists of all full-time tenured and tenure-track faculty employed by Wright State University."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R6",
+     "answer": "any_parent",
+     "quote": "To be eligible for teaching relief, the Member must, during the teaching relief semester(s), be the primary caretaker of his or her newborn or newly adopted child under six for at least 25 hours per week, from Monday through Friday, between the hours of 8 a.m. and 10 p.m."
+    },
+    {
+     "field": "caregiver_condition",
+     "rule": "R6",
+     "answer": "primary",
+     "quote": "To be eligible for teaching relief, the Member must, during the teaching relief semester(s), be the primary caretaker of his or her newborn or newly adopted child under six for at least 25 hours per week, from Monday through Friday, between the hours of 8 a.m. and 10 p.m."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "Parental Teaching Relief will be granted if requested by a Member who meets the requirements for eligibility."
+    },
+    {
+     "field": "duration",
+     "rule": "R3c",
+     "answer": "coded by the amount of relief: 1 semester; span of two semesters in relief_note",
+     "quote": "So that they will have time to care for a newborn or newly-adopted child under the age of six, eligible Members may choose to take either one full semester with no teaching responsibilities or two semesters with 50% of that Member’s customary teaching load without loss of pay."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "without loss of pay",
+     "quote": "So that they will have time to care for a newborn or newly-adopted child under the age of six, eligible Members may choose to take either one full semester with no teaching responsibilities or two semesters with 50% of that Member’s customary teaching load without loss of pay."
+    },
+    {
+     "field": "relief",
+     "rule": "R4b",
+     "answer": "teaching partially relieved (50%); unnamed duties continue",
+     "quote": "So that they will have time to care for a newborn or newly-adopted child under the age of six, eligible Members may choose to take either one full semester with no teaching responsibilities or two semesters with 50% of that Member’s customary teaching load without loss of pay."
+    },
+    {
+     "field": "sequence",
+     "rule": "R3c",
+     "answer": "in_lieu_of c5",
+     "quote": "So that they will have time to care for a newborn or newly-adopted child under the age of six, eligible Members may choose to take either one full semester with no teaching responsibilities or two semesters with 50% of that Member’s customary teaching load without loss of pay."
+    }
+   ],
+   "flags": []
+  },
+  {
+   "component_id": "wright_state_university_c7",
+   "institution_label": "",
+   "mechanism": "tenure_clock",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Bargaining Unit Faculty Members: 'all full-time tenured and tenure-track faculty employed by Wright State University' (CBA 2.3); untenured members on probation",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "entitlement": "discretionary",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "exact"
+   },
+   "time_window": "child under age six (birth or adoption); may be granted only before the third year of probation, or before the fifth year with confirmed progress, or later where teaching and service meet tenure criteria and 50% of scholarship is complete (13.5.4.4)",
+   "notice": "in writing to the Dean at least five months before the P&T document deadline in the final probationary year",
+   "doc_ids": [
+    "2018_01_tet_cba_2014_2017"
+   ],
+   "description": "One-year extension of the probationary period that may be granted, on request, because of the birth of a child or adoption of a child under six; the Dean decides after consulting the Provost; a second extension only under exceptional circumstances.",
+   "eligible_parent_wording": "the birth of a child or adoption of a child under age six",
+   "duration_note": "one year; a second one-year extension may be granted under exceptional circumstances (13.5.4.6)",
+   "rule_applied": [
+    "V2",
+    "U1",
+    "R13"
+   ],
+   "flags": [
+    "ambiguous: rule gap: 13.5.4 lists birth/adoption among other grounds (care of an ill person, own illness, military service, any granted unpaid leave of a semester, other agreed reasons); the birth/adoption ground is coded here without general_purpose, the any-unpaid-leave ground separately as general_purpose (c8)"
+   ],
+   "evidence": {
+    "mechanism": [
+     "Bargaining Unit Faculty Members may be granted, upon request, a one-year extension of the probationary period because of any of the following:"
+    ],
+    "faculty_group": [
+     "The Bargaining Unit consists of all full-time tenured and tenure-track faculty employed by Wright State University."
+    ],
+    "eligible_parent": [
+     "the birth of a child or adoption of a child under age six;"
+    ],
+    "entitlement": [
+     "In all cases, the Dean will consult with the Provost, determine whether to grant an extension of the probationary period,"
+    ],
+    "duration": [
+     "Bargaining Unit Faculty Members may be granted, upon request, a one-year extension of the probationary period because of any of the following:"
+    ],
+    "time_window": [
+     "An extension of the probationary period may be granted only if one of the following conditions is met:",
+     "The Member has not yet begun the third year of the probationary period."
+    ],
+    "duration_note": [
+     "Under exceptional circumstances, a Member may be granted a second one-year extension for any of the reasons specified in Section 13.5.4."
+    ]
+   },
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "Bargaining Unit Faculty Members may be granted, upon request, a one-year extension of the probationary period because of any of the following:"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Bargaining Unit Faculty Members may be granted, upon request, a one-year extension of the probationary period because of any of the following:"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "the birth of a child or adoption of a child under age six;"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "The Bargaining Unit consists of all full-time tenured and tenure-track faculty employed by Wright State University."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent (birth or adoption, role-neutral)",
+     "quote": "the birth of a child or adoption of a child under age six;"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "In all cases, the Dean will consult with the Provost, determine whether to grant an extension of the probationary period,"
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 year exact",
+     "quote": "Bargaining Unit Faculty Members may be granted, upon request, a one-year extension of the probationary period because of any of the following:"
+    }
+   ]
+  },
+  {
+   "component_id": "wright_state_university_c8",
+   "institution_label": "",
+   "mechanism": "tenure_clock",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Bargaining Unit Faculty Members: 'all full-time tenured and tenure-track faculty employed by Wright State University' (CBA 2.3); untenured members on probation",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "entitlement": "discretionary",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "exact"
+   },
+   "time_window": "child under age six (birth or adoption); may be granted only before the third year of probation, or before the fifth year with confirmed progress, or later where teaching and service meet tenure criteria and 50% of scholarship is complete (13.5.4.4)",
+   "notice": "in writing to the Dean at least five months before the P&T document deadline in the final probationary year",
+   "doc_ids": [
+    "2018_01_tet_cba_2014_2017"
+   ],
+   "description": "The same one-year probationary extension, available for any unpaid leave of at least one semester granted by the University (FMLA included), other than a visiting professorship: a tenure-clock extension for any approved leave.",
+   "eligible_parent_wording": "an unpaid leave of at least one semester duration, including FMLA leave",
+   "rule_applied": [
+    "U1",
+    "V2"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "evidence": {
+    "mechanism": [
+     "Bargaining Unit Faculty Members may be granted, upon request, a one-year extension of the probationary period because of any of the following:"
+    ],
+    "faculty_group": [
+     "The Bargaining Unit consists of all full-time tenured and tenure-track faculty employed by Wright State University."
+    ],
+    "eligible_parent": [
+     "an unpaid leave of at least one semester duration, including FMLA leave, that has been granted by the University, unless the leave is for a visiting professorship at another university;"
+    ],
+    "entitlement": [
+     "In all cases, the Dean will consult with the Provost, determine whether to grant an extension of the probationary period,"
+    ],
+    "duration": [
+     "Bargaining Unit Faculty Members may be granted, upon request, a one-year extension of the probationary period because of any of the following:"
+    ],
+    "time_window": [
+     "An extension of the probationary period may be granted only if one of the following conditions is met:"
+    ]
+   },
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "Bargaining Unit Faculty Members may be granted, upon request, a one-year extension of the probationary period because of any of the following:"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Bargaining Unit Faculty Members may be granted, upon request, a one-year extension of the probationary period because of any of the following:"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "an unpaid leave of at least one semester duration, including FMLA leave, that has been granted by the University, unless the leave is for a visiting professorship at another university;"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "The Bargaining Unit consists of all full-time tenured and tenure-track faculty employed by Wright State University."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "an unpaid leave of at least one semester duration, including FMLA leave, that has been granted by the University, unless the leave is for a visiting professorship at another university;"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "In all cases, the Dean will consult with the Provost, determine whether to grant an extension of the probationary period,"
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 year exact",
+     "quote": "Bargaining Unit Faculty Members may be granted, upon request, a one-year extension of the probationary period because of any of the following:"
+    }
+   ]
+  },
+  {
+   "component_id": "wright_state_university_c9",
+   "institution_label": "Annual Evaluation",
+   "description": "On request, a member with a newly born or adopted child under six may receive the department's average annual evaluation score for the year of the birth or adoption or one of the next two years.",
+   "mechanism": "other",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Bargaining Unit Faculty Members: 'all full-time tenured and tenure-track faculty employed by Wright State University' (CBA 2.3)",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "Members who have a newly born or adopted child under the age of six",
+   "entitlement": "guaranteed_on_request",
+   "time_window": "child under the age of six; the year of the birth or adoption or one of the following two years; request by December 31 of that year",
+   "doc_ids": [
+    "2018_01_tet_cba_2014_2017"
+   ],
+   "rule_applied": [
+    "V2",
+    "R16"
+   ],
+   "evidence": {
+    "mechanism": [
+     "All Members who have a newly born or adopted child under the age of six may, upon request, receive the average evaluation score in their department for annual evaluation in the year in which the child was born or adopted, or in one of the following two years."
+    ],
+    "faculty_group": [
+     "The Bargaining Unit consists of all full-time tenured and tenure-track faculty employed by Wright State University."
+    ],
+    "eligible_parent": [
+     "All Members who have a newly born or adopted child under the age of six may, upon request, receive the average evaluation score in their department for annual evaluation in the year in which the child was born or adopted, or in one of the following two years."
+    ],
+    "entitlement": [
+     "All Members who have a newly born or adopted child under the age of six may, upon request, receive the average evaluation score in their department for annual evaluation in the year in which the child was born or adopted, or in one of the following two years."
+    ]
+   },
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R16",
+     "answer": "other",
+     "quote": "All Members who have a newly born or adopted child under the age of six may, upon request, receive the average evaluation score in their department for annual evaluation in the year in which the child was born or adopted, or in one of the following two years."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "All Members who have a newly born or adopted child under the age of six may, upon request, receive the average evaluation score in their department for annual evaluation in the year in which the child was born or adopted, or in one of the following two years."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "All Members who have a newly born or adopted child under the age of six may, upon request, receive the average evaluation score in their department for annual evaluation in the year in which the child was born or adopted, or in one of the following two years."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "The Bargaining Unit consists of all full-time tenured and tenure-track faculty employed by Wright State University."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "All Members who have a newly born or adopted child under the age of six may, upon request, receive the average evaluation score in their department for annual evaluation in the year in which the child was born or adopted, or in one of the following two years."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "All Members who have a newly born or adopted child under the age of six may, upon request, receive the average evaluation score in their department for annual evaluation in the year in which the child was born or adopted, or in one of the following two years."
+    }
+   ],
+   "flags": []
+  },
+  {
+   "component_id": "wright_state_university_c10",
+   "institution_label": "",
+   "description": "Chairs and deans are encouraged to consider child care responsibilities of members with children under six when setting teaching schedules; requests are considered but not guaranteed (a rearrangement, no reduction).",
+   "mechanism": "other",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Bargaining Unit Faculty Members: 'all full-time tenured and tenure-track faculty employed by Wright State University' (CBA 2.3)",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "Members with children under the age of six",
+   "entitlement": "discretionary",
+   "time_window": "children under the age of six",
+   "doc_ids": [
+    "2018_01_tet_cba_2014_2017"
+   ],
+   "rule_applied": [
+    "R16",
+    "V2c"
+   ],
+   "evidence": {
+    "mechanism": [
+     "When preparing teaching schedules and other assignments, department chairs and deans are encouraged to consider the child care responsibilities of Members with children under the age of six."
+    ],
+    "faculty_group": [
+     "The Bargaining Unit consists of all full-time tenured and tenure-track faculty employed by Wright State University."
+    ],
+    "eligible_parent": [
+     "When preparing teaching schedules and other assignments, department chairs and deans are encouraged to consider the child care responsibilities of Members with children under the age of six."
+    ],
+    "entitlement": [
+     "Members’ schedule requests will be considered but cannot be guaranteed,"
+    ]
+   },
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R16",
+     "answer": "other",
+     "quote": "When preparing teaching schedules and other assignments, department chairs and deans are encouraged to consider the child care responsibilities of Members with children under the age of six."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "When preparing teaching schedules and other assignments, department chairs and deans are encouraged to consider the child care responsibilities of Members with children under the age of six."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "When preparing teaching schedules and other assignments, department chairs and deans are encouraged to consider the child care responsibilities of Members with children under the age of six."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "The Bargaining Unit consists of all full-time tenured and tenure-track faculty employed by Wright State University."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "When preparing teaching schedules and other assignments, department chairs and deans are encouraged to consider the child care responsibilities of Members with children under the age of six."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2c",
+     "answer": "discretionary",
+     "quote": "Members’ schedule requests will be considered but cannot be guaranteed,"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "component_id": "wright_state_university_c11",
+   "institution_label": "",
+   "description": "Members may apply to their dean for support to maintain laboratory operations or other ongoing professional commitments in the year after a birth or adoption of a child under six.",
+   "mechanism": "other",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Bargaining Unit Faculty Members: 'all full-time tenured and tenure-track faculty employed by Wright State University' (CBA 2.3)",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "birth or adoption of a child under six",
+   "entitlement": "discretionary",
+   "time_window": "during the year following the birth or adoption",
+   "doc_ids": [
+    "2018_01_tet_cba_2014_2017"
+   ],
+   "rule_applied": [
+    "V2",
+    "R16"
+   ],
+   "evidence": {
+    "mechanism": [
+     "Members may apply to their dean for support to maintain their laboratory operations or other ongoing professional commitments during the year following the birth or adoption of a child under six."
+    ],
+    "faculty_group": [
+     "The Bargaining Unit consists of all full-time tenured and tenure-track faculty employed by Wright State University."
+    ],
+    "eligible_parent": [
+     "Members may apply to their dean for support to maintain their laboratory operations or other ongoing professional commitments during the year following the birth or adoption of a child under six."
+    ],
+    "entitlement": [
+     "Members may apply to their dean for support to maintain their laboratory operations or other ongoing professional commitments during the year following the birth or adoption of a child under six."
+    ]
+   },
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R16",
+     "answer": "other",
+     "quote": "Members may apply to their dean for support to maintain their laboratory operations or other ongoing professional commitments during the year following the birth or adoption of a child under six."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Members may apply to their dean for support to maintain their laboratory operations or other ongoing professional commitments during the year following the birth or adoption of a child under six."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Members may apply to their dean for support to maintain their laboratory operations or other ongoing professional commitments during the year following the birth or adoption of a child under six."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "The Bargaining Unit consists of all full-time tenured and tenure-track faculty employed by Wright State University."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "Members may apply to their dean for support to maintain their laboratory operations or other ongoing professional commitments during the year following the birth or adoption of a child under six."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "Members may apply to their dean for support to maintain their laboratory operations or other ongoing professional commitments during the year following the birth or adoption of a child under six."
+    }
+   ],
+   "flags": []
+  },
+  {
+   "component_id": "wright_state_university_c12",
+   "institution_label": "Adoption Assistance",
+   "description": "Reimbursement of up to $4,000 per child for eligible adoption expenses on placement of a minor child (one $4,000 maximum when both adopting parents are eligible).",
+   "mechanism": "other",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Bargaining Unit Faculty Members: 'all full-time tenured and tenure-track faculty employed by Wright State University' (CBA 2.3)",
+   "eligible_parent": [
+    "adoptive"
+   ],
+   "eligible_parent_wording": "adopting parents",
+   "entitlement": "guaranteed",
+   "dual_employee_rule": "combined maximum of $4,000 per adoption when both adopting parents are eligible",
+   "doc_ids": [
+    "2018_01_tet_cba_2014_2017"
+   ],
+   "rule_applied": [
+    "R5",
+    "V2"
+   ],
+   "evidence": {
+    "mechanism": [
+     "The university will reimburse Bargaining Unit Faculty Members up to $4,000 per child for eligible adoption related expenses upon placement of a minor child in the Member’s home."
+    ],
+    "faculty_group": [
+     "The Bargaining Unit consists of all full-time tenured and tenure-track faculty employed by Wright State University."
+    ],
+    "eligible_parent": [
+     "The university will reimburse Bargaining Unit Faculty Members up to $4,000 per child for eligible adoption related expenses upon placement of a minor child in the Member’s home."
+    ],
+    "entitlement": [
+     "The university will reimburse Bargaining Unit Faculty Members up to $4,000 per child for eligible adoption related expenses upon placement of a minor child in the Member’s home."
+    ],
+    "dual_employee_rule": [
+     "If two adopting parents of the same adopted child are both eligible for adoption assistance, the total maximum benefit amount for that adoption is $4,000."
+    ]
+   },
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "other",
+     "quote": "The university will reimburse Bargaining Unit Faculty Members up to $4,000 per child for eligible adoption related expenses upon placement of a minor child in the Member’s home."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "The university will reimburse Bargaining Unit Faculty Members up to $4,000 per child for eligible adoption related expenses upon placement of a minor child in the Member’s home."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "The university will reimburse Bargaining Unit Faculty Members up to $4,000 per child for eligible adoption related expenses upon placement of a minor child in the Member’s home."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "The Bargaining Unit consists of all full-time tenured and tenure-track faculty employed by Wright State University."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "adoptive",
+     "quote": "The university will reimburse Bargaining Unit Faculty Members up to $4,000 per child for eligible adoption related expenses upon placement of a minor child in the Member’s home."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "The university will reimburse Bargaining Unit Faculty Members up to $4,000 per child for eligible adoption related expenses upon placement of a minor child in the Member’s home."
+    }
+   ],
+   "flags": []
+  },
+  {
+   "component_id": "wright_state_university_c13",
+   "institution_label": "Partial Unpaid Leave",
+   "description": "Half-time work assignment at 50% of base salary with full benefits, which the University may grant to a tenured member for personal or professional reasons, for up to two years (extendable to six); listed in 31.6.5 among provisions to assist new parents.",
+   "mechanism": "part_time_option",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "tenured Bargaining Unit Faculty Member (CBA 30.8)",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "entitlement": "discretionary",
+   "duration": {
+    "value": 2,
+    "units": "year",
+    "qualifier": "up_to"
+   },
+   "duration_max": {
+    "value": 6,
+    "units": "year"
+   },
+   "duration_note": "maximum two years, extendable in increments of up to two years to six years",
+   "pay_fraction": "50% of the Member's current base salary",
+   "relief": {
+    "teaching": "partially_relieved",
+    "service_admin": "partially_relieved",
+    "research": "partially_relieved",
+    "advising_supervision": "continues",
+    "clinical": "continues"
+   },
+   "relief_inferred": "unnamed duties continue (R4b)",
+   "relief_note": "half of a normal work assignment in teaching, scholarship and service, at half salary (R3: relief with a pay cut is a part-time option, not counted)",
+   "doc_ids": [
+    "2018_01_tet_cba_2014_2017"
+   ],
+   "rule_applied": [
+    "U1",
+    "V2",
+    "R3",
+    "R13b"
+   ],
+   "flags": [
+    "general_purpose",
+    "ambiguous: restriction: tenured members only"
+   ],
+   "evidence": {
+    "mechanism": [
+     "The Member on a Partial Unpaid Leave will earn a salary equal to 50% of the Member’s current base salary."
+    ],
+    "faculty_group": [
+     "The University may grant a Partial Unpaid Leave to a tenured Bargaining Unit Faculty Member for personal or professional reasons."
+    ],
+    "eligible_parent": [
+     "partial unpaid leave (Section 30.8), and"
+    ],
+    "entitlement": [
+     "The University may grant a Partial Unpaid Leave to a tenured Bargaining Unit Faculty Member for personal or professional reasons.",
+     "The University is under no obligation to offer a Partial Unpaid Leave to Member,"
+    ],
+    "duration": [
+     "Partial Unpaid Leaves may be granted for a maximum duration of two (2) years and may be extended by increments of up to two years for a total period not exceeding six (6) years."
+    ],
+    "pay_fraction": [
+     "The Member on a Partial Unpaid Leave will earn a salary equal to 50% of the Member’s current base salary."
+    ],
+    "relief": [
+     "This work assignment includes teaching, scholarship, and service, each of which will be equivalent to 50 percent of a normal assignment for that Member."
+    ]
+   },
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R3",
+     "answer": "part_time_option",
+     "quote": "The Member on a Partial Unpaid Leave will earn a salary equal to 50% of the Member’s current base salary."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "The Member on a Partial Unpaid Leave will earn a salary equal to 50% of the Member’s current base salary."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "The University may grant a Partial Unpaid Leave to a tenured Bargaining Unit Faculty Member for personal or professional reasons."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "The University may grant a Partial Unpaid Leave to a tenured Bargaining Unit Faculty Member for personal or professional reasons."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent (not tied to a role)",
+     "quote": "partial unpaid leave (Section 30.8), and"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "The University may grant a Partial Unpaid Leave to a tenured Bargaining Unit Faculty Member for personal or professional reasons."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "The University is under no obligation to offer a Partial Unpaid Leave to Member,"
+    },
+    {
+     "field": "duration",
+     "rule": "R13b",
+     "answer": "2 years up_to, max 6 years",
+     "quote": "Partial Unpaid Leaves may be granted for a maximum duration of two (2) years and may be extended by increments of up to two years for a total period not exceeding six (6) years."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "50% of base salary",
+     "quote": "The Member on a Partial Unpaid Leave will earn a salary equal to 50% of the Member’s current base salary."
+    },
+    {
+     "field": "relief",
+     "rule": "R3",
+     "answer": "teaching, scholarship and service each at 50%",
+     "quote": "This work assignment includes teaching, scholarship, and service, each of which will be equivalent to 50 percent of a normal assignment for that Member."
+    }
+   ]
+  },
+  {
+   "component_id": "wright_state_university_c14",
+   "institution_label": "Leave Without Pay",
+   "description": "Unpaid leave for personal (or educational) reasons, which may be granted when the University can cover the member's assignments; personal leave up to six months, not renewable.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Bargaining Unit Faculty Members: 'all full-time tenured and tenure-track faculty employed by Wright State University' (CBA 2.3); Policy 8430.3 'faculty'",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "entitlement": "discretionary",
+   "duration": {
+    "value": 6,
+    "units": "month",
+    "qualifier": "up_to"
+   },
+   "duration_note": "personal leave: maximum six months, not renewed or extended; educational leave (up to one year, to two years) not a parental use",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "doc_ids": [
+    "2018_01_tet_cba_2014_2017",
+    "2018_03_policy_8430_leaves_of_absence"
+   ],
+   "rule_applied": [
+    "U1",
+    "V2",
+    "R9",
+    "R13"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "evidence": {
+    "mechanism": [
+     "Leave without pay may be granted for personal or educational reasons when the Bargaining Unit Faculty Member and the University agree that the leave will enhance the Member’s value to the University,"
+    ],
+    "faculty_group": [
+     "The Bargaining Unit consists of all full-time tenured and tenure-track faculty employed by Wright State University."
+    ],
+    "eligible_parent": [
+     "Leave without pay may be granted for personal or educational reasons when the Bargaining Unit Faculty Member and the University agree that the leave will enhance the Member’s value to the University,"
+    ],
+    "entitlement": [
+     "Personal leave without pay may be granted for a maximum duration of six (6) months and may not be renewed or extended."
+    ],
+    "duration": [
+     "Personal leave without pay may be granted for a maximum duration of six (6) months and may not be renewed or extended."
+    ],
+    "relief": [
+     "Leave without pay may be granted for personal or educational reasons when the Bargaining Unit Faculty Member and the University agree that the leave will enhance the Member’s value to the University,"
+    ]
+   },
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "Leave without pay may be granted for personal or educational reasons when the Bargaining Unit Faculty Member and the University agree that the leave will enhance the Member’s value to the University,"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Leave without pay may be granted for personal or educational reasons when the Bargaining Unit Faculty Member and the University agree that the leave will enhance the Member’s value to the University,"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "Leave without pay may be granted for personal or educational reasons when the Bargaining Unit Faculty Member and the University agree that the leave will enhance the Member’s value to the University,"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "The Bargaining Unit consists of all full-time tenured and tenure-track faculty employed by Wright State University."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "Leave without pay may be granted for personal or educational reasons when the Bargaining Unit Faculty Member and the University agree that the leave will enhance the Member’s value to the University,"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "Personal leave without pay may be granted for a maximum duration of six (6) months and may not be renewed or extended."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "6 months up_to ('maximum duration')",
+     "quote": "Personal leave without pay may be granted for a maximum duration of six (6) months and may not be renewed or extended."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "formal leave: all duties relieved",
+     "quote": "Leave without pay may be granted for personal or educational reasons when the Bargaining Unit Faculty Member and the University agree that the leave will enhance the Member’s value to the University,"
+    }
+   ]
+  },
+  {
+   "component_id": "wright_state_university_c15",
+   "institution_label": "Long Term Disability Insurance",
+   "description": "University-provided long-term disability insurance (no member premium): 60% of monthly earnings, up to $10,000 a month, beginning after six months of total disability.",
+   "mechanism": "generic_sick_or_disability_plan",
+   "payer": "insurance_plan",
+   "mechanism_note": "long-term disability plan: recorded without a duration (schema §2)",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Bargaining Unit Faculty Members: 'all full-time tenured and tenure-track faculty employed by Wright State University' (CBA 2.3)",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "entitlement": "guaranteed",
+   "pay_fraction": "60 percent of monthly earnings",
+   "pay_cap": "maximum benefit of $10,000 per month, less STRS, Social Security or Workers' Compensation income benefits",
+   "time_window": "benefit begins after six months of total disability",
+   "doc_ids": [
+    "2018_01_tet_cba_2014_2017"
+   ],
+   "rule_applied": [
+    "V6",
+    "M1",
+    "U5"
+   ],
+   "evidence": {
+    "mechanism": [
+     "For the duration of this Agreement, the University will provide, with no premium contribution by the Bargaining Unit Faculty Member, long term disability insurance."
+    ],
+    "faculty_group": [
+     "The Bargaining Unit consists of all full-time tenured and tenure-track faculty employed by Wright State University."
+    ],
+    "eligible_parent": [
+     "This coverage pays a disability income benefit beginning after six months of total disability."
+    ],
+    "entitlement": [
+     "For the duration of this Agreement, the University will provide, with no premium contribution by the Bargaining Unit Faculty Member, long term disability insurance."
+    ],
+    "pay_fraction": [
+     "The benefit amount is equal to 60 percent of a Bargaining Unit Member’s monthly earnings (with a maximum benefit of $10,000 per month)"
+    ],
+    "time_window": [
+     "This coverage pays a disability income benefit beginning after six months of total disability."
+    ]
+   },
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "V6",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "For the duration of this Agreement, the University will provide, with no premium contribution by the Bargaining Unit Faculty Member, long term disability insurance."
+    },
+    {
+     "field": "payer",
+     "rule": "M1",
+     "answer": "insurance_plan",
+     "quote": "For the duration of this Agreement, the University will provide, with no premium contribution by the Bargaining Unit Faculty Member, long term disability insurance."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "This coverage pays a disability income benefit beginning after six months of total disability."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "The Bargaining Unit consists of all full-time tenured and tenure-track faculty employed by Wright State University."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own disability)",
+     "quote": "This coverage pays a disability income benefit beginning after six months of total disability."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "For the duration of this Agreement, the University will provide, with no premium contribution by the Bargaining Unit Faculty Member, long term disability insurance."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "60 percent of monthly earnings",
+     "quote": "The benefit amount is equal to 60 percent of a Bargaining Unit Member’s monthly earnings (with a maximum benefit of $10,000 per month)"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "component_id": "wright_state_university_c16",
+   "institution_label": "",
+   "description": "Joint good-faith effort to adjust a member's workload (distance education, alternative scheduling) to avoid unpaid status when sick leave is insufficient; no obligation, and not beyond one year.",
+   "mechanism": "other",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Bargaining Unit Faculty Members: 'all full-time tenured and tenure-track faculty employed by Wright State University' (CBA 2.3)",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent"
+   ],
+   "entitlement": "discretionary",
+   "doc_ids": [
+    "2018_01_tet_cba_2014_2017"
+   ],
+   "rule_applied": [
+    "R16",
+    "V2",
+    "U5"
+   ],
+   "evidence": {
+    "mechanism": [
+     "Utilizing distance education, alternative scheduling, or other reasonable means, the University and individual Members will make a joint good faith effort, when possible, to make adjustments to that person’s workload in order to avoid his or her moving to unpaid status due to insufficient sick leave accrual."
+    ],
+    "faculty_group": [
+     "The Bargaining Unit consists of all full-time tenured and tenure-track faculty employed by Wright State University."
+    ],
+    "eligible_parent": [
+     "Sick leave is the authorized absence of a Bargaining Unit Faculty Member with pay because of personal illness, pregnancy, injury, exposure to contagious disease which could be communicated to other employees or students; because of illness or injury of a member of the employee’s immediate family that requires the attendance of the employee;"
+    ],
+    "entitlement": [
+     "The University has no obligation to enter into arrangements that may compromise instructional quality or impede curricular needs and no obligation to continue arrangements for more than one year."
+    ]
+   },
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R16",
+     "answer": "other",
+     "quote": "Utilizing distance education, alternative scheduling, or other reasonable means, the University and individual Members will make a joint good faith effort, when possible, to make adjustments to that person’s workload in order to avoid his or her moving to unpaid status due to insufficient sick leave accrual."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Utilizing distance education, alternative scheduling, or other reasonable means, the University and individual Members will make a joint good faith effort, when possible, to make adjustments to that person’s workload in order to avoid his or her moving to unpaid status due to insufficient sick leave accrual."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Utilizing distance education, alternative scheduling, or other reasonable means, the University and individual Members will make a joint good faith effort, when possible, to make adjustments to that person’s workload in order to avoid his or her moving to unpaid status due to insufficient sick leave accrual."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "The Bargaining Unit consists of all full-time tenured and tenure-track faculty employed by Wright State University."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "as for sick leave (own illness; family illness)",
+     "quote": "Sick leave is the authorized absence of a Bargaining Unit Faculty Member with pay because of personal illness, pregnancy, injury, exposure to contagious disease which could be communicated to other employees or students; because of illness or injury of a member of the employee’s immediate family that requires the attendance of the employee;"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "The University has no obligation to enter into arrangements that may compromise instructional quality or impede curricular needs and no obligation to continue arrangements for more than one year."
+    }
+   ],
+   "flags": []
+  },
+  {
+   "component_id": "wright_state_university_c17",
+   "institution_label": "Parental Leave",
+   "description": "Paid parental leave for eligible university staff with one year of service and 75% FTE or more: up to six weeks for birth mothers, up to three weeks for fathers, adoptive parents and domestic partners, from the birth or placement; runs concurrently with FMLA. Stated only on an HR summary page.",
+   "mechanism": "employer_paid_leave",
+   "payer": "employer",
+   "faculty_group": "university staff",
+   "faculty_group_note": "eligible university staff",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "Birth mothers; Fathers, adoptive parents and domestic partners",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 6,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "duration_by_role": {
+    "birth": {
+     "value": 6,
+     "units": "week",
+     "qualifier": "up_to"
+    },
+    "nonbirth": {
+     "value": 3,
+     "units": "week",
+     "qualifier": "up_to"
+    }
+   },
+   "pay_fraction": "regular pay",
+   "service_requirement": "one year of service; full-time (75% FTE or greater over the most recent 12 months)",
+   "time_window": "begins on the date of birth or of physical custody; not intermittent; only immediately following the birth or adoption; child under six",
+   "notice": "at least 30 days in advance",
+   "runs_concurrently_with": [
+    "FMLA"
+   ],
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "rule_applied": [
+    "source_precedence",
+    "V2",
+    "R9",
+    "S1",
+    "U8"
+   ],
+   "flags": [
+    "summary_only: 2018_00_link"
+   ],
+   "evidence": {
+    "mechanism": [
+     "Wright State University will grant a paid leave of absence to eligible university staff upon the birth or adoption of a child under the age of six."
+    ],
+    "faculty_group": [
+     "Wright State University will grant a paid leave of absence to eligible university staff upon the birth or adoption of a child under the age of six."
+    ],
+    "eligible_parent": [
+     "Birth mothers are eligible for up to six weeks of paid leave. Fathers, adoptive parents and domestic partners are eligible for up to three weeks of paid leave."
+    ],
+    "entitlement": [
+     "Wright State University will grant a paid leave of absence to eligible university staff upon the birth or adoption of a child under the age of six."
+    ],
+    "duration": [
+     "Birth mothers are eligible for up to six weeks of paid leave. Fathers, adoptive parents and domestic partners are eligible for up to three weeks of paid leave."
+    ],
+    "duration_by_role": [
+     "Birth mothers are eligible for up to six weeks of paid leave. Fathers, adoptive parents and domestic partners are eligible for up to three weeks of paid leave."
+    ],
+    "pay_fraction": [
+     "Parental leave is regular pay and therefore is not extended for holidays, snow days, closure days, etc."
+    ],
+    "service_requirement": [
+     "have completed a minimum of one year of service as a Wright State University employee prior to the date the leave is to commence, and",
+     "work full-time based on the most recent 12-month period; full-time criteria for parental leave is 75% FTE or greater."
+    ],
+    "relief": [
+     "Wright State University will grant a paid leave of absence to eligible university staff upon the birth or adoption of a child under the age of six."
+    ],
+    "time_window": [
+     "Parental leave begins on the actual date of birth, or for an adoption on the actual date physical custody is obtained."
+    ],
+    "notice": [
+     "Employees should request Parental Leave at least 30 days in advance, on the Leave Request form forwarding a copy to Human Resources."
+    ],
+    "runs_concurrently_with": [
+     "Parental Leave will run concurrently with any leave under the Family and Medical Leave Act (FMLA),"
+    ]
+   },
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "employer_paid_leave",
+     "quote": "Wright State University will grant a paid leave of absence to eligible university staff upon the birth or adoption of a child under the age of six."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "Parental leave is regular pay and therefore is not extended for holidays, snow days, closure days, etc."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Wright State University will grant a paid leave of absence to eligible university staff upon the birth or adoption of a child under the age of six."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "university staff",
+     "quote": "Wright State University will grant a paid leave of absence to eligible university staff upon the birth or adoption of a child under the age of six."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "birth_parent, non_birth_parent (fathers, domestic partners), adoptive",
+     "quote": "Birth mothers are eligible for up to six weeks of paid leave. Fathers, adoptive parents and domestic partners are eligible for up to three weeks of paid leave."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "Wright State University will grant a paid leave of absence to eligible university staff upon the birth or adoption of a child under the age of six."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "6 weeks up_to (birth mothers)",
+     "quote": "Birth mothers are eligible for up to six weeks of paid leave. Fathers, adoptive parents and domestic partners are eligible for up to three weeks of paid leave."
+    },
+    {
+     "field": "duration_by_role",
+     "rule": "schema",
+     "answer": "birth 6 weeks up_to; nonbirth 3 weeks up_to",
+     "quote": "Birth mothers are eligible for up to six weeks of paid leave. Fathers, adoptive parents and domestic partners are eligible for up to three weeks of paid leave."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "regular pay",
+     "quote": "Parental leave is regular pay and therefore is not extended for holidays, snow days, closure days, etc."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U8",
+     "answer": "one year of service, 75% FTE or more",
+     "quote": "have completed a minimum of one year of service as a Wright State University employee prior to the date the leave is to commence, and"
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "formal paid leave of absence: all duties relieved",
+     "quote": "Wright State University will grant a paid leave of absence to eligible university staff upon the birth or adoption of a child under the age of six."
+    }
+   ]
+  },
+  {
+   "component_id": "wright_state_university_c18",
+   "institution_label": "Parental Teaching Relief",
+   "mechanism": "modified_duties",
+   "payer": "employer",
+   "faculty_group": "fully affiliated faculty not represented by collective bargaining (lecturers, clinical assistant professors, clinical instructors, instructors); SOPP and BSOM excluded",
+   "faculty_group_note": "Policy 2080 applies to faculty 'not represented by collective bargaining'; TET faculty are represented (CBA 2.3)",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "a birth or adoptive parent; his or her newborn or newly adopted child",
+   "caregiver_condition": "primary",
+   "caregiver_condition_wording": "the primary caretaker of his or her newborn or newly adopted child under six for at least 25 hours per week, from Monday through Friday, between the hours of 8 a.m. and 10 p.m.",
+   "entitlement": "guaranteed_on_request",
+   "pay_fraction": "without loss of pay",
+   "time_window": "must be started within one year of the birth or adoption; child under six",
+   "doc_ids": [
+    "2018_02_policy_2080_parental_accommodations"
+   ],
+   "description": "Policy 2080 (2007, quarter calendar) for non-bargaining faculty: one full quarter with no teaching, without loss of pay, for a primary caretaker.",
+   "duration": {
+    "value": 1,
+    "units": "quarter",
+    "qualifier": "exact"
+   },
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "continues",
+    "research": "continues",
+    "advising_supervision": "continues",
+    "clinical": "continues"
+   },
+   "relief_inferred": "unnamed duties continue (R4b)",
+   "sequence": [
+    {
+     "relation": "in_lieu_of",
+     "component_id": "wright_state_university_c19"
+    }
+   ],
+   "rule_applied": [
+    "V2",
+    "R3c",
+    "R4b",
+    "R6"
+   ],
+   "evidence": {
+    "mechanism": [
+     "Eligible faculty may choose to take either one full quarter with no teaching responsibilities or two quarters with 50% of their customary teaching load without loss of pay."
+    ],
+    "faculty_group": [
+     "This policy applies to all fully affiliated faculty members who are new parents and who are not represented by collective bargaining: lecturers, clinical assistant professors, clinical instructors, and instructors."
+    ],
+    "eligible_parent": [
+     "Parental Teaching Relief is intended to provide a birth or adoptive parent with additional time to care for a newborn or newly-adopted child under the age of six."
+    ],
+    "caregiver_condition": [
+     "The faculty member must, during the teaching relief quarter(s), be the primary caretaker of his or her newborn or newly adopted child under six for at least 25 hours per week, from Monday through Friday, between the hours of 8 a.m. and 10 p.m."
+    ],
+    "entitlement": [
+     "Parental Teaching Relief will be granted if requested by a faculty member who meets the requirements for eligibility."
+    ],
+    "duration": [
+     "Eligible faculty may choose to take either one full quarter with no teaching responsibilities or two quarters with 50% of their customary teaching load without loss of pay."
+    ],
+    "pay_fraction": [
+     "Eligible faculty may choose to take either one full quarter with no teaching responsibilities or two quarters with 50% of their customary teaching load without loss of pay."
+    ],
+    "relief": [
+     "Eligible faculty may choose to take either one full quarter with no teaching responsibilities or two quarters with 50% of their customary teaching load without loss of pay."
+    ],
+    "sequence": [
+     "Eligible faculty may choose to take either one full quarter with no teaching responsibilities or two quarters with 50% of their customary teaching load without loss of pay."
+    ],
+    "time_window": [
+     "Teaching relief quarters must be started within one year of the birth or adoption."
+    ]
+   },
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "modified_duties",
+     "quote": "Eligible faculty may choose to take either one full quarter with no teaching responsibilities or two quarters with 50% of their customary teaching load without loss of pay."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "Eligible faculty may choose to take either one full quarter with no teaching responsibilities or two quarters with 50% of their customary teaching load without loss of pay."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Parental Teaching Relief is intended to provide a birth or adoptive parent with additional time to care for a newborn or newly-adopted child under the age of six."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "fully affiliated faculty not represented by collective bargaining (lecturers, clinical assistant professors, clinical instructors, instructors); SOPP and BSOM excluded",
+     "quote": "This policy applies to all fully affiliated faculty members who are new parents and who are not represented by collective bargaining: lecturers, clinical assistant professors, clinical instructors, and instructors."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R6",
+     "answer": "birth_parent, non_birth_parent, adoptive ('a birth or adoptive parent', 'his or her')",
+     "quote": "Parental Teaching Relief is intended to provide a birth or adoptive parent with additional time to care for a newborn or newly-adopted child under the age of six."
+    },
+    {
+     "field": "caregiver_condition",
+     "rule": "R6",
+     "answer": "primary",
+     "quote": "The faculty member must, during the teaching relief quarter(s), be the primary caretaker of his or her newborn or newly adopted child under six for at least 25 hours per week, from Monday through Friday, between the hours of 8 a.m. and 10 p.m."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "Parental Teaching Relief will be granted if requested by a faculty member who meets the requirements for eligibility."
+    },
+    {
+     "field": "duration",
+     "rule": "R3c",
+     "answer": "1 quarter exact",
+     "quote": "Eligible faculty may choose to take either one full quarter with no teaching responsibilities or two quarters with 50% of their customary teaching load without loss of pay."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "without loss of pay",
+     "quote": "Eligible faculty may choose to take either one full quarter with no teaching responsibilities or two quarters with 50% of their customary teaching load without loss of pay."
+    },
+    {
+     "field": "relief",
+     "rule": "R4b",
+     "answer": "teaching relieved; unnamed duties continue",
+     "quote": "Eligible faculty may choose to take either one full quarter with no teaching responsibilities or two quarters with 50% of their customary teaching load without loss of pay."
+    },
+    {
+     "field": "sequence",
+     "rule": "R3c",
+     "answer": "in_lieu_of c19",
+     "quote": "Eligible faculty may choose to take either one full quarter with no teaching responsibilities or two quarters with 50% of their customary teaching load without loss of pay."
+    }
+   ],
+   "flags": []
+  },
+  {
+   "component_id": "wright_state_university_c19",
+   "institution_label": "Parental Teaching Relief",
+   "mechanism": "modified_duties",
+   "payer": "employer",
+   "faculty_group": "fully affiliated faculty not represented by collective bargaining (lecturers, clinical assistant professors, clinical instructors, instructors); SOPP and BSOM excluded",
+   "faculty_group_note": "Policy 2080 applies to faculty 'not represented by collective bargaining'; TET faculty are represented (CBA 2.3)",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "a birth or adoptive parent; his or her newborn or newly adopted child",
+   "caregiver_condition": "primary",
+   "caregiver_condition_wording": "the primary caretaker of his or her newborn or newly adopted child under six for at least 25 hours per week, from Monday through Friday, between the hours of 8 a.m. and 10 p.m.",
+   "entitlement": "guaranteed_on_request",
+   "pay_fraction": "without loss of pay",
+   "time_window": "must be started within one year of the birth or adoption; child under six",
+   "doc_ids": [
+    "2018_02_policy_2080_parental_accommodations"
+   ],
+   "description": "Policy 2080 alternative for non-bargaining faculty: two quarters at 50% of the customary teaching load, without loss of pay (relief equal to one quarter).",
+   "duration": {
+    "value": 1,
+    "units": "quarter",
+    "qualifier": "exact"
+   },
+   "relief": {
+    "teaching": "partially_relieved",
+    "service_admin": "continues",
+    "research": "continues",
+    "advising_supervision": "continues",
+    "clinical": "continues"
+   },
+   "relief_inferred": "unnamed duties continue (R4b)",
+   "relief_note": "50% of the teaching load over two quarters (relief equivalent one quarter, R3c)",
+   "sequence": [
+    {
+     "relation": "in_lieu_of",
+     "component_id": "wright_state_university_c18"
+    }
+   ],
+   "rule_applied": [
+    "V2",
+    "R3c",
+    "R4b",
+    "R6"
+   ],
+   "evidence": {
+    "mechanism": [
+     "Eligible faculty may choose to take either one full quarter with no teaching responsibilities or two quarters with 50% of their customary teaching load without loss of pay."
+    ],
+    "faculty_group": [
+     "This policy applies to all fully affiliated faculty members who are new parents and who are not represented by collective bargaining: lecturers, clinical assistant professors, clinical instructors, and instructors."
+    ],
+    "eligible_parent": [
+     "Parental Teaching Relief is intended to provide a birth or adoptive parent with additional time to care for a newborn or newly-adopted child under the age of six."
+    ],
+    "caregiver_condition": [
+     "The faculty member must, during the teaching relief quarter(s), be the primary caretaker of his or her newborn or newly adopted child under six for at least 25 hours per week, from Monday through Friday, between the hours of 8 a.m. and 10 p.m."
+    ],
+    "entitlement": [
+     "Parental Teaching Relief will be granted if requested by a faculty member who meets the requirements for eligibility."
+    ],
+    "duration": [
+     "Eligible faculty may choose to take either one full quarter with no teaching responsibilities or two quarters with 50% of their customary teaching load without loss of pay."
+    ],
+    "pay_fraction": [
+     "Eligible faculty may choose to take either one full quarter with no teaching responsibilities or two quarters with 50% of their customary teaching load without loss of pay."
+    ],
+    "relief": [
+     "Eligible faculty may choose to take either one full quarter with no teaching responsibilities or two quarters with 50% of their customary teaching load without loss of pay."
+    ],
+    "sequence": [
+     "Eligible faculty may choose to take either one full quarter with no teaching responsibilities or two quarters with 50% of their customary teaching load without loss of pay."
+    ],
+    "time_window": [
+     "Teaching relief quarters must be started within one year of the birth or adoption."
+    ]
+   },
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "modified_duties",
+     "quote": "Eligible faculty may choose to take either one full quarter with no teaching responsibilities or two quarters with 50% of their customary teaching load without loss of pay."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "Eligible faculty may choose to take either one full quarter with no teaching responsibilities or two quarters with 50% of their customary teaching load without loss of pay."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Parental Teaching Relief is intended to provide a birth or adoptive parent with additional time to care for a newborn or newly-adopted child under the age of six."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "fully affiliated faculty not represented by collective bargaining (lecturers, clinical assistant professors, clinical instructors, instructors); SOPP and BSOM excluded",
+     "quote": "This policy applies to all fully affiliated faculty members who are new parents and who are not represented by collective bargaining: lecturers, clinical assistant professors, clinical instructors, and instructors."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R6",
+     "answer": "birth_parent, non_birth_parent, adoptive",
+     "quote": "Parental Teaching Relief is intended to provide a birth or adoptive parent with additional time to care for a newborn or newly-adopted child under the age of six."
+    },
+    {
+     "field": "caregiver_condition",
+     "rule": "R6",
+     "answer": "primary",
+     "quote": "The faculty member must, during the teaching relief quarter(s), be the primary caretaker of his or her newborn or newly adopted child under six for at least 25 hours per week, from Monday through Friday, between the hours of 8 a.m. and 10 p.m."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "Parental Teaching Relief will be granted if requested by a faculty member who meets the requirements for eligibility."
+    },
+    {
+     "field": "duration",
+     "rule": "R3c",
+     "answer": "relief-equivalent 1 quarter; span two quarters in relief_note",
+     "quote": "Eligible faculty may choose to take either one full quarter with no teaching responsibilities or two quarters with 50% of their customary teaching load without loss of pay."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "without loss of pay",
+     "quote": "Eligible faculty may choose to take either one full quarter with no teaching responsibilities or two quarters with 50% of their customary teaching load without loss of pay."
+    },
+    {
+     "field": "relief",
+     "rule": "R4b",
+     "answer": "teaching partially relieved; unnamed duties continue",
+     "quote": "Eligible faculty may choose to take either one full quarter with no teaching responsibilities or two quarters with 50% of their customary teaching load without loss of pay."
+    },
+    {
+     "field": "sequence",
+     "rule": "R3c",
+     "answer": "in_lieu_of c18",
+     "quote": "Eligible faculty may choose to take either one full quarter with no teaching responsibilities or two quarters with 50% of their customary teaching load without loss of pay."
+    }
+   ],
+   "flags": []
+  },
+  {
+   "component_id": "wright_state_university_c20",
+   "institution_label": "Annual Evaluation of New Parents",
+   "description": "Policy 2080 for non-bargaining faculty: on request, the department's average evaluation score for the year of the birth or adoption or one of the next two years.",
+   "mechanism": "other",
+   "payer": "none",
+   "faculty_group": "fully affiliated faculty not represented by collective bargaining (lecturers, clinical assistant professors, clinical instructors, instructors); SOPP and BSOM excluded",
+   "faculty_group_note": "Policy 2080: faculty not represented by collective bargaining",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "entitlement": "guaranteed_on_request",
+   "doc_ids": [
+    "2018_02_policy_2080_parental_accommodations"
+   ],
+   "rule_applied": [
+    "R16",
+    "V2"
+   ],
+   "evidence": {
+    "mechanism": [
+     "All faculty members who have a newly born or adopted child under the age of six may, upon request, receive the average evaluation score in their department for annual evaluation in the year in which the child was born or adopted, or in one of the following two years."
+    ],
+    "faculty_group": [
+     "This policy applies to all fully affiliated faculty members who are new parents and who are not represented by collective bargaining: lecturers, clinical assistant professors, clinical instructors, and instructors."
+    ],
+    "eligible_parent": [
+     "All faculty members who have a newly born or adopted child under the age of six may, upon request, receive the average evaluation score in their department for annual evaluation in the year in which the child was born or adopted, or in one of the following two years."
+    ],
+    "entitlement": [
+     "All faculty members who have a newly born or adopted child under the age of six may, upon request, receive the average evaluation score in their department for annual evaluation in the year in which the child was born or adopted, or in one of the following two years."
+    ]
+   },
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R16",
+     "answer": "other",
+     "quote": "All faculty members who have a newly born or adopted child under the age of six may, upon request, receive the average evaluation score in their department for annual evaluation in the year in which the child was born or adopted, or in one of the following two years."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "All faculty members who have a newly born or adopted child under the age of six may, upon request, receive the average evaluation score in their department for annual evaluation in the year in which the child was born or adopted, or in one of the following two years."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "All faculty members who have a newly born or adopted child under the age of six may, upon request, receive the average evaluation score in their department for annual evaluation in the year in which the child was born or adopted, or in one of the following two years."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "fully affiliated faculty not represented by collective bargaining (lecturers, clinical assistant professors, clinical instructors, instructors); SOPP and BSOM excluded",
+     "quote": "This policy applies to all fully affiliated faculty members who are new parents and who are not represented by collective bargaining: lecturers, clinical assistant professors, clinical instructors, and instructors."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "All faculty members who have a newly born or adopted child under the age of six may, upon request, receive the average evaluation score in their department for annual evaluation in the year in which the child was born or adopted, or in one of the following two years."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "All faculty members who have a newly born or adopted child under the age of six may, upon request, receive the average evaluation score in their department for annual evaluation in the year in which the child was born or adopted, or in one of the following two years."
+    }
+   ],
+   "flags": []
+  },
+  {
+   "component_id": "wright_state_university_c21",
+   "institution_label": "Class Scheduling",
+   "description": "Policy 2080 for non-bargaining faculty: chairs and deans encouraged to consider child care responsibilities in scheduling (rearrangement, not guaranteed).",
+   "mechanism": "other",
+   "payer": "none",
+   "faculty_group": "fully affiliated faculty not represented by collective bargaining (lecturers, clinical assistant professors, clinical instructors, instructors); SOPP and BSOM excluded",
+   "faculty_group_note": "Policy 2080: faculty not represented by collective bargaining",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "entitlement": "discretionary",
+   "doc_ids": [
+    "2018_02_policy_2080_parental_accommodations"
+   ],
+   "rule_applied": [
+    "R16",
+    "V2c"
+   ],
+   "evidence": {
+    "mechanism": [
+     "When preparing teaching schedules and other assignments, department chairs and deans are encouraged to consider the child care responsibilities of faculty members with children under the age of six."
+    ],
+    "faculty_group": [
+     "This policy applies to all fully affiliated faculty members who are new parents and who are not represented by collective bargaining: lecturers, clinical assistant professors, clinical instructors, and instructors."
+    ],
+    "eligible_parent": [
+     "When preparing teaching schedules and other assignments, department chairs and deans are encouraged to consider the child care responsibilities of faculty members with children under the age of six."
+    ],
+    "entitlement": [
+     "When preparing teaching schedules and other assignments, department chairs and deans are encouraged to consider the child care responsibilities of faculty members with children under the age of six.",
+     "The faculty member's schedule requests will be considered but cannot be guaranteed,"
+    ]
+   },
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R16",
+     "answer": "other",
+     "quote": "When preparing teaching schedules and other assignments, department chairs and deans are encouraged to consider the child care responsibilities of faculty members with children under the age of six."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "When preparing teaching schedules and other assignments, department chairs and deans are encouraged to consider the child care responsibilities of faculty members with children under the age of six."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "When preparing teaching schedules and other assignments, department chairs and deans are encouraged to consider the child care responsibilities of faculty members with children under the age of six."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "fully affiliated faculty not represented by collective bargaining (lecturers, clinical assistant professors, clinical instructors, instructors); SOPP and BSOM excluded",
+     "quote": "This policy applies to all fully affiliated faculty members who are new parents and who are not represented by collective bargaining: lecturers, clinical assistant professors, clinical instructors, and instructors."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "When preparing teaching schedules and other assignments, department chairs and deans are encouraged to consider the child care responsibilities of faculty members with children under the age of six."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2c",
+     "answer": "discretionary",
+     "quote": "When preparing teaching schedules and other assignments, department chairs and deans are encouraged to consider the child care responsibilities of faculty members with children under the age of six."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2c",
+     "answer": "discretionary",
+     "quote": "The faculty member's schedule requests will be considered but cannot be guaranteed,"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "component_id": "wright_state_university_c22",
+   "institution_label": "Support for Ongoing Professional Commitments",
+   "description": "Policy 2080 for non-bargaining faculty: may apply to the dean for support to maintain laboratory operations in the year after a birth or adoption.",
+   "mechanism": "other",
+   "payer": "none",
+   "faculty_group": "fully affiliated faculty not represented by collective bargaining (lecturers, clinical assistant professors, clinical instructors, instructors); SOPP and BSOM excluded",
+   "faculty_group_note": "Policy 2080: faculty not represented by collective bargaining",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "entitlement": "discretionary",
+   "doc_ids": [
+    "2018_02_policy_2080_parental_accommodations"
+   ],
+   "rule_applied": [
+    "R16",
+    "V2"
+   ],
+   "evidence": {
+    "mechanism": [
+     "Faculty members may apply to their dean for support to maintain their laboratory operations or other ongoing professional commitments during the year following the birth or adoption of a child under six."
+    ],
+    "faculty_group": [
+     "This policy applies to all fully affiliated faculty members who are new parents and who are not represented by collective bargaining: lecturers, clinical assistant professors, clinical instructors, and instructors."
+    ],
+    "eligible_parent": [
+     "Faculty members may apply to their dean for support to maintain their laboratory operations or other ongoing professional commitments during the year following the birth or adoption of a child under six."
+    ],
+    "entitlement": [
+     "Faculty members may apply to their dean for support to maintain their laboratory operations or other ongoing professional commitments during the year following the birth or adoption of a child under six."
+    ]
+   },
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R16",
+     "answer": "other",
+     "quote": "Faculty members may apply to their dean for support to maintain their laboratory operations or other ongoing professional commitments during the year following the birth or adoption of a child under six."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Faculty members may apply to their dean for support to maintain their laboratory operations or other ongoing professional commitments during the year following the birth or adoption of a child under six."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Faculty members may apply to their dean for support to maintain their laboratory operations or other ongoing professional commitments during the year following the birth or adoption of a child under six."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "fully affiliated faculty not represented by collective bargaining (lecturers, clinical assistant professors, clinical instructors, instructors); SOPP and BSOM excluded",
+     "quote": "This policy applies to all fully affiliated faculty members who are new parents and who are not represented by collective bargaining: lecturers, clinical assistant professors, clinical instructors, and instructors."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "Faculty members may apply to their dean for support to maintain their laboratory operations or other ongoing professional commitments during the year following the birth or adoption of a child under six."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "Faculty members may apply to their dean for support to maintain their laboratory operations or other ongoing professional commitments during the year following the birth or adoption of a child under six."
+    }
+   ],
+   "flags": []
+  },
+  {
+   "component_id": "wright_state_university_c23",
+   "institution_label": "Pregnancy in the Workplace and in Academic and Research Settings",
+   "description": "Hazard-exposure policy: areas with biological, chemical or physical hazards are posted; a pregnant employee who decides not to work in such an area should discuss it with Human Resources. No leave, pay or relief is stated.",
+   "mechanism": "other",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "pregnant employee (university employees)",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "pregnant employee",
+   "entitlement": "discretionary",
+   "doc_ids": [
+    "2018_04_policy_13320_pregnancy_workplace"
+   ],
+   "rule_applied": [
+    "U4",
+    "R16",
+    "V2c"
+   ],
+   "evidence": {
+    "mechanism": [
+     "When a pregnant employee, student employee, or student has decided not to work in an area or attend a class which offers the potential for exposure to biological, chemical, and/or physical agents, that decision should be discussed with the following departments:"
+    ],
+    "faculty_group": [
+     "Department of Human Resources for university employees and student employees."
+    ],
+    "eligible_parent": [
+     "When a pregnant employee, student employee, or student has decided not to work in an area or attend a class which offers the potential for exposure to biological, chemical, and/or physical agents, that decision should be discussed with the following departments:"
+    ],
+    "entitlement": [
+     "When a pregnant employee, student employee, or student has decided not to work in an area or attend a class which offers the potential for exposure to biological, chemical, and/or physical agents, that decision should be discussed with the following departments:"
+    ]
+   },
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "U4",
+     "answer": "other",
+     "quote": "When a pregnant employee, student employee, or student has decided not to work in an area or attend a class which offers the potential for exposure to biological, chemical, and/or physical agents, that decision should be discussed with the following departments:"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "When a pregnant employee, student employee, or student has decided not to work in an area or attend a class which offers the potential for exposure to biological, chemical, and/or physical agents, that decision should be discussed with the following departments:"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "When a pregnant employee, student employee, or student has decided not to work in an area or attend a class which offers the potential for exposure to biological, chemical, and/or physical agents, that decision should be discussed with the following departments:"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Department of Human Resources for university employees and student employees."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "birth_parent",
+     "quote": "When a pregnant employee, student employee, or student has decided not to work in an area or attend a class which offers the potential for exposure to biological, chemical, and/or physical agents, that decision should be discussed with the following departments:"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2c",
+     "answer": "discretionary",
+     "quote": "When a pregnant employee, student employee, or student has decided not to work in an area or attend a class which offers the potential for exposure to biological, chemical, and/or physical agents, that decision should be discussed with the following departments:"
+    }
+   ],
+   "flags": []
+  }
+ ],
+ "scope_accounting": {
+  "C1": {
+   "components": [
+    "wright_state_university_c4",
+    "wright_state_university_c17"
+   ]
+  },
+  "C2": {
+   "components": [
+    "wright_state_university_c5",
+    "wright_state_university_c6",
+    "wright_state_university_c18",
+    "wright_state_university_c19"
+   ]
+  },
+  "C3": {
+   "components": [
+    "wright_state_university_c2",
+    "wright_state_university_c3",
+    "wright_state_university_c15",
+    "wright_state_university_c16"
+   ]
+  },
+  "C4": {
+   "components": [
+    "wright_state_university_c1"
+   ],
+   "not_components": [
+    {
+     "statute": "Pregnancy Discrimination Act (PDA)",
+     "reason": "named only on the staff HR page (c17 runs concurrently with 'leave required by' it); an equal-treatment statute with no leave length of its own; text not saved (U4)"
+    },
+    {
+     "statute": "Ohio Revised Code Chapter 124.32; Sections 3345.28 and 5923.05; Public Law 103-353; Ohio Administrative Code 3352-5-03",
+     "reason": "references of Policy 8430: civil-service leave, military leave (5923.05, USERRA) and the administrative-code basis; no parental provision is drawn from them; texts not saved; military leave cannot be used for a birth (U4)"
+    },
+    {
+     "statute": "Ohio Revised Code Chapter 119; Sections 124.38 and 124.39",
+     "reason": "references of Policy 8420 for public-employee sick leave accrual and payout; the sick leave is coded from the CBA and the policy as an own accrual (c2); texts not saved"
+    },
+    {
+     "statute": "Ohio Revised Code 124.19 (holidays), 4117.01(F), 4117.08, 4117.09, 4117.14 (collective bargaining), 9.87 and 3345.202 (indemnification, liability insurance), 149.43 (public records), 3345.14(B) (intellectual property), 2901.01 (offenses of violence), Chapter 3305 (retirement); Ohio House Bill 1 (adult-child coverage); Internal Revenue Code Section 151(e)(3)",
+     "reason": "named in the TET agreement for matters unrelated to becoming a parent (U4)"
+    },
+    {
+     "statute": "Family and Medical Leave Act of 1993, sections other than 29 U.S.C. 2611(2) and 2612(a)(1)",
+     "reason": "only the leave entitlement and eligibility sections are relied on for c1 (U4)"
+    }
+   ]
+  },
+  "C5": {
+   "components": [
+    "wright_state_university_c1",
+    "wright_state_university_c2"
+   ]
+  },
+  "C6": {
+   "components": [
+    "wright_state_university_c14"
+   ]
+  },
+  "C7": {
+   "components": [
+    "wright_state_university_c7",
+    "wright_state_university_c8"
+   ]
+  },
+  "C8": {
+   "components": [
+    "wright_state_university_c13"
+   ]
+  },
+  "C9": {
+   "components": [
+    "wright_state_university_c9",
+    "wright_state_university_c10",
+    "wright_state_university_c11",
+    "wright_state_university_c12",
+    "wright_state_university_c20",
+    "wright_state_university_c21",
+    "wright_state_university_c22",
+    "wright_state_university_c23"
+   ]
+  },
+  "C10": {
+   "absent": {
+    "documents": [
+     "2018_00_link",
+     "2018_01_tet_cba_2014_2017",
+     "2018_02_policy_2080_parental_accommodations",
+     "2018_03_policy_8430_leaves_of_absence",
+     "2018_04_policy_13320_pregnancy_workplace",
+     "2018_05_policy_8420_sick_leave",
+     "2018_06_mou_sick_days_teaching_2015",
+     "2018_07_mou_special_fellowship_leave_extensions_2015"
+    ],
+    "terms": [
+     "FMLA",
+     "first days",
+     "paid as regular",
+     "with pay",
+     "unpaid unless"
+    ]
+   }
+  }
+ },
+ "mechanism_slots": {
+  "employer_paid_leave": {
+   "components": [
+    "wright_state_university_c17"
+   ]
+  },
+  "employer_childbirth_benefit": {
+   "absent": "no dedicated paid childbirth or maternity benefit for TET faculty; maternity leave is an unpaid disability leave (CBA 30.4); searched all eight documents for 'maternity', 'childbirth', 'paid leave', 'parental leave'"
+  },
+  "generic_sick_or_disability_plan": {
+   "components": [
+    "wright_state_university_c15"
+   ]
+  },
+  "own_accrual": {
+   "components": [
+    "wright_state_university_c2"
+   ]
+  },
+  "donated_leave": {
+   "absent": "no donated or shared leave bank in any document; searched 'donat', 'shared leave', 'leave bank', 'pool'"
+  },
+  "government_benefit": {
+   "absent": "no state or federal paid benefit named (Ohio has no paid family or disability programme in the documents); searched 'state disability', 'paid family', 'insurance', 'benefit'"
+  },
+  "employer_topup": {
+   "absent": "no top-up of a government benefit; searched 'top-up', 'supplement', 'difference'"
+  },
+  "modified_duties": {
+   "components": [
+    "wright_state_university_c5",
+    "wright_state_university_c6",
+    "wright_state_university_c18",
+    "wright_state_university_c19"
+   ]
+  },
+  "unpaid_leave": {
+   "components": [
+    "wright_state_university_c1",
+    "wright_state_university_c3",
+    "wright_state_university_c4",
+    "wright_state_university_c14"
+   ]
+  },
+  "tenure_clock": {
+   "components": [
+    "wright_state_university_c7",
+    "wright_state_university_c8"
+   ]
+  },
+  "part_time_option": {
+   "components": [
+    "wright_state_university_c13"
+   ]
+  },
+  "other": {
+   "components": [
+    "wright_state_university_c9",
+    "wright_state_university_c10",
+    "wright_state_university_c11",
+    "wright_state_university_c12",
+    "wright_state_university_c16",
+    "wright_state_university_c20",
+    "wright_state_university_c21",
+    "wright_state_university_c22",
+    "wright_state_university_c23"
+   ]
+  }
+ },
+ "baseline_accounting": {
+  "Family and Medical Leave Act (FMLA)": {
+   "components": [
+    "wright_state_university_c1"
+   ]
+  },
+  "Federal Employee Paid Leave Act (paid parental leave for federal civilian employees)": {
+   "not_applicable": "covers federal civilian employees; Wright State is a state university and no document mentions it"
+  }
+ },
+ "passage_dispositions": {
+  "2018_00_link#001": {
+   "used_in": [
+    "wright_state_university_c17"
+   ]
+  },
+  "2018_01_tet_cba_2014_2017#001": {
+   "not_relevant": "table of contents"
+  },
+  "2018_01_tet_cba_2014_2017#002": {
+   "not_relevant": "governance, evaluation and promotion-and-tenure procedure; no leave or parental provision"
+  },
+  "2018_01_tet_cba_2014_2017#003": {
+   "not_relevant": "governance, evaluation and promotion-and-tenure procedure; no leave or parental provision"
+  },
+  "2018_01_tet_cba_2014_2017#004": {
+   "not_relevant": "governance, evaluation and promotion-and-tenure procedure; no leave or parental provision"
+  },
+  "2018_01_tet_cba_2014_2017#005": {
+   "not_relevant": "governance, evaluation and promotion-and-tenure procedure; no leave or parental provision"
+  },
+  "2018_01_tet_cba_2014_2017#006": {
+   "not_relevant": "governance, evaluation and promotion-and-tenure procedure; no leave or parental provision"
+  },
+  "2018_01_tet_cba_2014_2017#007": {
+   "not_relevant": "governance, evaluation and promotion-and-tenure procedure; no leave or parental provision"
+  },
+  "2018_01_tet_cba_2014_2017#008": {
+   "used_in": [
+    "wright_state_university_c7",
+    "wright_state_university_c8"
+   ]
+  },
+  "2018_01_tet_cba_2014_2017#009": {
+   "not_relevant": "promotion-and-tenure procedure and termination; no parental provision"
+  },
+  "2018_01_tet_cba_2014_2017#010": {
+   "not_relevant": "promotion-and-tenure procedure and termination; no parental provision"
+  },
+  "2018_01_tet_cba_2014_2017#011": {
+   "not_relevant": "promotion-and-tenure procedure and termination; no parental provision"
+  },
+  "2018_01_tet_cba_2014_2017#012": {
+   "not_relevant": "promotion-and-tenure procedure and termination; no parental provision"
+  },
+  "2018_01_tet_cba_2014_2017#013": {
+   "not_relevant": "promotion-and-tenure procedure and termination; no parental provision"
+  },
+  "2018_01_tet_cba_2014_2017#014": {
+   "not_relevant": "retrenchment order and seniority"
+  },
+  "2018_01_tet_cba_2014_2017#015": {
+   "not_relevant": "recall after retrenchment; institutional environment"
+  },
+  "2018_01_tet_cba_2014_2017#016": {
+   "not_relevant": "health insurance plans and premiums"
+  },
+  "2018_01_tet_cba_2014_2017#017": {
+   "not_relevant": "health insurance premiums and dependents"
+  },
+  "2018_01_tet_cba_2014_2017#018": {
+   "used_in": [
+    "wright_state_university_c15"
+   ]
+  },
+  "2018_01_tet_cba_2014_2017#019": {
+   "used_in": [
+    "wright_state_university_c2"
+   ]
+  },
+  "2018_01_tet_cba_2014_2017#020": {
+   "used_in": [
+    "wright_state_university_c2",
+    "wright_state_university_c16"
+   ]
+  },
+  "2018_01_tet_cba_2014_2017#021": {
+   "not_relevant": "professional development leave (sabbatical); not usable for a birth"
+  },
+  "2018_01_tet_cba_2014_2017#022": {
+   "used_in": [
+    "wright_state_university_c1",
+    "wright_state_university_c2",
+    "wright_state_university_c3",
+    "wright_state_university_c4"
+   ]
+  },
+  "2018_01_tet_cba_2014_2017#023": {
+   "used_in": [
+    "wright_state_university_c13",
+    "wright_state_university_c14"
+   ]
+  },
+  "2018_01_tet_cba_2014_2017#024": {
+   "not_relevant": "tuition and fee remission"
+  },
+  "2018_01_tet_cba_2014_2017#025": {
+   "used_in": [
+    "wright_state_university_c5",
+    "wright_state_university_c6",
+    "wright_state_university_c9"
+   ]
+  },
+  "2018_01_tet_cba_2014_2017#026": {
+   "used_in": [
+    "wright_state_university_c10",
+    "wright_state_university_c11",
+    "wright_state_university_c12",
+    "wright_state_university_c13",
+    "wright_state_university_c4",
+    "wright_state_university_c7"
+   ]
+  },
+  "2018_01_tet_cba_2014_2017#027": {
+   "not_relevant": "Appendix A candidate review statement form"
+  },
+  "2018_01_tet_cba_2014_2017#028": {
+   "not_relevant": "Appendix E medical, dental and vision plan benefit summaries (coverage, not leave)"
+  },
+  "2018_01_tet_cba_2014_2017#029": {
+   "not_relevant": "Appendix E medical, dental and vision plan benefit summaries (coverage, not leave)"
+  },
+  "2018_01_tet_cba_2014_2017#030": {
+   "not_relevant": "Appendix E medical, dental and vision plan benefit summaries (coverage, not leave)"
+  },
+  "2018_01_tet_cba_2014_2017#031": {
+   "not_relevant": "Appendix E medical, dental and vision plan benefit summaries (coverage, not leave)"
+  },
+  "2018_01_tet_cba_2014_2017#032": {
+   "not_relevant": "Appendix E medical, dental and vision plan benefit summaries (coverage, not leave)"
+  },
+  "2018_01_tet_cba_2014_2017#033": {
+   "not_relevant": "Appendix E medical, dental and vision plan benefit summaries (coverage, not leave)"
+  },
+  "2018_02_policy_2080_parental_accommodations#001": {
+   "not_relevant": "navigation menu of the policy site; no policy text"
+  },
+  "2018_02_policy_2080_parental_accommodations#002": {
+   "not_relevant": "navigation menu of the policy site; no policy text"
+  },
+  "2018_02_policy_2080_parental_accommodations#003": {
+   "used_in": [
+    "wright_state_university_c18",
+    "wright_state_university_c19",
+    "wright_state_university_c20"
+   ]
+  },
+  "2018_02_policy_2080_parental_accommodations#004": {
+   "used_in": [
+    "wright_state_university_c21",
+    "wright_state_university_c22"
+   ]
+  },
+  "2018_03_policy_8430_leaves_of_absence#001": {
+   "not_relevant": "page title and navigation menu"
+  },
+  "2018_03_policy_8430_leaves_of_absence#002": {
+   "not_relevant": "navigation menu of the policy site; no policy text"
+  },
+  "2018_03_policy_8430_leaves_of_absence#003": {
+   "not_relevant": "navigation menu of the policy site; no policy text"
+  },
+  "2018_03_policy_8430_leaves_of_absence#004": {
+   "used_in": [
+    "wright_state_university_c1",
+    "wright_state_university_c3",
+    "wright_state_university_c14"
+   ]
+  },
+  "2018_03_policy_8430_leaves_of_absence#005": {
+   "not_relevant": "court and military leave"
+  },
+  "2018_03_policy_8430_leaves_of_absence#006": {
+   "not_relevant": "military reemployment and return from leave"
+  },
+  "2018_04_policy_13320_pregnancy_workplace#001": {
+   "not_relevant": "navigation menu of the policy site; no policy text"
+  },
+  "2018_04_policy_13320_pregnancy_workplace#002": {
+   "not_relevant": "navigation menu of the policy site; no policy text"
+  },
+  "2018_04_policy_13320_pregnancy_workplace#003": {
+   "not_relevant": "navigation menu (policy text of 13320 lies after this span; coded as c23)"
+  },
+  "2018_05_policy_8420_sick_leave#001": {
+   "not_relevant": "page title and navigation menu"
+  },
+  "2018_05_policy_8420_sick_leave#002": {
+   "not_relevant": "navigation menu of the policy site; no policy text"
+  },
+  "2018_05_policy_8420_sick_leave#003": {
+   "not_relevant": "navigation menu of the policy site; no policy text"
+  },
+  "2018_05_policy_8420_sick_leave#004": {
+   "used_in": [
+    "wright_state_university_c2"
+   ]
+  },
+  "2018_06_mou_sick_days_teaching_2015#001": {
+   "used_in": [
+    "wright_state_university_c2"
+   ]
+  }
+ },
+ "notes": [
+  "Governing documents: the AAUP-WSU TET collective bargaining agreement (2014-2017) covers 'all full-time tenured and tenure-track faculty' (2.3) and takes precedence over inconsistent policies (1.3). Its stated term ended 2017-06-30; the version note records that the successor took effect 2019-02-01, so it is read as in force on 2018-02-26. University Policy 8430 (Leaves of Absence) also covers 'all faculty'. So a governing document for TET faculty leave is saved: missing is false (the rule for records with no governing document does not apply).",
+  "Main-campus tenure-stream member's provisions: FMLA 12 workweeks (c1), drawn first from accrued sick and vacation leave (c2, own balance, 0 paid weeks under R1); unpaid child care leave for the rest of the semester plus the following semester after FMLA (c4, guaranteed); unpaid disability leave for the birth parent once sick leave is exhausted (c3, discretionary, up to 6 months, to 1 year); paid Parental Teaching Relief for a primary caretaker, one semester of no teaching or two semesters at 50% (c5/c6, in_lieu_of, guaranteed on request); one-year tenure-clock extension (c7, discretionary). No employer-paid parental or childbirth leave exists for TET faculty.",
+  "Other groups: the paid Parental Leave on the HR page (c17: birth mothers 6 weeks, others 3 weeks) covers 'eligible university staff' and is found only on that summary page (summary_only). Policy 2080 (c18-c22) covers non-bargaining faculty (lecturers, clinical faculty, instructors), not TET faculty; it is written for the old quarter calendar.",
+  "Birth parent chain: FMLA 12 workweeks from the birth (sick leave pay within it) -> child care leave for the remainder of the current semester and the following semester (1 to 2 semesters, consecutive_after FMLA). Disability leave (after sick leave is exhausted) is placed after the sick-leave component and is not linked to the child care leave. Teaching relief (one semester, or 50% over two) is an alternative pair, unlinked to the leaves (it must start within a year of the birth).",
+  "Non-birth parent chain: FMLA 12 workweeks from the birth -> child care leave (1 to 2 semesters, consecutive_after FMLA); the 30.3.2 text names only a 'male' member ('Biological Father'). Teaching relief as for the birth parent, for a primary caretaker.",
+  "Calendar: CBA 9.1 states fifteen-week semesters (also 7.7.1 and the 2015 sick-days MOU); term_weeks 15.",
+  "Documents cited but not saved: the Faculty Handbook faculty workload policy (CBA 19.1); the HR site pages for Short Term Disability, Long Term Disability, Family and Medical Leave, Adoption Assistance Plan and Sick Leave (HR page navigation; the Short Term Disability page may describe a plan, for which group unknown); the governing staff parental leave policy behind the HR page; the University Equal Educational and Employment Opportunity Policies (CBA 4.3); department bylaws; the 'summary of the Family and Medical Leave Act' and FMLA forms (Policy 8430); the 2014-2017 NTE agreement; the August 5, 2015 MOU is saved (2018_07, not parental).",
+  "Not components: professional development leave and special fellowship leave (CBA Art. 29; 2018_07 MOU; Policy 8430.4), court leave, military leave, bereavement use of sick leave, and the vacation article (fiscal-year faculty only): none can be used for a birth or adoption, or (vacation) it applies only to fiscal-year appointees and is noted with sick leave use under FMLA (30.2.3). CBA 11.2.9 (evaluation not penalised for sick leave) and 31.6.5 (a list pointing to provisions already coded) add no provision.",
+  "The documents do not state whether TET faculty can receive the staff paid Parental Leave, or any short-term disability plan for faculty; no employer pay during the child care or disability leave is stated."
+ ],
+ "statutory_floor": {
+  "jurisdiction": "US",
+  "year": "2018",
+  "weeks_birth": 12.0,
+  "weeks_nonbirth": 12.0,
+  "statute": "Family and Medical Leave Act (FMLA) (29 U.S.C. 2611-2612)",
+  "source_doc": "2026_00_us_fmla_29usc2612",
+  "table": "statutory_baseline.csv"
+ }
+}

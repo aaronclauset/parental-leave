@@ -1,0 +1,1560 @@
+{
+ "institution": "Toyota Technological Institute at Chicago",
+ "slug": "toyota_technological_institute_at_chicago",
+ "country": "US",
+ "model": "claude-opus-5-5",
+ "codebook_version": "1.25",
+ "schema_version": "1.25",
+ "reference_date": "2018-02-28",
+ "calendar": {
+  "term_weeks": 11,
+  "note": "'TTIC operates on a quarter system'; 'Final examinations are scheduled during the eleventh week of the quarter' (R8: kind of term stated, quarter default 11; consistent with the eleventh-week exams)"
+ },
+ "documents": [
+  {
+   "doc_id": "2018_00_link",
+   "url": "http://www.ttic.edu/dl/faculty_handbook.pdf",
+   "title": "Toyota Technological Institute at Chicago Faculty Handbook",
+   "version_or_effective_date": "Revised September 2014 (Wayback copy of 2016-08-27)",
+   "retrieved": "2026-10-20"
+  }
+ ],
+ "missing": false,
+ "leave_limits": [
+  {
+   "weeks": 12,
+   "components": [
+    "toyota_technological_institute_at_chicago_c1",
+    "toyota_technological_institute_at_chicago_c2",
+    "toyota_technological_institute_at_chicago_c3",
+    "toyota_technological_institute_at_chicago_c4"
+   ],
+   "roles": [
+    "birth",
+    "nonbirth"
+   ],
+   "note": "General Leave Policies: the policies apply to all leaves taken (parental, maternity, child care, health condition (self), health condition (family member), military); entitlement to leave is limited to twelve weeks per twelve-month period calculated from the beginning of the last leave (rolling twelve months).",
+   "evidence": [
+    "The following polices apply to all leaves taken (parental, maternity, child care, health condition (self), health condition (family member), military.",
+    "Entitlement to leave is limited to twelve weeks per twelve month period calculated from the beginning of the last leave."
+   ],
+   "decision_log": [
+    {
+     "field": "leave_limits",
+     "rule": "R20",
+     "answer": "12 weeks (stated in weeks; per rolling twelve months, recorded at its value for one event); covers the parental leave c1, child care leave c2, caregiver's leave c3 and maternity/own-health leave c4, both roles",
+     "quote": "Entitlement to leave is limited to twelve weeks per twelve month period calculated from the beginning of the last leave."
+    }
+   ]
+  }
+ ],
+ "components": [
+  {
+   "component_id": "toyota_technological_institute_at_chicago_c1",
+   "institution_label": "Parental Leave Policy",
+   "description": "A one-quarter leave without loss of salary or benefits, within one year of the child's arrival, for a faculty member who gives birth, or for her spouse or registered domestic partner or an adoptive parent who is the child's primary care giver; eligible after twelve months of employment.",
+   "mechanism": "employer_paid_leave",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Full-time faculty members on regular three-quarter appointment (regular faculty are the tenured and tenure-track faculty)",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "A faculty member who gives birth, or her spouse or Institute-registered domestic partner; an adoptive parent",
+   "caregiver_condition": "primary",
+   "caregiver_condition_wording": "if he/she is the child’s primary care giver ... The primary care giver is the parent responsible for the majority of the child care. (The condition attaches to the spouse or partner and to the adoptive parent; the faculty member who gives birth is not conditioned.)",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "'may take' gives the leave to the eligible faculty member; the required discussion with the Chief Academic Officer three months ahead concerns the leave plans (arrangements), not whether there is a leave (V2). The handbook's general disclaimer ('not a contract') is not specific to this leave and was not read as disclaiming the entitlement.",
+   "service_requirement": "twelve months of employment",
+   "duration": {
+    "value": 1,
+    "units": "quarter",
+    "qualifier": "exact"
+   },
+   "pay_fraction": "without loss of salary or benefits",
+   "pay_fraction_pct": 100,
+   "time_window": "within one year of the arrival of the child",
+   "dual_employee_rule": "Where both parents are members of the faculty, only one may seek parental leave at a time; the leave may be split between the two, but may not exceed one quarter total for the two",
+   "notice": "discuss leave plans with the Chief Academic Officer a minimum of three months before the proposed leave",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "relief_note": "A formal leave; no relief stated, so every duty is coded relieved (R9). TTIC has no clinical duties.",
+   "rule_applied": [
+    "V2",
+    "R9",
+    "R6",
+    "U1",
+    "R8",
+    "R20"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Full-time faculty members on regular three-quarter appointment are eligible after twelve months of employment.",
+     "TTIC faculty ranks consist of regular faculty (tenured and tenure-track) as well as limited-term research faculty."
+    ],
+    "eligible_parent": [
+     "A faculty member who gives birth, or her spouse or Institute-registered domestic partner, if he/she is the child’s primary care giver, may take a one-quarter leave without loss of salary or benefits within one year of the arrival of the child.",
+     "Similarly, an adoptive parent who is the primary care giver may take a one-quarter leave without loss of salary or benefits within one year of the arrival of the child."
+    ],
+    "caregiver_condition": [
+     "The primary care giver is the parent responsible for the majority of the child care."
+    ],
+    "entitlement": [
+     "may take a one-quarter leave without loss of salary or benefits within one year of the arrival of the child",
+     "The faculty member(s) should discuss his or her leave plans with the Chief Academic Officer a minimum of three months before the proposed leave."
+    ],
+    "duration": [
+     "may take a one-quarter leave without loss of salary or benefits"
+    ],
+    "pay_fraction": [
+     "may take a one-quarter leave without loss of salary or benefits"
+    ],
+    "service_requirement": [
+     "Full-time faculty members on regular three-quarter appointment are eligible after twelve months of employment."
+    ],
+    "dual_employee_rule": [
+     "Where both parents are members of the faculty, only one may seek parental leave at a time. The parental leave may be split between the two, but may not exceed one quarter total for the two."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "version_uncertain",
+    "cross_reference_not_saved: the formal and full rule policy statements (Important Note: 'In all cases, the formal and full rule policy statements control a given situation. These statements are available from Administration.')"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "employer_paid_leave",
+     "quote": "may take a one-quarter leave without loss of salary or benefits"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "may take a one-quarter leave without loss of salary or benefits"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "A faculty member who gives birth, or her spouse or Institute-registered domestic partner, if he/she is the child’s primary care giver, may take a one-quarter leave"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Full-time faculty members on regular three-quarter appointment are eligible after twelve months of employment."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R6",
+     "answer": "birth_parent, non_birth_parent, adoptive (caregiver condition gender-neutral)",
+     "quote": "A faculty member who gives birth, or her spouse or Institute-registered domestic partner, if he/she is the child’s primary care giver"
+    },
+    {
+     "field": "caregiver_condition",
+     "rule": "schema",
+     "answer": "primary",
+     "quote": "The primary care giver is the parent responsible for the majority of the child care."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "may take a one-quarter leave without loss of salary or benefits within one year of the arrival of the child"
+    },
+    {
+     "field": "duration",
+     "rule": "R8",
+     "answer": "1 quarter, exact; converted at the stated quarter calendar (calendar.term_weeks 11)",
+     "quote": "may take a one-quarter leave without loss of salary or benefits"
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "without loss of salary or benefits (100)",
+     "quote": "may take a one-quarter leave without loss of salary or benefits"
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave, relief not stated)",
+     "quote": "may take a one-quarter leave without loss of salary or benefits"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "twelve months of employment",
+     "quote": "are eligible after twelve months of employment"
+    }
+   ]
+  },
+  {
+   "component_id": "toyota_technological_institute_at_chicago_c2",
+   "institution_label": "Child Care Leave (For Parents Not Taking Parental Leave)",
+   "description": "For a faculty member not taking parental leave: an unpaid leave of up to twelve weeks to care for a child after birth, adoption or foster placement, or (for the spouse or registered same-sex partner of a woman giving birth) an unpaid leave of absence of up to twelve weeks, within twelve months of the event; eligible after twelve months of employment.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "For all full-time faculty eligible after twelve months of employment",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "A faculty member not taking parental leave, who is giving birth, adopting a child or receiving a foster child placement; a faculty member not taking parental leave, whose wife or Institute-registered, same-sex domestic partner is giving birth",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "The birth/adoptive/foster parent 'may request' and the partner 'may arrange' the leave; the General Leave Policies that apply to child care leave speak of an 'Entitlement to leave' (twelve weeks) and an entitlement to return. Read together (source precedence: a provision with its implementing paragraphs), the approval concerns the arrangements; coded guaranteed_on_request and flagged ambiguous, since 'may request' alone would be discretionary (V2).",
+   "service_requirement": "twelve months of employment",
+   "duration": {
+    "value": 12,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "time_window": "within twelve months of the birth, adoption, or placement",
+   "notice": "discuss the plan with the Chief Academic Officer at least three months in advance, if possible",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "relief_note": "A formal unpaid leave; no relief stated (R9).",
+   "sequence": [
+    {
+     "relation": "in_lieu_of",
+     "component_id": "toyota_technological_institute_at_chicago_c1",
+     "note": "available only to a faculty member not taking parental leave"
+    }
+   ],
+   "rule_applied": [
+    "V2",
+    "R9",
+    "R15b",
+    "U1",
+    "source_precedence",
+    "R20"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "For all full-time faculty eligible after twelve months of employment"
+    ],
+    "eligible_parent": [
+     "A faculty member not taking parental leave, who is giving birth, adopting a child or receiving a foster child placement may request a leave without salary of up to twelve weeks for the purpose of caring for the child.",
+     "Similarly, a faculty member not taking parental leave, whose wife or Institute-registered, same- sex domestic partner is giving birth may arrange for an unpaid leave of absence for up to twelve"
+    ],
+    "entitlement": [
+     "may request a leave without salary of up to twelve weeks for the purpose of caring for the child",
+     "may arrange for an unpaid leave of absence for up to twelve",
+     "Entitlement to leave is limited to twelve weeks per twelve month period calculated from the beginning of the last leave.",
+     "Employees returning from leave are entitled to return to the same or equivalent job with the same pay and benefits held prior to the leave."
+    ],
+    "duration": [
+     "may request a leave without salary of up to twelve weeks"
+    ],
+    "service_requirement": [
+     "For all full-time faculty eligible after twelve months of employment"
+    ],
+    "sequence": [
+     "A faculty member not taking parental leave, who is giving birth, adopting a child or receiving a foster child placement may request a leave without salary"
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "version_uncertain",
+    "cross_reference_not_saved: the formal and full rule policy statements (Important Note: 'In all cases, the formal and full rule policy statements control a given situation. These statements are available from Administration.')",
+    "ambiguous: entitlement: 'may request' / 'may arrange' in the provision, 'Entitlement to leave' in the General Leave Policies that apply to it; coded guaranteed_on_request"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "may request a leave without salary of up to twelve weeks"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "may request a leave without salary of up to twelve weeks"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "for the purpose of caring for the child"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "For all full-time faculty eligible after twelve months of employment"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "birth_parent, non_birth_parent, adoptive, foster",
+     "quote": "who is giving birth, adopting a child or receiving a foster child placement"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "may arrange for an unpaid leave of absence for up to twelve"
+    },
+    {
+     "field": "entitlement",
+     "rule": "source_precedence",
+     "answer": "guaranteed_on_request",
+     "quote": "Entitlement to leave is limited to twelve weeks per twelve month period calculated from the beginning of the last leave."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "12 weeks, up_to",
+     "quote": "may request a leave without salary of up to twelve weeks"
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave, relief not stated)",
+     "quote": "may arrange for an unpaid leave of absence for up to twelve"
+    },
+    {
+     "field": "sequence",
+     "rule": "R15b",
+     "answer": "in_lieu_of the parental leave (c1)",
+     "quote": "A faculty member not taking parental leave"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "twelve months of employment",
+     "quote": "For all full-time faculty eligible after twelve months of employment"
+    }
+   ]
+  },
+  {
+   "component_id": "toyota_technological_institute_at_chicago_c3",
+   "institution_label": "Caregiver’s Leave",
+   "description": "An unpaid leave of up to twelve weeks to care for a spouse, registered same-sex domestic partner, child or parent with a serious health condition.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "A faculty member (section heading: 'For all full-time faculty eligible after twelve months of employment')",
+   "eligible_parent": [
+    "non_birth_parent"
+   ],
+   "eligible_parent_wording": "to care for a spouse; Institute-registered, same-sex domestic partner; child; or parent with a serious health condition",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "'may request', read with the General Leave Policies ('Entitlement to leave'; entitled to return) that apply to health condition (family member) leave; flagged ambiguous (V2, source precedence).",
+   "service_requirement": "twelve months of employment",
+   "duration": {
+    "value": 12,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "notice": "discuss the proposed leave with the Chief Academic Officer as far in advance as possible",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "relief_note": "A formal unpaid leave; no relief stated (R9).",
+   "rule_applied": [
+    "U5",
+    "V2",
+    "R9",
+    "U1",
+    "source_precedence",
+    "R20"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "For all full-time faculty eligible after twelve months of employment"
+    ],
+    "eligible_parent": [
+     "A faculty member may request an unpaid leave of up to twelve weeks to care for a spouse; Institute-registered, same-sex domestic partner; child; or parent with a serious health condition."
+    ],
+    "entitlement": [
+     "A faculty member may request an unpaid leave of up to twelve weeks",
+     "Entitlement to leave is limited to twelve weeks per twelve month period calculated from the beginning of the last leave."
+    ],
+    "duration": [
+     "may request an unpaid leave of up to twelve weeks"
+    ],
+    "service_requirement": [
+     "For all full-time faculty eligible after twelve months of employment"
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "version_uncertain",
+    "cross_reference_not_saved: the formal and full rule policy statements (Important Note: 'In all cases, the formal and full rule policy statements control a given situation. These statements are available from Administration.')",
+    "ambiguous: entitlement: 'may request' in the provision, 'Entitlement to leave' in the General Leave Policies that apply to it; coded guaranteed_on_request",
+    "ambiguous: restriction: the twelve-month service requirement is stated in the shared heading of the Child Care and Caregiver's Leave section",
+    "family_illness_leave"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "may request an unpaid leave of up to twelve weeks"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "may request an unpaid leave of up to twelve weeks"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "to care for a spouse; Institute-registered, same-sex domestic partner; child; or parent with a serious health condition"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "For all full-time faculty eligible after twelve months of employment"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "non_birth_parent (care of the birth parent with a serious health condition)",
+     "quote": "to care for a spouse; Institute-registered, same-sex domestic partner; child; or parent with a serious health condition"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "A faculty member may request an unpaid leave of up to twelve weeks"
+    },
+    {
+     "field": "entitlement",
+     "rule": "source_precedence",
+     "answer": "guaranteed_on_request",
+     "quote": "Entitlement to leave is limited to twelve weeks per twelve month period calculated from the beginning of the last leave."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "12 weeks, up_to",
+     "quote": "may request an unpaid leave of up to twelve weeks"
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave, relief not stated)",
+     "quote": "may request an unpaid leave of up to twelve weeks"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "twelve months of employment (section heading)",
+     "quote": "For all full-time faculty eligible after twelve months of employment"
+    }
+   ]
+  },
+  {
+   "component_id": "toyota_technological_institute_at_chicago_c4",
+   "institution_label": "",
+   "description": "Job-protected leave for maternity or the faculty member's own health condition, named in the General Leave Policies (which apply to parental, maternity, child care, own-health, family-health and military leaves): leave ends at twelve weeks, within twelve weeks per rolling twelve months, with return to the same or an equivalent job. No pay of its own; the Short-Term Disability plan pays a portion of salary.",
+   "mechanism": "unpaid_leave",
+   "mechanism_note": "The handbook grants no separately described maternity or medical leave; the General Leave Policies name 'maternity' and 'health condition (self)' leaves and set their entitlement (twelve weeks) and job protection. Pay comes from the STD plan (c5), coded separately (U6).",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "General Leave Policies of the Faculty Handbook ('This handbook is intended for use by faculty of TTIC')",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "maternity; health condition (self)",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "entitlement_note": "'Entitlement to leave is limited to twelve weeks' and 'entitled to return to the same or equivalent job': stated as an entitlement.",
+   "service_requirement": "none stated",
+   "duration": {
+    "value": 12,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "duration_note": "Leaves terminate at twelve weeks or at the date in the leave request; twelve weeks per rolling twelve-month period across all leaves (leave_limits). Further leave requires LTD or a personal leave of absence (c10).",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "relief_note": "A formal leave; no relief stated (R9).",
+   "rule_applied": [
+    "U5",
+    "U6",
+    "U3",
+    "R9",
+    "U1",
+    "R13",
+    "R20"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "This handbook is intended for use by faculty of TTIC.",
+     "The following polices apply to all leaves taken (parental, maternity, child care, health condition (self), health condition (family member), military."
+    ],
+    "eligible_parent": [
+     "The following polices apply to all leaves taken (parental, maternity, child care, health condition (self), health condition (family member), military."
+    ],
+    "entitlement": [
+     "Entitlement to leave is limited to twelve weeks per twelve month period calculated from the beginning of the last leave.",
+     "Employees returning from leave are entitled to return to the same or equivalent job with the same pay and benefits held prior to the leave."
+    ],
+    "duration": [
+     "Leaves terminate at twelve weeks or as of the date specified in the leave request.",
+     "Entitlement to leave is limited to twelve weeks per twelve month period calculated from the beginning of the last leave."
+    ],
+    "service_requirement": [
+     "The following polices apply to all leaves taken (parental, maternity, child care, health condition (self), health condition (family member), military."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "version_uncertain",
+    "cross_reference_not_saved: the formal and full rule policy statements (Important Note: 'In all cases, the formal and full rule policy statements control a given situation. These statements are available from Administration.')",
+    "ambiguous: rule gap: maternity and own-health leave are named only in the General Leave Policies' list; the grant is read from 'Entitlement to leave is limited to twelve weeks' and the right to return"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "U6",
+     "answer": "unpaid_leave",
+     "quote": "The following polices apply to all leaves taken (parental, maternity, child care, health condition (self), health condition (family member), military."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Leaves terminate at twelve weeks or as of the date specified in the leave request."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "The following polices apply to all leaves taken (parental, maternity, child care, health condition (self), health condition (family member), military."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "This handbook is intended for use by faculty of TTIC."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own health condition; maternity)",
+     "quote": "The following polices apply to all leaves taken (parental, maternity, child care, health condition (self), health condition (family member), military."
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "Entitlement to leave is limited to twelve weeks per twelve month period calculated from the beginning of the last leave."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "12 weeks, up_to ('or as of the date specified in the leave request')",
+     "quote": "Leaves terminate at twelve weeks or as of the date specified in the leave request."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave, relief not stated)",
+     "quote": "Leaves terminate at twelve weeks or as of the date specified in the leave request."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "none stated",
+     "quote": "The following polices apply to all leaves taken (parental, maternity, child care, health condition (self), health condition (family member), military."
+    }
+   ]
+  },
+  {
+   "component_id": "toyota_technological_institute_at_chicago_c5",
+   "institution_label": "Short Term Disability plan (STD)",
+   "description": "Short-term disability insurance paying a portion of salary to a faculty member who is disabled and cannot work, for a maximum of thirteen weeks; premiums paid in full by the Institute. No childbirth-specific period stated.",
+   "mechanism": "generic_sick_or_disability_plan",
+   "mechanism_note": "A plan for any disability; no childbirth-specific period, length or pay level for childbirth is stated (V1 not met, R2).",
+   "payer": "insurance_plan",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "faculty",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "if they are disabled and cannot work",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 13,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "pay_fraction": "a portion of their salary",
+   "sequence": [
+    {
+     "relation": "concurrent_with",
+     "component_id": "toyota_technological_institute_at_chicago_c4",
+     "note": "the plan pays during the faculty member's own-health (maternity) leave; it may run one week past the twelve-week leave, until LTD begins after three months"
+    }
+   ],
+   "rule_applied": [
+    "V1",
+    "R2",
+    "V6",
+    "U6",
+    "M1",
+    "U5",
+    "U1"
+   ],
+   "evidence": {
+    "mechanism": [
+     "The Short Term Disability plan (STD) provides faculty if they are disabled and cannot work, with a portion of their salary for a maximum of thirteen weeks. Premiums are paid in full by the Institute."
+    ],
+    "faculty_group": [
+     "The Short Term Disability plan (STD) provides faculty if they are disabled and cannot work, with a portion of their salary for a maximum of thirteen weeks. Premiums are paid in full by the Institute."
+    ],
+    "eligible_parent": [
+     "The Short Term Disability plan (STD) provides faculty if they are disabled and cannot work, with a portion of their salary for a maximum of thirteen weeks. Premiums are paid in full by the Institute."
+    ],
+    "entitlement": [
+     "The Short Term Disability plan (STD) provides faculty if they are disabled and cannot work, with a portion of their salary for a maximum of thirteen weeks. Premiums are paid in full by the Institute."
+    ],
+    "duration": [
+     "The Short Term Disability plan (STD) provides faculty if they are disabled and cannot work, with a portion of their salary for a maximum of thirteen weeks. Premiums are paid in full by the Institute."
+    ],
+    "pay_fraction": [
+     "The Short Term Disability plan (STD) provides faculty if they are disabled and cannot work, with a portion of their salary for a maximum of thirteen weeks. Premiums are paid in full by the Institute."
+    ],
+    "sequence": [
+     "The following polices apply to all leaves taken (parental, maternity, child care, health condition (self), health condition (family member), military.",
+     "The Short Term Disability plan (STD) provides faculty if they are disabled and cannot work, with a portion of their salary for a maximum of thirteen weeks. Premiums are paid in full by the Institute."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "version_uncertain",
+    "cross_reference_not_saved: the formal and full rule policy statements (Important Note: 'In all cases, the formal and full rule policy statements control a given situation. These statements are available from Administration.')"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "V1",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "The Short Term Disability plan (STD) provides faculty if they are disabled and cannot work, with a portion of their salary for a maximum of thirteen weeks. Premiums are paid in full by the Institute."
+    },
+    {
+     "field": "payer",
+     "rule": "M1",
+     "answer": "insurance_plan",
+     "quote": "Premiums are paid in full by the Institute."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "The Short Term Disability plan (STD) provides faculty if they are disabled and cannot work, with a portion of their salary for a maximum of thirteen weeks. Premiums are paid in full by the Institute."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "The Short Term Disability plan (STD) provides faculty if they are disabled and cannot work, with a portion of their salary for a maximum of thirteen weeks. Premiums are paid in full by the Institute."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own disability)",
+     "quote": "if they are disabled and cannot work"
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "The Short Term Disability plan (STD) provides faculty if they are disabled and cannot work"
+    },
+    {
+     "field": "duration",
+     "rule": "V6",
+     "answer": "13 weeks, up_to (plan maximum; no childbirth period stated)",
+     "quote": "for a maximum of thirteen weeks"
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "a portion of their salary (level not stated)",
+     "quote": "with a portion of their salary for a maximum of thirteen weeks"
+    },
+    {
+     "field": "sequence",
+     "rule": "U6",
+     "answer": "concurrent_with the own-health leave c4",
+     "quote": "The following polices apply to all leaves taken (parental, maternity, child care, health condition (self), health condition (family member), military."
+    }
+   ]
+  },
+  {
+   "component_id": "toyota_technological_institute_at_chicago_c6",
+   "institution_label": "Long-Term Disability (LTD)",
+   "description": "Long-term disability benefits beginning after three months of continuous disability; premiums paid in full by the Institute. Recorded minimally (schema §2).",
+   "mechanism": "generic_sick_or_disability_plan",
+   "payer": "insurance_plan",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "faculty",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "time_window": "benefits begin after three months of continuous disability",
+   "rule_applied": [
+    "M1",
+    "U5",
+    "U1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Long-Term Disability (LTD) benefits for faculty begin after three months of continuous disability. Premiums are paid in full by the Institute."
+    ],
+    "eligible_parent": [
+     "Long-Term Disability (LTD) benefits for faculty begin after three months of continuous disability. Premiums are paid in full by the Institute."
+    ],
+    "entitlement": [
+     "Long-Term Disability (LTD) benefits for faculty begin after three months of continuous disability. Premiums are paid in full by the Institute."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "version_uncertain",
+    "cross_reference_not_saved: the formal and full rule policy statements (Important Note: 'In all cases, the formal and full rule policy statements control a given situation. These statements are available from Administration.')"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "Long-Term Disability (LTD) benefits for faculty begin after three months of continuous disability. Premiums are paid in full by the Institute."
+    },
+    {
+     "field": "payer",
+     "rule": "M1",
+     "answer": "insurance_plan",
+     "quote": "Premiums are paid in full by the Institute."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Long-Term Disability (LTD) benefits for faculty begin after three months of continuous disability. Premiums are paid in full by the Institute."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Long-Term Disability (LTD) benefits for faculty begin after three months of continuous disability. Premiums are paid in full by the Institute."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own disability)",
+     "quote": "begin after three months of continuous disability"
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "Long-Term Disability (LTD) benefits for faculty begin after three months of continuous disability. Premiums are paid in full by the Institute."
+    }
+   ]
+  },
+  {
+   "component_id": "toyota_technological_institute_at_chicago_c7",
+   "institution_label": "Rearrangement of Teaching Duties for Full-Time Faculty Members on Regular Three-Quarter Appointment",
+   "description": "In lieu of parental leave, the spouse or partner of a faculty member giving birth (and, per the next sentences, an adoptive or foster parent) may request a rearranged teaching schedule giving one quarter free from classroom teaching within 12 months; the full year's courses are still taught and other duties continue. A rearrangement, not relief (R16).",
+   "mechanism": "other",
+   "mechanism_note": "R16: a rearrangement that moves duties within the year without reducing them is not relief; the rule names this TTIC provision.",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Full-Time Faculty Members on Regular Three-Quarter Appointment",
+   "eligible_parent": [
+    "non_birth_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "spouses and Institute-registered, same-sex domestic partners of the faculty member giving birth; birth or adoption; a faculty member who receives a foster child placement",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "entitlement_note": "'may request ... subject to the approval of the Chief Academic Officer': the approval decides whether the rearrangement is granted (V2).",
+   "duration": {
+    "value": 1,
+    "units": "quarter",
+    "qualifier": "exact"
+   },
+   "duration_note": "One quarter free from classroom teaching; the year's full complement of courses is still taught, so no teaching is relieved over the year.",
+   "time_window": "within 12 months of birth, adoption or foster placement",
+   "sequence": [
+    {
+     "relation": "in_lieu_of",
+     "component_id": "toyota_technological_institute_at_chicago_c1",
+     "note": "'In lieu of parental leave'"
+    }
+   ],
+   "rule_applied": [
+    "R16",
+    "V2",
+    "R15b",
+    "U1"
+   ],
+   "evidence": {
+    "mechanism": [
+     "Because this is a rearrangement rather than a suspension of duties, it does not constitute leave."
+    ],
+    "faculty_group": [
+     "Rearrangement of Teaching Duties for Full-Time Faculty Members on Regular Three-Quarter Appointment"
+    ],
+    "eligible_parent": [
+     "Rearrangement of teaching duties is available only to spouses and Institute-registered, same-sex domestic partners of the faculty member giving birth.",
+     "In lieu of parental leave, the faculty member may request rearrangement of his or her course teaching schedule within 12 months of birth or adoption, in order to have a quarter free from classroom teaching.",
+     "Likewise, a faculty member who receives a foster child placement may request rearrangement of his or her course teaching schedule within 12 months of the placement"
+    ],
+    "entitlement": [
+     "In lieu of parental leave, the faculty member may request rearrangement of his or her course teaching schedule within 12 months of birth or adoption, in order to have a quarter free from classroom teaching.",
+     "Such a request is subject to the approval of the Chief Academic Officer. Over the course of the academic year, the faculty member is expected to teach the full complement of courses."
+    ],
+    "duration": [
+     "In lieu of parental leave, the faculty member may request rearrangement of his or her course teaching schedule within 12 months of birth or adoption, in order to have a quarter free from classroom teaching."
+    ],
+    "sequence": [
+     "In lieu of parental leave, the faculty member may request rearrangement of his or her course teaching schedule within 12 months of birth or adoption, in order to have a quarter free from classroom teaching."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "version_uncertain",
+    "cross_reference_not_saved: the formal and full rule policy statements (Important Note: 'In all cases, the formal and full rule policy statements control a given situation. These statements are available from Administration.')",
+    "ambiguous: eligible_parent: the first sentence limits the provision to spouses and partners of the faculty member giving birth, while the next sentences extend it to adoption and foster placement"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R16",
+     "answer": "other",
+     "quote": "Because this is a rearrangement rather than a suspension of duties, it does not constitute leave."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "Over the course of the academic year, the faculty member is expected to teach the full complement of courses."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "In lieu of parental leave, the faculty member may request rearrangement of his or her course teaching schedule within 12 months of birth or adoption, in order to have a quarter free from classroom teaching."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Rearrangement of Teaching Duties for Full-Time Faculty Members on Regular Three-Quarter Appointment"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "non_birth_parent, adoptive, foster",
+     "quote": "Rearrangement of teaching duties is available only to spouses and Institute-registered, same-sex domestic partners of the faculty member giving birth."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "Such a request is subject to the approval of the Chief Academic Officer."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 quarter free from classroom teaching (rearranged, not relieved)",
+     "quote": "In lieu of parental leave, the faculty member may request rearrangement of his or her course teaching schedule within 12 months of birth or adoption, in order to have a quarter free from classroom teaching."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15b",
+     "answer": "in_lieu_of the parental leave (c1)",
+     "quote": "In lieu of parental leave, the faculty member may request rearrangement of his or her course teaching schedule within 12 months of birth or adoption, in order to have a quarter free from classroom teaching."
+    }
+   ]
+  },
+  {
+   "component_id": "toyota_technological_institute_at_chicago_c8",
+   "institution_label": "“Stopping the Clock” on Review for Promotion For Parenting Responsibilities",
+   "description": "A tenure-track Assistant Professor who becomes a parent by birth or adoption and has equal or primary care-giving responsibilities is automatically granted a one-year extension of the current term appointment for each pregnancy or adoption; opt-out in writing.",
+   "mechanism": "tenure_clock",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "A tenure-track Assistant Professor",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "becomes the parent of a child by birth or adoption; This applies to both men and women and includes same-sex, registered domestic partners",
+   "caregiver_condition": "equal_or_more_than_partner",
+   "caregiver_condition_wording": "if the faculty member has equal or primary care giving responsibilities",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "exact"
+   },
+   "dual_employee_rule": "Where both parents are tenure track Assistant Professors and both share equally in care giving responsibilities, both will be granted a one-year extension",
+   "notice": "notify the Chief Academic Officer of the birth or adoption in advance; opt-out in writing",
+   "rule_applied": [
+    "R6",
+    "U9",
+    "U1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "A tenure-track Assistant Professor who becomes the parent of a child by birth or adoption will automatically be granted a one-year extension of the current term appointment for each pregnancy or adoption if the faculty member has equal or primary care giving responsibilities."
+    ],
+    "eligible_parent": [
+     "A tenure-track Assistant Professor who becomes the parent of a child by birth or adoption will automatically be granted a one-year extension of the current term appointment for each pregnancy or adoption if the faculty member has equal or primary care giving responsibilities.",
+     "This applies to both men and women and includes same-sex, registered domestic partners."
+    ],
+    "caregiver_condition": [
+     "A tenure-track Assistant Professor who becomes the parent of a child by birth or adoption will automatically be granted a one-year extension of the current term appointment for each pregnancy or adoption if the faculty member has equal or primary care giving responsibilities."
+    ],
+    "entitlement": [
+     "A tenure-track Assistant Professor who becomes the parent of a child by birth or adoption will automatically be granted a one-year extension of the current term appointment for each pregnancy or adoption if the faculty member has equal or primary care giving responsibilities."
+    ],
+    "duration": [
+     "A tenure-track Assistant Professor who becomes the parent of a child by birth or adoption will automatically be granted a one-year extension of the current term appointment for each pregnancy or adoption if the faculty member has equal or primary care giving responsibilities."
+    ],
+    "dual_employee_rule": [
+     "Where both parents are tenure track Assistant Professors and both share equally in care giving responsibilities, both will be granted a one-year extension as described above."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "version_uncertain",
+    "cross_reference_not_saved: the formal and full rule policy statements (Important Note: 'In all cases, the formal and full rule policy statements control a given situation. These statements are available from Administration.')",
+    "cross_reference_not_saved: TTIC Promotion and Tenure policy (Intranet, Academic Policies)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "A tenure-track Assistant Professor who becomes the parent of a child by birth or adoption will automatically be granted a one-year extension of the current term appointment for each pregnancy or adoption if the faculty member has equal or primary care giving responsibilities."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "A tenure-track Assistant Professor who becomes the parent of a child by birth or adoption will automatically be granted a one-year extension of the current term appointment for each pregnancy or adoption if the faculty member has equal or primary care giving responsibilities."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "A tenure-track Assistant Professor who becomes the parent of a child by birth or adoption will automatically be granted a one-year extension of the current term appointment for each pregnancy or adoption if the faculty member has equal or primary care giving responsibilities."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "A tenure-track Assistant Professor"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R6",
+     "answer": "birth_parent, non_birth_parent, adoptive",
+     "quote": "This applies to both men and women and includes same-sex, registered domestic partners."
+    },
+    {
+     "field": "caregiver_condition",
+     "rule": "schema",
+     "answer": "equal_or_more_than_partner",
+     "quote": "if the faculty member has equal or primary care giving responsibilities"
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "will automatically be granted a one-year extension"
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 year, exact",
+     "quote": "a one-year extension of the current term appointment"
+    },
+    {
+     "field": "use_limit",
+     "rule": "U9",
+     "answer": "none: 'for each pregnancy or adoption' is a renewal, not a limit",
+     "quote": "for each pregnancy or adoption"
+    }
+   ]
+  },
+  {
+   "component_id": "toyota_technological_institute_at_chicago_c9",
+   "institution_label": "For Personal Illness Or Care Giving Responsibilities",
+   "description": "A one-time term extension for tenure-track Assistant Professors for the faculty member's own illness or disability or for caring for a sick or disabled immediate family member, at the Dean's discretion; length not stated.",
+   "mechanism": "tenure_clock",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "tenure-track Assistant Professors",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent"
+   ],
+   "eligible_parent_wording": "caring for a sick or disabled immediate family member or the illness or disability of the faculty member",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "use_limit": [
+    {
+     "times": 1,
+     "per": "career",
+     "counts": "uses"
+    }
+   ],
+   "use_limit_note": "A one-time term extension",
+   "notice": "request in writing to the Chief Academic Officer as soon as the circumstances are known",
+   "rule_applied": [
+    "U5",
+    "V2",
+    "U9",
+    "U1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "A one-time term extension for tenure-track Assistant Professors may be considered in the following circumstances: caring for a sick or disabled immediate family member or the illness or disability of the faculty member."
+    ],
+    "eligible_parent": [
+     "A one-time term extension for tenure-track Assistant Professors may be considered in the following circumstances: caring for a sick or disabled immediate family member or the illness or disability of the faculty member."
+    ],
+    "entitlement": [
+     "A one-time term extension for tenure-track Assistant Professors may be considered in the following circumstances: caring for a sick or disabled immediate family member or the illness or disability of the faculty member.",
+     "All such requests will be granted at the discretion of the Dean."
+    ],
+    "use_limit": [
+     "A one-time term extension for tenure-track Assistant Professors may be considered in the following circumstances: caring for a sick or disabled immediate family member or the illness or disability of the faculty member."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "version_uncertain",
+    "cross_reference_not_saved: the formal and full rule policy statements (Important Note: 'In all cases, the formal and full rule policy statements control a given situation. These statements are available from Administration.')",
+    "cross_reference_not_saved: TTIC Promotion and Tenure policy (Intranet, Academic Policies)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "A one-time term extension for tenure-track Assistant Professors may be considered in the following circumstances: caring for a sick or disabled immediate family member or the illness or disability of the faculty member."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "A one-time term extension for tenure-track Assistant Professors may be considered in the following circumstances: caring for a sick or disabled immediate family member or the illness or disability of the faculty member."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "caring for a sick or disabled immediate family member or the illness or disability of the faculty member"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "tenure-track Assistant Professors"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own illness), non_birth_parent (care of an ill family member)",
+     "quote": "A one-time term extension for tenure-track Assistant Professors may be considered in the following circumstances: caring for a sick or disabled immediate family member or the illness or disability of the faculty member."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "All such requests will be granted at the discretion of the Dean."
+    },
+    {
+     "field": "use_limit",
+     "rule": "U9",
+     "answer": "1 per career",
+     "quote": "A one-time term extension"
+    }
+   ]
+  },
+  {
+   "component_id": "toyota_technological_institute_at_chicago_c10",
+   "institution_label": "personal leave of absence",
+   "description": "After the twelve weeks of leave in a rolling twelve-month period are used, a personal leave of absence on written request, approved in writing by the Chief Academic Officer; purpose, length and pay not stated.",
+   "mechanism": "unpaid_leave",
+   "mechanism_note": "Pay not stated; coded as a leave with no pay.",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "General Leave Policies of the Faculty Handbook (faculty of TTIC)",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "time_window": "upon exhaustion of the twelve weeks of leave in a rolling twelve-month period",
+   "rule_applied": [
+    "U1",
+    "V2",
+    "R15"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Upon exhaustion of the twelve weeks in a rolling twelve-month period, any additional leave will require acceptance onto long-term disability insurance or a written request for a personal leave of absence, which must be approved in writing by the Chief Academic Officer and submitted to Human Resources."
+    ],
+    "eligible_parent": [
+     "Upon exhaustion of the twelve weeks in a rolling twelve-month period, any additional leave will require acceptance onto long-term disability insurance or a written request for a personal leave of absence, which must be approved in writing by the Chief Academic Officer and submitted to Human Resources."
+    ],
+    "entitlement": [
+     "Upon exhaustion of the twelve weeks in a rolling twelve-month period, any additional leave will require acceptance onto long-term disability insurance or a written request for a personal leave of absence, which must be approved in writing by the Chief Academic Officer and submitted to Human Resources."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "general_purpose",
+    "version_uncertain",
+    "cross_reference_not_saved: the formal and full rule policy statements (Important Note: 'In all cases, the formal and full rule policy statements control a given situation. These statements are available from Administration.')",
+    "ambiguous: rule gap: starts on exhaustion of the twelve-week leave entitlement, i.e. after whichever leaves used it; not linked consecutive_after a component, because the leave it follows depends on the parent's choice among c1, c2 and c4, and a multi-predecessor link would chain those leaves"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "Upon exhaustion of the twelve weeks in a rolling twelve-month period, any additional leave will require acceptance onto long-term disability insurance or a written request for a personal leave of absence, which must be approved in writing by the Chief Academic Officer and submitted to Human Resources."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Upon exhaustion of the twelve weeks in a rolling twelve-month period, any additional leave will require acceptance onto long-term disability insurance or a written request for a personal leave of absence, which must be approved in writing by the Chief Academic Officer and submitted to Human Resources."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "a written request for a personal leave of absence"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Upon exhaustion of the twelve weeks in a rolling twelve-month period, any additional leave will require acceptance onto long-term disability insurance or a written request for a personal leave of absence, which must be approved in writing by the Chief Academic Officer and submitted to Human Resources."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent (no role words; any employee)",
+     "quote": "Upon exhaustion of the twelve weeks in a rolling twelve-month period, any additional leave will require acceptance onto long-term disability insurance or a written request for a personal leave of absence, which must be approved in writing by the Chief Academic Officer and submitted to Human Resources."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "which must be approved in writing by the Chief Academic Officer"
+    }
+   ]
+  },
+  {
+   "component_id": "toyota_technological_institute_at_chicago_c11",
+   "institution_label": "Vacation Policy",
+   "description": "Flexible faculty vacation, generally expected not to exceed one week for every three months of employment on average; no accrual or balance stated.",
+   "mechanism": "own_accrual",
+   "mechanism_note": "The employee's own paid vacation time (R1), stated as a flexible expectation rather than an accrued balance.",
+   "payer": "own_balance",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "faculty",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "No grant or approval wording; the policy states a flexible expectation. Coded guaranteed_on_request and flagged.",
+   "duration_note": "Generally not more than one week for every three months of employment on average (about four weeks a year); not coded as a duration.",
+   "rule_applied": [
+    "R1",
+    "U1",
+    "V2"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "The vacation policy for faculty is flexible. Vacation time is generally expected not to exceed one week for every three months of employment on average."
+    ],
+    "eligible_parent": [
+     "The vacation policy for faculty is flexible. Vacation time is generally expected not to exceed one week for every three months of employment on average."
+    ],
+    "entitlement": [
+     "The vacation policy for faculty is flexible. Vacation time is generally expected not to exceed one week for every three months of employment on average."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "general_purpose",
+    "version_uncertain",
+    "cross_reference_not_saved: the formal and full rule policy statements (Important Note: 'In all cases, the formal and full rule policy statements control a given situation. These statements are available from Administration.')",
+    "ambiguous: entitlement: flexible vacation with no grant or approval wording"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "own_accrual",
+     "quote": "The vacation policy for faculty is flexible. Vacation time is generally expected not to exceed one week for every three months of employment on average."
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "own_balance",
+     "quote": "The vacation policy for faculty is flexible. Vacation time is generally expected not to exceed one week for every three months of employment on average."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "The vacation policy for faculty is flexible."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "The vacation policy for faculty is flexible."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "The vacation policy for faculty is flexible. Vacation time is generally expected not to exceed one week for every three months of employment on average."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "The vacation policy for faculty is flexible. Vacation time is generally expected not to exceed one week for every three months of employment on average."
+    }
+   ]
+  }
+ ],
+ "scope_accounting": {
+  "C1": {
+   "components": [
+    "toyota_technological_institute_at_chicago_c1",
+    "toyota_technological_institute_at_chicago_c2",
+    "toyota_technological_institute_at_chicago_c4"
+   ]
+  },
+  "C2": {
+   "components": [
+    "toyota_technological_institute_at_chicago_c7"
+   ]
+  },
+  "C3": {
+   "components": [
+    "toyota_technological_institute_at_chicago_c4",
+    "toyota_technological_institute_at_chicago_c5",
+    "toyota_technological_institute_at_chicago_c6",
+    "toyota_technological_institute_at_chicago_c11"
+   ]
+  },
+  "C4": {
+   "absent": {
+    "documents": [
+     "2018_00_link"
+    ],
+    "terms": [
+     "FMLA",
+     "Family and Medical Leave",
+     "statute",
+     "Act",
+     "Illinois",
+     "state",
+     "federal",
+     "law"
+    ]
+   },
+   "not_components": [
+    {
+     "statute": "Americans with Disabilities Act",
+     "reason": "disability-accommodation statute (Persons with Disabilities); not about becoming a parent (U4)"
+    },
+    {
+     "statute": "Uniformed Service Employment and Reemployment Rights Act (38 U.S.C. 4301-4333) and State of Illinois statutes on military leave",
+     "reason": "military leave; unrelated to becoming a parent (U4)"
+    },
+    {
+     "statute": "Drug Free Workplace Act of 1988",
+     "reason": "workplace drug policy; unrelated to becoming a parent (U4)"
+    },
+    {
+     "statute": "City of Chicago and State of Illinois smoking regulations",
+     "reason": "non-smoking policy; unrelated to becoming a parent (U4)"
+    },
+    {
+     "statute": "TTIC Statutes 1.1-3.3 (institutional bylaws on governance)",
+     "reason": "the Institute's own governance statutes, not legislation; no leave provision"
+    }
+   ]
+  },
+  "C5": {
+   "components": [
+    "toyota_technological_institute_at_chicago_c3",
+    "toyota_technological_institute_at_chicago_c9"
+   ]
+  },
+  "C6": {
+   "components": [
+    "toyota_technological_institute_at_chicago_c10",
+    "toyota_technological_institute_at_chicago_c11"
+   ]
+  },
+  "C7": {
+   "components": [
+    "toyota_technological_institute_at_chicago_c8",
+    "toyota_technological_institute_at_chicago_c9"
+   ]
+  },
+  "C8": {
+   "absent": {
+    "documents": [
+     "2018_00_link"
+    ],
+    "terms": [
+     "part time",
+     "part-time",
+     "reduced appointment",
+     "phased return",
+     "reduction in Institute responsibilities"
+    ]
+   }
+  },
+  "C9": {
+   "absent": {
+    "documents": [
+     "2018_00_link"
+    ],
+    "terms": [
+     "accommodation",
+     "pregnancy",
+     "hazard",
+     "transfer",
+     "equal treatment"
+    ]
+   }
+  },
+  "C10": {
+   "absent": {
+    "documents": [
+     "2018_00_link"
+    ],
+    "terms": [
+     "FMLA",
+     "first days",
+     "regular work time",
+     "serious health condition",
+     "with pay"
+    ]
+   }
+  }
+ },
+ "passage_dispositions": {
+  "2018_00_link#001": {
+   "not_relevant": "table of contents; the provisions are coded from the sections themselves"
+  },
+  "2018_00_link#002": {
+   "not_relevant": "conflict of interest: hiring family members"
+  },
+  "2018_00_link#003": {
+   "not_relevant": "leave of absence and part-time status for outside professional or commercial activities; not usable for a birth or adoption"
+  },
+  "2018_00_link#004": {
+   "not_relevant": "conflict-of-interest definitions (spouse and dependent children)"
+  },
+  "2018_00_link#005": {
+   "not_relevant": "conflict-of-interest definitions and reporting"
+  },
+  "2018_00_link#006": {
+   "not_relevant": "ADA accommodation (listed under C4 not_components) and nepotism"
+  },
+  "2018_00_link#007": {
+   "not_relevant": "harassment hearing procedures (leave without pay as a sanction)"
+  },
+  "2018_00_link#008": {
+   "used_in": [
+    "toyota_technological_institute_at_chicago_c8"
+   ]
+  },
+  "2018_00_link#009": {
+   "used_in": [
+    "toyota_technological_institute_at_chicago_c8",
+    "toyota_technological_institute_at_chicago_c9"
+   ]
+  },
+  "2018_00_link#010": {
+   "used_in": [
+    "toyota_technological_institute_at_chicago_c5",
+    "toyota_technological_institute_at_chicago_c6"
+   ]
+  },
+  "2018_00_link#011": {
+   "used_in": [
+    "toyota_technological_institute_at_chicago_c1",
+    "toyota_technological_institute_at_chicago_c2",
+    "toyota_technological_institute_at_chicago_c3",
+    "toyota_technological_institute_at_chicago_c4",
+    "toyota_technological_institute_at_chicago_c6",
+    "toyota_technological_institute_at_chicago_c7",
+    "toyota_technological_institute_at_chicago_c10"
+   ]
+  }
+ },
+ "mechanism_slots": {
+  "employer_paid_leave": {
+   "components": [
+    "toyota_technological_institute_at_chicago_c1"
+   ]
+  },
+  "employer_childbirth_benefit": {
+   "absent": "no childbirth-specific paid benefit; searched 2018_00_link for maternity, childbirth, birth, disability, pregnancy"
+  },
+  "generic_sick_or_disability_plan": {
+   "components": [
+    "toyota_technological_institute_at_chicago_c5",
+    "toyota_technological_institute_at_chicago_c6"
+   ]
+  },
+  "own_accrual": {
+   "components": [
+    "toyota_technological_institute_at_chicago_c11"
+   ]
+  },
+  "donated_leave": {
+   "absent": "no donated or shared leave bank; searched 2018_00_link for donat, shared, bank, pool"
+  },
+  "government_benefit": {
+   "absent": "no government or state benefit named; searched 2018_00_link for state, federal, Illinois, insurance, benefit"
+  },
+  "employer_topup": {
+   "absent": "no top-up of a government benefit; searched 2018_00_link for top-up, supplement, difference"
+  },
+  "modified_duties": {
+   "absent": "no relief from duties; the teaching rearrangement (c7) keeps the full teaching load (R16); searched 2018_00_link for relief, release, reduced, teaching, modified"
+  },
+  "unpaid_leave": {
+   "components": [
+    "toyota_technological_institute_at_chicago_c2",
+    "toyota_technological_institute_at_chicago_c3",
+    "toyota_technological_institute_at_chicago_c4",
+    "toyota_technological_institute_at_chicago_c10"
+   ]
+  },
+  "tenure_clock": {
+   "components": [
+    "toyota_technological_institute_at_chicago_c8",
+    "toyota_technological_institute_at_chicago_c9"
+   ]
+  },
+  "part_time_option": {
+   "absent": "no part-time option for parents; the part-time status for outside activities is not usable for a birth; searched 2018_00_link for part time, reduction, appointment"
+  },
+  "other": {
+   "components": [
+    "toyota_technological_institute_at_chicago_c7"
+   ]
+  }
+ },
+ "baseline_accounting": {
+  "Family and Medical Leave Act (FMLA)": {
+   "absent": "no saved document mentions it (2018_00_link searched for FMLA, Family and Medical Leave); the General Leave Policies set a similar twelve-week rule of their own; the statutory floor applies regardless (U7)"
+  },
+  "Federal Employee Paid Leave Act (paid parental leave for federal civilian employees)": {
+   "not_applicable": "covers federal civilian employees; TTIC is a private non-profit institute"
+  }
+ },
+ "notes": [
+  "Sources: one usable file, 2018_00_link (TTIC Faculty Handbook, 'Revised September 2014'; Wayback capture 2016-08-27 for a 2018-02-28 row).",
+  "Version: the handbook states 'Revised September 2014' and the copy dates from August 2016, before the reference academic year 2017-18; whether it was still the version in force on 2018-02-28 cannot be confirmed from the saved sources, so every component carries version_uncertain.",
+  "The handbook's Important Note says it is 'presented for information purposes only', is 'not a contract', and that 'the formal and full rule policy statements control', available from Administration. Those statements are not saved (cross_reference_not_saved on every component). The general disclaimer was not read as disclaiming the specific grants.",
+  "Other documents named but not saved: TTIC Promotion and Tenure policy (Intranet); full sabbatical policy (Intranet, Benefits Policies); Teaching Agreement with the University of Chicago; Academic Program Guide; IP policy document; mentorship policy document; travel policy document; Policy on Academic Fraud; tuition benefit policy; health plan summary plan descriptions. Only the P&T policy bears on a component (c8, c9).",
+  "Not components: sick leave ('Faculty members do not accrue sick leave'; an ill faculty member arranges coverage of the quarter's responsibilities with the CAO, no leave or pay stated); Emergency Faculty Absences (colleague covers a class); the leave of absence and part-time status for outside professional or commercial activities (purpose not usable for a birth); sabbatical; military leave and jury duty (cannot be used for a birth); health insurance continuation during leave.",
+  "No statute relevant to becoming a parent is named (no FMLA, no Illinois leave law); the US FMLA floor applies through statutory_floor (U7).",
+  "Calendar: quarter system; final examinations in the eleventh week; term_weeks 11 (R8 quarter default).",
+  "Birth parent chain: parental leave c1 (one quarter, full pay) OR child care leave c2 (12 weeks unpaid) [in_lieu_of]; maternity/own-health leave c4 (up to 12 weeks, unlinked to c1/c2) with STD c5 concurrent_with c4; all leaves capped at 12 weeks in total by the General Leave Policies (leave_limits); LTD c6 after three months of disability; then a discretionary personal leave c10 (general purpose).",
+  "Non-birth parent chain: parental leave c1 if primary care giver OR child care leave c2 OR teaching rearrangement c7 (other, not relief) [each in_lieu_of c1]; caregiver's leave c3 for the birth parent's serious health condition (unlinked); 12-week total cap across c1-c4 (leave_limits).",
+  "Tenure clock: automatic one-year extension per birth or adoption for an assistant professor with equal or primary care-giving responsibilities (c8); a one-time discretionary extension for own illness or family care (c9)."
+ ],
+ "statutory_floor": {
+  "jurisdiction": "US",
+  "year": "2018",
+  "weeks_birth": 12.0,
+  "weeks_nonbirth": 12.0,
+  "statute": "Family and Medical Leave Act (FMLA) (29 U.S.C. 2611-2612)",
+  "source_doc": "2026_00_us_fmla_29usc2612",
+  "table": "statutory_baseline.csv"
+ }
+}

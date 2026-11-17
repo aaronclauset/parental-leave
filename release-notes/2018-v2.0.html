@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2018 data, v2.0: release notes · The Faculty Parental Leave Project</title>
+<meta name="description" content="How version 2.0 of the 2018 faculty parental-leave data differs from v1.0, institution by institution.">
+<link rel="icon" href="../assets/logo_green.png">
+<link rel="stylesheet" href="../assets/site.css">
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js" integrity="sha384-CjloA8y00+1SDAUkjs099PVfnY2KmDC2BZnws9kh8D/lX1s46w6EPhpXdqMfjK6i" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="../assets/common.js"></script>
+</head>
+<body>
+<a class="skip-link" href="#content">Skip to content</a>
+<div class="layout">
+<aside>
+  <a href="../index.html"><img class="logo" src="../assets/logo_green.png" alt="The Faculty Parental Leave Project: main page" width="400" height="400"></a>
+  <div class="t">The Faculty Parental Leave Project</div>
+  <button class="menu-btn" type="button">Contents</button>
+  <nav id="toc" aria-label="Contents">
+    <a href="#top"><span>·</span>Overview</a>
+    <a href="#agreement"><span>1</span>Agreement with v1.0</a>
+    <a href="#coverage"><span>2</span>Coverage and dates</a>
+    <a href="#table-sec"><span>3</span>Every difference</a>
+    <a href="#definitions"><span>4</span>Rules that differ</a>
+    <a href="#files-sec"><span>5</span>Files in this release</a>
+    <a href="../index.html"><span>←</span>Main page</a>
+  </nav>
+</aside>
+<main>
+  <section class="sec lead" id="top">
+    <h1 id="content" tabindex="-1">Release notes: the 2018 data, version 2.0</h1>
+    <p>Version 2.0 of the 2018 data set, released in November 2026, re-collects the parental-leave policies of the same <span data-n="institutions"></span> universities from each institution's own policy documents in force in the 2017–18 academic year, and adds measures of pay and job protection. These notes describe how v2.0 differs from v1.0, the version published in April 2018 and corrected through January 2019.</p>
+    <p>v1.0 had one more row, for the Polytechnic Institute of NYU, which repeated New York University's policy; it is not kept in v2.0. v1.0's values are not repeated in the v2.0 data set; they are compared here and in <a href="../data/2018/v2.0/v1_v2_differences.csv">v1_v2_differences.csv</a>.</p>
+  </section>
+
+  <section class="sec" id="agreement">
+    <h2><span class="num">1</span>Agreement with v1.0</h2>
+    <p>The v2.0 data reproduce v1.0's primary value for the birth parent at <span data-n="pctBirth"></span>% (<span data-n="agreeBirth"></span>) of the <span data-n="compBirth"></span> institutions, and for the non-birth parent at <span data-n="pctNonbirth"></span>% (<span data-n="agreeNonbirth"></span>) of the institutions.</p>
+    <p>Defining <i>agreement</i> as a primary value within 1 week of the v1.0 value, with the same kind of relief, we find that the leave duration and kind agree for both parents at <span data-n="agreeBoth"></span> of the <span data-n="compared"></span> institutions that v1.0 recorded. Where v2.0 and v1.0 differ, the v2.0 value is higher for <span data-n="higher"></span> of the <span data-n="nDiff"></span> birth-parent differences, lower for <span data-n="lower"></span> of <span data-n="nDiff"></span>, and different only in the kind of relief for <span data-n="reliefOnly"></span> of <span data-n="nDiff"></span>. In the remaining <span data-n="noValue"></span> cases, no policy could be found now (<span data-n="noValueNames"></span>). In v2.0, the median birth-parent primary value is <span data-n="medV2"></span> weeks of paid leave or relief, compared to <span data-n="medV1"></span> weeks in v1.0.</p>
+    <p>Comparing v1.0 against v2.0's source documents, each difference can be traced to a likely cause:</p>
+    <ul>
+      <li><i>Rule differences.</i> <span data-n="c_rule_difference"></span> of the birth-parent differences follow from a rule that v2.0 applied and v1.0 did not, e.g., counting a semester of teaching relief that follows a paid leave in addition to it (as at Cornell), counting the weeks of a Canadian top-up, or the length of a term in the institution's own calendar.</li>
+      <li><i>Missing provisions.</i> In <span data-n="c_v1_missing_now_found"></span>, v2.0 identified a provision that v1.0 did not find, e.g., a teaching-relief policy in a faculty handbook or collective agreement where the v1.0 source was a human-resources page.</li>
+      <li><i>Errors.</i> In <span data-n="c_v1_error"></span>, v1.0 contained errors, such as a leave reserved for birth mothers recorded for both parents, or Carleton's 12-week option recorded in place of its 51 weeks of top-ups.</li>
+      <li><i>Different reference dates.</i> In <span data-n="c_different_reference_date_word"></span>, the parental leave policy changed between 1 January 2018 and the date that policy was measured in v1.0. Specifically, Virginia Tech's paid parental leave, which gave 8 weeks when it was coded in January 2019, was not yet in force on 1 January 2018. In addition, the University of Virginia's discretionary leave grew from 3 to 8 weeks, although that change only has an impact when we include discretionary benefits.</li>
+    </ul>
+    <p>The cause of <span data-n="c_not_determinable"></span> differences could not be determined, because no governing document could be obtained.</p>
+    <div id="scatter"></div>
+    <p class="note" id="scatter-caption">v2.0 weeks of paid leave or relief against the v1.0 value, one point per institution. Institutions that differ for the chosen cause are shown in green, with all others in gray. The gray band marks agreement within 1 week. Values above 53 weeks are drawn at the edge, and points are jittered by up to 0.6 weeks. Hover over a point for the institution and the explanation of its difference.</p>
+  </section>
+
+  <section class="sec" id="coverage">
+    <h2><span class="num">2</span>Coverage and reference dates</h2>
+    <p><b>Institutions.</b> Values for <span data-n="unavailable"></span> institutions could not be computed, because their governing faculty policies were not publicly accessible via the web: <span data-n="unavailableNames"></span>. v1.0 marked <span data-n="v1Missing"></span> institutions as missing (<span data-n="v1MissingNames"></span>). It recorded Oregon Health and Science as providing no paid leave, and Southern Methodist as providing 6 weeks, taken from the maternity leave for staff described on its human-resources page.</p>
+    <p><b>Reference dates.</b> Source documents were read for the policies in force in the 2017–18 academic year. Where v1.0 coded a policy after that year (four institutions, in January 2019), v2.0 reads the policy in force on 1 January 2018. At six institutions, a policy changed between 1 January 2018 and the original 2018 collection date. At one of these (Virginia Tech), the change produces a difference between the v1.0 and v2.0 primary values.</p>
+  </section>
+
+  <section class="sec" id="table-sec">
+    <h2><span class="num">3</span>Every difference, institution by institution</h2>
+    <p>Each difference, with its cause and a short explanation. The counts below are of institutions, for both parents together; a cause listed only with discretionary benefits applies where the guaranteed values agree but a benefit the institution may refuse changes the value.</p>
+    <table class="plain" id="causeTable"></table>
+    <div class="controls" id="tableControls"></div>
+    <div class="datatable-wrap"><table class="plain" id="diffTable"></table></div>
+  </section>
+
+  <section class="sec" id="definitions">
+    <h2><span class="num">4</span>Rules that differ from v1.0</h2>
+    <p>v2.0 keeps v1.0's primary value, but writes its definition down as rules (in <code>guidance/rules.md</code>) and applies them the same way everywhere. The rules below decide what the primary value counts where v1.0's practice was unstated or varied; identifiers are the guide's.</p>
+    <ul>
+      <li><b>Relief after a leave (R3d, R3f).</b> Relief that follows a paid leave adds to it, and linked relief periods form one period.</li>
+      <li><b>Pay from own balances (R1, R1b).</b> Pay only from the faculty member's own sick, vacation or other balances counts zero weeks, even where the policy names a childbirth period.</li>
+      <li><b>General plans (R2, V1).</b> A childbirth benefit counts; a general sick-leave or disability plan does not, unless the documents state a childbirth-specific period, its length and its pay.</li>
+      <li><b>Canadian top-ups (R7).</b> In Canada, the weeks of an employer's top-up of EI count; the government benefit itself counts only in the paid total.</li>
+      <li><b>Term lengths (R8).</b> A term is converted with, in order, a length the documents state, the institution's 2017–18 academic calendar (longest regular term, rounded up to whole weeks), v1.0's length, and 16 weeks for a semester or 11 for a quarter.</li>
+      <li><b>Ranges (R13b).</b> A stated range counts at its lower value; the upper value is kept in the <code>_max</code> columns.</li>
+      <li><b>Discretionary benefits (R12, V2).</b> Benefits the faculty member is given, with approval only of the arrangements, are guaranteed; benefits whose approval decides whether there is one are discretionary, and are counted only in the <code>_disc</code> columns.</li>
+      <li><b>The two parents (R5, R6).</b> The two parents are the birth parent and their partner; adoption and foster provisions are recorded but not counted; primary-caregiver conditions are gender-neutral.</li>
+    </ul>
+  </section>
+
+  <section class="sec" id="files-sec">
+    <h2><span class="num">5</span>Files in this release</h2>
+    <p>The files of the 2018 v2.0 release are in the folder <code>data/2018/v2.0/</code> of the GitHub repository <a href="https://github.com/aaronclauset/parental-leave">aaronclauset/parental-leave</a>. The columns of the data set are described in the <a href="https://github.com/aaronclauset/parental-leave/blob/master/data/2018/v2.0/DATA_DICTIONARY.md">data dictionary</a>.</p>
+    <table class="plain" id="fileTable"></table>
+    <p class="note"><code>code/test_rebuild.py</code> rebuilds the data files from the encodings and checks them byte for byte against the released files.</p>
+  </section>
+</main>
+</div>
+<script>
+(async () => {
+  PL.sideNav();
+  const { csv, diffs, manifest } = await PL.load("csv", "diffs", "manifest");
+  const set = (k, v) => document.querySelectorAll(`[data-n="${k}"]`).forEach(e => (e.textContent = v));
+  const list = names => (names.length < 2 ? names.join("") : names.slice(0, -1).join(", ") + " and " + names[names.length - 1]);
+  const WORD = ["no cases", "one case", "two cases", "three cases", "four cases", "five cases"];
+  const LABEL = { rule_difference: "Rule difference", v1_missing_now_found: "Missing provision", v1_error: "Error in v1.0",
+    different_reference_date: "Different reference date", not_determinable: "Not determinable",
+    discretionary_provisions: "Discretionary benefits" };
+  const lab = k => LABEL[k] || k;
+  const v1Relief = { "": true, "Not specified": true };
+
+  // 1. agreement, computed from the differences file (the same rule as code/build_differences.py)
+  set("institutions", csv.length);
+  const agreeOne = (d, p, disc = false) => {
+    const a = PL.num(d[`v1_${p}_weeks`]), b = PL.num(d[`v2_${p}_weeks${disc ? "_disc" : ""}`]);
+    const rv1 = d[`v1_${p}_relief`], rv2 = d[`v2_${p}_relief${disc ? "_disc" : ""}`];
+    if (!Number.isFinite(a)) return null;
+    return b != null && Math.abs(a - b) <= 1 && (v1Relief[rv1] || rv1 === rv2 || (a === 0 && b === 0));
+  };
+  for (const [p, key] of [["birth", "Birth"], ["nonbirth", "Nonbirth"]]) {
+    const comp = diffs.filter(d => agreeOne(d, p) !== null), ok = comp.filter(d => agreeOne(d, p));
+    set(`agree${key}`, ok.length); set(`comp${key}`, comp.length); set(`pct${key}`, PL.pct(ok.length, comp.length));
+  }
+  const compared = diffs.filter(d => d.agree_guaranteed !== "");
+  set("compared", compared.length);
+  set("agreeBoth", compared.filter(d => d.agree_guaranteed === "1").length);
+  const birthDiff = diffs.filter(d => agreeOne(d, "birth") === false);
+  const kind = d => { const a = PL.num(d.v1_birth_weeks), b = PL.num(d.v2_birth_weeks);
+    return b == null ? "noValue" : b > a + 1 ? "higher" : b < a - 1 ? "lower" : "reliefOnly"; };
+  const kinds = d3.rollup(birthDiff, v => v.length, kind);
+  set("nDiff", birthDiff.length);
+  ["higher", "lower", "reliefOnly", "noValue"].forEach(k => set(k, kinds.get(k) || 0));
+  set("noValueNames", list(birthDiff.filter(d => kind(d) === "noValue").map(d => d.institution)));
+  set("medV2", PL.fmt(PL.median(csv.map(d => d.birth_weeks))));
+  set("medV1", PL.fmt(PL.median(diffs.map(d => PL.num(d.v1_birth_weeks)).filter(Number.isFinite))));
+  const byCause = d3.rollup(birthDiff, v => v.length, d => d.cause_guaranteed);
+  for (const k of Object.keys(LABEL)) {
+    const n = byCause.get(k) || 0;
+    set(`c_${k}`, k === "rule_difference" ? `${n} (${PL.pct(n, birthDiff.length)}%)` : k === "not_determinable" ? n : `${n} (${PL.pct(n, birthDiff.length)}%)`);
+    set(`c_${k}_word`, WORD[n] || `${n} cases`);
+  }
+
+  // 2. coverage
+  const unavailable = csv.filter(d => d.values_available !== "yes");
+  set("unavailable", unavailable.length);
+  set("unavailableNames", list(unavailable.map(d => d.institution)));
+  const v1Missing = diffs.filter(d => d.agree_guaranteed === "");
+  set("v1Missing", v1Missing.length);
+  set("v1MissingNames", list(v1Missing.map(d => d.institution)));
+
+  // figure: v2.0 against v1.0, with motion when the parent, the variant or the cause changes
+  const root = document.getElementById("scatter");
+  const ctl = d3.select(root).append("div").attr("class", "controls");
+  const st = { parent: "birth", disc: false, cause: "all" };
+  const refresh = [
+    PL.seg(ctl.node(), [["birth", "birth parent"], ["nonbirth", "non-birth parent"]], () => st.parent, v => { st.parent = v; draw(); }, "parent"),
+    PL.seg(ctl.node(), [[false, "guaranteed"], [true, "with discretionary"]], () => st.disc, v => { st.disc = v; draw(); }, "benefits counted"),
+  ];
+  const sel = ctl.append("label").text("highlight ").append("select").on("change", e => { st.cause = e.target.value; draw(); PL.announce(summaryText); });
+  sel.append("option").attr("value", "all").text("every difference");
+  Object.keys(LABEL).filter(k => diffs.some(d => d.cause_guaranteed === k || d.cause_discretionary === k))
+    .forEach(k => sel.append("option").attr("value", k).text(lab(k)));
+  const chart = d3.select(root).append("div").attr("class", "chart");
+  const svg = chart.append("svg").attr("role", "img").attr("aria-label", "v2.0 against v1.0 values");
+  const tip = PL.tipper(chart.node());
+  const summary = PL.describe(svg, "scatter-summary", "scatter-caption");
+  let summaryText = "";
+  // drawn at the chart's real width (at most 620), so its text keeps its size on a phone
+  const m = { l: 56, r: 16, t: 14, b: 48 }, T = 600;
+  let W = 620, H = 560;
+  const x = d3.scaleLinear().domain([-1, 54]), y = d3.scaleLinear().domain([-1, 54]);
+  const band = svg.append("path").attr("fill", "var(--side)");
+  const diag = svg.append("path").attr("stroke", "var(--rule)").attr("stroke-width", 1.2);
+  const gX = svg.append("g"), gY = svg.append("g").attr("transform", `translate(${m.l},0)`);
+  function frame() {
+    W = PL.chartWidth(chart.node(), 620); H = Math.round(W * 0.9);
+    const ticks = PL.narrow(W) ? [0, 16, 32, 52] : [0, 8, 16, 24, 32, 40, 52];
+    x.range([m.l, W - m.r]); y.range([H - m.b, m.t]);
+    svg.attr("viewBox", `0 0 ${W} ${H}`);
+    band.attr("d", `M${x(-1)},${y(-1) - (y(0) - y(1))}L${x(54)},${y(54) - (y(0) - y(1))}L${x(54)},${y(54) + (y(0) - y(1))}L${x(-1)},${y(-1) + (y(0) - y(1))}Z`);
+    diag.attr("d", `M${x(-1)},${y(-1)}L${x(54)},${y(54)}`);
+    gX.attr("transform", `translate(0,${H - m.b})`).call(d3.axisBottom(x).tickValues(ticks))
+      .call(a => a.selectAll("text").attr("fill", "var(--ink)").attr("font-size", 12));
+    gY.call(d3.axisLeft(y).tickValues(ticks)).call(a => a.selectAll("text").attr("fill", "var(--ink)").attr("font-size", 12));
+    xLabel.attr("x", (m.l + W - m.r) / 2).attr("y", H - 8);
+    yLabel.attr("transform", `translate(14,${(H - m.b + m.t) / 2}) rotate(-90)`);
+  }
+  const xLabel = svg.append("text").attr("x", (m.l + W - m.r) / 2).attr("y", H - 8).attr("text-anchor", "middle").attr("font-size", 12).attr("fill", "var(--ink)");
+  const yLabel = svg.append("text").attr("transform", `translate(14,${(H - m.b + m.t) / 2}) rotate(-90)`).attr("text-anchor", "middle")
+    .attr("font-size", 12).attr("fill", "var(--ink)");
+  const gPts = svg.append("g");
+  const jitter = (id, salt) => { let h = salt; for (const c of id) h = (h * 31 + c.charCodeAt(0)) >>> 0; return ((h % 1000) / 1000 - 0.5) * 1.2; };
+  let first = true;
+  function draw(instant = false) {
+    refresh.forEach(f => f());
+    frame();
+    const t = svg.transition().duration(first || instant ? 0 : PL.dur(T)).ease(d3.easeCubicInOut);
+    first = false;
+    const variant = st.disc ? "discretionary" : "guaranteed", suffix = st.disc ? "_disc" : "";
+    xLabel.text(`v1.0 weeks, ${PL.parentName(st.parent)}`);
+    yLabel.text(`v2.0 weeks (${st.disc ? "with discretionary" : "guaranteed"}), ${PL.parentName(st.parent)}`);
+    const pts = diffs.map(d => ({ d, a: PL.num(d[`v1_${st.parent}_weeks`]), b: PL.num(d[`v2_${st.parent}_weeks${suffix}`]) }))
+      .filter(p => Number.isFinite(p.a) && Number.isFinite(p.b));  // v1.0 writes a missing value as NA
+    const differs = p => agreeOne(p.d, st.parent, st.disc) === false;
+    const cause = p => p.d[`cause_${variant}`];
+    const on = p => differs(p) && (st.cause === "all" || cause(p) === st.cause);
+    pts.sort((p, q) => on(p) - on(q));
+    gPts.selectAll("circle").data(pts, p => p.d.institution_id)
+      .join(enter => enter.append("circle").attr("r", 3.4).attr("stroke", "#fff").attr("stroke-width", 0.7)
+        .attr("cx", p => x(Math.min(p.a, 53.5) + jitter(p.d.institution_id, 7)))
+        .attr("cy", p => y(Math.min(p.b, 53.5) + jitter(p.d.institution_id, 13))).style("opacity", 0))
+      .order()
+      .on("mouseenter mousemove", (e, p) => tip.show(e, `<b>${p.d.institution}</b><br>v1.0 ${PL.fmt(p.a)}, v2.0 ${PL.fmt(p.b)}` +
+        (differs(p) && cause(p) ? `<br><i>${lab(cause(p))}</i>: ${p.d[`explanation_${variant}`]}` : "")))
+      .on("mouseleave", () => tip.hide())
+      .transition(t).style("opacity", 1)
+      .attr("cx", p => x(Math.min(p.a, 53.5) + jitter(p.d.institution_id, 7)))
+      .attr("cy", p => y(Math.min(p.b, 53.5) + jitter(p.d.institution_id, 13)))
+      .attr("r", p => (on(p) ? 4.4 : 3.2))
+      .attr("fill", p => (on(p) ? "var(--accent)" : "var(--gray)"));
+    // the text alternative; the table in section 3 lists every institution's values
+    const nOn = pts.filter(on).length;
+    summaryText = `${pts.length} institutions with a value in both versions, ${PL.parentName(st.parent)}, ${st.disc ? "with discretionary benefits" : "guaranteed"}: ` +
+      `${pts.filter(differs).length} differ. ${st.cause === "all" ? "" : `Highlighted, ${lab(st.cause)}: ${nOn}. `}` +
+      "The table in section 3 lists every institution's values.";
+    summary(summaryText);
+  }
+  draw();
+  PL.onResize(chart.node(), () => draw(true));
+
+  // 3. causes by institution, and the searchable table
+  const cg = d3.rollup(diffs.filter(d => d.cause_guaranteed), v => v.length, d => d.cause_guaranteed);
+  const cd = d3.rollup(diffs.filter(d => d.cause_discretionary), v => v.length, d => d.cause_discretionary);
+  const keys = Object.keys(LABEL).filter(k => cg.has(k) || cd.has(k));
+  d3.select("#causeTable").html(`<caption class="visually-hidden">Institutions by cause of difference</caption><tr><th scope="col">Cause</th><th scope="col">Institutions (guaranteed)</th><th scope="col">Institutions (with discretionary)</th></tr>` +
+    keys.map(k => `<tr><td>${lab(k)}</td><td>${cg.get(k) || 0}</td><td>${cd.get(k) || 0}</td></tr>`).join("") +
+    `<tr><td><b>Total</b></td><td><b>${d3.sum(cg.values())}</b></td><td><b>${d3.sum(cd.values())}</b></td></tr>`);
+  const tctl = d3.select("#tableControls");
+  let q = "", only = true;
+  tctl.append("label").text("search ").append("input").attr("type", "search").attr("placeholder", "institutions or explanations")
+    .on("input", e => { q = e.target.value.toLowerCase(); table(); });
+  tctl.append("label").attr("class", "chk").call(l => { l.append("input").attr("type", "checkbox").property("checked", true).on("change", e => { only = e.target.checked; table(); });
+    l.append("span").text("only institutions that differ"); });
+  let tableDrawn = false;
+  function table() {
+    const rows = diffs.filter(d => (!only || d.agree_guaranteed === "0" || d.agree_discretionary === "0") &&
+      (!q || (d.institution + d.explanation_guaranteed + d.explanation_discretionary).toLowerCase().includes(q)));
+    if (tableDrawn) PL.announce(`${rows.length} institution${rows.length === 1 ? "" : "s"} shown.`, 700);
+    tableDrawn = true;
+    d3.select("#diffTable").html(`<caption class="visually-hidden">v1.0 and v2.0 values of each institution, with the cause of each difference</caption><tr><th scope="col">Institution</th><th scope="col">v1.0 birth / non-birth</th><th scope="col">v2.0 birth / non-birth</th><th scope="col">Cause (guaranteed)</th><th scope="col">Explanation</th></tr>` +
+      rows.map(d => `<tr><td>${d.institution}</td><td>${d.v1_birth_weeks || "–"} / ${d.v1_nonbirth_weeks || "–"}</td>` +
+        `<td>${PL.fmt(PL.num(d.v2_birth_weeks))} / ${PL.fmt(PL.num(d.v2_nonbirth_weeks))}</td>` +
+        `<td>${d.cause_guaranteed ? lab(d.cause_guaranteed) : d.agree_guaranteed === "1" ? "agree" : "–"}${d.cause_discretionary && d.cause_discretionary !== d.cause_guaranteed ? `<br><span class="note">with discretionary: ${lab(d.cause_discretionary)}</span>` : ""}</td>` +
+        `<td>${d.explanation_guaranteed || d.explanation_discretionary || ""}</td></tr>`).join(""));
+  }
+  table();
+
+  // 5. files, with sizes; a folder links to its listing on GitHub, a Markdown file to GitHub's rendered view
+  const REPO_TREE = "https://github.com/aaronclauset/parental-leave/tree/master/";
+  const REPO_BLOB = "https://github.com/aaronclauset/parental-leave/blob/master/";  // Markdown, rendered by GitHub (Pages serves it raw)
+  d3.select("#fileTable").html(`<caption class="visually-hidden">Files in this release, with their sizes</caption><tr><th scope="col">File</th><th scope="col">Size</th></tr>` +
+    manifest.files.map(f => `<tr><td><a href="${f.path.endsWith("/") ? REPO_TREE + PL.VERSION + f.path : f.path.endsWith(".md") ? REPO_BLOB + PL.VERSION + f.path : PL.BASE + PL.VERSION + f.path}">${f.path}</a></td><td>${f.size}</td></tr>`).join(""));
+})();
+</script>
+</body>
+</html>

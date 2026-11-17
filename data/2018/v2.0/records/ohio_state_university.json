@@ -1,0 +1,2492 @@
+{
+ "institution": "Ohio State University",
+ "slug": "ohio_state_university",
+ "country": "US",
+ "model": "claude-opus-5-5",
+ "codebook_version": "1.25",
+ "schema_version": "1.25",
+ "reference_date": "2018-02-25",
+ "calendar": {
+  "term_weeks": null,
+  "note": "Semester calendar stated ('the first day of autumn semester'; 'each semester of leave without pay'); no length stated, semester default (R8).",
+  "kind": "semester"
+ },
+ "documents": [
+  {
+   "doc_id": "2018_00_link",
+   "url": "https://hr.osu.edu/wp-content/uploads/parental-care-guidebook.pdf",
+   "title": "Parental Care Guidebook, Revised 10/01/18 (postdates the reference date)",
+   "version_or_effective_date": "Revised 10/01/18 (Wayback 2018-10-01)",
+   "retrieved": "2026-10-22T02:14:22+00:00"
+  },
+  {
+   "doc_id": "2018_01_paid_leave_programs_policy_6_27",
+   "url": "https://hr.osu.edu/public/documents/policy/policy627.pdf",
+   "title": "HR Policy 6.27 Paid Leave Programs",
+   "version_or_effective_date": "Issued 06/22/1997, Revised 05/01/2013, Edited 03/13/2017",
+   "retrieved": "2026-10-22T02:53:19+00:00"
+  },
+  {
+   "doc_id": "2018_02_family_medical_leave_policy_6_05",
+   "url": "https://hr.osu.edu/public/documents/policy/policy605.pdf",
+   "title": "HR Policy 6.05 Family and Medical Leave",
+   "version_or_effective_date": "Issued 08/18/1993, Revision Date 02/01/2015",
+   "retrieved": "2026-10-22T02:53:24+00:00"
+  },
+  {
+   "doc_id": "2018_03_parental_care_guidebook_rev2013",
+   "url": "https://hr.osu.edu/wp-content/uploads/parental-care-guidebook.pdf",
+   "title": "Parental Care Guidebook, Revised 07/01/13",
+   "version_or_effective_date": "Revised 07/01/13 (Wayback 2016-12-15)",
+   "retrieved": "2026-10-22T02:53:26+00:00"
+  },
+  {
+   "doc_id": "2018_04_faculty_rules_ch3335_6_appointments_tenure",
+   "url": "http://trustees.osu.edu:80/rules/university-rules/chapter-3335-6-rules-of-the-university-faculty-concerning-faculty-appointments-reappointments-promotion-and-tenure.html",
+   "title": "Rules of the University Faculty, Chapter 3335-6 (appointments, promotion and tenure)",
+   "version_or_effective_date": "Wayback 2017-02-03; 3335-6-03 board approval through 6/6/2014",
+   "retrieved": "2026-10-22T03:01:50+00:00"
+  },
+  {
+   "doc_id": "2018_05_oaa_faculty_appointments_policy",
+   "url": "http://oaa.osu.edu:80/sites/default/files/links_files/facultyappointments_0.pdf",
+   "title": "OAA University Policy: Faculty Appointments",
+   "version_or_effective_date": "Issued 07/20/2004, Revised 04/04/2014, Reviewed 08/22/2016",
+   "retrieved": "2026-10-22T03:02:09+00:00"
+  },
+  {
+   "doc_id": "2018_06_asc_modified_duties_guidelines_rev2014",
+   "url": "https://ascbsc.osu.edu/sites/default/files/2023-06/parental_and_family_leave_policies_7.1.14.pdf",
+   "title": "College of Arts and Sciences POA Appendix B: Guidelines on Modification of Duties under the University's Parental and Family Leave Policies",
+   "version_or_effective_date": "Rev. 07.01.2014; OAA Approval 12/23/14",
+   "retrieved": "2026-10-22T03:02:22+00:00"
+  },
+  {
+   "doc_id": "2018_07_unpaid_leave_policy_6_45",
+   "url": "https://hr.osu.edu/public/documents/policy/policy645.pdf",
+   "title": "HR Policy 6.45 Unpaid Leave",
+   "version_or_effective_date": "Issued 10/01/1973, Edited 04/15/2014",
+   "retrieved": "2026-10-22T03:03:25+00:00"
+  }
+ ],
+ "missing": false,
+ "scope_accounting": {
+  "C1": {
+   "components": [
+    "ohio_state_university_c1",
+    "ohio_state_university_c3",
+    "ohio_state_university_c17"
+   ]
+  },
+  "C2": {
+   "components": [
+    "ohio_state_university_c10",
+    "ohio_state_university_c15",
+    "ohio_state_university_c16"
+   ]
+  },
+  "C3": {
+   "components": [
+    "ohio_state_university_c2",
+    "ohio_state_university_c4",
+    "ohio_state_university_c11",
+    "ohio_state_university_c12",
+    "ohio_state_university_c13",
+    "ohio_state_university_c14"
+   ]
+  },
+  "C4": {
+   "components": [
+    "ohio_state_university_c3"
+   ],
+   "not_components": [
+    {
+     "statute": "Family and Medical Leave Act, military caregiver leave (26 workweeks) and qualifying exigency leave (29 U.S.C. 2612(a)(1)(E), (a)(3); 29 CFR 825.126)",
+     "reason": "U4: other sections of the Act not relied on for becoming a parent (servicemember care and military exigency)"
+    },
+    {
+     "statute": "Americans with Disabilities Act (ADA)",
+     "reason": "U4: disability-accommodation statute (6.05 V.B.2 accommodations for a serious health condition); not a component"
+    },
+    {
+     "statute": "Uniformed Services Employment and Reemployment Rights Act (USERRA)",
+     "reason": "U4: military service; used only to count service toward FML eligibility"
+    },
+    {
+     "statute": "Genetic Information Non-Discrimination Act (GINA)",
+     "reason": "U4: anti-discrimination statute listed among resources; no leave, pay or protection for becoming a parent"
+    },
+    {
+     "statute": "Ohio Classified Civil Service Rules, Chapter 73 (Unpaid Leaves)",
+     "reason": "applies to classified civil service staff only, not faculty; not saved"
+    },
+    {
+     "statute": "State Teachers Retirement System of Ohio (STRS) and Ohio Public Employees Retirement System (OPERS) service-credit provisions",
+     "reason": "U4: retirement service credit for unpaid leave; no leave, pay or job protection"
+    }
+   ]
+  },
+  "C5": {
+   "components": [
+    "ohio_state_university_c3"
+   ]
+  },
+  "C6": {
+   "components": [
+    "ohio_state_university_c5",
+    "ohio_state_university_c13",
+    "ohio_state_university_c14"
+   ]
+  },
+  "C7": {
+   "components": [
+    "ohio_state_university_c6",
+    "ohio_state_university_c7",
+    "ohio_state_university_c8"
+   ]
+  },
+  "C8": {
+   "components": [
+    "ohio_state_university_c9"
+   ]
+  },
+  "C9": {
+   "absent": {
+    "documents": [
+     "2018_00_link",
+     "2018_01_paid_leave_programs_policy_6_27",
+     "2018_02_family_medical_leave_policy_6_05",
+     "2018_03_parental_care_guidebook_rev2013",
+     "2018_04_faculty_rules_ch3335_6_appointments_tenure",
+     "2018_05_oaa_faculty_appointments_policy",
+     "2018_06_asc_modified_duties_guidelines_rev2014",
+     "2018_07_unpaid_leave_policy_6_45"
+    ],
+    "terms": [
+     "accommodation",
+     "pregnan",
+     "transfer",
+     "hazard",
+     "light duty",
+     "lactation",
+     "less strenuous",
+     "equal"
+    ]
+   }
+  },
+  "C10": {
+   "absent": {
+    "documents": [
+     "2018_00_link",
+     "2018_01_paid_leave_programs_policy_6_27",
+     "2018_02_family_medical_leave_policy_6_05",
+     "2018_03_parental_care_guidebook_rev2013",
+     "2018_04_faculty_rules_ch3335_6_appointments_tenure",
+     "2018_05_oaa_faculty_appointments_policy",
+     "2018_06_asc_modified_duties_guidelines_rev2014",
+     "2018_07_unpaid_leave_policy_6_45"
+    ],
+    "terms": [
+     "first days",
+     "regular work time",
+     "FML paid",
+     "paid FML",
+     "qualifying event pay",
+     "excused absence"
+    ]
+   }
+  }
+ },
+ "passage_dispositions": {
+  "2018_00_link#001": {
+   "not_relevant": "contact information (post-reference copy)"
+  },
+  "2018_00_link#002": {
+   "not_relevant": "contact information and table of contents"
+  },
+  "2018_00_link#003": {
+   "not_relevant": "table of contents"
+  },
+  "2018_00_link#004": {
+   "used_in": [
+    "ohio_state_university_c17"
+   ]
+  },
+  "2018_00_link#005": {
+   "not_relevant": "health plan medical benefits; no leave or pay"
+  },
+  "2018_00_link#006": {
+   "not_relevant": "health plan programmes, benefit continuation, adoption expense reimbursement, infertility coverage; no time off or pay for leave"
+  },
+  "2018_00_link#007": {
+   "not_relevant": "flexible spending accounts"
+  },
+  "2018_00_link#008": {
+   "not_relevant": "STD description in the copy revised 10/01/18 (after the reference date); STD coded from 2018_03 (c11)"
+  },
+  "2018_00_link#009": {
+   "not_relevant": "STD benefit and example in the copy revised 10/01/18; coded from 2018_03 (c11); life insurance"
+  },
+  "2018_00_link#010": {
+   "used_in": [
+    "ohio_state_university_c17"
+   ]
+  },
+  "2018_00_link#011": {
+   "used_in": [
+    "ohio_state_university_c17"
+   ]
+  },
+  "2018_00_link#012": {
+   "used_in": [
+    "ohio_state_university_c17"
+   ]
+  },
+  "2018_01_paid_leave_programs_policy_6_27#001": {
+   "used_in": [
+    "ohio_state_university_c1",
+    "ohio_state_university_c13",
+    "ohio_state_university_c14"
+   ]
+  },
+  "2018_01_paid_leave_programs_policy_6_27#002": {
+   "used_in": [
+    "ohio_state_university_c1",
+    "ohio_state_university_c2",
+    "ohio_state_university_c3",
+    "ohio_state_university_c13"
+   ]
+  },
+  "2018_01_paid_leave_programs_policy_6_27#003": {
+   "used_in": [
+    "ohio_state_university_c14",
+    "ohio_state_university_c1"
+   ]
+  },
+  "2018_01_paid_leave_programs_policy_6_27#004": {
+   "used_in": [
+    "ohio_state_university_c14"
+   ]
+  },
+  "2018_01_paid_leave_programs_policy_6_27#005": {
+   "used_in": [
+    "ohio_state_university_c1",
+    "ohio_state_university_c6",
+    "ohio_state_university_c14"
+   ]
+  },
+  "2018_02_family_medical_leave_policy_6_05#001": {
+   "used_in": [
+    "ohio_state_university_c3"
+   ]
+  },
+  "2018_02_family_medical_leave_policy_6_05#002": {
+   "used_in": [
+    "ohio_state_university_c3"
+   ]
+  },
+  "2018_02_family_medical_leave_policy_6_05#003": {
+   "used_in": [
+    "ohio_state_university_c3"
+   ]
+  },
+  "2018_02_family_medical_leave_policy_6_05#004": {
+   "used_in": [
+    "ohio_state_university_c3"
+   ]
+  },
+  "2018_02_family_medical_leave_policy_6_05#005": {
+   "used_in": [
+    "ohio_state_university_c3"
+   ]
+  },
+  "2018_02_family_medical_leave_policy_6_05#006": {
+   "used_in": [
+    "ohio_state_university_c3"
+   ]
+  },
+  "2018_02_family_medical_leave_policy_6_05#007": {
+   "used_in": [
+    "ohio_state_university_c3"
+   ]
+  },
+  "2018_02_family_medical_leave_policy_6_05#008": {
+   "used_in": [
+    "ohio_state_university_c3"
+   ]
+  },
+  "2018_02_family_medical_leave_policy_6_05#009": {
+   "used_in": [
+    "ohio_state_university_c3",
+    "ohio_state_university_c15"
+   ]
+  },
+  "2018_02_family_medical_leave_policy_6_05#010": {
+   "used_in": [
+    "ohio_state_university_c3",
+    "ohio_state_university_c15"
+   ]
+  },
+  "2018_02_family_medical_leave_policy_6_05#011": {
+   "not_relevant": "forms and resource list; ADA and GINA named here are listed under C4 not_components"
+  },
+  "2018_03_parental_care_guidebook_rev2013#001": {
+   "not_relevant": "contact information"
+  },
+  "2018_03_parental_care_guidebook_rev2013#002": {
+   "not_relevant": "contact information and table of contents"
+  },
+  "2018_03_parental_care_guidebook_rev2013#003": {
+   "not_relevant": "table of contents"
+  },
+  "2018_03_parental_care_guidebook_rev2013#004": {
+   "used_in": [
+    "ohio_state_university_c1",
+    "ohio_state_university_c2",
+    "ohio_state_university_c3",
+    "ohio_state_university_c4",
+    "ohio_state_university_c5"
+   ]
+  },
+  "2018_03_parental_care_guidebook_rev2013#005": {
+   "used_in": [
+    "ohio_state_university_c1",
+    "ohio_state_university_c3",
+    "ohio_state_university_c5",
+    "ohio_state_university_c16"
+   ]
+  },
+  "2018_03_parental_care_guidebook_rev2013#006": {
+   "not_relevant": "health plan medical benefits"
+  },
+  "2018_03_parental_care_guidebook_rev2013#007": {
+   "not_relevant": "health plan programmes, benefit continuation while on leave, adoption expense reimbursement, infertility coverage; no time off or pay for leave"
+  },
+  "2018_03_parental_care_guidebook_rev2013#008": {
+   "not_relevant": "flexible spending accounts"
+  },
+  "2018_03_parental_care_guidebook_rev2013#009": {
+   "used_in": [
+    "ohio_state_university_c11",
+    "ohio_state_university_c1"
+   ]
+  },
+  "2018_03_parental_care_guidebook_rev2013#010": {
+   "used_in": [
+    "ohio_state_university_c1",
+    "ohio_state_university_c5",
+    "ohio_state_university_c16"
+   ]
+  },
+  "2018_03_parental_care_guidebook_rev2013#011": {
+   "used_in": [
+    "ohio_state_university_c9",
+    "ohio_state_university_c6",
+    "ohio_state_university_c7"
+   ]
+  },
+  "2018_03_parental_care_guidebook_rev2013#012": {
+   "used_in": [
+    "ohio_state_university_c1",
+    "ohio_state_university_c3"
+   ]
+  },
+  "2018_04_faculty_rules_ch3335_6_appointments_tenure#001": {
+   "not_relevant": "general considerations on peer review"
+  },
+  "2018_04_faculty_rules_ch3335_6_appointments_tenure#002": {
+   "not_relevant": "criteria for appointment and promotion"
+  },
+  "2018_04_faculty_rules_ch3335_6_appointments_tenure#003": {
+   "not_relevant": "criteria for tenure"
+  },
+  "2018_04_faculty_rules_ch3335_6_appointments_tenure#004": {
+   "not_relevant": "college APT documents and probationary period lengths (context only)"
+  },
+  "2018_04_faculty_rules_ch3335_6_appointments_tenure#005": {
+   "not_relevant": "probationary period length and annual review"
+  },
+  "2018_04_faculty_rules_ch3335_6_appointments_tenure#006": {
+   "not_relevant": "annual and fourth-year review"
+  },
+  "2018_04_faculty_rules_ch3335_6_appointments_tenure#007": {
+   "used_in": [
+    "ohio_state_university_c6",
+    "ohio_state_university_c7",
+    "ohio_state_university_c8"
+   ]
+  },
+  "2018_04_faculty_rules_ch3335_6_appointments_tenure#008": {
+   "not_relevant": "promotion and tenure review procedures"
+  },
+  "2018_04_faculty_rules_ch3335_6_appointments_tenure#009": {
+   "not_relevant": "review procedures and appeals"
+  },
+  "2018_04_faculty_rules_ch3335_6_appointments_tenure#010": {
+   "not_relevant": "tenure initiating unit definition"
+  },
+  "2018_05_oaa_faculty_appointments_policy#001": {
+   "not_relevant": "shared positions and courtesy appointments"
+  },
+  "2018_05_oaa_faculty_appointments_policy#002": {
+   "used_in": [
+    "ohio_state_university_c9",
+    "ohio_state_university_c8"
+   ]
+  },
+  "2018_05_oaa_faculty_appointments_policy#003": {
+   "not_relevant": "rehiring retired or departed faculty"
+  },
+  "2018_05_oaa_faculty_appointments_policy#004": {
+   "not_relevant": "endowed chair and emeritus procedures"
+  },
+  "2018_05_oaa_faculty_appointments_policy#005": {
+   "used_in": [
+    "ohio_state_university_c9"
+   ]
+  },
+  "2018_05_oaa_faculty_appointments_policy#006": {
+   "used_in": [
+    "ohio_state_university_c9"
+   ]
+  },
+  "2018_05_oaa_faculty_appointments_policy#007": {
+   "used_in": [
+    "ohio_state_university_c9"
+   ]
+  },
+  "2018_06_asc_modified_duties_guidelines_rev2014#001": {
+   "used_in": [
+    "ohio_state_university_c10"
+   ]
+  },
+  "2018_07_unpaid_leave_policy_6_45#001": {
+   "used_in": [
+    "ohio_state_university_c4",
+    "ohio_state_university_c5"
+   ]
+  },
+  "2018_07_unpaid_leave_policy_6_45#002": {
+   "not_relevant": "entrepreneurial leave details and retirement service credit"
+  },
+  "2018_07_unpaid_leave_policy_6_45#003": {
+   "used_in": [
+    "ohio_state_university_c5",
+    "ohio_state_university_c4"
+   ]
+  },
+  "2018_07_unpaid_leave_policy_6_45#004": {
+   "not_relevant": "staff leave procedure and resource list"
+  },
+  "2018_07_unpaid_leave_policy_6_45#005": {
+   "not_relevant": "contacts and history"
+  }
+ },
+ "mechanism_slots": {
+  "employer_paid_leave": {
+   "components": [
+    "ohio_state_university_c1",
+    "ohio_state_university_c17"
+   ]
+  },
+  "employer_childbirth_benefit": {
+   "components": [
+    "ohio_state_university_c11"
+   ]
+  },
+  "generic_sick_or_disability_plan": {
+   "components": [
+    "ohio_state_university_c12"
+   ]
+  },
+  "own_accrual": {
+   "components": [
+    "ohio_state_university_c2",
+    "ohio_state_university_c13"
+   ]
+  },
+  "donated_leave": {
+   "components": [
+    "ohio_state_university_c14"
+   ]
+  },
+  "government_benefit": {
+   "absent": "no government or state paid benefit named; Ohio has no state paid family or disability programme in the documents. Searched all eight documents for 'state', 'Ohio', 'insurance', 'benefit', 'unemployment', 'disability'"
+  },
+  "employer_topup": {
+   "absent": "no top-up of a government benefit; searched all eight documents for 'top', 'supplement', 'integrated', 'difference'"
+  },
+  "modified_duties": {
+   "components": [
+    "ohio_state_university_c10"
+   ]
+  },
+  "unpaid_leave": {
+   "components": [
+    "ohio_state_university_c3",
+    "ohio_state_university_c4",
+    "ohio_state_university_c5"
+   ]
+  },
+  "tenure_clock": {
+   "components": [
+    "ohio_state_university_c6",
+    "ohio_state_university_c7",
+    "ohio_state_university_c8"
+   ]
+  },
+  "part_time_option": {
+   "components": [
+    "ohio_state_university_c9"
+   ]
+  },
+  "other": {
+   "components": [
+    "ohio_state_university_c15",
+    "ohio_state_university_c16"
+   ]
+  }
+ },
+ "baseline_accounting": {
+  "Family and Medical Leave Act (FMLA)": {
+   "components": [
+    "ohio_state_university_c3"
+   ]
+  },
+  "Federal Employee Paid Leave Act (paid parental leave for federal civilian employees)": {
+   "not_applicable": "covers federal civilian employees only; no saved document mentions it"
+  }
+ },
+ "leave_limits": [],
+ "components": [
+  {
+   "component_id": "ohio_state_university_c1",
+   "institution_label": "Parental Leave",
+   "description": "Paid parental leave under HR Policy 6.27: 120 hours (three work weeks at 100% FTE) for every eligible parent; birth mothers may take an additional 120 hours for recovery from childbirth (240 hours, six work weeks), at 100% of regular pay.",
+   "mechanism": "employer_paid_leave",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Policy 6.27 'Applies to: Faculty and staff'; eligibility: a regular appointment or associated faculty appointment of at least 75% FTE",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive",
+    "surrogacy"
+   ],
+   "eligible_parent_wording": "birth mother; parent (one who is not the birth mother: father, mother, spouse, adoptive parent, domestic partner, or employee using a surrogate/gestational carrier)",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "'can take' and 'is a benefit of employment': the text grants the leave to eligible employees; the request through eLeave and departmental scheduling cover the arrangements (V2). Para. 5: parental leave 'will still be granted as specified in this policy'.",
+   "duration": {
+    "value": 120,
+    "units": "hour",
+    "qualifier": "up_to"
+   },
+   "duration_by_role": {
+    "birth": {
+     "value": 240,
+     "units": "hour",
+     "qualifier": "up_to"
+    },
+    "nonbirth": {
+     "value": 120,
+     "units": "hour",
+     "qualifier": "up_to"
+    }
+   },
+   "duration_note": "120 hours = three work weeks and 240 hours = six work weeks at 100% FTE (pro-rated by FTE). Stillbirth: a maximum of two weeks. Employees reaching one year of service while on leave for the birth receive a pro-rated portion.",
+   "pay_fraction": "100% of the employee’s regular pay (based upon FTE)",
+   "service_requirement": "at least one year of service before the birth or adoptive event, with at least 1,560 hours (75% FTE equivalent) of active pay status in the preceding 12 months; regular or associated faculty appointment of at least 75% FTE",
+   "dual_employee_rule": "each may take (one benefit per employee, per birth or adoptive event)",
+   "time_window": "commences following the birth or adoption (earlier when medically necessary or legally required for adoption); non-birth parents may take it prior to the event and/or during the first year following; a birth mother returning early may take the remainder intermittently within one year from the birth",
+   "notice": "written notice to the department as far in advance as possible; eLeave request",
+   "runs_concurrently_with": [
+    "FMLA"
+   ],
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "relief_note": "A paid leave of absence with no relief stated: all duties relieved (R9).",
+   "sequence": [
+    {
+     "relation": "within",
+     "component_id": "ohio_state_university_c10",
+     "note": "College of Arts and Sciences only: leave combined with ASC modified duties may not exceed one academic semester, so the semester of modified duties contains the leave (R3b). Ignored for main-campus figures because c10 is scope-limited (V3b)."
+    }
+   ],
+   "rule_applied": [
+    "V2",
+    "R9",
+    "R3b",
+    "R5",
+    "R11",
+    "S1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Applies to:          Faculty and staff",
+     "The faculty or staff member holds a regular appointment or associated faculty appointment of at least 75% FTE."
+    ],
+    "eligible_parent": [
+     "The faculty or staff member is a birth mother or becomes a parent immediately following a birth or adoptive event.",
+     "Includes any one of the following: father, mother, spouse, adoptive parent, domestic partner, or employee using a surrogate/gestational carrier."
+    ],
+    "entitlement": [
+     "All eligible faculty and staff (birth mother and parent) can take up to 120 hours (three work weeks, based on an appointment of 100% FTE) of parental leave to care for and bond with a newborn or newly adopted child.",
+     "Parental leave is a benefit of employment"
+    ],
+    "duration": [
+     "can take up to 120 hours (three work weeks, based on an appointment of 100% FTE)"
+    ],
+    "duration_by_role": [
+     "Eligible birth mothers can take up to an additional 120 hours for the recovery from childbirth for a maximum parental leave benefit of 240 hours (six work weeks, based on an appointment of 100% FTE)."
+    ],
+    "pay_fraction": [
+     "Parental leave is paid at 100% of the employee’s regular pay (based upon FTE)"
+    ],
+    "service_requirement": [
+     "The faculty or staff member has completed at least one year of service prior to the date of birth or adoptive event in which parental leave is to commence.",
+     "has obtained at least 1,560 hours (annual equivalent of 75% FTE) of active pay status during this 12-month period."
+    ],
+    "sequence": [
+     "If the modification of duties is combined with the university’s leave options, this period of leave and modified duties shall not exceed one academic semester."
+    ],
+    "time_window": [
+     "during the first year following the birth or adoptive event"
+    ],
+    "dual_employee_rule": [
+     "One parental leave benefit is available per employee, per birth or adoptive event."
+    ],
+    "notice": [
+     "Give written notice to the department as far in advance as possible when anticipating parental leave."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_paid_leave_programs_policy_6_27",
+    "2018_03_parental_care_guidebook_rev2013",
+    "2018_06_asc_modified_duties_guidelines_rev2014"
+   ],
+   "flags": [
+    "cross_reference_not_saved: Paid Leave Programs Frequently Asked Questions (hr.osu.edu/public/documents/policy/resources/627faq.pdf)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "employer_paid_leave",
+     "quote": "Parental leave is paid at 100% of the employee’s regular pay (based upon FTE)"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "Parental leave is paid at 100% of the employee’s regular pay (based upon FTE)"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "The purpose of parental leave is to provide a birth mother or a parent with paid time off to recover from childbirth and/or to care for and bond with a newborn or newly adopted child."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "The faculty or staff member holds a regular appointment or associated faculty appointment of at least 75% FTE."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "birth_parent, non_birth_parent, adoptive, surrogacy (employee using a surrogate is a parent)",
+     "quote": "Includes any one of the following: father, mother, spouse, adoptive parent, domestic partner, or employee using a surrogate/gestational carrier."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "All eligible faculty and staff (birth mother and parent) can take up to 120 hours (three work weeks, based on an appointment of 100% FTE) of parental leave to care for and bond with a newborn or newly adopted child."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "120 hours up_to (all eligible parents)",
+     "quote": "can take up to 120 hours (three work weeks, based on an appointment of 100% FTE)"
+    },
+    {
+     "field": "duration_by_role",
+     "rule": "schema",
+     "answer": "birth 240 hours up_to; nonbirth 120 hours up_to",
+     "quote": "Eligible birth mothers can take up to an additional 120 hours for the recovery from childbirth for a maximum parental leave benefit of 240 hours (six work weeks, based on an appointment of 100% FTE)."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "100%",
+     "quote": "Parental leave is paid at 100% of the employee’s regular pay (based upon FTE)"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U8",
+     "answer": "one year of service and 1,560 hours; a member with two years of service qualifies",
+     "quote": "The faculty or staff member has completed at least one year of service prior to the date of birth or adoptive event in which parental leave is to commence."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave, no relief stated)",
+     "quote": "The purpose of parental leave is to provide a birth mother or a parent with paid time off to recover from childbirth and/or to care for and bond with a newborn or newly adopted child."
+    },
+    {
+     "field": "sequence",
+     "rule": "R3b",
+     "answer": "within c10 (ASC semester of modified duties containing the leave)",
+     "quote": "If the modification of duties is combined with the university’s leave options, this period of leave and modified duties shall not exceed one academic semester."
+    }
+   ]
+  },
+  {
+   "component_id": "ohio_state_university_c2",
+   "institution_label": "Sick Leave",
+   "description": "Accrued sick leave (Policy 6.27 II) that a birth mother eligible for parental leave may use after exhausting parental leave, up to 30 working days (six weeks), limited by available FML. A non-birth parent eligible for parental leave is ineligible to use sick leave for the birth.",
+   "mechanism": "own_accrual",
+   "payer": "own_balance",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "'Faculty and staff accrue sick leave'; nine-month faculty accrue 90 hours per year, 12-month faculty 120 hours",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "birth mother (Self (birth mother)); parent: 'Ineligible for Sick Leave; refer to Parental Leave'",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "'the birth mother is eligible to take sick leave': the use is given; requests through eLeave cover the arrangements (V2). Pay depends on the employee's own balance (R1).",
+   "duration": {
+    "value": 30,
+    "units": "workday",
+    "qualifier": "up_to"
+   },
+   "duration_note": "Not to exceed 30 working days (six weeks), limited by available FML: the maximum is the weeks of FML available less the weeks of parental leave and of short-term disability payment. Usage limits assume an adequate balance. Employees not eligible for parental leave: birth mother as approved per medical documentation; parent (birth or adoption) and foster placement up to 10 working days.",
+   "flags": [
+    "ambiguous: restriction: sick leave for a birth limited to the FML weeks available less the weeks of parental leave (c1) and of short-term disability payment (c11); a combined cap on named benefits, not recorded as leave_limits"
+   ],
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "ohio_state_university_c1",
+     "note": "The birth mother must exhaust parental leave before using sick leave."
+    }
+   ],
+   "rule_applied": [
+    "R1",
+    "V2",
+    "R11",
+    "R15",
+    "U5"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Faculty and staff accrue sick leave while in an active pay status for their primary university appointment.",
+     "Nine-month faculty accrue 90 hours of sick leave per year."
+    ],
+    "eligible_parent": [
+     "Pursuant to the sick leave usage parameters, the birth mother is eligible to take sick leave (not to exceed 30 working days or six weeks)",
+     "Ineligible for Sick Leave; refer to Parental Leave"
+    ],
+    "entitlement": [
+     "Pursuant to the sick leave usage parameters, the birth mother is eligible to take sick leave (not to exceed 30 working days or six weeks)"
+    ],
+    "duration": [
+     "not to exceed 30 working days (six weeks)"
+    ],
+    "sequence": [
+     "30 working days or six weeks) and must exhaust all parental leave prior to the use of sick leave."
+    ],
+    "duration_note": [
+     "The maximum number of weeks of sick leave available following the birth of a child is calculated by subtracting the weeks of parental leave and the weeks of short-term disability payment from the weeks of FML available."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_paid_leave_programs_policy_6_27",
+    "2018_03_parental_care_guidebook_rev2013"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "own_accrual",
+     "quote": "Nine-month faculty accrue 90 hours of sick leave per year."
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "own_balance",
+     "quote": "Nine-month faculty accrue 90 hours of sick leave per year."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Sick leave usage applies to self or immediate family member."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Faculty and staff accrue sick leave while in an active pay status for their primary university appointment."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (birth use limited to the birth mother; parents eligible for parental leave excluded)",
+     "quote": "Ineligible for Sick Leave; refer to Parental Leave"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "Pursuant to the sick leave usage parameters, the birth mother is eligible to take sick leave (not to exceed 30 working days or six weeks)"
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "30 workdays up_to",
+     "quote": "not to exceed 30 working days (six weeks)"
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "consecutive_after c1",
+     "quote": "must exhaust all parental leave prior to the use of sick leave"
+    }
+   ]
+  },
+  {
+   "component_id": "ohio_state_university_c3",
+   "institution_label": "Family and Medical Leave (FML)",
+   "description": "Job-protected Family and Medical Leave under the FMLA and Policy 6.05: up to 12 workweeks in a rolling 12-month period for the birth of a child, placement for adoption or foster care, care of a child in the first year, the employee's own serious health condition (including incapacity due to pregnancy and childbirth) or care of an immediate family member.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Policy 6.05 'Applies to: Faculty, staff, graduate associates, and student employees.'",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "employee (birth of a son or daughter; placement for adoption or foster care; care of an immediate family member, spouse or domestic partner)",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "entitlement_note": "Statutory entitlement (29 U.S.C. 2612(a)(1)); Policy 6.05 restates it.",
+   "duration": {
+    "value": 12,
+    "units": "workweek",
+    "qualifier": "up_to"
+   },
+   "duration_note": "12 workweeks (480 hours) in a rolling 12-month period, pro-rated for less than 100% FTE; may be taken all at once, intermittently or on a reduced schedule (after the first 12 workweeks for birth or placement, intermittent leave needs unit approval). Paid where the employee uses parental leave, sick leave, vacation or compensatory time; otherwise unpaid. 26 workweeks for military caregiver leave (not a parental provision). Unpaid remainder after parental leave: 6 weeks (birth parent) or 9 weeks (non-birth parent), less any sick or vacation leave used.",
+   "service_requirement": "12 months of employment and 1,250 hours in the preceding 12 months",
+   "statute_source": "29 U.S.C. 2612(a)(1)(A)-(D) (length and qualifying events); 29 U.S.C. 2611(2)(A) (eligibility)",
+   "statute_verified": true,
+   "medical_certification": true,
+   "medical_certification_note": "Medical certification of the employee's or family member's serious health condition; for adoption or foster placement, agency documentation.",
+   "notice": "notice as far in advance as possible, with written documentation 30 calendar days before the leave; documentation within 15 calendar days of the request",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "relief_note": "Leave of absence; no relief stated (R9).",
+   "sequence": [
+    {
+     "relation": "concurrent_with",
+     "component_id": "ohio_state_university_c1",
+     "note": "Parental leave runs concurrently with FML (S1); the sick leave the birth mother uses after parental leave also counts toward FML. Unpaid remainder in duration_note."
+    }
+   ],
+   "rule_applied": [
+    "U2",
+    "U4",
+    "S1",
+    "R9",
+    "R13",
+    "U5",
+    "U8"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Applies to: Faculty, staff, graduate associates, and student employees."
+    ],
+    "eligible_parent": [
+     "Because of the birth of a son or daughter of the employee and in order to care for such son or daughter.",
+     "Because of the placement of a son or daughter with the employee for adoption or foster care."
+    ],
+    "entitlement": [
+     "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period"
+    ],
+    "duration": [
+     "for up to 12 workweeks (480 hours) of leave during a 12 month period"
+    ],
+    "service_requirement": [
+     "Employed by the university for at least 12 months.",
+     "Worked 1,250 hours for the 12 month period immediately preceding the commencement of leave"
+    ],
+    "sequence": [
+     "Parental leave will run concurrently with available Family and Medical Leave (FML)."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_family_medical_leave_policy_6_05",
+    "2018_01_paid_leave_programs_policy_6_27",
+    "2018_03_parental_care_guidebook_rev2013",
+    "2026_00_us_fmla_29usc2612",
+    "2026_01_us_fmla_29usc2611_definitions"
+   ],
+   "flags": [
+    "cross_reference_not_saved: Frequently Asked Questions-Family and Medical Leave, policy 6.05 (hr.osu.edu/public/documents/policy/resources/605familyleavefaq.pdf)",
+    "cross_reference_not_saved: Benefits Continuation while on Approved Leave of Absence (hr.osu.edu/wp-content/uploads/leave-absence-benefits.pdf)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "U4",
+     "answer": "unpaid_leave",
+     "quote": "In accordance with federal law, the university provides job protected Family and Medical Leave (FML) to eligible employees"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "If sufficient accrued time is not available the remaining weeks of the 12 week FML time may be taken as unpaid leave."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Birth of a child;"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Applies to: Faculty, staff, graduate associates, and student employees."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U2",
+     "answer": "birth_parent, non_birth_parent, adoptive, foster",
+     "quote": "Because of the placement of a son or daughter with the employee for adoption or foster care."
+    },
+    {
+     "field": "entitlement",
+     "rule": "U2",
+     "answer": "guaranteed",
+     "quote": "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period"
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "12 workweeks up_to",
+     "quote": "for up to 12 workweeks (480 hours) of leave during a 12 month period"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U2",
+     "answer": "12 months and 1,250 hours (29 U.S.C. 2611(2))",
+     "quote": "Worked 1,250 hours for the 12 month period immediately preceding the commencement of leave"
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave)",
+     "quote": "Eligible employees have job protected time off for up to 12 workweeks for the following qualifying events:"
+    },
+    {
+     "field": "sequence",
+     "rule": "S1",
+     "answer": "concurrent_with c1",
+     "quote": "Parental leave will run concurrently with available Family and Medical Leave (FML)."
+    }
+   ]
+  },
+  {
+   "component_id": "ohio_state_university_c4",
+   "institution_label": "Medical leave for faculty and staff",
+   "description": "Unpaid medical leave (Policy 6.45 IV) of up to six months at the university's discretion, after sick and vacation balances are exhausted; counted toward FML.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Policy 6.45 'Applies to: Faculty and staff'; section IV 'Medical leave for faculty and staff'",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "employees (own medical reasons, including pregnancy)",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "entitlement_note": "'may be granted ... at the discretion of the university' (V2). The 2013 guidebook says birth mothers who do not qualify for FML 'are entitled to an unpaid medical leave of absence' for medical recovery (typically 6-8 weeks); that path is for members not eligible for FML (U8) and appears in the summary, not in Policy 6.45.",
+   "duration": {
+    "value": 6,
+    "units": "month",
+    "qualifier": "up_to"
+   },
+   "must_exhaust_first": [
+    "sick",
+    "vacation"
+   ],
+   "medical_certification": true,
+   "medical_certification_note": "The university may require satisfactory medical documentation with a projected return date and medical verification of ability to return to work.",
+   "runs_concurrently_with": [
+    "FMLA"
+   ],
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "relief_note": "Leave of absence; no relief stated (R9).",
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "ohio_state_university_c2",
+     "note": "Available sick (and vacation) balances must be exhausted before unpaid medical leave (checklist §5 example 4). Medical leave is counted toward the 12 weeks of FML as well."
+    }
+   ],
+   "rule_applied": [
+    "V2",
+    "U5",
+    "R9",
+    "R11",
+    "R15",
+    "U3"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Medical leave for faculty and staff"
+    ],
+    "eligible_parent": [
+     "Faculty and staff may request an unpaid leave for personal, professional or medical reasons, including pregnancy."
+    ],
+    "entitlement": [
+     "Employees may be granted unpaid leave up to six months, at the discretion of the university."
+    ],
+    "duration": [
+     "Employees may be granted unpaid leave up to six months, at the discretion of the university."
+    ],
+    "sequence": [
+     "Available sick leave and vacation leave balances must be exhausted prior to the use of unpaid medical leave"
+    ],
+    "must_exhaust_first": [
+     "Available sick leave and vacation leave balances must be exhausted prior to the use of unpaid medical leave"
+    ],
+    "runs_concurrently_with": [
+     "Medical leave must be designated as Family and Medical Leave (FML) and counted toward both the 12 weeks of FML and the time limit for medical leave, if applicable."
+    ]
+   },
+   "doc_ids": [
+    "2018_07_unpaid_leave_policy_6_45",
+    "2018_03_parental_care_guidebook_rev2013"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "U6",
+     "answer": "unpaid_leave",
+     "quote": "Employees may be granted unpaid leave up to six months, at the discretion of the university."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Employees may be granted unpaid leave up to six months, at the discretion of the university."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Medical leave for faculty and staff"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Medical leave for faculty and staff"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own illness or disability)",
+     "quote": "Faculty and staff may request an unpaid leave for personal, professional or medical reasons, including pregnancy."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "Employees may be granted unpaid leave up to six months, at the discretion of the university."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "6 months up_to",
+     "quote": "Employees may be granted unpaid leave up to six months, at the discretion of the university."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave)",
+     "quote": "Employees may be granted unpaid leave up to six months, at the discretion of the university."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "consecutive_after c2",
+     "quote": "Available sick leave and vacation leave balances must be exhausted prior to the use of unpaid medical leave"
+    }
+   ],
+   "flags": [
+    "own_illness_leave"
+   ]
+  },
+  {
+   "component_id": "ohio_state_university_c5",
+   "institution_label": "Personal leave for faculty and staff",
+   "description": "Unpaid personal leave / faculty leave without pay (Policy 6.45 V and VII) for personal, professional or medical reasons, at the discretion of the unit, generally up to one year and never beyond two.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Policy 6.45 'Applies to: Faculty and staff'; VII 'Faculty leaves'",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "faculty and staff",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "up_to"
+   },
+   "duration_note": "'generally one year' (Q1: up_to, normally); in no case beyond two years. The guidebook (staff footnote) says a supervisor may approve unpaid personal leave up to a total of six months.",
+   "must_exhaust_first": [
+    "vacation"
+   ],
+   "notice": "written request; for faculty, a request for personal leave at least 90 days before the leave",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "relief_note": "Leave without pay; no relief stated (R9).",
+   "rule_applied": [
+    "U1",
+    "V2",
+    "Q1",
+    "R9"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Faculty requests for leave without pay are subject to approval by the department chair, dean and the Office of Academic Affairs (OAA)."
+    ],
+    "eligible_parent": [
+     "Faculty and staff may request an unpaid leave for personal, professional or medical reasons, including pregnancy."
+    ],
+    "entitlement": [
+     "Requests for leave are subject to approval by the appropriate administrative official within the employing unit and are approved at the discretion of the employing unit."
+    ],
+    "duration": [
+     "The maximum faculty leave without pay is generally one year. In no case will it extend beyond two years."
+    ],
+    "notice": [
+     "Submit a request for personal leave at least 90 days prior to the beginning of the leave."
+    ],
+    "must_exhaust_first": [
+     "Available vacation leave balances must be exhausted prior to the use of unpaid personal leave"
+    ]
+   },
+   "doc_ids": [
+    "2018_07_unpaid_leave_policy_6_45",
+    "2018_03_parental_care_guidebook_rev2013"
+   ],
+   "flags": [
+    "general_purpose",
+    "cross_reference_not_saved: Unpaid Leave Frequently Asked Questions (hr.osu.edu/public/documents/policy/resources/645faq.pdf)",
+    "cross_reference_not_saved: Reductions in Force, Policies 9.15 and 9.20"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "Faculty requests for leave without pay are subject to approval by the department chair, dean and the Office of Academic Affairs (OAA)."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Faculty requests for leave without pay are subject to approval by the department chair, dean and the Office of Academic Affairs (OAA)."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "Faculty and staff may request an unpaid leave for personal, professional or medical reasons, including pregnancy."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Faculty requests for leave without pay are subject to approval by the department chair, dean and the Office of Academic Affairs (OAA)."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "Faculty and staff may request an unpaid leave for personal, professional or medical reasons, including pregnancy."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "Requests for leave are subject to approval by the appropriate administrative official within the employing unit and are approved at the discretion of the employing unit."
+    },
+    {
+     "field": "duration",
+     "rule": "Q1",
+     "answer": "1 year up_to ('generally'; absolute maximum two years in note)",
+     "quote": "The maximum faculty leave without pay is generally one year. In no case will it extend beyond two years."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave)",
+     "quote": "Faculty requests for leave without pay are subject to approval by the department chair, dean and the Office of Academic Affairs (OAA)."
+    }
+   ]
+  },
+  {
+   "component_id": "ohio_state_university_c6",
+   "institution_label": "Exclusion of time from probationary periods",
+   "description": "Faculty Rule 3335-6-03(D)(1)(a): a probationary tenure-track faculty member has one year excluded from the probationary period for the birth of a child or adoption of a child under six, guaranteed on written notice within one year; the member may decline it.",
+   "mechanism": "tenure_clock",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "probationary tenure-track faculty",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "faculty member (birth of a child or adoption of a child under age six)",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "exact"
+   },
+   "duration_note": "One year per birth event or adoption (the maximum per event). Total exclusions for any reason or combination of (D)(1)(a) and (b) are capped at three years (flagged). Not granted after a nonrenewal notice.",
+   "time_window": "birth of a child or adoption of a child under age six; written notice within one year of the birth or the adoption, and no later than April first of the mandatory review year",
+   "flags": [
+    "ambiguous: restriction: total exclusions from the probationary period capped at three years for any reason or combination (3335-6-03(D)(3)); a time total across tenure-clock reasons, not a count of uses",
+    "cross_reference_not_saved: Office of Academic Affairs Policies and Procedures Handbook (oaa.osu.edu/handbook)"
+   ],
+   "rule_applied": [
+    "U1",
+    "U9",
+    "R13"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "A probationary tenure-track faculty member will have time excluded from the probationary period in increments of one year to reflect the caregiving responsibilities associated with the birth of a child or adoption of a child under age six."
+    ],
+    "eligible_parent": [
+     "A probationary tenure-track faculty member will have time excluded from the probationary period in increments of one year to reflect the caregiving responsibilities associated with the birth of a child or adoption of a child under age six."
+    ],
+    "entitlement": [
+     "This exclusion is guaranteed provided the faculty member informs the head of her/his tenure initiating unit, the dean, or the office of academic affairs in writing within one year of the birth or the adoption",
+     "The tenure clock will be stopped for faculty for one year for responsibilities related to the birth or adoption of a child under six years old."
+    ],
+    "duration": [
+     "will have time excluded from the probationary period in increments of one year"
+    ],
+    "duration_note": [
+     "The maximum amount of time that can be excluded from the probationary period per birth event or adoption is one year.",
+     "Except in extraordinary circumstances, a maximum of three years can be excluded from the probationary period for tenure track faculty for any reason or combination of reasons"
+    ],
+    "time_window": [
+     "no later than April first of the mandatory review year"
+    ]
+   },
+   "doc_ids": [
+    "2018_04_faculty_rules_ch3335_6_appointments_tenure",
+    "2018_01_paid_leave_programs_policy_6_27",
+    "2018_03_parental_care_guidebook_rev2013"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "A probationary tenure-track faculty member will have time excluded from the probationary period in increments of one year to reflect the caregiving responsibilities associated with the birth of a child or adoption of a child under age six."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "A probationary tenure-track faculty member will have time excluded from the probationary period in increments of one year to reflect the caregiving responsibilities associated with the birth of a child or adoption of a child under age six."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "A probationary tenure-track faculty member will have time excluded from the probationary period in increments of one year to reflect the caregiving responsibilities associated with the birth of a child or adoption of a child under age six."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "A probationary tenure-track faculty member will have time excluded from the probationary period in increments of one year to reflect the caregiving responsibilities associated with the birth of a child or adoption of a child under age six."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "birth_parent, non_birth_parent, adoptive",
+     "quote": "A probationary tenure-track faculty member will have time excluded from the probationary period in increments of one year to reflect the caregiving responsibilities associated with the birth of a child or adoption of a child under age six."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "This exclusion is guaranteed provided the faculty member informs the head of her/his tenure initiating unit, the dean, or the office of academic affairs in writing within one year of the birth or the adoption"
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 year exact (one-year increment, one per birth or adoption)",
+     "quote": "The maximum amount of time that can be excluded from the probationary period per birth event or adoption is one year."
+    }
+   ]
+  },
+  {
+   "component_id": "ohio_state_university_c7",
+   "institution_label": "Exclusion of time from probationary periods",
+   "description": "Faculty Rule 3335-6-03(D)(1)(b): exclusion of one-year increments for personal illness, care of a seriously ill person, an unpaid leave of absence, or factors beyond the faculty member's control, on application and approval.",
+   "mechanism": "tenure_clock",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "probationary tenure-track faculty",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "faculty member",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "exact"
+   },
+   "duration_note": "One-year increments; total for (D)(1)(a) and (b) capped at three years (flagged).",
+   "time_window": "request within one year of the illness, care or other factors, and before April first of the mandatory review year",
+   "flags": [
+    "general_purpose",
+    "ambiguous: restriction: total exclusions from the probationary period capped at three years for any reason or combination (3335-6-03(D)(3))"
+   ],
+   "rule_applied": [
+    "U1",
+    "V2"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "A probationary tenure-track faculty member may apply to exclude time from the probationary period in increments of one year because of personal illness, care of a seriously ill or injured person, an unpaid leave of absence, or factors beyond the faculty member's control"
+    ],
+    "eligible_parent": [
+     "A probationary tenure-track faculty member may apply to exclude time from the probationary period in increments of one year because of personal illness, care of a seriously ill or injured person, an unpaid leave of absence, or factors beyond the faculty member's control"
+    ],
+    "entitlement": [
+     "Such requests require approval by the head of the tenure initiating unit dean, and executive vice president and provost."
+    ],
+    "duration": [
+     "in increments of one year because of personal illness"
+    ]
+   },
+   "doc_ids": [
+    "2018_04_faculty_rules_ch3335_6_appointments_tenure",
+    "2018_03_parental_care_guidebook_rev2013"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "A probationary tenure-track faculty member may apply to exclude time from the probationary period in increments of one year because of personal illness, care of a seriously ill or injured person, an unpaid leave of absence, or factors beyond the faculty member's control"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "A probationary tenure-track faculty member may apply to exclude time from the probationary period in increments of one year because of personal illness, care of a seriously ill or injured person, an unpaid leave of absence, or factors beyond the faculty member's control"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "A probationary tenure-track faculty member may apply to exclude time from the probationary period in increments of one year because of personal illness, care of a seriously ill or injured person, an unpaid leave of absence, or factors beyond the faculty member's control"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "A probationary tenure-track faculty member may apply to exclude time from the probationary period in increments of one year because of personal illness, care of a seriously ill or injured person, an unpaid leave of absence, or factors beyond the faculty member's control"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "A probationary tenure-track faculty member may apply to exclude time from the probationary period in increments of one year because of personal illness, care of a seriously ill or injured person, an unpaid leave of absence, or factors beyond the faculty member's control"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "Such requests require approval by the head of the tenure initiating unit dean, and executive vice president and provost."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 year exact per increment",
+     "quote": "A probationary tenure-track faculty member may apply to exclude time from the probationary period in increments of one year because of personal illness, care of a seriously ill or injured person, an unpaid leave of absence, or factors beyond the faculty member's control"
+    }
+   ]
+  },
+  {
+   "component_id": "ohio_state_university_c8",
+   "institution_label": "Exclusion of time from probationary periods",
+   "description": "Faculty Rule 3335-6-03(D)(1)(c): probationary faculty on less than full-time service may request an exclusion of an integral number of years (maximum three years for an assistant professor), with approval.",
+   "mechanism": "tenure_clock",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "probationary tenure-track faculty on less than full-time service",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "probationary tenure-track faculty members",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "duration_note": "An integral number of years based on the principle that the usual probationary period represents full-time service; maximum one year (instructor), three years (assistant professor), two years (associate professor or professor). OAA policy: no automatic extension with an FTE reduction; e.g. one year in recognition of two years at 50% FTE. The OAA policy cites Faculty Rule 3335-6-03 (F) for this; in the saved rule the provision is (D)(1)(c).",
+   "flags": [
+    "general_purpose"
+   ],
+   "rule_applied": [
+    "U1",
+    "V2"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Probationary tenure-track faculty members on less than full-time service for part or all of their probationary period may request an exclusion of time from the probationary period on the basis that they are less than-full time."
+    ],
+    "eligible_parent": [
+     "Probationary tenure-track faculty members on less than full-time service for part or all of their probationary period may request an exclusion of time from the probationary period on the basis that they are less than-full time."
+    ],
+    "entitlement": [
+     "Such requests require approval of the tenure initiating unit chair, dean, and executive vice president and provost."
+    ],
+    "duration_note": [
+     "A reduction in FTE does not involve an automatic extension of the probationary period"
+    ]
+   },
+   "doc_ids": [
+    "2018_04_faculty_rules_ch3335_6_appointments_tenure",
+    "2018_05_oaa_faculty_appointments_policy"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "Probationary tenure-track faculty members on less than full-time service for part or all of their probationary period may request an exclusion of time from the probationary period on the basis that they are less than-full time."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Probationary tenure-track faculty members on less than full-time service for part or all of their probationary period may request an exclusion of time from the probationary period on the basis that they are less than-full time."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "Probationary tenure-track faculty members on less than full-time service for part or all of their probationary period may request an exclusion of time from the probationary period on the basis that they are less than-full time."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Probationary tenure-track faculty members on less than full-time service for part or all of their probationary period may request an exclusion of time from the probationary period on the basis that they are less than-full time."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "Probationary tenure-track faculty members on less than full-time service for part or all of their probationary period may request an exclusion of time from the probationary period on the basis that they are less than-full time."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "Such requests require approval of the tenure initiating unit chair, dean, and executive vice president and provost."
+    }
+   ]
+  },
+  {
+   "component_id": "ohio_state_university_c9",
+   "institution_label": "Reduction in FTE",
+   "description": "OAA Faculty Appointments policy I.E.3: a tenure-track faculty member may request a temporary (with guaranteed return to the previous FTE) or permanent reduced appointment of not less than 50% FTE, granted by the TIU head with the dean's approval. The parental guidebook points faculty who wish to reduce their appointment to this option.",
+   "mechanism": "part_time_option",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "tenure-track faculty",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "tenure-track faculty member",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "duration_note": "Temporary (with a specified end date and guaranteed return to the previous FTE) or permanent; pay is reduced with the FTE (level not stated).",
+   "flags": [
+    "general_purpose",
+    "cross_reference_not_saved: Faculty Rule 3335-5-19"
+   ],
+   "rule_applied": [
+    "R3",
+    "U1",
+    "V2"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "a tenure-track faculty member who desires a temporary or permanent reduced appointment (less than full-time but not less than 50%), must consult with the TIU head."
+    ],
+    "eligible_parent": [
+     "a tenure-track faculty member who desires a temporary or permanent reduced appointment (less than full-time but not less than 50%), must consult with the TIU head."
+    ],
+    "entitlement": [
+     "Upon the faculty member's request, the TIU head, with the approval of the dean has the authority to grant a reduction in FTE."
+    ]
+   },
+   "doc_ids": [
+    "2018_05_oaa_faculty_appointments_policy",
+    "2018_03_parental_care_guidebook_rev2013"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R3",
+     "answer": "part_time_option",
+     "quote": "a tenure-track faculty member who desires a temporary or permanent reduced appointment (less than full-time but not less than 50%), must consult with the TIU head."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "Upon the faculty member's request, the TIU head, with the approval of the dean has the authority to grant a reduction in FTE."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "a tenure-track faculty member who desires a temporary or permanent reduced appointment (less than full-time but not less than 50%), must consult with the TIU head."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "a tenure-track faculty member who desires a temporary or permanent reduced appointment (less than full-time but not less than 50%), must consult with the TIU head."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "a tenure-track faculty member who desires a temporary or permanent reduced appointment (less than full-time but not less than 50%), must consult with the TIU head."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "Upon the faculty member's request, the TIU head, with the approval of the dean has the authority to grant a reduction in FTE."
+    }
+   ]
+  },
+  {
+   "component_id": "ohio_state_university_c10",
+   "institution_label": "Modified Duties",
+   "description": "College of Arts and Sciences guidelines (POA Appendix B): tenured or tenure-eligible ASC faculty may take up to one academic semester with no teaching duties and only agreed service, within 12 months of a birth, adoption or foster placement; combined with university leave, the total may not exceed one semester.",
+   "mechanism": "modified_duties",
+   "payer": "employer",
+   "faculty_group": "College of Arts and Sciences tenured or tenure-eligible faculty",
+   "faculty_group_note": "'all tenured or tenure-eligible faculty members' of the College of Arts and Sciences",
+   "faculty_scope": "College of Arts and Sciences only",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "birth, adoptive, or foster-care mothers, fathers, and domestic partners",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "'will be available ... to all' and 'will be allowed to take': the text gives the period; the MOU sets the service arrangements (V2, R12).",
+   "duration": {
+    "value": 1,
+    "units": "semester",
+    "qualifier": "up_to"
+   },
+   "time_window": "within 12 months following birth of a child, adoption, or foster care placement",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "partially_relieved",
+    "research": "continues",
+    "advising_supervision": "continues",
+    "clinical": "continues"
+   },
+   "relief_inferred": "unnamed duties continue (R4b)",
+   "relief_note": "No teaching duties (about 50% of the year's teaching); only service agreed with the chair in an MOU; scholarship continues (stated); supervision of graduate research listed among substitute duties; clinical unnamed (R4b). Where the period would prevent regular teaching and service in two consecutive semesters, an agreement with the unit (reduced teaching, 7-week schedules, team teaching, deferred teaching, paid and unpaid leave) is documented in an MOU.",
+   "flags": [
+    "ambiguous: pay level not stated; full pay inferred (R3)",
+    "ambiguous: restriction: combined cap of one academic semester on ASC modified duties plus university leave (paid parental, sick, unpaid) for ASC faculty only; not recorded in leave_limits because a record-level limit would also cap the university-wide leaves of faculty outside the College; the leave is linked within this component instead"
+   ],
+   "rule_applied": [
+    "V3b",
+    "V3c",
+    "R3",
+    "R4",
+    "R4b",
+    "V2",
+    "R12",
+    "R8"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Modified duty will be available from the College of Arts and Sciences to all tenured or tenure-eligible faculty members (i.e., birth, adoptive, or foster-care mothers, fathers, and domestic partners) within 12 months following birth of a child, adoption, or foster care placement."
+    ],
+    "eligible_parent": [
+     "Modified duty will be available from the College of Arts and Sciences to all tenured or tenure-eligible faculty members (i.e., birth, adoptive, or foster-care mothers, fathers, and domestic partners) within 12 months following birth of a child, adoption, or foster care placement."
+    ],
+    "entitlement": [
+     "Eligible faculty will be allowed to take up to one academic semester with modified duties"
+    ],
+    "duration": [
+     "Eligible faculty will be allowed to take up to one academic semester with modified duties"
+    ],
+    "relief": [
+     "During the period of modified duties, the faculty member will have no teaching duties",
+     "only those service duties mutually agreed to by the department chair and faculty member",
+     "It is expected that during the period of modified duties, the faculty member will continue to be engaged in activities related to his or her scholarship.",
+     "supervision of graduate student research"
+    ],
+    "time_window": [
+     "within 12 months following birth of a child, adoption, or foster care placement"
+    ]
+   },
+   "doc_ids": [
+    "2018_06_asc_modified_duties_guidelines_rev2014"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "modified_duties",
+     "quote": "The provision of modification of duties is not leave."
+    },
+    {
+     "field": "payer",
+     "rule": "R3",
+     "answer": "employer",
+     "quote": "Modification of duties requires a full-time work assignment"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Modified duty will be available from the College of Arts and Sciences to all tenured or tenure-eligible faculty members (i.e., birth, adoptive, or foster-care mothers, fathers, and domestic partners) within 12 months following birth of a child, adoption, or foster care placement."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "V3b",
+     "answer": "College of Arts and Sciences tenured or tenure-eligible faculty",
+     "quote": "Modified duty will be available from the College of Arts and Sciences to all tenured or tenure-eligible faculty members (i.e., birth, adoptive, or foster-care mothers, fathers, and domestic partners) within 12 months following birth of a child, adoption, or foster care placement."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "birth_parent, non_birth_parent, adoptive, foster",
+     "quote": "Modified duty will be available from the College of Arts and Sciences to all tenured or tenure-eligible faculty members (i.e., birth, adoptive, or foster-care mothers, fathers, and domestic partners) within 12 months following birth of a child, adoption, or foster care placement."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "Eligible faculty will be allowed to take up to one academic semester with modified duties"
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 semester up_to",
+     "quote": "Eligible faculty will be allowed to take up to one academic semester with modified duties"
+    },
+    {
+     "field": "relief",
+     "rule": "R4",
+     "answer": "teaching relieved; service partially relieved; research continues (stated)",
+     "quote": "During the period of modified duties, the faculty member will have no teaching duties"
+    },
+    {
+     "field": "relief",
+     "rule": "R4b",
+     "answer": "advising_supervision and clinical continue (not relieved; supervision listed as a substitute duty)",
+     "quote": "supervision of graduate student research"
+    }
+   ]
+  },
+  {
+   "component_id": "ohio_state_university_c11",
+   "institution_label": "Short-Term Disability Insurance",
+   "description": "Optional short-term disability insurance the employee buys (after-tax premiums): 60% of gross monthly wage base (maximum $5,000 per month) after a 30-calendar-day waiting period; childbirth is a disability of at least 6 weeks (vaginal) or 8 weeks (Caesarean) from the delivery.",
+   "mechanism": "employer_childbirth_benefit",
+   "payer": "employee_paid",
+   "mechanism_note": "V1: a childbirth-specific period (disabled for a minimum of 6 or 8 weeks), its length and a pay level (60%) are stated; funded by the employee's premiums (R1d), so counted in no paid figure.",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "faculty and staff eligible for the university-provided LTD benefit, appointment of 50% FTE or greater",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "birth mother (vaginal delivery; Cesarean section)",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "'are eligible to elect the optional STD coverage': access to the plan is given; the claim is approved by the carrier (V2, R1d).",
+   "duration": {
+    "value": 6,
+    "units": "week",
+    "qualifier": "at_least"
+   },
+   "duration_max": {
+    "value": 8,
+    "units": "week"
+   },
+   "duration_variants": {
+    "vaginal": "at least 6 weeks",
+    "c_section": "at least 8 weeks"
+   },
+   "duration_note": "The disability period runs from the date of delivery; benefits start after the 30-calendar-day elimination period, so about weeks 5-6 (vaginal) or 5-8 (Caesarean). The guidebook example: parental leave for the first 4 weeks, STD days 31-42, parental leave resumes in weeks 7-8.",
+   "pay_fraction": "60% of your gross monthly wage base",
+   "pay_cap": "maximum benefit of $5,000 per month",
+   "service_requirement": "eligible appointment of 50% FTE or greater; eligible for the university-provided LTD benefit",
+   "time_window": "benefits after a 30-calendar-day waiting (elimination) period",
+   "sequence": [
+    {
+     "relation": "concurrent_with",
+     "component_id": "ohio_state_university_c1",
+     "start_offset_weeks": 4.29,
+     "note": "Parental leave is used during the 30-calendar-day elimination period (30/7 = 4.29 weeks, R11b); the remaining parental leave follows the end of STD benefits."
+    }
+   ],
+   "flags": [
+    "cross_reference_not_saved: Short Term and Long Term Disability Specific Plan Details"
+   ],
+   "rule_applied": [
+    "V1",
+    "R1d",
+    "R13b",
+    "R11b",
+    "R15",
+    "V2"
+   ],
+   "evidence": {
+    "mechanism": [
+     "If you have a vaginal delivery, you will be considered disabled for a minimum period of 6 weeks beginning on the date of your vaginal delivery",
+     "you will receive 60% of your gross monthly wage base up to a maximum benefit of $5,000 per month."
+    ],
+    "faculty_group": [
+     "Faculty and staff who are eligible for the university provided Long-Term Disability (LTD) benefit, are eligible to elect the optional STD coverage."
+    ],
+    "eligible_parent": [
+     "If you have a vaginal delivery, you will be considered disabled for a minimum period of 6 weeks beginning on the date of your vaginal delivery"
+    ],
+    "entitlement": [
+     "Faculty and staff who are eligible for the university provided Long-Term Disability (LTD) benefit, are eligible to elect the optional STD coverage."
+    ],
+    "duration": [
+     "considered disabled for a minimum period of 6 weeks",
+     "you will be considered disabled for a minimum period of 8 weeks beginning on the date of your Cesarean section"
+    ],
+    "pay_fraction": [
+     "you will receive 60% of your gross monthly wage base up to a maximum benefit of $5,000 per month."
+    ],
+    "service_requirement": [
+     "Your eligible appointment must be 50% full-time equivalent (FTE) or greater."
+    ],
+    "sequence": [
+     "she must use Parental Leave during the STD elimination period (30 calendar days)"
+    ],
+    "time_window": [
+     "disability income benefits after a 30-calendar day waiting period"
+    ]
+   },
+   "doc_ids": [
+    "2018_03_parental_care_guidebook_rev2013"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "V1",
+     "answer": "employer_childbirth_benefit",
+     "quote": "If you have a vaginal delivery, you will be considered disabled for a minimum period of 6 weeks beginning on the date of your vaginal delivery"
+    },
+    {
+     "field": "payer",
+     "rule": "R1d",
+     "answer": "employee_paid",
+     "quote": "Enrollment for the STD coverage is voluntary and you pay the after-tax premiums."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "If you have a vaginal delivery, you will be considered disabled for a minimum period of 6 weeks beginning on the date of your vaginal delivery"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Faculty and staff who are eligible for the university provided Long-Term Disability (LTD) benefit, are eligible to elect the optional STD coverage."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "birth_parent",
+     "quote": "If you have a vaginal delivery, you will be considered disabled for a minimum period of 6 weeks beginning on the date of your vaginal delivery"
+    },
+    {
+     "field": "entitlement",
+     "rule": "R1d",
+     "answer": "guaranteed_on_request",
+     "quote": "Faculty and staff who are eligible for the university provided Long-Term Disability (LTD) benefit, are eligible to elect the optional STD coverage."
+    },
+    {
+     "field": "duration",
+     "rule": "R13b",
+     "answer": "6 weeks at_least, max 8 weeks (vaginal / Caesarean)",
+     "quote": "you will be considered disabled for a minimum period of 8 weeks beginning on the date of your Cesarean section"
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "60% (cap $5,000 per month)",
+     "quote": "you will receive 60% of your gross monthly wage base up to a maximum benefit of $5,000 per month."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "50% FTE or greater; LTD-eligible",
+     "quote": "Your eligible appointment must be 50% full-time equivalent (FTE) or greater."
+    },
+    {
+     "field": "sequence",
+     "rule": "R11b",
+     "answer": "concurrent_with c1, start_offset_weeks 4.29 (30 calendar days)",
+     "quote": "she must use Parental Leave during the STD elimination period (30 calendar days)"
+    }
+   ]
+  },
+  {
+   "component_id": "ohio_state_university_c12",
+   "institution_label": "Long-Term Disability (LTD)",
+   "description": "University-provided long-term disability benefit, named as an option for a birth mother unable to return for her own medical condition; terms not saved.",
+   "mechanism": "generic_sick_or_disability_plan",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "faculty and staff eligible for the university provided LTD benefit",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "birth mother (medical reasons for yourself)",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "entitlement_note": "Described as a benefit the university provides to eligible faculty and staff; plan terms (eligibility, elimination period) are in the Specific Plan Details, not saved.",
+   "flags": [
+    "cross_reference_not_saved: Short Term and Long Term Disability Specific Plan Details"
+   ],
+   "rule_applied": [
+    "schema",
+    "V6"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Faculty and staff who are eligible for the university provided Long-Term Disability (LTD) benefit, are eligible to elect the optional STD coverage."
+    ],
+    "eligible_parent": [
+     "The university may waive this requirement in workers' compensation, short-term disability and long-term disability cases."
+    ],
+    "entitlement": [
+     "the university provided Long-Term Disability (LTD) benefit"
+    ]
+   },
+   "doc_ids": [
+    "2018_03_parental_care_guidebook_rev2013",
+    "2018_01_paid_leave_programs_policy_6_27"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "the university provided Long-Term Disability (LTD) benefit"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "the university provided Long-Term Disability (LTD) benefit"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "The university may waive this requirement in workers' compensation, short-term disability and long-term disability cases."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Faculty and staff who are eligible for the university provided Long-Term Disability (LTD) benefit, are eligible to elect the optional STD coverage."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own disability)",
+     "quote": "The university may waive this requirement in workers' compensation, short-term disability and long-term disability cases."
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "the university provided Long-Term Disability (LTD) benefit"
+    }
+   ]
+  },
+  {
+   "component_id": "ohio_state_university_c13",
+   "institution_label": "Vacation Leave",
+   "description": "Accrued vacation leave (Policy 6.27 I): 12-month faculty earn 176 hours (22 days) a year; nine-month faculty do not accrue vacation. Usable after parental leave for a birth or adoption.",
+   "mechanism": "own_accrual",
+   "payer": "own_balance",
+   "faculty_group": "12-month regular faculty",
+   "faculty_group_note": "12-month regular faculty and 12-month associated faculty; 9-month regular and associated faculty do not accrue vacation",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "employee",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "duration_note": "Accrual: 12-month faculty 176 hours a year (0-25 years of service), 200 hours after 25 years; carryover maximum 240 hours.",
+   "flags": [
+    "general_purpose"
+   ],
+   "rule_applied": [
+    "R1",
+    "U1",
+    "V2"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "12-month regular faculty and 12-month associated faculty earn vacation leave in accordance with the accrual schedule.",
+     "9-month regular and associated faculty appointments do not accrue vacation."
+    ],
+    "eligible_parent": [
+     "Parental leave must be exhausted prior to the use of vacation leave or compensatory time when such leave is requested for the purpose of a birth or adoptive event."
+    ],
+    "entitlement": [
+     "Vacation leave is arranged and approved in accordance with each department’s operational needs using eLeave."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_paid_leave_programs_policy_6_27",
+    "2018_05_oaa_faculty_appointments_policy",
+    "2018_03_parental_care_guidebook_rev2013"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "own_accrual",
+     "quote": "12-month regular faculty and 12-month associated faculty earn vacation leave in accordance with the accrual schedule."
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "own_balance",
+     "quote": "12-month regular faculty and 12-month associated faculty earn vacation leave in accordance with the accrual schedule."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "Vacation leave is arranged and approved in accordance with each department’s operational needs using eLeave."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "12-month regular faculty",
+     "quote": "9-month regular and associated faculty appointments do not accrue vacation."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "Parental leave must be exhausted prior to the use of vacation leave or compensatory time when such leave is requested for the purpose of a birth or adoptive event."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "Vacation leave is arranged and approved in accordance with each department’s operational needs using eLeave."
+    }
+   ]
+  },
+  {
+   "component_id": "ohio_state_university_c14",
+   "institution_label": "Vacation Donation",
+   "description": "Vacation donated by colleagues (Policy 6.27 VI), on request, for a birth, adoption or foster placement (or life-threatening illness or a death), after all paid leave is exhausted and unpaid leave approved; up to four weeks (160 hours).",
+   "mechanism": "donated_leave",
+   "payer": "own_balance",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "recipient with a regular appointment eligible to accrue sick leave (faculty accrue sick leave)",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "recipient (birth, adoption or foster placement of a child)",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "duration": {
+    "value": 4,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "duration_note": "Up to 160 hours, pro-rated by FTE; exceptions approved by the dean/VP and OHR. Donors give within the recipient's college/VP unit unless they are immediate family. Not while receiving STD, LTD or workers' compensation.",
+   "must_exhaust_first": [
+    "sick",
+    "vacation",
+    "compensatory"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "rule_applied": [
+    "R1d",
+    "U1",
+    "V2"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "The recipient must have a regular appointment that is eligible to accrue sick leave"
+    ],
+    "eligible_parent": [
+     "Donated vacation may also be requested for the birth, adoption or foster placement of a child or for the death of an immediate family member."
+    ],
+    "entitlement": [
+     "The recipient may request to receive donated vacation"
+    ],
+    "duration": [
+     "The recipient may use up to four weeks of donated vacation time"
+    ],
+    "must_exhaust_first": [
+     "must have exhausted all paid leave balances before using donated vacation"
+    ]
+   },
+   "doc_ids": [
+    "2018_01_paid_leave_programs_policy_6_27"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "donated_leave",
+     "quote": "Donated vacation may also be requested for the birth, adoption or foster placement of a child or for the death of an immediate family member."
+    },
+    {
+     "field": "payer",
+     "rule": "R1d",
+     "answer": "own_balance",
+     "quote": "The donor must have a minimum balance of 80 hours of vacation remaining after donation"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "Donated vacation may also be requested for the birth, adoption or foster placement of a child or for the death of an immediate family member."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "The recipient must have a regular appointment that is eligible to accrue sick leave"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "birth_parent, non_birth_parent, adoptive, foster",
+     "quote": "Donated vacation may also be requested for the birth, adoption or foster placement of a child or for the death of an immediate family member."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "The recipient may request to receive donated vacation"
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "4 weeks up_to",
+     "quote": "The recipient may use up to four weeks of donated vacation time"
+    }
+   ]
+  },
+  {
+   "component_id": "ohio_state_university_c15",
+   "institution_label": "",
+   "description": "Policy 6.05 IV.D: a unit may arrange an alternative work schedule to accommodate an employee's caregiving needs, if operational needs allow; not FML unless FML is taken. A rearrangement, not relief.",
+   "mechanism": "other",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Policy 6.05 'Applies to: Faculty, staff, graduate associates, and student employees.'",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "an individual (caregiving needs)",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "rule_applied": [
+    "R16",
+    "V2"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Applies to: Faculty, staff, graduate associates, and student employees."
+    ],
+    "eligible_parent": [
+     "A unit may arrange an alternative work schedule to accommodate an individual’s caregiving needs if the schedule satisfactorily meets the operational needs, function, and mission of the unit."
+    ],
+    "entitlement": [
+     "A unit may arrange an alternative work schedule to accommodate an individual’s caregiving needs if the schedule satisfactorily meets the operational needs, function, and mission of the unit."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_family_medical_leave_policy_6_05"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R16",
+     "answer": "other",
+     "quote": "A unit may arrange an alternative work schedule to accommodate an individual’s caregiving needs if the schedule satisfactorily meets the operational needs, function, and mission of the unit."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "A unit may arrange an alternative work schedule to accommodate an individual’s caregiving needs if the schedule satisfactorily meets the operational needs, function, and mission of the unit."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "A unit may arrange an alternative work schedule to accommodate an individual’s caregiving needs if the schedule satisfactorily meets the operational needs, function, and mission of the unit."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Applies to: Faculty, staff, graduate associates, and student employees."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "A unit may arrange an alternative work schedule to accommodate an individual’s caregiving needs if the schedule satisfactorily meets the operational needs, function, and mission of the unit."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "A unit may arrange an alternative work schedule to accommodate an individual’s caregiving needs if the schedule satisfactorily meets the operational needs, function, and mission of the unit."
+    }
+   ]
+  },
+  {
+   "component_id": "ohio_state_university_c16",
+   "institution_label": "Modifying Your Schedule",
+   "description": "Guidebook (faculty section): a rearrangement of academic duties in the semester before or after a birth or placement (less structured teaching with more research or service, shifting courses to another term, shifting off-duty months), approved case by case by the TIU head; total workload about the same.",
+   "mechanism": "other",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "faculty, request to the head of the tenure-initiating unit",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "faculty member (birth or placement of your child)",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "time_window": "during the semester before or after the birth or placement",
+   "flags": [
+    "summary_only: 2018_03_parental_care_guidebook_rev2013",
+    "cross_reference_not_saved: FAQ on semester appointments (oaa.osu.edu/assets/files/documents/SemestersFacultyAppointments.pdf)"
+   ],
+   "rule_applied": [
+    "R16",
+    "V2",
+    "source_precedence"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Any request to modify your schedule must be discussed with and approved by the head (e.g. department chair, school director or dean) of your tenure-initiating unit (TIU)."
+    ],
+    "eligible_parent": [
+     "During the semester before or after the birth or placement of your child, possibilities for schedule modification include but are not limited to:"
+    ],
+    "entitlement": [
+     "Requests are reviewed on a case-by-case basis.",
+     "Any request to modify your schedule must be discussed with and approved by the head (e.g. department chair, school director or dean) of your tenure-initiating unit (TIU)."
+    ],
+    "time_window": [
+     "During the semester before or after the birth or placement of your child, possibilities for schedule modification include but are not limited to:"
+    ]
+   },
+   "doc_ids": [
+    "2018_03_parental_care_guidebook_rev2013"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R16",
+     "answer": "other",
+     "quote": "Reducing to some degree your structured teaching assignment and increasing research or service responsibilities, thereby leaving your total workload about the same"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Reducing to some degree your structured teaching assignment and increasing research or service responsibilities, thereby leaving your total workload about the same"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "During the semester before or after the birth or placement of your child, possibilities for schedule modification include but are not limited to:"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Any request to modify your schedule must be discussed with and approved by the head (e.g. department chair, school director or dean) of your tenure-initiating unit (TIU)."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "During the semester before or after the birth or placement of your child, possibilities for schedule modification include but are not limited to:"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "Requests are reviewed on a case-by-case basis."
+    }
+   ]
+  },
+  {
+   "component_id": "ohio_state_university_c17",
+   "institution_label": "Parental Leave",
+   "description": "Parental leave as described in the Parental Care Guidebook revised 10/01/18 (the revised Policy 6.27, not saved): six weeks of full pay for birth mothers and three weeks for other new parents with at least 75% FTE in regular, term or associated faculty appointments, with no one-year service requirement shown; foster parents excluded. Postdates the reference date.",
+   "mechanism": "employer_paid_leave",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "faculty members who hold a regular or term appointment (including associated faculty) of at least 75% FTE",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "birth mothers; non-birth mother, father, domestic partner or adoptive parent",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "duration": {
+    "value": 3,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "duration_by_role": {
+    "birth": {
+     "value": 6,
+     "units": "week",
+     "qualifier": "up_to"
+    },
+    "nonbirth": {
+     "value": 3,
+     "units": "week",
+     "qualifier": "up_to"
+    }
+   },
+   "pay_fraction": "full pay",
+   "service_requirement": "none stated (a recently hired non-birth parent without one year of employment is eligible)",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "flags": [
+    "not_yet_effective: 2018-10-01",
+    "cross_reference_not_saved: Paid Leave Programs policy 6.27 as revised 2018-10-01"
+   ],
+   "rule_applied": [
+    "V5",
+    "V2",
+    "R9",
+    "R5"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Faculty members who hold a regular or term appointment (including associated faculty) of at least 75% FTE are eligible for Parental Leave."
+    ],
+    "eligible_parent": [
+     "New parents who are a non-birth mother, father, domestic partner or adoptive parent and hold at least 75% FTE and are in a regular, term (including post-doctoral researchers), or associated faculty appointment may receive up to three weeks of Parental Leave.",
+     "Foster parents are not eligible for the Parental Leave benefit."
+    ],
+    "entitlement": [
+     "may receive up to six weeks of full pay under Ohio State’s Parental Leave benefit of the Paid Leave Programs policy."
+    ],
+    "duration": [
+     "may receive up to three weeks of Parental Leave"
+    ],
+    "duration_by_role": [
+     "may receive up to six weeks of full pay under Ohio State’s Parental Leave benefit of the Paid Leave Programs policy.",
+     "may receive up to three weeks of Parental Leave"
+    ],
+    "pay_fraction": [
+     "may receive up to six weeks of full pay under Ohio State’s Parental Leave benefit of the Paid Leave Programs policy."
+    ],
+    "service_requirement": [
+     "As a non-birth parent, he is eligible for three weeks of Parental Leave.",
+     "Stan is a recently hired monthly paid Administrative Associate."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "employer_paid_leave",
+     "quote": "may receive up to six weeks of full pay under Ohio State’s Parental Leave benefit of the Paid Leave Programs policy."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "may receive up to six weeks of full pay under Ohio State’s Parental Leave benefit of the Paid Leave Programs policy."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "may receive up to six weeks of full pay under Ohio State’s Parental Leave benefit of the Paid Leave Programs policy."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Faculty members who hold a regular or term appointment (including associated faculty) of at least 75% FTE are eligible for Parental Leave."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "birth_parent, non_birth_parent, adoptive (foster excluded)",
+     "quote": "Foster parents are not eligible for the Parental Leave benefit."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "may receive up to six weeks of full pay under Ohio State’s Parental Leave benefit of the Paid Leave Programs policy."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "3 weeks up_to (all parents)",
+     "quote": "may receive up to three weeks of Parental Leave"
+    },
+    {
+     "field": "duration_by_role",
+     "rule": "schema",
+     "answer": "birth 6 weeks up_to; nonbirth 3 weeks up_to",
+     "quote": "may receive up to six weeks of full pay under Ohio State’s Parental Leave benefit of the Paid Leave Programs policy."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "full pay",
+     "quote": "may receive up to six weeks of full pay under Ohio State’s Parental Leave benefit of the Paid Leave Programs policy."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "none stated",
+     "quote": "As a non-birth parent, he is eligible for three weeks of Parental Leave."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave)",
+     "quote": "may receive up to six weeks of full pay under Ohio State’s Parental Leave benefit of the Paid Leave Programs policy."
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "Reference date 2018-02-25.",
+  "Governing documents for faculty leave are saved (HR Policies 6.27, 6.05 and 6.45, applying to faculty and staff; Faculty Rule 3335-6-03), so missing is false (the rule for records with no governing document does not apply).",
+  "2018_00_link is the Parental Care Guidebook 'Revised 10/01/18', describing the Policy 6.27 revision of 2018-10-01, after the reference date; its parental-leave description is recorded as c17 (not_yet_effective) and every in-force provision is coded from 2018_01-2018_07. 2018_03 (guidebook Revised 07/01/13) is a summary ('meant to be explanatory and does not replace current policies'); details it adds are noted per component.",
+  "Calendar: semesters ('the first day of autumn semester', OAA Faculty Appointments; 'each semester of leave without pay', Policy 6.45); no term length stated, so calendar.kind = semester, and the term length follows R8's order.",
+  "Chain, birth parent: parental leave 6 work weeks (c1, 240 hours, FMLA c3 concurrent from the start; optional employee-paid STD c11 pays from day 31 within the parental-leave span) -> own sick leave up to 30 working days (c2, consecutive_after c1, within the 12 FMLA weeks) -> discretionary unpaid medical leave up to 6 months (c4, consecutive_after c2). FMLA 12 workweeks runs alongside from the start of c1.",
+  "Chain, non-birth parent: parental leave 3 work weeks (c1, 120 hours) with FMLA 12 workweeks (c3) concurrent from the start; the remaining 9 FMLA weeks are paid only from vacation (12-month faculty, c13) or compensatory time, otherwise unpaid. Sick leave is not available for the birth to a parent eligible for parental leave (c2).",
+  "Paths not coded (U8): members not eligible for parental leave (under one year of service or 1,560 hours) may use sick leave (birth mother as medically documented; other parent up to 10 working days); birth mothers not eligible for FML are described by the 2013 guidebook as entitled to an unpaid medical leave for recovery (typically 6-8 weeks).",
+  "College of Arts and Sciences modified duties (c10) are scope-limited (V3b: one college) and not counted; the university-wide policy sets the figures (V3c). Its rule that leave plus modified duties may not exceed one semester is linked by c1 'within' c10 and flagged, not recorded in leave_limits (a record-level limit would also cap faculty outside the College; reported as a rule question).",
+  "Not components: adoption assistance (reimbursement of up to $5,000 of adoption expenses: not time off, pay or protection); jury duty and organ donation leave (not usable for a birth); professional and entrepreneurial unpaid leave (to take a position elsewhere); stillbirth parental leave (two weeks, noted in c1); FML temporary transfer to an equivalent position to accommodate intermittent leave (6.05 IV.C, noted with c3).",
+  "Cross-references not saved: Paid Leave Programs FAQ (627faq.pdf); Paid Parental Leave policy 6.27B (policy627b.pdf, named in the 2013 guidebook decision tree, superseded by the 2011 combined 6.27); FMLA FAQ (605familyleavefaq.pdf); Unpaid Leave FAQ (645faq.pdf); Benefits Continuation while on Approved Leave of Absence; Short Term and Long Term Disability Specific Plan Details; Flexible Work Policy 6.12; Faculty Rule 3335-5-19; Faculty Rule 3335-5-07; Faculty Professional Leave Policy; Reductions in Force Policies 9.15 and 9.20; Military Leave policy 6.35; OAA Policies and Procedures Handbook and Form 111 (tenure-clock notification); FAQ on semester appointments; Classified Civil Service Rules ch. 73; Faculty Compensation policy; Paid Leave Programs policy 6.27 as revised 2018-10-01 and the Adoption Plan Document (named in 2018_00)."
+ ],
+ "statutory_floor": {
+  "jurisdiction": "US",
+  "year": "2018",
+  "weeks_birth": 12.0,
+  "weeks_nonbirth": 12.0,
+  "statute": "Family and Medical Leave Act (FMLA) (29 U.S.C. 2611-2612)",
+  "source_doc": "2026_00_us_fmla_29usc2612",
+  "table": "statutory_baseline.csv"
+ }
+}

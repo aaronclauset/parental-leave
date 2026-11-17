@@ -1,0 +1,2464 @@
+{
+ "institution": "Wayne State University",
+ "slug": "wayne_state_university",
+ "country": "US",
+ "model": "claude-opus-5-5",
+ "codebook_version": "1.25",
+ "schema_version": "1.25",
+ "reference_date": "2018-02-26",
+ "calendar": {
+  "term_weeks": null,
+  "note": "Letter of Agreement (July 23, 1984): 'the University academic calendar will consist of two semesters plus Spring/Summer' - kind of term stated without its length, so the semester default (R8).",
+  "kind": "semester"
+ },
+ "documents": [
+  {
+   "doc_id": "2018_00_link",
+   "title": "Maternity & Parental Leaves (FMLASource/ComPsych leave guide hosted on hr.wayne.edu)",
+   "version_or_effective_date": "© 2015; captured 2020-06-29; accepted as in force (version_uncertain)",
+   "url": "http://hr.wayne.edu/tcw/loa-fmla/maternity-and-parental-leaves.pdf",
+   "retrieved": "2026-10-18"
+  },
+  {
+   "doc_id": "2018_01_aaupaft_contract_article_xiii_leaves",
+   "title": "Article XIII: Leaves of Absence (AAUP-AFT Local 6075 web copy of the 2013-2021 Agreement)",
+   "version_or_effective_date": "Agreement March 20, 2013 - March 20, 2021; captured 2018-05-11",
+   "url": "https://www.aaupaft.org/home/contract/all-contract-articles/article-xiii-leaves-of-absence",
+   "retrieved": "2026-10-20"
+  },
+  {
+   "doc_id": "2018_02_aaupaft_contract_article_i_recognition",
+   "title": "Article I: Recognition and Description of Unit (union web copy)",
+   "version_or_effective_date": "Agreement 2013-2021; captured 2018-05-11",
+   "url": "http://www.aaupaft.org:80/home/contract/all-contract-articles/article-i-recognition-and-description-of-unit",
+   "retrieved": "2026-10-21"
+  },
+  {
+   "doc_id": "2018_03_aaupaft_contract_article_xxxvii_duration",
+   "title": "Article XXXVII: Duration of Agreement (union web copy)",
+   "version_or_effective_date": "in force until midnight of March 20, 2021",
+   "url": "http://www.aaupaft.org:80/home/contract/all-contract-articles/article-xxxvii-duration-of-agreement-and-cessation-of-bargaining",
+   "retrieved": "2026-10-21"
+  },
+  {
+   "doc_id": "2018_05_aaupaft_contract_article_xxii_tenure",
+   "title": "Article XXII: Tenure Procedures (union web copy)",
+   "version_or_effective_date": "Agreement 2013-2021; captured 2018-05-11",
+   "url": "http://www.aaupaft.org:80/home/contract/all-contract-articles/article-xxii-tenure-procedures",
+   "retrieved": "2026-10-21"
+  },
+  {
+   "doc_id": "2018_06_aaupaft_agreement_2013_2021_full",
+   "title": "Agreement between Wayne State University and AAUP-AFT Local 6075, March 20, 2013 - March 20, 2021",
+   "version_or_effective_date": "March 20, 2013 - March 20, 2021",
+   "url": "https://facaffairs.med.wayne.edu/policies_and_procedures/wsu_aaup-aft_contract.pdf",
+   "retrieved": "2026-10-21"
+  },
+  {
+   "doc_id": "2018_07_appm_3_4_5_fmla_policy",
+   "title": "APPM 3.4.5 Family and Medical Leave Act",
+   "version_or_effective_date": "captured 2016-07-10 (page © 2016); HR page of 2017 lists it as 'Under Review'",
+   "url": "https://policies.wayne.edu/appm/3-4-5-family-and-medical-leave-act.php",
+   "retrieved": "2026-10-21"
+  },
+  {
+   "doc_id": "2018_08_appm_3_3_6_leave_of_absence",
+   "title": "APPM 3.3.6 Leave Of Absence",
+   "version_or_effective_date": "captured 2016-08-09 (page © 2016)",
+   "url": "https://policies.wayne.edu/appm/3-3-6-leave-of-absence.php",
+   "retrieved": "2026-10-21"
+  },
+  {
+   "doc_id": "2018_09_hr_leaves_of_absence_page",
+   "title": "HR Leaves of Absence (benefits Q&A)",
+   "version_or_effective_date": "captured 2017-08-12 (page © 2017)",
+   "url": "http://hr.wayne.edu/tcw/loa-fmla/loa.php",
+   "retrieved": "2026-10-21"
+  },
+  {
+   "doc_id": "2018_10_hr_fmla_page",
+   "title": "HR Family Medical Leave page",
+   "version_or_effective_date": "captured 2017-08-12 (page © 2017)",
+   "url": "http://hr.wayne.edu/tcw/loa-fmla/fmla.php",
+   "retrieved": "2026-10-21"
+  }
+ ],
+ "missing": false,
+ "scope_accounting": {
+  "C1": {
+   "components": [
+    "wayne_state_university_c1",
+    "wayne_state_university_c2",
+    "wayne_state_university_c6"
+   ]
+  },
+  "C2": {
+   "components": [
+    "wayne_state_university_c3"
+   ]
+  },
+  "C3": {
+   "components": [
+    "wayne_state_university_c1",
+    "wayne_state_university_c2",
+    "wayne_state_university_c8",
+    "wayne_state_university_c14",
+    "wayne_state_university_c15"
+   ]
+  },
+  "C4": {
+   "components": [
+    "wayne_state_university_c11"
+   ],
+   "not_components": [
+    {
+     "statute": "Americans with Disabilities Act (ADA)",
+     "reason": "disability-accommodation statute named in XIII.C, XIII.D.5 and APPM 3.4.5 (U4); not a parent provision"
+    },
+    {
+     "statute": "FMLA military caregiver and qualifying-exigency leave (26 workweeks)",
+     "reason": "sections of the Act named in APPM 3.4.5 that do not concern becoming a parent (U4)"
+    },
+    {
+     "statute": "Uniformed Services Employment and Reemployment Rights Act (USERRA)",
+     "reason": "military service credit for FMLA hours (APPM 3.4.5); not a parent provision"
+    },
+    {
+     "statute": "Fair Labor Standards Act (FLSA)",
+     "reason": "used only to count hours for FMLA eligibility (APPM 3.4.5)"
+    },
+    {
+     "statute": "federal and state Veterans Employment Acts",
+     "reason": "military leave (XIII.A.2)"
+    },
+    {
+     "statute": "Social Security and Worker's Compensation",
+     "reason": "offsets in the LTD benefit and workers' compensation absences (XII.H.5, XIV, APPM 3.4.5); not parent provisions"
+    },
+    {
+     "statute": "Federal or State law prohibiting discrimination (unnamed)",
+     "reason": "general non-discrimination statement in APPM 3.4.5; no pregnancy leave or length stated"
+    },
+    {
+     "statute": "Internal Revenue Service regulations; Medicare; federal law on medical and dental continuation",
+     "reason": "retirement, insurance and tax provisions; not parent provisions"
+    }
+   ]
+  },
+  "C5": {
+   "components": [
+    "wayne_state_university_c11",
+    "wayne_state_university_c12"
+   ]
+  },
+  "C6": {
+   "components": [
+    "wayne_state_university_c7",
+    "wayne_state_university_c13"
+   ]
+  },
+  "C7": {
+   "components": [
+    "wayne_state_university_c4",
+    "wayne_state_university_c5"
+   ]
+  },
+  "C8": {
+   "components": [
+    "wayne_state_university_c9",
+    "wayne_state_university_c10"
+   ]
+  },
+  "C9": {
+   "absent": {
+    "documents": [
+     "2018_00_link",
+     "2018_01_aaupaft_contract_article_xiii_leaves",
+     "2018_02_aaupaft_contract_article_i_recognition",
+     "2018_03_aaupaft_contract_article_xxxvii_duration",
+     "2018_05_aaupaft_contract_article_xxii_tenure",
+     "2018_06_aaupaft_agreement_2013_2021_full",
+     "2018_07_appm_3_4_5_fmla_policy",
+     "2018_08_appm_3_3_6_leave_of_absence",
+     "2018_09_hr_leaves_of_absence_page",
+     "2018_10_hr_fmla_page"
+    ],
+    "terms": [
+     "accommodation",
+     "pregnancy",
+     "transfer",
+     "light duty",
+     "less strenuous",
+     "hazard",
+     "equal treatment",
+     "lactation",
+     "nursing"
+    ]
+   }
+  },
+  "C10": {
+   "absent": {
+    "documents": [
+     "2018_00_link",
+     "2018_01_aaupaft_contract_article_xiii_leaves",
+     "2018_02_aaupaft_contract_article_i_recognition",
+     "2018_03_aaupaft_contract_article_xxxvii_duration",
+     "2018_05_aaupaft_contract_article_xxii_tenure",
+     "2018_06_aaupaft_agreement_2013_2021_full",
+     "2018_07_appm_3_4_5_fmla_policy",
+     "2018_08_appm_3_3_6_leave_of_absence",
+     "2018_09_hr_leaves_of_absence_page",
+     "2018_10_hr_fmla_page"
+    ],
+    "terms": [
+     "FMLA-qualifying",
+     "first days",
+     "regular work time",
+     "paid FMLA",
+     "substitute appropriate paid leave"
+    ]
+   }
+  }
+ },
+ "passage_dispositions": {
+  "2018_00_link#001": {
+   "used_in": [
+    "wayne_state_university_c2",
+    "wayne_state_university_c11"
+   ]
+  },
+  "2018_01_aaupaft_contract_article_xiii_leaves#001": {
+   "not_relevant": "site navigation menu, no policy text"
+  },
+  "2018_01_aaupaft_contract_article_xiii_leaves#002": {
+   "not_relevant": "site navigation menu, no policy text"
+  },
+  "2018_01_aaupaft_contract_article_xiii_leaves#003": {
+   "used_in": [
+    "wayne_state_university_c5",
+    "wayne_state_university_c6",
+    "wayne_state_university_c7"
+   ]
+  },
+  "2018_01_aaupaft_contract_article_xiii_leaves#004": {
+   "used_in": [
+    "wayne_state_university_c7",
+    "wayne_state_university_c8"
+   ]
+  },
+  "2018_01_aaupaft_contract_article_xiii_leaves#005": {
+   "not_relevant": "authorized professional absences and sabbatical leave: not usable for a birth (scholarly purpose)"
+  },
+  "2018_01_aaupaft_contract_article_xiii_leaves#006": {
+   "used_in": [
+    "wayne_state_university_c1",
+    "wayne_state_university_c2"
+   ]
+  },
+  "2018_01_aaupaft_contract_article_xiii_leaves#007": {
+   "used_in": [
+    "wayne_state_university_c1"
+   ]
+  },
+  "2018_01_aaupaft_contract_article_xiii_leaves#008": {
+   "used_in": [
+    "wayne_state_university_c1",
+    "wayne_state_university_c10",
+    "wayne_state_university_c12",
+    "wayne_state_university_c13"
+   ]
+  },
+  "2018_01_aaupaft_contract_article_xiii_leaves#009": {
+   "used_in": [
+    "wayne_state_university_c1",
+    "wayne_state_university_c2",
+    "wayne_state_university_c3"
+   ]
+  },
+  "2018_01_aaupaft_contract_article_xiii_leaves#010": {
+   "used_in": [
+    "wayne_state_university_c3",
+    "wayne_state_university_c6",
+    "wayne_state_university_c9",
+    "wayne_state_university_c4"
+   ]
+  },
+  "2018_02_aaupaft_contract_article_i_recognition#001": {
+   "not_relevant": "site navigation menu, no policy text"
+  },
+  "2018_02_aaupaft_contract_article_i_recognition#002": {
+   "not_relevant": "site navigation menu, no policy text"
+  },
+  "2018_03_aaupaft_contract_article_xxxvii_duration#001": {
+   "not_relevant": "site navigation menu, no policy text"
+  },
+  "2018_03_aaupaft_contract_article_xxxvii_duration#002": {
+   "not_relevant": "site navigation menu, no policy text"
+  },
+  "2018_05_aaupaft_contract_article_xxii_tenure#001": {
+   "not_relevant": "site navigation menu, no policy text"
+  },
+  "2018_05_aaupaft_contract_article_xxii_tenure#002": {
+   "not_relevant": "site navigation menu, no policy text"
+  },
+  "2018_05_aaupaft_contract_article_xxii_tenure#003": {
+   "not_relevant": "tenure criteria; no clock extension or leave"
+  },
+  "2018_06_aaupaft_agreement_2013_2021_full#001": {
+   "not_relevant": "table of contents"
+  },
+  "2018_06_aaupaft_agreement_2013_2021_full#002": {
+   "not_relevant": "table of contents"
+  },
+  "2018_06_aaupaft_agreement_2013_2021_full#003": {
+   "not_relevant": "table of contents"
+  },
+  "2018_06_aaupaft_agreement_2013_2021_full#004": {
+   "not_relevant": "dues deduction"
+  },
+  "2018_06_aaupaft_agreement_2013_2021_full#005": {
+   "not_relevant": "OEP medical and dental eligibility"
+  },
+  "2018_06_aaupaft_agreement_2013_2021_full#006": {
+   "used_in": [
+    "wayne_state_university_c14"
+   ]
+  },
+  "2018_06_aaupaft_agreement_2013_2021_full#007": {
+   "used_in": [
+    "wayne_state_university_c14"
+   ]
+  },
+  "2018_06_aaupaft_agreement_2013_2021_full#008": {
+   "used_in": [
+    "wayne_state_university_c5",
+    "wayne_state_university_c6",
+    "wayne_state_university_c7"
+   ]
+  },
+  "2018_06_aaupaft_agreement_2013_2021_full#009": {
+   "used_in": [
+    "wayne_state_university_c7",
+    "wayne_state_university_c8"
+   ]
+  },
+  "2018_06_aaupaft_agreement_2013_2021_full#010": {
+   "not_relevant": "authorized professional absences and sabbatical leave (scholarly purpose)"
+  },
+  "2018_06_aaupaft_agreement_2013_2021_full#011": {
+   "used_in": [
+    "wayne_state_university_c1",
+    "wayne_state_university_c2"
+   ]
+  },
+  "2018_06_aaupaft_agreement_2013_2021_full#012": {
+   "used_in": [
+    "wayne_state_university_c1"
+   ]
+  },
+  "2018_06_aaupaft_agreement_2013_2021_full#013": {
+   "used_in": [
+    "wayne_state_university_c1",
+    "wayne_state_university_c10",
+    "wayne_state_university_c12",
+    "wayne_state_university_c13"
+   ]
+  },
+  "2018_06_aaupaft_agreement_2013_2021_full#014": {
+   "used_in": [
+    "wayne_state_university_c1",
+    "wayne_state_university_c2",
+    "wayne_state_university_c3"
+   ]
+  },
+  "2018_06_aaupaft_agreement_2013_2021_full#015": {
+   "used_in": [
+    "wayne_state_university_c3",
+    "wayne_state_university_c6",
+    "wayne_state_university_c9",
+    "wayne_state_university_c4"
+   ]
+  },
+  "2018_06_aaupaft_agreement_2013_2021_full#016": {
+   "not_relevant": "fractional-time employees' benefits and administration meetings; no leave provision"
+  },
+  "2018_06_aaupaft_agreement_2013_2021_full#017": {
+   "not_relevant": "selection of department chairs"
+  },
+  "2018_06_aaupaft_agreement_2013_2021_full#018": {
+   "not_relevant": "selection of deans"
+  },
+  "2018_06_aaupaft_agreement_2013_2021_full#019": {
+   "not_relevant": "selection of library dean or archives director"
+  },
+  "2018_06_aaupaft_agreement_2013_2021_full#020": {
+   "used_in": [
+    "wayne_state_university_c4"
+   ]
+  },
+  "2018_06_aaupaft_agreement_2013_2021_full#021": {
+   "not_relevant": "annual review provisions"
+  },
+  "2018_06_aaupaft_agreement_2013_2021_full#022": {
+   "not_relevant": "non-renewal notice and ESS definitions"
+  },
+  "2018_06_aaupaft_agreement_2013_2021_full#023": {
+   "not_relevant": "tenure criteria; no clock extension or leave"
+  },
+  "2018_06_aaupaft_agreement_2013_2021_full#024": {
+   "not_relevant": "grant balances and bylaws"
+  },
+  "2018_06_aaupaft_agreement_2013_2021_full#025": {
+   "not_relevant": "tuition assistance"
+  },
+  "2018_06_aaupaft_agreement_2013_2021_full#026": {
+   "not_relevant": "spring-summer within-load assignments"
+  },
+  "2018_06_aaupaft_agreement_2013_2021_full#027": {
+   "not_relevant": "affirmative-action released time and resignation; not a parent provision"
+  },
+  "2018_06_aaupaft_agreement_2013_2021_full#028": {
+   "not_relevant": "letter on the pre-1962 sick bank and travel; not applicable to current members"
+  },
+  "2018_06_aaupaft_agreement_2013_2021_full#029": {
+   "not_relevant": "dental plan letter"
+  },
+  "2018_06_aaupaft_agreement_2013_2021_full#030": {
+   "not_relevant": "contract structure letter"
+  },
+  "2018_07_appm_3_4_5_fmla_policy#001": {
+   "not_relevant": "site navigation menu, no policy text"
+  },
+  "2018_07_appm_3_4_5_fmla_policy#002": {
+   "not_relevant": "site navigation menu, no policy text"
+  },
+  "2018_07_appm_3_4_5_fmla_policy#003": {
+   "used_in": [
+    "wayne_state_university_c11"
+   ]
+  },
+  "2018_07_appm_3_4_5_fmla_policy#004": {
+   "used_in": [
+    "wayne_state_university_c11"
+   ]
+  },
+  "2018_07_appm_3_4_5_fmla_policy#005": {
+   "used_in": [
+    "wayne_state_university_c11"
+   ]
+  },
+  "2018_08_appm_3_3_6_leave_of_absence#001": {
+   "not_relevant": "site navigation menu, no policy text"
+  },
+  "2018_08_appm_3_3_6_leave_of_absence#002": {
+   "not_relevant": "site navigation menu, no policy text"
+  },
+  "2018_08_appm_3_3_6_leave_of_absence#003": {
+   "not_relevant": "APPM 3.3.6: refers to union agreements and the non-represented personnel manual for leave rules; no provision of its own"
+  },
+  "2018_09_hr_leaves_of_absence_page#001": {
+   "not_relevant": "benefits continuation during unpaid leave; no leave entitlement"
+  },
+  "2018_10_hr_fmla_page#001": {
+   "used_in": [
+    "wayne_state_university_c11"
+   ]
+  }
+ },
+ "mechanism_slots": {
+  "employer_paid_leave": {
+   "components": [
+    "wayne_state_university_c12",
+    "wayne_state_university_c13"
+   ]
+  },
+  "employer_childbirth_benefit": {
+   "components": [
+    "wayne_state_university_c2"
+   ]
+  },
+  "generic_sick_or_disability_plan": {
+   "components": [
+    "wayne_state_university_c14"
+   ]
+  },
+  "own_accrual": {
+   "components": [
+    "wayne_state_university_c15"
+   ]
+  },
+  "donated_leave": {
+   "absent": "No donated or shared leave bank in any usable document (searched all ten for 'donat', 'shared leave', 'leave bank', 'catastrophic'); the 'old sick bank' letter (1986) concerns members hired before June 1962 and is not donated leave."
+  },
+  "government_benefit": {
+   "absent": "No government or state paid-leave programme named in any usable document (Michigan has none in the baseline); searched for 'state', 'insurance', 'benefit', 'paid family'."
+  },
+  "employer_topup": {
+   "absent": "No top-up of a government benefit in any usable document; searched 'top-up', 'supplement', 'difference between' (only jury duty and military leave pay the difference)."
+  },
+  "modified_duties": {
+   "components": [
+    "wayne_state_university_c3"
+   ]
+  },
+  "unpaid_leave": {
+   "components": [
+    "wayne_state_university_c1",
+    "wayne_state_university_c6",
+    "wayne_state_university_c7",
+    "wayne_state_university_c8",
+    "wayne_state_university_c11"
+   ]
+  },
+  "tenure_clock": {
+   "components": [
+    "wayne_state_university_c4",
+    "wayne_state_university_c5"
+   ]
+  },
+  "part_time_option": {
+   "components": [
+    "wayne_state_university_c9",
+    "wayne_state_university_c10"
+   ]
+  },
+  "other": {
+   "absent": "No rearrangement, pregnancy accommodation, hazard programme or equal-treatment provision found in the ten usable documents (terms: accommodation, transfer, hazard, equal treatment, rearrange)."
+  }
+ },
+ "baseline_accounting": {
+  "Family and Medical Leave Act (FMLA)": {
+   "components": [
+    "wayne_state_university_c11"
+   ]
+  },
+  "Federal Employee Paid Leave Act (paid parental leave for federal civilian employees)": {
+   "not_applicable": "covers federal civilian employees; Wayne State faculty are state-university employees"
+  }
+ },
+ "leave_limits": [],
+ "components": [
+  {
+   "component_id": "wayne_state_university_c1",
+   "institution_label": "Short-Term Disability Leave for Illness",
+   "description": "Leave of absence with pay for a period of disability (XIII.C.1), which XIII.D.1 applies to absences due to pregnancy, childbirth and recovery. Coded here as the leave (job-protected absence) for the birth parent's own disability, at the length for a member with two years of service; its childbirth pay is c2.",
+   "mechanism": "unpaid_leave",
+   "mechanism_note": "U6: the agreement grants a leave status ('A leave of absence with pay is a leave during which a member of the bargaining unit is not required to perform regular University duties'), so the disability leave is coded as the leave (unpaid_leave, at its stated maximum) plus its pay. The pay for the childbirth period is coded c2 as an employer_childbirth_benefit under V1b (the guidance's Wayne State example), `within` this leave.",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Full-time members of the bargaining unit who are on the payroll (the unit includes assistant, associate and full professors, Art. I.B.1)",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "absences due to a temporary illness caused or contributed to by pregnancy, childbirth and/or recovery therefrom",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "entitlement_note": "'shall receive full compensation ... for periods of disability'; D.1 'shall be covered under Short-Term Disability Leave for Illness'.",
+   "duration": {
+    "value": 66,
+    "units": "workday",
+    "qualifier": "up_to"
+   },
+   "duration_max": {
+    "value": 132,
+    "units": "workday"
+   },
+   "duration_note": "Length grows with service: 'up to one (1) month plus an additional number of months equal to the number of years of service completed', not to exceed in any twelve-month period 44 working days after one year, 66 after two years, 88 after three, 110 after four, 132 after five. U8: the member with two years of service is coded (66 working days); the five-year band (132) is in duration_max. Members with five or more years who have exhausted the bank and vacation and are likely LTD-eligible stay on the payroll at one-half compensation for the remainder of the six-month short-term disability period (XIII.C.1.d).",
+   "service_requirement": "none stated for eligibility; the maximum grows with service (66 working days after two years of employment)",
+   "medical_certification": true,
+   "medical_certification_note": "medical verification for absences beyond five consecutive business days, when requested; additional verification beyond thirteen consecutive calendar days",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_note": "'not required to perform regular University duties' (XIII.C).",
+   "sequence": [
+    {
+     "relation": "within",
+     "component_id": "wayne_state_university_c3",
+     "note": "R3b: the modified-duties semester 'including the anticipated short-term disability leave for pregnancy, childbirth and recovery therefrom' contains the disability leave."
+    }
+   ],
+   "runs_concurrently_with": [
+    "FMLA"
+   ],
+   "rule_applied": [
+    "U6",
+    "U8",
+    "U5",
+    "R3b",
+    "V2",
+    "R13",
+    "R11"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Full-time members of the bargaining unit who are on the payroll shall receive full compensation (one-ninth [1/9th] of the academic year compensation per month for nine-month employees) for periods of disability of up to one (1) month plus an additional number of months equal to the number of years of service completed, the total of such benefits shall not exceed in any twelve-month period: forty-four (44) working days after one (1) year of employment but no more than two (2) years of employment; sixty-six (66) working days after two (2) years of employment but no more than three (3) years of employment;",
+     "All teaching faculty employed at one-half fractional time or more as lecturer, senior lecturer, instructor, assistant professor, associate professor, professor, faculty (clinical), and faculty (research); and"
+    ],
+    "eligible_parent": [
+     "For actively employed members of the bargaining unit, absences due to a temporary illness caused or contributed to by pregnancy, childbirth and/or recovery therefrom, shall be covered under Short-Term Disability Leave for Illness as specified in Section C.1 of this Article."
+    ],
+    "entitlement": [
+     "Full-time members of the bargaining unit who are on the payroll shall receive full compensation (one-ninth [1/9th] of the academic year compensation per month for nine-month employees) for periods of disability of up to one (1) month plus an additional number of months equal to the number of years of service completed, the total of such benefits shall not exceed in any twelve-month period: forty-four (44) working days after one (1) year of employment but no more than two (2) years of employment; sixty-six (66) working days after two (2) years of employment but no more than three (3) years of employment;",
+     "For actively employed members of the bargaining unit, absences due to a temporary illness caused or contributed to by pregnancy, childbirth and/or recovery therefrom, shall be covered under Short-Term Disability Leave for Illness as specified in Section C.1 of this Article."
+    ],
+    "duration": [
+     "Full-time members of the bargaining unit who are on the payroll shall receive full compensation (one-ninth [1/9th] of the academic year compensation per month for nine-month employees) for periods of disability of up to one (1) month plus an additional number of months equal to the number of years of service completed, the total of such benefits shall not exceed in any twelve-month period: forty-four (44) working days after one (1) year of employment but no more than two (2) years of employment; sixty-six (66) working days after two (2) years of employment but no more than three (3) years of employment;",
+     "one hundred thirty-two (132) working days after five (5) years of employment."
+    ],
+    "relief": [
+     "A leave of absence with pay is a leave during which a member of the bargaining unit is not required to perform regular University duties, but is retained on the payroll of the University at his/her normal compensation rate for periods during which s/he is normally on the payroll."
+    ],
+    "sequence": [
+     "The duration of the modified-duties assignment may not exceed fifteen (15) weeks, including the anticipated short-term disability leave for pregnancy, childbirth and recovery therefrom, and should normally coincide with the beginning and ending dates of the semester."
+    ],
+    "service_requirement": [
+     "Full-time members of the bargaining unit who are on the payroll shall receive full compensation (one-ninth [1/9th] of the academic year compensation per month for nine-month employees) for periods of disability of up to one (1) month plus an additional number of months equal to the number of years of service completed, the total of such benefits shall not exceed in any twelve-month period: forty-four (44) working days after one (1) year of employment but no more than two (2) years of employment; sixty-six (66) working days after two (2) years of employment but no more than three (3) years of employment;"
+    ],
+    "mechanism": [
+     "A leave of absence with pay is a leave during which a member of the bargaining unit is not required to perform regular University duties, but is retained on the payroll of the University at his/her normal compensation rate for periods during which s/he is normally on the payroll."
+    ],
+    "medical_certification": [
+     "must provide, when requested by his/her direct supervisor, medical verification for absences beyond five (5) consecutive business days and/or a release-to-return-to-work form from his/her attending healthcare provider."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_aaupaft_contract_article_xiii_leaves",
+    "2018_02_aaupaft_contract_article_i_recognition",
+    "2018_06_aaupaft_agreement_2013_2021_full"
+   ],
+   "flags": [
+    "ambiguous: rule gap: U6 splits a granted paid disability leave into the leave and a generic plan within it, while V1b's Wayne State example codes the childbirth period of the same Short-Term Disability Leave as an employer_childbirth_benefit; coded as the U6 leave (c1) with the V1b childbirth benefit (c2) within it",
+    "own_illness_leave"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "U6",
+     "answer": "unpaid_leave",
+     "quote": "A leave of absence with pay is a leave during which a member of the bargaining unit is not required to perform regular University duties, but is retained on the payroll of the University at his/her normal compensation rate for periods during which s/he is normally on the payroll."
+    },
+    {
+     "field": "payer",
+     "rule": "U6",
+     "answer": "none",
+     "quote": "A leave of absence with pay is a leave during which a member of the bargaining unit is not required to perform regular University duties, but is retained on the payroll of the University at his/her normal compensation rate for periods during which s/he is normally on the payroll."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "For actively employed members of the bargaining unit, absences due to a temporary illness caused or contributed to by pregnancy, childbirth and/or recovery therefrom, shall be covered under Short-Term Disability Leave for Illness as specified in Section C.1 of this Article."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Full-time members of the bargaining unit who are on the payroll shall receive full compensation (one-ninth [1/9th] of the academic year compensation per month for nine-month employees) for periods of disability of up to one (1) month plus an additional number of months equal to the number of years of service completed, the total of such benefits shall not exceed in any twelve-month period: forty-four (44) working days after one (1) year of employment but no more than two (2) years of employment; sixty-six (66) working days after two (2) years of employment but no more than three (3) years of employment;"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own disability from pregnancy and childbirth)",
+     "quote": "For actively employed members of the bargaining unit, absences due to a temporary illness caused or contributed to by pregnancy, childbirth and/or recovery therefrom, shall be covered under Short-Term Disability Leave for Illness as specified in Section C.1 of this Article."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "Full-time members of the bargaining unit who are on the payroll shall receive full compensation (one-ninth [1/9th] of the academic year compensation per month for nine-month employees) for periods of disability of up to one (1) month plus an additional number of months equal to the number of years of service completed, the total of such benefits shall not exceed in any twelve-month period: forty-four (44) working days after one (1) year of employment but no more than two (2) years of employment; sixty-six (66) working days after two (2) years of employment but no more than three (3) years of employment;"
+    },
+    {
+     "field": "duration",
+     "rule": "U8",
+     "answer": "66 workdays up_to for a member with two years of service; 132 (five-year band) in duration_max",
+     "quote": "Full-time members of the bargaining unit who are on the payroll shall receive full compensation (one-ninth [1/9th] of the academic year compensation per month for nine-month employees) for periods of disability of up to one (1) month plus an additional number of months equal to the number of years of service completed, the total of such benefits shall not exceed in any twelve-month period: forty-four (44) working days after one (1) year of employment but no more than two (2) years of employment; sixty-six (66) working days after two (2) years of employment but no more than three (3) years of employment;"
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "up_to ('shall not exceed')",
+     "quote": "Full-time members of the bargaining unit who are on the payroll shall receive full compensation (one-ninth [1/9th] of the academic year compensation per month for nine-month employees) for periods of disability of up to one (1) month plus an additional number of months equal to the number of years of service completed, the total of such benefits shall not exceed in any twelve-month period: forty-four (44) working days after one (1) year of employment but no more than two (2) years of employment; sixty-six (66) working days after two (2) years of employment but no more than three (3) years of employment;"
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved: a leave of absence during which regular duties are not required",
+     "quote": "A leave of absence with pay is a leave during which a member of the bargaining unit is not required to perform regular University duties, but is retained on the payroll of the University at his/her normal compensation rate for periods during which s/he is normally on the payroll."
+    },
+    {
+     "field": "sequence",
+     "rule": "R3b",
+     "answer": "within c3: the modified-duties period includes the anticipated short-term disability leave",
+     "quote": "The duration of the modified-duties assignment may not exceed fifteen (15) weeks, including the anticipated short-term disability leave for pregnancy, childbirth and recovery therefrom, and should normally coincide with the beginning and ending dates of the semester."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U8",
+     "answer": "none stated; maximum grows with service, 66 working days after two years",
+     "quote": "Full-time members of the bargaining unit who are on the payroll shall receive full compensation (one-ninth [1/9th] of the academic year compensation per month for nine-month employees) for periods of disability of up to one (1) month plus an additional number of months equal to the number of years of service completed, the total of such benefits shall not exceed in any twelve-month period: forty-four (44) working days after one (1) year of employment but no more than two (2) years of employment; sixty-six (66) working days after two (2) years of employment but no more than three (3) years of employment;"
+    }
+   ]
+  },
+  {
+   "component_id": "wayne_state_university_c2",
+   "institution_label": "Maternity Leave",
+   "description": "Full compensation during the childbirth disability period under Short-Term Disability Leave for Illness; the HR leave guide states the childbirth period as typically 8 weeks for natural and Caesarean delivery.",
+   "mechanism": "employer_childbirth_benefit",
+   "mechanism_note": "V1b, applied as in the rule's Wayne State example: the HR site's leave guide states the childbirth period and its length ('typically 8 weeks for both Natural and Caesarean Delivery'); the pay level comes from the governing provision (XIII.D.1 and C.1, 'full compensation'). The leave guide's version was accepted as an inference (per the document's version note), so the component carries version_uncertain.",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Full-time members of the bargaining unit who are on the payroll; the leave guide speaks of 'Wayne State University employees'",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "eligible female employee",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 8,
+    "units": "week",
+    "qualifier": "normally"
+   },
+   "duration_note": "'typically 8 weeks for both Natural and Caesarean Delivery' (leave guide); 'typically' read as 'normally' with no maximum stated (R13). The leave guide also describes leave before delivery for bed rest, prenatal treatment and medical necessity, with no length. The Short-Term Disability bank itself allows up to 66 working days for any disability for a two-year member (c1).",
+   "duration_variants": {
+    "natural": "typically 8 weeks",
+    "caesarean": "typically 8 weeks",
+    "before_delivery": "bed rest or prenatal treatment when medically necessary, no length stated"
+   },
+   "pay_fraction": "full compensation",
+   "pay_fraction_pct": 100,
+   "service_requirement": "none stated",
+   "medical_certification": true,
+   "medical_certification_note": "medical verification for absences beyond five consecutive business days, when requested (XIII.C.1.b)",
+   "sequence": [
+    {
+     "relation": "within",
+     "component_id": "wayne_state_university_c1",
+     "note": "U6 and S1: the pay lies within the disability leave."
+    }
+   ],
+   "rule_applied": [
+    "V1",
+    "V1b",
+    "R2",
+    "R13",
+    "U6",
+    "source_precedence"
+   ],
+   "evidence": {
+    "mechanism": [
+     "For Wayne State University employees this leave is typically 8 weeks for both Natural and Caesarean Delivery.",
+     "For actively employed members of the bargaining unit, absences due to a temporary illness caused or contributed to by pregnancy, childbirth and/or recovery therefrom, shall be covered under Short-Term Disability Leave for Illness as specified in Section C.1 of this Article.",
+     "Full-time members of the bargaining unit who are on the payroll shall receive full compensation (one-ninth [1/9th] of the academic year compensation per month for nine-month employees) for periods of disability of up to one (1) month plus an additional number of months equal to the number of years of service completed, the total of such benefits shall not exceed in any twelve-month period: forty-four (44) working days after one (1) year of employment but no more than two (2) years of employment; sixty-six (66) working days after two (2) years of employment but no more than three (3) years of employment;"
+    ],
+    "faculty_group": [
+     "Full-time members of the bargaining unit who are on the payroll shall receive full compensation (one-ninth [1/9th] of the academic year compensation per month for nine-month employees) for periods of disability of up to one (1) month plus an additional number of months equal to the number of years of service completed, the total of such benefits shall not exceed in any twelve-month period: forty-four (44) working days after one (1) year of employment but no more than two (2) years of employment; sixty-six (66) working days after two (2) years of employment but no more than three (3) years of employment;"
+    ],
+    "eligible_parent": [
+     "Leave an eligible female employee may take after the date of delivery.",
+     "For actively employed members of the bargaining unit, absences due to a temporary illness caused or contributed to by pregnancy, childbirth and/or recovery therefrom, shall be covered under Short-Term Disability Leave for Illness as specified in Section C.1 of this Article."
+    ],
+    "entitlement": [
+     "Full-time members of the bargaining unit who are on the payroll shall receive full compensation (one-ninth [1/9th] of the academic year compensation per month for nine-month employees) for periods of disability of up to one (1) month plus an additional number of months equal to the number of years of service completed, the total of such benefits shall not exceed in any twelve-month period: forty-four (44) working days after one (1) year of employment but no more than two (2) years of employment; sixty-six (66) working days after two (2) years of employment but no more than three (3) years of employment;",
+     "For actively employed members of the bargaining unit, absences due to a temporary illness caused or contributed to by pregnancy, childbirth and/or recovery therefrom, shall be covered under Short-Term Disability Leave for Illness as specified in Section C.1 of this Article."
+    ],
+    "duration": [
+     "For Wayne State University employees this leave is typically 8 weeks for both Natural and Caesarean Delivery."
+    ],
+    "pay_fraction": [
+     "Full-time members of the bargaining unit who are on the payroll shall receive full compensation (one-ninth [1/9th] of the academic year compensation per month for nine-month employees) for periods of disability of up to one (1) month plus an additional number of months equal to the number of years of service completed, the total of such benefits shall not exceed in any twelve-month period: forty-four (44) working days after one (1) year of employment but no more than two (2) years of employment; sixty-six (66) working days after two (2) years of employment but no more than three (3) years of employment;"
+    ],
+    "sequence": [
+     "For actively employed members of the bargaining unit, absences due to a temporary illness caused or contributed to by pregnancy, childbirth and/or recovery therefrom, shall be covered under Short-Term Disability Leave for Illness as specified in Section C.1 of this Article."
+    ],
+    "service_requirement": [
+     "Full-time members of the bargaining unit who are on the payroll shall receive full compensation (one-ninth [1/9th] of the academic year compensation per month for nine-month employees) for periods of disability of up to one (1) month plus an additional number of months equal to the number of years of service completed, the total of such benefits shall not exceed in any twelve-month period: forty-four (44) working days after one (1) year of employment but no more than two (2) years of employment; sixty-six (66) working days after two (2) years of employment but no more than three (3) years of employment;"
+    ],
+    "medical_certification": [
+     "must provide, when requested by his/her direct supervisor, medical verification for absences beyond five (5) consecutive business days and/or a release-to-return-to-work form from his/her attending healthcare provider."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link",
+    "2018_01_aaupaft_contract_article_xiii_leaves",
+    "2018_06_aaupaft_agreement_2013_2021_full"
+   ],
+   "flags": [
+    "version_uncertain"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "V1b",
+     "answer": "employer_childbirth_benefit",
+     "quote": "For Wayne State University employees this leave is typically 8 weeks for both Natural and Caesarean Delivery."
+    },
+    {
+     "field": "mechanism",
+     "rule": "V1",
+     "answer": "employer_childbirth_benefit",
+     "quote": "For actively employed members of the bargaining unit, absences due to a temporary illness caused or contributed to by pregnancy, childbirth and/or recovery therefrom, shall be covered under Short-Term Disability Leave for Illness as specified in Section C.1 of this Article."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "Full-time members of the bargaining unit who are on the payroll shall receive full compensation (one-ninth [1/9th] of the academic year compensation per month for nine-month employees) for periods of disability of up to one (1) month plus an additional number of months equal to the number of years of service completed, the total of such benefits shall not exceed in any twelve-month period: forty-four (44) working days after one (1) year of employment but no more than two (2) years of employment; sixty-six (66) working days after two (2) years of employment but no more than three (3) years of employment;"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "For actively employed members of the bargaining unit, absences due to a temporary illness caused or contributed to by pregnancy, childbirth and/or recovery therefrom, shall be covered under Short-Term Disability Leave for Illness as specified in Section C.1 of this Article."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Full-time members of the bargaining unit who are on the payroll shall receive full compensation (one-ninth [1/9th] of the academic year compensation per month for nine-month employees) for periods of disability of up to one (1) month plus an additional number of months equal to the number of years of service completed, the total of such benefits shall not exceed in any twelve-month period: forty-four (44) working days after one (1) year of employment but no more than two (2) years of employment; sixty-six (66) working days after two (2) years of employment but no more than three (3) years of employment;"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "birth_parent",
+     "quote": "Leave an eligible female employee may take after the date of delivery."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "Full-time members of the bargaining unit who are on the payroll shall receive full compensation (one-ninth [1/9th] of the academic year compensation per month for nine-month employees) for periods of disability of up to one (1) month plus an additional number of months equal to the number of years of service completed, the total of such benefits shall not exceed in any twelve-month period: forty-four (44) working days after one (1) year of employment but no more than two (2) years of employment; sixty-six (66) working days after two (2) years of employment but no more than three (3) years of employment;"
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "8 weeks, qualifier normally ('typically')",
+     "quote": "For Wayne State University employees this leave is typically 8 weeks for both Natural and Caesarean Delivery."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "V1b",
+     "answer": "full compensation, from the governing provision",
+     "quote": "Full-time members of the bargaining unit who are on the payroll shall receive full compensation (one-ninth [1/9th] of the academic year compensation per month for nine-month employees) for periods of disability of up to one (1) month plus an additional number of months equal to the number of years of service completed, the total of such benefits shall not exceed in any twelve-month period: forty-four (44) working days after one (1) year of employment but no more than two (2) years of employment; sixty-six (66) working days after two (2) years of employment but no more than three (3) years of employment;"
+    },
+    {
+     "field": "sequence",
+     "rule": "U6",
+     "answer": "within c1 (pay within the disability leave)",
+     "quote": "For actively employed members of the bargaining unit, absences due to a temporary illness caused or contributed to by pregnancy, childbirth and/or recovery therefrom, shall be covered under Short-Term Disability Leave for Illness as specified in Section C.1 of this Article."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "none stated",
+     "quote": "Full-time members of the bargaining unit who are on the payroll shall receive full compensation (one-ninth [1/9th] of the academic year compensation per month for nine-month employees) for periods of disability of up to one (1) month plus an additional number of months equal to the number of years of service completed, the total of such benefits shall not exceed in any twelve-month period: forty-four (44) working days after one (1) year of employment but no more than two (2) years of employment; sixty-six (66) working days after two (2) years of employment but no more than three (3) years of employment;"
+    }
+   ]
+  },
+  {
+   "component_id": "wayne_state_university_c3",
+   "institution_label": "Modified-Duties Assignment for Childbearing and Child Care Responsibilities",
+   "description": "With prior approval, a semester of reduced duties (not exceeding 15 weeks, including the short-term disability leave) for a unit member who has significant responsibility for the care of an infant after birth or adoption of a child under six; the member certifies primary responsibility.",
+   "mechanism": "modified_duties",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "a member of the bargaining unit (faculty and academic staff); subsidy-conditioned appointees may apply when not detrimental to the grant",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "a member of the bargaining unit who has significant responsibility for the care of an infant for the period before and/or immediately following birth of a child or adoption of a child under age six (6)",
+   "caregiver_condition": "primary",
+   "caregiver_condition_wording": "a certified statement by the bargaining-unit member certifying that s/he is assuming primary responsibility for the care of an infant or child",
+   "entitlement": "discretionary",
+   "entitlement_note": "'With prior approval ... may be granted' (V2); a denied member may file a Step One grievance to request reconsideration, which is 'at the discretion of the President or his/her designee' (D.2.g).",
+   "duration": {
+    "value": 1,
+    "units": "semester",
+    "qualifier": "up_to"
+   },
+   "duration_note": "'a semester of reduced duties'; 'may not exceed fifteen (15) weeks, including the anticipated short-term disability leave ... and should normally coincide with the beginning and ending dates of the semester'. Coded as one semester, as in R3b's Wayne State example (XIII.D.2.b → one semester); the 15-week cap is shorter than the default 16-week semester.",
+   "time_window": "for the period before and/or immediately following birth of a child or adoption of a child under age six (6)",
+   "notice": "Whenever possible, in writing to the dean/director/vice president at least two (2) months prior to the start of the requested leave",
+   "return_obligation": "Where teaching is reduced and compensation not adjusted: teach in-load additional courses equal to the greater of one course or one-half of the semester's teaching responsibilities within the next three semesters after return (D.2.e); may be waived where the plan is the equivalent of a complete workload",
+   "pay_fraction": "no adjustment in compensation for a full-workload plan; for a reduced-workload plan, some adjustment in compensation, up to three thousand dollars ($3,000), and/or in-load teaching or other assignments, may be required",
+   "service_requirement": "none stated",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "continues",
+    "research": "continues",
+    "advising_supervision": "continues",
+    "clinical": "continues"
+   },
+   "relief_inferred": "unnamed duties continue (R4b)",
+   "relief_note": "'a semester of reduced duties'; D.2.e names 'a reduction in teaching load'; other duties are carried out 'as stipulated in the arrangements made with the dean/director/vice president' (D.2.d). Two forms: a full workload rearranged (no adjustment), or a reduced workload with a compensation adjustment up to $3,000 and/or later in-load teaching. Category Just teaching, as in R3b's example.",
+   "rule_applied": [
+    "V2",
+    "R3b",
+    "R4",
+    "R4b",
+    "R6",
+    "R12",
+    "R3"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "With prior approval, a member of the bargaining unit who has significant responsibility for the care of an infant for the period before and/or immediately following birth of a child or adoption of a child under age six (6) may be granted a semester of reduced duties in order that the parent can prepare and/or care for the infant or child.",
+     "All teaching faculty employed at one-half fractional time or more as lecturer, senior lecturer, instructor, assistant professor, associate professor, professor, faculty (clinical), and faculty (research); and"
+    ],
+    "eligible_parent": [
+     "With prior approval, a member of the bargaining unit who has significant responsibility for the care of an infant for the period before and/or immediately following birth of a child or adoption of a child under age six (6) may be granted a semester of reduced duties in order that the parent can prepare and/or care for the infant or child."
+    ],
+    "caregiver_condition": [
+     "must include a certified statement by the bargaining-unit member certifying that s/he is assuming primary responsibility for the care of an infant or child."
+    ],
+    "entitlement": [
+     "With prior approval, a member of the bargaining unit who has significant responsibility for the care of an infant for the period before and/or immediately following birth of a child or adoption of a child under age six (6) may be granted a semester of reduced duties in order that the parent can prepare and/or care for the infant or child.",
+     "After the Step One meeting, the decision to grant reconsideration will be at the discretion of the President or his/her designee."
+    ],
+    "duration": [
+     "With prior approval, a member of the bargaining unit who has significant responsibility for the care of an infant for the period before and/or immediately following birth of a child or adoption of a child under age six (6) may be granted a semester of reduced duties in order that the parent can prepare and/or care for the infant or child.",
+     "The duration of the modified-duties assignment may not exceed fifteen (15) weeks, including the anticipated short-term disability leave for pregnancy, childbirth and recovery therefrom, and should normally coincide with the beginning and ending dates of the semester."
+    ],
+    "pay_fraction": [
+     "For a modified-duties assignment in which the equivalent of a full workload is performed, no adjustment in compensation or future assignments may be required.",
+     "For a modified-duties assignment in which a reduced workload is arranged, some adjustment in compensation, up to three thousand dollars ($3,000), and/or in-load teaching or other assignments as described in D.2.e, may be required."
+    ],
+    "relief": [
+     "Faculty whose modified-duties assignment involves a reduction in teaching load and who have not had an adjustment in compensation as per D.2.c must teach, on an in-load basis, additional courses equivalent to the greater of one (1) course or one-half (1/2) of the teaching responsibilities they would have had during the semester of modified-duties status.",
+     "During that portion of the semester that they are not away on short-term disability leave, bargaining-unit members on modified-duties status will be expected to carry out their professional responsibilities as stipulated in the arrangements made with the dean/director/vice president."
+    ],
+    "service_requirement": [
+     "With prior approval, a member of the bargaining unit who has significant responsibility for the care of an infant for the period before and/or immediately following birth of a child or adoption of a child under age six (6) may be granted a semester of reduced duties in order that the parent can prepare and/or care for the infant or child."
+    ],
+    "return_obligation": [
+     "Faculty whose modified-duties assignment involves a reduction in teaching load and who have not had an adjustment in compensation as per D.2.c must teach, on an in-load basis, additional courses equivalent to the greater of one (1) course or one-half (1/2) of the teaching responsibilities they would have had during the semester of modified-duties status.",
+     "Such additional teaching or other assignments shall occur within the next three (3) semesters following their return from modified-duties status."
+    ],
+    "notice": [
+     "Whenever possible, requests for modified-duties status should be submitted in writing to the dean/director/vice president at least two (2) months prior to the start of the requested leave"
+    ]
+   },
+   "doc_ids": [
+    "2018_01_aaupaft_contract_article_xiii_leaves",
+    "2018_02_aaupaft_contract_article_i_recognition",
+    "2018_06_aaupaft_agreement_2013_2021_full"
+   ],
+   "flags": [
+    "ambiguous: restriction: modified-duties assignment may not exceed fifteen weeks including the short-term disability leave; coded as one semester (R3b example), longer than 15 weeks at the default 16-week semester",
+    "ambiguous: restriction: compensation adjustment up to $3,000 and/or later in-load teaching may be required for a reduced-workload plan (R3 pay cut, R16 rearrangement)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "modified_duties",
+     "quote": "With prior approval, a member of the bargaining unit who has significant responsibility for the care of an infant for the period before and/or immediately following birth of a child or adoption of a child under age six (6) may be granted a semester of reduced duties in order that the parent can prepare and/or care for the infant or child."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "For a modified-duties assignment in which the equivalent of a full workload is performed, no adjustment in compensation or future assignments may be required."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "With prior approval, a member of the bargaining unit who has significant responsibility for the care of an infant for the period before and/or immediately following birth of a child or adoption of a child under age six (6) may be granted a semester of reduced duties in order that the parent can prepare and/or care for the infant or child."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "With prior approval, a member of the bargaining unit who has significant responsibility for the care of an infant for the period before and/or immediately following birth of a child or adoption of a child under age six (6) may be granted a semester of reduced duties in order that the parent can prepare and/or care for the infant or child."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R6",
+     "answer": "birth_parent, non_birth_parent, adoptive (role-neutral caregiver wording, birth or adoption)",
+     "quote": "With prior approval, a member of the bargaining unit who has significant responsibility for the care of an infant for the period before and/or immediately following birth of a child or adoption of a child under age six (6) may be granted a semester of reduced duties in order that the parent can prepare and/or care for the infant or child."
+    },
+    {
+     "field": "caregiver_condition",
+     "rule": "R6",
+     "answer": "primary",
+     "quote": "must include a certified statement by the bargaining-unit member certifying that s/he is assuming primary responsibility for the care of an infant or child."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "With prior approval, a member of the bargaining unit who has significant responsibility for the care of an infant for the period before and/or immediately following birth of a child or adoption of a child under age six (6) may be granted a semester of reduced duties in order that the parent can prepare and/or care for the infant or child."
+    },
+    {
+     "field": "duration",
+     "rule": "R3b",
+     "answer": "1 semester up_to (R3b example: XIII.D.2.b → one semester); 15-week cap in note",
+     "quote": "The duration of the modified-duties assignment may not exceed fifteen (15) weeks, including the anticipated short-term disability leave for pregnancy, childbirth and recovery therefrom, and should normally coincide with the beginning and ending dates of the semester."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "R3",
+     "answer": "salary continues; a reduced-workload plan may carry an adjustment up to $3,000 and/or in-load make-up teaching; no percentage",
+     "quote": "For a modified-duties assignment in which a reduced workload is arranged, some adjustment in compensation, up to three thousand dollars ($3,000), and/or in-load teaching or other assignments as described in D.2.e, may be required."
+    },
+    {
+     "field": "relief",
+     "rule": "R4b",
+     "answer": "teaching relieved; service, research, advising, clinical continue (unnamed)",
+     "quote": "Faculty whose modified-duties assignment involves a reduction in teaching load and who have not had an adjustment in compensation as per D.2.c must teach, on an in-load basis, additional courses equivalent to the greater of one (1) course or one-half (1/2) of the teaching responsibilities they would have had during the semester of modified-duties status."
+    },
+    {
+     "field": "relief",
+     "rule": "R4",
+     "answer": "Just teaching",
+     "quote": "During that portion of the semester that they are not away on short-term disability leave, bargaining-unit members on modified-duties status will be expected to carry out their professional responsibilities as stipulated in the arrangements made with the dean/director/vice president."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "none stated",
+     "quote": "With prior approval, a member of the bargaining unit who has significant responsibility for the care of an infant for the period before and/or immediately following birth of a child or adoption of a child under age six (6) may be granted a semester of reduced duties in order that the parent can prepare and/or care for the infant or child."
+    }
+   ]
+  },
+  {
+   "component_id": "wayne_state_university_c4",
+   "institution_label": "Tenure or Employment Security System Interruption",
+   "description": "On request and approval, up to one year excluded from the probationary period for tenure for a significant caregiver of an infant or young child (or a severely ill parent, or a serious medical condition personally or in the family).",
+   "mechanism": "tenure_clock",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "a member of the bargaining unit on probationary service for tenure",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "a significant care giver for an infant or young child",
+   "caregiver_condition": "other",
+   "caregiver_condition_wording": "a certified statement by the bargaining-unit member that s/he is a significant caregiver for an infant or child or parent, or has experienced a qualifying medical condition personally or within the family",
+   "entitlement": "discretionary",
+   "entitlement_note": "'may request'; 'must be approved by the unit administrator and by the President or his/her designee' with no grant language (V2).",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "up_to"
+   },
+   "duration_note": "'a maximum of one (1) year', one year in total for child rearing whatever the combination of circumstances (a cap on total time, coded in duration, not a count of uses). Art. XX.A.3 lets XIII.D.3 and D.5 lengthen the seven-year limit on tenure-track term appointments.",
+   "service_requirement": "none stated",
+   "rule_applied": [
+    "V2",
+    "U1",
+    "U9",
+    "R6",
+    "R11"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "A member of the bargaining unit who is a significant care giver for an infant or young child, or a severely ill and/or injured parent, or who has experienced a serious and/or disabling medical condition (as defined by the Americans with Disabilities Act or the Family and Medical Leave Act) personally or within the family may request that a maximum of one (1) year be excluded from the countable years of service that constitute that bargaining-unit member’s probationary service for tenure or employment security status."
+    ],
+    "eligible_parent": [
+     "A member of the bargaining unit who is a significant care giver for an infant or young child, or a severely ill and/or injured parent, or who has experienced a serious and/or disabling medical condition (as defined by the Americans with Disabilities Act or the Family and Medical Leave Act) personally or within the family may request that a maximum of one (1) year be excluded from the countable years of service that constitute that bargaining-unit member’s probationary service for tenure or employment security status."
+    ],
+    "caregiver_condition": [
+     "The request must include a certified statement by the bargaining-unit member that s/he is a significant caregiver for an infant or child or parent, or has experienced a qualifying medical condition personally or within the family."
+    ],
+    "entitlement": [
+     "A member of the bargaining unit who is a significant care giver for an infant or young child, or a severely ill and/or injured parent, or who has experienced a serious and/or disabling medical condition (as defined by the Americans with Disabilities Act or the Family and Medical Leave Act) personally or within the family may request that a maximum of one (1) year be excluded from the countable years of service that constitute that bargaining-unit member’s probationary service for tenure or employment security status.",
+     "The request must be in writing and must be approved by the unit administrator and by the President or his/her designee, and a copy of the approval must be forwarded to the Association."
+    ],
+    "duration": [
+     "A member of the bargaining unit who is a significant care giver for an infant or young child, or a severely ill and/or injured parent, or who has experienced a serious and/or disabling medical condition (as defined by the Americans with Disabilities Act or the Family and Medical Leave Act) personally or within the family may request that a maximum of one (1) year be excluded from the countable years of service that constitute that bargaining-unit member’s probationary service for tenure or employment security status.",
+     "Only one (1) year may be excluded for child rearing from the countable years of service that constitute an individual’s probationary period regardless of the combination of circumstances.",
+     "Term appointments for faculty and academic staff who are on the tenure track shall be limited to seven (7) years of full-time service except as provided in Article XIII.D.3 and 5."
+    ],
+    "service_requirement": [
+     "A member of the bargaining unit who is a significant care giver for an infant or young child, or a severely ill and/or injured parent, or who has experienced a serious and/or disabling medical condition (as defined by the Americans with Disabilities Act or the Family and Medical Leave Act) personally or within the family may request that a maximum of one (1) year be excluded from the countable years of service that constitute that bargaining-unit member’s probationary service for tenure or employment security status."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_aaupaft_contract_article_xiii_leaves",
+    "2018_06_aaupaft_agreement_2013_2021_full"
+   ],
+   "flags": [
+    "cross_reference_not_saved: Statute 2.51.01 Appointments, Continuing Tenure, Termination and Dismissal Policies and Procedures for Faculty (Board of Governors tenure statute)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "A member of the bargaining unit who is a significant care giver for an infant or young child, or a severely ill and/or injured parent, or who has experienced a serious and/or disabling medical condition (as defined by the Americans with Disabilities Act or the Family and Medical Leave Act) personally or within the family may request that a maximum of one (1) year be excluded from the countable years of service that constitute that bargaining-unit member’s probationary service for tenure or employment security status."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "A member of the bargaining unit who is a significant care giver for an infant or young child, or a severely ill and/or injured parent, or who has experienced a serious and/or disabling medical condition (as defined by the Americans with Disabilities Act or the Family and Medical Leave Act) personally or within the family may request that a maximum of one (1) year be excluded from the countable years of service that constitute that bargaining-unit member’s probationary service for tenure or employment security status."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "A member of the bargaining unit who is a significant care giver for an infant or young child, or a severely ill and/or injured parent, or who has experienced a serious and/or disabling medical condition (as defined by the Americans with Disabilities Act or the Family and Medical Leave Act) personally or within the family may request that a maximum of one (1) year be excluded from the countable years of service that constitute that bargaining-unit member’s probationary service for tenure or employment security status."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "A member of the bargaining unit who is a significant care giver for an infant or young child, or a severely ill and/or injured parent, or who has experienced a serious and/or disabling medical condition (as defined by the Americans with Disabilities Act or the Family and Medical Leave Act) personally or within the family may request that a maximum of one (1) year be excluded from the countable years of service that constitute that bargaining-unit member’s probationary service for tenure or employment security status."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R6",
+     "answer": "birth_parent, non_birth_parent, adoptive (caregiver of an infant or young child)",
+     "quote": "A member of the bargaining unit who is a significant care giver for an infant or young child, or a severely ill and/or injured parent, or who has experienced a serious and/or disabling medical condition (as defined by the Americans with Disabilities Act or the Family and Medical Leave Act) personally or within the family may request that a maximum of one (1) year be excluded from the countable years of service that constitute that bargaining-unit member’s probationary service for tenure or employment security status."
+    },
+    {
+     "field": "caregiver_condition",
+     "rule": "R6",
+     "answer": "other",
+     "quote": "The request must include a certified statement by the bargaining-unit member that s/he is a significant caregiver for an infant or child or parent, or has experienced a qualifying medical condition personally or within the family."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "The request must be in writing and must be approved by the unit administrator and by the President or his/her designee, and a copy of the approval must be forwarded to the Association."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 year up_to ('a maximum of one (1) year')",
+     "quote": "A member of the bargaining unit who is a significant care giver for an infant or young child, or a severely ill and/or injured parent, or who has experienced a serious and/or disabling medical condition (as defined by the Americans with Disabilities Act or the Family and Medical Leave Act) personally or within the family may request that a maximum of one (1) year be excluded from the countable years of service that constitute that bargaining-unit member’s probationary service for tenure or employment security status."
+    },
+    {
+     "field": "duration",
+     "rule": "U9",
+     "answer": "'Only one (1) year may be excluded' is a cap on total excluded time, not a count of uses: no use_limit",
+     "quote": "Only one (1) year may be excluded for child rearing from the countable years of service that constitute an individual’s probationary period regardless of the combination of circumstances."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "none stated",
+     "quote": "A member of the bargaining unit who is a significant care giver for an infant or young child, or a severely ill and/or injured parent, or who has experienced a serious and/or disabling medical condition (as defined by the Americans with Disabilities Act or the Family and Medical Leave Act) personally or within the family may request that a maximum of one (1) year be excluded from the countable years of service that constitute that bargaining-unit member’s probationary service for tenure or employment security status."
+    }
+   ]
+  },
+  {
+   "component_id": "wayne_state_university_c5",
+   "institution_label": "",
+   "description": "Any leave of absence without pay is not counted toward the maximum period of pre-tenure employment (XIII.A.1.d), whatever its purpose.",
+   "mechanism": "tenure_clock",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "members of the bargaining unit on a leave of absence without pay",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "a member of the bargaining unit (no parent wording)",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration_note": "No length of its own: the time on leave without pay does not count toward the pre-tenure maximum.",
+   "service_requirement": "as for the leave without pay: one (1) year of continuous, full-time service",
+   "rule_applied": [
+    "U1",
+    "V2"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "To be eligible for a professional or personal leave of absence without pay, a member of the bargaining unit shall have had one (1) year of continuous, full-time service in the bargaining unit."
+    ],
+    "eligible_parent": [
+     "It is recognized that a policy permitting leaves of absence without pay for professional objectives or for personal reasons (including illness or accident) may under certain circumstances be beneficial to both the individual and the University."
+    ],
+    "entitlement": [
+     "Leaves of absence without pay shall not be counted toward the maximum period of pre-tenure employment."
+    ],
+    "service_requirement": [
+     "To be eligible for a professional or personal leave of absence without pay, a member of the bargaining unit shall have had one (1) year of continuous, full-time service in the bargaining unit."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_aaupaft_contract_article_xiii_leaves",
+    "2018_06_aaupaft_agreement_2013_2021_full"
+   ],
+   "flags": [
+    "general_purpose",
+    "cross_reference_not_saved: Statute 2.51.01 Appointments, Continuing Tenure, Termination and Dismissal Policies and Procedures for Faculty (Board of Governors tenure statute)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "Leaves of absence without pay shall not be counted toward the maximum period of pre-tenure employment."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Leaves of absence without pay shall not be counted toward the maximum period of pre-tenure employment."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "Leaves of absence without pay shall not be counted toward the maximum period of pre-tenure employment."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "To be eligible for a professional or personal leave of absence without pay, a member of the bargaining unit shall have had one (1) year of continuous, full-time service in the bargaining unit."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent (no role wording; any leave without pay)",
+     "quote": "It is recognized that a policy permitting leaves of absence without pay for professional objectives or for personal reasons (including illness or accident) may under certain circumstances be beneficial to both the individual and the University."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "Leaves of absence without pay shall not be counted toward the maximum period of pre-tenure employment."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "as for the leave without pay",
+     "quote": "To be eligible for a professional or personal leave of absence without pay, a member of the bargaining unit shall have had one (1) year of continuous, full-time service in the bargaining unit."
+    }
+   ]
+  },
+  {
+   "component_id": "wayne_state_university_c6",
+   "institution_label": "Parent Leave of Absence without Pay",
+   "description": "A parent who wishes to cease work for reasons other than medical necessity may apply for a leave of absence without pay under XIII.A: up to twelve months, granted at the President's discretion, after one year of continuous full-time service.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "members of the bargaining unit",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "A member of the bargaining unit who wishes to cease work for reasons other than for medical necessity (under 'Parent Leaves of Absence')",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "entitlement_note": "'may apply, if eligible'; the Section A leave 'may be granted by the President or his/her designated representative' (V2).",
+   "duration": {
+    "value": 12,
+    "units": "month",
+    "qualifier": "up_to"
+   },
+   "duration_note": "Section A: 'not to exceed twelve (12) months'; under exceptional circumstances extendable by up to one further year. Start and end 'will normally coincide with the beginning and ending of an academic term'.",
+   "service_requirement": "one (1) year of continuous, full-time service in the bargaining unit (may be waived by the President)",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "rule_applied": [
+    "U1",
+    "V2",
+    "R9",
+    "R11",
+    "U3"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "A member of the bargaining unit who wishes to cease work for reasons other than for medical necessity may apply, if eligible, for a leave of absence without pay under Section A of this Article."
+    ],
+    "eligible_parent": [
+     "A member of the bargaining unit who wishes to cease work for reasons other than for medical necessity may apply, if eligible, for a leave of absence without pay under Section A of this Article.",
+     "In this spirit, the following options are available for members of the bargaining unit:"
+    ],
+    "entitlement": [
+     "A member of the bargaining unit who wishes to cease work for reasons other than for medical necessity may apply, if eligible, for a leave of absence without pay under Section A of this Article.",
+     "Upon the recommendation of the department chair or immediate supervisor and subject to the concurrence of the dean, director or vice president, as appropriate, a leave of absence without pay may be granted by the President or his/her designated representative."
+    ],
+    "duration": [
+     "Leaves of absence without pay may be granted for a period not to exceed twelve (12) months."
+    ],
+    "service_requirement": [
+     "To be eligible for a professional or personal leave of absence without pay, a member of the bargaining unit shall have had one (1) year of continuous, full-time service in the bargaining unit."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_aaupaft_contract_article_xiii_leaves",
+    "2018_06_aaupaft_agreement_2013_2021_full"
+   ],
+   "flags": [
+    "ambiguous: rule gap: the parent leave (XIII.D.3) is defined only by reference to the general leave of absence without pay (XIII.A, c7); coded as a parental leave (not general_purpose) because the agreement offers it among the parent leave options"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "A member of the bargaining unit who wishes to cease work for reasons other than for medical necessity may apply, if eligible, for a leave of absence without pay under Section A of this Article."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "A member of the bargaining unit who wishes to cease work for reasons other than for medical necessity may apply, if eligible, for a leave of absence without pay under Section A of this Article."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "A member of the bargaining unit who wishes to cease work for reasons other than for medical necessity may apply, if eligible, for a leave of absence without pay under Section A of this Article."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "A member of the bargaining unit who wishes to cease work for reasons other than for medical necessity may apply, if eligible, for a leave of absence without pay under Section A of this Article."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent (role-neutral)",
+     "quote": "A member of the bargaining unit who wishes to cease work for reasons other than for medical necessity may apply, if eligible, for a leave of absence without pay under Section A of this Article."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "Upon the recommendation of the department chair or immediate supervisor and subject to the concurrence of the dean, director or vice president, as appropriate, a leave of absence without pay may be granted by the President or his/her designated representative."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "12 months up_to ('not to exceed')",
+     "quote": "Leaves of absence without pay may be granted for a period not to exceed twelve (12) months."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "formal leave: all duties relieved",
+     "quote": "A member of the bargaining unit who wishes to cease work for reasons other than for medical necessity may apply, if eligible, for a leave of absence without pay under Section A of this Article."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "one year of continuous full-time service",
+     "quote": "To be eligible for a professional or personal leave of absence without pay, a member of the bargaining unit shall have had one (1) year of continuous, full-time service in the bargaining unit."
+    }
+   ]
+  },
+  {
+   "component_id": "wayne_state_university_c7",
+   "institution_label": "Professional and Personal Leaves",
+   "description": "Leave of absence without pay for professional objectives or personal reasons (including illness or accident, and family responsibilities), up to twelve months, at the President's discretion after one year of continuous full-time service.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "a member of the bargaining unit",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "a member of the bargaining unit (personal reasons; 'a personal leave for family responsibilities')",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "duration": {
+    "value": 12,
+    "units": "month",
+    "qualifier": "up_to"
+   },
+   "duration_note": "Extendable under exceptional circumstances by up to one year. Not counted toward the maximum pre-tenure period (c5).",
+   "service_requirement": "one (1) year of continuous, full-time service in the bargaining unit (may be waived)",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "rule_applied": [
+    "U1",
+    "V2",
+    "R9",
+    "R11"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "To be eligible for a professional or personal leave of absence without pay, a member of the bargaining unit shall have had one (1) year of continuous, full-time service in the bargaining unit."
+    ],
+    "eligible_parent": [
+     "It is recognized that a policy permitting leaves of absence without pay for professional objectives or for personal reasons (including illness or accident) may under certain circumstances be beneficial to both the individual and the University.",
+     "or who is on a personal leave for family responsibilities, wishes to return to work before the expiration of the leave of absence without pay"
+    ],
+    "entitlement": [
+     "Upon the recommendation of the department chair or immediate supervisor and subject to the concurrence of the dean, director or vice president, as appropriate, a leave of absence without pay may be granted by the President or his/her designated representative."
+    ],
+    "duration": [
+     "Leaves of absence without pay may be granted for a period not to exceed twelve (12) months.",
+     "Under exceptional circumstances, a leave or any extension thereof may be extended for a limited period not in excess of one (1) year."
+    ],
+    "service_requirement": [
+     "To be eligible for a professional or personal leave of absence without pay, a member of the bargaining unit shall have had one (1) year of continuous, full-time service in the bargaining unit."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_aaupaft_contract_article_xiii_leaves",
+    "2018_06_aaupaft_agreement_2013_2021_full"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "It is recognized that a policy permitting leaves of absence without pay for professional objectives or for personal reasons (including illness or accident) may under certain circumstances be beneficial to both the individual and the University."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "It is recognized that a policy permitting leaves of absence without pay for professional objectives or for personal reasons (including illness or accident) may under certain circumstances be beneficial to both the individual and the University."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "It is recognized that a policy permitting leaves of absence without pay for professional objectives or for personal reasons (including illness or accident) may under certain circumstances be beneficial to both the individual and the University."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "To be eligible for a professional or personal leave of absence without pay, a member of the bargaining unit shall have had one (1) year of continuous, full-time service in the bargaining unit."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "It is recognized that a policy permitting leaves of absence without pay for professional objectives or for personal reasons (including illness or accident) may under certain circumstances be beneficial to both the individual and the University."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "Upon the recommendation of the department chair or immediate supervisor and subject to the concurrence of the dean, director or vice president, as appropriate, a leave of absence without pay may be granted by the President or his/her designated representative."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "12 months up_to",
+     "quote": "Leaves of absence without pay may be granted for a period not to exceed twelve (12) months."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "formal leave: all duties relieved",
+     "quote": "Leaves of absence without pay may be granted for a period not to exceed twelve (12) months."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "one year of continuous full-time service",
+     "quote": "To be eligible for a professional or personal leave of absence without pay, a member of the bargaining unit shall have had one (1) year of continuous, full-time service in the bargaining unit."
+    }
+   ]
+  },
+  {
+   "component_id": "wayne_state_university_c8",
+   "institution_label": "",
+   "description": "Unpaid medical leave under the leave-without-pay provisions after paid short-term disability time and vacation are exhausted, for a member who declines to apply for long-term disability (XII.H.4 with XIII.A).",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Employees (bargaining-unit members) who decline to apply for long-term disability",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "own medical reasons (no parent wording)",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "entitlement_note": "Covered under the Section A provisions, under which leave 'may be granted' (V2).",
+   "duration": {
+    "value": 12,
+    "units": "month",
+    "qualifier": "up_to"
+   },
+   "duration_note": "Length from Section A ('not to exceed twelve (12) months'). Applies after paid short-term disability time and vacation are exhausted, to those who decline to apply for LTD.",
+   "must_exhaust_first": [
+    "sick",
+    "vacation"
+   ],
+   "service_requirement": "Section A: one (1) year of continuous, full-time service (may be waived)",
+   "medical_certification": true,
+   "medical_certification_note": "medical questionnaire before return from leave without pay for medical reasons",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "wayne_state_university_c1",
+     "note": "after paid time under the short-term disability program and vacation time are exhausted"
+    }
+   ],
+   "rule_applied": [
+    "U5",
+    "V2",
+    "R9",
+    "R15",
+    "R11"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Employees who decline to apply for long-term disability will be covered under the Leaves of Absence without Pay provisions (Article XIII) after paid time under the short-term disability program and vacation time are exhausted."
+    ],
+    "eligible_parent": [
+     "Employees who decline to apply for long-term disability will be covered under the Leaves of Absence without Pay provisions (Article XIII) after paid time under the short-term disability program and vacation time are exhausted.",
+     "Any member of the bargaining unit who has been on leave of absence without pay for medical reasons is required to complete a medical questionnaire authorized by the University before the individual may return to work."
+    ],
+    "entitlement": [
+     "Upon the recommendation of the department chair or immediate supervisor and subject to the concurrence of the dean, director or vice president, as appropriate, a leave of absence without pay may be granted by the President or his/her designated representative."
+    ],
+    "duration": [
+     "Leaves of absence without pay may be granted for a period not to exceed twelve (12) months."
+    ],
+    "sequence": [
+     "Employees who decline to apply for long-term disability will be covered under the Leaves of Absence without Pay provisions (Article XIII) after paid time under the short-term disability program and vacation time are exhausted."
+    ],
+    "service_requirement": [
+     "To be eligible for a professional or personal leave of absence without pay, a member of the bargaining unit shall have had one (1) year of continuous, full-time service in the bargaining unit."
+    ],
+    "must_exhaust_first": [
+     "Employees who decline to apply for long-term disability will be covered under the Leaves of Absence without Pay provisions (Article XIII) after paid time under the short-term disability program and vacation time are exhausted."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_aaupaft_contract_article_xiii_leaves",
+    "2018_06_aaupaft_agreement_2013_2021_full"
+   ],
+   "flags": [
+    "own_illness_leave"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "Employees who decline to apply for long-term disability will be covered under the Leaves of Absence without Pay provisions (Article XIII) after paid time under the short-term disability program and vacation time are exhausted."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Employees who decline to apply for long-term disability will be covered under the Leaves of Absence without Pay provisions (Article XIII) after paid time under the short-term disability program and vacation time are exhausted."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Any member of the bargaining unit who has been on leave of absence without pay for medical reasons is required to complete a medical questionnaire authorized by the University before the individual may return to work."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Employees who decline to apply for long-term disability will be covered under the Leaves of Absence without Pay provisions (Article XIII) after paid time under the short-term disability program and vacation time are exhausted."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own illness or disability)",
+     "quote": "Employees who decline to apply for long-term disability will be covered under the Leaves of Absence without Pay provisions (Article XIII) after paid time under the short-term disability program and vacation time are exhausted."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "Upon the recommendation of the department chair or immediate supervisor and subject to the concurrence of the dean, director or vice president, as appropriate, a leave of absence without pay may be granted by the President or his/her designated representative."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "12 months up_to from Section A",
+     "quote": "Leaves of absence without pay may be granted for a period not to exceed twelve (12) months."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "formal leave: all duties relieved",
+     "quote": "Any member of the bargaining unit who has been on leave of absence without pay for medical reasons is required to complete a medical questionnaire authorized by the University before the individual may return to work."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "consecutive_after c1 (after paid short-term disability time is exhausted)",
+     "quote": "Employees who decline to apply for long-term disability will be covered under the Leaves of Absence without Pay provisions (Article XIII) after paid time under the short-term disability program and vacation time are exhausted."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "Section A service",
+     "quote": "To be eligible for a professional or personal leave of absence without pay, a member of the bargaining unit shall have had one (1) year of continuous, full-time service in the bargaining unit."
+    }
+   ]
+  },
+  {
+   "component_id": "wayne_state_university_c9",
+   "institution_label": "Temporary, Fractional-Time Appointments",
+   "description": "Among the parent leave options, a member may request a temporary fractional-time (part-time) appointment.",
+   "mechanism": "part_time_option",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "members of the bargaining unit",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "members of the bargaining unit (parent leave options; no role wording)",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "entitlement_note": "'may be requested', no grant language (V2).",
+   "pay_fraction": "fractional (proportional to the appointment; not stated in D.4)",
+   "service_requirement": "none stated",
+   "rule_applied": [
+    "V2",
+    "R3"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Temporary, fractional-time appointments may be requested.",
+     "In this spirit, the following options are available for members of the bargaining unit:"
+    ],
+    "eligible_parent": [
+     "In this spirit, the following options are available for members of the bargaining unit:"
+    ],
+    "entitlement": [
+     "Temporary, fractional-time appointments may be requested."
+    ],
+    "pay_fraction": [
+     "Temporary, fractional-time appointments may be requested."
+    ],
+    "service_requirement": [
+     "Temporary, fractional-time appointments may be requested."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_aaupaft_contract_article_xiii_leaves",
+    "2018_06_aaupaft_agreement_2013_2021_full"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R3",
+     "answer": "part_time_option",
+     "quote": "Temporary, fractional-time appointments may be requested."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "Temporary, fractional-time appointments may be requested."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "In this spirit, the following options are available for members of the bargaining unit:"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "In this spirit, the following options are available for members of the bargaining unit:"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "In this spirit, the following options are available for members of the bargaining unit:"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "Temporary, fractional-time appointments may be requested."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "R3",
+     "answer": "fractional pay; no level stated",
+     "quote": "Temporary, fractional-time appointments may be requested."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "none stated",
+     "quote": "Temporary, fractional-time appointments may be requested."
+    }
+   ]
+  },
+  {
+   "component_id": "wayne_state_university_c10",
+   "institution_label": "",
+   "description": "After short-term disability leave, with medical approval, a member may return on a fractional-time basis, receiving fractional pay plus the fractional short-term disability benefit for the time remaining in the bank (phased return).",
+   "mechanism": "part_time_option",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "A bargaining-unit member who has been on short-term disability leave",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "A bargaining-unit member who has been on short-term disability leave",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "'may return to work on a fractional-time basis' with medical approval: the member elects it (V2).",
+   "pay_fraction": "fractional compensation for the work performed and the appropriate fractional-time short-term disability benefit for the time remaining in the bank",
+   "service_requirement": "none stated",
+   "medical_certification": true,
+   "medical_certification_note": "medical approval from his/her physician",
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "wayne_state_university_c1",
+     "note": "a return to work from the short-term disability leave"
+    }
+   ],
+   "rule_applied": [
+    "V2",
+    "R3",
+    "U5",
+    "R15"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "A bargaining-unit member who has been on short-term disability leave and has medical approval from his/her physician and subject to the limitations of XIII.C.1.c may return to work on a fractional-time basis."
+    ],
+    "eligible_parent": [
+     "A bargaining-unit member who has been on short-term disability leave and has medical approval from his/her physician and subject to the limitations of XIII.C.1.c may return to work on a fractional-time basis."
+    ],
+    "entitlement": [
+     "A bargaining-unit member who has been on short-term disability leave and has medical approval from his/her physician and subject to the limitations of XIII.C.1.c may return to work on a fractional-time basis."
+    ],
+    "pay_fraction": [
+     "S/he shall receive fractional compensation for the work performed and the appropriate fractional-time short-term disability benefit for the time that s/he has remaining in his/her short-term disability bank."
+    ],
+    "sequence": [
+     "A bargaining-unit member who has been on short-term disability leave and has medical approval from his/her physician and subject to the limitations of XIII.C.1.c may return to work on a fractional-time basis."
+    ],
+    "service_requirement": [
+     "A bargaining-unit member who has been on short-term disability leave and has medical approval from his/her physician and subject to the limitations of XIII.C.1.c may return to work on a fractional-time basis."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_aaupaft_contract_article_xiii_leaves",
+    "2018_06_aaupaft_agreement_2013_2021_full"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R3",
+     "answer": "part_time_option",
+     "quote": "A bargaining-unit member who has been on short-term disability leave and has medical approval from his/her physician and subject to the limitations of XIII.C.1.c may return to work on a fractional-time basis."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "S/he shall receive fractional compensation for the work performed and the appropriate fractional-time short-term disability benefit for the time that s/he has remaining in his/her short-term disability bank."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "A bargaining-unit member who has been on short-term disability leave and has medical approval from his/her physician and subject to the limitations of XIII.C.1.c may return to work on a fractional-time basis."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "A bargaining-unit member who has been on short-term disability leave and has medical approval from his/her physician and subject to the limitations of XIII.C.1.c may return to work on a fractional-time basis."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (return from own disability leave)",
+     "quote": "A bargaining-unit member who has been on short-term disability leave and has medical approval from his/her physician and subject to the limitations of XIII.C.1.c may return to work on a fractional-time basis."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "A bargaining-unit member who has been on short-term disability leave and has medical approval from his/her physician and subject to the limitations of XIII.C.1.c may return to work on a fractional-time basis."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "R3",
+     "answer": "fractional pay plus remaining STD benefit; no single level",
+     "quote": "S/he shall receive fractional compensation for the work performed and the appropriate fractional-time short-term disability benefit for the time that s/he has remaining in his/her short-term disability bank."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "consecutive_after c1",
+     "quote": "A bargaining-unit member who has been on short-term disability leave and has medical approval from his/her physician and subject to the limitations of XIII.C.1.c may return to work on a fractional-time basis."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "none stated",
+     "quote": "A bargaining-unit member who has been on short-term disability leave and has medical approval from his/her physician and subject to the limitations of XIII.C.1.c may return to work on a fractional-time basis."
+    }
+   ]
+  },
+  {
+   "component_id": "wayne_state_university_c11",
+   "institution_label": "Family and Medical Leave Act",
+   "description": "FMLA as implemented by APPM 3.4.5: 12 workweeks of job-protected unpaid leave in a 12-month period for birth and care of a newborn, adoption or foster placement (within 12 months), the employee's own serious health condition, or care of a spouse with a serious health condition; runs concurrently with maternity and other leaves.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "eligible employees of WSU (all employees; policy applies alongside any CBA)",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "A father, as well as a mother; birth and care of a newborn child of the employee; placement of a child for adoption or foster care; spouse/eligible partner",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "entitlement_note": "A statute: 'an absolute right to FMLA leave'.",
+   "duration": {
+    "value": 12,
+    "units": "workweek",
+    "qualifier": "exact"
+   },
+   "duration_note": "'a total of 12 workweeks of FMLA leave during any 12-month period' (a total, no qualifying word: R13). 26 workweeks for military caregiver leave (not a parent provision). The HR leave guide describes the bonding part: for mothers typically 4 weeks, the remainder of the 12 weeks after the 8-week maternity leave; fathers up to 12 weeks.",
+   "service_requirement": "12 months (may have been intermittent) during the seven years before the leave, and at least 1,250 work hours in the preceding 12 months",
+   "dual_employee_rule": "Spouses employed by WSU can take a combined total of 12 workweeks for birth, placement or care of a family member during any 12-month period",
+   "time_window": "birth: anytime within the first 12 months of the birth; adoption or foster care: within the first 12 months of the placement",
+   "notice": "at least 30 days advance notice if foreseeable; otherwise as soon as practicable",
+   "must_exhaust_first": [
+    "sick",
+    "vacation",
+    "personal"
+   ],
+   "medical_certification": true,
+   "medical_certification_note": "certification of the serious health condition (own or family member); unless a CBA provides differently",
+   "runs_concurrently_with": [
+    "FMLA"
+   ],
+   "statute_source": "29 U.S.C. 2612(a)(1)(A)-(C) and (D); eligibility 29 U.S.C. 2611(2)",
+   "statute_verified": true,
+   "sequence": [
+    {
+     "relation": "concurrent_with",
+     "component_id": "wayne_state_university_c1",
+     "note": "S1: 'FMLA leave is concurrent with existing maternity leave ... and other paid/unpaid leaves of absence taken for FMLA reasons'; the leave guide places bonding leave after the 8-week maternity leave within the same 12 weeks. Unpaid remainder after the paid childbirth period."
+    }
+   ],
+   "rule_applied": [
+    "U2",
+    "U4",
+    "S1",
+    "U5",
+    "U8",
+    "R13",
+    "U7"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Employees who have worked for WSU for a total of 12 months (may have been intermittent) during the seven (7) years prior to the date FMLA leave is to begin, and have at least 1,250 work hours during the 12-month period immediately before the beginning of FMLA leave, are eligible for FMLA."
+    ],
+    "eligible_parent": [
+     "For the birth and care of a newborn child of the employee, anytime within the first 12 months of the birth of the child.",
+     "For the placement of a child for adoption or foster care with the employee, anytime within the first 12 months of the placement of the child.",
+     "A father, as well as a mother, can take family leave for the birth, placement for adoption, or foster care of a child.",
+     "To care for an employee's spouse/eligible partner, son, daughter, or parent with a serious health condition.",
+     "Because of a serious health condition that makes the employee unable to perform the essential functions of his/her job."
+    ],
+    "entitlement": [
+     "Eligible employees have an absolute right to FMLA leave, which means leave may not be denied for FMLA-qualifying circumstances.",
+     "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period"
+    ],
+    "duration": [
+     "For FMLA leave under categories 1 through 5 above, an eligible employee can take a total of 12 workweeks of FMLA leave during any 12-month period.",
+     "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period"
+    ],
+    "sequence": [
+     "FMLA leave is concurrent with existing maternity leave, workers' compensation absence due to an on-the-job injury or illness (provided it also qualifies as a serious health condition), and other paid/unpaid leaves of absence taken for FMLA reasons.",
+     "For mothers of a newborn child, this leave is typically 4 weeks, depending on how long the employee is eligible for, and opts to take, of their entire 12-weeks of FMLA entitlement."
+    ],
+    "service_requirement": [
+     "Employees who have worked for WSU for a total of 12 months (may have been intermittent) during the seven (7) years prior to the date FMLA leave is to begin, and have at least 1,250 work hours during the 12-month period immediately before the beginning of FMLA leave, are eligible for FMLA."
+    ],
+    "dual_employee_rule": [
+     "Spouses employed by WSU can take a combined total of 12 workweeks of leave for categories 1 through 3 during any 12-month period.",
+     "If a husband and wife both work for Wayne State University, they must share the 12-weeks of parental leave between them, subject to each of them being eligible for FMLA and having enough FMLA entitlement to cover the requested period of time."
+    ],
+    "time_window": [
+     "For the birth and care of a newborn child of the employee, anytime within the first 12 months of the birth of the child.",
+     "For the placement of a child for adoption or foster care with the employee, anytime within the first 12 months of the placement of the child.",
+     "Parental leave for mothers and fathers must be taken within one (1) year of the birth of the child."
+    ],
+    "must_exhaust_first": [
+     "Employees who take leave because of their own serious health condition or to give birth to a child, must use paid leave before being eligible for unpaid leave in the following order:",
+     "Employees who take a service member family leave or a leave for the birth, adoption or foster care of a child or to care for a seriously ill spouse, child, or parent, must use all accrued vacation and personal business time respectively before being eligible for unpaid leave."
+    ],
+    "notice": [
+     "An employee must provide WSU with at least 30 days advance notice before FMLA leave is to begin if the need for the leave is foreseeable."
+    ]
+   },
+   "doc_ids": [
+    "2018_07_appm_3_4_5_fmla_policy",
+    "2018_00_link",
+    "2018_10_hr_fmla_page"
+   ],
+   "flags": [
+    "cross_reference_not_saved: APPM 3.4.5.1 Family and Medical Leave Act – Definitions"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "U4",
+     "answer": "unpaid_leave",
+     "quote": "It allows eligible employees to take job-protected unpaid leave, or substitute appropriate paid leave if the employee has earned it, for up to a total of 12 work weeks during a 12-month period for a family or personal serious health condition which qualifies under FMLA"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "It allows eligible employees to take job-protected unpaid leave, or substitute appropriate paid leave if the employee has earned it, for up to a total of 12 work weeks during a 12-month period for a family or personal serious health condition which qualifies under FMLA"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "For the birth and care of a newborn child of the employee, anytime within the first 12 months of the birth of the child."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Employees who have worked for WSU for a total of 12 months (may have been intermittent) during the seven (7) years prior to the date FMLA leave is to begin, and have at least 1,250 work hours during the 12-month period immediately before the beginning of FMLA leave, are eligible for FMLA."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent, non_birth_parent (birth and care of a newborn; own condition; care of spouse), adoptive, foster",
+     "quote": "A father, as well as a mother, can take family leave for the birth, placement for adoption, or foster care of a child."
+    },
+    {
+     "field": "entitlement",
+     "rule": "U2",
+     "answer": "guaranteed",
+     "quote": "Eligible employees have an absolute right to FMLA leave, which means leave may not be denied for FMLA-qualifying circumstances."
+    },
+    {
+     "field": "duration",
+     "rule": "U2",
+     "answer": "12 workweeks, verified against 29 U.S.C. 2612(a)(1)",
+     "quote": "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period"
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "exact ('a total of 12 workweeks')",
+     "quote": "For FMLA leave under categories 1 through 5 above, an eligible employee can take a total of 12 workweeks of FMLA leave during any 12-month period."
+    },
+    {
+     "field": "sequence",
+     "rule": "S1",
+     "answer": "concurrent_with c1",
+     "quote": "FMLA leave is concurrent with existing maternity leave, workers' compensation absence due to an on-the-job injury or illness (provided it also qualifies as a serious health condition), and other paid/unpaid leaves of absence taken for FMLA reasons."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U2",
+     "answer": "12 months and 1,250 hours",
+     "quote": "Employees who have worked for WSU for a total of 12 months (may have been intermittent) during the seven (7) years prior to the date FMLA leave is to begin, and have at least 1,250 work hours during the 12-month period immediately before the beginning of FMLA leave, are eligible for FMLA."
+    }
+   ]
+  },
+  {
+   "component_id": "wayne_state_university_c12",
+   "institution_label": "Personal Emergencies",
+   "description": "Leave of absence with pay of not more than five consecutive working days for emergency care of a seriously ill or injured member of the immediate family (including spouse or OEP), deducted from the short-term disability bank; up to five more days may be granted.",
+   "mechanism": "employer_paid_leave",
+   "mechanism_note": "Paid family-care leave the agreement grants ('shall be given'); days are deducted from the employer short-term disability bank (XIII.C.3.a).",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "A member of the bargaining unit",
+   "eligible_parent": [
+    "non_birth_parent"
+   ],
+   "eligible_parent_wording": "emergency care of a seriously ill or injured member of the immediate family; 'Immediate family' includes spouse, OEP",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 5,
+    "units": "workday",
+    "qualifier": "up_to"
+   },
+   "duration_note": "'not more than five (5) consecutive working days'; an additional five days may be granted at the President's discretion (XIII.C.3.d). Days are deducted from the short-term disability bank.",
+   "pay_fraction": "with pay (normal compensation rate)",
+   "service_requirement": "none stated",
+   "rule_applied": [
+    "U5",
+    "U1",
+    "V2",
+    "R11",
+    "R13"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "A member of the bargaining unit shall be given a leave of absence with pay of not more than five (5) consecutive working days for emergency care of a seriously ill or injured member of the immediate family (as defined above)."
+    ],
+    "eligible_parent": [
+     "A member of the bargaining unit shall be given a leave of absence with pay of not more than five (5) consecutive working days for emergency care of a seriously ill or injured member of the immediate family (as defined above).",
+     "“Immediate family” is defined as: spouse, OEP, parent, sibling, child, grandparent, parent-in-law, OEP’s parent, sibling-in-law, OEP’s sibling, child-in-law, OEP’s child, and grandchild or OEP’s grandchild."
+    ],
+    "entitlement": [
+     "A member of the bargaining unit shall be given a leave of absence with pay of not more than five (5) consecutive working days for emergency care of a seriously ill or injured member of the immediate family (as defined above)."
+    ],
+    "duration": [
+     "A member of the bargaining unit shall be given a leave of absence with pay of not more than five (5) consecutive working days for emergency care of a seriously ill or injured member of the immediate family (as defined above).",
+     "A member of the bargaining unit may be granted an additional five (5) days leave to be charged as described in 3.a for emergency situations arising under 3.b or 3.c at the request of the unit administrator and with the approval of the President or his/her designee."
+    ],
+    "pay_fraction": [
+     "A member of the bargaining unit shall be given a leave of absence with pay of not more than five (5) consecutive working days for emergency care of a seriously ill or injured member of the immediate family (as defined above).",
+     "A leave of absence with pay is a leave during which a member of the bargaining unit is not required to perform regular University duties, but is retained on the payroll of the University at his/her normal compensation rate for periods during which s/he is normally on the payroll."
+    ],
+    "service_requirement": [
+     "A member of the bargaining unit shall be given a leave of absence with pay of not more than five (5) consecutive working days for emergency care of a seriously ill or injured member of the immediate family (as defined above)."
+    ],
+    "mechanism": [
+     "Each day of absence for a personal emergency as provided in this Section shall be deducted from the short-term disability bank, as described in Section 1.a above, and shall be reported on the University’s official Time/Exception Report."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_aaupaft_contract_article_xiii_leaves",
+    "2018_06_aaupaft_agreement_2013_2021_full"
+   ],
+   "flags": [
+    "family_illness_leave"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "employer_paid_leave",
+     "quote": "A member of the bargaining unit shall be given a leave of absence with pay of not more than five (5) consecutive working days for emergency care of a seriously ill or injured member of the immediate family (as defined above)."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "Each day of absence for a personal emergency as provided in this Section shall be deducted from the short-term disability bank, as described in Section 1.a above, and shall be reported on the University’s official Time/Exception Report."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "A member of the bargaining unit shall be given a leave of absence with pay of not more than five (5) consecutive working days for emergency care of a seriously ill or injured member of the immediate family (as defined above)."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "A member of the bargaining unit shall be given a leave of absence with pay of not more than five (5) consecutive working days for emergency care of a seriously ill or injured member of the immediate family (as defined above)."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "non_birth_parent (care of an ill family member)",
+     "quote": "A member of the bargaining unit shall be given a leave of absence with pay of not more than five (5) consecutive working days for emergency care of a seriously ill or injured member of the immediate family (as defined above)."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "A member of the bargaining unit shall be given a leave of absence with pay of not more than five (5) consecutive working days for emergency care of a seriously ill or injured member of the immediate family (as defined above)."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "5 workdays up_to ('not more than')",
+     "quote": "A member of the bargaining unit shall be given a leave of absence with pay of not more than five (5) consecutive working days for emergency care of a seriously ill or injured member of the immediate family (as defined above)."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "with pay",
+     "quote": "A leave of absence with pay is a leave during which a member of the bargaining unit is not required to perform regular University duties, but is retained on the payroll of the University at his/her normal compensation rate for periods during which s/he is normally on the payroll."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "none stated",
+     "quote": "A member of the bargaining unit shall be given a leave of absence with pay of not more than five (5) consecutive working days for emergency care of a seriously ill or injured member of the immediate family (as defined above)."
+    },
+    {
+     "field": "duration.qualifier",
+     "rule": "R13",
+     "answer": "\"not more than\" states a ceiling, coded up_to (R13)",
+     "quote": "A member of the bargaining unit shall be given a leave of absence with pay of not more than five (5) consecutive working days for emergency care of a seriously ill or injured member of the immediate family (as defined above)."
+    }
+   ]
+  },
+  {
+   "component_id": "wayne_state_university_c13",
+   "institution_label": "",
+   "description": "After six months of service, up to two days for personal reasons per fiscal year (three with more than ten years), charged to the short-term disability bank.",
+   "mechanism": "employer_paid_leave",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "a member of the bargaining unit",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "a member of the bargaining unit (personal reasons)",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "'may take', with prior notice (V2).",
+   "duration": {
+    "value": 2,
+    "units": "day",
+    "qualifier": "up_to"
+   },
+   "duration_note": "per fiscal year; one more day after ten years of service; deducted from the short-term disability bank (C.3.a).",
+   "pay_fraction": "with pay",
+   "service_requirement": "six (6) months of service",
+   "rule_applied": [
+    "U1",
+    "V2",
+    "R11"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "After six (6) months of service, a member of the bargaining unit may take up to two (2) days for personal reasons during a fiscal year (October 1 to September 30)."
+    ],
+    "eligible_parent": [
+     "After six (6) months of service, a member of the bargaining unit may take up to two (2) days for personal reasons during a fiscal year (October 1 to September 30)."
+    ],
+    "entitlement": [
+     "After six (6) months of service, a member of the bargaining unit may take up to two (2) days for personal reasons during a fiscal year (October 1 to September 30)."
+    ],
+    "duration": [
+     "After six (6) months of service, a member of the bargaining unit may take up to two (2) days for personal reasons during a fiscal year (October 1 to September 30)."
+    ],
+    "pay_fraction": [
+     "A leave of absence with pay is a leave during which a member of the bargaining unit is not required to perform regular University duties, but is retained on the payroll of the University at his/her normal compensation rate for periods during which s/he is normally on the payroll.",
+     "Each day of absence for a personal emergency as provided in this Section shall be deducted from the short-term disability bank, as described in Section 1.a above, and shall be reported on the University’s official Time/Exception Report."
+    ],
+    "service_requirement": [
+     "After six (6) months of service, a member of the bargaining unit may take up to two (2) days for personal reasons during a fiscal year (October 1 to September 30)."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_aaupaft_contract_article_xiii_leaves",
+    "2018_06_aaupaft_agreement_2013_2021_full"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "employer_paid_leave",
+     "quote": "After six (6) months of service, a member of the bargaining unit may take up to two (2) days for personal reasons during a fiscal year (October 1 to September 30)."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "Each day of absence for a personal emergency as provided in this Section shall be deducted from the short-term disability bank, as described in Section 1.a above, and shall be reported on the University’s official Time/Exception Report."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "After six (6) months of service, a member of the bargaining unit may take up to two (2) days for personal reasons during a fiscal year (October 1 to September 30)."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "After six (6) months of service, a member of the bargaining unit may take up to two (2) days for personal reasons during a fiscal year (October 1 to September 30)."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "After six (6) months of service, a member of the bargaining unit may take up to two (2) days for personal reasons during a fiscal year (October 1 to September 30)."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "After six (6) months of service, a member of the bargaining unit may take up to two (2) days for personal reasons during a fiscal year (October 1 to September 30)."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "2 days up_to",
+     "quote": "After six (6) months of service, a member of the bargaining unit may take up to two (2) days for personal reasons during a fiscal year (October 1 to September 30)."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "with pay",
+     "quote": "A leave of absence with pay is a leave during which a member of the bargaining unit is not required to perform regular University duties, but is retained on the payroll of the University at his/her normal compensation rate for periods during which s/he is normally on the payroll."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "six months of service",
+     "quote": "After six (6) months of service, a member of the bargaining unit may take up to two (2) days for personal reasons during a fiscal year (October 1 to September 30)."
+    }
+   ]
+  },
+  {
+   "component_id": "wayne_state_university_c14",
+   "institution_label": "Long-Term Disability Income Insurance",
+   "description": "University-paid long-term disability income insurance: 66-2/3% of basic salary (to $7,000 monthly) after six months of continuous total disability.",
+   "mechanism": "generic_sick_or_disability_plan",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "staff members (bargaining-unit members) after one calendar year of continuous service at one-half time or more",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "an insured staff member (own total disability)",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "pay_fraction": "66-2/3% of basic salary, not to exceed $7,000 monthly",
+   "pay_cap": "$7,000 monthly",
+   "time_window": "benefits begin after six (6) months of continuous total disability",
+   "service_requirement": "one (1) calendar year of continuous service one-half time or greater (or one full calendar year with tenure)",
+   "rule_applied": [
+    "schema",
+    "V6",
+    "U5"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Participation begins after the staff member has completed one (1) calendar year of continuous service one-half (1/2) time or greater at the University or one (1) full calendar year of service with tenure."
+    ],
+    "eligible_parent": [
+     "Benefits for an insured staff member begin after six (6) months of continuous total disability and continue for as long as the disability continues or until the affected individual retires."
+    ],
+    "entitlement": [
+     "The University, at no cost to the staff member, provides a program of disability income insurance."
+    ],
+    "pay_fraction": [
+     "For those whose disability date is on or after March 1, 2005, the monthly income benefit is equal to sixty-six and two-thirds percent (66-2/3%) of a person’s basic salary, but not to exceed a benefit of seven thousand dollars ($7,000) monthly."
+    ],
+    "service_requirement": [
+     "Participation begins after the staff member has completed one (1) calendar year of continuous service one-half (1/2) time or greater at the University or one (1) full calendar year of service with tenure."
+    ],
+    "time_window": [
+     "Benefits for an insured staff member begin after six (6) months of continuous total disability and continue for as long as the disability continues or until the affected individual retires."
+    ]
+   },
+   "doc_ids": [
+    "2018_06_aaupaft_agreement_2013_2021_full"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "The University, at no cost to the staff member, provides a program of disability income insurance."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "The University, at no cost to the staff member, provides a program of disability income insurance."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Benefits for an insured staff member begin after six (6) months of continuous total disability and continue for as long as the disability continues or until the affected individual retires."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Participation begins after the staff member has completed one (1) calendar year of continuous service one-half (1/2) time or greater at the University or one (1) full calendar year of service with tenure."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own disability)",
+     "quote": "Benefits for an insured staff member begin after six (6) months of continuous total disability and continue for as long as the disability continues or until the affected individual retires."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "The University, at no cost to the staff member, provides a program of disability income insurance."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "66-2/3% to $7,000 monthly",
+     "quote": "For those whose disability date is on or after March 1, 2005, the monthly income benefit is equal to sixty-six and two-thirds percent (66-2/3%) of a person’s basic salary, but not to exceed a benefit of seven thousand dollars ($7,000) monthly."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "one calendar year of continuous service",
+     "quote": "Participation begins after the staff member has completed one (1) calendar year of continuous service one-half (1/2) time or greater at the University or one (1) full calendar year of service with tenure."
+    }
+   ]
+  },
+  {
+   "component_id": "wayne_state_university_c15",
+   "institution_label": "Vacations",
+   "description": "Earned vacation, 22 working days per year, accumulable to 23 days, for full-time twelve-month members only (academic-year faculty earn none).",
+   "mechanism": "own_accrual",
+   "payer": "own_balance",
+   "faculty_group": "full-time twelve-month employee members of the bargaining unit",
+   "faculty_group_note": "Full-time twelve-month employee members of the bargaining unit; nine-month (academic-year) faculty are not covered",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "Full-time twelve-month employee members of the bargaining unit",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 23,
+    "units": "day",
+    "qualifier": "up_to"
+   },
+   "duration_note": "22 working days earned per year; accumulation capped at 23 days; scheduled in advance and approved by operational needs.",
+   "service_requirement": "an initial four (4) months of service",
+   "rule_applied": [
+    "R1",
+    "U1",
+    "schema"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Full-time twelve-month employee members of the bargaining unit are granted earned vacation days at their regular rate of pay after an initial four (4) months of service, amounting to twenty-two (22) working days per year."
+    ],
+    "eligible_parent": [
+     "Full-time twelve-month employee members of the bargaining unit are granted earned vacation days at their regular rate of pay after an initial four (4) months of service, amounting to twenty-two (22) working days per year."
+    ],
+    "entitlement": [
+     "Full-time twelve-month employee members of the bargaining unit are granted earned vacation days at their regular rate of pay after an initial four (4) months of service, amounting to twenty-two (22) working days per year."
+    ],
+    "duration": [
+     "Vacation days earned, but not used, may be accumulated up to twenty-three (23) days."
+    ],
+    "service_requirement": [
+     "Full-time twelve-month employee members of the bargaining unit are granted earned vacation days at their regular rate of pay after an initial four (4) months of service, amounting to twenty-two (22) working days per year."
+    ]
+   },
+   "doc_ids": [
+    "2018_06_aaupaft_agreement_2013_2021_full"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "own_accrual",
+     "quote": "Full-time twelve-month employee members of the bargaining unit are granted earned vacation days at their regular rate of pay after an initial four (4) months of service, amounting to twenty-two (22) working days per year."
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "own_balance",
+     "quote": "Full-time twelve-month employee members of the bargaining unit are granted earned vacation days at their regular rate of pay after an initial four (4) months of service, amounting to twenty-two (22) working days per year."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Full-time twelve-month employee members of the bargaining unit are granted earned vacation days at their regular rate of pay after an initial four (4) months of service, amounting to twenty-two (22) working days per year."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "full-time twelve-month employee members of the bargaining unit",
+     "quote": "Full-time twelve-month employee members of the bargaining unit are granted earned vacation days at their regular rate of pay after an initial four (4) months of service, amounting to twenty-two (22) working days per year."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "Full-time twelve-month employee members of the bargaining unit are granted earned vacation days at their regular rate of pay after an initial four (4) months of service, amounting to twenty-two (22) working days per year."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "Full-time twelve-month employee members of the bargaining unit are granted earned vacation days at their regular rate of pay after an initial four (4) months of service, amounting to twenty-two (22) working days per year."
+    },
+    {
+     "field": "duration",
+     "rule": "R1",
+     "answer": "23 days up_to (accumulation cap)",
+     "quote": "Vacation days earned, but not used, may be accumulated up to twenty-three (23) days."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "four months of service",
+     "quote": "Full-time twelve-month employee members of the bargaining unit are granted earned vacation days at their regular rate of pay after an initial four (4) months of service, amounting to twenty-two (22) working days per year."
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "Reference date 2018-02-26. Governing document: the WSU / AAUP-AFT Local 6075 Agreement, March 20, 2013 - March 20, 2021 (2018_06, full PDF text; 2018_01/02/03/05 are the union's web copies of Articles XIII, I, XXXVII and XXII, captured 2018-05-11). The bargaining unit includes all teaching faculty at half-time or more (assistant, associate, full professors), so its provisions cover main-campus tenure-stream faculty. missing = false: a governing collective agreement for faculty leave is saved.",
+  "2018_09 is a benefits Q&A (no entitlement); 2018_10 is the FMLA page (administration by FMLASource, links).",
+  "Article XIII in 2018_06 and the union web copy 2018_01 carry the same text; quotes from Article XIII are taken from 2018_01 and the full agreement is cited alongside.",
+  "Childbirth period: XIII.D.1 places pregnancy and childbirth disability under Short-Term Disability Leave for Illness (C.1: full compensation; for a two-year member up to 66 working days in any twelve-month period). The HR site's leave guide (2018_00, version_uncertain, per the document's version note) states the period as 'typically 8 weeks for both Natural and Caesarean Delivery'. Coded per V1b's Wayne State example as an employer_childbirth_benefit of 8 weeks (c2), within the disability leave coded under U6 (c1). The combination of U6 and V1b on one provision is flagged as a rule gap on c1.",
+  "Modified duties (c3) is discretionary ('may be granted'), for the parent with primary responsibility (certified), one semester capped at 15 weeks including the disability leave; coded one semester per R3b's Wayne State example, teaching relieved, research continuing (Just teaching). A reduced-workload plan may carry a compensation adjustment up to $3,000 and/or in-load make-up teaching within three semesters; flagged.",
+  "Chain, birth parent: modified-duties semester c3 (discretionary) containing the Short-Term Disability Leave c1 (up to 66 working days, guaranteed) containing the paid childbirth period c2 (typically 8 weeks, full compensation); FMLA c11 concurrent with c1 from its start; then, after the disability bank, discretionary unpaid medical leave c8 consecutive_after c1, or a fractional return c10 consecutive_after c1; parent leave without pay c6 (discretionary, up to 12 months) unlinked.",
+  "Chain, non-birth parent: FMLA c11 (12 workweeks, unpaid; its link to c1 is ignored for this role) from the birth; modified-duties semester c3 (discretionary, primary caregiver) unlinked; family emergency-care paid days c12 (up to 5 working days) unlinked; parent leave without pay c6 (discretionary) unlinked.",
+  "Leave of absence without pay (XIII.A) is coded three ways by its anchors: as the parent leave of XIII.D.3 (c6), as the general professional/personal leave (c7, general_purpose), and as medical leave after the disability bank for members declining LTD (c8, XII.H.4). The tenure-clock exclusion of any unpaid leave (A.1.d) is c5 (general_purpose).",
+  "Not components: bereavement leave (XIII.C.3.b), jury duty, military leave, authorized professional absences, sabbatical leaves, academic-staff professional development time, training leave on layoff (cannot be taken for a birth); mandatory sick leave (XIII.C.2, imposed by the University, not a benefit); stopping the clock 'for other professional reasons' (XIII.D.5, second paragraph; not for a birth); the 2016-17 HR Leaves of Absence Q&A (benefit continuation only); APPM 3.3.6 (refers to union agreements and the Personnel Manual for All Non represented Personnel). The summer-payroll clause of C.1.a (STD at the summer rate within the summer appointment) is noted, not coded.",
+  "Cross-references not saved: APPM 3.4.5.1 Family and Medical Leave Act - Definitions; Board of Governors Statute 2.51.01 (faculty tenure statute; 'existing tenure statute' preserved by XXII.G); Personnel Manual for All Non represented Personnel (named by APPM 3.3.6; non-represented staff, not faculty); FMLASource brochure and DOL regulations (named on the HR pages).",
+  "APPM 3.4.5's version: the 2016 capture; the 2017 HR page lists it as 'Under Review'. It restates FMLA (statute verified against 29 U.S.C. 2612, 2611) and defers to the CBA where greater; not flagged version_uncertain because the provisions coded from it are the statute's.",
+  "No Michigan rows in the statutory baseline; no state leave statute or programme is named in the documents."
+ ],
+ "statutory_floor": {
+  "jurisdiction": "US",
+  "year": "2018",
+  "weeks_birth": 12.0,
+  "weeks_nonbirth": 12.0,
+  "statute": "Family and Medical Leave Act (FMLA) (29 U.S.C. 2611-2612)",
+  "source_doc": "2026_00_us_fmla_29usc2612",
+  "table": "statutory_baseline.csv"
+ }
+}

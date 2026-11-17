@@ -1,0 +1,2442 @@
+{
+ "institution": "University of Saskatchewan",
+ "slug": "university_of_saskatchewan",
+ "country": "Canada",
+ "model": "claude-opus-5-5",
+ "codebook_version": "1.25",
+ "schema_version": "1.25",
+ "reference_date": "2018-03-13",
+ "documents": [
+  {
+   "doc_id": "2018_02_usfa_collective_agreement_2014_2017_text",
+   "url": "http://www.usaskfaculty.ca/wp-content/uploads/2015/06/2014-2017-Collective-Agreement.pdf",
+   "title": "Collective Agreement between the University of Saskatchewan and the University of Saskatchewan Faculty Association, July 1, 2014 to June 30, 2017 (USFA text copy)",
+   "version_or_effective_date": "in effect July 1, 2014 to June 30, 2017, continuing year to year (Art. 31.1); executed June 1, 2015",
+   "retrieved": "2026-10-30 (Wayback capture 2018-09-04)"
+  },
+  {
+   "doc_id": "2018_16_ca_ei_act_pit_2018-01-01",
+   "title": "Employment Insurance Act (S.C. 1996, c. 23), point in time 2018-01-01",
+   "version_or_effective_date": "2018-01-01",
+   "url": "https://laws-lois.justice.gc.ca/eng/acts/E-5.6/20180101/P1TT3xt3.html",
+   "retrieved": "2026-10-31"
+  }
+ ],
+ "missing": false,
+ "scope_accounting": {
+  "C1": {
+   "components": [
+    "university_of_saskatchewan_c1",
+    "university_of_saskatchewan_c2",
+    "university_of_saskatchewan_c5",
+    "university_of_saskatchewan_c6"
+   ]
+  },
+  "C2": {
+   "components": [
+    "university_of_saskatchewan_c10"
+   ]
+  },
+  "C3": {
+   "components": [
+    "university_of_saskatchewan_c11",
+    "university_of_saskatchewan_c12",
+    "university_of_saskatchewan_c13",
+    "university_of_saskatchewan_c18"
+   ]
+  },
+  "C4": {
+   "components": [
+    "university_of_saskatchewan_c3",
+    "university_of_saskatchewan_c4"
+   ],
+   "not_components": [
+    {
+     "statute": "The Saskatchewan Employment Act",
+     "reason": "Named only for hours of work, overtime, public holidays and annual holidays (10.1.1), the arbitrator's powers (27.6) and the agreement's term (31.1); the agreement never relies on its maternity, adoption or parental leave sections (U4). The provincial floor is applied from the baseline table (U7)."
+    },
+    {
+     "statute": "The University of Saskatchewan Act, 1995",
+     "reason": "Named for the definition of the University and amendments to the Act (10.3); unrelated to becoming a parent (U4)."
+    },
+    {
+     "statute": "Employment Insurance Act: sickness, compassionate care and critically ill family member benefits (s. 12(3)(c)-(f))",
+     "reason": "Not invoked by the agreement, which names only EI maternity and parental benefits (U4)."
+    }
+   ]
+  },
+  "C5": {
+   "components": [
+    "university_of_saskatchewan_c14"
+   ]
+  },
+  "C6": {
+   "components": [
+    "university_of_saskatchewan_c14",
+    "university_of_saskatchewan_c15",
+    "university_of_saskatchewan_c18"
+   ]
+  },
+  "C7": {
+   "components": [
+    "university_of_saskatchewan_c7",
+    "university_of_saskatchewan_c8",
+    "university_of_saskatchewan_c9"
+   ]
+  },
+  "C8": {
+   "components": [
+    "university_of_saskatchewan_c16",
+    "university_of_saskatchewan_c17"
+   ]
+  },
+  "C9": {
+   "components": [
+    "university_of_saskatchewan_c10"
+   ]
+  },
+  "C10": {
+   "absent": {
+    "documents": [
+     "2018_02_usfa_collective_agreement_2014_2017_text"
+    ],
+    "terms": [
+     "FMLA",
+     "first days",
+     "qualifying absence",
+     "regular work time",
+     "Canadian institution: no FMLA"
+    ]
+   }
+  }
+ },
+ "mechanism_slots": {
+  "employer_paid_leave": {
+   "components": [
+    "university_of_saskatchewan_c5",
+    "university_of_saskatchewan_c14"
+   ]
+  },
+  "employer_childbirth_benefit": {
+   "absent": "No dedicated childbirth period with its own pay: 2018_02 searched for maternity, childbirth, birth, pregnancy, recovery, medical leave."
+  },
+  "generic_sick_or_disability_plan": {
+   "components": [
+    "university_of_saskatchewan_c12",
+    "university_of_saskatchewan_c13"
+   ]
+  },
+  "own_accrual": {
+   "components": [
+    "university_of_saskatchewan_c18"
+   ]
+  },
+  "donated_leave": {
+   "absent": "No donated or shared leave bank: 2018_02 searched for donat, shared, bank, pool, transfer of leave."
+  },
+  "government_benefit": {
+   "components": [
+    "university_of_saskatchewan_c3",
+    "university_of_saskatchewan_c4"
+   ]
+  },
+  "employer_topup": {
+   "components": [
+    "university_of_saskatchewan_c2"
+   ]
+  },
+  "modified_duties": {
+   "absent": "No relief from teaching or other duties for new parents: 2018_02 searched for modified duties, teaching relief, reduced load, release, workload (the pregnancy duty adjustment is coded other, c10)."
+  },
+  "unpaid_leave": {
+   "components": [
+    "university_of_saskatchewan_c1",
+    "university_of_saskatchewan_c6",
+    "university_of_saskatchewan_c11",
+    "university_of_saskatchewan_c15"
+   ]
+  },
+  "tenure_clock": {
+   "components": [
+    "university_of_saskatchewan_c7",
+    "university_of_saskatchewan_c8",
+    "university_of_saskatchewan_c9"
+   ]
+  },
+  "part_time_option": {
+   "components": [
+    "university_of_saskatchewan_c16",
+    "university_of_saskatchewan_c17"
+   ]
+  },
+  "other": {
+   "components": [
+    "university_of_saskatchewan_c10"
+   ]
+  }
+ },
+ "baseline_accounting": {
+  "Employment Insurance maternity and parental benefits": {
+   "components": [
+    "university_of_saskatchewan_c3",
+    "university_of_saskatchewan_c4"
+   ]
+  },
+  "Saskatchewan Employment Act: maternity, adoption and parental leave": {
+   "absent": "No saved document mentions the Act's maternity, adoption or parental leave: the agreement names the Act only for hours of work and holidays (10.1.1), arbitration (27.6) and its term (31.1). The provincial floor is filled from statutory_baseline.csv (U7)."
+  }
+ },
+ "leave_limits": [],
+ "components": [
+  {
+   "component_id": "university_of_saskatchewan_c1",
+   "institution_label": "Maternity/Parental/Adoption Leave or Primary Caregiver Leave",
+   "description": "Fifty-two weeks of leave for a pregnant employee or any employee who declares in writing to be the primary caregiver of a newborn or adopted child; paid only through the EI supplement (c2), the balance unpaid.",
+   "mechanism": "unpaid_leave",
+   "mechanism_note": "The leave itself; its pay is the separate EI supplement (c2) linked within it (V4; checklist §5 ex. 1). 'The balance of the leave shall be without pay.'",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "employees holding an appointment 'that is probationary, with tenure, with continuing status, or without term' (bargaining unit of faculty and librarians, Art. 4.1)",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "an employee who is pregnant and who declares in writing to be the primary caregiver, or an employee who declares in writing to be the primary care giver of a new born or adopted child",
+   "caregiver_condition": "primary",
+   "caregiver_condition_wording": "declares in writing to be the primary caregiver / primary care giver of a new born or adopted child",
+   "service_requirement": "none stated for probationary, tenured, continuing-status or without-term appointments; limited-term appointees: one year of employment preceding the anticipated birth or custody",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 52,
+    "units": "week",
+    "qualifier": "exact"
+   },
+   "duration_note": "Must be taken uninterrupted and completed within 52 weeks of the birth or adoption; may begin up to eight weeks before the birth or custody. Limited-term appointees: 52 weeks or to the end of the appointment, whichever is earlier (not the member's path, U8).",
+   "time_window": "commences within the period from eight weeks before the estimated or actual date of birth or custody to 52 weeks after it; must be completed within 52 weeks of the birth or adoption",
+   "notice": "as much written notice as possible, not less than four weeks except in emergencies, to the Department Head and Dean",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "relief_note": "A formal leave of absence with no relief stated (R9).",
+   "sequence": [
+    {
+     "relation": "in_lieu_of",
+     "component_id": "university_of_saskatchewan_c5",
+     "note": "An employee takes either the primary caregiver leave (21.7.1, with c2 and c6) or the secondary caregiver leave (21.7.2); R15b, R6."
+    }
+   ],
+   "rule_applied": [
+    "R9",
+    "R6",
+    "R15b",
+    "V4",
+    "U1",
+    "V2",
+    "R13"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "An employee who is pregnant and who declares in writing to be the primary caregiver, or an employee who declares in writing to be the primary care giver of a new born or adopted child, and who holds an appointment that is probationary, with tenure, with continuing status, or without term is entitled to leave of 52 weeks."
+    ],
+    "eligible_parent": [
+     "An employee who is pregnant and who declares in writing to be the primary caregiver, or an employee who declares in writing to be the primary care giver of a new born or adopted child, and who holds an appointment that is probationary, with tenure, with continuing status, or without term is entitled to leave of 52 weeks."
+    ],
+    "caregiver_condition": [
+     "An employee who is pregnant and who declares in writing to be the primary caregiver, or an employee who declares in writing to be the primary care giver of a new born or adopted child, and who holds an appointment that is probationary, with tenure, with continuing status, or without term is entitled to leave of 52 weeks."
+    ],
+    "entitlement": [
+     "An employee who is pregnant and who declares in writing to be the primary caregiver, or an employee who declares in writing to be the primary care giver of a new born or adopted child, and who holds an appointment that is probationary, with tenure, with continuing status, or without term is entitled to leave of 52 weeks."
+    ],
+    "duration": [
+     "An employee who is pregnant and who declares in writing to be the primary caregiver, or an employee who declares in writing to be the primary care giver of a new born or adopted child, and who holds an appointment that is probationary, with tenure, with continuing status, or without term is entitled to leave of 52 weeks.",
+     "The leave will commence at any time, at the employee's discretion, within the period that starts eight weeks before the estimated or actual date of birth or custody, and ends 52 weeks after the actual date of birth or custody and shall be of uninterrupted duration."
+    ],
+    "service_requirement": [
+     "An employee who is pregnant and who declares in writing to be the primary caregiver, or an employee who declares in writing to be the primary care giver of a new born or adopted child, and who holds an appointment that is probationary, with tenure, with continuing status, or without term is entitled to leave of 52 weeks.",
+     "An employee who holds an appointment for a limited term and has been employed by the University for one year preceding the anticipated birth or custody of a child is entitled to leave of 52 weeks or until the end of her/his appointment, whichever occurs earlier."
+    ],
+    "time_window": [
+     "The leave will commence at any time, at the employee's discretion, within the period that starts eight weeks before the estimated or actual date of birth or custody, and ends 52 weeks after the actual date of birth or custody and shall be of uninterrupted duration.",
+     "The leave must be completed within 52 weeks of the birth or adoption of the child."
+    ],
+    "notice": [
+     "Employees shall be expected to give as much written notice as possible (but not less than four weeks, except in emergency situations) to the Department Head and Dean."
+    ],
+    "sequence": [
+     "In the case where an employee is the secondary caregiver, the employee shall be entitled to thirty-five weeks of leave completed within 52 weeks of the child’s date of birth or custody, the first one of which shall be with pay."
+    ],
+    "mechanism": [
+     "The balance of the leave shall be without pay."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_usfa_collective_agreement_2014_2017_text"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "V4",
+     "answer": "unpaid_leave",
+     "quote": "The balance of the leave shall be without pay."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "The balance of the leave shall be without pay."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "An employee who is pregnant and who declares in writing to be the primary caregiver, or an employee who declares in writing to be the primary care giver of a new born or adopted child, and who holds an appointment that is probationary, with tenure, with continuing status, or without term is entitled to leave of 52 weeks."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "An employee who is pregnant and who declares in writing to be the primary caregiver, or an employee who declares in writing to be the primary care giver of a new born or adopted child, and who holds an appointment that is probationary, with tenure, with continuing status, or without term is entitled to leave of 52 weeks."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R6",
+     "answer": "birth_parent, non_birth_parent, adoptive (primary-caregiver condition is gender-neutral)",
+     "quote": "An employee who is pregnant and who declares in writing to be the primary caregiver, or an employee who declares in writing to be the primary care giver of a new born or adopted child, and who holds an appointment that is probationary, with tenure, with continuing status, or without term is entitled to leave of 52 weeks."
+    },
+    {
+     "field": "caregiver_condition",
+     "rule": "R6",
+     "answer": "primary",
+     "quote": "An employee who is pregnant and who declares in writing to be the primary caregiver, or an employee who declares in writing to be the primary care giver of a new born or adopted child, and who holds an appointment that is probationary, with tenure, with continuing status, or without term is entitled to leave of 52 weeks."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "An employee who is pregnant and who declares in writing to be the primary caregiver, or an employee who declares in writing to be the primary care giver of a new born or adopted child, and who holds an appointment that is probationary, with tenure, with continuing status, or without term is entitled to leave of 52 weeks."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "52 weeks, exact (no qualifying word)",
+     "quote": "An employee who is pregnant and who declares in writing to be the primary caregiver, or an employee who declares in writing to be the primary care giver of a new born or adopted child, and who holds an appointment that is probationary, with tenure, with continuing status, or without term is entitled to leave of 52 weeks."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U8",
+     "answer": "none stated for the tenure stream; one year for limited-term appointees",
+     "quote": "An employee who holds an appointment for a limited term and has been employed by the University for one year preceding the anticipated birth or custody of a child is entitled to leave of 52 weeks or until the end of her/his appointment, whichever occurs earlier."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave, no relief stated)",
+     "quote": "An employee who is pregnant and who declares in writing to be the primary caregiver, or an employee who declares in writing to be the primary care giver of a new born or adopted child, and who holds an appointment that is probationary, with tenure, with continuing status, or without term is entitled to leave of 52 weeks."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15b",
+     "answer": "in_lieu_of c5 (secondary caregiver leave)",
+     "quote": "In the case where an employee is the secondary caregiver, the employee shall be entitled to thirty-five weeks of leave completed within 52 weeks of the child’s date of birth or custody, the first one of which shall be with pay."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_saskatchewan_c2",
+   "institution_label": "",
+   "description": "Supplement to EI maternity or parental benefits giving 95% of normal salary for up to 35 weeks of the primary caregiver leave, including the waiting period; one envelope (V4).",
+   "mechanism": "employer_topup",
+   "mechanism_note": "Paid to 'Employees receiving Employment Insurance (EI) maternity or parental benefits' to bring income to the equivalent of 95% of salary; a stated envelope including the waiting weeks stays one component (V4; R21 Saskatchewan 2018 example).",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "employees on the 21.7.1 leave receiving EI maternity or parental benefits (probationary, tenured, continuing-status, without-term appointments)",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "Employees receiving Employment Insurance (EI) maternity or parental benefits (on the 21.7.1 maternity/parental/adoption or primary caregiver leave)",
+   "caregiver_condition": "primary",
+   "caregiver_condition_wording": "paid during the 21.7.1 leave, available to an employee who declares in writing to be the primary caregiver",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 35,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "duration_note": "'for up to 35 weeks, including the two-week benefit waiting period'; maximum 35 weeks per employee per pregnancy or adoption. The clause was written for EI's old two-week wait; EI's wait on the reference date is one week (programs.csv), which sets when EI starts, not what the employer pays (R21).",
+   "duration_variants": "Extended to cover any period the employee is receiving extended EI benefits due to the illness of the child (no length stated; under EI Act ss. 22(6) and 23(3) hospitalisation extends the period in which benefits may be paid, not the number of weeks).",
+   "pay_fraction": "95% of normal salary (supplement to EI)",
+   "pay_fraction_pct": 95,
+   "sequence": [
+    {
+     "relation": "within",
+     "component_id": "university_of_saskatchewan_c1",
+     "note": "Paid during the 21.7.1 leave from its start: the 35 weeks include the waiting period (R21 Saskatchewan example; no offset)."
+    },
+    {
+     "relation": "in_lieu_of",
+     "component_id": "university_of_saskatchewan_c5",
+     "note": "Part of the primary caregiver option; R15b puts the link on each paid component of the option."
+    }
+   ],
+   "rule_applied": [
+    "V4",
+    "R21",
+    "R15",
+    "R15b",
+    "U8",
+    "R7",
+    "R13",
+    "R6"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Employees receiving Employment Insurance (EI) maternity or parental benefits shall receive a supplement which provides the equivalent of 95% of normal salary for up to 35 weeks, including the two-week benefit waiting period.",
+     "An employee who is pregnant and who declares in writing to be the primary caregiver, or an employee who declares in writing to be the primary care giver of a new born or adopted child, and who holds an appointment that is probationary, with tenure, with continuing status, or without term is entitled to leave of 52 weeks."
+    ],
+    "eligible_parent": [
+     "Employees receiving Employment Insurance (EI) maternity or parental benefits shall receive a supplement which provides the equivalent of 95% of normal salary for up to 35 weeks, including the two-week benefit waiting period.",
+     "Employees on leave shall receive the following remuneration:"
+    ],
+    "caregiver_condition": [
+     "An employee who is pregnant and who declares in writing to be the primary caregiver, or an employee who declares in writing to be the primary care giver of a new born or adopted child, and who holds an appointment that is probationary, with tenure, with continuing status, or without term is entitled to leave of 52 weeks.",
+     "Employees on leave shall receive the following remuneration:"
+    ],
+    "entitlement": [
+     "Employees receiving Employment Insurance (EI) maternity or parental benefits shall receive a supplement which provides the equivalent of 95% of normal salary for up to 35 weeks, including the two-week benefit waiting period."
+    ],
+    "duration": [
+     "Employees receiving Employment Insurance (EI) maternity or parental benefits shall receive a supplement which provides the equivalent of 95% of normal salary for up to 35 weeks, including the two-week benefit waiting period.",
+     "The supplement described in this Article will be paid for a maximum of 35 weeks per employee per pregnancy or adoption (including the 2 week waiting period)."
+    ],
+    "pay_fraction": [
+     "Employees receiving Employment Insurance (EI) maternity or parental benefits shall receive a supplement which provides the equivalent of 95% of normal salary for up to 35 weeks, including the two-week benefit waiting period."
+    ],
+    "sequence": [
+     "Employees on leave shall receive the following remuneration:",
+     "Employees receiving Employment Insurance (EI) maternity or parental benefits shall receive a supplement which provides the equivalent of 95% of normal salary for up to 35 weeks, including the two-week benefit waiting period.",
+     "In the case where an employee is the secondary caregiver, the employee shall be entitled to thirty-five weeks of leave completed within 52 weeks of the child’s date of birth or custody, the first one of which shall be with pay."
+    ],
+    "duration_variants": [
+     "These benefits shall be extended to cover any period the employee is receiving extended EI benefits due to the illness of the child."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_usfa_collective_agreement_2014_2017_text"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "V4",
+     "answer": "employer_topup",
+     "quote": "Employees receiving Employment Insurance (EI) maternity or parental benefits shall receive a supplement which provides the equivalent of 95% of normal salary for up to 35 weeks, including the two-week benefit waiting period."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "Employees receiving Employment Insurance (EI) maternity or parental benefits shall receive a supplement which provides the equivalent of 95% of normal salary for up to 35 weeks, including the two-week benefit waiting period."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Employees receiving Employment Insurance (EI) maternity or parental benefits shall receive a supplement which provides the equivalent of 95% of normal salary for up to 35 weeks, including the two-week benefit waiting period."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Employees receiving Employment Insurance (EI) maternity or parental benefits shall receive a supplement which provides the equivalent of 95% of normal salary for up to 35 weeks, including the two-week benefit waiting period."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R6",
+     "answer": "birth_parent, non_birth_parent, adoptive",
+     "quote": "Employees on leave shall receive the following remuneration:"
+    },
+    {
+     "field": "caregiver_condition",
+     "rule": "R6",
+     "answer": "primary",
+     "quote": "An employee who is pregnant and who declares in writing to be the primary caregiver, or an employee who declares in writing to be the primary care giver of a new born or adopted child, and who holds an appointment that is probationary, with tenure, with continuing status, or without term is entitled to leave of 52 weeks."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "Employees receiving Employment Insurance (EI) maternity or parental benefits shall receive a supplement which provides the equivalent of 95% of normal salary for up to 35 weeks, including the two-week benefit waiting period."
+    },
+    {
+     "field": "duration",
+     "rule": "V4",
+     "answer": "35 weeks up_to, one envelope including the waiting weeks",
+     "quote": "Employees receiving Employment Insurance (EI) maternity or parental benefits shall receive a supplement which provides the equivalent of 95% of normal salary for up to 35 weeks, including the two-week benefit waiting period."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "R7",
+     "answer": "95% of normal salary, integrated with EI",
+     "quote": "Employees receiving Employment Insurance (EI) maternity or parental benefits shall receive a supplement which provides the equivalent of 95% of normal salary for up to 35 weeks, including the two-week benefit waiting period."
+    },
+    {
+     "field": "sequence",
+     "rule": "R21",
+     "answer": "within c1, no offset: the 35 weeks include the waiting period",
+     "quote": "Employees receiving Employment Insurance (EI) maternity or parental benefits shall receive a supplement which provides the equivalent of 95% of normal salary for up to 35 weeks, including the two-week benefit waiting period."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15b",
+     "answer": "in_lieu_of c5",
+     "quote": "In the case where an employee is the secondary caregiver, the employee shall be entitled to thirty-five weeks of leave completed within 52 weeks of the child’s date of birth or custody, the first one of which shall be with pay."
+    },
+    {
+     "field": "duration",
+     "rule": "U8",
+     "answer": "EI-eligible path coded; the non-EI paths (95% for up to 35 weeks if ineligible solely on the insurable-employment test; 95% for two weeks for others) go in notes",
+     "quote": "Employees who are not eligible to receive EI maternity or parental benefits but who hold an appointment that is probationary, with tenure, with permanent status, or without term shall receive the equivalent of 95% of normal salary for up to 35 weeks provided they have applied for EI maternity or parental benefits and it has been determined they are ineligible solely because they do not meet the insurable employment test."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_saskatchewan_c3",
+   "institution_label": "",
+   "description": "Federal EI pregnancy (maternity) benefits: up to 15 weeks at 55% of insurable earnings, after a one-week unpaid waiting period.",
+   "mechanism": "government_benefit",
+   "mechanism_note": "EI maternity is in programs.csv as a birth and parental benefit, government_benefit (M1).",
+   "payer": "government",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "insured employees; the agreement refers to 'Employees receiving Employment Insurance (EI) maternity or parental benefits'",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "a major attachment claimant who proves her pregnancy",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 15,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "pay_fraction": "55% of weekly insurable earnings",
+   "pay_fraction_pct": 55,
+   "pay_cap": "EI maximum insurable earnings (EI Act s. 14; amount not stated in the agreement)",
+   "time_window": "benefit period from the earlier of 12 weeks before the expected week of confinement and the week of confinement, to 17 weeks after the later of them (s. 22(2)); extended by weeks of the child's hospitalisation, to no later than 52 weeks after confinement (s. 22(6)-(7))",
+   "statute_source": "Employment Insurance Act ss. 12(3)(a), 13, 14(1), 22",
+   "statute_verified": true,
+   "sequence": [
+    {
+     "relation": "concurrent_with",
+     "component_id": "university_of_saskatchewan_c1",
+     "start_offset_weeks": 1,
+     "note": "EI starts after the statute's one-week unpaid waiting period (s. 13), counted from the start of the leave (R21); the agreement's 'two-week benefit waiting period' is stale and sets only what the employer pays."
+    }
+   ],
+   "rule_applied": [
+    "M1",
+    "U2",
+    "U4",
+    "R7",
+    "R21",
+    "S1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Employees receiving Employment Insurance (EI) maternity or parental benefits shall receive a supplement which provides the equivalent of 95% of normal salary for up to 35 weeks, including the two-week benefit waiting period."
+    ],
+    "eligible_parent": [
+     "benefits are payable to a major attachment claimant who proves her pregnancy."
+    ],
+    "entitlement": [
+     "benefits are payable to a major attachment claimant who proves her pregnancy."
+    ],
+    "duration": [
+     "The maximum number of weeks for which benefits may be paid in a benefit period",
+     "(a) because of pregnancy is 15;"
+    ],
+    "pay_fraction": [
+     "The rate of weekly benefits payable to a claimant is 55% of their weekly insurable earnings, or 33% of their weekly insurable earnings for the weeks for which the claimant is paid benefits under section 23 in the case where the applicable maximum number of weeks is established under subparagraph 12(3)(b)(ii)."
+    ],
+    "sequence": [
+     "A claimant is not entitled to be paid benefits in a benefit period until, after the beginning of the benefit period, the claimant has served a waiting period of one week of unemployment for which benefits would otherwise be payable.",
+     "Employees receiving Employment Insurance (EI) maternity or parental benefits shall receive a supplement which provides the equivalent of 95% of normal salary for up to 35 weeks, including the two-week benefit waiting period."
+    ],
+    "time_window": [
+     "If a child who is born of the claimant’s pregnancy is hospitalized, the period during which benefits are payable under subsection (2) shall be extended by the number of weeks during which the child is hospitalized."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_usfa_collective_agreement_2014_2017_text",
+    "2018_16_ca_ei_act_pit_2018-01-01"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "M1",
+     "answer": "government_benefit",
+     "quote": "Employees receiving Employment Insurance (EI) maternity or parental benefits shall receive a supplement which provides the equivalent of 95% of normal salary for up to 35 weeks, including the two-week benefit waiting period."
+    },
+    {
+     "field": "payer",
+     "rule": "M1",
+     "answer": "government",
+     "quote": "benefits are payable to a major attachment claimant who proves her pregnancy."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "benefits are payable to a major attachment claimant who proves her pregnancy."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Employees receiving Employment Insurance (EI) maternity or parental benefits shall receive a supplement which provides the equivalent of 95% of normal salary for up to 35 weeks, including the two-week benefit waiting period."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U2",
+     "answer": "birth_parent",
+     "quote": "benefits are payable to a major attachment claimant who proves her pregnancy."
+    },
+    {
+     "field": "entitlement",
+     "rule": "U2",
+     "answer": "guaranteed",
+     "quote": "benefits are payable to a major attachment claimant who proves her pregnancy."
+    },
+    {
+     "field": "duration",
+     "rule": "U2",
+     "answer": "15 weeks up_to ('maximum number of weeks'), from the saved EI Act",
+     "quote": "(a) because of pregnancy is 15;"
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "U2",
+     "answer": "55% of weekly insurable earnings",
+     "quote": "The rate of weekly benefits payable to a claimant is 55% of their weekly insurable earnings, or 33% of their weekly insurable earnings for the weeks for which the claimant is paid benefits under section 23 in the case where the applicable maximum number of weeks is established under subparagraph 12(3)(b)(ii)."
+    },
+    {
+     "field": "sequence",
+     "rule": "R21",
+     "answer": "concurrent_with c1, start_offset_weeks 1 (EI Act s. 13)",
+     "quote": "A claimant is not entitled to be paid benefits in a benefit period until, after the beginning of the benefit period, the claimant has served a waiting period of one week of unemployment for which benefits would otherwise be payable."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_saskatchewan_c4",
+   "institution_label": "",
+   "description": "Federal EI parental benefits for the care of a newborn or adopted child: 35 weeks at 55% (standard option), shared between parents and counted in full for each role (U2).",
+   "mechanism": "government_benefit",
+   "mechanism_note": "EI parental is in programs.csv as a birth and parental benefit, government_benefit (M1).",
+   "payer": "government",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "insured employees; the agreement refers to 'Employees receiving Employment Insurance (EI) maternity or parental benefits'",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "a major attachment claimant to care for one or more new-born children of the claimant or one or more children placed with the claimant for the purpose of adoption",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 35,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "duration_variants": "Extended option: 61 weeks at 33% (s. 12(3)(b)(ii), s. 14(1)), the claimant's election, not a counted alternative (U2).",
+   "dual_employee_rule": "the weeks may be divided between the parents (s. 23); counted in full for each role (U2)",
+   "pay_fraction": "55% of weekly insurable earnings (standard option)",
+   "pay_fraction_pct": 55,
+   "pay_cap": "EI maximum insurable earnings (EI Act s. 14; amount not stated in the agreement)",
+   "time_window": "within the 52 weeks after the week of birth or placement (s. 23(2)); extended by weeks of the child's hospitalisation (s. 23(3))",
+   "statute_source": "Employment Insurance Act ss. 12(3)(b), 13, 14(1), 23",
+   "statute_verified": true,
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "university_of_saskatchewan_c3",
+     "roles": [
+      "birth"
+     ],
+     "note": "Birth parent: EI parental follows EI maternity; no second waiting period (R21)."
+    },
+    {
+     "relation": "concurrent_with",
+     "component_id": "university_of_saskatchewan_c1",
+     "start_offset_weeks": 1,
+     "roles": [
+      "nonbirth"
+     ],
+     "note": "Non-birth parent serves its own one-week wait from the start of the leave (R21); the deferral where the other parent has served it (EI Act s. 23(5)) is not assumed."
+    }
+   ],
+   "rule_applied": [
+    "M1",
+    "U2",
+    "U4",
+    "R7",
+    "R21",
+    "R15"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Employees receiving Employment Insurance (EI) maternity or parental benefits shall receive a supplement which provides the equivalent of 95% of normal salary for up to 35 weeks, including the two-week benefit waiting period."
+    ],
+    "eligible_parent": [
+     "benefits are payable to a major attachment claimant to care for one or more new-born children of the claimant or one or more children placed with the claimant for the purpose of adoption"
+    ],
+    "entitlement": [
+     "benefits are payable to a major attachment claimant to care for one or more new-born children of the claimant or one or more children placed with the claimant for the purpose of adoption"
+    ],
+    "duration": [
+     "The maximum number of weeks for which benefits may be paid in a benefit period",
+     "(b) because the claimant is caring for one or more new-born children of the claimant or one or more children placed with the claimant for the purpose of adoption is, in accordance with the election under section 23, (i) 35, or (ii) 61;"
+    ],
+    "pay_fraction": [
+     "The rate of weekly benefits payable to a claimant is 55% of their weekly insurable earnings, or 33% of their weekly insurable earnings for the weeks for which the claimant is paid benefits under section 23 in the case where the applicable maximum number of weeks is established under subparagraph 12(3)(b)(ii)."
+    ],
+    "sequence": [
+     "A claimant is not entitled to be paid benefits in a benefit period until, after the beginning of the benefit period, the claimant has served a waiting period of one week of unemployment for which benefits would otherwise be payable.",
+     "Employees receiving Employment Insurance (EI) maternity or parental benefits shall receive a supplement which provides the equivalent of 95% of normal salary for up to 35 weeks, including the two-week benefit waiting period."
+    ],
+    "time_window": [
+     "that ends 52 weeks after the week in which the child or children of the claimant are born or the child or children are actually placed with the claimant for the purpose of adoption."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_usfa_collective_agreement_2014_2017_text",
+    "2018_16_ca_ei_act_pit_2018-01-01"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "M1",
+     "answer": "government_benefit",
+     "quote": "Employees receiving Employment Insurance (EI) maternity or parental benefits shall receive a supplement which provides the equivalent of 95% of normal salary for up to 35 weeks, including the two-week benefit waiting period."
+    },
+    {
+     "field": "payer",
+     "rule": "M1",
+     "answer": "government",
+     "quote": "benefits are payable to a major attachment claimant to care for one or more new-born children of the claimant or one or more children placed with the claimant for the purpose of adoption"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "benefits are payable to a major attachment claimant to care for one or more new-born children of the claimant or one or more children placed with the claimant for the purpose of adoption"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Employees receiving Employment Insurance (EI) maternity or parental benefits shall receive a supplement which provides the equivalent of 95% of normal salary for up to 35 weeks, including the two-week benefit waiting period."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U2",
+     "answer": "birth_parent, non_birth_parent, adoptive",
+     "quote": "benefits are payable to a major attachment claimant to care for one or more new-born children of the claimant or one or more children placed with the claimant for the purpose of adoption"
+    },
+    {
+     "field": "entitlement",
+     "rule": "U2",
+     "answer": "guaranteed",
+     "quote": "benefits are payable to a major attachment claimant to care for one or more new-born children of the claimant or one or more children placed with the claimant for the purpose of adoption"
+    },
+    {
+     "field": "duration",
+     "rule": "U2",
+     "answer": "35 weeks up_to, standard option; 61-week extended option in duration_variants",
+     "quote": "(b) because the claimant is caring for one or more new-born children of the claimant or one or more children placed with the claimant for the purpose of adoption is, in accordance with the election under section 23, (i) 35, or (ii) 61;"
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "U2",
+     "answer": "55% (standard option)",
+     "quote": "The rate of weekly benefits payable to a claimant is 55% of their weekly insurable earnings, or 33% of their weekly insurable earnings for the weeks for which the claimant is paid benefits under section 23 in the case where the applicable maximum number of weeks is established under subparagraph 12(3)(b)(ii)."
+    },
+    {
+     "field": "sequence",
+     "rule": "R21",
+     "answer": "birth: consecutive_after c3 (no second wait); non-birth: concurrent_with c1, offset 1",
+     "quote": "A claimant is not entitled to be paid benefits in a benefit period until, after the beginning of the benefit period, the claimant has served a waiting period of one week of unemployment for which benefits would otherwise be payable."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_saskatchewan_c5",
+   "institution_label": "Secondary Caregiver Leave",
+   "description": "Thirty-five weeks of leave for an employee who is the secondary caregiver, completed within 52 weeks of the birth or custody; the first week with pay.",
+   "mechanism": "employer_paid_leave",
+   "mechanism_note": "One provision that pays part of its own length (first week with pay): paid_duration 1 week (schema).",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "'an employee' (bargaining-unit faculty and librarians, Art. 4.1)",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "an employee [who] is the secondary caregiver",
+   "caregiver_condition": "other",
+   "caregiver_condition_wording": "In the case where an employee is the secondary caregiver",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 35,
+    "units": "week",
+    "qualifier": "exact"
+   },
+   "paid_duration": {
+    "value": 1,
+    "units": "week",
+    "qualifier": "exact"
+   },
+   "pay_fraction": "with pay",
+   "pay_fraction_pct": 100,
+   "time_window": "completed within 52 weeks of the child's date of birth or custody",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "relief_note": "A formal leave of absence with no relief stated (R9).",
+   "sequence": [
+    {
+     "relation": "in_lieu_of",
+     "component_id": "university_of_saskatchewan_c1",
+     "note": "A parent is either the primary caregiver (21.7.1 leave with supplement) or the secondary caregiver (21.7.2)."
+    }
+   ],
+   "rule_applied": [
+    "R9",
+    "R6",
+    "R15b",
+    "V2",
+    "R13"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "In the case where an employee is the secondary caregiver, the employee shall be entitled to thirty-five weeks of leave completed within 52 weeks of the child’s date of birth or custody, the first one of which shall be with pay."
+    ],
+    "eligible_parent": [
+     "In the case where an employee is the secondary caregiver, the employee shall be entitled to thirty-five weeks of leave completed within 52 weeks of the child’s date of birth or custody, the first one of which shall be with pay."
+    ],
+    "caregiver_condition": [
+     "In the case where an employee is the secondary caregiver, the employee shall be entitled to thirty-five weeks of leave completed within 52 weeks of the child’s date of birth or custody, the first one of which shall be with pay."
+    ],
+    "entitlement": [
+     "In the case where an employee is the secondary caregiver, the employee shall be entitled to thirty-five weeks of leave completed within 52 weeks of the child’s date of birth or custody, the first one of which shall be with pay."
+    ],
+    "duration": [
+     "In the case where an employee is the secondary caregiver, the employee shall be entitled to thirty-five weeks of leave completed within 52 weeks of the child’s date of birth or custody, the first one of which shall be with pay."
+    ],
+    "paid_duration": [
+     "In the case where an employee is the secondary caregiver, the employee shall be entitled to thirty-five weeks of leave completed within 52 weeks of the child’s date of birth or custody, the first one of which shall be with pay."
+    ],
+    "pay_fraction": [
+     "In the case where an employee is the secondary caregiver, the employee shall be entitled to thirty-five weeks of leave completed within 52 weeks of the child’s date of birth or custody, the first one of which shall be with pay."
+    ],
+    "sequence": [
+     "In the case where an employee is the secondary caregiver, the employee shall be entitled to thirty-five weeks of leave completed within 52 weeks of the child’s date of birth or custody, the first one of which shall be with pay.",
+     "An employee who is pregnant and who declares in writing to be the primary caregiver, or an employee who declares in writing to be the primary care giver of a new born or adopted child, and who holds an appointment that is probationary, with tenure, with continuing status, or without term is entitled to leave of 52 weeks."
+    ],
+    "time_window": [
+     "In the case where an employee is the secondary caregiver, the employee shall be entitled to thirty-five weeks of leave completed within 52 weeks of the child’s date of birth or custody, the first one of which shall be with pay."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_usfa_collective_agreement_2014_2017_text"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "employer_paid_leave",
+     "quote": "In the case where an employee is the secondary caregiver, the employee shall be entitled to thirty-five weeks of leave completed within 52 weeks of the child’s date of birth or custody, the first one of which shall be with pay."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "In the case where an employee is the secondary caregiver, the employee shall be entitled to thirty-five weeks of leave completed within 52 weeks of the child’s date of birth or custody, the first one of which shall be with pay."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "In the case where an employee is the secondary caregiver, the employee shall be entitled to thirty-five weeks of leave completed within 52 weeks of the child’s date of birth or custody, the first one of which shall be with pay."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "In the case where an employee is the secondary caregiver, the employee shall be entitled to thirty-five weeks of leave completed within 52 weeks of the child’s date of birth or custody, the first one of which shall be with pay."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R6",
+     "answer": "any_parent (role-neutral 'secondary caregiver')",
+     "quote": "In the case where an employee is the secondary caregiver, the employee shall be entitled to thirty-five weeks of leave completed within 52 weeks of the child’s date of birth or custody, the first one of which shall be with pay."
+    },
+    {
+     "field": "caregiver_condition",
+     "rule": "R6",
+     "answer": "other",
+     "quote": "In the case where an employee is the secondary caregiver, the employee shall be entitled to thirty-five weeks of leave completed within 52 weeks of the child’s date of birth or custody, the first one of which shall be with pay."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "In the case where an employee is the secondary caregiver, the employee shall be entitled to thirty-five weeks of leave completed within 52 weeks of the child’s date of birth or custody, the first one of which shall be with pay."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "35 weeks exact",
+     "quote": "In the case where an employee is the secondary caregiver, the employee shall be entitled to thirty-five weeks of leave completed within 52 weeks of the child’s date of birth or custody, the first one of which shall be with pay."
+    },
+    {
+     "field": "paid_duration",
+     "rule": "schema",
+     "answer": "first week with pay: 1 week",
+     "quote": "In the case where an employee is the secondary caregiver, the employee shall be entitled to thirty-five weeks of leave completed within 52 weeks of the child’s date of birth or custody, the first one of which shall be with pay."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "with pay (100)",
+     "quote": "In the case where an employee is the secondary caregiver, the employee shall be entitled to thirty-five weeks of leave completed within 52 weeks of the child’s date of birth or custody, the first one of which shall be with pay."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave)",
+     "quote": "In the case where an employee is the secondary caregiver, the employee shall be entitled to thirty-five weeks of leave completed within 52 weeks of the child’s date of birth or custody, the first one of which shall be with pay."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15b",
+     "answer": "in_lieu_of c1",
+     "quote": "In the case where an employee is the secondary caregiver, the employee shall be entitled to thirty-five weeks of leave completed within 52 weeks of the child’s date of birth or custody, the first one of which shall be with pay."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_saskatchewan_c6",
+   "institution_label": "Extension of Leave",
+   "description": "Extension of the primary caregiver leave by up to one year of leave without pay; benefits continue at the employee's expense.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "an employee on the 21.7.1 leave",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "An employee may extend her/his leave",
+   "caregiver_condition": "primary",
+   "caregiver_condition_wording": "extension of the 21.7.1 leave, available to an employee who declares in writing to be the primary caregiver",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "'may extend her/his leave' gives the employee the extension (V2: the employee elects); but the clause applies 'the procedures as defined in Article 21.4', whose leave 'may be granted' and whose denial may be appealed (21.4.3). Flagged ambiguous.",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "up_to"
+   },
+   "duration_note": "Up to one year, arranged where possible to coincide with academic terms. An employee who becomes pregnant or declares to be the primary caregiver of another child during the leave or extension may extend by up to two additional years (a later event, not counted here).",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "relief_note": "A formal leave of absence with no relief stated (R9).",
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "university_of_saskatchewan_c1",
+     "note": "An extension of the 21.7.1 leave."
+    },
+    {
+     "relation": "in_lieu_of",
+     "component_id": "university_of_saskatchewan_c5",
+     "note": "Part of the primary caregiver option (R15b)."
+    }
+   ],
+   "rule_applied": [
+    "V2",
+    "R9",
+    "R13",
+    "R15",
+    "R15b",
+    "R6"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "An employee may extend her/his leave by a leave without pay of up to one year."
+    ],
+    "eligible_parent": [
+     "An employee may extend her/his leave by a leave without pay of up to one year."
+    ],
+    "caregiver_condition": [
+     "An employee who is pregnant and who declares in writing to be the primary caregiver, or an employee who declares in writing to be the primary care giver of a new born or adopted child, and who holds an appointment that is probationary, with tenure, with continuing status, or without term is entitled to leave of 52 weeks.",
+     "An employee may extend her/his leave by a leave without pay of up to one year."
+    ],
+    "entitlement": [
+     "An employee may extend her/his leave by a leave without pay of up to one year.",
+     "The procedures as defined in Article 21.4 shall apply in such cases.",
+     "A leave of absence without pay may be granted an employee to provide professional assistance to an outside agency or for other reasons provided that the employee's duties can be performed satisfactorily, and that all the Employer's contractual obligations relating to the employee can be met."
+    ],
+    "duration": [
+     "An employee may extend her/his leave by a leave without pay of up to one year."
+    ],
+    "sequence": [
+     "An employee may extend her/his leave by a leave without pay of up to one year.",
+     "In the case where an employee is the secondary caregiver, the employee shall be entitled to thirty-five weeks of leave completed within 52 weeks of the child’s date of birth or custody, the first one of which shall be with pay."
+    ],
+    "duration_note": [
+     "The employee shall try to arrange the leave without pay to coincide with academic term(s).",
+     "An employee who becomes pregnant or declares to be the primary care giver of another child during the leave or a leave without pay extension to the leave shall be entitled to extend her/his leave by a leave without pay of up to two additional years."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_usfa_collective_agreement_2014_2017_text"
+   ],
+   "flags": [
+    "ambiguous: entitlement: 21.7.1.8 'may extend her/his leave' (guaranteed_on_request, V2) but 'The procedures as defined in Article 21.4 shall apply', and 21.4 leave 'may be granted' with an appeal of denial"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "An employee may extend her/his leave by a leave without pay of up to one year."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "An employee may extend her/his leave by a leave without pay of up to one year."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "An employee may extend her/his leave by a leave without pay of up to one year."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "An employee may extend her/his leave by a leave without pay of up to one year."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R6",
+     "answer": "birth_parent, non_birth_parent, adoptive",
+     "quote": "An employee may extend her/his leave by a leave without pay of up to one year."
+    },
+    {
+     "field": "caregiver_condition",
+     "rule": "R6",
+     "answer": "primary",
+     "quote": "An employee who is pregnant and who declares in writing to be the primary caregiver, or an employee who declares in writing to be the primary care giver of a new born or adopted child, and who holds an appointment that is probationary, with tenure, with continuing status, or without term is entitled to leave of 52 weeks."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "An employee may extend her/his leave by a leave without pay of up to one year."
+    },
+    {
+     "field": "entitlement",
+     "rule": "source_precedence",
+     "answer": "guaranteed_on_request",
+     "quote": "The procedures as defined in Article 21.4 shall apply in such cases."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 year up_to",
+     "quote": "An employee may extend her/his leave by a leave without pay of up to one year."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave)",
+     "quote": "An employee may extend her/his leave by a leave without pay of up to one year."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "consecutive_after c1 (extension of the leave)",
+     "quote": "An employee may extend her/his leave by a leave without pay of up to one year."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15b",
+     "answer": "in_lieu_of c5",
+     "quote": "In the case where an employee is the secondary caregiver, the employee shall be entitled to thirty-five weeks of leave completed within 52 weeks of the child’s date of birth or custody, the first one of which shall be with pay."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_saskatchewan_c7",
+   "institution_label": "Probationary Period",
+   "description": "The period of the maternity/parental/adoption or primary caregiver leave does not count as part of the probationary period; contributions made during the leave may still count.",
+   "mechanism": "tenure_clock",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "an employee who 'holds a probationary appointment or term appointment pursuant to Article 13.7.3'",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "the employee on the 21.7.1 leave (pregnant employee or declared primary caregiver)",
+   "caregiver_condition": "primary",
+   "caregiver_condition_wording": "applies to the 21.7.1 leave, available to an employee who declares in writing to be the primary caregiver",
+   "entitlement": "guaranteed",
+   "duration_note": "The clock stops for the period of the leave (up to 52 weeks); no separate length stated.",
+   "rule_applied": [
+    "U1",
+    "V2",
+    "R6"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "If the employee holds a probationary appointment or term appointment pursuant to Article 13.7.3, the period of the leave shall not count as part of the probationary period, although the employee may count contributions completed during the period of the leave towards their renewal of probation, tenure or promotion case."
+    ],
+    "eligible_parent": [
+     "If the employee holds a probationary appointment or term appointment pursuant to Article 13.7.3, the period of the leave shall not count as part of the probationary period, although the employee may count contributions completed during the period of the leave towards their renewal of probation, tenure or promotion case.",
+     "An employee who is pregnant and who declares in writing to be the primary caregiver, or an employee who declares in writing to be the primary care giver of a new born or adopted child, and who holds an appointment that is probationary, with tenure, with continuing status, or without term is entitled to leave of 52 weeks."
+    ],
+    "caregiver_condition": [
+     "An employee who is pregnant and who declares in writing to be the primary caregiver, or an employee who declares in writing to be the primary care giver of a new born or adopted child, and who holds an appointment that is probationary, with tenure, with continuing status, or without term is entitled to leave of 52 weeks."
+    ],
+    "entitlement": [
+     "If the employee holds a probationary appointment or term appointment pursuant to Article 13.7.3, the period of the leave shall not count as part of the probationary period, although the employee may count contributions completed during the period of the leave towards their renewal of probation, tenure or promotion case."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_usfa_collective_agreement_2014_2017_text"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "If the employee holds a probationary appointment or term appointment pursuant to Article 13.7.3, the period of the leave shall not count as part of the probationary period, although the employee may count contributions completed during the period of the leave towards their renewal of probation, tenure or promotion case."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "If the employee holds a probationary appointment or term appointment pursuant to Article 13.7.3, the period of the leave shall not count as part of the probationary period, although the employee may count contributions completed during the period of the leave towards their renewal of probation, tenure or promotion case."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "If the employee holds a probationary appointment or term appointment pursuant to Article 13.7.3, the period of the leave shall not count as part of the probationary period, although the employee may count contributions completed during the period of the leave towards their renewal of probation, tenure or promotion case."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "If the employee holds a probationary appointment or term appointment pursuant to Article 13.7.3, the period of the leave shall not count as part of the probationary period, although the employee may count contributions completed during the period of the leave towards their renewal of probation, tenure or promotion case."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R6",
+     "answer": "birth_parent, non_birth_parent, adoptive",
+     "quote": "An employee who is pregnant and who declares in writing to be the primary caregiver, or an employee who declares in writing to be the primary care giver of a new born or adopted child, and who holds an appointment that is probationary, with tenure, with continuing status, or without term is entitled to leave of 52 weeks."
+    },
+    {
+     "field": "caregiver_condition",
+     "rule": "R6",
+     "answer": "primary",
+     "quote": "An employee who is pregnant and who declares in writing to be the primary caregiver, or an employee who declares in writing to be the primary care giver of a new born or adopted child, and who holds an appointment that is probationary, with tenure, with continuing status, or without term is entitled to leave of 52 weeks."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "If the employee holds a probationary appointment or term appointment pursuant to Article 13.7.3, the period of the leave shall not count as part of the probationary period, although the employee may count contributions completed during the period of the leave towards their renewal of probation, tenure or promotion case."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_saskatchewan_c8",
+   "institution_label": "",
+   "description": "General rule: a leave of absence does not interrupt probationary service, and the period of leave does not count as qualifying service for tenure (any leave).",
+   "mechanism": "tenure_clock",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "probationary appointees (Assistant and Associate Professors, librarians)",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "no role words; any leave of absence",
+   "entitlement": "guaranteed",
+   "duration_note": "Length of whatever leave is taken; no length of its own.",
+   "rule_applied": [
+    "U1",
+    "V2"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Appointments to the rank of Assistant Professor, Associate Professor, Assistant Librarian, Associate Librarian, or Librarian are probationary unless otherwise specified",
+     "Continuity of probationary service shall not be interrupted by leave of absence from the University but the period of leave shall not count as qualifying service for tenure, except as provided for in Article 21.7.1.7."
+    ],
+    "eligible_parent": [
+     "Continuity of probationary service shall not be interrupted by leave of absence from the University but the period of leave shall not count as qualifying service for tenure, except as provided for in Article 21.7.1.7."
+    ],
+    "entitlement": [
+     "Continuity of probationary service shall not be interrupted by leave of absence from the University but the period of leave shall not count as qualifying service for tenure, except as provided for in Article 21.7.1.7."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_usfa_collective_agreement_2014_2017_text"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "Continuity of probationary service shall not be interrupted by leave of absence from the University but the period of leave shall not count as qualifying service for tenure, except as provided for in Article 21.7.1.7."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Continuity of probationary service shall not be interrupted by leave of absence from the University but the period of leave shall not count as qualifying service for tenure, except as provided for in Article 21.7.1.7."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "Continuity of probationary service shall not be interrupted by leave of absence from the University but the period of leave shall not count as qualifying service for tenure, except as provided for in Article 21.7.1.7."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Appointments to the rank of Assistant Professor, Associate Professor, Assistant Librarian, Associate Librarian, or Librarian are probationary unless otherwise specified"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "Continuity of probationary service shall not be interrupted by leave of absence from the University but the period of leave shall not count as qualifying service for tenure, except as provided for in Article 21.7.1.7."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "Continuity of probationary service shall not be interrupted by leave of absence from the University but the period of leave shall not count as qualifying service for tenure, except as provided for in Article 21.7.1.7."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_saskatchewan_c9",
+   "institution_label": "",
+   "description": "In extenuating circumstances, with the approval of the Joint Committee for the Management of the Agreement, one additional year of probationary service.",
+   "mechanism": "tenure_clock",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "probationary Assistant Professors and Associate Professors (13.3.1.1, 13.3.1.2)",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "no role words; 'extenuating circumstances'",
+   "entitlement": "discretionary",
+   "entitlement_note": "'may be permitted' with the approval of the Joint Committee (V2).",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "exact"
+   },
+   "duration_note": "Probationary service may not exceed seven years (Assistant) or six years (Associate). Request by June 15.",
+   "notice": "request to the Dean, copied to the Department Head, Vice-President Academic and Provost and the Association, by June 15",
+   "rule_applied": [
+    "U1",
+    "V2",
+    "R13"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "In extenuating circumstances and with the approval of the Joint Committee for the Management of the Agreement, an employee may be permitted to serve one additional year of probationary service."
+    ],
+    "eligible_parent": [
+     "In extenuating circumstances and with the approval of the Joint Committee for the Management of the Agreement, an employee may be permitted to serve one additional year of probationary service."
+    ],
+    "entitlement": [
+     "In extenuating circumstances and with the approval of the Joint Committee for the Management of the Agreement, an employee may be permitted to serve one additional year of probationary service."
+    ],
+    "duration": [
+     "In extenuating circumstances and with the approval of the Joint Committee for the Management of the Agreement, an employee may be permitted to serve one additional year of probationary service."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_usfa_collective_agreement_2014_2017_text"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "In extenuating circumstances and with the approval of the Joint Committee for the Management of the Agreement, an employee may be permitted to serve one additional year of probationary service."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "In extenuating circumstances and with the approval of the Joint Committee for the Management of the Agreement, an employee may be permitted to serve one additional year of probationary service."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "In extenuating circumstances and with the approval of the Joint Committee for the Management of the Agreement, an employee may be permitted to serve one additional year of probationary service."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "In extenuating circumstances and with the approval of the Joint Committee for the Management of the Agreement, an employee may be permitted to serve one additional year of probationary service."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "In extenuating circumstances and with the approval of the Joint Committee for the Management of the Agreement, an employee may be permitted to serve one additional year of probationary service."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "In extenuating circumstances and with the approval of the Joint Committee for the Management of the Agreement, an employee may be permitted to serve one additional year of probationary service."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 year exact",
+     "quote": "In extenuating circumstances and with the approval of the Joint Committee for the Management of the Agreement, an employee may be permitted to serve one additional year of probationary service."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_saskatchewan_c10",
+   "institution_label": "",
+   "description": "On request, a pregnant employee is entitled to an appropriate adjustment of duties when pregnancy complications justify it or working conditions expose her to physical dangers, infectious diseases or danger of miscarriage.",
+   "mechanism": "other",
+   "mechanism_note": "A pregnancy accommodation that adjusts the work, with no stated relief from teaching or service (R16); its hazard part is a hazard-based accommodation (U4). Counted in no figure.",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "'the pregnant employee' (bargaining-unit faculty and librarians)",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "the pregnant employee",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "'Upon request ... shall be entitled' when the stated conditions hold.",
+   "rule_applied": [
+    "R16",
+    "U4",
+    "V2"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Upon request to the Department Head or Dean, the pregnant employee shall be entitled to an appropriate adjustment of her duties when complications related to her pregnancy justify it or when her working conditions expose her to physical dangers, to infectious diseases or danger of miscarriage."
+    ],
+    "eligible_parent": [
+     "Upon request to the Department Head or Dean, the pregnant employee shall be entitled to an appropriate adjustment of her duties when complications related to her pregnancy justify it or when her working conditions expose her to physical dangers, to infectious diseases or danger of miscarriage."
+    ],
+    "entitlement": [
+     "Upon request to the Department Head or Dean, the pregnant employee shall be entitled to an appropriate adjustment of her duties when complications related to her pregnancy justify it or when her working conditions expose her to physical dangers, to infectious diseases or danger of miscarriage."
+    ],
+    "mechanism": [
+     "Upon request to the Department Head or Dean, the pregnant employee shall be entitled to an appropriate adjustment of her duties when complications related to her pregnancy justify it or when her working conditions expose her to physical dangers, to infectious diseases or danger of miscarriage."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_usfa_collective_agreement_2014_2017_text"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R16",
+     "answer": "other",
+     "quote": "Upon request to the Department Head or Dean, the pregnant employee shall be entitled to an appropriate adjustment of her duties when complications related to her pregnancy justify it or when her working conditions expose her to physical dangers, to infectious diseases or danger of miscarriage."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Upon request to the Department Head or Dean, the pregnant employee shall be entitled to an appropriate adjustment of her duties when complications related to her pregnancy justify it or when her working conditions expose her to physical dangers, to infectious diseases or danger of miscarriage."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Upon request to the Department Head or Dean, the pregnant employee shall be entitled to an appropriate adjustment of her duties when complications related to her pregnancy justify it or when her working conditions expose her to physical dangers, to infectious diseases or danger of miscarriage."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Upon request to the Department Head or Dean, the pregnant employee shall be entitled to an appropriate adjustment of her duties when complications related to her pregnancy justify it or when her working conditions expose her to physical dangers, to infectious diseases or danger of miscarriage."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "birth_parent",
+     "quote": "Upon request to the Department Head or Dean, the pregnant employee shall be entitled to an appropriate adjustment of her duties when complications related to her pregnancy justify it or when her working conditions expose her to physical dangers, to infectious diseases or danger of miscarriage."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "Upon request to the Department Head or Dean, the pregnant employee shall be entitled to an appropriate adjustment of her duties when complications related to her pregnancy justify it or when her working conditions expose her to physical dangers, to infectious diseases or danger of miscarriage."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_saskatchewan_c11",
+   "institution_label": "Disability Leave",
+   "description": "Employees on long-term disability, including the 90-day period before Academic LTD coverage, are deemed on leave without pay; applies to medical complications of pregnancy or childbirth (21.7.1.4.3). No length stated.",
+   "mechanism": "unpaid_leave",
+   "mechanism_note": "The text grants leave status ('deemed to be on leave without pay'), so the leave is a component and the LTD plan (c12) its pay (U6). No length stated: it adds no weeks.",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "'Employees on long-term disability'",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "an employee [who] is unable to work because of medical complications related to pregnancy and/or childbirth",
+   "entitlement": "guaranteed",
+   "duration_note": "No length stated (the duration of the disability).",
+   "time_window": "includes the 90 day period prior to coverage by the Academic Long Term Disability Plan",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "relief_note": "A leave status with no relief stated (R9).",
+   "rule_applied": [
+    "U6",
+    "U5",
+    "R9",
+    "V2"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Employees on long-term disability, including the 90 day period prior to coverage by the Academic Long Term Disability Plan (Article 22.5), are deemed to be on leave without pay for purposes of the administration of this Agreement."
+    ],
+    "eligible_parent": [
+     "If an employee is unable to work because of medical complications related to pregnancy and/or childbirth, the normal provisions of disability leave, including the Academic Long Term Disability Plan, shall be applied in accordance with Article 21.8."
+    ],
+    "entitlement": [
+     "Employees on long-term disability, including the 90 day period prior to coverage by the Academic Long Term Disability Plan (Article 22.5), are deemed to be on leave without pay for purposes of the administration of this Agreement.",
+     "If an employee is unable to work because of medical complications related to pregnancy and/or childbirth, the normal provisions of disability leave, including the Academic Long Term Disability Plan, shall be applied in accordance with Article 21.8."
+    ],
+    "time_window": [
+     "Employees on long-term disability, including the 90 day period prior to coverage by the Academic Long Term Disability Plan (Article 22.5), are deemed to be on leave without pay for purposes of the administration of this Agreement."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_usfa_collective_agreement_2014_2017_text"
+   ],
+   "flags": [
+    "cross_reference_not_saved: Academic Long Term Disability Plan document (Salary Continuation Plan), Art. 22.5",
+    "own_illness_leave"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "U6",
+     "answer": "unpaid_leave",
+     "quote": "Employees on long-term disability, including the 90 day period prior to coverage by the Academic Long Term Disability Plan (Article 22.5), are deemed to be on leave without pay for purposes of the administration of this Agreement."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Employees on long-term disability, including the 90 day period prior to coverage by the Academic Long Term Disability Plan (Article 22.5), are deemed to be on leave without pay for purposes of the administration of this Agreement."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Employees on long-term disability, including the 90 day period prior to coverage by the Academic Long Term Disability Plan (Article 22.5), are deemed to be on leave without pay for purposes of the administration of this Agreement."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Employees on long-term disability, including the 90 day period prior to coverage by the Academic Long Term Disability Plan (Article 22.5), are deemed to be on leave without pay for purposes of the administration of this Agreement."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own disability)",
+     "quote": "If an employee is unable to work because of medical complications related to pregnancy and/or childbirth, the normal provisions of disability leave, including the Academic Long Term Disability Plan, shall be applied in accordance with Article 21.8."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "Employees on long-term disability, including the 90 day period prior to coverage by the Academic Long Term Disability Plan (Article 22.5), are deemed to be on leave without pay for purposes of the administration of this Agreement."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (leave status, no relief stated)",
+     "quote": "Employees on long-term disability, including the 90 day period prior to coverage by the Academic Long Term Disability Plan (Article 22.5), are deemed to be on leave without pay for purposes of the administration of this Agreement."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_saskatchewan_c12",
+   "institution_label": "Academic Long Term Disability Plan",
+   "description": "Employer-funded long-term disability plan (Salary Continuation Plan), applied to medical complications of pregnancy or childbirth; recorded without a length (schema §2).",
+   "mechanism": "generic_sick_or_disability_plan",
+   "mechanism_note": "A long-term disability plan: one component, no duration (schema §2). Childbirth is handled like any other disability ('the normal provisions of disability leave').",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "employees covered by the Academic Long Term Disability Plan (coverage maintained during unpaid parental leave, 21.7.1.4.2)",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "an employee [who] is unable to work because of medical complications related to pregnancy and/or childbirth",
+   "entitlement": "guaranteed",
+   "time_window": "after a 90 day period prior to coverage (21.8)",
+   "medical_certification": true,
+   "medical_certification_note": "medical reports provided in confidence by the employee's physician for the purpose of complying with the terms of the plan (Art. 12.1)",
+   "sequence": [
+    {
+     "relation": "within",
+     "component_id": "university_of_saskatchewan_c11",
+     "note": "The plan pays during the deemed disability leave (U6)."
+    }
+   ],
+   "rule_applied": [
+    "U6",
+    "U5",
+    "M1",
+    "V6",
+    "V2"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "During any unpaid portion of the leave, the Employer shall maintain coverage for the employee under the Compulsory Group Life Insurance Plan, the Academic Long Term Disability Plan, Extended Health Care Plan and the Dental Plan.",
+     "The Salary Continuation Plan in effect on the effective date of this agreement shall remain in effect until modified in whole or part by negotiation between the Employer and the Association."
+    ],
+    "eligible_parent": [
+     "If an employee is unable to work because of medical complications related to pregnancy and/or childbirth, the normal provisions of disability leave, including the Academic Long Term Disability Plan, shall be applied in accordance with Article 21.8."
+    ],
+    "entitlement": [
+     "The Salary Continuation Plan in effect on the effective date of this agreement shall remain in effect until modified in whole or part by negotiation between the Employer and the Association.",
+     "If an employee is unable to work because of medical complications related to pregnancy and/or childbirth, the normal provisions of disability leave, including the Academic Long Term Disability Plan, shall be applied in accordance with Article 21.8."
+    ],
+    "sequence": [
+     "Employees on long-term disability, including the 90 day period prior to coverage by the Academic Long Term Disability Plan (Article 22.5), are deemed to be on leave without pay for purposes of the administration of this Agreement."
+    ],
+    "payer": [
+     "The Employer shall continue to pay the premiums for this Plan."
+    ],
+    "medical_certification": [
+     "In the case of medical reports provided in confidence by an employee's physician for the purpose of complying with the terms of the Academic Long Term Disability Plan"
+    ],
+    "time_window": [
+     "Employees on long-term disability, including the 90 day period prior to coverage by the Academic Long Term Disability Plan (Article 22.5), are deemed to be on leave without pay for purposes of the administration of this Agreement."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_usfa_collective_agreement_2014_2017_text"
+   ],
+   "flags": [
+    "cross_reference_not_saved: Academic Long Term Disability Plan document (Salary Continuation Plan), Art. 22.5"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "V6",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "If an employee is unable to work because of medical complications related to pregnancy and/or childbirth, the normal provisions of disability leave, including the Academic Long Term Disability Plan, shall be applied in accordance with Article 21.8."
+    },
+    {
+     "field": "payer",
+     "rule": "M1",
+     "answer": "employer",
+     "quote": "The Employer shall continue to pay the premiums for this Plan."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "The Salary Continuation Plan in effect on the effective date of this agreement shall remain in effect until modified in whole or part by negotiation between the Employer and the Association."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "During any unpaid portion of the leave, the Employer shall maintain coverage for the employee under the Compulsory Group Life Insurance Plan, the Academic Long Term Disability Plan, Extended Health Care Plan and the Dental Plan."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own disability)",
+     "quote": "If an employee is unable to work because of medical complications related to pregnancy and/or childbirth, the normal provisions of disability leave, including the Academic Long Term Disability Plan, shall be applied in accordance with Article 21.8."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "The Salary Continuation Plan in effect on the effective date of this agreement shall remain in effect until modified in whole or part by negotiation between the Employer and the Association."
+    },
+    {
+     "field": "sequence",
+     "rule": "U6",
+     "answer": "within c11 (the deemed disability leave)",
+     "quote": "Employees on long-term disability, including the 90 day period prior to coverage by the Academic Long Term Disability Plan (Article 22.5), are deemed to be on leave without pay for purposes of the administration of this Agreement."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_saskatchewan_c13",
+   "institution_label": "Sick Leave",
+   "description": "Paid sick leave of 1.25 days per month (15 days a year), not carried forward, for term appointees and others not covered by the Academic LTD Plan.",
+   "mechanism": "generic_sick_or_disability_plan",
+   "mechanism_note": "A fixed annual allotment that is not carried over (the balance does not grow), so an employer plan rather than an accrual (R1).",
+   "payer": "employer",
+   "faculty_group": "term appointees and other employees not covered by the Academic Long Term Disability Plan",
+   "faculty_group_note": "Term appointees and other employees not covered by the Academic Long Term Disability Plan (tenure-stream employees are covered by the LTD plan)",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "sick leave (own illness)",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 15,
+    "units": "day",
+    "qualifier": "exact"
+   },
+   "duration_note": "Accumulated at 1.25 days per calendar month or 15 days per year; no carry-forward into the next academic year.",
+   "pay_fraction": "with pay",
+   "pay_fraction_pct": 100,
+   "rule_applied": [
+    "R1",
+    "U5",
+    "V6",
+    "V2"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Term appointees and other employees not covered by the Academic Long Term Disability Plan shall be entitled to sick leave with pay accumulated at the rate of one and one-quarter days per calendar month or fifteen days per year."
+    ],
+    "eligible_parent": [
+     "Term appointees and other employees not covered by the Academic Long Term Disability Plan shall be entitled to sick leave with pay accumulated at the rate of one and one-quarter days per calendar month or fifteen days per year."
+    ],
+    "entitlement": [
+     "Term appointees and other employees not covered by the Academic Long Term Disability Plan shall be entitled to sick leave with pay accumulated at the rate of one and one-quarter days per calendar month or fifteen days per year."
+    ],
+    "duration": [
+     "Term appointees and other employees not covered by the Academic Long Term Disability Plan shall be entitled to sick leave with pay accumulated at the rate of one and one-quarter days per calendar month or fifteen days per year.",
+     "This leave may be used at any time during the year, but no accumulated leave may be carried forward into the next academic year."
+    ],
+    "pay_fraction": [
+     "Term appointees and other employees not covered by the Academic Long Term Disability Plan shall be entitled to sick leave with pay accumulated at the rate of one and one-quarter days per calendar month or fifteen days per year."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_usfa_collective_agreement_2014_2017_text"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "This leave may be used at any time during the year, but no accumulated leave may be carried forward into the next academic year."
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "employer",
+     "quote": "Term appointees and other employees not covered by the Academic Long Term Disability Plan shall be entitled to sick leave with pay accumulated at the rate of one and one-quarter days per calendar month or fifteen days per year."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Term appointees and other employees not covered by the Academic Long Term Disability Plan shall be entitled to sick leave with pay accumulated at the rate of one and one-quarter days per calendar month or fifteen days per year."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "term appointees and other employees not covered by the Academic Long Term Disability Plan",
+     "quote": "Term appointees and other employees not covered by the Academic Long Term Disability Plan shall be entitled to sick leave with pay accumulated at the rate of one and one-quarter days per calendar month or fifteen days per year."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own illness)",
+     "quote": "Term appointees and other employees not covered by the Academic Long Term Disability Plan shall be entitled to sick leave with pay accumulated at the rate of one and one-quarter days per calendar month or fifteen days per year."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "Term appointees and other employees not covered by the Academic Long Term Disability Plan shall be entitled to sick leave with pay accumulated at the rate of one and one-quarter days per calendar month or fifteen days per year."
+    },
+    {
+     "field": "duration",
+     "rule": "R11",
+     "answer": "15 days exact (3 weeks)",
+     "quote": "Term appointees and other employees not covered by the Academic Long Term Disability Plan shall be entitled to sick leave with pay accumulated at the rate of one and one-quarter days per calendar month or fifteen days per year."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "with pay",
+     "quote": "Term appointees and other employees not covered by the Academic Long Term Disability Plan shall be entitled to sick leave with pay accumulated at the rate of one and one-quarter days per calendar month or fifteen days per year."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_saskatchewan_c14",
+   "institution_label": "Leave for Personal Reasons",
+   "description": "Leave with pay for short periods for urgent personal reasons (bereavement, family illness, etc.).",
+   "mechanism": "employer_paid_leave",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "'any employee' / 'an employee' (bargaining-unit faculty and librarians)",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "no role words",
+   "entitlement": "guaranteed",
+   "duration_note": "'for short periods of time'; no length stated.",
+   "pay_fraction": "with pay",
+   "pay_fraction_pct": 100,
+   "rule_applied": [
+    "U1",
+    "V2"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Leave with pay for urgent personal reasons (bereavement, family illness, etc.) shall be granted for short periods of time."
+    ],
+    "eligible_parent": [
+     "Leave with pay for urgent personal reasons (bereavement, family illness, etc.) shall be granted for short periods of time."
+    ],
+    "entitlement": [
+     "Leave with pay for urgent personal reasons (bereavement, family illness, etc.) shall be granted for short periods of time."
+    ],
+    "pay_fraction": [
+     "Leave with pay for urgent personal reasons (bereavement, family illness, etc.) shall be granted for short periods of time."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_usfa_collective_agreement_2014_2017_text"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "employer_paid_leave",
+     "quote": "Leave with pay for urgent personal reasons (bereavement, family illness, etc.) shall be granted for short periods of time."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "Leave with pay for urgent personal reasons (bereavement, family illness, etc.) shall be granted for short periods of time."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "Leave with pay for urgent personal reasons (bereavement, family illness, etc.) shall be granted for short periods of time."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Leave with pay for urgent personal reasons (bereavement, family illness, etc.) shall be granted for short periods of time."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "Leave with pay for urgent personal reasons (bereavement, family illness, etc.) shall be granted for short periods of time."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "Leave with pay for urgent personal reasons (bereavement, family illness, etc.) shall be granted for short periods of time."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "with pay",
+     "quote": "Leave with pay for urgent personal reasons (bereavement, family illness, etc.) shall be granted for short periods of time."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_saskatchewan_c15",
+   "institution_label": "Leave Without Pay",
+   "description": "Discretionary leave of absence without pay for professional assistance to an outside agency or other reasons, normally not more than three consecutive years.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "'an employee' (bargaining-unit faculty and librarians)",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "no role words",
+   "entitlement": "discretionary",
+   "entitlement_note": "'may be granted' provided duties can be performed and the Employer's obligations met; denial appealable (21.4.3).",
+   "duration": {
+    "value": 3,
+    "units": "year",
+    "qualifier": "up_to"
+   },
+   "duration_note": "'shall not normally be given for more than three consecutive years' (Q1: up_to, 'normally' kept here); reviewed annually.",
+   "notice": "application no later than six calendar months before the leave; decision within thirty days",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "relief_note": "A formal leave of absence with no relief stated (R9).",
+   "rule_applied": [
+    "U1",
+    "V2",
+    "Q1",
+    "R9"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "A leave of absence without pay may be granted an employee to provide professional assistance to an outside agency or for other reasons provided that the employee's duties can be performed satisfactorily, and that all the Employer's contractual obligations relating to the employee can be met."
+    ],
+    "eligible_parent": [
+     "A leave of absence without pay may be granted an employee to provide professional assistance to an outside agency or for other reasons provided that the employee's duties can be performed satisfactorily, and that all the Employer's contractual obligations relating to the employee can be met."
+    ],
+    "entitlement": [
+     "A leave of absence without pay may be granted an employee to provide professional assistance to an outside agency or for other reasons provided that the employee's duties can be performed satisfactorily, and that all the Employer's contractual obligations relating to the employee can be met."
+    ],
+    "duration": [
+     "Such leave of absence shall be reviewed annually and shall not normally be given for more than three consecutive years."
+    ],
+    "notice": [
+     "Applications for leave without pay shall be made no later than six calendar months before the date on which the intended leave is to begin."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_usfa_collective_agreement_2014_2017_text"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "A leave of absence without pay may be granted an employee to provide professional assistance to an outside agency or for other reasons provided that the employee's duties can be performed satisfactorily, and that all the Employer's contractual obligations relating to the employee can be met."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "A leave of absence without pay may be granted an employee to provide professional assistance to an outside agency or for other reasons provided that the employee's duties can be performed satisfactorily, and that all the Employer's contractual obligations relating to the employee can be met."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "A leave of absence without pay may be granted an employee to provide professional assistance to an outside agency or for other reasons provided that the employee's duties can be performed satisfactorily, and that all the Employer's contractual obligations relating to the employee can be met."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "A leave of absence without pay may be granted an employee to provide professional assistance to an outside agency or for other reasons provided that the employee's duties can be performed satisfactorily, and that all the Employer's contractual obligations relating to the employee can be met."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "A leave of absence without pay may be granted an employee to provide professional assistance to an outside agency or for other reasons provided that the employee's duties can be performed satisfactorily, and that all the Employer's contractual obligations relating to the employee can be met."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "A leave of absence without pay may be granted an employee to provide professional assistance to an outside agency or for other reasons provided that the employee's duties can be performed satisfactorily, and that all the Employer's contractual obligations relating to the employee can be met."
+    },
+    {
+     "field": "duration",
+     "rule": "Q1",
+     "answer": "3 years up_to",
+     "quote": "Such leave of absence shall be reviewed annually and shall not normally be given for more than three consecutive years."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave)",
+     "quote": "A leave of absence without pay may be granted an employee to provide professional assistance to an outside agency or for other reasons provided that the employee's duties can be performed satisfactorily, and that all the Employer's contractual obligations relating to the employee can be met."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_saskatchewan_c16",
+   "institution_label": "",
+   "description": "An employee returning from the parental leave may apply for part-time status for up to three years, on the terms of Article 13.2.1 (mutual agreement, corresponding change in salary).",
+   "mechanism": "part_time_option",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "probationary or tenured employee (13.2.1) returning from the 21.7.1 leave",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "An employee returning to work following leave",
+   "caregiver_condition": "primary",
+   "caregiver_condition_wording": "follows the 21.7.1 leave, available to an employee who declares in writing to be the primary caregiver",
+   "entitlement": "discretionary",
+   "entitlement_note": "'may apply' on the terms of 13.2.1, which requires mutual agreement and the approval of the Provost and the Joint Committee (V2).",
+   "duration": {
+    "value": 3,
+    "units": "year",
+    "qualifier": "up_to"
+   },
+   "pay_fraction": "corresponding change in salary (pro rata to the part-time fraction; not stated as a number)",
+   "service_requirement": "assigned duties of 50% or more of full-time (13.2.1(i))",
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "university_of_saskatchewan_c1",
+     "note": "'returning to work following leave'"
+    }
+   ],
+   "rule_applied": [
+    "R3",
+    "V2",
+    "R13",
+    "R6"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "An employee returning to work following leave may apply for part-time status extending up to three years in accordance with the terms of Article 13.2.1.",
+     "By mutual agreement between the Employer and the employee, the conditions of employment of a probationary or tenured employee, except for employees opting for the Reduced Appointment Retirement Plan, may be changed from a full-time to a part-time basis with a corresponding change in salary, provided the following conditions are met:"
+    ],
+    "eligible_parent": [
+     "An employee returning to work following leave may apply for part-time status extending up to three years in accordance with the terms of Article 13.2.1."
+    ],
+    "caregiver_condition": [
+     "An employee who is pregnant and who declares in writing to be the primary caregiver, or an employee who declares in writing to be the primary care giver of a new born or adopted child, and who holds an appointment that is probationary, with tenure, with continuing status, or without term is entitled to leave of 52 weeks."
+    ],
+    "entitlement": [
+     "An employee returning to work following leave may apply for part-time status extending up to three years in accordance with the terms of Article 13.2.1.",
+     "By mutual agreement between the Employer and the employee, the conditions of employment of a probationary or tenured employee, except for employees opting for the Reduced Appointment Retirement Plan, may be changed from a full-time to a part-time basis with a corresponding change in salary, provided the following conditions are met:"
+    ],
+    "duration": [
+     "An employee returning to work following leave may apply for part-time status extending up to three years in accordance with the terms of Article 13.2.1."
+    ],
+    "pay_fraction": [
+     "By mutual agreement between the Employer and the employee, the conditions of employment of a probationary or tenured employee, except for employees opting for the Reduced Appointment Retirement Plan, may be changed from a full-time to a part-time basis with a corresponding change in salary, provided the following conditions are met:"
+    ],
+    "service_requirement": [
+     "do require the employee to work on a basis of 50% or more of full-time."
+    ],
+    "sequence": [
+     "An employee returning to work following leave may apply for part-time status extending up to three years in accordance with the terms of Article 13.2.1."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_usfa_collective_agreement_2014_2017_text"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R3",
+     "answer": "part_time_option",
+     "quote": "By mutual agreement between the Employer and the employee, the conditions of employment of a probationary or tenured employee, except for employees opting for the Reduced Appointment Retirement Plan, may be changed from a full-time to a part-time basis with a corresponding change in salary, provided the following conditions are met:"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "By mutual agreement between the Employer and the employee, the conditions of employment of a probationary or tenured employee, except for employees opting for the Reduced Appointment Retirement Plan, may be changed from a full-time to a part-time basis with a corresponding change in salary, provided the following conditions are met:"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "An employee returning to work following leave may apply for part-time status extending up to three years in accordance with the terms of Article 13.2.1."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "By mutual agreement between the Employer and the employee, the conditions of employment of a probationary or tenured employee, except for employees opting for the Reduced Appointment Retirement Plan, may be changed from a full-time to a part-time basis with a corresponding change in salary, provided the following conditions are met:"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R6",
+     "answer": "birth_parent, non_birth_parent, adoptive",
+     "quote": "An employee returning to work following leave may apply for part-time status extending up to three years in accordance with the terms of Article 13.2.1."
+    },
+    {
+     "field": "caregiver_condition",
+     "rule": "R6",
+     "answer": "primary",
+     "quote": "An employee who is pregnant and who declares in writing to be the primary caregiver, or an employee who declares in writing to be the primary care giver of a new born or adopted child, and who holds an appointment that is probationary, with tenure, with continuing status, or without term is entitled to leave of 52 weeks."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "By mutual agreement between the Employer and the employee, the conditions of employment of a probationary or tenured employee, except for employees opting for the Reduced Appointment Retirement Plan, may be changed from a full-time to a part-time basis with a corresponding change in salary, provided the following conditions are met:"
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "3 years up_to",
+     "quote": "An employee returning to work following leave may apply for part-time status extending up to three years in accordance with the terms of Article 13.2.1."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "R3",
+     "answer": "corresponding change in salary",
+     "quote": "By mutual agreement between the Employer and the employee, the conditions of employment of a probationary or tenured employee, except for employees opting for the Reduced Appointment Retirement Plan, may be changed from a full-time to a part-time basis with a corresponding change in salary, provided the following conditions are met:"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "duties of 50% or more of full-time",
+     "quote": "do require the employee to work on a basis of 50% or more of full-time."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "consecutive_after c1",
+     "quote": "An employee returning to work following leave may apply for part-time status extending up to three years in accordance with the terms of Article 13.2.1."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_saskatchewan_c17",
+   "institution_label": "Full-Time to Part-Time Status",
+   "description": "By mutual agreement, a probationary or tenured employee may change to part-time (50% or more) for a defined period with a corresponding change in salary, for any reason.",
+   "mechanism": "part_time_option",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "a probationary or tenured employee",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "no role words",
+   "entitlement": "discretionary",
+   "entitlement_note": "'By mutual agreement' and subject to the approval of the Provost and the Joint Committee (V2).",
+   "duration_note": "'for a defined period of time'; no length stated.",
+   "pay_fraction": "corresponding change in salary",
+   "service_requirement": "assigned duties of 50% or more of full-time",
+   "rule_applied": [
+    "R3",
+    "U1",
+    "V2"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "By mutual agreement between the Employer and the employee, the conditions of employment of a probationary or tenured employee, except for employees opting for the Reduced Appointment Retirement Plan, may be changed from a full-time to a part-time basis with a corresponding change in salary, provided the following conditions are met:"
+    ],
+    "eligible_parent": [
+     "By mutual agreement between the Employer and the employee, the conditions of employment of a probationary or tenured employee, except for employees opting for the Reduced Appointment Retirement Plan, may be changed from a full-time to a part-time basis with a corresponding change in salary, provided the following conditions are met:"
+    ],
+    "entitlement": [
+     "By mutual agreement between the Employer and the employee, the conditions of employment of a probationary or tenured employee, except for employees opting for the Reduced Appointment Retirement Plan, may be changed from a full-time to a part-time basis with a corresponding change in salary, provided the following conditions are met:"
+    ],
+    "pay_fraction": [
+     "By mutual agreement between the Employer and the employee, the conditions of employment of a probationary or tenured employee, except for employees opting for the Reduced Appointment Retirement Plan, may be changed from a full-time to a part-time basis with a corresponding change in salary, provided the following conditions are met:"
+    ],
+    "service_requirement": [
+     "do require the employee to work on a basis of 50% or more of full-time."
+    ],
+    "duration_note": [
+     "The change is for a defined period of time."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_usfa_collective_agreement_2014_2017_text"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R3",
+     "answer": "part_time_option",
+     "quote": "By mutual agreement between the Employer and the employee, the conditions of employment of a probationary or tenured employee, except for employees opting for the Reduced Appointment Retirement Plan, may be changed from a full-time to a part-time basis with a corresponding change in salary, provided the following conditions are met:"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "By mutual agreement between the Employer and the employee, the conditions of employment of a probationary or tenured employee, except for employees opting for the Reduced Appointment Retirement Plan, may be changed from a full-time to a part-time basis with a corresponding change in salary, provided the following conditions are met:"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "By mutual agreement between the Employer and the employee, the conditions of employment of a probationary or tenured employee, except for employees opting for the Reduced Appointment Retirement Plan, may be changed from a full-time to a part-time basis with a corresponding change in salary, provided the following conditions are met:"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "By mutual agreement between the Employer and the employee, the conditions of employment of a probationary or tenured employee, except for employees opting for the Reduced Appointment Retirement Plan, may be changed from a full-time to a part-time basis with a corresponding change in salary, provided the following conditions are met:"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "By mutual agreement between the Employer and the employee, the conditions of employment of a probationary or tenured employee, except for employees opting for the Reduced Appointment Retirement Plan, may be changed from a full-time to a part-time basis with a corresponding change in salary, provided the following conditions are met:"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "By mutual agreement between the Employer and the employee, the conditions of employment of a probationary or tenured employee, except for employees opting for the Reduced Appointment Retirement Plan, may be changed from a full-time to a part-time basis with a corresponding change in salary, provided the following conditions are met:"
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "R3",
+     "answer": "corresponding change in salary",
+     "quote": "By mutual agreement between the Employer and the employee, the conditions of employment of a probationary or tenured employee, except for employees opting for the Reduced Appointment Retirement Plan, may be changed from a full-time to a part-time basis with a corresponding change in salary, provided the following conditions are met:"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "50% or more of full-time",
+     "quote": "do require the employee to work on a basis of 50% or more of full-time."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_saskatchewan_c18",
+   "institution_label": "Holidays and Vacations",
+   "description": "Six weeks' annual vacation, which a parent may schedule as part of, or as an extension of, the parental leave (21.7.1.2).",
+   "mechanism": "own_accrual",
+   "mechanism_note": "The employee's own annual vacation entitlement (R1: 0 paid weeks).",
+   "payer": "own_balance",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "'All employees'",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "no role words",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 6,
+    "units": "week",
+    "qualifier": "exact"
+   },
+   "duration_note": "Normally taken between regular academic terms; not normally accumulated from year to year.",
+   "sequence": [
+    {
+     "relation": "also_available",
+     "component_id": "university_of_saskatchewan_c1",
+     "note": "'as part of, or as an extension of, their leave entitlement' (no fixed order)."
+    }
+   ],
+   "rule_applied": [
+    "R1",
+    "U1",
+    "V2"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "All employees shall be entitled to six weeks annual vacation which shall normally be taken between regular academic terms of the University."
+    ],
+    "eligible_parent": [
+     "All employees shall be entitled to six weeks annual vacation which shall normally be taken between regular academic terms of the University."
+    ],
+    "entitlement": [
+     "All employees shall be entitled to six weeks annual vacation which shall normally be taken between regular academic terms of the University."
+    ],
+    "duration": [
+     "All employees shall be entitled to six weeks annual vacation which shall normally be taken between regular academic terms of the University."
+    ],
+    "sequence": [
+     "Employees may schedule their annual vacation as part of, or as an extension of, their leave entitlement."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_usfa_collective_agreement_2014_2017_text"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "own_accrual",
+     "quote": "All employees shall be entitled to six weeks annual vacation which shall normally be taken between regular academic terms of the University."
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "own_balance",
+     "quote": "All employees shall be entitled to six weeks annual vacation which shall normally be taken between regular academic terms of the University."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "All employees shall be entitled to six weeks annual vacation which shall normally be taken between regular academic terms of the University."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "All employees shall be entitled to six weeks annual vacation which shall normally be taken between regular academic terms of the University."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "All employees shall be entitled to six weeks annual vacation which shall normally be taken between regular academic terms of the University."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "All employees shall be entitled to six weeks annual vacation which shall normally be taken between regular academic terms of the University."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "6 weeks exact",
+     "quote": "All employees shall be entitled to six weeks annual vacation which shall normally be taken between regular academic terms of the University."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "also_available with c1",
+     "quote": "Employees may schedule their annual vacation as part of, or as an extension of, their leave entitlement."
+    }
+   ]
+  }
+ ],
+ "passage_dispositions": {
+  "2018_02_usfa_collective_agreement_2014_2017_text#001": {
+   "used_in": [
+    "university_of_saskatchewan_c12"
+   ]
+  },
+  "2018_02_usfa_collective_agreement_2014_2017_text#002": {
+   "used_in": [
+    "university_of_saskatchewan_c8",
+    "university_of_saskatchewan_c9"
+   ]
+  },
+  "2018_02_usfa_collective_agreement_2014_2017_text#003": {
+   "not_relevant": "letter of appointment contents"
+  },
+  "2018_02_usfa_collective_agreement_2014_2017_text#004": {
+   "not_relevant": "department head and assistant dean terms of appointment"
+  },
+  "2018_02_usfa_collective_agreement_2014_2017_text#005": {
+   "not_relevant": "acting heads, reappointment and associate members"
+  },
+  "2018_02_usfa_collective_agreement_2014_2017_text#006": {
+   "not_relevant": "grievance grounds and the purpose of tenure"
+  },
+  "2018_02_usfa_collective_agreement_2014_2017_text#007": {
+   "not_relevant": "tenurable positions and out-of-scope appointments"
+  },
+  "2018_02_usfa_collective_agreement_2014_2017_text#008": {
+   "not_relevant": "tenure committee powers; probation extension only after an unsuccessful tenure appeal"
+  },
+  "2018_02_usfa_collective_agreement_2014_2017_text#009": {
+   "not_relevant": "tenure appeal committee procedures"
+  },
+  "2018_02_usfa_collective_agreement_2014_2017_text#010": {
+   "not_relevant": "tenure appeal committee procedures and termination of tenure"
+  },
+  "2018_02_usfa_collective_agreement_2014_2017_text#011": {
+   "not_relevant": "arbitrator's powers in tenure grievances; promotion"
+  },
+  "2018_02_usfa_collective_agreement_2014_2017_text#012": {
+   "not_relevant": "salary increments and career development increases while on leave (18.7, incl. 18.7.7 for parental leave); no time off, pay or protection"
+  },
+  "2018_02_usfa_collective_agreement_2014_2017_text#013": {
+   "used_in": [
+    "university_of_saskatchewan_c18"
+   ]
+  },
+  "2018_02_usfa_collective_agreement_2014_2017_text#014": {
+   "not_relevant": "sabbatical eligibility; service credit during maternity/parental leave, not a leave or pay"
+  },
+  "2018_02_usfa_collective_agreement_2014_2017_text#015": {
+   "used_in": [
+    "university_of_saskatchewan_c14",
+    "university_of_saskatchewan_c15"
+   ]
+  },
+  "2018_02_usfa_collective_agreement_2014_2017_text#016": {
+   "used_in": [
+    "university_of_saskatchewan_c1",
+    "university_of_saskatchewan_c2",
+    "university_of_saskatchewan_c5",
+    "university_of_saskatchewan_c6",
+    "university_of_saskatchewan_c7",
+    "university_of_saskatchewan_c10",
+    "university_of_saskatchewan_c11",
+    "university_of_saskatchewan_c16"
+   ]
+  },
+  "2018_02_usfa_collective_agreement_2014_2017_text#017": {
+   "used_in": [
+    "university_of_saskatchewan_c12",
+    "university_of_saskatchewan_c13"
+   ]
+  },
+  "2018_02_usfa_collective_agreement_2014_2017_text#018": {
+   "not_relevant": "research grants, scholarship fund for family members, employee assistance program"
+  },
+  "2018_02_usfa_collective_agreement_2014_2017_text#019": {
+   "not_relevant": "reduced appointment retirement plan (age 55 and over)"
+  },
+  "2018_02_usfa_collective_agreement_2014_2017_text#020": {
+   "not_relevant": "transfer of employees on reorganisation"
+  },
+  "2018_02_usfa_collective_agreement_2014_2017_text#021": {
+   "not_relevant": "layoff, severance and transfer"
+  },
+  "2018_02_usfa_collective_agreement_2014_2017_text#022": {
+   "not_relevant": "discipline and dismissal"
+  },
+  "2018_02_usfa_collective_agreement_2014_2017_text#023": {
+   "not_relevant": "ill health not grounds for dismissal; dismissal procedures (no leave or pay)"
+  },
+  "2018_02_usfa_collective_agreement_2014_2017_text#024": {
+   "not_relevant": "Crop Development Centre salaries and research leaves"
+  },
+  "2018_02_usfa_collective_agreement_2014_2017_text#025": {
+   "not_relevant": "College of Medicine continuing-status definitions"
+  },
+  "2018_02_usfa_collective_agreement_2014_2017_text#026": {
+   "not_relevant": "Memorandum No. 1 group benefit changes"
+  },
+  "2018_02_usfa_collective_agreement_2014_2017_text#027": {
+   "not_relevant": "Memorandum No. 1 salary adjustments; Memorandum No. 2 senior administrators"
+  },
+  "2018_02_usfa_collective_agreement_2014_2017_text#028": {
+   "not_relevant": "Memorandum No. 2 senior administrator searches"
+  },
+  "2018_02_usfa_collective_agreement_2014_2017_text#029": {
+   "not_relevant": "Memorandum No. 9 retirement incentive; parental leave counts as years of service for it"
+  },
+  "2018_02_usfa_collective_agreement_2014_2017_text#030": {
+   "not_relevant": "index of the collective agreement (page and article references only)"
+  },
+  "2018_02_usfa_collective_agreement_2014_2017_text#031": {
+   "not_relevant": "index of the collective agreement (page and article references only)"
+  },
+  "2018_02_usfa_collective_agreement_2014_2017_text#032": {
+   "not_relevant": "index of the collective agreement (page and article references only)"
+  },
+  "2018_02_usfa_collective_agreement_2014_2017_text#033": {
+   "not_relevant": "index of the collective agreement (page and article references only)"
+  },
+  "2018_02_usfa_collective_agreement_2014_2017_text#034": {
+   "not_relevant": "index of the collective agreement (page and article references only)"
+  },
+  "2018_02_usfa_collective_agreement_2014_2017_text#035": {
+   "not_relevant": "index of the collective agreement (page and article references only)"
+  },
+  "2018_02_usfa_collective_agreement_2014_2017_text#036": {
+   "not_relevant": "index of the collective agreement (page and article references only)"
+  },
+  "2018_02_usfa_collective_agreement_2014_2017_text#037": {
+   "not_relevant": "index of the collective agreement (page and article references only)"
+  },
+  "2018_02_usfa_collective_agreement_2014_2017_text#038": {
+   "not_relevant": "index of the collective agreement (page and article references only)"
+  }
+ },
+ "notes": [
+  "Sources: one usable source, 2018_02 (USFA text copy of the 2014-2017 U of S / USFA collective agreement, continuing year to year under Art. 31.1; the document's version note says it is the governing document on 2018-03-13). The signed scan 2018_01 has no text layer.",
+  "Governing document: the collective agreement covers probationary and tenured faculty (Art. 4.1, 13.3); missing is false.",
+  "Member's path (U8): an EI-eligible tenure-stream employee receives the 21.7.1.3(i) supplement (c2). Other paths, in notes only: (ii) probationary, tenured, permanent-status or without-term employees found ineligible for EI solely on the insurable-employment test receive 95% of normal salary for up to 35 weeks; (iii) other employees not eligible for EI receive 95% of salary for the first two weeks, the balance unpaid.",
+  "The supplement clause describes EI's former two-week waiting period; on the reference date EI's wait is one week (EI Act s. 13; programs.csv). The supplement is coded as its stated 35-week envelope from the start of the leave (V4, R21 Saskatchewan example); EI starts one week after the leave starts.",
+  "Primary vs secondary caregiver: the 21.7.1 option (c1 leave, c2 supplement, c6 extension) and the 21.7.2 secondary caregiver leave (c5) are linked in_lieu_of (R15b; caregiver conditions are gender-neutral, R6). EI benefits are granted under either option, but no component is shared by both options (no statutory leave is coded, the agreement does not rely on the SEA leave), so EI is linked to the primary caregiver leave c1.",
+  "Chain, birth parent: primary caregiver leave 52 (c1) with the 95% supplement for its first 35 weeks (c2, within c1 from the start); EI maternity 15 from week 2 (c3) -> EI parental 35 (c4); then extension of leave without pay up to 1 year (c6, consecutive_after c1). Alternative: secondary caregiver leave 35, first week paid (c5), in lieu of c1.",
+  "Chain, non-birth parent: as primary caregiver, leave 52 (c1) with supplement 35 within it (c2); EI parental 35 from week 2 (c4, concurrent_with c1, offset 1); then extension up to 1 year (c6). Alternative: secondary caregiver leave 35, first week paid (c5), in lieu of c1.",
+  "Benefit coverage: during the paid portion both parties pay their shares; during the unpaid portion the Employer maintains group life, LTD, extended health and dental coverage (21.7.1.4.1-2). Sabbatical: up to one year of each parental leave counts as qualifying service (21.7.1.10, 20.5.2). A career development increase is earned for the first year of the parental leave (18.7.7). These are not components.",
+  "Art. 10.1 incorporates into the agreement all rights conferred by federal, provincial or municipal laws, without naming a statute; not treated as reliance on the Saskatchewan Employment Act's leave sections (U4). The statutory floor is filled from statutory_baseline.csv (U7).",
+  "Documents cited but not saved: the Academic Long Term Disability Plan document (Salary Continuation Plan, 22.5; flagged on c11, c12); the Faculty Information Handbook, 1973 (5.1, past terms maintained unless altered); the Compulsory Group Life Insurance, Voluntary Group Life, Pension, Dental and Extended Health plan documents (22.2-22.16); the University Calendar (term dates); unit Guidelines for Assignment of Duties (11.5); the EAP Joint Stakeholder Agreement (22.19); Guidelines for Starting Salary Recommendations (18.2.6); Guidelines for the Preparation of a Standardized CV (12.11.1); Board of Governors 1997 search policy (MOA 2).",
+  "Calendar: the academic year has three terms T1-T3 (Definitions, 11.2.1), with no length in weeks and not called semesters or quarters; no calendar entry (R8). No component is stated in terms.",
+  "Not components: political, court, educational, administrative and sabbatical leaves, leave with pay to work away (21.5), the reduced appointment retirement plan (24.5) and the child and elder care research committee (MOA 4): none can be taken for a birth or adoption, or none gives time off, pay or protection to a new parent."
+ ],
+ "statutory_floor": {
+  "jurisdiction": "SK",
+  "year": "2018",
+  "weeks_birth": 52.0,
+  "weeks_nonbirth": 37.0,
+  "statute": "Saskatchewan Employment Act: maternity, adoption and parental leave (SS 2013 c. S-15.1, s. 2-48 et seq.)",
+  "source_doc": "2018_26_sk_employment_act",
+  "table": "statutory_baseline.csv"
+ }
+}

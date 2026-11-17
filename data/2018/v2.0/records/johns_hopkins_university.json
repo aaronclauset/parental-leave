@@ -1,0 +1,2636 @@
+{
+ "institution": "Johns Hopkins University",
+ "slug": "johns_hopkins_university",
+ "country": "US",
+ "model": "claude-opus-5-5",
+ "codebook_version": "1.25",
+ "schema_version": "1.25",
+ "reference_date": "2018-02-22",
+ "calendar": {
+  "term_weeks": null,
+  "note": "The documents state a semester calendar ('the semester in which the birth or adoption occurs or the subsequent semester'; 2018_02) without its length: semester default 16 (R8).",
+  "kind": "semester"
+ },
+ "documents": [
+  {
+   "doc_id": "2018_00_link",
+   "url": "https://www.jhu.edu/assets/uploads/2017/06/familyleavefornewparents.pdf",
+   "title": "Family Leave for New Parents (university policy)",
+   "version_or_effective_date": "Effective Date: July 1, 2017",
+   "retrieved": "Wayback 20180102184415"
+  },
+  {
+   "doc_id": "2018_01_homewood_tenure_regulations_2016",
+   "url": "https://sites.krieger.jhu.edu/faculty-affairs/files/2023/04/Tenure-Regulations-10152016.pdf",
+   "title": "Academic Council Procedures Manual, Tenure Regulations (Homewood Schools)",
+   "version_or_effective_date": "Effective October 15, 2016",
+   "retrieved": "Wayback 20240621161732"
+  },
+  {
+   "doc_id": "2018_02_homewood_faculty_fml_policy",
+   "url": "https://sites.krieger.jhu.edu/academic-council/files/2017/03/FMLPolicy.pdf",
+   "title": "The Homewood Schools Family and Medical Leave Policy for Full-time Faculty",
+   "version_or_effective_date": "undated; version note: posted March 2017, in force until replaced Jan 2021",
+   "retrieved": "Wayback 20201125082222"
+  },
+  {
+   "doc_id": "2026_00_us_fmla_29usc2612",
+   "title": "29 U.S.C. 2612 (FMLA leave requirement)",
+   "url": "https://www.law.cornell.edu/uscode/text/29/2612",
+   "retrieved": "2026-10-19"
+  },
+  {
+   "doc_id": "2026_01_us_fmla_29usc2611_definitions",
+   "title": "29 U.S.C. 2611 (FMLA definitions)",
+   "url": "https://www.law.cornell.edu/uscode/text/29/2611",
+   "retrieved": "2026-10-19"
+  }
+ ],
+ "missing": false,
+ "scope_accounting": {
+  "C1": {
+   "components": [
+    "johns_hopkins_university_c1",
+    "johns_hopkins_university_c2",
+    "johns_hopkins_university_c6",
+    "johns_hopkins_university_c9",
+    "johns_hopkins_university_c15"
+   ]
+  },
+  "C2": {
+   "components": [
+    "johns_hopkins_university_c10",
+    "johns_hopkins_university_c13",
+    "johns_hopkins_university_c14",
+    "johns_hopkins_university_c16"
+   ]
+  },
+  "C3": {
+   "components": [
+    "johns_hopkins_university_c4",
+    "johns_hopkins_university_c5",
+    "johns_hopkins_university_c7",
+    "johns_hopkins_university_c12"
+   ]
+  },
+  "C4": {
+   "components": [
+    "johns_hopkins_university_c3"
+   ],
+   "not_components": [
+    {
+     "statute": "FMLA 29 U.S.C. 2612(a)(3) servicemember family leave (26 workweeks)",
+     "reason": "U4: care of a covered servicemember, unrelated to becoming a parent"
+    },
+    {
+     "statute": "FMLA 29 U.S.C. 2612(a)(1)(E) qualifying exigency leave",
+     "reason": "U4: military exigency, unrelated to becoming a parent"
+    }
+   ]
+  },
+  "C5": {
+   "components": [
+    "johns_hopkins_university_c3",
+    "johns_hopkins_university_c8",
+    "johns_hopkins_university_c14"
+   ]
+  },
+  "C6": {
+   "absent": {
+    "documents": [
+     "2018_00_link",
+     "2018_01_homewood_tenure_regulations_2016",
+     "2018_02_homewood_faculty_fml_policy"
+    ],
+    "terms": [
+     "personal leave",
+     "leave without pay",
+     "special leave",
+     "emergency",
+     "any purpose",
+     "voluntary leave",
+     "leave of absence"
+    ]
+   }
+  },
+  "C7": {
+   "components": [
+    "johns_hopkins_university_c17",
+    "johns_hopkins_university_c18",
+    "johns_hopkins_university_c19"
+   ]
+  },
+  "C8": {
+   "absent": {
+    "documents": [
+     "2018_00_link",
+     "2018_01_homewood_tenure_regulations_2016",
+     "2018_02_homewood_faculty_fml_policy"
+    ],
+    "terms": [
+     "part-time",
+     "reduced appointment",
+     "phased",
+     "reduced schedule",
+     "FTE"
+    ]
+   }
+  },
+  "C9": {
+   "absent": {
+    "documents": [
+     "2018_00_link",
+     "2018_01_homewood_tenure_regulations_2016",
+     "2018_02_homewood_faculty_fml_policy"
+    ],
+    "terms": [
+     "accommodation",
+     "pregnancy",
+     "nursing",
+     "breastfeeding",
+     "lactation",
+     "hazard",
+     "discrimination"
+    ]
+   }
+  },
+  "C10": {
+   "components": [
+    "johns_hopkins_university_c11"
+   ]
+  }
+ },
+ "passage_dispositions": {
+  "2018_00_link#001": {
+   "used_in": [
+    "johns_hopkins_university_c1",
+    "johns_hopkins_university_c2",
+    "johns_hopkins_university_c3"
+   ]
+  },
+  "2018_00_link#002": {
+   "used_in": [
+    "johns_hopkins_university_c1",
+    "johns_hopkins_university_c2",
+    "johns_hopkins_university_c3",
+    "johns_hopkins_university_c4",
+    "johns_hopkins_university_c5"
+   ]
+  },
+  "2018_01_homewood_tenure_regulations_2016#001": {
+   "not_relevant": "Tenure Rules 7-9: maximum years in rank, notice of non-reappointment, administrative service; no leave or parent provision"
+  },
+  "2018_01_homewood_tenure_regulations_2016#002": {
+   "used_in": [
+    "johns_hopkins_university_c17",
+    "johns_hopkins_university_c18",
+    "johns_hopkins_university_c19"
+   ]
+  },
+  "2018_02_homewood_faculty_fml_policy#001": {
+   "used_in": [
+    "johns_hopkins_university_c3",
+    "johns_hopkins_university_c9"
+   ]
+  },
+  "2018_02_homewood_faculty_fml_policy#002": {
+   "used_in": [
+    "johns_hopkins_university_c5",
+    "johns_hopkins_university_c6",
+    "johns_hopkins_university_c7",
+    "johns_hopkins_university_c8",
+    "johns_hopkins_university_c10",
+    "johns_hopkins_university_c11",
+    "johns_hopkins_university_c12",
+    "johns_hopkins_university_c13",
+    "johns_hopkins_university_c14",
+    "johns_hopkins_university_c15",
+    "johns_hopkins_university_c16"
+   ]
+  }
+ },
+ "mechanism_slots": {
+  "employer_paid_leave": {
+   "components": [
+    "johns_hopkins_university_c2",
+    "johns_hopkins_university_c8",
+    "johns_hopkins_university_c11"
+   ]
+  },
+  "employer_childbirth_benefit": {
+   "components": [
+    "johns_hopkins_university_c1",
+    "johns_hopkins_university_c6"
+   ]
+  },
+  "generic_sick_or_disability_plan": {
+   "components": [
+    "johns_hopkins_university_c4",
+    "johns_hopkins_university_c5",
+    "johns_hopkins_university_c7",
+    "johns_hopkins_university_c12"
+   ]
+  },
+  "own_accrual": {
+   "absent": "No sick or vacation balance provision in the saved documents (2018_00_link, 2018_01, 2018_02; terms: sick leave, vacation, accrued, balance); the JHU Sick Leave Policy is cited but not saved. Faculty paid partly from grants may continue salary from their own discretionary research funds (RoR, banking, gift funds): noted on c6"
+  },
+  "donated_leave": {
+   "absent": "Searched 2018_00_link, 2018_01, 2018_02 for donated, shared, bank, pool: none"
+  },
+  "government_benefit": {
+   "absent": "No federal or state paid programme named in 2018_00_link, 2018_01, 2018_02 (terms: state, paid family leave, insurance programme, disability insurance)"
+  },
+  "employer_topup": {
+   "absent": "No government benefit to top up (2018_00_link, 2018_01, 2018_02); JHU pays the balance above employee-purchased STD within Birth Recovery Leave (c1), and the Dean's discretionary 40% supplement to STD is c12"
+  },
+  "modified_duties": {
+   "components": [
+    "johns_hopkins_university_c10",
+    "johns_hopkins_university_c13",
+    "johns_hopkins_university_c14",
+    "johns_hopkins_university_c16"
+   ]
+  },
+  "unpaid_leave": {
+   "components": [
+    "johns_hopkins_university_c3",
+    "johns_hopkins_university_c9",
+    "johns_hopkins_university_c15"
+   ]
+  },
+  "tenure_clock": {
+   "components": [
+    "johns_hopkins_university_c17",
+    "johns_hopkins_university_c18",
+    "johns_hopkins_university_c19"
+   ]
+  },
+  "part_time_option": {
+   "absent": "Searched 2018_00_link, 2018_01, 2018_02 for part-time, reduced appointment, phased return: none for faculty parents (part-time faculty are only an eligible group, with prorated pay)"
+  },
+  "other": {
+   "absent": "Searched 2018_00_link, 2018_01, 2018_02 for accommodation, pregnancy, hazard, nursing: nondiscrimination statement only; Reasonable Break Time for Nursing Mothers policy and Workplace Accommodation form cited, not saved"
+  }
+ },
+ "baseline_accounting": {
+  "Family and Medical Leave Act (FMLA)": {
+   "components": [
+    "johns_hopkins_university_c3"
+   ]
+  },
+  "Federal Employee Paid Leave Act (paid parental leave for federal civilian employees)": {
+   "not_applicable": "Covers federal civilian employees only; no saved document mentions it"
+  },
+  "Family and Medical Leave Insurance (FAMLI)": {
+   "absent": "no saved document mentions it"
+  }
+ },
+ "leave_limits": [],
+ "components": [
+  {
+   "component_id": "johns_hopkins_university_c1",
+   "institution_label": "Birth Recovery Leave",
+   "description": "University-wide: six weeks of fully paid, job-protected leave for a parent who gives birth, immediately after the birth; extendable on medical necessity to no more than 13 weeks.",
+   "mechanism": "employer_childbirth_benefit",
+   "mechanism_note": "A dedicated birth leave, fully paid by JHU (V1: childbirth-specific period, length and pay all stated). Where the employee has elected STD, STD pays 60% (up to $1,000/week) for weeks 3-6 and JHU pays the balance, so the employer guarantees full pay for the whole period (R1c, R1d); STD recorded separately (c4).",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Eligible Faculty: 'All full-time and part-time faculty who have been employed in an eligible status with continuous service for at least one year ...'; titles include 'Professorial titles'",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "Parents who give birth; 'parents who give birth as a gestational carrier (i.e., surrogate parents)' included (R5: a surrogate who gives birth is a birth parent)",
+   "caregiver_condition": "none",
+   "service_requirement": "continuous service for at least one year; engaged in active work for a period expected to last longer than six months; a minimum of 28 hours per week",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 6,
+    "units": "week",
+    "qualifier": "at_least"
+   },
+   "duration_max": {
+    "value": 13,
+    "units": "week"
+   },
+   "duration_note": "Six weeks; 'may be extended based on medical necessity; in no case will it exceed thirteen (13) weeks' (R13b: a length conditional on medical necessity: 6 as duration, 13 as duration_max). Prorated for part-time schedules.",
+   "duration_variants": {
+    "standard": "6 weeks",
+    "medical necessity": "extended, not to exceed 13 weeks"
+   },
+   "pay_fraction": "fully-paid (100%)",
+   "pay_fraction_pct": 100,
+   "time_window": "immediately following the birth; must be taken immediately upon the birth; may not be taken intermittently",
+   "notice": "Request for Leave form to Birth-ParentalLeave@jhu.edu; contact The Hartford to report the delivery",
+   "runs_concurrently_with": [
+    "FMLA"
+   ],
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "relief_note": "A leave of absence; relief not stated (R9).",
+   "rule_applied": [
+    "V1",
+    "R1c",
+    "R1d",
+    "R13b",
+    "R5",
+    "R9",
+    "S1",
+    "U8",
+    "V3c"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "All full-time and part-time faculty who have been employed in an eligible status with continuous service for at least one year and are engaged in active work for a period expected to last longer than six months, and work a minimum of 28 hour per week on a regularly scheduled weekly basis for the University.",
+     "Professorial titles (including modified titles of adjunct, acting, or visiting)"
+    ],
+    "eligible_parent": [
+     "Birth Recovery Leave applies only to parents who give birth, regardless of method of delivery",
+     "parents who give birth as a gestational carrier (i.e., surrogate parents) are entitled to birth recovery leave under this Policy."
+    ],
+    "entitlement": [
+     "Parents who give birth and who meet the eligibility requirements for faculty or staff are entitled to six (6) weeks of fully-paid, job-protected Birth Recovery Leave immediately following the birth of a child."
+    ],
+    "duration": [
+     "Eligible parents who give birth will receive six (6) weeks of paid leave (or more, based on medical necessity)",
+     "entitled to six (6) weeks of fully-paid, job-protected Birth Recovery Leave",
+     "This Leave may be extended based on medical necessity; in no case will it exceed thirteen (13) weeks"
+    ],
+    "pay_fraction": [
+     "six (6) weeks of fully-paid, job-protected Birth Recovery Leave",
+     "Eligible parents who give birth who have not elected STD will have all weeks of Birth Recovery Leave paid by JHU."
+    ],
+    "mechanism": [
+     "For the four (or six) weeks following, the STD coverage will pay 60% of weekly salary up to $1,000 and JHU will pay the balance of the salary."
+    ],
+    "service_requirement": [
+     "All full-time and part-time faculty who have been employed in an eligible status with continuous service for at least one year and are engaged in active work for a period expected to last longer than six months, and work a minimum of 28 hour per week on a regularly scheduled weekly basis for the University."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "cross_reference_not_saved: Benefits website, Birth Recovery Leave (http://benefits.jhu.edu/leaves-disability/birth_recovery_leave.cfm)",
+    "cross_reference_not_saved: Johns Hopkins University Sick Leave Policy",
+    "cross_reference_not_saved: Human Resources Policy, section 6 (full-time and part-time employment)",
+    "cross_reference_not_saved: Policy Regarding Reasonable Break Time for Nursing Mothers",
+    "cross_reference_not_saved: Breastfeeding Support Program"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "V1",
+     "answer": "employer_childbirth_benefit",
+     "quote": "Parents who give birth and who meet the eligibility requirements for faculty or staff are entitled to six (6) weeks of fully-paid, job-protected Birth Recovery Leave immediately following the birth of a child."
+    },
+    {
+     "field": "payer",
+     "rule": "R1c",
+     "answer": "employer",
+     "quote": "For the four (or six) weeks following, the STD coverage will pay 60% of weekly salary up to $1,000 and JHU will pay the balance of the salary."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Birth Recovery Leave applies only to parents who give birth"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "All full-time and part-time faculty who have been employed in an eligible status with continuous service for at least one year and are engaged in active work for a period expected to last longer than six months, and work a minimum of 28 hour per week on a regularly scheduled weekly basis for the University."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "V3c",
+     "answer": "main_campus_tenure_stream",
+     "quote": "The 12-week leave entitlement under the FMLA will run concurrently with JHU Family Leave."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "birth_parent",
+     "quote": "parents who give birth as a gestational carrier (i.e., surrogate parents) are entitled to birth recovery leave under this Policy."
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "are entitled to six (6) weeks of fully-paid, job-protected Birth Recovery Leave"
+    },
+    {
+     "field": "duration",
+     "rule": "R13b",
+     "answer": "6 weeks at_least; duration_max 13 weeks (medical necessity)",
+     "quote": "This Leave may be extended based on medical necessity; in no case will it exceed thirteen (13) weeks"
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "fully-paid (100%)",
+     "quote": "six (6) weeks of fully-paid, job-protected Birth Recovery Leave"
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave)",
+     "quote": "entitled to six (6) weeks of fully-paid, job-protected Birth Recovery Leave"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U8",
+     "answer": "one year continuous service, 28 hours per week",
+     "quote": "All full-time and part-time faculty who have been employed in an eligible status with continuous service for at least one year and are engaged in active work for a period expected to last longer than six months, and work a minimum of 28 hour per week on a regularly scheduled weekly basis for the University."
+    }
+   ]
+  },
+  {
+   "component_id": "johns_hopkins_university_c2",
+   "institution_label": "Parental Leave",
+   "description": "University-wide: four weeks of fully paid, job-protected parental leave for birth and non-birth parents of any gender, adoptive parents and parents using gestational carriers; for a birth parent it begins after Birth Recovery Leave.",
+   "mechanism": "employer_paid_leave",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "'Parents who meet the eligibility requirements for faculty or staff'; Eligible Faculty: full-time and part-time faculty with one year of continuous service",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive",
+    "surrogacy"
+   ],
+   "eligible_parent_wording": "'parents of all genders, including mothers, fathers, adoptive parents, and parents using gestational carriers'; 'birth and non-birth parents of any gender'",
+   "caregiver_condition": "none",
+   "service_requirement": "continuous service for at least one year; engaged in active work for a period expected to last longer than six months; a minimum of 28 hours per week",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 4,
+    "units": "week",
+    "qualifier": "exact"
+   },
+   "duration_note": "Four weeks, prorated for part-time schedules; may be taken intermittently in full-day increments.",
+   "pay_fraction": "fully-paid (100%)",
+   "pay_fraction_pct": 100,
+   "time_window": "within the first 12 months after the birth or placement; adopted child under age 12",
+   "notice": "schedule prearranged and preapproved by the supervisor; official document within 15 days of the birth or placement",
+   "runs_concurrently_with": [
+    "FMLA"
+   ],
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "johns_hopkins_university_c1",
+     "roles": [
+      "birth"
+     ],
+     "note": "For a parent who gives birth, Parental Leave begins after Birth Recovery Leave is exhausted"
+    }
+   ],
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "relief_note": "A leave of absence; relief not stated (R9).",
+   "rule_applied": [
+    "R5",
+    "R9",
+    "R15",
+    "S1",
+    "U8"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Parents who meet the eligibility requirements for faculty or staff are entitled to four (4) weeks of fully-paid, job-protected Parental Leave.",
+     "All full-time and part-time faculty who have been employed in an eligible status with continuous service for at least one year and are engaged in active work for a period expected to last longer than six months, and work a minimum of 28 hour per week on a regularly scheduled weekly basis for the University."
+    ],
+    "eligible_parent": [
+     "parents of all genders, including mothers, fathers, adoptive parents, and parents using gestational carriers.",
+     "Parental Leave applies equally to birth and non-birth parents of any gender."
+    ],
+    "entitlement": [
+     "Parents who meet the eligibility requirements for faculty or staff are entitled to four (4) weeks of fully-paid, job-protected Parental Leave."
+    ],
+    "duration": [
+     "are entitled to four (4) weeks of fully-paid, job-protected Parental Leave."
+    ],
+    "pay_fraction": [
+     "four (4) weeks of fully-paid, job-protected Parental Leave."
+    ],
+    "sequence": [
+     "For eligible parents who give birth who choose to utilize Parental Leave, Parental Leave shall begin after Birth Recovery Leave has been exhausted."
+    ],
+    "service_requirement": [
+     "All full-time and part-time faculty who have been employed in an eligible status with continuous service for at least one year and are engaged in active work for a period expected to last longer than six months, and work a minimum of 28 hour per week on a regularly scheduled weekly basis for the University."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "cross_reference_not_saved: Faculty Parental Leave Guidelines",
+    "cross_reference_not_saved: Benefits website, Parental Leave (http://benefits.jhu.edu/leaves-disability/parental_leave.cfm)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "employer_paid_leave",
+     "quote": "four (4) weeks of fully-paid, job-protected Parental Leave."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "Eligible faculty or staff will receive four (4) weeks of paid leave, prorated for their work schedule."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Parental Leave applies equally to birth and non-birth parents of any gender."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "All full-time and part-time faculty who have been employed in an eligible status with continuous service for at least one year and are engaged in active work for a period expected to last longer than six months, and work a minimum of 28 hour per week on a regularly scheduled weekly basis for the University."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "birth_parent, non_birth_parent, adoptive, surrogacy",
+     "quote": "parents of all genders, including mothers, fathers, adoptive parents, and parents using gestational carriers."
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "are entitled to four (4) weeks of fully-paid, job-protected Parental Leave."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "4 weeks exact",
+     "quote": "are entitled to four (4) weeks of fully-paid, job-protected Parental Leave."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "fully-paid (100%)",
+     "quote": "four (4) weeks of fully-paid, job-protected Parental Leave."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "consecutive_after c1 for the birth parent",
+     "quote": "Parental Leave shall begin after Birth Recovery Leave has been exhausted."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave)",
+     "quote": "four (4) weeks of fully-paid, job-protected Parental Leave."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U8",
+     "answer": "one year continuous service, 28 hours per week",
+     "quote": "All full-time and part-time faculty who have been employed in an eligible status with continuous service for at least one year and are engaged in active work for a period expected to last longer than six months, and work a minimum of 28 hour per week on a regularly scheduled weekly basis for the University."
+    }
+   ]
+  },
+  {
+   "component_id": "johns_hopkins_university_c3",
+   "institution_label": "Family and Medical Leave Act (FMLA)",
+   "description": "Federal FMLA: 12 workweeks of unpaid, job-protected leave in a 12-month period for the birth or placement of a child, own serious health condition or care of an ill family member; runs concurrently with Birth Recovery Leave and Parental Leave. The Homewood policy's unpaid Parental Leave restates it.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Statute; the university policy and the Homewood policy both apply it to faculty ('All full-time faculty (including tenured, tenure-track, research, teaching and other)')",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "'the birth of a son or daughter of the employee'; 'placement ... for adoption or foster care'; Homewood: 'the birth and care of the faculty member's child'",
+   "caregiver_condition": "none",
+   "service_requirement": "12 months and 1,250 hours (29 U.S.C. 2611(2)); Homewood: employed at least one year and 1,250 hours (or a minimum of 50% time) in the preceding 12 months",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 12,
+    "units": "workweek",
+    "qualifier": "exact"
+   },
+   "duration_note": "A total of 12 workweeks in any 12-month period (statute); the Homewood policy says 'up to 12 unpaid weeks ... within a rolling 12-month period'. Unpaid remainder after the paid university leaves: birth parent 2 weeks (12 - 6 - 4), non-birth parent 8 weeks.",
+   "time_window": "birth and placement leave expires 12 months after the birth or placement (29 U.S.C. 2612(a)(2)); Homewood: 'within one year of birth'",
+   "notice": "Homewood: written request to the Department Chair 30 days before the leave, or as soon as practicable",
+   "statute_source": "29 U.S.C. 2612(a)(1)(A)-(D); 2611(2)",
+   "statute_verified": true,
+   "sequence": [
+    {
+     "relation": "concurrent_with",
+     "component_id": "johns_hopkins_university_c1",
+     "note": "S1: Birth Recovery Leave runs concurrently with FMLA"
+    },
+    {
+     "relation": "concurrent_with",
+     "component_id": "johns_hopkins_university_c2",
+     "note": "S1: Parental Leave runs concurrently with FMLA for all eligible parents"
+    }
+   ],
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "relief_note": "A leave of absence; relief not stated (R9).",
+   "rule_applied": [
+    "U2",
+    "U4",
+    "S1",
+    "R9",
+    "R13",
+    "U5",
+    "U7"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "All full-time faculty (including tenured, tenure-track, research, teaching and other) in the Zanvyl Krieger School of Arts and Sciences and the Whiting School of Engineering (Homewood Schools) who have been employed at least one year are entitled under Federal law to up to 12 unpaid weeks of Family and Medical Leave (FML)"
+    ],
+    "eligible_parent": [
+     "Because of the birth of a son or daughter of the employee and in order to care for such son or daughter.",
+     "Because of the placement of a son or daughter with the employee for adoption or foster care."
+    ],
+    "entitlement": [
+     "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period for one or more of the following:"
+    ],
+    "duration": [
+     "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period",
+     "The 12-week leave entitlement under the FMLA will run concurrently with JHU Family Leave."
+    ],
+    "sequence": [
+     "Birth Recovery Leave will run concurrently with the 12-week leave entitlement under FMLA.",
+     "For all eligible parents, Parental Leave will run concurrently with the 12-week leave entitlement under FMLA."
+    ],
+    "service_requirement": [
+     "for at least 12 months by the employer with respect to whom leave is requested under section 2612 of this title; and",
+     "for at least 1,250 hours of service with such employer during the previous 12-month period.",
+     "provided they have worked 1,250 hours (or a minimum of 50% time) in the preceding 12 months."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link",
+    "2018_02_homewood_faculty_fml_policy",
+    "2026_00_us_fmla_29usc2612",
+    "2026_01_us_fmla_29usc2611_definitions"
+   ],
+   "flags": [
+    "cross_reference_not_saved: Johns Hopkins University Family and Medical Leave Policy"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "U4",
+     "answer": "unpaid_leave",
+     "quote": "While the Family and Medical Leave Act (FMLA) provides for unpaid leave"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "While the Family and Medical Leave Act (FMLA) provides for unpaid leave"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Because of the birth of a son or daughter of the employee and in order to care for such son or daughter."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "who have been employed at least one year are entitled under Federal law to up to 12 unpaid weeks of Family and Medical Leave (FML)"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U2",
+     "answer": "birth_parent, non_birth_parent, adoptive, foster",
+     "quote": "Because of the placement of a son or daughter with the employee for adoption or foster care."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own serious health condition) and non_birth_parent (care of spouse)",
+     "quote": "In order to care for the spouse, or a son, daughter, or parent, of the employee, if such spouse, son, daughter, or parent has a serious health condition."
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "an eligible employee shall be entitled to a total of 12 workweeks of leave"
+    },
+    {
+     "field": "duration",
+     "rule": "U2",
+     "answer": "12 workweeks exact (statute, 'a total of'; R13)",
+     "quote": "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period"
+    },
+    {
+     "field": "sequence",
+     "rule": "S1",
+     "answer": "concurrent_with c1 and c2",
+     "quote": "The 12-week leave entitlement under the FMLA will run concurrently with JHU Family Leave."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave)",
+     "quote": "an eligible employee shall be entitled to a total of 12 workweeks of leave"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U2",
+     "answer": "12 months and 1,250 hours",
+     "quote": "for at least 1,250 hours of service with such employer during the previous 12-month period."
+    }
+   ]
+  },
+  {
+   "component_id": "johns_hopkins_university_c4",
+   "institution_label": "Short-Term Disability Plan",
+   "description": "The University's optional short-term disability insurance, which the employee elects and purchases; for a birth parent who elected it, it pays 60% of weekly salary (up to $1,000) for the four (or six) weeks after JHU pays the first two weeks of Birth Recovery Leave.",
+   "mechanism": "generic_sick_or_disability_plan",
+   "mechanism_note": "A general short-term disability plan, here paying during the birth-recovery period; employee-purchased insurance (R1d), counted in no paid figure. JHU pays the balance of salary (recorded on c1).",
+   "payer": "employee_paid",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "'Eligible parents who give birth who have elected the Short-Term Disability Plan'; Homewood: faculty who 'elected to purchase short-term disability coverage'",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "Eligible parents who give birth",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "entitlement_note": "R1d: access to the plan is guaranteed to those who elect it; the carrier determines eligibility for benefits.",
+   "duration": {
+    "value": 4,
+    "units": "week",
+    "qualifier": "at_least"
+   },
+   "duration_max": {
+    "value": 6,
+    "units": "week"
+   },
+   "duration_note": "'For the four (or six) weeks following' the first two weeks of Birth Recovery Leave (R13b either-or). Homewood (non-tenure-track groups): STD 'Beyond 14 days'.",
+   "duration_variants": {
+    "standard": "4 weeks",
+    "extended birth recovery": "6 weeks"
+   },
+   "pay_fraction": "60% of weekly salary up to $1,000",
+   "pay_fraction_pct": 60,
+   "pay_cap": "$1,000 per week",
+   "sequence": [
+    {
+     "relation": "within",
+     "component_id": "johns_hopkins_university_c1",
+     "start_offset_weeks": 2,
+     "note": "STD coverage begins after the first two weeks, which JHU pays"
+    }
+   ],
+   "rule_applied": [
+    "R1d",
+    "U5",
+    "R13b",
+    "R15"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Eligible parents who give birth who have elected the Short-Term Disability Plan"
+    ],
+    "eligible_parent": [
+     "Eligible parents who give birth who have elected the Short-Term Disability Plan"
+    ],
+    "entitlement": [
+     "For the four (or six) weeks following, the STD coverage will pay 60% of weekly salary up to $1,000 and JHU will pay the balance of the salary."
+    ],
+    "duration": [
+     "For the four (or six) weeks following, the STD coverage will pay 60% of weekly salary up to $1,000"
+    ],
+    "pay_fraction": [
+     "the STD coverage will pay 60% of weekly salary up to $1,000"
+    ],
+    "sequence": [
+     "will have their first two weeks of leave (the period before STD coverage begins) paid by JHU."
+    ],
+    "payer": [
+     "if the faculty member elected to purchase short-term disability coverage during the open enrollment period"
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link",
+    "2018_02_homewood_faculty_fml_policy"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "Eligible parents who give birth who have elected the Short-Term Disability Plan"
+    },
+    {
+     "field": "payer",
+     "rule": "R1d",
+     "answer": "employee_paid",
+     "quote": "if the faculty member elected to purchase short-term disability coverage during the open enrollment period"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "the faculty member may apply for disability benefits (60% of salary prior to going on FML)"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Eligible parents who give birth who have elected the Short-Term Disability Plan"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent",
+     "quote": "Eligible parents who give birth who have elected the Short-Term Disability Plan"
+    },
+    {
+     "field": "entitlement",
+     "rule": "R1d",
+     "answer": "guaranteed",
+     "quote": "the STD coverage will pay 60% of weekly salary up to $1,000"
+    },
+    {
+     "field": "duration",
+     "rule": "R13b",
+     "answer": "4 weeks at_least; duration_max 6 weeks",
+     "quote": "For the four (or six) weeks following"
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "60% of weekly salary up to $1,000",
+     "quote": "the STD coverage will pay 60% of weekly salary up to $1,000"
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "within c1, start_offset_weeks 2",
+     "quote": "will have their first two weeks of leave (the period before STD coverage begins) paid by JHU."
+    }
+   ]
+  },
+  {
+   "component_id": "johns_hopkins_university_c5",
+   "institution_label": "Long Term Disability",
+   "description": "Long-term disability insurance through the University's carrier, available after 13 weeks of Birth Recovery Leave (Homewood: beyond 90 days of paid medical leave); not supplemented by the University.",
+   "mechanism": "generic_sick_or_disability_plan",
+   "mechanism_note": "Long-term disability (schema section 2): recorded minimally, no duration.",
+   "payer": "insurance_plan",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Birth Recovery Leave 'after which time the person will be eligible for Long Term Disability'",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "the person (on Birth Recovery Leave); the faculty member",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "V2: 'will be eligible for'; the insurance carrier determines eligibility.",
+   "time_window": "after 13 weeks of Birth Recovery Leave; Homewood: beyond 90 days",
+   "rule_applied": [
+    "V2",
+    "M1",
+    "U5"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "in no case will it exceed thirteen (13) weeks (after which time the person will be eligible for Long Term Disability)."
+    ],
+    "eligible_parent": [
+     "in no case will it exceed thirteen (13) weeks (after which time the person will be eligible for Long Term Disability)."
+    ],
+    "entitlement": [
+     "after which time the person will be eligible for Long Term Disability",
+     "The insurance carrier determines eligibility for benefits."
+    ],
+    "payer": [
+     "LTD benefits are not supplemented by additional payments from the University."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link",
+    "2018_02_homewood_faculty_fml_policy"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "after which time the person will be eligible for Long Term Disability"
+    },
+    {
+     "field": "payer",
+     "rule": "M1",
+     "answer": "insurance_plan",
+     "quote": "The insurance carrier determines eligibility for benefits."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "after which time the person will be eligible for Long Term Disability"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "after which time the person will be eligible for Long Term Disability"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent",
+     "quote": "after which time the person will be eligible for Long Term Disability"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "after which time the person will be eligible for Long Term Disability"
+    }
+   ]
+  },
+  {
+   "component_id": "johns_hopkins_university_c6",
+   "institution_label": "Maternity/Medical Leave",
+   "description": "Homewood Schools (tenured and tenure-track): leave after delivery normally paid at full academic base salary for eight weeks, up to 90 days with pre- or post-delivery complications. Not counted: the university-wide Birth Recovery Leave governs (V3c).",
+   "mechanism": "employer_childbirth_benefit",
+   "mechanism_note": "V1: a childbirth-specific period (eight weeks following delivery), its length and its pay level (full ABS) are stated. Pay as approved paid FML; for faculty paid partly from grants, pay 'may be' continued if the agency allows or from the faculty member's discretionary funds (RoR, banking, gift funds).",
+   "payer": "employer",
+   "faculty_group": "Homewood Schools full-time tenured and tenure-track faculty (KSAS and WSE)",
+   "faculty_scope": "Homewood Schools only (Krieger School of Arts and Sciences and Whiting School of Engineering)",
+   "faculty_group_note": "Unpaid or Paid FML, 'Tenured and Tenure-track Faculty': 'This section pertains to full-time tenured and tenure-track faculty.' V3c: the university-wide Family Leave for New Parents policy (2018_00_link) and this Homewood Schools policy both cover main-campus faculty and differ; the university-wide policy sets the figures, this unit-level provision is recorded with the unit named",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "following delivery",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "The general statement ('may be paid or unpaid leave as approved by the Dean') is governed by the specific one ('normally will be paid ... for eight weeks following delivery') (source precedence); 'normally' → V2d, guaranteed_on_request with conditional_refusal.",
+   "duration": {
+    "value": 8,
+    "units": "week",
+    "qualifier": "at_least"
+   },
+   "duration_max": {
+    "value": 90,
+    "units": "day"
+   },
+   "duration_note": "'normally ... for eight weeks following delivery'; 'in the event of pre- or post- delivery medical complications, the leave may be paid for up to 90 days' (R13b conditional length). '90 days' is plain days (R11: 18 weeks).",
+   "duration_variants": {
+    "normal delivery": "8 weeks",
+    "medical complications": "up to 90 days"
+   },
+   "pay_fraction": "full ABS rate (100%)",
+   "pay_fraction_pct": 100,
+   "time_window": "following delivery",
+   "sequence": [
+    {
+     "relation": "within",
+     "component_id": "johns_hopkins_university_c3",
+     "note": "S1: pay for FML ('approval as unpaid or paid FML')"
+    },
+    {
+     "relation": "concurrent_with",
+     "component_id": "johns_hopkins_university_c1",
+     "note": "V3c: the same benefit as the university-wide Birth Recovery Leave; they run together and neither adds to the other"
+    }
+   ],
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "relief_note": "A leave; relief not stated (R9).",
+   "rule_applied": [
+    "V1",
+    "V2d",
+    "V3c",
+    "R13b",
+    "R11",
+    "R9",
+    "S1",
+    "source_precedence"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "This section pertains to full-time tenured and tenure-track faculty."
+    ],
+    "eligible_parent": [
+     "Maternity/Medical Leave, normally will be paid (as described above) for eight weeks following delivery."
+    ],
+    "entitlement": [
+     "Maternity/Medical Leave, normally will be paid (as described above) for eight weeks following delivery.",
+     "leave from the Homewood Schools may be paid or unpaid leave as approved by the Dean of the school in which the faculty member holds their primary appointment."
+    ],
+    "duration": [
+     "normally will be paid (as described above) for eight weeks following delivery. However, in the event of pre- or post- delivery medical complications, the leave may be paid for up to 90 days."
+    ],
+    "pay_fraction": [
+     "Faculty members approved for paid leave who receive their academic base salary (ABS), or 75% FTE, from only general funds will receive continued salary support at their full ABS rate prior to FML."
+    ],
+    "mechanism": [
+     "Maternity/Medical Leave, normally will be paid (as described above) for eight weeks following delivery."
+    ],
+    "sequence": [
+     "to the appropriate Dean for approval as unpaid or paid FML, if FML is certified"
+    ]
+   },
+   "doc_ids": [
+    "2018_02_homewood_faculty_fml_policy"
+   ],
+   "flags": [
+    "conditional_refusal: normally will be paid; leave may be paid or unpaid as approved by the Dean",
+    "ambiguous: restriction: a maximum of 8 weeks per effort reporting period can be charged to sponsored funds (faculty paid partly from grants)",
+    "ambiguous: restriction: nine-month faculty paid 75% FTE from general funds are not placed on leave during the summer months (May 15 to August 16)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "V1",
+     "answer": "employer_childbirth_benefit",
+     "quote": "Maternity/Medical Leave, normally will be paid (as described above) for eight weeks following delivery."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "Faculty members approved for paid leave who receive their academic base salary (ABS), or 75% FTE, from only general funds will receive continued salary support at their full ABS rate prior to FML."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Maternity/Medical Leave, normally will be paid (as described above) for eight weeks following delivery."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "V3c",
+     "answer": "Homewood Schools full-time tenured and tenure-track faculty (KSAS and WSE)",
+     "quote": "This section pertains to full-time tenured and tenure-track faculty."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "birth_parent",
+     "quote": "for eight weeks following delivery"
+    },
+    {
+     "field": "entitlement",
+     "rule": "source_precedence",
+     "answer": "guaranteed_on_request",
+     "quote": "Maternity/Medical Leave, normally will be paid (as described above) for eight weeks following delivery."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2d",
+     "answer": "guaranteed_on_request",
+     "quote": "normally will be paid (as described above) for eight weeks following delivery"
+    },
+    {
+     "field": "duration",
+     "rule": "R13b",
+     "answer": "8 weeks at_least; duration_max 90 days (complications)",
+     "quote": "However, in the event of pre- or post- delivery medical complications, the leave may be paid for up to 90 days."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "full ABS rate (100%)",
+     "quote": "Faculty members approved for paid leave who receive their academic base salary (ABS), or 75% FTE, from only general funds will receive continued salary support at their full ABS rate prior to FML."
+    },
+    {
+     "field": "sequence",
+     "rule": "S1",
+     "answer": "within c3 (pay for FML)",
+     "quote": "to the appropriate Dean for approval as unpaid or paid FML, if FML is certified"
+    },
+    {
+     "field": "sequence",
+     "rule": "V3c",
+     "answer": "concurrent_with c1 (same benefit, university policy governs)",
+     "quote": "Maternity/Medical Leave, normally will be paid (as described above) for eight weeks following delivery."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave)",
+     "quote": "Maternity/Medical Leave, normally will be paid (as described above) for eight weeks following delivery."
+    }
+   ]
+  },
+  {
+   "component_id": "johns_hopkins_university_c7",
+   "institution_label": "Medical Leave of Absence",
+   "description": "Homewood Schools (tenured and tenure-track): pay for medical leave for a serious illness, including complications of pregnancy or childbirth, which may be paid for up to 90 days; LTD beyond 90 days.",
+   "mechanism": "generic_sick_or_disability_plan",
+   "mechanism_note": "Pay for any serious illness (V1 not met for childbirth: no childbirth-specific period). The leave itself is FML (c3); this is its pay (U6, S1).",
+   "payer": "employer",
+   "faculty_group": "Homewood Schools full-time tenured and tenure-track faculty (KSAS and WSE)",
+   "faculty_scope": "Homewood Schools only (Krieger School of Arts and Sciences and Whiting School of Engineering)",
+   "faculty_group_note": "'This section pertains to full-time tenured and tenure-track faculty.' V3c: the university-wide Family Leave for New Parents policy (2018_00_link) and this Homewood Schools policy both cover main-campus faculty and differ; the university-wide policy sets the figures, this unit-level provision is recorded with the unit named",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "for a serious physical or mental illness, (including complications of pregnancy or childbirth)",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "entitlement_note": "V2: 'may be paid'; leave 'may be paid or unpaid leave as approved by the Dean'.",
+   "duration": {
+    "value": 90,
+    "units": "day",
+    "qualifier": "up_to"
+   },
+   "duration_note": "'may be paid for up to 90 days'; plain days (R11).",
+   "pay_fraction": "full ABS rate (100%)",
+   "pay_fraction_pct": 100,
+   "sequence": [
+    {
+     "relation": "within",
+     "component_id": "johns_hopkins_university_c3",
+     "note": "U6/S1: pay for the FML medical leave"
+    }
+   ],
+   "rule_applied": [
+    "V1",
+    "V2",
+    "U5",
+    "U6",
+    "S1",
+    "R11",
+    "V3c"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "This section pertains to full-time tenured and tenure-track faculty."
+    ],
+    "eligible_parent": [
+     "Medical Leave of Absence, for a serious physical or mental illness, (including complications of pregnancy or childbirth) may be paid for up to 90 days."
+    ],
+    "entitlement": [
+     "Medical Leave of Absence, for a serious physical or mental illness, (including complications of pregnancy or childbirth) may be paid for up to 90 days."
+    ],
+    "duration": [
+     "may be paid for up to 90 days. Beyond 90 days, the faculty member may apply for long-term disability (LTD) insurance benefits"
+    ],
+    "pay_fraction": [
+     "Faculty members approved for paid leave who receive their academic base salary (ABS), or 75% FTE, from only general funds will receive continued salary support at their full ABS rate prior to FML."
+    ],
+    "mechanism": [
+     "Medical Leave of Absence, for a serious physical or mental illness, (including complications of pregnancy or childbirth) may be paid for up to 90 days."
+    ],
+    "sequence": [
+     "to the appropriate Dean for approval as unpaid or paid FML, if FML is certified"
+    ]
+   },
+   "doc_ids": [
+    "2018_02_homewood_faculty_fml_policy"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "V1",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "Medical Leave of Absence, for a serious physical or mental illness, (including complications of pregnancy or childbirth) may be paid for up to 90 days."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "Faculty members approved for paid leave who receive their academic base salary (ABS), or 75% FTE, from only general funds will receive continued salary support at their full ABS rate prior to FML."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Medical Leave of Absence, for a serious physical or mental illness"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "V3c",
+     "answer": "Homewood Schools full-time tenured and tenure-track faculty (KSAS and WSE)",
+     "quote": "This section pertains to full-time tenured and tenure-track faculty."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent",
+     "quote": "for a serious physical or mental illness, (including complications of pregnancy or childbirth)"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "(including complications of pregnancy or childbirth) may be paid for up to 90 days."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "90 days up_to",
+     "quote": "may be paid for up to 90 days."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "full ABS rate (100%)",
+     "quote": "Faculty members approved for paid leave who receive their academic base salary (ABS), or 75% FTE, from only general funds will receive continued salary support at their full ABS rate prior to FML."
+    },
+    {
+     "field": "sequence",
+     "rule": "U6",
+     "answer": "within c3",
+     "quote": "to the appropriate Dean for approval as unpaid or paid FML, if FML is certified"
+    }
+   ]
+  },
+  {
+   "component_id": "johns_hopkins_university_c8",
+   "institution_label": "Ill family member",
+   "description": "Homewood Schools (tenured and tenure-track): leave to care for an ill family member is generally unpaid but may be paid for a limited time at the Dean's discretion.",
+   "mechanism": "employer_paid_leave",
+   "payer": "employer",
+   "mechanism_note": "Discretionary pay during the FML family-care leave (c3); no length or level stated.",
+   "faculty_group": "Homewood Schools full-time tenured and tenure-track faculty (KSAS and WSE)",
+   "faculty_scope": "Homewood Schools only (Krieger School of Arts and Sciences and Whiting School of Engineering)",
+   "faculty_group_note": "'This section pertains to full-time tenured and tenure-track faculty.' V3c: the university-wide Family Leave for New Parents policy (2018_00_link) and this Homewood Schools policy both cover main-campus faculty and differ; the university-wide policy sets the figures, this unit-level provision is recorded with the unit named",
+   "eligible_parent": [
+    "non_birth_parent"
+   ],
+   "eligible_parent_wording": "to care for an ill family member",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "duration_note": "'for a limited time'; no length stated.",
+   "sequence": [
+    {
+     "relation": "within",
+     "component_id": "johns_hopkins_university_c3",
+     "note": "S1: pay for FML family-care leave"
+    }
+   ],
+   "rule_applied": [
+    "U5",
+    "V2",
+    "S1",
+    "V3c"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "This section pertains to full-time tenured and tenure-track faculty."
+    ],
+    "eligible_parent": [
+     "Ill family member, leave to care for an ill family member will generally be unpaid"
+    ],
+    "entitlement": [
+     "under certain circumstances and at the discretion of the Dean, may be paid for a limited time."
+    ],
+    "sequence": [
+     "the care of the faculty member"
+    ]
+   },
+   "doc_ids": [
+    "2018_02_homewood_faculty_fml_policy"
+   ],
+   "flags": [
+    "family_illness_leave"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "employer_paid_leave",
+     "quote": "at the discretion of the Dean, may be paid for a limited time."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "at the discretion of the Dean, may be paid for a limited time."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Ill family member, leave to care for an ill family member will generally be unpaid"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "V3c",
+     "answer": "Homewood Schools full-time tenured and tenure-track faculty (KSAS and WSE)",
+     "quote": "This section pertains to full-time tenured and tenure-track faculty."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "non_birth_parent",
+     "quote": "leave to care for an ill family member will generally be unpaid"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "at the discretion of the Dean, may be paid for a limited time."
+    },
+    {
+     "field": "sequence",
+     "rule": "S1",
+     "answer": "within c3",
+     "quote": "the care of the faculty member"
+    }
+   ]
+  },
+  {
+   "component_id": "johns_hopkins_university_c9",
+   "institution_label": "",
+   "description": "Homewood Schools (all full-time faculty): leave may be extended beyond the 12 FMLA weeks, or the term of a longer approved leave, with the Dean's approval; extensions are discretionary; no length or pay stated.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "mechanism_note": "Extension of leave; pay not stated for the extension ('leave from the Homewood Schools may be paid or unpaid leave as approved by the Dean').",
+   "faculty_group": "Homewood Schools full-time faculty (tenured, tenure-track, research, teaching and other)",
+   "faculty_scope": "Homewood Schools only (Krieger School of Arts and Sciences and Whiting School of Engineering)",
+   "faculty_group_note": "'All full-time faculty (including tenured, tenure-track, research, teaching and other)' of the Homewood Schools. V3c: the university-wide Family Leave for New Parents policy (2018_00_link) and this Homewood Schools policy both cover main-campus faculty and differ; the university-wide policy sets the figures, this unit-level provision is recorded with the unit named",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "the FML reasons: birth and care of the faculty member's child; placement for adoption or foster care; care of a family member; own serious health condition",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "duration_note": "No length stated.",
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "johns_hopkins_university_c3",
+     "note": "extension beyond the 12 weeks specified by the FMLA"
+    }
+   ],
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "relief_note": "A leave; relief not stated (R9).",
+   "rule_applied": [
+    "V2",
+    "R9",
+    "R15",
+    "V3c"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "All full-time faculty (including tenured, tenure-track, research, teaching and other) in the Zanvyl Krieger School of Arts and Sciences and the Whiting School of Engineering (Homewood Schools)"
+    ],
+    "eligible_parent": [
+     "the placement with the faculty member of a child for adoption or foster care, within one year of placement"
+    ],
+    "entitlement": [
+     "Leave time may be extended, with the approval of the Dean, beyond the 12 weeks specified by the FMLA or the term of any prior approved leave, if longer. Such extensions are discretionary unless otherwise required."
+    ],
+    "sequence": [
+     "Leave time may be extended, with the approval of the Dean, beyond the 12 weeks specified by the FMLA"
+    ]
+   },
+   "doc_ids": [
+    "2018_02_homewood_faculty_fml_policy"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "Leave time may be extended, with the approval of the Dean, beyond the 12 weeks specified by the FMLA"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "leave from the Homewood Schools may be paid or unpaid leave as approved by the Dean"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Family and Medical Leave may be taken for the following reasons:"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "V3c",
+     "answer": "Homewood Schools full-time faculty (tenured, tenure-track, research, teaching and other)",
+     "quote": "All full-time faculty (including tenured, tenure-track, research, teaching and other) in the Zanvyl Krieger School of Arts and Sciences and the Whiting School of Engineering (Homewood Schools)"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent, non_birth_parent, adoptive, foster",
+     "quote": "the placement with the faculty member of a child for adoption or foster care, within one year of placement"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "Such extensions are discretionary unless otherwise required."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "consecutive_after c3",
+     "quote": "Leave time may be extended, with the approval of the Dean, beyond the 12 weeks specified by the FMLA"
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave)",
+     "quote": "Leave time may be extended, with the approval of the Dean"
+    }
+   ]
+  },
+  {
+   "component_id": "johns_hopkins_university_c10",
+   "institution_label": "Teaching Relief",
+   "description": "Homewood Schools (tenured and tenure-track): a parent by birth, a partner of a birth parent, or an adoptive parent may request paid relief from formal classroom teaching for the semester of the birth or adoption or the next one; research, service and advising continue.",
+   "mechanism": "modified_duties",
+   "payer": "employer",
+   "faculty_group": "Homewood Schools full-time tenured and tenure-track faculty (KSAS and WSE)",
+   "faculty_scope": "Homewood Schools only (Krieger School of Arts and Sciences and Whiting School of Engineering)",
+   "faculty_group_note": "'This section pertains to full-time tenured and tenure-track faculty.' V3c: the university-wide Family Leave for New Parents policy (2018_00_link) and this Homewood Schools policy both cover main-campus faculty and differ; the university-wide policy sets the figures, this unit-level provision is recorded with the unit named",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "A faculty member who gives birth to, or whose spouse or domestic partner gives birth to, a newborn child, or who adopts a child",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "entitlement_note": "V2: 'may request' with no grant language.",
+   "duration": {
+    "value": 1,
+    "units": "semester",
+    "qualifier": "exact"
+   },
+   "duration_note": "One semester: the semester of the birth or adoption or the subsequent semester.",
+   "time_window": "the semester in which the birth or adoption occurs or the subsequent semester",
+   "sequence": [
+    {
+     "relation": "also_available",
+     "component_id": "johns_hopkins_university_c6",
+     "note": "R3d: may be combined with paid Maternity/Medical Leave; timing (birth semester or next) is the parent's request"
+    }
+   ],
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "continues",
+    "research": "continues",
+    "advising_supervision": "continues",
+    "clinical": "continues"
+   },
+   "relief_inferred": "unnamed duties continue (R4b)",
+   "relief_note": "Relieved of formal classroom teaching; research, scholarship, departmental service and advising continue (stated); clinical unnamed (R4b). Does not affect the sabbatical schedule.",
+   "rule_applied": [
+    "V2",
+    "R3",
+    "R3d",
+    "R4",
+    "R4b",
+    "V3c"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "This section pertains to full-time tenured and tenure-track faculty."
+    ],
+    "eligible_parent": [
+     "A faculty member who gives birth to, or whose spouse or domestic partner gives birth to, a newborn child, or who adopts a child, may request paid teaching relief"
+    ],
+    "entitlement": [
+     "may request paid teaching relief from formal classroom duties for either the semester in which the birth or adoption occurs or the subsequent semester."
+    ],
+    "duration": [
+     "may request paid teaching relief from formal classroom duties for either the semester in which the birth or adoption occurs or the subsequent semester."
+    ],
+    "relief": [
+     "Although the faculty member is relieved of classroom teaching, he/she will be expected to remain in residence and to continue his/her research and scholarship, departmental service and advising."
+    ],
+    "sequence": [
+     "Paid parental teaching relief may be combined with paid Maternity/Medical Leave or unpaid Parental leave to which a faculty member is entitled under this policy."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_homewood_faculty_fml_policy"
+   ],
+   "flags": [
+    "ambiguous: pay level not stated; full pay inferred (R3)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "modified_duties",
+     "quote": "may request paid teaching relief from formal classroom duties for either the semester in which the birth or adoption occurs or the subsequent semester."
+    },
+    {
+     "field": "payer",
+     "rule": "R3",
+     "answer": "employer",
+     "quote": "may request paid teaching relief from formal classroom duties"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "who adopts a child, may request paid teaching relief"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "V3c",
+     "answer": "Homewood Schools full-time tenured and tenure-track faculty (KSAS and WSE)",
+     "quote": "This section pertains to full-time tenured and tenure-track faculty."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "birth_parent, non_birth_parent, adoptive",
+     "quote": "A faculty member who gives birth to, or whose spouse or domestic partner gives birth to, a newborn child, or who adopts a child"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "may request paid teaching relief from formal classroom duties for either the semester in which the birth or adoption occurs or the subsequent semester."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 semester exact",
+     "quote": "may request paid teaching relief from formal classroom duties for either the semester in which the birth or adoption occurs or the subsequent semester."
+    },
+    {
+     "field": "relief",
+     "rule": "R4",
+     "answer": "teaching relieved; research, service, advising continue",
+     "quote": "relieved of classroom teaching, he/she will be expected to remain in residence and to continue his/her research and scholarship, departmental service and advising."
+    },
+    {
+     "field": "relief",
+     "rule": "R4b",
+     "answer": "clinical continues (unnamed)",
+     "quote": "relieved of classroom teaching"
+    },
+    {
+     "field": "sequence",
+     "rule": "R3d",
+     "answer": "also_available c6",
+     "quote": "Paid parental teaching relief may be combined with paid Maternity/Medical Leave"
+    }
+   ]
+  },
+  {
+   "component_id": "johns_hopkins_university_c11",
+   "institution_label": "",
+   "description": "Homewood Schools (research, teaching and other full-time faculty): the Dean and/or department may continue full salary for the first 14 calendar days of FML (for research faculty, where the grant does not cover paid maternity or medical leave).",
+   "mechanism": "employer_paid_leave",
+   "payer": "employer",
+   "mechanism_note": "R17: pay for the first days of an FML absence; discretionary.",
+   "faculty_group": "Homewood Schools full-time research, teaching and other faculty",
+   "faculty_scope": "Homewood Schools only (Krieger School of Arts and Sciences and Whiting School of Engineering)",
+   "faculty_group_note": "Research Faculty, Teaching Faculty, and Other Faculty and Appointed Positions sections (same provision in each; for research faculty limited to Maternity/Medical Leave and Medical Leave of Absence). V3c: the university-wide Family Leave for New Parents policy (2018_00_link) and this Homewood Schools policy both cover main-campus faculty and differ; the university-wide policy sets the figures, this unit-level provision is recorded with the unit named",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "first 14 calendar days of FML (FML reasons include birth, adoption, foster placement, family care, own health)",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "duration": {
+    "value": 14,
+    "units": "calendar_day",
+    "qualifier": "exact"
+   },
+   "pay_fraction": "full salary (100%)",
+   "pay_fraction_pct": 100,
+   "sequence": [
+    {
+     "relation": "within",
+     "component_id": "johns_hopkins_university_c3",
+     "note": "S1: pay for FML"
+    }
+   ],
+   "rule_applied": [
+    "R17",
+    "V2",
+    "R11b",
+    "S1",
+    "U1",
+    "V3c"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "This section pertains to full-time teaching faculty, including Teaching Professor, Associate Teaching Professor, Senior Lecturer and Lecturer.",
+     "This section pertains to full-time research faculty, including those in the Research Scholar, Research Scientist, Research Engineer, or Research Professor track."
+    ],
+    "eligible_parent": [
+     "the birth and care of the faculty member",
+     "the placement with the faculty member of a child for adoption or foster care, within one year of placement"
+    ],
+    "entitlement": [
+     "The Dean and/or department may elect to continue full salary (at the rate prior to FML) for the first 14 calendar days of FML."
+    ],
+    "duration": [
+     "The Dean and/or department may elect to continue full salary (at the rate prior to FML) for the first 14 calendar days of FML."
+    ],
+    "pay_fraction": [
+     "The Dean and/or department may elect to continue full salary (at the rate prior to FML) for the first 14 calendar days of FML."
+    ],
+    "sequence": [
+     "for the first 14 calendar days of FML."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_homewood_faculty_fml_policy"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R17",
+     "answer": "employer_paid_leave",
+     "quote": "The Dean and/or department may elect to continue full salary (at the rate prior to FML) for the first 14 calendar days of FML."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "The Dean and/or department may elect to continue full salary (at the rate prior to FML) for the first 14 calendar days of FML."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "for the first 14 calendar days of FML."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "V3c",
+     "answer": "Homewood Schools full-time research, teaching and other faculty",
+     "quote": "This section pertains to full-time teaching faculty, including Teaching Professor, Associate Teaching Professor, Senior Lecturer and Lecturer."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R17",
+     "answer": "birth_parent, non_birth_parent, adoptive, foster",
+     "quote": "the birth and care of the faculty member"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "The Dean and/or department may elect to continue full salary"
+    },
+    {
+     "field": "duration",
+     "rule": "R11b",
+     "answer": "14 calendar days exact (2 weeks)",
+     "quote": "for the first 14 calendar days of FML."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "full salary (100%)",
+     "quote": "The Dean and/or department may elect to continue full salary (at the rate prior to FML) for the first 14 calendar days of FML."
+    },
+    {
+     "field": "sequence",
+     "rule": "S1",
+     "answer": "within c3",
+     "quote": "for the first 14 calendar days of FML."
+    }
+   ]
+  },
+  {
+   "component_id": "johns_hopkins_university_c12",
+   "institution_label": "",
+   "description": "Homewood Schools (research and teaching faculty): in special circumstances the Dean (and/or department) may pay up to 40% of salary for the remaining period of short-term disability, on top of STD's 60%.",
+   "mechanism": "generic_sick_or_disability_plan",
+   "payer": "employer",
+   "mechanism_note": "Discretionary employer supplement to the employee-purchased STD benefit (c4) during disability; not a childbirth-specific benefit.",
+   "faculty_group": "Homewood Schools full-time research and teaching faculty",
+   "faculty_scope": "Homewood Schools only (Krieger School of Arts and Sciences and Whiting School of Engineering)",
+   "faculty_group_note": "Research Faculty and Teaching Faculty sections. V3c: the university-wide Family Leave for New Parents policy (2018_00_link) and this Homewood Schools policy both cover main-campus faculty and differ; the university-wide policy sets the figures, this unit-level provision is recorded with the unit named",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "the remaining period of short-term disability",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "duration_note": "'for the remaining period of short-term disability'; no length stated. For research faculty, payment from general funds 'is usually contingent on the faculty member having short-term disability insurance and being approved for those benefits'.",
+   "pay_fraction": "up to 40% of salary",
+   "pay_fraction_pct": 40,
+   "sequence": [
+    {
+     "relation": "within",
+     "component_id": "johns_hopkins_university_c4",
+     "note": "paid alongside STD for its remaining period"
+    }
+   ],
+   "rule_applied": [
+    "V2",
+    "U5",
+    "V3c"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "This section pertains to full-time research faculty, including those in the Research Scholar, Research Scientist, Research Engineer, or Research Professor track."
+    ],
+    "eligible_parent": [
+     "In special circumstances the Dean may elect to pay up to 40% of salary (40% of the rate prior to FML) for the remaining period of short-term disability."
+    ],
+    "entitlement": [
+     "In special circumstances the Dean may elect to pay up to 40% of salary (40% of the rate prior to FML) for the remaining period of short-term disability."
+    ],
+    "pay_fraction": [
+     "In special circumstances the Dean may elect to pay up to 40% of salary (40% of the rate prior to FML) for the remaining period of short-term disability."
+    ],
+    "sequence": [
+     "for the remaining period of short-term disability."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_homewood_faculty_fml_policy"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "In special circumstances the Dean may elect to pay up to 40% of salary (40% of the rate prior to FML) for the remaining period of short-term disability."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "In special circumstances the Dean may elect to pay up to 40% of salary (40% of the rate prior to FML) for the remaining period of short-term disability."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "for the remaining period of short-term disability."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "V3c",
+     "answer": "Homewood Schools full-time research and teaching faculty",
+     "quote": "This section pertains to full-time research faculty, including those in the Research Scholar, Research Scientist, Research Engineer, or Research Professor track."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent",
+     "quote": "for the remaining period of short-term disability."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "In special circumstances the Dean may elect to pay up to 40% of salary"
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "up to 40% of salary",
+     "quote": "In special circumstances the Dean may elect to pay up to 40% of salary (40% of the rate prior to FML) for the remaining period of short-term disability."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "within c4",
+     "quote": "for the remaining period of short-term disability."
+    }
+   ]
+  },
+  {
+   "component_id": "johns_hopkins_university_c13",
+   "institution_label": "Teaching Relief",
+   "description": "Homewood Schools (teaching faculty): a parent by birth, a partner of a birth parent, or an adoptive parent may request a teaching reduction, typically half the normal load, for the semester of the birth or adoption or the next; service and advising continue.",
+   "mechanism": "modified_duties",
+   "payer": "employer",
+   "faculty_group": "Homewood Schools full-time teaching faculty (Teaching Professor, Associate Teaching Professor, Senior Lecturer, Lecturer)",
+   "faculty_scope": "Homewood Schools only (Krieger School of Arts and Sciences and Whiting School of Engineering)",
+   "faculty_group_note": "Teaching Faculty section. V3c: the university-wide Family Leave for New Parents policy (2018_00_link) and this Homewood Schools policy both cover main-campus faculty and differ; the university-wide policy sets the figures, this unit-level provision is recorded with the unit named",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "A faculty member who gives birth to, or whose spouse or domestic partner gives birth to, a newborn child, or who adopts a child",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "duration": {
+    "value": 1,
+    "units": "semester",
+    "qualifier": "exact"
+   },
+   "time_window": "the semester in which the birth or adoption occurs or the subsequent semester",
+   "relief": {
+    "teaching": "partially_relieved",
+    "service_admin": "continues",
+    "research": "continues",
+    "advising_supervision": "continues",
+    "clinical": "continues"
+   },
+   "relief_inferred": "unnamed duties continue (R4b)",
+   "relief_note": "Typically one half of the normal teaching load; service and advising continue (stated); research and clinical unnamed (R4b).",
+   "rule_applied": [
+    "V2",
+    "R3",
+    "R4",
+    "R4b",
+    "V3c"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "This section pertains to full-time teaching faculty, including Teaching Professor, Associate Teaching Professor, Senior Lecturer and Lecturer."
+    ],
+    "eligible_parent": [
+     "A faculty member who gives birth to, or whose spouse or domestic partner gives birth to, a newborn child, or who adopts a child, may request a reduction in teaching commitment"
+    ],
+    "entitlement": [
+     "may request a reduction in teaching commitment for either the semester in which the birth or adoption occurs or the subsequent semester. Typically, this teaching reduction is one half of the normal load for that faculty member."
+    ],
+    "duration": [
+     "may request a reduction in teaching commitment for either the semester in which the birth or adoption occurs or the subsequent semester. Typically, this teaching reduction is one half of the normal load for that faculty member."
+    ],
+    "relief": [
+     "Although the faculty member is partially relieved of classroom teaching, he or she will be expected to remain in residence and to continue their departmental service and advising."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_homewood_faculty_fml_policy"
+   ],
+   "flags": [
+    "ambiguous: pay level not stated; full pay inferred (R3)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "modified_duties",
+     "quote": "may request a reduction in teaching commitment for either the semester in which the birth or adoption occurs or the subsequent semester. Typically, this teaching reduction is one half of the normal load for that faculty member."
+    },
+    {
+     "field": "payer",
+     "rule": "R3",
+     "answer": "employer",
+     "quote": "may request a reduction in teaching commitment"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "who adopts a child, may request a reduction in teaching commitment"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "V3c",
+     "answer": "Homewood Schools full-time teaching faculty (Teaching Professor, Associate Teaching Professor, Senior Lecturer, Lecturer)",
+     "quote": "This section pertains to full-time teaching faculty, including Teaching Professor, Associate Teaching Professor, Senior Lecturer and Lecturer."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "birth_parent, non_birth_parent, adoptive",
+     "quote": "A faculty member who gives birth to, or whose spouse or domestic partner gives birth to, a newborn child, or who adopts a child, may request a reduction in teaching commitment"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "may request a reduction in teaching commitment"
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 semester exact",
+     "quote": "may request a reduction in teaching commitment for either the semester in which the birth or adoption occurs or the subsequent semester. Typically, this teaching reduction is one half of the normal load for that faculty member."
+    },
+    {
+     "field": "relief",
+     "rule": "R4",
+     "answer": "teaching partially relieved; service, advising continue",
+     "quote": "partially relieved of classroom teaching, he or she will be expected to remain in residence and to continue their departmental service and advising."
+    },
+    {
+     "field": "relief",
+     "rule": "R4b",
+     "answer": "research and clinical continue (unnamed)",
+     "quote": "partially relieved of classroom teaching"
+    }
+   ]
+  },
+  {
+   "component_id": "johns_hopkins_university_c14",
+   "institution_label": "",
+   "description": "Homewood Schools (teaching faculty): with leave to care for an ill family member, the Dean may approve a teaching-load reduction for the semester of the event or the next.",
+   "mechanism": "modified_duties",
+   "payer": "employer",
+   "faculty_group": "Homewood Schools full-time teaching faculty (Teaching Professor, Associate Teaching Professor, Senior Lecturer, Lecturer)",
+   "faculty_scope": "Homewood Schools only (Krieger School of Arts and Sciences and Whiting School of Engineering)",
+   "faculty_group_note": "Teaching Faculty section. V3c: the university-wide Family Leave for New Parents policy (2018_00_link) and this Homewood Schools policy both cover main-campus faculty and differ; the university-wide policy sets the figures, this unit-level provision is recorded with the unit named",
+   "eligible_parent": [
+    "non_birth_parent"
+   ],
+   "eligible_parent_wording": "Ill family member, leave to care for an ill family member",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "duration": {
+    "value": 1,
+    "units": "semester",
+    "qualifier": "exact"
+   },
+   "time_window": "the semester that the event occurs or the following semester",
+   "relief": {
+    "teaching": "partially_relieved",
+    "service_admin": "continues",
+    "research": "continues",
+    "advising_supervision": "continues",
+    "clinical": "continues"
+   },
+   "relief_inferred": "unnamed duties continue (R4b)",
+   "relief_note": "A reduction of teaching load, amount unstated; other duties unnamed (R4b).",
+   "rule_applied": [
+    "U5",
+    "V2",
+    "R3",
+    "R4b",
+    "V3c"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "This section pertains to full-time teaching faculty, including Teaching Professor, Associate Teaching Professor, Senior Lecturer and Lecturer."
+    ],
+    "eligible_parent": [
+     "Ill family member, leave to care for an ill family member, will be unpaid. The Dean may approve reduction of teaching load"
+    ],
+    "entitlement": [
+     "The Dean may approve reduction of teaching load for the semester that the event occurs or the following semester."
+    ],
+    "duration": [
+     "The Dean may approve reduction of teaching load for the semester that the event occurs or the following semester."
+    ],
+    "relief": [
+     "The Dean may approve reduction of teaching load for the semester that the event occurs or the following semester."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_homewood_faculty_fml_policy"
+   ],
+   "flags": [
+    "ambiguous: pay level not stated; full pay inferred (R3)",
+    "family_illness_leave"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "modified_duties",
+     "quote": "The Dean may approve reduction of teaching load for the semester that the event occurs or the following semester."
+    },
+    {
+     "field": "payer",
+     "rule": "R3",
+     "answer": "employer",
+     "quote": "The Dean may approve reduction of teaching load for the semester that the event occurs or the following semester."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Ill family member, leave to care for an ill family member, will be unpaid."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "V3c",
+     "answer": "Homewood Schools full-time teaching faculty (Teaching Professor, Associate Teaching Professor, Senior Lecturer, Lecturer)",
+     "quote": "This section pertains to full-time teaching faculty, including Teaching Professor, Associate Teaching Professor, Senior Lecturer and Lecturer."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "non_birth_parent",
+     "quote": "Ill family member, leave to care for an ill family member, will be unpaid."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "The Dean may approve reduction of teaching load for the semester that the event occurs or the following semester."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 semester exact",
+     "quote": "The Dean may approve reduction of teaching load for the semester that the event occurs or the following semester."
+    },
+    {
+     "field": "relief",
+     "rule": "R4b",
+     "answer": "teaching partially relieved; other duties continue (unnamed)",
+     "quote": "The Dean may approve reduction of teaching load for the semester that the event occurs or the following semester."
+    }
+   ]
+  },
+  {
+   "component_id": "johns_hopkins_university_c15",
+   "institution_label": "",
+   "description": "Homewood Schools (other full-time faculty such as visiting professors): those who qualify under the FMLA are granted up to 12 weeks of unpaid leave, or as much as a full semester, provided they return within the appointment.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "Homewood Schools other full-time faculty (e.g., Visiting Professors)",
+   "faculty_scope": "Homewood Schools only (Krieger School of Arts and Sciences and Whiting School of Engineering)",
+   "faculty_group_note": "Other Faculty and Appointed Positions section. V3c: the university-wide Family Leave for New Parents policy (2018_00_link) and this Homewood Schools policy both cover main-campus faculty and differ; the university-wide policy sets the figures, this unit-level provision is recorded with the unit named",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "FML reasons (birth and care of a child; adoption or foster placement; family care; own health)",
+   "caregiver_condition": "none",
+   "service_requirement": "qualify under the FMLA (12 months and 1,250 hours)",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 12,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "duration_max": {
+    "value": 1,
+    "units": "semester"
+   },
+   "duration_note": "'up to 12 weeks unpaid leave, or as much as a full semester' (R13b, each length stated 'up to'). Those without STD who do not qualify for FML: 'will be granted 8 weeks of unpaid leave' (U8: not the member's path; recorded here only).",
+   "return_obligation": "provided they return to work within the contracted period of appointment, and provided the position otherwise continues to exist",
+   "sequence": [
+    {
+     "relation": "concurrent_with",
+     "component_id": "johns_hopkins_university_c3",
+     "note": "S1: the institution's leave adds length (a semester) to FMLA"
+    }
+   ],
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "relief_note": "A leave; relief not stated (R9).",
+   "rule_applied": [
+    "R13b",
+    "R9",
+    "S1",
+    "U8",
+    "V3c"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "This section pertains to other full-time faculty (those not included in categories described above such as Visiting Professors, etc.)"
+    ],
+    "eligible_parent": [
+     "Parental Leave, to care for a new child, whether through birth, adoption or placement of a foster child will be unpaid. Under special circumstances"
+    ],
+    "entitlement": [
+     "who qualify under the FMLA laws will be granted up to 12 weeks unpaid leave, or as much as a full semester, provided they return to work within the contracted period of appointment"
+    ],
+    "duration": [
+     "who qualify under the FMLA laws will be granted up to 12 weeks unpaid leave, or as much as a full semester, provided they return to work within the contracted period of appointment"
+    ],
+    "service_requirement": [
+     "who qualify under the FMLA laws will be granted up to 12 weeks unpaid leave, or as much as a full semester, provided they return to work within the contracted period of appointment"
+    ],
+    "sequence": [
+     "who qualify under the FMLA laws will be granted up to 12 weeks unpaid leave, or as much as a full semester, provided they return to work within the contracted period of appointment"
+    ]
+   },
+   "doc_ids": [
+    "2018_02_homewood_faculty_fml_policy"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "who qualify under the FMLA laws will be granted up to 12 weeks unpaid leave, or as much as a full semester, provided they return to work within the contracted period of appointment"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "who qualify under the FMLA laws will be granted up to 12 weeks unpaid leave, or as much as a full semester, provided they return to work within the contracted period of appointment"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Family and Medical Leave may be taken for the following reasons:"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "V3c",
+     "answer": "Homewood Schools other full-time faculty (e.g., Visiting Professors)",
+     "quote": "This section pertains to other full-time faculty (those not included in categories described above such as Visiting Professors, etc.)"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent, non_birth_parent, adoptive, foster",
+     "quote": "Parental Leave, to care for a new child, whether through birth, adoption or placement of a foster child will be unpaid."
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "who qualify under the FMLA laws will be granted up to 12 weeks unpaid leave, or as much as a full semester, provided they return to work within the contracted period of appointment"
+    },
+    {
+     "field": "duration",
+     "rule": "R13b",
+     "answer": "12 weeks up_to; duration_max 1 semester",
+     "quote": "who qualify under the FMLA laws will be granted up to 12 weeks unpaid leave, or as much as a full semester, provided they return to work within the contracted period of appointment"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U8",
+     "answer": "qualify under the FMLA",
+     "quote": "who qualify under the FMLA laws will be granted up to 12 weeks unpaid leave, or as much as a full semester, provided they return to work within the contracted period of appointment"
+    },
+    {
+     "field": "sequence",
+     "rule": "S1",
+     "answer": "concurrent_with c3",
+     "quote": "who qualify under the FMLA laws will be granted up to 12 weeks unpaid leave, or as much as a full semester, provided they return to work within the contracted period of appointment"
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave)",
+     "quote": "who qualify under the FMLA laws will be granted up to 12 weeks unpaid leave, or as much as a full semester, provided they return to work within the contracted period of appointment"
+    }
+   ]
+  },
+  {
+   "component_id": "johns_hopkins_university_c16",
+   "institution_label": "",
+   "description": "Homewood Schools (other full-time faculty): for a new child by birth, adoption or foster placement, the Dean may approve a teaching-load reduction for the semester of the event or the next, in special circumstances.",
+   "mechanism": "modified_duties",
+   "payer": "employer",
+   "faculty_group": "Homewood Schools other full-time faculty (e.g., Visiting Professors)",
+   "faculty_scope": "Homewood Schools only (Krieger School of Arts and Sciences and Whiting School of Engineering)",
+   "faculty_group_note": "Other Faculty and Appointed Positions section. V3c: the university-wide Family Leave for New Parents policy (2018_00_link) and this Homewood Schools policy both cover main-campus faculty and differ; the university-wide policy sets the figures, this unit-level provision is recorded with the unit named",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "to care for a new child, whether through birth, adoption or placement of a foster child",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "duration": {
+    "value": 1,
+    "units": "semester",
+    "qualifier": "exact"
+   },
+   "time_window": "the semester that the event occurs or the subsequent semester",
+   "relief": {
+    "teaching": "partially_relieved",
+    "service_admin": "continues",
+    "research": "continues",
+    "advising_supervision": "continues",
+    "clinical": "continues"
+   },
+   "relief_inferred": "unnamed duties continue (R4b)",
+   "relief_note": "A reduction of teaching load, amount unstated; other duties unnamed (R4b).",
+   "rule_applied": [
+    "V2",
+    "R3",
+    "R4b",
+    "V3c"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "This section pertains to other full-time faculty (those not included in categories described above such as Visiting Professors, etc.)"
+    ],
+    "eligible_parent": [
+     "Parental Leave, to care for a new child, whether through birth, adoption or placement of a foster child will be unpaid. Under special circumstances"
+    ],
+    "entitlement": [
+     "Under special circumstances, the Dean may approve a reduction of teaching load for the semester that the event occurs or the subsequent semester."
+    ],
+    "duration": [
+     "Under special circumstances, the Dean may approve a reduction of teaching load for the semester that the event occurs or the subsequent semester."
+    ],
+    "relief": [
+     "Under special circumstances, the Dean may approve a reduction of teaching load for the semester that the event occurs or the subsequent semester."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_homewood_faculty_fml_policy"
+   ],
+   "flags": [
+    "ambiguous: pay level not stated; full pay inferred (R3)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "modified_duties",
+     "quote": "Under special circumstances, the Dean may approve a reduction of teaching load for the semester that the event occurs or the subsequent semester."
+    },
+    {
+     "field": "payer",
+     "rule": "R3",
+     "answer": "employer",
+     "quote": "Under special circumstances, the Dean may approve a reduction of teaching load for the semester that the event occurs or the subsequent semester."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "to care for a new child, whether through birth, adoption or placement of a foster child"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "V3c",
+     "answer": "Homewood Schools other full-time faculty (e.g., Visiting Professors)",
+     "quote": "This section pertains to other full-time faculty (those not included in categories described above such as Visiting Professors, etc.)"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "birth_parent, non_birth_parent, adoptive, foster",
+     "quote": "to care for a new child, whether through birth, adoption or placement of a foster child"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "Under special circumstances, the Dean may approve a reduction of teaching load for the semester that the event occurs or the subsequent semester."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 semester exact",
+     "quote": "Under special circumstances, the Dean may approve a reduction of teaching load for the semester that the event occurs or the subsequent semester."
+    },
+    {
+     "field": "relief",
+     "rule": "R4b",
+     "answer": "teaching partially relieved; other duties continue (unnamed)",
+     "quote": "Under special circumstances, the Dean may approve a reduction of teaching load for the semester that the event occurs or the subsequent semester."
+    }
+   ]
+  },
+  {
+   "component_id": "johns_hopkins_university_c17",
+   "institution_label": "",
+   "description": "Homewood Schools Tenure Rule 12: an untenured tenure-track faculty member who becomes a parent by birth or adoption is automatically granted a one-year extension of the current term appointment, one per birth or adoption event.",
+   "mechanism": "tenure_clock",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_scope": "Homewood Schools only (Krieger School of Arts and Sciences and Whiting School of Engineering)",
+   "faculty_group_note": "'tenured or tenure eligible members of the faculty ... in the Homewood Schools' (Krieger Arts and Sciences and Whiting Engineering: main campus, V3, V3b); no university-wide tenure-clock provision is saved, so V3c does not displace it",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "becomes the parent of a child by birth or adoption",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "exact"
+   },
+   "duration_note": "'There is a one year extension for each birth or adoption event' (a renewal, not a use limit: U9).",
+   "time_window": "prior to the submission of materials for promotion and tenure; untenured faculty not previously considered for tenure",
+   "notice": "should notify the Department Chair within six months of the birth or adoption event",
+   "dual_employee_rule": "both will receive extensions (both parents untenured faculty in KSAS and/or WSE)",
+   "rule_applied": [
+    "V3",
+    "V3b",
+    "U9",
+    "U1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "These Tenure Rules apply only to tenured or tenure eligible members of the faculty (e.g., assistant professor, associate professor, and professor) in the Homewood Schools."
+    ],
+    "eligible_parent": [
+     "An untenured faculty member who becomes the parent of a child by birth or adoption"
+    ],
+    "entitlement": [
+     "An untenured faculty member who becomes the parent of a child by birth or adoption prior to the submission of materials for consideration for promotion and tenure within the applicable timeframe provided for in these Tenure Rules or in Appointment and Promotion Procedures for Tenure Track Faculty will automatically be granted a one-year extension of the current term appointment."
+    ],
+    "duration": [
+     "will automatically be granted a one-year extension of the current term appointment."
+    ],
+    "dual_employee_rule": [
+     "If both parents are untenured faculty in the Krieger School of Arts and Sciences and/or the Whiting School of Engineering, both will receive extensions."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_homewood_tenure_regulations_2016"
+   ],
+   "flags": [
+    "cross_reference_not_saved: Appointment and Promotion Procedures for Tenure Track Faculty"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "will automatically be granted a one-year extension of the current term appointment."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "will automatically be granted a one-year extension of the current term appointment."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "An untenured faculty member who becomes the parent of a child by birth or adoption"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "V3b",
+     "answer": "main_campus_tenure_stream",
+     "quote": "These Tenure Rules apply only to tenured or tenure eligible members of the faculty (e.g., assistant professor, associate professor, and professor) in the Homewood Schools."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "birth_parent, non_birth_parent, adoptive",
+     "quote": "who becomes the parent of a child by birth or adoption"
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "will automatically be granted a one-year extension"
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 year exact",
+     "quote": "will automatically be granted a one-year extension of the current term appointment."
+    },
+    {
+     "field": "use_limit",
+     "rule": "U9",
+     "answer": "none recorded: renewal with each birth or adoption",
+     "quote": "There is a one year extension for each birth or adoption event."
+    }
+   ]
+  },
+  {
+   "component_id": "johns_hopkins_university_c18",
+   "institution_label": "",
+   "description": "Homewood Schools Tenure Rule 11: at the untenured faculty member's timely request, family or medical leave (other than for a birth or adoption, covered by Rule 12) is not counted toward the tenure clock, up to twelve months in the aggregate.",
+   "mechanism": "tenure_clock",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_scope": "Homewood Schools only (Krieger School of Arts and Sciences and Whiting School of Engineering)",
+   "faculty_group_note": "'tenured or tenure eligible members of the faculty ... in the Homewood Schools' (V3, V3b)",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent"
+   ],
+   "eligible_parent_wording": "family or medical leave (own serious health condition; care of a family member); not for a birth or adoption, which Rule 12 covers ('Other than for birth or adoption of a child addressed in Rule 12')",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "V2: 'shall not be counted' at the faculty member's timely request; leave for an entire year for an involuntary reason needs a specific letter of approval from the Dean.",
+   "duration": {
+    "value": 12,
+    "units": "month",
+    "qualifier": "up_to"
+   },
+   "duration_note": "The leave period is not counted, 'provided that the total period so exempted does not exceed twelve months in the aggregate' (a tenure-clock total, not a leave limit).",
+   "rule_applied": [
+    "V2",
+    "U5",
+    "U1",
+    "V3",
+    "V3b"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "These Tenure Rules apply only to tenured or tenure eligible members of the faculty (e.g., assistant professor, associate professor, and professor) in the Homewood Schools."
+    ],
+    "eligible_parent": [
+     "Other than for birth or adoption of a child addressed in Rule 12 below, at the timely request of an untenured faculty member, family or medical leave"
+    ],
+    "entitlement": [
+     "at the timely request of an untenured faculty member, family or medical leave as defined by the \"Family and Medical Leave Act Guidelines\" for the Homewood Schools shall not be counted in applying the Tenure Regulations, provided that the total period so exempted does not exceed twelve months in the aggregate."
+    ],
+    "duration": [
+     "provided that the total period so exempted does not exceed twelve months in the aggregate."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_homewood_tenure_regulations_2016"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "shall not be counted in applying the Tenure Regulations"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "shall not be counted in applying the Tenure Regulations"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "family or medical leave as defined by the \"Family and Medical Leave Act Guidelines\" for the Homewood Schools"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "V3b",
+     "answer": "main_campus_tenure_stream",
+     "quote": "These Tenure Rules apply only to tenured or tenure eligible members of the faculty (e.g., assistant professor, associate professor, and professor) in the Homewood Schools."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent, non_birth_parent",
+     "quote": "Other than for birth or adoption of a child addressed in Rule 12 below"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "at the timely request of an untenured faculty member"
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "12 months up_to",
+     "quote": "does not exceed twelve months in the aggregate."
+    }
+   ]
+  },
+  {
+   "component_id": "johns_hopkins_university_c19",
+   "institution_label": "",
+   "description": "Homewood Schools Tenure Rule 11: voluntary leave for reasons other than FMLA reasons counts toward the tenure clock unless the Dean makes a prior written exception (any purpose; discretionary).",
+   "mechanism": "tenure_clock",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_scope": "Homewood Schools only (Krieger School of Arts and Sciences and Whiting School of Engineering)",
+   "faculty_group_note": "'tenured or tenure eligible members of the faculty ... in the Homewood Schools' (V3, V3b)",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "a non-tenured faculty member ... on a voluntary leave for reasons other than those covered by the Family and Medical Leave Act",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "duration_note": "No length stated.",
+   "rule_applied": [
+    "U1",
+    "V2",
+    "V3b"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "These Tenure Rules apply only to tenured or tenure eligible members of the faculty (e.g., assistant professor, associate professor, and professor) in the Homewood Schools."
+    ],
+    "eligible_parent": [
+     "Periods during which a non-tenured faculty member is on a voluntary leave for reasons other than those covered by the Family and Medical Leave Act shall be counted in applying the tenure regulations, unless a prior written exception is made by the Dean."
+    ],
+    "entitlement": [
+     "Periods during which a non-tenured faculty member is on a voluntary leave for reasons other than those covered by the Family and Medical Leave Act shall be counted in applying the tenure regulations, unless a prior written exception is made by the Dean."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_homewood_tenure_regulations_2016"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "Periods during which a non-tenured faculty member is on a voluntary leave for reasons other than those covered by the Family and Medical Leave Act shall be counted in applying the tenure regulations, unless a prior written exception is made by the Dean."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Periods during which a non-tenured faculty member is on a voluntary leave for reasons other than those covered by the Family and Medical Leave Act shall be counted in applying the tenure regulations, unless a prior written exception is made by the Dean."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "on a voluntary leave for reasons other than those covered by the Family and Medical Leave Act"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "V3b",
+     "answer": "main_campus_tenure_stream",
+     "quote": "These Tenure Rules apply only to tenured or tenure eligible members of the faculty (e.g., assistant professor, associate professor, and professor) in the Homewood Schools."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "a non-tenured faculty member is on a voluntary leave"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "unless a prior written exception is made by the Dean."
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "Which policy governs (V3c): the university-wide Family Leave for New Parents policy (2018_00_link, effective July 1, 2017) and the Homewood Schools FML policy (2018_02, undated, pre-dates July 2017 and does not mention the university policy) both cover Homewood tenure-stream faculty and differ (8 weeks paid maternity leave vs 6 weeks birth recovery; Homewood unpaid parental leave vs 4 weeks paid parental leave; Homewood teaching relief has no university counterpart). The university-wide policy sets the figures; every 2018_02 provision is recorded with faculty_group naming the Homewood group and faculty_scope set, as in the V3c Johns Hopkins example. The Homewood Tenure Regulations (2018_01) have no university-wide counterpart among the saved documents, so their tenure-clock provisions are coded main_campus_tenure_stream with faculty_scope Homewood (V3, V3b).",
+  "Version: 2018_02 carries no date; its version note places it in force from at least March 2017 to January 2021 (copy captured 2020-11-25). 2018_01 is headed 'Effective October 15, 2016' (copy captured 2024). 2018_00_link is the Wayback capture of 2018-01-02, effective July 1, 2017.",
+  "The Tenure Regulations cite the 'Family and Medical Leave Act Guidelines' for the Homewood Schools; per the version note this is the Homewood FML policy (2018_02), so it is treated as saved.",
+  "Documents cited but not saved: Johns Hopkins University Family and Medical Leave Policy; Johns Hopkins University Sick Leave Policy; Faculty Parental Leave Guidelines; Johns Hopkins University Adoption Assistance Policy; Policy Regarding Reasonable Break Time for Nursing Mothers; Breastfeeding Support Program; Human Resources Policy section 6 (full-time and part-time employment); New Child Accommodations for Full-Time Graduate Students and Postdoctoral Trainees Policy (other group); Benefits website pages for Birth Recovery Leave and Parental Leave; Appointment and Promotion Procedures for Tenure Track Faculty. Forms (Request for Leave, Parental Leave Request Form, Adoption Assistance Form, Breastfeeding Support Program Registration Form, Faculty and Staff Request for Reasonable Workplace Accommodation Form) are not policies. The Adoption Assistance Policy is financial assistance, not leave; the workplace accommodation form concerns disability accommodation (not a component).",
+  "Exclusions in 2018_00_link: limited and casual faculty and staff; interns, residents and postdoctoral trainees; Applied Physics Laboratory employees; Johns Hopkins Emergency Medical Services. 2018_02 excludes Postdoctoral Fellows. None excludes main-campus tenure-stream faculty.",
+  "Pay prorated for part-time schedules under 2018_00_link (e.g., 32 hours/week: 192 hours birth recovery, 128 hours parental); the member described (full-time) receives the full 6 and 4 weeks.",
+  "Homewood research faculty: pay for leave from grants 'if the funding agency allows', otherwise from the faculty member's discretionary funds; 'a maximum of 8 weeks per effort reporting period can be charged to any sponsored funds'; ill-family leave paid only if supporting grants cover it. Recorded in notes and on c6's flags; no separate components (no employer guarantee).",
+  "Homewood: 'Health, dental, life, and disability insurance benefits remain in effect during leaves, provided the faculty member pays his/her portion' (benefit continuation, not a component). 'Military Leave of Absence will be unpaid' (not usable for a birth; not a component). Administration: where the policy conflicts with the FMLA, the more favorable application takes precedence.",
+  "Chain, birth parent: Birth Recovery Leave 6 (to 13 on medical necessity; STD within it from week 2, employee-paid) -> Parental Leave 4; FMLA 12 alongside from the birth (S1). Homewood (not counted): Maternity/Medical Leave 8 (to 90 days) within FMLA and concurrent with Birth Recovery Leave; Teaching Relief one semester also_available with it; FML extension after FMLA.",
+  "Chain, non-birth parent: Parental Leave 4, with FMLA 12 alongside from the birth (S1). Homewood (not counted): Teaching Relief one semester; FML extension after FMLA."
+ ],
+ "statutory_floor": {
+  "jurisdiction": "US",
+  "year": "2018",
+  "weeks_birth": 12.0,
+  "weeks_nonbirth": 12.0,
+  "statute": "Family and Medical Leave Act (FMLA) (29 U.S.C. 2611-2612)",
+  "source_doc": "2026_00_us_fmla_29usc2612",
+  "table": "statutory_baseline.csv"
+ }
+}

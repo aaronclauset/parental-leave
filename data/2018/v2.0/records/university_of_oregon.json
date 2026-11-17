@@ -1,0 +1,2921 @@
+{
+ "institution": "University of Oregon",
+ "slug": "university_of_oregon",
+ "country": "US",
+ "model": "claude-opus-5-5",
+ "codebook_version": "1.25",
+ "schema_version": "1.25",
+ "reference_date": "2018-03-12",
+ "calendar": {
+  "term_weeks": null,
+  "note": "terms are quarters: CBA Art. 33 'One academic year (three terms)'; 2018_05 'academic quarters or semesters', with the Law School on semesters; kind stated, length not, so the quarter default (R8)",
+  "kind": "quarter"
+ },
+ "documents": [
+  {
+   "doc_id": "2018_01_ua_cba_2015_2018",
+   "title": "Collective Bargaining Agreement between the University of Oregon and United Academics, AAUP/AFT, AFL-CIO, July 1, 2015 through June 30, 2018",
+   "version_or_effective_date": "2015-07-01 to 2018-06-30 (in force on 2018-03-12)",
+   "url": "https://academicaffairs.uoregon.edu/sites/academicaffairs2.uoregon.edu/files/2015-2018_cba_final_linked.pdf",
+   "retrieved": "2026-10-22"
+  },
+  {
+   "doc_id": "2018_02_hr_parental_leave_represented_faculty",
+   "title": "Represented Faculty | Human Resources (parental leave)",
+   "version_or_effective_date": "undated; Wayback capture 2017-12-14",
+   "url": "http://hr.uoregon.edu/hr-programs-services/employee-leaves/parental/represented-faculty",
+   "retrieved": "2026-10-22"
+  },
+  {
+   "doc_id": "2018_03_hr_parental_leave_overview",
+   "title": "Parental Leave | Human Resources (index page)",
+   "version_or_effective_date": "undated; capture 2017-12-27",
+   "url": "http://hr.uoregon.edu/hr-programs-services/employee-leaves/parental-leave",
+   "retrieved": "2026-10-22"
+  },
+  {
+   "doc_id": "2018_04_hr_parental_leave_oas_unrepresented_faculty",
+   "title": "Parental Leave for OAs and Unrepresented Faculty | Human Resources",
+   "version_or_effective_date": "undated; capture 2017-11-27",
+   "url": "http://hr.uoregon.edu/hr-programs-services/employee-leaves/parental/parental-leave-oas-and-unrepresented-faculty",
+   "retrieved": "2026-10-22"
+  },
+  {
+   "doc_id": "2018_05_uo_policy_faculty_parental_accommodation_officers_of_instruction",
+   "title": "Faculty: Parental Accommodation Policy for Officers of Instruction (UO Policy Library)",
+   "version_or_effective_date": "effective 06/21/2010, approved 12/28/2010; capture 2019-07-23",
+   "url": "https://policies.uoregon.edu/policy/by/1/0201-personnel/faculty-parental-accommodation-policy-officers-instruction",
+   "retrieved": "2026-10-22"
+  },
+  {
+   "doc_id": "2018_06_uo_policy_tenure_extension_new_baby_adoption",
+   "title": "Faculty: Tenure Extension of Probationary Period Because of New Baby or Childbirth or Adoption (UO Policy Library)",
+   "version_or_effective_date": "effective 02/19/1985, last updated 02/01/2000; capture 2016-11-24",
+   "url": "http://policies.uoregon.edu:80/policy/by/1/03000-human-resources/extension-tenure-probationary-period-because-new-baby-or-childbirt",
+   "retrieved": "2026-10-22"
+  },
+  {
+   "doc_id": "2026_00_us_fmla_29usc2612",
+   "title": "29 U.S.C. 2612 (FMLA leave requirement)",
+   "url": "https://www.law.cornell.edu/uscode/text/29/2612",
+   "retrieved": "2026-10-19"
+  },
+  {
+   "doc_id": "2026_01_us_fmla_29usc2611_definitions",
+   "title": "29 U.S.C. 2611 (FMLA definitions)",
+   "url": "https://www.law.cornell.edu/uscode/text/29/2611",
+   "retrieved": "2026-10-19"
+  },
+  {
+   "doc_id": "2018_20_or_ors659A_2017_edition",
+   "title": "ORS chapter 659A, 2017 edition (Oregon Family Leave Act, ORS 659A.150-659A.186)",
+   "url": "https://www.oregonlegislature.gov/bills_laws/ors/ors659A.html",
+   "retrieved": "2026-10-31"
+  }
+ ],
+ "missing": false,
+ "scope_accounting": {
+  "C1": {
+   "components": [
+    "university_of_oregon_c1",
+    "university_of_oregon_c2",
+    "university_of_oregon_c3",
+    "university_of_oregon_c4",
+    "university_of_oregon_c5",
+    "university_of_oregon_c6",
+    "university_of_oregon_c21",
+    "university_of_oregon_c22"
+   ]
+  },
+  "C2": {
+   "components": [
+    "university_of_oregon_c7",
+    "university_of_oregon_c23"
+   ]
+  },
+  "C3": {
+   "components": [
+    "university_of_oregon_c14",
+    "university_of_oregon_c15",
+    "university_of_oregon_c16",
+    "university_of_oregon_c17",
+    "university_of_oregon_c3"
+   ]
+  },
+  "C4": {
+   "components": [
+    "university_of_oregon_c1",
+    "university_of_oregon_c2",
+    "university_of_oregon_c3"
+   ],
+   "not_components": [
+    {
+     "statute": "OFLA ORS 659A.162(3)(b) sick-child leave and 659A.159(1)(d)-(e)",
+     "reason": "sections the documents do not invoke; leave for a child's non-serious illness or a death is not leave for becoming a parent (U4, U5)"
+    },
+    {
+     "statute": "Americans with Disabilities Act (CBA Art. 32 Sec. 25, Art. 12 Sec. 7, Art. 38 Sec. 4)",
+     "reason": "disability accommodation statute (U4)"
+    },
+    {
+     "statute": "Oregon Safe Employment Act (Art. 13)",
+     "reason": "workplace safety, unrelated to becoming a parent"
+    },
+    {
+     "statute": "ORS 351.065 (Art. 8), ORS 243.666, ORS chapter 243, ORS 243.698, ORS 243.800 and PERS/OPSRP/ORP laws, IRS Code (Arts. 10, 29, 44, 45)",
+     "reason": "personnel files, dues, bargaining, retirement and tax: unrelated to becoming a parent"
+    },
+    {
+     "statute": "Title IX and federal/state non-discrimination law (Art. 14; page footers)",
+     "reason": "equal treatment with no leave of its own"
+    },
+    {
+     "statute": "First Amendment; Oregon Constitution Art. I s. 8 (Art. 5)",
+     "reason": "free speech, unrelated"
+    },
+    {
+     "statute": "OAR 580-021-0040 (5) Sick Leave Advance (2018_05)",
+     "reason": "administrative rule governing the sick-leave advance; its terms are part of c21 (pay only), the rule is not saved"
+    }
+   ]
+  },
+  "C5": {
+   "components": [
+    "university_of_oregon_c1",
+    "university_of_oregon_c2",
+    "university_of_oregon_c14"
+   ]
+  },
+  "C6": {
+   "components": [
+    "university_of_oregon_c18",
+    "university_of_oregon_c19"
+   ]
+  },
+  "C7": {
+   "components": [
+    "university_of_oregon_c8",
+    "university_of_oregon_c9",
+    "university_of_oregon_c10",
+    "university_of_oregon_c11",
+    "university_of_oregon_c12",
+    "university_of_oregon_c13"
+   ]
+  },
+  "C8": {
+   "components": [
+    "university_of_oregon_c20"
+   ]
+  },
+  "C9": {
+   "absent": {
+    "documents": [
+     "2018_01_ua_cba_2015_2018",
+     "2018_02_hr_parental_leave_represented_faculty",
+     "2018_03_hr_parental_leave_overview",
+     "2018_04_hr_parental_leave_oas_unrepresented_faculty",
+     "2018_05_uo_policy_faculty_parental_accommodation_officers_of_instruction",
+     "2018_06_uo_policy_tenure_extension_new_baby_adoption"
+    ],
+    "terms": [
+     "accommodation",
+     "pregnancy",
+     "less strenuous",
+     "hazard",
+     "transfer",
+     "lactation",
+     "equal treatment"
+    ]
+   }
+  },
+  "C10": {
+   "absent": {
+    "documents": [
+     "2018_01_ua_cba_2015_2018",
+     "2018_02_hr_parental_leave_represented_faculty",
+     "2018_03_hr_parental_leave_overview",
+     "2018_04_hr_parental_leave_oas_unrepresented_faculty",
+     "2018_05_uo_policy_faculty_parental_accommodation_officers_of_instruction",
+     "2018_06_uo_policy_tenure_extension_new_baby_adoption"
+    ],
+    "terms": [
+     "FMLA",
+     "first days",
+     "work days",
+     "qualifying absence",
+     "regular work time"
+    ]
+   }
+  }
+ },
+ "passage_dispositions": {
+  "2018_01_ua_cba_2015_2018#001": {
+   "not_relevant": "Art. 16 notices of appointment"
+  },
+  "2018_01_ua_cba_2015_2018#002": {
+   "not_relevant": "Art. 16 funding-contingent appointments"
+  },
+  "2018_01_ua_cba_2015_2018#003": {
+   "not_relevant": "Art. 19 NTTF promotion, prior-service credit"
+  },
+  "2018_01_ua_cba_2015_2018#004": {
+   "used_in": [
+    "university_of_oregon_c12"
+   ]
+  },
+  "2018_01_ua_cba_2015_2018#005": {
+   "not_relevant": "Art. 20 accelerated review and prior-service credit"
+  },
+  "2018_01_ua_cba_2015_2018#006": {
+   "used_in": [
+    "university_of_oregon_c9",
+    "university_of_oregon_c10",
+    "university_of_oregon_c11"
+   ]
+  },
+  "2018_01_ua_cba_2015_2018#007": {
+   "not_relevant": "Art. 25 termination considerations"
+  },
+  "2018_01_ua_cba_2015_2018#008": {
+   "not_relevant": "Art. 28 tuition discount for a dependent child"
+  },
+  "2018_01_ua_cba_2015_2018#009": {
+   "not_relevant": "Art. 29-30 retirement benefits"
+  },
+  "2018_01_ua_cba_2015_2018#010": {
+   "used_in": [
+    "university_of_oregon_c1",
+    "university_of_oregon_c2",
+    "university_of_oregon_c3",
+    "university_of_oregon_c4",
+    "university_of_oregon_c5",
+    "university_of_oregon_c6",
+    "university_of_oregon_c7",
+    "university_of_oregon_c8",
+    "university_of_oregon_c14",
+    "university_of_oregon_c15",
+    "university_of_oregon_c16",
+    "university_of_oregon_c17",
+    "university_of_oregon_c19"
+   ]
+  },
+  "2018_01_ua_cba_2015_2018#011": {
+   "used_in": [
+    "university_of_oregon_c19"
+   ]
+  },
+  "2018_01_ua_cba_2015_2018#012": {
+   "used_in": [
+    "university_of_oregon_c18",
+    "university_of_oregon_c1"
+   ]
+  },
+  "2018_01_ua_cba_2015_2018#013": {
+   "not_relevant": "Art. 33 sabbatical eligibility"
+  },
+  "2018_02_hr_parental_leave_represented_faculty#001": {
+   "used_in": [
+    "university_of_oregon_c4",
+    "university_of_oregon_c7",
+    "university_of_oregon_c8"
+   ]
+  },
+  "2018_03_hr_parental_leave_overview#001": {
+   "not_relevant": "index of HR leave pages, no policy"
+  },
+  "2018_04_hr_parental_leave_oas_unrepresented_faculty#001": {
+   "used_in": [
+    "university_of_oregon_c21",
+    "university_of_oregon_c22",
+    "university_of_oregon_c23"
+   ]
+  },
+  "2018_05_uo_policy_faculty_parental_accommodation_officers_of_instruction#001": {
+   "used_in": [
+    "university_of_oregon_c21",
+    "university_of_oregon_c22",
+    "university_of_oregon_c23"
+   ]
+  },
+  "2018_06_uo_policy_tenure_extension_new_baby_adoption#001": {
+   "used_in": [
+    "university_of_oregon_c13"
+   ]
+  }
+ },
+ "mechanism_slots": {
+  "employer_paid_leave": {
+   "components": [
+    "university_of_oregon_c4",
+    "university_of_oregon_c21",
+    "university_of_oregon_c22"
+   ]
+  },
+  "employer_childbirth_benefit": {
+   "absent": "no childbirth-specific employer benefit; searched all six sources for 'maternity', 'childbirth', 'disability', 'recovery'"
+  },
+  "generic_sick_or_disability_plan": {
+   "components": [
+    "university_of_oregon_c16",
+    "university_of_oregon_c17"
+   ]
+  },
+  "own_accrual": {
+   "components": [
+    "university_of_oregon_c5",
+    "university_of_oregon_c6",
+    "university_of_oregon_c14",
+    "university_of_oregon_c15",
+    "university_of_oregon_c19"
+   ]
+  },
+  "donated_leave": {
+   "absent": "Art. 32 Sec. 2 only convenes a working group on a sick leave bank; Sec. 5 forbids transfer of sick leave; searched 'bank', 'donat', 'transfer', 'shared'"
+  },
+  "government_benefit": {
+   "absent": "no state or federal paid programme in 2018 Oregon documents; searched 'Paid Leave Oregon', 'insurance', 'benefit', 'state program'"
+  },
+  "employer_topup": {
+   "absent": "no top-up of a government benefit; searched 'top-up', 'supplement', 'difference'"
+  },
+  "modified_duties": {
+   "components": [
+    "university_of_oregon_c7",
+    "university_of_oregon_c23"
+   ]
+  },
+  "unpaid_leave": {
+   "components": [
+    "university_of_oregon_c1",
+    "university_of_oregon_c2",
+    "university_of_oregon_c3",
+    "university_of_oregon_c18"
+   ]
+  },
+  "tenure_clock": {
+   "components": [
+    "university_of_oregon_c8",
+    "university_of_oregon_c9",
+    "university_of_oregon_c10",
+    "university_of_oregon_c11",
+    "university_of_oregon_c12",
+    "university_of_oregon_c13"
+   ]
+  },
+  "part_time_option": {
+   "components": [
+    "university_of_oregon_c20"
+   ]
+  },
+  "other": {
+   "absent": "no accommodation, rearrangement or hazard programme; searched 'accommodation', 'pregnan', 'transfer', 'hazard'"
+  }
+ },
+ "baseline_accounting": {
+  "Family and Medical Leave Act (FMLA)": {
+   "components": [
+    "university_of_oregon_c1"
+   ]
+  },
+  "Federal Employee Paid Leave Act (paid parental leave for federal civilian employees)": {
+   "not_applicable": "covers federal civilian employees, not University of Oregon faculty"
+  },
+  "Paid Leave Oregon": {
+   "absent": "no saved document mentions it"
+  },
+  "Oregon Family Leave Act (OFLA)": {
+   "components": [
+    "university_of_oregon_c2",
+    "university_of_oregon_c3"
+   ]
+  }
+ },
+ "leave_limits": [],
+ "components": [
+  {
+   "component_id": "university_of_oregon_c1",
+   "institution_label": "",
+   "description": "Federal FMLA leave: 12 workweeks of unpaid job-protected leave for the birth or placement of a child, or the employee's or a family member's serious health condition; the CBA provides it for birth or adoption.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "CBA Art. 32 Sec. 10: 'bargaining unit faculty members' (unit includes tenure-related faculty, Art. 1); FMLA covers eligible employees",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "birth of a son or daughter; placement of a son or daughter for adoption or foster care",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 12,
+    "units": "workweek",
+    "qualifier": "exact"
+   },
+   "duration_note": "'a total of 12 workweeks' (R13: no qualifying word); runs alongside the CBA's paid weeks; first 12 of the birth parent's leave run with OFLA pregnancy-disability leave",
+   "service_requirement": "12 months and 1,250 hours",
+   "time_window": "birth or placement leave expires 12 months after the birth or placement",
+   "statute_source": "29 U.S.C. 2612(a)(1)(A)-(D); eligibility 29 U.S.C. 2611(2)",
+   "statute_verified": true,
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "sequence": [
+    {
+     "relation": "concurrent_with",
+     "component_id": "university_of_oregon_c3",
+     "note": "birth parent: FMLA runs from the start of the leave alongside OFLA pregnancy-disability leave (S1)"
+    },
+    {
+     "relation": "concurrent_with",
+     "component_id": "university_of_oregon_c2",
+     "roles": [
+      "nonbirth"
+     ],
+     "note": "non-birth parent: FMLA and OFLA parental leave run together (S1)"
+    }
+   ],
+   "rule_applied": [
+    "U2",
+    "U4",
+    "S1",
+    "R9",
+    "R13",
+    "U5"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Section 10. The University will provide bargaining unit faculty members with unpaid",
+     "includes tenure-related faculty, non-tenure-track faculty, adjunct faculty, post-retired or"
+    ],
+    "eligible_parent": [
+     "Because of the birth of a son or daughter of the employee and in order to care for such son or daughter.",
+     "Because of the placement of a son or daughter with the employee for adoption or foster care."
+    ],
+    "entitlement": [
+     "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period for one or more of the following:"
+    ],
+    "duration": [
+     "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period for one or more of the following:"
+    ],
+    "service_requirement": [
+     "for at least 12 months by the employer with respect to whom leave is requested under section 2612 of this title; and",
+     "for at least 1,250 hours of service with such employer during the previous 12-month period."
+    ],
+    "sequence": [
+     "leave upon the birth or adoption of a child as provided by the Family Medical Leave Act",
+     "(FMLA) and the Oregon Family Leave Act (OFLA)."
+    ],
+    "statute_source": [
+     "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period for one or more of the following:"
+    ]
+   },
+   "doc_ids": [
+    "2018_01_ua_cba_2015_2018",
+    "2026_00_us_fmla_29usc2612",
+    "2026_01_us_fmla_29usc2611_definitions"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "U4",
+     "answer": "unpaid_leave",
+     "quote": "leave upon the birth or adoption of a child as provided by the Family Medical Leave Act"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Section 10. The University will provide bargaining unit faculty members with unpaid"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Because of the birth of a son or daughter of the employee and in order to care for such son or daughter."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "includes tenure-related faculty, non-tenure-track faculty, adjunct faculty, post-retired or"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U2",
+     "answer": "birth_parent, non_birth_parent, adoptive, foster (statutory eligibility; own illness and family care also covered, U5)",
+     "quote": "Because of the birth of a son or daughter of the employee and in order to care for such son or daughter."
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period for one or more of the following:"
+    },
+    {
+     "field": "duration",
+     "rule": "U2",
+     "answer": "12 workweeks exact (statute; CBA names FMLA without its length)",
+     "quote": "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period for one or more of the following:"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U2",
+     "answer": "12 months and 1,250 hours",
+     "quote": "for at least 1,250 hours of service with such employer during the previous 12-month period."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave, relief not stated)",
+     "quote": "leave upon the birth or adoption of a child as provided by the Family Medical Leave Act"
+    },
+    {
+     "field": "sequence",
+     "rule": "S1",
+     "answer": "concurrent_with c3 (birth) and c2 (non-birth): statutory leaves run together from the start",
+     "quote": "(FMLA) and the Oregon Family Leave Act (OFLA)."
+    }
+   ],
+   "flags": []
+  },
+  {
+   "component_id": "university_of_oregon_c2",
+   "institution_label": "",
+   "description": "Oregon Family Leave Act family leave, used here as parental leave to care for an infant or newly adopted or placed child: up to 12 weeks unpaid, job-protected, within 12 months of the birth or placement.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "CBA Art. 32 Sec. 10: 'bargaining unit faculty members'; OFLA covers eligible employees of covered employers",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "care for an infant or newly adopted child ... or newly placed foster child",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 12,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "duration_note": "'up to a total of 12 weeks of family leave within any one-year period'; the 12 weeks also cover OFLA's other family-leave purposes (own or family member's serious health condition)",
+   "service_requirement": "180 days of employment",
+   "time_window": "must be completed within 12 months after birth or placement",
+   "statute_source": "ORS 659A.159(1)(a), 659A.162(1); eligibility ORS 659A.156(2) (2017 edition)",
+   "statute_verified": true,
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "university_of_oregon_c3",
+     "roles": [
+      "birth"
+     ],
+     "note": "ORS 659A.162(3)(a): pregnancy-disability leave is 'In addition to the 12 weeks of family leave'; CBA Art. 32 Sec. 11(c) relies on it ('an additional 6 weeks'). Birth parent: parental leave follows the disability leave (S1a)"
+    }
+   ],
+   "rule_applied": [
+    "U2",
+    "U4",
+    "S1",
+    "S1a",
+    "R9",
+    "R13"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Section 10. The University will provide bargaining unit faculty members with unpaid",
+     "includes tenure-related faculty, non-tenure-track faculty, adjunct faculty, post-retired or"
+    ],
+    "eligible_parent": [
+     "To care for an infant or newly adopted child under 18 years of age, or for a newly placed foster child under 18 years of age"
+    ],
+    "entitlement": [
+     "an eligible employee is entitled to up to a total of 12 weeks of family leave within any one-year period."
+    ],
+    "duration": [
+     "an eligible employee is entitled to up to a total of 12 weeks of family leave within any one-year period."
+    ],
+    "service_requirement": [
+     "All employees of a covered employer are eligible to take leave for the purpose specified in ORS 659A.159 (1)(a) except an employee who was employed by the covered employer for fewer than 180 days immediately before the date on which the family leave would commence."
+    ],
+    "sequence": [
+     "In addition to the 12 weeks of family leave authorized by subsection (1) of this section, a female eligible employee may take a total of 12 weeks of leave within any one-year period for an illness, injury or condition related to pregnancy or childbirth that disables the eligible employee from performing any available job duties offered by the covered employer.",
+     "who give birth and qualify pursuant to the OFLA may take up to an additional 6"
+    ]
+   },
+   "doc_ids": [
+    "2018_01_ua_cba_2015_2018",
+    "2018_20_or_ors659A_2017_edition"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "U4",
+     "answer": "unpaid_leave",
+     "quote": "(FMLA) and the Oregon Family Leave Act (OFLA)."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Section 10. The University will provide bargaining unit faculty members with unpaid"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "To care for an infant or newly adopted child under 18 years of age, or for a newly placed foster child under 18 years of age"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "includes tenure-related faculty, non-tenure-track faculty, adjunct faculty, post-retired or"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U2",
+     "answer": "birth_parent, non_birth_parent, adoptive, foster",
+     "quote": "To care for an infant or newly adopted child under 18 years of age, or for a newly placed foster child under 18 years of age"
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "an eligible employee is entitled to up to a total of 12 weeks of family leave within any one-year period."
+    },
+    {
+     "field": "duration",
+     "rule": "U2",
+     "answer": "12 weeks up_to (statute)",
+     "quote": "an eligible employee is entitled to up to a total of 12 weeks of family leave within any one-year period."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U2",
+     "answer": "180 days",
+     "quote": "All employees of a covered employer are eligible to take leave for the purpose specified in ORS 659A.159 (1)(a) except an employee who was employed by the covered employer for fewer than 180 days immediately before the date on which the family leave would commence."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave)",
+     "quote": "leave upon the birth or adoption of a child as provided by the Family Medical Leave Act"
+    },
+    {
+     "field": "sequence",
+     "rule": "S1a",
+     "answer": "consecutive_after c3 for the birth parent: statute makes parental leave additional to pregnancy-disability leave",
+     "quote": "In addition to the 12 weeks of family leave authorized by subsection (1) of this section, a female eligible employee may take a total of 12 weeks of leave within any one-year period for an illness, injury or condition related to pregnancy or childbirth that disables the eligible employee from performing any available job duties offered by the covered employer."
+    }
+   ],
+   "flags": []
+  },
+  {
+   "component_id": "university_of_oregon_c3",
+   "institution_label": "",
+   "description": "OFLA pregnancy-disability leave: a birth parent disabled by pregnancy or childbirth may take up to 12 weeks of unpaid leave in addition to the 12 weeks of family leave; the CBA relies on it for an additional 6 weeks of parental leave for mothers who give birth.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "CBA Art. 32 Sec. 11(c): 'Bargaining unit faculty members who give birth and qualify pursuant to the OFLA'",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "a female eligible employee; mothers who give birth",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 12,
+    "units": "week",
+    "qualifier": "exact"
+   },
+   "duration_note": "'a total of 12 weeks' (no qualifying word, R13); conditional on a pregnancy- or childbirth-related disability, counted at its maximum (checklist C4). The CBA itself names 'up to an additional 6 weeks' (c6)",
+   "medical_certification": true,
+   "medical_certification_note": "disability from pregnancy or childbirth; ORS 659A.168 lets the employer require medical verification",
+   "service_requirement": "180 days of employment and an average of 25 hours per week",
+   "statute_source": "ORS 659A.162(3)(a); eligibility ORS 659A.156(1) (2017 edition)",
+   "statute_verified": true,
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "rule_applied": [
+    "U2",
+    "U4",
+    "S1a",
+    "R9",
+    "R13",
+    "U5"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "(c) The third 6 weeks for mothers who give birth. Bargaining unit faculty members",
+     "who give birth and qualify pursuant to the OFLA may take up to an additional 6"
+    ],
+    "eligible_parent": [
+     "In addition to the 12 weeks of family leave authorized by subsection (1) of this section, a female eligible employee may take a total of 12 weeks of leave within any one-year period for an illness, injury or condition related to pregnancy or childbirth that disables the eligible employee from performing any available job duties offered by the covered employer.",
+     "(c) The third 6 weeks for mothers who give birth. Bargaining unit faculty members"
+    ],
+    "entitlement": [
+     "In addition to the 12 weeks of family leave authorized by subsection (1) of this section, a female eligible employee may take a total of 12 weeks of leave within any one-year period for an illness, injury or condition related to pregnancy or childbirth that disables the eligible employee from performing any available job duties offered by the covered employer."
+    ],
+    "duration": [
+     "In addition to the 12 weeks of family leave authorized by subsection (1) of this section, a female eligible employee may take a total of 12 weeks of leave within any one-year period for an illness, injury or condition related to pregnancy or childbirth that disables the eligible employee from performing any available job duties offered by the covered employer."
+    ],
+    "service_requirement": [
+     "An employee who worked an average of fewer than 25 hours per week for the covered employer during the 180 days immediately preceding the date on which the family leave would commence."
+    ],
+    "medical_certification": [
+     "In addition to the 12 weeks of family leave authorized by subsection (1) of this section, a female eligible employee may take a total of 12 weeks of leave within any one-year period for an illness, injury or condition related to pregnancy or childbirth that disables the eligible employee from performing any available job duties offered by the covered employer."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_ua_cba_2015_2018",
+    "2018_20_or_ors659A_2017_edition"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "U4",
+     "answer": "unpaid_leave",
+     "quote": "who give birth and qualify pursuant to the OFLA may take up to an additional 6"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "In addition to the 12 weeks of family leave authorized by subsection (1) of this section, a female eligible employee may take a total of 12 weeks of leave within any one-year period for an illness, injury or condition related to pregnancy or childbirth that disables the eligible employee from performing any available job duties offered by the covered employer."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "In addition to the 12 weeks of family leave authorized by subsection (1) of this section, a female eligible employee may take a total of 12 weeks of leave within any one-year period for an illness, injury or condition related to pregnancy or childbirth that disables the eligible employee from performing any available job duties offered by the covered employer."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "who give birth and qualify pursuant to the OFLA may take up to an additional 6"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own pregnancy-related disability)",
+     "quote": "In addition to the 12 weeks of family leave authorized by subsection (1) of this section, a female eligible employee may take a total of 12 weeks of leave within any one-year period for an illness, injury or condition related to pregnancy or childbirth that disables the eligible employee from performing any available job duties offered by the covered employer."
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "In addition to the 12 weeks of family leave authorized by subsection (1) of this section, a female eligible employee may take a total of 12 weeks of leave within any one-year period for an illness, injury or condition related to pregnancy or childbirth that disables the eligible employee from performing any available job duties offered by the covered employer."
+    },
+    {
+     "field": "duration",
+     "rule": "U4",
+     "answer": "12 weeks exact: statutory extension relied on by Sec. 11(c), counted at its maximum",
+     "quote": "In addition to the 12 weeks of family leave authorized by subsection (1) of this section, a female eligible employee may take a total of 12 weeks of leave within any one-year period for an illness, injury or condition related to pregnancy or childbirth that disables the eligible employee from performing any available job duties offered by the covered employer."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U2",
+     "answer": "180 days and 25 hours per week (ORS 659A.156(1))",
+     "quote": "An employee who worked an average of fewer than 25 hours per week for the covered employer during the 180 days immediately preceding the date on which the family leave would commence."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave)",
+     "quote": "weeks of parental leave. The faculty member may use accrued sick leave during this"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "component_id": "university_of_oregon_c4",
+   "institution_label": "The first 6 weeks",
+   "description": "CBA Art. 32 Sec. 11(a): the first six weeks of FMLA/OFLA parental leave at full pay; the faculty member first uses short-term disability benefits, vacation and all but 80 hours of sick leave, and the University provides paid parental leave for any shortfall so that six weeks are fully paid. Both parents if both are University employees.",
+   "mechanism": "employer_paid_leave",
+   "mechanism_note": "dedicated parental pay that the employer guarantees for the whole six weeks after the employee's balances are drawn (R1c, R1d)",
+   "payer": "mixed",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "'Tenure-track and Career NTTF bargaining unit faculty members'; 'Tenure-track' read as the Tenure-Track and Tenured Professor classification (Art. 15 Sec. 2(a), Art. 46 'TTF')",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "bargaining unit faculty member who takes leave upon the birth or adoption of a child; 'both parents'",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 6,
+    "units": "week",
+    "qualifier": "exact"
+   },
+   "pay_fraction": "full pay",
+   "must_exhaust_first": [
+    "short_term_disability",
+    "vacation",
+    "sick (all but 80 hours)"
+   ],
+   "dual_employee_rule": "both parents entitled if both are University employees",
+   "service_requirement": "eligible for leave under FMLA or OFLA",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "sequence": [
+    {
+     "relation": "within",
+     "component_id": "university_of_oregon_c1",
+     "note": "pay for the statutory leave (S1): 'may take leave under FMLA or OFLA with pay'"
+    }
+   ],
+   "rule_applied": [
+    "R1c",
+    "R1d",
+    "S1",
+    "R9",
+    "V2",
+    "U8"
+   ],
+   "flags": [
+    "ambiguous: faculty group: Sec. 11 says 'Tenure-track' bargaining unit faculty; read as the Tenure-Track and Tenured Professor classification (Art. 15 Sec. 2(a))",
+    "cross_reference_not_saved: Parental Leave Guidelines and Frequently Asked Questions (HR, represented faculty, linked from 2018_02)"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Section 11. Tenure-track and Career NTTF bargaining unit faculty members may take",
+     "includes tenure-related faculty, non-tenure-track faculty, adjunct faculty, post-retired or"
+    ],
+    "eligible_parent": [
+     "leave upon the birth or adoption of a child as provided by the Family Medical Leave Act",
+     "If both parents are employees of the University, both parents are entitled to parental leave"
+    ],
+    "entitlement": [
+     "University will provide the faculty member with the necessary amount of paid",
+     "parental leave to allow the faculty member to receive a total of six weeks paid"
+    ],
+    "duration": [
+     "parental leave to allow the faculty member to receive a total of six weeks paid"
+    ],
+    "pay_fraction": [
+     "insurance benefits and accrued paid leave to cover six weeks with full pay, the"
+    ],
+    "service_requirement": [
+     "Section 11. Tenure-track and Career NTTF bargaining unit faculty members may take",
+     "leave under FMLA or OFLA with pay, in the following manner:"
+    ],
+    "sequence": [
+     "leave under FMLA or OFLA with pay, in the following manner:"
+    ],
+    "must_exhaust_first": [
+     "faculty member must use any available Short-Term Disability Insurance benefits,",
+     "all accrued vacation leave and all but 80 hours of accrued sick leave. If the"
+    ],
+    "dual_employee_rule": [
+     "If both parents are employees of the University, both parents are entitled to parental leave"
+    ]
+   },
+   "doc_ids": [
+    "2018_01_ua_cba_2015_2018",
+    "2018_02_hr_parental_leave_represented_faculty"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1c",
+     "answer": "employer_paid_leave",
+     "quote": "University will provide the faculty member with the necessary amount of paid"
+    },
+    {
+     "field": "payer",
+     "rule": "R1c",
+     "answer": "mixed",
+     "quote": "faculty member must use any available Short-Term Disability Insurance benefits,"
+    },
+    {
+     "field": "payer",
+     "rule": "R1d",
+     "answer": "mixed",
+     "quote": "insurance benefits and accrued paid leave to cover six weeks with full pay, the"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "leave upon the birth or adoption of a child as provided by the Family Medical Leave Act"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Section 11. Tenure-track and Career NTTF bargaining unit faculty members may take"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent (role-neutral; both parents)",
+     "quote": "If both parents are employees of the University, both parents are entitled to parental leave"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "University will provide the faculty member with the necessary amount of paid"
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "6 weeks exact",
+     "quote": "parental leave to allow the faculty member to receive a total of six weeks paid"
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "full pay",
+     "quote": "insurance benefits and accrued paid leave to cover six weeks with full pay, the"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U8",
+     "answer": "eligible for FMLA or OFLA leave",
+     "quote": "leave under FMLA or OFLA with pay, in the following manner:"
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (paid parental leave, relief not stated)",
+     "quote": "parental leave to allow the faculty member to receive a total of six weeks paid"
+    },
+    {
+     "field": "sequence",
+     "rule": "S1",
+     "answer": "within c1 (pay within the statutory leave)",
+     "quote": "leave under FMLA or OFLA with pay, in the following manner:"
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_oregon_c5",
+   "institution_label": "The second 6 weeks",
+   "description": "CBA Art. 32 Sec. 11(b): the remaining six weeks of the 12-week FMLA/OFLA parental leave may be paid from the faculty member's accrued sick leave, or from advanced sick leave (repaid from later accruals, Sec. 7).",
+   "mechanism": "own_accrual",
+   "payer": "own_balance",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "'Tenure-track and Career NTTF bargaining unit faculty members' (Sec. 11)",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "bargaining unit faculty members; 'both parents'",
+   "entitlement": "guaranteed_on_request",
+   "duration": {
+    "value": 6,
+    "units": "workweek",
+    "qualifier": "exact"
+   },
+   "duration_note": "'remaining six weeks of parental leave (for a total of 12 work weeks of leave)'",
+   "dual_employee_rule": "both parents entitled if both are University employees",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "university_of_oregon_c4"
+    },
+    {
+     "relation": "within",
+     "component_id": "university_of_oregon_c1",
+     "note": "overlap only; placed by consecutive_after c4 (R15)"
+    }
+   ],
+   "rule_applied": [
+    "R1",
+    "R1d",
+    "R9",
+    "R15",
+    "S1",
+    "V2"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Section 11. Tenure-track and Career NTTF bargaining unit faculty members may take"
+    ],
+    "eligible_parent": [
+     "If both parents are employees of the University, both parents are entitled to parental leave"
+    ],
+    "entitlement": [
+     "(b) The second 6 weeks. Bargaining unit faculty members may use accrued sick leave"
+    ],
+    "duration": [
+     "for his or her remaining six weeks of parental leave (for a total of 12 work weeks"
+    ],
+    "sequence": [
+     "for his or her remaining six weeks of parental leave (for a total of 12 work weeks"
+    ],
+    "payer": [
+     "sick leave, employees may borrow advanced sick leave for the remainder of the",
+     "leave is earned, the amount shall replace any sick leave advanced until all advanced time"
+    ]
+   },
+   "doc_ids": [
+    "2018_01_ua_cba_2015_2018"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "own_accrual",
+     "quote": "(b) The second 6 weeks. Bargaining unit faculty members may use accrued sick leave"
+    },
+    {
+     "field": "payer",
+     "rule": "R1d",
+     "answer": "own_balance",
+     "quote": "leave is earned, the amount shall replace any sick leave advanced until all advanced time"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "for his or her remaining six weeks of parental leave (for a total of 12 work weeks"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Section 11. Tenure-track and Career NTTF bargaining unit faculty members may take"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "If both parents are employees of the University, both parents are entitled to parental leave"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "(b) The second 6 weeks. Bargaining unit faculty members may use accrued sick leave"
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "6 weeks exact",
+     "quote": "for his or her remaining six weeks of parental leave (for a total of 12 work weeks"
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (parental leave weeks)",
+     "quote": "for his or her remaining six weeks of parental leave (for a total of 12 work weeks"
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "consecutive_after c4: the second six weeks follow the first",
+     "quote": "for his or her remaining six weeks of parental leave (for a total of 12 work weeks"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "component_id": "university_of_oregon_c6",
+   "institution_label": "The third 6 weeks for mothers who give birth",
+   "description": "CBA Art. 32 Sec. 11(c): a faculty member who gives birth and qualifies under OFLA may take up to six more weeks of parental leave, paid from accrued sick leave; the leave itself is OFLA's pregnancy-disability leave (c3).",
+   "mechanism": "own_accrual",
+   "payer": "own_balance",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "'Bargaining unit faculty members who give birth and qualify pursuant to the OFLA'",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "mothers who give birth",
+   "entitlement": "guaranteed_on_request",
+   "duration": {
+    "value": 6,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "service_requirement": "qualify pursuant to the OFLA",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "university_of_oregon_c5",
+     "note": "the third six weeks follow the second; the leave time is OFLA's (c3/c2)"
+    }
+   ],
+   "rule_applied": [
+    "R1",
+    "R9",
+    "R15",
+    "V2",
+    "U4"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "(c) The third 6 weeks for mothers who give birth. Bargaining unit faculty members"
+    ],
+    "eligible_parent": [
+     "(c) The third 6 weeks for mothers who give birth. Bargaining unit faculty members",
+     "who give birth and qualify pursuant to the OFLA may take up to an additional 6"
+    ],
+    "entitlement": [
+     "who give birth and qualify pursuant to the OFLA may take up to an additional 6"
+    ],
+    "duration": [
+     "who give birth and qualify pursuant to the OFLA may take up to an additional 6"
+    ],
+    "service_requirement": [
+     "who give birth and qualify pursuant to the OFLA may take up to an additional 6"
+    ],
+    "sequence": [
+     "(c) The third 6 weeks for mothers who give birth. Bargaining unit faculty members"
+    ],
+    "payer": [
+     "weeks of parental leave. The faculty member may use accrued sick leave during this"
+    ]
+   },
+   "doc_ids": [
+    "2018_01_ua_cba_2015_2018"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "own_accrual",
+     "quote": "weeks of parental leave. The faculty member may use accrued sick leave during this"
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "own_balance",
+     "quote": "weeks of parental leave. The faculty member may use accrued sick leave during this"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "(c) The third 6 weeks for mothers who give birth. Bargaining unit faculty members"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "who give birth and qualify pursuant to the OFLA may take up to an additional 6"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "birth_parent",
+     "quote": "(c) The third 6 weeks for mothers who give birth. Bargaining unit faculty members"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "who give birth and qualify pursuant to the OFLA may take up to an additional 6"
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "6 weeks up_to",
+     "quote": "who give birth and qualify pursuant to the OFLA may take up to an additional 6"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "qualify pursuant to the OFLA",
+     "quote": "who give birth and qualify pursuant to the OFLA may take up to an additional 6"
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (parental leave weeks)",
+     "quote": "weeks of parental leave. The faculty member may use accrued sick leave during this"
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "consecutive_after c5 ('The third 6 weeks')",
+     "quote": "(c) The third 6 weeks for mothers who give birth. Bargaining unit faculty members"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "component_id": "university_of_oregon_c7",
+   "institution_label": "modified duties",
+   "description": "CBA Art. 32 Sec. 12: within six months after a birth or adoption, a faculty member eligible for FMLA/OFLA leave may take up to one term of modified duties at full pay, with full or partial release from classroom and classroom-related teaching, without using sick leave.",
+   "mechanism": "modified_duties",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "'A Tenure-track or Career NTTF faculty member'",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "faculty member ... following birth or adoption",
+   "entitlement": "guaranteed_on_request",
+   "duration": {
+    "value": 1,
+    "units": "term",
+    "qualifier": "up_to"
+   },
+   "pay_fraction": "full pay",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "continues",
+    "research": "continues",
+    "advising_supervision": "continues",
+    "clinical": "continues"
+   },
+   "relief_inferred": "unnamed duties continue (R4b)",
+   "relief_note": "'full or partial release from classroom and classroom-related teaching responsibilities'; the text does not say who chooses full or partial release",
+   "time_window": "within six months after the birth or adoption",
+   "service_requirement": "eligible for leave under the FMLA or OFLA",
+   "sequence": [
+    {
+     "relation": "also_available",
+     "component_id": "university_of_oregon_c4",
+     "note": "no order stated; the term falls within six months of the birth (R3d)"
+    }
+   ],
+   "rule_applied": [
+    "V2",
+    "R4",
+    "R4b",
+    "R3d",
+    "R8",
+    "U8"
+   ],
+   "flags": [
+    "ambiguous: relief may be 'full or partial release' from teaching; the amount of release is not fixed by the text"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Section 12. A Tenure-track or Career NTTF faculty member who is eligible for leave"
+    ],
+    "eligible_parent": [
+     "responsibilities at full pay following birth or adoption, without using accrued or advanced"
+    ],
+    "entitlement": [
+     "under the FMLA or OFLA also has the option, within six months after the birth or",
+     "adoption of a child, to take up to one term of modified duties at full pay status. Modified"
+    ],
+    "duration": [
+     "adoption of a child, to take up to one term of modified duties at full pay status. Modified"
+    ],
+    "pay_fraction": [
+     "adoption of a child, to take up to one term of modified duties at full pay status. Modified"
+    ],
+    "relief": [
+     "duties status provides full or partial release from classroom and classroom-related teaching",
+     "responsibilities at full pay following birth or adoption, without using accrued or advanced"
+    ],
+    "service_requirement": [
+     "Section 12. A Tenure-track or Career NTTF faculty member who is eligible for leave",
+     "under the FMLA or OFLA also has the option, within six months after the birth or"
+    ],
+    "sequence": [
+     "under the FMLA or OFLA also has the option, within six months after the birth or"
+    ],
+    "time_window": [
+     "under the FMLA or OFLA also has the option, within six months after the birth or"
+    ]
+   },
+   "doc_ids": [
+    "2018_01_ua_cba_2015_2018",
+    "2018_02_hr_parental_leave_represented_faculty"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "modified_duties",
+     "quote": "adoption of a child, to take up to one term of modified duties at full pay status. Modified"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "responsibilities at full pay following birth or adoption, without using accrued or advanced"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "responsibilities at full pay following birth or adoption, without using accrued or advanced"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Section 12. A Tenure-track or Career NTTF faculty member who is eligible for leave"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "responsibilities at full pay following birth or adoption, without using accrued or advanced"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "under the FMLA or OFLA also has the option, within six months after the birth or"
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 term up_to",
+     "quote": "adoption of a child, to take up to one term of modified duties at full pay status. Modified"
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "full pay",
+     "quote": "adoption of a child, to take up to one term of modified duties at full pay status. Modified"
+    },
+    {
+     "field": "relief",
+     "rule": "R4",
+     "answer": "teaching relieved",
+     "quote": "duties status provides full or partial release from classroom and classroom-related teaching"
+    },
+    {
+     "field": "relief",
+     "rule": "R4b",
+     "answer": "service, research, advising, clinical continue (unnamed)",
+     "quote": "duties status provides full or partial release from classroom and classroom-related teaching"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U8",
+     "answer": "eligible for FMLA or OFLA leave",
+     "quote": "Section 12. A Tenure-track or Career NTTF faculty member who is eligible for leave"
+    },
+    {
+     "field": "sequence",
+     "rule": "R3d",
+     "answer": "also_available with c4 (no order stated)",
+     "quote": "under the FMLA or OFLA also has the option, within six months after the birth or"
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_oregon_c8",
+   "institution_label": "",
+   "description": "CBA Art. 32 Sec. 13: tenure-track faculty who experience pregnancy, childbirth or adoption, or use parental leave, may take an additional probationary year before tenure or promotion review.",
+   "mechanism": "tenure_clock",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "'Bargaining unit faculty members in the Tenure-Track and Tenured Professor classification'",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "who experience pregnancy, childbirth, or the adoption of a child and/or utilize parental leave",
+   "entitlement": "guaranteed_on_request",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "exact"
+   },
+   "rule_applied": [
+    "V2",
+    "U1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Section 13. Bargaining unit faculty members in the Tenure-Track and Tenured Professor"
+    ],
+    "eligible_parent": [
+     "classification who experience pregnancy, childbirth, or the adoption of a child and/or",
+     "utilize parental leave shall have the option of an additional probationary year before a"
+    ],
+    "entitlement": [
+     "utilize parental leave shall have the option of an additional probationary year before a"
+    ],
+    "duration": [
+     "utilize parental leave shall have the option of an additional probationary year before a"
+    ]
+   },
+   "doc_ids": [
+    "2018_01_ua_cba_2015_2018",
+    "2018_02_hr_parental_leave_represented_faculty"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "utilize parental leave shall have the option of an additional probationary year before a"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "classification who experience pregnancy, childbirth, or the adoption of a child and/or"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Section 13. Bargaining unit faculty members in the Tenure-Track and Tenured Professor"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "birth_parent, non_birth_parent (uses parental leave), adoptive",
+     "quote": "classification who experience pregnancy, childbirth, or the adoption of a child and/or"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "utilize parental leave shall have the option of an additional probationary year before a"
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 year exact",
+     "quote": "utilize parental leave shall have the option of an additional probationary year before a"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "component_id": "university_of_oregon_c9",
+   "institution_label": "Stopping of the “Tenure Review Clock.”",
+   "description": "CBA Art. 20 Sec. 28(1): at the faculty member's discretion, the tenure review clock may be stopped for one year upon the birth or adoption of a child; the choice is made at the start of the leave or absence.",
+   "mechanism": "tenure_clock",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Art. 20 applies to 'bargaining unit faculty members in the Tenure-Track and Tenured Professor classifications'",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "upon the birth or adoption of a child",
+   "entitlement": "guaranteed_on_request",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "exact"
+   },
+   "notice": "must opt at the start of the leave or absence",
+   "rule_applied": [
+    "V2",
+    "U1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Section 1. This Article applies only to bargaining unit faculty members in the Tenure-"
+    ],
+    "eligible_parent": [
+     "The tenure review clock may be stopped: (1) for one year upon the birth or adoption of a"
+    ],
+    "entitlement": [
+     "stopped in the following circumstances, at the bargaining unit faculty member’s discretion."
+    ],
+    "duration": [
+     "The tenure review clock may be stopped: (1) for one year upon the birth or adoption of a"
+    ]
+   },
+   "doc_ids": [
+    "2018_01_ua_cba_2015_2018"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "The tenure review clock may be stopped: (1) for one year upon the birth or adoption of a"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "The tenure review clock may be stopped: (1) for one year upon the birth or adoption of a"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Section 1. This Article applies only to bargaining unit faculty members in the Tenure-"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "The tenure review clock may be stopped: (1) for one year upon the birth or adoption of a"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "stopped in the following circumstances, at the bargaining unit faculty member’s discretion."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 year exact",
+     "quote": "The tenure review clock may be stopped: (1) for one year upon the birth or adoption of a"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "component_id": "university_of_oregon_c10",
+   "institution_label": "",
+   "description": "CBA Art. 20 Sec. 28(2): the tenure review clock may be stopped for up to two years for approved leaves of absence without pay lasting two or more terms, for any purpose.",
+   "mechanism": "tenure_clock",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Art. 20: Tenure-Track and Tenured Professor classifications",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "entitlement": "guaranteed_on_request",
+   "duration": {
+    "value": 2,
+    "units": "year",
+    "qualifier": "up_to"
+   },
+   "rule_applied": [
+    "U1",
+    "V2"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Section 1. This Article applies only to bargaining unit faculty members in the Tenure-"
+    ],
+    "eligible_parent": [
+     "child; (2) for up to two years for approved leaves of absence without pay lasting two or"
+    ],
+    "entitlement": [
+     "stopped in the following circumstances, at the bargaining unit faculty member’s discretion."
+    ],
+    "duration": [
+     "child; (2) for up to two years for approved leaves of absence without pay lasting two or"
+    ]
+   },
+   "doc_ids": [
+    "2018_01_ua_cba_2015_2018"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "child; (2) for up to two years for approved leaves of absence without pay lasting two or"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "child; (2) for up to two years for approved leaves of absence without pay lasting two or"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Section 1. This Article applies only to bargaining unit faculty members in the Tenure-"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U1",
+     "answer": "any_parent (any approved unpaid leave)",
+     "quote": "child; (2) for up to two years for approved leaves of absence without pay lasting two or"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "stopped in the following circumstances, at the bargaining unit faculty member’s discretion."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "2 years up_to",
+     "quote": "child; (2) for up to two years for approved leaves of absence without pay lasting two or"
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_oregon_c11",
+   "institution_label": "",
+   "description": "CBA Art. 20 Sec. 28(3): the tenure review clock may be stopped in other extraordinary circumstances approved by the Provost.",
+   "mechanism": "tenure_clock",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Art. 20: Tenure-Track and Tenured Professor classifications",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "entitlement": "discretionary",
+   "rule_applied": [
+    "U1",
+    "V2"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Section 1. This Article applies only to bargaining unit faculty members in the Tenure-"
+    ],
+    "eligible_parent": [
+     "more terms; or (3) in other extraordinary circumstances as approved by the Provost or"
+    ],
+    "entitlement": [
+     "more terms; or (3) in other extraordinary circumstances as approved by the Provost or"
+    ]
+   },
+   "doc_ids": [
+    "2018_01_ua_cba_2015_2018"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "more terms; or (3) in other extraordinary circumstances as approved by the Provost or"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "more terms; or (3) in other extraordinary circumstances as approved by the Provost or"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Section 1. This Article applies only to bargaining unit faculty members in the Tenure-"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U1",
+     "answer": "any_parent",
+     "quote": "more terms; or (3) in other extraordinary circumstances as approved by the Provost or"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "more terms; or (3) in other extraordinary circumstances as approved by the Provost or"
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_oregon_c12",
+   "institution_label": "",
+   "description": "CBA Art. 20 Sec. 2: the period of any approved leave of absence does not count toward tenure unless the faculty member elects otherwise.",
+   "mechanism": "tenure_clock",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Art. 20: Tenure-Track and Tenured Professor classifications",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "entitlement": "guaranteed",
+   "rule_applied": [
+    "U1",
+    "V2"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Section 1. This Article applies only to bargaining unit faculty members in the Tenure-"
+    ],
+    "eligible_parent": [
+     "of absence. The period of an approved leave of absence does not count toward"
+    ],
+    "entitlement": [
+     "of absence. The period of an approved leave of absence does not count toward",
+     "consideration for tenure unless the bargaining unit faculty member elects otherwise."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_ua_cba_2015_2018"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "of absence. The period of an approved leave of absence does not count toward"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "of absence. The period of an approved leave of absence does not count toward"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Section 1. This Article applies only to bargaining unit faculty members in the Tenure-"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U1",
+     "answer": "any_parent (any approved leave)",
+     "quote": "of absence. The period of an approved leave of absence does not count toward"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "consideration for tenure unless the bargaining unit faculty member elects otherwise."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_oregon_c13",
+   "institution_label": "Tenure Extension of Probationary Period Because of New Baby or Childbirth or Adoption",
+   "description": "UO policy (effective 1985, updated 2000): at the faculty member's request the University will consider a special agreement extending the tenure probationary period by one year after a birth or adoption; request within 12 months.",
+   "mechanism": "tenure_clock",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "'non tenured faculty members who are in regular tenure-related, fixed-term appointments'",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "A faculty member who has assumed responsibility through birth or adoption for a new baby or child",
+   "entitlement": "discretionary",
+   "entitlement_note": "'will consider entering into a special agreement': the approval decides whether there is an extension (V2)",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "exact"
+   },
+   "time_window": "request no later than twelve months after birth or adoption",
+   "rule_applied": [
+    "V2",
+    "U9"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "This policy will apply only to those non tenured faculty members who are in regular tenure-related, fixed-term appointments."
+    ],
+    "eligible_parent": [
+     "A faculty member who has assumed responsibility through birth or adoption for a new baby or child"
+    ],
+    "entitlement": [
+     "the University, at the request of the faculty member, will consider entering into a special agreement to extend the probationary period for one year before mandatory consideration for indefinite tenure is given."
+    ],
+    "duration": [
+     "the University, at the request of the faculty member, will consider entering into a special agreement to extend the probationary period for one year before mandatory consideration for indefinite tenure is given."
+    ],
+    "time_window": [
+     "A faculty member who requests an extension of the tenure probationary period must initiate the request no later than twelve months after birth or adoption of a new baby or child."
+    ]
+   },
+   "doc_ids": [
+    "2018_06_uo_policy_tenure_extension_new_baby_adoption"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "the University, at the request of the faculty member, will consider entering into a special agreement to extend the probationary period for one year before mandatory consideration for indefinite tenure is given."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "A faculty member who has assumed responsibility through birth or adoption for a new baby or child"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "This policy will apply only to those non tenured faculty members who are in regular tenure-related, fixed-term appointments."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "A faculty member who has assumed responsibility through birth or adoption for a new baby or child"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "the University, at the request of the faculty member, will consider entering into a special agreement to extend the probationary period for one year before mandatory consideration for indefinite tenure is given."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 year exact",
+     "quote": "the University, at the request of the faculty member, will consider entering into a special agreement to extend the probationary period for one year before mandatory consideration for indefinite tenure is given."
+    },
+    {
+     "field": "use_limit",
+     "rule": "U9",
+     "answer": "no limit: renews for each new baby or child",
+     "quote": "Requests for an extension may be made for each new baby or child."
+    }
+   ],
+   "flags": []
+  },
+  {
+   "component_id": "university_of_oregon_c14",
+   "institution_label": "Sick Leave",
+   "description": "CBA Art. 32 Secs. 3-5: faculty at 1.0 FTE earn 8 hours of sick leave per month (pro rata at .5 FTE or more), with no accrual cap, used for own illness or pregnancy-related illness and for attending ill immediate family.",
+   "mechanism": "own_accrual",
+   "payer": "own_balance",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "'All bargaining unit faculty members appointed at 1.0 FTE'; .5 FTE or greater pro rata",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent"
+   ],
+   "eligible_parent_wording": "employee's illness, injury, pregnancy-related illness; attendance upon members of the employee's immediate family",
+   "entitlement": "guaranteed",
+   "service_requirement": "appointment at .5 FTE or greater (pro rata below 1.0 FTE)",
+   "medical_certification": true,
+   "medical_certification_note": "physician's certificate may be required for absences over 15 consecutive days or recurring use",
+   "rule_applied": [
+    "R1",
+    "U5"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Section 3. All bargaining unit faculty members appointed at 1.0 FTE will be credited"
+    ],
+    "eligible_parent": [
+     "employee's appointment, if the absence is due to the employee's illness, injury, pregnancy-",
+     "or attendance upon members of the employee's immediate family (employee's parent(s),"
+    ],
+    "entitlement": [
+     "Section 3. All bargaining unit faculty members appointed at 1.0 FTE will be credited",
+     "with eight hours of sick leave for each full month of employment, or two hours for each"
+    ],
+    "service_requirement": [
+     "FTE or greater will be credited with a pro rata amount."
+    ],
+    "medical_certification": [
+     "The University may require a physician's certificate to support the sick leave claim for any",
+     "absence in excess of 15 consecutive days or for recurring sick leave use."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_ua_cba_2015_2018"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "own_accrual",
+     "quote": "with eight hours of sick leave for each full month of employment, or two hours for each"
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "own_balance",
+     "quote": "with eight hours of sick leave for each full month of employment, or two hours for each"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "employee's appointment, if the absence is due to the employee's illness, injury, pregnancy-"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Section 3. All bargaining unit faculty members appointed at 1.0 FTE will be credited"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own illness), non_birth_parent (care of ill family)",
+     "quote": "or attendance upon members of the employee's immediate family (employee's parent(s),"
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "Section 3. All bargaining unit faculty members appointed at 1.0 FTE will be credited"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": ".5 FTE or greater",
+     "quote": "FTE or greater will be credited with a pro rata amount."
+    }
+   ],
+   "flags": []
+  },
+  {
+   "component_id": "university_of_oregon_c15",
+   "institution_label": "Sick Leave Advance",
+   "description": "CBA Art. 32 Sec. 7: salary continuance for up to 90 calendar days of absence for the faculty member's own health condition or parental leave, through accrued sick leave plus an advance (to 520 hours at 1.0 FTE) repaid from later accruals.",
+   "mechanism": "own_accrual",
+   "payer": "own_balance",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "'Bargaining unit faculty members who earn paid sick leave'",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "employee's own health condition or Parental Leave",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 90,
+    "units": "calendar_day",
+    "qualifier": "up_to"
+   },
+   "duration_note": "no more than 520 advanced hours in a seven-year period; an advance may not extend past the end of the current appointment without Provost approval",
+   "rule_applied": [
+    "R1",
+    "R1d",
+    "R11b"
+   ],
+   "flags": [
+    "ambiguous: restriction: advance capped at 520 hours per seven-year period and at the end of the current appointment",
+    "ambiguous: Sec. 7 names 'Parental Leave as described in Section 8 of this Article', but parental leave is now Secs. 10-13 (Sec. 8 is sick-leave transfer); read as Sec. 11"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Section 7. Sick Leave Advance. Bargaining unit faculty members who earn paid sick"
+    ],
+    "eligible_parent": [
+     "Qualifying events for sick leave advance are limited to the employee’s own health",
+     "condition or Parental Leave as described in Section 8 of this Article."
+    ],
+    "entitlement": [
+     "member employed at 1.0 FTE is entitled to receive a sick-leave-with- pay advance as"
+    ],
+    "duration": [
+     "leave are also eligible for salary continuance for up to 90 calendar days of absence due to",
+     "illness through a combination of accrued sick leave and advanced sick leave. Each faculty"
+    ],
+    "payer": [
+     "leave is earned, the amount shall replace any sick leave advanced until all advanced time",
+     "is replaced with earned time. No more than a 520-hour sick leave advance is available"
+    ]
+   },
+   "doc_ids": [
+    "2018_01_ua_cba_2015_2018"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "own_accrual",
+     "quote": "illness through a combination of accrued sick leave and advanced sick leave. Each faculty"
+    },
+    {
+     "field": "payer",
+     "rule": "R1d",
+     "answer": "own_balance",
+     "quote": "leave is earned, the amount shall replace any sick leave advanced until all advanced time"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Qualifying events for sick leave advance are limited to the employee’s own health"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Section 7. Sick Leave Advance. Bargaining unit faculty members who earn paid sick"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own health); both parents via parental leave",
+     "quote": "condition or Parental Leave as described in Section 8 of this Article."
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "member employed at 1.0 FTE is entitled to receive a sick-leave-with- pay advance as"
+    },
+    {
+     "field": "duration",
+     "rule": "R11b",
+     "answer": "90 calendar days up_to",
+     "quote": "leave are also eligible for salary continuance for up to 90 calendar days of absence due to"
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_oregon_c16",
+   "institution_label": "Short-Term Disability Insurance",
+   "description": "CBA Art. 32 Sec. 6: faculty at .50 FTE or more are eligible for salary continuance under the short-term disability insurance policy the University makes available; no length, pay level or premium payer stated. Sec. 11(a) draws on it within the first six paid weeks.",
+   "mechanism": "generic_sick_or_disability_plan",
+   "payer": "insurance_plan",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "'Bargaining unit faculty members employed at .50 FTE or greater'",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "entitlement": "guaranteed_on_request",
+   "service_requirement": ".50 FTE or greater",
+   "rule_applied": [
+    "V1",
+    "V6",
+    "M1",
+    "R1d"
+   ],
+   "flags": [
+    "cross_reference_not_saved: Short-Term Disability Insurance policy",
+    "ambiguous: who pays the premiums is not stated ('made available through the University'); payer coded insurance_plan"
+   ],
+   "evidence": {
+    "mechanism": [
+     "or greater are eligible for salary continuance under the Short-Term and Long-Term"
+    ],
+    "faculty_group": [
+     "Section 6. Disability Insurance. Bargaining unit faculty members employed at .50 FTE"
+    ],
+    "eligible_parent": [
+     "or greater are eligible for salary continuance under the Short-Term and Long-Term"
+    ],
+    "entitlement": [
+     "or greater are eligible for salary continuance under the Short-Term and Long-Term"
+    ],
+    "service_requirement": [
+     "Section 6. Disability Insurance. Bargaining unit faculty members employed at .50 FTE"
+    ]
+   },
+   "doc_ids": [
+    "2018_01_ua_cba_2015_2018"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "V1",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "or greater are eligible for salary continuance under the Short-Term and Long-Term"
+    },
+    {
+     "field": "payer",
+     "rule": "M1",
+     "answer": "insurance_plan",
+     "quote": "Disability Insurance policies made available through the University."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "or greater are eligible for salary continuance under the Short-Term and Long-Term"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Section 6. Disability Insurance. Bargaining unit faculty members employed at .50 FTE"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own disability)",
+     "quote": "or greater are eligible for salary continuance under the Short-Term and Long-Term"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "or greater are eligible for salary continuance under the Short-Term and Long-Term"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": ".50 FTE or greater",
+     "quote": "Section 6. Disability Insurance. Bargaining unit faculty members employed at .50 FTE"
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_oregon_c17",
+   "institution_label": "",
+   "description": "CBA Art. 32 Sec. 6: long-term disability salary continuance policy made available through the University for faculty at .50 FTE or more (recorded without a length, schema §2).",
+   "mechanism": "generic_sick_or_disability_plan",
+   "payer": "insurance_plan",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "'Bargaining unit faculty members employed at .50 FTE or greater'",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "entitlement": "guaranteed_on_request",
+   "service_requirement": ".50 FTE or greater",
+   "rule_applied": [
+    "M1",
+    "R1d"
+   ],
+   "flags": [
+    "cross_reference_not_saved: Long-Term Disability Insurance policy",
+    "ambiguous: who pays the premiums is not stated; payer coded insurance_plan"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Section 6. Disability Insurance. Bargaining unit faculty members employed at .50 FTE"
+    ],
+    "eligible_parent": [
+     "or greater are eligible for salary continuance under the Short-Term and Long-Term"
+    ],
+    "entitlement": [
+     "or greater are eligible for salary continuance under the Short-Term and Long-Term"
+    ],
+    "service_requirement": [
+     "Section 6. Disability Insurance. Bargaining unit faculty members employed at .50 FTE"
+    ]
+   },
+   "doc_ids": [
+    "2018_01_ua_cba_2015_2018"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "or greater are eligible for salary continuance under the Short-Term and Long-Term"
+    },
+    {
+     "field": "payer",
+     "rule": "M1",
+     "answer": "insurance_plan",
+     "quote": "Disability Insurance policies made available through the University."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "or greater are eligible for salary continuance under the Short-Term and Long-Term"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Section 6. Disability Insurance. Bargaining unit faculty members employed at .50 FTE"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent",
+     "quote": "or greater are eligible for salary continuance under the Short-Term and Long-Term"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "or greater are eligible for salary continuance under the Short-Term and Long-Term"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": ".50 FTE or greater",
+     "quote": "Section 6. Disability Insurance. Bargaining unit faculty members employed at .50 FTE"
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_oregon_c18",
+   "institution_label": "Leave Without Pay",
+   "description": "CBA Art. 32 Sec. 24: leave without pay at the Provost's discretion, for any purpose, up to two academic or fiscal years.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "'A bargaining unit faculty member'",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "entitlement": "discretionary",
+   "duration": {
+    "value": 2,
+    "units": "year",
+    "qualifier": "up_to"
+   },
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "rule_applied": [
+    "U1",
+    "V2",
+    "R9"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Section 24. A bargaining unit faculty member may petition the Provost or designee to be"
+    ],
+    "eligible_parent": [
+     "Section 24. A bargaining unit faculty member may petition the Provost or designee to be"
+    ],
+    "entitlement": [
+     "granted leave without pay. The granting of leave without pay is in the discretion of the"
+    ],
+    "duration": [
+     "Provost or designee. If granted, leave without pay may not exceed two academic or fiscal"
+    ]
+   },
+   "doc_ids": [
+    "2018_01_ua_cba_2015_2018"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "granted leave without pay. The granting of leave without pay is in the discretion of the"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "granted leave without pay. The granting of leave without pay is in the discretion of the"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "Section 24. A bargaining unit faculty member may petition the Provost or designee to be"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Section 24. A bargaining unit faculty member may petition the Provost or designee to be"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U1",
+     "answer": "any_parent",
+     "quote": "Section 24. A bargaining unit faculty member may petition the Provost or designee to be"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "granted leave without pay. The granting of leave without pay is in the discretion of the"
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "2 years up_to ('may not exceed')",
+     "quote": "Provost or designee. If granted, leave without pay may not exceed two academic or fiscal"
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave)",
+     "quote": "granted leave without pay. The granting of leave without pay is in the discretion of the"
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_oregon_c19",
+   "institution_label": "Vacation Leave",
+   "description": "CBA Art. 32 Secs. 14-21: faculty at .50 FTE or more on 12-month appointments accrue vacation (15 hours a month at 1.0 FTE, cap 260 hours); Sec. 11(a) requires its use within the first six paid weeks.",
+   "mechanism": "own_accrual",
+   "payer": "own_balance",
+   "faculty_group": "bargaining unit faculty on 12-month appointments at .50 FTE or more",
+   "faculty_group_note": "'employed at .50 FTE or more on a 12-month appointment'; academic-year (9-month) faculty do not earn vacation (schema §2b)",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "entitlement": "guaranteed_on_request",
+   "service_requirement": ".50 FTE or more on a 12-month appointment",
+   "rule_applied": [
+    "R1",
+    "U1"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "faculty members gain vacation privileges when employed at .50 FTE or more on a 12-"
+    ],
+    "eligible_parent": [
+     "Section 14. Vacation means absence from work permitting rest and recreation for a"
+    ],
+    "entitlement": [
+     "Vacation leaves are scheduled with the approval of the bargaining unit faculty"
+    ],
+    "service_requirement": [
+     "faculty members gain vacation privileges when employed at .50 FTE or more on a 12-"
+    ]
+   },
+   "doc_ids": [
+    "2018_01_ua_cba_2015_2018"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "own_accrual",
+     "quote": "Eligible bargaining unit faculty members with a 12-month, 1.0 FTE appointment accrue"
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "own_balance",
+     "quote": "Eligible bargaining unit faculty members with a 12-month, 1.0 FTE appointment accrue"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "Section 14. Vacation means absence from work permitting rest and recreation for a"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "bargaining unit faculty on 12-month appointments at .50 FTE or more",
+     "quote": "faculty members gain vacation privileges when employed at .50 FTE or more on a 12-"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U1",
+     "answer": "any_parent",
+     "quote": "Section 14. Vacation means absence from work permitting rest and recreation for a"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "Vacation leaves are scheduled with the approval of the bargaining unit faculty"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": ".50 FTE or more, 12-month appointment",
+     "quote": "faculty members gain vacation privileges when employed at .50 FTE or more on a 12-"
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_oregon_c20",
+   "institution_label": "",
+   "description": "CBA Art. 20 Sec. 19: a tenured faculty member and the Provost may agree in writing to adjust the appointment's FTE, to no less than .50 FTE; no purpose is named.",
+   "mechanism": "part_time_option",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "tenured bargaining unit faculty (Art. 20)",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "entitlement": "negotiated",
+   "entitlement_note": "FTE set by written agreement with the Provost; no guaranteed minimum reduction (R12)",
+   "rule_applied": [
+    "R3",
+    "R12",
+    "U1"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Section 1. This Article applies only to bargaining unit faculty members in the Tenure-"
+    ],
+    "eligible_parent": [
+     "personnel file. The foregoing does not preclude a subsequent written agreement between"
+    ],
+    "entitlement": [
+     "personnel file. The foregoing does not preclude a subsequent written agreement between",
+     "the Provost or designee and the candidate adjusting the FTE of the appointment, so long as"
+    ]
+   },
+   "doc_ids": [
+    "2018_01_ua_cba_2015_2018"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R3",
+     "answer": "part_time_option",
+     "quote": "the Provost or designee and the candidate adjusting the FTE of the appointment, so long as"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "the Provost or designee and the candidate adjusting the FTE of the appointment, so long as"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Section 1. This Article applies only to bargaining unit faculty members in the Tenure-"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U1",
+     "answer": "any_parent",
+     "quote": "personnel file. The foregoing does not preclude a subsequent written agreement between"
+    },
+    {
+     "field": "entitlement",
+     "rule": "R12",
+     "answer": "negotiated",
+     "quote": "the Provost or designee and the candidate adjusting the FTE of the appointment, so long as"
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_oregon_c21",
+   "institution_label": "PAID PARENTAL LEAVE FOLLOWING THE BIRTH OR ADOPTION OF A CHILD",
+   "description": "UO Parental Accommodation Policy (2010), birth parent: on request a paid leave relieved of all duties, paid from her own accrued sick leave up to 12 weeks, with advanced sick leave for the first six weeks if needed; coded for unrepresented faculty.",
+   "mechanism": "employer_paid_leave",
+   "mechanism_note": "a dedicated parental leave paid from the employee's own (or advanced) sick leave (R1b, R1d)",
+   "payer": "own_balance",
+   "faculty_group": "unrepresented tenure-related and career NTTF faculty (officers of instruction outside the United Academics bargaining unit, e.g. Law School faculty)",
+   "faculty_group_note": "policy: 'tenure-related or career NTTF faculty members'; HR site lists it under 'Unrepresented Faculty'",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "the mother",
+   "entitlement": "guaranteed_on_request",
+   "duration": {
+    "value": 12,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "pay_fraction": "full salary",
+   "dual_employee_rule": "either parent is eligible to receive paid parental leave; the other may request statutory family leave; or both may split it",
+   "service_requirement": ".5 or more FTE in a tenure-related or career NTTF appointment",
+   "runs_concurrently_with": [
+    "FMLA",
+    "OFLA"
+   ],
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_note": "'relieved of all responsibilities' (stated in the definition)",
+   "rule_applied": [
+    "R1b",
+    "R1d",
+    "V2",
+    "V3c",
+    "R5"
+   ],
+   "flags": [
+    "ambiguous: faculty group: the policy's own text covers 'tenure-related or career NTTF faculty members'; the HR site (2018_04) lists it for unrepresented faculty, CBA Art. 1 puts all tenure-related faculty except Law School in the United Academics unit, and CBA Art. 6 resolves policy-agreement ambiguity in favour of the agreement, so it is coded for the unrepresented group",
+    "cross_reference_not_saved: OAR 580-021-0040 (5) Sick Leave Advance",
+    "cross_reference_not_saved: Officers of Administration and Unrepresented Faculty: Parental Leave (HR policy linked from 2018_04)"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "this policy applies to tenure-related or career NTTF faculty members.",
+     "Unrepresented Faculty: Parental Accommodation Policy for Officers of Instruction"
+    ],
+    "eligible_parent": [
+     "Following giving birth to a child, the mother uses her accrued sick leave up to a maximum of 12 weeks. In the event that she does not have sufficient accrued sick leave, advanced sick leave may be borrowed for the remainder of the first six weeks from date of birth per OAR Sick Leave 580-021-0040 (5)."
+    ],
+    "entitlement": [
+     "Upon request of the faculty member, a paid leave will be granted following the birth or adoption of a child. During such leave, full salary will be continued immediately following the birth of the child or adoption by the faculty member who is using his/her accrued sick leave."
+    ],
+    "duration": [
+     "Following giving birth to a child, the mother uses her accrued sick leave up to a maximum of 12 weeks. In the event that she does not have sufficient accrued sick leave, advanced sick leave may be borrowed for the remainder of the first six weeks from date of birth per OAR Sick Leave 580-021-0040 (5)."
+    ],
+    "pay_fraction": [
+     "Upon request of the faculty member, a paid leave will be granted following the birth or adoption of a child. During such leave, full salary will be continued immediately following the birth of the child or adoption by the faculty member who is using his/her accrued sick leave."
+    ],
+    "relief": [
+     "Paid parental leave for faculty is defined as the period of time an eligible faculty member is relieved of all responsibilities while receiving full salary and benefits following birth or adoption. This leave runs concurrently with all applicable federal and state leave designations."
+    ],
+    "service_requirement": [
+     "To be eligible for paid parental leave and/or modified duties as described in this policy, a faculty member must be employed .5 or more FTE in a tenure-related or career NTTF appointment."
+    ],
+    "dual_employee_rule": [
+     "When both parents are eligible faculty members, either parent is eligible to receive paid parental leave. The other parent may request leave as allowed under the applicable state and federal Family Leave Acts. Alternatively both parents may arrange to split paid parental leave."
+    ]
+   },
+   "doc_ids": [
+    "2018_05_uo_policy_faculty_parental_accommodation_officers_of_instruction",
+    "2018_04_hr_parental_leave_oas_unrepresented_faculty"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1b",
+     "answer": "employer_paid_leave",
+     "quote": "Following giving birth to a child, the mother uses her accrued sick leave up to a maximum of 12 weeks. In the event that she does not have sufficient accrued sick leave, advanced sick leave may be borrowed for the remainder of the first six weeks from date of birth per OAR Sick Leave 580-021-0040 (5)."
+    },
+    {
+     "field": "payer",
+     "rule": "R1d",
+     "answer": "own_balance",
+     "quote": "Following giving birth to a child, the mother uses her accrued sick leave up to a maximum of 12 weeks. In the event that she does not have sufficient accrued sick leave, advanced sick leave may be borrowed for the remainder of the first six weeks from date of birth per OAR Sick Leave 580-021-0040 (5)."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Upon request of the faculty member, a paid leave will be granted following the birth or adoption of a child. During such leave, full salary will be continued immediately following the birth of the child or adoption by the faculty member who is using his/her accrued sick leave."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "V3c",
+     "answer": "unrepresented tenure-related and career NTTF faculty (officers of instruction outside the United Academics bargaining unit, e.g. Law School faculty)",
+     "quote": "Unrepresented Faculty: Parental Accommodation Policy for Officers of Instruction"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "birth_parent",
+     "quote": "Following giving birth to a child, the mother uses her accrued sick leave up to a maximum of 12 weeks. In the event that she does not have sufficient accrued sick leave, advanced sick leave may be borrowed for the remainder of the first six weeks from date of birth per OAR Sick Leave 580-021-0040 (5)."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "Upon request of the faculty member, a paid leave will be granted following the birth or adoption of a child. During such leave, full salary will be continued immediately following the birth of the child or adoption by the faculty member who is using his/her accrued sick leave."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "12 weeks up_to ('up to a maximum of 12 weeks')",
+     "quote": "Following giving birth to a child, the mother uses her accrued sick leave up to a maximum of 12 weeks. In the event that she does not have sufficient accrued sick leave, advanced sick leave may be borrowed for the remainder of the first six weeks from date of birth per OAR Sick Leave 580-021-0040 (5)."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "full salary",
+     "quote": "Upon request of the faculty member, a paid leave will be granted following the birth or adoption of a child. During such leave, full salary will be continued immediately following the birth of the child or adoption by the faculty member who is using his/her accrued sick leave."
+    },
+    {
+     "field": "relief",
+     "rule": "schema",
+     "answer": "all duties relieved (stated in the definition)",
+     "quote": "Paid parental leave for faculty is defined as the period of time an eligible faculty member is relieved of all responsibilities while receiving full salary and benefits following birth or adoption. This leave runs concurrently with all applicable federal and state leave designations."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": ".5 FTE or more",
+     "quote": "To be eligible for paid parental leave and/or modified duties as described in this policy, a faculty member must be employed .5 or more FTE in a tenure-related or career NTTF appointment."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_oregon_c22",
+   "institution_label": "PAID PARENTAL LEAVE FOLLOWING THE BIRTH OR ADOPTION OF A CHILD",
+   "description": "UO Parental Accommodation Policy (2010), non-birth and adoptive parents: paid leave from their own accrued sick leave as applicable (no borrowing for adoption; unpaid leave once exhausted); no length stated; coded for unrepresented faculty.",
+   "mechanism": "employer_paid_leave",
+   "mechanism_note": "dedicated parental leave paid from own sick leave (R1b)",
+   "payer": "own_balance",
+   "faculty_group": "unrepresented tenure-related and career NTTF faculty (officers of instruction outside the United Academics bargaining unit, e.g. Law School faculty)",
+   "faculty_group_note": "policy: 'tenure-related or career NTTF faculty members'; HR site lists it under 'Unrepresented Faculty'",
+   "eligible_parent": [
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "the parent who has not given birth; adoption",
+   "entitlement": "guaranteed_on_request",
+   "pay_fraction": "full salary",
+   "duration_note": "no length stated ('all accrued sick leave as applicable'); 2018_05 also says departments fund paid parental leave after adoption once sick leave is exhausted, against its own statement that the adoptive parent 'may continue on unpaid leave status'",
+   "service_requirement": ".5 or more FTE in a tenure-related or career NTTF appointment",
+   "runs_concurrently_with": [
+    "FMLA",
+    "OFLA"
+   ],
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_note": "'relieved of all responsibilities' (definition)",
+   "rule_applied": [
+    "R1b",
+    "V2",
+    "V3c",
+    "R5"
+   ],
+   "flags": [
+    "ambiguous: faculty group: the policy's own text covers 'tenure-related or career NTTF faculty members'; the HR site (2018_04) lists it for unrepresented faculty, CBA Art. 1 puts all tenure-related faculty except Law School in the United Academics unit, and CBA Art. 6 resolves policy-agreement ambiguity in favour of the agreement, so it is coded for the unrepresented group",
+    "ambiguous: adoption pay after sick leave is exhausted: 'may continue on unpaid leave status' vs departments fund 'paid parental leave following adoption when accrued sick leave has been exhausted'"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "this policy applies to tenure-related or career NTTF faculty members.",
+     "Unrepresented Faculty: Parental Accommodation Policy for Officers of Instruction"
+    ],
+    "eligible_parent": [
+     "Following the birth of a child, the parent who has not given birth may use all accrued sick leave as applicable.",
+     "Following the adoption of a child, paid parental leave is similarly granted with any accrued sick leave to be used as applicable. Faculty may not borrow sick leave in the case of adoption. Should accrued sick leave be exhausted, the faculty member may continue on unpaid leave status."
+    ],
+    "entitlement": [
+     "Upon request of the faculty member, a paid leave will be granted following the birth or adoption of a child. During such leave, full salary will be continued immediately following the birth of the child or adoption by the faculty member who is using his/her accrued sick leave."
+    ],
+    "pay_fraction": [
+     "Upon request of the faculty member, a paid leave will be granted following the birth or adoption of a child. During such leave, full salary will be continued immediately following the birth of the child or adoption by the faculty member who is using his/her accrued sick leave."
+    ],
+    "relief": [
+     "Paid parental leave for faculty is defined as the period of time an eligible faculty member is relieved of all responsibilities while receiving full salary and benefits following birth or adoption. This leave runs concurrently with all applicable federal and state leave designations."
+    ],
+    "service_requirement": [
+     "To be eligible for paid parental leave and/or modified duties as described in this policy, a faculty member must be employed .5 or more FTE in a tenure-related or career NTTF appointment."
+    ]
+   },
+   "doc_ids": [
+    "2018_05_uo_policy_faculty_parental_accommodation_officers_of_instruction",
+    "2018_04_hr_parental_leave_oas_unrepresented_faculty"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1b",
+     "answer": "employer_paid_leave",
+     "quote": "Following the birth of a child, the parent who has not given birth may use all accrued sick leave as applicable."
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "own_balance",
+     "quote": "Following the birth of a child, the parent who has not given birth may use all accrued sick leave as applicable."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Upon request of the faculty member, a paid leave will be granted following the birth or adoption of a child. During such leave, full salary will be continued immediately following the birth of the child or adoption by the faculty member who is using his/her accrued sick leave."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "V3c",
+     "answer": "unrepresented tenure-related and career NTTF faculty (officers of instruction outside the United Academics bargaining unit, e.g. Law School faculty)",
+     "quote": "Unrepresented Faculty: Parental Accommodation Policy for Officers of Instruction"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "non_birth_parent, adoptive",
+     "quote": "Following the birth of a child, the parent who has not given birth may use all accrued sick leave as applicable."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "Upon request of the faculty member, a paid leave will be granted following the birth or adoption of a child. During such leave, full salary will be continued immediately following the birth of the child or adoption by the faculty member who is using his/her accrued sick leave."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "full salary",
+     "quote": "Upon request of the faculty member, a paid leave will be granted following the birth or adoption of a child. During such leave, full salary will be continued immediately following the birth of the child or adoption by the faculty member who is using his/her accrued sick leave."
+    },
+    {
+     "field": "relief",
+     "rule": "schema",
+     "answer": "all duties relieved (stated in the definition)",
+     "quote": "Paid parental leave for faculty is defined as the period of time an eligible faculty member is relieved of all responsibilities while receiving full salary and benefits following birth or adoption. This leave runs concurrently with all applicable federal and state leave designations."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": ".5 FTE or more",
+     "quote": "To be eligible for paid parental leave and/or modified duties as described in this policy, a faculty member must be employed .5 or more FTE in a tenure-related or career NTTF appointment."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_oregon_c23",
+   "institution_label": "MODIFIED DUTIES STATUS FOLLOWING BIRTH OR ADOPTION OF A CHILD",
+   "description": "UO Parental Accommodation Policy (2010): in addition to the paid parental leave, up to one term (one semester in the semester-based Law School) of modified duties at full pay, released from teaching while research, advising and service continue; both parents; coded for unrepresented faculty.",
+   "mechanism": "modified_duties",
+   "payer": "employer",
+   "faculty_group": "unrepresented tenure-related and career NTTF faculty (officers of instruction outside the United Academics bargaining unit, e.g. Law School faculty)",
+   "faculty_group_note": "policy: 'tenure-related or career NTTF faculty members'; HR site lists it under 'Unrepresented Faculty'",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "eligible faculty member following birth or adoption; 'Both parents'",
+   "entitlement": "guaranteed_on_request",
+   "duration": {
+    "value": 1,
+    "units": "term",
+    "qualifier": "up_to"
+   },
+   "duration_note": "'up to one term or semester'; the Law School (semester system) receives a semester (R8)",
+   "pay_fraction": "full pay",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "continues",
+    "research": "continues",
+    "advising_supervision": "continues",
+    "clinical": "continues"
+   },
+   "relief_inferred": "unnamed duties continue (R4b)",
+   "relief_note": "research, advising and service continue as stated; clinical unnamed (R4b); eligible instructors get a one-course reduction instead",
+   "service_requirement": ".5 or more FTE in a tenure-related or career NTTF appointment",
+   "sequence": [
+    {
+     "relation": "also_available",
+     "component_id": "university_of_oregon_c21",
+     "note": "'In addition to the paid parental leave'; the leave may extend into the modified-duties term (R3d)"
+    },
+    {
+     "relation": "also_available",
+     "component_id": "university_of_oregon_c22"
+    }
+   ],
+   "rule_applied": [
+    "V2",
+    "R4",
+    "R4b",
+    "R3d",
+    "R8",
+    "V3c"
+   ],
+   "flags": [
+    "ambiguous: faculty group: the policy's own text covers 'tenure-related or career NTTF faculty members'; the HR site (2018_04) lists it for unrepresented faculty, CBA Art. 1 puts all tenure-related faculty except Law School in the United Academics unit, and CBA Art. 6 resolves policy-agreement ambiguity in favour of the agreement, so it is coded for the unrepresented group",
+    "cross_reference_not_saved: Guidelines for Modified Duties Benefit"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "this policy applies to tenure-related or career NTTF faculty members.",
+     "Unrepresented Faculty: Parental Accommodation Policy for Officers of Instruction"
+    ],
+    "eligible_parent": [
+     "Both parents are eligible to receive modified duties status as described in this policy."
+    ],
+    "entitlement": [
+     "In addition to the paid parental leave described above, an eligible faculty member has the option to take up to one term or semester of modified duties at full pay status."
+    ],
+    "duration": [
+     "In addition to the paid parental leave described above, an eligible faculty member has the option to take up to one term or semester of modified duties at full pay status.",
+     "1 In the case of the Law School, which is on a semester system, this new benefit would entail a semester of modified duties."
+    ],
+    "pay_fraction": [
+     "In addition to the paid parental leave described above, an eligible faculty member has the option to take up to one term or semester of modified duties at full pay status."
+    ],
+    "relief": [
+     "Modified duty for an eligible faculty member is defined as a release from teaching responsibilities for tenure-related faculty and a one-course reduction for eligible instructors, with full pay status, for a set period of time following birth or adoption. During this time, the eligible faculty member will continue to conduct scholarly work, student advising, research, and other professional responsibilities, including departmental and university service as applicable to his or her position description."
+    ],
+    "service_requirement": [
+     "To be eligible for paid parental leave and/or modified duties as described in this policy, a faculty member must be employed .5 or more FTE in a tenure-related or career NTTF appointment."
+    ],
+    "sequence": [
+     "In addition to the paid parental leave described above, an eligible faculty member has the option to take up to one term or semester of modified duties at full pay status.",
+     "Based on the timing of the birth or adoption, this paid leave may extend into a second term or semester, in which case this paid leave extends into the term or semester designated for modified duties."
+    ]
+   },
+   "doc_ids": [
+    "2018_05_uo_policy_faculty_parental_accommodation_officers_of_instruction",
+    "2018_04_hr_parental_leave_oas_unrepresented_faculty"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "modified_duties",
+     "quote": "In addition to the paid parental leave described above, an eligible faculty member has the option to take up to one term or semester of modified duties at full pay status."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "In addition to the paid parental leave described above, an eligible faculty member has the option to take up to one term or semester of modified duties at full pay status."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "In addition to the paid parental leave described above, an eligible faculty member has the option to take up to one term or semester of modified duties at full pay status."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "V3c",
+     "answer": "unrepresented tenure-related and career NTTF faculty (officers of instruction outside the United Academics bargaining unit, e.g. Law School faculty)",
+     "quote": "Unrepresented Faculty: Parental Accommodation Policy for Officers of Instruction"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "Both parents are eligible to receive modified duties status as described in this policy."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "In addition to the paid parental leave described above, an eligible faculty member has the option to take up to one term or semester of modified duties at full pay status."
+    },
+    {
+     "field": "duration",
+     "rule": "R8",
+     "answer": "1 term up_to (institution calendar; Law School semester in note)",
+     "quote": "In addition to the paid parental leave described above, an eligible faculty member has the option to take up to one term or semester of modified duties at full pay status."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "full pay",
+     "quote": "In addition to the paid parental leave described above, an eligible faculty member has the option to take up to one term or semester of modified duties at full pay status."
+    },
+    {
+     "field": "relief",
+     "rule": "R4",
+     "answer": "teaching relieved; research, advising, service continue (stated)",
+     "quote": "Modified duty for an eligible faculty member is defined as a release from teaching responsibilities for tenure-related faculty and a one-course reduction for eligible instructors, with full pay status, for a set period of time following birth or adoption. During this time, the eligible faculty member will continue to conduct scholarly work, student advising, research, and other professional responsibilities, including departmental and university service as applicable to his or her position description."
+    },
+    {
+     "field": "relief",
+     "rule": "R4b",
+     "answer": "clinical continues (unnamed)",
+     "quote": "Modified duty for an eligible faculty member is defined as a release from teaching responsibilities for tenure-related faculty and a one-course reduction for eligible instructors, with full pay status, for a set period of time following birth or adoption. During this time, the eligible faculty member will continue to conduct scholarly work, student advising, research, and other professional responsibilities, including departmental and university service as applicable to his or her position description."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": ".5 FTE or more",
+     "quote": "To be eligible for paid parental leave and/or modified duties as described in this policy, a faculty member must be employed .5 or more FTE in a tenure-related or career NTTF appointment."
+    },
+    {
+     "field": "sequence",
+     "rule": "R3d",
+     "answer": "also_available with c21/c22",
+     "quote": "In addition to the paid parental leave described above, an eligible faculty member has the option to take up to one term or semester of modified duties at full pay status."
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "Model: claude-opus-5-5. Reference date 2018-03-12.",
+  "Sources: 2018_01 CBA; 2018_02; 2018_03 (index page, no policy); 2018_04 (HR links page for OAs and unrepresented faculty, no policy text); 2018_05; 2018_06. 2018_07 (Faculty Handbook) is not used.",
+  "Governing document: the 2015-2018 UO-United Academics CBA (in force on the reference date; expires 2018-06-30). Art. 1 places all tenure-related faculty in the unit except supervisors, Law School and EC Cares faculty, so main-campus tenure-stream faculty are governed by it. Art. 6: ambiguity between University policies and the Agreement is resolved in favour of the Agreement.",
+  "The UO Parental Accommodation Policy (2018_05, 2010) predates the union; its text covers tenure-related and career NTTF faculty, but the HR site (2018_04) presents it for unrepresented faculty and 2018_02 presents the CBA for represented faculty. Its components (c21-c23) are coded for the unrepresented group and flagged ambiguous for review; for represented faculty the CBA provisions (c4-c7) are more generous (an employer-guaranteed six paid weeks) and cover the same ground.",
+  "The tenure-extension policy (2018_06) is coded as covering main-campus tenure-stream faculty (its text names regular tenure-related appointments; no saved document limits it to the unrepresented). It is discretionary, while the CBA gives represented faculty the option (c8, c9).",
+  "2018_02 (HR summary, undated) quotes both older CBA numbering (Art. 32 Secs. 8-10, including an eligibility clause naming 'Tenure-Track or Tenured Professor classifications' and a non-adverse-effect clause) and the 2015-18 text (Secs. 11-13). The CBA governs (source precedence); the older clauses add no leave or pay and are not components.",
+  "Statutory path: a member with two years' service meets FMLA (12 months, 1,250 hours) and OFLA (180 days; 25 hours a week for disability leave) eligibility (U8). CBA Art. 32 Sec. 10 restates FMLA and OFLA without adding length, so the leaves are coded as the statutes (c1-c3), with CBA pay within them.",
+  "OFLA ORS 659A.162(3)(a) pregnancy-disability leave (12 weeks, in addition to the 12 weeks of family leave) is relied on by CBA Sec. 11(c) ('qualify pursuant to the OFLA ... an additional 6 weeks'), so it is a component (U4, checklist C4) and OFLA parental leave follows it for the birth parent (S1a). The CBA's own 'third 6 weeks' (c6) is coded as sick-leave pay within that time.",
+  "Chain, birth parent: OFLA pregnancy-disability leave 12 (c3; FMLA c1 alongside from week 0) -> OFLA parental leave 12 (c2). Pay: CBA 11(a) 6 weeks full pay guaranteed by the employer after STD/vacation/sick balances (c4, within FMLA) -> 11(b) 6 weeks own sick leave or advance (c5) -> 11(c) up to 6 weeks own sick leave (c6). Modified duties up to one term at full pay, teaching relieved (c7), also_available after c4.",
+  "Chain, non-birth parent: FMLA 12 (c1) alongside OFLA parental leave 12 (c2). Pay: c4 6 weeks full pay -> c5 6 weeks own sick leave. Modified duties up to one term (c7), also_available after c4.",
+  "Calendar: the CBA uses 'terms' (three per academic year, Art. 33 Sec. 5(b)); 2018_05 refers to academic quarters and puts only the Law School on semesters. calendar.kind = quarter, and the term length follows R8's order.",
+  "Not components: Art. 32 Sec. 4 (pay not reduced for illnesses under five days for faculty below .5 FTE) excludes absences that qualify as FMLA/OFLA leave, so it cannot apply to a birth, and covers only faculty below .5 FTE; Art. 32 Sec. 23 paid winter and spring breaks (fixed calendar weeks, not a leave a parent takes); Art. 33 sabbatical (research purpose); Art. 34 jury duty; Art. 24 Sec. 7 administrative leave (disciplinary investigations); Art. 28 Sec. 5 child-care working group and Art. 32 Sec. 2 sick-leave-bank working group (studies, no benefit).",
+  "Documents cited but not saved: HR 'Parental Leave Guidelines', 'Frequently Asked Questions' and 'FAQ: Represented Faculty' (2018_02); 'Parental Leave Standard' (2018_02); 'Officers of Administration and Unrepresented Faculty: Parental Leave' and 'FAQ: OAs and Unrepresented Faculty' (2018_04); 'Guidelines for Modified Duties Benefit' (2018_05); OAR 580-021-0040 (5) Sick Leave Advance (2018_05); Short-Term and Long-Term Disability Insurance policies (CBA Art. 32 Sec. 6); the Faculty Handbook and HR website leave policies (CBA Art. 32 Sec. 1, Art. 7; the handbook copy 2018_07 is not used); UO Policy 01.00.16 is saved as CBA Appendix I.",
+  "No-policy check (`missing`): a governing document for faculty leave covering tenure-stream faculty is saved (the CBA, Art. 32 Leaves; also the 2010 parental accommodation policy and the tenure-extension policy), so missing is false."
+ ],
+ "statutory_floor": {
+  "jurisdiction": "US",
+  "year": "2018",
+  "weeks_birth": 12.0,
+  "weeks_nonbirth": 12.0,
+  "statute": "Family and Medical Leave Act (FMLA) (29 U.S.C. 2611-2612)",
+  "source_doc": "2026_00_us_fmla_29usc2612",
+  "table": "statutory_baseline.csv"
+ }
+}

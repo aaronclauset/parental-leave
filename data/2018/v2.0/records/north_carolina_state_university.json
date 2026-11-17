@@ -1,0 +1,1518 @@
+{
+ "institution": "North Carolina State University",
+ "slug": "north_carolina_state_university",
+ "country": "US",
+ "model": "claude-opus-5-5",
+ "codebook_version": "1.25",
+ "schema_version": "1.25",
+ "reference_date": "2018-02-27",
+ "calendar": {
+  "term_weeks": null,
+  "note": "POL 05.30.01 §3.2 refers to 'mid-semester' and 'the remainder of the semester': a semester calendar, length not stated (R8 default 16).",
+  "kind": "semester"
+ },
+ "documents": [
+  {
+   "doc_id": "2018_00_link",
+   "url": "https://policies.ncsu.edu/policy/pol-05-30-01/",
+   "title": "POL 05.30.01 – Medical and Parental Leave for 9-Month Faculty",
+   "version_or_effective_date": "First issued 1992-04-24; last revised 2010-02-19; Wayback capture 2017-10-24",
+   "retrieved": "2026-10-24T05:30:03+00:00"
+  },
+  {
+   "doc_id": "2018_01_reg_05_20_31_tenure_clock",
+   "url": "https://policies.ncsu.edu/regulation/reg-05-20-31/",
+   "title": "REG 05.20.31 – Tenure Clock",
+   "version_or_effective_date": "Last revised 2018-01-23; Wayback capture 2019-02-05 (no later revision)",
+   "retrieved": "2026-10-24T15:36:28+00:00"
+  },
+  {
+   "doc_id": "2018_02_tenure_clock_birth_adoption_notification_form",
+   "url": "https://provost.ncsu.edu/wp-content/uploads/2016/07/NotificationofaBirthorAdoption-2.doc",
+   "title": "Notification of a Birth, Adoption, or Placement of a Foster Child to Invoke Automatic Approval of Tenure Clock Extension (Provost form)",
+   "version_or_effective_date": "Word file saved 2016-07-25; capture 2016-09-24; still linked from the Provost page on 2018-02-24 (version note)",
+   "retrieved": "2026-10-24T15:36:36+00:00"
+  },
+  {
+   "doc_id": "2018_03_unc_policy_300_2_11_faculty_illness_parental_leave",
+   "url": "https://www.northcarolina.edu/apps/policy/doc.php?id=102",
+   "title": "UNC Policy Manual 300.2.11 – Serious Illness and Disability Leave for Faculty",
+   "version_or_effective_date": "Adopted 2003-04-11; amended 2007-07-01; repealed 2024-01-25 (live copy)",
+   "retrieved": "2026-10-24T15:36:38+00:00"
+  },
+  {
+   "doc_id": "2026_00_us_fmla_29usc2612",
+   "title": "29 U.S.C. 2612 (FMLA leave requirement)",
+   "version_or_effective_date": "2026 text; FMLA leave length and eligibility unchanged since 1993 (baseline table)",
+   "url": "https://www.law.cornell.edu/uscode/text/29/2612",
+   "retrieved": "2026-10-19"
+  },
+  {
+   "doc_id": "2026_01_us_fmla_29usc2611_definitions",
+   "title": "29 U.S.C. 2611 (FMLA definitions)",
+   "version_or_effective_date": "2026 text; FMLA leave length and eligibility unchanged since 1993 (baseline table)",
+   "url": "https://www.law.cornell.edu/uscode/text/29/2611",
+   "retrieved": "2026-10-19"
+  }
+ ],
+ "missing": false,
+ "scope_accounting": {
+  "C1": {
+   "components": [
+    "north_carolina_state_university_c1",
+    "north_carolina_state_university_c3"
+   ]
+  },
+  "C2": {
+   "components": [
+    "north_carolina_state_university_c2"
+   ]
+  },
+  "C3": {
+   "components": [
+    "north_carolina_state_university_c1",
+    "north_carolina_state_university_c8",
+    "north_carolina_state_university_c9",
+    "north_carolina_state_university_c10"
+   ]
+  },
+  "C4": {
+   "components": [
+    "north_carolina_state_university_c3",
+    "north_carolina_state_university_c4"
+   ],
+   "not_components": [
+    {
+     "statute": "Teachers’ and State Employees’ Retirement System of North Carolina / UNC Optional Retirement Program",
+     "reason": "Retirement systems named only to define eligibility; they give no leave, pay or protection to a new parent (U4)."
+    },
+    {
+     "statute": "Disability Income Plan of North Carolina",
+     "reason": "Named as a state disability plan, not as a statute; coded as a plan component (c8) under C3."
+    }
+   ]
+  },
+  "C5": {
+   "components": [
+    "north_carolina_state_university_c4",
+    "north_carolina_state_university_c3"
+   ]
+  },
+  "C6": {
+   "absent": {
+    "documents": [
+     "2018_00_link",
+     "2018_01_reg_05_20_31_tenure_clock",
+     "2018_02_tenure_clock_birth_adoption_notification_form",
+     "2018_03_unc_policy_300_2_11_faculty_illness_parental_leave"
+    ],
+    "terms": [
+     "leave without pay",
+     "personal leave",
+     "special leave",
+     "emergency leave",
+     "leave of absence"
+    ]
+   }
+  },
+  "C7": {
+   "components": [
+    "north_carolina_state_university_c5",
+    "north_carolina_state_university_c6",
+    "north_carolina_state_university_c7"
+   ]
+  },
+  "C8": {
+   "absent": {
+    "documents": [
+     "2018_00_link",
+     "2018_01_reg_05_20_31_tenure_clock",
+     "2018_02_tenure_clock_birth_adoption_notification_form",
+     "2018_03_unc_policy_300_2_11_faculty_illness_parental_leave"
+    ],
+    "terms": [
+     "part-time",
+     "reduced appointment",
+     "phased return",
+     "percent",
+     "reduced load"
+    ]
+   }
+  },
+  "C9": {
+   "absent": {
+    "documents": [
+     "2018_00_link",
+     "2018_01_reg_05_20_31_tenure_clock",
+     "2018_02_tenure_clock_birth_adoption_notification_form",
+     "2018_03_unc_policy_300_2_11_faculty_illness_parental_leave"
+    ],
+    "terms": [
+     "accommodation",
+     "pregnancy",
+     "hazard",
+     "light duty",
+     "equal opportunity"
+    ]
+   }
+  },
+  "C10": {
+   "components": [
+    "north_carolina_state_university_c1"
+   ]
+  }
+ },
+ "passage_dispositions": {
+  "2018_00_link#001": {
+   "not_relevant": "page title and site navigation menu"
+  },
+  "2018_00_link#002": {
+   "not_relevant": "site navigation menu"
+  },
+  "2018_00_link#003": {
+   "used_in": [
+    "north_carolina_state_university_c1",
+    "north_carolina_state_university_c3",
+    "north_carolina_state_university_c10"
+   ]
+  },
+  "2018_00_link#004": {
+   "used_in": [
+    "north_carolina_state_university_c1",
+    "north_carolina_state_university_c2",
+    "north_carolina_state_university_c8"
+   ]
+  },
+  "2018_00_link#005": {
+   "used_in": [
+    "north_carolina_state_university_c3",
+    "north_carolina_state_university_c4",
+    "north_carolina_state_university_c5",
+    "north_carolina_state_university_c8",
+    "north_carolina_state_university_c9"
+   ]
+  },
+  "2018_01_reg_05_20_31_tenure_clock#001": {
+   "not_relevant": "page title and site navigation menu"
+  },
+  "2018_01_reg_05_20_31_tenure_clock#002": {
+   "not_relevant": "site navigation menu"
+  },
+  "2018_01_reg_05_20_31_tenure_clock#003": {
+   "used_in": [
+    "north_carolina_state_university_c5",
+    "north_carolina_state_university_c7"
+   ]
+  },
+  "2018_01_reg_05_20_31_tenure_clock#004": {
+   "used_in": [
+    "north_carolina_state_university_c7"
+   ]
+  },
+  "2018_01_reg_05_20_31_tenure_clock#005": {
+   "used_in": [
+    "north_carolina_state_university_c5",
+    "north_carolina_state_university_c6",
+    "north_carolina_state_university_c7"
+   ]
+  },
+  "2018_02_tenure_clock_birth_adoption_notification_form#001": {
+   "used_in": [
+    "north_carolina_state_university_c5"
+   ]
+  },
+  "2018_03_unc_policy_300_2_11_faculty_illness_parental_leave#001": {
+   "used_in": [
+    "north_carolina_state_university_c1",
+    "north_carolina_state_university_c3",
+    "north_carolina_state_university_c4",
+    "north_carolina_state_university_c8"
+   ]
+  }
+ },
+ "mechanism_slots": {
+  "employer_paid_leave": {
+   "components": [
+    "north_carolina_state_university_c1"
+   ]
+  },
+  "employer_childbirth_benefit": {
+   "absent": "No childbirth-specific paid period in any of the four documents (searched: maternity, childbirth, birth, pregnancy, recovery)."
+  },
+  "generic_sick_or_disability_plan": {
+   "components": [
+    "north_carolina_state_university_c8",
+    "north_carolina_state_university_c9"
+   ]
+  },
+  "own_accrual": {
+   "components": [
+    "north_carolina_state_university_c10"
+   ]
+  },
+  "donated_leave": {
+   "absent": "No donated or shared leave bank in any document (searched: donat, shared, bank, pool)."
+  },
+  "government_benefit": {
+   "absent": "No federal or state paid programme named (searched: paid family leave, insurance, benefit, state program); DIPNC coded as an employer disability plan."
+  },
+  "employer_topup": {
+   "absent": "No top-up of a government benefit (searched: top-up, supplement, difference)."
+  },
+  "modified_duties": {
+   "components": [
+    "north_carolina_state_university_c2"
+   ]
+  },
+  "unpaid_leave": {
+   "components": [
+    "north_carolina_state_university_c3",
+    "north_carolina_state_university_c4"
+   ]
+  },
+  "tenure_clock": {
+   "components": [
+    "north_carolina_state_university_c5",
+    "north_carolina_state_university_c6",
+    "north_carolina_state_university_c7"
+   ]
+  },
+  "part_time_option": {
+   "absent": "No part-time or reduced appointment (searched: part-time, reduced, phased, percent)."
+  },
+  "other": {
+   "absent": "No accommodation, rearrangement or hazard provision (searched: accommodation, pregnancy, hazard, alternative assignments coded as c2)."
+  }
+ },
+ "baseline_accounting": {
+  "Family and Medical Leave Act (FMLA)": {
+   "components": [
+    "north_carolina_state_university_c3"
+   ]
+  },
+  "Federal Employee Paid Leave Act (paid parental leave for federal civilian employees)": {
+   "not_applicable": "Federal civilian employees only; NC State faculty are not federal employees, and no document mentions it."
+  }
+ },
+ "leave_limits": [],
+ "components": [
+  {
+   "component_id": "north_carolina_state_university_c1",
+   "institution_label": "continuation pay",
+   "description": "Paid leave ('continuation pay') at the base salary the faculty member would otherwise receive, for up to 60 calendar days in an academic year, for any FMLA-qualifying condition, including birth or care for a newborn and adoption or foster placement; for 9-month faculty who do not accrue sick leave.",
+   "mechanism": "employer_paid_leave",
+   "mechanism_note": "R17: employer pay for an FMLA-qualifying absence (here up to 60 calendar days) counts as employer-paid leave for both parents. Not V1 (not childbirth-specific); not a generic sick plan: the policy itself grants paid leave for every FMLA event, parental ones included.",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "faculty with academic year (9-month) appointments (POL 05.30.01 §2.1); Audience: Faculty; fiscal-year (12-month) faculty, who accrue sick leave, are outside the policy (§2.2)",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "birth or care for a newborn; placement of or care for an adopted or foster child (no role words)",
+   "caregiver_condition": "none",
+   "service_requirement": "academic-year appointment, no sick-leave accrual, eligible for TSERS or the Optional Retirement Plan (UNC 300.2.11: continuing faculty employed at least 75 percent of full-time); no length of service stated",
+   "entitlement": "guaranteed",
+   "entitlement_note": "'are entitled to continuation pay'. The request and provisional approval (§4.1–4.3) check the qualifying condition; a denial must state its reasons and may be appealed, so the approval does not decide whether the benefit exists.",
+   "duration": {
+    "value": 60,
+    "units": "calendar_day",
+    "qualifier": "up_to"
+   },
+   "duration_note": "Up to 60 calendar days within an academic year (R11b: 7 per week, about 8.6 weeks); paid for the days of absence needed when fewer than 60 (§3.4); does not accumulate or carry over (§3.6). Faculty who changed from 12- to 9-month status first exhaust sick leave accrued while on 12-month status, then use continuation pay for the remainder of the 60 days (§3.5).",
+   "pay_fraction": "any base salary they would otherwise receive",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "relief_note": "A leave with substitute personnel for its duration; relief by duty not stated (R9).",
+   "time_window": "within an academic year; not applicable from May 16 through August 15",
+   "notice": "leave request form and Health Care Provider Certification form [if required] to the University Leave Administrator; must notify department head and/or dean in writing if not returning as planned",
+   "medical_certification_note": "Health Care Provider Certification form [if required]",
+   "return_obligation": "unused continuation pay is not paid out on resignation, separation or retirement",
+   "sequence": [
+    {
+     "relation": "within",
+     "component_id": "north_carolina_state_university_c2",
+     "note": "R3b: the alternative assignments run for the remainder of the semester in which the leave ends; the leave lies within that semester"
+    }
+   ],
+   "rule_applied": [
+    "R17",
+    "U1",
+    "R9",
+    "R11b",
+    "R13",
+    "R3b",
+    "V2",
+    "U8"
+   ],
+   "evidence": {
+    "mechanism": [
+     "This policy authorizes paid leave (hereinafter “continuation pay”) for faculty with academic year (9-month) appointments with qualifying conditions covered under the Family and Medical Leave Act (FMLA)"
+    ],
+    "faculty_group": [
+     "This policy applies to faculty with academic year appointments who both (a) do not accrue sick leave and (b) are eligible for membership in the Teachers’ and State Employees’ Retirement System of North Carolina or the Optional Retirement Plan."
+    ],
+    "eligible_parent": [
+     "This policy authorizes paid leave (hereinafter “continuation pay”) for faculty with academic year (9-month) appointments with qualifying conditions covered under the Family and Medical Leave Act (FMLA)",
+     "placement of or care for an adopted or foster child; birth or care for a newborn"
+    ],
+    "service_requirement": [
+     "This policy applies to faculty with academic year appointments who both (a) do not accrue sick leave and (b) are eligible for membership in the Teachers’ and State Employees’ Retirement System of North Carolina or the Optional Retirement Plan.",
+     "continuing faculty who are employed at least 75 percent of full-time"
+    ],
+    "entitlement": [
+     "Eligible 9- month faculty are entitled to continuation pay for any base salary they would otherwise receive, for a period of up to 60 calendar days within an academic year.",
+     "The University Leave Administrator shall determine whether to provisionally approve the leave after reviewing the request.",
+     "If the faculty member’s request for leave is denied, the University Leave Administrator must set forth all reasons for the denial in writing to the faculty member, department head and dean."
+    ],
+    "duration": [
+     "Eligible 9- month faculty are entitled to continuation pay for any base salary they would otherwise receive, for a period of up to 60 calendar days within an academic year.",
+     "Faculty members on leave for qualifying conditions requiring fewer than 60 days of absence will be provided continuation pay only for those days."
+    ],
+    "pay_fraction": [
+     "Eligible 9- month faculty are entitled to continuation pay for any base salary they would otherwise receive, for a period of up to 60 calendar days within an academic year."
+    ],
+    "relief": [
+     "The department head and/or dean is responsible for securing substitute personnel for the duration of the faculty member’s leave."
+    ],
+    "time_window": [
+     "Eligible 9- month faculty are entitled to continuation pay for any base salary they would otherwise receive, for a period of up to 60 calendar days within an academic year.",
+     "Leave under this policy will not be applicable from May 16 through August 15.",
+     "Leave permitted under this policy will not accumulate or carry over to the next academic year."
+    ],
+    "notice": [
+     "The faculty member must complete the required leave request form and the Health Care Provider Certification form [if required] and submit to Human Resources’ University Leave Administrator"
+    ],
+    "sequence": [
+     "If the timing of the faculty member’s return to the department occurs during mid-semester, and the faculty member cannot assume teaching responsibilities that have been assumed by substitute personnel, the faculty member may be given alternative assignments by the department head for the remainder of the semester and will be expected to continue his/her professional development."
+    ],
+    "must_exhaust_first": [
+     "Faculty members who have changed from 12 to 9 month employment status must exhaust all unused sick leave that was accrued during their 12-month employment status prior to utilizing the continuation-pay benefit provided by this policy for the remainder of the 60 days."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link",
+    "2018_03_unc_policy_300_2_11_faculty_illness_parental_leave"
+   ],
+   "flags": [
+    "ambiguous: restriction: faculty who changed from 12- to 9-month status must first exhaust sick leave accrued on 12-month status (§3.5); not the standard member's path",
+    "cross_reference_not_saved: UNC POL Manual 300.2.11 [G] Guidelines on Serious Illness and Disability Leave for Faculty"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R17",
+     "answer": "employer_paid_leave",
+     "quote": "This policy authorizes paid leave (hereinafter “continuation pay”) for faculty with academic year (9-month) appointments with qualifying conditions covered under the Family and Medical Leave Act (FMLA)"
+    },
+    {
+     "field": "payer",
+     "rule": "R17",
+     "answer": "employer",
+     "quote": "Eligible 9- month faculty are entitled to continuation pay for any base salary they would otherwise receive, for a period of up to 60 calendar days within an academic year."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "This policy authorizes paid leave (hereinafter “continuation pay”) for faculty with academic year (9-month) appointments with qualifying conditions covered under the Family and Medical Leave Act (FMLA)"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "This policy applies to faculty with academic year appointments who both (a) do not accrue sick leave and (b) are eligible for membership in the Teachers’ and State Employees’ Retirement System of North Carolina or the Optional Retirement Plan."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R17",
+     "answer": "birth_parent, non_birth_parent, adoptive, foster (any FMLA qualifying event, no role words)",
+     "quote": "placement of or care for an adopted or foster child; birth or care for a newborn"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U8",
+     "answer": "appointment type and fraction only; no length of service stated",
+     "quote": "continuing faculty who are employed at least 75 percent of full-time"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "Eligible 9- month faculty are entitled to continuation pay for any base salary they would otherwise receive, for a period of up to 60 calendar days within an academic year."
+    },
+    {
+     "field": "duration",
+     "rule": "R11b",
+     "answer": "60 calendar days up_to (8.6 weeks)",
+     "quote": "Eligible 9- month faculty are entitled to continuation pay for any base salary they would otherwise receive, for a period of up to 60 calendar days within an academic year."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "full base salary (100)",
+     "quote": "Eligible 9- month faculty are entitled to continuation pay for any base salary they would otherwise receive, for a period of up to 60 calendar days within an academic year."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave, relief not stated)",
+     "quote": "The department head and/or dean is responsible for securing substitute personnel for the duration of the faculty member’s leave."
+    },
+    {
+     "field": "sequence",
+     "rule": "R3b",
+     "answer": "within c2 (relief for the remainder of the semester contains the leave)",
+     "quote": "If the timing of the faculty member’s return to the department occurs during mid-semester, and the faculty member cannot assume teaching responsibilities that have been assumed by substitute personnel, the faculty member may be given alternative assignments by the department head for the remainder of the semester and will be expected to continue his/her professional development."
+    }
+   ]
+  },
+  {
+   "component_id": "north_carolina_state_university_c2",
+   "institution_label": "",
+   "description": "When a 9-month faculty member returns from continuation-pay leave mid-semester and cannot resume the teaching taken over by substitutes, the department head may give alternative assignments for the rest of the semester; professional development continues.",
+   "mechanism": "modified_duties",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "faculty with academic year (9-month) appointments (POL 05.30.01 §2.1); Audience: Faculty",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "the faculty member returning from leave under this policy (no role words)",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "entitlement_note": "'may be given ... by the department head': the head's decision determines whether there is relief (V2).",
+   "duration": {
+    "value": 1,
+    "units": "semester",
+    "qualifier": "exact"
+   },
+   "duration_note": "'for the remainder of the semester' in which the leave ends; coded as the semester that contains the leave (R3b).",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "continues",
+    "research": "continues",
+    "advising_supervision": "continues",
+    "clinical": "continues"
+   },
+   "relief_inferred": "unnamed duties continue (R4b)",
+   "relief_note": "Teaching already assumed by substitutes is not resumed; alternative assignments instead; research continues ('expected to continue his/her professional development'); service, advising and clinical not named (R4b).",
+   "time_window": "only where the return from leave falls mid-semester; for the remainder of that semester",
+   "rule_applied": [
+    "V2",
+    "R3",
+    "R3b",
+    "R4",
+    "R4b",
+    "U1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "This policy applies to faculty with academic year appointments who both (a) do not accrue sick leave and (b) are eligible for membership in the Teachers’ and State Employees’ Retirement System of North Carolina or the Optional Retirement Plan."
+    ],
+    "eligible_parent": [
+     "placement of or care for an adopted or foster child; birth or care for a newborn",
+     "If the timing of the faculty member’s return to the department occurs during mid-semester, and the faculty member cannot assume teaching responsibilities that have been assumed by substitute personnel, the faculty member may be given alternative assignments by the department head for the remainder of the semester and will be expected to continue his/her professional development."
+    ],
+    "entitlement": [
+     "If the timing of the faculty member’s return to the department occurs during mid-semester, and the faculty member cannot assume teaching responsibilities that have been assumed by substitute personnel, the faculty member may be given alternative assignments by the department head for the remainder of the semester and will be expected to continue his/her professional development."
+    ],
+    "duration": [
+     "may be given alternative assignments by the department head for the remainder of the semester"
+    ],
+    "relief": [
+     "If the timing of the faculty member’s return to the department occurs during mid-semester, and the faculty member cannot assume teaching responsibilities that have been assumed by substitute personnel, the faculty member may be given alternative assignments by the department head for the remainder of the semester and will be expected to continue his/her professional development."
+    ],
+    "time_window": [
+     "If the timing of the faculty member’s return to the department occurs during mid-semester, and the faculty member cannot assume teaching responsibilities that have been assumed by substitute personnel, the faculty member may be given alternative assignments by the department head for the remainder of the semester and will be expected to continue his/her professional development."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "ambiguous: pay level not stated; full pay inferred (R3)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R4",
+     "answer": "modified_duties",
+     "quote": "If the timing of the faculty member’s return to the department occurs during mid-semester, and the faculty member cannot assume teaching responsibilities that have been assumed by substitute personnel, the faculty member may be given alternative assignments by the department head for the remainder of the semester and will be expected to continue his/her professional development."
+    },
+    {
+     "field": "payer",
+     "rule": "R3",
+     "answer": "employer",
+     "quote": "If the timing of the faculty member’s return to the department occurs during mid-semester, and the faculty member cannot assume teaching responsibilities that have been assumed by substitute personnel, the faculty member may be given alternative assignments by the department head for the remainder of the semester and will be expected to continue his/her professional development."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "If the timing of the faculty member’s return to the department occurs during mid-semester, and the faculty member cannot assume teaching responsibilities that have been assumed by substitute personnel, the faculty member may be given alternative assignments by the department head for the remainder of the semester and will be expected to continue his/her professional development."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "This policy applies to faculty with academic year appointments who both (a) do not accrue sick leave and (b) are eligible for membership in the Teachers’ and State Employees’ Retirement System of North Carolina or the Optional Retirement Plan."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any parent returning from a leave under the policy (birth, newborn care, adoption, foster)",
+     "quote": "placement of or care for an adopted or foster child; birth or care for a newborn"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "may be given alternative assignments by the department head for the remainder of the semester"
+    },
+    {
+     "field": "duration",
+     "rule": "R3b",
+     "answer": "1 semester (the semester containing the leave)",
+     "quote": "may be given alternative assignments by the department head for the remainder of the semester"
+    },
+    {
+     "field": "relief",
+     "rule": "R4b",
+     "answer": "teaching relieved; research continues (stated); service, advising, clinical continue (unnamed)",
+     "quote": "If the timing of the faculty member’s return to the department occurs during mid-semester, and the faculty member cannot assume teaching responsibilities that have been assumed by substitute personnel, the faculty member may be given alternative assignments by the department head for the remainder of the semester and will be expected to continue his/her professional development."
+    }
+   ]
+  },
+  {
+   "component_id": "north_carolina_state_university_c3",
+   "institution_label": "Family and Medical Leave Act (FMLA)",
+   "description": "Federal FMLA unpaid, job-protected leave of up to 12 workweeks, running concurrently with continuation pay.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "All eligible faculty members are covered in accordance with FMLA",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "birth of a son or daughter of the employee; placement ... for adoption or foster care (statute)",
+   "caregiver_condition": "none",
+   "service_requirement": "12 months and 1,250 hours (29 U.S.C. 2611(2))",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 12,
+    "units": "workweek",
+    "qualifier": "up_to"
+   },
+   "duration_note": "POL 05.30.01 §6.2: 'up to 12 weeks of leave without pay'; statute: 'a total of 12 workweeks ... during any 12-month period'. Unpaid remainder after the 60 calendar days of continuation pay.",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "statute_source": "29 U.S.C. 2612(a)(1)(A)-(B); eligibility 29 U.S.C. 2611(2)",
+   "statute_verified": true,
+   "sequence": [
+    {
+     "relation": "concurrent_with",
+     "component_id": "north_carolina_state_university_c1",
+     "note": "S1: 'will run concurrently with any leave under this policy'; unpaid after continuation pay ends"
+    }
+   ],
+   "rule_applied": [
+    "U2",
+    "U4",
+    "S1",
+    "R9",
+    "R13"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "All eligible faculty members are covered in accordance with FMLA, which provides unpaid leave."
+    ],
+    "eligible_parent": [
+     "Because of the birth of a son or daughter of the employee and in order to care for such son or daughter.",
+     "Because of the placement of a son or daughter with the employee for adoption or foster care."
+    ],
+    "service_requirement": [
+     "for at least 12 months by the employer with respect to whom leave is requested under section 2612 of this title",
+     "for at least 1,250 hours of service with such employer during the previous 12-month period"
+    ],
+    "entitlement": [
+     "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period for one or more of the following:"
+    ],
+    "duration": [
+     "The FMLA entitlement of up to 12 weeks of leave without pay will run concurrently with any leave under this policy.",
+     "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period for one or more of the following:"
+    ],
+    "sequence": [
+     "The FMLA entitlement of up to 12 weeks of leave without pay will run concurrently with any leave under this policy.",
+     "All periods of leave under this policy will be counted under FMLA, if applicable."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link",
+    "2018_03_unc_policy_300_2_11_faculty_illness_parental_leave",
+    "2026_00_us_fmla_29usc2612",
+    "2026_01_us_fmla_29usc2611_definitions"
+   ],
+   "flags": [
+    "cross_reference_not_saved: NCSU Family Medical Leave"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "U4",
+     "answer": "unpaid_leave",
+     "quote": "All eligible faculty members are covered in accordance with FMLA, which provides unpaid leave."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "The FMLA entitlement of up to 12 weeks of leave without pay will run concurrently with any leave under this policy."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Because of the birth of a son or daughter of the employee and in order to care for such son or daughter."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "All eligible faculty members are covered in accordance with FMLA, which provides unpaid leave."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U2",
+     "answer": "birth_parent, non_birth_parent, adoptive, foster (statute)",
+     "quote": "Because of the birth of a son or daughter of the employee and in order to care for such son or daughter."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U2",
+     "answer": "12 months and 1,250 hours",
+     "quote": "for at least 1,250 hours of service with such employer during the previous 12-month period"
+    },
+    {
+     "field": "entitlement",
+     "rule": "U2",
+     "answer": "guaranteed",
+     "quote": "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period for one or more of the following:"
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "12 workweeks up_to",
+     "quote": "The FMLA entitlement of up to 12 weeks of leave without pay will run concurrently with any leave under this policy."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave)",
+     "quote": "All eligible faculty members are covered in accordance with FMLA, which provides unpaid leave."
+    },
+    {
+     "field": "sequence",
+     "rule": "S1",
+     "answer": "concurrent_with c1",
+     "quote": "The FMLA entitlement of up to 12 weeks of leave without pay will run concurrently with any leave under this policy."
+    }
+   ]
+  },
+  {
+   "component_id": "north_carolina_state_university_c4",
+   "institution_label": "North Carolina Family Illness Act",
+   "description": "State family-illness leave: an extension of up to 52 weeks of unpaid leave in a five-year period for the serious illness of a child, spouse or parent.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "stated in the faculty leave policy (Audience: Faculty) and the UNC faculty leave policy",
+   "eligible_parent": [
+    "non_birth_parent"
+   ],
+   "eligible_parent_wording": "serious illness of a child, spouse, or parent",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 52,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "duration_note": "'up to 52 weeks of leave without pay during a five-year period'; one event coded at the full 52 weeks (schema leave_limits: allowance per window at its value for the first window). Counts for the non-birth parent, as care of a seriously ill spouse (U5); not for a newborn's illness.",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "statute_source": "North Carolina Family Illness Leave Act (2002) (section not given)",
+   "statute_verified": false,
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "north_carolina_state_university_c3",
+     "note": "POL 05.30.01 §6.4 calls it 'an extension' of leave, in the section coordinating with FMLA"
+    }
+   ],
+   "rule_applied": [
+    "U4",
+    "U5",
+    "U2",
+    "R9",
+    "R13",
+    "R15"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "The North Carolina Family Illness Act allows for an extension of up to 52 weeks of leave without pay during a five-year period in cases of serious illness of a child, spouse, or parent."
+    ],
+    "eligible_parent": [
+     "The North Carolina Family Illness Act allows for an extension of up to 52 weeks of leave without pay during a five-year period in cases of serious illness of a child, spouse, or parent."
+    ],
+    "entitlement": [
+     "The North Carolina Family Illness Act allows for an extension of up to 52 weeks of leave without pay during a five-year period in cases of serious illness of a child, spouse, or parent.",
+     "The North Carolina Family Illness Leave Act (2002) allows for up to 52 weeks of leave without pay during a five-year period in cases of serious illness of a child, spouse, or parent."
+    ],
+    "duration": [
+     "The North Carolina Family Illness Act allows for an extension of up to 52 weeks of leave without pay during a five-year period in cases of serious illness of a child, spouse, or parent."
+    ],
+    "sequence": [
+     "The North Carolina Family Illness Act allows for an extension of up to 52 weeks of leave without pay during a five-year period in cases of serious illness of a child, spouse, or parent."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link",
+    "2018_03_unc_policy_300_2_11_faculty_illness_parental_leave"
+   ],
+   "flags": [
+    "cross_reference_not_saved: North Carolina Family Illness Leave Act (2002)",
+    "ambiguous: rule gap: 'extension' read as following FMLA leave (consecutive_after); the statute text is not saved to confirm",
+    "family_illness_leave"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "U4",
+     "answer": "unpaid_leave",
+     "quote": "The North Carolina Family Illness Act allows for an extension of up to 52 weeks of leave without pay during a five-year period in cases of serious illness of a child, spouse, or parent."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "The North Carolina Family Illness Act allows for an extension of up to 52 weeks of leave without pay during a five-year period in cases of serious illness of a child, spouse, or parent."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "The North Carolina Family Illness Act allows for an extension of up to 52 weeks of leave without pay during a five-year period in cases of serious illness of a child, spouse, or parent."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "The North Carolina Family Illness Act allows for an extension of up to 52 weeks of leave without pay during a five-year period in cases of serious illness of a child, spouse, or parent."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "non_birth_parent (care of a seriously ill spouse)",
+     "quote": "The North Carolina Family Illness Act allows for an extension of up to 52 weeks of leave without pay during a five-year period in cases of serious illness of a child, spouse, or parent."
+    },
+    {
+     "field": "entitlement",
+     "rule": "U2",
+     "answer": "guaranteed",
+     "quote": "The North Carolina Family Illness Act allows for an extension of up to 52 weeks of leave without pay during a five-year period in cases of serious illness of a child, spouse, or parent."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "52 weeks up_to, per five-year window",
+     "quote": "The North Carolina Family Illness Act allows for an extension of up to 52 weeks of leave without pay during a five-year period in cases of serious illness of a child, spouse, or parent."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave)",
+     "quote": "The North Carolina Family Illness Act allows for an extension of up to 52 weeks of leave without pay during a five-year period in cases of serious illness of a child, spouse, or parent."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "consecutive_after c3 (an 'extension' of leave)",
+     "quote": "The North Carolina Family Illness Act allows for an extension of up to 52 weeks of leave without pay during a five-year period in cases of serious illness of a child, spouse, or parent."
+    }
+   ]
+  },
+  {
+   "component_id": "north_carolina_state_university_c5",
+   "institution_label": "Automatically approved extensions",
+   "description": "A one-year tenure-clock extension, automatically approved, for an untenured tenure-track faculty member with a new child by birth, adoption or foster placement (via 60+ days of FML or, otherwise, a notification form within one year).",
+   "mechanism": "tenure_clock",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "untenured, tenure-track faculty member",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "a faculty member with a new child in the family or household",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "Approved automatically; the faculty member must submit the notification form (or HR sends the 60-day FML notification). Approval covers the arrangements (V2).",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "exact"
+   },
+   "use_limit": [
+    {
+     "times": 2,
+     "per": "career",
+     "counts": "uses"
+    }
+   ],
+   "use_limit_note": "'A maximum of two (2) automatically approved extensions will be granted'; the cap is shared by all automatic extensions (§4.1.1–4.1.3, c5 and c6); further extensions go through §4.2 (c7).",
+   "time_window": "without 60 days of FML: request within one (1) year following the birth, adoption, or placement of a foster child; later requests go to the §4.2 process",
+   "notice": "Notification of a Birth, Adoption, or Placement of a Foster Child form to the department head",
+   "rule_applied": [
+    "V2",
+    "U9",
+    "U1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "When a non-tenured, tenure track faculty member is granted leave under this policy for birth, adoption, or placement of a foster child or for FMLA qualifying medical conditions of 60 calendar days or more, an automatic extension of the tenure clock will be granted as defined in accordance with NCSU REG 05.20.31 Tenure Clock."
+    ],
+    "eligible_parent": [
+     "In the case of a faculty member with a new child in the family who received sixty (60) days or longer of FML, the Leave Administrator in Human Resources will send a Notification of sixty (60) days Approved Family Leave form to the department head, copied to the faculty member and the Office of the Provost, confirming that the faculty member qualifies for the automatic tenure clock extension.",
+     "In the case of a faculty member with a new child in the family or household who did not receive sixty (60) days or longer of FML, the faculty member may request a tenure clock extension within one (1) year following the birth, adoption, or placement of a foster child.",
+     "I hereby confirm the birth, adoption, or foster-placement of a child within my immediate family."
+    ],
+    "entitlement": [
+     "Approval is automatically granted, but the faculty member must submit the Notification of a Birth, Adoption, or Placement of a Foster Child form and submit it to the department head.",
+     "Extensions as a result of circumstances described in section 4.1 of this regulation will be approved automatically; however, the faculty member must complete a notification form in order to receive the extension.",
+     "When a non-tenured, tenure track faculty member is granted leave under this policy for birth, adoption, or placement of a foster child or for FMLA qualifying medical conditions of 60 calendar days or more, an automatic extension of the tenure clock will be granted as defined in accordance with NCSU REG 05.20.31 Tenure Clock."
+    ],
+    "duration": [
+     "Automatically approved extensions as described in Section 4.1 will be for one (1) year.",
+     "The current term appointment end date for either reappointment or for tenure is extended by one year and moves the mandatory review year to one year later."
+    ],
+    "use_limit": [
+     "A maximum of two (2) automatically approved extensions will be granted, such that the notification regarding conferral of tenure shall not be postponed beyond the eighth year of service following the start of the assistant professor’s first appointment."
+    ],
+    "time_window": [
+     "In the case of a faculty member with a new child in the family or household who did not receive sixty (60) days or longer of FML, the faculty member may request a tenure clock extension within one (1) year following the birth, adoption, or placement of a foster child."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_reg_05_20_31_tenure_clock",
+    "2018_00_link",
+    "2018_02_tenure_clock_birth_adoption_notification_form"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "Automatically approved extensions as described in Section 4.1 will be for one (1) year."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Automatically approved extensions as described in Section 4.1 will be for one (1) year."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "In the case of a faculty member with a new child in the family or household who did not receive sixty (60) days or longer of FML, the faculty member may request a tenure clock extension within one (1) year following the birth, adoption, or placement of a foster child."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "When a non-tenured, tenure track faculty member is granted leave under this policy for birth, adoption, or placement of a foster child or for FMLA qualifying medical conditions of 60 calendar days or more, an automatic extension of the tenure clock will be granted as defined in accordance with NCSU REG 05.20.31 Tenure Clock."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "birth_parent, non_birth_parent, adoptive, foster",
+     "quote": "In the case of a faculty member with a new child in the family or household who did not receive sixty (60) days or longer of FML, the faculty member may request a tenure clock extension within one (1) year following the birth, adoption, or placement of a foster child."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "Approval is automatically granted, but the faculty member must submit the Notification of a Birth, Adoption, or Placement of a Foster Child form and submit it to the department head."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 year exact",
+     "quote": "Automatically approved extensions as described in Section 4.1 will be for one (1) year."
+    },
+    {
+     "field": "use_limit",
+     "rule": "U9",
+     "answer": "2 per career (automatic extensions)",
+     "quote": "A maximum of two (2) automatically approved extensions will be granted, such that the notification regarding conferral of tenure shall not be postponed beyond the eighth year of service following the start of the assistant professor’s first appointment."
+    }
+   ]
+  },
+  {
+   "component_id": "north_carolina_state_university_c6",
+   "institution_label": "Automatically approved extensions",
+   "description": "A one-year automatically approved tenure-clock extension for an untenured tenure-track faculty member with approved family or medical leave of 60 calendar days or longer for a reason other than a new child (own serious health condition, care of a seriously ill family member).",
+   "mechanism": "tenure_clock",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "untenured, tenure-track faculty member",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent"
+   ],
+   "eligible_parent_wording": "approved FML of sixty (60) calendar days or longer for any other reason",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "'may receive an automatically approved tenure clock extension' once HR confirms 60 days of approved FML (V2).",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "exact"
+   },
+   "use_limit": [
+    {
+     "times": 2,
+     "per": "career",
+     "counts": "uses"
+    }
+   ],
+   "use_limit_note": "Shares the cap of two automatic extensions with c5.",
+   "service_requirement": "approved FML of 60 calendar days or longer",
+   "rule_applied": [
+    "V2",
+    "U5",
+    "U9",
+    "U1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "When a non-tenured, tenure track faculty member is granted leave under this policy for birth, adoption, or placement of a foster child or for FMLA qualifying medical conditions of 60 calendar days or more, an automatic extension of the tenure clock will be granted as defined in accordance with NCSU REG 05.20.31 Tenure Clock."
+    ],
+    "eligible_parent": [
+     "A faculty member with approved FML of sixty (60) calendar days or longer for any other reason may receive an automatically approved tenure clock extension."
+    ],
+    "entitlement": [
+     "A faculty member with approved FML of sixty (60) calendar days or longer for any other reason may receive an automatically approved tenure clock extension.",
+     "Extensions as a result of circumstances described in section 4.1 of this regulation will be approved automatically; however, the faculty member must complete a notification form in order to receive the extension."
+    ],
+    "duration": [
+     "Automatically approved extensions as described in Section 4.1 will be for one (1) year."
+    ],
+    "use_limit": [
+     "A maximum of two (2) automatic extensions of one (1) year each will be granted, while all other extensions will be considered using the process described in Section 4.2."
+    ],
+    "service_requirement": [
+     "A faculty member with approved FML of sixty (60) calendar days or longer for any other reason may receive an automatically approved tenure clock extension."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_reg_05_20_31_tenure_clock",
+    "2018_00_link"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "A faculty member with approved FML of sixty (60) calendar days or longer for any other reason may receive an automatically approved tenure clock extension."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "A faculty member with approved FML of sixty (60) calendar days or longer for any other reason may receive an automatically approved tenure clock extension."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "A faculty member with approved FML of sixty (60) calendar days or longer for any other reason may receive an automatically approved tenure clock extension."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "When a non-tenured, tenure track faculty member is granted leave under this policy for birth, adoption, or placement of a foster child or for FMLA qualifying medical conditions of 60 calendar days or more, an automatic extension of the tenure clock will be granted as defined in accordance with NCSU REG 05.20.31 Tenure Clock."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own condition), non_birth_parent (family care)",
+     "quote": "A faculty member with approved FML of sixty (60) calendar days or longer for any other reason may receive an automatically approved tenure clock extension."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "A faculty member with approved FML of sixty (60) calendar days or longer for any other reason may receive an automatically approved tenure clock extension."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 year exact",
+     "quote": "Automatically approved extensions as described in Section 4.1 will be for one (1) year."
+    },
+    {
+     "field": "use_limit",
+     "rule": "U9",
+     "answer": "2 per career (shared automatic extensions)",
+     "quote": "A maximum of two (2) automatic extensions of one (1) year each will be granted, while all other extensions will be considered using the process described in Section 4.2."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "approved FML of 60 calendar days or longer",
+     "quote": "A faculty member with approved FML of sixty (60) calendar days or longer for any other reason may receive an automatically approved tenure clock extension."
+    }
+   ]
+  },
+  {
+   "component_id": "north_carolina_state_university_c7",
+   "institution_label": "Tenure Clock Extension",
+   "description": "A tenure-clock extension, normally one year, for compelling circumstances (an open list including health, family care, a birth or adoption, and other professional or personal circumstances), requested by the dean and approved or denied by the Provost.",
+   "mechanism": "tenure_clock",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "untenured, tenure-track faculty member",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "birth or care for a newborn, care for an adopted or foster child",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "entitlement_note": "The dean determines whether to request it and the Provost approves or denies it (V2).",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "normally"
+   },
+   "duration_note": "'will normally be for one (1) year; extensions for more than one (1) year are considered exceptional'.",
+   "rule_applied": [
+    "U1",
+    "V2",
+    "R13"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "authorizes the chancellor or chancellor’s designee to extend the term of appointment of an untenured, tenure-track faculty member only in documented cases of compelling circumstances"
+    ],
+    "eligible_parent": [
+     "A personal serious health condition, care for a child, spouse, domestic partner, or parent with a serious health condition, birth or care for a newborn, care for an adopted or foster child"
+    ],
+    "entitlement": [
+     "Based on consultation with the faculty member and the department head, the dean will determine whether to request an extension.",
+     "Approval or denial of the tenure clock extension will be provided in writing by the Office of the Provost."
+    ],
+    "duration": [
+     "Other extensions as described in Section 4.2 will normally be for one (1) year; extensions for more than one (1) year are considered exceptional."
+    ],
+    "general_purpose": [
+     "Other professional or personal circumstances that have the potential to significantly delay the development of the faculty member’s program."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_reg_05_20_31_tenure_clock"
+   ],
+   "flags": [
+    "general_purpose",
+    "cross_reference_not_saved: Request for Tenure Clock Extension Form",
+    "cross_reference_not_saved: NCSU POL05.20.01 Appointment, Reappointment, Promotion and Permanent Tenure"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "Other extensions as described in Section 4.2 will normally be for one (1) year; extensions for more than one (1) year are considered exceptional."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Other extensions as described in Section 4.2 will normally be for one (1) year; extensions for more than one (1) year are considered exceptional."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "Other professional or personal circumstances that have the potential to significantly delay the development of the faculty member’s program."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "authorizes the chancellor or chancellor’s designee to extend the term of appointment of an untenured, tenure-track faculty member only in documented cases of compelling circumstances"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "birth_parent, non_birth_parent, adoptive, foster",
+     "quote": "A personal serious health condition, care for a child, spouse, domestic partner, or parent with a serious health condition, birth or care for a newborn, care for an adopted or foster child"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "Based on consultation with the faculty member and the department head, the dean will determine whether to request an extension."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 year normally",
+     "quote": "Other extensions as described in Section 4.2 will normally be for one (1) year; extensions for more than one (1) year are considered exceptional."
+    }
+   ]
+  },
+  {
+   "component_id": "north_carolina_state_university_c8",
+   "institution_label": "Disability Income Plan of North Carolina (DIPNC)",
+   "description": "State disability plan providing salary continuation when an illness or disability absence exceeds the 60 calendar days of continuation pay, which must be exhausted first.",
+   "mechanism": "generic_sick_or_disability_plan",
+   "mechanism_note": "Income replacement after continuation pay ends; recorded like a long-term disability plan, without a duration (schema §2): the documents give no length or childbirth period.",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "faculty member (POL 05.30.01); plan 'provided to state employees'",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "the illness or disability",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "'may be eligible for disability benefits'; information on how to apply is made available. The plan's terms are not saved; eligibility under them is coded as on request (V2).",
+   "must_exhaust_first": [
+    "continuation pay"
+   ],
+   "time_window": "after continuation pay is exhausted; absence anticipated to exceed sixty (60) calendar days",
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "north_carolina_state_university_c1",
+     "note": "continuation pay 'must be exhausted prior to receiving benefits'"
+    }
+   ],
+   "rule_applied": [
+    "V6",
+    "U5",
+    "M1",
+    "V2",
+    "U6"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "In the event that a faculty member has a qualifying condition and has exhausted available continuation pay, the faculty member may be eligible for disability benefits as outlined under Section 6.3."
+    ],
+    "eligible_parent": [
+     "If it is anticipated that the illness or disability will require an absence from faculty duties for more than the sixty (60) calendar days, information will be made available on how to apply for salary continuation through the Disability Income Plan of North Carolina (DIPNC) and/or through other applicable voluntary supplemental disability programs."
+    ],
+    "entitlement": [
+     "In the event that a faculty member has a qualifying condition and has exhausted available continuation pay, the faculty member may be eligible for disability benefits as outlined under Section 6.3.",
+     "If it is anticipated that the illness or disability will require an absence from faculty duties for more than the sixty (60) calendar days, information will be made available on how to apply for salary continuation through the Disability Income Plan of North Carolina (DIPNC) and/or through other applicable voluntary supplemental disability programs."
+    ],
+    "sequence": [
+     "any continuation pay allotted under this policy must be exhausted prior to receiving benefits under the Disability Income Plan of North Carolina provided to state employees."
+    ],
+    "payer": [
+     "any continuation pay allotted under this policy must be exhausted prior to receiving benefits under the Disability Income Plan of North Carolina provided to state employees."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link",
+    "2018_03_unc_policy_300_2_11_faculty_illness_parental_leave"
+   ],
+   "flags": [
+    "cross_reference_not_saved: Disability Income Plan of North Carolina"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "V6",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "If it is anticipated that the illness or disability will require an absence from faculty duties for more than the sixty (60) calendar days, information will be made available on how to apply for salary continuation through the Disability Income Plan of North Carolina (DIPNC) and/or through other applicable voluntary supplemental disability programs."
+    },
+    {
+     "field": "payer",
+     "rule": "M1",
+     "answer": "employer",
+     "quote": "any continuation pay allotted under this policy must be exhausted prior to receiving benefits under the Disability Income Plan of North Carolina provided to state employees."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "If it is anticipated that the illness or disability will require an absence from faculty duties for more than the sixty (60) calendar days, information will be made available on how to apply for salary continuation through the Disability Income Plan of North Carolina (DIPNC) and/or through other applicable voluntary supplemental disability programs."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "In the event that a faculty member has a qualifying condition and has exhausted available continuation pay, the faculty member may be eligible for disability benefits as outlined under Section 6.3."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own illness or disability)",
+     "quote": "If it is anticipated that the illness or disability will require an absence from faculty duties for more than the sixty (60) calendar days, information will be made available on how to apply for salary continuation through the Disability Income Plan of North Carolina (DIPNC) and/or through other applicable voluntary supplemental disability programs."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "In the event that a faculty member has a qualifying condition and has exhausted available continuation pay, the faculty member may be eligible for disability benefits as outlined under Section 6.3."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "consecutive_after c1",
+     "quote": "any continuation pay allotted under this policy must be exhausted prior to receiving benefits under the Disability Income Plan of North Carolina provided to state employees."
+    }
+   ]
+  },
+  {
+   "component_id": "north_carolina_state_university_c9",
+   "institution_label": "Supplemental Disability Plans",
+   "description": "Voluntary supplemental disability programmes through which salary continuation may be sought for an absence longer than the 60 days of continuation pay.",
+   "mechanism": "generic_sick_or_disability_plan",
+   "mechanism_note": "Disability income plan for absences beyond continuation pay; no length stated (schema §2).",
+   "payer": "employee_paid",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "faculty member (POL 05.30.01)",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "the illness or disability",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "Information on how to apply is made available 'where applicable'; terms not saved.",
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "north_carolina_state_university_c1",
+     "note": "for absences anticipated to exceed the sixty calendar days of continuation pay"
+    }
+   ],
+   "rule_applied": [
+    "R1d",
+    "U5",
+    "V2"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "If it is anticipated that the illness or disability will require an absence from faculty duties for more than the sixty (60) calendar days, information will be made available on how to apply for salary continuation through the Disability Income Plan of North Carolina (DIPNC) and/or through other applicable voluntary supplemental disability programs."
+    ],
+    "eligible_parent": [
+     "If it is anticipated that the illness or disability will require an absence from faculty duties for more than the sixty (60) calendar days, information will be made available on how to apply for salary continuation through the Disability Income Plan of North Carolina (DIPNC) and/or through other applicable voluntary supplemental disability programs."
+    ],
+    "entitlement": [
+     "If it is anticipated that the illness or disability will require an absence from faculty duties for more than the sixty (60) calendar days, information will be made available on how to apply for salary continuation through the Disability Income Plan of North Carolina (DIPNC) and/or through other applicable voluntary supplemental disability programs."
+    ],
+    "payer": [
+     "through other applicable voluntary supplemental disability programs"
+    ],
+    "sequence": [
+     "If it is anticipated that the illness or disability will require an absence from faculty duties for more than the sixty (60) calendar days, information will be made available on how to apply for salary continuation through the Disability Income Plan of North Carolina (DIPNC) and/or through other applicable voluntary supplemental disability programs."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "cross_reference_not_saved: Supplemental Disability Plans",
+    "ambiguous: payer employee_paid inferred from 'voluntary'; premiums not stated"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "If it is anticipated that the illness or disability will require an absence from faculty duties for more than the sixty (60) calendar days, information will be made available on how to apply for salary continuation through the Disability Income Plan of North Carolina (DIPNC) and/or through other applicable voluntary supplemental disability programs."
+    },
+    {
+     "field": "payer",
+     "rule": "R1d",
+     "answer": "employee_paid",
+     "quote": "through other applicable voluntary supplemental disability programs"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "If it is anticipated that the illness or disability will require an absence from faculty duties for more than the sixty (60) calendar days, information will be made available on how to apply for salary continuation through the Disability Income Plan of North Carolina (DIPNC) and/or through other applicable voluntary supplemental disability programs."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "If it is anticipated that the illness or disability will require an absence from faculty duties for more than the sixty (60) calendar days, information will be made available on how to apply for salary continuation through the Disability Income Plan of North Carolina (DIPNC) and/or through other applicable voluntary supplemental disability programs."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own illness or disability)",
+     "quote": "If it is anticipated that the illness or disability will require an absence from faculty duties for more than the sixty (60) calendar days, information will be made available on how to apply for salary continuation through the Disability Income Plan of North Carolina (DIPNC) and/or through other applicable voluntary supplemental disability programs."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "If it is anticipated that the illness or disability will require an absence from faculty duties for more than the sixty (60) calendar days, information will be made available on how to apply for salary continuation through the Disability Income Plan of North Carolina (DIPNC) and/or through other applicable voluntary supplemental disability programs."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "consecutive_after c1",
+     "quote": "If it is anticipated that the illness or disability will require an absence from faculty duties for more than the sixty (60) calendar days, information will be made available on how to apply for salary continuation through the Disability Income Plan of North Carolina (DIPNC) and/or through other applicable voluntary supplemental disability programs."
+    }
+   ]
+  },
+  {
+   "component_id": "north_carolina_state_university_c10",
+   "institution_label": "",
+   "description": "Faculty on fiscal-year (12-month) appointments accrue sick leave, which runs concurrently with FMLA; they are outside the continuation-pay policy.",
+   "mechanism": "own_accrual",
+   "payer": "own_balance",
+   "faculty_group": "faculty with fiscal year (12-month) appointments",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "sick leave (no role words)",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "sequence": [
+    {
+     "relation": "concurrent_with",
+     "component_id": "north_carolina_state_university_c3",
+     "note": "'sick leave that runs concurrently with FMLA'"
+    }
+   ],
+   "rule_applied": [
+    "R1",
+    "U5",
+    "schema"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "This policy does not apply to faculty with fiscal year (12- month) appointments, because they accrue sick leave that runs concurrently with FMLA."
+    ],
+    "eligible_parent": [
+     "This policy does not apply to faculty with fiscal year (12- month) appointments, because they accrue sick leave that runs concurrently with FMLA."
+    ],
+    "entitlement": [
+     "This policy does not apply to faculty with fiscal year (12- month) appointments, because they accrue sick leave that runs concurrently with FMLA."
+    ],
+    "sequence": [
+     "This policy does not apply to faculty with fiscal year (12- month) appointments, because they accrue sick leave that runs concurrently with FMLA."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "own_accrual",
+     "quote": "This policy does not apply to faculty with fiscal year (12- month) appointments, because they accrue sick leave that runs concurrently with FMLA."
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "own_balance",
+     "quote": "This policy does not apply to faculty with fiscal year (12- month) appointments, because they accrue sick leave that runs concurrently with FMLA."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "This policy does not apply to faculty with fiscal year (12- month) appointments, because they accrue sick leave that runs concurrently with FMLA."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "faculty with fiscal year (12-month) appointments",
+     "quote": "This policy does not apply to faculty with fiscal year (12- month) appointments, because they accrue sick leave that runs concurrently with FMLA."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own illness)",
+     "quote": "This policy does not apply to faculty with fiscal year (12- month) appointments, because they accrue sick leave that runs concurrently with FMLA."
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "This policy does not apply to faculty with fiscal year (12- month) appointments, because they accrue sick leave that runs concurrently with FMLA."
+    },
+    {
+     "field": "sequence",
+     "rule": "S1",
+     "answer": "concurrent_with c3",
+     "quote": "This policy does not apply to faculty with fiscal year (12- month) appointments, because they accrue sick leave that runs concurrently with FMLA."
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "Governing document: POL 05.30.01 (last revised 2010-02-19), in force on 2018-02-27; REG 05.20.31 as revised 2018-01-23 governs the tenure clock; UNC 300.2.11 (amended 2007) is the system mandate that POL 05.30.01 implements and supplies the 75-percent eligibility gloss. No collective agreement (faculty not unionised per the version note).",
+  "The member described (U8): a 9-month tenure-stream faculty member with two years of service, in TSERS or ORP. Path for faculty who moved from 12- to 9-month status (exhaust accrued sick leave first, §3.5) is recorded as a flag on c1. Fiscal-year (12-month) faculty are outside POL 05.30.01 and use accrued sick leave (c10, faculty_group named).",
+  "Birth parent chain: continuation pay up to 60 calendar days (c1), with FMLA 12 workweeks alongside from the start (c3, concurrent_with c1) -> DIPNC salary continuation and voluntary supplemental disability once continuation pay is exhausted (c8, c9, consecutive_after c1, no length); with discretionary alternative assignments for the balance of the semester containing the leave (c2; c1 within c2).",
+  "Non-birth parent chain: continuation pay up to 60 calendar days (c1), with FMLA alongside (c3) -> NC Family Illness Leave Act up to 52 weeks for a spouse's serious illness (c4, consecutive_after c3, 'extension'); with discretionary alternative assignments for the balance of the semester containing the leave (c2).",
+  "Tenure clock: automatic one-year extension for a new child (c5) and for 60+ days of FML for other reasons (c6), at most two automatic extensions; other extensions for compelling circumstances, an open list, are discretionary and general-purpose (c7).",
+  "Cited but not saved: UNC POL Manual 300.2.11 [G] Guidelines on Serious Illness and Disability Leave for Faculty; NCSU Family Medical Leave; Disability Income Plan of North Carolina; Supplemental Disability Plans; North Carolina Family Illness Leave Act; NCSU POL05.20.01 Appointment, Reappointment, Promotion and Permanent Tenure; NCSU POL01.05.01 BOT Bylaws; NCSU REG 05.20.04 Post Tenure Review; NCSU REG01.25.09 Protected Health Information; NCSU POL04.25.05 Equal Opportunity; Request for Tenure Clock Extension Form; RPT Review Timeline Information; College RPT Liaisons; leave request form; Health Care Provider Certification form; Notification of 60 days Approved Family Leave form; Task Force on Serious Illness and Disability Policies for Faculty (March 2003). None of the unsaved ones appears to set a separate parental benefit, but the FML and DIPNC pages would give terms not coded here.",
+  "No statutory-baseline rows for NC; the US rows are accounted for in baseline_accounting."
+ ],
+ "statutory_floor": {
+  "jurisdiction": "US",
+  "year": "2018",
+  "weeks_birth": 12.0,
+  "weeks_nonbirth": 12.0,
+  "statute": "Family and Medical Leave Act (FMLA) (29 U.S.C. 2611-2612)",
+  "source_doc": "2026_00_us_fmla_29usc2612",
+  "table": "statutory_baseline.csv"
+ }
+}

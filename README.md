@@ -1,577 +1,76 @@
-<script src='//d3js.org/d3.v4.js'></script>
-<style type="text/css">
-body {
-	font-family: "Helvetica";
-}
-	
-div.tooltip {	
-	position: absolute;			
-	text-align: left;			
-	padding: 4px;				
-	font: 12px sans-serif;		
-	background: #eee;				
-}
+<p align="center"><img src="assets/logo_green.png" width="140" alt="The Faculty Parental Leave Project logo"></p>
 
-h2 {
-	font-weight: 100;
-	font-size: 2em; 
-}
+# The Faculty Parental Leave Project
 
-h3 {
-	padding-top: 10px; 
-	margin-top: 0px;
-}
+The Faculty Parental Leave Project aims to measure, track, and understand the parental-leave benefits that universities provide to faculty. Parenthood is among the most impactful events in a faculty career, and that impact can vary broadly across individuals and across institutions. This project aims to measure that variability, identify patterns in leave benefits, and understand how parenthood is changing for faculty.
 
-h4 {
-	font-size: 1em;
-	display: inline;
-	clear: none;
-	padding-right: 0.5em;
-	height: 20px;
-}
+Parental leave policies are often complicated, and many faculty are not aware of the benefits their own university provides. The project systematically collects and analyzes these policies, and provides open data for researchers to use to better understand how parenthood impacts academic careers.
 
-.controls {
-	padding-bottom: 10px;
-}
+**Website:** https://aaronclauset.github.io/parental-leave/ — highlights from the data, an interactive explorer, every institution's policy as a benefits timeline, and the release notes.
 
-form {
-	display: inline-block;
-}
+**Update, November 2026:** a new version of the 2018 data (v2.0) is available. It re-collects the policies of the same 205 universities from each institution's own policy documents, and adds measures of pay and job protection.
 
-.title {
-	font-weight: bold;
-}
+## Data sets
+Each data set is a sample of institutions, measured at one point in time. Each released version has its own folder, `data/<sample>/v<version>/`, which holds everything needed to use and rebuild it.
 
-.legend_item {
-	font-size: 1.3em;
-}
+| Sample | Version | Released | Institutions | Files |
+|---|---|---|---|---|
+| 2018 | **v2.0** (current) | November 2026 | 205 | `data/2018/v2.0/` |
+| 2018 | v1.0 | April 2018, corrected to January 2019 | 205 | `data/2018/v1.0/` |
 
-#color_legend {
-	height: 20px;
-}
+The 2018 sample covers tenured and tenure-track faculty at 205 research universities in the United States and Canada with PhD-granting computer science departments, with the policies in force in the 2017–18 academic year. Version 1.0 was published with Morgan et al. (2018); the root file `parental_leave_policies.tsv` is the same file, kept for existing links. How v2.0 differs from v1.0, institution by institution: the [release notes](https://aaronclauset.github.io/parental-leave/release-notes/2018-v2.0.html) and `data/2018/v2.0/v1_v2_differences.csv`. The 2018 website that presented v1.0 is archived in `archive/2018-v1.0/` ([view it](https://aaronclauset.github.io/parental-leave/archive/2018-v1.0/)).
 
-a:hover, a:focus {
-	font-weight: 400; 
-}
+## What the data measure
+Parental leave benefits typically come in two forms. A **leave** is time away from all duties, often paid. **Relief** (or modified duties) keeps the faculty member employed at full pay while removing some duties, usually teaching. The **primary value** measures, for each parent, the number of weeks of employer-paid leave or of full-pay relief, whichever is longer. Each value is recorded for the **birth parent** and the **non-birth parent**, both as **guaranteed** and **with discretionary benefits**. Secondary values describe pay and job protection more broadly. Every column is defined in `data/2018/v2.0/DATA_DICTIONARY.md`.
 
-a {
-	font-weight: 400;
-}
-</style>
+For v2.0, policy discovery, collection, and extraction were automated using a structured pipeline of large language models (Claude) and deterministic code. Models found each institution's documents, read them and encoded each policy as a set of components, each coded field paired with a verbatim quote from the source. Deterministic code then checked every record and computed every value. Questions the coding rules did not settle were decided by the research team and written into the rules. The website's "Data collection protocol" section describes each step and the limitations.
 
-# Motivation
+## What is in this repository
+The 2018 v2.0 release, in `data/2018/v2.0/`:
 
-Inspired in part by a 2016 study of university parental leave policies by [Antecol et al.](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnxzdGVhcm5zamV8Z3g6NDE0NTM4MTBhYjBmYjhmYw) ([New York Times](https://www.nytimes.com/2016/06/26/business/tenure-extension-policies-that-put-women-at-a-disadvantage.html), [Inside HigherEd](https://www.insidehighered.com/news/2016/06/27/stopping-tenure-clock-may-help-male-professors-more-female-study-finds)), in 2017-2018, we collected the paid<sup>1</sup> parental leave policies for tenure-track faculty<sup>2</sup> at 205 research universities in the US and Canada. The purpose of this post is to share the data we collected, highlight the complexity of many such policies, and share some preliminary analyses.
+| Path | Content |
+|---|---|
+| `parental_leave_2018_v2.0.csv` | The 2018 v2.0 data set, one row per institution |
+| `DATA_DICTIONARY.md` | Every column of the data set |
+| `v1_v2_differences.csv` | v1.0 and v2.0 values side by side, with the cause of each difference |
+| `records/` | The structured encoding of each institution's policy (JSON), with the verbatim quote supporting every coded field |
+| `guidance/` | The coding rules, schema, checklist, field meanings and reader instructions |
+| `provenance/index.csv` | Every source document, with its URL, web-archive capture, retrieval date and SHA-256 |
+| `reference/` | Institution metadata, statutory baselines, government programs, 2017–18 calendar term lengths, AAU membership, the prestige crosswalk, component tiers |
+| `code/` | The code that rebuilds every data file from the encodings |
+| `timelines.json`, `files.json` | The component timelines the website's policy viewer draws, and the file list of the release notes |
 
-# Methods
+Elsewhere in the repository:
 
-We collected parental leave policies of the 205 universities on the [Computing Research Association's](https://cra.org/about/) [Forsythe list](http://archive.cra.org/reports/forsythe.html) of PhD-granting institutions in the US and Canada, which reflects our specific interest in computing departments.
+| Path | Content |
+|---|---|
+| `data/2018/v1.0/` | The 2018 v1.0 data set, unchanged |
+| `index.html`, `release-notes/`, `assets/` | The website |
+| `archive/2018-v1.0/` | The 2018 website, kept as it was: the original home page, the interactive policy page, and the comparison with the technology industry (with `tech.tsv` and the `python/` notebook) |
+| `parental_leave_policies.tsv` | The v1.0 data set at its original path, for existing links |
 
-For each university, we Googled "[university name] faculty parental leave policy" or "[university name] faculty handbook" and recorded the institution's policy for female and male faculty separately, noting the duration of paid leave and form of relief granted, if stated (e.g. relief from just teaching, all duties, etc.). Several universities offer disability leave that may apply to some new parents.<sup>3</sup> Here, we focused our efforts on recording policies specifically for parental leave. This process took about 5 minutes per university and recovered policies for 197 of the 205 target institutions (96%). The eight missing policies correspond to institutions whose faculty handbooks are either not available online or require an employee login.
+## Reproducing the data
+With Python 3.9 or later (standard library only), from the version's folder:
 
-In the intervening years since this data was collected, we note that several universities have since updated (most commonly: expanded) their paid parentel leave benefits. These updates are not reflected in these data, and at this time, we are not making further updates to this (now historical) data set.
+```
+cd data/2018/v2.0
+python code/test_rebuild.py
+```
 
-# Parental leave data
+This rebuilds the data set, the differences file and the website's timeline data from `records/` and `reference/` (and the v1.0 file in `data/2018/v1.0/`), and checks them byte for byte against the released files. `code/REPRODUCE.md` describes each step. The source documents themselves are not distributed; `provenance/index.csv` identifies each one by its URL and web-archive capture.
 
-We've compiled the resulting 2018 dataset into a [spreadsheet](https://github.com/aaronclauset/parental-leave/blob/master/parental_leave_policies.tsv), included in this GitHub project. 
+## License
+- **Data, encodings, guidance and reference tables** (both versions): Creative Commons Attribution 4.0 International (CC BY 4.0); see `LICENSE`.
+- **Code:** BSD 3-Clause; see `LICENSE-CODE`.
+- The verbatim quotes in the encodings are short excerpts of documents whose copyright remains with their owners; see `SOURCES_NOTICE.md`.
 
-[comment]: <> (* If you spot an error or know the policy at an institution that isn't listed, please let us know using this [feedback form](https://goo.gl/forms/uZAVXaqRGpF3AjNS2). )
-[comment]: <> (* If you can instead confirm that we correctly recorded the policy at your institution, please let us know [here](https://goo.gl/forms/O6gHXZVho2QZmnL13). )
-* If you use this data set, please cite it as A.C. Morgan, S.F. Way, M. Galesic, D.B. Larremore, A. Clauset, "Paid parental leave at US and Canadian universities." Retreived from [https://aaronclauset.github.io/parental-leave/](https://aaronclauset.github.io/parental-leave/) (2018)
+## How to cite
+- **Version 2.0:** A. Clauset, "Faculty parental-leave policies at U.S. and Canadian universities, 2018 v2.0" (2026). https://github.com/aaronclauset/parental-leave
+- **Version 1.0:** A. C. Morgan, S. F. Way, M. Galesic, D. B. Larremore and A. Clauset, "Paid parental leave at US and Canadian universities" (2018).
 
-[comment]: <> (Your feedback will help ensure that this dataset is as accurate as possible.)
+## About us
+The Faculty Parental Leave Project is based at the University of Colorado Boulder. Its contributors are [Allison C. Morgan](https://allisonmorgan.github.io), [Samuel F. Way](http://samfway.com), [Michael J. D. Hoefer](https://www.michaelhoefer.com), [Daniel B. Larremore](https://larremorelab.github.io/dan), [Mirta Galesic](https://sites.google.com/site/mirtagalesic/) and [Aaron Clauset](https://aaronclauset.github.io).
 
-One immediate takeaway from our data collection effort is that university parental leave policies, as written, can be difficult to understand. For example, several policies we found state that if both parents are tenure-track faculty, they must share the parental leave benefit (e.g. [Toyota Technical Institute](http://www.ttic.edu/dl/faculty_handbook.pdf)). Other policies describe a short amount of time off at full-pay with relief from all duties, followed by a longer time off with relief only from some duties (e.g. Princeton's [leave](https://dof.princeton.edu/working-princeton/benefits/paid-leave-childbearing-for-faculty) and [workload relief](https://dof.princeton.edu/working-princeton/benefits/workload-relief-new-parents-for-faculty) policies). For consistency across universities, we recorded both types of policies as the longer amount of relief only. Confusingly, many parental leave policies are written in terms of “primary caregiver” benefits (e.g. [Michigan Technological University](https://www.mtu.edu/hr/current/benefits/docs/parental-leave.pdf)) without defining whether both parents can have that role or only one, as well as fractional amounts of salaries to be received (e.g. [University of Utah](https://regulations.utah.edu/academics/6-315.php)). Other policies are simple in structure and simple to understand, e.g., both parents can take 1 semester of paid leave with full relief of duties (e.g., [University of Colorado Boulder](https://www.cu.edu/ope/aps/5019)).
+**Publication:** A. C. Morgan, S. F. Way, M. J. D. Hoefer, D. B. Larremore, M. Galesic and A. Clauset, "The unequal impact of parenthood in academia." *Science Advances* 7(9), eabd1996 (2021). [doi:10.1126/sciadv.abd1996](https://doi.org/10.1126/sciadv.abd1996)
 
-# Data summary
-
-In 2018:
-* About 60% of institutions had some form of paid parental leave for new mothers or fathers.
-* For universities with paid leave policies, the average duration was 14.2 weeks for women and 11.6 weeks for men.
-* Among universities that offered paid leave, 68.3% had gender-neutral policies (same leave for men and women).
-* Private institutions had slightly longer leaves (by about 2 weeks).
-* The relationship between an institution's prestige and its leave policies is complex and requires careful analysis.
-
-<p align="center" style="font-weight: 400;"><a href="#analysis">Read on below the visualization for more details.</a></p>
-
-# Visualization
-<a name="visualization"></a>
-Explore the data. The university ranking option sorts by the inferred prestige of a university according to its Computer Science department (details [here](http://advances.sciencemag.org/content/1/1/e1400005)). Regions are U.S. Census regions plus Canada. All data points represent university-provided paid parental leaves only. Hover over a data point to see more details on the policy, including its primary source. Curious how tech-sector employers compare to universities? Explore paid parental leave in academic CS and Tech [here](https://aaronclauset.github.io/parental-leave/industry_academia.html).
-
-<div class="controls">
-	<h4 class="title">Sort by: </h4>
-	<button type="button" onclick="rearrange('sorted_by_name')">University Name</button>
-	<button type="button" onclick="rearrange('sorted_by_prestige')">University Rank (CS)</button>
-	<button type="button" onclick="rearrange('sorted_by_women')">Women's Leave</button>
-	<button type="button" onclick="rearrange('sorted_by_men')">Men's Leave</button>
-</div>
-<div class="controls">
-	<form autocomplete="off">
-		<h4 class="title">Color by:</h4>
-		<label>
-		    <input type="radio" name="highlight" value="none" checked="checked"/>None
-		</label>
-		<label>
-		    <input type="radio" name="highlight" value="pubpriv"/>Private/Public Status
-		</label>
-		<label>
-		    <input type="radio" name="highlight" value="loc"/>Region
-		</label>
-	</form>
-</div>
-<div id="color_legend" class="controls"></div>
-
-<h3></h3>
-
-<!-- Begin D3 Javascript -->
-<script type="text/javascript">
-    // Globals 
-    var TEXT_POS = 175;
-    var TEXT_PAD = 10;
-    var DEFAULT_F_COLOR = "#67C080";
-    var DEFAULT_M_COLOR = "#202020";
-    var PRIVATE_COLOR = "#B074E8"
-    var PUBLIC_COLOR = "#202020";
-    var REGION_COLORS = { "Midwest": "#AB4ADB", 
-    					  "Northeast": "#077187",
-    					  "South": "#CCA43B",
-    					  "West": "#5BBA6F",
-    					  "Canada": "#DB3A34"};
-    var DEFAULT_MARKER_COLOR = "#999999";
-    var TRANSITION_DURATION = 1000;
-
-    // Setup data
-    var tsvdata = [];
-    var sortby = "sorted_by_name"; 
-
-    // Setup settings for graphic
-    var canvas_width = 550;
-    var canvas_height = 2500;
-    var yPadding = 60;
-    var xPadding = 200;
-    var xScale;
-    var yScale;
-    var shapes; 
-    var texts;
-    var xticks = [0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50];
-
-    // Presorting function
-    function presort_by(data, by, name, isNumeric)
-    {
-    	// Default to alphabetical if values are the same.
-    	var to_sort = []
-    	if (isNumeric) {
-			for (var i = 0; i < data.length; i++) 
-			{ to_sort.push([parseFloat(data[i][by]), i, data[i]["short_name"]]);}
-			to_sort.sort(function(left, right) {
-				if (left[0] != right[0])
-						return left[0] > right[0] ? -1 : 1; 
-				else
-					return left[2] < right[2] ? -1 : 1; });
-    	}
-		else {
-			for (var i = 0; i < data.length; i++) 
-			{ to_sort.push([data[i][by], i, data[i]["short_name"]]); }
-			to_sort.sort(function(left, right) {
-				
-				if (left[0] != right[0])
-						return left[0] < right[0] ? -1 : 1;
-				else
-					return left[2] < right[2] ? -1 : 1; });
-		}
-
-		// Fill in sorted and SCALED values
-		for (i=0; i<data.length; i++) { 
-			data[to_sort[i][1]][name] = yScale(i); 
-		}
-		return;
-    }
-
-    // Tooltip functions
-    function make_tooltip(d) {	
-
-    	var source_link; 
-    	if ("link" in d && d.link.includes("http"))
-    		source_link = "<br />[<a target='_blank' href='" + d.link + "'>source</a>]";
-    	else
-    		source_link = "";
-
-        div.transition()		
-            .duration(200)		
-            .style("opacity", .9);		
-        div.html("<span class='title'>" + d.short_name + "</span>"
-        	+ "<br />Women: " + d.paid_leave_weeks_woman + " weeks"
-        	+ "<br />Men: " + d.paid_leave_weeks_man + " weeks"
-        	+ source_link)	
-            .style("left", (d3.event.pageX + 10) + "px")		
-            .style("top", (d3.event.pageY - 28) + "px");	
-     }
-
-     function hide_tooltip(d) {		
-     	div.transition()		
-            .duration(500)	
-            .delay(1000)	
-            .style("opacity", 0);	
-    }
-    
-    // Create SVG element
-    var svg = d3.select("h3")
-        .append("svg")
-        .attr("width", canvas_width)
-        .attr("height", canvas_height)
-
-    // Tooltip 
-    var div = d3.select("body").append("div")	
-    		.attr("class", "tooltip")				
-    		.style("opacity", 0);
-
-		// Load data and build the figure
-	d3.tsv("parental_leave_policies.tsv", function(data) {
-
-		// Only show universities where we found a policy
-		data = data.filter(function(entry) { return entry.missing == 0; });
-
-		// Create scale functions
-        xScale = d3.scaleLinear()
-            .domain([0, 52])
-            .range([TEXT_POS+TEXT_PAD, canvas_width]); 
-
-        yScale = d3.scaleLinear() 
-            .domain([0, data.length])
-            .range([yPadding, canvas_height - yPadding/2]);
-    	
-    	/*
-			Helper variables:
-				- rev_rank: reverses rank to sort most prestigious to top
-				- f_color: variable for coloring the female marker
-				- m_color: variable for coloring the male marker
-    	*/
-		for (var i = 0; i < data.length; i++) {
-			data[i].rev_rank = -parseFloat(data[i].rank); 
-			data[i].f_color = DEFAULT_F_COLOR;
-			data[i].m_color = DEFAULT_M_COLOR;
-		}
-
-		// Pre-calculate sorted indicies
-		presort_by(data, "paid_leave_weeks_woman", "sorted_by_women", true)
-		presort_by(data, "paid_leave_weeks_man", "sorted_by_men", true)
-		presort_by(data, "rev_rank", "sorted_by_prestige", true)
-		presort_by(data, "short_name", "sorted_by_name", false)
-
-        // Custom grid
-        for (i=0; i<xticks.length; i++)
-        {
-        	svg.append("line")
-        		.style("stroke", "gray")	
-        		.style("stroke-dasharray", ("1, 3"))
-        		.attr("stroke-width", ".5")
-        		.attr("x1", xScale(xticks[i]))
-        		.attr("x2", xScale(xticks[i]))
-        		.attr("y1", yScale(0) - 15)
-        		.attr("y2", yScale(data.length));
-
-        	svg.append("text")
-        		.attr("color", DEFAULT_M_COLOR)
-        		.attr("x", xScale(xticks[i]))
-	            	.attr("y", yScale(0) - 20)
-            		.attr("font-weight", 100)
-        	    	.attr("text-anchor", "middle")
-	            	.attr("font-size", "14px")
-            		.text(xticks[i]);
-		
-		svg.append("text")
-        		.attr("color", DEFAULT_M_COLOR)
-        		.attr("x", xScale(xticks[i]))
-        	    	.attr("y", yScale(data.length + 1.5))
-	            	.attr("font-weight", 100)
-            		.attr("text-anchor", "middle")
-        	    	.attr("font-size", "14px")
-	            	.text(xticks[i]);
-        }
-
-        // Title and legend
-		svg.append("text")
-    		.attr("x", xScale(0))
-        	.attr("y", yScale(0) - 45)
-        	.attr("color", DEFAULT_M_COLOR)
-        	.attr("font-weight", 100)
-        	.attr("text-anchor", "start")
-        	.attr("font-size", "16px")
-        	.text("Paid Leave Duration (weeks)");	
-
-    	svg.append("circle")
-    		.attr("class", "f_marker")
-    		.attr("cx", xScale(35))
-    		.attr("cy", yScale(0) - 50)
-    		.attr("fill", "#fff")
-            .attr("stroke", "#67C080")
-            .attr("stroke-width", "2")
-            .attr("r", 3.5);
-        svg.append("text")
-    		.attr("x", xScale(36))
-        	.attr("y", yScale(0) - 45)
-        	.attr("font-weight", 100)
-        	.attr("text-anchor", "start")
-        	.attr("font-size", "14px")
-        	.attr("color", DEFAULT_M_COLOR)
-        	.text("Women");
-
-        svg.append("line")
-        	.attr("class", "m_marker")
-        	.attr("stroke", "black")
-        	.attr("stroke-width", "1.25")
-        	.attr("x1", xScale(45)-3)
-        	.attr("x2", xScale(45)+3)
-        	.attr("y1", yScale(0)-50-3)
-        	.attr("y2", yScale(0)-50+3);
-        svg.append("line")
-        	.attr("class", "m_marker")
-        	.attr("stroke", "black")
-        	.attr("stroke-width", "1.25")
-        	.attr("x1", xScale(45)-3)
-        	.attr("x2", xScale(45)+3)
-        	.attr("y1", yScale(0)-50+3)
-        	.attr("y2", yScale(0)-50-3);
-       	svg.append("text")
-    		.attr("x", xScale(46))
-        	.attr("y", yScale(0) - 45)
-        	.attr("font-weight", 100)
-        	.attr("text-anchor", "start")
-        	.attr("font-size", "14px")
-        	.attr("color", DEFAULT_M_COLOR)
-        	.text("Men");
-
-        // Create all of our markers
-        shapes = svg.selectAll(".shapes").data(data).enter();
-
-        // Line connecting the two markers
-        shapes.append("line")
-        	.style("stroke", "gray")
-        	.attr("stroke-width", ".5")
-        	.attr("class", "linesc movey")
-        	.attr("x1", function(d, i) { return xScale(d.paid_leave_weeks_man); })
-        	.attr("x2", function(d, i) { return xScale(d.paid_leave_weeks_woman); })
-        	.attr("y1", function(d, i) { return d[sortby]; })
-        	.attr("y2", function(d, i) { return d[sortby]; });
-
-        // Women (circles)
-        shapes.append("circle")
-    		.attr("cx", function(d, i) { return xScale(d.paid_leave_weeks_woman); })
-    		.attr("cy", function(d, i) { return d[sortby]; })
-    		.attr("fill", "#fff")
-            .attr("stroke", function(d, i) { return d.f_color; })
-            .attr("stroke-width", "2")
-            .attr("r", 3.5)
-            .attr("class", "dots movey")
-            .on("mouseover", function(d) { make_tooltip(d); })					
-    		.on("mouseout", function(d) { hide_tooltip(d); });
-
-        // Men (draw X as two lines)
-        shapes.append("line")
-        	.attr("stroke", function(d, i) { return d.m_color; })
-        	.attr("stroke-width", "1.25")
-        	.attr("class", "x1")
-        	.on("mouseover", function(d) { make_tooltip(d); })					
-    		.on("mouseout", function(d) { hide_tooltip(d); })
-        	.attr("x1", function(d, i) { return xScale(d.paid_leave_weeks_man)-3; })
-        	.attr("x2", function(d, i) { return xScale(d.paid_leave_weeks_man)+3; })
-        	.attr("y1", function(d, i) { return d[sortby]-3; })
-        	.attr("y2", function(d, i) { return d[sortby]+3; });
-        shapes.append("line")
-        	.attr("stroke", function(d, i) { return d.m_color; })
-        	.attr("stroke-width", "1.25")
-        	.attr("class", "x2")
-        	.on("mouseover", function(d) { make_tooltip(d); })					
-    		.on("mouseout", function(d) { hide_tooltip(d); })
-        	.attr("x1", function(d, i) { return xScale(d.paid_leave_weeks_man)-3; })
-        	.attr("x2", function(d, i) { return xScale(d.paid_leave_weeks_man)+3; })
-        	.attr("y1", function(d, i) { return d[sortby]+3; })
-        	.attr("y2", function(d, i) { return d[sortby]-3; });
-
-        // University labels
-        texts = shapes.append("text")
-            .attr("class", "names movey")
-            .attr("color", function(d) { return d.m_color; })
-            .attr("x", function(d, i) { return TEXT_POS; })
-            .attr("y", function(d, i) { return d[sortby]; })
-            .text(function(d) { return d.short_name; })
-            .attr("font-weight", "100")
-            .attr("alignment-baseline", "central")
-            .attr("text-anchor", "end")
-            .attr("font-size", "11px");
-
-    	// Save data to global variable
-        tsvdata = data;
-	});
-
-    function rearrange(by, force_update = false) {
-		
-		// Bail if no changes needed
-		if (sortby == by && !force_update) { return; }
-
-		// Update sorting variable
-		sortby = by; 
-
-        // Update female markers...
-        svg.selectAll(".dots")
-        .transition()
-        .duration(TRANSITION_DURATION)
-        .delay(function(d, i) { return i / tsvdata.length * 500; })
-        .attr("stroke", function(d, i) { return d.f_color; })
-        .attr("cy", function(d, i) { return d[sortby]; })
-
-        // ...connecting lines...
-		svg.selectAll(".linesc")
-		.transition()
-		.duration(TRANSITION_DURATION)
-		.delay(function(d, i) { return i / tsvdata.length * 500; })
-		.attr("y1", function(d, i) { return d[sortby]; })
-		.attr("y2", function(d, i) { return d[sortby]; });
-
-        // ...male markers...
-    	svg.selectAll(".x1")
-        .transition()
-        .duration(TRANSITION_DURATION)
-        .delay(function(d, i) { return i / tsvdata.length * 500; })
-        .attr("stroke", function(d, i) { return d.m_color; })
-    	.attr("y1", function(d, i) { return d[sortby]-3; })
-    	.attr("y2", function(d, i) { return d[sortby]+3; });
-    	svg.selectAll(".x2")
-        .transition()
-        .duration(TRANSITION_DURATION)
-        .delay(function(d, i) { return i / tsvdata.length * 500; })
-        .attr("stroke", function(d, i) { return d.m_color; })
-    	.attr("y1", function(d, i) { return d[sortby]+3; })
-    	.attr("y2", function(d, i) { return d[sortby]-3; });
-
-        // ...and names of the universities.
-		svg.selectAll(".names")
-        .transition()
-        .duration(TRANSITION_DURATION)
-        .delay(function(d, i) { return i / tsvdata.length * 500; })
-        .style('fill',  function(d, i) { return d.m_color; } )
-        .attr("y", function(d, i) { return d[sortby]; });
-    }
-
-    // Radio button controls (for selecting coloring options)
-    d3.selectAll("input[name='highlight']").on("change", 
-    	function() {
-
-		// For updating the legend
-		var f_marker_color = DEFAULT_MARKER_COLOR;
-		var m_marker_color = DEFAULT_MARKER_COLOR; 
-
-		// If coloring by public/private status
-    	if (this.value == "pubpriv")
-    	{
-        	for (var i=0; i<tsvdata.length; i++){
-    			if (tsvdata[i].is_private == 1)
-    			{
-        			tsvdata[i].f_color = PRIVATE_COLOR;
-        			tsvdata[i].m_color = PRIVATE_COLOR;
-    			}
-    			else 
-    			{
-        			tsvdata[i].f_color = PUBLIC_COLOR;
-        			tsvdata[i].m_color = PUBLIC_COLOR;
-    			}
-            }
-
-            svg.selectAll(".pubpriv_legend").attr("opacity", "100%");
-            svg.selectAll(".loc_legend").attr("opacity", "0");
-            document.getElementById('color_legend').innerHTML = `
-					<h4 class="title">Colors:</h4>
-					<span class="legend_item" style="color: #202020;">Public</span>, 
-					<span class="legend_item" style="color: #B074E8;"> Private</span>
-            `;
-    	}
-
-    	// If coloring by region
-    	else if (this.value == "loc")
-    	{
-    		for (var i=0; i<tsvdata.length; i++){
-    			color = REGION_COLORS[tsvdata[i].census_region];
-    			tsvdata[i].f_color = color;
-            	tsvdata[i].m_color = color;
-            }
-
-            svg.selectAll(".pubpriv_legend").attr("opacity", "0");
-            svg.selectAll(".loc_legend").attr("opacity", "100%");
-            document.getElementById('color_legend').innerHTML = `
-					<h4 class="title">Colors:</h4>
-					<span class="legend_item" style="color: #077187;">Northeast</span>, 
-					<span class="legend_item" style="color: #CCA43B;"> South</span>,
-					<span class="legend_item" style="color: #AB4ADB;"> Midwest</span>,
-					<span class="legend_item" style="color: #5BBA6F;"> West</span>,
-					<span class="legend_item" style="color: #DB3A34;"> Canada</span>
-            `;
-    	}
-
-    	// If using default colors 
-    	else
-    	{
-    		for (var i=0; i<tsvdata.length; i++){
-    			tsvdata[i].f_color = DEFAULT_F_COLOR;
-            	tsvdata[i].m_color = DEFAULT_M_COLOR;
-            }	
-
-            f_marker_color = DEFAULT_F_COLOR;
-            m_marker_color = DEFAULT_M_COLOR;
-            svg.selectAll(".pubpriv_legend").attr("opacity", "0");
-            svg.selectAll(".loc_legend").attr("opacity", "0");
-            document.getElementById('color_legend').innerHTML = ``;
-    	}
-
-    	// Update the legend colors
-    	svg.selectAll(".f_marker").attr("stroke", f_marker_color);
-        svg.selectAll(".m_marker").attr("stroke", m_marker_color);;
-
-    	// Force redraw.
-        rearrange(sortby, true);
-	});
-</script>
-
-<a name="analysis"></a>
-# Preliminary analyses
-
-Parental leave policies are highly variable across universities. Here are a few quick analyses to illustrate some of the patterns.
-
-![Leave durations by gender](python/figures/distribution_by_gender.png)
-	Women receive paid parental leave at 120 of 197 institutions, and men at 114 of 197. Women receive longer parental leave than men (38 universities, or 19%). 77 institutions (39%) provide no paid parental leave. 82 institutions (42%) provide some non-zero amount of gender-neutral leave. Averaging over all data, women receive 8.7 weeks, while men receive 6.8 weeks. Only six universities offer paid leave to women but not men, and no universities offer leave to men without offering at least as much leave to women.
-
-![Leave durations by public/private status](python/figures/distribution_by_status.png)
-Private institutions provide slightly longer paid parental leaves on average, driven partly by public institutions being twice as likely to offer no paid parental leave at all. If a private institution offers leave, it is typically about one term of leave. Canadian universities also offer significantly more leave than US institutions (see interactive visualization), which reflects the Canadian government's mandate to provide paid leave for new parents (see footnote 1).
-
-![Leave durations by prestige](python/figures/scatter_by_prestige.png)
-Using our Computer Science prestige ranking for universities (estimation described [here](http://advances.sciencemag.org/content/1/1/e1400005)), we find that parental leave and prestige exhibit a weak but complicated relationship. Overall, there is a slight positive correlation–more paid leave at more prestigious universities–but the effect size is modest, and the trend appears to reverse for the top 80 or so institutions. These observations suggest that the relationship between parental leave and prestige is complex and will require a level of care and analysis that goes beyond the scope of this blog post. 
-
-After our initial posting of this information, a tip from [Laura Noren](https://ipk.nyu.edu/people/laura-noren/) led us to a crowdsourced dataset of paid parental leave policies for roughly 100 tech companies. Paid parental leave policies from the [tech industry](https://aaronclauset.github.io/parental-leave/industry_academia.html) appear just as variable as those in academia. For the companies included in this sample, parental leave policies for men appear to be slightly more generous than those in academia. But, the modest size and surely biased nature of data on paid parental leave policies at tech companies makes it difficult to draw firm conclusions. If you find an error in the tech company dataset, or would like to add the policy for a company not listed, please fill out this [spreadsheet](https://docs.google.com/spreadsheets/d/1GKWqhc3FVtSVKRZNBxyfwZ_QrB1f-i1T0-yBJ6X_YHM/edit).
-
-Finally, we want to emphasize that these correlations should not be interpreted yet as causal of anything. Understanding the impacts of parental leave and other institutional policies on scientific careers, though, represents an interesting and important topic for future research, and we believe this dataset should help facilitate progress in that direction.
-
-# Conclusions and future directions
-
-This dataset is a building block that can be refined, extended, and incorporated into research on the science of science, and the information can help inform individuals comparing offers from different universities. Parental leave is just one of the many forms of support that institutions can provide to their employees, and achieving a greater understanding of how these and similar policies affect individuals would serve to enhance career experiences both within science and beyond.
-
-Inferring such causal effects from our dataset will require it to be extended in one of several possible ways. First, it would be useful to know when policies were adopted and potentially how they changed over time. Knowing the history of these policies would make it possible to monitor changes in, for example, an institution's retention or recruitment of faculty before and after the adoption of the policy in order to assess its impact, as Antecol et al. did.
-
-Our analysis above suggests a complicated relationship between the prestige of an institution and the duration of its parental leave policy. Part of that complication might arise from the nature of our measurement of prestige, which is derived from faculty placement power in the field of computer science. A university-level measure of prestige, rather than a field-specific measure, may provide more useful insights. For instance, how does the size of an institution's endowment translate into benefits for individual faculty? 
-
-We hope that this blog post is thought provoking for faculty across institutions, and in particular, useful to new faculty navigating their institution’s parental leave policies. Feel free to explore this data set further and contact us with any questions or concerns (facultystudy@colorado.edu). 
-
-# About us
-<a name="about"></a>
-
-Our research group studies the structure and dynamics of the academic workforce. In the past, we’ve investigated patterns in [faculty hiring outcomes](http://advances.sciencemag.org/content/1/1/e1400005), [researcher productivity](http://www.pnas.org/content/114/44/E9216), [gender's effects on scientific careers](https://arxiv.org/abs/1602.00795), and [faculty retention and promotion](https://arxiv.org/abs/1804.02760). We're located at the University of Colorado at Boulder and the Santa Fe Institute.
-
-* [Aaron Clauset](http://tuvalu.santafe.edu/~aaronc/)
-* [Mirta Galesic](https://www.santafe.edu/people/profile/mirta-galesic)
-* [Dan Larremore](http://danlarremore.com/)
-* [Allie Morgan](https://allisonmorgan.github.io/)
-* [Sam Way](http://samfway.com/)
-
-# Footnotes
-
-1. Unpaid parental leave is federally mandated of all US (read more about FMLA benefits [here](https://www.dol.gov/whd/fmla/)) institutions. The Canadian government mandates unpaid leave of employers and offers partial financial support during leave, even if employer doesn’t (read more about EI benefits [here](https://www.canada.ca/en/services/benefits/ei/ei-maternity-parental.html)).
-2. By this we mean, assistant, associate, or full professors. See [“Academic tenure in North America”](https://en.wikipedia.org/wiki/Academic_tenure_in_North_America).
-3. A few institutions lack policies for parental leave and instead refer faculty to apply for medical or disability leave. We coded these institutions as not guaranteeing paid parental leave to faculty, given the absence of a specific policy. Maternity leave, on the other hand, was coded as parental leave.
+**Funding:** supported in part by the National Science Foundation (award SMA 1633791), the Air Force Office of Scientific Research (award FA9550-19-1-0329), and a National Science Foundation Graduate Research Fellowship (award DGE 1650115).

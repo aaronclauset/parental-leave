@@ -1,0 +1,2063 @@
+{
+ "institution": "University of Toledo",
+ "slug": "university_of_toledo",
+ "country": "US",
+ "model": "claude-opus-5-5",
+ "codebook_version": "1.25",
+ "schema_version": "1.25",
+ "reference_date": "2018-02-26",
+ "calendar": {
+  "term_weeks": null,
+  "note": "semester calendar stated without its length (CBA 10.2.1: 'For nine (9) month faculty the work year shall consist of two semesters'); R8 semester default",
+  "kind": "semester"
+ },
+ "documents": [
+  {
+   "doc_id": "2018_00_link",
+   "url": "http://www.utoledo.edu:80/depts/hr/leaveofabsence.html",
+   "title": "UT Human Resources: Leaves of Absence (index page)",
+   "version_or_effective_date": "Last Updated: 2/28/18",
+   "retrieved": "20180307223214"
+  },
+  {
+   "doc_id": "2018_02_cba_aaup_tenured_tenure_track_2014_2018",
+   "url": "http://www.utoledo.edu/depts/hr/laboremployee/pdf/CBATenureTrack2018.pdf",
+   "title": "Collective Bargaining Agreement, Board of Trustees of The University of Toledo and UT-AAUP (Tenured, Tenure-Track), consolidated contract",
+   "version_or_effective_date": "Contract #1 July 1, 2014 - June 30, 2017; Contract #2 July 1, 2017 - June 30, 2018",
+   "retrieved": "20180123214136"
+  },
+  {
+   "doc_id": "2018_03_policy_3364_25_30_fmla_all_campuses_rev2016",
+   "url": "http://www.utoledo.edu/policies/administration/humanresources/pdfs/3364_25_30_Family_and_Medical.pdf",
+   "title": "Policy 3364-25-30 Family and Medical Leave Act (all campuses)",
+   "version_or_effective_date": "Review/Revision Date: October 13, 2016; next review October 13, 2019",
+   "retrieved": "20171113193227"
+  },
+  {
+   "doc_id": "2018_04_policy_3364_25_125_sick_leave_main_campus_rev2015",
+   "url": "http://www.utoledo.edu:80/policies/administration/humanresources/pdfs/3364_25_125.pdf",
+   "title": "Policy 3364-25-125 Sick leave (Main Campus)",
+   "version_or_effective_date": "Review/Revision Date: April 10, 2015; next review date December 31, 2015",
+   "retrieved": "20170505161051"
+  }
+ ],
+ "missing": false,
+ "scope_accounting": {
+  "C1": {
+   "components": [
+    "university_of_toledo_c1",
+    "university_of_toledo_c2"
+   ]
+  },
+  "C2": {
+   "absent": {
+    "documents": [
+     "2018_00_link",
+     "2018_02_cba_aaup_tenured_tenure_track_2014_2018",
+     "2018_03_policy_3364_25_30_fmla_all_campuses_rev2016",
+     "2018_04_policy_3364_25_125_sick_leave_main_campus_rev2015"
+    ],
+    "terms": [
+     "modified duties",
+     "relief",
+     "teaching load",
+     "course release",
+     "reduced",
+     "assignment may be modified",
+     "workload"
+    ]
+   }
+  },
+  "C3": {
+   "components": [
+    "university_of_toledo_c3",
+    "university_of_toledo_c5",
+    "university_of_toledo_c6",
+    "university_of_toledo_c7"
+   ]
+  },
+  "C4": {
+   "components": [
+    "university_of_toledo_c4"
+   ],
+   "not_components": [
+    {
+     "statute": "FMLA 29 U.S.C. 2612(a)(1)(E) qualifying exigency and (a)(3) covered servicemember (26 workweeks)",
+     "reason": "military family leave; not leave for becoming a parent (U4)"
+    },
+    {
+     "statute": "FMLA section 109 (29 U.S.C. 2619) notice posting",
+     "reason": "posting requirement; gives no leave (U4)"
+    },
+    {
+     "statute": "29 C.F.R. 825 (FMLA regulations)",
+     "reason": "implementing regulations of the FMLA component c4; not saved; no separate leave"
+    },
+    {
+     "statute": "Americans with Disabilities Act",
+     "reason": "disability-accommodation statute (U4, C9)"
+    },
+    {
+     "statute": "HIPAA (release for medical certification)",
+     "reason": "privacy statute; gives no leave"
+    },
+    {
+     "statute": "10 U.S.C. 101(a)(13)(B)",
+     "reason": "definition of active duty; military"
+    },
+    {
+     "statute": "Ohio R.C. 124.38(C)",
+     "reason": "transfer of sick-leave credit from another Ohio public agency; affects the c3 balance only, no leave of its own"
+    },
+    {
+     "statute": "Ohio R.C. 124.19(A)-(B)",
+     "reason": "holidays"
+    },
+    {
+     "statute": "Ohio R.C. Chapter 4117 (incl. 4117.08(C), 4117.09(C))",
+     "reason": "public-employee collective bargaining"
+    },
+    {
+     "statute": "Ohio R.C. 3345.14, 3345.12, 111.15",
+     "reason": "university inventions and rules (Appendix E)"
+    },
+    {
+     "statute": "Ohio R.C. 3345.45",
+     "reason": "faculty workload policy"
+    },
+    {
+     "statute": "Ohio R.C. 102, 2921 (2921.42, 2921.43)",
+     "reason": "ethics laws"
+    },
+    {
+     "statute": "Ohio R.C. 149.43",
+     "reason": "public records"
+    },
+    {
+     "statute": "Ohio R.C. 9.91; Internal Revenue Code 403(b) and Section 125",
+     "reason": "annuities and pre-tax benefits"
+    },
+    {
+     "statute": "State Teachers Retirement System of Ohio (STRS), 'as per statute'",
+     "reason": "retirement system; its disability coverage is wrapped by the LTD component c7, terms not in the sources; not a parental provision"
+    },
+    {
+     "statute": "Workers' Compensation",
+     "reason": "work injury; unrelated to becoming a parent"
+    },
+    {
+     "statute": "Federal or Ohio law on non-discrimination (Art. 3.1)",
+     "reason": "general equal-treatment clause with no leave or length of its own"
+    }
+   ]
+  },
+  "C5": {
+   "components": [
+    "university_of_toledo_c4",
+    "university_of_toledo_c3"
+   ]
+  },
+  "C6": {
+   "components": [
+    "university_of_toledo_c12",
+    "university_of_toledo_c13"
+   ]
+  },
+  "C7": {
+   "components": [
+    "university_of_toledo_c8",
+    "university_of_toledo_c9",
+    "university_of_toledo_c10",
+    "university_of_toledo_c11"
+   ]
+  },
+  "C8": {
+   "components": [
+    "university_of_toledo_c14"
+   ]
+  },
+  "C9": {
+   "absent": {
+    "documents": [
+     "2018_00_link",
+     "2018_02_cba_aaup_tenured_tenure_track_2014_2018",
+     "2018_03_policy_3364_25_30_fmla_all_campuses_rev2016",
+     "2018_04_policy_3364_25_125_sick_leave_main_campus_rev2015"
+    ],
+    "terms": [
+     "pregnancy accommodation",
+     "transfer",
+     "alternative position",
+     "hazard",
+     "light duty",
+     "lactation"
+    ]
+   }
+  },
+  "C10": {
+   "absent": {
+    "documents": [
+     "2018_00_link",
+     "2018_02_cba_aaup_tenured_tenure_track_2014_2018",
+     "2018_03_policy_3364_25_30_fmla_all_campuses_rev2016",
+     "2018_04_policy_3364_25_125_sick_leave_main_campus_rev2015"
+    ],
+    "terms": [
+     "first days",
+     "FMLA paid",
+     "regular work time",
+     "paid leave",
+     "exhaust sick"
+    ]
+   }
+  }
+ },
+ "passage_dispositions": {
+  "2018_00_link#001": {
+   "used_in": [
+    "university_of_toledo_c4",
+    "university_of_toledo_c12"
+   ]
+  },
+  "2018_02_cba_aaup_tenured_tenure_track_2014_2018#001": {
+   "not_relevant": "table of contents"
+  },
+  "2018_02_cba_aaup_tenured_tenure_track_2014_2018#002": {
+   "not_relevant": "management rights; no leave provision"
+  },
+  "2018_02_cba_aaup_tenured_tenure_track_2014_2018#003": {
+   "used_in": [
+    "university_of_toledo_c11"
+   ]
+  },
+  "2018_02_cba_aaup_tenured_tenure_track_2014_2018#004": {
+   "used_in": [
+    "university_of_toledo_c9",
+    "university_of_toledo_c10"
+   ]
+  },
+  "2018_02_cba_aaup_tenured_tenure_track_2014_2018#005": {
+   "not_relevant": "promotion criteria"
+  },
+  "2018_02_cba_aaup_tenured_tenure_track_2014_2018#006": {
+   "not_relevant": "College of Nursing instructor appointments"
+  },
+  "2018_02_cba_aaup_tenured_tenure_track_2014_2018#007": {
+   "not_relevant": "merit scoring for members on leave (9.3.10-9.3.11); no leave, pay or protection of its own"
+  },
+  "2018_02_cba_aaup_tenured_tenure_track_2014_2018#008": {
+   "not_relevant": "programs of growth and workload preamble"
+  },
+  "2018_02_cba_aaup_tenured_tenure_track_2014_2018#009": {
+   "not_relevant": "life insurance, retirement and annuities"
+  },
+  "2018_02_cba_aaup_tenured_tenure_track_2014_2018#010": {
+   "not_relevant": "dependent tuition waiver"
+  },
+  "2018_02_cba_aaup_tenured_tenure_track_2014_2018#011": {
+   "used_in": [
+    "university_of_toledo_c7"
+   ]
+  },
+  "2018_02_cba_aaup_tenured_tenure_track_2014_2018#012": {
+   "used_in": [
+    "university_of_toledo_c3",
+    "university_of_toledo_c6",
+    "university_of_toledo_c13"
+   ]
+  },
+  "2018_02_cba_aaup_tenured_tenure_track_2014_2018#013": {
+   "used_in": [
+    "university_of_toledo_c1",
+    "university_of_toledo_c13"
+   ]
+  },
+  "2018_02_cba_aaup_tenured_tenure_track_2014_2018#014": {
+   "used_in": [
+    "university_of_toledo_c1",
+    "university_of_toledo_c8"
+   ]
+  },
+  "2018_02_cba_aaup_tenured_tenure_track_2014_2018#015": {
+   "used_in": [
+    "university_of_toledo_c2",
+    "university_of_toledo_c5",
+    "university_of_toledo_c12"
+   ]
+  },
+  "2018_02_cba_aaup_tenured_tenure_track_2014_2018#016": {
+   "not_relevant": "financial emergency procedures"
+  },
+  "2018_02_cba_aaup_tenured_tenure_track_2014_2018#017": {
+   "not_relevant": "financial emergency layoff order"
+  },
+  "2018_02_cba_aaup_tenured_tenure_track_2014_2018#018": {
+   "not_relevant": "layoff notice and recall"
+  },
+  "2018_02_cba_aaup_tenured_tenure_track_2014_2018#019": {
+   "used_in": [
+    "university_of_toledo_c6"
+   ]
+  },
+  "2018_02_cba_aaup_tenured_tenure_track_2014_2018#020": {
+   "used_in": [
+    "university_of_toledo_c6"
+   ]
+  },
+  "2018_02_cba_aaup_tenured_tenure_track_2014_2018#021": {
+   "not_relevant": "Ohio R.C. 3345.14 inventions (Appendix E)"
+  },
+  "2018_02_cba_aaup_tenured_tenure_track_2014_2018#022": {
+   "not_relevant": "health plan schedule of benefits (maternity medical services coverage, not leave)"
+  },
+  "2018_03_policy_3364_25_30_fmla_all_campuses_rev2016#001": {
+   "used_in": [
+    "university_of_toledo_c4",
+    "university_of_toledo_c14"
+   ]
+  },
+  "2018_03_policy_3364_25_30_fmla_all_campuses_rev2016#002": {
+   "used_in": [
+    "university_of_toledo_c4"
+   ]
+  },
+  "2018_03_policy_3364_25_30_fmla_all_campuses_rev2016#003": {
+   "used_in": [
+    "university_of_toledo_c4"
+   ]
+  },
+  "2018_03_policy_3364_25_30_fmla_all_campuses_rev2016#004": {
+   "used_in": [
+    "university_of_toledo_c4"
+   ]
+  },
+  "2018_03_policy_3364_25_30_fmla_all_campuses_rev2016#005": {
+   "used_in": [
+    "university_of_toledo_c4"
+   ]
+  },
+  "2018_03_policy_3364_25_30_fmla_all_campuses_rev2016#006": {
+   "used_in": [
+    "university_of_toledo_c4"
+   ]
+  },
+  "2018_03_policy_3364_25_30_fmla_all_campuses_rev2016#007": {
+   "used_in": [
+    "university_of_toledo_c4"
+   ]
+  },
+  "2018_03_policy_3364_25_30_fmla_all_campuses_rev2016#008": {
+   "used_in": [
+    "university_of_toledo_c4"
+   ]
+  },
+  "2018_04_policy_3364_25_125_sick_leave_main_campus_rev2015#001": {
+   "used_in": [
+    "university_of_toledo_c3",
+    "university_of_toledo_c6",
+    "university_of_toledo_c7"
+   ]
+  }
+ },
+ "mechanism_slots": {
+  "employer_paid_leave": {
+   "components": [
+    "university_of_toledo_c1"
+   ]
+  },
+  "employer_childbirth_benefit": {
+   "absent": "searched all four usable documents for 'maternity', 'childbirth', 'pregnan', 'birth': sick leave covers maternity related disability but states no childbirth-specific length (V1 not met)"
+  },
+  "generic_sick_or_disability_plan": {
+   "components": [
+    "university_of_toledo_c7"
+   ]
+  },
+  "own_accrual": {
+   "components": [
+    "university_of_toledo_c3",
+    "university_of_toledo_c13"
+   ]
+  },
+  "donated_leave": {
+   "components": [
+    "university_of_toledo_c6"
+   ]
+  },
+  "government_benefit": {
+   "absent": "no state or federal paid programme named in the four usable documents (terms: 'benefit', 'state', 'paid family', 'disability'); STRS named only as a retirement system"
+  },
+  "employer_topup": {
+   "absent": "no top-up of any government benefit in the four usable documents (terms: 'top-up', 'supplement', 'difference')"
+  },
+  "modified_duties": {
+   "absent": "no relief or modified-duties provision for parents in the four usable documents (terms: 'modified', 'relief', 'release', 'teaching load', 'assignment')"
+  },
+  "unpaid_leave": {
+   "components": [
+    "university_of_toledo_c2",
+    "university_of_toledo_c4",
+    "university_of_toledo_c5",
+    "university_of_toledo_c12"
+   ]
+  },
+  "tenure_clock": {
+   "components": [
+    "university_of_toledo_c8",
+    "university_of_toledo_c9",
+    "university_of_toledo_c10",
+    "university_of_toledo_c11"
+   ]
+  },
+  "part_time_option": {
+   "components": [
+    "university_of_toledo_c14"
+   ]
+  },
+  "other": {
+   "absent": "no pregnancy accommodation, hazard or equal-treatment provision with its own protection (terms: 'accommodat', 'transfer', 'hazard', 'pregnan')"
+  }
+ },
+ "baseline_accounting": {
+  "Family and Medical Leave Act (FMLA)": {
+   "components": [
+    "university_of_toledo_c4"
+   ]
+  },
+  "Federal Employee Paid Leave Act (paid parental leave for federal civilian employees)": {
+   "not_applicable": "covers federal civilian employees only; the University of Toledo is a state employer"
+  }
+ },
+ "leave_limits": [],
+ "components": [
+  {
+   "component_id": "university_of_toledo_c1",
+   "institution_label": "Family Childcare Leave",
+   "description": "Paid leave at full salary and benefits for up to one academic semester for a bargaining-unit member upon the birth or adoption of a (pre-school age) child; runs concurrent with FMLA; at most two such paid leaves per member during employment.",
+   "mechanism": "employer_paid_leave",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "members of the bargaining unit: all tenured and tenure-track full-time faculty (Art. 2.1), excluding faculty in the College of Law and the College of Medicine and Life Sciences",
+   "faculty_scope": "all colleges except the College of Law and the College of Medicine and Life Sciences (Art. 2.1)",
+   "eligible_parent": [
+    "any_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "members of the Bargaining Unit who experience the birth of a child or adoption of a pre-school age child; spouses or domestic partners",
+   "caregiver_condition": "none",
+   "service_requirement": "none (available from the first day of appointment)",
+   "dual_employee_rule": "where both spouses or domestic partners are bargaining-unit members, only one is eligible; at most two paid leaves collectively to both if both are employed by the University",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "V2: 'The employer will provide' the leave; the member submits a request form and the approved form specifies the period, so the approval covers the arrangements (timing), not whether there is a benefit.",
+   "duration": {
+    "value": 1,
+    "units": "semester",
+    "qualifier": "up_to"
+   },
+   "duration_note": "Up to one academic semester; 9-month faculty take it in Fall or Spring semester, 12-month faculty in Fall, Spring or Summer term. Additional time is reviewed under the sick-leave section 15.1.1.3.",
+   "pay_fraction": "full salary and benefits",
+   "medical_certification": true,
+   "medical_certification_note": "certificate from the treating physician or APRN (or adoption agency) identifying the expected time of childbirth or adoption",
+   "notice": "written notification of the pregnancy or intention to adopt as soon as reasonably practical; leave request form to the Department Chair; change of return date in writing at least 30 days before",
+   "return_obligation": "for each semester of leave, return to full-time service for one academic year or reimburse the salary received while on leave (waivable in exceptional circumstances)",
+   "time_window": "upon the birth or adoption of a child; adoption of a pre-school age child",
+   "use_limit": [
+    {
+     "times": 2,
+     "per": "career",
+     "counts": "uses"
+    }
+   ],
+   "use_limit_note": "No more than two (2) paid leaves under this section may be granted to a member (or collectively to both spouses or domestic partners, if both are employed by the University) during employment.",
+   "runs_concurrently_with": [
+    "FMLA"
+   ],
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "relief_note": "A leave of absence with no relief stated (R9); 15.1.3.6 evaluates the member for the semester not on leave.",
+   "rule_applied": [
+    "V2",
+    "R9",
+    "R8",
+    "U9",
+    "S1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "bargaining unit consisting of all tenured and tenure-track full-time faculty",
+     "Excluded from the bargaining unit are faculty in the College of Law and the College of Medicine and Life Sciences",
+     "the Employer adopts the following Family Childcare Leave for members of the Bargaining Unit who experience the birth of a child or adoption of a pre-school age child"
+    ],
+    "eligible_parent": [
+     "the Employer adopts the following Family Childcare Leave for members of the Bargaining Unit who experience the birth of a child or adoption of a pre-school age child"
+    ],
+    "entitlement": [
+     "The employer will provide paid Family Childcare Leave to an eligible member for a period of up to one academic semester upon the birth or adoption of a child.",
+     "To request leave under this section, the member must submit a leave request form",
+     "The approved leave form will specify the period for which leave has been requested and approved under this article."
+    ],
+    "duration": [
+     "The employer will provide paid Family Childcare Leave to an eligible member for a period of up to one academic semester upon the birth or adoption of a child."
+    ],
+    "pay_fraction": [
+     "During such leave, the member will receive full salary and benefits."
+    ],
+    "service_requirement": [
+     "This benefit is available to a member beginning with the first day of appointment."
+    ],
+    "dual_employee_rule": [
+     "In cases where both spouses or domestic partners are members of the Bargaining Unit, only one of the spouses or domestic partners is eligible for leave under this section."
+    ],
+    "use_limit": [
+     "No more than two (2) paid leaves under this section may be granted to a member (or collectively to both spouses or domestic partners, if both are employed by the University) during employment."
+    ],
+    "medical_certification": [
+     "a certificate from the treating physician or Advanced Practice Registered Nurse, or adoption agency identifying the expected time of childbirth or adoption"
+    ],
+    "notice": [
+     "as soon as is reasonably practical to provide appropriate time for all parties to plan for the expected leave"
+    ],
+    "return_obligation": [
+     "he/she is obligated to return to full time service at the University for one academic year or reimburse the University for the salary they received while on leave"
+    ],
+    "runs_concurrently_with": [
+     "Such leave will run concurrent with a member’s twelve (12) weeks of FMLA leave."
+    ],
+    "time_window": [
+     "the Employer adopts the following Family Childcare Leave for members of the Bargaining Unit who experience the birth of a child or adoption of a pre-school age child",
+     "For nine (9) month faculty, leave may be taken in either Fall or Spring semester."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_cba_aaup_tenured_tenure_track_2014_2018"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "employer_paid_leave",
+     "quote": "The employer will provide paid Family Childcare Leave to an eligible member for a period of up to one academic semester upon the birth or adoption of a child."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "During such leave, the member will receive full salary and benefits."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "the Employer adopts the following Family Childcare Leave for members of the Bargaining Unit who experience the birth of a child or adoption of a pre-school age child"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "bargaining unit consisting of all tenured and tenure-track full-time faculty"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent, adoptive: gender-neutral 'members ... who experience the birth of a child' plus adoption",
+     "quote": "the Employer adopts the following Family Childcare Leave for members of the Bargaining Unit who experience the birth of a child or adoption of a pre-school age child"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "The approved leave form will specify the period for which leave has been requested and approved under this article."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 semester, up_to",
+     "quote": "The employer will provide paid Family Childcare Leave to an eligible member for a period of up to one academic semester upon the birth or adoption of a child."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "full salary and benefits",
+     "quote": "During such leave, the member will receive full salary and benefits."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave, relief not stated)",
+     "quote": "The employer will provide paid Family Childcare Leave to an eligible member for a period of up to one academic semester upon the birth or adoption of a child."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U8",
+     "answer": "none (from the first day of appointment)",
+     "quote": "This benefit is available to a member beginning with the first day of appointment."
+    },
+    {
+     "field": "use_limit",
+     "rule": "U9",
+     "answer": "2 per career (uses)",
+     "quote": "No more than two (2) paid leaves under this section may be granted to a member (or collectively to both spouses or domestic partners, if both are employed by the University) during employment."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_toledo_c2",
+   "institution_label": "",
+   "description": "Unpaid leave for child care for the remainder of the current academic term, to which a faculty-member parent is entitled after a birth once paid sick leave is exhausted (Art. 15.3.1.2).",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "members of the bargaining unit: all tenured and tenure-track full-time faculty (Art. 2.1), excluding faculty in the College of Law and the College of Medicine and Life Sciences",
+   "faculty_scope": "all colleges except the College of Law and the College of Medicine and Life Sciences (Art. 2.1)",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "that child’s faculty member parent",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 1,
+    "units": "term",
+    "qualifier": "exact"
+   },
+   "duration_note": "R3b: leave without pay 'for the remainder of the then current academic term', after paid sick leave is exhausted; coded with the term as its length, the sick-leave absence lying within it.",
+   "must_exhaust_first": [
+    "sick"
+   ],
+   "time_window": "following the birth of a child; the then current academic term",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "relief_note": "Leave without pay; relief not stated (R9).",
+   "rule_applied": [
+    "R3b",
+    "R9",
+    "R8",
+    "U3",
+    "U1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "bargaining unit consisting of all tenured and tenure-track full-time faculty",
+     "Following the birth of a child, that child’s faculty member parent who has exhausted paid sick leave will be entitled to leave without pay for the remainder of the then current academic term for purposes of child care."
+    ],
+    "eligible_parent": [
+     "Following the birth of a child, that child’s faculty member parent who has exhausted paid sick leave will be entitled to leave without pay for the remainder of the then current academic term for purposes of child care."
+    ],
+    "entitlement": [
+     "Following the birth of a child, that child’s faculty member parent who has exhausted paid sick leave will be entitled to leave without pay for the remainder of the then current academic term for purposes of child care."
+    ],
+    "duration": [
+     "Following the birth of a child, that child’s faculty member parent who has exhausted paid sick leave will be entitled to leave without pay for the remainder of the then current academic term for purposes of child care."
+    ],
+    "must_exhaust_first": [
+     "Following the birth of a child, that child’s faculty member parent who has exhausted paid sick leave will be entitled to leave without pay for the remainder of the then current academic term for purposes of child care."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_cba_aaup_tenured_tenure_track_2014_2018"
+   ],
+   "flags": [
+    "ambiguous: the documents do not say whether this unpaid leave for the birth term may be combined with Family Childcare Leave (c1) taken in a later semester; left unlinked to c1 (not added in protected weeks)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "Following the birth of a child, that child’s faculty member parent who has exhausted paid sick leave will be entitled to leave without pay for the remainder of the then current academic term for purposes of child care."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Following the birth of a child, that child’s faculty member parent who has exhausted paid sick leave will be entitled to leave without pay for the remainder of the then current academic term for purposes of child care."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Following the birth of a child, that child’s faculty member parent who has exhausted paid sick leave will be entitled to leave without pay for the remainder of the then current academic term for purposes of child care."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "bargaining unit consisting of all tenured and tenure-track full-time faculty"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent ('that child's faculty member parent'; birth only, adoption not named)",
+     "quote": "Following the birth of a child, that child’s faculty member parent who has exhausted paid sick leave will be entitled to leave without pay for the remainder of the then current academic term for purposes of child care."
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "Following the birth of a child, that child’s faculty member parent who has exhausted paid sick leave will be entitled to leave without pay for the remainder of the then current academic term for purposes of child care."
+    },
+    {
+     "field": "duration",
+     "rule": "R3b",
+     "answer": "1 term (the remainder of the current term, coded with the term as its length)",
+     "quote": "Following the birth of a child, that child’s faculty member parent who has exhausted paid sick leave will be entitled to leave without pay for the remainder of the then current academic term for purposes of child care."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave, relief not stated)",
+     "quote": "Following the birth of a child, that child’s faculty member parent who has exhausted paid sick leave will be entitled to leave without pay for the remainder of the then current academic term for purposes of child care."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_toledo_c3",
+   "institution_label": "Sick Leave",
+   "description": "Accrued paid sick leave (0.575 days per bi-weekly period, about 15 workdays a year, unlimited accumulation), usable for own illness including maternity-related disability, adoption of pre-school children, and serious illness of an immediate family member; runs concurrently with FMLA.",
+   "mechanism": "own_accrual",
+   "payer": "own_balance",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_scope": "all colleges except the College of Law and the College of Medicine and Life Sciences (Art. 2.1)",
+   "faculty_group_note": "members of the bargaining unit: all tenured and tenure-track full-time faculty (Art. 2.1), excluding faculty in the College of Law and the College of Medicine and Life Sciences; HR Policy 3364-25-125 scope: All University of Toledo, Main Campus",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "Members; maternity related disability; adoption of pre-school children; immediate family defined as spouse, domestic partner ...; 'Any employee who becomes pregnant'",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration_note": "No fixed length: an accrued balance (CBA 15.1.1.1: 0.575 days per completed bi-weekly period; HR policy: 15 workdays per year), no limit on accumulation. A balance of unknown length adds no weeks.",
+   "pay_fraction": "regular compensation",
+   "runs_concurrently_with": [
+    "FMLA"
+   ],
+   "rule_applied": [
+    "R1",
+    "U5",
+    "R3b",
+    "V1"
+   ],
+   "mechanism_note": "R1: days earned per period worked and carried over are an accrual. V1 not met: no childbirth-specific length is stated.",
+   "evidence": {
+    "faculty_group": [
+     "bargaining unit consisting of all tenured and tenure-track full-time faculty",
+     "Scope: All University of Toledo, Main Campus"
+    ],
+    "eligible_parent": [
+     "Members shall use sick leave for absence due to personal injury, illness (including maternity related disability and adoption of pre-school children)",
+     "for serious illness or injury to a member of the member's immediate family defined as spouse",
+     "Any employee who becomes pregnant must use any or all of accrued sick leave for maternity-related leaves of absence in accordance with the Family Medical Leave Act."
+    ],
+    "entitlement": [
+     "Members shall use sick leave for absence due to personal injury, illness (including maternity related disability and adoption of pre-school children)"
+    ],
+    "pay_fraction": [
+     "Members on paid sick leave will receive their regular compensation during the period of leave"
+    ],
+    "runs_concurrently_with": [
+     "If the member’s use of sick leave described in section 15.1.3 qualifies as an FMLA leave, the sick leave and the FMLA will run concurrently."
+    ],
+    "sequence": [
+     "Following the birth of a child, that child’s faculty member parent who has exhausted paid sick leave will be entitled to leave without pay for the remainder of the then current academic term for purposes of child care."
+    ],
+    "mechanism": [
+     "Members shall earn sick leave at the rate of 0.575 days for each completed bi-weekly period of service in pay status.",
+     "University employees earn sick leave at the rate of four and six-tenths (4.6) hours for each completed 80 hours of service for actual hours in pay status (15 workdays per year)."
+    ]
+   },
+   "sequence": [
+    {
+     "relation": "within",
+     "component_id": "university_of_toledo_c2",
+     "note": "R3b: the unpaid child-care leave covers the remainder of the term after paid sick leave is exhausted; the sick-leave absence lies within that term"
+    }
+   ],
+   "doc_ids": [
+    "2018_02_cba_aaup_tenured_tenure_track_2014_2018",
+    "2018_04_policy_3364_25_125_sick_leave_main_campus_rev2015"
+   ],
+   "flags": [
+    "cross_reference_not_saved: HR Policy 3364-25-125 'section on Leave of Absence' and 'section on Reporting of Absences'"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "own_accrual",
+     "quote": "Members shall earn sick leave at the rate of 0.575 days for each completed bi-weekly period of service in pay status."
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "own_balance",
+     "quote": "Members shall earn sick leave at the rate of 0.575 days for each completed bi-weekly period of service in pay status."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Members shall use sick leave for absence due to personal injury, illness (including maternity related disability and adoption of pre-school children)"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "bargaining unit consisting of all tenured and tenure-track full-time faculty"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own illness incl. maternity related disability), non_birth_parent (serious illness of spouse), adoptive",
+     "quote": "Members shall use sick leave for absence due to personal injury, illness (including maternity related disability and adoption of pre-school children)"
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "Members shall use sick leave for absence due to personal injury, illness (including maternity related disability and adoption of pre-school children)"
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "regular compensation",
+     "quote": "Members on paid sick leave will receive their regular compensation during the period of leave"
+    },
+    {
+     "field": "sequence",
+     "rule": "R3b",
+     "answer": "within university_of_toledo_c2",
+     "quote": "Following the birth of a child, that child’s faculty member parent who has exhausted paid sick leave will be entitled to leave without pay for the remainder of the then current academic term for purposes of child care."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_toledo_c4",
+   "institution_label": "Family and Medical Leave Act",
+   "description": "Federal FMLA leave as administered by University Policy 3364-25-30 and followed under CBA 15.1.1.4: 12 workweeks of job-protected unpaid leave in a rolling 12-month period for the birth and care of a child, adoption or foster placement, care of a spouse with a serious health condition, or the employee's own serious health condition (including incapacity due to pregnancy).",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Policy 3364-25-30 scope: all University of Toledo campuses (employees); CBA 15.1.1.4: FMLA 'shall be followed' for members",
+   "eligible_parent": [
+    "any_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "birth of a son or daughter of the employee; placement ... for adoption or foster care; care for the spouse; the mother's serious health condition",
+   "caregiver_condition": "none",
+   "service_requirement": "12 months and 1,250 hours",
+   "dual_employee_rule": "spouses both employed by the University: combined total of twelve workweeks for birth, placement or care of a parent",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 12,
+    "units": "workweek",
+    "qualifier": "exact"
+   },
+   "duration_note": "A total of 12 workweeks in a rolling 12-month period, shared across all FMLA reasons (birth, adoption or foster placement, care of spouse, own serious health condition). Leave after the birth of a healthy child may be intermittent or reduced at the university's discretion (c14).",
+   "must_exhaust_first": [
+    "sick",
+    "vacation",
+    "other paid leave"
+   ],
+   "medical_certification": true,
+   "medical_certification_note": "required for the employee's own serious health condition or care of a family member; not stated for bonding leave",
+   "notice": "at least 30 days' advance notice when foreseeable based on an expected birth; otherwise as soon as practicable",
+   "statute_source": "29 U.S.C. 2612(a)(1)(A)-(D); eligibility 29 U.S.C. 2611(2)",
+   "statute_verified": true,
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "rule_applied": [
+    "U2",
+    "U4",
+    "U5",
+    "S1",
+    "R9",
+    "R13"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Scope: all University of Toledo campuses",
+     "The Federal Family and Medical Leave Act of 1993 (FMLA), as amended, shall be followed."
+    ],
+    "eligible_parent": [
+     "Because of the birth of a son or daughter of the employee and in order to care for such son or daughter;",
+     "Because of the placement of a son or daughter with the employee for adoption or foster care;",
+     "In order to care for the spouse, or a son, daughter, or parent, of the employee, if such spouse, son, daughter, or parent has a serious health condition;",
+     "Because of a serious health condition that makes the employee unable to perform the functions of the position of the employee;"
+    ],
+    "entitlement": [
+     "An employee is entitled to a total of twelve workweeks of leave during any twelve month period for one or more of the following reasons:",
+     "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period"
+    ],
+    "duration": [
+     "An employee is entitled to a total of twelve workweeks of leave during any twelve month period for one or more of the following reasons:",
+     "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period"
+    ],
+    "service_requirement": [
+     "an employee who has been employed for at least twelve months and for at least 1,250 hours of service during the twelve month period immediately preceding commencement of the leave",
+     "for at least 1,250 hours of service with such employer during the previous 12-month period"
+    ],
+    "dual_employee_rule": [
+     "the spouses are limited to a combined total of twelve work weeks of leave during any twelve month period"
+    ],
+    "must_exhaust_first": [
+     "An employee must exhaust sick, vacation, and other paid leave before being placed on unpaid leave."
+    ],
+    "medical_certification": [
+     "The university requires that an employee's leave to care for the employee's covered family member with a serious health condition, or due to the employee's own serious health condition that makes the employee unable to perform one or more of the essential functions of the employee's position be supported by a certification issued by a health care provider."
+    ],
+    "notice": [
+     "An employee must provide the university with at least a thirty day advance notice of the need to take FMLA leave if the need is foreseeable based on an expected birth"
+    ],
+    "sequence": [
+     "Such leave will run concurrent with a member’s twelve (12) weeks of FMLA leave.",
+     "All FMLA leave time runs concurrently with any other applicable leave."
+    ]
+   },
+   "sequence": [
+    {
+     "relation": "concurrent_with",
+     "component_id": "university_of_toledo_c1",
+     "note": "CBA 15.1.3.1: Family Childcare Leave runs concurrent with the member's twelve weeks of FMLA leave (S1)"
+    },
+    {
+     "relation": "concurrent_with",
+     "component_id": "university_of_toledo_c2",
+     "note": "Policy 3364-25-30 (C): all FMLA leave time runs concurrently with any other applicable leave (S1)"
+    }
+   ],
+   "doc_ids": [
+    "2018_03_policy_3364_25_30_fmla_all_campuses_rev2016",
+    "2018_02_cba_aaup_tenured_tenure_track_2014_2018"
+   ],
+   "flags": [
+    "cross_reference_not_saved: 29 C.F.R. 825 (FMLA regulations)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "U2",
+     "answer": "unpaid_leave",
+     "quote": "An employee is entitled to a total of twelve workweeks of leave during any twelve month period for one or more of the following reasons:"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "An employee must exhaust sick, vacation, and other paid leave before being placed on unpaid leave."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "An employee is entitled to a total of twelve workweeks of leave during any twelve month period for one or more of the following reasons:"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Scope: all University of Toledo campuses"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "any_parent (birth), adoptive, foster; own serious health condition and care of spouse fall within the same 12 workweeks",
+     "quote": "Because of the birth of a son or daughter of the employee and in order to care for such son or daughter;"
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "An employee is entitled to a total of twelve workweeks of leave during any twelve month period for one or more of the following reasons:"
+    },
+    {
+     "field": "duration",
+     "rule": "U2",
+     "answer": "12 workweeks, exact ('a total of')",
+     "quote": "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U2",
+     "answer": "12 months and 1,250 hours",
+     "quote": "an employee who has been employed for at least twelve months and for at least 1,250 hours of service during the twelve month period immediately preceding commencement of the leave"
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave, relief not stated)",
+     "quote": "An employee is entitled to a total of twelve workweeks of leave during any twelve month period for one or more of the following reasons:"
+    },
+    {
+     "field": "sequence",
+     "rule": "S1",
+     "answer": "concurrent_with university_of_toledo_c1",
+     "quote": "Such leave will run concurrent with a member’s twelve (12) weeks of FMLA leave."
+    },
+    {
+     "field": "sequence",
+     "rule": "S1",
+     "answer": "concurrent_with university_of_toledo_c2",
+     "quote": "All FMLA leave time runs concurrently with any other applicable leave."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_toledo_c5",
+   "institution_label": "Medical Leave",
+   "description": "Unpaid medical leave of up to two calendar years that may be granted for medical reasons on a physician's or APRN's recommendation, beginning only after all accumulated sick leave is used.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "members of the bargaining unit: all tenured and tenure-track full-time faculty (Art. 2.1), excluding faculty in the College of Law and the College of Medicine and Life Sciences",
+   "faculty_scope": "all colleges except the College of Law and the College of Medicine and Life Sciences (Art. 2.1)",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "any member for medical reasons",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "duration": {
+    "value": 2,
+    "units": "year",
+    "qualifier": "up_to"
+   },
+   "must_exhaust_first": [
+    "sick"
+   ],
+   "medical_certification": true,
+   "medical_certification_note": "leave recommended by the member's physician(s) and/or APRN(s); release required before return",
+   "notice": "at least 90 days' notice for return to active status, unless waived",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "rule_applied": [
+    "U5",
+    "V2",
+    "R9",
+    "R13",
+    "R15"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "bargaining unit consisting of all tenured and tenure-track full-time faculty",
+     "A leave of absence without pay may be granted to any member for medical reasons, when justified by their state of health and when recommended by their physician(s)"
+    ],
+    "eligible_parent": [
+     "A leave of absence without pay may be granted to any member for medical reasons, when justified by their state of health and when recommended by their physician(s)"
+    ],
+    "entitlement": [
+     "A leave of absence without pay may be granted to any member for medical reasons, when justified by their state of health and when recommended by their physician(s)"
+    ],
+    "duration": [
+     "Unpaid medical leave may begin only after all accumulated sick leave has been used. Such leaves may not exceed two (2) calendar years."
+    ],
+    "must_exhaust_first": [
+     "Unpaid medical leave may begin only after all accumulated sick leave has been used. Such leaves may not exceed two (2) calendar years."
+    ],
+    "medical_certification": [
+     "A leave of absence without pay may be granted to any member for medical reasons, when justified by their state of health and when recommended by their physician(s)"
+    ],
+    "notice": [
+     "Notice of at least ninety (90) days shall be required for return to active status, unless waived by the University."
+    ],
+    "sequence": [
+     "Unpaid medical leave may begin only after all accumulated sick leave has been used. Such leaves may not exceed two (2) calendar years."
+    ]
+   },
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "university_of_toledo_c3",
+     "note": "may begin only after all accumulated sick leave has been used"
+    }
+   ],
+   "doc_ids": [
+    "2018_02_cba_aaup_tenured_tenure_track_2014_2018"
+   ],
+   "flags": [
+    "own_illness_leave"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "A leave of absence without pay may be granted to any member for medical reasons, when justified by their state of health and when recommended by their physician(s)"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "A leave of absence without pay may be granted to any member for medical reasons, when justified by their state of health and when recommended by their physician(s)"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "A leave of absence without pay may be granted to any member for medical reasons, when justified by their state of health and when recommended by their physician(s)"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "bargaining unit consisting of all tenured and tenure-track full-time faculty"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own medical reasons)",
+     "quote": "A leave of absence without pay may be granted to any member for medical reasons, when justified by their state of health and when recommended by their physician(s)"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "A leave of absence without pay may be granted to any member for medical reasons, when justified by their state of health and when recommended by their physician(s)"
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "2 years, up_to ('may not exceed')",
+     "quote": "Unpaid medical leave may begin only after all accumulated sick leave has been used. Such leaves may not exceed two (2) calendar years."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave, relief not stated)",
+     "quote": "A leave of absence without pay may be granted to any member for medical reasons, when justified by their state of health and when recommended by their physician(s)"
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "consecutive_after university_of_toledo_c3",
+     "quote": "Unpaid medical leave may begin only after all accumulated sick leave has been used. Such leaves may not exceed two (2) calendar years."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_toledo_c6",
+   "institution_label": "Sick Leave Bank",
+   "description": "Colleague-donated sick leave bank for members with a catastrophic personal illness or injury who have exhausted sick and vacation balances; grants at the Leave Bank Committee's discretion, up to 120 days per fiscal year; not grantable for maternity leave or family care.",
+   "mechanism": "donated_leave",
+   "payer": "own_balance",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "employees represented by UT-AAUP (tenure and/or tenure-track faculty bargaining unit) who are bank members (donors)",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "personal catastrophic illness or personal catastrophic injury",
+   "caregiver_condition": "none",
+   "service_requirement": "a donor and member of the sick leave bank for at least 30 working days",
+   "entitlement": "discretionary",
+   "duration": {
+    "value": 120,
+    "units": "day",
+    "qualifier": "up_to"
+   },
+   "duration_note": "Initial grant up to 20 consecutively scheduled working days per illness or injury; extensions up to 100 days; total not to exceed 120 days per fiscal year or per illness. Maternity leave and family care are not grantable (see flag).",
+   "must_exhaust_first": [
+    "sick",
+    "vacation"
+   ],
+   "medical_certification": true,
+   "medical_certification_note": "catastrophic illness or injury certified by the attending physician; sufficient medical documentation",
+   "rule_applied": [
+    "R1d",
+    "U5",
+    "V2"
+   ],
+   "mechanism_note": "R1d: a bank colleagues fund counts 0 paid weeks (payer own_balance).",
+   "evidence": {
+    "faculty_group": [
+     "A Sick Leave Bank assists employees who are unable to perform their job duties as a result of a catastrophic personal illness or a personal injury.",
+     "A member must be in the sick leave bank for at least thirty (30) working days to be eligible to apply for sick leave days from the bank."
+    ],
+    "eligible_parent": [
+     "A Sick Leave Bank assists employees who are unable to perform their job duties as a result of a catastrophic personal illness or a personal injury.",
+     "Bank sick leave days may not be granted for elective surgery, illness or care of any member of the individual’s family, nor maternity leave."
+    ],
+    "entitlement": [
+     "The number of hour granted is based on the sole discretion of the LBC"
+    ],
+    "duration": [
+     "The total sick leave granted to any one member shall not exceed 120 days per fiscal year"
+    ],
+    "service_requirement": [
+     "A member must be in the sick leave bank for at least thirty (30) working days to be eligible to apply for sick leave days from the bank."
+    ],
+    "must_exhaust_first": [
+     "the employee must exhaust all existing sick and vacation leave balances before enjoying access to the Sick Leave Bank"
+    ],
+    "mechanism": [
+     "Sick leave bank hours accumulated from the voluntary donation of sick time that are used by the recipient as sick leave."
+    ],
+    "sequence": [
+     "the employee must exhaust all existing sick and vacation leave balances before enjoying access to the Sick Leave Bank"
+    ]
+   },
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "university_of_toledo_c3",
+     "note": "access only after sick and vacation balances are exhausted"
+    }
+   ],
+   "doc_ids": [
+    "2018_02_cba_aaup_tenured_tenure_track_2014_2018",
+    "2018_04_policy_3364_25_125_sick_leave_main_campus_rev2015"
+   ],
+   "flags": [
+    "ambiguous: restriction: bank days may not be granted for maternity leave or care of a family member (Appendix C II.B)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1d",
+     "answer": "donated_leave",
+     "quote": "Sick leave bank hours accumulated from the voluntary donation of sick time that are used by the recipient as sick leave."
+    },
+    {
+     "field": "payer",
+     "rule": "R1d",
+     "answer": "own_balance",
+     "quote": "Sick leave bank hours accumulated from the voluntary donation of sick time that are used by the recipient as sick leave."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "A Sick Leave Bank assists employees who are unable to perform their job duties as a result of a catastrophic personal illness or a personal injury."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "A Sick Leave Bank assists employees who are unable to perform their job duties as a result of a catastrophic personal illness or a personal injury."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own catastrophic illness only; maternity leave excluded)",
+     "quote": "Bank sick leave days may not be granted for elective surgery, illness or care of any member of the individual’s family, nor maternity leave."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "The number of hour granted is based on the sole discretion of the LBC"
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "120 days, up_to",
+     "quote": "The total sick leave granted to any one member shall not exceed 120 days per fiscal year"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "member of the bank for 30 working days",
+     "quote": "A member must be in the sick leave bank for at least thirty (30) working days to be eligible to apply for sick leave days from the bank."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "consecutive_after university_of_toledo_c3",
+     "quote": "the employee must exhaust all existing sick and vacation leave balances before enjoying access to the Sick Leave Bank"
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_toledo_c7",
+   "institution_label": "Disability Insurance",
+   "description": "Employer-provided long-term disability insurance paying 70% of base salary after 180 continuous calendar days of disability or exhaustion of sick leave, whichever is later; wraps around STRS disability coverage.",
+   "mechanism": "generic_sick_or_disability_plan",
+   "payer": "insurance_plan",
+   "mechanism_note": "Long-term disability (schema §2): recorded without a duration.",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "members of the bargaining unit: all tenured and tenure-track full-time faculty (Art. 2.1), excluding faculty in the College of Law and the College of Medicine and Life Sciences",
+   "faculty_scope": "all colleges except the College of Law and the College of Medicine and Life Sciences (Art. 2.1)",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "members (own disability)",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "pay_fraction": "70% of base salary",
+   "time_window": "after 180 continuous calendar days of disability or the exhaustion of the employee's sick leave, whichever occurs later",
+   "rule_applied": [
+    "V6",
+    "M1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "bargaining unit consisting of all tenured and tenure-track full-time faculty",
+     "The Employer will cover members with long-term disability insurance."
+    ],
+    "eligible_parent": [
+     "after 180 continuous calendar days of disability or the exhaustion of the employee’s sick leave, whichever occurs later, 70% of base salary"
+    ],
+    "entitlement": [
+     "The Employer will cover members with long-term disability insurance."
+    ],
+    "pay_fraction": [
+     "after 180 continuous calendar days of disability or the exhaustion of the employee’s sick leave, whichever occurs later, 70% of base salary"
+    ],
+    "time_window": [
+     "after 180 continuous calendar days of disability or the exhaustion of the employee’s sick leave, whichever occurs later, 70% of base salary",
+     "Unclassified employees utilizing the long term disability (LTD) program are required to use their accrued sick leave for the first six months of a disability recognized under the University's Long Term Disability policy."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_cba_aaup_tenured_tenure_track_2014_2018",
+    "2018_04_policy_3364_25_125_sick_leave_main_campus_rev2015"
+   ],
+   "flags": [
+    "cross_reference_not_saved: University's Long Term Disability policy (named in HR Policy 3364-25-125)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "The Employer will cover members with long-term disability insurance."
+    },
+    {
+     "field": "payer",
+     "rule": "M1",
+     "answer": "insurance_plan",
+     "quote": "The Employer will cover members with long-term disability insurance."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "The Employer will cover members with long-term disability insurance."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "bargaining unit consisting of all tenured and tenure-track full-time faculty"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own disability)",
+     "quote": "after 180 continuous calendar days of disability or the exhaustion of the employee’s sick leave, whichever occurs later, 70% of base salary"
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "The Employer will cover members with long-term disability insurance."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "70% of base salary",
+     "quote": "after 180 continuous calendar days of disability or the exhaustion of the employee’s sick leave, whichever occurs later, 70% of base salary"
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_toledo_c8",
+   "institution_label": "Impact on Probationary Period",
+   "description": "An untenured member who takes Family Childcare Leave may request in writing an extension that stops the tenure clock and adds one semester to the probationary period; at most two semesters in total (two separate leaves).",
+   "mechanism": "tenure_clock",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "untenured bargaining-unit faculty member who takes Family Childcare Leave",
+   "eligible_parent": [
+    "any_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "An untenured faculty member who takes leave under this section; maternity/paternity leaves",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "V2: the member 'can request in writing'; the text then states the process 'will ... grant' an additional semester.",
+   "duration": {
+    "value": 1,
+    "units": "semester",
+    "qualifier": "exact"
+   },
+   "use_limit": [
+    {
+     "times": 2,
+     "per": "career",
+     "counts": "uses"
+    }
+   ],
+   "use_limit_note": "The maximum time allotted for extension of the probationary period will be a total of two semesters (i.e. for two separate maternity/paternity leaves).",
+   "rule_applied": [
+    "V2",
+    "U9",
+    "U1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "bargaining unit consisting of all tenured and tenure-track full-time faculty",
+     "An untenured faculty member who takes leave under this section before being reviewed for tenure can request in writing that her/his probationary period be extended."
+    ],
+    "eligible_parent": [
+     "An untenured faculty member who takes leave under this section before being reviewed for tenure can request in writing that her/his probationary period be extended.",
+     "The maximum time allotted for extension of the probationary period will be a total of two semesters (i.e. for two separate maternity/paternity leaves).",
+     "the Employer adopts the following Family Childcare Leave for members of the Bargaining Unit who experience the birth of a child or adoption of a pre-school age child"
+    ],
+    "entitlement": [
+     "An untenured faculty member who takes leave under this section before being reviewed for tenure can request in writing that her/his probationary period be extended.",
+     "This process will effectively stop her/his \"tenure clock\" and grant the faculty member an additional semester that will be added to her/his probationary period."
+    ],
+    "duration": [
+     "This process will effectively stop her/his \"tenure clock\" and grant the faculty member an additional semester that will be added to her/his probationary period."
+    ],
+    "use_limit": [
+     "The maximum time allotted for extension of the probationary period will be a total of two semesters (i.e. for two separate maternity/paternity leaves)."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_cba_aaup_tenured_tenure_track_2014_2018"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "This process will effectively stop her/his \"tenure clock\" and grant the faculty member an additional semester that will be added to her/his probationary period."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "This process will effectively stop her/his \"tenure clock\" and grant the faculty member an additional semester that will be added to her/his probationary period."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "An untenured faculty member who takes leave under this section before being reviewed for tenure can request in writing that her/his probationary period be extended."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "bargaining unit consisting of all tenured and tenure-track full-time faculty"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent, adoptive (members who take Family Childcare Leave)",
+     "quote": "The maximum time allotted for extension of the probationary period will be a total of two semesters (i.e. for two separate maternity/paternity leaves)."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "An untenured faculty member who takes leave under this section before being reviewed for tenure can request in writing that her/his probationary period be extended."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 semester, exact",
+     "quote": "This process will effectively stop her/his \"tenure clock\" and grant the faculty member an additional semester that will be added to her/his probationary period."
+    },
+    {
+     "field": "use_limit",
+     "rule": "U9",
+     "answer": "2 per career (uses)",
+     "quote": "The maximum time allotted for extension of the probationary period will be a total of two semesters (i.e. for two separate maternity/paternity leaves)."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_toledo_c9",
+   "institution_label": "EXTENSION OF THE PROBATIONARY PERIOD",
+   "description": "Automatic one-year extension of the probationary period for each FMLA-qualifying event that results in a leave of at least eight weeks (or a single active military call of at least eight weeks); total extensions may not exceed two years; the member may decline.",
+   "mechanism": "tenure_clock",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "probationary tenure-track Bargaining Unit Faculty Members",
+   "eligible_parent": [
+    "any_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "the affected Bargaining Unit Faculty Member (FMLA qualifying events)",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "exact"
+   },
+   "duration_note": "One year per qualifying event; the sum total of extensions of the probationary period may not exceed two years (shared with the 8.2 extensions in c10).",
+   "rule_applied": [
+    "U1",
+    "U9",
+    "R13"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "bargaining unit consisting of all tenured and tenure-track full-time faculty",
+     "Under certain circumstances, the probationary period of tenure-track Bargaining Unit Faculty Members may be extended."
+    ],
+    "eligible_parent": [
+     "one or more of any Family Medical Leave Act (FMLA) qualifying events that results in a leave of at least eight (8) weeks duration"
+    ],
+    "entitlement": [
+     "will automatically be granted a one (1) year extension of his or her probationary period for each such event, subject to the provision that the sum total of the extension of the probationary period may not exceed two (2) years."
+    ],
+    "duration": [
+     "will automatically be granted a one (1) year extension of his or her probationary period for each such event"
+    ]
+   },
+   "doc_ids": [
+    "2018_02_cba_aaup_tenured_tenure_track_2014_2018"
+   ],
+   "flags": [
+    "ambiguous: restriction: the FMLA-qualifying event must result in a leave of at least eight weeks",
+    "ambiguous: restriction: total extension of the probationary period under Art. 8.2 not to exceed two years",
+    "ambiguous: general_purpose: 8.2.5 also covers a call to active military duty; coded not general because the parental route is limited to FMLA-qualifying events (U1)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "will automatically be granted a one (1) year extension of his or her probationary period for each such event, subject to the provision that the sum total of the extension of the probationary period may not exceed two (2) years."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "will automatically be granted a one (1) year extension of his or her probationary period for each such event, subject to the provision that the sum total of the extension of the probationary period may not exceed two (2) years."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "one or more of any Family Medical Leave Act (FMLA) qualifying events that results in a leave of at least eight (8) weeks duration"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "bargaining unit consisting of all tenured and tenure-track full-time faculty"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "any_parent, adoptive, foster (FMLA-qualifying events)",
+     "quote": "one or more of any Family Medical Leave Act (FMLA) qualifying events that results in a leave of at least eight (8) weeks duration"
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "will automatically be granted a one (1) year extension of his or her probationary period for each such event, subject to the provision that the sum total of the extension of the probationary period may not exceed two (2) years."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 year, exact",
+     "quote": "will automatically be granted a one (1) year extension of his or her probationary period for each such event"
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_toledo_c10",
+   "institution_label": "EXTENSION OF THE PROBATIONARY PERIOD",
+   "description": "On written request, the probationary period may be extended for illness, military/civilian/judicial duty, extraordinary professional circumstances, or an unpaid leave of absence (for any purpose); each request limited to one academic year, no more than two in total.",
+   "mechanism": "tenure_clock",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "probationary tenure-track Bargaining Unit Faculty Members",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "the probationary Bargaining Unit Faculty Member",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "up_to"
+   },
+   "duration_note": "Each request limited to one academic year; a second year may be requested or granted in exceptional circumstances; no more than two academic years in sum total.",
+   "rule_applied": [
+    "U1",
+    "V2",
+    "R13"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "bargaining unit consisting of all tenured and tenure-track full-time faculty",
+     "Under certain circumstances, the probationary period of tenure-track Bargaining Unit Faculty Members may be extended."
+    ],
+    "eligible_parent": [
+     "Instances where the probationary Bargaining Unit Faculty Member has developed an illness that would result in a negative impact on his or her progress toward tenure.",
+     "Instances arising as a result of an unpaid leave of absence (see section 15.3.1.1)."
+    ],
+    "entitlement": [
+     "Under certain circumstances, the probationary period of tenure-track Bargaining Unit Faculty Members may be extended.",
+     "Each request to extend the probationary period shall be limited to one academic year. In exceptional circumstances, a second academic year of extension may be requested or granted."
+    ],
+    "duration": [
+     "Each request to extend the probationary period shall be limited to one academic year. In exceptional circumstances, a second academic year of extension may be requested or granted."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_cba_aaup_tenured_tenure_track_2014_2018"
+   ],
+   "flags": [
+    "general_purpose",
+    "ambiguous: restriction: total extension of the probationary period under Art. 8.2 not to exceed two years"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "Under certain circumstances, the probationary period of tenure-track Bargaining Unit Faculty Members may be extended."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Under certain circumstances, the probationary period of tenure-track Bargaining Unit Faculty Members may be extended."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "Instances arising as a result of an unpaid leave of absence (see section 15.3.1.1)."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "bargaining unit consisting of all tenured and tenure-track full-time faculty"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent (through an unpaid leave of absence or illness)",
+     "quote": "Instances arising as a result of an unpaid leave of absence (see section 15.3.1.1)."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "Each request to extend the probationary period shall be limited to one academic year. In exceptional circumstances, a second academic year of extension may be requested or granted."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 academic year, up_to (each request limited to one year)",
+     "quote": "Each request to extend the probationary period shall be limited to one academic year. In exceptional circumstances, a second academic year of extension may be requested or granted."
+    },
+    {
+     "field": "duration.qualifier",
+     "rule": "R13",
+     "answer": "'limited to one academic year' states a maximum per request",
+     "quote": "shall be limited to one academic year"
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_toledo_c11",
+   "institution_label": "",
+   "description": "Extended sick leave of more than 30 working days does not count toward the probationary period unless the member and dean agree otherwise in writing (Art. 8.1.5).",
+   "mechanism": "tenure_clock",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "members serving a probationary period",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "member on extended sick leave (sick leave covers maternity related disability, adoption of pre-school children and family illness)",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration_note": "The time not counted equals the extended sick leave taken; no fixed length is stated.",
+   "rule_applied": [
+    "U1",
+    "U5"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "bargaining unit consisting of all tenured and tenure-track full-time faculty",
+     "Extended sick leave in excess of thirty (30) working days shall not count as part of the probationary period unless the member and the dean of the member's college agree in writing to an exception at the time the leave is granted."
+    ],
+    "eligible_parent": [
+     "Extended sick leave in excess of thirty (30) working days shall not count as part of the probationary period unless the member and the dean of the member's college agree in writing to an exception at the time the leave is granted.",
+     "Members shall use sick leave for absence due to personal injury, illness (including maternity related disability and adoption of pre-school children)"
+    ],
+    "entitlement": [
+     "Extended sick leave in excess of thirty (30) working days shall not count as part of the probationary period unless the member and the dean of the member's college agree in writing to an exception at the time the leave is granted."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_cba_aaup_tenured_tenure_track_2014_2018"
+   ],
+   "flags": [
+    "ambiguous: restriction: applies only to sick leave in excess of 30 working days"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "Extended sick leave in excess of thirty (30) working days shall not count as part of the probationary period unless the member and the dean of the member's college agree in writing to an exception at the time the leave is granted."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Extended sick leave in excess of thirty (30) working days shall not count as part of the probationary period unless the member and the dean of the member's college agree in writing to an exception at the time the leave is granted."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Extended sick leave in excess of thirty (30) working days shall not count as part of the probationary period unless the member and the dean of the member's college agree in writing to an exception at the time the leave is granted."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "bargaining unit consisting of all tenured and tenure-track full-time faculty"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent, non_birth_parent, adoptive (the uses of sick leave)",
+     "quote": "Members shall use sick leave for absence due to personal injury, illness (including maternity related disability and adoption of pre-school children)"
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "Extended sick leave in excess of thirty (30) working days shall not count as part of the probationary period unless the member and the dean of the member's college agree in writing to an exception at the time the leave is granted."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_toledo_c12",
+   "institution_label": "Leave of Absence",
+   "description": "Leave of absence without pay for any purpose mutually agreed, normally one calendar year or less, extendable by agreement to no more than two calendar years; granting is discretionary with the Board, though requests shall not be unreasonably denied.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "members of the bargaining unit: all tenured and tenure-track full-time faculty (Art. 2.1), excluding faculty in the College of Law and the College of Medicine and Life Sciences",
+   "faculty_scope": "all colleges except the College of Law and the College of Medicine and Life Sciences (Art. 2.1)",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "Members",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "entitlement_note": "V2d exception: 'shall not unreasonably be denied', but the text also states that ultimate authority to grant is discretionary with the Board, which disclaims an entitlement.",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "up_to"
+   },
+   "duration_note": "Q1: 'normally for one (1) calendar year or less'; may be extended by mutual agreement, not to exceed two calendar years.",
+   "notice": "intention to return in writing 90 days before the leave expires",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "rule_applied": [
+    "U1",
+    "V2d",
+    "Q1",
+    "R9"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "bargaining unit consisting of all tenured and tenure-track full-time faculty",
+     "Members may request leave of absence without pay for any purpose mutually agreed to by the University and the member."
+    ],
+    "eligible_parent": [
+     "Members may request leave of absence without pay for any purpose mutually agreed to by the University and the member."
+    ],
+    "entitlement": [
+     "Ultimate authority to grant such leave is discretionary with the Board.",
+     "A request for such leave shall not unreasonably be denied."
+    ],
+    "duration": [
+     "leave shall normally be for one (1) calendar year or less, but may be by mutual agreement extended in writing by the University and the member. Such leave shall not exceed two (2) calendar years."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_cba_aaup_tenured_tenure_track_2014_2018",
+    "2018_00_link"
+   ],
+   "flags": [
+    "general_purpose",
+    "cross_reference_not_saved: Policy #3364-25-26 Unpaid Leave for Personal Reasons (All Campuses)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "Members may request leave of absence without pay for any purpose mutually agreed to by the University and the member."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Members may request leave of absence without pay for any purpose mutually agreed to by the University and the member."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "Members may request leave of absence without pay for any purpose mutually agreed to by the University and the member."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "bargaining unit consisting of all tenured and tenure-track full-time faculty"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent (any purpose)",
+     "quote": "Members may request leave of absence without pay for any purpose mutually agreed to by the University and the member."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2d",
+     "answer": "discretionary",
+     "quote": "Ultimate authority to grant such leave is discretionary with the Board."
+    },
+    {
+     "field": "duration",
+     "rule": "Q1",
+     "answer": "1 year, up_to ('normally ... or less'); extendable to 2 years",
+     "quote": "leave shall normally be for one (1) calendar year or less, but may be by mutual agreement extended in writing by the University and the member. Such leave shall not exceed two (2) calendar years."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave, relief not stated)",
+     "quote": "Members may request leave of absence without pay for any purpose mutually agreed to by the University and the member."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_toledo_c13",
+   "institution_label": "Vacation",
+   "description": "Accrued vacation leave (two days per month of full-time service, capped accumulation) for members on twelve-month appointments only; use subject to the chair's approval and may not interfere with scheduled teaching.",
+   "mechanism": "own_accrual",
+   "payer": "own_balance",
+   "faculty_group": "Members on twelve (12) month appointments",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "Members on twelve (12) month appointments",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "V2: accrual is stated; use when requested is subject to the chair's approval (timing).",
+   "duration_note": "Accrued balance: two days per month of full-time service; maximum accrual 72 days (on payroll before July 1, 1993) or 40 days.",
+   "rule_applied": [
+    "R1",
+    "U1",
+    "V2"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Members on twelve (12) month appointments only shall accrue vacation leave at the rate of two (2) days per month of full-time service."
+    ],
+    "eligible_parent": [
+     "Members on twelve (12) month appointments only shall accrue vacation leave at the rate of two (2) days per month of full-time service."
+    ],
+    "entitlement": [
+     "Members on twelve (12) month appointments only shall accrue vacation leave at the rate of two (2) days per month of full-time service.",
+     "Use of vacation leave when requested by a member is subject to the approval of the member's department chairperson or other immediate supervisor"
+    ],
+    "mechanism": [
+     "Members on twelve (12) month appointments only shall accrue vacation leave at the rate of two (2) days per month of full-time service."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_cba_aaup_tenured_tenure_track_2014_2018"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "own_accrual",
+     "quote": "Members on twelve (12) month appointments only shall accrue vacation leave at the rate of two (2) days per month of full-time service."
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "own_balance",
+     "quote": "Members on twelve (12) month appointments only shall accrue vacation leave at the rate of two (2) days per month of full-time service."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "Use of vacation leave when requested by a member is subject to the approval of the member's department chairperson or other immediate supervisor"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "Members on twelve (12) month appointments",
+     "quote": "Members on twelve (12) month appointments only shall accrue vacation leave at the rate of two (2) days per month of full-time service."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "Members on twelve (12) month appointments only shall accrue vacation leave at the rate of two (2) days per month of full-time service."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "Use of vacation leave when requested by a member is subject to the approval of the member's department chairperson or other immediate supervisor"
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_toledo_c14",
+   "institution_label": "Intermittent or reduced leave schedule",
+   "description": "FMLA leave after the birth or placement of a healthy child may be taken intermittently or on a reduced leave schedule only at the university's discretion (permitted as of right only for the mother's or newborn's serious health condition); draws on the FMLA 12 workweeks.",
+   "mechanism": "part_time_option",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Policy 3364-25-30 scope: all University of Toledo campuses (employees)",
+   "eligible_parent": [
+    "any_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "after the birth of a healthy child or placement of a healthy child for adoption or foster care; the mother's serious health condition",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "rule_applied": [
+    "R3",
+    "V2",
+    "U2"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Scope: all University of Toledo campuses"
+    ],
+    "eligible_parent": [
+     "FMLA leave taken after the birth of a healthy child or placement of a healthy child for adoption or foster care, is at the discretion of the university.",
+     "The university will permit intermittent or reduced leave schedule FMLA leave if it is due to the mother's serious health condition in connection with the birth of the child or if the newborn child has a serious health condition."
+    ],
+    "entitlement": [
+     "FMLA leave taken after the birth of a healthy child or placement of a healthy child for adoption or foster care, is at the discretion of the university."
+    ]
+   },
+   "doc_ids": [
+    "2018_03_policy_3364_25_30_fmla_all_campuses_rev2016"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R3",
+     "answer": "part_time_option",
+     "quote": "A reduced leave schedule is leave schedule that reduces an employee's usual number of working hours per workweek, or hours per workday."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "FMLA leave taken after the birth of a healthy child or placement of a healthy child for adoption or foster care, is at the discretion of the university."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "FMLA leave taken after the birth of a healthy child or placement of a healthy child for adoption or foster care, is at the discretion of the university."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Scope: all University of Toledo campuses"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent, adoptive, foster",
+     "quote": "FMLA leave taken after the birth of a healthy child or placement of a healthy child for adoption or foster care, is at the discretion of the university."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "FMLA leave taken after the birth of a healthy child or placement of a healthy child for adoption or foster care, is at the discretion of the university."
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "2018_00_link.txt is an HR leave index page (Last Updated 2/28/18) that holds no policy text of its own beyond cross-references.",
+  "Governing document: the UT-AAUP collective bargaining agreement (tenured and tenure-track unit), Contract #2 in force July 1, 2017 - June 30, 2018, which covers the reference date 2018-02-26. The unit is all tenured and tenure-track full-time faculty except the College of Law and the College of Medicine and Life Sciences, so it holds main-campus arts-and-sciences and engineering faculty (V3).",
+  "Calendar: the CBA states a semester calendar ('For nine (9) month faculty the work year shall consist of two semesters') without a length: calendar.kind = semester, and the term length follows R8's order.",
+  "Birth parent chain: Family Childcare Leave, paid at full salary, up to one semester (c1), with FMLA 12 workweeks (c4) concurrent from its start. Separately, sick leave (c3, own balance) lies within the unpaid child-care leave for the remainder of the birth term (c2, FMLA concurrent); then, at the university's discretion, unpaid medical leave up to two years (c5) after sick leave is exhausted. c1 and c2 are not linked.",
+  "Non-birth parent chain: Family Childcare Leave up to one semester (c1) with FMLA concurrent (c4); separately, the unpaid child-care leave for the remainder of the birth term (c2) after any paid sick leave is exhausted; c1 and c2 are not linked.",
+  "c1 and c2: the CBA does not say whether a parent may take the unpaid child-care leave for the birth term (15.3.1.2) and then Family Childcare Leave in the following semester (15.1.3.2 lets 9-month faculty choose Fall or Spring). Left unlinked (not added); flagged on c2.",
+  "c3 sick leave: HR Policy 3364-25-125 (Main Campus) restates the accrual (15 workdays a year) and requires a pregnant employee to use accrued sick leave for maternity-related leaves of absence under FMLA; the CBA governs members. FMLA policy requires exhausting sick, vacation and other paid leave before unpaid FMLA leave.",
+  "c6 Sick Leave Bank: Appendix C excludes maternity leave and family care; recorded for completeness, own_balance (R1d).",
+  "Not components: sabbatical leave (15.1.6), Special Assignment Leave (15.2), jury duty (15.1.4), bereavement leave (15.5), holidays: none can be taken because of a birth or adoption. Art. 10.3.2.3 ('If unforeseen events should occur during the year, said member's Assignment may be modified') is a general workload clause with no parental relief; not coded. Art. 8.1.5 scholarly or professional leave counting toward probation is not parental.",
+  "Cross-references not saved: Policy 3364-25-26 Unpaid Leave for Personal Reasons (flagged on c12); Policy 3364-25-08 Jury or Trial Participation Leave (not parental); Policy 3364-25-123 HSC Leaves of Absence (saved as 2018_01 but not used: Health Science Campus); the University's Long Term Disability policy (flagged on c7); 29 C.F.R. 825 (flagged on c4); HR Policy 3364-25-125 'section on Leave of Absence' and 'section on Reporting of Absences' (flagged on c3); the Group Medical Plan document and UT health plan definitions (not leave).",
+  "FMLA terms verified against statute texts 2026_00 (2612) and 2026_01 (2611); baseline table marks the length unchanged since 1993."
+ ],
+ "statutory_floor": {
+  "jurisdiction": "US",
+  "year": "2018",
+  "weeks_birth": 12.0,
+  "weeks_nonbirth": 12.0,
+  "statute": "Family and Medical Leave Act (FMLA) (29 U.S.C. 2611-2612)",
+  "source_doc": "2026_00_us_fmla_29usc2612",
+  "table": "statutory_baseline.csv"
+ }
+}

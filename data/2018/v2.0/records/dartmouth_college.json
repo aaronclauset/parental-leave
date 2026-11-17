@@ -1,0 +1,1771 @@
+{
+ "institution": "Dartmouth College",
+ "slug": "dartmouth_college",
+ "country": "US",
+ "model": "claude-opus-5-5",
+ "codebook_version": "1.25",
+ "schema_version": "1.25",
+ "reference_date": "2018-02-22",
+ "calendar": {
+  "term_weeks": null,
+  "note": "R8: the document states the kind of term but not its length: 'the leave must be taken in the quarter during or immediately after the birth of the child'; 'faculty members normally teach three out of four terms' -> quarter default 11 weeks.",
+  "kind": "quarter"
+ },
+ "documents": [
+  {
+   "doc_id": "2018_00_link",
+   "url": "https://faculty.dartmouth.edu/dean/research-teaching-support/internal-awards-and-fellowships/tenured-and-tenure-track-faculty-funding-0",
+   "title": "Faculty Leaves | Dean of the Faculty (Arts & Sciences)",
+   "version_or_effective_date": "undated; Wayback capture 2017-09-01 (page footer 'Copyright © 2017'); within the reference academic year 2017-18",
+   "retrieved": "2026-10-24"
+  },
+  {
+   "doc_id": "2018_02_hr_disability_leave_policies_page",
+   "url": "http://www.dartmouth.edu/~hrs/benefits/leave/",
+   "title": "Human Resources: Disability and Leave Policies",
+   "version_or_effective_date": "'Last Updated: 1/29/18'; Wayback capture 2018-02-17",
+   "retrieved": "2026-10-24"
+  },
+  {
+   "doc_id": "2018_03_hr_fmla_faqs",
+   "url": "http://www.dartmouth.edu/~hrs/benefits/fmla_faqs.pdf",
+   "title": "Dartmouth College: Information About the Family and Medical Leave Act, Frequently Asked Questions",
+   "version_or_effective_date": "undated; Wayback capture 2018-03-28",
+   "retrieved": "2026-10-24"
+  }
+ ],
+ "missing": false,
+ "scope_accounting": {
+  "C1": {
+   "components": [
+    "dartmouth_college_c1",
+    "dartmouth_college_c2",
+    "dartmouth_college_c3"
+   ]
+  },
+  "C2": {
+   "absent": {
+    "documents": [
+     "2018_00_link",
+     "2018_02_hr_disability_leave_policies_page",
+     "2018_03_hr_fmla_faqs"
+    ],
+    "terms": [
+     "modified duties",
+     "teaching relief",
+     "course release",
+     "reduction",
+     "relief",
+     "release"
+    ]
+   }
+  },
+  "C3": {
+   "components": [
+    "dartmouth_college_c4",
+    "dartmouth_college_c5",
+    "dartmouth_college_c6",
+    "dartmouth_college_c7",
+    "dartmouth_college_c10",
+    "dartmouth_college_c11"
+   ]
+  },
+  "C4": {
+   "components": [
+    "dartmouth_college_c8",
+    "dartmouth_college_c9"
+   ],
+   "not_components": [
+    {
+     "statute": "Americans With Disabilities Act (ADA)",
+     "reason": "Named in the FMLA FAQ only for the definition of 'major life activities'; a disability statute, not leave for becoming a parent (U4)."
+    },
+    {
+     "statute": "Social Security Disability Income (SSDI) (Social Security Act)",
+     "reason": "Named on the HR page only as an offset to long-term disability benefits; not leave or pay for becoming a parent (U4)."
+    },
+    {
+     "statute": "Workers' compensation",
+     "reason": "Named in the FMLA FAQ (workers' compensation leave may run with FMLA) and the HR quick links; covers work injury, not becoming a parent (U4)."
+    }
+   ]
+  },
+  "C5": {
+   "components": [
+    "dartmouth_college_c8"
+   ]
+  },
+  "C6": {
+   "components": [
+    "dartmouth_college_c12"
+   ]
+  },
+  "C7": {
+   "absent": {
+    "documents": [
+     "2018_00_link",
+     "2018_02_hr_disability_leave_policies_page",
+     "2018_03_hr_fmla_faqs"
+    ],
+    "terms": [
+     "tenure",
+     "clock",
+     "probationary",
+     "extension",
+     "tenure review"
+    ]
+   }
+  },
+  "C8": {
+   "components": [
+    "dartmouth_college_c9"
+   ]
+  },
+  "C9": {
+   "absent": {
+    "documents": [
+     "2018_00_link",
+     "2018_02_hr_disability_leave_policies_page",
+     "2018_03_hr_fmla_faqs"
+    ],
+    "terms": [
+     "accommodation",
+     "pregnan",
+     "hazard",
+     "transfer",
+     "discrimination"
+    ]
+   }
+  },
+  "C10": {
+   "absent": {
+    "documents": [
+     "2018_00_link",
+     "2018_02_hr_disability_leave_policies_page",
+     "2018_03_hr_fmla_faqs"
+    ],
+    "terms": [
+     "first",
+     "days",
+     "FMLA",
+     "paid",
+     "regular work time"
+    ]
+   }
+  }
+ },
+ "passage_dispositions": {
+  "2018_00_link#001": {
+   "not_relevant": "Sabbatical accrual: maternity and parental leave terms do not count toward sabbatical; no leave provision (the leaves themselves are coded from #002)."
+  },
+  "2018_00_link#002": {
+   "used_in": [
+    "dartmouth_college_c1",
+    "dartmouth_college_c2",
+    "dartmouth_college_c3",
+    "dartmouth_college_c4",
+    "dartmouth_college_c5",
+    "dartmouth_college_c6",
+    "dartmouth_college_c8"
+   ]
+  },
+  "2018_02_hr_disability_leave_policies_page#001": {
+   "not_relevant": "Navigation menu and page heading."
+  },
+  "2018_02_hr_disability_leave_policies_page#002": {
+   "used_in": [
+    "dartmouth_college_c11"
+   ]
+  },
+  "2018_02_hr_disability_leave_policies_page#003": {
+   "used_in": [
+    "dartmouth_college_c6",
+    "dartmouth_college_c7",
+    "dartmouth_college_c8",
+    "dartmouth_college_c11",
+    "dartmouth_college_c12"
+   ]
+  },
+  "2018_03_hr_fmla_faqs#001": {
+   "used_in": [
+    "dartmouth_college_c8",
+    "dartmouth_college_c9",
+    "dartmouth_college_c10"
+   ]
+  },
+  "2018_03_hr_fmla_faqs#002": {
+   "used_in": [
+    "dartmouth_college_c8"
+   ]
+  }
+ },
+ "mechanism_slots": {
+  "employer_paid_leave": {
+   "components": [
+    "dartmouth_college_c2"
+   ]
+  },
+  "employer_childbirth_benefit": {
+   "components": [
+    "dartmouth_college_c1",
+    "dartmouth_college_c3"
+   ]
+  },
+  "generic_sick_or_disability_plan": {
+   "components": [
+    "dartmouth_college_c5",
+    "dartmouth_college_c6",
+    "dartmouth_college_c7",
+    "dartmouth_college_c11"
+   ]
+  },
+  "own_accrual": {
+   "components": [
+    "dartmouth_college_c10"
+   ]
+  },
+  "donated_leave": {
+   "absent": "No saved document mentions donated or shared leave (searched all three documents for 'donat', 'shared', 'bank', 'pool')."
+  },
+  "government_benefit": {
+   "absent": "No government or state paid programme is named (searched all three documents for 'state', 'insurance', 'benefit', 'New Hampshire'); SSDI is named only as an LTD offset."
+  },
+  "employer_topup": {
+   "absent": "No top-up of a government benefit (searched all three documents for 'top', 'supplement', 'difference')."
+  },
+  "modified_duties": {
+   "absent": "No modified-duties or teaching-relief provision separate from the leaves (searched all three documents for 'modified', 'relief', 'reduction', 'release')."
+  },
+  "unpaid_leave": {
+   "components": [
+    "dartmouth_college_c4",
+    "dartmouth_college_c8",
+    "dartmouth_college_c12"
+   ]
+  },
+  "tenure_clock": {
+   "absent": "No tenure-clock provision (searched all three documents for 'tenure', 'clock', 'probationary', 'extension')."
+  },
+  "part_time_option": {
+   "components": [
+    "dartmouth_college_c9"
+   ]
+  },
+  "other": {
+   "absent": "No accommodation, hazard or equal-treatment provision (searched all three documents for 'accommodat', 'hazard', 'transfer', 'discrimination')."
+  }
+ },
+ "baseline_accounting": {
+  "Family and Medical Leave Act (FMLA)": {
+   "components": [
+    "dartmouth_college_c8"
+   ]
+  },
+  "Federal Employee Paid Leave Act (paid parental leave for federal civilian employees)": {
+   "not_applicable": "Federal civilian employees only; Dartmouth is a private employer and no saved document mentions it."
+  }
+ },
+ "leave_limits": [],
+ "components": [
+  {
+   "component_id": "dartmouth_college_c1",
+   "institution_label": "Maternity Leave",
+   "description": "A pregnant tenure-track faculty member is entitled to one residence term of leave at full compensation, taken in the quarter of or immediately after the birth; counts toward FMLA.",
+   "mechanism": "employer_childbirth_benefit",
+   "mechanism_note": "A dedicated maternity leave for pregnant faculty, paid by the College at full compensation, not a referral to a sick or disability plan (schema: dedicated maternity benefit; R2).",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "'Tenured and Tenure-Track Faculty'; 'A pregnant tenure-track faculty member'",
+   "faculty_scope": "Arts & Sciences (policy published by the Dean of the Faculty of Arts & Sciences)",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "A pregnant tenure-track faculty member",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "entitlement_note": "'is entitled to'; the Leave Request Form covers the arrangements.",
+   "duration": {
+    "value": 1,
+    "units": "term",
+    "qualifier": "exact"
+   },
+   "duration_note": "One of the three residence terms; the text calls the term a 'quarter' (calendar note). The leave 'entails a one-course reduction' of the teaching load (see relief_note).",
+   "pay_fraction": "full compensation",
+   "pay_fraction_pct": 100,
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "relief_note": "A leave from one residence term; the text names only its teaching effect ('a one-course reduction of the faculty member's teaching load'). Read as a formal leave relieving every duty (R9), the one-course reduction being what a term away from residence removes from the annual load; the alternative reading (teaching-only relief, R4b) is flagged.",
+   "runs_concurrently_with": [
+    "FMLA"
+   ],
+   "time_window": "must be taken in the quarter during or immediately after the birth of the child",
+   "use_limit_note": "'Only one maternity leave per pregnancy is allowed': renews with each pregnancy, not a use limit (U9).",
+   "notice": "Requests via the standard Leave Request Form to the department and/or program Chair(s) and the appropriate Associate Dean(s)",
+   "rule_applied": [
+    "R2",
+    "R9",
+    "R13",
+    "R8",
+    "S1",
+    "U9",
+    "V3"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Tenured and Tenure-Track Faculty",
+     "A pregnant tenure-track faculty member is entitled to maternity leave at full compensation for one of the three residence terms."
+    ],
+    "eligible_parent": [
+     "A pregnant tenure-track faculty member is entitled to maternity leave at full compensation for one of the three residence terms."
+    ],
+    "entitlement": [
+     "A pregnant tenure-track faculty member is entitled to maternity leave at full compensation for one of the three residence terms.",
+     "Requests for maternity leave should be sent to the department and/or program Chair(s) and the appropriate Associate Dean(s) by completing the standard Leave Request Form."
+    ],
+    "duration": [
+     "A pregnant tenure-track faculty member is entitled to maternity leave at full compensation for one of the three residence terms.",
+     "Only one maternity leave per pregnancy is allowed and the leave must be taken in the quarter during or immediately after the birth of the child."
+    ],
+    "pay_fraction": [
+     "A pregnant tenure-track faculty member is entitled to maternity leave at full compensation for one of the three residence terms."
+    ],
+    "relief": [
+     "This leave entails a one-course reduction of the faculty member’s teaching load.",
+     "A pregnant tenure-track faculty member is entitled to maternity leave at full compensation for one of the three residence terms."
+    ],
+    "time_window": [
+     "Only one maternity leave per pregnancy is allowed and the leave must be taken in the quarter during or immediately after the birth of the child."
+    ],
+    "runs_concurrently_with": [
+     "Maternity leave for tenure-track faculty will count as part of the twelve-week Family and Medical Leave allotment."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "ambiguous: relief: 'one-course reduction of the faculty member’s teaching load' read as the teaching effect of a full term's leave (R9, all duties), not as teaching-only relief (R4b)",
+    "cross_reference_not_saved: Handbook of the Faculty of Arts & Sciences (named on the Dean of the Faculty page and by the HR page; not archived)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "employer_childbirth_benefit",
+     "quote": "A pregnant tenure-track faculty member is entitled to maternity leave at full compensation for one of the three residence terms."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "A pregnant tenure-track faculty member is entitled to maternity leave at full compensation for one of the three residence terms."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "A pregnant tenure-track faculty member is entitled to maternity leave at full compensation for one of the three residence terms."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "V3",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Tenured and Tenure-Track Faculty"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "birth_parent",
+     "quote": "A pregnant tenure-track faculty member is entitled to maternity leave at full compensation for one of the three residence terms."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "A pregnant tenure-track faculty member is entitled to maternity leave at full compensation for one of the three residence terms."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 term, exact ('for one of the three residence terms')",
+     "quote": "A pregnant tenure-track faculty member is entitled to maternity leave at full compensation for one of the three residence terms."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "full compensation",
+     "quote": "A pregnant tenure-track faculty member is entitled to maternity leave at full compensation for one of the three residence terms."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave); teaching effect stated as a one-course reduction",
+     "quote": "This leave entails a one-course reduction of the faculty member’s teaching load."
+    }
+   ]
+  },
+  {
+   "component_id": "dartmouth_college_c2",
+   "institution_label": "Parental Leave",
+   "description": "A tenure-track faculty member who becomes the primary care-provider for a child under six is entitled to one residence term of leave at full compensation within a year of the arrival; may be combined with maternity leave.",
+   "mechanism": "employer_paid_leave",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "'A tenure-track faculty member'",
+   "faculty_scope": "Arts & Sciences (policy published by the Dean of the Faculty of Arts & Sciences)",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "A tenure-track faculty member who becomes the primary care-provider for one or more children",
+   "caregiver_condition": "primary",
+   "caregiver_condition_wording": "becomes the primary care-provider for one or more children under six years of age; 'to assume substantial and sustained responsibility for the care of their young children'",
+   "entitlement": "guaranteed",
+   "entitlement_note": "'is entitled to'; the Leave Request Form covers the arrangements.",
+   "duration": {
+    "value": 1,
+    "units": "term",
+    "qualifier": "exact"
+   },
+   "duration_note": "One of the three residence terms (quarters).",
+   "pay_fraction": "full compensation",
+   "pay_fraction_pct": 100,
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "relief_note": "Stated purpose: 'relief from their academic duties'; also 'entails a one-course reduction in teaching load'. Coded as a formal leave relieving every duty (R9); clinical duties are not mentioned and are coded with the rest.",
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "dartmouth_college_c1",
+     "note": "'Maternity leave may be combined with parental leave': the birth parent may take parental leave when maternity leave ends (longest-leave convention). Ignored for the non-birth parent (maternity is birth-only)."
+    }
+   ],
+   "time_window": "children under six years of age; within a one-year period of the arrival",
+   "use_limit": [
+    {
+     "times": 1,
+     "per": "window",
+     "window_years": 1,
+     "counts": "uses"
+    }
+   ],
+   "use_limit_note": "In no case will parental leave be awarded more than once in a calendar year even if more than one child is involved.",
+   "notice": "Requests via the standard Leave Request Form to the department and/or program Chair and the appropriate Associate Dean(s)",
+   "rule_applied": [
+    "R5",
+    "R6",
+    "R9",
+    "R13",
+    "R15",
+    "U9",
+    "V3"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "A tenure-track faculty member who becomes the primary care-provider for one or more children under six years of age is entitled to parental leave at full compensation for one of the three residence terms."
+    ],
+    "eligible_parent": [
+     "A tenure-track faculty member who becomes the primary care-provider for one or more children under six years of age is entitled to parental leave at full compensation for one of the three residence terms."
+    ],
+    "caregiver_condition": [
+     "A tenure-track faculty member who becomes the primary care-provider for one or more children under six years of age is entitled to parental leave at full compensation for one of the three residence terms.",
+     "Parental leaves are intended to provide members of the faculty relief from their academic duties in order to assume substantial and sustained responsibility for the care of their young children."
+    ],
+    "entitlement": [
+     "A tenure-track faculty member who becomes the primary care-provider for one or more children under six years of age is entitled to parental leave at full compensation for one of the three residence terms."
+    ],
+    "duration": [
+     "A tenure-track faculty member who becomes the primary care-provider for one or more children under six years of age is entitled to parental leave at full compensation for one of the three residence terms."
+    ],
+    "pay_fraction": [
+     "A tenure-track faculty member who becomes the primary care-provider for one or more children under six years of age is entitled to parental leave at full compensation for one of the three residence terms."
+    ],
+    "relief": [
+     "Parental leaves are intended to provide members of the faculty relief from their academic duties in order to assume substantial and sustained responsibility for the care of their young children.",
+     "This leave entails a one-course reduction in teaching load within a one-year period of the arrival."
+    ],
+    "sequence": [
+     "Maternity leave may be combined with parental leave (see below)."
+    ],
+    "time_window": [
+     "A tenure-track faculty member who becomes the primary care-provider for one or more children under six years of age is entitled to parental leave at full compensation for one of the three residence terms.",
+     "This leave entails a one-course reduction in teaching load within a one-year period of the arrival."
+    ],
+    "use_limit": [
+     "In no case will parental leave be awarded more than once in a calendar year even if more than one child is involved."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "cross_reference_not_saved: Handbook of the Faculty of Arts & Sciences (named on the Dean of the Faculty page and by the HR page; not archived)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "employer_paid_leave",
+     "quote": "A tenure-track faculty member who becomes the primary care-provider for one or more children under six years of age is entitled to parental leave at full compensation for one of the three residence terms."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "A tenure-track faculty member who becomes the primary care-provider for one or more children under six years of age is entitled to parental leave at full compensation for one of the three residence terms."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Parental leaves are intended to provide members of the faculty relief from their academic duties in order to assume substantial and sustained responsibility for the care of their young children."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "V3",
+     "answer": "main_campus_tenure_stream",
+     "quote": "A tenure-track faculty member who becomes the primary care-provider for one or more children under six years of age is entitled to parental leave at full compensation for one of the three residence terms."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R6",
+     "answer": "any_parent (role-neutral; primary care-provider condition read as gender-neutral)",
+     "quote": "A tenure-track faculty member who becomes the primary care-provider for one or more children under six years of age is entitled to parental leave at full compensation for one of the three residence terms."
+    },
+    {
+     "field": "caregiver_condition",
+     "rule": "R6",
+     "answer": "primary",
+     "quote": "A tenure-track faculty member who becomes the primary care-provider for one or more children under six years of age is entitled to parental leave at full compensation for one of the three residence terms."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "A tenure-track faculty member who becomes the primary care-provider for one or more children under six years of age is entitled to parental leave at full compensation for one of the three residence terms."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 term, exact",
+     "quote": "A tenure-track faculty member who becomes the primary care-provider for one or more children under six years of age is entitled to parental leave at full compensation for one of the three residence terms."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "full compensation",
+     "quote": "A tenure-track faculty member who becomes the primary care-provider for one or more children under six years of age is entitled to parental leave at full compensation for one of the three residence terms."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved; stated relief from academic duties",
+     "quote": "Parental leaves are intended to provide members of the faculty relief from their academic duties in order to assume substantial and sustained responsibility for the care of their young children."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "consecutive_after c1 (may be combined with maternity leave)",
+     "quote": "Maternity leave may be combined with parental leave (see below)."
+    },
+    {
+     "field": "use_limit",
+     "rule": "U9",
+     "answer": "once per calendar year (1 per 1-year window)",
+     "quote": "In no case will parental leave be awarded more than once in a calendar year even if more than one child is involved."
+    }
+   ]
+  },
+  {
+   "component_id": "dartmouth_college_c3",
+   "institution_label": "Maternity Leave",
+   "description": "Pregnant Lecturers and Senior Lecturers with 24 months of benefits eligibility may request a maternity leave entailing a one-course reduction in teaching load without loss of compensation.",
+   "mechanism": "employer_childbirth_benefit",
+   "mechanism_note": "Dedicated maternity leave for pregnant lecturers, without loss of compensation (schema; R2).",
+   "payer": "employer",
+   "faculty_group": "Lecturers and Senior Lecturers",
+   "faculty_group_note": "'Pregnant faculty members in the rank of Lecturer or Senior Lecturer'",
+   "faculty_scope": "Arts & Sciences (policy published by the Dean of the Faculty of Arts & Sciences)",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "Pregnant faculty members",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "entitlement_note": "'may request' with no grant language (V2).",
+   "duration": {
+    "value": 1,
+    "units": "course",
+    "qualifier": "exact"
+   },
+   "duration_note": "No length in time is stated, just 'a one-course reduction of the faculty member's teaching load'. Not converted to weeks (R11b).",
+   "pay_fraction": "without loss of compensation",
+   "pay_fraction_pct": 100,
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "relief_note": "A 'maternity leave' whose stated effect is a one-course reduction of the teaching load; read as for c1 (same wording): a formal leave relieving every duty (R9), the R4b reading flagged.",
+   "runs_concurrently_with": [
+    "FMLA"
+   ],
+   "service_requirement": "continuously eligible for benefits for at least the preceding 24 months",
+   "rule_applied": [
+    "R2",
+    "R9",
+    "R11b",
+    "V2"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Pregnant faculty members in the rank of Lecturer or Senior Lecturer who have been continuously eligible for benefits for at least the preceding 24 months may request a maternity leave."
+    ],
+    "eligible_parent": [
+     "Pregnant faculty members in the rank of Lecturer or Senior Lecturer who have been continuously eligible for benefits for at least the preceding 24 months may request a maternity leave."
+    ],
+    "entitlement": [
+     "Pregnant faculty members in the rank of Lecturer or Senior Lecturer who have been continuously eligible for benefits for at least the preceding 24 months may request a maternity leave."
+    ],
+    "duration": [
+     "This leave entails a one-course reduction of the faculty member’s teaching load without loss of compensation."
+    ],
+    "pay_fraction": [
+     "This leave entails a one-course reduction of the faculty member’s teaching load without loss of compensation."
+    ],
+    "relief": [
+     "This leave entails a one-course reduction of the faculty member’s teaching load without loss of compensation."
+    ],
+    "service_requirement": [
+     "Pregnant faculty members in the rank of Lecturer or Senior Lecturer who have been continuously eligible for benefits for at least the preceding 24 months may request a maternity leave."
+    ],
+    "runs_concurrently_with": [
+     "Maternity leave for Lecturers and Senior Lecturers will count as part of the twelve week Family and Medical Leave allotment."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "ambiguous: relief: 'one-course reduction of the faculty member’s teaching load' read as the teaching effect of a leave (R9, all duties), not as teaching-only relief (R4b)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "employer_childbirth_benefit",
+     "quote": "Pregnant faculty members in the rank of Lecturer or Senior Lecturer who have been continuously eligible for benefits for at least the preceding 24 months may request a maternity leave."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "This leave entails a one-course reduction of the faculty member’s teaching load without loss of compensation."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Pregnant faculty members in the rank of Lecturer or Senior Lecturer who have been continuously eligible for benefits for at least the preceding 24 months may request a maternity leave."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "Lecturers and Senior Lecturers",
+     "quote": "Pregnant faculty members in the rank of Lecturer or Senior Lecturer who have been continuously eligible for benefits for at least the preceding 24 months may request a maternity leave."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "birth_parent",
+     "quote": "Pregnant faculty members in the rank of Lecturer or Senior Lecturer who have been continuously eligible for benefits for at least the preceding 24 months may request a maternity leave."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "Pregnant faculty members in the rank of Lecturer or Senior Lecturer who have been continuously eligible for benefits for at least the preceding 24 months may request a maternity leave."
+    },
+    {
+     "field": "duration",
+     "rule": "R11b",
+     "answer": "1 course, exact; not converted to weeks",
+     "quote": "This leave entails a one-course reduction of the faculty member’s teaching load without loss of compensation."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "without loss of compensation",
+     "quote": "This leave entails a one-course reduction of the faculty member’s teaching load without loss of compensation."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave); teaching effect stated as a one-course reduction",
+     "quote": "This leave entails a one-course reduction of the faculty member’s teaching load without loss of compensation."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "24 months continuous benefits eligibility",
+     "quote": "Pregnant faculty members in the rank of Lecturer or Senior Lecturer who have been continuously eligible for benefits for at least the preceding 24 months may request a maternity leave."
+    }
+   ]
+  },
+  {
+   "component_id": "dartmouth_college_c4",
+   "institution_label": "Medical Leave",
+   "description": "Disabled faculty receive paid leave, arranged by the Dean of Faculty Office, until long-term disability may begin after six months; the leave itself (U6).",
+   "mechanism": "unpaid_leave",
+   "mechanism_note": "U6: the text grants leave ('provide paid leave and ... cover their commitments') for the faculty member's own disability; the leave is coded here and its pay as c5 within it.",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "'Faculty members who are enrolled in the Dartflex benefit program'",
+   "faculty_scope": "Arts & Sciences (policy published by the Dean of the Faculty of Arts & Sciences)",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "disabled as a result of injury or illness",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "'the Dean of Faculty Office will work with disabled faculty to provide paid leave'; faculty 'should apply to their Associate Dean'. Read as a benefit the text gives, with the application and the cover arrangements decided on approval (V2); flagged because 'will work with' fixes neither a grant nor a length.",
+   "duration": {
+    "value": 6,
+    "units": "month",
+    "qualifier": "up_to"
+   },
+   "duration_note": "Paid leave 'before that time', i.e. before long-term disability may begin 'after six months': up to six months.",
+   "medical_certification": true,
+   "medical_certification_note": "Normally, a statement signed by a medical doctor is required.",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "relief_note": "Leave with the College covering the faculty member's 'commitments to the College'; no duty named, all relieved (R9).",
+   "service_requirement": "enrolled in the Dartflex benefit program",
+   "rule_applied": [
+    "U6",
+    "U5",
+    "R9",
+    "R13",
+    "V2",
+    "V3"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Faculty members who are enrolled in the Dartflex benefit program and are disabled as a result of injury or illness may apply for long-term disability payments after six months."
+    ],
+    "eligible_parent": [
+     "Faculty members who are enrolled in the Dartflex benefit program and are disabled as a result of injury or illness may apply for long-term disability payments after six months."
+    ],
+    "entitlement": [
+     "Before that time, the Dean of Faculty Office will work with disabled faculty to provide paid leave and to cover their commitments to the College.",
+     "Faculty who require such support should apply to their Associate Dean."
+    ],
+    "duration": [
+     "Faculty members who are enrolled in the Dartflex benefit program and are disabled as a result of injury or illness may apply for long-term disability payments after six months.",
+     "Before that time, the Dean of Faculty Office will work with disabled faculty to provide paid leave and to cover their commitments to the College."
+    ],
+    "relief": [
+     "Before that time, the Dean of Faculty Office will work with disabled faculty to provide paid leave and to cover their commitments to the College."
+    ],
+    "service_requirement": [
+     "Faculty members who are enrolled in the Dartflex benefit program and are disabled as a result of injury or illness may apply for long-term disability payments after six months."
+    ],
+    "medical_certification": [
+     "Normally, a statement signed by a medical doctor is required."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "ambiguous: entitlement: 'will work with disabled faculty to provide paid leave' states no fixed grant; coded guaranteed_on_request (V2)",
+    "own_illness_leave"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "U6",
+     "answer": "unpaid_leave",
+     "quote": "Before that time, the Dean of Faculty Office will work with disabled faculty to provide paid leave and to cover their commitments to the College."
+    },
+    {
+     "field": "payer",
+     "rule": "U6",
+     "answer": "none",
+     "quote": "Before that time, the Dean of Faculty Office will work with disabled faculty to provide paid leave and to cover their commitments to the College."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Faculty members who are enrolled in the Dartflex benefit program and are disabled as a result of injury or illness may apply for long-term disability payments after six months."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "V3",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Faculty members who are enrolled in the Dartflex benefit program and are disabled as a result of injury or illness may apply for long-term disability payments after six months."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own illness or disability)",
+     "quote": "Faculty members who are enrolled in the Dartflex benefit program and are disabled as a result of injury or illness may apply for long-term disability payments after six months."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "Before that time, the Dean of Faculty Office will work with disabled faculty to provide paid leave and to cover their commitments to the College."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "up to 6 months (paid leave before LTD may begin after six months)",
+     "quote": "Faculty members who are enrolled in the Dartflex benefit program and are disabled as a result of injury or illness may apply for long-term disability payments after six months."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave)",
+     "quote": "Before that time, the Dean of Faculty Office will work with disabled faculty to provide paid leave and to cover their commitments to the College."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "enrolled in Dartflex",
+     "quote": "Faculty members who are enrolled in the Dartflex benefit program and are disabled as a result of injury or illness may apply for long-term disability payments after six months."
+    }
+   ]
+  },
+  {
+   "component_id": "dartmouth_college_c5",
+   "institution_label": "Medical Leave",
+   "description": "The pay during the faculty medical leave: paid leave for any disability until LTD may begin after six months; pay level not stated.",
+   "mechanism": "generic_sick_or_disability_plan",
+   "mechanism_note": "Pay for disability from any injury or illness, with no childbirth-specific period stated (V1 not met; R2; U6 pay component).",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "'Faculty members who are enrolled in the Dartflex benefit program'",
+   "faculty_scope": "Arts & Sciences (policy published by the Dean of the Faculty of Arts & Sciences)",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "disabled as a result of injury or illness",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "As c4 (V2).",
+   "duration": {
+    "value": 6,
+    "units": "month",
+    "qualifier": "up_to"
+   },
+   "duration_note": "Plan length: up to six months (until LTD). No childbirth period stated (V6).",
+   "pay_fraction": "paid leave",
+   "pay_fraction_note": "No pay level is stated.",
+   "medical_certification": true,
+   "medical_certification_note": "Normally, a statement signed by a medical doctor is required.",
+   "service_requirement": "enrolled in the Dartflex benefit program",
+   "sequence": [
+    {
+     "relation": "within",
+     "component_id": "dartmouth_college_c4",
+     "note": "Pay for the medical leave (U6)."
+    }
+   ],
+   "rule_applied": [
+    "U6",
+    "V1",
+    "R2",
+    "V6",
+    "V2"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Faculty members who are enrolled in the Dartflex benefit program and are disabled as a result of injury or illness may apply for long-term disability payments after six months."
+    ],
+    "eligible_parent": [
+     "Faculty members who are enrolled in the Dartflex benefit program and are disabled as a result of injury or illness may apply for long-term disability payments after six months."
+    ],
+    "entitlement": [
+     "Before that time, the Dean of Faculty Office will work with disabled faculty to provide paid leave and to cover their commitments to the College."
+    ],
+    "mechanism": [
+     "Faculty members who are enrolled in the Dartflex benefit program and are disabled as a result of injury or illness may apply for long-term disability payments after six months."
+    ],
+    "duration": [
+     "Faculty members who are enrolled in the Dartflex benefit program and are disabled as a result of injury or illness may apply for long-term disability payments after six months.",
+     "Before that time, the Dean of Faculty Office will work with disabled faculty to provide paid leave and to cover their commitments to the College."
+    ],
+    "pay_fraction": [
+     "Before that time, the Dean of Faculty Office will work with disabled faculty to provide paid leave and to cover their commitments to the College."
+    ],
+    "sequence": [
+     "Before that time, the Dean of Faculty Office will work with disabled faculty to provide paid leave and to cover their commitments to the College."
+    ],
+    "service_requirement": [
+     "Faculty members who are enrolled in the Dartflex benefit program and are disabled as a result of injury or illness may apply for long-term disability payments after six months."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "ambiguous: entitlement: 'will work with disabled faculty to provide paid leave' states no fixed grant; coded guaranteed_on_request (V2)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "V1",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "Faculty members who are enrolled in the Dartflex benefit program and are disabled as a result of injury or illness may apply for long-term disability payments after six months."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "Before that time, the Dean of Faculty Office will work with disabled faculty to provide paid leave and to cover their commitments to the College."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Faculty members who are enrolled in the Dartflex benefit program and are disabled as a result of injury or illness may apply for long-term disability payments after six months."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "V3",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Faculty members who are enrolled in the Dartflex benefit program and are disabled as a result of injury or illness may apply for long-term disability payments after six months."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent",
+     "quote": "Faculty members who are enrolled in the Dartflex benefit program and are disabled as a result of injury or illness may apply for long-term disability payments after six months."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "Before that time, the Dean of Faculty Office will work with disabled faculty to provide paid leave and to cover their commitments to the College."
+    },
+    {
+     "field": "duration",
+     "rule": "V6",
+     "answer": "up to 6 months (plan's short-term entitlement; no childbirth period)",
+     "quote": "Faculty members who are enrolled in the Dartflex benefit program and are disabled as a result of injury or illness may apply for long-term disability payments after six months."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "paid leave (no level stated)",
+     "quote": "Before that time, the Dean of Faculty Office will work with disabled faculty to provide paid leave and to cover their commitments to the College."
+    },
+    {
+     "field": "sequence",
+     "rule": "U6",
+     "answer": "within c4",
+     "quote": "Before that time, the Dean of Faculty Office will work with disabled faculty to provide paid leave and to cover their commitments to the College."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "enrolled in Dartflex",
+     "quote": "Faculty members who are enrolled in the Dartflex benefit program and are disabled as a result of injury or illness may apply for long-term disability payments after six months."
+    }
+   ]
+  },
+  {
+   "component_id": "dartmouth_college_c6",
+   "institution_label": "LONG TERM DISABILITY",
+   "description": "Long-term disability after six months (26 weeks) of disability: 50% pay replacement provided by Dartmouth at no cost to employees.",
+   "mechanism": "generic_sick_or_disability_plan",
+   "mechanism_note": "Long-term disability plan (schema §2): recorded without duration.",
+   "payer": "employer",
+   "payer_note": "'Dartmouth College provides 50% pay replacement at no cost to employees'; administered by Liberty Life Assurance Company of Boston from 2018-01-01.",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Faculty page: 'Faculty members who are enrolled in the Dartflex benefit program'; HR page: employees (faculty not named among those ineligible)",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "disabled as a result of injury or illness",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "'may apply for long-term disability payments'; 'you may be eligible for benefits' (eligibility determined on application).",
+   "pay_fraction": "50% pay replacement",
+   "pay_fraction_pct": 50,
+   "time_window": "after six months; if your disability continues beyond 26 weeks",
+   "service_requirement": "enrolled in the Dartflex benefit program",
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "dartmouth_college_c5",
+     "note": "LTD 'after six months'; the medical-leave pay covers 'before that time'."
+    }
+   ],
+   "rule_applied": [
+    "V6",
+    "V2"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Faculty members who are enrolled in the Dartflex benefit program and are disabled as a result of injury or illness may apply for long-term disability payments after six months."
+    ],
+    "eligible_parent": [
+     "Faculty members who are enrolled in the Dartflex benefit program and are disabled as a result of injury or illness may apply for long-term disability payments after six months."
+    ],
+    "entitlement": [
+     "Faculty members who are enrolled in the Dartflex benefit program and are disabled as a result of injury or illness may apply for long-term disability payments after six months.",
+     "If your disability continues beyond 26 weeks*, you may be eligible for benefits through the long-term disability plan."
+    ],
+    "pay_fraction": [
+     "Dartmouth College provides 50% pay replacement at no cost to employees."
+    ],
+    "sequence": [
+     "Faculty members who are enrolled in the Dartflex benefit program and are disabled as a result of injury or illness may apply for long-term disability payments after six months.",
+     "Before that time, the Dean of Faculty Office will work with disabled faculty to provide paid leave and to cover their commitments to the College."
+    ],
+    "service_requirement": [
+     "Faculty members who are enrolled in the Dartflex benefit program and are disabled as a result of injury or illness may apply for long-term disability payments after six months."
+    ],
+    "time_window": [
+     "Faculty members who are enrolled in the Dartflex benefit program and are disabled as a result of injury or illness may apply for long-term disability payments after six months.",
+     "If your disability continues beyond 26 weeks*, you may be eligible for benefits through the long-term disability plan."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link",
+    "2018_02_hr_disability_leave_policies_page"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "If your disability continues beyond 26 weeks*, you may be eligible for benefits through the long-term disability plan."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "Dartmouth College provides 50% pay replacement at no cost to employees."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Faculty members who are enrolled in the Dartflex benefit program and are disabled as a result of injury or illness may apply for long-term disability payments after six months."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Faculty members who are enrolled in the Dartflex benefit program and are disabled as a result of injury or illness may apply for long-term disability payments after six months."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent",
+     "quote": "Faculty members who are enrolled in the Dartflex benefit program and are disabled as a result of injury or illness may apply for long-term disability payments after six months."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "If your disability continues beyond 26 weeks*, you may be eligible for benefits through the long-term disability plan."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "50% pay replacement",
+     "quote": "Dartmouth College provides 50% pay replacement at no cost to employees."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "consecutive_after c5",
+     "quote": "Before that time, the Dean of Faculty Office will work with disabled faculty to provide paid leave and to cover their commitments to the College."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "enrolled in Dartflex",
+     "quote": "Faculty members who are enrolled in the Dartflex benefit program and are disabled as a result of injury or illness may apply for long-term disability payments after six months."
+    }
+   ]
+  },
+  {
+   "component_id": "dartmouth_college_c7",
+   "institution_label": "",
+   "description": "Optional additional long-term disability coverage the employee buys, raising LTD replacement to 60% or 70%.",
+   "mechanism": "generic_sick_or_disability_plan",
+   "mechanism_note": "Optional buy-up of the long-term disability plan (schema §2; R1d).",
+   "payer": "employee_paid",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "'An employee' (HR page for Dartmouth employees; faculty not named among those ineligible for LTD)",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "'may purchase additional coverage ... during annual open enrollment': the employee elects it.",
+   "pay_fraction": "60% or 70% pay replacement",
+   "time_window": "if your disability continues beyond 26 weeks",
+   "rule_applied": [
+    "R1d",
+    "V2"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "An employee may purchase additional coverage in 10% increments during annual open enrollment to 60% or 70% pay replacement."
+    ],
+    "eligible_parent": [
+     "If your disability continues beyond 26 weeks*, you may be eligible for benefits through the long-term disability plan."
+    ],
+    "entitlement": [
+     "An employee may purchase additional coverage in 10% increments during annual open enrollment to 60% or 70% pay replacement."
+    ],
+    "pay_fraction": [
+     "An employee may purchase additional coverage in 10% increments during annual open enrollment to 60% or 70% pay replacement."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_hr_disability_leave_policies_page"
+   ],
+   "flags": [
+    "summary_only: 2018_02_hr_disability_leave_policies_page"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "An employee may purchase additional coverage in 10% increments during annual open enrollment to 60% or 70% pay replacement."
+    },
+    {
+     "field": "payer",
+     "rule": "R1d",
+     "answer": "employee_paid",
+     "quote": "An employee may purchase additional coverage in 10% increments during annual open enrollment to 60% or 70% pay replacement."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "If your disability continues beyond 26 weeks*, you may be eligible for benefits through the long-term disability plan."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "An employee may purchase additional coverage in 10% increments during annual open enrollment to 60% or 70% pay replacement."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent",
+     "quote": "If your disability continues beyond 26 weeks*, you may be eligible for benefits through the long-term disability plan."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "An employee may purchase additional coverage in 10% increments during annual open enrollment to 60% or 70% pay replacement."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "60% or 70% pay replacement",
+     "quote": "An employee may purchase additional coverage in 10% increments during annual open enrollment to 60% or 70% pay replacement."
+    }
+   ]
+  },
+  {
+   "component_id": "dartmouth_college_c8",
+   "institution_label": "Family and Medical Leave Act",
+   "description": "Federal FMLA: a total of 12 workweeks of job-protected leave in a rolling 12-month period for birth, adoption or foster placement, a family member's or the employee's own serious health condition; maternity leave counts toward it.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "'eligible faculty and Research Associates'",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "Birth of a son or daughter to the employee and in order to care for such son or daughter; Placement of a son or daughter with the employee for adoption or foster care; care for a spouse with a serious health condition",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "entitlement_note": "Statutory entitlement.",
+   "duration": {
+    "value": 12,
+    "units": "workweek",
+    "qualifier": "exact"
+   },
+   "duration_note": "'a total of twelve work weeks' (R13: a total with no qualifying word is exact); the HR page says 'up to 12 weeks'. Rolling 12-month period measured backward.",
+   "service_requirement": "12 months and 1,250 hours over the previous 12 months; worksite with 50 employees within 75 miles",
+   "medical_certification": true,
+   "medical_certification_note": "For a serious health condition the employer may request a medical certification confirming that a serious health condition exists.",
+   "statute_source": "29 U.S.C. 2612(a)(1); eligibility 29 U.S.C. 2611(2)",
+   "statute_verified": true,
+   "sequence": [
+    {
+     "relation": "concurrent_with",
+     "component_id": "dartmouth_college_c1",
+     "note": "S1: 'Maternity leave for tenure-track faculty will count as part of the twelve-week Family and Medical Leave allotment'; FMLA runs alongside from the start of maternity leave; no unpaid remainder beyond the paid term for the birth parent (12 workweeks within maternity + parental)."
+    },
+    {
+     "relation": "concurrent_with",
+     "component_id": "dartmouth_college_c2",
+     "note": "S1: bonding leave qualifies under FMLA ('Birth of a son or daughter ... in order to care for such son or daughter'); for the non-birth parent FMLA runs alongside the parental leave; unpaid remainder about 1 week beyond an 11-week term."
+    }
+   ],
+   "rule_applied": [
+    "U2",
+    "U4",
+    "S1",
+    "R13",
+    "U5",
+    "U8"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "The Family and Medical Leave Act (FMLA) of 1993 provides eligible faculty and Research Associates a total of twelve work weeks of paid and/or unpaid leave during any twelve month period for specific reasons."
+    ],
+    "eligible_parent": [
+     "Birth of a son or daughter to the employee and in order to care for such son or daughter",
+     "Placement of a son or daughter with the employee for adoption or foster care",
+     "Family leave in order to care for a spouse, son, daughter, or parent of the employee if such spouse, son, daughter, or parent has a serious health condition",
+     "A serious health condition that makes the employee unable to perform their job"
+    ],
+    "entitlement": [
+     "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period for one or more of the following:",
+     "If you are an \"eligible\" employee, you are entitled to 12 weeks of leave for certain family and medical reasons during a 12-month period."
+    ],
+    "duration": [
+     "The Family and Medical Leave Act (FMLA) of 1993 provides eligible faculty and Research Associates a total of twelve work weeks of paid and/or unpaid leave during any twelve month period for specific reasons.",
+     "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period for one or more of the following:"
+    ],
+    "service_requirement": [
+     "Employees are eligible to take FMLA leave if they have worked for their employer for at least 12 months, and have worked for at least 1,250 hours over the previous 12 months, and work at a location where at least 50 employees are employed by the employer within 75 miles."
+    ],
+    "sequence": [
+     "Maternity leave for tenure-track faculty will count as part of the twelve-week Family and Medical Leave allotment.",
+     "Pregnancy disability leave or maternity leave for the birth of a child would be considered qualifying FMLA leave for a serious health condition and may be counted in the 12 weeks of leave so long as the employer properly notifies the employee in writing of the designation.",
+     "Birth of a son or daughter to the employee and in order to care for such son or daughter"
+    ],
+    "statute_source": [
+     "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period for one or more of the following:",
+     "Because of the birth of a son or daughter of the employee and in order to care for such son or daughter."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link",
+    "2018_03_hr_fmla_faqs",
+    "2018_02_hr_disability_leave_policies_page"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "The Family and Medical Leave Act (FMLA) of 1993 provides eligible faculty and Research Associates a total of twelve work weeks of paid and/or unpaid leave during any twelve month period for specific reasons."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "No. The FMLA only requires unpaid leave."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Birth of a son or daughter to the employee and in order to care for such son or daughter"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "The Family and Medical Leave Act (FMLA) of 1993 provides eligible faculty and Research Associates a total of twelve work weeks of paid and/or unpaid leave during any twelve month period for specific reasons."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent, non_birth_parent, adoptive, foster (birth, placement, care of a spouse, own condition)",
+     "quote": "Family leave in order to care for a spouse, son, daughter, or parent of the employee if such spouse, son, daughter, or parent has a serious health condition"
+    },
+    {
+     "field": "entitlement",
+     "rule": "U2",
+     "answer": "guaranteed",
+     "quote": "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period for one or more of the following:"
+    },
+    {
+     "field": "duration",
+     "rule": "U2",
+     "answer": "12 workweeks, exact (statute 'a total of 12 workweeks')",
+     "quote": "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period for one or more of the following:"
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "exact: 'a total of twelve work weeks'",
+     "quote": "The Family and Medical Leave Act (FMLA) of 1993 provides eligible faculty and Research Associates a total of twelve work weeks of paid and/or unpaid leave during any twelve month period for specific reasons."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U2",
+     "answer": "12 months and 1,250 hours",
+     "quote": "Employees are eligible to take FMLA leave if they have worked for their employer for at least 12 months, and have worked for at least 1,250 hours over the previous 12 months, and work at a location where at least 50 employees are employed by the employer within 75 miles."
+    },
+    {
+     "field": "sequence",
+     "rule": "S1",
+     "answer": "concurrent_with c1 and c2",
+     "quote": "Maternity leave for tenure-track faculty will count as part of the twelve-week Family and Medical Leave allotment."
+    }
+   ]
+  },
+  {
+   "component_id": "dartmouth_college_c9",
+   "institution_label": "",
+   "description": "FMLA leave after a birth or placement may be taken intermittently or on a reduced leave schedule only if the employer agrees (no agreement needed for the mother's or newborn's serious health condition); counts against the 12 weeks.",
+   "mechanism": "part_time_option",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "'an employee' (FMLA FAQ; FMLA covers 'eligible faculty')",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "When leave is taken after the birth or placement of a child for adoption or foster care",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "entitlement_note": "For bonding leave the reduced schedule needs the employer's agreement; it is a statutory right without agreement for the mother's own serious health condition or the newborn's.",
+   "statute_source": "29 U.S.C. 2612(b)(1)",
+   "statute_verified": true,
+   "rule_applied": [
+    "R3",
+    "U2",
+    "U4",
+    "V2"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "When leave is taken after the birth or placement of a child for adoption or foster care, an employee may take leave intermittently or on a reduced leave schedule only if the employer agrees.",
+     "The Family and Medical Leave Act (FMLA) of 1993 provides eligible faculty and Research Associates a total of twelve work weeks of paid and/or unpaid leave during any twelve month period for specific reasons."
+    ],
+    "eligible_parent": [
+     "When leave is taken after the birth or placement of a child for adoption or foster care, an employee may take leave intermittently or on a reduced leave schedule only if the employer agrees."
+    ],
+    "entitlement": [
+     "When leave is taken after the birth or placement of a child for adoption or foster care, an employee may take leave intermittently or on a reduced leave schedule only if the employer agrees.",
+     "The employer's agreement is not required, however, for leave during which the mother has a serious health condition in connection with the birth of her child or if the newborn child has a serious health condition.",
+     "Leave under subparagraph (A) or (B) of subsection (a)(1) shall not be taken by an employee intermittently or on a reduced leave schedule unless the employee and the employer of the employee agree otherwise."
+    ],
+    "statute_source": [
+     "Leave under subparagraph (A) or (B) of subsection (a)(1) shall not be taken by an employee intermittently or on a reduced leave schedule unless the employee and the employer of the employee agree otherwise."
+    ],
+    "description": [
+     "A reduced leave schedule is a leave schedule that reduces an employee's usual number of working hours per workweek, or hours per workday."
+    ]
+   },
+   "doc_ids": [
+    "2018_03_hr_fmla_faqs"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R3",
+     "answer": "part_time_option",
+     "quote": "A reduced leave schedule is a leave schedule that reduces an employee's usual number of working hours per workweek, or hours per workday."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "When leave is taken after the birth or placement of a child for adoption or foster care, an employee may take leave intermittently or on a reduced leave schedule only if the employer agrees."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "When leave is taken after the birth or placement of a child for adoption or foster care, an employee may take leave intermittently or on a reduced leave schedule only if the employer agrees."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "The Family and Medical Leave Act (FMLA) of 1993 provides eligible faculty and Research Associates a total of twelve work weeks of paid and/or unpaid leave during any twelve month period for specific reasons."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "birth_parent, non_birth_parent, adoptive, foster",
+     "quote": "When leave is taken after the birth or placement of a child for adoption or foster care, an employee may take leave intermittently or on a reduced leave schedule only if the employer agrees."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "When leave is taken after the birth or placement of a child for adoption or foster care, an employee may take leave intermittently or on a reduced leave schedule only if the employer agrees."
+    }
+   ]
+  },
+  {
+   "component_id": "dartmouth_college_c10",
+   "institution_label": "",
+   "description": "An employee may elect to use accrued vacation and/or personal leave to be paid during FMLA leave; Dartmouth does not require it.",
+   "mechanism": "own_accrual",
+   "payer": "own_balance",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "'an employee' (FMLA FAQ). The documents do not say whether faculty accrue vacation or personal leave.",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "an employee",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "'the law permits an employee to elect to use accrued paid leave' (V2: 'may elect').",
+   "pay_fraction": "paid, depending on the availability and use of vacation and/or personal leave accruals",
+   "sequence": [
+    {
+     "relation": "within",
+     "component_id": "dartmouth_college_c8",
+     "note": "Pay substituted for unpaid FMLA leave (S1)."
+    }
+   ],
+   "rule_applied": [
+    "R1",
+    "S1",
+    "V2"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "However, the law permits an employee to elect to use accrued paid leave, such as vacation or sick leave, for some or all of the FMLA leave period."
+    ],
+    "eligible_parent": [
+     "However, the law permits an employee to elect to use accrued paid leave, such as vacation or sick leave, for some or all of the FMLA leave period."
+    ],
+    "entitlement": [
+     "However, the law permits an employee to elect to use accrued paid leave, such as vacation or sick leave, for some or all of the FMLA leave period.",
+     "Dartmouth does not require an employee to use his/her personal leave or vacation time concurrently with FMLA Leave.",
+     "The leave may be unpaid or paid, depending on the availability and use of vacation and/or personal leave accruals."
+    ],
+    "pay_fraction": [
+     "The leave may be unpaid or paid, depending on the availability and use of vacation and/or personal leave accruals."
+    ],
+    "sequence": [
+     "However, the law permits an employee to elect to use accrued paid leave, such as vacation or sick leave, for some or all of the FMLA leave period."
+    ]
+   },
+   "doc_ids": [
+    "2018_03_hr_fmla_faqs"
+   ],
+   "flags": [
+    "summary_only: 2018_03_hr_fmla_faqs"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "own_accrual",
+     "quote": "The leave may be unpaid or paid, depending on the availability and use of vacation and/or personal leave accruals."
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "own_balance",
+     "quote": "The leave may be unpaid or paid, depending on the availability and use of vacation and/or personal leave accruals."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "However, the law permits an employee to elect to use accrued paid leave, such as vacation or sick leave, for some or all of the FMLA leave period."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "However, the law permits an employee to elect to use accrued paid leave, such as vacation or sick leave, for some or all of the FMLA leave period."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "as FMLA",
+     "quote": "However, the law permits an employee to elect to use accrued paid leave, such as vacation or sick leave, for some or all of the FMLA leave period."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "However, the law permits an employee to elect to use accrued paid leave, such as vacation or sick leave, for some or all of the FMLA leave period."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "R1",
+     "answer": "own accruals",
+     "quote": "The leave may be unpaid or paid, depending on the availability and use of vacation and/or personal leave accruals."
+    },
+    {
+     "field": "sequence",
+     "rule": "S1",
+     "answer": "within c8",
+     "quote": "However, the law permits an employee to elect to use accrued paid leave, such as vacation or sick leave, for some or all of the FMLA leave period."
+    }
+   ]
+  },
+  {
+   "component_id": "dartmouth_college_c11",
+   "institution_label": "SHORT TERM DISABILITY (STD)",
+   "description": "Staff short-term disability plan (illness, injury or childbirth): income replacement for up to 26 weeks, 100% for 8 weeks then 60%; faculty are referred to the faculty handbook.",
+   "mechanism": "generic_sick_or_disability_plan",
+   "mechanism_note": "Any disability; childbirth is named among reasons for a claim, with no childbirth period (V1 not met).",
+   "payer": "insurance_plan",
+   "payer_note": "Administered by Liberty Life Assurance Company of Boston from 2018-01-01; funding not stated (M1 default for a disability insurer).",
+   "faculty_group": "staff: Non-Exempt (Non-Union), Exempt, Research Associate B and SEIU employees",
+   "faculty_group_note": "'Benefits are determined by your employment status of Non-Exempt (Non-Union), Exempt and SEIU.' 'Faculty members, please refer to the faculty handbook.'",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "illness, injury, or childbirth",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "Plan benefit on a claim filed with the carrier.",
+   "duration": {
+    "value": 26,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "duration_note": "SEIU: 90 days-1 year of service 2 weeks at 100%; 1-2 years 6 weeks at 100%; 2+ years as exempt (U8: two-year band = 8 weeks at 100% then 60% to 26).",
+   "pay_fraction": "100% for the first eight weeks and 60% for weeks nine through 26",
+   "time_window": "elimination period of five consecutive work days (non-exempt) or 10 work days (exempt and Research Associate B)",
+   "service_requirement": "SEIU: duration depends on continuous years of service (90 days minimum); none stated for non-exempt and exempt",
+   "rule_applied": [
+    "V1",
+    "M1",
+    "U8",
+    "V6"
+   ],
+   "evidence": {
+    "mechanism": [
+     "If you cannot work due to disability, the short-term disability plan can provide income replacement for up to 26 weeks.",
+     "If you need to request a short-term disability leave due to illness, injury, or childbirth, please contact Liberty Life Assurance Company of Boston (Liberty Mutual Group)"
+    ],
+    "faculty_group": [
+     "Benefits are determined by your employment status of Non-Exempt (Non-Union), Exempt and SEIU.",
+     "Faculty members, please refer to the faculty handbook.",
+     "Exempt employees and Research Associate B's have an elimination period of 10 work days."
+    ],
+    "eligible_parent": [
+     "If you need to request a short-term disability leave due to illness, injury, or childbirth, please contact Liberty Life Assurance Company of Boston (Liberty Mutual Group)"
+    ],
+    "entitlement": [
+     "If you cannot work due to disability, the short-term disability plan can provide income replacement for up to 26 weeks."
+    ],
+    "duration": [
+     "If you cannot work due to disability, the short-term disability plan can provide income replacement for up to 26 weeks."
+    ],
+    "pay_fraction": [
+     "The plan replaces salary at 100% for the first eight weeks and 60% for weeks nine through 26."
+    ],
+    "service_requirement": [
+     "Those with two or more years of service receive 100% salary replacement for the first eight weeks and 60% for weeks nine through 26"
+    ]
+   },
+   "doc_ids": [
+    "2018_02_hr_disability_leave_policies_page"
+   ],
+   "flags": [
+    "excludes_main_faculty",
+    "cross_reference_not_saved: Maternity Leave (HR page link under PARENTAL LEAVE)",
+    "cross_reference_not_saved: Paid Paternal Leave (HR page link under PARENTAL LEAVE)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "V1",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "If you cannot work due to disability, the short-term disability plan can provide income replacement for up to 26 weeks."
+    },
+    {
+     "field": "payer",
+     "rule": "M1",
+     "answer": "insurance_plan",
+     "quote": "If you need to request a short-term disability leave due to illness, injury, or childbirth, please contact Liberty Life Assurance Company of Boston (Liberty Mutual Group)"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "If you cannot work due to disability, the short-term disability plan can provide income replacement for up to 26 weeks."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "staff: Non-Exempt (Non-Union), Exempt, Research Associate B and SEIU employees",
+     "quote": "Faculty members, please refer to the faculty handbook."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent",
+     "quote": "If you need to request a short-term disability leave due to illness, injury, or childbirth, please contact Liberty Life Assurance Company of Boston (Liberty Mutual Group)"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "If you cannot work due to disability, the short-term disability plan can provide income replacement for up to 26 weeks."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "up to 26 weeks",
+     "quote": "If you cannot work due to disability, the short-term disability plan can provide income replacement for up to 26 weeks."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "staged: 100% 8 weeks, 60% weeks 9-26",
+     "quote": "The plan replaces salary at 100% for the first eight weeks and 60% for weeks nine through 26."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U8",
+     "answer": "SEIU bands; two-year band as exempt",
+     "quote": "Those with two or more years of service receive 100% salary replacement for the first eight weeks and 60% for weeks nine through 26"
+    }
+   ]
+  },
+  {
+   "component_id": "dartmouth_college_c12",
+   "institution_label": "UNPAID LOA/LOC",
+   "description": "Unpaid Leave of Absence approved by the department, with benefits continued at the employee's full cost; purpose and length not stated.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "HR page for 'Dartmouth employees'; faculty not named otherwise",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "you",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "entitlement_note": "'If your department approves': approval decides whether there is a leave (V2).",
+   "rule_applied": [
+    "U1",
+    "V2"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Information regarding the different disability and leave policies for Dartmouth employees.",
+     "If your department approves an unpaid Leave of Absence (LOA) or Leave Own Charges (LOC) then you must complete and sign the application form below, and return it to the Benefits office prior to starting your leave."
+    ],
+    "eligible_parent": [
+     "If your department approves an unpaid Leave of Absence (LOA) or Leave Own Charges (LOC) then you must complete and sign the application form below, and return it to the Benefits office prior to starting your leave."
+    ],
+    "entitlement": [
+     "If your department approves an unpaid Leave of Absence (LOA) or Leave Own Charges (LOC) then you must complete and sign the application form below, and return it to the Benefits office prior to starting your leave."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_hr_disability_leave_policies_page"
+   ],
+   "flags": [
+    "general_purpose",
+    "summary_only: 2018_02_hr_disability_leave_policies_page"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "If your department approves an unpaid Leave of Absence (LOA) or Leave Own Charges (LOC) then you must complete and sign the application form below, and return it to the Benefits office prior to starting your leave."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "If your department approves an unpaid Leave of Absence (LOA) or Leave Own Charges (LOC) then you must complete and sign the application form below, and return it to the Benefits office prior to starting your leave."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "If your department approves an unpaid Leave of Absence (LOA) or Leave Own Charges (LOC) then you must complete and sign the application form below, and return it to the Benefits office prior to starting your leave."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Information regarding the different disability and leave policies for Dartmouth employees."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "If your department approves an unpaid Leave of Absence (LOA) or Leave Own Charges (LOC) then you must complete and sign the application form below, and return it to the Benefits office prior to starting your leave."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "If your department approves an unpaid Leave of Absence (LOA) or Leave Own Charges (LOC) then you must complete and sign the application form below, and return it to the Benefits office prior to starting your leave."
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "2018_00_link.txt is the Dean of the Faculty 'Faculty Leaves' page.",
+  "Governing document: 2018_00_link, the Dean of the Faculty (Arts & Sciences) 'Faculty Leaves' page, states the tenure-track maternity and parental leaves in entitlement language ('is entitled to') and is read as the faculty leave policy in force (the no-policy coding (`missing`) condition not met, so missing is false). The Handbook of the Faculty of Arts & Sciences, which it names ('contains the policies, regulations and benefits within Arts & Sciences') and to which the HR page refers faculty, is not saved: flagged cross_reference_not_saved on c1 and c2.",
+  "Scope: the policy page belongs to the Dean of the Faculty of Arts & Sciences; the saved documents do not mention an engineering school, so V3 cannot be checked for engineering. faculty_scope records the scope on c1-c5; faculty_group kept as the code.",
+  "Other provisions on the faculty page that are not components (a parent could not use them for the birth): Junior Faculty Fellowships, Senior Faculty Grants, Sabbaticals, Prestigious Awards, Research Leave (RESL), and Leaves of Absence without Compensation (LOC), which are granted 'to enable faculty members to pursue professional activities outside of Dartmouth'. The HR page's unpaid LOA (purpose unstated) is coded as c12, general_purpose.",
+  "HR page: the STD plan is for staff (Non-Exempt, Exempt, SEIU); 'Faculty members, please refer to the faculty handbook' (c11, excludes_main_faculty). Its PARENTAL LEAVE links ('Maternity Leave', 'Paid Paternal Leave') and FMLA forms are not saved.",
+  "Calendar: quarters ('the quarter during or immediately after the birth'; 'faculty members normally teach three out of four terms'), term length not stated: calendar.kind = quarter, and the term length follows R8's order.",
+  "Birth parent chain: maternity leave c1 (1 term, the quarter of or after the birth) -> parental leave c2 (1 term, consecutive_after c1); FMLA c8 12 workweeks alongside from the start of c1 (concurrent_with c1 and c2); separately, medical leave c4 (up to 6 months) with its pay c5 within it, then LTD c6 consecutive_after c5 (no duration); not linked to the maternity chain.",
+  "Non-birth parent chain: parental leave c2 (1 term, primary care-provider) with FMLA c8 alongside from its start (concurrent_with c2); the c2->c1 link is ignored for this role.",
+  "Not determined by the documents: the pay level of the faculty medical leave (c5); whether tenure-track faculty accrue vacation or personal leave (c10); the length of the lecturers' maternity leave in time (c3: one course only); whether the parental leave's primary care-provider condition is assessed against a partner."
+ ],
+ "statutory_floor": {
+  "jurisdiction": "US",
+  "year": "2018",
+  "weeks_birth": 12.0,
+  "weeks_nonbirth": 12.0,
+  "statute": "Family and Medical Leave Act (FMLA) (29 U.S.C. 2611-2612)",
+  "source_doc": "2026_00_us_fmla_29usc2612",
+  "table": "statutory_baseline.csv"
+ }
+}

@@ -1,0 +1,1678 @@
+{
+ "institution": "University of Texas, Austin",
+ "slug": "university_of_texas_austin",
+ "country": "US",
+ "model": "claude-opus-5-5",
+ "codebook_version": "1.25",
+ "schema_version": "1.25",
+ "reference_date": "2018-04-17",
+ "calendar": {
+  "term_weeks": null,
+  "note": "HOP 2-2240 names 'one long session semester (i.e., fall or spring)': semester calendar, length not stated, so the semester default 16 (R8).",
+  "kind": "semester"
+ },
+ "documents": [
+  {
+   "doc_id": "2018_00_link",
+   "title": "HOP 5-4330 Parental Leave (November 1, 2001; 2019 capture)",
+   "url": "https://policies.utexas.edu/policies/parental-leave",
+   "retrieved": "2026-10-24"
+  },
+  {
+   "doc_id": "2018_01_note",
+   "title": "HOP 2-2240 Modified Instructional Duties (July 6, 2005; 2019 capture)",
+   "url": "https://policies.utexas.edu/policies/modified-instructional-duties",
+   "retrieved": "2026-10-24"
+  },
+  {
+   "doc_id": "2018_02_hop_2-2210_faculty_leaves",
+   "title": "HOP 2-2210 Faculty Leaves and Special Academic Assignments (September 1, 1997; 2019 capture)",
+   "url": "https://policies.utexas.edu/policies/faculty-leaves-and-special-academic-assignments",
+   "retrieved": "2026-10-24"
+  },
+  {
+   "doc_id": "2018_03_hop_extension_probationary_period",
+   "title": "HOP 2-2020 Extension of the Tenure Track Probationary Period (September 1, 1997; 2019 capture)",
+   "url": "https://policies.utexas.edu/policies/extension-tenure-track-probationary-period",
+   "retrieved": "2026-10-24"
+  },
+  {
+   "doc_id": "2018_04_hop_family_medical_leave",
+   "title": "HOP 5-4310 Family and Medical Leave (November 1, 2001; 2019 capture)",
+   "url": "https://policies.utexas.edu/policies/family-and-medical-leave",
+   "retrieved": "2026-10-24"
+  },
+  {
+   "doc_id": "2018_05_hop_sick_leave",
+   "title": "HOP 5-4210 Sick Leave (September 28, 2003; 2019 capture)",
+   "url": "https://policies.utexas.edu/policies/sick-leave",
+   "retrieved": "2026-10-24"
+  },
+  {
+   "doc_id": "2018_06_hop_leave_without_pay",
+   "title": "HOP 5-4610 Leave of Absence Without Pay (November 1, 2001; 2019 capture)",
+   "url": "https://policies.utexas.edu/policies/leave-absence-without-pay",
+   "retrieved": "2026-10-24"
+  },
+  {
+   "doc_id": "2018_07_provost_leave_related_policies",
+   "title": "Provost, Leaves & Related Policies (summary; capture 2017-04-24)",
+   "url": "http://provost.utexas.edu:80/faculty-affairs/leave-related-policies",
+   "retrieved": "2026-10-24"
+  },
+  {
+   "doc_id": "2018_08_provost_life_and_work",
+   "title": "Provost, Life & Work (summary; capture 2017-08-01)",
+   "url": "http://provost.utexas.edu/faculty-affairs/life-and-work",
+   "retrieved": "2026-10-24"
+  },
+  {
+   "doc_id": "2018_09_hr_fmla_page",
+   "title": "HR, Family and Medical Leave Act page (summary; last modified March 27, 2017)",
+   "url": "http://hr.utexas.edu/current/leave/fmla.html",
+   "retrieved": "2026-10-24"
+  },
+  {
+   "doc_id": "2018_10_regents_rule_30201_leaves",
+   "title": "UT System Regents' Rule 30201 Leave Policies (last amended Mar 6, 2017; capture 2017-07-20)",
+   "url": "https://utsystem.edu/board-of-regents/rules/30201-leave-policies",
+   "retrieved": "2026-10-24"
+  },
+  {
+   "doc_id": "2018_11_regents_rule_31007_tenure",
+   "title": "UT System Regents' Rule 31007 Tenure (last amended Feb 10, 2016; capture 2017-07-20)",
+   "url": "https://utsystem.edu/board-of-regents/rules/31007-tenure",
+   "retrieved": "2026-10-24"
+  },
+  {
+   "doc_id": "2026_00_us_fmla_29usc2612",
+   "title": "29 U.S.C. 2612 (FMLA leave requirement), saved statute",
+   "url": "https://www.law.cornell.edu/uscode/text/29/2612",
+   "retrieved": "2026-10-19"
+  },
+  {
+   "doc_id": "2026_01_us_fmla_29usc2611_definitions",
+   "title": "29 U.S.C. 2611 (FMLA definitions), saved statute",
+   "url": "https://www.law.cornell.edu/uscode/text/29/2611",
+   "retrieved": "2026-10-19"
+  }
+ ],
+ "missing": false,
+ "scope_accounting": {
+  "C1": {
+   "components": [
+    "university_of_texas_austin_c1"
+   ]
+  },
+  "C2": {
+   "components": [
+    "university_of_texas_austin_c6"
+   ]
+  },
+  "C3": {
+   "components": [
+    "university_of_texas_austin_c2",
+    "university_of_texas_austin_c3"
+   ]
+  },
+  "C4": {
+   "components": [
+    "university_of_texas_austin_c1"
+   ],
+   "not_components": [
+    {
+     "statute": "Texas Government Code Section 661.913 (state parental leave; Regents' Rule 30201 Sec. 6, HOP 5-4330)",
+     "reason": "U8: applies only to employees not eligible for FMLA; the member described is FMLA-eligible; recorded in the note of c1. Statute not saved."
+    },
+    {
+     "statute": "Texas Government Code Section 661.912 (cited as a source of HOP 5-4310)",
+     "reason": "The state's provision underlying the FMLA policy; the leave is coded as c1 from HOP 5-4310 and the saved FMLA text. Statute not saved."
+    },
+    {
+     "statute": "Texas Government Code 661.201-661.206, 661.033-661.034 (sick leave)",
+     "reason": "Source of HOP 5-4210 sick leave, coded as c2 (own accrual) from the HOP; statute not saved."
+    },
+    {
+     "statute": "Texas Government Code Section 661.909 (leave without pay); Sections 659.016(e), 659.085",
+     "reason": "Sources of the leave-without-pay policies (c4 from HOP 2-2210 and Regents' Rule 30201 Sec. 3; c5 staff policy); general-purpose leave, not a parental statute (U4)."
+    },
+    {
+     "statute": "FMLA servicemember family leave, qualifying exigency and military caregiver leave (29 U.S.C. 2601 et seq.; Regents' Rule 30201 Sec. 13)",
+     "reason": "Other sections of the Act, unrelated to becoming a parent (U4)."
+    },
+    {
+     "statute": "Texas Education Code Section 51.101 (faculty development leave)",
+     "reason": "Development leave for professional purposes; not a leave a parent could take for a birth (U4)."
+    },
+    {
+     "statute": "Texas Government Code Section 661.911 (administrative leave)",
+     "reason": "Reward for performance; unrelated to becoming a parent (U4)."
+    },
+    {
+     "statute": "Texas Government Code Sections 431.005, 431.0825, 659.023, 661.904, 661.9041; USERRA (38 U.S.C.); 10 U.S.C. Sec. 101; 32 U.S.C. Sec. 101",
+     "reason": "Military leave and pay; unrelated to becoming a parent (U4)."
+    },
+    {
+     "statute": "Texas Government Code Sections 661.916, 661.917",
+     "reason": "Organ, bone marrow and blood donor leave; unrelated to becoming a parent (U4)."
+    },
+    {
+     "statute": "Fair Labor Standards Act of 1938 (29 U.S.C. 201)",
+     "reason": "Wage-and-hour law (compensatory time); not a leave for parents (U4)."
+    },
+    {
+     "statute": "Texas Education Code Section 65.32",
+     "reason": "Removal of officers; unrelated (U4)."
+    },
+    {
+     "statute": "General Appropriations Act (Texas)",
+     "reason": "Cited for sick leave certification and the definition of immediate family; terms carried by c2 and c3 (U4)."
+    },
+    {
+     "statute": "Americans with Disabilities Act (ADA Coordinator, HR FMLA page)",
+     "reason": "Disability accommodation statute; not a component (U4, checklist C9)."
+    },
+    {
+     "statute": "Workers' Compensation (HOP 5-4310, HR FMLA page)",
+     "reason": "On-the-job injury benefits; unrelated to becoming a parent (U4)."
+    }
+   ]
+  },
+  "C5": {
+   "components": [
+    "university_of_texas_austin_c1",
+    "university_of_texas_austin_c2"
+   ]
+  },
+  "C6": {
+   "components": [
+    "university_of_texas_austin_c4",
+    "university_of_texas_austin_c5"
+   ]
+  },
+  "C7": {
+   "components": [
+    "university_of_texas_austin_c7",
+    "university_of_texas_austin_c8",
+    "university_of_texas_austin_c9"
+   ]
+  },
+  "C8": {
+   "absent": {
+    "documents": [
+     "2018_00_link",
+     "2018_01_note",
+     "2018_02_hop_2-2210_faculty_leaves",
+     "2018_03_hop_extension_probationary_period",
+     "2018_04_hop_family_medical_leave",
+     "2018_05_hop_sick_leave",
+     "2018_06_hop_leave_without_pay",
+     "2018_07_provost_leave_related_policies",
+     "2018_08_provost_life_and_work",
+     "2018_09_hr_fmla_page",
+     "2018_10_regents_rule_30201_leaves",
+     "2018_11_regents_rule_31007_tenure"
+    ],
+    "terms": [
+     "part-time",
+     "part time",
+     "reduced appointment",
+     "reduced schedule",
+     "phased",
+     "partial leave"
+    ]
+   }
+  },
+  "C9": {
+   "absent": {
+    "documents": [
+     "2018_00_link",
+     "2018_01_note",
+     "2018_02_hop_2-2210_faculty_leaves",
+     "2018_03_hop_extension_probationary_period",
+     "2018_04_hop_family_medical_leave",
+     "2018_05_hop_sick_leave",
+     "2018_06_hop_leave_without_pay",
+     "2018_07_provost_leave_related_policies",
+     "2018_08_provost_life_and_work",
+     "2018_09_hr_fmla_page",
+     "2018_10_regents_rule_30201_leaves",
+     "2018_11_regents_rule_31007_tenure"
+    ],
+    "terms": [
+     "accommodation",
+     "pregnancy",
+     "transfer",
+     "hazard",
+     "light duty",
+     "discriminat"
+    ]
+   }
+  },
+  "C10": {
+   "absent": {
+    "documents": [
+     "2018_00_link",
+     "2018_01_note",
+     "2018_02_hop_2-2210_faculty_leaves",
+     "2018_03_hop_extension_probationary_period",
+     "2018_04_hop_family_medical_leave",
+     "2018_05_hop_sick_leave",
+     "2018_06_hop_leave_without_pay",
+     "2018_07_provost_leave_related_policies",
+     "2018_08_provost_life_and_work",
+     "2018_09_hr_fmla_page",
+     "2018_10_regents_rule_30201_leaves",
+     "2018_11_regents_rule_31007_tenure"
+    ],
+    "terms": [
+     "first days",
+     "regular work time",
+     "paid FMLA",
+     "with pay",
+     "without deduction"
+    ]
+   }
+  }
+ },
+ "passage_dispositions": {
+  "2018_00_link#001": {
+   "used_in": [
+    "university_of_texas_austin_c1"
+   ]
+  },
+  "2018_01_note#001": {
+   "used_in": [
+    "university_of_texas_austin_c6"
+   ]
+  },
+  "2018_01_note#002": {
+   "used_in": [
+    "university_of_texas_austin_c6"
+   ]
+  },
+  "2018_02_hop_2-2210_faculty_leaves#001": {
+   "used_in": [
+    "university_of_texas_austin_c4"
+   ]
+  },
+  "2018_02_hop_2-2210_faculty_leaves#002": {
+   "used_in": [
+    "university_of_texas_austin_c4",
+    "university_of_texas_austin_c9"
+   ]
+  },
+  "2018_02_hop_2-2210_faculty_leaves#003": {
+   "not_relevant": "leave from the instructional budget (research appointments) and special assignments counted toward probation; not parental provisions"
+  },
+  "2018_03_hop_extension_probationary_period#001": {
+   "used_in": [
+    "university_of_texas_austin_c7"
+   ]
+  },
+  "2018_03_hop_extension_probationary_period#002": {
+   "used_in": [
+    "university_of_texas_austin_c7"
+   ]
+  },
+  "2018_04_hop_family_medical_leave#001": {
+   "used_in": [
+    "university_of_texas_austin_c1",
+    "university_of_texas_austin_c2"
+   ]
+  },
+  "2018_04_hop_family_medical_leave#002": {
+   "used_in": [
+    "university_of_texas_austin_c1"
+   ]
+  },
+  "2018_05_hop_sick_leave#001": {
+   "used_in": [
+    "university_of_texas_austin_c2",
+    "university_of_texas_austin_c3"
+   ]
+  },
+  "2018_06_hop_leave_without_pay#001": {
+   "used_in": [
+    "university_of_texas_austin_c5"
+   ]
+  },
+  "2018_06_hop_leave_without_pay#002": {
+   "used_in": [
+    "university_of_texas_austin_c5"
+   ]
+  },
+  "2018_07_provost_leave_related_policies#001": {
+   "used_in": [
+    "university_of_texas_austin_c1",
+    "university_of_texas_austin_c2",
+    "university_of_texas_austin_c3",
+    "university_of_texas_austin_c4",
+    "university_of_texas_austin_c7",
+    "university_of_texas_austin_c8",
+    "university_of_texas_austin_c6"
+   ]
+  },
+  "2018_07_provost_leave_related_policies#002": {
+   "used_in": [
+    "university_of_texas_austin_c6"
+   ]
+  },
+  "2018_08_provost_life_and_work#001": {
+   "used_in": [
+    "university_of_texas_austin_c1",
+    "university_of_texas_austin_c6",
+    "university_of_texas_austin_c7"
+   ]
+  },
+  "2018_09_hr_fmla_page#001": {
+   "used_in": [
+    "university_of_texas_austin_c1"
+   ]
+  },
+  "2018_09_hr_fmla_page#002": {
+   "used_in": [
+    "university_of_texas_austin_c1",
+    "university_of_texas_austin_c2"
+   ]
+  },
+  "2018_09_hr_fmla_page#003": {
+   "not_relevant": "manager responsibilities for notifying Leave Management; no provision"
+  },
+  "2018_10_regents_rule_30201_leaves#001": {
+   "used_in": [
+    "university_of_texas_austin_c1"
+   ]
+  },
+  "2018_10_regents_rule_30201_leaves#002": {
+   "used_in": [
+    "university_of_texas_austin_c4",
+    "university_of_texas_austin_c1"
+   ]
+  },
+  "2018_10_regents_rule_30201_leaves#003": {
+   "used_in": [
+    "university_of_texas_austin_c1",
+    "university_of_texas_austin_c4"
+   ]
+  },
+  "2018_11_regents_rule_31007_tenure#001": {
+   "used_in": [
+    "university_of_texas_austin_c7",
+    "university_of_texas_austin_c9"
+   ]
+  }
+ },
+ "mechanism_slots": {
+  "employer_paid_leave": {
+   "absent": "No employer-paid parental or FMLA-event leave in any saved document (searched all 12 usable files for 'paid', 'with pay', 'salary', 'parental', 'maternity')."
+  },
+  "employer_childbirth_benefit": {
+   "absent": "No dedicated paid childbirth benefit; the childbirth period on the HR FMLA page is paid only from the employee's sick leave balance (c2, R1b). Searched all files for 'maternity', 'childbirth', 'birth', 'pregnancy'."
+  },
+  "generic_sick_or_disability_plan": {
+   "absent": "No employer sick or disability plan with stated terms; the HR FMLA page mentions long-term disability insurance only as a payroll deduction, with no terms. Searched all files for 'disability', 'short-term', 'salary continuation'."
+  },
+  "own_accrual": {
+   "components": [
+    "university_of_texas_austin_c2"
+   ]
+  },
+  "donated_leave": {
+   "components": [
+    "university_of_texas_austin_c3"
+   ]
+  },
+  "government_benefit": {
+   "absent": "No state paid-leave programme in Texas documents; searched all files for 'benefit', 'insurance', 'state program', 'paid family leave'."
+  },
+  "employer_topup": {
+   "absent": "No top-up; searched all files for 'top-up', 'supplement', 'difference'."
+  },
+  "modified_duties": {
+   "components": [
+    "university_of_texas_austin_c6"
+   ]
+  },
+  "unpaid_leave": {
+   "components": [
+    "university_of_texas_austin_c1",
+    "university_of_texas_austin_c4",
+    "university_of_texas_austin_c5"
+   ]
+  },
+  "tenure_clock": {
+   "components": [
+    "university_of_texas_austin_c7",
+    "university_of_texas_austin_c8",
+    "university_of_texas_austin_c9"
+   ]
+  },
+  "part_time_option": {
+   "absent": "No part-time or reduced appointment option for parents; partial leave without pay is part of c4; FMLA reduced-schedule leave only when medically necessary. Searched all files for 'part-time', 'reduced', 'partial'."
+  },
+  "other": {
+   "absent": "No pregnancy accommodation, hazard or equal-treatment provision with its own terms; the Provost page's statement that pregnancy disabilities are treated like other temporary disabilities describes sick-leave use (c2). Searched all files for 'accommodation', 'pregnancy', 'transfer'."
+  }
+ },
+ "baseline_accounting": {
+  "Family and Medical Leave Act (FMLA)": {
+   "components": [
+    "university_of_texas_austin_c1"
+   ]
+  },
+  "Parental leave for state employees not eligible for FMLA": {
+   "not_applicable": "U8: Tex. Gov't Code 661.913 parental leave (HOP 5-4330, Regents' Rule 30201 Sec. 6) applies to employees not eligible for FML; the member described is FML-eligible; recorded in c1's duration_note"
+  },
+  "Federal Employee Paid Leave Act (paid parental leave for federal civilian employees)": {
+   "not_applicable": "covers federal civilian employees only; the university is a state employer"
+  }
+ },
+ "leave_limits": [],
+ "components": [
+  {
+   "component_id": "university_of_texas_austin_c1",
+   "institution_label": "Family and Medical Leave",
+   "description": "Unpaid, job-protected family and medical leave of up to 12 weeks in 12 months under the FMLA (HOP 5-4310; Regents' Rule 30201 Sec. 12), for the birth and care of a child, adoption or foster placement, the employee's own serious health condition, or care of a spouse; accrued paid leave must be used concurrently.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Employees who have been employed by the state of Texas for a total of at least twelve (12) months ... (HOP 5-4310 applies to employees; Provost page: 'As university employees, faculty members may be eligible')",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "the birth and care of the employee's child; the employee's serious health condition; care of the employee's spouse",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 12,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "duration_note": "HOP 5-4310 'up to twelve (12) weeks ... during a period of twelve (12) months'; the statute: 'a total of 12 workweeks of leave during any 12-month period' (29 U.S.C. 2612(a)(1)). Military caregiver leave (26 weeks) is an FMLA provision not related to a birth. U8: HOP 5-4330 Parental Leave (2018_00; Regents' Rule 30201 Sec. 6; Texas Government Code 661.913) gives up to 12 weeks of unpaid parental leave, beginning at the birth or placement, to employees who are not eligible for FML (faculty appointed at least 50% for at least 4 1/2 months); accrued annual and sick leave must be used, then leave without pay; time on it counts toward FML once the employee becomes eligible. The Provost page adds that where both parents are university employees their combined parental leave entitlement is 12 weeks. The member described (two years of service) is FML-eligible, so this path is recorded here, not as a component.",
+   "service_requirement": "12 months of State of Texas employment and 1,250 hours worked in the 12 months before the leave",
+   "time_window": "within twelve (12) months of the birth or placement of the child",
+   "notice": "at least thirty (30) calendar days when foreseeable; otherwise within two business days of learning of the need",
+   "medical_certification": true,
+   "medical_certification_note": "Certification of Health Care Provider for a serious health condition (the employee's own or a family member's); return-to-work certification after leave for the employee's own condition",
+   "statute_source": "29 U.S.C. 2612(a)(1)(A)-(D); eligibility 29 U.S.C. 2611(2)",
+   "statute_verified": true,
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "relief_note": "A leave of absence; no relief stated (R9).",
+   "rule_applied": [
+    "U2",
+    "U4",
+    "U5",
+    "U8",
+    "S1",
+    "R9",
+    "R13"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Employees who have been employed by the state of Texas for a total of at least twelve (12) months, and have worked at least 1,250 hours during the twelve-month period prior to the commencement of the requested leave, are covered by the Family and Medical Leave Act.",
+     "As university employees, faculty members may be eligible for leave under the provisions of the Family and Medical Leave Act (FMLA) of 1993."
+    ],
+    "eligible_parent": [
+     "The birth and care of the employee's child,",
+     "The employee's serious health condition,",
+     "The care of the employee's spouse, child, or parent with a serious health condition.",
+     "The placement of a child for adoption or foster care with the employee, or"
+    ],
+    "entitlement": [
+     "Eligible employees are entitled to take up to twelve (12) weeks of family and medical leave during a period of twelve (12) months.",
+     "Any employee may request and receive a leave of absence without pay for up to 12 weeks per year for family and medical reasons specified by the Family and Medical Leave Act of 1993"
+    ],
+    "duration": [
+     "Eligible employees are entitled to take up to twelve (12) weeks of family and medical leave during a period of twelve (12) months.",
+     "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period"
+    ],
+    "service_requirement": [
+     "Employees who have been employed by the state of Texas for a total of at least twelve (12) months, and have worked at least 1,250 hours during the twelve-month period prior to the commencement of the requested leave, are covered by the Family and Medical Leave Act."
+    ],
+    "time_window": [
+     "An employee is entitled up to twelve (12) weeks of leave for the birth or placement of a child. The twelve (12) weeks must be taken within twelve (12) months of the birth or placement of the child."
+    ],
+    "statute_source": [
+     "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period",
+     "for at least 1,250 hours of service with such employer during the previous 12-month period."
+    ],
+    "notice": [
+     "Employees shall give at least thirty (30) calendar days of advance notice, when foreseeable, to their supervisor of the need to take family and medical leave."
+    ],
+    "medical_certification": [
+     "An employee requesting family and medical leave must submit the Certification of Health Care Provider form to Human Resources within fifteen (15) calendar days of receipt of the form, absent extenuating circumstances."
+    ]
+   },
+   "doc_ids": [
+    "2018_04_hop_family_medical_leave",
+    "2018_07_provost_leave_related_policies",
+    "2018_08_provost_life_and_work",
+    "2018_09_hr_fmla_page",
+    "2018_10_regents_rule_30201_leaves",
+    "2026_00_us_fmla_29usc2612",
+    "2026_01_us_fmla_29usc2611_definitions"
+   ],
+   "flags": [
+    "cross_reference_not_saved: Texas Government Code Section 661.912 (cited as a source of HOP 5-4310)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "U4",
+     "answer": "unpaid_leave",
+     "quote": "The University of Texas at Austin provides up to twelve (12) weeks of unpaid family and medical leave during a period of twelve (12) months in accordance with the Family and Medical Leave Act (FMLA) of 1993."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "The University of Texas at Austin provides up to twelve (12) weeks of unpaid family and medical leave during a period of twelve (12) months in accordance with the Family and Medical Leave Act (FMLA) of 1993."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "As university employees, faculty members may be eligible for leave under the provisions of the Family and Medical Leave Act (FMLA) of 1993."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent, non_birth_parent, adoptive, foster: birth and care of a child for either parent; own serious health condition (birth parent); care of a spouse (non-birth parent)",
+     "quote": "The birth and care of the employee's child,"
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "Eligible employees are entitled to take up to twelve (12) weeks of family and medical leave during a period of twelve (12) months."
+    },
+    {
+     "field": "duration",
+     "rule": "U2",
+     "answer": "12 weeks up_to, as the HOP states; the statute's 12 workweeks confirms the length",
+     "quote": "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U2",
+     "answer": "12 months and 1,250 hours",
+     "quote": "Employees who have been employed by the state of Texas for a total of at least twelve (12) months, and have worked at least 1,250 hours during the twelve-month period prior to the commencement of the requested leave, are covered by the Family and Medical Leave Act."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "The birth and care of the employee's child,"
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave, relief not stated)",
+     "quote": "The University of Texas at Austin provides up to twelve (12) weeks of unpaid family and medical leave during a period of twelve (12) months in accordance with the Family and Medical Leave Act (FMLA) of 1993."
+    },
+    {
+     "field": "duration",
+     "rule": "U8",
+     "answer": "HOP 5-4330 parental leave for FML-ineligible employees recorded in this component's note, not as a component",
+     "quote": "The University of Texas at Austin provides up to twelve (12) weeks of unpaid parental leave for those employees who are ineligible for family and medical leave coverage for the birth of a natural child or for the adoption or foster care placement of children under three (3) years of age."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_texas_austin_c2",
+   "institution_label": "Sick Leave",
+   "description": "The employee's own accrued paid sick leave (8 hours per month for full-time employees, carried forward), usable for the employee's confinement due to pregnancy or childbirth recovery with certification, or to care for an ill immediate family member (including a spouse recovering from childbirth); must be used during FML.",
+   "mechanism": "own_accrual",
+   "mechanism_note": "Paid only from the employee's accrued balance (R1). The HR page's usual childbirth period (6 or 8 weeks) is a period of using the balance, so the payer stays own_balance (R1b) and the period counts 0 paid weeks; it is not a leave of absence (U6: an accrued balance is pay alone).",
+   "payer": "own_balance",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "any employee ... appointed to work at least twenty (20) hours per week ...; faculty must be appointed for at least fifty percent (50%) time for at least four and one-half (4 1/2) continuous months",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent"
+   ],
+   "eligible_parent_wording": "an employee ... confinement due to pregnancy; care for an immediate family member who is actually ill because of ... confinement due to pregnancy; (Provost page) the father of a child ... to care for his spouse while she is recovering from labor and delivery",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "V2: 'Sick leave may be taken when ...' gives the employee the use of the balance; the supervisor's approval verifies the use and the certification.",
+   "duration": {
+    "value": 6,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "duration_max": {
+    "value": 8,
+    "units": "week"
+   },
+   "duration_variants": {
+    "vaginal": "up to 6 weeks",
+    "c_section": "up to 8 weeks",
+    "serious complications": "the time needed to recover from the incapacity"
+   },
+   "duration_note": "The usual childbirth period comes from the HR FMLA page (a summary); the governing HOP 5-4210 limits use to the certified incapacity and to the accrued balance (8 hours per month; cannot be used before it accrues). Each length is 'up to', so qualifier up_to (R13b).",
+   "pay_fraction": "with pay",
+   "service_requirement": "faculty appointed at least 50% time for at least 4 1/2 continuous months; usable only once accrued (8 hours per month)",
+   "medical_certification": true,
+   "medical_certification_note": "licensed practitioner's certification that the impairment causes the employee to be unable to work (confinement due to pregnancy); certification for absences of more than three work days",
+   "sequence": [
+    {
+     "relation": "within",
+     "component_id": "university_of_texas_austin_c1",
+     "note": "S1: accrued sick leave is pay applied to the FML leave ('required to utilize all accumulated ... sick leave ... when taking leave under the Act'); not usable once the birth parent has recovered."
+    }
+   ],
+   "rule_applied": [
+    "R1",
+    "R1b",
+    "U5",
+    "U6",
+    "V2",
+    "R13b",
+    "S1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "For purposes of this policy, faculty must be appointed for at least fifty percent (50%) time for at least four and one-half (4 1/2) continuous months."
+    ],
+    "eligible_parent": [
+     "Employee's Medical Condition. Sick leave may be taken when an employee is prevented from performing duties because of sickness, injury, or confinement due to pregnancy.",
+     "Care of Immediate Family. Sick leave may be taken when an employee needs to care for an immediate family member who is actually ill because of sickness, injury, or confinement due to pregnancy.",
+     "Under parental leave provisions the father of a child may use sick leave accruals in conjunction with the child’s birth only if the child is actually ill or to care for his spouse while she is recovering from labor and delivery."
+    ],
+    "entitlement": [
+     "Employee's Medical Condition. Sick leave may be taken when an employee is prevented from performing duties because of sickness, injury, or confinement due to pregnancy."
+    ],
+    "duration": [
+     "Usually, what this means is that you may use sick leave after the birth of a baby for up to six weeks for vaginal delivery or up to eight weeks for cesarean delivery.",
+     "The employee seeking to use sick leave to cover the impairment must provide a licensed practitioner's certification that the impairment causes the employee to be unable to work. Sick leave may not be used in conjunction with parental leave or family and medical leave once an employee has recovered from temporary impairment related to pregnancy or confinement."
+    ],
+    "pay_fraction": [
+     "Sick leave with pay may be taken when sickness, injury, or confinement due to pregnancy prevent the employee’s performance of duty",
+     "The University of Texas at Austin provides paid sick leave to employees in accordance with state law."
+    ],
+    "service_requirement": [
+     "For purposes of this policy, faculty must be appointed for at least fifty percent (50%) time for at least four and one-half (4 1/2) continuous months.",
+     "Sick leave cannot be used before it accrues.",
+     "Full-time employees will accrue eight (8) hours of sick leave for each month or fraction of a month of employment."
+    ],
+    "sequence": [
+     "Employees with available annual leave, floating holiday, and sick leave are required to utilize all accumulated annual leave, floating holiday, and sick leave, if applicable, when taking leave under the Act."
+    ],
+    "medical_certification": [
+     "The employee seeking to use sick leave to cover the impairment must provide a licensed practitioner's certification that the impairment causes the employee to be unable to work. Sick leave may not be used in conjunction with parental leave or family and medical leave once an employee has recovered from temporary impairment related to pregnancy or confinement."
+    ]
+   },
+   "doc_ids": [
+    "2018_05_hop_sick_leave",
+    "2018_07_provost_leave_related_policies",
+    "2018_09_hr_fmla_page",
+    "2018_04_hop_family_medical_leave"
+   ],
+   "flags": [
+    "cross_reference_not_saved: Texas Government Code 661.201-661.206, 661.033-661.034 (cited as the source of HOP 5-4210)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "own_accrual",
+     "quote": "Full-time employees will accrue eight (8) hours of sick leave for each month or fraction of a month of employment."
+    },
+    {
+     "field": "payer",
+     "rule": "R1b",
+     "answer": "own_balance",
+     "quote": "Usually, what this means is that you may use sick leave after the birth of a baby for up to six weeks for vaginal delivery or up to eight weeks for cesarean delivery."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "For purposes of this policy, faculty must be appointed for at least fifty percent (50%) time for at least four and one-half (4 1/2) continuous months."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own confinement) and non_birth_parent (care of an ill family member)",
+     "quote": "Care of Immediate Family. Sick leave may be taken when an employee needs to care for an immediate family member who is actually ill because of sickness, injury, or confinement due to pregnancy."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "Employee's Medical Condition. Sick leave may be taken when an employee is prevented from performing duties because of sickness, injury, or confinement due to pregnancy."
+    },
+    {
+     "field": "duration",
+     "rule": "R13b",
+     "answer": "6 weeks up_to, max 8 (vaginal / cesarean), from the HR summary page",
+     "quote": "Usually, what this means is that you may use sick leave after the birth of a baby for up to six weeks for vaginal delivery or up to eight weeks for cesarean delivery."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "with pay (from the employee's balance)",
+     "quote": "Sick leave with pay may be taken when sickness, injury, or confinement due to pregnancy prevent the employee’s performance of duty"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "50% for 4 1/2 months; accrued balance only",
+     "quote": "For purposes of this policy, faculty must be appointed for at least fifty percent (50%) time for at least four and one-half (4 1/2) continuous months."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Employee's Medical Condition. Sick leave may be taken when an employee is prevented from performing duties because of sickness, injury, or confinement due to pregnancy."
+    },
+    {
+     "field": "sequence",
+     "rule": "S1",
+     "answer": "within c1 (pay applied to the FML leave)",
+     "quote": "Employees with available annual leave, floating holiday, and sick leave are required to utilize all accumulated annual leave, floating holiday, and sick leave, if applicable, when taking leave under the Act."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_texas_austin_c3",
+   "institution_label": "Sick Leave Pool",
+   "description": "A pool of sick leave contributed by employees, from which an employee who has exhausted accrued sick leave may apply to draw hours for a catastrophic illness, injury or confinement due to pregnancy, or for an immediate family member's catastrophic illness.",
+   "mechanism": "donated_leave",
+   "payer": "own_balance",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Regular employees, including faculty",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent"
+   ],
+   "eligible_parent_wording": "his or her own catastrophic illness or injury or ... the catastrophic illness or injury of a member of his or her immediate family; confinement due to pregnancy ... is catastrophic",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "entitlement_note": "V2: the employee 'may apply ... for permission to draw time'; the pool administrator decides whether hours are granted.",
+   "must_exhaust_first": [
+    "sick"
+   ],
+   "duration_note": "No length stated; the pool's terms are in HOP 5-4220 Sick Leave Pool, which is not saved.",
+   "service_requirement": "none stated (accrued sick leave must be exhausted)",
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "university_of_texas_austin_c2",
+     "note": "available once accrued sick leave is exhausted"
+    }
+   ],
+   "rule_applied": [
+    "R1d",
+    "U5",
+    "V2"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Regular employees, including faculty, are eligible to apply to use time in the sick leave pool if, because of a catastrophic illness or injury, the employee has exhausted all the accrued sick leave to which that employee is otherwise entitled."
+    ],
+    "eligible_parent": [
+     "An eligible employee may apply to the Pool Administrator in Human Resource Services for permission to draw time from the sick leave pool for his or her own catastrophic illness or injury or for the catastrophic illness or injury of a member of his or her immediate family",
+     "If the sickness, injury, or confinement due to pregnancy is catastrophic, the employee may apply for hours from the sick leave pool."
+    ],
+    "entitlement": [
+     "An eligible employee may apply to the Pool Administrator in Human Resource Services for permission to draw time from the sick leave pool for his or her own catastrophic illness or injury or for the catastrophic illness or injury of a member of his or her immediate family"
+    ],
+    "service_requirement": [
+     "Regular employees, including faculty, are eligible to apply to use time in the sick leave pool if, because of a catastrophic illness or injury, the employee has exhausted all the accrued sick leave to which that employee is otherwise entitled."
+    ],
+    "sequence": [
+     "Regular employees, including faculty, are eligible to apply to use time in the sick leave pool if, because of a catastrophic illness or injury, the employee has exhausted all the accrued sick leave to which that employee is otherwise entitled."
+    ],
+    "must_exhaust_first": [
+     "Regular employees, including faculty, are eligible to apply to use time in the sick leave pool if, because of a catastrophic illness or injury, the employee has exhausted all the accrued sick leave to which that employee is otherwise entitled."
+    ]
+   },
+   "doc_ids": [
+    "2018_07_provost_leave_related_policies",
+    "2018_05_hop_sick_leave"
+   ],
+   "flags": [
+    "cross_reference_not_saved: HOP 5-4220 Sick Leave Pool"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "donated_leave",
+     "quote": "Employees, including faculty, may contribute time to the sick leave pool by submitting a Sick Leave Pool Transfer form"
+    },
+    {
+     "field": "payer",
+     "rule": "R1d",
+     "answer": "own_balance",
+     "quote": "Employees, including faculty, may contribute time to the sick leave pool by submitting a Sick Leave Pool Transfer form"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Regular employees, including faculty, are eligible to apply to use time in the sick leave pool if, because of a catastrophic illness or injury, the employee has exhausted all the accrued sick leave to which that employee is otherwise entitled."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own catastrophic condition) and non_birth_parent (family member's)",
+     "quote": "An eligible employee may apply to the Pool Administrator in Human Resource Services for permission to draw time from the sick leave pool for his or her own catastrophic illness or injury or for the catastrophic illness or injury of a member of his or her immediate family"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "An eligible employee may apply to the Pool Administrator in Human Resource Services for permission to draw time from the sick leave pool for his or her own catastrophic illness or injury or for the catastrophic illness or injury of a member of his or her immediate family"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "none stated; sick leave exhausted",
+     "quote": "Regular employees, including faculty, are eligible to apply to use time in the sick leave pool if, because of a catastrophic illness or injury, the employee has exhausted all the accrued sick leave to which that employee is otherwise entitled."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "An eligible employee may apply to the Pool Administrator in Human Resource Services for permission to draw time from the sick leave pool for his or her own catastrophic illness or injury or for the catastrophic illness or injury of a member of his or her immediate family"
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "consecutive_after c2",
+     "quote": "Regular employees, including faculty, are eligible to apply to use time in the sick leave pool if, because of a catastrophic illness or injury, the employee has exhausted all the accrued sick leave to which that employee is otherwise entitled."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_texas_austin_c4",
+   "institution_label": "Leaves Without Pay",
+   "description": "Faculty leave without pay (full or partial) of up to one academic year, requested with a justification and granted on the department's recommendation; parental leave is named as one example of the significant personal reasons for which it may be requested. Available after FML expires (Regents' Rule 30201 Sec. 3.6, 12).",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "faculty at The University of Texas at Austin (HOP 2-2210); any faculty or staff (Regents' Rule 30201 Sec. 3)",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "Faculty members ... significant personal reasons (e.g., parental leave)",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "entitlement_note": "HOP 2-2210 says leaves 'are granted under most circumstances' (V2d wording), but only 'provided the department so recommends' and can staff the classes, the request must justify the leave as in the University's best interests, and Regents' Rule 30201 Sec. 3 says leaves 'may be granted' with the institution's interest 'given first consideration'. Read together (source precedence), the approval decides whether there is a leave: discretionary (V2). Counted in no figure (U1).",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "up_to"
+   },
+   "duration_note": "One academic year, through the end of the fiscal year in which the leave begins; a second consecutive year is granted for health, graduate study or public service; may be full or partial (part of the appointment).",
+   "must_exhaust_first": [
+    "vacation",
+    "sick"
+   ],
+   "service_requirement": "none stated",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "relief_note": "A leave of absence; no relief stated (R9). Partial leave without pay covers part of the appointment.",
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "university_of_texas_austin_c1",
+     "note": "Regents' Rule 30201 Sec. 3.6 and 12: upon expiration of FML an employee may be eligible for leave without pay"
+    }
+   ],
+   "rule_applied": [
+    "U1",
+    "V2",
+    "V2d",
+    "R9",
+    "R13",
+    "R15"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Faculty members may request two types of leave: (1) leave without pay and (2) leave from the instructional budget.",
+     "With the interest of the institution being given first consideration and for good cause, leaves of absence without pay may be granted for a period within the term of appointment of any faculty or staff, subject to the general conditions included herein."
+    ],
+    "eligible_parent": [
+     "When a leave of absence without pay is requested for significant personal reasons (e.g., parental leave) the reason for the leave should be stated on the leave request form."
+    ],
+    "entitlement": [
+     "Leaves without pay for up to one year are granted under most circumstances, provided the department so recommends and can make satisfactory arrangements for staffing any classes the faculty member is scheduled to teach.",
+     "With the interest of the institution being given first consideration and for good cause, leaves of absence without pay may be granted for a period within the term of appointment of any faculty or staff, subject to the general conditions included herein.",
+     "The leave request must include a justification explaining why the leave is in the best interests of the University and how it will increase the teaching effectiveness or scholarly productivity of the individual."
+    ],
+    "duration": [
+     "The maximum leave that can be approved is one academic year, i.e., through the end of the fiscal year in which the leave begins."
+    ],
+    "sequence": [
+     "Upon expiration of Family and Medical Leave pursuant to these Rules and Regulations, an employee may be eligible for a leave of absence under this section."
+    ],
+    "must_exhaust_first": [
+     "all accumulated paid leave entitlement must be exhausted before a leave of absence without pay may be granted, with the additional provision that sick leave must be exhausted only in those cases where the employee is eligible to take sick leave."
+    ],
+    "service_requirement": [
+     "Faculty members may request two types of leave: (1) leave without pay and (2) leave from the instructional budget."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_hop_2-2210_faculty_leaves",
+    "2018_10_regents_rule_30201_leaves",
+    "2018_07_provost_leave_related_policies"
+   ],
+   "flags": [
+    "general_purpose",
+    "ambiguous: entitlement: 'granted under most circumstances' (V2d) is conditioned on the department's recommendation and Regents' Rule 30201's 'may be granted'; coded discretionary"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "A \"leave without pay\" is defined as a period of leave during which the faculty member does not receive compensation from any source of funds administered by the University for either all or part of his or her regular appointment."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Faculty members may request two types of leave: (1) leave without pay and (2) leave from the instructional budget."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "When a leave of absence without pay is requested for significant personal reasons (e.g., parental leave) the reason for the leave should be stated on the leave request form."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Faculty members may request two types of leave: (1) leave without pay and (2) leave from the instructional budget."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent (no role words; any purpose)",
+     "quote": "When a leave of absence without pay is requested for significant personal reasons (e.g., parental leave) the reason for the leave should be stated on the leave request form."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "Leaves without pay for up to one year are granted under most circumstances, provided the department so recommends and can make satisfactory arrangements for staffing any classes the faculty member is scheduled to teach."
+    },
+    {
+     "field": "entitlement",
+     "rule": "source_precedence",
+     "answer": "discretionary",
+     "quote": "With the interest of the institution being given first consideration and for good cause, leaves of absence without pay may be granted for a period within the term of appointment of any faculty or staff, subject to the general conditions included herein."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 year up_to",
+     "quote": "The maximum leave that can be approved is one academic year, i.e., through the end of the fiscal year in which the leave begins."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave)",
+     "quote": "The maximum leave that can be approved is one academic year, i.e., through the end of the fiscal year in which the leave begins."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "consecutive_after c1",
+     "quote": "Upon expiration of Family and Medical Leave pursuant to these Rules and Regulations, an employee may be eligible for a leave of absence under this section."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "none stated",
+     "quote": "Faculty members may request two types of leave: (1) leave without pay and (2) leave from the instructional budget."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_texas_austin_c5",
+   "institution_label": "Leave of Absence Without Pay",
+   "description": "Staff leave of absence without pay of up to 12 months for personal reasons (including family care), professional development or public service; the policy states it does not apply to faculty.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "Classified, and Administrative and Professional employees",
+   "faculty_group_note": "It does not apply to Faculty, whose leaves of absence are addressed in a separate section of the Handbook of Operating Procedures",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "personal reasons ... care for members of an employee's immediate family",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "duration": {
+    "value": 12,
+    "units": "month",
+    "qualifier": "up_to"
+   },
+   "service_requirement": "appointed at least 20 hours per week for at least 4 1/2 months",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "rule_applied": [
+    "U1",
+    "V2",
+    "R9",
+    "R13"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "This policy applies to all Classified, and Administrative and Professional employees appointed to work at least twenty (20) hours per week for a period of at least four and one-half (4 1/2) months. It does not apply to Faculty, whose leaves of absence are addressed in a separate section of the Handbook of Operating Procedures"
+    ],
+    "eligible_parent": [
+     "A leave of absence without pay may be granted for personal reasons, professional development, and public service or other activities that reflect credit on the University and enhance an individual's ability to make subsequent contributions to the University."
+    ],
+    "entitlement": [
+     "A leave of absence may be granted for a period of up to twelve (12) months.",
+     "A leave of absence without pay may be granted for personal reasons, professional development, and public service or other activities that reflect credit on the University and enhance an individual's ability to make subsequent contributions to the University."
+    ],
+    "duration": [
+     "A leave of absence may be granted for a period of up to twelve (12) months."
+    ],
+    "service_requirement": [
+     "This policy applies to all Classified, and Administrative and Professional employees appointed to work at least twenty (20) hours per week for a period of at least four and one-half (4 1/2) months. It does not apply to Faculty, whose leaves of absence are addressed in a separate section of the Handbook of Operating Procedures"
+    ]
+   },
+   "doc_ids": [
+    "2018_06_hop_leave_without_pay"
+   ],
+   "flags": [
+    "general_purpose",
+    "excludes_main_faculty"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "A leave of absence without pay may be granted for personal reasons, professional development, and public service or other activities that reflect credit on the University and enhance an individual's ability to make subsequent contributions to the University."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "A leave of absence without pay may be granted for personal reasons, professional development, and public service or other activities that reflect credit on the University and enhance an individual's ability to make subsequent contributions to the University."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "A leave of absence without pay may be granted for personal reasons, professional development, and public service or other activities that reflect credit on the University and enhance an individual's ability to make subsequent contributions to the University."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "Classified, and Administrative and Professional employees",
+     "quote": "This policy applies to all Classified, and Administrative and Professional employees appointed to work at least twenty (20) hours per week for a period of at least four and one-half (4 1/2) months. It does not apply to Faculty, whose leaves of absence are addressed in a separate section of the Handbook of Operating Procedures"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "A leave of absence without pay may be granted for personal reasons, professional development, and public service or other activities that reflect credit on the University and enhance an individual's ability to make subsequent contributions to the University."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "A leave of absence may be granted for a period of up to twelve (12) months."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "12 months up_to",
+     "quote": "A leave of absence may be granted for a period of up to twelve (12) months."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "20 hours per week for 4 1/2 months",
+     "quote": "This policy applies to all Classified, and Administrative and Professional employees appointed to work at least twenty (20) hours per week for a period of at least four and one-half (4 1/2) months. It does not apply to Faculty, whose leaves of absence are addressed in a separate section of the Handbook of Operating Procedures"
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave)",
+     "quote": "A leave of absence may be granted for a period of up to twelve (12) months."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_texas_austin_c6",
+   "institution_label": "Modified Instructional Duties",
+   "description": "For one long-session semester, classroom teaching is replaced by equivalent academic service (research, course or curriculum development) for a full-time faculty member who is the principal caregiver of a healthy pre-school child or must care for an immediate family member; other duties continue; granted at the Provost's discretion.",
+   "mechanism": "modified_duties",
+   "mechanism_note": "Classroom teaching is relieved for the semester and replaced by other academic work (which may be scholarly research); teaching is not moved to another term, so this is relief, not an R16 rearrangement.",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "all members of the faculty who are appointed full-time on the instructional budget in a long-session semester",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "a principal caregiver of a healthy pre-school child (or children)",
+   "caregiver_condition": "primary",
+   "caregiver_condition_wording": "a principal caregiver of a healthy pre-school child (or children)",
+   "entitlement": "discretionary",
+   "entitlement_note": "V2: faculty 'may apply'; the chair or dean reviews whether the proposal is in the program's best interest and whether instruction can be covered without additional resources, and the Provost's decision is final.",
+   "duration": {
+    "value": 1,
+    "units": "semester",
+    "qualifier": "exact"
+   },
+   "duration_note": "one long session semester (fall or spring)",
+   "service_requirement": "appointed full-time on the instructional budget in a long-session semester",
+   "time_window": "while the child is of pre-school age",
+   "notice": "When possible, the request should be submitted prior to the semester in which the modification is needed",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "continues",
+    "research": "continues",
+    "advising_supervision": "continues",
+    "clinical": "continues"
+   },
+   "relief_note": "Classroom teaching replaced by equivalent academic service (a defined work product, evaluated by the chair or dean); 'all of their other duties' continue. Faculty are not removed from the instructional budget; no pay level is stated.",
+   "rule_applied": [
+    "V2",
+    "R3",
+    "R4",
+    "R4b",
+    "R6",
+    "R16",
+    "U1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "This policy applies to all members of the faculty who are appointed full-time on the instructional budget in a long-session semester."
+    ],
+    "eligible_parent": [
+     "Faculty members who may apply for modified instructional responsibilities are those who are a principal caregiver of a healthy pre-school child (or children), or who are required to care for or assist a member or members of their immediate family, who although not ill or disabled, needs the help and attention of the faculty member*."
+    ],
+    "caregiver_condition": [
+     "Faculty members who may apply for modified instructional responsibilities are those who are a principal caregiver of a healthy pre-school child (or children), or who are required to care for or assist a member or members of their immediate family, who although not ill or disabled, needs the help and attention of the faculty member*."
+    ],
+    "entitlement": [
+     "Faculty members who may apply for modified instructional responsibilities are those who are a principal caregiver of a healthy pre-school child (or children), or who are required to care for or assist a member or members of their immediate family, who although not ill or disabled, needs the help and attention of the faculty member*.",
+     "The full range of the department's or the program's instructional responsibilities can be met without additional resources during the period of modification.",
+     "Upon final review, the Provost will communicate his or her written decision to the applicant and the appropriate dean and/or department chair. The decision of the Provost is final."
+    ],
+    "duration": [
+     "Modifications to instructional duties shall be for the period of one long session semester (i.e., fall or spring)."
+    ],
+    "relief": [
+     "It is the policy of The University of Texas at Austin to modify the classroom instructional responsibilities of faculty members and allow for equivalent academic service when certain personal circumstances prevent them from being able to perform their classroom teaching duties, and when such modifications are found to be in the best interest of the University's instructional programs.",
+     "are expected to continue to fulfill all of their other duties as members of the faculty during the period of modification.",
+     "This work may involve significant scholarly research, new course development, curriculum development, or other work done in the best interest of the University's instructional program."
+    ],
+    "service_requirement": [
+     "This policy applies to all members of the faculty who are appointed full-time on the instructional budget in a long-session semester."
+    ],
+    "time_window": [
+     "Faculty members who may apply for modified instructional responsibilities are those who are a principal caregiver of a healthy pre-school child (or children), or who are required to care for or assist a member or members of their immediate family, who although not ill or disabled, needs the help and attention of the faculty member*."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_note",
+    "2018_07_provost_leave_related_policies",
+    "2018_08_provost_life_and_work"
+   ],
+   "flags": [
+    "ambiguous: pay level not stated; full pay inferred (R3)",
+    "ambiguous: restriction: not intended to apply to situations where use of sick leave is appropriate (birth parent's recovery)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R16",
+     "answer": "modified_duties",
+     "quote": "It is the policy of The University of Texas at Austin to modify the classroom instructional responsibilities of faculty members and allow for equivalent academic service when certain personal circumstances prevent them from being able to perform their classroom teaching duties, and when such modifications are found to be in the best interest of the University's instructional programs."
+    },
+    {
+     "field": "payer",
+     "rule": "R3",
+     "answer": "employer",
+     "quote": "are expected to continue to fulfill all of their other duties as members of the faculty during the period of modification."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Faculty members who may apply for modified instructional responsibilities are those who are a principal caregiver of a healthy pre-school child (or children), or who are required to care for or assist a member or members of their immediate family, who although not ill or disabled, needs the help and attention of the faculty member*."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "This policy applies to all members of the faculty who are appointed full-time on the instructional budget in a long-session semester."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R6",
+     "answer": "any_parent (principal caregiver, gender-neutral)",
+     "quote": "Faculty members who may apply for modified instructional responsibilities are those who are a principal caregiver of a healthy pre-school child (or children), or who are required to care for or assist a member or members of their immediate family, who although not ill or disabled, needs the help and attention of the faculty member*."
+    },
+    {
+     "field": "caregiver_condition",
+     "rule": "schema",
+     "answer": "primary",
+     "quote": "Faculty members who may apply for modified instructional responsibilities are those who are a principal caregiver of a healthy pre-school child (or children), or who are required to care for or assist a member or members of their immediate family, who although not ill or disabled, needs the help and attention of the faculty member*."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "Upon final review, the Provost will communicate his or her written decision to the applicant and the appropriate dean and/or department chair. The decision of the Provost is final."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 semester exact",
+     "quote": "Modifications to instructional duties shall be for the period of one long session semester (i.e., fall or spring)."
+    },
+    {
+     "field": "relief",
+     "rule": "R4",
+     "answer": "teaching relieved; service, research, advising and clinical continue ('all of their other duties')",
+     "quote": "are expected to continue to fulfill all of their other duties as members of the faculty during the period of modification."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "full-time on the instructional budget",
+     "quote": "This policy applies to all members of the faculty who are appointed full-time on the instructional budget in a long-session semester."
+    },
+    {
+     "field": "time_window",
+     "rule": "schema",
+     "answer": "pre-school child",
+     "quote": "Faculty members who may apply for modified instructional responsibilities are those who are a principal caregiver of a healthy pre-school child (or children), or who are required to care for or assist a member or members of their immediate family, who although not ill or disabled, needs the help and attention of the faculty member*."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_texas_austin_c7",
+   "institution_label": "Extension of the Tenure Track Probationary Period",
+   "description": "On written request, a one-academic-year extension of the tenure-track probationary period for personal circumstances (an open list including the faculty member's illness and being the principal caregiver of a preschool child), decided by the Provost; at most two years in total.",
+   "mechanism": "tenure_clock",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "A tenure track faculty member",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "the principal caregiver of a preschool child; disability or illness of the faculty member",
+   "caregiver_condition": "primary",
+   "caregiver_condition_wording": "status of the faculty member as the principal caregiver of a preschool child",
+   "entitlement": "discretionary",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "up_to"
+   },
+   "duration_note": "One academic year per request; a second year in exceptional circumstances; at most two academic years in total.",
+   "service_requirement": "none stated",
+   "notice": "request no later than the end of the spring semester before the sixth year of probationary service",
+   "rule_applied": [
+    "U1",
+    "V2",
+    "R6",
+    "R13",
+    "V3c",
+    "source_precedence"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "A tenure track faculty member who determines that certain personal circumstances may impede his or her progress toward achieving demonstration of eligibility for recommendation of the award of tenure may make a written request for extension of the probationary period specifying the reasons for the requested extension."
+    ],
+    "eligible_parent": [
+     "Personal circumstances that may justify the extension include, but are not restricted to: disability or illness of the faculty member; status of the faculty member as the principal caregiver of a preschool child; or, status of the faculty member as a principal caregiver of a disabled, elderly, or ill member of the family of the faculty member."
+    ],
+    "caregiver_condition": [
+     "Personal circumstances that may justify the extension include, but are not restricted to: disability or illness of the faculty member; status of the faculty member as the principal caregiver of a preschool child; or, status of the faculty member as a principal caregiver of a disabled, elderly, or ill member of the family of the faculty member."
+    ],
+    "entitlement": [
+     "An extension of the probationary period is never automatic but is granted in the best interest of The University of Texas at Austin and its faculty to promote and tenure faculty of the highest quality, based on a process and procedures that are fair, equitable, and humane.",
+     "The Executive Vice President and Provost shall decide whether to grant the extension based upon review and consideration of the faculty member's written request and the recommendation of the budget council, department chair, and dean."
+    ],
+    "duration": [
+     "The request for an extension shall be limited to one academic year. In exceptional circumstances, a second academic year of extension may be requested and granted. However, the maximum duration of extension, whether consecutive or nonconsecutive, shall be two academic years."
+    ],
+    "service_requirement": [
+     "A tenure track faculty member who determines that certain personal circumstances may impede his or her progress toward achieving demonstration of eligibility for recommendation of the award of tenure may make a written request for extension of the probationary period specifying the reasons for the requested extension."
+    ]
+   },
+   "doc_ids": [
+    "2018_03_hop_extension_probationary_period",
+    "2018_11_regents_rule_31007_tenure",
+    "2018_07_provost_leave_related_policies",
+    "2018_08_provost_life_and_work"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "A tenure track faculty member who determines that certain personal circumstances may impede his or her progress toward achieving demonstration of eligibility for recommendation of the award of tenure may make a written request for extension of the probationary period specifying the reasons for the requested extension."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "A tenure track faculty member who determines that certain personal circumstances may impede his or her progress toward achieving demonstration of eligibility for recommendation of the award of tenure may make a written request for extension of the probationary period specifying the reasons for the requested extension."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "Personal circumstances that may justify the extension include, but are not restricted to: disability or illness of the faculty member; status of the faculty member as the principal caregiver of a preschool child; or, status of the faculty member as a principal caregiver of a disabled, elderly, or ill member of the family of the faculty member."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "A tenure track faculty member who determines that certain personal circumstances may impede his or her progress toward achieving demonstration of eligibility for recommendation of the award of tenure may make a written request for extension of the probationary period specifying the reasons for the requested extension."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R6",
+     "answer": "any_parent",
+     "quote": "Personal circumstances that may justify the extension include, but are not restricted to: disability or illness of the faculty member; status of the faculty member as the principal caregiver of a preschool child; or, status of the faculty member as a principal caregiver of a disabled, elderly, or ill member of the family of the faculty member."
+    },
+    {
+     "field": "caregiver_condition",
+     "rule": "schema",
+     "answer": "primary",
+     "quote": "Personal circumstances that may justify the extension include, but are not restricted to: disability or illness of the faculty member; status of the faculty member as the principal caregiver of a preschool child; or, status of the faculty member as a principal caregiver of a disabled, elderly, or ill member of the family of the faculty member."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "The Executive Vice President and Provost shall decide whether to grant the extension based upon review and consideration of the faculty member's written request and the recommendation of the budget council, department chair, and dean."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 year up_to; 2 years in total",
+     "quote": "The request for an extension shall be limited to one academic year. In exceptional circumstances, a second academic year of extension may be requested and granted. However, the maximum duration of extension, whether consecutive or nonconsecutive, shall be two academic years."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "none stated",
+     "quote": "A tenure track faculty member who determines that certain personal circumstances may impede his or her progress toward achieving demonstration of eligibility for recommendation of the award of tenure may make a written request for extension of the probationary period specifying the reasons for the requested extension."
+    },
+    {
+     "field": "entitlement",
+     "rule": "source_precedence",
+     "answer": "discretionary",
+     "quote": "An extension of the probationary period is never automatic but is granted in the best interest of The University of Texas at Austin and its faculty to promote and tenure faculty of the highest quality, based on a process and procedures that are fair, equitable, and humane."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_texas_austin_c8",
+   "institution_label": "",
+   "description": "The Provost's summary page states that the probationary-period extension is automatic for childbirth or adoption on notification; the governing HOP 2-2020 says an extension is never automatic.",
+   "mechanism": "tenure_clock",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "A tenure-track faculty member",
+   "eligible_parent": [
+    "any_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "childbirth and/or adoption",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration_note": "No length stated for the automatic extension.",
+   "service_requirement": "none stated",
+   "rule_applied": [
+    "source_precedence",
+    "V2"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "A tenure-track faculty member who determines that certain personal circumstances may impede his or her progress"
+    ],
+    "eligible_parent": [
+     "Extension of the probationary period is automatic for reasons of childbirth and/or adoption upon notification of the department chair (or dean in non-departmentalized colleges/schools) and the Office of the Executive Vice President and Provost."
+    ],
+    "entitlement": [
+     "Extension of the probationary period is automatic for reasons of childbirth and/or adoption upon notification of the department chair (or dean in non-departmentalized colleges/schools) and the Office of the Executive Vice President and Provost."
+    ],
+    "service_requirement": [
+     "Extension of the probationary period is automatic for reasons of childbirth and/or adoption upon notification of the department chair (or dean in non-departmentalized colleges/schools) and the Office of the Executive Vice President and Provost."
+    ]
+   },
+   "doc_ids": [
+    "2018_07_provost_leave_related_policies"
+   ],
+   "flags": [
+    "summary_only: 2018_07_provost_leave_related_policies",
+    "conflicting_sources: 2018_07_provost_leave_related_policies, 2018_03_hop_extension_probationary_period"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "Extension of the probationary period is automatic for reasons of childbirth and/or adoption upon notification of the department chair (or dean in non-departmentalized colleges/schools) and the Office of the Executive Vice President and Provost."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Extension of the probationary period is automatic for reasons of childbirth and/or adoption upon notification of the department chair (or dean in non-departmentalized colleges/schools) and the Office of the Executive Vice President and Provost."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Extension of the probationary period is automatic for reasons of childbirth and/or adoption upon notification of the department chair (or dean in non-departmentalized colleges/schools) and the Office of the Executive Vice President and Provost."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "A tenure-track faculty member who determines that certain personal circumstances may impede his or her progress"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent, adoptive",
+     "quote": "Extension of the probationary period is automatic for reasons of childbirth and/or adoption upon notification of the department chair (or dean in non-departmentalized colleges/schools) and the Office of the Executive Vice President and Provost."
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "Extension of the probationary period is automatic for reasons of childbirth and/or adoption upon notification of the department chair (or dean in non-departmentalized colleges/schools) and the Office of the Executive Vice President and Provost."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "none stated",
+     "quote": "Extension of the probationary period is automatic for reasons of childbirth and/or adoption upon notification of the department chair (or dean in non-departmentalized colleges/schools) and the Office of the Executive Vice President and Provost."
+    },
+    {
+     "field": "entitlement",
+     "rule": "source_precedence",
+     "answer": "guaranteed",
+     "quote": "An extension of the probationary period is never automatic but is granted in the best interest of The University of Texas at Austin and its faculty to promote and tenure faculty of the highest quality, based on a process and procedures that are fair, equitable, and humane."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_texas_austin_c9",
+   "institution_label": "Effect of leave without pay on probationary status",
+   "description": "An academic year in which a faculty member is on leave without pay for all of the fall and/or spring semester is not counted toward the probationary period (HOP 2-2210); Regents' Rule 31007 Sec. 3 excludes any period of leave of absence.",
+   "mechanism": "tenure_clock",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "a faculty member ... on leave without pay",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "a faculty member",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "exact"
+   },
+   "duration_note": "The academic year of the leave is not counted (HOP 2-2210); under Regents' Rule 31007 Sec. 3 no period of leave of absence counts.",
+   "service_requirement": "none stated",
+   "sequence": [
+    {
+     "relation": "concurrent_with",
+     "component_id": "university_of_texas_austin_c4",
+     "note": "applies to the year of a leave without pay"
+    }
+   ],
+   "rule_applied": [
+    "U1",
+    "V3c",
+    "R13"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Effect of leave without pay on probationary status: an academic year during which a faculty member is on leave without pay from the University for all of the fall and/or spring semesters shall not be counted as part of the probationary period related to the acquisition of tenure."
+    ],
+    "eligible_parent": [
+     "Effect of leave without pay on probationary status: an academic year during which a faculty member is on leave without pay from the University for all of the fall and/or spring semesters shall not be counted as part of the probationary period related to the acquisition of tenure."
+    ],
+    "entitlement": [
+     "Effect of leave without pay on probationary status: an academic year during which a faculty member is on leave without pay from the University for all of the fall and/or spring semesters shall not be counted as part of the probationary period related to the acquisition of tenure.",
+     "Periods during which a faculty member is on leave of absence shall not be counted toward fulfillment of a required probationary period."
+    ],
+    "duration": [
+     "Effect of leave without pay on probationary status: an academic year during which a faculty member is on leave without pay from the University for all of the fall and/or spring semesters shall not be counted as part of the probationary period related to the acquisition of tenure."
+    ],
+    "service_requirement": [
+     "Effect of leave without pay on probationary status: an academic year during which a faculty member is on leave without pay from the University for all of the fall and/or spring semesters shall not be counted as part of the probationary period related to the acquisition of tenure."
+    ],
+    "sequence": [
+     "Effect of leave without pay on probationary status: an academic year during which a faculty member is on leave without pay from the University for all of the fall and/or spring semesters shall not be counted as part of the probationary period related to the acquisition of tenure."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_hop_2-2210_faculty_leaves",
+    "2018_11_regents_rule_31007_tenure"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "Effect of leave without pay on probationary status: an academic year during which a faculty member is on leave without pay from the University for all of the fall and/or spring semesters shall not be counted as part of the probationary period related to the acquisition of tenure."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Effect of leave without pay on probationary status: an academic year during which a faculty member is on leave without pay from the University for all of the fall and/or spring semesters shall not be counted as part of the probationary period related to the acquisition of tenure."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "Periods during which a faculty member is on leave of absence shall not be counted toward fulfillment of a required probationary period."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Effect of leave without pay on probationary status: an academic year during which a faculty member is on leave without pay from the University for all of the fall and/or spring semesters shall not be counted as part of the probationary period related to the acquisition of tenure."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "Effect of leave without pay on probationary status: an academic year during which a faculty member is on leave without pay from the University for all of the fall and/or spring semesters shall not be counted as part of the probationary period related to the acquisition of tenure."
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "Effect of leave without pay on probationary status: an academic year during which a faculty member is on leave without pay from the University for all of the fall and/or spring semesters shall not be counted as part of the probationary period related to the acquisition of tenure."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 academic year exact",
+     "quote": "Effect of leave without pay on probationary status: an academic year during which a faculty member is on leave without pay from the University for all of the fall and/or spring semesters shall not be counted as part of the probationary period related to the acquisition of tenure."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "none stated",
+     "quote": "Effect of leave without pay on probationary status: an academic year during which a faculty member is on leave without pay from the University for all of the fall and/or spring semesters shall not be counted as part of the probationary period related to the acquisition of tenure."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "concurrent_with c4",
+     "quote": "Effect of leave without pay on probationary status: an academic year during which a faculty member is on leave without pay from the University for all of the fall and/or spring semesters shall not be counted as part of the probationary period related to the acquisition of tenure."
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "Reference date 2018-04-17. HOP pages are 2019 Wayback captures of policies issued 1997-2005 (version notes: no captures 2016-10 to 2019-07; text in force on the reference date); Provost and HR pages are 2017 captures; Regents' Rules 30201 (amended 2017-03-06) and 31007 (amended 2016-02-10) are 2017 captures. All are read as in force on the reference date. HOP 2-2210 carries a Workday review banner from the 2019 capture.",
+  "Governing documents: the Handbook of Operating Procedures (HOP 5-4310 FML, 5-4330 Parental Leave, 5-4210 Sick Leave, 2-2210 Faculty Leaves, 2-2240 Modified Instructional Duties, 2-2020 probationary extension) and UT System Regents' Rules 30201 and 31007. Summaries: the Provost Leaves & Related Policies and Life & Work pages, and the HR FMLA page. HOP 5-4610 (staff leave without pay) states it does not apply to faculty (c5).",
+  "No employer-paid parental leave exists in the sources. A birth parent's pay comes only from accrued sick leave (usually up to 6 weeks, or 8 after a cesarean, per the HR page), then other accrued leave, then the sick leave pool for catastrophic conditions; the remainder of FML is unpaid.",
+  "U8: HOP 5-4330 Parental Leave (up to 12 weeks unpaid, from the birth or placement, for employees not eligible for FML; Texas Government Code 661.913; Regents' Rule 30201 Sec. 6) is recorded in c1's duration_note, not as a component, because the member described (two years of service) is FML-eligible. The Provost page's 'Where both parents are employed by the university, their total combined parental leave entitlement is 12 weeks' refers to this parental leave.",
+  "Tenure clock: HOP 2-2020 says an extension is 'never automatic' and is decided by the Provost (c7, discretionary, general_purpose under U1's open list). The Provost summary (2017) says it is 'automatic for reasons of childbirth and/or adoption upon notification' (c8, flagged summary_only and conflicting_sources); the governing HOP decides (source precedence).",
+  "Birth parent chain: FML 12 weeks (c1), with accrued sick leave paid within it (c2, own balance, usually 6/8 weeks) and the sick leave pool after the balance (c3, discretionary) -> faculty leave without pay up to one academic year after FML expires (c4, general purpose, discretionary). Modified instructional duties, one semester of teaching relief for a principal caregiver of a pre-school child (c6, discretionary), is unlinked: the documents state no order relative to the leave, and it is not intended where sick leave applies.",
+  "Non-birth parent chain: FML 12 weeks (c1), with sick leave usable within it only to care for the spouse recovering from childbirth or an ill child (c2) -> faculty leave without pay (c4, general purpose). Modified instructional duties (c6) as for the birth parent, unlinked.",
+  "Documents cited but not saved: HOP 5-4220 Sick Leave Pool; HOP 5-4320 Foster Parent Leave; HOP 2-2240's source Regents' Rule 31006 Academic Workload Requirements; the Provost's Leave_Related_Policies.pdf summary table; the Faculty Request for Leave form; HOP 5-4430 Military Leave; Regents' Rules 30103, 31001, 31002; Texas Government Code 661.912, 661.913, 661.909, 661.201-206, 661.033-034, 659.016(e), 659.085. Only those bearing on parental provisions are flagged on components.",
+  "Long-term disability insurance is mentioned once on the HR FMLA page, as a cost the employee pays during FML; no terms are stated, so it is not coded.",
+  "No saved document refers to a collective agreement."
+ ],
+ "statutory_floor": {
+  "jurisdiction": "US",
+  "year": "2018",
+  "weeks_birth": 12.0,
+  "weeks_nonbirth": 12.0,
+  "statute": "Family and Medical Leave Act (FMLA) (29 U.S.C. 2611-2612)",
+  "source_doc": "2026_00_us_fmla_29usc2612",
+  "table": "statutory_baseline.csv"
+ }
+}

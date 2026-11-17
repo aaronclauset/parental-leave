@@ -1,0 +1,1636 @@
+{
+ "institution": "North Dakota State University",
+ "slug": "north_dakota_state_university",
+ "country": "US",
+ "model": "claude-opus-5-5",
+ "codebook_version": "1.25",
+ "schema_version": "1.25",
+ "reference_date": "2018-02-27",
+ "calendar": {
+  "term_weeks": null,
+  "note": "Policy 320 s.6.2 states relief 'up to the equivalent of a semester' and extension 'to the end of a semester': a semester calendar, length not stated; R8 default 16.",
+  "kind": "semester"
+ },
+ "documents": [
+  {
+   "doc_id": "2018_00_link",
+   "url": "https://www.ndsu.edu/fileadmin/policy/320.pdf",
+   "title": "NDSU Policy Manual Section 320, Faculty Obligations and Time Requirements",
+   "version_or_effective_date": "HISTORY ends 'Amended April 25, 2012'; captured 2019-09-17; in force on 2018-02-27",
+   "retrieved": "2026-10-30T22:04:53+00:00"
+  },
+  {
+   "doc_id": "2018_01_policy_313_annual_sick_leave",
+   "url": "https://www.ndsu.edu/fileadmin/policy/313.pdf",
+   "title": "NDSU Policy Manual Section 313, Annual Leave and Sick Leave",
+   "version_or_effective_date": "HISTORY ends 'Housekeeping June 6, 2015'; captured 2019-09-18",
+   "retrieved": "2026-10-30T22:24:20+00:00"
+  },
+  {
+   "doc_id": "2018_02_policy_352_promotion_tenure_2015capture",
+   "url": "https://www.ndsu.edu/fileadmin/policy/352.pdf",
+   "title": "NDSU Policy Manual Section 352, Promotion, Tenure and Evaluation (2015 capture)",
+   "version_or_effective_date": "HISTORY ends 'Amended June 19, 2014'; captured 2015-04-21; version in force on the reference date (amended April 2017) not captured; brackets with the 2019 capture",
+   "retrieved": "2026-10-30T22:24:23+00:00"
+  },
+  {
+   "doc_id": "2018_03_policy_352_promotion_tenure_2019capture",
+   "url": "https://www.ndsu.edu/fileadmin/policy/352.pdf",
+   "title": "NDSU Policy Manual Section 352, Promotion, Tenure and Evaluation (2019 capture)",
+   "version_or_effective_date": "HISTORY includes amendments of March 29, 2018 and later; captured 2019-09-24; used only to confirm that 3.6 and 3.6.1 continued",
+   "retrieved": "2026-10-30T22:24:25+00:00"
+  },
+  {
+   "doc_id": "2018_04_policy_143_sick_dependent_leave",
+   "url": "https://www.ndsu.edu/fileadmin/policy/143.pdf",
+   "title": "NDSU Policy Manual Section 143, Sick/Dependent Leave",
+   "version_or_effective_date": "HISTORY ends 'Housekeeping March 31, 2017'; captured 2019-09-24",
+   "retrieved": "2026-10-30T22:24:27+00:00"
+  },
+  {
+   "doc_id": "2018_05_policy_135_family_medical_leave",
+   "url": "https://www.ndsu.edu/fileadmin/policy/135.pdf",
+   "title": "NDSU Policy Manual Section 135, Family Medical Leave",
+   "version_or_effective_date": "HISTORY ends 'Housekeeping July 30, 2013'; captured 2019-09-23",
+   "retrieved": "2026-10-30T22:24:30+00:00"
+  }
+ ],
+ "missing": false,
+ "scope_accounting": {
+  "C1": {
+   "components": [
+    "north_dakota_state_university_c1",
+    "north_dakota_state_university_c3",
+    "north_dakota_state_university_c9",
+    "north_dakota_state_university_c12"
+   ]
+  },
+  "C2": {
+   "components": [
+    "north_dakota_state_university_c2"
+   ]
+  },
+  "C3": {
+   "components": [
+    "north_dakota_state_university_c4",
+    "north_dakota_state_university_c5",
+    "north_dakota_state_university_c8",
+    "north_dakota_state_university_c9",
+    "north_dakota_state_university_c10"
+   ]
+  },
+  "C4": {
+   "components": [
+    "north_dakota_state_university_c3"
+   ],
+   "not_components": [
+    {
+     "statute": "Family and Medical Leave Act, military caregiver leave and qualifying exigency leave (29 U.S.C. 2612(a)(1)(E), (a)(3))",
+     "reason": "not related to becoming a parent (U4); named in Policy 135 s.1, 1.1"
+    },
+    {
+     "statute": "Americans with Disabilities Act",
+     "reason": "disability-accommodation statute, not a component (U4); Policy 320 s.6.1 'Additional modifications for longer-term conditions may be made in accordance with the Americans with Disabilities Act'"
+    },
+    {
+     "statute": "North Dakota open records laws",
+     "reason": "disclosure of tenure-extension records; not leave, pay or protection (U4); Policy 352 s.3.6.5"
+    },
+    {
+     "statute": "workers compensation (Policy 143 s.7, 'a workers compensation claim')",
+     "reason": "workplace injury; not related to becoming a parent (U4)"
+    }
+   ]
+  },
+  "C5": {
+   "components": [
+    "north_dakota_state_university_c3",
+    "north_dakota_state_university_c10",
+    "north_dakota_state_university_c2"
+   ]
+  },
+  "C6": {
+   "components": [
+    "north_dakota_state_university_c11",
+    "north_dakota_state_university_c12"
+   ]
+  },
+  "C7": {
+   "components": [
+    "north_dakota_state_university_c6",
+    "north_dakota_state_university_c7"
+   ]
+  },
+  "C8": {
+   "absent": {
+    "documents": [
+     "2018_00_link",
+     "2018_01_policy_313_annual_sick_leave",
+     "2018_02_policy_352_promotion_tenure_2015capture",
+     "2018_03_policy_352_promotion_tenure_2019capture",
+     "2018_04_policy_143_sick_dependent_leave",
+     "2018_05_policy_135_family_medical_leave"
+    ],
+    "terms": [
+     "part-time",
+     "part time",
+     "reduced appointment",
+     "reduction in workload",
+     "phased",
+     "partial"
+    ]
+   }
+  },
+  "C9": {
+   "absent": {
+    "documents": [
+     "2018_00_link",
+     "2018_01_policy_313_annual_sick_leave",
+     "2018_02_policy_352_promotion_tenure_2015capture",
+     "2018_03_policy_352_promotion_tenure_2019capture",
+     "2018_04_policy_143_sick_dependent_leave",
+     "2018_05_policy_135_family_medical_leave"
+    ],
+    "terms": [
+     "accommodation",
+     "pregnan",
+     "less strenuous",
+     "hazard",
+     "transfer",
+     "equal treatment",
+     "Policy 100.1"
+    ]
+   }
+  },
+  "C10": {
+   "absent": {
+    "documents": [
+     "2018_00_link",
+     "2018_01_policy_313_annual_sick_leave",
+     "2018_02_policy_352_promotion_tenure_2015capture",
+     "2018_03_policy_352_promotion_tenure_2019capture",
+     "2018_04_policy_143_sick_dependent_leave",
+     "2018_05_policy_135_family_medical_leave"
+    ],
+    "terms": [
+     "first days",
+     "FMLA-qualifying",
+     "paid as regular",
+     "family leave will be concurrent with paid",
+     "work time"
+    ]
+   }
+  }
+ },
+ "passage_dispositions": {
+  "2018_00_link#001": {
+   "used_in": [
+    "north_dakota_state_university_c1",
+    "north_dakota_state_university_c2",
+    "north_dakota_state_university_c4",
+    "north_dakota_state_university_c5"
+   ]
+  },
+  "2018_01_policy_313_annual_sick_leave#001": {
+   "used_in": [
+    "north_dakota_state_university_c8",
+    "north_dakota_state_university_c11"
+   ]
+  },
+  "2018_02_policy_352_promotion_tenure_2015capture#001": {
+   "used_in": [
+    "north_dakota_state_university_c6",
+    "north_dakota_state_university_c7"
+   ]
+  },
+  "2018_02_policy_352_promotion_tenure_2015capture#002": {
+   "used_in": [
+    "north_dakota_state_university_c6"
+   ]
+  },
+  "2018_03_policy_352_promotion_tenure_2019capture#001": {
+   "not_relevant": "promotion criteria for probationary and non-tenure-line faculty (3.3); no leave or tenure-clock provision"
+  },
+  "2018_03_policy_352_promotion_tenure_2019capture#002": {
+   "used_in": [
+    "north_dakota_state_university_c6",
+    "north_dakota_state_university_c7"
+   ]
+  },
+  "2018_03_policy_352_promotion_tenure_2019capture#003": {
+   "used_in": [
+    "north_dakota_state_university_c6"
+   ]
+  },
+  "2018_03_policy_352_promotion_tenure_2019capture#004": {
+   "not_relevant": "periodic review procedures and promotion of Professors of Practice; no leave provision"
+  },
+  "2018_04_policy_143_sick_dependent_leave#001": {
+   "used_in": [
+    "north_dakota_state_university_c8",
+    "north_dakota_state_university_c9",
+    "north_dakota_state_university_c10",
+    "north_dakota_state_university_c12"
+   ]
+  },
+  "2018_05_policy_135_family_medical_leave#001": {
+   "used_in": [
+    "north_dakota_state_university_c3"
+   ]
+  },
+  "2018_05_policy_135_family_medical_leave#002": {
+   "used_in": [
+    "north_dakota_state_university_c3"
+   ]
+  },
+  "2018_05_policy_135_family_medical_leave#003": {
+   "used_in": [
+    "north_dakota_state_university_c3"
+   ]
+  }
+ },
+ "mechanism_slots": {
+  "employer_paid_leave": {
+   "absent": "no employer-paid parental leave beyond the childbearing leave (coded employer_childbirth_benefit); searched all six documents for 'paid leave', 'parental leave', 'with pay'"
+  },
+  "employer_childbirth_benefit": {
+   "components": [
+    "north_dakota_state_university_c1"
+   ]
+  },
+  "generic_sick_or_disability_plan": {
+   "components": [
+    "north_dakota_state_university_c4",
+    "north_dakota_state_university_c5"
+   ]
+  },
+  "own_accrual": {
+   "components": [
+    "north_dakota_state_university_c8",
+    "north_dakota_state_university_c9",
+    "north_dakota_state_university_c10",
+    "north_dakota_state_university_c11"
+   ]
+  },
+  "donated_leave": {
+   "absent": "Policy 135 1.11 and Policy 143 s.7 mention 'donated leave' and 'shared leave' only in passing; no programme described in the saved documents; searched 'donated', 'shared leave', 'bank'"
+  },
+  "government_benefit": {
+   "absent": "no state or federal paid programme named; searched 'state program', 'insurance', 'benefit' (North Dakota had no paid family leave programme in the documents)"
+  },
+  "employer_topup": {
+   "absent": "no top-up; searched 'top-up', 'supplement', 'difference'"
+  },
+  "modified_duties": {
+   "components": [
+    "north_dakota_state_university_c2"
+   ]
+  },
+  "unpaid_leave": {
+   "components": [
+    "north_dakota_state_university_c3",
+    "north_dakota_state_university_c12"
+   ]
+  },
+  "tenure_clock": {
+   "components": [
+    "north_dakota_state_university_c6",
+    "north_dakota_state_university_c7"
+   ]
+  },
+  "part_time_option": {
+   "absent": "searched all documents for 'part-time', 'reduced appointment', 'phased'; Policy 143 mentions part-time employees only for sick-leave proration"
+  },
+  "other": {
+   "absent": "no pregnancy accommodation, rearrangement or hazard provision; searched 'accommodation', 'pregnan', 'reassign'"
+  }
+ },
+ "baseline_accounting": {
+  "Family and Medical Leave Act (FMLA)": {
+   "components": [
+    "north_dakota_state_university_c3"
+   ]
+  },
+  "Federal Employee Paid Leave Act (paid parental leave for federal civilian employees)": {
+   "not_applicable": "covers federal civilian employees only; NDSU is a state institution and no saved document mentions it"
+  }
+ },
+ "leave_limits": [],
+ "components": [
+  {
+   "component_id": "north_dakota_state_university_c1",
+   "institution_label": "Childbearing Leave",
+   "description": "Paid leave from all duties for faculty on less-than-12-month appointments who give birth, from the delivery date to six weeks after; longer with medical certification and Provost approval.",
+   "mechanism": "employer_childbirth_benefit",
+   "mechanism_note": "A dedicated childbearing leave stating a childbirth-specific period (delivery to six weeks after), its length and its pay level ('without reduction in pay'); not a referral to a sick plan (academic-year faculty have no formal sick leave). V1's three parts are met; R2.",
+   "rule_applied": [
+    "V1",
+    "R2",
+    "V2",
+    "R13",
+    "R9"
+   ],
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Academic appointees (tenured and tenure-track faculty, professors of practice, and senior lecturers) with less than twelve-month appointments",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "who give birth",
+   "caregiver_condition": "none",
+   "service_requirement": "none (eligibility begins upon hiring)",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "'are eligible for childbearing leave' (V2: 'is eligible for' -> guaranteed_on_request); the six weeks are fixed by the text; an extension beyond six weeks is approved by the Provost (see duration_note and medical_certification_note).",
+   "duration": {
+    "value": 6,
+    "units": "week",
+    "qualifier": "exact"
+   },
+   "duration_note": "Begins on the actual delivery date and ends six weeks after, including university breaks. 'individual circumstances may require extending this period': an extension beyond six weeks (before and after delivery) requires medical certification and Provost approval; no maximum stated, so not coded as a range.",
+   "pay_fraction": "without reduction in pay",
+   "payer": "employer",
+   "medical_certification": false,
+   "medical_certification_note": "Not required for the six weeks; any extension beyond six weeks 'shall require medical certification from the attending physician or midwife'.",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_note": "'a temporary leave from all duties'",
+   "time_window": "begins on the actual delivery date",
+   "evidence": {
+    "mechanism": [
+     "This is a temporary leave from all duties without reduction in pay during the time the faculty member is temporarily disabled because of pregnancy and childbirth.",
+     "Childbearing leave begins on the actual delivery date and ends six weeks after (including university breaks), although individual circumstances may require extending this period."
+    ],
+    "faculty_group": [
+     "Academic appointees (tenured and tenure-track faculty, professors of practice, and senior lecturers) with less than twelve-month appointments who give birth are eligible for childbearing leave during the period of medical disability."
+    ],
+    "eligible_parent": [
+     "Academic appointees (tenured and tenure-track faculty, professors of practice, and senior lecturers) with less than twelve-month appointments who give birth are eligible for childbearing leave during the period of medical disability."
+    ],
+    "entitlement": [
+     "Academic appointees (tenured and tenure-track faculty, professors of practice, and senior lecturers) with less than twelve-month appointments who give birth are eligible for childbearing leave during the period of medical disability."
+    ],
+    "duration": [
+     "Childbearing leave begins on the actual delivery date and ends six weeks after (including university breaks), although individual circumstances may require extending this period.",
+     "Any extension beyond six weeks (before and after delivery) shall require medical certification from the attending physician or midwife and is approved by the Provost."
+    ],
+    "pay_fraction": [
+     "This is a temporary leave from all duties without reduction in pay during the time the faculty member is temporarily disabled because of pregnancy and childbirth."
+    ],
+    "relief": [
+     "This is a temporary leave from all duties without reduction in pay during the time the faculty member is temporarily disabled because of pregnancy and childbirth."
+    ],
+    "service_requirement": [
+     "Eligibility for childbearing leave begins upon hiring."
+    ],
+    "medical_certification": [
+     "Any extension beyond six weeks (before and after delivery) shall require medical certification from the attending physician or midwife and is approved by the Provost."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "V1",
+     "answer": "employer_childbirth_benefit",
+     "quote": "This is a temporary leave from all duties without reduction in pay during the time the faculty member is temporarily disabled because of pregnancy and childbirth."
+    },
+    {
+     "field": "mechanism",
+     "rule": "R2",
+     "answer": "employer_childbirth_benefit",
+     "quote": "Childbearing leave begins on the actual delivery date and ends six weeks after (including university breaks), although individual circumstances may require extending this period."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "This is a temporary leave from all duties without reduction in pay during the time the faculty member is temporarily disabled because of pregnancy and childbirth."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Academic appointees (tenured and tenure-track faculty, professors of practice, and senior lecturers) with less than twelve-month appointments who give birth are eligible for childbearing leave during the period of medical disability."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Academic appointees (tenured and tenure-track faculty, professors of practice, and senior lecturers) with less than twelve-month appointments who give birth are eligible for childbearing leave during the period of medical disability."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "birth_parent",
+     "quote": "Academic appointees (tenured and tenure-track faculty, professors of practice, and senior lecturers) with less than twelve-month appointments who give birth are eligible for childbearing leave during the period of medical disability."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "Academic appointees (tenured and tenure-track faculty, professors of practice, and senior lecturers) with less than twelve-month appointments who give birth are eligible for childbearing leave during the period of medical disability."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "6 week exact; the Provost-approved extension has no stated maximum",
+     "quote": "Childbearing leave begins on the actual delivery date and ends six weeks after (including university breaks), although individual circumstances may require extending this period."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "without reduction in pay",
+     "quote": "This is a temporary leave from all duties without reduction in pay during the time the faculty member is temporarily disabled because of pregnancy and childbirth."
+    },
+    {
+     "field": "relief",
+     "rule": "schema",
+     "answer": "all duties relieved (stated: leave from all duties)",
+     "quote": "This is a temporary leave from all duties without reduction in pay during the time the faculty member is temporarily disabled because of pregnancy and childbirth."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "none (eligibility begins upon hiring)",
+     "quote": "Eligibility for childbearing leave begins upon hiring."
+    }
+   ]
+  },
+  {
+   "component_id": "north_dakota_state_university_c2",
+   "institution_label": "Modified Duties",
+   "description": "For an academic appointee who becomes a parent (or has a health condition, or cares for an ill family member): a negotiated revision of duties at 100% salary for up to the equivalent of a semester, ending within 12 months of the birth or adoption; may follow childbearing leave and be extended to the end of the semester.",
+   "mechanism": "modified_duties",
+   "rule_applied": [
+    "R12",
+    "R3",
+    "R3d",
+    "R4",
+    "R4b",
+    "R16",
+    "R13",
+    "R15",
+    "R8"
+   ],
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "An academic appointee (tenured and tenure-track faculty, professors of practice, and senior lecturers)",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "becomes a parent through childbirth, adoption, or foster placement of a child (as defined by the Family Medical Leave Act (FMLA)",
+   "caregiver_condition": "none",
+   "entitlement": "negotiated",
+   "entitlement_note": "R12: the duties, goals and duration are negotiated with the chair/head and approved by the dean (the Provost if no agreement); 'up to the equivalent of a semester' gives no guaranteed minimum.",
+   "duration": {
+    "value": 1,
+    "units": "semester",
+    "qualifier": "up_to"
+   },
+   "duration_note": "Up to the equivalent of a semester; when it immediately follows childbearing leave it 'may be extended to the end of a semester to accommodate teaching schedules as necessary'. Must conclude within 12 months of the birth or adoption. Also available for the member's own health condition and for care of a child, spouse/partner or parent with a serious health condition.",
+   "pay_fraction": "100% salary",
+   "payer": "employer",
+   "relief": {
+    "teaching": "partially_relieved",
+    "service_admin": "partially_relieved",
+    "research": "continues",
+    "advising_supervision": "partially_relieved",
+    "clinical": "continues"
+   },
+   "relief_inferred": "unnamed duties continue (R4b)",
+   "relief_note": "Workload stays at 100%; the nature of the responsibilities is adjusted. The text lists, as examples, 'release from or reassignment of teaching courses, committee assignments, advising, or alteration of research duties'; which duties are relieved is negotiated, so teaching, service and advising are coded partially_relieved; research is altered, not released, and the 100% workload continues, so research is coded continues; clinical is unnamed (R4b). Not a rearrangement within the year (R16): duties are replaced for the period, not made up later.",
+   "time_window": "must conclude within 12 months of a birth or adoption",
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "north_dakota_state_university_c1",
+     "note": "R3d: 'When a period of modified duties immediately follows childbearing leave'; for the birth parent only (the link is ignored for other roles)."
+    }
+   ],
+   "evidence": {
+    "faculty_group": [
+     "An academic appointee (tenured and tenure-track faculty, professors of practice, and senior lecturers) who 1) becomes a parent through childbirth, adoption, or foster placement of a child"
+    ],
+    "eligible_parent": [
+     "An academic appointee (tenured and tenure-track faculty, professors of practice, and senior lecturers) who 1) becomes a parent through childbirth, adoption, or foster placement of a child"
+    ],
+    "entitlement": [
+     "Modified duties, goals, and duration will be negotiated by the individual requesting modified duties with the department chair/head and approved by the dean.",
+     "If agreement cannot be reached between the faculty member, the department chair/head, and the dean, the negotiation will advance to the Provost."
+    ],
+    "duration": [
+     "Modified duties will include a revision of workload for up to the equivalent of a semester (e.g., release from or reassignment of teaching courses, committee assignments, advising, or alteration of research duties).",
+     "When a period of modified duties immediately follows childbearing leave, the modified duties may be extended to the end of a semester to accommodate teaching schedules as necessary."
+    ],
+    "pay_fraction": [
+     "A person taking “modified duties” will still be at a 100% workload and 100% salary; however the nature of the responsibilities for this time period will be adjusted."
+    ],
+    "relief": [
+     "Modified duties will include a revision of workload for up to the equivalent of a semester (e.g., release from or reassignment of teaching courses, committee assignments, advising, or alteration of research duties).",
+     "A person taking “modified duties” will still be at a 100% workload and 100% salary; however the nature of the responsibilities for this time period will be adjusted."
+    ],
+    "sequence": [
+     "When a period of modified duties immediately follows childbearing leave, the modified duties may be extended to the end of a semester to accommodate teaching schedules as necessary."
+    ],
+    "time_window": [
+     "Modified duties must conclude within 12 months of a birth or adoption."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R16",
+     "answer": "modified_duties",
+     "quote": "A person taking “modified duties” will still be at a 100% workload and 100% salary; however the nature of the responsibilities for this time period will be adjusted."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "A person taking “modified duties” will still be at a 100% workload and 100% salary; however the nature of the responsibilities for this time period will be adjusted."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "2) has a health condition that makes them unable to perform their regular duties but does not necessitate a reduction in workload; or 3) who will be caring for a child, spouse/partner or parent who has a serious health condition (as defined by FMLA)."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "An academic appointee (tenured and tenure-track faculty, professors of practice, and senior lecturers) who 1) becomes a parent through childbirth, adoption, or foster placement of a child"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "birth_parent, non_birth_parent, adoptive, foster",
+     "quote": "An academic appointee (tenured and tenure-track faculty, professors of practice, and senior lecturers) who 1) becomes a parent through childbirth, adoption, or foster placement of a child"
+    },
+    {
+     "field": "entitlement",
+     "rule": "R12",
+     "answer": "negotiated",
+     "quote": "Modified duties, goals, and duration will be negotiated by the individual requesting modified duties with the department chair/head and approved by the dean."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 semester up_to",
+     "quote": "Modified duties will include a revision of workload for up to the equivalent of a semester (e.g., release from or reassignment of teaching courses, committee assignments, advising, or alteration of research duties)."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "R3",
+     "answer": "100% salary",
+     "quote": "A person taking “modified duties” will still be at a 100% workload and 100% salary; however the nature of the responsibilities for this time period will be adjusted."
+    },
+    {
+     "field": "relief",
+     "rule": "R4",
+     "answer": "teaching, service, advising partially_relieved (negotiated examples); research continues (altered, 100% workload)",
+     "quote": "Modified duties will include a revision of workload for up to the equivalent of a semester (e.g., release from or reassignment of teaching courses, committee assignments, advising, or alteration of research duties)."
+    },
+    {
+     "field": "relief",
+     "rule": "R4b",
+     "answer": "clinical continues (unnamed)",
+     "quote": "Modified duties will include a revision of workload for up to the equivalent of a semester (e.g., release from or reassignment of teaching courses, committee assignments, advising, or alteration of research duties)."
+    },
+    {
+     "field": "sequence",
+     "rule": "R3d",
+     "answer": "consecutive_after c1",
+     "quote": "When a period of modified duties immediately follows childbearing leave, the modified duties may be extended to the end of a semester to accommodate teaching schedules as necessary."
+    }
+   ]
+  },
+  {
+   "component_id": "north_dakota_state_university_c3",
+   "institution_label": "Family Medical Leave",
+   "description": "Unpaid, job-protected FMLA leave of up to 12 weeks in a 12-month period for the birth, adoption or foster placement of a child, own serious health condition, or a spouse's, child's or parent's serious health condition.",
+   "mechanism": "unpaid_leave",
+   "rule_applied": [
+    "U2",
+    "U4",
+    "S1",
+    "U5",
+    "R13"
+   ],
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "all eligible employees",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "for the birth, adoption, or foster placement of a child; for the serious health condition of the employee, the employee's parent, child or spouse",
+   "caregiver_condition": "none",
+   "service_requirement": "12 months and 1,250 hours",
+   "entitlement": "guaranteed",
+   "entitlement_note": "Statutory entitlement (FMLA).",
+   "duration": {
+    "value": 12,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "duration_note": "Twelve weeks within a 12-month period beginning with the first day of leave (statute: 12 workweeks, 29 U.S.C. 2612(a)(1)). Military-caregiver leave (26 weeks) is not a parental purpose.",
+   "pay_fraction": "unpaid",
+   "payer": "none",
+   "must_exhaust_first": [
+    "sick",
+    "vacation",
+    "donated",
+    "compensatory"
+   ],
+   "medical_certification": false,
+   "medical_certification_note": "Certification may be required to verify a serious health condition; none is stated for leave for a birth or placement.",
+   "dual_employee_rule": "each is entitled to twelve weeks (a married couple both employed by the state is not limited to a total of twelve weeks)",
+   "time_window": "leave for the birth, adoption, or foster care placement of a child must begin within 12 months of the event",
+   "notice": "Reasonable and practical notice must be provided to the agency.",
+   "runs_concurrently_with": [
+    "paid sick or annual leave"
+   ],
+   "statute_source": "29 U.S.C. 2612(a)(1)(A)-(D); eligibility 29 U.S.C. 2611(2)",
+   "statute_verified": true,
+   "sequence": [
+    {
+     "relation": "concurrent_with",
+     "component_id": "north_dakota_state_university_c1",
+     "note": "S1: FMLA runs alongside the paid childbearing leave from the birth; the unpaid remainder (about 6 weeks) follows the paid six weeks. Policy 320 says 'Unpaid leave that extends beyond the period of medical disability is available through FMLA', read as naming the unpaid remainder, not as placing the 12 weeks after the paid leave (see flag)."
+    }
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Family leave is an unpaid leave of absence available to all eligible employees for the birth, adoption, or foster placement of a child; for the serious health condition of the employee, the employee's parent, child or spouse;"
+    ],
+    "eligible_parent": [
+     "Family leave is an unpaid leave of absence available to all eligible employees for the birth, adoption, or foster placement of a child; for the serious health condition of the employee, the employee's parent, child or spouse;"
+    ],
+    "entitlement": [
+     "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period for one or more of the following:",
+     "A married couple is not limited to a total of twelve weeks if both are employed by the state; each is entitled to twelve weeks."
+    ],
+    "duration": [
+     "The maximum length of total uncompensated Family Medical Leave for eligible full time employees is twelve weeks within a 12-month period that begins with the first day of leave",
+     "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period for one or more of the following:"
+    ],
+    "pay_fraction": [
+     "Family leave is an unpaid leave of absence available to all eligible employees for the birth, adoption, or foster placement of a child; for the serious health condition of the employee, the employee's parent, child or spouse;"
+    ],
+    "service_requirement": [
+     "Eligible employees are those individuals employed by the state for at least twelve months, and who have worked at least one thousand two hundred fifty hours for the state over the previous twelve months."
+    ],
+    "sequence": [
+     "Unpaid leave that extends beyond the period of medical disability is available through FMLA.",
+     "Consistent with applicable law and upon notice to the employee by the employing entity, family leave will be concurrent with paid sick or annual leave."
+    ],
+    "time_window": [
+     "Family leave used for the birth, adoption, or foster care placement of a child must begin within 12 months of the event."
+    ],
+    "dual_employee_rule": [
+     "A married couple is not limited to a total of twelve weeks if both are employed by the state; each is entitled to twelve weeks."
+    ],
+    "must_exhaust_first": [
+     "An employee is required to use applicable, accrued paid and donated leave and compensatory time before authorized unpaid FMLA leave."
+    ],
+    "medical_certification": [
+     "Medical certification may be required by NDSU to verify the existence of a serious health condition including date of commencement and probable duration of illness."
+    ],
+    "notice": [
+     "Reasonable and practical notice must be provided to the agency."
+    ]
+   },
+   "doc_ids": [
+    "2018_05_policy_135_family_medical_leave",
+    "2018_00_link",
+    "2026_00_us_fmla_29usc2612"
+   ],
+   "flags": [
+    "ambiguous: rule gap: Policy 320 s.5 'Unpaid leave that extends beyond the period of medical disability is available through FMLA' could be read as the institution's text placing FMLA after the childbearing leave (S1 exception, consecutive_after, protected 18 weeks); coded concurrent_with (S1 default, protected 12), since Policy 135 makes family leave concurrent with paid leave",
+    "cross_reference_not_saved: NDUS Human Resource Policy Manual, Section 22"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "U4",
+     "answer": "unpaid_leave",
+     "quote": "Family leave is an unpaid leave of absence available to all eligible employees for the birth, adoption, or foster placement of a child; for the serious health condition of the employee, the employee's parent, child or spouse;"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Family leave is an unpaid leave of absence available to all eligible employees for the birth, adoption, or foster placement of a child; for the serious health condition of the employee, the employee's parent, child or spouse;"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Family leave is an unpaid leave of absence available to all eligible employees for the birth, adoption, or foster placement of a child; for the serious health condition of the employee, the employee's parent, child or spouse;"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Family leave is an unpaid leave of absence available to all eligible employees for the birth, adoption, or foster placement of a child; for the serious health condition of the employee, the employee's parent, child or spouse;"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent, non_birth_parent, adoptive, foster (birth, placement, own and spouse's serious health condition)",
+     "quote": "Family leave is an unpaid leave of absence available to all eligible employees for the birth, adoption, or foster placement of a child; for the serious health condition of the employee, the employee's parent, child or spouse;"
+    },
+    {
+     "field": "entitlement",
+     "rule": "U2",
+     "answer": "guaranteed",
+     "quote": "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period for one or more of the following:"
+    },
+    {
+     "field": "duration",
+     "rule": "U2",
+     "answer": "12 week up_to ('maximum'); statute 12 workweeks",
+     "quote": "The maximum length of total uncompensated Family Medical Leave for eligible full time employees is twelve weeks within a 12-month period that begins with the first day of leave"
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "unpaid",
+     "quote": "Family leave is an unpaid leave of absence available to all eligible employees for the birth, adoption, or foster placement of a child; for the serious health condition of the employee, the employee's parent, child or spouse;"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U2",
+     "answer": "12 months and 1,250 hours",
+     "quote": "Eligible employees are those individuals employed by the state for at least twelve months, and who have worked at least one thousand two hundred fifty hours for the state over the previous twelve months."
+    },
+    {
+     "field": "sequence",
+     "rule": "S1",
+     "answer": "concurrent_with c1",
+     "quote": "Consistent with applicable law and upon notice to the employee by the employing entity, family leave will be concurrent with paid sick or annual leave."
+    }
+   ]
+  },
+  {
+   "component_id": "north_dakota_state_university_c4",
+   "institution_label": "Sick Leave",
+   "description": "Informal sick leave for faculty on less-than-12-month appointments: commitments rescheduled or covered by colleagues during illness, with no guaranteed amount; for extended illness or disability limited to two weeks per year of academic service unless the Provost approves an exception.",
+   "mechanism": "generic_sick_or_disability_plan",
+   "mechanism_note": "No balance is accrued or kept; the employer continues salary while duties are rescheduled or covered, within a ceiling that grows with service (R1: employer-granted sick time; the ceiling taken at the two-year band, U8). Childbirth handled as any illness; the dedicated childbearing leave (c1) is separate.",
+   "rule_applied": [
+    "R1",
+    "U8",
+    "V2",
+    "V6",
+    "U5",
+    "R13"
+   ],
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "faculty whose regular term of appointment is less than 12 months",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "entitlement_note": "'This does not guarantee any certain amount of paid sick leave hours or days'; informal arrangements; exceptions beyond the ceiling approved by the Provost.",
+   "duration": {
+    "value": 4,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "duration_note": "'a maximum of two weeks for each year of academic service to NDSU' for extended illness or disability: 4 weeks at the two-year band (U8); grows by two weeks per year of service; exceptions approved by the Provost. Not stated whether time used is deducted from the ceiling.",
+   "payer": "employer",
+   "evidence": {
+    "faculty_group": [
+     "This same philosophy prevails at NDSU with regard to sick leave for faculty whose regular term of appointment is less than 12 months."
+    ],
+    "eligible_parent": [
+     "Although there is no formal sick leave policy or provision for such faculty, the understanding is that they have the opportunity to reschedule their commitments or make appropriate voluntary arrangements with their colleagues during times when sickness makes it impossible or unwise for them to meet their professional obligations."
+    ],
+    "entitlement": [
+     "This does not guarantee any certain amount of paid sick leave hours or days to faculty members whose regular term of appointment is less than 12 months",
+     "Where extended illness or disability is involved, however, the amount of such informal sick leave shall be limited to a maximum of two weeks for each year of academic service to NDSU, unless an exception is approved by the Provost."
+    ],
+    "duration": [
+     "Where extended illness or disability is involved, however, the amount of such informal sick leave shall be limited to a maximum of two weeks for each year of academic service to NDSU, unless an exception is approved by the Provost."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "ambiguous: rule gap: informal sick leave 'limited to a maximum of two weeks for each year of academic service' is neither an accrued balance nor a stated restored allotment; coded as an employer plan (R1) at the two-year band (U8: 4 weeks); pay level not stated"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "Where extended illness or disability is involved, however, the amount of such informal sick leave shall be limited to a maximum of two weeks for each year of academic service to NDSU, unless an exception is approved by the Provost."
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "employer",
+     "quote": "This does not guarantee any certain amount of paid sick leave hours or days to faculty members whose regular term of appointment is less than 12 months"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Although there is no formal sick leave policy or provision for such faculty, the understanding is that they have the opportunity to reschedule their commitments or make appropriate voluntary arrangements with their colleagues during times when sickness makes it impossible or unwise for them to meet their professional obligations."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "This same philosophy prevails at NDSU with regard to sick leave for faculty whose regular term of appointment is less than 12 months."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own illness)",
+     "quote": "Although there is no formal sick leave policy or provision for such faculty, the understanding is that they have the opportunity to reschedule their commitments or make appropriate voluntary arrangements with their colleagues during times when sickness makes it impossible or unwise for them to meet their professional obligations."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "This does not guarantee any certain amount of paid sick leave hours or days to faculty members whose regular term of appointment is less than 12 months"
+    },
+    {
+     "field": "duration",
+     "rule": "U8",
+     "answer": "4 week up_to (two weeks per year of service, two-year band)",
+     "quote": "Where extended illness or disability is involved, however, the amount of such informal sick leave shall be limited to a maximum of two weeks for each year of academic service to NDSU, unless an exception is approved by the Provost."
+    }
+   ]
+  },
+  {
+   "component_id": "north_dakota_state_university_c5",
+   "institution_label": "",
+   "description": "The University's TIAA-CREF disability insurance, paying salary benefits after six months of disability (long-term disability; no childbirth length).",
+   "mechanism": "generic_sick_or_disability_plan",
+   "mechanism_note": "Long-term disability (income replacement after six months): recorded without a duration (schema section 2).",
+   "rule_applied": [
+    "M1",
+    "U5"
+   ],
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "stated in the sick-leave paragraph for faculty whose regular term of appointment is less than 12 months ('the University's TIAA-CREF disability insurance')",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "payer": "insurance_plan",
+   "time_window": "after six months of disability",
+   "evidence": {
+    "faculty_group": [
+     "In any event, the University's TIAA- CREF disability insurance provides salary benefits after six months of disability."
+    ],
+    "eligible_parent": [
+     "In any event, the University's TIAA- CREF disability insurance provides salary benefits after six months of disability."
+    ],
+    "entitlement": [
+     "In any event, the University's TIAA- CREF disability insurance provides salary benefits after six months of disability."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "cross_reference_not_saved: TIAA-CREF disability insurance plan"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "In any event, the University's TIAA- CREF disability insurance provides salary benefits after six months of disability."
+    },
+    {
+     "field": "payer",
+     "rule": "M1",
+     "answer": "insurance_plan",
+     "quote": "In any event, the University's TIAA- CREF disability insurance provides salary benefits after six months of disability."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "In any event, the University's TIAA- CREF disability insurance provides salary benefits after six months of disability."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "This same philosophy prevails at NDSU with regard to sick leave for faculty whose regular term of appointment is less than 12 months."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own disability)",
+     "quote": "In any event, the University's TIAA- CREF disability insurance provides salary benefits after six months of disability."
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "In any event, the University's TIAA- CREF disability insurance provides salary benefits after six months of disability."
+    }
+   ]
+  },
+  {
+   "component_id": "north_dakota_state_university_c6",
+   "institution_label": "Extension of Probationary Period for Childbirth or Adoption",
+   "description": "A probationary faculty member who becomes a parent by birth or adoption before the portfolio year is automatically granted a one-year extension of the probationary period on written notification to the Provost.",
+   "mechanism": "tenure_clock",
+   "rule_applied": [
+    "V2",
+    "U9",
+    "R13"
+   ],
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "A probationary faculty member",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "becomes the parent of a child (or children in case of twins, triplets, etc.) by birth or adoption",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "'will automatically be granted ... upon written notification to the Provost': granted once notified (schema: granted upon request -> guaranteed_on_request).",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "exact"
+   },
+   "duration_note": "One year per birth/adoption occurrence; further extensions must be requested under 3.6 (discretionary, c7); total extension not to exceed three years. Any extension granted before the third-year review delays that review by an equal period. The member may return to the original review schedule at any time.",
+   "time_window": "prior to the year in which the portfolio is due",
+   "notice": "written notification to the Provost; may be initiated by the faculty member, the Department Chair/Head, or the Dean",
+   "evidence": {
+    "faculty_group": [
+     "A probationary faculty member who becomes the parent of a child (or children in case of twins, triplets, etc.) by birth or adoption, prior to the year in which the portfolio is due, will automatically be granted a one-year extension of the probationary period upon written notification to the Provost."
+    ],
+    "eligible_parent": [
+     "A probationary faculty member who becomes the parent of a child (or children in case of twins, triplets, etc.) by birth or adoption, prior to the year in which the portfolio is due, will automatically be granted a one-year extension of the probationary period upon written notification to the Provost."
+    ],
+    "entitlement": [
+     "A probationary faculty member who becomes the parent of a child (or children in case of twins, triplets, etc.) by birth or adoption, prior to the year in which the portfolio is due, will automatically be granted a one-year extension of the probationary period upon written notification to the Provost."
+    ],
+    "duration": [
+     "A probationary faculty member who becomes the parent of a child (or children in case of twins, triplets, etc.) by birth or adoption, prior to the year in which the portfolio is due, will automatically be granted a one-year extension of the probationary period upon written notification to the Provost."
+    ],
+    "time_window": [
+     "A probationary faculty member who becomes the parent of a child (or children in case of twins, triplets, etc.) by birth or adoption, prior to the year in which the portfolio is due, will automatically be granted a one-year extension of the probationary period upon written notification to the Provost."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_policy_352_promotion_tenure_2015capture",
+    "2018_03_policy_352_promotion_tenure_2019capture"
+   ],
+   "flags": [
+    "version_uncertain",
+    "ambiguous: restriction: total probationary-period extension not to exceed three years"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "A probationary faculty member who becomes the parent of a child (or children in case of twins, triplets, etc.) by birth or adoption, prior to the year in which the portfolio is due, will automatically be granted a one-year extension of the probationary period upon written notification to the Provost."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none (no pay; payer not coded for a tenure clock)",
+     "quote": "A probationary faculty member who becomes the parent of a child (or children in case of twins, triplets, etc.) by birth or adoption, prior to the year in which the portfolio is due, will automatically be granted a one-year extension of the probationary period upon written notification to the Provost."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "A probationary faculty member who becomes the parent of a child (or children in case of twins, triplets, etc.) by birth or adoption, prior to the year in which the portfolio is due, will automatically be granted a one-year extension of the probationary period upon written notification to the Provost."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "A probationary faculty member who becomes the parent of a child (or children in case of twins, triplets, etc.) by birth or adoption, prior to the year in which the portfolio is due, will automatically be granted a one-year extension of the probationary period upon written notification to the Provost."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "birth_parent, non_birth_parent, adoptive",
+     "quote": "A probationary faculty member who becomes the parent of a child (or children in case of twins, triplets, etc.) by birth or adoption, prior to the year in which the portfolio is due, will automatically be granted a one-year extension of the probationary period upon written notification to the Provost."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "A probationary faculty member who becomes the parent of a child (or children in case of twins, triplets, etc.) by birth or adoption, prior to the year in which the portfolio is due, will automatically be granted a one-year extension of the probationary period upon written notification to the Provost."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 year exact",
+     "quote": "A probationary faculty member who becomes the parent of a child (or children in case of twins, triplets, etc.) by birth or adoption, prior to the year in which the portfolio is due, will automatically be granted a one-year extension of the probationary period upon written notification to the Provost."
+    }
+   ]
+  },
+  {
+   "component_id": "north_dakota_state_university_c7",
+   "institution_label": "Extension of Probationary Period",
+   "description": "A probationary faculty member may request an extension of the probationary period, up to three years in total, for institutional, personal or family circumstances or personal illness or disability; the Provost approves or denies.",
+   "mechanism": "tenure_clock",
+   "rule_applied": [
+    "U1",
+    "V2",
+    "R13"
+   ],
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "a faculty member (during the probationary period); faculty given promotion and tenure credit are also eligible",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "family (pertaining to a child, spouse/partner or parent, as described in NDSU Policy 320) circumstances, personal illness or disability",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "entitlement_note": "'may request'; the Provost 'will approve or deny the request'.",
+   "duration": {
+    "value": 3,
+    "units": "year",
+    "qualifier": "up_to"
+   },
+   "duration_note": "Not to exceed a total of three years. Purposes include institutional circumstances (3.6.3) and personal circumstances, so the provision is general (U1).",
+   "time_window": "at any time during the probationary period but prior to the sixth year (or prior to the year in which the portfolio is due); notification within one year of the beginning of the event",
+   "notice": "Written notification to the Provost within one year of the beginning of the event, approved prior to July 1 of the portfolio year",
+   "evidence": {
+    "faculty_group": [
+     "a faculty member may request an extension of the probationary period not to exceed a total of three years based on institutional, personal or family (pertaining to a child, spouse/partner or parent, as described in NDSU Policy 320) circumstances, personal illness or disability, which, according to reasonable expectations, impede satisfactory progress towards promotion and tenure."
+    ],
+    "eligible_parent": [
+     "a faculty member may request an extension of the probationary period not to exceed a total of three years based on institutional, personal or family (pertaining to a child, spouse/partner or parent, as described in NDSU Policy 320) circumstances, personal illness or disability, which, according to reasonable expectations, impede satisfactory progress towards promotion and tenure."
+    ],
+    "entitlement": [
+     "a faculty member may request an extension of the probationary period not to exceed a total of three years based on institutional, personal or family (pertaining to a child, spouse/partner or parent, as described in NDSU Policy 320) circumstances, personal illness or disability, which, according to reasonable expectations, impede satisfactory progress towards promotion and tenure.",
+     "The request must be in writing and will be submitted to the Provost who will review the request and will approve or deny the request."
+    ],
+    "duration": [
+     "a faculty member may request an extension of the probationary period not to exceed a total of three years based on institutional, personal or family (pertaining to a child, spouse/partner or parent, as described in NDSU Policy 320) circumstances, personal illness or disability, which, according to reasonable expectations, impede satisfactory progress towards promotion and tenure."
+    ],
+    "notice": [
+     "Written notification to the Provost must be submitted within one year of the beginning of the event for which the extension is requested and approved prior to July 1 of the year in which the tenure/promotion portfolio is due."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_policy_352_promotion_tenure_2015capture",
+    "2018_03_policy_352_promotion_tenure_2019capture"
+   ],
+   "flags": [
+    "general_purpose",
+    "version_uncertain",
+    "cross_reference_not_saved: NDSU Policy 350.4 (appeals)",
+    "cross_reference_not_saved: NDSU Policy 168 (reasonable accommodation; medical documentation)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "a faculty member may request an extension of the probationary period not to exceed a total of three years based on institutional, personal or family (pertaining to a child, spouse/partner or parent, as described in NDSU Policy 320) circumstances, personal illness or disability, which, according to reasonable expectations, impede satisfactory progress towards promotion and tenure."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none (no pay; payer not coded for a tenure clock)",
+     "quote": "a faculty member may request an extension of the probationary period not to exceed a total of three years based on institutional, personal or family (pertaining to a child, spouse/partner or parent, as described in NDSU Policy 320) circumstances, personal illness or disability, which, according to reasonable expectations, impede satisfactory progress towards promotion and tenure."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "A probationary faculty member may be granted an extension of probationary period due to institutional circumstances"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "a faculty member may request an extension of the probationary period not to exceed a total of three years based on institutional, personal or family (pertaining to a child, spouse/partner or parent, as described in NDSU Policy 320) circumstances, personal illness or disability, which, according to reasonable expectations, impede satisfactory progress towards promotion and tenure."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "birth_parent, non_birth_parent, adoptive, foster (family circumstances pertaining to a child)",
+     "quote": "a faculty member may request an extension of the probationary period not to exceed a total of three years based on institutional, personal or family (pertaining to a child, spouse/partner or parent, as described in NDSU Policy 320) circumstances, personal illness or disability, which, according to reasonable expectations, impede satisfactory progress towards promotion and tenure."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "The request must be in writing and will be submitted to the Provost who will review the request and will approve or deny the request."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "3 year up_to ('not to exceed')",
+     "quote": "a faculty member may request an extension of the probationary period not to exceed a total of three years based on institutional, personal or family (pertaining to a child, spouse/partner or parent, as described in NDSU Policy 320) circumstances, personal illness or disability, which, according to reasonable expectations, impede satisfactory progress towards promotion and tenure."
+    }
+   ]
+  },
+  {
+   "component_id": "north_dakota_state_university_c8",
+   "institution_label": "Sick Leave",
+   "description": "Accrued sick leave (12 days a year, unlimited accumulation) for benefited staff and 12-month academic staff, usable for any period of disability caused by pregnancy; academic-year faculty are excluded.",
+   "mechanism": "own_accrual",
+   "rule_applied": [
+    "R1",
+    "V1",
+    "U5",
+    "V2"
+   ],
+   "faculty_group": "benefited staff employees, and benefited 12-month academic staff and other non-banded staff (Policy 143); full-time 12-month faculty (Policy 313)",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "maternity; disability caused or contributed to by pregnancy",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "'may be used ... for any period(s) of actual disability caused or contributed to by pregnancy' (V2: the employee may use the balance).",
+   "payer": "own_balance",
+   "medical_certification": true,
+   "medical_certification_note": "The department may require satisfactory medical verification prior to payment of sick leave.",
+   "duration_note": "No childbirth length: the period of actual disability, paid from the employee's balance (12 days a year for full-time staff; one working day per month for full-time 12-month faculty, Policy 313). Up to 40 hours may be advanced at the department head's discretion.",
+   "evidence": {
+    "mechanism": [
+     "Sick leave, including maternity, is a benefit granted by the University to eligible employees and is not a benefit considered to be earned by the employee such as annual leave.",
+     "Accumulated sick leave may be used for any period(s) of actual disability caused or contributed to by pregnancy."
+    ],
+    "faculty_group": [
+     "Sick leave is granted on the basis of continuous service from date of employment for benefited staff employees, and benefited 12-month academic staff and other non-banded staff.",
+     "Sick leave for full-time 12-month faculty accrues on the basis of one working day per month of service.",
+     "Faculty on an academic year appointment are not entitled to sick leave within this definition."
+    ],
+    "eligible_parent": [
+     "Accumulated sick leave may be used for any period(s) of actual disability caused or contributed to by pregnancy.",
+     "The employee is unable to work due to a mental or physical condition (including maternity)."
+    ],
+    "entitlement": [
+     "Accumulated sick leave may be used for any period(s) of actual disability caused or contributed to by pregnancy."
+    ],
+    "medical_certification": [
+     "The employing department may require satisfactory medical verification as deemed necessary by the department head prior to the payment of sick leave."
+    ]
+   },
+   "doc_ids": [
+    "2018_04_policy_143_sick_dependent_leave",
+    "2018_01_policy_313_annual_sick_leave"
+   ],
+   "flags": [
+    "excludes_main_faculty",
+    "cross_reference_not_saved: NDSU Policy 130 (annual leave; referred to in Policy 313)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "own_accrual",
+     "quote": "Sick leave for full-time eligible employees accrues based on rate per hour at a rate equivalent to 12 days per year."
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "own_balance",
+     "quote": "Accumulated sick leave may be used for any period(s) of actual disability caused or contributed to by pregnancy."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "The employee is unable to work due to a mental or physical condition (including maternity)."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "benefited staff employees, and benefited 12-month academic staff and other non-banded staff (Policy 143); full-time 12-month faculty (Policy 313)",
+     "quote": "Sick leave is granted on the basis of continuous service from date of employment for benefited staff employees, and benefited 12-month academic staff and other non-banded staff."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent",
+     "quote": "Accumulated sick leave may be used for any period(s) of actual disability caused or contributed to by pregnancy."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "Accumulated sick leave may be used for any period(s) of actual disability caused or contributed to by pregnancy."
+    }
+   ]
+  },
+  {
+   "component_id": "north_dakota_state_university_c9",
+   "institution_label": "",
+   "description": "Accrued sick leave usable to care for a newborn or a child placed for adoption, up to six weeks during the first six months; for staff and 12-month academic staff.",
+   "mechanism": "own_accrual",
+   "rule_applied": [
+    "R1",
+    "V2",
+    "R13"
+   ],
+   "faculty_group": "benefited staff employees, and benefited 12-month academic staff and other non-banded staff (Policy 143)",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "caring for a newborn child or for a child placed with the employee, by a licensed child-placing agency, for adoption or as a precondition to adoption",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "'Sick leave may be used by the employee when ...' (V2).",
+   "duration": {
+    "value": 6,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "duration_note": "'limited to six (6) weeks' of the employee's own sick-leave balance.",
+   "time_window": "during the first six (6) months from birth or placement",
+   "payer": "own_balance",
+   "evidence": {
+    "faculty_group": [
+     "Sick leave is granted on the basis of continuous service from date of employment for benefited staff employees, and benefited 12-month academic staff and other non-banded staff."
+    ],
+    "eligible_parent": [
+     "The employee is caring for a newborn child or for a child placed with the employee, by a licensed child-placing agency, for adoption or as a precondition to adoption, but not both."
+    ],
+    "entitlement": [
+     "The employee is caring for a newborn child or for a child placed with the employee, by a licensed child-placing agency, for adoption or as a precondition to adoption, but not both."
+    ],
+    "duration": [
+     "Sick leave in such cases is limited to six (6) weeks during the first six (6) months from birth or placement."
+    ],
+    "time_window": [
+     "Sick leave in such cases is limited to six (6) weeks during the first six (6) months from birth or placement."
+    ]
+   },
+   "doc_ids": [
+    "2018_04_policy_143_sick_dependent_leave",
+    "2018_01_policy_313_annual_sick_leave"
+   ],
+   "flags": [
+    "excludes_main_faculty"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "own_accrual",
+     "quote": "Sick leave for full-time eligible employees accrues based on rate per hour at a rate equivalent to 12 days per year."
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "own_balance",
+     "quote": "Sick leave in such cases is limited to six (6) weeks during the first six (6) months from birth or placement."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "The employee is caring for a newborn child or for a child placed with the employee, by a licensed child-placing agency, for adoption or as a precondition to adoption, but not both."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "benefited staff employees, and benefited 12-month academic staff and other non-banded staff (Policy 143)",
+     "quote": "Sick leave is granted on the basis of continuous service from date of employment for benefited staff employees, and benefited 12-month academic staff and other non-banded staff."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "birth_parent, non_birth_parent, adoptive",
+     "quote": "The employee is caring for a newborn child or for a child placed with the employee, by a licensed child-placing agency, for adoption or as a precondition to adoption, but not both."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "The employee is caring for a newborn child or for a child placed with the employee, by a licensed child-placing agency, for adoption or as a precondition to adoption, but not both."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "6 week up_to ('limited to')",
+     "quote": "Sick leave in such cases is limited to six (6) weeks during the first six (6) months from birth or placement."
+    }
+   ]
+  },
+  {
+   "component_id": "north_dakota_state_university_c10",
+   "institution_label": "",
+   "description": "Accrued sick leave usable to care for an ill family member (spouse included): 80 hours a year, or up to 480 hours in 12 months for a serious health condition; for staff and 12-month academic staff.",
+   "mechanism": "own_accrual",
+   "rule_applied": [
+    "R1",
+    "U5",
+    "V2",
+    "R13",
+    "R11"
+   ],
+   "faculty_group": "benefited staff employees, and benefited 12-month academic staff and other non-banded staff (Policy 143)",
+   "eligible_parent": [
+    "non_birth_parent"
+   ],
+   "eligible_parent_wording": "an eligible family member who is ill ... the employee's spouse",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "'Sick leave may be used by the employee when ...'; 'an employee may take up to' (V2).",
+   "duration": {
+    "value": 480,
+    "units": "hour",
+    "qualifier": "up_to"
+   },
+   "duration_note": "Up to 480 hours in any 12-month period for a serious health condition of a family member, including the 80 hours a calendar year allowed for other family illness.",
+   "payer": "own_balance",
+   "evidence": {
+    "faculty_group": [
+     "Sick leave is granted on the basis of continuous service from date of employment for benefited staff employees, and benefited 12-month academic staff and other non-banded staff."
+    ],
+    "eligible_parent": [
+     "The employee wishes to attend to the needs of an eligible family member who is ill or to assist them in obtaining other services related to their health.",
+     "Eligible family members include the employee's spouse,"
+    ],
+    "entitlement": [
+     "In the case of a serious health condition of an eligible family member, an employee may take up to a total of four-hundred-eighty (480) hours of sick leave in any twelve-month (12) period, including the eighty (80) hours in section 10.4 above."
+    ],
+    "duration": [
+     "In the case of a serious health condition of an eligible family member, an employee may take up to a total of four-hundred-eighty (480) hours of sick leave in any twelve-month (12) period, including the eighty (80) hours in section 10.4 above.",
+     "Sick leave used for the purposes described in 10.3 shall not exceed eighty (80) hours per calendar year."
+    ]
+   },
+   "doc_ids": [
+    "2018_04_policy_143_sick_dependent_leave"
+   ],
+   "flags": [
+    "excludes_main_faculty",
+    "family_illness_leave"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "own_accrual",
+     "quote": "Sick leave for full-time eligible employees accrues based on rate per hour at a rate equivalent to 12 days per year."
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "own_balance",
+     "quote": "In the case of a serious health condition of an eligible family member, an employee may take up to a total of four-hundred-eighty (480) hours of sick leave in any twelve-month (12) period, including the eighty (80) hours in section 10.4 above."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "The employee wishes to attend to the needs of an eligible family member who is ill or to assist them in obtaining other services related to their health."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "benefited staff employees, and benefited 12-month academic staff and other non-banded staff (Policy 143)",
+     "quote": "Sick leave is granted on the basis of continuous service from date of employment for benefited staff employees, and benefited 12-month academic staff and other non-banded staff."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "non_birth_parent (care of an ill spouse)",
+     "quote": "Eligible family members include the employee's spouse,"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "In the case of a serious health condition of an eligible family member, an employee may take up to a total of four-hundred-eighty (480) hours of sick leave in any twelve-month (12) period, including the eighty (80) hours in section 10.4 above."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "480 hour up_to",
+     "quote": "In the case of a serious health condition of an eligible family member, an employee may take up to a total of four-hundred-eighty (480) hours of sick leave in any twelve-month (12) period, including the eighty (80) hours in section 10.4 above."
+    }
+   ]
+  },
+  {
+   "component_id": "north_dakota_state_university_c11",
+   "institution_label": "Annual Leave",
+   "description": "Annual (vacation) leave accrued by 12-month faculty at 24 days a year; usable after a birth beyond the period of disability; not granted to academic-year faculty.",
+   "mechanism": "own_accrual",
+   "rule_applied": [
+    "R1",
+    "U1"
+   ],
+   "faculty_group": "12 month faculty",
+   "faculty_group_note": "Policy 313: 'All 12 month faculty'; 'Leave benefits are not granted to faculty on an academic year (9, 10, or 11 month) contract.'",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "payer": "own_balance",
+   "duration_note": "Accrual 16 hours a month, 24 days a year; no length for a birth.",
+   "evidence": {
+    "faculty_group": [
+     "All 12 month faculty shall be entitled to annual leave at the rate of 16 hours per month, 24 days per year.",
+     "Leave benefits are not granted to faculty on an academic year (9, 10, or 11 month) contract."
+    ],
+    "eligible_parent": [
+     "All 12 month faculty shall be entitled to annual leave at the rate of 16 hours per month, 24 days per year."
+    ],
+    "entitlement": [
+     "All 12 month faculty shall be entitled to annual leave at the rate of 16 hours per month, 24 days per year."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_policy_313_annual_sick_leave",
+    "2018_04_policy_143_sick_dependent_leave"
+   ],
+   "flags": [
+    "general_purpose",
+    "excludes_main_faculty",
+    "cross_reference_not_saved: NDSU Policy 130 (annual leave)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "own_accrual",
+     "quote": "All 12 month faculty shall be entitled to annual leave at the rate of 16 hours per month, 24 days per year."
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "own_balance",
+     "quote": "All 12 month faculty shall be entitled to annual leave at the rate of 16 hours per month, 24 days per year."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "All 12 month faculty shall be entitled to annual leave at the rate of 16 hours per month, 24 days per year."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "12 month faculty",
+     "quote": "Leave benefits are not granted to faculty on an academic year (9, 10, or 11 month) contract."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "All 12 month faculty shall be entitled to annual leave at the rate of 16 hours per month, 24 days per year."
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "All 12 month faculty shall be entitled to annual leave at the rate of 16 hours per month, 24 days per year."
+    }
+   ]
+  },
+  {
+   "component_id": "north_dakota_state_university_c12",
+   "institution_label": "",
+   "description": "After the period of pregnancy disability an employee covered by Policy 143 may request annual leave, family leave and/or leave without pay for an extended post-delivery period; no length stated.",
+   "mechanism": "unpaid_leave",
+   "rule_applied": [
+    "V2",
+    "R15",
+    "U1"
+   ],
+   "faculty_group": "benefited staff employees, and benefited 12-month academic staff and other non-banded staff (Policy 143)",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "post-delivery",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "entitlement_note": "'may request' with no grant language (V2).",
+   "duration_note": "No length stated.",
+   "payer": "none",
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "north_dakota_state_university_c8",
+     "note": "'Beyond the period of disability' paid from sick leave."
+    }
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Sick leave is granted on the basis of continuous service from date of employment for benefited staff employees, and benefited 12-month academic staff and other non-banded staff."
+    ],
+    "eligible_parent": [
+     "Beyond the period of disability, an employee may request use of annual leave, family leave, and/or leave without pay to provide for an extended post-delivery period away from work."
+    ],
+    "entitlement": [
+     "Beyond the period of disability, an employee may request use of annual leave, family leave, and/or leave without pay to provide for an extended post-delivery period away from work."
+    ],
+    "sequence": [
+     "Accumulated sick leave may be used for any period(s) of actual disability caused or contributed to by pregnancy.",
+     "Beyond the period of disability, an employee may request use of annual leave, family leave, and/or leave without pay to provide for an extended post-delivery period away from work."
+    ]
+   },
+   "doc_ids": [
+    "2018_04_policy_143_sick_dependent_leave"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "Beyond the period of disability, an employee may request use of annual leave, family leave, and/or leave without pay to provide for an extended post-delivery period away from work."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Beyond the period of disability, an employee may request use of annual leave, family leave, and/or leave without pay to provide for an extended post-delivery period away from work."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Beyond the period of disability, an employee may request use of annual leave, family leave, and/or leave without pay to provide for an extended post-delivery period away from work."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "benefited staff employees, and benefited 12-month academic staff and other non-banded staff (Policy 143)",
+     "quote": "Sick leave is granted on the basis of continuous service from date of employment for benefited staff employees, and benefited 12-month academic staff and other non-banded staff."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "birth_parent",
+     "quote": "Beyond the period of disability, an employee may request use of annual leave, family leave, and/or leave without pay to provide for an extended post-delivery period away from work."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "Beyond the period of disability, an employee may request use of annual leave, family leave, and/or leave without pay to provide for an extended post-delivery period away from work."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "consecutive_after c8",
+     "quote": "Beyond the period of disability, an employee may request use of annual leave, family leave, and/or leave without pay to provide for an extended post-delivery period away from work."
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "2018_00_link.txt is Policy 320.",
+  "Governing document for main-campus tenure-stream faculty: Policy 320 (faculty on less-than-12-month appointments, i.e. academic-year faculty, who receive no annual or sick leave under Policy 313). It sets the childbearing leave (c1), modified duties (c2), informal sick leave (c4) and refers to TIAA-CREF disability insurance (c5). Policy 313 and Policy 143 cover 12-month faculty and staff; their sick and annual leave components (c8-c12) are recorded with faculty_group naming that group; Policies 313 and 143 exclude academic-year faculty (c8-c11 flagged excludes_main_faculty).",
+  "Policy 352: the version in force on 2018-02-27 (amended April 2017) was not captured; 3.6 and 3.6.1 read in the 2015 capture and confirmed unchanged in the 2019 capture (version_uncertain on components citing it).",
+  "Birth parent chain: childbearing leave 6 weeks from delivery (c1, paid, with FMLA c3 12 weeks alongside from the birth) -> modified duties up to one semester, negotiated (c2, consecutive_after c1; may be extended to the end of the semester). Informal sick leave (c4) and LTD (c5) are generic plans, unlinked.",
+  "Non-birth parent chain: FMLA 12 weeks unpaid (c3); modified duties up to one semester, negotiated (c2, its link to c1 ignored for this role); tenure-clock extension one year (c6).",
+  "FMLA placement: Policy 320 s.5 says unpaid leave beyond the period of medical disability is 'available through FMLA'; coded concurrent_with the childbearing leave (S1) and flagged ambiguous on c3; if read as placing FMLA after the paid leave, birth-parent protected weeks would be 18 instead of 12.",
+  "Calendar: the documents refer to a semester (Policy 320 s.6.2) but state no length: calendar.kind = semester, and the term length follows R8's order.",
+  "Documents cited but not saved: NDSU Policy 100.1 (named in Policy 320 s.6.1 for longer-term modifications under the ADA); NDSU Policy 130 (annual leave; Policy 313); NDUS Human Resource Policy Manual Section 22 (source of Policy 135); the TIAA-CREF disability insurance plan (Policy 320 s.4); NDSU Policies 156, 168, 350.3, 350.4 and Section 353 (Policy 352; grievance, accommodation, appeals); Policies 151, 326, 332 (2019 capture of 352 only). None of these is expected to set parental leave for academic-year faculty, but Policy 100.1 and the TIAA-CREF plan could bear on disability provisions.",
+  "Policy 320 s.6.4: a period of modified duties is neither required for nor requires a tenure extension. Policy 352 4.4: an extension granted before the third-year review delays it by an equal period.",
+  "Policy 143 s.7 mentions advance sick leave up to 40 hours (discretionary) and 'shared leave'; no shared-leave programme is described in the saved documents."
+ ],
+ "statutory_floor": {
+  "jurisdiction": "US",
+  "year": "2018",
+  "weeks_birth": 12.0,
+  "weeks_nonbirth": 12.0,
+  "statute": "Family and Medical Leave Act (FMLA) (29 U.S.C. 2611-2612)",
+  "source_doc": "2026_00_us_fmla_29usc2612",
+  "table": "statutory_baseline.csv"
+ }
+}

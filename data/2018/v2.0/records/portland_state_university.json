@@ -1,0 +1,1766 @@
+{
+ "institution": "Portland State University",
+ "slug": "portland_state_university",
+ "country": "US",
+ "model": "claude-opus-5-5",
+ "codebook_version": "1.25",
+ "schema_version": "1.25",
+ "reference_date": "2018-02-17",
+ "calendar": {
+  "term_weeks": null,
+  "note": "R8: the agreement states a three-term academic year ('For a three-term (one academic year) sabbatical: 75% of base salary.'), i.e. quarters; length not stated, quarter default 11.",
+  "kind": "quarter"
+ },
+ "documents": [
+  {
+   "doc_id": "2018_00_link",
+   "url": "https://www.pdx.edu/hr/pregnancyparental-leave",
+   "title": "PSU Human Resources: Pregnancy/Parental Leave",
+   "version_or_effective_date": "undated HR page; Wayback capture 2018-09-14 (page footer '© 2018')",
+   "retrieved": "2026-10-20"
+  },
+  {
+   "doc_id": "2018_01_fmla_ofla",
+   "url": "https://www.pdx.edu/hr/federal-medical-leave-actoregon-family-leave-act",
+   "title": "PSU Human Resources: Federal Medical Leave Act/Oregon Family Leave Act",
+   "version_or_effective_date": "undated HR page; Wayback capture 2018-09-07",
+   "retrieved": "2026-10-20"
+  },
+  {
+   "doc_id": "2018_02_aaup_cba_2015_2019_amended_2017_06",
+   "title": "Procedures for Post-Tenure Review at Portland State University (2015-19 CBA, amended 2017 06Jun08)",
+   "version_or_effective_date": "amended 2017-06-08",
+   "retrieved": "2026-10-21",
+   "url": "https://www.psuaaup.net/assets/docs/AAUP_CBA_2015-2019_FINAL_zamended_2017_06Jun08_Procedures_for_post-tenure_review.pdf"
+  },
+  {
+   "doc_id": "2018_03_aaup_cba_2015_2019_amended_2016_09",
+   "title": "Collective Bargaining Agreement, PSU-AAUP and Portland State University, Dec 1, 2015 - Nov 30, 2019 (union compiled copy, amended 2016-09-30)",
+   "version_or_effective_date": "effective 2016-04-05",
+   "retrieved": "2026-10-21",
+   "url": "https://psuaaup.net/assets/docs/AAUP_CBA_2015-2019_FINAL_zamended_2016_09Sep30.pdf"
+  },
+  {
+   "doc_id": "2018_04_aaup_cba_2015_2019_signed",
+   "title": "Collective Bargaining Agreement, PSU-AAUP and Portland State University, 2015-2019 (Final Draft 6-22-16 with signatures)",
+   "version_or_effective_date": "effective 2016-04-05",
+   "retrieved": "2026-10-21",
+   "url": "https://www.pdx.edu/academic-affairs/sites/www.pdx.edu.academic-affairs/files/AAUP%20CBA%202015-2019_Final%20Draft%206-22-16%20w-signatures.pdf"
+  },
+  {
+   "doc_id": "2026_00_us_fmla_29usc2612",
+   "title": "29 U.S.C. 2612 (FMLA leave requirement)",
+   "url": "https://www.law.cornell.edu/uscode/text/29/2612",
+   "retrieved": "2026-10-19"
+  },
+  {
+   "doc_id": "2026_01_us_fmla_29usc2611_definitions",
+   "title": "29 U.S.C. 2611 (FMLA definitions)",
+   "url": "https://www.law.cornell.edu/uscode/text/29/2611",
+   "retrieved": "2026-10-19"
+  },
+  {
+   "doc_id": "2018_20_or_ors659A_2017_edition",
+   "title": "ORS chapter 659A, 2017 edition (OFLA, 659A.150-659A.186)",
+   "url": "https://www.oregonlegislature.gov/bills_laws/ors/ors659A.html",
+   "retrieved": "2026-10-31"
+  }
+ ],
+ "missing": false,
+ "scope_accounting": {
+  "C1": {
+   "components": [
+    "portland_state_university_c1",
+    "portland_state_university_c2",
+    "portland_state_university_c3"
+   ]
+  },
+  "C2": {
+   "absent": {
+    "documents": [
+     "2018_00_link",
+     "2018_01_fmla_ofla",
+     "2018_02_aaup_cba_2015_2019_amended_2017_06",
+     "2018_03_aaup_cba_2015_2019_amended_2016_09",
+     "2018_04_aaup_cba_2015_2019_signed"
+    ],
+    "terms": [
+     "modified duties",
+     "relief",
+     "release",
+     "teaching load",
+     "course reduction",
+     "workload",
+     "active service"
+    ]
+   }
+  },
+  "C3": {
+   "components": [
+    "portland_state_university_c4",
+    "portland_state_university_c5",
+    "portland_state_university_c6",
+    "portland_state_university_c7"
+   ]
+  },
+  "C4": {
+   "components": [
+    "portland_state_university_c1",
+    "portland_state_university_c2",
+    "portland_state_university_c3"
+   ],
+   "not_components": [
+    {
+     "statute": "ORS 659A.159(1)(d), 659A.162(3)(b) (OFLA sick-child leave)",
+     "reason": "care of a child with a non-serious illness requiring home care; not leave because of the birth (U5)"
+    },
+    {
+     "statute": "ORS 659A.159(1)(e), 659A.162(2) (OFLA bereavement leave)",
+     "reason": "death of a family member; not usable for a birth (checklist §1)"
+    },
+    {
+     "statute": "ORS 659A.177 (OFLA special rules for teachers)",
+     "reason": "not invoked by the documents; employer may require a teacher to stay on leave to the end of the term (U4)"
+    },
+    {
+     "statute": "29 U.S.C. 2612(a)(1)(E)-(F), (a)(3) (FMLA military exigency and caregiver leave)",
+     "reason": "not related to becoming a parent (U4)"
+    },
+    {
+     "statute": "Americans with Disabilities Act (ADA)",
+     "reason": "disability-accommodation statute; Sick Leave Bank may pay ADA leave (U4)"
+    },
+    {
+     "statute": "Fair Labor Standards Act / U.S. DOL regulations (LOA #8)",
+     "reason": "wage-and-hour classification; unrelated to becoming a parent (U4)"
+    },
+    {
+     "statute": "ORS 243.650(22), 243.666, 243.672, 243.702, 243.778, 243.800 (public employee collective bargaining)",
+     "reason": "bargaining, strikes, religious objection, separability; unrelated (U4)"
+    },
+    {
+     "statute": "ORS 238, 238A (PERS, OPSRP, IAP) and Internal Revenue Code 414(h)(2)",
+     "reason": "retirement contributions; unrelated (U4)"
+    },
+    {
+     "statute": "ORS chapter 656 (workers' compensation; cited in ORS 659A.150(3))",
+     "reason": "work injury; unrelated to becoming a parent (U4)"
+    },
+    {
+     "statute": "Former OAR 580-021-0040 (University standards on sick time)",
+     "reason": "administrative rule on sick time, not saved; the own sick leave it governs is coded as c4 (cross_reference_not_saved)"
+    },
+    {
+     "statute": "OAR 580-021-0029 and University Standards 580-021-0200 (career development leave; sabbatical)",
+     "reason": "career-development and sabbatical leave; not usable for a birth"
+    },
+    {
+     "statute": "University Standards 580-021-0100 to -0140, 580-021-0315, 580-021-0325, 577-040, 577-041, 580-022 (tenure, retrenchment, sanctions, personnel files, academic freedom)",
+     "reason": "unrelated to becoming a parent (U4)"
+    },
+    {
+     "statute": "HIPAA (MOU #5)",
+     "reason": "privacy; unrelated (U4)"
+    }
+   ]
+  },
+  "C5": {
+   "components": [
+    "portland_state_university_c1",
+    "portland_state_university_c2"
+   ]
+  },
+  "C6": {
+   "components": [
+    "portland_state_university_c11"
+   ]
+  },
+  "C7": {
+   "components": [
+    "portland_state_university_c8",
+    "portland_state_university_c9"
+   ]
+  },
+  "C8": {
+   "absent": {
+    "documents": [
+     "2018_00_link",
+     "2018_01_fmla_ofla",
+     "2018_02_aaup_cba_2015_2019_amended_2017_06",
+     "2018_03_aaup_cba_2015_2019_amended_2016_09",
+     "2018_04_aaup_cba_2015_2019_signed"
+    ],
+    "terms": [
+     "part-time",
+     "reduced",
+     "reduction in FTE",
+     "phased",
+     "half-time"
+    ]
+   }
+  },
+  "C9": {
+   "components": [
+    "portland_state_university_c10"
+   ]
+  },
+  "C10": {
+   "absent": {
+    "documents": [
+     "2018_00_link",
+     "2018_01_fmla_ofla",
+     "2018_02_aaup_cba_2015_2019_amended_2017_06",
+     "2018_03_aaup_cba_2015_2019_amended_2016_09",
+     "2018_04_aaup_cba_2015_2019_signed"
+    ],
+    "terms": [
+     "first days",
+     "FMLA-qualifying",
+     "paid as regular work time",
+     "with pay"
+    ]
+   }
+  }
+ },
+ "passage_dispositions": {
+  "2018_00_link#001": {
+   "used_in": [
+    "portland_state_university_c1",
+    "portland_state_university_c2",
+    "portland_state_university_c3",
+    "portland_state_university_c4",
+    "portland_state_university_c6"
+   ]
+  },
+  "2018_01_fmla_ofla#001": {
+   "used_in": [
+    "portland_state_university_c1",
+    "portland_state_university_c2",
+    "portland_state_university_c4",
+    "portland_state_university_c5"
+   ]
+  },
+  "2018_02_aaup_cba_2015_2019_amended_2017_06#001": {
+   "not_relevant": "title page and contents of the post-tenure review procedures"
+  },
+  "2018_02_aaup_cba_2015_2019_amended_2017_06#002": {
+   "used_in": [
+    "portland_state_university_c10"
+   ]
+  },
+  "2018_02_aaup_cba_2015_2019_amended_2017_06#003": {
+   "not_relevant": "personal circumstances such as maternity, paternity, adoption are a factor the review committee considers; no time off, pay or protection"
+  },
+  "2018_03_aaup_cba_2015_2019_amended_2016_09#001": {
+   "not_relevant": "dedication to Ron Narode; mentions the sick leave bank and advocacy for paid parental leave, no provision"
+  },
+  "2018_03_aaup_cba_2015_2019_amended_2016_09#002": {
+   "not_relevant": "table of contents"
+  },
+  "2018_03_aaup_cba_2015_2019_amended_2016_09#003": {
+   "not_relevant": "academic freedom and governance (Art. 12); no leave provision"
+  },
+  "2018_03_aaup_cba_2015_2019_amended_2016_09#004": {
+   "not_relevant": "nondiscrimination clause (Art. 13); no leave or pregnancy provision"
+  },
+  "2018_03_aaup_cba_2015_2019_amended_2016_09#005": {
+   "not_relevant": "career development leave without pay for academic professionals (Art. 17); not usable for a birth"
+  },
+  "2018_03_aaup_cba_2015_2019_amended_2016_09#006": {
+   "not_relevant": "definition of non-tenure-track faculty (Art. 18)"
+  },
+  "2018_03_aaup_cba_2015_2019_amended_2016_09#007": {
+   "not_relevant": "fixed-term appointments to fill vacancies caused by leave (Art. 18)"
+  },
+  "2018_03_aaup_cba_2015_2019_amended_2016_09#008": {
+   "not_relevant": "retrenchment budget curtailment options incl. voluntary leaves of absence (Art. 22); not a parental provision"
+  },
+  "2018_03_aaup_cba_2015_2019_amended_2016_09#009": {
+   "not_relevant": "laid-off members keep benefits of official leave without pay (Art. 22); not a parental provision"
+  },
+  "2018_03_aaup_cba_2015_2019_amended_2016_09#010": {
+   "not_relevant": "retrenchment termination dates (Art. 22)"
+  },
+  "2018_03_aaup_cba_2015_2019_amended_2016_09#011": {
+   "not_relevant": "grievance definitions (Art. 28)"
+  },
+  "2018_03_aaup_cba_2015_2019_amended_2016_09#012": {
+   "not_relevant": "grievance time limits extended for members on official leave (Art. 28)"
+  },
+  "2018_03_aaup_cba_2015_2019_amended_2016_09#013": {
+   "not_relevant": "promotion and post-tenure review salary increases (Art. 30)"
+  },
+  "2018_03_aaup_cba_2015_2019_amended_2016_09#014": {
+   "used_in": [
+    "portland_state_university_c1",
+    "portland_state_university_c2",
+    "portland_state_university_c3",
+    "portland_state_university_c4",
+    "portland_state_university_c5",
+    "portland_state_university_c6",
+    "portland_state_university_c7",
+    "portland_state_university_c8",
+    "portland_state_university_c9"
+   ]
+  },
+  "2018_03_aaup_cba_2015_2019_amended_2016_09#015": {
+   "not_relevant": "fixed-term faculty position description template"
+  },
+  "2018_03_aaup_cba_2015_2019_amended_2016_09#016": {
+   "not_relevant": "non-tenure-track appointment letter template"
+  },
+  "2018_03_aaup_cba_2015_2019_amended_2016_09#017": {
+   "not_relevant": "LOA #5 developmental review of NTT faculty"
+  },
+  "2018_03_aaup_cba_2015_2019_amended_2016_09#018": {
+   "not_relevant": "LOA #5 developmental review of NTT faculty"
+  },
+  "2018_03_aaup_cba_2015_2019_amended_2016_09#019": {
+   "not_relevant": "LOA #12 NTT transition to continuous appointment"
+  },
+  "2018_03_aaup_cba_2015_2019_amended_2016_09#020": {
+   "used_in": [
+    "portland_state_university_c11"
+   ]
+  },
+  "2018_03_aaup_cba_2015_2019_amended_2016_09#021": {
+   "not_relevant": "Appendix F notes (staff fee, multi-year contracts) and MOU #1 post-tenure review salary"
+  },
+  "2018_03_aaup_cba_2015_2019_amended_2016_09#022": {
+   "not_relevant": "MOU #4 GSE doctoral workload release; not parental"
+  },
+  "2018_04_aaup_cba_2015_2019_signed#001": {
+   "not_relevant": "dedication to Ron Narode; mentions the sick leave bank and advocacy for paid parental leave, no provision"
+  },
+  "2018_04_aaup_cba_2015_2019_signed#002": {
+   "not_relevant": "table of contents"
+  },
+  "2018_04_aaup_cba_2015_2019_signed#003": {
+   "not_relevant": "academic freedom and governance (Art. 12); no leave provision"
+  },
+  "2018_04_aaup_cba_2015_2019_signed#004": {
+   "not_relevant": "nondiscrimination clause (Art. 13); no leave or pregnancy provision"
+  },
+  "2018_04_aaup_cba_2015_2019_signed#005": {
+   "not_relevant": "career development leave without pay for academic professionals (Art. 17); not usable for a birth"
+  },
+  "2018_04_aaup_cba_2015_2019_signed#006": {
+   "not_relevant": "definition of non-tenure-track faculty (Art. 18)"
+  },
+  "2018_04_aaup_cba_2015_2019_signed#007": {
+   "not_relevant": "fixed-term appointments to fill vacancies caused by leave (Art. 18)"
+  },
+  "2018_04_aaup_cba_2015_2019_signed#008": {
+   "not_relevant": "retrenchment budget curtailment options incl. voluntary leaves of absence (Art. 22); not a parental provision"
+  },
+  "2018_04_aaup_cba_2015_2019_signed#009": {
+   "not_relevant": "laid-off members keep benefits of official leave without pay (Art. 22); not a parental provision"
+  },
+  "2018_04_aaup_cba_2015_2019_signed#010": {
+   "not_relevant": "retrenchment termination dates (Art. 22)"
+  },
+  "2018_04_aaup_cba_2015_2019_signed#011": {
+   "not_relevant": "grievance definitions (Art. 28)"
+  },
+  "2018_04_aaup_cba_2015_2019_signed#012": {
+   "not_relevant": "grievance time limits extended for members on official leave (Art. 28)"
+  },
+  "2018_04_aaup_cba_2015_2019_signed#013": {
+   "not_relevant": "promotion and post-tenure review salary increases (Art. 30)"
+  },
+  "2018_04_aaup_cba_2015_2019_signed#014": {
+   "used_in": [
+    "portland_state_university_c1",
+    "portland_state_university_c2",
+    "portland_state_university_c3",
+    "portland_state_university_c4",
+    "portland_state_university_c5",
+    "portland_state_university_c6",
+    "portland_state_university_c7",
+    "portland_state_university_c8",
+    "portland_state_university_c9"
+   ]
+  },
+  "2018_04_aaup_cba_2015_2019_signed#015": {
+   "not_relevant": "fixed-term faculty position description template"
+  },
+  "2018_04_aaup_cba_2015_2019_signed#016": {
+   "not_relevant": "non-tenure-track appointment letter template"
+  },
+  "2018_04_aaup_cba_2015_2019_signed#017": {
+   "not_relevant": "LOA #5 developmental review of NTT faculty"
+  },
+  "2018_04_aaup_cba_2015_2019_signed#018": {
+   "not_relevant": "LOA #5 developmental review of NTT faculty"
+  },
+  "2018_04_aaup_cba_2015_2019_signed#019": {
+   "not_relevant": "LOA #12 NTT transition to continuous appointment"
+  },
+  "2018_04_aaup_cba_2015_2019_signed#020": {
+   "used_in": [
+    "portland_state_university_c11"
+   ]
+  },
+  "2018_04_aaup_cba_2015_2019_signed#021": {
+   "not_relevant": "Appendix F notes (staff fee, multi-year contracts) and MOU #1 post-tenure review salary"
+  },
+  "2018_04_aaup_cba_2015_2019_signed#022": {
+   "not_relevant": "MOU #4 GSE doctoral workload release; not parental"
+  }
+ },
+ "mechanism_slots": {
+  "generic_sick_or_disability_plan": {
+   "components": [
+    "portland_state_university_c6",
+    "portland_state_university_c7"
+   ]
+  },
+  "own_accrual": {
+   "components": [
+    "portland_state_university_c4"
+   ]
+  },
+  "donated_leave": {
+   "components": [
+    "portland_state_university_c5"
+   ]
+  },
+  "unpaid_leave": {
+   "components": [
+    "portland_state_university_c1",
+    "portland_state_university_c2",
+    "portland_state_university_c3",
+    "portland_state_university_c11"
+   ]
+  },
+  "tenure_clock": {
+   "components": [
+    "portland_state_university_c8",
+    "portland_state_university_c9"
+   ]
+  },
+  "other": {
+   "components": [
+    "portland_state_university_c10"
+   ]
+  },
+  "employer_paid_leave": {
+   "absent": "searched 2018_00_link, 2018_01_fmla_ofla, 2018_02 PTR procedures, 2018_03/2018_04 PSU-AAUP agreement; terms: paid parental leave, paid leave, with pay, salary continuation"
+  },
+  "employer_childbirth_benefit": {
+   "absent": "searched 2018_00_link, 2018_01_fmla_ofla, 2018_02 PTR procedures, 2018_03/2018_04 PSU-AAUP agreement; terms: maternity leave with pay, childbirth, paid medical leave"
+  },
+  "government_benefit": {
+   "absent": "searched 2018_00_link, 2018_01_fmla_ofla, 2018_02 PTR procedures, 2018_03/2018_04 PSU-AAUP agreement; terms: paid family leave, Paid Leave Oregon, state program, benefit"
+  },
+  "employer_topup": {
+   "absent": "searched 2018_00_link, 2018_01_fmla_ofla, 2018_02 PTR procedures, 2018_03/2018_04 PSU-AAUP agreement; terms: top-up, supplement"
+  },
+  "modified_duties": {
+   "absent": "searched 2018_00_link, 2018_01_fmla_ofla, 2018_02 PTR procedures, 2018_03/2018_04 PSU-AAUP agreement; terms: modified duties, release, reduced teaching, workload"
+  },
+  "part_time_option": {
+   "absent": "searched 2018_00_link, 2018_01_fmla_ofla, 2018_02 PTR procedures, 2018_03/2018_04 PSU-AAUP agreement; terms: part-time, reduced FTE, phased return"
+  }
+ },
+ "baseline_accounting": {
+  "Family and Medical Leave Act (FMLA)": {
+   "components": [
+    "portland_state_university_c1"
+   ]
+  },
+  "Oregon Family Leave Act (OFLA)": {
+   "components": [
+    "portland_state_university_c2",
+    "portland_state_university_c3"
+   ]
+  },
+  "Paid Leave Oregon": {
+   "absent": "no saved document mentions it (the programme did not exist on the reference date)"
+  },
+  "Federal Employee Paid Leave Act (paid parental leave for federal civilian employees)": {
+   "not_applicable": "covers federal civilian employees only"
+  }
+ },
+ "leave_limits": [],
+ "components": [
+  {
+   "component_id": "portland_state_university_c1",
+   "institution_label": "Family Medical Leave Act (FMLA)",
+   "description": "Federal FMLA leave, which the agreement says the University will abide by and which tenure-track faculty may use: 12 workweeks of unpaid, job-protected leave for a birth and care of the child, adoption or foster placement, care of a spouse with a serious health condition (including pregnancy disability), or the employee's own serious health condition.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "bargaining unit members; \"a faculty member who holds a tenure-track appointment\" (CBA Art. 32 Sec. 1)",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "birth of a son or daughter of the employee; placement ... for adoption or foster care; care for the spouse",
+   "caregiver_condition": "none",
+   "service_requirement": "12 months of employment and 1,250 hours of service in the previous 12 months (29 U.S.C. 2611(2)(A))",
+   "dual_employee_rule": "husband and wife employed by the same employer may be limited to an aggregate 12 workweeks for birth or placement (29 U.S.C. 2612(f))",
+   "entitlement": "guaranteed",
+   "entitlement_note": "Statutory entitlement; the agreement commits the University to abide by it.",
+   "duration": {
+    "value": 12,
+    "units": "workweek",
+    "qualifier": "exact"
+   },
+   "duration_note": "'a total of 12 workweeks of leave during any 12-month period' (R13: a total with no qualifying word → exact). Runs concurrently with OFLA leave.",
+   "notice": "written notice to the department chair as soon as possible and/or at least 30 days before leave (CBA Art. 32 Sec. 1(b))",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "sequence": [
+    {
+     "relation": "concurrent_with",
+     "component_id": "portland_state_university_c3",
+     "roles": [
+      "birth"
+     ],
+     "note": "S1: the statutory leave runs alongside the OFLA pregnancy-disability leave from its start; FMLA covers the employee's own serious health condition and the birth."
+    },
+    {
+     "relation": "concurrent_with",
+     "component_id": "portland_state_university_c2",
+     "roles": [
+      "nonbirth"
+     ],
+     "note": "S1: FMLA and OFLA family leave run together for the non-birth parent (bonding or care of the spouse)."
+    }
+   ],
+   "statute_source": "29 U.S.C. 2612(a)(1)(A)-(D); eligibility 29 U.S.C. 2611(2)(A)",
+   "statute_verified": true,
+   "rule_applied": [
+    "U2",
+    "U4",
+    "S1",
+    "R9",
+    "U5",
+    "R13",
+    "U8"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "From time to time, a faculty member who holds a tenure-track appointment may qualify to take advantage of the provisions of the Family Medical Leave Act (FMLA) and/or the Oregon Family Leave Act (OFLA)."
+    ],
+    "eligible_parent": [
+     "Because of the birth of a son or daughter of the employee and in order to care for such son or daughter.",
+     "Because of the placement of a son or daughter with the employee for adoption or foster care.",
+     "In order to care for the spouse, or a son, daughter, or parent, of the employee, if such spouse, son, daughter, or parent has a serious health condition.",
+     "Because of a serious health condition that makes the employee unable to perform the functions of the position of such employee."
+    ],
+    "entitlement": [
+     "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period for one or more of the following:",
+     "The University will abide by State and Federal statutes concerning family/medical leave."
+    ],
+    "duration": [
+     "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period for one or more of the following:"
+    ],
+    "service_requirement": [
+     "for at least 12 months by the employer with respect to whom leave is requested under section 2612 of this title; and",
+     "for at least 1,250 hours of service with such employer during the previous 12-month period."
+    ],
+    "sequence": [
+     "Pregnancy Disability Leave (FMLA and OFLA)",
+     "From time to time, a faculty member who holds a tenure-track appointment may qualify to take advantage of the provisions of the Family Medical Leave Act (FMLA) and/or the Oregon Family Leave Act (OFLA)."
+    ],
+    "dual_employee_rule": [
+     "In any case in which a husband and wife entitled to leave under subsection (a) are employed by the same employer, the aggregate number of workweeks of leave to which both may be entitled may be limited to 12 workweeks during any 12-month period, if such leave is taken"
+    ],
+    "notice": [
+     "the bargaining unit member shall give written notice to the department chair as soon as possible and/or at least thirty (30) days prior to leave; exceptions are recognized as per statute."
+    ]
+   },
+   "doc_ids": [
+    "2018_03_aaup_cba_2015_2019_amended_2016_09",
+    "2018_00_link",
+    "2018_01_fmla_ofla",
+    "2026_00_us_fmla_29usc2612",
+    "2026_01_us_fmla_29usc2611_definitions"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "U4",
+     "answer": "unpaid_leave",
+     "quote": "From time to time, a faculty member who holds a tenure-track appointment may qualify to take advantage of the provisions of the Family Medical Leave Act (FMLA) and/or the Oregon Family Leave Act (OFLA)."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Even though these legal leaves are an unpaid benefit, you may be eligible to access your sick, vacation and other accruals to continue your pay."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "From time to time, a faculty member who holds a tenure-track appointment may qualify to take advantage of the provisions of the Family Medical Leave Act (FMLA) and/or the Oregon Family Leave Act (OFLA)."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (birth; own serious health condition), non_birth_parent (birth; care of spouse), adoptive, foster",
+     "quote": "In order to care for the spouse, or a son, daughter, or parent, of the employee, if such spouse, son, daughter, or parent has a serious health condition."
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period for one or more of the following:"
+    },
+    {
+     "field": "duration",
+     "rule": "U2",
+     "answer": "12 workweeks exact, from the saved statute",
+     "quote": "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period for one or more of the following:"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U2",
+     "answer": "12 months and 1,250 hours",
+     "quote": "for at least 1,250 hours of service with such employer during the previous 12-month period."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Because of a serious health condition that makes the employee unable to perform the functions of the position of such employee."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "formal leave: all duties relieved",
+     "quote": "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period for one or more of the following:"
+    },
+    {
+     "field": "sequence",
+     "rule": "S1",
+     "answer": "concurrent_with OFLA pregnancy-disability leave (birth) and OFLA family leave (non-birth)",
+     "quote": "Pregnancy Disability Leave (FMLA and OFLA)"
+    }
+   ]
+  },
+  {
+   "component_id": "portland_state_university_c2",
+   "institution_label": "Parental Leave (OFLA)",
+   "description": "Oregon Family Leave Act family leave named in the agreement and on the HR page: up to 12 weeks a year of unpaid, job-protected leave, including parental leave to care for a newborn, adopted or foster child (within 12 months of birth or placement), care of a family member (spouse) with a serious health condition including pregnancy disability, and the employee's own serious health condition.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "bargaining unit members; \"a faculty member who holds a tenure-track appointment\" (CBA Art. 32 Sec. 1); HR page for all employees",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "Birth parents, adoptive parents, and foster parents; care for an infant or newly adopted child ... newly placed foster child; family member (spouse)",
+   "caregiver_condition": "none",
+   "service_requirement": "180 days of employment before the leave (parental leave); for other purposes also an average of 25 hours a week over those 180 days (ORS 659A.156)",
+   "dual_employee_rule": "family members working for the same covered employer may not take concurrent family leave, except to care for each other or a seriously ill child (ORS 659A.162(4))",
+   "time_window": "parental leave must be completed within 12 months after birth or placement (ORS 659A.159(2)(a)); 'Must be used within a year of child’s birth'",
+   "entitlement": "guaranteed",
+   "entitlement_note": "Statutory entitlement ('is entitled to'); the agreement commits the University to abide by it.",
+   "duration": {
+    "value": 12,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "duration_note": "'up to a total of 12 weeks of family leave within any one-year period' (ORS 659A.162(1)); HR page: '12 weeks', 'consecutive or intermittent'. The 12 weeks are one pool for parental leave, family care, own serious health condition and (2017 edition) bereavement leave. ORS 659A.162(3)(b) adds up to 12 weeks of sick-child leave after 12 weeks of parental leave (not a component: U5).",
+   "notice": "written notice at least 30 days before leave (CBA Art. 32 Sec. 1(b); ORS 659A.165)",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "portland_state_university_c3",
+     "roles": [
+      "birth"
+     ],
+     "note": "S1a: ORS 659A.162(3)(a) makes the pregnancy-disability leave 'In addition to the 12 weeks of family leave', so for the birth parent the parental leave follows the disability leave. The HR page is silent on adding; S1a's example (Portland State left concurrent) conflicts with the saved statute: flagged."
+    }
+   ],
+   "statute_source": "ORS 659A.159(1)(a)-(c), 659A.162(1), 659A.156 (2017 edition)",
+   "statute_verified": true,
+   "rule_applied": [
+    "U2",
+    "U4",
+    "S1",
+    "S1a",
+    "R9",
+    "U5",
+    "R13",
+    "U1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "From time to time, a faculty member who holds a tenure-track appointment may qualify to take advantage of the provisions of the Family Medical Leave Act (FMLA) and/or the Oregon Family Leave Act (OFLA)."
+    ],
+    "eligible_parent": [
+     "Birth parents, adoptive parents, and foster parents.",
+     "To care for an infant or newly adopted child under 18 years of age, or for a newly placed foster child under 18 years of age",
+     "To care for a family member with a serious health condition.",
+     "“Family member” means the spouse of an employee",
+     "Any period of disability due to pregnancy, or period of absence for prenatal care."
+    ],
+    "entitlement": [
+     "an eligible employee is entitled to up to a total of 12 weeks of family leave within any one-year period.",
+     "The University will abide by State and Federal statutes concerning family/medical leave."
+    ],
+    "duration": [
+     "an eligible employee is entitled to up to a total of 12 weeks of family leave within any one-year period.",
+     "Parental Leave (OFLA) How much leave can I take? 12 weeks."
+    ],
+    "service_requirement": [
+     "All employees of a covered employer are eligible to take leave for the purpose specified in ORS 659A.159 (1)(a) except an employee who was employed by the covered employer for fewer than 180 days immediately before the date on which the family leave would commence.",
+     "An employee who worked an average of fewer than 25 hours per week for the covered employer during the 180 days immediately preceding the date on which the family leave would commence."
+    ],
+    "time_window": [
+     "Leave under subsection (1)(a) of this section must be completed within 12 months after birth or placement of the child",
+     "Must be used within a year of child’s birth."
+    ],
+    "sequence": [
+     "In addition to the 12 weeks of family leave authorized by subsection (1) of this section, a female eligible employee may take a total of 12 weeks of leave within any one-year period for an illness, injury or condition related to pregnancy or childbirth that disables the eligible employee from performing any available job duties offered by the covered employer."
+    ],
+    "dual_employee_rule": [
+     "When two or more family members work for the same covered employer, the eligible employees may not take concurrent family leave unless:"
+    ],
+    "notice": [
+     "a covered employer may require an eligible employee to give the employer written notice at least 30 days before commencing family leave."
+    ]
+   },
+   "doc_ids": [
+    "2018_03_aaup_cba_2015_2019_amended_2016_09",
+    "2018_00_link",
+    "2018_01_fmla_ofla",
+    "2018_20_or_ors659A_2017_edition"
+   ],
+   "flags": [
+    "ambiguous: rule gap: S1a's example says 'Portland State OFLA parental leave left concurrent (text silent on adding)', but the saved ORS 659A.162(3)(a) states the pregnancy-disability leave is 'In addition to the 12 weeks of family leave'; coded consecutive_after for the birth parent by the rule's text ('where the statute ... makes bonding leave additional')"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "U4",
+     "answer": "unpaid_leave",
+     "quote": "From time to time, a faculty member who holds a tenure-track appointment may qualify to take advantage of the provisions of the Family Medical Leave Act (FMLA) and/or the Oregon Family Leave Act (OFLA)."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Even though these legal leaves are an unpaid benefit, you may be eligible to access your sick, vacation and other accruals to continue your pay."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "From time to time, a faculty member who holds a tenure-track appointment may qualify to take advantage of the provisions of the Family Medical Leave Act (FMLA) and/or the Oregon Family Leave Act (OFLA)."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent, non_birth_parent (bonding; care of spouse during pregnancy disability), adoptive, foster",
+     "quote": "Birth parents, adoptive parents, and foster parents."
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "an eligible employee is entitled to up to a total of 12 weeks of family leave within any one-year period."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "12 weeks up_to ('up to a total of')",
+     "quote": "an eligible employee is entitled to up to a total of 12 weeks of family leave within any one-year period."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U2",
+     "answer": "180 days (parental purpose)",
+     "quote": "All employees of a covered employer are eligible to take leave for the purpose specified in ORS 659A.159 (1)(a) except an employee who was employed by the covered employer for fewer than 180 days immediately before the date on which the family leave would commence."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "To care for an infant or newly adopted child under 18 years of age, or for a newly placed foster child under 18 years of age"
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "formal leave: all duties relieved",
+     "quote": "an eligible employee is entitled to up to a total of 12 weeks of family leave within any one-year period."
+    },
+    {
+     "field": "sequence",
+     "rule": "S1a",
+     "answer": "consecutive_after the OFLA pregnancy-disability leave, birth parent only",
+     "quote": "In addition to the 12 weeks of family leave authorized by subsection (1) of this section, a female eligible employee may take a total of 12 weeks of leave within any one-year period for an illness, injury or condition related to pregnancy or childbirth that disables the eligible employee from performing any available job duties offered by the covered employer."
+    }
+   ]
+  },
+  {
+   "component_id": "portland_state_university_c3",
+   "institution_label": "Pregnancy Disability Leave (FMLA and OFLA)",
+   "description": "Leave for a female employee's incapacity related to pregnancy or childbirth, before or after the birth: 6 weeks for a vaginal birth, 8 for a cesarean, with pre-birth incapacity counting toward a maximum of 12 weeks; under OFLA it is in addition to the 12 weeks of family leave.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "bargaining unit members (CBA Art. 32 Sec. 1: State and Federal family/medical leave statutes); HR page: 'Female employees'",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "Female employees; a female eligible employee",
+   "caregiver_condition": "none",
+   "service_requirement": "180 days of employment and an average of 25 hours a week over those 180 days (ORS 659A.156(1))",
+   "entitlement": "guaranteed",
+   "entitlement_note": "Statutory leave ('may take a total of 12 weeks'); the employee's option, the employer has no discretion.",
+   "duration": {
+    "value": 6,
+    "units": "week",
+    "qualifier": "at_least"
+   },
+   "duration_max": {
+    "value": 12,
+    "units": "week"
+   },
+   "duration_variants": {
+    "vaginal": "6 weeks",
+    "c_section": "8 weeks",
+    "with pre-birth incapacity": "up to 12 weeks"
+   },
+   "duration_note": "R13b: 6 weeks (natural birth) or 8 (cesarean); time off for incapacity before the birth counts toward a maximum of 12 weeks (HR page); the statute allows a total of 12 weeks within one year for a disabling pregnancy-related condition (ORS 659A.162(3)(a)).",
+   "medical_certification_note": "Disability is the condition of the leave ('that disables the eligible employee'); no certification requirement is stated in the saved texts.",
+   "time_window": "within any one-year period (ORS 659A.162(3)(a))",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "statute_source": "ORS 659A.162(3)(a) (2017 edition); 29 U.S.C. 2612(a)(1)(D) runs concurrently",
+   "statute_verified": true,
+   "rule_applied": [
+    "U2",
+    "U4",
+    "U5",
+    "U6",
+    "R13b",
+    "R9",
+    "S1a"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "The University will abide by State and Federal statutes concerning family/medical leave."
+    ],
+    "eligible_parent": [
+     "Female employees for an incapacity related to pregnancy or childbirth.",
+     "In addition to the 12 weeks of family leave authorized by subsection (1) of this section, a female eligible employee may take a total of 12 weeks of leave within any one-year period for an illness, injury or condition related to pregnancy or childbirth that disables the eligible employee from performing any available job duties offered by the covered employer."
+    ],
+    "entitlement": [
+     "In addition to the 12 weeks of family leave authorized by subsection (1) of this section, a female eligible employee may take a total of 12 weeks of leave within any one-year period for an illness, injury or condition related to pregnancy or childbirth that disables the eligible employee from performing any available job duties offered by the covered employer.",
+     "You may take 6 weeks for natural birth and 8 weeks for cesarean section."
+    ],
+    "duration": [
+     "You may take 6 weeks for natural birth and 8 weeks for cesarean section.",
+     "If you become incapacitated before birth you may take additional time off. This time will count towards a maximum of 12 weeks off."
+    ],
+    "duration_max": [
+     "If you become incapacitated before birth you may take additional time off. This time will count towards a maximum of 12 weeks off.",
+     "In addition to the 12 weeks of family leave authorized by subsection (1) of this section, a female eligible employee may take a total of 12 weeks of leave within any one-year period for an illness, injury or condition related to pregnancy or childbirth that disables the eligible employee from performing any available job duties offered by the covered employer."
+    ],
+    "service_requirement": [
+     "An employee who worked an average of fewer than 25 hours per week for the covered employer during the 180 days immediately preceding the date on which the family leave would commence."
+    ],
+    "time_window": [
+     "In addition to the 12 weeks of family leave authorized by subsection (1) of this section, a female eligible employee may take a total of 12 weeks of leave within any one-year period for an illness, injury or condition related to pregnancy or childbirth that disables the eligible employee from performing any available job duties offered by the covered employer."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link",
+    "2018_03_aaup_cba_2015_2019_amended_2016_09",
+    "2018_20_or_ors659A_2017_edition"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "U6",
+     "answer": "unpaid_leave",
+     "quote": "Pregnancy Disability Leave (FMLA and OFLA)"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "You will receive pay if you have accrued paid leave (sick, vacation, personal)."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "The University will abide by State and Federal statutes concerning family/medical leave."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own disability)",
+     "quote": "Female employees for an incapacity related to pregnancy or childbirth."
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "In addition to the 12 weeks of family leave authorized by subsection (1) of this section, a female eligible employee may take a total of 12 weeks of leave within any one-year period for an illness, injury or condition related to pregnancy or childbirth that disables the eligible employee from performing any available job duties offered by the covered employer."
+    },
+    {
+     "field": "duration",
+     "rule": "R13b",
+     "answer": "6 weeks at_least, max 12 (8 cesarean; pre-birth incapacity up to a maximum of 12)",
+     "quote": "If you become incapacitated before birth you may take additional time off. This time will count towards a maximum of 12 weeks off."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U2",
+     "answer": "180 days and 25 hours a week average",
+     "quote": "An employee who worked an average of fewer than 25 hours per week for the covered employer during the 180 days immediately preceding the date on which the family leave would commence."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Female employees for an incapacity related to pregnancy or childbirth."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "formal leave: all duties relieved",
+     "quote": "You may take 6 weeks for natural birth and 8 weeks for cesarean section."
+    }
+   ]
+  },
+  {
+   "component_id": "portland_state_university_c4",
+   "institution_label": "",
+   "description": "Pay during FMLA/OFLA leave comes only from the employee's own accrued sick leave (and vacation or personal leave where the employee has it); sick leave must be used during a protected leave. An unearned sick leave advance may be available under University policy (not saved).",
+   "mechanism": "own_accrual",
+   "payer": "own_balance",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "bargaining unit members' 'own accrued sick leave' (CBA Art. 32 Sec. 2); HR page for all employees ('Classified and Unclassified staff')",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "Female employees (pregnancy disability); Birth parents, adoptive parents, and foster parents (parental leave)",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "entitlement_note": "ORS 659A.174(2): an employee on family leave 'is entitled to use any paid accrued sick leave or any paid accrued vacation leave'.",
+   "pay_fraction": "accrued paid leave (sick, vacation, personal)",
+   "must_exhaust_first": [],
+   "sequence": [
+    {
+     "relation": "within",
+     "component_id": "portland_state_university_c1",
+     "note": "S1: pay for the statutory leave, drawn from the employee's own balances, lies within FMLA/OFLA leave."
+    }
+   ],
+   "rule_applied": [
+    "R1",
+    "R1d",
+    "S1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "The member must have exhausted all of his/her own accrued sick leave."
+    ],
+    "eligible_parent": [
+     "You will receive pay if you have accrued paid leave (sick, vacation, personal).",
+     "Birth parents, adoptive parents, and foster parents.",
+     "Female employees for an incapacity related to pregnancy or childbirth."
+    ],
+    "entitlement": [
+     "An employee taking family leave is entitled to use any paid accrued sick leave or any paid accrued vacation leave during the period of family leave",
+     "You will receive pay if you have accrued paid leave (sick, vacation, personal)."
+    ],
+    "pay_fraction": [
+     "You will receive pay if you have accrued paid leave (sick, vacation, personal)."
+    ],
+    "sequence": [
+     "Even though these legal leaves are an unpaid benefit, you may be eligible to access your sick, vacation and other accruals to continue your pay.",
+     "Classified and Unclassified staff must use sick leave during a protected leave."
+    ],
+    "mechanism": [
+     "You will receive pay if you have accrued paid leave (sick, vacation, personal)."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link",
+    "2018_01_fmla_ofla",
+    "2018_03_aaup_cba_2015_2019_amended_2016_09",
+    "2018_20_or_ors659A_2017_edition"
+   ],
+   "flags": [
+    "cross_reference_not_saved: University standards governing use of sick time (former OAR 580-021-0040)",
+    "cross_reference_not_saved: University policy on unearned sick leave advance",
+    "ambiguous: restriction: sick leave must be used during a protected leave ('Classified and Unclassified staff must use sick leave during a protected leave'); whether faculty are 'Unclassified staff' is not stated"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "own_accrual",
+     "quote": "You will receive pay if you have accrued paid leave (sick, vacation, personal)."
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "own_balance",
+     "quote": "You will receive pay if you have accrued paid leave (sick, vacation, personal)."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "The member must have exhausted all of his/her own accrued sick leave."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "birth_parent, non_birth_parent, adoptive, foster",
+     "quote": "Birth parents, adoptive parents, and foster parents."
+    },
+    {
+     "field": "entitlement",
+     "rule": "U2",
+     "answer": "guaranteed",
+     "quote": "An employee taking family leave is entitled to use any paid accrued sick leave or any paid accrued vacation leave during the period of family leave"
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "R1",
+     "answer": "own accrued balances only; 0 paid weeks under the 2018 definition",
+     "quote": "You will receive pay if you have accrued paid leave (sick, vacation, personal)."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "You will receive pay if you have accrued paid leave (sick, vacation, personal)."
+    },
+    {
+     "field": "sequence",
+     "rule": "S1",
+     "answer": "within FMLA (pay during the statutory leave)",
+     "quote": "Even though these legal leaves are an unpaid benefit, you may be eligible to access your sick, vacation and other accruals to continue your pay."
+    }
+   ]
+  },
+  {
+   "component_id": "portland_state_university_c5",
+   "institution_label": "Donated Sick Leave Bank",
+   "description": "A colleague-funded sick leave bank for members who enrol (pledging three hours of their own sick leave): after exhausting their own sick leave, participants may draw up to 30 work days, then another 30 (60 work days per event) of paid time off during FMLA/OFLA leave, including maternity or paternity leave on the addition of a child by birth or adoption.",
+   "mechanism": "donated_leave",
+   "payer": "own_balance",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "\"bargaining unit members\" who participate in the Sick Leave Bank (CBA Art. 32 Sec. 2)",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "maternity leave or paternity leave upon the addition of a child to the member's family (whether by birth, adoption or otherwise)",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "V2: the participant 'may withdraw and use' and 'may request and receive' bank leave; approval sets the arrangements (a request form). Denials must be written with reasons and are grievable; no grounds are stated.",
+   "duration": {
+    "value": 60,
+    "units": "workday",
+    "qualifier": "up_to"
+   },
+   "duration_note": "Initial use 'up to 30 work days', then 'an additional 30 work days'; 'maximum ... for a single event is 60 work days at the member's regular FTE'. To be used before, not with, short- or long-term disability insurance, and before or after (not with) any unearned sick leave advance. The July 27, 2016 MOU revising Art. 32 Sec. 2 (scanned pages of 2018_03, no text) changes enrolment and donation mechanics, not these terms of use.",
+   "must_exhaust_first": [
+    "sick"
+   ],
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "portland_state_university_c4",
+     "note": "The member must first exhaust his or her own accrued sick leave."
+    }
+   ],
+   "rule_applied": [
+    "R1d",
+    "V2",
+    "R11",
+    "R13"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "The University will maintain a Donated Sick Leave Bank (the “Sick Leave Bank”) for bargaining unit members."
+    ],
+    "eligible_parent": [
+     "The Sick Leave Bank may be used to provide the member with paid time off during any leave that qualifies under FMLA, OFLA, the Americans with Disabilities Act (ADA), or the University standards governing use of sick time (former OAR 580-021-0040), including maternity leave or paternity leave upon the addition of a child to the member's family (whether by birth, adoption or otherwise)."
+    ],
+    "entitlement": [
+     "A bargaining unit member who participates in the Sick Leave Bank may withdraw and use sick leave from the Sick Leave Bank as follows:",
+     "The initial use of leave from the Sick Leave Bank may be for a period of up to 30 work days at the member's regular FTE. If the member needs additional leave at the end of the initial 30 days, the member may request and receive an additional 30 work days of paid leave from the Sick Leave Bank.",
+     "Any denial of a request for sick leave from the sick leave bank must be in writing and include the reason for the denial."
+    ],
+    "duration": [
+     "The initial use of leave from the Sick Leave Bank may be for a period of up to 30 work days at the member's regular FTE. If the member needs additional leave at the end of the initial 30 days, the member may request and receive an additional 30 work days of paid leave from the Sick Leave Bank.",
+     "The maximum amount of leave from the Sick Leave Bank that may be used for a single event is 60 work days at the member's regular FTE."
+    ],
+    "sequence": [
+     "The member must have exhausted all of his/her own accrued sick leave."
+    ],
+    "mechanism": [
+     "Upon enrolling in the Sick Leave Bank, a bargaining unit member irrevocably pledges three hours of the member's accrued sick leave for contribution to the Sick Leave Bank, regardless of the member's FTE."
+    ],
+    "must_exhaust_first": [
+     "The member must have exhausted all of his/her own accrued sick leave."
+    ]
+   },
+   "doc_ids": [
+    "2018_03_aaup_cba_2015_2019_amended_2016_09",
+    "2018_01_fmla_ofla"
+   ],
+   "flags": [
+    "ambiguous: restriction: only members enrolled in the Sick Leave Bank, who pledge three hours of their accrued sick leave",
+    "ambiguous: entitlement: denials are contemplated ('Any denial of a request ... must be in writing and include the reason') with no stated grounds; coded guaranteed_on_request (V2)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "donated_leave",
+     "quote": "The University will maintain a Donated Sick Leave Bank (the “Sick Leave Bank”) for bargaining unit members."
+    },
+    {
+     "field": "payer",
+     "rule": "R1d",
+     "answer": "own_balance",
+     "quote": "Upon enrolling in the Sick Leave Bank, a bargaining unit member irrevocably pledges three hours of the member's accrued sick leave for contribution to the Sick Leave Bank, regardless of the member's FTE."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "The University will maintain a Donated Sick Leave Bank (the “Sick Leave Bank”) for bargaining unit members."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "birth_parent (maternity), non_birth_parent (paternity), adoptive",
+     "quote": "The Sick Leave Bank may be used to provide the member with paid time off during any leave that qualifies under FMLA, OFLA, the Americans with Disabilities Act (ADA), or the University standards governing use of sick time (former OAR 580-021-0040), including maternity leave or paternity leave upon the addition of a child to the member's family (whether by birth, adoption or otherwise)."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "The initial use of leave from the Sick Leave Bank may be for a period of up to 30 work days at the member's regular FTE. If the member needs additional leave at the end of the initial 30 days, the member may request and receive an additional 30 work days of paid leave from the Sick Leave Bank."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "60 workdays up_to (30 + 30, maximum per event)",
+     "quote": "The maximum amount of leave from the Sick Leave Bank that may be used for a single event is 60 work days at the member's regular FTE."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "The Sick Leave Bank may be used to provide the member with paid time off during any leave that qualifies under FMLA, OFLA, the Americans with Disabilities Act (ADA), or the University standards governing use of sick time (former OAR 580-021-0040), including maternity leave or paternity leave upon the addition of a child to the member's family (whether by birth, adoption or otherwise)."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "consecutive_after own sick leave (must exhaust first)",
+     "quote": "The member must have exhausted all of his/her own accrued sick leave."
+    }
+   ]
+  },
+  {
+   "component_id": "portland_state_university_c6",
+   "institution_label": "short-term disability",
+   "description": "Short-term disability insurance, for employees who have it, pays during a pregnancy incapacity after all sick leave is exhausted and a one-week waiting period; no length or pay level is stated.",
+   "mechanism": "generic_sick_or_disability_plan",
+   "payer": "insurance_plan",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "HR page, all employees ('If you have short-term disability'); CBA: 'any short-term or long-term disability insurance that may be available to the member'",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "Female employees for an incapacity related to pregnancy or childbirth",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "entitlement_note": "No grant wording; the HR page states the plan's terms for those who carry it. Coverage itself is conditional (flagged).",
+   "must_exhaust_first": [
+    "sick"
+   ],
+   "time_window": "one-week waiting period during the incapacity",
+   "sequence": [
+    {
+     "relation": "concurrent_with",
+     "component_id": "portland_state_university_c3",
+     "start_offset_weeks": 1,
+     "note": "Waiting period: 'There is a week waiting period during the time period you are considered incapacitated' (brief 3.6). The CBA places Sick Leave Bank use before, not with, disability insurance."
+    }
+   ],
+   "rule_applied": [
+    "V1",
+    "R2",
+    "V6",
+    "M1",
+    "U5"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Leave from the Sick Leave Bank is to be used prior to, and not concurrently with, any short-term or long-term disability insurance that may be available to the member."
+    ],
+    "eligible_parent": [
+     "Female employees for an incapacity related to pregnancy or childbirth.",
+     "If you have short-term disability you must exhaust all sick leave. There is a week waiting period during the time period you are considered incapacitated."
+    ],
+    "entitlement": [
+     "If you have short-term disability you must exhaust all sick leave. There is a week waiting period during the time period you are considered incapacitated."
+    ],
+    "sequence": [
+     "If you have short-term disability you must exhaust all sick leave. There is a week waiting period during the time period you are considered incapacitated."
+    ],
+    "time_window": [
+     "If you have short-term disability you must exhaust all sick leave. There is a week waiting period during the time period you are considered incapacitated."
+    ],
+    "must_exhaust_first": [
+     "If you have short-term disability you must exhaust all sick leave. There is a week waiting period during the time period you are considered incapacitated."
+    ],
+    "mechanism": [
+     "If you have short-term disability you must exhaust all sick leave. There is a week waiting period during the time period you are considered incapacitated.",
+     "Leave from the Sick Leave Bank is to be used prior to, and not concurrently with, any short-term or long-term disability insurance that may be available to the member."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link",
+    "2018_03_aaup_cba_2015_2019_amended_2016_09"
+   ],
+   "flags": [
+    "ambiguous: restriction: only employees who carry short-term disability coverage ('If you have short-term disability'); who pays the premium is not stated",
+    "cross_reference_not_saved: PSU short-term disability plan (HR Optional Benefits)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "V1",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "If you have short-term disability you must exhaust all sick leave. There is a week waiting period during the time period you are considered incapacitated."
+    },
+    {
+     "field": "payer",
+     "rule": "M1",
+     "answer": "insurance_plan",
+     "quote": "Leave from the Sick Leave Bank is to be used prior to, and not concurrently with, any short-term or long-term disability insurance that may be available to the member."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Leave from the Sick Leave Bank is to be used prior to, and not concurrently with, any short-term or long-term disability insurance that may be available to the member."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own disability)",
+     "quote": "Female employees for an incapacity related to pregnancy or childbirth."
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "If you have short-term disability you must exhaust all sick leave. There is a week waiting period during the time period you are considered incapacitated."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "If you have short-term disability you must exhaust all sick leave. There is a week waiting period during the time period you are considered incapacitated."
+    },
+    {
+     "field": "sequence",
+     "rule": "R21",
+     "answer": "concurrent_with the pregnancy-disability leave, start_offset_weeks 1 (one-week waiting period)",
+     "quote": "If you have short-term disability you must exhaust all sick leave. There is a week waiting period during the time period you are considered incapacitated."
+    }
+   ]
+  },
+  {
+   "component_id": "portland_state_university_c7",
+   "institution_label": "long-term disability insurance",
+   "description": "Long-term disability insurance that 'may be available to the member'; named only as coming after Sick Leave Bank use. No terms stated.",
+   "mechanism": "generic_sick_or_disability_plan",
+   "payer": "insurance_plan",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "\"any short-term or long-term disability insurance that may be available to the member\" (bargaining unit member)",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "entitlement_note": "No grant wording; availability itself is uncertain (flagged).",
+   "rule_applied": [
+    "V6",
+    "M1",
+    "U5"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Leave from the Sick Leave Bank is to be used prior to, and not concurrently with, any short-term or long-term disability insurance that may be available to the member."
+    ],
+    "eligible_parent": [
+     "Leave from the Sick Leave Bank is to be used prior to, and not concurrently with, any short-term or long-term disability insurance that may be available to the member."
+    ],
+    "entitlement": [
+     "Leave from the Sick Leave Bank is to be used prior to, and not concurrently with, any short-term or long-term disability insurance that may be available to the member."
+    ]
+   },
+   "doc_ids": [
+    "2018_03_aaup_cba_2015_2019_amended_2016_09"
+   ],
+   "flags": [
+    "ambiguous: existence and terms of the plan not stated ('that may be available to the member')",
+    "cross_reference_not_saved: PSU long-term disability insurance plan"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "Leave from the Sick Leave Bank is to be used prior to, and not concurrently with, any short-term or long-term disability insurance that may be available to the member."
+    },
+    {
+     "field": "payer",
+     "rule": "M1",
+     "answer": "insurance_plan",
+     "quote": "Leave from the Sick Leave Bank is to be used prior to, and not concurrently with, any short-term or long-term disability insurance that may be available to the member."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Leave from the Sick Leave Bank is to be used prior to, and not concurrently with, any short-term or long-term disability insurance that may be available to the member."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own disability)",
+     "quote": "Leave from the Sick Leave Bank is to be used prior to, and not concurrently with, any short-term or long-term disability insurance that may be available to the member."
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "Leave from the Sick Leave Bank is to be used prior to, and not concurrently with, any short-term or long-term disability insurance that may be available to the member."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Leave from the Sick Leave Bank is to be used prior to, and not concurrently with, any short-term or long-term disability insurance that may be available to the member."
+    }
+   ]
+  },
+  {
+   "component_id": "portland_state_university_c8",
+   "institution_label": "",
+   "description": "Time granted for family or medical leave (FMLA/OFLA) does not count as continual service toward promotion and tenure: the tenure clock stops for the leave.",
+   "mechanism": "tenure_clock",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "\"a faculty member who holds a tenure-track appointment\"",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "a faculty member who ... may qualify to take advantage of the provisions of the Family Medical Leave Act (FMLA) and/or the Oregon Family Leave Act (OFLA)",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "entitlement_note": "'shall not be considered continual service'. U1: not general-purpose, since it is limited to FMLA/OFLA family or medical leave (FMLA-type events; OFLA's 2017 edition also lists bereavement).",
+   "duration_note": "The length of the family or medical leave granted.",
+   "rule_applied": [
+    "U1",
+    "R17"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "From time to time, a faculty member who holds a tenure-track appointment may qualify to take advantage of the provisions of the Family Medical Leave Act (FMLA) and/or the Oregon Family Leave Act (OFLA)."
+    ],
+    "eligible_parent": [
+     "From time to time, a faculty member who holds a tenure-track appointment may qualify to take advantage of the provisions of the Family Medical Leave Act (FMLA) and/or the Oregon Family Leave Act (OFLA)."
+    ],
+    "entitlement": [
+     "Time granted for family or medical leave shall not be considered continual service to the University for purpose of promotion and tenure."
+    ]
+   },
+   "doc_ids": [
+    "2018_03_aaup_cba_2015_2019_amended_2016_09"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "Time granted for family or medical leave shall not be considered continual service to the University for purpose of promotion and tenure."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "From time to time, a faculty member who holds a tenure-track appointment may qualify to take advantage of the provisions of the Family Medical Leave Act (FMLA) and/or the Oregon Family Leave Act (OFLA)."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "every parent who takes FMLA/OFLA leave",
+     "quote": "From time to time, a faculty member who holds a tenure-track appointment may qualify to take advantage of the provisions of the Family Medical Leave Act (FMLA) and/or the Oregon Family Leave Act (OFLA)."
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "Time granted for family or medical leave shall not be considered continual service to the University for purpose of promotion and tenure."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Time granted for family or medical leave shall not be considered continual service to the University for purpose of promotion and tenure."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Time granted for family or medical leave shall not be considered continual service to the University for purpose of promotion and tenure."
+    }
+   ]
+  },
+  {
+   "component_id": "portland_state_university_c9",
+   "institution_label": "",
+   "description": "A faculty member eligible for family or medical leave may ask the University to consider a special agreement extending the probationary period by up to one year, on written certification of eligibility from the benefits officer.",
+   "mechanism": "tenure_clock",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "faculty on the probationary period for promotion and tenure (tenure-track)",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "faculty member eligible for family or medical leave",
+   "caregiver_condition": "none",
+   "service_requirement": "eligibility for family or medical leave, certified in writing by the University benefits officer",
+   "entitlement": "negotiated",
+   "entitlement_note": "R12/V2: the University 'will consider entering into a special agreement' for 'up to one year': whether and how long are set by the agreement, with no guaranteed minimum.",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "up_to"
+   },
+   "time_window": "before mandatory consideration for indefinite tenure is given",
+   "rule_applied": [
+    "R12",
+    "V2",
+    "U1",
+    "R13"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "A faculty member who wishes to extend the probationary period for promotion and tenure must obtain written certification of eligibility for family or medical leave from the University benefits officer."
+    ],
+    "eligible_parent": [
+     "At the request of faculty member eligible for family or medical leave, the University will consider entering into a special agreement to extend the probationary period for up to one year before mandatory consideration for indefinite tenure is given."
+    ],
+    "entitlement": [
+     "At the request of faculty member eligible for family or medical leave, the University will consider entering into a special agreement to extend the probationary period for up to one year before mandatory consideration for indefinite tenure is given."
+    ],
+    "duration": [
+     "At the request of faculty member eligible for family or medical leave, the University will consider entering into a special agreement to extend the probationary period for up to one year before mandatory consideration for indefinite tenure is given."
+    ],
+    "service_requirement": [
+     "A faculty member who wishes to extend the probationary period for promotion and tenure must obtain written certification of eligibility for family or medical leave from the University benefits officer."
+    ],
+    "time_window": [
+     "At the request of faculty member eligible for family or medical leave, the University will consider entering into a special agreement to extend the probationary period for up to one year before mandatory consideration for indefinite tenure is given."
+    ]
+   },
+   "doc_ids": [
+    "2018_03_aaup_cba_2015_2019_amended_2016_09"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "At the request of faculty member eligible for family or medical leave, the University will consider entering into a special agreement to extend the probationary period for up to one year before mandatory consideration for indefinite tenure is given."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "A faculty member who wishes to extend the probationary period for promotion and tenure must obtain written certification of eligibility for family or medical leave from the University benefits officer."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "every parent eligible for family or medical leave",
+     "quote": "At the request of faculty member eligible for family or medical leave, the University will consider entering into a special agreement to extend the probationary period for up to one year before mandatory consideration for indefinite tenure is given."
+    },
+    {
+     "field": "entitlement",
+     "rule": "R12",
+     "answer": "negotiated",
+     "quote": "At the request of faculty member eligible for family or medical leave, the University will consider entering into a special agreement to extend the probationary period for up to one year before mandatory consideration for indefinite tenure is given."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 year up_to",
+     "quote": "At the request of faculty member eligible for family or medical leave, the University will consider entering into a special agreement to extend the probationary period for up to one year before mandatory consideration for indefinite tenure is given."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "certified eligibility for family or medical leave",
+     "quote": "A faculty member who wishes to extend the probationary period for promotion and tenure must obtain written certification of eligibility for family or medical leave from the University benefits officer."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "At the request of faculty member eligible for family or medical leave, the University will consider entering into a special agreement to extend the probationary period for up to one year before mandatory consideration for indefinite tenure is given."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "At the request of faculty member eligible for family or medical leave, the University will consider entering into a special agreement to extend the probationary period for up to one year before mandatory consideration for indefinite tenure is given."
+    }
+   ]
+  },
+  {
+   "component_id": "portland_state_university_c10",
+   "institution_label": "",
+   "description": "With the Dean's written agreement, tenured faculty may defer post-tenure review for personal circumstances such as pregnancy or adoption, among other reasons (promotion review, sabbatical, illness, eldercare, special assignments).",
+   "mechanism": "other",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "\"All AAUP-represented tenured faculty members\" undergo post-tenure review",
+   "eligible_parent": [
+    "birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "personal circumstances, such as illness, injury, pregnancy, adoption, or eldercare",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "entitlement_note": "V2: the deferral requires the Dean's written agreement, which decides whether there is a deferral.",
+   "notice": "requests for deferral by June 15 of the year the faculty member is notified",
+   "rule_applied": [
+    "U1",
+    "V2"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "All AAUP-represented tenured faculty members, tenured department chairs/unit heads, and program directors shall undergo post-tenure review."
+    ],
+    "eligible_parent": [
+     "With written agreement from the Dean, faculty are allowed to defer post-tenure review if review for promotion occurs within the same year, or for sabbatical, personal circumstances, such as illness, injury, pregnancy, adoption, or eldercare, and when returning from special assignments on- or off-campus, such as field research or professional or administrative positions."
+    ],
+    "entitlement": [
+     "With written agreement from the Dean, faculty are allowed to defer post-tenure review if review for promotion occurs within the same year, or for sabbatical, personal circumstances, such as illness, injury, pregnancy, adoption, or eldercare, and when returning from special assignments on- or off-campus, such as field research or professional or administrative positions."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_aaup_cba_2015_2019_amended_2017_06"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "other",
+     "quote": "With written agreement from the Dean, faculty are allowed to defer post-tenure review if review for promotion occurs within the same year, or for sabbatical, personal circumstances, such as illness, injury, pregnancy, adoption, or eldercare, and when returning from special assignments on- or off-campus, such as field research or professional or administrative positions."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "All AAUP-represented tenured faculty members, tenured department chairs/unit heads, and program directors shall undergo post-tenure review."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "birth_parent (pregnancy), adoptive (adoption)",
+     "quote": "With written agreement from the Dean, faculty are allowed to defer post-tenure review if review for promotion occurs within the same year, or for sabbatical, personal circumstances, such as illness, injury, pregnancy, adoption, or eldercare, and when returning from special assignments on- or off-campus, such as field research or professional or administrative positions."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "With written agreement from the Dean, faculty are allowed to defer post-tenure review if review for promotion occurs within the same year, or for sabbatical, personal circumstances, such as illness, injury, pregnancy, adoption, or eldercare, and when returning from special assignments on- or off-campus, such as field research or professional or administrative positions."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "With written agreement from the Dean, faculty are allowed to defer post-tenure review if review for promotion occurs within the same year, or for sabbatical, personal circumstances, such as illness, injury, pregnancy, adoption, or eldercare, and when returning from special assignments on- or off-campus, such as field research or professional or administrative positions."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "With written agreement from the Dean, faculty are allowed to defer post-tenure review if review for promotion occurs within the same year, or for sabbatical, personal circumstances, such as illness, injury, pregnancy, adoption, or eldercare, and when returning from special assignments on- or off-campus, such as field research or professional or administrative positions."
+    }
+   ]
+  },
+  {
+   "component_id": "portland_state_university_c11",
+   "institution_label": "LWOP",
+   "description": "Leave without pay, marked as available to tenure-track faculty in the previous Appendix F chart, reproduced in LOA #13 'for reference purposes only'; no purpose, length or approval terms are stated.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Appendix F chart row 'Tenure-track'",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "entitlement_note": "No grant wording; the chart lists the leave only. Coded discretionary (flagged).",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "rule_applied": [
+    "U1",
+    "R9",
+    "V2"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "APPENDIX F: AVAILABLE FACULTY AWARDS, REWARDS, AND LEAVES"
+    ],
+    "eligible_parent": [
+     "LWOP"
+    ],
+    "entitlement": [
+     "For reference purposes only, the previous Appendix F (without any changes to reflect 2015-2016 bargaining or other changed circumstances) is provided below:"
+    ]
+   },
+   "doc_ids": [
+    "2018_03_aaup_cba_2015_2019_amended_2016_09"
+   ],
+   "flags": [
+    "general_purpose",
+    "summary_only: 2018_03_aaup_cba_2015_2019_amended_2016_09",
+    "ambiguous: entitlement and purposes not stated; a reference chart in a non-contractual Letter of Agreement",
+    "cross_reference_not_saved: University leave-without-pay policy"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "LWOP"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "APPENDIX F: AVAILABLE FACULTY AWARDS, REWARDS, AND LEAVES"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent (no purpose stated)",
+     "quote": "LWOP"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "For reference purposes only, the previous Appendix F (without any changes to reflect 2015-2016 bargaining or other changed circumstances) is provided below:"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "LWOP"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "For reference purposes only, the previous Appendix F (without any changes to reflect 2015-2016 bargaining or other changed circumstances) is provided below:"
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "formal leave: all duties relieved",
+     "quote": "LWOP"
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "2018_00_link.txt is the HR Pregnancy/Parental Leave page; 2018_01_fmla_ofla.txt is the HR FMLA/OFLA page; 2018_02_aaup_cba_2015_2019_amended_2017_06.txt holds post-tenure review procedures only, despite the file name; 2018_03_aaup_cba_2015_2019_amended_2016_09.txt is the full agreement; 2018_04_aaup_cba_2015_2019_signed.txt is a copy of 2018_03. The scanned MOU pages of 2018_03 (PDF pp. 102-105, no text layer) hold the MOU of July 27, 2016 revising Art. 32 Sec. 2(b) and (f) (enrolment and donation mechanics of the Sick Leave Bank; use terms in 2(e) unchanged) and the MOU of Sept 9, 2016 replacing Appendix E2 (NTT position description). 2018_05 (sabbatical MOU) has no text.",
+  "Governing document: the PSU-AAUP collective agreement (2015-2019, effective April 5, 2016; in force on 2018-02-17) covers tenure-related faculty. Its only family-leave article (Art. 32) commits the University to the state and federal statutes (FMLA, OFLA), sets notice, a tenure-clock exclusion for family or medical leave time, a discretionary/negotiated tenure extension of up to one year, and the Donated Sick Leave Bank. It grants no paid parental leave, no modified duties and no teaching relief. The HR pages summarise FMLA/OFLA pregnancy-disability and parental leave and say pay comes only from accrued leave.",
+  "Birth parent chain: OFLA pregnancy-disability leave (6 weeks, 8 cesarean, up to 12 with pre-birth incapacity) → OFLA parental leave 12 weeks (S1a: 'In addition to'); FMLA 12 workweeks alongside from the start; pay only from own accrued sick leave (within FMLA) → Sick Leave Bank up to 60 work days for participants → short-term disability for those covered, after a one-week wait (no stated length). No employer-paid leave.",
+  "Non-birth parent chain: OFLA family leave 12 weeks (bonding, or care of the spouse during pregnancy disability) with FMLA 12 workweeks alongside; pay only from own accrued leave → Sick Leave Bank (paternity leave) for participants. No employer-paid leave.",
+  "S1a conflict (flagged on c2): rule S1a's example reads 'Portland State OFLA parental leave left concurrent (text silent on adding)', but the saved ORS 659A.162(3)(a) (2017 edition) says 'In addition to the 12 weeks of family leave ... a female eligible employee may take a total of 12 weeks of leave ... related to pregnancy or childbirth'. The rule's own text covers additions made by 'the statute or the institution's text'; I followed the rule text and coded c2 consecutive_after c3 for the birth parent. If the example governs, change that entry to concurrent_with.",
+  "Not components: sabbatical leave (Art. 33; study and research), career development leave without pay (Art. 17, Appendix F note 3), voluntary leaves of absence in retrenchment (Art. 22), temporary reassignment when an office presents a clear health or safety danger (Art. 24 Sec. 4; not pregnancy-specific), the PDP extension 'due to sabbatical or other approved leave' (PTR procedures IX.A.2; only after an unsatisfactory review), and personal circumstances such as maternity, paternity or adoption as a factor in post-tenure review (VI.C.2.iv.d). LOA #4 sets up a Work/Life Balance committee; no provision.",
+  "Calendar: the agreement describes a three-term academic year ('one-term', 'two-term' and 'three-term (one academic year)' sabbaticals; fall, winter and Summer terms): quarters; calendar.kind = quarter, and the term length follows R8's order. No component is measured in terms.",
+  "Documents cited but not saved: PSU Policy and Procedures for the Evaluation of Faculty for Tenure, Promotions, and Merit Increases (1996, rev. 2014-04-07); University standards on sick time (former OAR 580-021-0040); University policy on unearned sick leave advance; short-term and long-term disability insurance plans; OAR 580-021-0029 career development leave; Work/Life Policy (Aug 10, 2001); GSE Doctoral Faculty Workload Release Policy (Jan 21, 2015); HR pages linked from the saved pages (leave process page, Employee FMLA/OFLA Q&A, Medical Leave, Personal Leave, Sick Leave, Vacation & Personal Days, Optional Benefits); later MOUs to the 2018_03 agreement (Nov 2016 paid administrative leave, Dec 2016 sabbatical, etc.).",
+  "Reference date 2018-02-17. The agreement's term (Dec 1, 2015 - Nov 30, 2019) covers it; the HR pages are undated 2018 captures accepted under the reference-period rule (2017-18). No provision is flagged not_yet_effective."
+ ],
+ "statutory_floor": {
+  "jurisdiction": "US",
+  "year": "2018",
+  "weeks_birth": 12.0,
+  "weeks_nonbirth": 12.0,
+  "statute": "Family and Medical Leave Act (FMLA) (29 U.S.C. 2611-2612)",
+  "source_doc": "2026_00_us_fmla_29usc2612",
+  "table": "statutory_baseline.csv"
+ }
+}

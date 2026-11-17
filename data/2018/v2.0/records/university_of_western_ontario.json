@@ -1,0 +1,3539 @@
+{
+ "institution": "University of Western Ontario",
+ "slug": "university_of_western_ontario",
+ "country": "Canada",
+ "model": "claude-opus-5-5",
+ "codebook_version": "1.25",
+ "schema_version": "1.25",
+ "reference_date": "2018-02-26",
+ "documents": [
+  {
+   "doc_id": "2018_00_link",
+   "url": "http://www.uwo.ca/facultyrelations/pdf/collective_agreements/faculty.pdf",
+   "title": "Faculty Collective Agreement between The University of Western Ontario and The University of Western Ontario Faculty Association, July 1, 2014 - June 30, 2018",
+   "version_or_effective_date": "July 1, 2014 - June 30, 2018; revised Jan. 5, 2016 and Nov 2016; Wayback capture 2017-09-17; in force on 2018-02-26",
+   "retrieved": "2026-10-22"
+  },
+  {
+   "doc_id": "2018_01_fr_preparing_for_leave_guide",
+   "url": "https://web.archive.org/web/20180115031853id_/http://www.uwo.ca/facultyrelations/recruitment_retention/preparing_for_leave.html",
+   "title": "Preparing for Leaves - Western University (Faculty Relations)",
+   "version_or_effective_date": "undated; Wayback capture 2018-01-15 (reference academic year)",
+   "retrieved": "2026-10-22"
+  }
+ ],
+ "missing": false,
+ "leave_limits": [
+  {
+   "weeks": 104,
+   "components": [
+    "university_of_western_ontario_c14",
+    "university_of_western_ontario_c15"
+   ],
+   "roles": [
+    "birth",
+    "nonbirth"
+   ],
+   "note": "a Member shall not be on Leave for more than twenty-four months in any seven-year period (excluding Compassionate, Court, Pregnancy and Parental/Adoption and Sick Leave); recorded at its value for one event, window of seven years",
+   "evidence": [
+    "at least two years of full-time continuous service shall elapse between any two successive Leave periods, and a Member shall not be on Leave for more than twenty-four months in any seven-year period."
+   ],
+   "decision_log": [
+    {
+     "field": "leave_limits",
+     "rule": "R20",
+     "answer": "24 months = 104 weeks (52/12 per month); covers Leave of Absence c14 and Deferred Salary Leave c15, both roles; seven-year window in note",
+     "quote": "at least two years of full-time continuous service shall elapse between any two successive Leave periods, and a Member shall not be on Leave for more than twenty-four months in any seven-year period."
+    }
+   ]
+  }
+ ],
+ "components": [
+  {
+   "component_id": "university_of_western_ontario_c1",
+   "institution_label": "Pregnancy Leave",
+   "description": "Unpaid pregnancy leave of up to 17 weeks for a pregnant Member with 13 weeks of continuous service; the agreement restates Ontario ESA ss. 46-47 without adding length, so it is coded as the statute (pay comes from SEIB c4 and EI c6).",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Member (all persons employed as members of the academic staff; the bargaining unit)",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "A pregnant Member",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 17,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "duration_note": "'up to seventeen (17) weeks'; ESA s. 47 ends it 17 weeks after it began if the employee is entitled to parental leave, earlier on four weeks' notice (s. 47(2); agreement cl. 13).",
+   "service_requirement": "thirteen (13) weeks or more of continuous service",
+   "time_window": "may be initiated at any time within 17 weeks of the expected delivery date",
+   "notice": "written notice to the Dean, normally three months before the leave; not required if work stops because of complications, birth, stillbirth or miscarriage",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_note": "Cl. 11: not expected to work; cl. 9: not required to make up teaching; cl. 11.1: arrange supervision of graduate students and lab safety.",
+   "statute_source": "Ontario Employment Standards Act, 2000, ss. 46-47 (restated by Faculty Collective Agreement, Pregnancy and Parental/Adoption Leave cl. 1-1.3)",
+   "statute_verified": true,
+   "rule_applied": [
+    "U2",
+    "U4",
+    "R13",
+    "S1",
+    "U7"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Bargaining Unit shall mean all persons employed as members of the academic staff at The University of Western Ontario"
+    ],
+    "eligible_parent": [
+     "A pregnant Member shall be granted Pregnancy Leave of up to seventeen (17) weeks, provided she has been employed at the University for thirteen (13) weeks or more of continuous service at the time the Leave commences."
+    ],
+    "entitlement": [
+     "A pregnant Member shall be granted Pregnancy Leave of up to seventeen (17) weeks, provided she has been employed at the University for thirteen (13) weeks or more of continuous service at the time the Leave commences."
+    ],
+    "duration": [
+     "A pregnant Member shall be granted Pregnancy Leave of up to seventeen (17) weeks, provided she has been employed at the University for thirteen (13) weeks or more of continuous service at the time the Leave commences.",
+     "if she is entitled to parental leave, 17 weeks after the pregnancy leave began;",
+     "An employee may end her leave earlier than the day set out in subsection (1) by giving her employer written notice at least four weeks before the day she wishes to end her leave."
+    ],
+    "service_requirement": [
+     "A pregnant Member shall be granted Pregnancy Leave of up to seventeen (17) weeks, provided she has been employed at the University for thirteen (13) weeks or more of continuous service at the time the Leave commences."
+    ],
+    "relief": [
+     "Members taking Pregnancy and/or Parental/Adoption Leave are not expected to work during the period of Leave.",
+     "Members shall not be required to make up teaching that would otherwise have occurred during such Leave."
+    ],
+    "time_window": [
+     "Such a Leave may be initiated at any time within seventeen (17) weeks of the expected delivery date"
+    ],
+    "notice": [
+     "normally three (3) months prior to the commencement of the Leave"
+    ],
+    "statute_source": [
+     "A pregnant employee is entitled to a leave of absence without pay unless her due date falls fewer than 13 weeks after she commenced employment.",
+     "if she is entitled to parental leave, 17 weeks after the pregnancy leave began;",
+     "other leave entitlements under the Employment Standards Act."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "A pregnant employee is entitled to a leave of absence without pay unless her due date falls fewer than 13 weeks after she commenced employment."
+    },
+    {
+     "field": "mechanism",
+     "rule": "U4",
+     "answer": "unpaid_leave",
+     "quote": "if she is entitled to Parental Leave, seventeen (17) weeks after the Pregnancy Leave began;"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "A pregnant employee is entitled to a leave of absence without pay unless her due date falls fewer than 13 weeks after she commenced employment."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "A pregnant Member shall be granted Pregnancy Leave of up to seventeen (17) weeks, provided she has been employed at the University for thirteen (13) weeks or more of continuous service at the time the Leave commences."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Bargaining Unit shall mean all persons employed as members of the academic staff at The University of Western Ontario"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "birth_parent",
+     "quote": "A pregnant Member shall be granted Pregnancy Leave of up to seventeen (17) weeks, provided she has been employed at the University for thirteen (13) weeks or more of continuous service at the time the Leave commences."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "A pregnant Member shall be granted Pregnancy Leave of up to seventeen (17) weeks, provided she has been employed at the University for thirteen (13) weeks or more of continuous service at the time the Leave commences."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "17 weeks up_to",
+     "quote": "A pregnant Member shall be granted Pregnancy Leave of up to seventeen (17) weeks, provided she has been employed at the University for thirteen (13) weeks or more of continuous service at the time the Leave commences."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "13 weeks of continuous service",
+     "quote": "A pregnant Member shall be granted Pregnancy Leave of up to seventeen (17) weeks, provided she has been employed at the University for thirteen (13) weeks or more of continuous service at the time the Leave commences."
+    },
+    {
+     "field": "relief",
+     "rule": "schema",
+     "answer": "all duties relieved (stated)",
+     "quote": "Members taking Pregnancy and/or Parental/Adoption Leave are not expected to work during the period of Leave."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_western_ontario_c2",
+   "institution_label": "Parental/Adoption Leave",
+   "description": "Unpaid parental/adoption leave under the agreement: up to 35 weeks after a Pregnancy Leave, up to 37 weeks otherwise (lengths of the ESA before 2017-12-03); for the birth parent it starts when the Pregnancy Leave ends.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "A Member who becomes a parent (bargaining-unit academic staff)",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "A Member who becomes a parent of a newborn or newly-adopted child; the birth mother",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 35,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "duration_by_role": {
+    "birth": {
+     "value": 35,
+     "units": "week",
+     "qualifier": "up_to"
+    },
+    "nonbirth": {
+     "value": 37,
+     "units": "week",
+     "qualifier": "up_to"
+    }
+   },
+   "duration_note": "35 weeks if the Member also took Pregnancy Leave, 37 otherwise; may end earlier on four weeks' notice (cl. 13). Ontario ESA s. 49 in force on the reference date gives 61/63 weeks (coded as c3).",
+   "service_requirement": "none stated in the agreement",
+   "time_window": "except for the birth mother, must commence no later than 52 weeks after the birth or arrival of the child",
+   "notice": "written notice to the Dean at the earliest opportunity before the leave",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_note": "Cl. 11: not expected to work; cl. 9: not required to make up teaching.",
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "university_of_western_ontario_c1",
+     "roles": [
+      "birth"
+     ],
+     "note": "cl. 3(b): the Leave commences immediately following the Pregnancy Leave"
+    }
+   ],
+   "rule_applied": [
+    "R13",
+    "R15",
+    "R5",
+    "S1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Bargaining Unit shall mean all persons employed as members of the academic staff at The University of Western Ontario"
+    ],
+    "eligible_parent": [
+     "A Member who becomes a parent of a newborn or newly-adopted child or who takes custody of a child who is being placed for adoption with the Member",
+     "except where the Leave is to be taken by the birth mother of a child, the Leave shall commence no later than fifty-two (52) weeks after the day the child is born or first comes into the care or custody of the adoptive parent(s)."
+    ],
+    "entitlement": [
+     "shall be entitled to Parental/Adoption Leave of up to thirty-five (35) weeks if the Member has also taken Pregnancy Leave, or of up to thirty-seven (37) weeks otherwise."
+    ],
+    "duration": [
+     "shall be entitled to Parental/Adoption Leave of up to thirty-five (35) weeks if the Member has also taken Pregnancy Leave, or of up to thirty-seven (37) weeks otherwise.",
+     "A Member may end the Leave on a date earlier than that originally set out by providing written notice to the Member’s Dean at least four (4) weeks before the earlier date."
+    ],
+    "duration_by_role": [
+     "shall be entitled to Parental/Adoption Leave of up to thirty-five (35) weeks if the Member has also taken Pregnancy Leave, or of up to thirty-seven (37) weeks otherwise."
+    ],
+    "relief": [
+     "Members taking Pregnancy and/or Parental/Adoption Leave are not expected to work during the period of Leave.",
+     "Members shall not be required to make up teaching that would otherwise have occurred during such Leave."
+    ],
+    "sequence": [
+     "in cases where the Parental Leave is an extension of the Member’s Pregnancy Leave, the Leave shall commence immediately following the Pregnancy Leave"
+    ],
+    "time_window": [
+     "except where the Leave is to be taken by the birth mother of a child, the Leave shall commence no later than fifty-two (52) weeks after the day the child is born or first comes into the care or custody of the adoptive parent(s)."
+    ],
+    "notice": [
+     "at the earliest opportunity prior to the commencement of the Leave"
+    ],
+    "service_requirement": [
+     "shall be entitled to Parental/Adoption Leave of up to thirty-five (35) weeks if the Member has also taken Pregnancy Leave, or of up to thirty-seven (37) weeks otherwise."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "ambiguous: rule gap: the agreement's 35/37-week Parental/Adoption Leave was written for the ESA before 2017-12-03; ESA s. 49 in force on 2018-02-26 gives 61/63 weeks; coded as the institution's own leave concurrent with the statute (c3), not merged into it"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "shall be entitled to Parental/Adoption Leave of up to thirty-five (35) weeks if the Member has also taken Pregnancy Leave, or of up to thirty-seven (37) weeks otherwise."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "shall be entitled to Parental/Adoption Leave of up to thirty-five (35) weeks if the Member has also taken Pregnancy Leave, or of up to thirty-seven (37) weeks otherwise."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "A Member who becomes a parent of a newborn or newly-adopted child or who takes custody of a child who is being placed for adoption with the Member"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Bargaining Unit shall mean all persons employed as members of the academic staff at The University of Western Ontario"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "birth_parent, non_birth_parent, adoptive",
+     "quote": "A Member who becomes a parent of a newborn or newly-adopted child or who takes custody of a child who is being placed for adoption with the Member"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "shall be entitled to Parental/Adoption Leave of up to thirty-five (35) weeks if the Member has also taken Pregnancy Leave, or of up to thirty-seven (37) weeks otherwise."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "35 weeks up_to (lower role value)",
+     "quote": "shall be entitled to Parental/Adoption Leave of up to thirty-five (35) weeks if the Member has also taken Pregnancy Leave, or of up to thirty-seven (37) weeks otherwise."
+    },
+    {
+     "field": "duration_by_role",
+     "rule": "schema",
+     "answer": "birth 35 up_to; nonbirth 37 up_to",
+     "quote": "shall be entitled to Parental/Adoption Leave of up to thirty-five (35) weeks if the Member has also taken Pregnancy Leave, or of up to thirty-seven (37) weeks otherwise."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "none stated in the agreement",
+     "quote": "shall be entitled to Parental/Adoption Leave of up to thirty-five (35) weeks if the Member has also taken Pregnancy Leave, or of up to thirty-seven (37) weeks otherwise."
+    },
+    {
+     "field": "relief",
+     "rule": "schema",
+     "answer": "all duties relieved (stated)",
+     "quote": "Members taking Pregnancy and/or Parental/Adoption Leave are not expected to work during the period of Leave."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "consecutive_after c1 for the birth parent",
+     "quote": "in cases where the Parental Leave is an extension of the Member’s Pregnancy Leave, the Leave shall commence immediately following the Pregnancy Leave"
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_western_ontario_c3",
+   "institution_label": "",
+   "description": "Ontario ESA parental leave (s. 48-49) in force on the reference date: 61 weeks after a pregnancy leave, 63 weeks otherwise; runs alongside the agreement's Parental/Adoption Leave and, for the birth parent, begins when the pregnancy leave ends.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "employees (Members, academic staff) in Ontario",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "the parent of a child",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 61,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "duration_by_role": {
+    "birth": {
+     "value": 61,
+     "units": "week",
+     "qualifier": "up_to"
+    },
+    "nonbirth": {
+     "value": 63,
+     "units": "week",
+     "qualifier": "up_to"
+    }
+   },
+   "duration_note": "s. 49(1): ends 61 weeks after it began if the employee took pregnancy leave, 63 otherwise; may end earlier on notice (s. 49(2)). Transition s. 49(1.1) keeps 35/37 weeks for a child born before 2017-12-03, which does not apply on the reference date.",
+   "service_requirement": "at least 13 weeks of employment",
+   "time_window": "may begin no later than 78 weeks after the birth or arrival of the child",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "statute_source": "Ontario Employment Standards Act, 2000, ss. 48-49 (as amended 2017, c. 22, Sched. 1, in force 2017-12-03)",
+   "statute_verified": true,
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "university_of_western_ontario_c1",
+     "note": "ESA s. 48(3): parental leave begins when pregnancy leave ends"
+    },
+    {
+     "relation": "concurrent_with",
+     "component_id": "university_of_western_ontario_c2",
+     "note": "S1: statutory leave runs alongside the agreement's Parental/Adoption Leave; statutory remainder beyond 35/37 weeks unpaid"
+    }
+   ],
+   "rule_applied": [
+    "U2",
+    "U4",
+    "U7",
+    "S1",
+    "R9",
+    "R13",
+    "R15"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Bargaining Unit shall mean all persons employed as members of the academic staff at The University of Western Ontario"
+    ],
+    "eligible_parent": [
+     "An employee who has been employed by his or her employer for at least 13 weeks and who is the parent of a child is entitled to a leave of absence without pay following the birth of the child or the coming of the child into the employee’s custody, care and control for the first time."
+    ],
+    "entitlement": [
+     "An employee who has been employed by his or her employer for at least 13 weeks and who is the parent of a child is entitled to a leave of absence without pay following the birth of the child or the coming of the child into the employee’s custody, care and control for the first time."
+    ],
+    "duration": [
+     "An employee’s parental leave ends 61 weeks after it began, if the employee also took pregnancy leave and 63 weeks after it began, otherwise.",
+     "An employee may end his or her parental leave earlier than the day set out in subsection (1) by giving the employer written notice at least four weeks before the day he or she wishes to end the leave."
+    ],
+    "duration_by_role": [
+     "An employee’s parental leave ends 61 weeks after it began, if the employee also took pregnancy leave and 63 weeks after it began, otherwise."
+    ],
+    "service_requirement": [
+     "An employee who has been employed by his or her employer for at least 13 weeks and who is the parent of a child is entitled to a leave of absence without pay following the birth of the child or the coming of the child into the employee’s custody, care and control for the first time."
+    ],
+    "sequence": [
+     "An employee who has taken pregnancy leave must begin her parental leave when her pregnancy leave ends unless the child has not yet come into her custody, care and control for the first time."
+    ],
+    "time_window": [
+     "An employee may begin parental leave no later than 78 weeks after the day the child is born or comes into the employee’s custody, care and control for the first time."
+    ],
+    "statute_source": [
+     "other leave entitlements under the Employment Standards Act.",
+     "An employee’s parental leave ends 61 weeks after it began, if the employee also took pregnancy leave and 63 weeks after it began, otherwise."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link",
+    "2018_21_on_esa2000"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "U4",
+     "answer": "unpaid_leave",
+     "quote": "other leave entitlements under the Employment Standards Act."
+    },
+    {
+     "field": "mechanism",
+     "rule": "U2",
+     "answer": "unpaid_leave",
+     "quote": "An employee who has been employed by his or her employer for at least 13 weeks and who is the parent of a child is entitled to a leave of absence without pay following the birth of the child or the coming of the child into the employee’s custody, care and control for the first time."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "An employee who has been employed by his or her employer for at least 13 weeks and who is the parent of a child is entitled to a leave of absence without pay following the birth of the child or the coming of the child into the employee’s custody, care and control for the first time."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "An employee who has been employed by his or her employer for at least 13 weeks and who is the parent of a child is entitled to a leave of absence without pay following the birth of the child or the coming of the child into the employee’s custody, care and control for the first time."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Bargaining Unit shall mean all persons employed as members of the academic staff at The University of Western Ontario"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U2",
+     "answer": "birth_parent, non_birth_parent, adoptive",
+     "quote": "An employee who has been employed by his or her employer for at least 13 weeks and who is the parent of a child is entitled to a leave of absence without pay following the birth of the child or the coming of the child into the employee’s custody, care and control for the first time."
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "An employee who has been employed by his or her employer for at least 13 weeks and who is the parent of a child is entitled to a leave of absence without pay following the birth of the child or the coming of the child into the employee’s custody, care and control for the first time."
+    },
+    {
+     "field": "duration",
+     "rule": "U2",
+     "answer": "61 weeks up_to (birth); 63 nonbirth",
+     "quote": "An employee’s parental leave ends 61 weeks after it began, if the employee also took pregnancy leave and 63 weeks after it began, otherwise."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "up_to: may end earlier on notice",
+     "quote": "An employee may end his or her parental leave earlier than the day set out in subsection (1) by giving the employer written notice at least four weeks before the day he or she wishes to end the leave."
+    },
+    {
+     "field": "duration_by_role",
+     "rule": "U2",
+     "answer": "birth 61; nonbirth 63",
+     "quote": "An employee’s parental leave ends 61 weeks after it began, if the employee also took pregnancy leave and 63 weeks after it began, otherwise."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U2",
+     "answer": "13 weeks of employment",
+     "quote": "An employee who has been employed by his or her employer for at least 13 weeks and who is the parent of a child is entitled to a leave of absence without pay following the birth of the child or the coming of the child into the employee’s custody, care and control for the first time."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "formal leave: all duties relieved",
+     "quote": "An employee who has been employed by his or her employer for at least 13 weeks and who is the parent of a child is entitled to a leave of absence without pay following the birth of the child or the coming of the child into the employee’s custody, care and control for the first time."
+    },
+    {
+     "field": "sequence",
+     "rule": "S1",
+     "answer": "consecutive_after c1; concurrent_with c2",
+     "quote": "An employee who has taken pregnancy leave must begin her parental leave when her pregnancy leave ends unless the child has not yet come into her custody, care and control for the first time."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_western_ontario_c4",
+   "institution_label": "Supplemental Employment Insurance Benefits (SEIB)",
+   "description": "Employer SEIB during Pregnancy Leave: 100% of salary for the initial two-week waiting period, then the difference between EI and 95% of salary, for a maximum of 17 weeks of paid leave.",
+   "mechanism": "employer_topup",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Member with a Full-Time Appointment or Standing Appointment",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "her Pregnancy Leave",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 17,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "duration_note": "A stated envelope of 'a maximum of seventeen (17) weeks paid Leave' covering both stages of cl. 4 (V4). The two-week employer stage is written for the former two-week EI delay; coded as written (R21).",
+   "pay_fraction": "100% of salary for the initial two-week waiting period, then the difference between EI benefits and 95% of salary",
+   "pay_cap": "SEIB, EI and other earnings may not exceed 100% of salary at the start of the leave",
+   "service_requirement": "one year of continuous regular employment; Full-Time or Standing Appointment; must apply for, qualify for and receive EI",
+   "sequence": [
+    {
+     "relation": "within",
+     "component_id": "university_of_western_ontario_c1",
+     "note": "paid 'during her Pregnancy Leave', from the start of the leave (employer pays the waiting weeks)"
+    }
+   ],
+   "rule_applied": [
+    "V4",
+    "R7",
+    "R21",
+    "S1",
+    "R15",
+    "R20"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "the Member has a Full-Time Appointment or Standing Appointment at the time the Leave commences; and"
+    ],
+    "eligible_parent": [
+     "A Member is entitled to Supplemental Employment Insurance Benefits (SEIB) during her Pregnancy Leave provided that:"
+    ],
+    "entitlement": [
+     "A Member is entitled to Supplemental Employment Insurance Benefits (SEIB) during her Pregnancy Leave provided that:"
+    ],
+    "duration": [
+     "A Member who qualifies under the provisions in Clause 1.2 is eligible for a maximum of seventeen (17) weeks paid Leave under the conditions set out in Clauses 4, 4.1 and 4.2."
+    ],
+    "pay_fraction": [
+     "100% of salary at the time of the initiation of the Leave paid by the Employer, for the initial two-week waiting period prior to the commencement of the Employment Insurance Benefits and;",
+     "the difference between Employment Insurance Benefits receivable and 95% of the salary at the time of the initiation of the Leave, paid by the Employer."
+    ],
+    "service_requirement": [
+     "the Member has been employed by the University on a continuous regular basis for a period of one (1) year or more at the time the Leave commences;",
+     "the Member has a Full-Time Appointment or Standing Appointment at the time the Leave commences; and",
+     "the Member makes application, qualifies for and receives Employment Insurance Benefits."
+    ],
+    "sequence": [
+     "A Member is entitled to Supplemental Employment Insurance Benefits (SEIB) during her Pregnancy Leave provided that:"
+    ],
+    "pay_cap": [
+     "In no case shall the total amount of the Supplementary Employment Insurance Benefits, Employment Insurance Benefits and any other earnings received by the Member exceed 100% of the Member’s salary at the time of the initiation of the Leave."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "ambiguous: restriction: combined cap 24 weeks on c4 and c5 (SEIB paid weeks under Pregnancy and Parental/Adoption Leave)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "employer_topup",
+     "quote": "the difference between Employment Insurance Benefits receivable and 95% of the salary at the time of the initiation of the Leave, paid by the Employer."
+    },
+    {
+     "field": "mechanism",
+     "rule": "V4",
+     "answer": "employer_topup",
+     "quote": "A Member who qualifies under the provisions in Clause 1.2 is eligible for a maximum of seventeen (17) weeks paid Leave under the conditions set out in Clauses 4, 4.1 and 4.2."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "the difference between Employment Insurance Benefits receivable and 95% of the salary at the time of the initiation of the Leave, paid by the Employer."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "A Member is entitled to Supplemental Employment Insurance Benefits (SEIB) during her Pregnancy Leave provided that:"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "the Member has a Full-Time Appointment or Standing Appointment at the time the Leave commences; and"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "birth_parent",
+     "quote": "A Member is entitled to Supplemental Employment Insurance Benefits (SEIB) during her Pregnancy Leave provided that:"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "A Member is entitled to Supplemental Employment Insurance Benefits (SEIB) during her Pregnancy Leave provided that:"
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "17 weeks up_to",
+     "quote": "A Member who qualifies under the provisions in Clause 1.2 is eligible for a maximum of seventeen (17) weeks paid Leave under the conditions set out in Clauses 4, 4.1 and 4.2."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "R21",
+     "answer": "staged as written: 100% two weeks, then top-up to 95%",
+     "quote": "100% of salary at the time of the initiation of the Leave paid by the Employer, for the initial two-week waiting period prior to the commencement of the Employment Insurance Benefits and;"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U8",
+     "answer": "one year of service, met by a member with two years",
+     "quote": "the Member has been employed by the University on a continuous regular basis for a period of one (1) year or more at the time the Leave commences;"
+    },
+    {
+     "field": "sequence",
+     "rule": "S1",
+     "answer": "within c1 from its start",
+     "quote": "A Member is entitled to Supplemental Employment Insurance Benefits (SEIB) during her Pregnancy Leave provided that:"
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_western_ontario_c5",
+   "institution_label": "Supplemental Employment Insurance Benefits (SEIB)",
+   "description": "Employer SEIB during Parental/Adoption Leave on the same terms (100% for the two-week waiting period, then top-up of EI to 95%), a maximum of 24 weeks of paid leave inclusive of any SEIB received during Pregnancy Leave.",
+   "mechanism": "employer_topup",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Member employed on a continuous regular Full-Time basis",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "his or her Parental/Adoption Leave",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 24,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "duration_note": "'a maximum of twenty-four (24) weeks paid Leave, inclusive of any paid Leave received under Clause 1.2.1': for a birth parent who received 17 weeks under c4 this leaves 7; the shared cap is flagged, not resolved by arithmetic.",
+   "pay_fraction": "100% of salary for the initial two-week waiting period, then the difference between EI benefits and 95% of salary",
+   "pay_cap": "SEIB, EI and other earnings may not exceed 100% of salary at the start of the leave",
+   "dual_employee_rule": "the 24 weeks may be taken by one parent or shared between the two parents",
+   "service_requirement": "one year of continuous regular Full-Time employment and Full-Time at the start of the leave; must apply for, qualify for and receive EI",
+   "sequence": [
+    {
+     "relation": "within",
+     "component_id": "university_of_western_ontario_c2",
+     "note": "paid 'during his or her Parental/Adoption Leave'"
+    }
+   ],
+   "rule_applied": [
+    "V4",
+    "R7",
+    "R21",
+    "R15",
+    "R20"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "the Member has been employed by the University on a continuous regular Full-Time basis for a period of one (1) year or more at the time the Leave commences and is Full-Time at the time the Leave commences;"
+    ],
+    "eligible_parent": [
+     "A Member is entitled to Supplemental Employment Insurance Benefits (SEIB) during his or her Parental/Adoption Leave provided that:",
+     "A Member who becomes a parent of a newborn or newly-adopted child or who takes custody of a child who is being placed for adoption with the Member"
+    ],
+    "entitlement": [
+     "A Member is entitled to Supplemental Employment Insurance Benefits (SEIB) during his or her Parental/Adoption Leave provided that:"
+    ],
+    "duration": [
+     "A Member who qualifies under the provisions in Clause 3.1 is eligible for a maximum of twenty-four (24) weeks paid Leave, inclusive of any paid Leave received under Clause 1.2.1, under the conditions set out in Clauses 4, 4.1, and 4.2."
+    ],
+    "pay_fraction": [
+     "100% of salary at the time of the initiation of the Leave paid by the Employer, for the initial two-week waiting period prior to the commencement of the Employment Insurance Benefits and;",
+     "the difference between Employment Insurance Benefits receivable and 95% of the salary at the time of the initiation of the Leave, paid by the Employer."
+    ],
+    "service_requirement": [
+     "the Member has been employed by the University on a continuous regular Full-Time basis for a period of one (1) year or more at the time the Leave commences and is Full-Time at the time the Leave commences;",
+     "the Member makes application, qualifies for and receives Employment Insurance Benefits."
+    ],
+    "sequence": [
+     "A Member is entitled to Supplemental Employment Insurance Benefits (SEIB) during his or her Parental/Adoption Leave provided that:"
+    ],
+    "dual_employee_rule": [
+     "In the case where both parents are employees of The University of Western Ontario, the twenty-four (24) weeks may be taken by one parent or shared between the two parents."
+    ],
+    "pay_cap": [
+     "In no case shall the total amount of the Supplementary Employment Insurance Benefits, Employment Insurance Benefits and any other earnings received by the Member exceed 100% of the Member’s salary at the time of the initiation of the Leave."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "ambiguous: restriction: combined cap 24 weeks on c4 and c5 (SEIB paid weeks under Pregnancy and Parental/Adoption Leave)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "employer_topup",
+     "quote": "the difference between Employment Insurance Benefits receivable and 95% of the salary at the time of the initiation of the Leave, paid by the Employer."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "the difference between Employment Insurance Benefits receivable and 95% of the salary at the time of the initiation of the Leave, paid by the Employer."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "A Member is entitled to Supplemental Employment Insurance Benefits (SEIB) during his or her Parental/Adoption Leave provided that:"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "the Member has been employed by the University on a continuous regular Full-Time basis for a period of one (1) year or more at the time the Leave commences and is Full-Time at the time the Leave commences;"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "birth_parent, non_birth_parent, adoptive",
+     "quote": "A Member who becomes a parent of a newborn or newly-adopted child or who takes custody of a child who is being placed for adoption with the Member"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "A Member is entitled to Supplemental Employment Insurance Benefits (SEIB) during his or her Parental/Adoption Leave provided that:"
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "24 weeks up_to",
+     "quote": "A Member who qualifies under the provisions in Clause 3.1 is eligible for a maximum of twenty-four (24) weeks paid Leave, inclusive of any paid Leave received under Clause 1.2.1, under the conditions set out in Clauses 4, 4.1, and 4.2."
+    },
+    {
+     "field": "duration",
+     "rule": "R20",
+     "answer": "shared cap with c4 flagged, not cap_weeks_all_sources (cap on two named benefits only)",
+     "quote": "A Member who qualifies under the provisions in Clause 3.1 is eligible for a maximum of twenty-four (24) weeks paid Leave, inclusive of any paid Leave received under Clause 1.2.1, under the conditions set out in Clauses 4, 4.1, and 4.2."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "R21",
+     "answer": "staged as written: 100% two weeks, then top-up to 95%",
+     "quote": "100% of salary at the time of the initiation of the Leave paid by the Employer, for the initial two-week waiting period prior to the commencement of the Employment Insurance Benefits and;"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U8",
+     "answer": "one year of Full-Time service, met by a member with two years",
+     "quote": "the Member has been employed by the University on a continuous regular Full-Time basis for a period of one (1) year or more at the time the Leave commences and is Full-Time at the time the Leave commences;"
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "within c2",
+     "quote": "A Member is entitled to Supplemental Employment Insurance Benefits (SEIB) during his or her Parental/Adoption Leave provided that:"
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_western_ontario_c6",
+   "institution_label": "Employment Insurance Benefits",
+   "description": "Federal EI maternity (pregnancy) benefits, 15 weeks at 55% of insurable earnings, after the one-week unpaid waiting period; a condition of SEIB.",
+   "mechanism": "government_benefit",
+   "payer": "government",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "insured employees (Members who qualify for EI)",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "a major attachment claimant who proves her pregnancy",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 15,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "pay_fraction": "55% of weekly insurable earnings",
+   "pay_fraction_pct": 55,
+   "statute_source": "Employment Insurance Act ss. 12(3)(a), 13, 14(1), 22",
+   "statute_verified": true,
+   "sequence": [
+    {
+     "relation": "concurrent_with",
+     "component_id": "university_of_western_ontario_c1",
+     "start_offset_weeks": 1,
+     "note": "R21: one-week unpaid waiting period (EI Act s. 13) from the start of the leave; the employer's two weeks at 100% do not move it"
+    }
+   ],
+   "rule_applied": [
+    "M1",
+    "R7",
+    "R21",
+    "U2"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "the Member makes application, qualifies for and receives Employment Insurance Benefits."
+    ],
+    "eligible_parent": [
+     "benefits are payable to a major attachment claimant who proves her pregnancy."
+    ],
+    "entitlement": [
+     "benefits are payable to a major attachment claimant who proves her pregnancy.",
+     "A claimant is not entitled to be paid benefits in a benefit period until, after the beginning of the benefit period, the claimant has served a waiting period of one week of unemployment for which benefits would otherwise be payable."
+    ],
+    "duration": [
+     "The maximum number of weeks for which benefits may be paid in a benefit period",
+     "because of pregnancy is 15;"
+    ],
+    "pay_fraction": [
+     "The rate of weekly benefits payable to a claimant is 55% of their weekly insurable earnings"
+    ],
+    "sequence": [
+     "A claimant is not entitled to be paid benefits in a benefit period until, after the beginning of the benefit period, the claimant has served a waiting period of one week of unemployment for which benefits would otherwise be payable."
+    ],
+    "statute_source": [
+     "Employment Insurance Act",
+     "the Member makes application, qualifies for and receives Employment Insurance Benefits."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link",
+    "2018_16_ca_ei_act_pit_2018-01-01"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "M1",
+     "answer": "government_benefit",
+     "quote": "the Member makes application, qualifies for and receives Employment Insurance Benefits."
+    },
+    {
+     "field": "payer",
+     "rule": "M1",
+     "answer": "government",
+     "quote": "benefits are payable to a major attachment claimant who proves her pregnancy."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "benefits are payable to a major attachment claimant who proves her pregnancy."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "the Member makes application, qualifies for and receives Employment Insurance Benefits."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U2",
+     "answer": "birth_parent",
+     "quote": "benefits are payable to a major attachment claimant who proves her pregnancy."
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "benefits are payable to a major attachment claimant who proves her pregnancy."
+    },
+    {
+     "field": "duration",
+     "rule": "U2",
+     "answer": "15 weeks up_to",
+     "quote": "because of pregnancy is 15;"
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "U2",
+     "answer": "55%",
+     "quote": "The rate of weekly benefits payable to a claimant is 55% of their weekly insurable earnings"
+    },
+    {
+     "field": "sequence",
+     "rule": "R21",
+     "answer": "concurrent_with c1, start_offset_weeks 1",
+     "quote": "A claimant is not entitled to be paid benefits in a benefit period until, after the beginning of the benefit period, the claimant has served a waiting period of one week of unemployment for which benefits would otherwise be payable."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_western_ontario_c7",
+   "institution_label": "Employment Insurance Benefits",
+   "description": "Federal EI parental benefits, standard option 35 weeks at 55%; for the birth parent after EI maternity, for the other parent from week 2 of the agreement's parental leave (own waiting week).",
+   "mechanism": "government_benefit",
+   "payer": "government",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "insured employees (Members who qualify for EI)",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "a major attachment claimant to care for one or more new-born children of the claimant or one or more children placed with the claimant for the purpose of adoption",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 35,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "duration_variants": "standard option 35 weeks at 55%; extended option 61 weeks at 33% (election under s. 23, available from 2017-12-03), not counted (U2)",
+   "pay_fraction": "55% of weekly insurable earnings (standard option)",
+   "pay_fraction_pct": 55,
+   "statute_source": "Employment Insurance Act ss. 12(3)(b), 13, 14(1), 23",
+   "statute_verified": true,
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "university_of_western_ontario_c6",
+     "note": "birth parent: parental benefits follow maternity benefits; waiting period served once per birth"
+    },
+    {
+     "relation": "concurrent_with",
+     "component_id": "university_of_western_ontario_c2",
+     "start_offset_weeks": 1,
+     "roles": [
+      "nonbirth"
+     ],
+     "note": "R21: the non-birth parent serves its own one-week waiting period; deferral where the other parent served it (EI Act s. 23(5)) not assumed"
+    }
+   ],
+   "rule_applied": [
+    "M1",
+    "R7",
+    "R21",
+    "U2"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "the Member makes application, qualifies for and receives Employment Insurance Benefits."
+    ],
+    "eligible_parent": [
+     "benefits are payable to a major attachment claimant to care for one or more new-born children of the claimant or one or more children placed with the claimant for the purpose of adoption"
+    ],
+    "entitlement": [
+     "benefits are payable to a major attachment claimant to care for one or more new-born children of the claimant or one or more children placed with the claimant for the purpose of adoption",
+     "A claimant is not entitled to be paid benefits in a benefit period until, after the beginning of the benefit period, the claimant has served a waiting period of one week of unemployment for which benefits would otherwise be payable."
+    ],
+    "duration": [
+     "The maximum number of weeks for which benefits may be paid in a benefit period",
+     "because the claimant is caring for one or more new-born children of the claimant or one or more children placed with the claimant for the purpose of adoption is, in accordance with the election under section 23,"
+    ],
+    "pay_fraction": [
+     "The rate of weekly benefits payable to a claimant is 55% of their weekly insurable earnings"
+    ],
+    "sequence": [
+     "A claimant is not entitled to be paid benefits in a benefit period until, after the beginning of the benefit period, the claimant has served a waiting period of one week of unemployment for which benefits would otherwise be payable."
+    ],
+    "statute_source": [
+     "Employment Insurance Act",
+     "the Member makes application, qualifies for and receives Employment Insurance Benefits."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link",
+    "2018_16_ca_ei_act_pit_2018-01-01"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "M1",
+     "answer": "government_benefit",
+     "quote": "the Member makes application, qualifies for and receives Employment Insurance Benefits."
+    },
+    {
+     "field": "payer",
+     "rule": "M1",
+     "answer": "government",
+     "quote": "benefits are payable to a major attachment claimant to care for one or more new-born children of the claimant or one or more children placed with the claimant for the purpose of adoption"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "benefits are payable to a major attachment claimant to care for one or more new-born children of the claimant or one or more children placed with the claimant for the purpose of adoption"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "the Member makes application, qualifies for and receives Employment Insurance Benefits."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U2",
+     "answer": "birth_parent, non_birth_parent, adoptive",
+     "quote": "benefits are payable to a major attachment claimant to care for one or more new-born children of the claimant or one or more children placed with the claimant for the purpose of adoption"
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "benefits are payable to a major attachment claimant to care for one or more new-born children of the claimant or one or more children placed with the claimant for the purpose of adoption"
+    },
+    {
+     "field": "duration",
+     "rule": "U2",
+     "answer": "35 weeks standard option; 61 extended in duration_variants",
+     "quote": "because the claimant is caring for one or more new-born children of the claimant or one or more children placed with the claimant for the purpose of adoption is, in accordance with the election under section 23,"
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "U2",
+     "answer": "55%",
+     "quote": "The rate of weekly benefits payable to a claimant is 55% of their weekly insurable earnings"
+    },
+    {
+     "field": "sequence",
+     "rule": "R21",
+     "answer": "consecutive_after c6; nonbirth concurrent_with c2 offset 1",
+     "quote": "A claimant is not entitled to be paid benefits in a benefit period until, after the beginning of the benefit period, the claimant has served a waiting period of one week of unemployment for which benefits would otherwise be payable."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_western_ontario_c8",
+   "institution_label": "sick leave",
+   "description": "Sick leave the Employer must grant for absence due to illness or injury, including illness or injury related to pregnancy; the leave part of a paid medical leave (U6), lasting as long as the 15-week Short-Term Disability benefit (c9).",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Member; Full-Time Member (Short-Term Disability)",
+   "mechanism_note": "U6: the text grants sick leave ('the Employer shall grant sick leave for absences from work'); the leave is coded at the length of the STD benefit that pays it (Stevens contrast), its pay is c9.",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "illness or injury related to pregnancy (Member's own illness)",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 15,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "duration_note": "Length taken from the STD benefit: up to fifteen consecutive calendar weeks; LTD may follow (c10) but states no leave length.",
+   "medical_certification": true,
+   "medical_certification_note": "after one week: statement that the Member is under the care of a Health Care Professional, ability to work and estimated return date",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "relief_note": "cl. 8.1: the Dean arranges cover for teaching duties",
+   "rule_applied": [
+    "U6",
+    "U5",
+    "R9",
+    "V1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "A Full-Time Member who is absent from work as a result of illness or injury shall receive his or her actual salary as a Short-Term Disability benefit up to a maximum of fifteen consecutive calendar weeks (one hundred five consecutive calendar days), except as described in Clauses 6.1, 6.2 and 6.3."
+    ],
+    "eligible_parent": [
+     "In accordance with the Article Income Security, the Employer shall grant sick leave for absences from work due to illness or injury, including illness or injury related to pregnancy."
+    ],
+    "entitlement": [
+     "In accordance with the Article Income Security, the Employer shall grant sick leave for absences from work due to illness or injury, including illness or injury related to pregnancy."
+    ],
+    "duration": [
+     "A Full-Time Member who is absent from work as a result of illness or injury shall receive his or her actual salary as a Short-Term Disability benefit up to a maximum of fifteen consecutive calendar weeks (one hundred five consecutive calendar days), except as described in Clauses 6.1, 6.2 and 6.3."
+    ],
+    "medical_certification": [
+     "After an absence of one week, and when reasonably requested thereafter by the Employer, the Member shall provide a written statement to the effect that the Member is under the care of a Health Care Professional"
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "own_illness_leave"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "U6",
+     "answer": "unpaid_leave",
+     "quote": "In accordance with the Article Income Security, the Employer shall grant sick leave for absences from work due to illness or injury, including illness or injury related to pregnancy."
+    },
+    {
+     "field": "payer",
+     "rule": "U6",
+     "answer": "none",
+     "quote": "In accordance with the Article Income Security, the Employer shall grant sick leave for absences from work due to illness or injury, including illness or injury related to pregnancy."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "In accordance with the Article Income Security, the Employer shall grant sick leave for absences from work due to illness or injury, including illness or injury related to pregnancy."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "A Full-Time Member who is absent from work as a result of illness or injury shall receive his or her actual salary as a Short-Term Disability benefit up to a maximum of fifteen consecutive calendar weeks (one hundred five consecutive calendar days), except as described in Clauses 6.1, 6.2 and 6.3."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent",
+     "quote": "In accordance with the Article Income Security, the Employer shall grant sick leave for absences from work due to illness or injury, including illness or injury related to pregnancy."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "In accordance with the Article Income Security, the Employer shall grant sick leave for absences from work due to illness or injury, including illness or injury related to pregnancy."
+    },
+    {
+     "field": "duration",
+     "rule": "U6",
+     "answer": "15 weeks up_to, from the STD benefit that pays the leave",
+     "quote": "A Full-Time Member who is absent from work as a result of illness or injury shall receive his or her actual salary as a Short-Term Disability benefit up to a maximum of fifteen consecutive calendar weeks (one hundred five consecutive calendar days), except as described in Clauses 6.1, 6.2 and 6.3."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "formal leave: all duties relieved",
+     "quote": "In accordance with the Article Income Security, the Employer shall grant sick leave for absences from work due to illness or injury, including illness or injury related to pregnancy."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_western_ontario_c9",
+   "institution_label": "Short-Term Disability benefit",
+   "description": "Employer-paid Short-Term Disability: a Full-Time Member absent through illness or injury (including pregnancy-related) receives actual salary for up to 15 consecutive calendar weeks; no childbirth-specific period is stated.",
+   "mechanism": "generic_sick_or_disability_plan",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "A Full-Time Member",
+   "mechanism_note": "V1 fails (no childbirth-specific period); an employer plan per absence, not an accrual (R1); pay for the sick leave c8 (U6).",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "absent from work as a result of illness or injury",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 15,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "duration_note": "fifteen consecutive calendar weeks (105 calendar days); unused portion available on recurrence within four weeks; extended by part-time work (cl. 6.1-6.2).",
+   "pay_fraction": "actual salary",
+   "pay_fraction_pct": 100,
+   "medical_certification": true,
+   "medical_certification_note": "after one week: statement from a Health Care Professional",
+   "sequence": [
+    {
+     "relation": "within",
+     "component_id": "university_of_western_ontario_c8",
+     "note": "U6: pay within the sick leave it funds"
+    }
+   ],
+   "rule_applied": [
+    "V1",
+    "R2",
+    "R1",
+    "U6",
+    "V6"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "A Full-Time Member who is absent from work as a result of illness or injury shall receive his or her actual salary as a Short-Term Disability benefit up to a maximum of fifteen consecutive calendar weeks (one hundred five consecutive calendar days), except as described in Clauses 6.1, 6.2 and 6.3."
+    ],
+    "eligible_parent": [
+     "A Full-Time Member who is absent from work as a result of illness or injury shall receive his or her actual salary as a Short-Term Disability benefit up to a maximum of fifteen consecutive calendar weeks (one hundred five consecutive calendar days), except as described in Clauses 6.1, 6.2 and 6.3.",
+     "In accordance with the Article Income Security, the Employer shall grant sick leave for absences from work due to illness or injury, including illness or injury related to pregnancy."
+    ],
+    "entitlement": [
+     "A Full-Time Member who is absent from work as a result of illness or injury shall receive his or her actual salary as a Short-Term Disability benefit up to a maximum of fifteen consecutive calendar weeks (one hundred five consecutive calendar days), except as described in Clauses 6.1, 6.2 and 6.3."
+    ],
+    "duration": [
+     "A Full-Time Member who is absent from work as a result of illness or injury shall receive his or her actual salary as a Short-Term Disability benefit up to a maximum of fifteen consecutive calendar weeks (one hundred five consecutive calendar days), except as described in Clauses 6.1, 6.2 and 6.3."
+    ],
+    "pay_fraction": [
+     "A Full-Time Member who is absent from work as a result of illness or injury shall receive his or her actual salary as a Short-Term Disability benefit up to a maximum of fifteen consecutive calendar weeks (one hundred five consecutive calendar days), except as described in Clauses 6.1, 6.2 and 6.3."
+    ],
+    "sequence": [
+     "In accordance with the Article Income Security, the Employer shall grant sick leave for absences from work due to illness or injury, including illness or injury related to pregnancy."
+    ],
+    "medical_certification": [
+     "After an absence of one week, and when reasonably requested thereafter by the Employer, the Member shall provide a written statement to the effect that the Member is under the care of a Health Care Professional"
+    ],
+    "mechanism": [
+     "A Full-Time Member who is absent from work as a result of illness or injury shall receive his or her actual salary as a Short-Term Disability benefit up to a maximum of fifteen consecutive calendar weeks (one hundred five consecutive calendar days), except as described in Clauses 6.1, 6.2 and 6.3.",
+     "In accordance with the Article Income Security, the Employer shall grant sick leave for absences from work due to illness or injury, including illness or injury related to pregnancy."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "V1",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "A Full-Time Member who is absent from work as a result of illness or injury shall receive his or her actual salary as a Short-Term Disability benefit up to a maximum of fifteen consecutive calendar weeks (one hundred five consecutive calendar days), except as described in Clauses 6.1, 6.2 and 6.3."
+    },
+    {
+     "field": "mechanism",
+     "rule": "R2",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "In accordance with the Article Income Security, the Employer shall grant sick leave for absences from work due to illness or injury, including illness or injury related to pregnancy."
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "employer",
+     "quote": "A Full-Time Member who is absent from work as a result of illness or injury shall receive his or her actual salary as a Short-Term Disability benefit up to a maximum of fifteen consecutive calendar weeks (one hundred five consecutive calendar days), except as described in Clauses 6.1, 6.2 and 6.3."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "A Full-Time Member who is absent from work as a result of illness or injury shall receive his or her actual salary as a Short-Term Disability benefit up to a maximum of fifteen consecutive calendar weeks (one hundred five consecutive calendar days), except as described in Clauses 6.1, 6.2 and 6.3."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "A Full-Time Member who is absent from work as a result of illness or injury shall receive his or her actual salary as a Short-Term Disability benefit up to a maximum of fifteen consecutive calendar weeks (one hundred five consecutive calendar days), except as described in Clauses 6.1, 6.2 and 6.3."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent",
+     "quote": "In accordance with the Article Income Security, the Employer shall grant sick leave for absences from work due to illness or injury, including illness or injury related to pregnancy."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "A Full-Time Member who is absent from work as a result of illness or injury shall receive his or her actual salary as a Short-Term Disability benefit up to a maximum of fifteen consecutive calendar weeks (one hundred five consecutive calendar days), except as described in Clauses 6.1, 6.2 and 6.3."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "15 weeks up_to",
+     "quote": "A Full-Time Member who is absent from work as a result of illness or injury shall receive his or her actual salary as a Short-Term Disability benefit up to a maximum of fifteen consecutive calendar weeks (one hundred five consecutive calendar days), except as described in Clauses 6.1, 6.2 and 6.3."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "actual salary (100%)",
+     "quote": "A Full-Time Member who is absent from work as a result of illness or injury shall receive his or her actual salary as a Short-Term Disability benefit up to a maximum of fifteen consecutive calendar weeks (one hundred five consecutive calendar days), except as described in Clauses 6.1, 6.2 and 6.3."
+    },
+    {
+     "field": "sequence",
+     "rule": "U6",
+     "answer": "within c8",
+     "quote": "In accordance with the Article Income Security, the Employer shall grant sick leave for absences from work due to illness or injury, including illness or injury related to pregnancy."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_western_ontario_c10",
+   "institution_label": "Long-Term Disability (LTD)",
+   "description": "Long-term disability through the University Group Disability Insurance program for a Full-Time Member whose absence continues beyond the 15 weeks of Short-Term Disability (minimal LTD record).",
+   "mechanism": "generic_sick_or_disability_plan",
+   "payer": "insurance_plan",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Full-Time Member",
+   "mechanism_note": "Long-term disability: one component without duration (schema §2).",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "absence due to illness or injury",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "entitlement_note": "Qualification is set by the plan's terms ('may qualify ... in accord with ... the LTD policy'), not by an employer decision.",
+   "time_window": "after fifteen consecutive calendar weeks of Short-Term Disability",
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "university_of_western_ontario_c9",
+     "note": "LTD after the 15 weeks of STD"
+    }
+   ],
+   "rule_applied": [
+    "M1",
+    "V6"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Long-Term Disability (Full-Time Members Only)"
+    ],
+    "eligible_parent": [
+     "the Full-Time Member may qualify for Long-Term Disability (LTD) benefits as described in Clause 10.1 or 12.2 below, but only in accord with, and to the extent of, the terms of legislation and/or the Long-Term Disability benefits (LTD) policy in effect."
+    ],
+    "entitlement": [
+     "the Full-Time Member may qualify for Long-Term Disability (LTD) benefits as described in Clause 10.1 or 12.2 below, but only in accord with, and to the extent of, the terms of legislation and/or the Long-Term Disability benefits (LTD) policy in effect."
+    ],
+    "sequence": [
+     "the Full-Time Member may qualify for Long-Term Disability (LTD) benefits as described in Clause 10.1 or 12.2 below, but only in accord with, and to the extent of, the terms of legislation and/or the Long-Term Disability benefits (LTD) policy in effect."
+    ],
+    "time_window": [
+     "the Full-Time Member may qualify for Long-Term Disability (LTD) benefits as described in Clause 10.1 or 12.2 below, but only in accord with, and to the extent of, the terms of legislation and/or the Long-Term Disability benefits (LTD) policy in effect."
+    ],
+    "payer": [
+     "For a disability resulting from non-work-related injuries or illnesses, the Member may be eligible for LTD through the University Group Disability Insurance program and Canada Pension Plan."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "cross_reference_not_saved: Long-Term Disability benefits (LTD) policy / University Group Disability Insurance program"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "the Full-Time Member may qualify for Long-Term Disability (LTD) benefits as described in Clause 10.1 or 12.2 below, but only in accord with, and to the extent of, the terms of legislation and/or the Long-Term Disability benefits (LTD) policy in effect."
+    },
+    {
+     "field": "payer",
+     "rule": "M1",
+     "answer": "insurance_plan",
+     "quote": "For a disability resulting from non-work-related injuries or illnesses, the Member may be eligible for LTD through the University Group Disability Insurance program and Canada Pension Plan."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "the Full-Time Member may qualify for Long-Term Disability (LTD) benefits as described in Clause 10.1 or 12.2 below, but only in accord with, and to the extent of, the terms of legislation and/or the Long-Term Disability benefits (LTD) policy in effect."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Long-Term Disability (Full-Time Members Only)"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent",
+     "quote": "the Full-Time Member may qualify for Long-Term Disability (LTD) benefits as described in Clause 10.1 or 12.2 below, but only in accord with, and to the extent of, the terms of legislation and/or the Long-Term Disability benefits (LTD) policy in effect."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "the Full-Time Member may qualify for Long-Term Disability (LTD) benefits as described in Clause 10.1 or 12.2 below, but only in accord with, and to the extent of, the terms of legislation and/or the Long-Term Disability benefits (LTD) policy in effect."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "consecutive_after c9",
+     "quote": "the Full-Time Member may qualify for Long-Term Disability (LTD) benefits as described in Clause 10.1 or 12.2 below, but only in accord with, and to the extent of, the terms of legislation and/or the Long-Term Disability benefits (LTD) policy in effect."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_western_ontario_c11",
+   "institution_label": "Short-Term Disability benefit",
+   "description": "Short-Term Disability for Part-Time Members: actual salary for up to 15 calendar weeks in any twelve-month period, at most 8 calendar weeks in any Term.",
+   "mechanism": "generic_sick_or_disability_plan",
+   "payer": "employer",
+   "faculty_group": "Part-Time Members",
+   "faculty_group_note": "A Part-Time Member (Limited-Duties or Standing Appointments); not tenure-stream",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "absent from work as a result of illness or injury",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 15,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "duration_note": "15 calendar weeks in any twelve-month period; maximum 8 calendar weeks in any Term.",
+   "pay_fraction": "actual salary",
+   "pay_fraction_pct": 100,
+   "rule_applied": [
+    "V1",
+    "R2"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "A Part-Time Member who is absent from work as a result of illness or injury shall receive his or her actual salary as a Short-Term Disability benefit, up to a maximum of fifteen calendar weeks (one hundred five calendar days) in any twelve-month period."
+    ],
+    "eligible_parent": [
+     "A Part-Time Member who is absent from work as a result of illness or injury shall receive his or her actual salary as a Short-Term Disability benefit, up to a maximum of fifteen calendar weeks (one hundred five calendar days) in any twelve-month period."
+    ],
+    "entitlement": [
+     "A Part-Time Member who is absent from work as a result of illness or injury shall receive his or her actual salary as a Short-Term Disability benefit, up to a maximum of fifteen calendar weeks (one hundred five calendar days) in any twelve-month period."
+    ],
+    "duration": [
+     "A Part-Time Member who is absent from work as a result of illness or injury shall receive his or her actual salary as a Short-Term Disability benefit, up to a maximum of fifteen calendar weeks (one hundred five calendar days) in any twelve-month period.",
+     "The Short-Term Disability benefit is payable to a maximum of eight calendar weeks (fifty-six calendar days) in any Term."
+    ],
+    "pay_fraction": [
+     "A Part-Time Member who is absent from work as a result of illness or injury shall receive his or her actual salary as a Short-Term Disability benefit, up to a maximum of fifteen calendar weeks (one hundred five calendar days) in any twelve-month period."
+    ],
+    "mechanism": [
+     "A Part-Time Member who is absent from work as a result of illness or injury shall receive his or her actual salary as a Short-Term Disability benefit, up to a maximum of fifteen calendar weeks (one hundred five calendar days) in any twelve-month period."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "ambiguous: restriction: at most 8 calendar weeks in any Term"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "V1",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "A Part-Time Member who is absent from work as a result of illness or injury shall receive his or her actual salary as a Short-Term Disability benefit, up to a maximum of fifteen calendar weeks (one hundred five calendar days) in any twelve-month period."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "A Part-Time Member who is absent from work as a result of illness or injury shall receive his or her actual salary as a Short-Term Disability benefit, up to a maximum of fifteen calendar weeks (one hundred five calendar days) in any twelve-month period."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "A Part-Time Member who is absent from work as a result of illness or injury shall receive his or her actual salary as a Short-Term Disability benefit, up to a maximum of fifteen calendar weeks (one hundred five calendar days) in any twelve-month period."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "Part-Time Members",
+     "quote": "A Part-Time Member who is absent from work as a result of illness or injury shall receive his or her actual salary as a Short-Term Disability benefit, up to a maximum of fifteen calendar weeks (one hundred five calendar days) in any twelve-month period."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent",
+     "quote": "A Part-Time Member who is absent from work as a result of illness or injury shall receive his or her actual salary as a Short-Term Disability benefit, up to a maximum of fifteen calendar weeks (one hundred five calendar days) in any twelve-month period."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "A Part-Time Member who is absent from work as a result of illness or injury shall receive his or her actual salary as a Short-Term Disability benefit, up to a maximum of fifteen calendar weeks (one hundred five calendar days) in any twelve-month period."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "15 weeks up_to",
+     "quote": "A Part-Time Member who is absent from work as a result of illness or injury shall receive his or her actual salary as a Short-Term Disability benefit, up to a maximum of fifteen calendar weeks (one hundred five calendar days) in any twelve-month period."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "actual salary (100%)",
+     "quote": "A Part-Time Member who is absent from work as a result of illness or injury shall receive his or her actual salary as a Short-Term Disability benefit, up to a maximum of fifteen calendar weeks (one hundred five calendar days) in any twelve-month period."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_western_ontario_c12",
+   "institution_label": "Retention of Previous Entitlements",
+   "description": "Full-Time Members employed before October 1969 keep unused Sick Leave credits (to 26 weeks), up to 11 weeks of which top up LTD to full salary after 15 weeks of absence.",
+   "mechanism": "own_accrual",
+   "payer": "own_balance",
+   "faculty_group": "Full-Time Members employed before October, 1969",
+   "faculty_group_note": "Full-Time Members employed before October, 1969",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "non-occupational illness or injury",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 11,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "duration_note": "credits retained up to 26 weeks; up to 11 additional weeks used to pay the difference between LTD and full salary.",
+   "rule_applied": [
+    "R1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Full-Time Members employed before October, 1969, retain the unused portion of their Sick Leave coverage credited to them to June 30, 1972, up to a maximum of six months (twenty-six weeks)."
+    ],
+    "eligible_parent": [
+     "any unused accumulated Sick Leave credits up to a maximum of eleven additional weeks shall be used to pay the difference between the LTD and full salary."
+    ],
+    "entitlement": [
+     "Full-Time Members employed before October, 1969, retain the unused portion of their Sick Leave coverage credited to them to June 30, 1972, up to a maximum of six months (twenty-six weeks).",
+     "any unused accumulated Sick Leave credits up to a maximum of eleven additional weeks shall be used to pay the difference between the LTD and full salary."
+    ],
+    "duration": [
+     "any unused accumulated Sick Leave credits up to a maximum of eleven additional weeks shall be used to pay the difference between the LTD and full salary."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "own_accrual",
+     "quote": "Full-Time Members employed before October, 1969, retain the unused portion of their Sick Leave coverage credited to them to June 30, 1972, up to a maximum of six months (twenty-six weeks)."
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "own_balance",
+     "quote": "Full-Time Members employed before October, 1969, retain the unused portion of their Sick Leave coverage credited to them to June 30, 1972, up to a maximum of six months (twenty-six weeks)."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "any unused accumulated Sick Leave credits up to a maximum of eleven additional weeks shall be used to pay the difference between the LTD and full salary."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "Full-Time Members employed before October, 1969",
+     "quote": "Full-Time Members employed before October, 1969, retain the unused portion of their Sick Leave coverage credited to them to June 30, 1972, up to a maximum of six months (twenty-six weeks)."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent",
+     "quote": "any unused accumulated Sick Leave credits up to a maximum of eleven additional weeks shall be used to pay the difference between the LTD and full salary."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "Full-Time Members employed before October, 1969, retain the unused portion of their Sick Leave coverage credited to them to June 30, 1972, up to a maximum of six months (twenty-six weeks)."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "11 weeks up_to",
+     "quote": "any unused accumulated Sick Leave credits up to a maximum of eleven additional weeks shall be used to pay the difference between the LTD and full salary."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_western_ontario_c13",
+   "institution_label": "Compassionate Leave",
+   "description": "Paid Compassionate Leave the Dean may grant on other grounds, such as urgent health needs of the Immediate Family, urgent child care needs or other urgent personal reasons; approval not arbitrarily withheld; length set by the Dean. The agreement points parents of a hospitalized newborn to it.",
+   "mechanism": "employer_paid_leave",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "a Member",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent"
+   ],
+   "eligible_parent_wording": "the Member’s Immediate Family; other personal reasons requiring urgent attention",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "'may also grant' with 'approval ... shall not be arbitrarily withheld' (V2d).",
+   "duration_note": "The Dean determines the duration after consultation with the Member; no length stated.",
+   "pay_fraction": "with pay",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "rule_applied": [
+    "U1",
+    "U5",
+    "V2d",
+    "R9"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "The Dean or designate may also grant Compassionate Leave for other grounds such as to attend the funeral of a friend or relative other than those specified in Clause 2, to attend to urgent or critical health needs of the Member’s Immediate Family, to provide for urgent or extraordinary elder or child care needs of the Member’s Immediate Family, or for other personal reasons requiring urgent attention."
+    ],
+    "eligible_parent": [
+     "The Dean or designate may also grant Compassionate Leave for other grounds such as to attend the funeral of a friend or relative other than those specified in Clause 2, to attend to urgent or critical health needs of the Member’s Immediate Family, to provide for urgent or extraordinary elder or child care needs of the Member’s Immediate Family, or for other personal reasons requiring urgent attention."
+    ],
+    "entitlement": [
+     "The Dean or designate may also grant Compassionate Leave for other grounds such as to attend the funeral of a friend or relative other than those specified in Clause 2, to attend to urgent or critical health needs of the Member’s Immediate Family, to provide for urgent or extraordinary elder or child care needs of the Member’s Immediate Family, or for other personal reasons requiring urgent attention.",
+     "The Dean’s approval of Compassionate Leave on such grounds shall not be arbitrarily withheld."
+    ],
+    "pay_fraction": [
+     "Such Leave shall be with pay."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "general_purpose",
+    "conditional_refusal: approval not arbitrarily withheld"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "employer_paid_leave",
+     "quote": "Such Leave shall be with pay."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "Such Leave shall be with pay."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "The Dean or designate may also grant Compassionate Leave for other grounds such as to attend the funeral of a friend or relative other than those specified in Clause 2, to attend to urgent or critical health needs of the Member’s Immediate Family, to provide for urgent or extraordinary elder or child care needs of the Member’s Immediate Family, or for other personal reasons requiring urgent attention."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "The Dean or designate may also grant Compassionate Leave for other grounds such as to attend the funeral of a friend or relative other than those specified in Clause 2, to attend to urgent or critical health needs of the Member’s Immediate Family, to provide for urgent or extraordinary elder or child care needs of the Member’s Immediate Family, or for other personal reasons requiring urgent attention."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent, non_birth_parent",
+     "quote": "The Dean or designate may also grant Compassionate Leave for other grounds such as to attend the funeral of a friend or relative other than those specified in Clause 2, to attend to urgent or critical health needs of the Member’s Immediate Family, to provide for urgent or extraordinary elder or child care needs of the Member’s Immediate Family, or for other personal reasons requiring urgent attention."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2d",
+     "answer": "guaranteed_on_request",
+     "quote": "The Dean’s approval of Compassionate Leave on such grounds shall not be arbitrarily withheld."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "with pay",
+     "quote": "Such Leave shall be with pay."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "formal leave: all duties relieved",
+     "quote": "The Dean or designate may also grant Compassionate Leave for other grounds such as to attend the funeral of a friend or relative other than those specified in Clause 2, to attend to urgent or critical health needs of the Member’s Immediate Family, to provide for urgent or extraordinary elder or child care needs of the Member’s Immediate Family, or for other personal reasons requiring urgent attention."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_western_ontario_c14",
+   "institution_label": "Leave of Absence",
+   "description": "Unpaid Leave of Absence for any purpose the Member describes, normally not more than one year; granted where operations allow, approval not arbitrarily withheld.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "All Full-Time Members",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "All Full-Time Members",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "'may be granted where the Employer determines that the Leave will not interfere' with operations, but approval 'shall not be arbitrarily withheld' with written reasons (V2d).",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "up_to"
+   },
+   "duration_note": "'shall not normally exceed one year' (Q1); the Provost may extend. Two years of service between successive leaves and no more than 24 months of leave in any seven years (Pregnancy and Parental/Adoption, sick, compassionate and court leave do not count).",
+   "service_requirement": "Full-Time Member; two years of full-time continuous service since the previous leave (Pregnancy and Parental/Adoption Leave excepted)",
+   "notice": "written application at least six months before, less in unforeseen circumstances",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "rule_applied": [
+    "U1",
+    "V2d",
+    "Q1",
+    "R9",
+    "R20"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "All Full-Time Members are eligible to apply for a Leave of Absence."
+    ],
+    "eligible_parent": [
+     "All Full-Time Members are eligible to apply for a Leave of Absence."
+    ],
+    "entitlement": [
+     "Such a Leave may be granted where the Employer determines that the Leave will not interfere with the ability of the Member’s Department(s) or School(s) or Faculty(ies) to meet its (their) operational requirements.",
+     "Such approval shall not be arbitrarily withheld and any decision not to approve the application shall be accompanied by written reasons."
+    ],
+    "duration": [
+     "A Leave of Absence shall not normally exceed one year."
+    ],
+    "service_requirement": [
+     "at least two years of full-time continuous service shall elapse between any two successive Leave periods, and a Member shall not be on Leave for more than twenty-four months in any seven-year period."
+    ],
+    "pay_fraction": [
+     "No salary shall be received during an approved Leave of Absence."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "general_purpose",
+    "conditional_refusal: operational requirements of the Department, School or Faculty; approval not arbitrarily withheld"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "No salary shall be received during an approved Leave of Absence."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "No salary shall be received during an approved Leave of Absence."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "The application shall describe in detail the purpose and duration of the Leave."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "All Full-Time Members are eligible to apply for a Leave of Absence."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "All Full-Time Members are eligible to apply for a Leave of Absence."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2d",
+     "answer": "guaranteed_on_request",
+     "quote": "Such approval shall not be arbitrarily withheld and any decision not to approve the application shall be accompanied by written reasons."
+    },
+    {
+     "field": "duration",
+     "rule": "Q1",
+     "answer": "1 year up_to (normally)",
+     "quote": "A Leave of Absence shall not normally exceed one year."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "two years between successive leaves",
+     "quote": "at least two years of full-time continuous service shall elapse between any two successive Leave periods, and a Member shall not be on Leave for more than twenty-four months in any seven-year period."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "formal leave: all duties relieved",
+     "quote": "No salary shall be received during an approved Leave of Absence."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_western_ontario_c15",
+   "institution_label": "Deferred Salary Leave",
+   "description": "Leave of six months or one year funded by the Member's own deferred salary (5-25% deferred over one to five years), at no cost to the Employer; any purpose.",
+   "mechanism": "own_accrual",
+   "payer": "own_balance",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "All Full-Time Members",
+   "mechanism_note": "Paid from the Member's own deferred salary (R1, R1d).",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "All Full-Time Members",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "'may be granted where the Employer determines' no interference with operations; approval 'shall not be arbitrarily withheld' (V2d).",
+   "duration": {
+    "value": 6,
+    "units": "month",
+    "qualifier": "at_least"
+   },
+   "duration_max": {
+    "value": 1,
+    "units": "year"
+   },
+   "duration_note": "'six months or one year' (R13b); begins January 1 or July 1; return obligation equal to the leave.",
+   "return_obligation": "return to the University for a work period at least as long as the Leave",
+   "service_requirement": "Full-Time Member; two years of full-time continuous service since the previous leave",
+   "rule_applied": [
+    "U1",
+    "R1",
+    "R1d",
+    "V2d",
+    "R13b",
+    "R20"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "All Full-Time Members are eligible to apply for a Deferred Salary Leave."
+    ],
+    "eligible_parent": [
+     "All Full-Time Members are eligible to apply for a Deferred Salary Leave."
+    ],
+    "entitlement": [
+     "Such a Leave may be granted where the Employer determines that the Leave will not interfere with the ability of the Member’s Department(s), School(s) or Facult(y)ies to meet its (their) operational requirements.",
+     "Such approval shall not be arbitrarily withheld and any decision not to approve the application shall be accompanied by written reasons."
+    ],
+    "duration": [
+     "Unpaid leaves of six months or one year may be funded through a Deferred Salary Leave arrangement as defined in Section 248(1) of the Income Tax Act."
+    ],
+    "service_requirement": [
+     "at least two years of full-time continuous service shall elapse between any two successive Leave periods, and a Member shall not be on Leave for more than twenty-four months in any seven-year period."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "general_purpose",
+    "conditional_refusal: operational requirements; approval not arbitrarily withheld"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "own_accrual",
+     "quote": "Deferred Salary Leave is intended to allow for a leave of absence funded by the individual Member at no cost to the Employer during the period of the Leave."
+    },
+    {
+     "field": "payer",
+     "rule": "R1d",
+     "answer": "own_balance",
+     "quote": "Deferred Salary Leave is intended to allow for a leave of absence funded by the individual Member at no cost to the Employer during the period of the Leave."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "Deferred Salary Leave is intended to allow for a leave of absence funded by the individual Member at no cost to the Employer during the period of the Leave."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "All Full-Time Members are eligible to apply for a Deferred Salary Leave."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "All Full-Time Members are eligible to apply for a Deferred Salary Leave."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2d",
+     "answer": "guaranteed_on_request",
+     "quote": "Such a Leave may be granted where the Employer determines that the Leave will not interfere with the ability of the Member’s Department(s), School(s) or Facult(y)ies to meet its (their) operational requirements."
+    },
+    {
+     "field": "duration",
+     "rule": "R13b",
+     "answer": "6 months at_least, max 1 year",
+     "quote": "Unpaid leaves of six months or one year may be funded through a Deferred Salary Leave arrangement as defined in Section 248(1) of the Income Tax Act."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "two years between successive leaves",
+     "quote": "at least two years of full-time continuous service shall elapse between any two successive Leave periods, and a Member shall not be on Leave for more than twenty-four months in any seven-year period."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_western_ontario_c16",
+   "institution_label": "Vacations",
+   "description": "Paid vacation of 22 working days per Academic Year, at agreed times, not during scheduled Academic Responsibilities; it continues to accrue during Pregnancy and Parental/Adoption Leave.",
+   "mechanism": "own_accrual",
+   "payer": "own_balance",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Each Full-Time Member",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "Each Full-Time Member",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 22,
+    "units": "workday",
+    "qualifier": "exact"
+   },
+   "time_window": "not during a period in which the Member has scheduled Academic Responsibilities",
+   "rule_applied": [
+    "R1",
+    "U1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Each Full-Time Member is entitled to twenty-two working days of vacation in each Academic Year of service."
+    ],
+    "eligible_parent": [
+     "Each Full-Time Member is entitled to twenty-two working days of vacation in each Academic Year of service."
+    ],
+    "entitlement": [
+     "Each Full-Time Member is entitled to twenty-two working days of vacation in each Academic Year of service."
+    ],
+    "duration": [
+     "Each Full-Time Member is entitled to twenty-two working days of vacation in each Academic Year of service."
+    ],
+    "time_window": [
+     "Vacation may not be taken in a period during which the Member has scheduled Academic Responsibilities."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "own_accrual",
+     "quote": "Each Full-Time Member is entitled to twenty-two working days of vacation in each Academic Year of service."
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "own_balance",
+     "quote": "Each Full-Time Member is entitled to twenty-two working days of vacation in each Academic Year of service."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "Each Full-Time Member is entitled to twenty-two working days of vacation in each Academic Year of service."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Each Full-Time Member is entitled to twenty-two working days of vacation in each Academic Year of service."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "Each Full-Time Member is entitled to twenty-two working days of vacation in each Academic Year of service."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "Each Full-Time Member is entitled to twenty-two working days of vacation in each Academic Year of service."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "22 workdays exact",
+     "quote": "Each Full-Time Member is entitled to twenty-two working days of vacation in each Academic Year of service."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_western_ontario_c17",
+   "institution_label": "Reduced Workload",
+   "description": "Reduced Workload for any Full-Time Member, normally not below 50%, with salary prorated; the Dean shall not arbitrarily withhold approval.",
+   "mechanism": "part_time_option",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "a Full-Time Member",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "A Member",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "Approval 'shall not arbitrarily' be withheld; terms agreed with the Dean (V2d).",
+   "duration_note": "Initial period part or all of an Academic Year, consecutive years, or up to three years for tenured faculty; renewable.",
+   "pay_fraction": "salary prorated to the proportion of Reduced Workload to Full-Time Workload",
+   "notice": "apply in writing at least six months before",
+   "rule_applied": [
+    "R3",
+    "U1",
+    "V2d"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "A Reduced Workload is one in which the Workload of a Full-Time Member is reduced from Full-Time to less than Full-Time but on a regular basis."
+    ],
+    "eligible_parent": [
+     "A Reduced Workload is one in which the Workload of a Full-Time Member is reduced from Full-Time to less than Full-Time but on a regular basis."
+    ],
+    "entitlement": [
+     "The Dean shall not arbitrarily withhold approval, and any decision by the Dean not to approve the application shall be accompanied by written reasons."
+    ],
+    "pay_fraction": [
+     "The level of salary in a Reduced Workload shall be prorated to reflect the proportion of Reduced Workload to Full-Time Workload."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "general_purpose",
+    "conditional_refusal: approval not arbitrarily withheld"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R3",
+     "answer": "part_time_option",
+     "quote": "The level of salary in a Reduced Workload shall be prorated to reflect the proportion of Reduced Workload to Full-Time Workload."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "The level of salary in a Reduced Workload shall be prorated to reflect the proportion of Reduced Workload to Full-Time Workload."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "A Reduced Workload is one in which the Workload of a Full-Time Member is reduced from Full-Time to less than Full-Time but on a regular basis."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "A Reduced Workload is one in which the Workload of a Full-Time Member is reduced from Full-Time to less than Full-Time but on a regular basis."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "A Reduced Workload is one in which the Workload of a Full-Time Member is reduced from Full-Time to less than Full-Time but on a regular basis."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2d",
+     "answer": "guaranteed_on_request",
+     "quote": "The Dean shall not arbitrarily withhold approval, and any decision by the Dean not to approve the application shall be accompanied by written reasons."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "R3",
+     "answer": "prorated (no level stated)",
+     "quote": "The level of salary in a Reduced Workload shall be prorated to reflect the proportion of Reduced Workload to Full-Time Workload."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_western_ontario_c18",
+   "institution_label": "",
+   "description": "A Member returning from Pregnancy and/or Parental/Adoption Leave, or eligible for it, may apply for a Reduced Workload (prorated salary); the application shall not be arbitrarily denied.",
+   "mechanism": "part_time_option",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "A Member who returns from Pregnancy and/or Parental/Adoption Leave",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "A Member who returns from Pregnancy and/or Parental/Adoption Leave and a Member who is eligible for, but chooses not to take, such Leave",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "'Such an application shall not be arbitrarily denied' (V2d); terms under the Reduced Workload article.",
+   "pay_fraction": "salary prorated to the proportion of Reduced Workload to Full-Time Workload",
+   "rule_applied": [
+    "R3",
+    "V2d",
+    "R5"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "A Member who returns from Pregnancy and/or Parental/Adoption Leave and a Member who is eligible for, but chooses not to take, such Leave may apply for a Reduced Workload. Such an application shall not be arbitrarily denied."
+    ],
+    "eligible_parent": [
+     "A Member who returns from Pregnancy and/or Parental/Adoption Leave and a Member who is eligible for, but chooses not to take, such Leave may apply for a Reduced Workload. Such an application shall not be arbitrarily denied."
+    ],
+    "entitlement": [
+     "A Member who returns from Pregnancy and/or Parental/Adoption Leave and a Member who is eligible for, but chooses not to take, such Leave may apply for a Reduced Workload. Such an application shall not be arbitrarily denied."
+    ],
+    "pay_fraction": [
+     "The level of salary in a Reduced Workload shall be prorated to reflect the proportion of Reduced Workload to Full-Time Workload."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "conditional_refusal: application not arbitrarily denied"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R3",
+     "answer": "part_time_option",
+     "quote": "The level of salary in a Reduced Workload shall be prorated to reflect the proportion of Reduced Workload to Full-Time Workload."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "The level of salary in a Reduced Workload shall be prorated to reflect the proportion of Reduced Workload to Full-Time Workload."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "A Member who returns from Pregnancy and/or Parental/Adoption Leave and a Member who is eligible for, but chooses not to take, such Leave may apply for a Reduced Workload. Such an application shall not be arbitrarily denied."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "A Member who returns from Pregnancy and/or Parental/Adoption Leave and a Member who is eligible for, but chooses not to take, such Leave may apply for a Reduced Workload. Such an application shall not be arbitrarily denied."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "birth_parent, non_birth_parent, adoptive",
+     "quote": "A Member who returns from Pregnancy and/or Parental/Adoption Leave and a Member who is eligible for, but chooses not to take, such Leave may apply for a Reduced Workload. Such an application shall not be arbitrarily denied."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2d",
+     "answer": "guaranteed_on_request",
+     "quote": "A Member who returns from Pregnancy and/or Parental/Adoption Leave and a Member who is eligible for, but chooses not to take, such Leave may apply for a Reduced Workload. Such an application shall not be arbitrarily denied."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "R3",
+     "answer": "prorated (no level stated)",
+     "quote": "The level of salary in a Reduced Workload shall be prorated to reflect the proportion of Reduced Workload to Full-Time Workload."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_western_ontario_c19",
+   "institution_label": "",
+   "description": "The Promotion and/or Tenure decision is postponed (probationary appointment extended) by one year for a Member who has taken Pregnancy and/or Parental/Adoption Leave of at least 24 weeks, alone or combined with other leaves; one year for each such leave; the Member may elect early consideration.",
+   "mechanism": "tenure_clock",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "a Member on a Probationary Appointment (tenure-track)",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "a Pregnancy and/or Parental/Adoption Leave",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "exact"
+   },
+   "rule_applied": [
+    "U1",
+    "U9",
+    "R5"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "A Probationary Appointment is an Appointment at the rank of Assistant Professor leading to consideration for the simultaneous granting of Tenure"
+    ],
+    "eligible_parent": [
+     "The Promotion and/or Tenure decision shall be postponed for one (1) year for a Member who, by the time the Committee’s consideration commences, has or will have taken, a Pregnancy and/or Parental/Adoption Leave, alone or combined with other leaves, of at least twenty-four (24) weeks."
+    ],
+    "entitlement": [
+     "The Promotion and/or Tenure decision shall be postponed for one (1) year for a Member who, by the time the Committee’s consideration commences, has or will have taken, a Pregnancy and/or Parental/Adoption Leave, alone or combined with other leaves, of at least twenty-four (24) weeks.",
+     "or a Leave in excess of 24 weeks under the provisions of the Article Pregnancy and Parental/Adoption Leave, the Member’s Probationary Appointment shall be extended by one year for each Leave in excess of 24 weeks."
+    ],
+    "duration": [
+     "The Promotion and/or Tenure decision shall be postponed for one (1) year for a Member who, by the time the Committee’s consideration commences, has or will have taken, a Pregnancy and/or Parental/Adoption Leave, alone or combined with other leaves, of at least twenty-four (24) weeks.",
+     "or a Leave in excess of 24 weeks under the provisions of the Article Pregnancy and Parental/Adoption Leave, the Member’s Probationary Appointment shall be extended by one year for each Leave in excess of 24 weeks."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "ambiguous: restriction: applies only where the leave (alone or combined with other leaves) is at least 24 weeks"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "The Promotion and/or Tenure decision shall be postponed for one (1) year for a Member who, by the time the Committee’s consideration commences, has or will have taken, a Pregnancy and/or Parental/Adoption Leave, alone or combined with other leaves, of at least twenty-four (24) weeks."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "The Promotion and/or Tenure decision shall be postponed for one (1) year for a Member who, by the time the Committee’s consideration commences, has or will have taken, a Pregnancy and/or Parental/Adoption Leave, alone or combined with other leaves, of at least twenty-four (24) weeks."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "The Promotion and/or Tenure decision shall be postponed for one (1) year for a Member who, by the time the Committee’s consideration commences, has or will have taken, a Pregnancy and/or Parental/Adoption Leave, alone or combined with other leaves, of at least twenty-four (24) weeks."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "A Probationary Appointment is an Appointment at the rank of Assistant Professor leading to consideration for the simultaneous granting of Tenure"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "birth_parent, non_birth_parent, adoptive",
+     "quote": "The Promotion and/or Tenure decision shall be postponed for one (1) year for a Member who, by the time the Committee’s consideration commences, has or will have taken, a Pregnancy and/or Parental/Adoption Leave, alone or combined with other leaves, of at least twenty-four (24) weeks."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "The Promotion and/or Tenure decision shall be postponed for one (1) year for a Member who, by the time the Committee’s consideration commences, has or will have taken, a Pregnancy and/or Parental/Adoption Leave, alone or combined with other leaves, of at least twenty-four (24) weeks."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 year",
+     "quote": "The Promotion and/or Tenure decision shall be postponed for one (1) year for a Member who, by the time the Committee’s consideration commences, has or will have taken, a Pregnancy and/or Parental/Adoption Leave, alone or combined with other leaves, of at least twenty-four (24) weeks."
+    }
+   ],
+   "duration_note": "One year for each Leave in excess of 24 weeks (P&T cl. 15.7); the three-year period to complete a doctorate does not include such leave (Appointments cl. 4.3.2). Renewal with each leave is not a use limit (U9)."
+  },
+  {
+   "component_id": "university_of_western_ontario_c20",
+   "institution_label": "",
+   "description": "The Promotion and/or Tenure decision of a probationary Member is postponed one year after documented sick leaves of at least 24 weeks in a twelve-month period; further postponement may be granted beyond 18 months.",
+   "mechanism": "tenure_clock",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "a Member on a Probationary Appointment (tenure-track)",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "documented sick leaves (Member's own illness)",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "exact"
+   },
+   "rule_applied": [
+    "U1",
+    "U5"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "A Probationary Appointment is an Appointment at the rank of Assistant Professor leading to consideration for the simultaneous granting of Tenure"
+    ],
+    "eligible_parent": [
+     "In the case of a Member on a Probationary Appointment, the Promotion and/or Tenure decision shall be postponed for one (1) year where the Member has taken documented sick leaves of at least twenty-four (24) weeks in a twelve month period."
+    ],
+    "entitlement": [
+     "In the case of a Member on a Probationary Appointment, the Promotion and/or Tenure decision shall be postponed for one (1) year where the Member has taken documented sick leaves of at least twenty-four (24) weeks in a twelve month period."
+    ],
+    "duration": [
+     "In the case of a Member on a Probationary Appointment, the Promotion and/or Tenure decision shall be postponed for one (1) year where the Member has taken documented sick leaves of at least twenty-four (24) weeks in a twelve month period.",
+     "Further postponement may be granted if the sick leave periods extend beyond 18 months."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "ambiguous: restriction: applies only after documented sick leaves of at least 24 weeks in a twelve month period"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "In the case of a Member on a Probationary Appointment, the Promotion and/or Tenure decision shall be postponed for one (1) year where the Member has taken documented sick leaves of at least twenty-four (24) weeks in a twelve month period."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "In the case of a Member on a Probationary Appointment, the Promotion and/or Tenure decision shall be postponed for one (1) year where the Member has taken documented sick leaves of at least twenty-four (24) weeks in a twelve month period."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "In the case of a Member on a Probationary Appointment, the Promotion and/or Tenure decision shall be postponed for one (1) year where the Member has taken documented sick leaves of at least twenty-four (24) weeks in a twelve month period."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "A Probationary Appointment is an Appointment at the rank of Assistant Professor leading to consideration for the simultaneous granting of Tenure"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "birth_parent",
+     "quote": "In the case of a Member on a Probationary Appointment, the Promotion and/or Tenure decision shall be postponed for one (1) year where the Member has taken documented sick leaves of at least twenty-four (24) weeks in a twelve month period."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "In the case of a Member on a Probationary Appointment, the Promotion and/or Tenure decision shall be postponed for one (1) year where the Member has taken documented sick leaves of at least twenty-four (24) weeks in a twelve month period."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 year",
+     "quote": "In the case of a Member on a Probationary Appointment, the Promotion and/or Tenure decision shall be postponed for one (1) year where the Member has taken documented sick leaves of at least twenty-four (24) weeks in a twelve month period."
+    }
+   ],
+   "duration_note": "One year; further postponement may be granted if sick leave extends beyond 18 months (discretionary)."
+  },
+  {
+   "component_id": "university_of_western_ontario_c21",
+   "institution_label": "",
+   "description": "The Promotion and/or Tenure decision is postponed (probationary appointment extended) one year where a probationary Member has taken a Leave of Absence (any purpose) of at least 24 weeks.",
+   "mechanism": "tenure_clock",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "a Member on a Probationary Appointment (tenure-track)",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "a Leave of Absence",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "exact"
+   },
+   "rule_applied": [
+    "U1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "A Probationary Appointment is an Appointment at the rank of Assistant Professor leading to consideration for the simultaneous granting of Tenure"
+    ],
+    "eligible_parent": [
+     "In the case of a Member on a Probationary Appointment, the Promotion and/or Tenure decision shall be postponed for one (1) year where the Member has taken a Leave of Absence of at least twenty-four (24) weeks."
+    ],
+    "entitlement": [
+     "In the case of a Member on a Probationary Appointment, the Promotion and/or Tenure decision shall be postponed for one (1) year where the Member has taken a Leave of Absence of at least twenty-four (24) weeks.",
+     "where a Member in a Probationary Appointment has taken an Employer-approved Leave of Absence of more than 24 weeks"
+    ],
+    "duration": [
+     "In the case of a Member on a Probationary Appointment, the Promotion and/or Tenure decision shall be postponed for one (1) year where the Member has taken a Leave of Absence of at least twenty-four (24) weeks."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "general_purpose",
+    "ambiguous: restriction: applies only to a Leave of Absence of at least 24 weeks"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "In the case of a Member on a Probationary Appointment, the Promotion and/or Tenure decision shall be postponed for one (1) year where the Member has taken a Leave of Absence of at least twenty-four (24) weeks."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "In the case of a Member on a Probationary Appointment, the Promotion and/or Tenure decision shall be postponed for one (1) year where the Member has taken a Leave of Absence of at least twenty-four (24) weeks."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "In the case of a Member on a Probationary Appointment, the Promotion and/or Tenure decision shall be postponed for one (1) year where the Member has taken a Leave of Absence of at least twenty-four (24) weeks."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "A Probationary Appointment is an Appointment at the rank of Assistant Professor leading to consideration for the simultaneous granting of Tenure"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "In the case of a Member on a Probationary Appointment, the Promotion and/or Tenure decision shall be postponed for one (1) year where the Member has taken a Leave of Absence of at least twenty-four (24) weeks."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "In the case of a Member on a Probationary Appointment, the Promotion and/or Tenure decision shall be postponed for one (1) year where the Member has taken a Leave of Absence of at least twenty-four (24) weeks."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 year",
+     "quote": "In the case of a Member on a Probationary Appointment, the Promotion and/or Tenure decision shall be postponed for one (1) year where the Member has taken a Leave of Absence of at least twenty-four (24) weeks."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_western_ontario_c22",
+   "institution_label": "",
+   "description": "The probationary period is extended by one year on the Member's request where a 50% Reduced Workload has lasted two years or longer.",
+   "mechanism": "tenure_clock",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "a Member on a Probationary Appointment (tenure-track)",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "Probationary Members (Reduced Workload)",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "exact"
+   },
+   "rule_applied": [
+    "U1",
+    "V2"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "In the case of Probationary Members, if a 50% reduction has occurred for two years or longer, the probationary period for Tenure shall be extended by one year (e.g., from six to seven years)."
+    ],
+    "eligible_parent": [
+     "In the case of Probationary Members, if a 50% reduction has occurred for two years or longer, the probationary period for Tenure shall be extended by one year (e.g., from six to seven years)."
+    ],
+    "entitlement": [
+     "In the case of Probationary Members, if a 50% reduction has occurred for two years or longer, the probationary period for Tenure shall be extended by one year (e.g., from six to seven years).",
+     "It is the responsibility of the Member to request such an extension"
+    ],
+    "duration": [
+     "In the case of Probationary Members, if a 50% reduction has occurred for two years or longer, the probationary period for Tenure shall be extended by one year (e.g., from six to seven years)."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "general_purpose",
+    "ambiguous: restriction: applies only after a 50% reduction lasting two years or longer"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "In the case of Probationary Members, if a 50% reduction has occurred for two years or longer, the probationary period for Tenure shall be extended by one year (e.g., from six to seven years)."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "In the case of Probationary Members, if a 50% reduction has occurred for two years or longer, the probationary period for Tenure shall be extended by one year (e.g., from six to seven years)."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "In the case of Probationary Members, if a 50% reduction has occurred for two years or longer, the probationary period for Tenure shall be extended by one year (e.g., from six to seven years)."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "In the case of Probationary Members, if a 50% reduction has occurred for two years or longer, the probationary period for Tenure shall be extended by one year (e.g., from six to seven years)."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "In the case of Probationary Members, if a 50% reduction has occurred for two years or longer, the probationary period for Tenure shall be extended by one year (e.g., from six to seven years)."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "It is the responsibility of the Member to request such an extension"
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 year",
+     "quote": "In the case of Probationary Members, if a 50% reduction has occurred for two years or longer, the probationary period for Tenure shall be extended by one year (e.g., from six to seven years)."
+    }
+   ],
+   "entitlement_note": "'shall be extended' once the Member requests it (V2)."
+  },
+  {
+   "component_id": "university_of_western_ontario_c23",
+   "institution_label": "",
+   "description": "A probationary Member may ask the Employer to consider extending the Probationary Appointment for extenuating circumstances requiring accommodation under the Ontario Human Rights Code that have limited performance for a prolonged period.",
+   "mechanism": "tenure_clock",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "a Member on a Probationary Appointment (tenure-track)",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "a Member (extenuating circumstances requiring accommodation)",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "rule_applied": [
+    "U1",
+    "V2"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "A Member may request the Employer consider granting an extension to the Member’s Probationary Appointment where the Member has experienced extenuating circumstances which require accommodation under the Ontario Human Rights Code"
+    ],
+    "eligible_parent": [
+     "A Member may request the Employer consider granting an extension to the Member’s Probationary Appointment where the Member has experienced extenuating circumstances which require accommodation under the Ontario Human Rights Code"
+    ],
+    "entitlement": [
+     "A Member may request the Employer consider granting an extension to the Member’s Probationary Appointment where the Member has experienced extenuating circumstances which require accommodation under the Ontario Human Rights Code"
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "A Member may request the Employer consider granting an extension to the Member’s Probationary Appointment where the Member has experienced extenuating circumstances which require accommodation under the Ontario Human Rights Code"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "A Member may request the Employer consider granting an extension to the Member’s Probationary Appointment where the Member has experienced extenuating circumstances which require accommodation under the Ontario Human Rights Code"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "A Member may request the Employer consider granting an extension to the Member’s Probationary Appointment where the Member has experienced extenuating circumstances which require accommodation under the Ontario Human Rights Code"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "A Member may request the Employer consider granting an extension to the Member’s Probationary Appointment where the Member has experienced extenuating circumstances which require accommodation under the Ontario Human Rights Code"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "A Member may request the Employer consider granting an extension to the Member’s Probationary Appointment where the Member has experienced extenuating circumstances which require accommodation under the Ontario Human Rights Code"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "A Member may request the Employer consider granting an extension to the Member’s Probationary Appointment where the Member has experienced extenuating circumstances which require accommodation under the Ontario Human Rights Code"
+    }
+   ],
+   "entitlement_note": "'may request the Employer consider granting an extension' (V2).",
+   "duration_note": "No length stated."
+  },
+  {
+   "component_id": "university_of_western_ontario_c24",
+   "institution_label": "",
+   "description": "Nursing Members have access to private facilities for nursing and changing infants; a pregnant or nursing Member may request accommodations to perform her Academic Responsibilities, not arbitrarily denied. No relief from teaching or service is stated.",
+   "mechanism": "other",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Nursing Members; a pregnant or nursing Member",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "A pregnant or nursing Member",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "rule_applied": [
+    "R16",
+    "V2d"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Nursing Members shall have access to private facilities for the nursing and changing of infants. A pregnant or nursing Member may request accommodations to enable her to perform her Academic Responsibilities."
+    ],
+    "eligible_parent": [
+     "Nursing Members shall have access to private facilities for the nursing and changing of infants. A pregnant or nursing Member may request accommodations to enable her to perform her Academic Responsibilities."
+    ],
+    "entitlement": [
+     "Nursing Members shall have access to private facilities for the nursing and changing of infants. A pregnant or nursing Member may request accommodations to enable her to perform her Academic Responsibilities.",
+     "Such requests shall not be arbitrarily denied."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "conditional_refusal: requests not arbitrarily denied"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R16",
+     "answer": "other",
+     "quote": "Nursing Members shall have access to private facilities for the nursing and changing of infants. A pregnant or nursing Member may request accommodations to enable her to perform her Academic Responsibilities."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Nursing Members shall have access to private facilities for the nursing and changing of infants. A pregnant or nursing Member may request accommodations to enable her to perform her Academic Responsibilities."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Nursing Members shall have access to private facilities for the nursing and changing of infants. A pregnant or nursing Member may request accommodations to enable her to perform her Academic Responsibilities."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Nursing Members shall have access to private facilities for the nursing and changing of infants. A pregnant or nursing Member may request accommodations to enable her to perform her Academic Responsibilities."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "birth_parent",
+     "quote": "Nursing Members shall have access to private facilities for the nursing and changing of infants. A pregnant or nursing Member may request accommodations to enable her to perform her Academic Responsibilities."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2d",
+     "answer": "guaranteed_on_request",
+     "quote": "Such requests shall not be arbitrarily denied."
+    }
+   ],
+   "entitlement_note": "'Such requests shall not be arbitrarily denied' (V2d)."
+  },
+  {
+   "component_id": "university_of_western_ontario_c25",
+   "institution_label": "Alternative Workload",
+   "description": "Alternative Workload changes the proportions of Teaching, Research and Service for a specified period without changing the overall magnitude of the workload; approval not arbitrarily withheld. A rearrangement, not relief.",
+   "mechanism": "other",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "a Full-Time Member",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "a Full-Time Member",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "rule_applied": [
+    "R16",
+    "U1",
+    "V2d"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "The proportions of Teaching, Research and/or Service in the Normal Workload of a Full-Time Member may be altered for a specified period."
+    ],
+    "eligible_parent": [
+     "The proportions of Teaching, Research and/or Service in the Normal Workload of a Full-Time Member may be altered for a specified period."
+    ],
+    "entitlement": [
+     "The Dean’s approval of such applications shall not be arbitrarily withheld."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "general_purpose",
+    "conditional_refusal: approval not arbitrarily withheld"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R16",
+     "answer": "other",
+     "quote": "The proportions of Teaching, Research and/or Service in the Normal Workload of a Full-Time Member may be altered for a specified period."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "The proportions of Teaching, Research and/or Service in the Normal Workload of a Full-Time Member may be altered for a specified period."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "The proportions of Teaching, Research and/or Service in the Normal Workload of a Full-Time Member may be altered for a specified period."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "The proportions of Teaching, Research and/or Service in the Normal Workload of a Full-Time Member may be altered for a specified period."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "The proportions of Teaching, Research and/or Service in the Normal Workload of a Full-Time Member may be altered for a specified period."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2d",
+     "answer": "guaranteed_on_request",
+     "quote": "The Dean’s approval of such applications shall not be arbitrarily withheld."
+    }
+   ],
+   "relief_note": "Overall magnitude unchanged ('shall not change the overall magnitude of a Member’s Workload')."
+  },
+  {
+   "component_id": "university_of_western_ontario_c26",
+   "institution_label": "course banking",
+   "description": "Course banking: a Full-Time Member may teach up to one extra half course a year to bank credit toward an Academic Term free of teaching (graduate supervision continues); not arbitrarily denied. A rearrangement, not relief.",
+   "mechanism": "other",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "a Full-Time Member",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "a Full-Time Member",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "rule_applied": [
+    "R16",
+    "U1",
+    "V2d"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "a Full-Time Member may request rearrangement of his or her assigned, scheduled Teaching duties so that by teaching up to one additional half course per Academic Year, the Member may have a reduced Teaching Workload in a subsequent Academic Year. Such a request shall not be arbitrarily denied."
+    ],
+    "eligible_parent": [
+     "a Full-Time Member may request rearrangement of his or her assigned, scheduled Teaching duties so that by teaching up to one additional half course per Academic Year, the Member may have a reduced Teaching Workload in a subsequent Academic Year. Such a request shall not be arbitrarily denied."
+    ],
+    "entitlement": [
+     "a Full-Time Member may request rearrangement of his or her assigned, scheduled Teaching duties so that by teaching up to one additional half course per Academic Year, the Member may have a reduced Teaching Workload in a subsequent Academic Year. Such a request shall not be arbitrarily denied."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "general_purpose",
+    "conditional_refusal: request not arbitrarily denied"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R16",
+     "answer": "other",
+     "quote": "a Full-Time Member may request rearrangement of his or her assigned, scheduled Teaching duties so that by teaching up to one additional half course per Academic Year, the Member may have a reduced Teaching Workload in a subsequent Academic Year. Such a request shall not be arbitrarily denied."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "a Full-Time Member may request rearrangement of his or her assigned, scheduled Teaching duties so that by teaching up to one additional half course per Academic Year, the Member may have a reduced Teaching Workload in a subsequent Academic Year. Such a request shall not be arbitrarily denied."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "a Full-Time Member may request rearrangement of his or her assigned, scheduled Teaching duties so that by teaching up to one additional half course per Academic Year, the Member may have a reduced Teaching Workload in a subsequent Academic Year. Such a request shall not be arbitrarily denied."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "a Full-Time Member may request rearrangement of his or her assigned, scheduled Teaching duties so that by teaching up to one additional half course per Academic Year, the Member may have a reduced Teaching Workload in a subsequent Academic Year. Such a request shall not be arbitrarily denied."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "a Full-Time Member may request rearrangement of his or her assigned, scheduled Teaching duties so that by teaching up to one additional half course per Academic Year, the Member may have a reduced Teaching Workload in a subsequent Academic Year. Such a request shall not be arbitrarily denied."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2d",
+     "answer": "guaranteed_on_request",
+     "quote": "a Full-Time Member may request rearrangement of his or her assigned, scheduled Teaching duties so that by teaching up to one additional half course per Academic Year, the Member may have a reduced Teaching Workload in a subsequent Academic Year. Such a request shall not be arbitrarily denied."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_western_ontario_c27",
+   "institution_label": "",
+   "description": "A probationary Member may request one Academic Year in which only one Term has scheduled teaching (normally half the Unit's teaching load that year, under Alternative Workload); not arbitrarily denied. A rearrangement, not relief.",
+   "mechanism": "other",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "a Full-Time Member appointed to a Probationary contract of more than five years",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "a Full-Time Member appointed to a Probationary contract",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "rule_applied": [
+    "R16",
+    "U1",
+    "V2d"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "may request one Academic Year during the probationary period in which only one of the Academic Terms includes assigned, scheduled Teaching duties. Such a request shall not be arbitrarily denied."
+    ],
+    "eligible_parent": [
+     "may request one Academic Year during the probationary period in which only one of the Academic Terms includes assigned, scheduled Teaching duties. Such a request shall not be arbitrarily denied."
+    ],
+    "entitlement": [
+     "may request one Academic Year during the probationary period in which only one of the Academic Terms includes assigned, scheduled Teaching duties. Such a request shall not be arbitrarily denied."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "general_purpose",
+    "conditional_refusal: request not arbitrarily denied"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R16",
+     "answer": "other",
+     "quote": "may request one Academic Year during the probationary period in which only one of the Academic Terms includes assigned, scheduled Teaching duties. Such a request shall not be arbitrarily denied."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "may request one Academic Year during the probationary period in which only one of the Academic Terms includes assigned, scheduled Teaching duties. Such a request shall not be arbitrarily denied."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "may request one Academic Year during the probationary period in which only one of the Academic Terms includes assigned, scheduled Teaching duties. Such a request shall not be arbitrarily denied."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "may request one Academic Year during the probationary period in which only one of the Academic Terms includes assigned, scheduled Teaching duties. Such a request shall not be arbitrarily denied."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "may request one Academic Year during the probationary period in which only one of the Academic Terms includes assigned, scheduled Teaching duties. Such a request shall not be arbitrarily denied."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2d",
+     "answer": "guaranteed_on_request",
+     "quote": "may request one Academic Year during the probationary period in which only one of the Academic Terms includes assigned, scheduled Teaching duties. Such a request shall not be arbitrarily denied."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_western_ontario_c28",
+   "institution_label": "Teaching Schedules",
+   "description": "The Employer shall consider requests for restrictions or changes to a teaching schedule on medical or compassionate grounds. A scheduling accommodation, not relief.",
+   "mechanism": "other",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Members (teaching)",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "the Member",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "rule_applied": [
+    "R16",
+    "U1",
+    "V2"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "The Employer shall consider requests for additional restrictions or changes to a teaching schedule where the Member makes a request based on medical or compassionate grounds."
+    ],
+    "eligible_parent": [
+     "The Employer shall consider requests for additional restrictions or changes to a teaching schedule where the Member makes a request based on medical or compassionate grounds."
+    ],
+    "entitlement": [
+     "The Employer shall consider requests for additional restrictions or changes to a teaching schedule where the Member makes a request based on medical or compassionate grounds."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R16",
+     "answer": "other",
+     "quote": "The Employer shall consider requests for additional restrictions or changes to a teaching schedule where the Member makes a request based on medical or compassionate grounds."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "The Employer shall consider requests for additional restrictions or changes to a teaching schedule where the Member makes a request based on medical or compassionate grounds."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "The Employer shall consider requests for additional restrictions or changes to a teaching schedule where the Member makes a request based on medical or compassionate grounds."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "The Employer shall consider requests for additional restrictions or changes to a teaching schedule where the Member makes a request based on medical or compassionate grounds."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "The Employer shall consider requests for additional restrictions or changes to a teaching schedule where the Member makes a request based on medical or compassionate grounds."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "The Employer shall consider requests for additional restrictions or changes to a teaching schedule where the Member makes a request based on medical or compassionate grounds."
+    }
+   ],
+   "entitlement_note": "The Employer 'shall consider' requests: approval decides whether there is a benefit (V2)."
+  }
+ ],
+ "scope_accounting": {
+  "C1": {
+   "components": [
+    "university_of_western_ontario_c1",
+    "university_of_western_ontario_c2",
+    "university_of_western_ontario_c4",
+    "university_of_western_ontario_c5"
+   ]
+  },
+  "C2": {
+   "components": [
+    "university_of_western_ontario_c25",
+    "university_of_western_ontario_c26",
+    "university_of_western_ontario_c27",
+    "university_of_western_ontario_c28"
+   ]
+  },
+  "C3": {
+   "components": [
+    "university_of_western_ontario_c8",
+    "university_of_western_ontario_c9",
+    "university_of_western_ontario_c10",
+    "university_of_western_ontario_c11",
+    "university_of_western_ontario_c12",
+    "university_of_western_ontario_c16"
+   ]
+  },
+  "C4": {
+   "components": [
+    "university_of_western_ontario_c1",
+    "university_of_western_ontario_c3",
+    "university_of_western_ontario_c6",
+    "university_of_western_ontario_c7"
+   ],
+   "not_components": [
+    {
+     "statute": "Employment Standards Act (Ontario), other sections (family medical leave s. 49.1, family caregiver leave s. 49.3, critical illness leave s. 49.4, personal emergency leave s. 50; notice and severance named in Closure cl. 3.2)",
+     "reason": "U4: the documents name the Act only for 'other leave entitlements' of Members who do not qualify for the agreement's leaves (U8: a member with two years qualifies) and for severance; these sections are not invoked"
+    },
+    {
+     "statute": "Employment Insurance Act, other benefits (sickness, compassionate care, critically ill child or adult)",
+     "reason": "U4: the documents rely on EI only for maternity and parental benefits (SEIB condition) and name the Act in Compensation cl. 52.4 for tax remittances"
+    },
+    {
+     "statute": "Ontario Human Rights Code, R.S.O. 1990, c. H.19",
+     "reason": "U4: disability and human-rights accommodation statute; not a component (its tenure-extension use is the agreement's own provision c23)"
+    },
+    {
+     "statute": "Occupational Health and Safety Act, R.S.O. 1990, c. O.1",
+     "reason": "U4: workplace safety; no pregnancy-specific programme"
+    },
+    {
+     "statute": "Workplace Safety and Insurance Board (WSIB) benefits",
+     "reason": "U4: workplace injury only"
+    },
+    {
+     "statute": "Canada Pension Plan (disability benefits; Canada Pension Plan Act)",
+     "reason": "U4: disability and pension; not related to becoming a parent"
+    },
+    {
+     "statute": "Income Tax Act (s. 248(1) and others)",
+     "reason": "U4: tax treatment of Deferred Salary Leave and other payments; the leave itself is c15"
+    },
+    {
+     "statute": "Freedom of Information and Protection of Privacy Act, R.S.O. 1990, c. F.31",
+     "reason": "U4: privacy; unrelated"
+    },
+    {
+     "statute": "Ontario Labour Relations Act, 1995",
+     "reason": "U4: labour relations; unrelated"
+    },
+    {
+     "statute": "Canadian Copyright Act",
+     "reason": "U4: unrelated"
+    },
+    {
+     "statute": "University of Western Ontario Act, 1982",
+     "reason": "U4: governance; unrelated"
+    },
+    {
+     "statute": "Bill of Rights and Canadian Charter of Rights and Freedoms (Appendix B)",
+     "reason": "U4: library statement; unrelated"
+    }
+   ]
+  },
+  "C5": {
+   "components": [
+    "university_of_western_ontario_c13"
+   ]
+  },
+  "C6": {
+   "components": [
+    "university_of_western_ontario_c13",
+    "university_of_western_ontario_c14",
+    "university_of_western_ontario_c15",
+    "university_of_western_ontario_c16"
+   ]
+  },
+  "C7": {
+   "components": [
+    "university_of_western_ontario_c19",
+    "university_of_western_ontario_c20",
+    "university_of_western_ontario_c21",
+    "university_of_western_ontario_c22",
+    "university_of_western_ontario_c23"
+   ]
+  },
+  "C8": {
+   "components": [
+    "university_of_western_ontario_c17",
+    "university_of_western_ontario_c18"
+   ]
+  },
+  "C9": {
+   "components": [
+    "university_of_western_ontario_c24"
+   ]
+  },
+  "C10": {
+   "absent": {
+    "documents": [
+     "2018_00_link",
+     "2018_01_fr_preparing_for_leave_guide"
+    ],
+    "terms": [
+     "FMLA",
+     "first days of any absence paid",
+     "Family and Medical Leave Act (Canadian institution; no FMLA-event pay)"
+    ]
+   }
+  }
+ },
+ "mechanism_slots": {
+  "employer_paid_leave": {
+   "components": [
+    "university_of_western_ontario_c13"
+   ]
+  },
+  "employer_childbirth_benefit": {
+   "absent": "No childbirth-specific employer paid period: 2018_00_link pays birth leave through SEIB top-ups (c4, c5) and illness through STD (c9); 2018_01_fr_preparing_for_leave_guide is a navigation page. Terms searched: maternity, childbirth, birth, recovery, pregnancy, paid leave."
+  },
+  "generic_sick_or_disability_plan": {
+   "components": [
+    "university_of_western_ontario_c9",
+    "university_of_western_ontario_c10",
+    "university_of_western_ontario_c11"
+   ]
+  },
+  "own_accrual": {
+   "components": [
+    "university_of_western_ontario_c12",
+    "university_of_western_ontario_c15",
+    "university_of_western_ontario_c16"
+   ]
+  },
+  "donated_leave": {
+   "absent": "No donated or shared leave bank in 2018_00_link or 2018_01_fr_preparing_for_leave_guide. Terms searched: donate, donated, bank, shared leave, pool."
+  },
+  "government_benefit": {
+   "components": [
+    "university_of_western_ontario_c6",
+    "university_of_western_ontario_c7"
+   ]
+  },
+  "employer_topup": {
+   "components": [
+    "university_of_western_ontario_c4",
+    "university_of_western_ontario_c5"
+   ]
+  },
+  "modified_duties": {
+   "absent": "No relief from duties on active service for new parents in 2018_00_link or 2018_01_fr_preparing_for_leave_guide; only rearrangements (Alternative Workload, course banking, teaching-free term) and Reduced Workload at prorated pay. Terms searched: modified duties, relief, release, reduced teaching, teaching load, new parent."
+  },
+  "unpaid_leave": {
+   "components": [
+    "university_of_western_ontario_c1",
+    "university_of_western_ontario_c2",
+    "university_of_western_ontario_c3",
+    "university_of_western_ontario_c8",
+    "university_of_western_ontario_c14"
+   ]
+  },
+  "tenure_clock": {
+   "components": [
+    "university_of_western_ontario_c19",
+    "university_of_western_ontario_c20",
+    "university_of_western_ontario_c21",
+    "university_of_western_ontario_c22",
+    "university_of_western_ontario_c23"
+   ]
+  },
+  "part_time_option": {
+   "components": [
+    "university_of_western_ontario_c17",
+    "university_of_western_ontario_c18"
+   ]
+  },
+  "other": {
+   "components": [
+    "university_of_western_ontario_c24",
+    "university_of_western_ontario_c25",
+    "university_of_western_ontario_c26",
+    "university_of_western_ontario_c27",
+    "university_of_western_ontario_c28"
+   ]
+  }
+ },
+ "baseline_accounting": {
+  "Employment Insurance maternity and parental benefits": {
+   "components": [
+    "university_of_western_ontario_c6",
+    "university_of_western_ontario_c7"
+   ]
+  },
+  "Employment Standards Act: pregnancy and parental leave": {
+   "components": [
+    "university_of_western_ontario_c1",
+    "university_of_western_ontario_c3"
+   ]
+  }
+ },
+ "passage_dispositions": {
+  "2018_00_link#001": {
+   "not_relevant": "table of contents"
+  },
+  "2018_00_link#002": {
+   "used_in": [
+    "university_of_western_ontario_c25"
+   ]
+  },
+  "2018_00_link#003": {
+   "not_relevant": "Annual Performance Evaluation: Members on leave may decline an Annual Report; no leave, pay or protection"
+  },
+  "2018_00_link#004": {
+   "not_relevant": "Annual Performance Evaluation procedure; assessment carried over during leave, not a leave provision"
+  },
+  "2018_00_link#005": {
+   "not_relevant": "Annual Performance Evaluation: leave of 24+ weeks removed from the assessment period; evaluation rule, not a leave provision"
+  },
+  "2018_00_link#006": {
+   "not_relevant": "appointment definitions (Tenure, Probationary); used only to identify the tenure stream"
+  },
+  "2018_00_link#007": {
+   "used_in": [
+    "university_of_western_ontario_c19"
+   ]
+  },
+  "2018_00_link#008": {
+   "used_in": [
+    "university_of_western_ontario_c20"
+   ]
+  },
+  "2018_00_link#009": {
+   "not_relevant": "Limited-Duties appointment selection criteria"
+  },
+  "2018_00_link#010": {
+   "not_relevant": "Basic Scientists promotion and tenure procedure"
+  },
+  "2018_00_link#011": {
+   "not_relevant": "Basic Scientists evaluation; Child and Family Care (day-care spaces, not a leave)"
+  },
+  "2018_00_link#012": {
+   "not_relevant": "closure and reorganization: retraining, ESA severance (listed under C4 not_components)"
+  },
+  "2018_00_link#013": {
+   "not_relevant": "flexible benefit credits and dependent coverage"
+  },
+  "2018_00_link#014": {
+   "not_relevant": "pension contributions during disability and benefits after Normal Retirement Date"
+  },
+  "2018_00_link#015": {
+   "not_relevant": "administrative stipends, sabbatical pay, start-up grant"
+  },
+  "2018_00_link#016": {
+   "not_relevant": "moving expense and research grant tax rules naming the Employment Insurance Act (listed under C4 not_components); conflict of interest"
+  },
+  "2018_00_link#017": {
+   "not_relevant": "conflict of commitment: Leave of Absence as a condition of outside activity"
+  },
+  "2018_00_link#018": {
+   "used_in": [
+    "university_of_western_ontario_c15"
+   ]
+  },
+  "2018_00_link#019": {
+   "not_relevant": "Department Chairs' Modified Alternative Workload"
+  },
+  "2018_00_link#020": {
+   "not_relevant": "Acting Chair stipend and Chair selection"
+  },
+  "2018_00_link#021": {
+   "not_relevant": "discipline: medical disability deemed sick leave"
+  },
+  "2018_00_link#022": {
+   "not_relevant": "discipline: dismissal and incarceration leave"
+  },
+  "2018_00_link#023": {
+   "not_relevant": "discrimination and harassment grounds (Human Rights Code listed under C4 not_components)"
+  },
+  "2018_00_link#024": {
+   "not_relevant": "Education Leave: study and training purpose, not usable for a birth"
+  },
+  "2018_00_link#025": {
+   "not_relevant": "Elected Public Office Leave"
+  },
+  "2018_00_link#026": {
+   "not_relevant": "administrators' Modified Alternative Workload and Exchange Leave"
+  },
+  "2018_00_link#027": {
+   "used_in": [
+    "university_of_western_ontario_c8",
+    "university_of_western_ontario_c9",
+    "university_of_western_ontario_c11",
+    "university_of_western_ontario_c13"
+   ]
+  },
+  "2018_00_link#028": {
+   "used_in": [
+    "university_of_western_ontario_c10"
+   ]
+  },
+  "2018_00_link#029": {
+   "used_in": [
+    "university_of_western_ontario_c10"
+   ]
+  },
+  "2018_00_link#030": {
+   "used_in": [
+    "university_of_western_ontario_c9"
+   ]
+  },
+  "2018_00_link#031": {
+   "used_in": [
+    "university_of_western_ontario_c9"
+   ]
+  },
+  "2018_00_link#032": {
+   "used_in": [
+    "university_of_western_ontario_c12",
+    "university_of_western_ontario_c20"
+   ]
+  },
+  "2018_00_link#033": {
+   "not_relevant": "information the Employer provides to the Association"
+  },
+  "2018_00_link#034": {
+   "used_in": [
+    "university_of_western_ontario_c14",
+    "university_of_western_ontario_c21"
+   ]
+  },
+  "2018_00_link#035": {
+   "used_in": [
+    "university_of_western_ontario_c1",
+    "university_of_western_ontario_c2",
+    "university_of_western_ontario_c3",
+    "university_of_western_ontario_c4",
+    "university_of_western_ontario_c5",
+    "university_of_western_ontario_c6",
+    "university_of_western_ontario_c7",
+    "university_of_western_ontario_c8",
+    "university_of_western_ontario_c13",
+    "university_of_western_ontario_c16",
+    "university_of_western_ontario_c18",
+    "university_of_western_ontario_c19"
+   ]
+  },
+  "2018_00_link#036": {
+   "used_in": [
+    "university_of_western_ontario_c19",
+    "university_of_western_ontario_c21",
+    "university_of_western_ontario_c23"
+   ]
+  },
+  "2018_00_link#037": {
+   "not_relevant": "promotion and tenure procedure"
+  },
+  "2018_00_link#038": {
+   "not_relevant": "promotion and tenure arbitration"
+  },
+  "2018_00_link#039": {
+   "not_relevant": "Recognition: bargaining-unit definition (used for faculty_group only)"
+  },
+  "2018_00_link#040": {
+   "used_in": [
+    "university_of_western_ontario_c17"
+   ]
+  },
+  "2018_00_link#041": {
+   "used_in": [
+    "university_of_western_ontario_c17"
+   ]
+  },
+  "2018_00_link#042": {
+   "used_in": [
+    "university_of_western_ontario_c17",
+    "university_of_western_ontario_c22"
+   ]
+  },
+  "2018_00_link#043": {
+   "not_relevant": "Reduced Workload benefits for Members over 55; resignation"
+  },
+  "2018_00_link#044": {
+   "not_relevant": "post-retirement benefits"
+  },
+  "2018_00_link#045": {
+   "not_relevant": "pension plan and sabbatical eligibility"
+  },
+  "2018_00_link#046": {
+   "not_relevant": "sabbatical eligibility accrual"
+  },
+  "2018_00_link#047": {
+   "not_relevant": "sabbatical credit and timing"
+  },
+  "2018_00_link#048": {
+   "not_relevant": "sabbatical procedure"
+  },
+  "2018_00_link#049": {
+   "used_in": [
+    "university_of_western_ontario_c26",
+    "university_of_western_ontario_c27"
+   ]
+  },
+  "2018_00_link#050": {
+   "not_relevant": "Letter of Understanding, Centre for Environment and Sustainability"
+  },
+  "2018_00_link#051": {
+   "not_relevant": "Letter of Understanding, First Nations Studies"
+  },
+  "2018_00_link#052": {
+   "not_relevant": "Letter of Understanding, Transitional Justice Centre"
+  },
+  "2018_00_link#053": {
+   "not_relevant": "Appendix E supervisory guidelines naming the Human Rights Code, OHSA and ESA as supervisors' obligations (listed under C4 not_components)"
+  },
+  "2018_01_fr_preparing_for_leave_guide#001": {
+   "not_relevant": "navigation and contact page; refers to Human Resources for leave processes, no policy text"
+  }
+ },
+ "notes": [
+  "Reference date 2018-02-26. 2018_00_link is the 2014-2018 UWOFA Faculty Collective Agreement (term July 1, 2014 - June 30, 2018), in force on the reference date.",
+  "2018_01_fr_preparing_for_leave_guide is a Faculty Relations navigation page: it refers Members to Western's Human Resources for pregnancy/parental/adoption leave processes and to a Practical Guide to Sabbaticals; it holds no policy text.",
+  "Birth parent chain: Pregnancy Leave 17 (c1, = ESA ss. 46-47; SEIB c4 within from week 0; EI maternity c6 from week 1, 15 weeks) -> agreement Parental/Adoption Leave 35 (c2) alongside ESA parental leave 61 (c3), both starting when c1 ends (SEIB c5 within c2; EI parental c7 after EI maternity, 35 weeks). Separately: sick leave 15 (c8) with STD pay c9 within it, then LTD c10.",
+  "Non-birth parent chain: agreement Parental/Adoption Leave 37 (c2) alongside ESA parental leave 63 (c3) from the same start; SEIB c5 within c2; EI parental c7 from week 1 of c2 (own waiting week).",
+  "SEIB: cl. 4(a) pays 100% of salary for 'the initial two-week waiting period' (written for the former two-week EI wait; EI Act s. 13 sets one week on the reference date); coded as written (R21). EI benefits are linked to the leave with start_offset_weeks 1.",
+  "SEIB cap: 17 weeks during Pregnancy Leave and 24 weeks during Parental/Adoption Leave 'inclusive of any paid Leave received under Clause 1.2.1', i.e. 24 weeks in all for a birth parent. A cap on two named benefits only, so flagged ambiguous: restriction on c4 and c5 (R20; checklist §5 example 8), not cap_weeks_all_sources; derived employer weeks for the birth parent may exceed the 24 the text allows.",
+  "The agreement's Parental/Adoption Leave lengths (35/37 weeks) match the ESA before the Fair Workplaces, Better Jobs Act, 2017 (s. 49(1.1) transition); s. 49(1) in force on 2018-02-26 gives 61/63. Coded as two leaves linked concurrent_with; flagged as a rule gap on c2.",
+  "Not components (cannot be used for a birth or are not leave/pay/protection): Compassionate Leave on a death (Income Security cl. 1-2), Court Leave, Elected Public Office Leave, Education Leave, Exchange Leave, Sabbatical Leave, authorized absence (Academic Responsibilities cl. 11: 'not a Leave'), Child Care day-care spaces and Family Care information office, religious rearrangement of duties, Phased Retirement, incarceration leave. The tenure postponements tied to Court Leave and Elected Public Office Leave are likewise not components.",
+  "Leave-cycle restriction (two years between successive leaves; no more than 24 months of leave in seven years) excludes Pregnancy and Parental/Adoption Leave, Sick Leave, Compassionate and Court Leave; recorded as a leave_limits entry on c14 and c15 only.",
+  "Pregnancy and Parental/Adoption Leave cl. 1.1.1 and 3(d): a Member may postpone the leave by the weeks a newborn or newly-adopted child is hospitalized (within 52 weeks of birth for Pregnancy Leave) and may apply for Compassionate Leave (c13). Cl. 6: the leaves are not a break in service; cl. 8: they count toward sabbatical eligibility; cl. 10: entitlement to modify or postpone a coinciding sabbatical; cl. 5: benefits continue during SEIB; cl. 5.1 vacation accrues.",
+  "U8: Members who do not meet the service requirements for Pregnancy/Parental Leave or SEIB are directed to Faculty Relations for other arrangements (Compassionate Leave, Leave of Absence, sick leave, Reduced Workload, Alternative Workload, ESA entitlements); a member with two years of service meets them, so these are notes, not components.",
+  "No calendar term length stated: Academic Term means Fall, Winter or Summer; Academic Year July 1 to June 30. calendar omitted.",
+  "Cross-references not saved: Long-Term Disability benefits (LTD) policy and University Group Disability Insurance program (flagged on c10); Manulife Financial benefits contract Class 003 (Compensation and Benefits cl. 37); Western Human Resources pregnancy/parental leave administrative information and Practical Guide to Sabbaticals (2018_01); UWO Pension Plan documents; MAPP 7.0 and MAPP 1.23; Employment Equity Guide; Schulich Mentorship Program; CURIE insurance policies. Statutes named but not saved: Ontario Human Rights Code, Occupational Health and Safety Act, FIPPA, Labour Relations Act, Income Tax Act, Canada Pension Plan Act, Copyright Act, University of Western Ontario Act, 1982."
+ ],
+ "paid_caps": [
+  {
+   "weeks": 24,
+   "components": [
+    "university_of_western_ontario_c4",
+    "university_of_western_ontario_c5"
+   ],
+   "note": "combined cap 24 weeks on c4 and c5 (SEIB paid weeks under Pregnancy and Parental/Adoption Leave)",
+   "evidence": "reader flag on c4, c5"
+  }
+ ],
+ "statutory_floor": {
+  "jurisdiction": "ON",
+  "year": "2018",
+  "weeks_birth": 78.0,
+  "weeks_nonbirth": 63.0,
+  "statute": "Employment Standards Act: pregnancy and parental leave (ESA 2000, ss. 46-49)",
+  "source_doc": "2018_21_on_esa2000",
+  "table": "statutory_baseline.csv"
+ }
+}

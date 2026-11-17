@@ -1,0 +1,2649 @@
+{
+ "institution": "University of Wisconsin, Madison",
+ "slug": "university_of_wisconsin_madison",
+ "country": "US",
+ "model": "claude-opus-5-5",
+ "codebook_version": "1.25",
+ "schema_version": "1.25",
+ "reference_date": "2018-02-26",
+ "calendar": {
+  "term_weeks": null,
+  "note": "Semester calendar stated ('Extensions shall be granted in periods of one or two semesters (for academic year appointments)'; 'a term (semester or 8-week summer session)'); length not stated, so the semester default (R8). The 19.5-week figure is a pay semester.",
+  "kind": "semester"
+ },
+ "documents": [
+  {
+   "doc_id": "2018_00_link",
+   "url": "https://www.ohr.wisc.edu/polproced/fambroch.pdf",
+   "title": "UW-Madison Family-Related Leave Policies for Faculty, Academic Staff and Limited Appointees (Office of the Provost, Academic Personnel Office brochure)",
+   "version_or_effective_date": "August 1998, revised November 2009 (Wayback copy 2015-09-06)",
+   "retrieved": "2026-10-18T17:40:57+00:00"
+  },
+  {
+   "doc_id": "2018_01_fpp_ch7_2016may17",
+   "url": "https://secfac.wisc.edu/wp-content/uploads/sites/50/2017/06/FPP-chapter-7-2016-May-17.pdf",
+   "title": "Faculty Policies and Procedures, Chapter 7: Faculty Appointments (file dated 2016 May 17; page footers 'December 2017')",
+   "version_or_effective_date": "December 2017 (Wayback copy 2018-03-09)",
+   "retrieved": "2026-10-21T15:15:48+00:00"
+  },
+  {
+   "doc_id": "2018_02_fpp_full_2018march",
+   "url": "https://secfac.wiscweb.wisc.edu/wp-content/uploads/sites/50/2018/03/FACULTY-POLICIES-AND-PROCEDURES_2018_March.pdf",
+   "title": "Faculty Policies and Procedures, University of Wisconsin-Madison (full text, amendments as of 05 March 2018)",
+   "version_or_effective_date": "amendments as of 2018-03-05 (Wayback copy 2018-03-09)",
+   "retrieved": "2026-10-21T15:15:51+00:00"
+  },
+  {
+   "doc_id": "2018_03_uppp_16_01_leaves_without_pay",
+   "url": "https://www.ohr.wisc.edu/polproced/UPPP/1601.htm",
+   "title": "UPPP 16.01 Leaves of Absence and Temporary Assignments Without Pay",
+   "version_or_effective_date": "last updated 2011-12-05 (Wayback copy 2017-09-28)",
+   "retrieved": "2026-10-21T15:17:44+00:00"
+  },
+  {
+   "doc_id": "2018_04_uppp_16_02_paid_leave_benefits",
+   "url": "https://www.ohr.wisc.edu/polproced/UPPP/1602.htm",
+   "title": "UPPP 16.02 Sick Leave, Vacation, ALRA, Bereavement Leave, Jury Duty, and Other Leaves with Pay",
+   "version_or_effective_date": "last updated 2014-05-22 (Wayback copy 2017-09-16)",
+   "retrieved": "2026-10-21T15:17:46+00:00"
+  },
+  {
+   "doc_id": "2018_05_uws_upg10_sick_leave",
+   "url": "https://www.wisconsin.edu/ohrwd/download/upg/UPG10.pdf",
+   "title": "UW System Unclassified Personnel Guideline #10: Unclassified Staff Sick Leave Policy",
+   "version_or_effective_date": "revised 2007-12-19 (Wayback copy 2018-03-11)",
+   "retrieved": "2026-10-21T15:18:43+00:00"
+  },
+  {
+   "doc_id": "2018_06_faclegis_ii308_parental_leave_1988",
+   "url": "https://secfac.wisc.edu/governance/faculty-legislation/ii-308-parental-leave-policy/",
+   "title": "Faculty Legislation II-308 Parental Leave Policy (Report of the Committee on Parental Leave Policy, Faculty Document 771)",
+   "version_or_effective_date": "1988-10-03 (Wayback copy 2020-09-30; version note: read as in force on 2018-02-26)",
+   "retrieved": "2026-10-21T15:20:20+00:00"
+  },
+  {
+   "doc_id": "2026_00_us_fmla_29usc2612",
+   "url": "https://www.law.cornell.edu/uscode/text/29/2612",
+   "title": "29 U.S.C. 2612 (FMLA leave requirement)",
+   "version_or_effective_date": "2026 text; leave length unchanged since 1993",
+   "retrieved": "2026-10-19T03:57:12+00:00"
+  }
+ ],
+ "missing": false,
+ "scope_accounting": {
+  "C1": {
+   "components": [
+    "university_of_wisconsin_madison_c1",
+    "university_of_wisconsin_madison_c2",
+    "university_of_wisconsin_madison_c3",
+    "university_of_wisconsin_madison_c6",
+    "university_of_wisconsin_madison_c8"
+   ]
+  },
+  "C2": {
+   "components": [
+    "university_of_wisconsin_madison_c18"
+   ]
+  },
+  "C3": {
+   "components": [
+    "university_of_wisconsin_madison_c2",
+    "university_of_wisconsin_madison_c4",
+    "university_of_wisconsin_madison_c6",
+    "university_of_wisconsin_madison_c7",
+    "university_of_wisconsin_madison_c9",
+    "university_of_wisconsin_madison_c10"
+   ]
+  },
+  "C4": {
+   "components": [
+    "university_of_wisconsin_madison_c3",
+    "university_of_wisconsin_madison_c4",
+    "university_of_wisconsin_madison_c5",
+    "university_of_wisconsin_madison_c8"
+   ],
+   "not_components": [
+    {
+     "statute": "Federal Employee Paid Leave Act (5 U.S.C. 6382(d))",
+     "reason": "not named in any saved document; applies to federal civilian employees"
+    },
+    {
+     "statute": "Sec. 36.13 Wis. Stats. (tenure; 36.13(2)(b)(d))",
+     "reason": "tenure statute; the documents rely on it only for excluding an approved leave from the probationary period, coded through FPP 7.04.E as c12"
+    },
+    {
+     "statute": "Sec. 36.30 Wis. Stats. and ch. UWS 19 Wis. Adm. Code (sick leave authority)",
+     "reason": "authority for the UW System sick-leave policy coded as c2, c6, c7; no separate leave stated"
+    },
+    {
+     "statute": "Sec. 321.64 and 230.35(3)(a) Wis. Stats. (military and reserve leave)",
+     "reason": "military leave; unrelated to becoming a parent (U4)"
+    },
+    {
+     "statute": "Sec. 230.35(2d) Wis. Stats. (bone marrow and organ donation leave, Regent Policy 20-15)",
+     "reason": "donor leave; unrelated to becoming a parent (U4)"
+    },
+    {
+     "statute": "Sec. 40.05(4)(b), (bc), (bp), 40.22(2), 40.95, 230.12(9), 40.02(22)(em), 36.11(17) Wis. Stats.",
+     "reason": "retirement-system rules on sick-leave conversion, reporting, WRS coverage and sabbatical accrual; no parental leave"
+    },
+    {
+     "statute": "Americans with Disabilities Act",
+     "reason": "disability-accommodation statute (U4); not a component"
+    },
+    {
+     "statute": "Fair Labor Standards Act",
+     "reason": "exempt-status rule for leave reporting; not a leave"
+    },
+    {
+     "statute": "Internal Revenue Code Section 125 (Employee Reimbursement Account)",
+     "reason": "pre-tax dependent-care account; no leave, pay or protection"
+    },
+    {
+     "statute": "Sec. 36.09, 36.21-36.22, 19.85 Wis. Stats.",
+     "reason": "governance, layoff and open-meetings statutes; unrelated to becoming a parent"
+    }
+   ]
+  },
+  "C5": {
+   "components": [
+    "university_of_wisconsin_madison_c5",
+    "university_of_wisconsin_madison_c7",
+    "university_of_wisconsin_madison_c8"
+   ]
+  },
+  "C6": {
+   "components": [
+    "university_of_wisconsin_madison_c15",
+    "university_of_wisconsin_madison_c16"
+   ]
+  },
+  "C7": {
+   "components": [
+    "university_of_wisconsin_madison_c11",
+    "university_of_wisconsin_madison_c12",
+    "university_of_wisconsin_madison_c13",
+    "university_of_wisconsin_madison_c14"
+   ]
+  },
+  "C8": {
+   "components": [
+    "university_of_wisconsin_madison_c17",
+    "university_of_wisconsin_madison_c14"
+   ]
+  },
+  "C9": {
+   "components": [
+    "university_of_wisconsin_madison_c19"
+   ]
+  },
+  "C10": {
+   "absent": {
+    "documents": [
+     "2018_00_link",
+     "2018_01_fpp_ch7_2016may17",
+     "2018_02_fpp_full_2018march",
+     "2018_03_uppp_16_01_leaves_without_pay",
+     "2018_04_uppp_16_02_paid_leave_benefits",
+     "2018_05_uws_upg10_sick_leave",
+     "2018_06_faclegis_ii308_parental_leave_1988"
+    ],
+    "terms": [
+     "first days",
+     "FMLA event",
+     "paid as regular work time",
+     "pay status",
+     "paid leave for birth",
+     "colleague coverage"
+    ]
+   }
+  }
+ },
+ "passage_dispositions": {
+  "2018_00_link#001": {
+   "used_in": [
+    "university_of_wisconsin_madison_c1",
+    "university_of_wisconsin_madison_c2",
+    "university_of_wisconsin_madison_c3",
+    "university_of_wisconsin_madison_c6",
+    "university_of_wisconsin_madison_c7",
+    "university_of_wisconsin_madison_c8",
+    "university_of_wisconsin_madison_c9",
+    "university_of_wisconsin_madison_c17",
+    "university_of_wisconsin_madison_c18"
+   ]
+  },
+  "2018_00_link#002": {
+   "used_in": [
+    "university_of_wisconsin_madison_c11",
+    "university_of_wisconsin_madison_c13",
+    "university_of_wisconsin_madison_c18",
+    "university_of_wisconsin_madison_c6"
+   ]
+  },
+  "2018_00_link#003": {
+   "not_relevant": "child-care referral services and the dependent-care reimbursement account; no leave, pay or protection"
+  },
+  "2018_00_link#004": {
+   "used_in": [
+    "university_of_wisconsin_madison_c19"
+   ]
+  },
+  "2018_01_fpp_ch7_2016may17#001": {
+   "used_in": [
+    "university_of_wisconsin_madison_c11",
+    "university_of_wisconsin_madison_c12",
+    "university_of_wisconsin_madison_c13",
+    "university_of_wisconsin_madison_c14"
+   ]
+  },
+  "2018_01_fpp_ch7_2016may17#002": {
+   "not_relevant": "annual evaluation of probationary faculty"
+  },
+  "2018_01_fpp_ch7_2016may17#003": {
+   "not_relevant": "nonrenewal appeal procedure"
+  },
+  "2018_01_fpp_ch7_2016may17#004": {
+   "not_relevant": "tenure criteria and review standard"
+  },
+  "2018_01_fpp_ch7_2016may17#005": {
+   "used_in": [
+    "university_of_wisconsin_madison_c15"
+   ]
+  },
+  "2018_01_fpp_ch7_2016may17#006": {
+   "not_relevant": "emeritus faculty and chapter history"
+  },
+  "2018_02_fpp_full_2018march#001": {
+   "not_relevant": "table of contents"
+  },
+  "2018_02_fpp_full_2018march#002": {
+   "not_relevant": "table of contents"
+  },
+  "2018_02_fpp_full_2018march#003": {
+   "not_relevant": "faculty legislation and policy statements procedure"
+  },
+  "2018_02_fpp_full_2018march#004": {
+   "not_relevant": "senate question period and amendments"
+  },
+  "2018_02_fpp_full_2018march#005": {
+   "used_in": [
+    "university_of_wisconsin_madison_c11",
+    "university_of_wisconsin_madison_c12",
+    "university_of_wisconsin_madison_c13",
+    "university_of_wisconsin_madison_c14"
+   ]
+  },
+  "2018_02_fpp_full_2018march#006": {
+   "not_relevant": "annual evaluation of probationary faculty"
+  },
+  "2018_02_fpp_full_2018march#007": {
+   "not_relevant": "nonrenewal appeal procedure"
+  },
+  "2018_02_fpp_full_2018march#008": {
+   "not_relevant": "tenure criteria and review standard"
+  },
+  "2018_02_fpp_full_2018march#009": {
+   "used_in": [
+    "university_of_wisconsin_madison_c15"
+   ]
+  },
+  "2018_02_fpp_full_2018march#010": {
+   "not_relevant": "emeritus faculty and chapter history"
+  },
+  "2018_02_fpp_full_2018march#011": {
+   "not_relevant": "layoff seniority rules"
+  },
+  "2018_03_uppp_16_01_leaves_without_pay#001": {
+   "used_in": [
+    "university_of_wisconsin_madison_c1",
+    "university_of_wisconsin_madison_c12",
+    "university_of_wisconsin_madison_c15",
+    "university_of_wisconsin_madison_c16"
+   ]
+  },
+  "2018_03_uppp_16_01_leaves_without_pay#002": {
+   "used_in": [
+    "university_of_wisconsin_madison_c16"
+   ]
+  },
+  "2018_03_uppp_16_01_leaves_without_pay#003": {
+   "not_relevant": "leave for elected or appointed office"
+  },
+  "2018_03_uppp_16_01_leaves_without_pay#004": {
+   "not_relevant": "political campaigning and references list"
+  },
+  "2018_04_uppp_16_02_paid_leave_benefits#001": {
+   "used_in": [
+    "university_of_wisconsin_madison_c2"
+   ]
+  },
+  "2018_04_uppp_16_02_paid_leave_benefits#002": {
+   "used_in": [
+    "university_of_wisconsin_madison_c2",
+    "university_of_wisconsin_madison_c9"
+   ]
+  },
+  "2018_04_uppp_16_02_paid_leave_benefits#003": {
+   "used_in": [
+    "university_of_wisconsin_madison_c9"
+   ]
+  },
+  "2018_04_uppp_16_02_paid_leave_benefits#004": {
+   "used_in": [
+    "university_of_wisconsin_madison_c9"
+   ]
+  },
+  "2018_04_uppp_16_02_paid_leave_benefits#005": {
+   "used_in": [
+    "university_of_wisconsin_madison_c9"
+   ]
+  },
+  "2018_04_uppp_16_02_paid_leave_benefits#006": {
+   "not_relevant": "legal, floating and personal holidays"
+  },
+  "2018_04_uppp_16_02_paid_leave_benefits#007": {
+   "not_relevant": "jury duty, voting, bereavement, military leave and payout at termination"
+  },
+  "2018_04_uppp_16_02_paid_leave_benefits#008": {
+   "not_relevant": "leave payout at termination"
+  },
+  "2018_05_uws_upg10_sick_leave#001": {
+   "used_in": [
+    "university_of_wisconsin_madison_c2",
+    "university_of_wisconsin_madison_c6",
+    "university_of_wisconsin_madison_c7",
+    "university_of_wisconsin_madison_c10"
+   ]
+  },
+  "2018_05_uws_upg10_sick_leave#002": {
+   "used_in": [
+    "university_of_wisconsin_madison_c3",
+    "university_of_wisconsin_madison_c4",
+    "university_of_wisconsin_madison_c5",
+    "university_of_wisconsin_madison_c6",
+    "university_of_wisconsin_madison_c8"
+   ]
+  },
+  "2018_06_faclegis_ii308_parental_leave_1988#001": {
+   "used_in": [
+    "university_of_wisconsin_madison_c1",
+    "university_of_wisconsin_madison_c2",
+    "university_of_wisconsin_madison_c3",
+    "university_of_wisconsin_madison_c10",
+    "university_of_wisconsin_madison_c14",
+    "university_of_wisconsin_madison_c17"
+   ]
+  },
+  "2018_06_faclegis_ii308_parental_leave_1988#002": {
+   "used_in": [
+    "university_of_wisconsin_madison_c10",
+    "university_of_wisconsin_madison_c11",
+    "university_of_wisconsin_madison_c14",
+    "university_of_wisconsin_madison_c17"
+   ]
+  },
+  "2018_06_faclegis_ii308_parental_leave_1988#003": {
+   "not_relevant": "summary rationale; no provision"
+  }
+ },
+ "mechanism_slots": {
+  "employer_paid_leave": {
+   "absent": "No employer-paid parental or birth leave: the brochure's 'Paid leave for birth or adoption' is sick leave and vacation only. Searched all seven sources for 'paid leave', 'with pay', 'parental leave', 'maternity', 'childbirth'; II-308 rec. 10 only recommends exploring a paid infant-care leave."
+  },
+  "employer_childbirth_benefit": {
+   "absent": "The six-week childbirth period is paid only from the employee's own sick leave (c2, own_accrual, R1b). Searched for 'maternity', 'childbirth', 'birthing mother', 'disability'."
+  },
+  "generic_sick_or_disability_plan": {
+   "components": [
+    "university_of_wisconsin_madison_c10"
+   ]
+  },
+  "own_accrual": {
+   "components": [
+    "university_of_wisconsin_madison_c2",
+    "university_of_wisconsin_madison_c6",
+    "university_of_wisconsin_madison_c7",
+    "university_of_wisconsin_madison_c9"
+   ]
+  },
+  "donated_leave": {
+   "absent": "No donated or shared sick-leave bank in any source; searched 'donat', 'bank', 'shared leave', 'catastrophic' (only bone-marrow/organ donation leave, not a component)."
+  },
+  "government_benefit": {
+   "absent": "No state or federal paid-leave programme named; Wisconsin has none in the sources. Searched 'benefit', 'insurance', 'paid family'."
+  },
+  "employer_topup": {
+   "absent": "No top-up of a government benefit; searched 'top-up', 'supplement', 'difference'."
+  },
+  "modified_duties": {
+   "absent": "No modified-duties or teaching-relief entitlement; the brochure's course reassignment replaces teaching with other duties (c18, other, R16). Searched 'relief', 'relieve', 'reduced teaching', 'modified duties', 'course release'."
+  },
+  "unpaid_leave": {
+   "components": [
+    "university_of_wisconsin_madison_c1",
+    "university_of_wisconsin_madison_c3",
+    "university_of_wisconsin_madison_c4",
+    "university_of_wisconsin_madison_c5",
+    "university_of_wisconsin_madison_c8",
+    "university_of_wisconsin_madison_c15",
+    "university_of_wisconsin_madison_c16"
+   ]
+  },
+  "tenure_clock": {
+   "components": [
+    "university_of_wisconsin_madison_c11",
+    "university_of_wisconsin_madison_c12",
+    "university_of_wisconsin_madison_c13",
+    "university_of_wisconsin_madison_c14"
+   ]
+  },
+  "part_time_option": {
+   "components": [
+    "university_of_wisconsin_madison_c17"
+   ]
+  },
+  "other": {
+   "components": [
+    "university_of_wisconsin_madison_c18",
+    "university_of_wisconsin_madison_c19"
+   ]
+  }
+ },
+ "baseline_accounting": {
+  "Family and Medical Leave Act (FMLA)": {
+   "components": [
+    "university_of_wisconsin_madison_c8"
+   ]
+  },
+  "Federal Employee Paid Leave Act (paid parental leave for federal civilian employees)": {
+   "not_applicable": "applies to federal civilian employees; no saved document mentions it"
+  },
+  "Wisconsin Family and Medical Leave Act (WFMLA)": {
+   "components": [
+    "university_of_wisconsin_madison_c3",
+    "university_of_wisconsin_madison_c4",
+    "university_of_wisconsin_madison_c5"
+   ]
+  }
+ },
+ "leave_limits": [],
+ "components": [
+  {
+   "component_id": "university_of_wisconsin_madison_c1",
+   "institution_label": "Unpaid Leave After Birth or Adoption",
+   "description": "University policy gives faculty a right to unpaid leave of absence after any paid (sick or vacation) leave ends: for 9-month (academic-year) appointees the rest of the semester of the birth or adoption plus the entire following semester; 12-month appointees up to one year from the birth or adoption.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "faculty academic staff and Limited appointees; the member is a 9-month (academic-year) appointee",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "the mother or father; after birth or adoption",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "entitlement_note": "'have the right to take' (brochure) and 'has a right to take' (II-308); UPPP 16.01 exempts the Family-Related (Parental) Leave Policy (UPPP 16.03) from the unit's discretion. The governing UPPP 16.03 itself is not saved.",
+   "duration": {
+    "value": 2,
+    "units": "semester",
+    "qualifier": "up_to"
+   },
+   "duration_note": "Rest of the semester of the birth or adoption (coded as a semester, R3b reading for an unpaid leave for the rest of the semester) plus the entire following semester; 'any number of consecutive days' (II-308), so up_to. II-308 gives the actual span from the birth as 'approximately six months to approximately 12 months' depending on timing. 'The department and college may agree to other options, including partial leaves.'",
+   "duration_variants": {
+    "9_month_appointees": "rest of the birth/adoption semester + the entire following semester",
+    "12_month_appointees": "up to one year from the date of the birth or adoption (not the member's path; 12-month appointees are a group defined by appointment length)"
+   },
+   "rule_applied": [
+    "R3b",
+    "R13",
+    "R9",
+    "V3",
+    "U1",
+    "source_precedence"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Under University policies, faculty academic staff and Limited appointees have the right to take a leave of absence without pay after any paid leave has ended."
+    ],
+    "eligible_parent": [
+     "the mother or father has a right to take unpaid leave for any number of consecutive days to the end of the semester in which the baby is born plus unpaid leave for the entire next semester.",
+     "UNPAID LEAVE AFTER BIRTH OR ADOPTION"
+    ],
+    "entitlement": [
+     "Under University policies, faculty academic staff and Limited appointees have the right to take a leave of absence without pay after any paid leave has ended.",
+     "The decision whether to approve the leave typically is based on the needs and funding of the unit, except in the case of federal and Wisconsin Family and Medical leave entitlements, and under UW Madison Family-Related (Parental) Leave Policy (UPPP 16.03)."
+    ],
+    "duration": [
+     "Those on 9-month appointments may take the rest of the semester in which the birth or adoption occurs and the entire following semester.",
+     "For those on nine-month appointments, the mother or father has a right to take unpaid leave for any number of consecutive days to the end of the semester in which the baby is born plus unpaid leave for the entire next semester."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link",
+    "2018_06_faclegis_ii308_parental_leave_1988",
+    "2018_03_uppp_16_01_leaves_without_pay"
+   ],
+   "flags": [
+    "cross_reference_not_saved: UW-Madison Family-Related (Parental) Leave Policy (UPPP 16.03)",
+    "cross_reference_not_saved: Board of Regents Resolution #506 (System Sick Leave Policy for Faculty and Academic Staff)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "Under University policies, faculty academic staff and Limited appointees have the right to take a leave of absence without pay after any paid leave has ended."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Under University policies, faculty academic staff and Limited appointees have the right to take a leave of absence without pay after any paid leave has ended."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "V3",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Under University policies, faculty academic staff and Limited appointees have the right to take a leave of absence without pay after any paid leave has ended."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "birth_parent, non_birth_parent, adoptive ('the mother or father'; 'after birth or adoption')",
+     "quote": "For those on nine-month appointments, the mother or father has a right to take unpaid leave for any number of consecutive days to the end of the semester in which the baby is born plus unpaid leave for the entire next semester."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "Under University policies, faculty academic staff and Limited appointees have the right to take a leave of absence without pay after any paid leave has ended."
+    },
+    {
+     "field": "entitlement",
+     "rule": "source_precedence",
+     "answer": "guaranteed",
+     "quote": "The decision whether to approve the leave typically is based on the needs and funding of the unit, except in the case of federal and Wisconsin Family and Medical leave entitlements, and under UW Madison Family-Related (Parental) Leave Policy (UPPP 16.03)."
+    },
+    {
+     "field": "duration",
+     "rule": "R3b",
+     "answer": "2 semesters up_to: the rest of the birth semester read as a semester, plus the following semester",
+     "quote": "Those on 9-month appointments may take the rest of the semester in which the birth or adoption occurs and the entire following semester."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "up_to ('any number of consecutive days')",
+     "quote": "the mother or father has a right to take unpaid leave for any number of consecutive days to the end of the semester in which the baby is born plus unpaid leave for the entire next semester."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "UNPAID LEAVE AFTER BIRTH OR ADOPTION"
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave, relief not stated)",
+     "quote": "Under University policies, faculty academic staff and Limited appointees have the right to take a leave of absence without pay after any paid leave has ended."
+    }
+   ],
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "relief_note": "No relief stated for this leave or absence; every duty coded relieved (R9)."
+  },
+  {
+   "component_id": "university_of_wisconsin_madison_c2",
+   "institution_label": "",
+   "description": "The birth parent may use her own accumulated sick leave while her medical condition precludes work after childbirth; generally up to six weeks (per doctor's orders) for a normal birth.",
+   "mechanism": "own_accrual",
+   "payer": "own_balance",
+   "mechanism_note": "Paid from the employee's own sick-leave balance (22 days at hire, then 12 days a year after 18 months, accumulating without limit): an accrual (R1), so not an employer plan; the six-week childbirth period is stated but pay depends on the balance (R1b).",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "All faculty, academic staff, and limited appointees who are covered under the Wisconsin Retirement System (WRS)",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "birth mothers; a birthing mother",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 6,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "duration_note": "'can generally use up to six weeks sick leave (per doctor's orders) to recover from child birth'; the brochure: 'six weeks is generally the amount needed for a normal birth, but the actual amount needed varies by individual'. Limited by the member's balance (22 days at hire, 12 days a year after 18 months).",
+   "pay_fraction": "100%",
+   "medical_certification": true,
+   "medical_certification_note": "written certification from a health care provider of the medical necessity for absences of more than 5 consecutive full working days (waived where use is authorized in advance under WFMLA or FMLA)",
+   "sequence": [
+    {
+     "relation": "within",
+     "component_id": "university_of_wisconsin_madison_c1",
+     "note": "the unpaid leave for the rest of the semester contains the paid sick leave that precedes it ('after any paid leave has ended'; R3b)"
+    }
+   ],
+   "rule_applied": [
+    "R1",
+    "R1b",
+    "R13",
+    "R3b",
+    "R9",
+    "U5",
+    "V1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "All faculty, academic staff, and limited appointees who are covered under the Wisconsin Retirement System (WRS) earn sick leave while in pay status."
+    ],
+    "eligible_parent": [
+     "[This only applies to birth mothers.]",
+     "Employees may use accumulated sick leave for: (a) Absence due to personal illness, injury, disability, pregnancy, or adoption;"
+    ],
+    "entitlement": [
+     "Employees may use accumulated sick leave for: (a) Absence due to personal illness, injury, disability, pregnancy, or adoption;"
+    ],
+    "duration": [
+     "For example, a birthing mother can generally use up to six weeks sick leave (per doctor's orders) to recover from child birth in addition to the six weeks family leave, for a total of twelve weeks."
+    ],
+    "pay_fraction": [
+     "paid 100% using her sick leave"
+    ],
+    "sequence": [
+     "Under University policies, faculty academic staff and Limited appointees have the right to take a leave of absence without pay after any paid leave has ended.",
+     "Those on 9-month appointments may take the rest of the semester in which the birth or adoption occurs and the entire following semester."
+    ],
+    "medical_certification": [
+     "UW institutions shall require written certification from a health care provider of the medical necessity for use of sick leave for absences of more than 5 consecutive full working days, except where the use of sick leave is authorized in advance, pursuant to the Wisconsin or Federal Family and Medical Leave Act."
+    ],
+    "mechanism": [
+     "Your accumulated sick leave can be used for birth or adoption in the following three circumstances.",
+     "If leave is reported completely, accurately, and in a timely manner, unused sick leave accumulates in the unclassified employee's account from year to year without limit."
+    ]
+   },
+   "doc_ids": [
+    "2018_05_uws_upg10_sick_leave",
+    "2018_00_link",
+    "2018_04_uppp_16_02_paid_leave_benefits"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "own_accrual",
+     "quote": "If leave is reported completely, accurately, and in a timely manner, unused sick leave accumulates in the unclassified employee's account from year to year without limit."
+    },
+    {
+     "field": "mechanism",
+     "rule": "V1",
+     "answer": "own_accrual",
+     "quote": "Your accumulated sick leave can be used for birth or adoption in the following three circumstances."
+    },
+    {
+     "field": "payer",
+     "rule": "R1b",
+     "answer": "own_balance",
+     "quote": "Your accumulated sick leave can be used for birth or adoption in the following three circumstances."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "All faculty, academic staff, and limited appointees who are covered under the Wisconsin Retirement System (WRS) earn sick leave while in pay status."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own medical condition)",
+     "quote": "[This only applies to birth mothers.]"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "Employees may use accumulated sick leave for: (a) Absence due to personal illness, injury, disability, pregnancy, or adoption;"
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "6 weeks up_to",
+     "quote": "For example, a birthing mother can generally use up to six weeks sick leave (per doctor's orders) to recover from child birth in addition to the six weeks family leave, for a total of twelve weeks."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "100% from own sick leave",
+     "quote": "paid 100% using her sick leave"
+    },
+    {
+     "field": "sequence",
+     "rule": "R3b",
+     "answer": "within c1 (the rest-of-semester unpaid leave contains it)",
+     "quote": "Under University policies, faculty academic staff and Limited appointees have the right to take a leave of absence without pay after any paid leave has ended."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Employees may use accumulated sick leave for: (a) Absence due to personal illness, injury, disability, pregnancy, or adoption;"
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave, relief not stated)",
+     "quote": "When your medical condition precludes work"
+    }
+   ],
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "relief_note": "No relief stated for this leave or absence; every duty coded relieved (R9)."
+  },
+  {
+   "component_id": "university_of_wisconsin_madison_c3",
+   "institution_label": "Wisconsin Family and Medical Leave Act (WFMLA)",
+   "description": "State-law (WFMLA) job-protected family leave of six weeks for the birth of a child, adoption or placement for adoption, beginning within 16 weeks of the event; may be covered by accrued sick leave or taken without pay, and intermittently or part-time.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "unclassified employees (faculty, academic staff, limited appointees) meeting WFMLA eligibility",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "for the birth of a child, adoption, or placement of a child as a pre-condition for adoption; both parents",
+   "caregiver_condition": "none",
+   "service_requirement": "more than 52 consecutive weeks of state service and at least 1,000 hours in pay status in the preceding 52 weeks",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 6,
+    "units": "week",
+    "qualifier": "exact"
+   },
+   "duration_note": "Six weeks family leave; may be taken intermittently or as a reduced schedule. For a birthing mother, the period when she is physically unable to work is not family leave: up to two weeks WFMLA medical leave (c4) comes first.",
+   "time_window": "must begin not earlier than 16 weeks prior to and not later than 16 weeks after the birth or placement",
+   "dual_employee_rule": "If both parents work for the University each is eligible (six weeks each)",
+   "runs_concurrently_with": [
+    "FMLA"
+   ],
+   "statute_source": "Wis. Stat. 103.10 (Wisconsin Family and Medical Leave Act); ch. DWD 225, Wis. Admin. Code",
+   "statute_verified": false,
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "university_of_wisconsin_madison_c4",
+     "roles": [
+      "birth"
+     ],
+     "note": "WFMLA: a birthing mother's medical leave is in addition to the six weeks of family leave; the period she is physically unable to work is not family leave (S1a)"
+    },
+    {
+     "relation": "within",
+     "component_id": "university_of_wisconsin_madison_c1",
+     "roles": [
+      "birth"
+     ],
+     "start_offset_weeks": 2,
+     "note": "For the birth parent the family leave follows the two-week medical leave inside the institutional leave, which starts at the birth"
+    },
+    {
+     "relation": "concurrent_with",
+     "component_id": "university_of_wisconsin_madison_c1",
+     "note": "statutory leave alongside the institution's unpaid parental leave (S1); for the non-birth parent it starts with c1",
+     "roles": [
+      "nonbirth"
+     ]
+    }
+   ],
+   "rule_applied": [
+    "U2",
+    "U4",
+    "S1",
+    "S1a",
+    "R9",
+    "R15",
+    "R13"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "An employee qualifies for WFMLA if he or she has worked for the state for more than 52 consecutive weeks, including leaves of absence, military service, and other time off, and was in pay status, including paid leave, for at least 1,000 hours during the preceding 52-week period."
+    ],
+    "eligible_parent": [
+     "Six weeks family leave for the birth of a child, adoption, or placement of a child as a pre- condition for adoption."
+    ],
+    "entitlement": [
+     "The WFMLA and FMLA guarantee employees specified periods of job-protected leave when necessitated by certain family events or personal illness or injury.",
+     "Under WFMLA, she has a right to six weeks of family leave"
+    ],
+    "duration": [
+     "Six weeks family leave for the birth of a child, adoption, or placement of a child as a pre- condition for adoption."
+    ],
+    "service_requirement": [
+     "An employee qualifies for WFMLA if he or she has worked for the state for more than 52 consecutive weeks, including leaves of absence, military service, and other time off, and was in pay status, including paid leave, for at least 1,000 hours during the preceding 52-week period."
+    ],
+    "time_window": [
+     "This leave must begin not earlier than 16 weeks prior to and not later than 16 weeks after the qualifying event."
+    ],
+    "dual_employee_rule": [
+     "If both parents work for the University each is eligible under WFMLA to use six weeks of sick leave for birth, adoption, or placement for adoption."
+    ],
+    "sequence": [
+     "Subject to the two-week per year maximum, a birthing mother may take two weeks medical leave under WFMLA for her own medical condition in addition to six weeks family leave to care for the newborn.",
+     "The period immediately following the birth of a child when the biological mother is physically unable to work is not considered family leave.",
+     "Although these policies are usually more generous than rights provided for leave without pay under FMLA and WFMLA, you may have additional leave rights under those laws."
+    ],
+    "statute_source": [
+     "The Wisconsin Family and Medical Leave Act is authorized in §103.10, Wis. Stats., and in ch. DWD 225, Wis. Admin. Code."
+    ]
+   },
+   "doc_ids": [
+    "2018_05_uws_upg10_sick_leave",
+    "2018_00_link",
+    "2018_06_faclegis_ii308_parental_leave_1988"
+   ],
+   "flags": [
+    "cross_reference_not_saved: Wis. Stat. 103.10 (Wisconsin Family and Medical Leave Act)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "U4",
+     "answer": "unpaid_leave",
+     "quote": "The WFMLA and FMLA guarantee employees specified periods of job-protected leave when necessitated by certain family events or personal illness or injury."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "The employee may use any combination of leave without pay and any accrued leave, including sick leave, to cover absences granted under WFMLA."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "An employee qualifies for WFMLA if he or she has worked for the state for more than 52 consecutive weeks, including leaves of absence, military service, and other time off, and was in pay status, including paid leave, for at least 1,000 hours during the preceding 52-week period."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "birth_parent, non_birth_parent, adoptive",
+     "quote": "Six weeks family leave for the birth of a child, adoption, or placement of a child as a pre- condition for adoption."
+    },
+    {
+     "field": "entitlement",
+     "rule": "U2",
+     "answer": "guaranteed",
+     "quote": "The WFMLA and FMLA guarantee employees specified periods of job-protected leave when necessitated by certain family events or personal illness or injury."
+    },
+    {
+     "field": "duration",
+     "rule": "U2",
+     "answer": "6 weeks exact, as stated in the System guideline; statute not saved",
+     "quote": "Six weeks family leave for the birth of a child, adoption, or placement of a child as a pre- condition for adoption."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U2",
+     "answer": "52 consecutive weeks and 1,000 hours",
+     "quote": "An employee qualifies for WFMLA if he or she has worked for the state for more than 52 consecutive weeks, including leaves of absence, military service, and other time off, and was in pay status, including paid leave, for at least 1,000 hours during the preceding 52-week period."
+    },
+    {
+     "field": "sequence",
+     "rule": "S1a",
+     "answer": "consecutive_after c4 and within c1 (two weeks in) for the birth parent",
+     "quote": "Subject to the two-week per year maximum, a birthing mother may take two weeks medical leave under WFMLA for her own medical condition in addition to six weeks family leave to care for the newborn."
+    },
+    {
+     "field": "sequence",
+     "rule": "S1",
+     "answer": "concurrent_with c1 for the non-birth parent",
+     "quote": "Although these policies are usually more generous than rights provided for leave without pay under FMLA and WFMLA, you may have additional leave rights under those laws."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Six weeks family leave for the birth of a child, adoption, or placement of a child as a pre- condition for adoption."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave, relief not stated)",
+     "quote": "The WFMLA and FMLA guarantee employees specified periods of job-protected leave when necessitated by certain family events or personal illness or injury."
+    }
+   ],
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "relief_note": "No relief stated for this leave or absence; every duty coded relieved (R9)."
+  },
+  {
+   "component_id": "university_of_wisconsin_madison_c4",
+   "institution_label": "",
+   "description": "WFMLA medical leave of two weeks per year for the employee's own serious illness or injury; a birthing mother may take it for her own medical condition before the six weeks of family leave.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "unclassified employees meeting WFMLA eligibility",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "a birthing mother; personal illness/injury",
+   "caregiver_condition": "none",
+   "service_requirement": "more than 52 consecutive weeks of state service and at least 1,000 hours in pay status in the preceding 52 weeks",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 2,
+    "units": "week",
+    "qualifier": "exact"
+   },
+   "duration_note": "Two weeks per (fiscal) year; 'Subject to the two-week per year maximum'.",
+   "runs_concurrently_with": [
+    "FMLA"
+   ],
+   "statute_source": "Wis. Stat. 103.10 (WFMLA medical leave)",
+   "statute_verified": false,
+   "sequence": [
+    {
+     "relation": "concurrent_with",
+     "component_id": "university_of_wisconsin_madison_c1",
+     "note": "statutory leave alongside the institution's unpaid leave (S1)"
+    }
+   ],
+   "rule_applied": [
+    "U2",
+    "U4",
+    "U5",
+    "S1",
+    "R9"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "An employee qualifies for WFMLA if he or she has worked for the state for more than 52 consecutive weeks, including leaves of absence, military service, and other time off, and was in pay status, including paid leave, for at least 1,000 hours during the preceding 52-week period."
+    ],
+    "eligible_parent": [
+     "Subject to the two-week per year maximum, a birthing mother may take two weeks medical leave under WFMLA for her own medical condition in addition to six weeks family leave to care for the newborn."
+    ],
+    "entitlement": [
+     "The WFMLA and FMLA guarantee employees specified periods of job-protected leave when necessitated by certain family events or personal illness or injury.",
+     "The employee may use any combination of leave without pay and any accrued leave, including sick leave, to cover absences granted under WFMLA."
+    ],
+    "duration": [
+     "Two weeks medical leave per year for personal illness/injury."
+    ],
+    "service_requirement": [
+     "An employee qualifies for WFMLA if he or she has worked for the state for more than 52 consecutive weeks, including leaves of absence, military service, and other time off, and was in pay status, including paid leave, for at least 1,000 hours during the preceding 52-week period."
+    ],
+    "sequence": [
+     "Although these policies are usually more generous than rights provided for leave without pay under FMLA and WFMLA, you may have additional leave rights under those laws."
+    ],
+    "statute_source": [
+     "The Wisconsin Family and Medical Leave Act is authorized in §103.10, Wis. Stats., and in ch. DWD 225, Wis. Admin. Code."
+    ]
+   },
+   "doc_ids": [
+    "2018_05_uws_upg10_sick_leave"
+   ],
+   "flags": [
+    "cross_reference_not_saved: Wis. Stat. 103.10 (Wisconsin Family and Medical Leave Act)",
+    "own_illness_leave"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "U4",
+     "answer": "unpaid_leave",
+     "quote": "The WFMLA and FMLA guarantee employees specified periods of job-protected leave when necessitated by certain family events or personal illness or injury."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "The employee may use any combination of leave without pay and any accrued leave, including sick leave, to cover absences granted under WFMLA."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "An employee qualifies for WFMLA if he or she has worked for the state for more than 52 consecutive weeks, including leaves of absence, military service, and other time off, and was in pay status, including paid leave, for at least 1,000 hours during the preceding 52-week period."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own illness)",
+     "quote": "Subject to the two-week per year maximum, a birthing mother may take two weeks medical leave under WFMLA for her own medical condition in addition to six weeks family leave to care for the newborn."
+    },
+    {
+     "field": "entitlement",
+     "rule": "U2",
+     "answer": "guaranteed",
+     "quote": "The WFMLA and FMLA guarantee employees specified periods of job-protected leave when necessitated by certain family events or personal illness or injury."
+    },
+    {
+     "field": "duration",
+     "rule": "U2",
+     "answer": "2 weeks exact",
+     "quote": "Two weeks medical leave per year for personal illness/injury."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U2",
+     "answer": "52 consecutive weeks and 1,000 hours",
+     "quote": "An employee qualifies for WFMLA if he or she has worked for the state for more than 52 consecutive weeks, including leaves of absence, military service, and other time off, and was in pay status, including paid leave, for at least 1,000 hours during the preceding 52-week period."
+    },
+    {
+     "field": "sequence",
+     "rule": "S1",
+     "answer": "concurrent_with c1",
+     "quote": "Although these policies are usually more generous than rights provided for leave without pay under FMLA and WFMLA, you may have additional leave rights under those laws."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Two weeks medical leave per year for personal illness/injury."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave, relief not stated)",
+     "quote": "The WFMLA and FMLA guarantee employees specified periods of job-protected leave when necessitated by certain family events or personal illness or injury."
+    }
+   ],
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "relief_note": "No relief stated for this leave or absence; every duty coded relieved (R9)."
+  },
+  {
+   "component_id": "university_of_wisconsin_madison_c5",
+   "institution_label": "",
+   "description": "WFMLA family leave of two weeks per year to care for a child, spouse or parent with a serious health condition (counts for the non-birth parent as care of the birth parent, U5).",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "unclassified employees meeting WFMLA eligibility",
+   "eligible_parent": [
+    "non_birth_parent"
+   ],
+   "eligible_parent_wording": "to care for a child, legal spouse, or parent",
+   "caregiver_condition": "none",
+   "service_requirement": "more than 52 consecutive weeks of state service and at least 1,000 hours in pay status in the preceding 52 weeks",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 2,
+    "units": "week",
+    "qualifier": "exact"
+   },
+   "duration_note": "Two weeks per (fiscal) year; UPG 10 also lets each parent use 'up to two additional weeks of sick leave to care for the child or other family member who needs care for medical reasons'.",
+   "runs_concurrently_with": [
+    "FMLA"
+   ],
+   "statute_source": "Wis. Stat. 103.10 (WFMLA family leave for a serious health condition)",
+   "statute_verified": false,
+   "rule_applied": [
+    "U2",
+    "U4",
+    "U5",
+    "R9"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "An employee qualifies for WFMLA if he or she has worked for the state for more than 52 consecutive weeks, including leaves of absence, military service, and other time off, and was in pay status, including paid leave, for at least 1,000 hours during the preceding 52-week period."
+    ],
+    "eligible_parent": [
+     "Two weeks family leave per year to care for a child, legal spouse, or parent (including natural parent, foster parent, treatment foster parent, adoptive parent or legal guardian of the employee or the employee's spouse) with a serious health condition."
+    ],
+    "entitlement": [
+     "The WFMLA and FMLA guarantee employees specified periods of job-protected leave when necessitated by certain family events or personal illness or injury.",
+     "The employee may use any combination of leave without pay and any accrued leave, including sick leave, to cover absences granted under WFMLA."
+    ],
+    "duration": [
+     "Two weeks family leave per year to care for a child, legal spouse, or parent (including natural parent, foster parent, treatment foster parent, adoptive parent or legal guardian of the employee or the employee's spouse) with a serious health condition."
+    ],
+    "service_requirement": [
+     "An employee qualifies for WFMLA if he or she has worked for the state for more than 52 consecutive weeks, including leaves of absence, military service, and other time off, and was in pay status, including paid leave, for at least 1,000 hours during the preceding 52-week period."
+    ],
+    "statute_source": [
+     "The Wisconsin Family and Medical Leave Act is authorized in §103.10, Wis. Stats., and in ch. DWD 225, Wis. Admin. Code."
+    ]
+   },
+   "doc_ids": [
+    "2018_05_uws_upg10_sick_leave"
+   ],
+   "flags": [
+    "cross_reference_not_saved: Wis. Stat. 103.10 (Wisconsin Family and Medical Leave Act)",
+    "family_illness_leave"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "U4",
+     "answer": "unpaid_leave",
+     "quote": "The WFMLA and FMLA guarantee employees specified periods of job-protected leave when necessitated by certain family events or personal illness or injury."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "The employee may use any combination of leave without pay and any accrued leave, including sick leave, to cover absences granted under WFMLA."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "An employee qualifies for WFMLA if he or she has worked for the state for more than 52 consecutive weeks, including leaves of absence, military service, and other time off, and was in pay status, including paid leave, for at least 1,000 hours during the preceding 52-week period."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "non_birth_parent (care of an ill family member)",
+     "quote": "Two weeks family leave per year to care for a child, legal spouse, or parent (including natural parent, foster parent, treatment foster parent, adoptive parent or legal guardian of the employee or the employee's spouse) with a serious health condition."
+    },
+    {
+     "field": "entitlement",
+     "rule": "U2",
+     "answer": "guaranteed",
+     "quote": "The WFMLA and FMLA guarantee employees specified periods of job-protected leave when necessitated by certain family events or personal illness or injury."
+    },
+    {
+     "field": "duration",
+     "rule": "U2",
+     "answer": "2 weeks exact",
+     "quote": "Two weeks family leave per year to care for a child, legal spouse, or parent (including natural parent, foster parent, treatment foster parent, adoptive parent or legal guardian of the employee or the employee's spouse) with a serious health condition."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U2",
+     "answer": "52 consecutive weeks and 1,000 hours",
+     "quote": "An employee qualifies for WFMLA if he or she has worked for the state for more than 52 consecutive weeks, including leaves of absence, military service, and other time off, and was in pay status, including paid leave, for at least 1,000 hours during the preceding 52-week period."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Two weeks family leave per year to care for a child, legal spouse, or parent (including natural parent, foster parent, treatment foster parent, adoptive parent or legal guardian of the employee or the employee's spouse) with a serious health condition."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave, relief not stated)",
+     "quote": "The WFMLA and FMLA guarantee employees specified periods of job-protected leave when necessitated by certain family events or personal illness or injury."
+    }
+   ],
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "relief_note": "No relief stated for this leave or absence; every duty coded relieved (R9)."
+  },
+  {
+   "component_id": "university_of_wisconsin_madison_c6",
+   "institution_label": "",
+   "description": "Any parent eligible for WFMLA may use up to six weeks of his or her own accrued sick leave as paid WFMLA family leave after a birth or adoption ('no one need be ill'), in a block or part-time, started within 16 weeks of the event.",
+   "mechanism": "own_accrual",
+   "payer": "own_balance",
+   "mechanism_note": "Pay from the employee's own accumulated sick leave (R1).",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "All faculty, academic staff, and limited appointees who are covered under the Wisconsin Retirement System (WRS) earn sick leave while in pay status.",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "[This applies to all parents]; each parent",
+   "caregiver_condition": "none",
+   "service_requirement": "WFMLA eligibility: more than 52 consecutive weeks of state service and at least 1,000 hours in pay status in the preceding 52 weeks",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 6,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "time_window": "must be started within 16 weeks (including before the event) of the birth or adoption; for 9-month employees summer weeks off the payroll do not count",
+   "dual_employee_rule": "each may take (both parents employed by the University are each eligible for six weeks)",
+   "pay_fraction": "100%",
+   "sequence": [
+    {
+     "relation": "within",
+     "component_id": "university_of_wisconsin_madison_c3",
+     "note": "sick leave used as pay for the WFMLA family leave"
+    }
+   ],
+   "rule_applied": [
+    "R1",
+    "R13",
+    "R9",
+    "U2"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "All faculty, academic staff, and limited appointees who are covered under the Wisconsin Retirement System (WRS) earn sick leave while in pay status."
+    ],
+    "eligible_parent": [
+     "[This applies to all parents].",
+     "If both parents work for the University each is eligible under WFMLA to use six weeks of sick leave for birth, adoption, or placement for adoption."
+    ],
+    "entitlement": [
+     "If both parents work for the University each is eligible under WFMLA to use six weeks of sick leave for birth, adoption, or placement for adoption.",
+     "If eligible, you may use up to six weeks of accrued sick leave as"
+    ],
+    "duration": [
+     "If eligible, you may use up to six weeks of accrued sick leave as"
+    ],
+    "service_requirement": [
+     "An employee qualifies for WFMLA if he or she has worked for the state for more than 52 consecutive weeks, including leaves of absence, military service, and other time off, and was in pay status, including paid leave, for at least 1,000 hours during the preceding 52-week period."
+    ],
+    "time_window": [
+     "Family leave must be started within 16 weeks (this does include prior to the event) of birth or adoption"
+    ],
+    "dual_employee_rule": [
+     "If both parents work for the University each is eligible under WFMLA to use six weeks of sick leave for birth, adoption, or placement for adoption."
+    ],
+    "pay_fraction": [
+     "paid 100% using her sick leave"
+    ],
+    "sequence": [
+     "The employee may use any combination of leave without pay and any accrued leave, including sick leave, to cover absences granted under WFMLA."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link",
+    "2018_05_uws_upg10_sick_leave"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "own_accrual",
+     "quote": "If leave is reported completely, accurately, and in a timely manner, unused sick leave accumulates in the unclassified employee's account from year to year without limit."
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "own_balance",
+     "quote": "If eligible, you may use up to six weeks of accrued sick leave as"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "All faculty, academic staff, and limited appointees who are covered under the Wisconsin Retirement System (WRS) earn sick leave while in pay status."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "birth_parent, non_birth_parent, adoptive",
+     "quote": "[This applies to all parents]."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "If both parents work for the University each is eligible under WFMLA to use six weeks of sick leave for birth, adoption, or placement for adoption."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "6 weeks up_to",
+     "quote": "If eligible, you may use up to six weeks of accrued sick leave as"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U2",
+     "answer": "WFMLA eligibility",
+     "quote": "An employee qualifies for WFMLA if he or she has worked for the state for more than 52 consecutive weeks, including leaves of absence, military service, and other time off, and was in pay status, including paid leave, for at least 1,000 hours during the preceding 52-week period."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "100% from own sick leave",
+     "quote": "paid 100% using her sick leave"
+    },
+    {
+     "field": "sequence",
+     "rule": "S1",
+     "answer": "within c3 (pay for the statutory leave)",
+     "quote": "The employee may use any combination of leave without pay and any accrued leave, including sick leave, to cover absences granted under WFMLA."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "If both parents work for the University each is eligible under WFMLA to use six weeks of sick leave for birth, adoption, or placement for adoption."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave, relief not stated)",
+     "quote": "If eligible, you may use up to six weeks of accrued sick leave as"
+    }
+   ],
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "relief_note": "No relief stated for this leave or absence; every duty coded relieved (R9)."
+  },
+  {
+   "component_id": "university_of_wisconsin_madison_c7",
+   "institution_label": "",
+   "description": "Faculty may use their own accumulated sick leave to care for an immediate family member (including a spouse or domestic partner) whose condition requires their direct care; no length stated beyond the balance.",
+   "mechanism": "own_accrual",
+   "payer": "own_balance",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "All faculty, academic staff, and limited appointees who are covered under the Wisconsin Retirement System (WRS) earn sick leave while in pay status.",
+   "eligible_parent": [
+    "non_birth_parent"
+   ],
+   "eligible_parent_wording": "When the condition of a child or spouse/partner requires your direct care",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration_note": "No length stated; limited by the employee's balance. The brochure's example of a father using 'about a week of sick leave immediately after the birth to care for the mother and baby'. UPG 10: each parent 'eligible for up to two additional weeks of sick leave to care for the child or other family member who needs care for medical reasons' (WFMLA).",
+   "medical_certification": true,
+   "medical_certification_note": "health-care-provider certification for absences of more than 5 consecutive full working days",
+   "rule_applied": [
+    "R1",
+    "U5",
+    "R9"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "All faculty, academic staff, and limited appointees who are covered under the Wisconsin Retirement System (WRS) earn sick leave while in pay status."
+    ],
+    "eligible_parent": [
+     "(b) Attendance upon an immediate family member whose health or medical condition requires the employee's direct care; and",
+     "When the condition of a child or spouse/partner requires your direct care."
+    ],
+    "entitlement": [
+     "Employees may use accumulated sick leave for:",
+     "(b) Attendance upon an immediate family member whose health or medical condition requires the employee's direct care; and"
+    ],
+    "medical_certification": [
+     "UW institutions shall require written certification from a health care provider of the medical necessity for use of sick leave for absences of more than 5 consecutive full working days, except where the use of sick leave is authorized in advance, pursuant to the Wisconsin or Federal Family and Medical Leave Act."
+    ]
+   },
+   "doc_ids": [
+    "2018_05_uws_upg10_sick_leave",
+    "2018_00_link"
+   ],
+   "flags": [
+    "family_illness_leave"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "own_accrual",
+     "quote": "If leave is reported completely, accurately, and in a timely manner, unused sick leave accumulates in the unclassified employee's account from year to year without limit."
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "own_balance",
+     "quote": "(b) Attendance upon an immediate family member whose health or medical condition requires the employee's direct care; and"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "All faculty, academic staff, and limited appointees who are covered under the Wisconsin Retirement System (WRS) earn sick leave while in pay status."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "non_birth_parent (care of an ill family member)",
+     "quote": "(b) Attendance upon an immediate family member whose health or medical condition requires the employee's direct care; and"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "Employees may use accumulated sick leave for:"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "(b) Attendance upon an immediate family member whose health or medical condition requires the employee's direct care; and"
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave, relief not stated)",
+     "quote": "(b) Attendance upon an immediate family member whose health or medical condition requires the employee's direct care; and"
+    }
+   ],
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "relief_note": "No relief stated for this leave or absence; every duty coded relieved (R9)."
+  },
+  {
+   "component_id": "university_of_wisconsin_madison_c8",
+   "institution_label": "Federal Family and Medical Leave Act (FMLA)",
+   "description": "Federal FMLA: up to 12 weeks of job-protected unpaid leave per year for the birth, adoption or foster placement of a child, the employee's own serious health condition, or care of a child, spouse or parent; runs concurrently with WFMLA.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "unclassified employees; full-time faculty are deemed to meet the 1,250-hour standard",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "For birth, adoption, or placement of a child for foster care; the employee's serious health condition; to care for the employee's child, legal spouse, or parent",
+   "caregiver_condition": "none",
+   "service_requirement": "12 months and 1,250 hours (full-time faculty deemed to meet the hours standard)",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 12,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "duration_note": "'up to 12 weeks of leave per year' (UPG 10); the statute: 'a total of 12 workweeks of leave during any 12-month period' (29 U.S.C. 2612(a)(1)). Birth or placement leave must end within twelve months after the event.",
+   "time_window": "must end within twelve months after the birth or placement",
+   "dual_employee_rule": "statute: spouses employed by the same employer may be limited to 12 workweeks in aggregate for birth or placement (29 U.S.C. 2612(f)); not stated in the institution's documents",
+   "runs_concurrently_with": [
+    "WFMLA"
+   ],
+   "statute_source": "29 U.S.C. 2612(a)(1)(A)-(D); eligibility 29 U.S.C. 2611(2)",
+   "statute_verified": true,
+   "sequence": [
+    {
+     "relation": "concurrent_with",
+     "component_id": "university_of_wisconsin_madison_c1",
+     "note": "statutory leave alongside the institution's unpaid parental leave (S1); the institutional leave is longer"
+    }
+   ],
+   "rule_applied": [
+    "U2",
+    "U4",
+    "S1",
+    "R13",
+    "R9",
+    "U5"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "An employee qualifies for federal FMLA if he or she has worked for the state for at least 12 months, including summers for academic employees, and has been actively at work for at least 1,250 hours during the previous 12 months."
+    ],
+    "eligible_parent": [
+     "For birth, adoption, or placement of a child for foster care. This leave must end within twelve months after the event."
+    ],
+    "entitlement": [
+     "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period for one or more of the following:",
+     "The WFMLA and FMLA guarantee employees specified periods of job-protected leave when necessitated by certain family events or personal illness or injury."
+    ],
+    "duration": [
+     "Under FMLA, the employee may take up to 12 weeks of leave per year on a full-time, part-time, or intermittent basis for one or more of the following reasons:"
+    ],
+    "service_requirement": [
+     "An employee qualifies for federal FMLA if he or she has worked for the state for at least 12 months, including summers for academic employees, and has been actively at work for at least 1,250 hours during the previous 12 months.",
+     "Under federal rules, full-time faculty members and other exempt employees are deemed to meet the 1,250-hour standard unless the employer can clearly show that the employee did not work 1,250 hours during the prior 12 months."
+    ],
+    "time_window": [
+     "For birth, adoption, or placement of a child for foster care. This leave must end within twelve months after the event."
+    ],
+    "sequence": [
+     "Although these policies are usually more generous than rights provided for leave without pay under FMLA and WFMLA, you may have additional leave rights under those laws.",
+     "Leave entitlements under WFMLA and FMLA run concurrently."
+    ],
+    "statute_source": [
+     "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period for one or more of the following:"
+    ]
+   },
+   "doc_ids": [
+    "2018_05_uws_upg10_sick_leave",
+    "2018_00_link",
+    "2026_00_us_fmla_29usc2612"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "U4",
+     "answer": "unpaid_leave",
+     "quote": "Under FMLA, the employee may take up to 12 weeks of leave per year on a full-time, part-time, or intermittent basis for one or more of the following reasons:"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "FMLA does not guarantee the employee the right to use accrued leave to cover an absence."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "An employee qualifies for federal FMLA if he or she has worked for the state for at least 12 months, including summers for academic employees, and has been actively at work for at least 1,250 hours during the previous 12 months."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent, non_birth_parent, adoptive, foster (birth/placement; own condition and family care also covered)",
+     "quote": "For birth, adoption, or placement of a child for foster care. This leave must end within twelve months after the event."
+    },
+    {
+     "field": "entitlement",
+     "rule": "U2",
+     "answer": "guaranteed",
+     "quote": "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period for one or more of the following:"
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "12 weeks up_to ('up to 12 weeks'); statute verified: 12 workweeks",
+     "quote": "Under FMLA, the employee may take up to 12 weeks of leave per year on a full-time, part-time, or intermittent basis for one or more of the following reasons:"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U2",
+     "answer": "12 months and 1,250 hours",
+     "quote": "An employee qualifies for federal FMLA if he or she has worked for the state for at least 12 months, including summers for academic employees, and has been actively at work for at least 1,250 hours during the previous 12 months."
+    },
+    {
+     "field": "sequence",
+     "rule": "S1",
+     "answer": "concurrent_with c1",
+     "quote": "Although these policies are usually more generous than rights provided for leave without pay under FMLA and WFMLA, you may have additional leave rights under those laws."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "For birth, adoption, or placement of a child for foster care. This leave must end within twelve months after the event."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave, relief not stated)",
+     "quote": "Under FMLA, the employee may take up to 12 weeks of leave per year on a full-time, part-time, or intermittent basis for one or more of the following reasons:"
+    }
+   ],
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "relief_note": "No relief stated for this leave or absence; every duty coded relieved (R9)."
+  },
+  {
+   "component_id": "university_of_wisconsin_madison_c9",
+   "institution_label": "Vacation",
+   "description": "Twelve-month appointees earn vacation (176 hours a year, carryover one year; ALRA reserve after 10 years) that they may use instead of, or in addition to, sick leave after a birth or adoption. Nine-month (academic-year) faculty earn no vacation.",
+   "mechanism": "own_accrual",
+   "payer": "own_balance",
+   "faculty_group": "twelve-month faculty, academic staff, and limited employees",
+   "faculty_group_note": "Twelve-month appointees; 'Nine-month faculty ... do not earn vacation' (a group defined by appointment length that leaves out academic-year faculty)",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "Those staff who earn vacation",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration_note": "Balance of 176 hours (22 days) per fiscal year, prorated; unused hours carry over one year; ALRA reserve of 40 (later 80) hours a year after 10 (25) years of service.",
+   "rule_applied": [
+    "R1",
+    "U1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Twelve-month faculty, academic staff, and limited employees participating in the Wisconsin Retirement System (WRS) will be granted an anticipated vacation balance of 176 hours (22 days), prorated for part-time, at the beginning of each fiscal year (July 1).",
+     "Nine-month faculty, academic staff, and limited employees do not earn vacation and are expected to work during the appointment period except for days specifically listed as paid Legal Holiday."
+    ],
+    "eligible_parent": [
+     "Those staff who earn vacation may use vacation instead of sick leave under any of the three ways listed above, or may use it in addition to sick leave."
+    ],
+    "entitlement": [
+     "Twelve-month faculty, academic staff, and limited employees participating in the Wisconsin Retirement System (WRS) will be granted an anticipated vacation balance of 176 hours (22 days), prorated for part-time, at the beginning of each fiscal year (July 1)."
+    ]
+   },
+   "doc_ids": [
+    "2018_04_uppp_16_02_paid_leave_benefits",
+    "2018_00_link"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "own_accrual",
+     "quote": "Vacation is earned monthly; however, an employee may use anticipated vacation before it is actually earned with the approval of the supervisor."
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "own_balance",
+     "quote": "Those staff who earn vacation may use vacation instead of sick leave under any of the three ways listed above, or may use it in addition to sick leave."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "twelve-month faculty, academic staff, and limited employees",
+     "quote": "Nine-month faculty, academic staff, and limited employees do not earn vacation and are expected to work during the appointment period except for days specifically listed as paid Legal Holiday."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "birth_parent, non_birth_parent, adoptive",
+     "quote": "Those staff who earn vacation may use vacation instead of sick leave under any of the three ways listed above, or may use it in addition to sick leave."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "Twelve-month faculty, academic staff, and limited employees participating in the Wisconsin Retirement System (WRS) will be granted an anticipated vacation balance of 176 hours (22 days), prorated for part-time, at the beginning of each fiscal year (July 1)."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Twelve-month faculty, academic staff, and limited employees participating in the Wisconsin Retirement System (WRS) will be granted an anticipated vacation balance of 176 hours (22 days), prorated for part-time, at the beginning of each fiscal year (July 1)."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_wisconsin_madison_c10",
+   "institution_label": "income continuation insurance",
+   "description": "Income continuation insurance (a disability income plan) pays benefits once sick leave stops; its terms (waiting period, eligibility, benefit level, who pays the premium) are not in the saved sources. Recorded as a long-term-style disability plan without a length.",
+   "mechanism": "generic_sick_or_disability_plan",
+   "payer": "insurance_plan",
+   "mechanism_note": "An income-replacement plan that begins when paid sick leave ends: recorded as a disability plan without a duration (schema §2). Who funds it is not stated (payer insurance_plan with this note).",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "unclassified employees (faculty, academic staff, limited appointees) under UPG 10",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "disability",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "entitlement_note": "The documents refer to the plan as existing; its eligibility terms are not saved.",
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "university_of_wisconsin_madison_c2",
+     "note": "benefits begin when paid sick leave stops"
+    }
+   ],
+   "rule_applied": [
+    "V6",
+    "M1",
+    "U5",
+    "R15"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Paid sick leave benefits and sick leave accrual stop when income continuation insurance benefits begin."
+    ],
+    "eligible_parent": [
+     "One possible source is our income continuation insurance plan, which is already in existence, although it would need to be modified to extend beyond disability to the care of infants or newly-adopted children."
+    ],
+    "entitlement": [
+     "Paid sick leave benefits and sick leave accrual stop when income continuation insurance benefits begin."
+    ],
+    "sequence": [
+     "Paid sick leave benefits and sick leave accrual stop when income continuation insurance benefits begin."
+    ]
+   },
+   "doc_ids": [
+    "2018_05_uws_upg10_sick_leave",
+    "2018_06_faclegis_ii308_parental_leave_1988"
+   ],
+   "flags": [
+    "cross_reference_not_saved: State of Wisconsin income continuation insurance plan",
+    "ambiguous: plan terms (waiting period, eligibility, benefit level, premium payer) not in saved sources; entitlement and payer coded from the reference alone"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "Paid sick leave benefits and sick leave accrual stop when income continuation insurance benefits begin."
+    },
+    {
+     "field": "payer",
+     "rule": "M1",
+     "answer": "insurance_plan",
+     "quote": "One possible source is our income continuation insurance plan, which is already in existence, although it would need to be modified to extend beyond disability to the care of infants or newly-adopted children."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Paid sick leave benefits and sick leave accrual stop when income continuation insurance benefits begin."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own disability)",
+     "quote": "One possible source is our income continuation insurance plan, which is already in existence, although it would need to be modified to extend beyond disability to the care of infants or newly-adopted children."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "Paid sick leave benefits and sick leave accrual stop when income continuation insurance benefits begin."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "consecutive_after c2 (starts when paid sick leave stops)",
+     "quote": "Paid sick leave benefits and sick leave accrual stop when income continuation insurance benefits begin."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Paid sick leave benefits and sick leave accrual stop when income continuation insurance benefits begin."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_wisconsin_madison_c11",
+   "institution_label": "Stopping the Tenure Clock for Birth or Adoption",
+   "description": "A probationary faculty member may request, within one year of a birth or adoption, an extension (exclusion) of the probationary period of one or two semesters (academic-year appointees), up to one year; approval is presumed, denial requires clear and convincing reasons. Available for each birth or adoption, whether or not leave is taken.",
+   "mechanism": "tenure_clock",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "probationary faculty (instructor or assistant professor)",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "a new parent (mother or father); childbirth or adoption",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "Approval of the request 'is presumed'; denial must rest on clear and convincing reasons (V2b).",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "up_to"
+   },
+   "duration_note": "Granted in periods of one or two semesters for academic-year appointments (six months or one year for annual appointments). Where a leave of six weeks or more was granted for the birth or adoption, the total extension from the leave and 7.04.H.1 may not exceed one year per birth or adoption. The employment contract is extended by the same period (7.04.J).",
+   "time_window": "request within one year of the birth or adoption; tenure-clock requests otherwise before the sixth year, unless a birth or adoption occurs during that year",
+   "notice": "written request to the vice chancellor for academic affairs and provost, with copies to the chair and dean",
+   "rule_applied": [
+    "V2",
+    "V2b",
+    "R13",
+    "U1",
+    "U9"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "A probationary appointment is an appointment as an instructor or assistant professor, held by a member of the university faculty as defined in 1.02. of these rules, during the period of service that precedes determination of tenure status."
+    ],
+    "eligible_parent": [
+     "Requests for extension of the probationary period with respect to childbirth or adoption",
+     "The University recognizes the particular difficulty a new parent (mother or father) faces in balancing family needs with making progress toward obtaining tenure."
+    ],
+    "entitlement": [
+     "within one year of the birth or adoption. Approval of the request for an extension of up to one year is presumed.",
+     "Denial of a request shall be based on clear and convincing reasons and shall be in writing."
+    ],
+    "duration": [
+     "within one year of the birth or adoption. Approval of the request for an extension of up to one year is presumed.",
+     "Extensions shall be granted in periods of one or two semesters (for academic year appointments), or six months or one year (for annual appointments)."
+    ],
+    "time_window": [
+     "within one year of the birth or adoption. Approval of the request for an extension of up to one year is presumed."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_fpp_full_2018march",
+    "2018_01_fpp_ch7_2016may17",
+    "2018_00_link"
+   ],
+   "flags": [
+    "conditional_refusal: denial only on clear and convincing reasons, in writing (approval presumed)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "Requests for extension of the probationary period with respect to childbirth or adoption"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "within one year of the birth or adoption. Approval of the request for an extension of up to one year is presumed."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "A probationary appointment is an appointment as an instructor or assistant professor, held by a member of the university faculty as defined in 1.02. of these rules, during the period of service that precedes determination of tenure status."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "birth_parent, non_birth_parent, adoptive",
+     "quote": "The University recognizes the particular difficulty a new parent (mother or father) faces in balancing family needs with making progress toward obtaining tenure."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2b",
+     "answer": "guaranteed_on_request",
+     "quote": "within one year of the birth or adoption. Approval of the request for an extension of up to one year is presumed."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 year up_to",
+     "quote": "within one year of the birth or adoption. Approval of the request for an extension of up to one year is presumed."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Requests for extension of the probationary period with respect to childbirth or adoption"
+    },
+    {
+     "field": "use_limit",
+     "rule": "U9",
+     "answer": "no limit: renews with each birth or adoption",
+     "quote": "More than one request may be granted because of responsibilities with respect to childbirth or adoption where more than one birth or adoption occurs during the probationary period."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_wisconsin_madison_c12",
+   "institution_label": "",
+   "description": "Any approved leave of absence (unpaid separation) is excluded from the probationary period, and the contract is extended by the same period; a temporary assignment is not excluded.",
+   "mechanism": "tenure_clock",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "probationary faculty",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "any approved leave of absence",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration_note": "The length of the approved leave; with a childbirth or adoption leave of six weeks or more, the total extension from the leave and 7.04.H.1 may not exceed one year per birth or adoption.",
+   "rule_applied": [
+    "U1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "A probationary appointment is an appointment as an instructor or assistant professor, held by a member of the university faculty as defined in 1.02. of these rules, during the period of service that precedes determination of tenure status."
+    ],
+    "eligible_parent": [
+     "An approved leave of absence is not included in the counting of probationary service, in accordance with the provisions of Sec. 36.13(2)(b)(d) Wis. Stats."
+    ],
+    "entitlement": [
+     "An approved leave of absence is not included in the counting of probationary service, in accordance with the provisions of Sec. 36.13(2)(b)(d) Wis. Stats."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_fpp_full_2018march",
+    "2018_01_fpp_ch7_2016may17",
+    "2018_03_uppp_16_01_leaves_without_pay"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "An approved leave of absence is not included in the counting of probationary service, in accordance with the provisions of Sec. 36.13(2)(b)(d) Wis. Stats."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "An approved leave of absence is not included in the counting of probationary service, in accordance with the provisions of Sec. 36.13(2)(b)(d) Wis. Stats."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "A probationary appointment is an appointment as an instructor or assistant professor, held by a member of the university faculty as defined in 1.02. of these rules, during the period of service that precedes determination of tenure status."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any parent on an approved leave",
+     "quote": "An approved leave of absence is not included in the counting of probationary service, in accordance with the provisions of Sec. 36.13(2)(b)(d) Wis. Stats."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "An approved leave of absence is not included in the counting of probationary service, in accordance with the provisions of Sec. 36.13(2)(b)(d) Wis. Stats."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "An approved leave of absence is not included in the counting of probationary service, in accordance with the provisions of Sec. 36.13(2)(b)(d) Wis. Stats."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_wisconsin_madison_c13",
+   "institution_label": "Stopping the Tenure Clock for Significant Responsibilities Related to Elder or Dependent Care",
+   "description": "Probationary faculty may request a tenure-clock extension for significant elder or dependent care, disability or chronic illness, or circumstances beyond their control; granted at the discretion of the department, dean and University Committee, ordinarily no more than one year in aggregate.",
+   "mechanism": "tenure_clock",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "probationary faculty",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "elder or dependent care obligations, disability or chronic illness or circumstances beyond the control of the faculty member",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "up_to"
+   },
+   "duration_note": "'ordinarily shall be no more than one year' in aggregate for all H.2 requests (Q1: up_to, 'ordinarily' kept here).",
+   "rule_applied": [
+    "V2",
+    "U1",
+    "Q1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "A probationary appointment is an appointment as an instructor or assistant professor, held by a member of the university faculty as defined in 1.02. of these rules, during the period of service that precedes determination of tenure status."
+    ],
+    "eligible_parent": [
+     "Requests for extension of the probationary period on the grounds of significant responsibilities with respect to elder or dependent care obligations, disability or chronic illness or circumstances beyond the control of the faculty member, when those circumstances significantly impede the faculty member’s progress toward achieving tenure, shall be submitted in writing to the vice chancellor for academic affairs and provost on the recommendation of the departmental executive committee(s) and dean(s) and may be granted with the approval of the University Committee."
+    ],
+    "entitlement": [
+     "Requests for extension of the probationary period on the grounds of significant responsibilities with respect to elder or dependent care obligations, disability or chronic illness or circumstances beyond the control of the faculty member, when those circumstances significantly impede the faculty member’s progress toward achieving tenure, shall be submitted in writing to the vice chancellor for academic affairs and provost on the recommendation of the departmental executive committee(s) and dean(s) and may be granted with the approval of the University Committee."
+    ],
+    "duration": [
+     "the total, aggregate length of time for all requests granted to a probationary faculty member under 7.04.H.2. ordinarily shall be no more than one year."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_fpp_full_2018march",
+    "2018_01_fpp_ch7_2016may17",
+    "2018_00_link"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "Requests for extension of the probationary period on the grounds of significant responsibilities with respect to elder or dependent care obligations, disability or chronic illness or circumstances beyond the control of the faculty member, when those circumstances significantly impede the faculty member’s progress toward achieving tenure, shall be submitted in writing to the vice chancellor for academic affairs and provost on the recommendation of the departmental executive committee(s) and dean(s) and may be granted with the approval of the University Committee."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Requests for extension of the probationary period on the grounds of significant responsibilities with respect to elder or dependent care obligations, disability or chronic illness or circumstances beyond the control of the faculty member, when those circumstances significantly impede the faculty member’s progress toward achieving tenure, shall be submitted in writing to the vice chancellor for academic affairs and provost on the recommendation of the departmental executive committee(s) and dean(s) and may be granted with the approval of the University Committee."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "A probationary appointment is an appointment as an instructor or assistant professor, held by a member of the university faculty as defined in 1.02. of these rules, during the period of service that precedes determination of tenure status."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any parent with dependent care responsibilities",
+     "quote": "Requests for extension of the probationary period on the grounds of significant responsibilities with respect to elder or dependent care obligations, disability or chronic illness or circumstances beyond the control of the faculty member, when those circumstances significantly impede the faculty member’s progress toward achieving tenure, shall be submitted in writing to the vice chancellor for academic affairs and provost on the recommendation of the departmental executive committee(s) and dean(s) and may be granted with the approval of the University Committee."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "Requests for extension of the probationary period on the grounds of significant responsibilities with respect to elder or dependent care obligations, disability or chronic illness or circumstances beyond the control of the faculty member, when those circumstances significantly impede the faculty member’s progress toward achieving tenure, shall be submitted in writing to the vice chancellor for academic affairs and provost on the recommendation of the departmental executive committee(s) and dean(s) and may be granted with the approval of the University Committee."
+    },
+    {
+     "field": "duration",
+     "rule": "Q1",
+     "answer": "1 year up_to ('ordinarily ... no more than')",
+     "quote": "the total, aggregate length of time for all requests granted to a probationary faculty member under 7.04.H.2. ordinarily shall be no more than one year."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "Requests for extension of the probationary period on the grounds of significant responsibilities with respect to elder or dependent care obligations, disability or chronic illness or circumstances beyond the control of the faculty member, when those circumstances significantly impede the faculty member’s progress toward achieving tenure, shall be submitted in writing to the vice chancellor for academic affairs and provost on the recommendation of the departmental executive committee(s) and dean(s) and may be granted with the approval of the University Committee."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_wisconsin_madison_c14",
+   "institution_label": "",
+   "description": "A year of probationary service at one-half to three-quarters time counts as half a year toward the maximum probationary period; II-308 (rec. 11, adopted 1988) recommends that faculty be told of this and allowed to use it for parental leave. Applies to any reduced appointment.",
+   "mechanism": "tenure_clock",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "probationary faculty",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "faculty; any reduced appointment",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration_note": "Half a year of credit per year at 50-75% time; probationary service may not exceed twelve calendar years.",
+   "rule_applied": [
+    "U1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "A probationary appointment is an appointment as an instructor or assistant professor, held by a member of the university faculty as defined in 1.02. of these rules, during the period of service that precedes determination of tenure status."
+    ],
+    "eligible_parent": [
+     "We recommend that faculty be informed of this option and permitted to use it for parental leave."
+    ],
+    "entitlement": [
+     "Each year of service at the rate of at least one-half time but not more than three-quarters time shall count as half of a year, and service at a rate greater than three quarters time shall be counted as a full year."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_fpp_full_2018march",
+    "2018_01_fpp_ch7_2016may17",
+    "2018_06_faclegis_ii308_parental_leave_1988"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "Each year of service at the rate of at least one-half time but not more than three-quarters time shall count as half of a year, and service at a rate greater than three quarters time shall be counted as a full year."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Each year of service at the rate of at least one-half time but not more than three-quarters time shall count as half of a year, and service at a rate greater than three quarters time shall be counted as a full year."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "A probationary appointment is an appointment as an instructor or assistant professor, held by a member of the university faculty as defined in 1.02. of these rules, during the period of service that precedes determination of tenure status."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any parent on a reduced appointment",
+     "quote": "We recommend that faculty be informed of this option and permitted to use it for parental leave."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "Each year of service at the rate of at least one-half time but not more than three-quarters time shall count as half of a year, and service at a rate greater than three quarters time shall be counted as a full year."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "Each year of service at the rate of at least one-half time but not more than three-quarters time shall count as half of a year, and service at a rate greater than three quarters time shall be counted as a full year."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_wisconsin_madison_c15",
+   "institution_label": "Leaves of Absence and Temporary Assignments Without Pay",
+   "description": "Faculty may request an unpaid leave of absence (or, for probationary faculty, a temporary assignment) for any purpose, on the executive committee's recommendation and the dean's approval, ordinarily for at most one year (three semesters in three years); approval is based on unit needs except for FMLA/WFMLA and parental leave entitlements; APO is consulted before an unpaid medical leave is denied.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "faculty (tenured; probationary via leave of absence or temporary assignment)",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "a faculty member",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "up_to"
+   },
+   "duration_note": "'Ordinarily ... a maximum of one year, or a maximum of three semesters in three years' (Q1); renewable with University Committee and provost approval; over five years needs the UW System president. A leave for a probationary member requires an activity that substantially interrupts progress toward tenure; otherwise a temporary assignment (which does not stop the clock).",
+   "rule_applied": [
+    "V2",
+    "Q1",
+    "U1",
+    "R9"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "For the purposes of these rules, a leave of absence is a temporary separation of a faculty member from the university during which the faculty member is not paid from funds administered by the university except for such fringe benefit programs as may be permitted by state regulations"
+    ],
+    "eligible_parent": [
+     "For the purposes of these rules, a leave of absence is a temporary separation of a faculty member from the university during which the faculty member is not paid from funds administered by the university except for such fringe benefit programs as may be permitted by state regulations"
+    ],
+    "entitlement": [
+     "Leaves of absence and temporary assignments require the affirmative recommendation of the departmental executive committee and the approval of the dean.",
+     "The decision whether to approve the leave typically is based on the needs and funding of the unit"
+    ],
+    "duration": [
+     "Ordinarily, a leave of absence is granted for a maximum of one year, or a maximum of three semesters in three years even if no single absence exceeds one year"
+    ]
+   },
+   "doc_ids": [
+    "2018_02_fpp_full_2018march",
+    "2018_01_fpp_ch7_2016may17",
+    "2018_03_uppp_16_01_leaves_without_pay"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "For the purposes of these rules, a leave of absence is a temporary separation of a faculty member from the university during which the faculty member is not paid from funds administered by the university except for such fringe benefit programs as may be permitted by state regulations"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "For the purposes of these rules, a leave of absence is a temporary separation of a faculty member from the university during which the faculty member is not paid from funds administered by the university except for such fringe benefit programs as may be permitted by state regulations"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "For the purposes of these rules, a leave of absence is a temporary separation of a faculty member from the university during which the faculty member is not paid from funds administered by the university except for such fringe benefit programs as may be permitted by state regulations"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any faculty member",
+     "quote": "For the purposes of these rules, a leave of absence is a temporary separation of a faculty member from the university during which the faculty member is not paid from funds administered by the university except for such fringe benefit programs as may be permitted by state regulations"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "Leaves of absence and temporary assignments require the affirmative recommendation of the departmental executive committee and the approval of the dean."
+    },
+    {
+     "field": "duration",
+     "rule": "Q1",
+     "answer": "1 year up_to ('Ordinarily ... a maximum of one year')",
+     "quote": "Ordinarily, a leave of absence is granted for a maximum of one year, or a maximum of three semesters in three years even if no single absence exceeds one year"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "For the purposes of these rules, a leave of absence is a temporary separation of a faculty member from the university during which the faculty member is not paid from funds administered by the university except for such fringe benefit programs as may be permitted by state regulations"
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave, relief not stated)",
+     "quote": "For the purposes of these rules, a leave of absence is a temporary separation of a faculty member from the university during which the faculty member is not paid from funds administered by the university except for such fringe benefit programs as may be permitted by state regulations"
+    }
+   ],
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "relief_note": "No relief stated for this leave or absence; every duty coded relieved (R9)."
+  },
+  {
+   "component_id": "university_of_wisconsin_madison_c16",
+   "institution_label": "Regent Policy 20-6-Policy on Non-Medical Leaves of Absence for Unclassified Staff",
+   "description": "The Chancellor may grant unclassified staff (faculty included) a full or part-time unpaid leave for non-medical reasons for up to five years, for reasons including but not limited to entrepreneurial, public or System service.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "unclassified staff member (faculty, academic staff, limited appointees)",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "an unclassified staff member",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "duration": {
+    "value": 5,
+    "units": "year",
+    "qualifier": "up_to"
+   },
+   "rule_applied": [
+    "V2",
+    "U1",
+    "R13",
+    "R9"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "the Chancellor, after considering specific institutional needs, may grant an unclassified staff member a full or part-time leave of absence without pay for non-medical reasons for a period of up to five years.",
+     "“UNCLASSIFIED EMPLOYEE” means a member of the faculty or academic staff or a limited appointee of an institution within the University of Wisconsin System."
+    ],
+    "eligible_parent": [
+     "the Chancellor, after considering specific institutional needs, may grant an unclassified staff member a full or part-time leave of absence without pay for non-medical reasons for a period of up to five years."
+    ],
+    "entitlement": [
+     "the Chancellor, after considering specific institutional needs, may grant an unclassified staff member a full or part-time leave of absence without pay for non-medical reasons for a period of up to five years."
+    ],
+    "duration": [
+     "the Chancellor, after considering specific institutional needs, may grant an unclassified staff member a full or part-time leave of absence without pay for non-medical reasons for a period of up to five years."
+    ]
+   },
+   "doc_ids": [
+    "2018_03_uppp_16_01_leaves_without_pay",
+    "2018_05_uws_upg10_sick_leave"
+   ],
+   "flags": [
+    "general_purpose",
+    "cross_reference_not_saved: Regent Policy 20-6 Policy on Non-Medical Leaves of Absence for Unclassified Staff"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "the Chancellor, after considering specific institutional needs, may grant an unclassified staff member a full or part-time leave of absence without pay for non-medical reasons for a period of up to five years."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "the Chancellor, after considering specific institutional needs, may grant an unclassified staff member a full or part-time leave of absence without pay for non-medical reasons for a period of up to five years."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "“UNCLASSIFIED EMPLOYEE” means a member of the faculty or academic staff or a limited appointee of an institution within the University of Wisconsin System."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any unclassified staff member",
+     "quote": "the Chancellor, after considering specific institutional needs, may grant an unclassified staff member a full or part-time leave of absence without pay for non-medical reasons for a period of up to five years."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "the Chancellor, after considering specific institutional needs, may grant an unclassified staff member a full or part-time leave of absence without pay for non-medical reasons for a period of up to five years."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "5 years up_to",
+     "quote": "the Chancellor, after considering specific institutional needs, may grant an unclassified staff member a full or part-time leave of absence without pay for non-medical reasons for a period of up to five years."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "A leave of absence granted under this Regent policy may be granted for reasons including, but not limited to the following:"
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave, relief not stated)",
+     "quote": "the Chancellor, after considering specific institutional needs, may grant an unclassified staff member a full or part-time leave of absence without pay for non-medical reasons for a period of up to five years."
+    }
+   ],
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "relief_note": "No relief stated for this leave or absence; every duty coded relieved (R9)."
+  },
+  {
+   "component_id": "university_of_wisconsin_madison_c17",
+   "institution_label": "Working Part-time or on a Different Schedule After Birth or Adoption",
+   "description": "A parent may ask the department to return part-time (permanently or for a limited period) or on a different schedule after a birth or adoption; approval is at the department's discretion, and the University recommends permitting part-time return in the first year, with pay proportional to the percentage worked.",
+   "mechanism": "part_time_option",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "faculty, academic staff, and Limited appointees",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "after birth or adoption",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "entitlement_note": "'approval ... is at the discretion of the department'; the University 'recommends' (V2, V2c).",
+   "time_window": "in the first year after birth or adoption",
+   "pay_fraction": "paid proportionately to the percentage of time they work",
+   "rule_applied": [
+    "V2",
+    "V2c",
+    "R3"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Although approval (beyond any WFMLA entitlement) is at the discretion of the department, the University recommends that faculty (see faculty legislation II-308), academic staff, and Limited appointees be permitted to return on a part-time basis in the first year or on a flexible schedule as long as it is consistent with work obligations."
+    ],
+    "eligible_parent": [
+     "we recommend a policy that faculty and academic staff be permitted to return to work part-time for the first year after birth or adoption, so long as part-time work is consistent with the requirements of the job. Those who work part-time should be paid proportionately to the percentage of time they work."
+    ],
+    "entitlement": [
+     "Although approval (beyond any WFMLA entitlement) is at the discretion of the department, the University recommends that faculty (see faculty legislation II-308), academic staff, and Limited appointees be permitted to return on a part-time basis in the first year or on a flexible schedule as long as it is consistent with work obligations."
+    ],
+    "time_window": [
+     "Although approval (beyond any WFMLA entitlement) is at the discretion of the department, the University recommends that faculty (see faculty legislation II-308), academic staff, and Limited appointees be permitted to return on a part-time basis in the first year or on a flexible schedule as long as it is consistent with work obligations."
+    ],
+    "pay_fraction": [
+     "we recommend a policy that faculty and academic staff be permitted to return to work part-time for the first year after birth or adoption, so long as part-time work is consistent with the requirements of the job. Those who work part-time should be paid proportionately to the percentage of time they work."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link",
+    "2018_06_faclegis_ii308_parental_leave_1988"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R3",
+     "answer": "part_time_option",
+     "quote": "we recommend a policy that faculty and academic staff be permitted to return to work part-time for the first year after birth or adoption, so long as part-time work is consistent with the requirements of the job. Those who work part-time should be paid proportionately to the percentage of time they work."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "we recommend a policy that faculty and academic staff be permitted to return to work part-time for the first year after birth or adoption, so long as part-time work is consistent with the requirements of the job. Those who work part-time should be paid proportionately to the percentage of time they work."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Although approval (beyond any WFMLA entitlement) is at the discretion of the department, the University recommends that faculty (see faculty legislation II-308), academic staff, and Limited appointees be permitted to return on a part-time basis in the first year or on a flexible schedule as long as it is consistent with work obligations."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "birth_parent, non_birth_parent, adoptive",
+     "quote": "we recommend a policy that faculty and academic staff be permitted to return to work part-time for the first year after birth or adoption, so long as part-time work is consistent with the requirements of the job. Those who work part-time should be paid proportionately to the percentage of time they work."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "Although approval (beyond any WFMLA entitlement) is at the discretion of the department, the University recommends that faculty (see faculty legislation II-308), academic staff, and Limited appointees be permitted to return on a part-time basis in the first year or on a flexible schedule as long as it is consistent with work obligations."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "R3",
+     "answer": "proportional to time worked",
+     "quote": "we recommend a policy that faculty and academic staff be permitted to return to work part-time for the first year after birth or adoption, so long as part-time work is consistent with the requirements of the job. Those who work part-time should be paid proportionately to the percentage of time they work."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "we recommend a policy that faculty and academic staff be permitted to return to work part-time for the first year after birth or adoption, so long as part-time work is consistent with the requirements of the job. Those who work part-time should be paid proportionately to the percentage of time they work."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_wisconsin_madison_c18",
+   "institution_label": "Managing Parental Leave in an Instructional Environment",
+   "description": "When a parent will be absent or part-time for part of a semester, the chair (with the dean's office) decides whether to relieve the person of a course; time worked is then assigned to replacement duties (other instruction, course design, advising, service), so duties are rearranged rather than reduced.",
+   "mechanism": "other",
+   "payer": "none",
+   "mechanism_note": "Teaching replaced by other assigned duties for the time worked: a rearrangement, not relief (R16).",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Individuals with instructional responsibilities",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "the individual; parental leave",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "rule_applied": [
+    "R16",
+    "V2",
+    "source_precedence"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Individuals with instructional responsibilities and their department chairs face unique pressures in trying to balance the right to take parental leave with the needs of the students."
+    ],
+    "eligible_parent": [
+     "Sometimes the decision will be made to relieve the individual from the responsibility of teaching an assigned course, but the person will be working full- or part-time for a portion of the semester."
+    ],
+    "entitlement": [
+     "Although you and the chair should be discussing the options, it is ultimately the responsibility of the chair, in consultation with the Dean’s office, to make the final decision."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "summary_only: 2018_00_link"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R16",
+     "answer": "other",
+     "quote": "Typically, other instructional activities or service activities are assigned to replace teaching a course."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Typically, other instructional activities or service activities are assigned to replace teaching a course."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Individuals with instructional responsibilities and their department chairs face unique pressures in trying to balance the right to take parental leave with the needs of the students."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any parent",
+     "quote": "Sometimes the decision will be made to relieve the individual from the responsibility of teaching an assigned course, but the person will be working full- or part-time for a portion of the semester."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "Although you and the chair should be discussing the options, it is ultimately the responsibility of the chair, in consultation with the Dean’s office, to make the final decision."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Sometimes the decision will be made to relieve the individual from the responsibility of teaching an assigned course, but the person will be working full- or part-time for a portion of the semester."
+    },
+    {
+     "field": "flags",
+     "rule": "source_precedence",
+     "answer": "summary_only: 2018_00_link (described in the Provost brochure alone)",
+     "quote": "This brochure attempts to summarize benefits and resources that may be available to you as a result of state and federal laws as well as University policies."
+    }
+   ]
+  },
+  {
+   "component_id": "university_of_wisconsin_madison_c19",
+   "institution_label": "Parking",
+   "description": "A pregnant employee whose medical condition requires a closer parking space may obtain one as an accommodation (temporary disabled-parking permit, purchased, with a doctor's note).",
+   "mechanism": "other",
+   "payer": "none",
+   "mechanism_note": "Pregnancy accommodation without relief from duties (R16).",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Women (employees covered by the brochure: faculty, academic staff and limited appointees)",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "Women whose medical condition during pregnancy requires",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "entitlement_note": "No grant language: employees 'should contact' Transportation Services; the permit is purchased and needs a doctor's note.",
+   "medical_certification": true,
+   "medical_certification_note": "A dated doctor's note",
+   "rule_applied": [
+    "R16",
+    "V2",
+    "source_precedence"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Women whose medical condition during pregnancy requires a closer parking space as a matter of accommodation should contact the parking Transportation Services at 263-2666."
+    ],
+    "eligible_parent": [
+     "Women whose medical condition during pregnancy requires a closer parking space as a matter of accommodation should contact the parking Transportation Services at 263-2666."
+    ],
+    "entitlement": [
+     "Women whose medical condition during pregnancy requires a closer parking space as a matter of accommodation should contact the parking Transportation Services at 263-2666.",
+     "Temporary UW DIS may be purchased at any Transportation office."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "summary_only: 2018_00_link"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R16",
+     "answer": "other",
+     "quote": "Women whose medical condition during pregnancy requires a closer parking space as a matter of accommodation should contact the parking Transportation Services at 263-2666."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Temporary UW DIS may be purchased at any Transportation office."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Women whose medical condition during pregnancy requires a closer parking space as a matter of accommodation should contact the parking Transportation Services at 263-2666."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "birth_parent",
+     "quote": "Women whose medical condition during pregnancy requires a closer parking space as a matter of accommodation should contact the parking Transportation Services at 263-2666."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "Women whose medical condition during pregnancy requires a closer parking space as a matter of accommodation should contact the parking Transportation Services at 263-2666."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Women whose medical condition during pregnancy requires a closer parking space as a matter of accommodation should contact the parking Transportation Services at 263-2666."
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "Governing documents present (so the rule for records with no governing document, reader instructions §3, does not apply): the Faculty Policies and Procedures (handbook; March 2018 full text and the chapter 7 file, identical in 7.04 and 7.20) with the tenure-clock policy 7.04.H and leave of absence 7.20; UPPP 16.01 (leave policy); UW System UPG 10 (sick-leave policy, with WFMLA/FMLA coordination). So `missing` is false.",
+  "Missing governing document: the UW-Madison Family-Related (Parental) Leave Policy (UPPP 16.03), cited by UPPP 16.01 as the exception to the unit's discretion over leave, is not saved. The institutional unpaid parental leave (c1) is therefore coded from the Provost/APO brochure (revised November 2009; copy 2015) and faculty legislation II-308 (1988, 'Current Policy', citing Board of Regents Resolution #506), which agree; Regent Resolution #506 is also not saved.",
+  "No employer-paid parental leave exists in the sources: paid time after a birth comes only from the employee's own sick leave (22 days at hire, 12 days a year after 18 months, accumulating without limit) and, for 12-month appointees, vacation. A member with two years of service has roughly 22 + 6 days unless earlier balances were saved (inferred from UPPP 16.02 and UPG 10 accrual rates).",
+  "Superseded 1988 description not coded: II-308 says teaching faculty 'may use colleague coverage' to be paid without charging sick leave; UPG 10 (Regent policy December 2007) now requires that 'Teaching responsibilities not met because of an absence ... must be reported as leave, regardless of whether a qualified instructor covers', and the 2009 brochure says sick leave must be charged even if a colleague covers. The later governing text decides (source precedence).",
+  "II-308's other 1988 descriptions and recommendations (12-month leave in six-month blocks; vacation reserve; no simultaneous leave for two employed parents, recommended dropped; tenure-clock extension through the University Committee) are superseded by or consistent with the later documents: the brochure gives 12-month appointees up to one year from the birth, UPG 10 lets both parents each use six weeks under WFMLA, and FPP 7.04.H.1 (2018) sends childbirth/adoption tenure-clock requests to the provost with approval presumed. Recommendation 11 (tenure clock, adopted 1988) is implemented by FPP 7.04.H.1 (c11) and 7.04.D (c14).",
+  "12-month appointees are a group defined by appointment length: their unpaid leave (up to one year from the birth) is in c1's duration_variants; their vacation is c9 with faculty_group named. The member coded is a 9-month (academic-year) tenure-stream faculty member.",
+  "Calendar: the documents state the kind of term (semesters; 'one or two semesters (for academic year appointments)', 'term (semester or 8-week summer session)') but not its length, so calendar.kind = semester, and the term length follows R8's order. The brochure's '19.5' weeks per semester is a pay-period figure for spreading sick leave, not a term length (R8 example).",
+  "Not components: bereavement, jury duty, voting, military, political-office, bone-marrow/organ-donation leaves (cannot be used for a birth); child-care centres, lactation rooms and the dependent-care reimbursement account (no leave, pay or protection).",
+  "Chain, birth parent: unpaid parental leave c1 (rest of the birth semester + the following semester, coded 2 semesters) containing her own sick leave for recovery c2 (up to 6 weeks); WFMLA medical leave c4 (2 weeks) then WFMLA family leave c3 (6 weeks, paid from own sick leave c6 within it), and FMLA c8 (12 weeks), all alongside c1 from its start; income continuation insurance c10 after sick leave ends (no length).",
+  "Chain, non-birth parent: unpaid parental leave c1 (2 semesters) from the birth, with WFMLA family leave c3 (6 weeks, own sick leave c6 within it) and FMLA c8 concurrent from its start; own sick leave for care of the mother c7 and WFMLA family-care leave c5 unlinked (no stated order).",
+  "Rule tension recorded: c1 begins 'after any paid leave has ended' (R15 would read consecutive_after the sick leave) but runs to the end of the birth semester; coded under R3b's reading for an unpaid leave for the rest of the semester (the semester as its length, containing the preceding paid sick leave), so c2 is `within` c1."
+ ],
+ "statutory_floor": {
+  "jurisdiction": "US",
+  "year": "2018",
+  "weeks_birth": 12.0,
+  "weeks_nonbirth": 12.0,
+  "statute": "Family and Medical Leave Act (FMLA) (29 U.S.C. 2611-2612)",
+  "source_doc": "2026_00_us_fmla_29usc2612",
+  "table": "statutory_baseline.csv"
+ }
+}

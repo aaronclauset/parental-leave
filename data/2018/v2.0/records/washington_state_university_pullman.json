@@ -1,0 +1,2109 @@
+{
+ "institution": "Washington State University, Pullman",
+ "slug": "washington_state_university_pullman",
+ "country": "US",
+ "model": "claude-opus-5-5",
+ "codebook_version": "1.25",
+ "schema_version": "1.25",
+ "reference_date": "2018-02-26",
+ "calendar": {
+  "term_weeks": null,
+  "note": "Faculty Manual: 'the two academic semesters' (academic year August 16 through May 15); semester stated without its length, so the semester default (R8)",
+  "kind": "semester"
+ },
+ "documents": [
+  {
+   "doc_id": "2018_00_link",
+   "url": "http://public.wsu.edu/~forms/HTML/BPPM/60_Personnel/60.56_Faculty_and_Administrative_Professional_Personnel_Leave.htm",
+   "title": "BPPM 60.56 Faculty and Administrative Professional Personnel Leave",
+   "version_or_effective_date": "Revised 10-17 (Wayback 2018-03-14)",
+   "retrieved": "2026-10-22"
+  },
+  {
+   "doc_id": "2018_01_faculty_manual_2017-2018",
+   "url": "https://facsen.wsu.edu/documents/2025/06/faculty-manual-2017-2018.pdf",
+   "title": "WSU Faculty Manual 2017-18",
+   "version_or_effective_date": "2017-18 (Presidential Approved for 2017-18)",
+   "retrieved": "2026-10-22"
+  },
+  {
+   "doc_id": "2018_02_hrs_pregnancy_parental_leave_page_feb2018",
+   "url": "http://hrs.wsu.edu/employees/disability-services/pregnancy-parental-leave/",
+   "title": "HRS Pregnancy and Parental Related Leaves page",
+   "version_or_effective_date": "undated; Wayback capture 2018-02-17",
+   "retrieved": "2026-10-22"
+  },
+  {
+   "doc_id": "2018_03_hrs_leave_policies_programs_page_feb2018",
+   "url": "http://hrs.wsu.edu/employees/leave/",
+   "title": "HRS Leave Policies & Programs page",
+   "version_or_effective_date": "undated; Wayback capture 2018-02-19",
+   "retrieved": "2026-10-22"
+  },
+  {
+   "doc_id": "2018_04_faculty_modified_duties_request_form_sep2012",
+   "url": "https://hrs.wsu.edu/wp-content/uploads/2016/06/Faculty-Modified-Duties-Request-Form.pdf",
+   "title": "Faculty Modified Duties Request Form",
+   "version_or_effective_date": "September 2012 (Wayback capture 2019-11-12)",
+   "retrieved": "2026-10-22"
+  }
+ ],
+ "missing": false,
+ "scope_accounting": {
+  "C1": {
+   "components": [
+    "washington_state_university_pullman_c2",
+    "washington_state_university_pullman_c3",
+    "washington_state_university_pullman_c15"
+   ]
+  },
+  "C2": {
+   "components": [
+    "washington_state_university_pullman_c12"
+   ]
+  },
+  "C3": {
+   "components": [
+    "washington_state_university_pullman_c3",
+    "washington_state_university_pullman_c4",
+    "washington_state_university_pullman_c5",
+    "washington_state_university_pullman_c6",
+    "washington_state_university_pullman_c14",
+    "washington_state_university_pullman_c15"
+   ]
+  },
+  "C4": {
+   "components": [
+    "washington_state_university_pullman_c1",
+    "washington_state_university_pullman_c2"
+   ],
+   "not_components": [
+    {
+     "statute": "Fair Labor Standards Act (29 USC 201)",
+     "reason": "wage-and-hour basis of the leave regulations; gives no leave to a new parent (U4)"
+    },
+    {
+     "statute": "29 CFR Part 825.102 and 825.122(b) (FMLA regulations, definition of spouse)",
+     "reason": "defines spouse for FMLA; part of the FMLA component c1, no separate leave"
+    },
+    {
+     "statute": "Washington State Medical Leave laws (Faculty Manual III.D.6, unnamed)",
+     "reason": "unnamed; the Washington leave law the documents rely on for parents is RCW 49.78 (Family Leave Act), coded as c2"
+    },
+    {
+     "statute": "Washington family care law (HRS hub 'Family Care Leave', statute not named)",
+     "reason": "only lets employees use their own sick or other paid leave for family care; recorded within the sick-leave own_accrual component c4 (no leave or pay of its own)"
+    },
+    {
+     "statute": "Washington Law Against Discrimination RCW 49.60; Rehabilitation Act s. 504; Americans with Disabilities Act",
+     "reason": "disability-accommodation statutes (C9: not components, U4)"
+    },
+    {
+     "statute": "RCW 49.76 (domestic violence, sexual assault, stalking leave); RCW 26.50.010; RCW 9A.46.110",
+     "reason": "leave for violence victims; a parent could not take it for a birth (checklist §1)"
+    },
+    {
+     "statute": "RCW 38.40.060; RCW 73.16 (73.16.033, 73.16.035); WAC 357-31-525; USERRA",
+     "reason": "military leave and military-family leave; unrelated to becoming a parent (U4)"
+    },
+    {
+     "statute": "RCW 1.16.050 (faith or conscience holidays)",
+     "reason": "religious holidays; unrelated to becoming a parent"
+    },
+    {
+     "statute": "RCW 49.28.120 (leave for voting)",
+     "reason": "unrelated to becoming a parent"
+    },
+    {
+     "statute": "Executive Order 02-01 (life-giving procedures)",
+     "reason": "organ/blood donation leave; unrelated to becoming a parent"
+    },
+    {
+     "statute": "WAC 357-31 and WAC 357-01-172/182; WAC 357-31-110 (civil service leave)",
+     "reason": "civil service staff leave rules and transfer of sick leave; not faculty parental provisions"
+    },
+    {
+     "statute": "Washington Workers' Compensation Act; SPPM 2.30",
+     "reason": "work-related injury; unrelated to becoming a parent"
+    },
+    {
+     "statute": "RCW 42.52, RCW 42.56, RCW 34.05, WAC 292-110-010, WAC 504-26-010, RCW 28B.15.558, RCW 28b.10.650, RCW chapter 28B, Copyright Act, Patent Act (35 U.S.C. 200 et seq.), Immigration Reform and Control Act",
+     "reason": "ethics, records, procedure, tuition, pay-rate, intellectual-property and immigration statutes; no parental provision"
+    }
+   ]
+  },
+  "C5": {
+   "components": [
+    "washington_state_university_pullman_c1",
+    "washington_state_university_pullman_c4"
+   ]
+  },
+  "C6": {
+   "components": [
+    "washington_state_university_pullman_c7",
+    "washington_state_university_pullman_c8",
+    "washington_state_university_pullman_c9"
+   ]
+  },
+  "C7": {
+   "components": [
+    "washington_state_university_pullman_c10"
+   ]
+  },
+  "C8": {
+   "components": [
+    "washington_state_university_pullman_c11"
+   ]
+  },
+  "C9": {
+   "components": [
+    "washington_state_university_pullman_c13"
+   ]
+  },
+  "C10": {
+   "absent": {
+    "documents": [
+     "2018_00_link",
+     "2018_01_faculty_manual_2017-2018",
+     "2018_02_hrs_pregnancy_parental_leave_page_feb2018",
+     "2018_03_hrs_leave_policies_programs_page_feb2018",
+     "2018_04_faculty_modified_duties_request_form_sep2012"
+    ],
+    "terms": [
+     "first days",
+     "first five",
+     "FMLA-qualifying absence paid",
+     "regular work time",
+     "paid FML",
+     "administrative leave"
+    ]
+   }
+  }
+ },
+ "mechanism_slots": {
+  "employer_paid_leave": {
+   "components": [
+    "washington_state_university_pullman_c9"
+   ]
+  },
+  "employer_childbirth_benefit": {
+   "absent": "no childbirth-specific paid period; searched all five sources for 'maternity', 'childbirth', 'childbearing', 'paid parental', 'birth' (pregnancy disability leave is paid only from own balances)"
+  },
+  "generic_sick_or_disability_plan": {
+   "components": [
+    "washington_state_university_pullman_c14"
+   ]
+  },
+  "own_accrual": {
+   "components": [
+    "washington_state_university_pullman_c4",
+    "washington_state_university_pullman_c5",
+    "washington_state_university_pullman_c15"
+   ]
+  },
+  "donated_leave": {
+   "components": [
+    "washington_state_university_pullman_c6"
+   ]
+  },
+  "government_benefit": {
+   "absent": "no state or federal paid programme named; searched all sources for 'Paid Family', 'PFML', 'benefit', 'insurance', 'state program'"
+  },
+  "employer_topup": {
+   "absent": "no top-up of a government benefit; searched all sources for 'top-up', 'supplement', 'difference', 'benefit'"
+  },
+  "modified_duties": {
+   "absent": "the only modified-duties provision (form, c12) keeps a full work load and is coded other (R16); searched all sources for 'modified duties', 'teaching relief', 'course release', 'reduced load', 'release'"
+  },
+  "unpaid_leave": {
+   "components": [
+    "washington_state_university_pullman_c1",
+    "washington_state_university_pullman_c2",
+    "washington_state_university_pullman_c3",
+    "washington_state_university_pullman_c7",
+    "washington_state_university_pullman_c8"
+   ]
+  },
+  "tenure_clock": {
+   "components": [
+    "washington_state_university_pullman_c10"
+   ]
+  },
+  "part_time_option": {
+   "components": [
+    "washington_state_university_pullman_c11"
+   ]
+  },
+  "other": {
+   "components": [
+    "washington_state_university_pullman_c12",
+    "washington_state_university_pullman_c13"
+   ]
+  }
+ },
+ "baseline_accounting": {
+  "Family and Medical Leave Act (FMLA)": {
+   "components": [
+    "washington_state_university_pullman_c1"
+   ]
+  },
+  "Federal Employee Paid Leave Act (paid parental leave for federal civilian employees)": {
+   "not_applicable": "covers federal civilian employees; WSU faculty are state employees; no saved document mentions it"
+  },
+  "Paid Family and Medical Leave": {
+   "absent": "no saved document mentions it"
+  }
+ },
+ "leave_limits": [],
+ "components": [
+  {
+   "component_id": "washington_state_university_pullman_c1",
+   "institution_label": "Family Medical Leave",
+   "description": "Federal FMLA leave as implemented for WSU faculty: 12 workweeks of job-protected leave in a rolling 12-month period for the employee's own serious health condition (including pregnancy/childbirth incapacity), care of a newborn, adopted or foster child, or care of an ill family member. Unpaid unless the employee chooses to use accrued leave.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "BPPM 60.56 'Faculty and AP employees'; Faculty Manual III.D.6 'Faculty shall be entitled to leave'",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "the employee's newborn, adopted, or foster child; the employee's serious health condition",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration": {
+    "value": 12,
+    "units": "workweek",
+    "qualifier": "exact"
+   },
+   "duration_note": "BPPM: 'a total of 12 work weeks'; Faculty Manual: 'twelve weeks or four hundred and eighty (480) hours'; the HRS page says 'up to 12 weeks' (summary). Coded as the total stated (R13).",
+   "service_requirement": "12 months of state service and 1,250 hours in the previous 12 months",
+   "dual_employee_rule": "spouses both WSU employees and FML-eligible: combined total of 12 workweeks for birth/newborn care, adoption or foster placement, or parent care (HRS page)",
+   "medical_certification": true,
+   "medical_certification_note": "health certificate for the employee's own serious health condition or a family member's; certification for the period of disability",
+   "notice": "HRS page: forms should be returned 30 days before the start of medical leave when possible",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "statute_source": "29 U.S.C. 2612(a)(1); eligibility 29 U.S.C. 2611(2)",
+   "statute_verified": true,
+   "sequence": [
+    {
+     "relation": "concurrent_with",
+     "component_id": "washington_state_university_pullman_c3",
+     "note": "S1: the pregnancy disability leave counts against the 12 weeks of FML; birth parent only (c3 is birth-only)"
+    }
+   ],
+   "rule_applied": [
+    "U2",
+    "U4",
+    "S1",
+    "R9",
+    "R13",
+    "U5",
+    "U8"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Faculty and AP employees may use annual leave, sick leave, or leave without pay for family medical leave (FML).",
+     "Faculty shall be entitled to leave under the terms of such policies as may be adopted by Human Resource Services from time to time to implement the provisions of these laws."
+    ],
+    "eligible_parent": [
+     "Provide care to the employee's newborn, adopted, or foster child.",
+     "Seek treatment and recover from the employee's serious health condition;",
+     "Incapacity due to pregnancy, prenatal medical care or child birth"
+    ],
+    "entitlement": [
+     "an employer must grant eligible employees a total of 12 work weeks of absence during a rolling 12-month period in order to:",
+     "Faculty shall be entitled to leave under the terms of such policies as may be adopted by Human Resource Services from time to time to implement the provisions of these laws.",
+     "eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period"
+    ],
+    "duration": [
+     "an employer must grant eligible employees a total of 12 work weeks of absence during a rolling 12-month period in order to:",
+     "Family Medical Leave (FML) allows eligible employees twelve weeks or four hundred and eighty (480) hours of job protected leave during a twelve (12) month period.",
+     "eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period"
+    ],
+    "service_requirement": [
+     "Worked for the state for at least 12 months, and",
+     "Worked at least 1250 hours during the previous 12-month period."
+    ],
+    "sequence": [
+     "in most cases, her pregnancy disability leave will count against her 12 weeks of FML but not against her FLA."
+    ],
+    "dual_employee_rule": [
+     "Eligible spouses who are both WSU employees and eligible for FML are limited to a combined total of 12 workweeks of family leave for the following reasons:"
+    ],
+    "medical_certification": [
+     "A faculty member is to submit to Human Resource Services, a health certificate from a physician for illness outlining the requirement for the faculty member to take leave for their own serious health condition or to care for a family member with a serious health conditions."
+    ],
+    "statute_source": [
+     "eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period"
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link",
+    "2018_01_faculty_manual_2017-2018",
+    "2018_02_hrs_pregnancy_parental_leave_page_feb2018",
+    "2026_00_us_fmla_29usc2612",
+    "2026_01_us_fmla_29usc2611_definitions"
+   ],
+   "flags": [
+    "cross_reference_not_saved: HRS procedures implementing the Family Medical Leave Act (Faculty Manual III.D.6 'such policies as may be adopted by Human Resource Services')"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "an employer must grant eligible employees a total of 12 work weeks of absence during a rolling 12-month period in order to:"
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "Faculty and AP employees may use annual leave, sick leave, or leave without pay for family medical leave (FML)."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Provide care to the employee's newborn, adopted, or foster child."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Faculty shall be entitled to leave under the terms of such policies as may be adopted by Human Resource Services from time to time to implement the provisions of these laws."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own serious health condition), non_birth_parent (newborn care; care of spouse), adoptive, foster",
+     "quote": "Provide care to the employee's newborn, adopted, or foster child."
+    },
+    {
+     "field": "entitlement",
+     "rule": "U2",
+     "answer": "guaranteed",
+     "quote": "eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period"
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "12 workweeks exact ('a total of')",
+     "quote": "an employer must grant eligible employees a total of 12 work weeks of absence during a rolling 12-month period in order to:"
+    },
+    {
+     "field": "duration",
+     "rule": "U2",
+     "answer": "12 workweeks verified against 29 U.S.C. 2612(a)(1)",
+     "quote": "eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period"
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U2",
+     "answer": "12 months and 1,250 hours",
+     "quote": "Worked at least 1250 hours during the previous 12-month period."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "formal leave; all duties relieved (inferred)",
+     "quote": "an employer must grant eligible employees a total of 12 work weeks of absence during a rolling 12-month period in order to:"
+    },
+    {
+     "field": "sequence",
+     "rule": "S1",
+     "answer": "concurrent_with c3 (pregnancy disability leave counts against FML)",
+     "quote": "in most cases, her pregnancy disability leave will count against her 12 weeks of FML but not against her FLA."
+    }
+   ]
+  },
+  {
+   "component_id": "washington_state_university_pullman_c2",
+   "institution_label": "Parental leave",
+   "description": "Washington Family Leave Act parental leave (RCW 49.78.220), as stated in BPPM 60.56: up to 12 weeks for the birth and care of a newborn or placement for adoption or foster care, in addition to leave for pregnancy/childbirth disability. Unpaid unless the employee uses accrued leave.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "BPPM 60.56 Faculty and Administrative Professional Personnel Leave, 'An eligible employee'",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "the birth and care of the employee's newborn child or the placement of a child with the employee for adoption or foster care",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "entitlement_note": "'may request' in the policy restates a statutory entitlement (RCW 49.78.220); a statute stays guaranteed (checklist, entitlement).",
+   "duration": {
+    "value": 12,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "service_requirement": "12 months of state service and 1,250 hours in the 12 months before the leave (HRS page)",
+   "dual_employee_rule": "spouses both employed by WSU must share the 12 weeks for bonding with a newborn (HRS page)",
+   "notice": "form returned 30 days before the leave when possible (HRS page)",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "statute_source": "RCW 49.78.220 (Washington Family Leave Act)",
+   "statute_verified": false,
+   "runs_concurrently_with": [
+    "FMLA"
+   ],
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "washington_state_university_pullman_c3",
+     "roles": [
+      "birth"
+     ],
+     "note": "S1a: 'This leave may be in addition to any leave for illness or temporary disability due to pregnancy and/or childbirth'; HRS: FLA begins when the doctor releases her to work"
+    },
+    {
+     "relation": "concurrent_with",
+     "component_id": "washington_state_university_pullman_c1",
+     "note": "S1: FLA 'supplements and/or runs concurrent with FML'; for the non-birth parent it starts with FMLA"
+    }
+   ],
+   "rule_applied": [
+    "U2",
+    "U4",
+    "S1",
+    "S1a",
+    "R9",
+    "R13",
+    "R15"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "An eligible employee may request parental leave for up to 12 weeks for the birth and care of the employee's newborn child or the placement of a child with the employee for adoption or foster care. (RCW 49.78.220) This leave may be in addition to any leave for illness or temporary disability due to pregnancy and/or childbirth."
+    ],
+    "eligible_parent": [
+     "An eligible employee may request parental leave for up to 12 weeks for the birth and care of the employee's newborn child or the placement of a child with the employee for adoption or foster care. (RCW 49.78.220) This leave may be in addition to any leave for illness or temporary disability due to pregnancy and/or childbirth."
+    ],
+    "entitlement": [
+     "An eligible employee may request parental leave for up to 12 weeks for the birth and care of the employee's newborn child or the placement of a child with the employee for adoption or foster care. (RCW 49.78.220) This leave may be in addition to any leave for illness or temporary disability due to pregnancy and/or childbirth."
+    ],
+    "duration": [
+     "An eligible employee may request parental leave for up to 12 weeks for the birth and care of the employee's newborn child or the placement of a child with the employee for adoption or foster care. (RCW 49.78.220) This leave may be in addition to any leave for illness or temporary disability due to pregnancy and/or childbirth.",
+     "Washington’s Family Leave Act (FLA) provides up to 12 weeks of protected leave in a 12-month period for eligible employees. This leave provision provided by the State of Washington supplements and/or runs concurrent with FML."
+    ],
+    "service_requirement": [
+     "An eligible employee will need to have worked for the State of Washington for at least 12 months and worked at least 1,250 hours in the 12 months immediately preceding their period of leave."
+    ],
+    "sequence": [
+     "An eligible employee may request parental leave for up to 12 weeks for the birth and care of the employee's newborn child or the placement of a child with the employee for adoption or foster care. (RCW 49.78.220) This leave may be in addition to any leave for illness or temporary disability due to pregnancy and/or childbirth.",
+     "The FLA does not run during pregnancy disability leave. Instead, the 12 weeks of FLA will begin to run when the woman’s doctor releases her to work following the birth of her child, usually six to eight weeks after the date of birth.",
+     "Washington’s Family Leave Act (FLA) provides up to 12 weeks of protected leave in a 12-month period for eligible employees. This leave provision provided by the State of Washington supplements and/or runs concurrent with FML."
+    ],
+    "dual_employee_rule": [
+     "Please note, spouses who are both employed with WSU, must share the 12 weeks of leave when taking leave for the purpose of bonding with their newborn."
+    ],
+    "notice": [
+     "When possible, the form should be returned 30-days prior to the start of the leave."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link",
+    "2018_02_hrs_pregnancy_parental_leave_page_feb2018",
+    "2018_03_hrs_leave_policies_programs_page_feb2018"
+   ],
+   "flags": [
+    "cross_reference_not_saved: Revised Code of Washington 49.78 – Family Leave (RCW 49.78.220)",
+    "cross_reference_not_saved: Washington State Family Leave Act Overview; Washington State Family Leave Act Q&A"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "An eligible employee may request parental leave for up to 12 weeks for the birth and care of the employee's newborn child or the placement of a child with the employee for adoption or foster care. (RCW 49.78.220) This leave may be in addition to any leave for illness or temporary disability due to pregnancy and/or childbirth."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "An eligible employee may request parental leave for up to 12 weeks for the birth and care of the employee's newborn child or the placement of a child with the employee for adoption or foster care. (RCW 49.78.220) This leave may be in addition to any leave for illness or temporary disability due to pregnancy and/or childbirth."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "An eligible employee may request parental leave for up to 12 weeks for the birth and care of the employee's newborn child or the placement of a child with the employee for adoption or foster care. (RCW 49.78.220) This leave may be in addition to any leave for illness or temporary disability due to pregnancy and/or childbirth."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "An eligible employee may request parental leave for up to 12 weeks for the birth and care of the employee's newborn child or the placement of a child with the employee for adoption or foster care. (RCW 49.78.220) This leave may be in addition to any leave for illness or temporary disability due to pregnancy and/or childbirth."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "birth_parent, non_birth_parent, adoptive, foster",
+     "quote": "An eligible employee may request parental leave for up to 12 weeks for the birth and care of the employee's newborn child or the placement of a child with the employee for adoption or foster care. (RCW 49.78.220) This leave may be in addition to any leave for illness or temporary disability due to pregnancy and/or childbirth."
+    },
+    {
+     "field": "entitlement",
+     "rule": "U2",
+     "answer": "guaranteed",
+     "quote": "An eligible employee may request parental leave for up to 12 weeks for the birth and care of the employee's newborn child or the placement of a child with the employee for adoption or foster care. (RCW 49.78.220) This leave may be in addition to any leave for illness or temporary disability due to pregnancy and/or childbirth."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "12 weeks up_to",
+     "quote": "An eligible employee may request parental leave for up to 12 weeks for the birth and care of the employee's newborn child or the placement of a child with the employee for adoption or foster care. (RCW 49.78.220) This leave may be in addition to any leave for illness or temporary disability due to pregnancy and/or childbirth."
+    },
+    {
+     "field": "duration",
+     "rule": "U2",
+     "answer": "length stated by the policy; statute RCW 49.78 not saved, statute_verified false",
+     "quote": "An eligible employee may request parental leave for up to 12 weeks for the birth and care of the employee's newborn child or the placement of a child with the employee for adoption or foster care. (RCW 49.78.220) This leave may be in addition to any leave for illness or temporary disability due to pregnancy and/or childbirth."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U2",
+     "answer": "12 months and 1,250 hours (HRS page)",
+     "quote": "An eligible employee will need to have worked for the State of Washington for at least 12 months and worked at least 1,250 hours in the 12 months immediately preceding their period of leave."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "formal leave; all duties relieved (inferred)",
+     "quote": "An eligible employee may request parental leave for up to 12 weeks for the birth and care of the employee's newborn child or the placement of a child with the employee for adoption or foster care. (RCW 49.78.220) This leave may be in addition to any leave for illness or temporary disability due to pregnancy and/or childbirth."
+    },
+    {
+     "field": "sequence",
+     "rule": "S1a",
+     "answer": "consecutive_after c3 for the birth parent",
+     "quote": "The FLA does not run during pregnancy disability leave. Instead, the 12 weeks of FLA will begin to run when the woman’s doctor releases her to work following the birth of her child, usually six to eight weeks after the date of birth."
+    },
+    {
+     "field": "sequence",
+     "rule": "S1",
+     "answer": "concurrent_with c1 (FMLA)",
+     "quote": "Washington’s Family Leave Act (FLA) provides up to 12 weeks of protected leave in a 12-month period for eligible employees. This leave provision provided by the State of Washington supplements and/or runs concurrent with FML."
+    }
+   ]
+  },
+  {
+   "component_id": "washington_state_university_pullman_c3",
+   "institution_label": "Disability Due to Pregnancy or Childbirth",
+   "description": "Disability leave for the period of pregnancy- or childbirth-related disability, medically certified, under BPPM 60.56; paid only through the employee's chosen combination of sick leave, annual leave, personal holiday, compensatory time, or leave without pay. Length from the HRS page: usually six to eight weeks after the birth.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "mechanism_note": "The leave itself; pay comes only from the employee's own balances (c4, c5), so the leave is coded unpaid_leave (U6 contrast: no employer-paid salary).",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "BPPM 60.56 'Faculty and AP employees'",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "disability due to pregnancy and/or childbirth; 'a woman' (HRS page)",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "'may be qualified to receive disability leave' with medical certification: eligibility wording; HRS approval covers the certification and arrangements (V2).",
+   "duration": {
+    "value": 6,
+    "units": "week",
+    "qualifier": "at_least"
+   },
+   "duration_max": {
+    "value": 8,
+    "units": "week"
+   },
+   "duration_note": "Governing BPPM 60.56 sets no length beyond the certified period of disability ('or as long as medically certified'; the four-month figure concerns benefit continuation). The HRS page states 'usually six to eight weeks after the date of birth' (a summary supplying a detail of a provision the governing document contains). Coded as a range, R13b.",
+   "duration_variants": {
+    "usual": "6 to 8 weeks after birth, as certified by the health care provider"
+   },
+   "medical_certification": true,
+   "medical_certification_note": "medical certification or verification to HRS for the period of disability",
+   "must_exhaust_first": [],
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "rule_applied": [
+    "U5",
+    "U6",
+    "V2",
+    "R13b",
+    "R9",
+    "source_precedence"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Faculty and AP employees may be qualified to receive disability leave, including leave due to pregnancy and/or childbirth, under the family medical leave (FML) program."
+    ],
+    "eligible_parent": [
+     "Faculty and AP employees may be qualified to receive disability leave, including leave due to pregnancy and/or childbirth, under the family medical leave (FML) program."
+    ],
+    "entitlement": [
+     "Faculty and AP employees may be qualified to receive disability leave, including leave due to pregnancy and/or childbirth, under the family medical leave (FML) program.",
+     "The employee must submit medical certification or verification to HRS for the period of disability."
+    ],
+    "duration": [
+     "The FLA does not run during pregnancy disability leave. Instead, the 12 weeks of FLA will begin to run when the woman’s doctor releases her to work following the birth of her child, usually six to eight weeks after the date of birth.",
+     "for up to four months of disability leave due to pregnancy and/or childbirth (or as long as medically certified)"
+    ],
+    "medical_certification": [
+     "The employee must submit medical certification or verification to HRS for the period of disability."
+    ],
+    "payer": [
+     "Disability leave related to pregnancy, childbirth, and/or FML may be a combination of sick leave, annual leave, personal holiday, compensatory time, and leave without pay. The employee chooses the combination and use of paid and unpaid leave during such disability leave."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link",
+    "2018_02_hrs_pregnancy_parental_leave_page_feb2018"
+   ],
+   "flags": [
+    "ambiguous: duration taken from the HRS summary page ('usually six to eight weeks'); the governing BPPM states only the certified period of disability",
+    "cross_reference_not_saved: HRS Disability Services advisory guidelines on disability leave due to pregnancy and/or childbirth"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "U6",
+     "answer": "unpaid_leave",
+     "quote": "Disability leave related to pregnancy, childbirth, and/or FML may be a combination of sick leave, annual leave, personal holiday, compensatory time, and leave without pay. The employee chooses the combination and use of paid and unpaid leave during such disability leave."
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "none",
+     "quote": "Disability leave related to pregnancy, childbirth, and/or FML may be a combination of sick leave, annual leave, personal holiday, compensatory time, and leave without pay. The employee chooses the combination and use of paid and unpaid leave during such disability leave."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Faculty and AP employees may be qualified to receive disability leave, including leave due to pregnancy and/or childbirth, under the family medical leave (FML) program."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Faculty and AP employees may be qualified to receive disability leave, including leave due to pregnancy and/or childbirth, under the family medical leave (FML) program."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own disability)",
+     "quote": "Faculty and AP employees may be qualified to receive disability leave, including leave due to pregnancy and/or childbirth, under the family medical leave (FML) program."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "Faculty and AP employees may be qualified to receive disability leave, including leave due to pregnancy and/or childbirth, under the family medical leave (FML) program."
+    },
+    {
+     "field": "duration",
+     "rule": "R13b",
+     "answer": "6 weeks at_least, max 8 weeks",
+     "quote": "The FLA does not run during pregnancy disability leave. Instead, the 12 weeks of FLA will begin to run when the woman’s doctor releases her to work following the birth of her child, usually six to eight weeks after the date of birth."
+    },
+    {
+     "field": "duration",
+     "rule": "source_precedence",
+     "answer": "summary supplies the length of a provision the governing BPPM contains",
+     "quote": "for up to four months of disability leave due to pregnancy and/or childbirth (or as long as medically certified)"
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "formal leave; all duties relieved (inferred)",
+     "quote": "Faculty and AP employees may be qualified to receive disability leave, including leave due to pregnancy and/or childbirth, under the family medical leave (FML) program."
+    }
+   ]
+  },
+  {
+   "component_id": "washington_state_university_pullman_c4",
+   "institution_label": "Sick Leave",
+   "description": "Faculty accrue sick leave (8 hours per month; academic-year faculty about nine working days a year, unlimited accumulation), usable for illness or temporary disability of the faculty member or immediate family, including during FML, pregnancy/childbirth disability leave and parental leave.",
+   "mechanism": "own_accrual",
+   "payer": "own_balance",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Faculty Manual III.D.5 'Members of the faculty'",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent"
+   ],
+   "eligible_parent_wording": "illness or temporary disability of the faculty member or his or her immediate family",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "duration_note": "No fixed length: an accrued balance (academic-year faculty earn 8 hours per month, 'a total of nine working days per year'; unlimited accumulation). The Washington family care law lets employees use sick and other paid leave for family care (HRS hub).",
+   "sequence": [
+    {
+     "relation": "concurrent_with",
+     "component_id": "washington_state_university_pullman_c1",
+     "note": "used during FML, disability leave or parental leave at the employee's choice"
+    }
+   ],
+   "rule_applied": [
+    "R1",
+    "U5",
+    "V2"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Members of the faculty are allowed to use accrued sick leave under certain conditions:"
+    ],
+    "eligible_parent": [
+     "Sick leave may not be taken before it is earned. It is usable only in case of illness or temporary disability of the faculty member or his or her immediate family.",
+     "Sick leave may be used for periods of time that a faculty member may need to take time off for their own medical condition, or to care for a qualified family or household member."
+    ],
+    "entitlement": [
+     "Members of the faculty are allowed to use accrued sick leave under certain conditions:"
+    ],
+    "sequence": [
+     "A FML qualified faculty member may use any combination of accrued leave (annual or sick) or leave without pay during a period of designated FML."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_faculty_manual_2017-2018",
+    "2018_00_link",
+    "2018_03_hrs_leave_policies_programs_page_feb2018"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "own_accrual",
+     "quote": "Faculty on academic-year appointment earn sick leave at the rate of 8 hours per month based on full time equivalent, per month of completed service."
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "own_balance",
+     "quote": "Sick leave may not be taken before it is earned. It is usable only in case of illness or temporary disability of the faculty member or his or her immediate family."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Sick leave may not be taken before it is earned. It is usable only in case of illness or temporary disability of the faculty member or his or her immediate family."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Members of the faculty are allowed to use accrued sick leave under certain conditions:"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own illness), non_birth_parent (family illness)",
+     "quote": "Sick leave may not be taken before it is earned. It is usable only in case of illness or temporary disability of the faculty member or his or her immediate family."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "Members of the faculty are allowed to use accrued sick leave under certain conditions:"
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "concurrent_with c1 (used during designated FML)",
+     "quote": "A FML qualified faculty member may use any combination of accrued leave (annual or sick) or leave without pay during a period of designated FML."
+    }
+   ]
+  },
+  {
+   "component_id": "washington_state_university_pullman_c5",
+   "institution_label": "Annual Leave",
+   "description": "Annual (vacation) leave accrued by faculty on annual (12-month) appointments; the unit administrator must allow it for parental leave and serious health conditions. Faculty on academic-year appointments do not earn annual leave.",
+   "mechanism": "own_accrual",
+   "payer": "own_balance",
+   "faculty_group": "faculty on annual appointments",
+   "faculty_group_note": "academic-year faculty (the standard teaching appointment) do not earn annual leave",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent"
+   ],
+   "eligible_parent_wording": "Parental leave; serious health condition of employee",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "duration_note": "Accrued balance: 16.67 hours per month, maximum 352 hours (44 working days).",
+   "rule_applied": [
+    "R1",
+    "U5"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Faculty on annual appointments earn annual leave at the rate of 16.67 hours per month of completed service, based on full-time equivalent. Faculty on academic-year appointments do no earn annual leave.",
+     "Members of the faculty on academic-year appointment do not earn annual leave"
+    ],
+    "eligible_parent": [
+     "The unit administrator must allow an employee to take annual leave for:",
+     "Parental leave (see below);"
+    ],
+    "entitlement": [
+     "The unit administrator must allow an employee to take annual leave for:"
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link",
+    "2018_01_faculty_manual_2017-2018"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "own_accrual",
+     "quote": "Faculty on annual appointments earn annual leave at the rate of 16.67 hours per month of completed service, based on full-time equivalent. Faculty on academic-year appointments do no earn annual leave."
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "own_balance",
+     "quote": "Faculty on annual appointments earn annual leave at the rate of 16.67 hours per month of completed service, based on full-time equivalent. Faculty on academic-year appointments do no earn annual leave."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "The unit administrator must allow an employee to take annual leave for:"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "faculty on annual appointments",
+     "quote": "Faculty on annual appointments earn annual leave at the rate of 16.67 hours per month of completed service, based on full-time equivalent. Faculty on academic-year appointments do no earn annual leave."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "birth_parent, non_birth_parent",
+     "quote": "Parental leave (see below);"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed",
+     "quote": "The unit administrator must allow an employee to take annual leave for:"
+    }
+   ]
+  },
+  {
+   "component_id": "washington_state_university_pullman_c6",
+   "institution_label": "Shared Leave",
+   "description": "Shared leave program: qualifying employees may receive leave donated by colleagues for major life events such as extraordinary or severe illness of the employee or a family member (BPPM 60.58, not saved).",
+   "mechanism": "donated_leave",
+   "payer": "own_balance",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "HRS hub: 'qualifying staff'; BPPM 60.56 (faculty and AP leave) points to 60.58 for shared leave",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent"
+   ],
+   "eligible_parent_wording": "extraordinary or severe illness or injury of the staff member or a qualified family member",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "eligibility wording ('allows qualifying staff the opportunity'); terms in BPPM 60.58, not saved",
+   "rule_applied": [
+    "R1d",
+    "U5",
+    "V2",
+    "source_precedence"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "The shared leave program offered by WSU allows qualifying staff the opportunity to receive donated leave to utilize as if it were their own. Shared leave is available for major life events such as extraordinary or severe illness or injury of the staff member or a qualified family member, for staff called to military service, and other qualifying events as outlined at:",
+     "For information regarding shared leave, see 60.58."
+    ],
+    "eligible_parent": [
+     "The shared leave program offered by WSU allows qualifying staff the opportunity to receive donated leave to utilize as if it were their own. Shared leave is available for major life events such as extraordinary or severe illness or injury of the staff member or a qualified family member, for staff called to military service, and other qualifying events as outlined at:"
+    ],
+    "entitlement": [
+     "The shared leave program offered by WSU allows qualifying staff the opportunity to receive donated leave to utilize as if it were their own. Shared leave is available for major life events such as extraordinary or severe illness or injury of the staff member or a qualified family member, for staff called to military service, and other qualifying events as outlined at:"
+    ]
+   },
+   "doc_ids": [
+    "2018_03_hrs_leave_policies_programs_page_feb2018",
+    "2018_00_link"
+   ],
+   "flags": [
+    "summary_only: 2018_03_hrs_leave_policies_programs_page_feb2018",
+    "cross_reference_not_saved: BPPM 60.58 Shared Leave",
+    "ambiguous: whether faculty are covered (HRS hub says 'qualifying staff'; BPPM 60.56 for faculty points to 60.58)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "donated_leave",
+     "quote": "The shared leave program offered by WSU allows qualifying staff the opportunity to receive donated leave to utilize as if it were their own. Shared leave is available for major life events such as extraordinary or severe illness or injury of the staff member or a qualified family member, for staff called to military service, and other qualifying events as outlined at:"
+    },
+    {
+     "field": "payer",
+     "rule": "R1d",
+     "answer": "own_balance",
+     "quote": "The shared leave program offered by WSU allows qualifying staff the opportunity to receive donated leave to utilize as if it were their own. Shared leave is available for major life events such as extraordinary or severe illness or injury of the staff member or a qualified family member, for staff called to military service, and other qualifying events as outlined at:"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "The shared leave program offered by WSU allows qualifying staff the opportunity to receive donated leave to utilize as if it were their own. Shared leave is available for major life events such as extraordinary or severe illness or injury of the staff member or a qualified family member, for staff called to military service, and other qualifying events as outlined at:"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "For information regarding shared leave, see 60.58."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent, non_birth_parent",
+     "quote": "The shared leave program offered by WSU allows qualifying staff the opportunity to receive donated leave to utilize as if it were their own. Shared leave is available for major life events such as extraordinary or severe illness or injury of the staff member or a qualified family member, for staff called to military service, and other qualifying events as outlined at:"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "The shared leave program offered by WSU allows qualifying staff the opportunity to receive donated leave to utilize as if it were their own. Shared leave is available for major life events such as extraordinary or severe illness or injury of the staff member or a qualified family member, for staff called to military service, and other qualifying events as outlined at:"
+    }
+   ]
+  },
+  {
+   "component_id": "washington_state_university_pullman_c7",
+   "institution_label": "Leave without Pay",
+   "description": "Faculty leave of absence without pay: ordinarily granted for important state or national service; for other reasons it may be granted, normally for not more than one year.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Faculty Manual III.D.10 'faculty members'",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "entitlement_note": "'ordinarily will be granted' is stated for state or national service; leave for other reasons 'may be granted' (V2).",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "up_to"
+   },
+   "duration_note": "'normally will be for a period not exceeding one year' (Q1). BPPM: an LWOP request for maternity or parental leave is referred to the family medical leave rules.",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "rule_applied": [
+    "U1",
+    "V2",
+    "Q1",
+    "R9"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "For important service to the state or to the United States, leave of absence without pay ordinarily will be granted to faculty members."
+    ],
+    "eligible_parent": [
+     "such as graduate or professional study or acceptance of foundation grants, exchange professorships, and consulting appointments"
+    ],
+    "entitlement": [
+     "For important service to the state or to the United States, leave of absence without pay ordinarily will be granted to faculty members.",
+     "Leave, if granted, normally will be for a period not exceeding one year."
+    ],
+    "duration": [
+     "Leave, if granted, normally will be for a period not exceeding one year."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_faculty_manual_2017-2018",
+    "2018_00_link"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "For important service to the state or to the United States, leave of absence without pay ordinarily will be granted to faculty members."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "For important service to the state or to the United States, leave of absence without pay ordinarily will be granted to faculty members."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "such as graduate or professional study or acceptance of foundation grants, exchange professorships, and consulting appointments"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "For important service to the state or to the United States, leave of absence without pay ordinarily will be granted to faculty members."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent (purpose-neutral)",
+     "quote": "such as graduate or professional study or acceptance of foundation grants, exchange professorships, and consulting appointments"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "Leave, if granted, normally will be for a period not exceeding one year."
+    },
+    {
+     "field": "duration",
+     "rule": "Q1",
+     "answer": "1 year up_to ('normally ... not exceeding')",
+     "quote": "Leave, if granted, normally will be for a period not exceeding one year."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "formal leave; all duties relieved (inferred)",
+     "quote": "For important service to the state or to the United States, leave of absence without pay ordinarily will be granted to faculty members."
+    }
+   ]
+  },
+  {
+   "component_id": "washington_state_university_pullman_c8",
+   "institution_label": "Leave without Pay",
+   "description": "HRS hub description of leave without pay for staff for personal reasons including bonding with infants; full-time or part-time with prorated pay, not extended beyond two years.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "staff (non-faculty)",
+   "faculty_group_note": "'available to staff'; the hub lists faculty sick leave separately",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "care for and bond with infants, newly adopted children",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "duration": {
+    "value": 2,
+    "units": "year",
+    "qualifier": "up_to"
+   },
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "rule_applied": [
+    "U1",
+    "V2",
+    "R13",
+    "R9",
+    "source_precedence"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "This leave is available to staff for numerous personal reasons, including time off to care for and bond with infants, newly adopted children, and seriously ill children or other family members."
+    ],
+    "eligible_parent": [
+     "This leave is available to staff for numerous personal reasons, including time off to care for and bond with infants, newly adopted children, and seriously ill children or other family members."
+    ],
+    "entitlement": [
+     "When Staff Sick Leave or Family Care Leave is exhausted or is not applicable, the staff member may apply for a leave of absence without pay."
+    ],
+    "duration": [
+     "Full or part-time parental leave and/or leave without salary will not be extended beyond a two-year period."
+    ]
+   },
+   "doc_ids": [
+    "2018_03_hrs_leave_policies_programs_page_feb2018"
+   ],
+   "flags": [
+    "general_purpose",
+    "summary_only: 2018_03_hrs_leave_policies_programs_page_feb2018"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "This leave is available to staff for numerous personal reasons, including time off to care for and bond with infants, newly adopted children, and seriously ill children or other family members."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "This leave is available to staff for numerous personal reasons, including time off to care for and bond with infants, newly adopted children, and seriously ill children or other family members."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "This leave is available to staff for numerous personal reasons, including time off to care for and bond with infants, newly adopted children, and seriously ill children or other family members."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "staff (non-faculty)",
+     "quote": "This leave is available to staff for numerous personal reasons, including time off to care for and bond with infants, newly adopted children, and seriously ill children or other family members."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "This leave is available to staff for numerous personal reasons, including time off to care for and bond with infants, newly adopted children, and seriously ill children or other family members."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "When Staff Sick Leave or Family Care Leave is exhausted or is not applicable, the staff member may apply for a leave of absence without pay."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "2 years up_to ('will not be extended beyond')",
+     "quote": "Full or part-time parental leave and/or leave without salary will not be extended beyond a two-year period."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "formal leave; all duties relieved (inferred)",
+     "quote": "This leave is available to staff for numerous personal reasons, including time off to care for and bond with infants, newly adopted children, and seriously ill children or other family members."
+    }
+   ]
+  },
+  {
+   "component_id": "washington_state_university_pullman_c9",
+   "institution_label": "Special Leave With Pay",
+   "description": "After two years of service a faculty member may request ten working days of special leave with pay, subject to the provost's approval; further requests after each additional two years. No purpose is stated.",
+   "mechanism": "employer_paid_leave",
+   "payer": "employer",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Faculty Manual III.D.13 'a faculty member'",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "duration": {
+    "value": 10,
+    "units": "workday",
+    "qualifier": "exact"
+   },
+   "pay_fraction": "with pay",
+   "service_requirement": "two (2) years of completed service",
+   "use_limit": [
+    {
+     "times": 1,
+     "per": "window",
+     "window_years": 2,
+     "counts": "uses"
+    }
+   ],
+   "use_limit_note": "Further requests may be made after each additional two (2) years of completed service.",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "rule_applied": [
+    "U1",
+    "V2",
+    "R11",
+    "U9",
+    "R9"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "After two (2) years of completed service, a faculty member may request ten (10) working days of special leave with pay. This must be approved by the provost prior to leave. Further requests may be made after each additional two (2) years of completed service."
+    ],
+    "eligible_parent": [
+     "After two (2) years of completed service, a faculty member may request ten (10) working days of special leave with pay. This must be approved by the provost prior to leave. Further requests may be made after each additional two (2) years of completed service."
+    ],
+    "entitlement": [
+     "After two (2) years of completed service, a faculty member may request ten (10) working days of special leave with pay. This must be approved by the provost prior to leave. Further requests may be made after each additional two (2) years of completed service."
+    ],
+    "duration": [
+     "After two (2) years of completed service, a faculty member may request ten (10) working days of special leave with pay. This must be approved by the provost prior to leave. Further requests may be made after each additional two (2) years of completed service."
+    ],
+    "pay_fraction": [
+     "After two (2) years of completed service, a faculty member may request ten (10) working days of special leave with pay. This must be approved by the provost prior to leave. Further requests may be made after each additional two (2) years of completed service."
+    ],
+    "service_requirement": [
+     "After two (2) years of completed service, a faculty member may request ten (10) working days of special leave with pay. This must be approved by the provost prior to leave. Further requests may be made after each additional two (2) years of completed service."
+    ],
+    "use_limit": [
+     "After two (2) years of completed service, a faculty member may request ten (10) working days of special leave with pay. This must be approved by the provost prior to leave. Further requests may be made after each additional two (2) years of completed service."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_faculty_manual_2017-2018",
+    "2018_00_link"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "employer_paid_leave",
+     "quote": "After two (2) years of completed service, a faculty member may request ten (10) working days of special leave with pay. This must be approved by the provost prior to leave. Further requests may be made after each additional two (2) years of completed service."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "employer",
+     "quote": "After two (2) years of completed service, a faculty member may request ten (10) working days of special leave with pay. This must be approved by the provost prior to leave. Further requests may be made after each additional two (2) years of completed service."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "After two (2) years of completed service, a faculty member may request ten (10) working days of special leave with pay. This must be approved by the provost prior to leave. Further requests may be made after each additional two (2) years of completed service."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "After two (2) years of completed service, a faculty member may request ten (10) working days of special leave with pay. This must be approved by the provost prior to leave. Further requests may be made after each additional two (2) years of completed service."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "After two (2) years of completed service, a faculty member may request ten (10) working days of special leave with pay. This must be approved by the provost prior to leave. Further requests may be made after each additional two (2) years of completed service."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "After two (2) years of completed service, a faculty member may request ten (10) working days of special leave with pay. This must be approved by the provost prior to leave. Further requests may be made after each additional two (2) years of completed service."
+    },
+    {
+     "field": "duration",
+     "rule": "R11",
+     "answer": "10 workdays exact",
+     "quote": "After two (2) years of completed service, a faculty member may request ten (10) working days of special leave with pay. This must be approved by the provost prior to leave. Further requests may be made after each additional two (2) years of completed service."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "with pay",
+     "quote": "After two (2) years of completed service, a faculty member may request ten (10) working days of special leave with pay. This must be approved by the provost prior to leave. Further requests may be made after each additional two (2) years of completed service."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U8",
+     "answer": "two years of completed service",
+     "quote": "After two (2) years of completed service, a faculty member may request ten (10) working days of special leave with pay. This must be approved by the provost prior to leave. Further requests may be made after each additional two (2) years of completed service."
+    },
+    {
+     "field": "use_limit",
+     "rule": "U9",
+     "answer": "once per two-year window",
+     "quote": "After two (2) years of completed service, a faculty member may request ten (10) working days of special leave with pay. This must be approved by the provost prior to leave. Further requests may be made after each additional two (2) years of completed service."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "formal leave; all duties relieved (inferred)",
+     "quote": "After two (2) years of completed service, a faculty member may request ten (10) working days of special leave with pay. This must be approved by the provost prior to leave. Further requests may be made after each additional two (2) years of completed service."
+    }
+   ]
+  },
+  {
+   "component_id": "washington_state_university_pullman_c10",
+   "institution_label": "Tenure Clock Extensions",
+   "description": "One-year extension of the tenure period and/or postponement of the third-year intensive review, for extraordinary circumstances, birth, adoption or fostering of a child, or elder or dependent care; routinely granted by the provost for these reasons, normally at most two extensions.",
+   "mechanism": "tenure_clock",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Faculty Manual III.C.3.f; probationary tenure-track faculty",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "birth, adoption or fostering (i.e., 12 months of foster care) of a child",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "The section opens with approval 'at the discretion of the provost', but for the listed reasons requests 'will be routinely granted by the provost' (the specific statement, V2d); the provost may still deny. Flagged.",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "exact"
+   },
+   "duration_note": "one year for full-time faculty; part-time faculty commensurate with appointment level",
+   "use_limit": [
+    {
+     "times": 2,
+     "per": "career",
+     "counts": "uses"
+    }
+   ],
+   "use_limit_note": "normally, a maximum of two extensions will be permitted",
+   "notice": "request before September 1st of the year of the scheduled tenure and/or intensive review, with supporting documentation",
+   "rule_applied": [
+    "U1",
+    "V2d",
+    "U9",
+    "R13",
+    "source_precedence"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "an extension of the tenure period and/or the intensive (i.e., 3rd year) review may be requested with approval of extensions at the discretion of the provost."
+    ],
+    "eligible_parent": [
+     "(ii) birth, adoption or fostering (i.e., 12 months of foster care) of a child"
+    ],
+    "entitlement": [
+     "Requests for an extension for these reasons will be routinely granted by the provost, although normally, a maximum of two extensions will be permitted.",
+     "an extension of the tenure period and/or the intensive (i.e., 3rd year) review may be requested with approval of extensions at the discretion of the provost.",
+     "The provost makes the final decision to grant or deny the requested tenure extension and/or intensive review postponement."
+    ],
+    "duration": [
+     "Approved extensions are one year in duration for full time faculty with part time faculty receiving an extension commensurate with the appointment level."
+    ],
+    "use_limit": [
+     "Requests for an extension for these reasons will be routinely granted by the provost, although normally, a maximum of two extensions will be permitted."
+    ],
+    "notice": [
+     "Requests for an extension must be made prior to September 1st of the year of the scheduled tenure and/or intensive review and must be accompanied by supporting documentation."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_faculty_manual_2017-2018"
+   ],
+   "flags": [
+    "general_purpose",
+    "conditional_refusal: requests 'routinely granted by the provost'; the provost 'makes the final decision to grant or deny'",
+    "ambiguous: the same section says extensions are approved 'at the discretion of the provost'"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "Approved extensions are one year in duration for full time faculty with part time faculty receiving an extension commensurate with the appointment level."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "(i) extraordinary circumstances such as an unanticipated lack of available resources, serious illness or family emergency"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "an extension of the tenure period and/or the intensive (i.e., 3rd year) review may be requested with approval of extensions at the discretion of the provost."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "birth_parent, non_birth_parent, adoptive, foster",
+     "quote": "(ii) birth, adoption or fostering (i.e., 12 months of foster care) of a child"
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2d",
+     "answer": "guaranteed_on_request",
+     "quote": "Requests for an extension for these reasons will be routinely granted by the provost, although normally, a maximum of two extensions will be permitted."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 year exact",
+     "quote": "Approved extensions are one year in duration for full time faculty with part time faculty receiving an extension commensurate with the appointment level."
+    },
+    {
+     "field": "use_limit",
+     "rule": "U9",
+     "answer": "2 per career ('normally')",
+     "quote": "Requests for an extension for these reasons will be routinely granted by the provost, although normally, a maximum of two extensions will be permitted."
+    }
+   ]
+  },
+  {
+   "component_id": "washington_state_university_pullman_c11",
+   "institution_label": "Part-Time Tenure-Track Faculty",
+   "description": "Tenured faculty may request a temporary change to part-time status in one-semester increments for up to two years, if agreed in writing by chair, dean, VCAA and provost; tenure-track faculty generally may not convert before tenure. No purpose is stated.",
+   "mechanism": "part_time_option",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "'Tenured faculty members'; tenure-track faculty 'Under most circumstances' may not convert until tenured",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "duration": {
+    "value": 2,
+    "units": "year",
+    "qualifier": "up_to"
+   },
+   "duration_note": "one-semester increments (6-month increments for 12-month appointees); may be repeated if the member returns to full time for at least two years between events",
+   "rule_applied": [
+    "R3",
+    "U1",
+    "V2",
+    "R13"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Tenured faculty members may request a temporary change to part-time status in one semester increments (6-month increments for 12-month appointees) for up to two (2) years. This change, if granted, must be agreed to in writing by the faculty member, chair, dean, campus VCAA (dependent on college and WSU campus) and provost.",
+     "Under most circumstances, tenure-track faculty members may not convert to part-time until they have obtained tenure."
+    ],
+    "eligible_parent": [
+     "Tenured and tenure-track faculty members may sometimes benefit from a part-time appointment."
+    ],
+    "entitlement": [
+     "Tenured faculty members may request a temporary change to part-time status in one semester increments (6-month increments for 12-month appointees) for up to two (2) years. This change, if granted, must be agreed to in writing by the faculty member, chair, dean, campus VCAA (dependent on college and WSU campus) and provost."
+    ],
+    "duration": [
+     "Tenured faculty members may request a temporary change to part-time status in one semester increments (6-month increments for 12-month appointees) for up to two (2) years. This change, if granted, must be agreed to in writing by the faculty member, chair, dean, campus VCAA (dependent on college and WSU campus) and provost."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_faculty_manual_2017-2018"
+   ],
+   "flags": [
+    "general_purpose",
+    "ambiguous: restriction: tenured faculty only; tenure-track faculty generally excluded until tenure"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R3",
+     "answer": "part_time_option",
+     "quote": "Tenured faculty members may request a temporary change to part-time status in one semester increments (6-month increments for 12-month appointees) for up to two (2) years. This change, if granted, must be agreed to in writing by the faculty member, chair, dean, campus VCAA (dependent on college and WSU campus) and provost."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "Tenured and tenure-track faculty members may sometimes benefit from a part-time appointment."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Tenured faculty members may request a temporary change to part-time status in one semester increments (6-month increments for 12-month appointees) for up to two (2) years. This change, if granted, must be agreed to in writing by the faculty member, chair, dean, campus VCAA (dependent on college and WSU campus) and provost."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "Tenured and tenure-track faculty members may sometimes benefit from a part-time appointment."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "Tenured faculty members may request a temporary change to part-time status in one semester increments (6-month increments for 12-month appointees) for up to two (2) years. This change, if granted, must be agreed to in writing by the faculty member, chair, dean, campus VCAA (dependent on college and WSU campus) and provost."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "2 years up_to",
+     "quote": "Tenured faculty members may request a temporary change to part-time status in one semester increments (6-month increments for 12-month appointees) for up to two (2) years. This change, if granted, must be agreed to in writing by the faculty member, chair, dean, campus VCAA (dependent on college and WSU campus) and provost."
+    }
+   ]
+  },
+  {
+   "component_id": "washington_state_university_pullman_c12",
+   "institution_label": "Faculty Modified Duties",
+   "description": "Faculty Modified Duties request form (September 2012): a faculty member who shares primary caregiving for a child who recently entered the home may request a plan of modified duties, approved or denied by chair, dean and provost; the faculty member continues to perform a full work load.",
+   "mechanism": "other",
+   "mechanism_note": "R16: a rearrangement of duties with a full work load continuing is not relief.",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "Faculty Modified Duties Request Form (faculty)",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "the parent or in a parental role",
+   "caregiver_condition": "other",
+   "caregiver_condition_wording": "share primary care giving responsibilities for a child who has recently entered the home",
+   "entitlement": "discretionary",
+   "entitlement_note": "the form has Approve/Deny lines for chair, dean and provost; the governing guidelines are not saved",
+   "rule_applied": [
+    "R16",
+    "R6",
+    "V2"
+   ],
+   "evidence": {
+    "mechanism": [
+     "I understand that I will continue to perform a full work load while participating in the modified duties process, if approved."
+    ],
+    "faculty_group": [
+     "This form is to be used in accordance with the Faculty Modified Duties Guidelines."
+    ],
+    "eligible_parent": [
+     "I am the parent or in a parental role and share primary care giving responsibilities for a child who has recently entered the home."
+    ],
+    "caregiver_condition": [
+     "I am the parent or in a parental role and share primary care giving responsibilities for a child who has recently entered the home."
+    ],
+    "entitlement": [
+     "I understand that I will continue to perform a full work load while participating in the modified duties process, if approved."
+    ]
+   },
+   "doc_ids": [
+    "2018_04_faculty_modified_duties_request_form_sep2012"
+   ],
+   "flags": [
+    "cross_reference_not_saved: Faculty Modified Duties Guidelines",
+    "ambiguous: provision known only from the request form; the governing guidelines are not saved"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R16",
+     "answer": "other",
+     "quote": "I understand that I will continue to perform a full work load while participating in the modified duties process, if approved."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "I am the parent or in a parental role and share primary care giving responsibilities for a child who has recently entered the home."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "This form is to be used in accordance with the Faculty Modified Duties Guidelines."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R6",
+     "answer": "any_parent",
+     "quote": "I am the parent or in a parental role and share primary care giving responsibilities for a child who has recently entered the home."
+    },
+    {
+     "field": "caregiver_condition",
+     "rule": "R6",
+     "answer": "other",
+     "quote": "I am the parent or in a parental role and share primary care giving responsibilities for a child who has recently entered the home."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "I understand that I will continue to perform a full work load while participating in the modified duties process, if approved."
+    }
+   ]
+  },
+  {
+   "component_id": "washington_state_university_pullman_c13",
+   "institution_label": "Pregnancy Accommodations",
+   "description": "Under Washington law effective July 23, 2017, pregnant employees have a right to listed accommodations (breaks, seating, lifting limits) and may have rights to others, including temporary transfer to a less strenuous or hazardous position, absent significant difficulty or expense.",
+   "mechanism": "other",
+   "mechanism_note": "R16: pregnancy accommodation changing the work, no relief from teaching or service.",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "'all Washington State employers'; 'A pregnant employee'",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "pregnant employee",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "statute_source": "Washington State law effective July 23, 2017 (statute not named in the documents)",
+   "statute_verified": false,
+   "rule_applied": [
+    "R16",
+    "U4",
+    "source_precedence"
+   ],
+   "evidence": {
+    "mechanism": [
+     "Providing a temporary transfer to a less strenuous or hazardous position;"
+    ],
+    "faculty_group": [
+     "Effective July 23, 2017, all Washington State employers are required to provide providing specific civil rights protections for pregnant employees. A pregnant employee has the right to the following accommodations:"
+    ],
+    "eligible_parent": [
+     "Effective July 23, 2017, all Washington State employers are required to provide providing specific civil rights protections for pregnant employees. A pregnant employee has the right to the following accommodations:"
+    ],
+    "entitlement": [
+     "Effective July 23, 2017, all Washington State employers are required to provide providing specific civil rights protections for pregnant employees. A pregnant employee has the right to the following accommodations:"
+    ]
+   },
+   "doc_ids": [
+    "2018_02_hrs_pregnancy_parental_leave_page_feb2018"
+   ],
+   "flags": [
+    "summary_only: 2018_02_hrs_pregnancy_parental_leave_page_feb2018",
+    "statutory_detail_not_in_sources: Washington pregnancy accommodation law (effective July 23, 2017)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R16",
+     "answer": "other",
+     "quote": "Providing a temporary transfer to a less strenuous or hazardous position;"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Effective July 23, 2017, all Washington State employers are required to provide providing specific civil rights protections for pregnant employees. A pregnant employee has the right to the following accommodations:"
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Effective July 23, 2017, all Washington State employers are required to provide providing specific civil rights protections for pregnant employees. A pregnant employee has the right to the following accommodations:"
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "birth_parent",
+     "quote": "Effective July 23, 2017, all Washington State employers are required to provide providing specific civil rights protections for pregnant employees. A pregnant employee has the right to the following accommodations:"
+    },
+    {
+     "field": "entitlement",
+     "rule": "U2",
+     "answer": "guaranteed",
+     "quote": "Effective July 23, 2017, all Washington State employers are required to provide providing specific civil rights protections for pregnant employees. A pregnant employee has the right to the following accommodations:"
+    }
+   ]
+  },
+  {
+   "component_id": "washington_state_university_pullman_c14",
+   "institution_label": "salary continuation insurance (long term disability)",
+   "description": "Long-term disability (salary continuation) insurance made available through the state Public Employees Benefits Board to benefits-eligible faculty.",
+   "mechanism": "generic_sick_or_disability_plan",
+   "payer": "insurance_plan",
+   "mechanism_note": "Long-term disability plan (schema §2): recorded without a duration.",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "full time and half time faculty eligible for the PEBB benefit package",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "service_requirement": "full time and half time faculty anticipating employment for an academic year (PEBB eligibility)",
+   "rule_applied": [
+    "M1",
+    "U5"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Generally, full time and half time faculty, who are anticipating to be employed for an academic year, or equivalent thereof, are eligible for the PEBB benefit package."
+    ],
+    "eligible_parent": [
+     "The University makes available group medical/dental insurance, salary continuation insurance (long term disability), life insurance, and other benefits."
+    ],
+    "entitlement": [
+     "The University makes available group medical/dental insurance, salary continuation insurance (long term disability), life insurance, and other benefits."
+    ],
+    "service_requirement": [
+     "Generally, full time and half time faculty, who are anticipating to be employed for an academic year, or equivalent thereof, are eligible for the PEBB benefit package."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_faculty_manual_2017-2018"
+   ],
+   "flags": [
+    "cross_reference_not_saved: PEBB long-term disability plan details (Benefit Services website)"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "generic_sick_or_disability_plan",
+     "quote": "The University makes available group medical/dental insurance, salary continuation insurance (long term disability), life insurance, and other benefits."
+    },
+    {
+     "field": "payer",
+     "rule": "M1",
+     "answer": "insurance_plan",
+     "quote": "The University makes available group medical/dental insurance, salary continuation insurance (long term disability), life insurance, and other benefits."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "The University makes available group medical/dental insurance, salary continuation insurance (long term disability), life insurance, and other benefits."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Generally, full time and half time faculty, who are anticipating to be employed for an academic year, or equivalent thereof, are eligible for the PEBB benefit package."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own disability)",
+     "quote": "The University makes available group medical/dental insurance, salary continuation insurance (long term disability), life insurance, and other benefits."
+    },
+    {
+     "field": "entitlement",
+     "rule": "R1d",
+     "answer": "guaranteed",
+     "quote": "The University makes available group medical/dental insurance, salary continuation insurance (long term disability), life insurance, and other benefits."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "PEBB eligibility",
+     "quote": "Generally, full time and half time faculty, who are anticipating to be employed for an academic year, or equivalent thereof, are eligible for the PEBB benefit package."
+    }
+   ]
+  },
+  {
+   "component_id": "washington_state_university_pullman_c15",
+   "institution_label": "Sick Leave",
+   "description": "For indefinite term and fixed term (non-tenure-track) faculty, six weeks of accrued sick leave may be used for childbearing or adoption without a physician's verification; more time requires a physician's statement.",
+   "mechanism": "own_accrual",
+   "payer": "own_balance",
+   "faculty_group": "indefinite term and fixed term faculty",
+   "faculty_group_note": "Faculty Manual Section V (non-tenure-track appointments)",
+   "eligible_parent": [
+    "birth_parent",
+    "adoptive"
+   ],
+   "eligible_parent_wording": "childbearing and adoption",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "duration": {
+    "value": 6,
+    "units": "week",
+    "qualifier": "exact"
+   },
+   "duration_note": "six weeks usable without physician verification, limited by the accrued balance; more with a physician's statement",
+   "service_requirement": "at least half time (.50 FTE) for one semester (academic) or six months (annual) to earn sick leave",
+   "medical_certification": false,
+   "medical_certification_note": "no physician verification for six weeks for childbearing or adoption; a physician's statement beyond that",
+   "rule_applied": [
+    "R1",
+    "V2",
+    "R13"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Washington State University employs a number of indefinite term and fixed term faculty."
+    ],
+    "eligible_parent": [
+     "Sick leave for more than ten (10) working days must be verified by a physician except in the case of childbearing and adoption in which case six (6) weeks of sick leave is allowable."
+    ],
+    "entitlement": [
+     "Sick leave for more than ten (10) working days must be verified by a physician except in the case of childbearing and adoption in which case six (6) weeks of sick leave is allowable."
+    ],
+    "duration": [
+     "Sick leave for more than ten (10) working days must be verified by a physician except in the case of childbearing and adoption in which case six (6) weeks of sick leave is allowable.",
+     "If more time is required, the employee must supply a physician's statement."
+    ],
+    "service_requirement": [
+     "Indefinite faculty must be employed for at least half time (.50 FTE) for one (1) semester on academic appointment or six (6) months on annual appointment to be eligible for sick leave"
+    ],
+    "medical_certification": [
+     "Sick leave for more than ten (10) working days must be verified by a physician except in the case of childbearing and adoption in which case six (6) weeks of sick leave is allowable."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_faculty_manual_2017-2018"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "own_accrual",
+     "quote": "Sick leave for more than ten (10) working days must be verified by a physician except in the case of childbearing and adoption in which case six (6) weeks of sick leave is allowable."
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "own_balance",
+     "quote": "Sick leave for more than ten (10) working days must be verified by a physician except in the case of childbearing and adoption in which case six (6) weeks of sick leave is allowable."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Sick leave for more than ten (10) working days must be verified by a physician except in the case of childbearing and adoption in which case six (6) weeks of sick leave is allowable."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "indefinite term and fixed term faculty",
+     "quote": "Washington State University employs a number of indefinite term and fixed term faculty."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "birth_parent, adoptive",
+     "quote": "Sick leave for more than ten (10) working days must be verified by a physician except in the case of childbearing and adoption in which case six (6) weeks of sick leave is allowable."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "Sick leave for more than ten (10) working days must be verified by a physician except in the case of childbearing and adoption in which case six (6) weeks of sick leave is allowable."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "6 weeks exact",
+     "quote": "Sick leave for more than ten (10) working days must be verified by a physician except in the case of childbearing and adoption in which case six (6) weeks of sick leave is allowable."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "half time for one semester",
+     "quote": "Indefinite faculty must be employed for at least half time (.50 FTE) for one (1) semester on academic appointment or six (6) months on annual appointment to be eligible for sick leave"
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "Governing documents: BPPM 60.56 (Revised 10-17) is the faculty leave policy and the Faculty Manual 2017-18 (III.C.3.f, III.D) is the faculty handbook; both cover tenure-stream faculty, so missing is false (the rule for records with no governing document does not apply). The HRS pages are summaries; the modified-duties form refers to unsaved guidelines.",
+  "No paid parental, maternity or childbirth leave: a parent's paid time comes only from own sick leave (c4) and, for annual-appointment faculty, annual leave (c5). Protected leave: FMLA (c1) and the Washington Family Leave Act parental leave (c2), which BPPM 60.56 says 'may be in addition to' pregnancy/childbirth disability leave (c3).",
+  "Birth parent chain: pregnancy disability leave c3 (6-8 weeks, certified) with FMLA c1 (12 workweeks) running from its start -> WA FLA parental leave c2 (up to 12 weeks) from the doctor's release; pay only from own balances (c4 concurrent with FMLA).",
+  "Non-birth parent chain: FMLA c1 (12 workweeks) with WA FLA parental leave c2 running concurrently from the start; own sick leave c4 alongside. (c2's consecutive_after link to c3 carries roles ['birth'].)",
+  "U8: Emergency leave (Faculty Manual III.D.14; BPPM 60.56) covers death in the family or a 'comparable emergency', defined as severe illness of a family member 'when not otherwise eligible for coverage under FML'; it serves only members not eligible for FML, so it is recorded here, not as a component (5 working days, extendable to 10 with the provost).",
+  "Not components: professional leave and retraining leave (purpose-limited sabbaticals); faculty leave with pay for official duties; civil, jury, testimony, military, voting, faith, life-giving, domestic-violence and suspended-operations leave; holidays and personal holiday; reasonable accommodation for disability (Faculty Manual III.B, BPPM 60.21); phased retirement; benefit-continuation rule (eight hours of paid leave a month for up to four months of pregnancy/childbirth disability or parental LWOP), recorded in c3's note.",
+  "Indefinite (non-tenure-track) faculty: six weeks of sick leave for childbearing or adoption without physician verification (c15); their leave without pay (Faculty Manual V.G.9) is limited to the current appointment and is not separately coded.",
+  "Documents cited but not saved: RCW 49.78 (Family Leave); Washington State Family Leave Act Overview and Q&A; BPPM 60.58 Shared Leave; BPPM 60.57 Civil Service Employee Leave; BPPM 60.21 Reasonable Accommodation; Faculty Modified Duties Guidelines; HRS FMLA implementing procedures and Disability Services advisory guidelines; Lactation Guidelines; Administrative Professional Handbook; PEBB benefit plan details; BPPM 60.63, 60.19, 55.49, 60.41, 60.72, 60.76, 50.40, 60.40, 60.34, 60.44, 60.11, 60.25, SPPM 2.30; the Washington pregnancy accommodation law (unnamed).",
+  "Reference date 2018-02-26. BPPM 60.56 'Revised 10-17' and the 2017-18 Faculty Manual are in force on it; the HRS pages are Wayback captures of 2018-02-17 and 2018-02-19; the form is dated September 2012 (posted 2016)."
+ ],
+ "passage_dispositions": {
+  "2018_00_link#001": {
+   "used_in": [
+    "washington_state_university_pullman_c1",
+    "washington_state_university_pullman_c6"
+   ]
+  },
+  "2018_00_link#002": {
+   "used_in": [
+    "washington_state_university_pullman_c5"
+   ]
+  },
+  "2018_00_link#003": {
+   "used_in": [
+    "washington_state_university_pullman_c5",
+    "washington_state_university_pullman_c3"
+   ]
+  },
+  "2018_00_link#004": {
+   "not_relevant": "international contracts, civil leave and compensatory time; no parental provision"
+  },
+  "2018_00_link#005": {
+   "used_in": [
+    "washington_state_university_pullman_c3"
+   ]
+  },
+  "2018_00_link#006": {
+   "used_in": [
+    "washington_state_university_pullman_c1"
+   ]
+  },
+  "2018_00_link#007": {
+   "not_relevant": "suspended operations and life-giving procedures leave"
+  },
+  "2018_00_link#008": {
+   "not_relevant": "life-giving procedures and military spouse leave"
+  },
+  "2018_00_link#009": {
+   "used_in": [
+    "washington_state_university_pullman_c2",
+    "washington_state_university_pullman_c4",
+    "washington_state_university_pullman_c7"
+   ]
+  },
+  "2018_00_link#010": {
+   "not_relevant": "workers' compensation"
+  },
+  "2018_01_faculty_manual_2017-2018#001": {
+   "not_relevant": "table of contents"
+  },
+  "2018_01_faculty_manual_2017-2018#002": {
+   "not_relevant": "table of contents"
+  },
+  "2018_01_faculty_manual_2017-2018#003": {
+   "not_relevant": "chair selection"
+  },
+  "2018_01_faculty_manual_2017-2018#004": {
+   "not_relevant": "faculty meetings"
+  },
+  "2018_01_faculty_manual_2017-2018#005": {
+   "not_relevant": "Faculty Status Committee elections"
+  },
+  "2018_01_faculty_manual_2017-2018#006": {
+   "not_relevant": "disability accommodation (statute not a component, C9)"
+  },
+  "2018_01_faculty_manual_2017-2018#007": {
+   "not_relevant": "initial employment"
+  },
+  "2018_01_faculty_manual_2017-2018#008": {
+   "not_relevant": "annual review"
+  },
+  "2018_01_faculty_manual_2017-2018#009": {
+   "not_relevant": "intensive review"
+  },
+  "2018_01_faculty_manual_2017-2018#010": {
+   "not_relevant": "career progress report"
+  },
+  "2018_01_faculty_manual_2017-2018#011": {
+   "used_in": [
+    "washington_state_university_pullman_c10"
+   ]
+  },
+  "2018_01_faculty_manual_2017-2018#012": {
+   "used_in": [
+    "washington_state_university_pullman_c11",
+    "washington_state_university_pullman_c10"
+   ]
+  },
+  "2018_01_faculty_manual_2017-2018#013": {
+   "not_relevant": "general tenure provisions"
+  },
+  "2018_01_faculty_manual_2017-2018#014": {
+   "not_relevant": "tenure provisions"
+  },
+  "2018_01_faculty_manual_2017-2018#015": {
+   "not_relevant": "joint appointments and tenure eligibility"
+  },
+  "2018_01_faculty_manual_2017-2018#016": {
+   "not_relevant": "tenure criteria"
+  },
+  "2018_01_faculty_manual_2017-2018#017": {
+   "not_relevant": "teaching portfolio"
+  },
+  "2018_01_faculty_manual_2017-2018#018": {
+   "not_relevant": "denial of tenure"
+  },
+  "2018_01_faculty_manual_2017-2018#019": {
+   "used_in": [
+    "washington_state_university_pullman_c5"
+   ]
+  },
+  "2018_01_faculty_manual_2017-2018#020": {
+   "used_in": [
+    "washington_state_university_pullman_c1",
+    "washington_state_university_pullman_c3",
+    "washington_state_university_pullman_c4"
+   ]
+  },
+  "2018_01_faculty_manual_2017-2018#021": {
+   "not_relevant": "military reemployment"
+  },
+  "2018_01_faculty_manual_2017-2018#022": {
+   "used_in": [
+    "washington_state_university_pullman_c7"
+   ]
+  },
+  "2018_01_faculty_manual_2017-2018#023": {
+   "not_relevant": "professional leave (sabbatical), purpose-limited"
+  },
+  "2018_01_faculty_manual_2017-2018#024": {
+   "used_in": [
+    "washington_state_university_pullman_c9"
+   ]
+  },
+  "2018_01_faculty_manual_2017-2018#025": {
+   "not_relevant": "non-reappointment and resignation notice"
+  },
+  "2018_01_faculty_manual_2017-2018#026": {
+   "not_relevant": "termination for exigency"
+  },
+  "2018_01_faculty_manual_2017-2018#027": {
+   "not_relevant": "retirement"
+  },
+  "2018_01_faculty_manual_2017-2018#028": {
+   "not_relevant": "outside work"
+  },
+  "2018_01_faculty_manual_2017-2018#029": {
+   "not_relevant": "non-tenure-track appointment types"
+  },
+  "2018_01_faculty_manual_2017-2018#030": {
+   "used_in": [
+    "washington_state_university_pullman_c15",
+    "washington_state_university_pullman_c14"
+   ]
+  },
+  "2018_01_faculty_manual_2017-2018#031": {
+   "not_relevant": "tuition waiver and code of ethics"
+  },
+  "2018_01_faculty_manual_2017-2018#032": {
+   "not_relevant": "patents and termination"
+  },
+  "2018_01_faculty_manual_2017-2018#033": {
+   "not_relevant": "retirement"
+  },
+  "2018_02_hrs_pregnancy_parental_leave_page_feb2018#001": {
+   "used_in": [
+    "washington_state_university_pullman_c1",
+    "washington_state_university_pullman_c2",
+    "washington_state_university_pullman_c3",
+    "washington_state_university_pullman_c13"
+   ]
+  },
+  "2018_03_hrs_leave_policies_programs_page_feb2018#001": {
+   "used_in": [
+    "washington_state_university_pullman_c1",
+    "washington_state_university_pullman_c2",
+    "washington_state_university_pullman_c4",
+    "washington_state_university_pullman_c8"
+   ]
+  },
+  "2018_03_hrs_leave_policies_programs_page_feb2018#002": {
+   "used_in": [
+    "washington_state_university_pullman_c6",
+    "washington_state_university_pullman_c4"
+   ]
+  },
+  "2018_04_faculty_modified_duties_request_form_sep2012#001": {
+   "used_in": [
+    "washington_state_university_pullman_c12"
+   ]
+  }
+ },
+ "statutory_floor": {
+  "jurisdiction": "US",
+  "year": "2018",
+  "weeks_birth": 12.0,
+  "weeks_nonbirth": 12.0,
+  "statute": "Family and Medical Leave Act (FMLA) (29 U.S.C. 2611-2612)",
+  "source_doc": "2026_00_us_fmla_29usc2612",
+  "table": "statutory_baseline.csv"
+ }
+}

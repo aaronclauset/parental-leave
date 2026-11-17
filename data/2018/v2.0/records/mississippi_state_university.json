@@ -1,0 +1,1918 @@
+{
+ "institution": "Mississippi State University",
+ "slug": "mississippi_state_university",
+ "country": "US",
+ "model": "claude-opus-5-5",
+ "codebook_version": "1.25",
+ "schema_version": "1.25",
+ "reference_date": "2018-02-27",
+ "calendar": {
+  "term_weeks": null,
+  "note": "Semesters ('teach a normal load in the fall, have a modified assignment for the spring semester'; 'the traditional 16-week format'); R8 semester default 16.",
+  "kind": "semester"
+ },
+ "documents": [
+  {
+   "doc_id": "2018_00_link",
+   "url": "http://www.provost.msstate.edu/pdf/parental.pdf",
+   "title": "Guidelines for Department Heads on Faculty Parental Leaves of Absence, August 2011",
+   "version_or_effective_date": "revised 8-10-11 (Work and Life Balance Committee for the Provost Office)",
+   "retrieved": "Wayback 2018-04-13"
+  },
+  {
+   "doc_id": "2018_01_hrm_60201_leave_lwop",
+   "url": "http://www.policies.msstate.edu/policypdfs/60201.pdf",
+   "title": "HRM 60-201: Leave/Leave Without Pay",
+   "version_or_effective_date": "approved 07/08/2015",
+   "retrieved": "Wayback 2017-06-22"
+  },
+  {
+   "doc_id": "2018_02_faculty_handbook",
+   "url": "http://www.provost.msstate.edu/pdf/faculty_handbook.pdf",
+   "title": "Mississippi State University Faculty Handbook (Section V Promotion and Tenure Procedures revised 12-2-2014)",
+   "version_or_effective_date": "P&T section approved 2015 (signatures 2/13/15, 3/6/15)",
+   "retrieved": "Wayback 2017-10-12"
+  },
+  {
+   "doc_id": "2018_03_aop_1313_leave_policies",
+   "url": "https://www.policies.msstate.edu/sites/www.policies.msstate.edu/files/policies/1313old.pdf",
+   "title": "AOP 13.13 Leave Policies",
+   "version_or_effective_date": "revised 01/31/08 (rescinded 2018-10-22 per version note)",
+   "retrieved": "live copy 2026-10-21"
+  }
+ ],
+ "missing": false,
+ "leave_limits": [
+  {
+   "weeks": 52,
+   "components": [
+    "mississippi_state_university_c4",
+    "mississippi_state_university_c5",
+    "mississippi_state_university_c6"
+   ],
+   "roles": [
+    "birth",
+    "nonbirth"
+   ],
+   "note": "An unpaid leave of absence (FMLA leave and its extension for childbirth or placement, or for illness) may not be extended beyond one year.",
+   "evidence": [
+    "An employee may utilize accrued personal or major medical leave, as applicable, or an unpaid leave of absence (if all paid leave is exhausted) during the extended leave; however, an unpaid leave of absence may not be extended beyond one year.",
+    "While an employee may also be granted an unpaid leave of absence, it may not be extended beyond one year and may be granted only after applicable accrued personal leave, major medical leave, and compensatory time are exhausted."
+   ],
+   "decision_log": [
+    {
+     "field": "leave_limits",
+     "rule": "R20",
+     "answer": "one year = 52 weeks; covers the FMLA leave (c4) and its extensions (c5, c6), both roles",
+     "quote": "an unpaid leave of absence may not be extended beyond one year."
+    }
+   ]
+  }
+ ],
+ "components": [
+  {
+   "component_id": "mississippi_state_university_c1",
+   "institution_label": "Parental Leave – Paid",
+   "description": "A birth mother on a nine-month appointment may use her accrued major medical (sick) leave after the birth for the period of medical disability certified by a physician, normally six to eight weeks; paid only from her own balance.",
+   "mechanism": "employer_childbirth_benefit",
+   "mechanism_note": "A childbirth-specific period with a stated default length, paid from the employee's accrued major medical leave and no other source; R1b keeps the dedicated childbirth mechanism with payer own_balance (counts 0 paid weeks).",
+   "payer": "own_balance",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "female faculty on nine-month appointments (the standard academic-year appointment); major medical leave is earned by all regular employees who work 50 percent time or greater",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "female faculty; following the birth of a child",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "'is allowed' for the certified period of disability: the use of the balance is given; approval covers the arrangements (V2). Limited by the accrued balance (HRM 60-201 H).",
+   "duration": {
+    "value": 6,
+    "units": "week",
+    "qualifier": "at_least"
+   },
+   "duration_max": {
+    "value": 8,
+    "units": "week"
+   },
+   "duration_note": "'normally six to eight weeks' for the period of medical disability as certified; coded as a range (R13b), 'normally' kept here. Pay limited to the accrued major medical balance.",
+   "duration_variants": "six to eight weeks, as certified by the physician",
+   "pay_fraction": "with pay, from the employee's accrued major medical leave",
+   "medical_certification": true,
+   "medical_certification_note": "period of medical disability as certified by the faculty member's physician or the child's physician",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "rule_applied": [
+    "R1",
+    "R1b",
+    "V1",
+    "V2",
+    "R13",
+    "R13b",
+    "R9",
+    "U1",
+    "S1"
+   ],
+   "evidence": {
+    "mechanism": [
+     "For female faculty on nine-month appointments, use of major medical leave following the birth of a child is allowed for the period of medical disability as certified by the faculty member’s physician or the child’s physician.",
+     "This period is normally six to eight weeks."
+    ],
+    "faculty_group": [
+     "For female faculty on nine-month appointments, use of major medical leave following the birth of a child is allowed for the period of medical disability as certified by the faculty member’s physician or the child’s physician.",
+     "Major medical leave is earned by all regular employees who work 50 percent time or greater; except students, temporary employees, intermittent employees, and rehired retirees according to employment status and length of annual employment periods."
+    ],
+    "eligible_parent": [
+     "For female faculty on nine-month appointments, use of major medical leave following the birth of a child is allowed for the period of medical disability as certified by the faculty member’s physician or the child’s physician."
+    ],
+    "entitlement": [
+     "For female faculty on nine-month appointments, use of major medical leave following the birth of a child is allowed for the period of medical disability as certified by the faculty member’s physician or the child’s physician.",
+     "Major medical leave may be used concurrently with family and medical leave for the illness or injury of the employee or a member of the employee's immediate family and childbearing (see Family and Medical Leave)."
+    ],
+    "duration": [
+     "This period is normally six to eight weeks."
+    ],
+    "pay_fraction": [
+     "Parental Leave – Paid",
+     "MAJOR MEDICAL LEAVE WITH PAY"
+    ],
+    "payer": [
+     "An employee may not be granted major medical leave with pay in an amount greater than earned and accumulated."
+    ],
+    "medical_certification": [
+     "For female faculty on nine-month appointments, use of major medical leave following the birth of a child is allowed for the period of medical disability as certified by the faculty member’s physician or the child’s physician."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link",
+    "2018_01_hrm_60201_leave_lwop"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1b",
+     "answer": "employer_childbirth_benefit",
+     "quote": "For female faculty on nine-month appointments, use of major medical leave following the birth of a child is allowed for the period of medical disability as certified by the faculty member’s physician or the child’s physician."
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "own_balance",
+     "quote": "An employee may not be granted major medical leave with pay in an amount greater than earned and accumulated."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "For female faculty on nine-month appointments, use of major medical leave following the birth of a child is allowed for the period of medical disability as certified by the faculty member’s physician or the child’s physician."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "birth_parent (female faculty, after the birth, for her certified disability)",
+     "quote": "For female faculty on nine-month appointments, use of major medical leave following the birth of a child is allowed for the period of medical disability as certified by the faculty member’s physician or the child’s physician."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "For female faculty on nine-month appointments, use of major medical leave following the birth of a child is allowed for the period of medical disability as certified by the faculty member’s physician or the child’s physician."
+    },
+    {
+     "field": "duration",
+     "rule": "R13b",
+     "answer": "6 weeks at_least, max 8 weeks",
+     "quote": "This period is normally six to eight weeks."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "with pay from the accrued major medical balance",
+     "quote": "MAJOR MEDICAL LEAVE WITH PAY"
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave, relief not stated)",
+     "quote": "Parental Leave – Paid"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "For female faculty on nine-month appointments, use of major medical leave following the birth of a child is allowed for the period of medical disability as certified by the faculty member’s physician or the child’s physician."
+    }
+   ]
+  },
+  {
+   "component_id": "mississippi_state_university_c2",
+   "institution_label": "MAJOR MEDICAL LEAVE WITH PAY",
+   "description": "Accrued major medical (sick) leave balance, earned monthly (nine-month faculty 15 days a year in the first three years), usable for the employee's own illness, childbearing or the illness of an immediate family member, and must be extended past the 12 FMLA weeks while balances last.",
+   "mechanism": "own_accrual",
+   "payer": "own_balance",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "all regular employees who work 50 percent time or greater; separate accrual table for nine-month faculty",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent"
+   ],
+   "eligible_parent_wording": "the employee; a member of the employee's immediate family (spouse, child, ...)",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "entitlement_note": "An earned balance: 'is earned by all regular employees'; no unlimited accumulation limit; the amount is the balance (no stated length).",
+   "duration_note": "No fixed length: the balance accrued (nine-month faculty: 15 days a year for 1 month to 3 years of service, 16 days for 37 months to 8 years); no limit on accumulation. Major medical leave for own or family illness must be extended beyond the 12 FMLA weeks while the balance lasts.",
+   "pay_fraction": "with pay, from accrued balance",
+   "medical_certification": true,
+   "medical_certification_note": "illness certified by a doctor after 32 consecutive working hours, or at any time if the department head deems it necessary",
+   "rule_applied": [
+    "R1",
+    "U5",
+    "U1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Major medical leave is earned by all regular employees who work 50 percent time or greater; except students, temporary employees, intermittent employees, and rehired retirees according to employment status and length of annual employment periods.",
+     "Nine-month faculty accrue credit for major medical leave as follows:"
+    ],
+    "eligible_parent": [
+     "Major medical leave may be used concurrently with family and medical leave for the illness or injury of the employee or a member of the employee's immediate family and childbearing (see Family and Medical Leave)."
+    ],
+    "entitlement": [
+     "Major medical leave is earned by all regular employees who work 50 percent time or greater; except students, temporary employees, intermittent employees, and rehired retirees according to employment status and length of annual employment periods.",
+     "Major medical leave may be used concurrently with family and medical leave for the illness or injury of the employee or a member of the employee's immediate family and childbearing (see Family and Medical Leave)."
+    ],
+    "pay_fraction": [
+     "MAJOR MEDICAL LEAVE WITH PAY"
+    ],
+    "medical_certification": [
+     "For each absence due to illness after 32 consecutive working hours (combined personal/compensatory and major medical leave), a department/unit head must require that the illness be certified in writing by a doctor of medicine, osteopathy, dental medicine, podiatry, or chiropractic on the University’s required medical certification form."
+    ],
+    "duration_note": [
+     "Major medical leave for the illness or injury of an employee or the employee's family member must be extended beyond the initial twelve (12) weeks provided by this policy if the employee has accrued major medical and personal leave."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_hrm_60201_leave_lwop"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "own_accrual",
+     "quote": "Major medical leave is earned by all regular employees who work 50 percent time or greater; except students, temporary employees, intermittent employees, and rehired retirees according to employment status and length of annual employment periods."
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "own_balance",
+     "quote": "An employee may not be granted major medical leave with pay in an amount greater than earned and accumulated."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Major medical leave is earned by all regular employees who work 50 percent time or greater; except students, temporary employees, intermittent employees, and rehired retirees according to employment status and length of annual employment periods."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own illness, childbearing) and non_birth_parent (illness of an immediate family member)",
+     "quote": "Major medical leave may be used concurrently with family and medical leave for the illness or injury of the employee or a member of the employee's immediate family and childbearing (see Family and Medical Leave)."
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "Major medical leave is earned by all regular employees who work 50 percent time or greater; except students, temporary employees, intermittent employees, and rehired retirees according to employment status and length of annual employment periods."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "R1",
+     "answer": "with pay from the accrued balance (counts 0 paid weeks)",
+     "quote": "MAJOR MEDICAL LEAVE WITH PAY"
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Major medical leave may be used concurrently with family and medical leave for the illness or injury of the employee or a member of the employee's immediate family and childbearing (see Family and Medical Leave)."
+    }
+   ]
+  },
+  {
+   "component_id": "mississippi_state_university_c3",
+   "institution_label": "MAJOR MEDICAL LEAVE for ADOPTION or FOSTER CARE",
+   "description": "An employee may use up to six weeks of earned major medical leave for the placement of a child for adoption or foster care and to care for the child, within one year of placement; paid only from the employee's own balance.",
+   "mechanism": "employer_paid_leave",
+   "mechanism_note": "A dedicated adoption and foster-care leave funded from the employee's own sick balance (V1: a dedicated parent leave from a sick bank stays employer-paid leave); payer own_balance under R1/R1d, so 0 paid weeks.",
+   "payer": "own_balance",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "'An employee' under HRM 60-201; major medical leave is earned by all regular employees who work 50 percent time or greater, nine-month faculty included",
+   "eligible_parent": [
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "placement with the employee of a child for adoption or foster care",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed_on_request",
+   "entitlement_note": "'may use' the earned balance: the employee elects it (V2); limited by the accrued balance.",
+   "duration": {
+    "value": 6,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "pay_fraction": "with pay, from the employee's earned major medical leave",
+   "time_window": "must be used within one year of placement",
+   "medical_certification": false,
+   "medical_certification_note": "supporting documentation showing official court record(s) of adoption or foster care placement (not medical)",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "rule_applied": [
+    "V1",
+    "R1",
+    "R1d",
+    "V2",
+    "R9",
+    "R5",
+    "U1",
+    "source_precedence"
+   ],
+   "evidence": {
+    "mechanism": [
+     "An employee may use up to six (6) weeks of earned major medical leave for the placement with the employee of a child for adoption or foster care, and to care for the newly placed child."
+    ],
+    "faculty_group": [
+     "An employee may use up to six (6) weeks of earned major medical leave for the placement with the employee of a child for adoption or foster care, and to care for the newly placed child.",
+     "Major medical leave is earned by all regular employees who work 50 percent time or greater; except students, temporary employees, intermittent employees, and rehired retirees according to employment status and length of annual employment periods."
+    ],
+    "eligible_parent": [
+     "An employee may use up to six (6) weeks of earned major medical leave for the placement with the employee of a child for adoption or foster care, and to care for the newly placed child."
+    ],
+    "entitlement": [
+     "An employee may use up to six (6) weeks of earned major medical leave for the placement with the employee of a child for adoption or foster care, and to care for the newly placed child."
+    ],
+    "duration": [
+     "An employee may use up to six (6) weeks of earned major medical leave for the placement with the employee of a child for adoption or foster care, and to care for the newly placed child."
+    ],
+    "pay_fraction": [
+     "An employee may use up to six (6) weeks of earned major medical leave for the placement with the employee of a child for adoption or foster care, and to care for the newly placed child."
+    ],
+    "time_window": [
+     "Major medical leave used for adoption or foster care must be used within one year of placement."
+    ],
+    "flags": [
+     "At this time, major medical leave is not available for adoptive mothers."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_hrm_60201_leave_lwop",
+    "2018_00_link"
+   ],
+   "flags": [
+    "conflicting_sources: 2018_00_link, 2018_01_hrm_60201_leave_lwop"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "V1",
+     "answer": "employer_paid_leave",
+     "quote": "An employee may use up to six (6) weeks of earned major medical leave for the placement with the employee of a child for adoption or foster care, and to care for the newly placed child."
+    },
+    {
+     "field": "payer",
+     "rule": "R1d",
+     "answer": "own_balance",
+     "quote": "An employee may use up to six (6) weeks of earned major medical leave for the placement with the employee of a child for adoption or foster care, and to care for the newly placed child."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "Major medical leave is earned by all regular employees who work 50 percent time or greater; except students, temporary employees, intermittent employees, and rehired retirees according to employment status and length of annual employment periods."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "R5",
+     "answer": "adoptive, foster (recorded, not counted in either role)",
+     "quote": "An employee may use up to six (6) weeks of earned major medical leave for the placement with the employee of a child for adoption or foster care, and to care for the newly placed child."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "guaranteed_on_request",
+     "quote": "An employee may use up to six (6) weeks of earned major medical leave for the placement with the employee of a child for adoption or foster care, and to care for the newly placed child."
+    },
+    {
+     "field": "entitlement",
+     "rule": "source_precedence",
+     "answer": "guaranteed_on_request",
+     "quote": "At this time, major medical leave is not available for adoptive mothers."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "6 weeks up_to",
+     "quote": "An employee may use up to six (6) weeks of earned major medical leave for the placement with the employee of a child for adoption or foster care, and to care for the newly placed child."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "R1",
+     "answer": "with pay from the earned balance (counts 0 paid weeks)",
+     "quote": "An employee may use up to six (6) weeks of earned major medical leave for the placement with the employee of a child for adoption or foster care, and to care for the newly placed child."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave, relief not stated)",
+     "quote": "An employee may use up to six (6) weeks of earned major medical leave for the placement with the employee of a child for adoption or foster care, and to care for the newly placed child."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "An employee may use up to six (6) weeks of earned major medical leave for the placement with the employee of a child for adoption or foster care, and to care for the newly placed child."
+    }
+   ]
+  },
+  {
+   "component_id": "mississippi_state_university_c4",
+   "institution_label": "FAMILY AND MEDICAL LEAVE",
+   "description": "Family and medical leave of up to 12 weeks per fiscal year, job protected, for the birth and care of a child, adoption or foster placement, a family member's or the employee's own serious health condition; unpaid once accrued personal, major medical and compensatory leave are used.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "All regular benefits eligible (50% time or greater) employees of Mississippi State University",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "a mother ... for the birth of a child ... her own serious health condition; a father ... for the birth of a child and to care for his spouse",
+   "caregiver_condition": "none",
+   "entitlement": "guaranteed",
+   "entitlement_note": "Statutory leave; the policy also says employees 'are entitled to' it and it 'will be granted upon proper request'.",
+   "duration": {
+    "value": 12,
+    "units": "week",
+    "qualifier": "up_to"
+   },
+   "duration_note": "Policy: up to 12 weeks per fiscal year; statute: a total of 12 workweeks in a 12-month period (29 U.S.C. 2612(a)(1)). Pro-rata for employees working 50% to 99% time. Unpaid remainder after accrued paid leave (personal, major medical) is used; the University continues its health-insurance contribution for up to 12 weeks.",
+   "pay_fraction": "unpaid (accrued personal or major medical leave may be substituted)",
+   "must_exhaust_first": [
+    "vacation",
+    "sick",
+    "compensatory"
+   ],
+   "service_requirement": "none stated by the policy: all regular benefits-eligible (50% time or greater) employees; the statute requires 12 months and 1,250 hours (29 U.S.C. 2611(2))",
+   "time_window": "leave requests due to childbirth or placement honored only within twelve months of the birth or placement",
+   "medical_certification": true,
+   "medical_certification_note": "for childbirth, documentation by the attending physician and the probable duration of the leave; for placement, verification by a judge",
+   "notice": "as much advance notice as possible; Application for Leave or Leave of Absence Without Pay form and medical certification within 15 calendar days",
+   "return_obligation": "an employee who fails to return at the end of the leave reimburses the insurance premiums paid during the unpaid leave, unless the failure is due to a serious health condition or beyond the employee's control",
+   "statute_source": "29 U.S.C. 2612(a)(1)",
+   "statute_verified": true,
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "sequence": [
+    {
+     "relation": "concurrent_with",
+     "component_id": "mississippi_state_university_c1",
+     "note": "major medical leave may be used concurrently with family and medical leave for childbearing (S1); the unpaid remainder runs to 12 weeks"
+    },
+    {
+     "relation": "concurrent_with",
+     "component_id": "mississippi_state_university_c3",
+     "note": "major medical leave for adoption or foster care runs alongside FMLA (S1)"
+    }
+   ],
+   "rule_applied": [
+    "U2",
+    "U4",
+    "S1",
+    "R9",
+    "U5",
+    "U8"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "All regular benefits eligible (50% time or greater) employees of Mississippi State University are entitled to family and medical leave."
+    ],
+    "eligible_parent": [
+     "a mother can use FMLA leave for the birth of a child, for prenatal care and incapacity related to pregnancy and for her own serious health condition following the birth of a child.",
+     "a father can use FMLA leave for the birth of a child and to care for his spouse who is incapacitated (due to pregnancy or child birth).",
+     "for placement with the employee of a son or daughter for adoption or foster care"
+    ],
+    "entitlement": [
+     "All regular benefits eligible (50% time or greater) employees of Mississippi State University are entitled to family and medical leave.",
+     "Family and medical leave of up to a twelve (12) week period during the fiscal year will be granted upon proper request for one or more of the following reasons:",
+     "An employee taking leave is guaranteed the right to return to the previous or an equivalent position with no loss of benefits at the end of the leave."
+    ],
+    "duration": [
+     "The Family and Medical Leave Act (FMLA) provides certain employees with up to 12 weeks of unpaid, job protected leave per fiscal year.",
+     "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period"
+    ],
+    "pay_fraction": [
+     "The Family and Medical Leave Act (FMLA) provides certain employees with up to 12 weeks of unpaid, job protected leave per fiscal year.",
+     "If accrued personal and/or major medical leave is not sufficient to cover the entire period of the leave requested, an unpaid leave of absence will be granted for the remainder of the twelve (12) week leave period (see Leave of Absence)."
+    ],
+    "service_requirement": [
+     "All regular benefits eligible (50% time or greater) employees of Mississippi State University are entitled to family and medical leave."
+    ],
+    "sequence": [
+     "Major medical leave may be used concurrently with family and medical leave for the illness or injury of the employee or a member of the employee's immediate family and childbearing (see Family and Medical Leave).",
+     "This leave is unpaid only to the extent accumulated major medical leave is not available to the faculty member."
+    ],
+    "must_exhaust_first": [
+     "An employee may be granted an FMLA leave of absence without pay only after applicable accrued personal leave, major medical, and compensatory time are exhausted."
+    ],
+    "time_window": [
+     "Leave requests due to childbirth or placement of a child through adoption or foster care will only be honored within twelve months of the birth or placement."
+    ],
+    "medical_certification": [
+     "In the case of childbirth or placement of a child through adoption or foster care, certification must include: 1) documentation by the attending physician in the case of childbirth, or verification by a judge of the placement of a child in the case of adoption or foster care; and, 2) the probable duration of the leave requested."
+    ],
+    "return_obligation": [
+     "An employee who fails to return to University employment at the end of an approved leave of absence will be liable to reimburse the University through the accounts receivable process for insurance premiums paid for the employee during the unpaid leave of absence"
+    ],
+    "notice": [
+     "In order to minimize disruptions to the work environment, an employee is encouraged to provide the department head with as much advance notice as possible when there is a need for family and medical leave."
+    ],
+    "duration_note": [
+     "The University will continue to pay the employee only contribution to the State & School Employees’ Health Insurance Plan for up to twelve (12) weeks, whether the leave is paid or unpaid."
+    ],
+    "statute_source": [
+     "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period"
+    ]
+   },
+   "doc_ids": [
+    "2018_01_hrm_60201_leave_lwop",
+    "2018_00_link",
+    "2026_00_us_fmla_29usc2612"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "U4",
+     "answer": "unpaid_leave",
+     "quote": "Under the provisions of the Family and Medical Leave Act of 1993 and in accordance with university policy, a faculty member may apply to take an unpaid leave of absence following the birth or adoption of a child."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "The Family and Medical Leave Act (FMLA) provides certain employees with up to 12 weeks of unpaid, job protected leave per fiscal year."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "All regular benefits eligible (50% time or greater) employees of Mississippi State University are entitled to family and medical leave."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent, non_birth_parent (incl. care of the incapacitated spouse), adoptive, foster",
+     "quote": "a father can use FMLA leave for the birth of a child and to care for his spouse who is incapacitated (due to pregnancy or child birth)."
+    },
+    {
+     "field": "entitlement",
+     "rule": "schema",
+     "answer": "guaranteed",
+     "quote": "All regular benefits eligible (50% time or greater) employees of Mississippi State University are entitled to family and medical leave."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "12 weeks up_to (policy wording); statute 12 workweeks",
+     "quote": "The Family and Medical Leave Act (FMLA) provides certain employees with up to 12 weeks of unpaid, job protected leave per fiscal year."
+    },
+    {
+     "field": "duration",
+     "rule": "U2",
+     "answer": "statute: a total of 12 workweeks",
+     "quote": "an eligible employee shall be entitled to a total of 12 workweeks of leave during any 12-month period"
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "unpaid; own balances may be substituted",
+     "quote": "If accrued personal and/or major medical leave is not sufficient to cover the entire period of the leave requested, an unpaid leave of absence will be granted for the remainder of the twelve (12) week leave period (see Leave of Absence)."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "U8",
+     "answer": "policy states no service requirement beyond 50% time benefits eligibility",
+     "quote": "All regular benefits eligible (50% time or greater) employees of Mississippi State University are entitled to family and medical leave."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave)",
+     "quote": "The Family and Medical Leave Act (FMLA) provides certain employees with up to 12 weeks of unpaid, job protected leave per fiscal year."
+    },
+    {
+     "field": "sequence",
+     "rule": "S1",
+     "answer": "concurrent_with c1 and c3 (statute alongside the institution's paid leaves)",
+     "quote": "Major medical leave may be used concurrently with family and medical leave for the illness or injury of the employee or a member of the employee's immediate family and childbearing (see Family and Medical Leave)."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Family and medical leave of up to a twelve (12) week period during the fiscal year will be granted upon proper request for one or more of the following reasons:"
+    }
+   ]
+  },
+  {
+   "component_id": "mississippi_state_university_c5",
+   "institution_label": "",
+   "description": "The department head may extend leave for childbirth or adoption/foster placement beyond the 12 FMLA weeks if the employee intends to return; accrued leave or an unpaid leave of absence is used, and the unpaid leave may not be extended beyond one year.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "an employee under the HRM 60-201 family and medical leave policy (all regular benefits eligible employees)",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "Leave due to childbirth or placement of a child through adoption or foster care",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "entitlement_note": "'may be extended ... by an employee's department head': the approval decides whether there is an extension (V2).",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "up_to"
+   },
+   "duration_note": "The extension's own length is not stated; the unpaid leave of absence 'may not be extended beyond one year' (read as a limit on the whole leave; leave_limits 52 weeks with the FMLA leave). Accrued personal or major medical leave may be used during the extension.",
+   "pay_fraction": "unpaid unless accrued personal or major medical leave is used",
+   "must_exhaust_first": [
+    "vacation",
+    "sick"
+   ],
+   "return_obligation": "the employee must intend to return to University employment at the expiration of the extended leave",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "mississippi_state_university_c4",
+     "note": "extension 'beyond twelve (12) work weeks'"
+    }
+   ],
+   "rule_applied": [
+    "V2",
+    "R13",
+    "R9",
+    "R15",
+    "R20",
+    "U1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "All regular benefits eligible (50% time or greater) employees of Mississippi State University are entitled to family and medical leave."
+    ],
+    "eligible_parent": [
+     "Leave due to childbirth or placement of a child through adoption or foster care may be extended beyond twelve (12) work weeks by an employee's department head, if it is the intention of the employee to return to University employment at the expiration of the extended leave."
+    ],
+    "entitlement": [
+     "Leave due to childbirth or placement of a child through adoption or foster care may be extended beyond twelve (12) work weeks by an employee's department head, if it is the intention of the employee to return to University employment at the expiration of the extended leave."
+    ],
+    "duration": [
+     "An employee may utilize accrued personal or major medical leave, as applicable, or an unpaid leave of absence (if all paid leave is exhausted) during the extended leave; however, an unpaid leave of absence may not be extended beyond one year."
+    ],
+    "pay_fraction": [
+     "An employee may utilize accrued personal or major medical leave, as applicable, or an unpaid leave of absence (if all paid leave is exhausted) during the extended leave; however, an unpaid leave of absence may not be extended beyond one year."
+    ],
+    "sequence": [
+     "Leave due to childbirth or placement of a child through adoption or foster care may be extended beyond twelve (12) work weeks by an employee's department head, if it is the intention of the employee to return to University employment at the expiration of the extended leave."
+    ],
+    "return_obligation": [
+     "Leave due to childbirth or placement of a child through adoption or foster care may be extended beyond twelve (12) work weeks by an employee's department head, if it is the intention of the employee to return to University employment at the expiration of the extended leave."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_hrm_60201_leave_lwop"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "An employee may utilize accrued personal or major medical leave, as applicable, or an unpaid leave of absence (if all paid leave is exhausted) during the extended leave; however, an unpaid leave of absence may not be extended beyond one year."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "An employee may utilize accrued personal or major medical leave, as applicable, or an unpaid leave of absence (if all paid leave is exhausted) during the extended leave; however, an unpaid leave of absence may not be extended beyond one year."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "All regular benefits eligible (50% time or greater) employees of Mississippi State University are entitled to family and medical leave."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "birth_parent, non_birth_parent, adoptive, foster",
+     "quote": "Leave due to childbirth or placement of a child through adoption or foster care may be extended beyond twelve (12) work weeks by an employee's department head, if it is the intention of the employee to return to University employment at the expiration of the extended leave."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "Leave due to childbirth or placement of a child through adoption or foster care may be extended beyond twelve (12) work weeks by an employee's department head, if it is the intention of the employee to return to University employment at the expiration of the extended leave."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 year up_to (the unpaid leave may not be extended beyond one year)",
+     "quote": "an unpaid leave of absence may not be extended beyond one year."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "unpaid unless own accrued leave is used",
+     "quote": "An employee may utilize accrued personal or major medical leave, as applicable, or an unpaid leave of absence (if all paid leave is exhausted) during the extended leave; however, an unpaid leave of absence may not be extended beyond one year."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave)",
+     "quote": "Leave due to childbirth or placement of a child through adoption or foster care may be extended beyond twelve (12) work weeks by an employee's department head, if it is the intention of the employee to return to University employment at the expiration of the extended leave."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "consecutive_after c4 (extension beyond the twelve work weeks)",
+     "quote": "Leave due to childbirth or placement of a child through adoption or foster care may be extended beyond twelve (12) work weeks by an employee's department head, if it is the intention of the employee to return to University employment at the expiration of the extended leave."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Leave due to childbirth or placement of a child through adoption or foster care may be extended beyond twelve (12) work weeks by an employee's department head, if it is the intention of the employee to return to University employment at the expiration of the extended leave."
+    }
+   ]
+  },
+  {
+   "component_id": "mississippi_state_university_c6",
+   "institution_label": "",
+   "description": "After the 12 FMLA weeks, an employee ill or injured, or caring for an ill family member, may also be granted an unpaid leave of absence once accrued leave is exhausted, not beyond one year.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "an employee under the HRM 60-201 family and medical leave policy (all regular benefits eligible employees)",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent"
+   ],
+   "eligible_parent_wording": "illness or injury of an employee or the employee's family member",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "entitlement_note": "'may also be granted': the approval decides (V2; checklist §5 example 4).",
+   "duration": {
+    "value": 1,
+    "units": "year",
+    "qualifier": "up_to"
+   },
+   "duration_note": "'may not be extended beyond one year'; read as a limit on the whole unpaid leave (leave_limits 52 weeks with the FMLA leave). The major medical balance must first be extended past the 12 weeks while it lasts.",
+   "pay_fraction": "unpaid",
+   "must_exhaust_first": [
+    "vacation",
+    "sick",
+    "compensatory"
+   ],
+   "medical_certification": true,
+   "medical_certification_note": "serious health condition certified by a health care provider; fitness-for-duty certification on return after the employee's own condition",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "sequence": [
+    {
+     "relation": "consecutive_after",
+     "component_id": "mississippi_state_university_c4",
+     "note": "beyond the initial twelve (12) weeks"
+    }
+   ],
+   "rule_applied": [
+    "U5",
+    "V2",
+    "R13",
+    "R9",
+    "R15",
+    "R20",
+    "U1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "All regular benefits eligible (50% time or greater) employees of Mississippi State University are entitled to family and medical leave."
+    ],
+    "eligible_parent": [
+     "Major medical leave for the illness or injury of an employee or the employee's family member must be extended beyond the initial twelve (12) weeks provided by this policy if the employee has accrued major medical and personal leave."
+    ],
+    "entitlement": [
+     "While an employee may also be granted an unpaid leave of absence, it may not be extended beyond one year and may be granted only after applicable accrued personal leave, major medical leave, and compensatory time are exhausted."
+    ],
+    "duration": [
+     "While an employee may also be granted an unpaid leave of absence, it may not be extended beyond one year and may be granted only after applicable accrued personal leave, major medical leave, and compensatory time are exhausted."
+    ],
+    "pay_fraction": [
+     "While an employee may also be granted an unpaid leave of absence, it may not be extended beyond one year and may be granted only after applicable accrued personal leave, major medical leave, and compensatory time are exhausted."
+    ],
+    "sequence": [
+     "Major medical leave for the illness or injury of an employee or the employee's family member must be extended beyond the initial twelve (12) weeks provided by this policy if the employee has accrued major medical and personal leave."
+    ],
+    "must_exhaust_first": [
+     "While an employee may also be granted an unpaid leave of absence, it may not be extended beyond one year and may be granted only after applicable accrued personal leave, major medical leave, and compensatory time are exhausted."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_hrm_60201_leave_lwop"
+   ],
+   "flags": [
+    "own_illness_leave"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "While an employee may also be granted an unpaid leave of absence, it may not be extended beyond one year and may be granted only after applicable accrued personal leave, major medical leave, and compensatory time are exhausted."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "While an employee may also be granted an unpaid leave of absence, it may not be extended beyond one year and may be granted only after applicable accrued personal leave, major medical leave, and compensatory time are exhausted."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "All regular benefits eligible (50% time or greater) employees of Mississippi State University are entitled to family and medical leave."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own illness) and non_birth_parent (family member's illness)",
+     "quote": "Major medical leave for the illness or injury of an employee or the employee's family member must be extended beyond the initial twelve (12) weeks provided by this policy if the employee has accrued major medical and personal leave."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "While an employee may also be granted an unpaid leave of absence, it may not be extended beyond one year and may be granted only after applicable accrued personal leave, major medical leave, and compensatory time are exhausted."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "1 year up_to",
+     "quote": "While an employee may also be granted an unpaid leave of absence, it may not be extended beyond one year and may be granted only after applicable accrued personal leave, major medical leave, and compensatory time are exhausted."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "unpaid",
+     "quote": "While an employee may also be granted an unpaid leave of absence, it may not be extended beyond one year and may be granted only after applicable accrued personal leave, major medical leave, and compensatory time are exhausted."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave)",
+     "quote": "While an employee may also be granted an unpaid leave of absence, it may not be extended beyond one year and may be granted only after applicable accrued personal leave, major medical leave, and compensatory time are exhausted."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "consecutive_after c4",
+     "quote": "Major medical leave for the illness or injury of an employee or the employee's family member must be extended beyond the initial twelve (12) weeks provided by this policy if the employee has accrued major medical and personal leave."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Major medical leave for the illness or injury of an employee or the employee's family member must be extended beyond the initial twelve (12) weeks provided by this policy if the employee has accrued major medical and personal leave."
+    }
+   ]
+  },
+  {
+   "component_id": "mississippi_state_university_c7",
+   "institution_label": "GENERAL LEAVE OF ABSENCE",
+   "description": "A leave of absence without pay of one month up to one calendar year, at the administrator's discretion, after accrued leave is exhausted, for purposes including but not limited to medical disability, coursework, a spouse's relocation or family emergency.",
+   "mechanism": "unpaid_leave",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "regular employees",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "regular employees",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "duration": {
+    "value": 1,
+    "units": "month",
+    "qualifier": "at_least"
+   },
+   "duration_max": {
+    "value": 1,
+    "units": "year"
+   },
+   "duration_note": "'for a period of one month up to one (1) calendar year' (R13b range).",
+   "pay_fraction": "without pay",
+   "must_exhaust_first": [
+    "vacation",
+    "sick",
+    "compensatory"
+   ],
+   "return_obligation": "the employee must intend to return to work at the University at the expiration of the leave",
+   "relief": {
+    "teaching": "relieved",
+    "service_admin": "relieved",
+    "research": "relieved",
+    "advising_supervision": "relieved",
+    "clinical": "relieved"
+   },
+   "relief_inferred": "formal leave",
+   "rule_applied": [
+    "U1",
+    "V2",
+    "R13b",
+    "R9"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "A leave of absence without pay may be granted to regular employees, after applicable accrued personal, major medical, and compensatory leave are exhausted, for a period of one month up to one (1) calendar year at the discretion of the employees' responsible Administrator."
+    ],
+    "eligible_parent": [
+     "A leave of absence without pay may be granted to regular employees, after applicable accrued personal, major medical, and compensatory leave are exhausted, for a period of one month up to one (1) calendar year at the discretion of the employees' responsible Administrator."
+    ],
+    "entitlement": [
+     "A leave of absence without pay may be granted to regular employees, after applicable accrued personal, major medical, and compensatory leave are exhausted, for a period of one month up to one (1) calendar year at the discretion of the employees' responsible Administrator."
+    ],
+    "duration": [
+     "A leave of absence without pay may be granted to regular employees, after applicable accrued personal, major medical, and compensatory leave are exhausted, for a period of one month up to one (1) calendar year at the discretion of the employees' responsible Administrator."
+    ],
+    "pay_fraction": [
+     "A leave of absence without pay may be granted to regular employees, after applicable accrued personal, major medical, and compensatory leave are exhausted, for a period of one month up to one (1) calendar year at the discretion of the employees' responsible Administrator."
+    ],
+    "flags": [
+     "Leave may be granted for, but not limited to, medical disability of an employee or family members (see Family and Medical Leave), enrollment in educational course work relating to the employee’s position, temporary relocation of the employee’s spouse, or family emergency."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_hrm_60201_leave_lwop"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "unpaid_leave",
+     "quote": "A leave of absence without pay may be granted to regular employees, after applicable accrued personal, major medical, and compensatory leave are exhausted, for a period of one month up to one (1) calendar year at the discretion of the employees' responsible Administrator."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "A leave of absence without pay may be granted to regular employees, after applicable accrued personal, major medical, and compensatory leave are exhausted, for a period of one month up to one (1) calendar year at the discretion of the employees' responsible Administrator."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "A leave of absence without pay may be granted to regular employees, after applicable accrued personal, major medical, and compensatory leave are exhausted, for a period of one month up to one (1) calendar year at the discretion of the employees' responsible Administrator."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent (role-neutral)",
+     "quote": "A leave of absence without pay may be granted to regular employees, after applicable accrued personal, major medical, and compensatory leave are exhausted, for a period of one month up to one (1) calendar year at the discretion of the employees' responsible Administrator."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "A leave of absence without pay may be granted to regular employees, after applicable accrued personal, major medical, and compensatory leave are exhausted, for a period of one month up to one (1) calendar year at the discretion of the employees' responsible Administrator."
+    },
+    {
+     "field": "duration",
+     "rule": "R13b",
+     "answer": "1 month at_least, max 1 year",
+     "quote": "A leave of absence without pay may be granted to regular employees, after applicable accrued personal, major medical, and compensatory leave are exhausted, for a period of one month up to one (1) calendar year at the discretion of the employees' responsible Administrator."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "without pay",
+     "quote": "A leave of absence without pay may be granted to regular employees, after applicable accrued personal, major medical, and compensatory leave are exhausted, for a period of one month up to one (1) calendar year at the discretion of the employees' responsible Administrator."
+    },
+    {
+     "field": "relief",
+     "rule": "R9",
+     "answer": "all duties relieved (formal leave)",
+     "quote": "A leave of absence without pay may be granted to regular employees, after applicable accrued personal, major medical, and compensatory leave are exhausted, for a period of one month up to one (1) calendar year at the discretion of the employees' responsible Administrator."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "Leave may be granted for, but not limited to, medical disability of an employee or family members (see Family and Medical Leave), enrollment in educational course work relating to the employee’s position, temporary relocation of the employee’s spouse, or family emergency."
+    }
+   ]
+  },
+  {
+   "component_id": "mississippi_state_university_c8",
+   "institution_label": "",
+   "description": "A female faculty member on a twelve-month appointment may also use accrued personal (vacation) leave to supplement major medical leave after a birth, as approved by the department head; nine-month faculty do not earn personal leave.",
+   "mechanism": "own_accrual",
+   "payer": "own_balance",
+   "faculty_group": "female faculty member on a twelve-month appointment",
+   "faculty_group_note": "Nine-month faculty do not earn personal leave; a nine-month faculty member may use personal leave earned earlier in a twelve-month position.",
+   "eligible_parent": [
+    "birth_parent"
+   ],
+   "eligible_parent_wording": "female faculty member",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "entitlement_note": "'as approved by the department head'; personal leave not required for medical reasons may be denied if the absence would unduly affect the unit.",
+   "pay_fraction": "with pay, from accrued personal leave",
+   "sequence": [
+    {
+     "relation": "also_available",
+     "component_id": "mississippi_state_university_c1",
+     "note": "'to supplement major medical leave'; order not stated"
+    }
+   ],
+   "rule_applied": [
+    "R1",
+    "U1",
+    "V2",
+    "schema"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "Any female faculty member on a twelve-month appointment may also use personal leave to supplement major medical leave, as approved by the department head.",
+     "Personal leave policy provisions are not applicable for nine-month faculty members."
+    ],
+    "eligible_parent": [
+     "Any female faculty member on a twelve-month appointment may also use personal leave to supplement major medical leave, as approved by the department head."
+    ],
+    "entitlement": [
+     "Any female faculty member on a twelve-month appointment may also use personal leave to supplement major medical leave, as approved by the department head.",
+     "Personal leave, except as required for medical reasons, may be denied by the department/unit head if the employee's absence would unduly affect the functioning of the unit."
+    ],
+    "pay_fraction": [
+     "Personal leave with pay is earned by all regular employees who work 50% time or greater except nine-month faculty, students, temporary employees, intermittent employees and rehired retirees according to employment status and length of annual employment periods."
+    ],
+    "sequence": [
+     "Any female faculty member on a twelve-month appointment may also use personal leave to supplement major medical leave, as approved by the department head."
+    ],
+    "flags": [
+     "Personal leave may be used for vacations, personal business, and illnesses and injuries requiring absences of one day or less."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link",
+    "2018_01_hrm_60201_leave_lwop"
+   ],
+   "flags": [
+    "general_purpose"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R1",
+     "answer": "own_accrual",
+     "quote": "Personal leave with pay is earned by all regular employees who work 50% time or greater except nine-month faculty, students, temporary employees, intermittent employees and rehired retirees according to employment status and length of annual employment periods."
+    },
+    {
+     "field": "payer",
+     "rule": "R1",
+     "answer": "own_balance",
+     "quote": "Personal leave with pay is earned by all regular employees who work 50% time or greater except nine-month faculty, students, temporary employees, intermittent employees and rehired retirees according to employment status and length of annual employment periods."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "female faculty member on a twelve-month appointment",
+     "quote": "Any female faculty member on a twelve-month appointment may also use personal leave to supplement major medical leave, as approved by the department head."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "birth_parent",
+     "quote": "Any female faculty member on a twelve-month appointment may also use personal leave to supplement major medical leave, as approved by the department head."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "Any female faculty member on a twelve-month appointment may also use personal leave to supplement major medical leave, as approved by the department head."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "R1",
+     "answer": "with pay from accrued personal leave (counts 0)",
+     "quote": "Personal leave with pay is earned by all regular employees who work 50% time or greater except nine-month faculty, students, temporary employees, intermittent employees and rehired retirees according to employment status and length of annual employment periods."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "also_available with c1 (supplement; no order stated)",
+     "quote": "Any female faculty member on a twelve-month appointment may also use personal leave to supplement major medical leave, as approved by the department head."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "Personal leave may be used for vacations, personal business, and illnesses and injuries requiring absences of one day or less."
+    }
+   ]
+  },
+  {
+   "component_id": "mississippi_state_university_c9",
+   "institution_label": "DONATED LEAVE",
+   "description": "Employees may receive personal or major medical leave donated by colleagues for their own or an immediate family member's catastrophic injury or illness, after exhausting their own leave, for up to 90 days, used concurrently with FMLA.",
+   "mechanism": "donated_leave",
+   "payer": "own_balance",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "an employee (state employees; MSU employees)",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent"
+   ],
+   "eligible_parent_wording": "an employee ... or another employee who has a member of his/her immediate family suffering from a catastrophic injury or illness",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "entitlement_note": "No grant language to the recipient: receipt depends on colleagues' voluntary donations.",
+   "duration": {
+    "value": 90,
+    "units": "day",
+    "qualifier": "up_to"
+   },
+   "duration_note": "'The maximum period ... is 90 days'; only for a catastrophic (life-threatening, totally incapacitating) injury or illness, so an ordinary birth does not qualify.",
+   "pay_fraction": "with pay, from donated personal or major medical leave",
+   "service_requirement": "employed for at least one year and worked at least 1250 hours during that year",
+   "must_exhaust_first": [
+    "vacation",
+    "sick"
+   ],
+   "medical_certification": true,
+   "medical_certification_note": "catastrophic injury or illness verified by a licensed physician (form HRM 208A Part III)",
+   "sequence": [
+    {
+     "relation": "concurrent_with",
+     "component_id": "mississippi_state_university_c4",
+     "note": "Donated leave and FMLA must be used concurrently"
+    }
+   ],
+   "rule_applied": [
+    "R1d",
+    "U5",
+    "V2",
+    "R11b",
+    "R15"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "An employee may donate accrued personal or major medical leave to other state employees suffering from a catastrophic injury or illness, or to another employee who has a member of his/her immediate family suffering from a catastrophic injury or illness."
+    ],
+    "eligible_parent": [
+     "An employee may donate accrued personal or major medical leave to other state employees suffering from a catastrophic injury or illness, or to another employee who has a member of his/her immediate family suffering from a catastrophic injury or illness."
+    ],
+    "entitlement": [
+     "An employee may donate accrued personal or major medical leave to other state employees suffering from a catastrophic injury or illness, or to another employee who has a member of his/her immediate family suffering from a catastrophic injury or illness."
+    ],
+    "duration": [
+     "The maximum period of time that an employee may use donated leave without returning to work is 90 days, which begins on the first day that the recipient employee uses donated leave."
+    ],
+    "pay_fraction": [
+     "An employee may donate accrued personal or major medical leave to other state employees suffering from a catastrophic injury or illness, or to another employee who has a member of his/her immediate family suffering from a catastrophic injury or illness."
+    ],
+    "service_requirement": [
+     "In order to receive donated leave, an employee must have been employed for at least one year and worked at least 1250 hours during that year."
+    ],
+    "sequence": [
+     "Donated leave and Family and Medical Leave (FMLA) must be used concurrently."
+    ],
+    "must_exhaust_first": [
+     "An employee must have exhausted all earned personal and major medical leave before being eligible to receive any leave donated by another employee."
+    ],
+    "medical_certification": [
+     "Catastrophic injury or illness is defined as a life-threatening injury or illness of an employee or a member of an employee's immediate family which totally incapacitates the employee from work, as verified by a licensed physician, and forces the employee to exhaust all leave time earned by that employee, resulting in the loss of compensation from the state for the employee."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_hrm_60201_leave_lwop"
+   ],
+   "flags": [
+    "ambiguous: entitlement: receipt depends on voluntary donations; no grant language to the recipient",
+    "ambiguous: restriction: only for a catastrophic (life-threatening, totally incapacitating) injury or illness of the employee or an immediate family member"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "donated_leave",
+     "quote": "An employee may donate accrued personal or major medical leave to other state employees suffering from a catastrophic injury or illness, or to another employee who has a member of his/her immediate family suffering from a catastrophic injury or illness."
+    },
+    {
+     "field": "payer",
+     "rule": "R1d",
+     "answer": "own_balance",
+     "quote": "An employee may donate accrued personal or major medical leave to other state employees suffering from a catastrophic injury or illness, or to another employee who has a member of his/her immediate family suffering from a catastrophic injury or illness."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "An employee may donate accrued personal or major medical leave to other state employees suffering from a catastrophic injury or illness, or to another employee who has a member of his/her immediate family suffering from a catastrophic injury or illness."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "U5",
+     "answer": "birth_parent (own catastrophic illness) and non_birth_parent (family member's)",
+     "quote": "An employee may donate accrued personal or major medical leave to other state employees suffering from a catastrophic injury or illness, or to another employee who has a member of his/her immediate family suffering from a catastrophic injury or illness."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "An employee may donate accrued personal or major medical leave to other state employees suffering from a catastrophic injury or illness, or to another employee who has a member of his/her immediate family suffering from a catastrophic injury or illness."
+    },
+    {
+     "field": "duration",
+     "rule": "R11b",
+     "answer": "90 days up_to (plain days)",
+     "quote": "The maximum period of time that an employee may use donated leave without returning to work is 90 days, which begins on the first day that the recipient employee uses donated leave."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "R1d",
+     "answer": "donated leave (colleague-funded bank, counts 0)",
+     "quote": "An employee may donate accrued personal or major medical leave to other state employees suffering from a catastrophic injury or illness, or to another employee who has a member of his/her immediate family suffering from a catastrophic injury or illness."
+    },
+    {
+     "field": "service_requirement",
+     "rule": "schema",
+     "answer": "one year and 1250 hours",
+     "quote": "In order to receive donated leave, an employee must have been employed for at least one year and worked at least 1250 hours during that year."
+    },
+    {
+     "field": "sequence",
+     "rule": "R15",
+     "answer": "concurrent_with c4",
+     "quote": "Donated leave and Family and Medical Leave (FMLA) must be used concurrently."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Catastrophic injury or illness is defined as a life-threatening injury or illness of an employee or a member of an employee's immediate family which totally incapacitates the employee from work, as verified by a licensed physician, and forces the employee to exhaust all leave time earned by that employee, resulting in the loss of compensation from the state for the employee."
+    }
+   ]
+  },
+  {
+   "component_id": "mississippi_state_university_c10",
+   "institution_label": "",
+   "description": "A tenure-track faculty member may request an extension of up to two years of the probationary period, for an approved leave of absence or modified assignment, for clearly stated personal reasons such as health emergencies, military service, pregnancy, adoption or childcare; granted with the Provost's approval.",
+   "mechanism": "tenure_clock",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "faculty members in tenure-track positions",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "a faculty member (pregnancy, adoption, childcare named among the reasons)",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "entitlement_note": "'may request'; 'an extension may be granted with the approval of the Provost' (AOP 13.13): approval decides (V2).",
+   "duration": {
+    "value": 2,
+    "units": "year",
+    "qualifier": "up_to"
+   },
+   "duration_note": "Governing P&T document: an extension of up to two years from the first five years. The 2011 provost guideline says the clock will generally stop for one year per stoppage, with up to two one-year stoppages for birth or adoption.",
+   "use_limit_note": "The 2011 provost guideline (2018_00_link): 'the faculty member may utilize up to two one-year stoppages for birth or adoption'; the governing P&T document states an extension of up to two years, not a count of stoppages.",
+   "rule_applied": [
+    "U1",
+    "V2",
+    "U9",
+    "R13",
+    "source_precedence"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "This document (Section V.) applies only to faculty members in tenure-track positions."
+    ],
+    "eligible_parent": [
+     "For clearly stated personal reasons (e.g., emergencies related to health, activation of 119 military service, pregnancy, adoption, childcare, care of parents), a faculty member may 120 request an extension of up to two years from the first five years of this probationary 121 period for an approved leave of absence or a modified assignment."
+    ],
+    "entitlement": [
+     "an extension of the probationary period of up to 2 years can be requested. At the faculty member’s request, an extension may be granted with the approval of the Provost.",
+     "For clearly stated personal reasons (e.g., emergencies related to health, activation of 119 military service, pregnancy, adoption, childcare, care of parents), a faculty member may 120 request an extension of up to two years from the first five years of this probationary 121 period for an approved leave of absence or a modified assignment."
+    ],
+    "duration": [
+     "For clearly stated personal reasons (e.g., emergencies related to health, activation of 119 military service, pregnancy, adoption, childcare, care of parents), a faculty member may 120 request an extension of up to two years from the first five years of this probationary 121 period for an approved leave of absence or a modified assignment.",
+     "an extension of the probationary period of up to 2 years can be requested. At the faculty member’s request, an extension may be granted with the approval of the Provost."
+    ],
+    "use_limit_note": [
+     "The University Promotion and Tenure document permits a faculty member to request a stoppage of the tenure clock. If granted, the clock will generally stop for one year and the faculty member may utilize up to two one-year stoppages for birth or adoption."
+    ],
+    "flags": [
+     "For clearly stated personal reasons (e.g., emergencies related to health, activation of 119 military service, pregnancy, adoption, childcare, care of parents), a faculty member may 120 request an extension of up to two years from the first five years of this probationary 121 period for an approved leave of absence or a modified assignment."
+    ]
+   },
+   "doc_ids": [
+    "2018_02_faculty_handbook",
+    "2018_03_aop_1313_leave_policies",
+    "2018_00_link"
+   ],
+   "flags": [
+    "general_purpose",
+    "ambiguous: restriction: use limit stated only in 2018_00_link"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "schema",
+     "answer": "tenure_clock",
+     "quote": "For clearly stated personal reasons (e.g., emergencies related to health, activation of 119 military service, pregnancy, adoption, childcare, care of parents), a faculty member may 120 request an extension of up to two years from the first five years of this probationary 121 period for an approved leave of absence or a modified assignment."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "For clearly stated personal reasons (e.g., emergencies related to health, activation of 119 military service, pregnancy, adoption, childcare, care of parents), a faculty member may 120 request an extension of up to two years from the first five years of this probationary 121 period for an approved leave of absence or a modified assignment."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "This document (Section V.) applies only to faculty members in tenure-track positions."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent (role-neutral; pregnancy, adoption, childcare named)",
+     "quote": "For clearly stated personal reasons (e.g., emergencies related to health, activation of 119 military service, pregnancy, adoption, childcare, care of parents), a faculty member may 120 request an extension of up to two years from the first five years of this probationary 121 period for an approved leave of absence or a modified assignment."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "an extension of the probationary period of up to 2 years can be requested. At the faculty member’s request, an extension may be granted with the approval of the Provost."
+    },
+    {
+     "field": "duration",
+     "rule": "R13",
+     "answer": "2 years up_to (governing P&T document)",
+     "quote": "For clearly stated personal reasons (e.g., emergencies related to health, activation of 119 military service, pregnancy, adoption, childcare, care of parents), a faculty member may 120 request an extension of up to two years from the first five years of this probationary 121 period for an approved leave of absence or a modified assignment."
+    },
+    {
+     "field": "duration",
+     "rule": "source_precedence",
+     "answer": "the P&T document's 'up to two years' governs over the guideline's 'generally ... one year'",
+     "quote": "The University Promotion and Tenure document permits a faculty member to request a stoppage of the tenure clock. If granted, the clock will generally stop for one year and the faculty member may utilize up to two one-year stoppages for birth or adoption."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": true,
+     "quote": "For clearly stated personal reasons (e.g., emergencies related to health, activation of 119 military service, pregnancy, adoption, childcare, care of parents), a faculty member may 120 request an extension of up to two years from the first five years of this probationary 121 period for an approved leave of absence or a modified assignment."
+    }
+   ]
+  },
+  {
+   "component_id": "mississippi_state_university_c11",
+   "institution_label": "Work Load Policy",
+   "description": "A rearranged (modified) workload to accommodate a birth or adoption, e.g. shifting teaching to summer or Maymester or teaching extra classes in one semester to free a later one; the load is moved, not reduced.",
+   "mechanism": "other",
+   "mechanism_note": "A rearrangement that moves duties within the year without reducing them is not relief (R16): coded other, counted in no figure.",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "all faculty members",
+   "eligible_parent": [
+    "any_parent"
+   ],
+   "eligible_parent_wording": "to accommodate the birth or adoption of a child",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "entitlement_note": "'an option that should be considered' (V2c): advisory wording, the department head decides.",
+   "rule_applied": [
+    "R16",
+    "V2c"
+   ],
+   "evidence": {
+    "mechanism": [
+     "Faculty members could teach additional classes in one semester to allow a modified assignment in subsequent semesters.",
+     "In this example, the summer load would not result in additional pay unless the faculty member taught in excess of 100 percent."
+    ],
+    "faculty_group": [
+     "The university work load policy permits all faculty members to have a certain amount of flexibility in their specific assignments for a given semester."
+    ],
+    "eligible_parent": [
+     "Rearranging a faculty member’s teaching, research, and service workload, i.e., a modified work load, to accommodate the birth or adoption of a child is an option that should be considered when addressing parental leave issues."
+    ],
+    "entitlement": [
+     "Rearranging a faculty member’s teaching, research, and service workload, i.e., a modified work load, to accommodate the birth or adoption of a child is an option that should be considered when addressing parental leave issues."
+    ]
+   },
+   "doc_ids": [
+    "2018_00_link"
+   ],
+   "flags": [
+    "cross_reference_not_saved: university work load policy"
+   ],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R16",
+     "answer": "other",
+     "quote": "Faculty members could teach additional classes in one semester to allow a modified assignment in subsequent semesters."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "In this example, the summer load would not result in additional pay unless the faculty member taught in excess of 100 percent."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "The university work load policy permits all faculty members to have a certain amount of flexibility in their specific assignments for a given semester."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "any_parent",
+     "quote": "Rearranging a faculty member’s teaching, research, and service workload, i.e., a modified work load, to accommodate the birth or adoption of a child is an option that should be considered when addressing parental leave issues."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2c",
+     "answer": "discretionary",
+     "quote": "Rearranging a faculty member’s teaching, research, and service workload, i.e., a modified work load, to accommodate the birth or adoption of a child is an option that should be considered when addressing parental leave issues."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "Rearranging a faculty member’s teaching, research, and service workload, i.e., a modified work load, to accommodate the birth or adoption of a child is an option that should be considered when addressing parental leave issues."
+    }
+   ]
+  },
+  {
+   "component_id": "mississippi_state_university_c12",
+   "institution_label": "",
+   "description": "An employee may request and be granted intermittent leave or a reduced work schedule for the birth or placement of a child, as a form of FMLA leave (must be granted when medically necessary).",
+   "mechanism": "part_time_option",
+   "payer": "none",
+   "faculty_group": "main_campus_tenure_stream",
+   "faculty_group_note": "All regular benefits eligible (50% time or greater) employees (FMLA policy)",
+   "eligible_parent": [
+    "birth_parent",
+    "non_birth_parent",
+    "adoptive",
+    "foster"
+   ],
+   "eligible_parent_wording": "for the birth or placement of a child",
+   "caregiver_condition": "none",
+   "entitlement": "discretionary",
+   "entitlement_note": "'may request and be granted' for birth or placement (V2); by contrast it 'must be granted' when medically necessary.",
+   "pay_fraction": "pay level not stated (reduced schedule)",
+   "sequence": [
+    {
+     "relation": "within",
+     "component_id": "mississippi_state_university_c4",
+     "note": "intermittent or reduced-schedule FMLA leave"
+    }
+   ],
+   "rule_applied": [
+    "V2",
+    "R3",
+    "S1"
+   ],
+   "evidence": {
+    "faculty_group": [
+     "All regular benefits eligible (50% time or greater) employees of Mississippi State University are entitled to family and medical leave."
+    ],
+    "eligible_parent": [
+     "An employee may request and be granted intermittent leave or a reduced work schedule for the birth or placement of a child."
+    ],
+    "entitlement": [
+     "An employee may request and be granted intermittent leave or a reduced work schedule for the birth or placement of a child.",
+     "When requested, an employee must be granted intermittent leave or a reduced work schedule when medically necessary (see Number 1)."
+    ],
+    "pay_fraction": [
+     "An employee may request and be granted intermittent leave or a reduced work schedule for the birth or placement of a child."
+    ],
+    "sequence": [
+     "An employee may request and be granted intermittent leave or a reduced work schedule for the birth or placement of a child."
+    ]
+   },
+   "doc_ids": [
+    "2018_01_hrm_60201_leave_lwop"
+   ],
+   "flags": [],
+   "decision_log": [
+    {
+     "field": "mechanism",
+     "rule": "R3",
+     "answer": "part_time_option",
+     "quote": "An employee may request and be granted intermittent leave or a reduced work schedule for the birth or placement of a child."
+    },
+    {
+     "field": "payer",
+     "rule": "schema",
+     "answer": "none",
+     "quote": "An employee may request and be granted intermittent leave or a reduced work schedule for the birth or placement of a child."
+    },
+    {
+     "field": "faculty_group",
+     "rule": "schema",
+     "answer": "main_campus_tenure_stream",
+     "quote": "All regular benefits eligible (50% time or greater) employees of Mississippi State University are entitled to family and medical leave."
+    },
+    {
+     "field": "eligible_parent",
+     "rule": "schema",
+     "answer": "birth_parent, non_birth_parent, adoptive, foster",
+     "quote": "An employee may request and be granted intermittent leave or a reduced work schedule for the birth or placement of a child."
+    },
+    {
+     "field": "entitlement",
+     "rule": "V2",
+     "answer": "discretionary",
+     "quote": "An employee may request and be granted intermittent leave or a reduced work schedule for the birth or placement of a child."
+    },
+    {
+     "field": "pay_fraction",
+     "rule": "schema",
+     "answer": "not stated",
+     "quote": "An employee may request and be granted intermittent leave or a reduced work schedule for the birth or placement of a child."
+    },
+    {
+     "field": "sequence",
+     "rule": "S1",
+     "answer": "within c4 (a form of FMLA leave)",
+     "quote": "An employee may request and be granted intermittent leave or a reduced work schedule for the birth or placement of a child."
+    },
+    {
+     "field": "general_purpose",
+     "rule": "U1",
+     "answer": false,
+     "quote": "An employee may request and be granted intermittent leave or a reduced work schedule for the birth or placement of a child."
+    }
+   ]
+  }
+ ],
+ "scope_accounting": {
+  "C1": {
+   "components": [
+    "mississippi_state_university_c1",
+    "mississippi_state_university_c3",
+    "mississippi_state_university_c4",
+    "mississippi_state_university_c5"
+   ]
+  },
+  "C2": {
+   "components": [
+    "mississippi_state_university_c11"
+   ]
+  },
+  "C3": {
+   "components": [
+    "mississippi_state_university_c1",
+    "mississippi_state_university_c2",
+    "mississippi_state_university_c6",
+    "mississippi_state_university_c9"
+   ]
+  },
+  "C4": {
+   "components": [
+    "mississippi_state_university_c4"
+   ],
+   "not_components": [
+    {
+     "statute": "FMLA military caregiver leave (26 weeks) and qualifying-exigency leave",
+     "reason": "other FMLA provisions, not for becoming a parent (U4)"
+    },
+    {
+     "statute": "Uniformed Services Employment and Re-employment Rights Act of 1994",
+     "reason": "military leave; unrelated to becoming a parent (U4)"
+    },
+    {
+     "statute": "Workers' Compensation Law",
+     "reason": "work-related injury benefits; unrelated to becoming a parent"
+    },
+    {
+     "statute": "Mississippi Statute 25-3-103 (2014)",
+     "reason": "organ donor leave; unrelated to becoming a parent"
+    },
+    {
+     "statute": "Chapter 46, Title 11, Mississippi Code 1972",
+     "reason": "claims against the state (disaster volunteer leave); unrelated"
+    },
+    {
+     "statute": "Mississippi Code of 1972 Sections 25-4-101 through 25-4-105",
+     "reason": "conflict-of-interest and ethics; unrelated"
+    },
+    {
+     "statute": "Morrill Act (1862), Smith-Lever Act (1914), Smith-Hughes Act (1917)",
+     "reason": "named in the university's history; unrelated"
+    },
+    {
+     "statute": "unnamed 'federal and state law' (2011 guideline)",
+     "reason": "no state leave act is named in any saved document; FMLA is the federal law relied on"
+    }
+   ]
+  },
+  "C5": {
+   "components": [
+    "mississippi_state_university_c2",
+    "mississippi_state_university_c4",
+    "mississippi_state_university_c6"
+   ]
+  },
+  "C6": {
+   "components": [
+    "mississippi_state_university_c7",
+    "mississippi_state_university_c8"
+   ]
+  },
+  "C7": {
+   "components": [
+    "mississippi_state_university_c10"
+   ]
+  },
+  "C8": {
+   "components": [
+    "mississippi_state_university_c12"
+   ]
+  },
+  "C9": {
+   "absent": {
+    "documents": [
+     "2018_00_link",
+     "2018_01_hrm_60201_leave_lwop",
+     "2018_02_faculty_handbook",
+     "2018_03_aop_1313_leave_policies"
+    ],
+    "terms": [
+     "accommodation",
+     "pregnan",
+     "hazard",
+     "transfer",
+     "lactation",
+     "nursing",
+     "discrimination",
+     "equal"
+    ]
+   }
+  },
+  "C10": {
+   "absent": {
+    "documents": [
+     "2018_00_link",
+     "2018_01_hrm_60201_leave_lwop",
+     "2018_02_faculty_handbook",
+     "2018_03_aop_1313_leave_policies"
+    ],
+    "terms": [
+     "first",
+     "days of",
+     "qualifying event",
+     "paid status",
+     "administrative leave",
+     "with pay"
+    ]
+   }
+  }
+ },
+ "passage_dispositions": {
+  "2018_00_link#001": {
+   "used_in": [
+    "mississippi_state_university_c1",
+    "mississippi_state_university_c3",
+    "mississippi_state_university_c4",
+    "mississippi_state_university_c8",
+    "mississippi_state_university_c10",
+    "mississippi_state_university_c11"
+   ]
+  },
+  "2018_01_hrm_60201_leave_lwop#001": {
+   "used_in": [
+    "mississippi_state_university_c1",
+    "mississippi_state_university_c2",
+    "mississippi_state_university_c3",
+    "mississippi_state_university_c8",
+    "mississippi_state_university_c9"
+   ]
+  },
+  "2018_01_hrm_60201_leave_lwop#002": {
+   "used_in": [
+    "mississippi_state_university_c9"
+   ]
+  },
+  "2018_01_hrm_60201_leave_lwop#003": {
+   "not_relevant": "administrative leave for jury duty, witness service, closures and disaster volunteering; not usable for a birth"
+  },
+  "2018_01_hrm_60201_leave_lwop#004": {
+   "not_relevant": "military leave under USERRA; not usable for a birth"
+  },
+  "2018_01_hrm_60201_leave_lwop#005": {
+   "used_in": [
+    "mississippi_state_university_c2",
+    "mississippi_state_university_c4",
+    "mississippi_state_university_c5",
+    "mississippi_state_university_c6",
+    "mississippi_state_university_c12"
+   ]
+  },
+  "2018_01_hrm_60201_leave_lwop#006": {
+   "used_in": [
+    "mississippi_state_university_c4"
+   ]
+  },
+  "2018_01_hrm_60201_leave_lwop#007": {
+   "used_in": [
+    "mississippi_state_university_c4"
+   ]
+  },
+  "2018_01_hrm_60201_leave_lwop#008": {
+   "used_in": [
+    "mississippi_state_university_c4"
+   ]
+  },
+  "2018_01_hrm_60201_leave_lwop#009": {
+   "used_in": [
+    "mississippi_state_university_c7"
+   ]
+  },
+  "2018_02_faculty_handbook#001": {
+   "not_relevant": "Faculty Senate meetings and voting rules"
+  },
+  "2018_02_faculty_handbook#002": {
+   "not_relevant": "definition of tenure and tenure criteria; no leave or clock provision"
+  },
+  "2018_02_faculty_handbook#003": {
+   "used_in": [
+    "mississippi_state_university_c10"
+   ]
+  },
+  "2018_02_faculty_handbook#004": {
+   "not_relevant": "annual faculty evaluation and review"
+  },
+  "2018_02_faculty_handbook#005": {
+   "not_relevant": "college promotion and tenure committee responsibilities"
+  },
+  "2018_02_faculty_handbook#006": {
+   "not_relevant": "promotion and tenure procedures and notification dates"
+  },
+  "2018_02_faculty_handbook#007": {
+   "not_relevant": "appeals and notice of non-reappointment"
+  },
+  "2018_03_aop_1313_leave_policies#001": {
+   "used_in": [
+    "mississippi_state_university_c10"
+   ]
+  }
+ },
+ "mechanism_slots": {
+  "employer_paid_leave": {
+   "components": [
+    "mississippi_state_university_c3"
+   ]
+  },
+  "employer_childbirth_benefit": {
+   "components": [
+    "mississippi_state_university_c1"
+   ]
+  },
+  "generic_sick_or_disability_plan": {
+   "absent": "no employer-paid sick, short-term or long-term disability plan in the four documents (searched: disability, salary continuation, short-term, long-term, insurance); major medical leave is an accrued balance (own_accrual); PERS disability retirement is mentioned only for separation"
+  },
+  "own_accrual": {
+   "components": [
+    "mississippi_state_university_c2",
+    "mississippi_state_university_c8"
+   ]
+  },
+  "donated_leave": {
+   "components": [
+    "mississippi_state_university_c9"
+   ]
+  },
+  "government_benefit": {
+   "absent": "no government or state paid-leave programme named (searched: benefit, state, insurance, programme, disability); Mississippi had none in 2018 in the documents"
+  },
+  "employer_topup": {
+   "absent": "no top-up of any government benefit (searched: top-up, supplement, difference, benefit); the workers' compensation make-up uses the employee's own leave"
+  },
+  "modified_duties": {
+   "absent": "no reduction of duties at full pay (searched: modified assignment, relief, release, reduce, workload); the work load provision rearranges duties without reducing them (other, c11)"
+  },
+  "unpaid_leave": {
+   "components": [
+    "mississippi_state_university_c4",
+    "mississippi_state_university_c5",
+    "mississippi_state_university_c6",
+    "mississippi_state_university_c7"
+   ]
+  },
+  "tenure_clock": {
+   "components": [
+    "mississippi_state_university_c10"
+   ]
+  },
+  "part_time_option": {
+   "components": [
+    "mississippi_state_university_c12"
+   ]
+  },
+  "other": {
+   "components": [
+    "mississippi_state_university_c11"
+   ]
+  }
+ },
+ "baseline_accounting": {
+  "Family and Medical Leave Act (FMLA)": {
+   "components": [
+    "mississippi_state_university_c4"
+   ]
+  },
+  "Federal Employee Paid Leave Act (paid parental leave for federal civilian employees)": {
+   "not_applicable": "federal civilian employees only; no saved document mentions it"
+  },
+  "Mississippi paid parental leave for state employees": {
+   "absent": "no saved document mentions it (a 2025 act effective 2026-01-01, after the 2018 reference date)"
+  }
+ },
+ "notes": [
+  "Versions: HRM 60-201 approved 07/08/2015 (in force on 2018-02-27 per version note); Faculty Handbook capture 2017-10-12, P&T section approved 2015; AOP 13.13 revised 01/31/08, rescinded 2018-10-22 (in force on the reference date); the provost's parental-leave guideline is dated August 2011 (revised 8-10-11) and its copy was captured 2018-04-13, within the 2017-18 reference year; it carries no later version date.",
+  "The 2011 guideline is a guide for department heads that restates university policies (major medical leave, leaves of absence, P&T); HRM 60-201 and the P&T document govern where they differ. Conflict: the guideline says major medical leave is not available for adoptive mothers; HRM 60-201 (2015) allows up to six weeks of earned major medical leave for adoption or foster placement (c3, conflicting_sources; the HRM policy governs).",
+  "No employer-paid parental leave: the only paid childbirth time is the employee's own major medical balance (R1b: 0 paid weeks). Nine-month faculty accrue 15 days of major medical leave a year in the first three years of service; they do not earn personal leave.",
+  "The FMLA policy grants family and medical leave to all regular benefits-eligible (50% time or greater) employees without the statute's 12-month and 1,250-hour requirement; the University continues its health-insurance contribution for up to 12 weeks.",
+  "The guideline states that a faculty member cannot be required to stop the tenure clock, reduce workload, or take parental leave.",
+  "Not components: leave for death in the immediate family, administrative leave (jury, witness, closures, disaster volunteer), investigative leave, military leave, organ donor leave, professional leave of absence (service with a public agency; not for a birth), separation leave payout, and PERS disability retirement (separation only).",
+  "Birth parent chain: major medical leave after the birth (own balance, normally 6-8 weeks, c1) with FMLA from the start (c4 concurrent_with c1, 12 weeks) -> discretionary unpaid extension for childbirth (c5) or for illness (c6), each consecutive_after FMLA; the unpaid leave is limited to one year in all (leave_limits 52). Donated leave (c9) only for catastrophic illness, concurrent with FMLA; personal leave (c8) only for twelve-month faculty, also_available with c1.",
+  "Non-birth parent chain: FMLA 12 weeks (c4, including care of the incapacitated spouse) -> discretionary unpaid extension for childbirth (c5, consecutive_after FMLA); limited to one year in all (leave_limits 52).",
+  "Documents cited but not saved: the university work load policy; HRM 60-311 (compensatory time); HRM 60-415 and OP 56.02 (outside employment); OP 65.03; IHL Board Policies 403.01, 403.0101, 403.0102, 403.0104, 403.0105, 404.01-404.02 and the IHL Policies and Bylaws; 'Promotion and Tenure Policies and Procedures, section 4.8.3' (cited by AOP 13.13; the saved handbook's P&T section has different numbering and states the same two-year extension); the HRM benefits pages (www.hrm.msstate.edu/benefits); the Application for Leave and medical certification forms.",
+  "Calendar: semesters, with a 'traditional 16-week format' named in the guideline; calendar.kind = semester, and the term length follows R8's order."
+ ],
+ "statutory_floor": {
+  "jurisdiction": "US",
+  "year": "2018",
+  "weeks_birth": 12.0,
+  "weeks_nonbirth": 12.0,
+  "statute": "Family and Medical Leave Act (FMLA) (29 U.S.C. 2611-2612)",
+  "source_doc": "2026_00_us_fmla_29usc2612",
+  "table": "statutory_baseline.csv"
+ }
+}

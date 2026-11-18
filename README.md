@@ -6,7 +6,7 @@ The Faculty Parental Leave Project aims to measure, track, and understand the pa
 
 Parental leave policies are often complicated, and many faculty are not aware of the benefits their own university provides. The project systematically collects and analyzes these policies, and provides open data for researchers to use to better understand how parenthood impacts academic careers.
 
-**Website:** https://aaronclauset.github.io/parental-leave/ — highlights from the data, an interactive explorer, every institution's policy as a benefits timeline, and the release notes.
+**Official website:** https://aaronclauset.github.io/parental-leave/ — highlights from the data, an interactive explorer, every institution's policy as a benefits timeline, and the release notes.
 
 **Update, November 2026:** a new version of the 2018 data (v2.0) is available. It re-collects the policies of the same 205 universities from each institution's own policy documents, and adds measures of pay and job protection.
 
@@ -61,7 +61,8 @@ This rebuilds the data set, the differences file and the website's timeline data
 
 ## License
 - **Data, encodings, guidance and reference tables** (both versions): Creative Commons Attribution 4.0 International (CC BY 4.0); see `LICENSE`.
-- **Code:** BSD 3-Clause; see `LICENSE-CODE`.
+- **Code that rebuilds the data** (the `code/` folder of each release, such as `data/2018/v2.0/code/`): BSD 3-Clause; see `LICENSE-CODE`.
+- **Website** (`index.html`, `release-notes/` and `assets/`, including their scripts, styles, visual design and viewer data) and the project's name and logo: © Aaron Clauset, all rights reserved. The archived 2018 website (`archive/2018-v1.0/`): © A. C. Morgan, S. F. Way, M. Galesic, D. B. Larremore and A. Clauset, all rights reserved. Neither is covered by the licenses above.
 - The verbatim quotes in the encodings are short excerpts of documents whose copyright remains with their owners; see `SOURCES_NOTICE.md`.
 
 ## How to cite

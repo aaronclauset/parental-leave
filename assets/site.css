@@ -27,6 +27,8 @@ aside nav a.on span { color: var(--accent); }
 aside .act { margin-top: auto; padding-top: 1.2rem; display: grid; gap: .45rem; font-size: .85rem; }
 aside .act a { text-align: center; text-decoration: none; padding: .45rem; border-radius: 6px; border: 1px solid var(--rule); color: var(--ink); background: #fff; }
 aside .act a.primary { background: var(--accent); color: #fff; border-color: var(--accent); }
+aside .official { margin: .9rem 0 0; font-size: .72rem; color: var(--muted); text-align: center; line-height: 1.35; }
+aside nav + .official { margin-top: auto; padding-top: 1.2rem; }
 main { padding: 0 clamp(1rem, 5vw, 4.5rem); max-width: 68rem; min-width: 0; }
 .sec { padding: 3.6rem 0 3.2rem; border-bottom: 1px solid var(--rule); scroll-margin-top: .5rem; }
 .sec:last-child { border-bottom: 0; }
